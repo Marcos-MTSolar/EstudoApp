@@ -68,7 +68,8 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
         body: JSON.stringify({
           modo,
           assuntosIds,
-          userId: user?.uid || 'offline_user'
+          userId: user?.uid || 'offline_user',
+          openRouterKey: localStorage.getItem('enem_rm2_openrouter_key') || ''
         })
       });
 

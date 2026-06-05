@@ -19,10 +19,10 @@ export function getAdminDb() {
   try { return getFirestore(app); } catch (_) { return null; }
 }
 
-export async function callOpenRouter(prompt: string): Promise<any> {
-  const apiKey = process.env.OPENROUTER_API_KEY;
+export async function callOpenRouter(prompt: string, clientKey?: string): Promise<any> {
+  const apiKey = process.env.OPENROUTER_API_KEY || clientKey;
   if (!apiKey || apiKey === "your_openrouter_api_key_here") {
-    throw new Error("OPENROUTER_API_KEY não configurada no servidor.");
+    throw new Error("Chave OpenRouter não configurada. Configure sua chave na aba Configurações do módulo RM2.");
   }
   const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
     method: "POST",

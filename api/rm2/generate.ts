@@ -3,10 +3,10 @@ import type { VercelRequest, VercelResponse } from "@vercel/node";
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
   try {
-    const { messages } = req.body;
-    const apiKey = process.env.OPENROUTER_API_KEY;
+    const { messages, openRouterKey } = req.body;
+    const apiKey = process.env.OPENROUTER_API_KEY || openRouterKey;
     if (!apiKey || apiKey === "your_openrouter_api_key_here") {
-      throw new Error("OPENROUTER_API_KEY não configurada no servidor.");
+      throw new Error("Chave OpenRouter não configurada. Configure sua chave na aba Configurações do módulo RM2.");
     }
     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
       method: "POST",
