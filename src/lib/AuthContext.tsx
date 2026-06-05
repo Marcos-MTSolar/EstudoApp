@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
-import { User, signInWithPopup, GoogleAuthProvider, signOut } from 'firebase/auth';
+import { GoogleAuthProvider, signOut, signInWithRedirect, getRedirectResult } from 'firebase/auth';
 import { auth, db } from './firebase';
 import { doc, setDoc, getDoc } from 'firebase/firestore';
 
@@ -40,12 +40,36 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
     // Se o Firebase não inicializou corretamente, força modo offline
     if (!auth) {
-      console.warn("Firebase Auth não disponível. Usando modo offline.");
+      console.warn('Firebase Auth não disponível. Usando modo offline.');
       setUser({ uid: 'local', email: 'Visitante (Offline)', isOffline: true });
       setLoading(false);
       return;
     }
 
+    // Verifica resultado de redirect (retorno após signInWithRedirect)
+    getRedirectResult(auth)
+      .then(async (result) => {
+        if (result?.user) {
+          const firebaseUser = result.user;
+          setUser({ uid: firebaseUser.uid, email: firebaseUser.email, isOffline: false });
+          try {
+            if (db) {
+              const userRef = doc(db, 'users', firebaseUser.uid);
+              const docSnap = await getDoc(userRef);
+              if (!docSnap.exists()) {
+                await setDoc(userRef, { email: firebaseUser.email });
+              }
+            }
+          } catch (e) {
+            console.error('Erro ao verificar Firestore após redirect:', e);
+          }
+        }
+      })
+      .catch((err) => {
+        console.error('Erro ao processar resultado do redirect:', err);
+      });
+
+    // Listener contínuo de estado de autenticação
     const unsubscribe = auth.onAuthStateChanged(async (firebaseUser) => {
       if (firebaseUser) {
         setUser({ uid: firebaseUser.uid, email: firebaseUser.email, isOffline: false });
@@ -58,24 +82,27 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
             }
           }
         } catch (e) {
-          console.error("Erro ao verificar Firestore", e);
+          console.error('Erro ao verificar Firestore', e);
         }
       } else {
         setUser(null);
       }
       setLoading(false);
     });
+
     return unsubscribe;
   }, []);
 
+  // Usa redirect em vez de popup para evitar bloqueio de COOP/COEP da Vercel
   const signIn = async () => {
     if (!auth) {
-      console.warn("Firebase Auth não disponível para login.");
+      console.warn('Firebase Auth não disponível para login.');
       return;
     }
     localStorage.removeItem('enem_offline_mode');
     const provider = new GoogleAuthProvider();
-    await signInWithPopup(auth, provider);
+    // signInWithRedirect redireciona a página e retorna ao app autenticado
+    await signInWithRedirect(auth, provider);
   };
 
   const signInOffline = () => {

@@ -25,6 +25,7 @@ Responda SOMENTE com o JSON, sem texto adicional, sem markdown.`;
     res.json({ fonte: "ia", conteudo });
   } catch (e: any) {
     console.error("Erro /api/rm2/teoria:", e.message);
+    console.error("ENV OPENROUTER_API_KEY present:", !!process.env.OPENROUTER_API_KEY);
     res.status(500).json({ error: e.message });
   }
 }
