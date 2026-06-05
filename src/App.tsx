@@ -1,6 +1,6 @@
 import React, { useState, useEffect, createContext, useContext } from 'react';
 import { AuthProvider, useAuth } from './lib/AuthContext';
-import { LayoutDashboard, CalendarDays, CalendarClock, Bot, PenTool, Lightbulb, Dumbbell, BookOpen, LogOut, Menu, Settings, X, WifiOff, FileKey } from 'lucide-react';
+import { LayoutDashboard, CalendarDays, CalendarClock, Bot, PenTool, Lightbulb, Dumbbell, BookOpen, LogOut, Menu, Settings, X, WifiOff } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useData } from './lib/useData';
 import { VisaoGeral } from './components/VisaoGeral';
@@ -36,14 +36,11 @@ function MainApp() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const [hasFirebase, setHasFirebase] = useState(true);
-  const [hasGemini, setHasGemini] = useState(true);
 
   useEffect(() => {
     // Check missing configs
     const checkConfigs = () => {
       setHasFirebase(!user?.isOffline);
-      const geminiKey = localStorage.getItem('enem_gemini_api_key');
-      setHasGemini(!!geminiKey);
     };
     checkConfigs();
     window.addEventListener('storage', checkConfigs);
@@ -75,17 +72,15 @@ function MainApp() {
   return (
     <div className="flex h-screen w-full bg-bg text-white overflow-hidden relative">
       {/* Missing Configs Banner */}
-      {(!hasFirebase || !hasGemini) && (
+      {!hasFirebase && (
         <div className="fixed top-0 left-0 right-0 z-[100] bg-warning text-warning-foreground px-4 py-2 text-xs md:text-sm font-medium flex flex-col md:flex-row items-center justify-center gap-2 border-b border-warning/20 shadow-lg">
-          {!hasFirebase && <span className="flex items-center gap-1"><WifiOff className="w-4 h-4" /> Uso Offline (Sem backup em nuvem)</span>}
-          {!hasFirebase && !hasGemini && <span className="hidden md:inline">•</span>}
-          {!hasGemini && <span className="flex items-center gap-1"><FileKey className="w-4 h-4" /> IA Google Gemini não configurada</span>}
+          <span className="flex items-center gap-1"><WifiOff className="w-4 h-4" /> Uso Offline (Sem backup em nuvem)</span>
           <button onClick={() => setActiveTab('configuracoes')} className="ml-2 underline font-bold whitespace-nowrap">Configurar Agora</button>
         </div>
       )}
 
       {/* Mobile Header */}
-      <div className={`md:hidden fixed top-0 left-0 right-0 h-16 bg-surface border-b border-border z-50 flex items-center justify-between px-4 ${(!hasFirebase || !hasGemini) ? 'mt-10 md:mt-10' : ''}`}>
+      <div className={`md:hidden fixed top-0 left-0 right-0 h-16 bg-surface border-b border-border z-50 flex items-center justify-between px-4 ${!hasFirebase ? 'mt-10 md:mt-10' : ''}`}>
         <h1 className="font-heading font-bold text-lg">ENEM 2027</h1>
         <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="p-2">
           <Menu className="w-6 h-6 text-primary" />
@@ -99,7 +94,7 @@ function MainApp() {
             initial={{ x: -300 }}
             animate={{ x: 0 }}
             exit={{ x: -300 }}
-            className={`fixed md:relative ${(!hasFirebase || !hasGemini) ? 'top-[4.5rem] md:top-8 h-[calc(100vh-4.5rem)] md:h-[calc(100vh-2rem)]' : 'top-16 md:top-0 h-[calc(100vh-4rem)] md:h-screen'} left-0 w-64 bg-surface border-r border-border z-40 flex flex-col transition-all duration-300`}
+            className={`fixed md:relative ${!hasFirebase ? 'top-[4.5rem] md:top-8 h-[calc(100vh-4.5rem)] md:h-[calc(100vh-2rem)]' : 'top-16 md:top-0 h-[calc(100vh-4rem)] md:h-screen'} left-0 w-64 bg-surface border-r border-border z-40 flex flex-col transition-all duration-300`}
           >
             <div className="p-6 border-b border-border mb-2 hidden md:block">
               <h1 className="text-primary font-bold text-xl tracking-tight leading-none uppercase font-heading">ENEM 2027</h1>
@@ -155,7 +150,7 @@ function MainApp() {
       </AnimatePresence>
 
       {/* Main Content */}
-      <main className={`flex-1 overflow-y-auto ${(!hasFirebase || !hasGemini) ? 'pt-[6.5rem] md:pt-8' : 'pt-16 md:pt-0'}`}>
+      <main className={`flex-1 overflow-y-auto ${!hasFirebase ? 'pt-[6.5rem] md:pt-8' : 'pt-16 md:pt-0'}`}>
         <AnimatePresence mode="wait">
           <motion.div
             key={activeTab}

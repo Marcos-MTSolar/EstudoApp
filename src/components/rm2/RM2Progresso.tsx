@@ -6,7 +6,7 @@ import { useRM2Data } from '../../lib/useRM2Data';
 import { RM2_CONTEUDO } from '../../data/rm2Conteudo';
 import { 
   BarChart2, FileText, Clipboard, AlertTriangle, CheckCircle, 
-  Calendar, Clock, ShieldCheck, Award, RefreshCw 
+  Calendar, Clock, ShieldCheck, Award, RefreshCw, Loader2
 } from 'lucide-react';
 
 export function RM2Progresso() {

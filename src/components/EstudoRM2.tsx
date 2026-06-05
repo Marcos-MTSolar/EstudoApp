@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { 
   Compass, BookOpen, Brain, Award, BarChart2, 
-  Settings, ChevronLeft, LayoutDashboard, ChevronRight
+  Settings, ChevronLeft, LayoutDashboard, ChevronRight,
+  Calendar, Dumbbell
 } from 'lucide-react';
 import { RM2Dashboard } from './rm2/RM2Dashboard';
 import { RM2Teoria } from './rm2/RM2Teoria';
@@ -9,9 +10,11 @@ import { RM2Questoes } from './rm2/RM2Questoes';
 import { RM2Simulacao } from './rm2/RM2Simulacao';
 import { RM2Progresso } from './rm2/RM2Progresso';
 import { RM2Configuracoes } from './rm2/RM2Configuracoes';
+import { RM2Cronograma } from './rm2/RM2Cronograma';
+import { RM2Saude } from './rm2/RM2Saude';
 import { RM2_CONTEUDO } from '../data/rm2Conteudo';
 
-type RM2Tab = 'dashboard' | 'teoria' | 'questoes' | 'simulado' | 'progresso' | 'configuracoes';
+type RM2Tab = 'dashboard' | 'teoria' | 'questoes' | 'simulado' | 'progresso' | 'configuracoes' | 'cronograma' | 'saude';
 
 interface RM2TabDef {
   id: RM2Tab;
@@ -25,6 +28,8 @@ const RM2_TABS: RM2TabDef[] = [
   { id: 'questoes',      label: 'Questões',        icon: Brain },
   { id: 'simulado',      label: 'Simulado',        icon: Award },
   { id: 'progresso',     label: 'Progresso',       icon: BarChart2 },
+  { id: 'cronograma',    label: 'Cronograma',      icon: Calendar },
+  { id: 'saude',         label: 'Saúde',           icon: Dumbbell },
   { id: 'configuracoes', label: 'Configurações',   icon: Settings },
 ];
 
@@ -87,7 +92,18 @@ export function EstudoRM2() {
   const renderContent = () => {
     switch (activeTab) {
       case 'dashboard':
-        return <RM2Dashboard />;
+        return (
+          <RM2Dashboard 
+            onNavigate={(tab, subject, mode) => {
+              setActiveTab(tab);
+              if (subject) {
+                if (tab === 'teoria') setSelectedAssuntoTeoria(subject);
+                if (tab === 'questoes') setSelectedAssuntoQuestoes(subject);
+              }
+              if (mode) setSimuladoModo(mode);
+            }} 
+          />
+        );
       
       case 'teoria':
         if (!selectedAssuntoTeoria) return renderAssuntoSelector('teoria');
@@ -168,6 +184,12 @@ export function EstudoRM2() {
 
       case 'progresso':
         return <RM2Progresso />;
+
+      case 'cronograma':
+        return <RM2Cronograma />;
+
+      case 'saude':
+        return <RM2Saude />;
       
       case 'configuracoes':
         return <RM2Configuracoes />;

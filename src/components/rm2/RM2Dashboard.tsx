@@ -16,7 +16,11 @@ import { RM2Configuracoes } from './RM2Configuracoes';
 
 type SubView = 'dashboard' | 'teoria' | 'questoes' | 'simulacao' | 'progresso' | 'configuracoes';
 
-export function RM2Dashboard() {
+interface RM2DashboardProps {
+  onNavigate?: (tab: 'dashboard' | 'teoria' | 'questoes' | 'simulado' | 'progresso' | 'configuracoes', subject?: any, mode?: 'rapido' | 'completo') => void;
+}
+
+export function RM2Dashboard({ onNavigate }: RM2DashboardProps) {
   const { user } = useAuth();
   const userId = user?.uid || 'offline_user';
   
@@ -44,9 +48,16 @@ export function RM2Dashboard() {
 
   // Trata cliques nas simulações
   const iniciarSimulado = (modo: 'rapido' | 'completo') => {
-    setSimuladoModo(modo);
-    setActiveView('simulacao');
+    if (onNavigate) {
+      onNavigate('simulado', null, modo);
+    } else {
+      setSimuladoModo(modo);
+      setActiveView('simulacao');
+    }
   };
+
+  // Objeto de fallback padrão para evitar erros de compilação TS
+  const defaultAssunto = RM2_CONTEUDO.areas[0]?.assuntos[0] || { id: '', nome: '', descricao: '', niveis: [] };
 
   // Renderiza subview
   if (activeView === 'teoria') {
@@ -55,7 +66,11 @@ export function RM2Dashboard() {
         <button onClick={() => setActiveView('dashboard')} className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors">
           <ArrowLeft className="w-4 h-4" /> Voltar ao Painel
         </button>
-        <RM2Teoria />
+        <RM2Teoria 
+          assunto={defaultAssunto} 
+          onVoltar={() => setActiveView('dashboard')} 
+          onIrParaQuestoes={() => setActiveView('questoes')} 
+        />
       </div>
     );
   }
@@ -66,7 +81,11 @@ export function RM2Dashboard() {
         <button onClick={() => setActiveView('dashboard')} className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors">
           <ArrowLeft className="w-4 h-4" /> Voltar ao Painel
         </button>
-        <RM2Questoes />
+        <RM2Questoes 
+          assunto={defaultAssunto} 
+          onVoltar={() => setActiveView('dashboard')} 
+          onFinalizou={() => setActiveView('dashboard')} 
+        />
       </div>
     );
   }
@@ -77,7 +96,11 @@ export function RM2Dashboard() {
         <button onClick={() => { setActiveView('dashboard'); setSimuladoModo(null); }} className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors">
           <ArrowLeft className="w-4 h-4" /> Voltar ao Painel
         </button>
-        <RM2Simulacao />
+        <RM2Simulacao 
+          modo={simuladoModo || 'rapido'} 
+          onVoltar={() => { setActiveView('dashboard'); setSimuladoModo(null); }} 
+          onFinalizar={() => { setActiveView('dashboard'); setSimuladoModo(null); }} 
+        />
       </div>
     );
   }
@@ -104,6 +127,7 @@ export function RM2Dashboard() {
     );
   }
 
+
   return (
     <div className="space-y-6 animate-in fade-in duration-300">
       
@@ -123,7 +147,7 @@ export function RM2Dashboard() {
 
         <div className="flex gap-2">
           <button 
-            onClick={() => setActiveView('progresso')}
+            onClick={() => onNavigate ? onNavigate('progresso') : setActiveView('progresso')}
             className="px-4 py-2 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 rounded-xl text-xs font-black uppercase tracking-wider text-gray-300 transition-colors flex items-center gap-1.5"
           >
             <BarChart2 className="w-3.5 h-3.5" />
@@ -227,7 +251,7 @@ export function RM2Dashboard() {
                   </div>
 
                   <button 
-                    onClick={() => setActiveView('teoria')}
+                    onClick={() => onNavigate ? onNavigate('teoria') : setActiveView('teoria')}
                     className="shrink-0 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/10 rounded-xl px-3 py-2 text-xs font-black uppercase text-gray-300 transition-colors flex items-center gap-1"
                   >
                     Estudar
