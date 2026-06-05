@@ -33,7 +33,25 @@ interface DataContextType {
   deleteNote: (id: string) => Promise<void>;
 }
 
-const DataContext = createContext<DataContextType>({} as DataContextType);
+const DataContext = createContext<DataContextType>({
+  sessions: [],
+  aiQuestions: [],
+  aiEssays: [],
+  aiEssayTopics: [],
+  physicalActivities: [],
+  notes: [],
+  loading: true,
+  toast: { message: '', visible: false },
+  toggleSession: async () => {},
+  addSession: async () => {},
+  addAiQuestion: async () => {},
+  addAiEssay: async () => {},
+  addAiEssayTopic: async () => {},
+  updatePhysicalActivity: async () => {},
+  addNote: async () => {},
+  updateNote: async () => {},
+  deleteNote: async () => {},
+});
 
 // Helper for local storage
 const getLocalValues = (key: string) => {
@@ -106,7 +124,19 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
       return;
     }
 
-    // Firebase flow
+    // Firebase flow — verificação defensiva caso db não esteja disponível
+    if (!db) {
+      console.warn("Firestore não disponível. Carregando dados locais.");
+      setSessions(getLocalValues('sessions'));
+      setAiQuestions(getLocalValues('ai_questions'));
+      setAiEssays(getLocalValues('ai_essays'));
+      setAiEssayTopics(getLocalValues('ai_essay_topics'));
+      setPhysicalActivities(getLocalValues('physical_activities'));
+      setNotes(getLocalValues('notes'));
+      setLoading(false);
+      return;
+    }
+
     const sessionsRef = collection(db, 'users', user.uid, 'sessions');
     const unsubscribeSessions = onSnapshot(sessionsRef, (snapshot) => {
       const data = snapshot.docs.map(doc => ({
@@ -195,7 +225,7 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
 
   const toggleSession = async (session: StudySession) => {
     if (!user) return;
-    if (user.isOffline) {
+    if (user.isOffline || !db) {
       handleOfflineAction('sessions', (items) => {
         const index = items.findIndex(s => s.id === session.id);
         if (index >= 0) {
@@ -219,7 +249,7 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
   const addSession = async (session: Omit<StudySession, "id"> & { id?: string }) => {
     if (!user) return;
     const id = session.id || `${session.date}_${Date.now()}`;
-    if (user.isOffline) {
+    if (user.isOffline || !db) {
       handleOfflineAction('sessions', (items) => {
         return [...items, { ...session, id }];
       });
@@ -237,7 +267,7 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
     if (!user) return;
     const id = `q_${Date.now()}`;
     const data = { ...questionData, id, userId: user.uid, createdAt: Date.now() };
-    if (user.isOffline) {
+    if (user.isOffline || !db) {
       handleOfflineAction('ai_questions', (items) => [data, ...items]);
       return;
     }
@@ -250,7 +280,7 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
     if (!user) return;
     const id = `e_${Date.now()}`;
     const data = { ...essayData, id, userId: user.uid, createdAt: Date.now() };
-    if (user.isOffline) {
+    if (user.isOffline || !db) {
       handleOfflineAction('ai_essays', (items) => [data, ...items]);
       return;
     }
@@ -263,7 +293,7 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
     if (!user) return;
     const id = `t_${Date.now()}`;
     const data = { ...topicData, id, userId: user.uid, createdAt: Date.now() };
-    if (user.isOffline) {
+    if (user.isOffline || !db) {
       handleOfflineAction('ai_essay_topics', (items) => [data, ...items]);
       return;
     }
@@ -274,7 +304,7 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
 
   const updatePhysicalActivity = async (dateStr: string, completedIds: string[]) => {
     if (!user) return;
-    if (user.isOffline) {
+    if (user.isOffline || !db) {
       handleOfflineAction('physical_activities', (items) => {
         const index = items.findIndex(a => a.id === dateStr || a.date === dateStr);
         if (index >= 0) {
@@ -299,7 +329,7 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
     if (!user) return;
     const id = `n_${Date.now()}`;
     const data = { ...noteData, id, userId: user.uid, createdAt: Date.now() };
-    if (user.isOffline) {
+    if (user.isOffline || !db) {
       handleOfflineAction('notes', (items) => [data, ...items]);
       return;
     }
@@ -310,7 +340,7 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
 
   const updateNote = async (id: string, noteData: any) => {
     if (!user) return;
-    if (user.isOffline) {
+    if (user.isOffline || !db) {
       handleOfflineAction('notes', (items) => {
         return items.map(n => n.id === id ? { ...n, ...noteData, updatedAt: Date.now() } : n);
       });
@@ -326,7 +356,7 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
 
   const deleteNote = async (id: string) => {
     if (!user) return;
-    if (user.isOffline) {
+    if (user.isOffline || !db) {
       handleOfflineAction('notes', (items) => {
         return items.filter(n => n.id !== id);
       });

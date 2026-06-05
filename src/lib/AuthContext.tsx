@@ -17,16 +17,30 @@ interface AuthContextType {
   logOut: () => Promise<void>;
 }
 
-const AuthContext = createContext<AuthContextType>({} as AuthContextType);
+const AuthContext = createContext<AuthContextType>({
+  user: null,
+  loading: true,
+  signIn: async () => {},
+  signInOffline: () => {},
+  logOut: async () => {},
+});
 
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [user, setUser] = useState<UserData | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Check localStorage for offline mode
+    // Verifica se está em modo offline salvo
     const isOffline = localStorage.getItem('enem_offline_mode');
     if (isOffline) {
+      setUser({ uid: 'local', email: 'Visitante (Offline)', isOffline: true });
+      setLoading(false);
+      return;
+    }
+
+    // Se o Firebase não inicializou corretamente, força modo offline
+    if (!auth) {
+      console.warn("Firebase Auth não disponível. Usando modo offline.");
       setUser({ uid: 'local', email: 'Visitante (Offline)', isOffline: true });
       setLoading(false);
       return;
@@ -36,10 +50,12 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       if (firebaseUser) {
         setUser({ uid: firebaseUser.uid, email: firebaseUser.email, isOffline: false });
         try {
-          const userRef = doc(db, 'users', firebaseUser.uid);
-          const docSnap = await getDoc(userRef);
-          if (!docSnap.exists()) {
-            await setDoc(userRef, { email: firebaseUser.email });
+          if (db) {
+            const userRef = doc(db, 'users', firebaseUser.uid);
+            const docSnap = await getDoc(userRef);
+            if (!docSnap.exists()) {
+              await setDoc(userRef, { email: firebaseUser.email });
+            }
           }
         } catch (e) {
           console.error("Erro ao verificar Firestore", e);
@@ -53,6 +69,10 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   }, []);
 
   const signIn = async () => {
+    if (!auth) {
+      console.warn("Firebase Auth não disponível para login.");
+      return;
+    }
     localStorage.removeItem('enem_offline_mode');
     const provider = new GoogleAuthProvider();
     await signInWithPopup(auth, provider);
@@ -65,7 +85,9 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
   const logOut = async () => {
     localStorage.removeItem('enem_offline_mode');
-    await signOut(auth);
+    if (auth) {
+      await signOut(auth);
+    }
     setUser(null);
   };
 
