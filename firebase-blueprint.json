@@ -1,0 +1,96 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "User Profile",
+      "description": "Information about the user",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["email"]
+    },
+    "StudySession": {
+      "title": "Study Session",
+      "description": "A single session or block",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "date": { "type": "string" },
+        "subject": { "type": "string" },
+        "completed": { "type": "boolean" },
+        "type": { "type": "string" },
+        "title": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["userId", "date", "subject", "completed", "type"]
+    },
+    "Rm2Cache": {
+      "title": "RM2 Cache",
+      "description": "Cache for RM2 study module generated contents",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "assunto": { "type": "string" },
+        "tipo": { "type": "string" },
+        "nivel": { "type": "string" },
+        "conteudo": { "type": "object" },
+        "criadoEm": { "type": "object" },
+        "expiraEm": { "type": "object" }
+      },
+      "required": ["id", "assunto", "tipo", "nivel", "conteudo", "criadoEm", "expiraEm"]
+    }
+  },
+  "firestore": {
+    "users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User profile document"
+    },
+    "users/{userId}/sessions/{sessionId}": {
+      "schema": "StudySession",
+      "description": "Individual study sessions"
+    },
+    "rm2_cache/{cacheId}": {
+      "schema": "Rm2Cache",
+      "description": "Global cache for RM2 generated questions and theory"
+    }
+  },
+  "rm2_cache": {
+    "description": "Cache de conteúdo gerado pela IA para o módulo RM2",
+    "fields": {
+      "id": "string (hash assunto_tipo_nivel)",
+      "assunto": "string",
+      "tipo": "string: teoria | questoes | simulacao",
+      "nivel": "string: basico | intermediario | avancado",
+      "conteudo": "object",
+      "criadoEm": "timestamp",
+      "expiraEm": "timestamp"
+    }
+  },
+  "rm2_progresso": {
+    "description": "Progresso do usuário por assunto no módulo RM2",
+    "fields": {
+      "userId": "string",
+      "assuntos": "object: { [assuntoId]: RM2Progresso }",
+      "atualizadoEm": "timestamp"
+    }
+  },
+  "rm2_resultados": {
+    "description": "Histórico de simulações e questões do módulo RM2",
+    "fields": {
+      "userId": "string",
+      "simulacaoId": "string",
+      "totalQuestoes": "number",
+      "totalAcertos": "number",
+      "totalErros": "number",
+      "percentualAcerto": "number",
+      "duracaoSegundos": "number",
+      "detalhesPorAssunto": "object",
+      "respostasDetalhadas": "array",
+      "criadoEm": "timestamp"
+    }
+  }
+}
+
