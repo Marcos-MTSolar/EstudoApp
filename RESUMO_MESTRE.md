@@ -8,7 +8,7 @@ Este documento consolida a análise detalhada e atualizada da arquitetura, stack
 
 * **Propósito do Sistema:** O **RM2 Marinha** é uma aplicação web interativa projetada para auxiliar candidatos na preparação para o concurso de Oficial Temporário da Marinha do Brasil (RM2), cuja prova é exclusivamente de **Língua Portuguesa**. O sistema oferece teoria estruturada gerada por IA, questões de fixação estilo CEBRASPE/CESPE, simulados cronometrados, progresso por assunto, cronograma do edital e diário de saúde/atividade física.
 * **Público-alvo:** Candidatos ao concurso de Oficial Temporário (RM2) da Marinha do Brasil.
-* **Estágio Atual do Projeto:** Aplicação funcional em produção na Vercel. Frontend React 19 com suporte híbrido Firebase/offline. Backend via funções serverless Vercel integradas à API Groq (llama3-70b-8192).
+* **Estágio Atual do Projeto:** Aplicação funcional em produção na Vercel. Frontend React 19 com suporte híbrido Firebase/offline. Backend via funções serverless Vercel integradas à API Groq (llama-3.3-70b-versatile).
 
 ---
 
@@ -29,7 +29,7 @@ Este documento consolida a análise detalhada e atualizada da arquitetura, stack
 * **Nuvem:** Firebase Firestore (opcional, habilitado via login com Google).
 
 ### Integrações Externas
-* **Inteligência Artificial (RM2):** API da **Groq** com modelo `llama3-70b-8192` (gratuito, alta velocidade). Integração via função serverless `api/_utils.ts → callGroq()`.
+* **Inteligência Artificial (RM2):** API da **Groq** com modelo `llama-3.3-70b-versatile` (gratuito, alta velocidade). Integração via função serverless `api/_utils.ts → callGroq()`.
 * **Firebase Admin SDK:** Usado nas funções serverless para gerenciar o cache de conteúdos de IA na coleção `rm2_cache` do Firestore.
 * **Firebase Client SDK:** Usado no frontend para autenticação Google e sincronização em tempo real.
 
@@ -151,7 +151,7 @@ O sistema funciona de duas maneiras:
 ## 6. INTEGRAÇÕES EXTERNAS
 
 ### Groq API (RM2 Marinha — ativo em produção)
-* **Modelo:** `llama3-70b-8192` — gratuito, extremamente rápido, alta qualidade.
+* **Modelo:** `llama-3.3-70b-versatile` — gratuito, extremamente rápido, alta qualidade.
 * **Endpoint:** `https://api.groq.com/openai/v1/chat/completions`
 * **Autenticação:** Header `Authorization: Bearer ${GROQ_API_KEY}`
 * **Função:** `callGroq(systemPrompt, userPrompt, maxTokens)` em `api/_utils.ts`
@@ -333,5 +333,20 @@ O sistema funciona de duas maneiras:
   - `src/components/Dicas.tsx` ✅
   - `src/components/AtividadeFisica.tsx` ✅
   - `src/components/Anotacoes.tsx` ✅
+
+---
+
+### Parte 12 — Diagnóstico e Correção das Rotas de IA em Produção
+- **Data e hora:** 06/06/2026 às 10:26 (Horário Local)
+- **O que foi feito:**
+  1. Curl de diagnóstico executado nas rotas `/api/rm2/teoria`, `/api/rm2/questoes` e `/api/rm2/generate`.
+  2. Cenário identificado: Cenário E (o modelo `llama3-70b-8192` foi desativado/decommissioned pela Groq).
+  3. Correção aplicada: Substituído o modelo Groq de `llama3-70b-8192` para o modelo ativo `llama-3.3-70b-versatile` e aumentado o limite de `max_tokens` para 8192 em `api/_utils.ts` e `api/rm2/generate.ts`.
+  4. Testes locais validados com sucesso: Teoria ✅ | Questões ✅ | Simulação ✅
+- **Arquivos modificados:**
+  - `api/_utils.ts`
+  - `api/rm2/generate.ts`
+  - `RESUMO_MESTRE.md` [ATUALIZADO]
+
 
 ---
