@@ -471,3 +471,26 @@ O sistema funciona de duas maneiras:
   - `RESUMO_MESTRE.md` [ATUALIZADO]
 
 ---
+
+### Parte 19 — Marcação de Teoria, Resumo por IA e Correção do Progresso
+- **Data e hora:** 06/06/2026 às 11:51 (Horário Local)
+- **O que foi feito:**
+  1. **RM2Teoria.tsx:**
+     - Adicionado o botão "Marcar como Concluída" (ícone `CheckCircle`) exibido quando a teoria é carregada.
+     - Persistência imediata via `marcarTeoriaVista(assunto.id, nivel)` e exibição de feedback visual temporário "Progresso salvo!".
+     - Inicialização reativa do estado do botão baseada no status anterior do assunto (`getProgressoAssunto(assunto.id)?.teoriaVista`).
+     - Adicionada a seção colapsável "Resumo Rápido para Revisão" (ícone `FileText`), que exibe o resumo já presente nos dados do assunto ou faz uma chamada POST para `/api/rm2/teoria` passando `modo: 'resumo'`.
+  2. **useRM2Data.ts:**
+     - A função `marcarTeoriaVista` foi atualizada para aceitar o parâmetro opcional `nivel` e atualizar `nivelAtual` no progresso.
+     - Atualizada a regra de conclusão de tópicos (`concluido`): agora exige que a teoria tenha sido vista (`teoriaVista === true`) **E** que o último acerto em questões seja superior ou igual a 60% (`ultimoAcerto >= 60`), servindo como critério unificado para atualização de progresso tanto na marcação de teoria quanto na resolução de questões.
+  3. **RM2Progresso.tsx:**
+     - Confirmado que o componente consome o progresso reativo e unificado fornecido pelo hook `useRM2Data`, refletindo as mudanças de progresso sem dessincronização.
+- **Build de validação:** `tsc --noEmit` ✅ zero erros | `npm run build` ✅ 2930 módulos, zero erros
+- **Commit:** `cb7fb25` — *feat: botao marcar teoria concluida, resumo por IA e correcao do tracker de progresso*
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Teoria.tsx` [CORRIGIDO/ATUALIZADO]
+  - `src/lib/useRM2Data.ts` [CORRIGIDO/ATUALIZADO]
+  - `src/components/rm2/RM2Progresso.tsx` [VERIFICADO — leitura via hook com threshold corrigido no hook]
+  - `RESUMO_MESTRE.md` [ATUALIZADO]
+
+---
