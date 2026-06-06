@@ -143,13 +143,14 @@ export function useRM2Data(userId: string) {
     }
   };
 
-  const marcarTeoriaVista = async (assuntoId: string) => {
+  const marcarTeoriaVista = async (assuntoId: string, nivel?: "basico" | "intermediario" | "avancado") => {
     const newProg = progresso.map(p => {
       if (p.assuntoId === assuntoId) {
         return {
           ...p,
           teoriaVista: true,
-          concluido: p.questoesFeitas > 0 && p.ultimoAcerto >= 70
+          nivelAtual: nivel || p.nivelAtual,
+          concluido: p.ultimoAcerto >= 60
         };
       }
       return p;
@@ -164,9 +165,9 @@ export function useRM2Data(userId: string) {
     const newProg = progresso.map(p => {
       if (p.assuntoId === assuntoId) {
         const totalQuestoesNovas = p.questoesFeitas + total;
-        // Se acertou mais de 70%, avança de nível se possível
+        // Se acertou mais de 60%, avança de nível se possível
         let nextNivel = p.nivelAtual;
-        if (percentual >= 70) {
+        if (percentual >= 60) {
           if (p.nivelAtual === "basico") nextNivel = "intermediario";
           else if (p.nivelAtual === "intermediario") nextNivel = "avancado";
         }
@@ -175,7 +176,7 @@ export function useRM2Data(userId: string) {
           questoesFeitas: totalQuestoesNovas,
           ultimoAcerto: percentual,
           nivelAtual: nextNivel,
-          concluido: p.teoriaVista && percentual >= 70
+          concluido: p.teoriaVista && percentual >= 60
         };
       }
       return p;

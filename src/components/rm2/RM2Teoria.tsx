@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Loader2, ArrowLeft, Brain, Sparkles, BookOpen } from 'lucide-react';
+import { Loader2, ArrowLeft, Brain, Sparkles, BookOpen, CheckCircle, FileText, ChevronDown } from 'lucide-react';
 import { useAuth } from '../../lib/AuthContext';
 import { useRM2Data } from '../../lib/useRM2Data';
 
@@ -18,13 +18,79 @@ interface RM2TeoriaProps {
 
 export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProps) {
   const { user } = useAuth();
-  const { marcarTeoriaVista } = useRM2Data(user?.uid || 'offline_user');
+  const { marcarTeoriaVista, getProgressoAssunto, progresso } = useRM2Data(user?.uid || 'offline_user');
 
   const [nivel, setNivel] = useState<'basico' | 'intermediario' | 'avancado'>('basico');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [teoriaData, setTeoriaData] = useState<any>(null);
   const [fonte, setFonte] = useState<'cache' | 'ia' | null>(null);
+
+  const [teoriaConcluidaLocal, setTeoriaConcluidaLocal] = useState(false);
+  const [showConfirmacao, setShowConfirmacao] = useState(false);
+
+  const [resumo, setResumo] = useState<string | null>(null);
+  const [gerandoResumo, setGerandoResumo] = useState(false);
+
+  useEffect(() => {
+    setResumo(null);
+    const prog = getProgressoAssunto(assunto.id);
+    if (prog?.teoriaVista) {
+      setTeoriaConcluidaLocal(true);
+    } else {
+      setTeoriaConcluidaLocal(false);
+    }
+  }, [assunto.id, nivel, progresso, getProgressoAssunto]);
+
+  const handleMarcarConcluida = async () => {
+    try {
+      await marcarTeoriaVista(assunto.id, nivel);
+      setTeoriaConcluidaLocal(true);
+      setShowConfirmacao(true);
+      setTimeout(() => setShowConfirmacao(false), 3000);
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  const handleGerarResumo = async () => {
+    if (resumo) {
+      setResumo(null);
+      return;
+    }
+
+    if (teoriaData?.resumo) {
+      setResumo(teoriaData.resumo);
+      return;
+    }
+
+    setGerandoResumo(true);
+    try {
+      const response = await fetch('/api/rm2/teoria', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          assuntoId: assunto.id,
+          assuntoNome: assunto.nome,
+          assuntoDescricao: assunto.descricao,
+          nivel,
+          modo: 'resumo',
+          userId: user?.uid || 'offline_user',
+        })
+      });
+      const data = await response.json();
+      if (response.ok && data?.conteudo?.resumo) {
+        setResumo(data.conteudo.resumo);
+      } else {
+        setResumo(data?.conteudo?.teoria?.substring(0, 300) || 'Não foi possível gerar o resumo rápido.');
+      }
+    } catch (e: any) {
+      console.error(e);
+      setResumo('Erro ao gerar o resumo rápido.');
+    } finally {
+      setGerandoResumo(false);
+    }
+  };
 
   useEffect(() => {
     const fetchTeoria = async () => {
@@ -66,9 +132,6 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
 
         setTeoriaData(data.conteudo);
         setFonte(data.fonte);
-
-        // Marca a teoria como vista no progresso
-        await marcarTeoriaVista(assunto.id);
       } catch (err: any) {
         console.error(err);
         setError(err.message || 'Ocorreu um erro ao buscar a teoria.');
@@ -236,6 +299,52 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
                 </div>
               </>
             )}
+
+            <hr className="border-border/60" />
+
+            {/* A — Botão Marcar Teoria como Concluída */}
+            <div className="mt-6 flex flex-col gap-4">
+              <div className="flex items-center gap-4">
+                <button
+                  onClick={handleMarcarConcluida}
+                  disabled={teoriaConcluidaLocal}
+                  className={`flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all ${
+                    teoriaConcluidaLocal
+                      ? 'bg-green-800 text-green-300 cursor-not-allowed'
+                      : 'bg-green-600 hover:bg-green-500 text-white'
+                  }`}
+                >
+                  <CheckCircle className="w-5 h-5" />
+                  {teoriaConcluidaLocal ? 'Teoria Concluída ✓' : 'Marcar como Concluída'}
+                </button>
+                {showConfirmacao && (
+                  <span className="text-xs text-green-400 font-bold animate-pulse">Progresso salvo!</span>
+                )}
+              </div>
+
+              {/* B — Seção de Resumo Gerado por IA */}
+              <div className="border border-gray-700 rounded-lg overflow-hidden">
+                <button
+                  onClick={handleGerarResumo}
+                  disabled={gerandoResumo}
+                  className="w-full flex items-center justify-between px-5 py-4 bg-gray-800 hover:bg-gray-750 text-left"
+                >
+                  <span className="flex items-center gap-2 font-medium text-gray-200">
+                    <FileText className="w-4 h-4" />
+                    Resumo Rápido para Revisão
+                  </span>
+                  {gerandoResumo
+                    ? <Loader2 className="w-4 h-4 animate-spin text-blue-400" />
+                    : <ChevronDown className="w-4 h-4 text-gray-400" />
+                  }
+                </button>
+                {resumo && (
+                  <div className="px-5 py-4 bg-gray-900 text-gray-300 text-sm leading-relaxed whitespace-pre-wrap">
+                    {resumo}
+                  </div>
+                )}
+              </div>
+            </div>
 
             <hr className="border-border/60" />
 
