@@ -52,9 +52,18 @@ export async function callGroq(
   });
 
   if (!response.ok) {
-    const err = await response.json().catch(() => ({})) as any;
-    const msg = err?.error?.message || `Erro Groq: ${response.status} ${response.statusText}`;
-    throw new Error(msg);
+    const errorBody = await response.json().catch(() => ({})) as any;
+    const errorMessage = errorBody?.error?.message || response.statusText;
+
+    // Rate limit: HTTP 429
+    if (response.status === 429) {
+      throw new Error(`RATE_LIMIT: ${errorMessage}`);
+    }
+    // Modelo indisponível ou erro de servidor Groq
+    if (response.status === 503 || response.status === 500) {
+      throw new Error(`GROQ_UNAVAILABLE: ${errorMessage}`);
+    }
+    throw new Error(`GROQ_ERROR_${response.status}: ${errorMessage}`);
   }
 
   const data = await response.json() as any;

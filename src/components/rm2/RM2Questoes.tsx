@@ -52,11 +52,21 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
         })
       });
 
+      const data = await response.json();
+
       if (!response.ok) {
-        throw new Error('Falha ao obter questões do servidor.');
+        if (response.status === 429) {
+          setError('⏳ Muitas requisições em seguida. Aguarde alguns segundos e tente novamente.');
+          return;
+        }
+        if (response.status === 503) {
+          setError('🔧 Serviço de IA temporariamente indisponível. Tente novamente em instantes.');
+          return;
+        }
+        setError(data?.mensagem || 'Erro ao gerar questões. Tente novamente.');
+        return;
       }
 
-      const data = await response.json();
       if (data.conteudo && data.conteudo.questoes) {
         setQuestoes(data.conteudo.questoes);
       } else {

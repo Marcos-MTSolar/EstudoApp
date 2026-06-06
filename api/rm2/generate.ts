@@ -20,7 +20,25 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const parsed = JSON.parse(extractJSON(raw));
 
     return res.status(200).json({ fonte: "ia", conteudo: parsed });
-  } catch (e: any) {
-    res.status(500).json({ error: e.message });
+  } catch (error: any) {
+    const message = error?.message || 'Erro desconhecido';
+
+    if (message.startsWith('RATE_LIMIT')) {
+      return res.status(429).json({
+        erro: 'rate_limit',
+        mensagem: 'Limite de requisições atingido. Aguarde alguns segundos e tente novamente.',
+      });
+    }
+    if (message.startsWith('GROQ_UNAVAILABLE')) {
+      return res.status(503).json({
+        erro: 'servico_indisponivel',
+        mensagem: 'O serviço de IA está temporariamente indisponível. Tente novamente em instantes.',
+      });
+    }
+    console.error('[RM2 API Error]', message);
+    return res.status(500).json({
+      erro: 'erro_interno',
+      mensagem: 'Ocorreu um erro ao processar sua solicitação. Tente novamente.',
+    });
   }
 }

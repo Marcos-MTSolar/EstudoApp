@@ -46,11 +46,24 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
           })
         });
 
+        const data = await response.json();
+
         if (!response.ok) {
-          throw new Error('Falha ao obter conteúdo teórico do servidor.');
+          // Rate limit — mensagem amigável específica
+          if (response.status === 429) {
+            setError('⏳ Muitas requisições em seguida. Aguarde alguns segundos e tente novamente.');
+            return;
+          }
+          // Serviço indisponível
+          if (response.status === 503) {
+            setError('🔧 Serviço de IA temporariamente indisponível. Tente novamente em instantes.');
+            return;
+          }
+          // Erro genérico — usa mensagem do backend se disponível
+          setError(data?.mensagem || 'Erro ao gerar conteúdo. Tente novamente.');
+          return;
         }
 
-        const data = await response.json();
         setTeoriaData(data.conteudo);
         setFonte(data.fonte);
 

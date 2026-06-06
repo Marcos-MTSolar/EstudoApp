@@ -72,11 +72,21 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
         })
       });
 
+      const data = await response.json();
+
       if (!response.ok) {
-        throw new Error('Falha ao gerar simulado no servidor.');
+        if (response.status === 429) {
+          setError('⏳ Muitas requisições em seguida. Aguarde alguns segundos e tente novamente.');
+          return;
+        }
+        if (response.status === 503) {
+          setError('🔧 Serviço de IA temporariamente indisponível. Tente novamente em instantes.');
+          return;
+        }
+        setError(data?.mensagem || 'Erro ao gerar simulado. Tente novamente.');
+        return;
       }
 
-      const data = await response.json();
       if (data.questoes) {
         setQuestoes(data.questoes);
         setStarted(true);
