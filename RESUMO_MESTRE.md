@@ -350,3 +350,28 @@ O sistema funciona de duas maneiras:
 
 
 ---
+
+### Parte 13 — Correção do Pipeline de Resposta das Rotas RM2
+- **Data e hora:** 06/06/2026 às 10:36 (Horário Local)
+- **Problema identificado:** `api/rm2/generate.ts` retornava o objeto bruto do Groq (formato OpenAI completo com `choices`, `usage`, etc.) em vez do JSON estruturado esperado pelo frontend. As rotas `teoria.ts`, `questoes.ts` e `simulacao.ts` chamavam `callGroq()` que retornava `any` e já parseava internamente, mas com lógica duplicada e frágil.
+- **O que foi feito:**
+  1. **`api/_utils.ts`** — Alterada a assinatura de `callGroq` de `Promise<any>` para `Promise<string>`: agora retorna apenas `choices[0].message.content` como string bruta, sem parsear internamente. Adicionada e exportada a função `extractJSON(raw)` para sanitizar marcadores markdown e extrair o bloco JSON com regex.
+  2. **`api/rm2/generate.ts`** — Reescrito completamente: substituída a chamada direta à API Groq pela função centralizada `callGroq`. Aplicado `JSON.parse(extractJSON(raw))` e retornado `{ fonte: 'ia', conteudo: parsed }` para o frontend.
+  3. **`api/rm2/teoria.ts`** — Adicionado `extractJSON` ao import. Atualizado o fluxo para `raw = await callGroq(...)` seguido de `JSON.parse(extractJSON(raw))`.
+  4. **`api/rm2/questoes.ts`** — Mesma correção de teoria.ts.
+  5. **`api/rm2/simulacao.ts`** — Mesma correção de teoria.ts.
+  6. **Testes locais re-executados** (3 rodadas devido ao rate limit TPM da conta gratuita Groq):
+     - Teoria: HTTP 200 ✅ | `{ fonte: 'ia', conteudo: { titulo, resumo, teoria, ... } }`
+     - Questões: HTTP 200 ✅ | `{ fonte: 'ia', conteudo: { questoes: [...] } }`
+     - Generate: HTTP 200 ✅ | `{ fonte: 'ia', conteudo: { resposta: 'Olá, tudo bem!' } }`
+  7. **Build de validação:** `tsc --noEmit` ✅ zero erros | `npm run build` ✅ 2930 módulos, zero erros.
+- **Commit:** `896840d` — *fix: corrige pipeline de resposta em generate.ts e valida extractJSON em todas as rotas RM2*
+- **Arquivos modificados:**
+  - `api/_utils.ts` [ATUALIZADO — callGroq retorna string; extractJSON adicionada]
+  - `api/rm2/generate.ts` [CORRIGIDO — pipeline de resposta via callGroq + extractJSON]
+  - `api/rm2/teoria.ts` [CORRIGIDO — extractJSON aplicado]
+  - `api/rm2/questoes.ts` [CORRIGIDO — extractJSON aplicado]
+  - `api/rm2/simulacao.ts` [CORRIGIDO — extractJSON aplicado]
+  - `RESUMO_MESTRE.md` [ATUALIZADO]
+
+---
