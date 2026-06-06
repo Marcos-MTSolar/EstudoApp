@@ -27,7 +27,7 @@ export function getAdminDb() {
 export async function callGroq(
   systemPrompt: string,
   userPrompt: string,
-  maxTokens: number = 4096
+  maxTokens: number = 8192
 ): Promise<any> {
   const apiKey = process.env.GROQ_API_KEY;
   if (!apiKey || apiKey.trim() === "" || apiKey === "your_groq_api_key_here") {
@@ -41,7 +41,7 @@ export async function callGroq(
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: "llama3-70b-8192",
+      model: "llama-3.3-70b-versatile",
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: userPrompt },
