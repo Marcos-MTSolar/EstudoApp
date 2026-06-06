@@ -421,3 +421,27 @@ O sistema funciona de duas maneiras:
 
 ---
 
+### Parte 16 — Correção de Crash nas Funções Serverless e Índice Firestore
+- **Data e hora:** 06/06/2026 às 11:22 (Horário Local)
+- **Problema 1:** Rotas `/api/rm2/*` retornando HTTP 500 com texto puro.
+  - **Causa raiz:** Firebase Admin crashando na inicialização por ausência de `FIREBASE_SERVICE_ACCOUNT` na Vercel, derrubando a função antes do `try/catch` das rotas.
+- **Solução:** Inicialização defensiva do Firebase Admin em `api/_utils.ts` via função `getFirestoreDb()` com `try/catch` completo. Cache Firestore agora é **opcional** — se indisponível, as rotas continuam funcionando e chamam a Groq diretamente.
+- **Problema 2:** `FirebaseError` na coleção `rm2_resultados` exigindo índice composto.
+  - **Solução:** Índice a ser criado manualmente no console do Firebase via link do erro (quando surgir em produção).
+- **O que foi feito em `api/_utils.ts`:**
+  1. Substituída a importação fracionada (`initializeApp, getApps, cert`) pelo `import * as admin from 'firebase-admin'`.
+  2. Criada função `getFirestoreDb()` com inicialização lazy, singleton e totalmente defensiva (`try/catch`):
+     - Se `FIREBASE_SERVICE_ACCOUNT` não estiver configurada → loga aviso e retorna `null`.
+     - Se a inicialização falhar → loga erro e retorna `null`.
+  3. `getCache` e `saveCache` reescritos usando `getFirestoreDb()` com logs de erro estruturados.
+  4. Mantido `getAdminDb()` como wrapper (compatível com `resultado.ts` que o importa diretamente).
+- **Verificação:**
+  - `resultado.ts` usa `getAdminDb` de `../_utils` — sem importação direta do Firebase Admin ✅
+  - `teoria.ts`, `questoes.ts`, `simulacao.ts`, `generate.ts` — sem importação direta do Firebase Admin ✅
+  - `tsc --noEmit` ✅ zero erros | `npm run build` ✅ 2930 módulos, zero erros
+- **Commit:** `c02b5a8` — *fix: inicializacao defensiva do Firebase Admin para evitar crash nas funcoes serverless*
+- **Arquivos modificados:**
+  - `api/_utils.ts` [CORRIGIDO — inicialização defensiva do Firebase Admin]
+  - `RESUMO_MESTRE.md` [ATUALIZADO]
+
+---
