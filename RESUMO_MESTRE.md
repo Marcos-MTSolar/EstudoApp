@@ -447,12 +447,12 @@ O sistema funciona de duas maneiras:
 ---
 
 ### Parte 18 — Correção dos Imports ESM nas Funções Serverless
-- **Data e hora:** 06/06/2026 às 11:32 (Horário Local)
+- **Data e hora:** 06/06/2026 às 11:36 (Horário Local)
 - **Causa raiz confirmada:** `package.json` declara `"type": "module"` → projeto é ESM puro. Node.js ESM **exige extensão `.js` explícita** nos imports relativos. O import `from "../_utils"` sem extensão causa `ERR_MODULE_NOT_FOUND` em runtime na Vercel.
 - **Diagnóstico dos arquivos de configuração:**
   - `package.json` → `"type": "module"` ✅ (ESM confirmado — extensão obrigatória)
   - `tsconfig.json` → `"moduleResolution": "bundler"`, `"module": "ESNext"` — **não alterado** (já correto)
-  - `vercel.json` → bloco `functions` com `nodejs20.x` **adicionado** (garante runtime correto)
+  - `vercel.json` → Inicialmente foi adicionado o bloco `functions` com `nodejs20.x`, porém a Vercel falhou no build com `Function Runtimes must have a valid version`. O bloco foi removido e revertido para as regras simples de `rewrites`, visto que a Vercel detecta e compila arquivos `.ts` automaticamente.
 - **Solução:** Extensão `.js` adicionada nos imports de `../_utils` em todos os 5 arquivos de `api/rm2/`:
   - `teoria.ts` → `from '../_utils.js'` ✅
   - `questoes.ts` → `from '../_utils.js'` ✅
@@ -460,14 +460,14 @@ O sistema funciona de duas maneiras:
   - `resultado.ts` → `from '../_utils.js'` ✅
   - `generate.ts` → `from '../_utils.js'` ✅
 - **Build de validação:** `tsc --noEmit` ✅ zero erros | `npm run build` ✅ 2930 módulos, zero erros
-- **Commit:** `70cfd5a` — *fix: adiciona extensao .js nos imports ESM das funcoes serverless api/rm2*
+- **Commit:** `c42079c` — *fix: remove bloco functions invalido do vercel.json — Vercel detecta TS automaticamente*
 - **Arquivos modificados:**
   - `api/rm2/teoria.ts` [CORRIGIDO — import com .js]
   - `api/rm2/questoes.ts` [CORRIGIDO — import com .js]
   - `api/rm2/simulacao.ts` [CORRIGIDO — import com .js]
   - `api/rm2/resultado.ts` [CORRIGIDO — import com .js]
   - `api/rm2/generate.ts` [CORRIGIDO — import com .js]
-  - `vercel.json` [ATUALIZADO — bloco functions com nodejs20.x]
+  - `vercel.json` [REVERTIDO — removido bloco functions]
   - `RESUMO_MESTRE.md` [ATUALIZADO]
 
 ---
