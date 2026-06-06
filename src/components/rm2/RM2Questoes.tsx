@@ -49,7 +49,6 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
           nivel,
           quantidade,
           userId: user?.uid || 'offline_user',
-          openRouterKey: localStorage.getItem('enem_rm2_openrouter_key') || ''
         })
       });
 

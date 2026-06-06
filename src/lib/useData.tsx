@@ -3,57 +3,40 @@ import { collection, onSnapshot, doc, setDoc, deleteDoc } from 'firebase/firesto
 import { db } from './firebase';
 import { useAuth } from './AuthContext';
 
+// Interface de sessão (usada por Configurações e login)
 export interface StudySession {
-  id: string; // Typically YYYY-MM-DD_Subject for typical blocks, or unique id for others
-  date: string; // YYYY-MM-DD
-  subject: string; // Subject name
-  type: string; // 'standard' | 'extra' | 'redacao' | 'fisica' | 'simulado'
+  id: string;
+  date: string;
+  subject: string;
+  type: string;
   completed: boolean;
-  title?: string; // Optional title for extra sessions or essays
-  [key: string]: any; // Allows custom fields like grade for essays
+  title?: string;
+  [key: string]: any;
 }
 
 interface DataContextType {
-  sessions: StudySession[];
-  aiQuestions: any[];
-  aiEssays: any[];
-  aiEssayTopics: any[];
-  physicalActivities: any[];
   notes: any[];
+  physicalActivities: any[];
   loading: boolean;
-  toast: { message: string, visible: boolean };
-  toggleSession: (session: StudySession) => Promise<void>;
-  addSession: (session: Omit<StudySession, "id"> & { id?: string }) => Promise<void>;
-  addAiQuestion: (questionData: any) => Promise<void>;
-  addAiEssay: (essayData: any) => Promise<void>;
-  addAiEssayTopic: (topicData: any) => Promise<void>;
-  updatePhysicalActivity: (dateStr: string, completedIds: string[]) => Promise<void>;
+  toast: { message: string; visible: boolean };
   addNote: (noteData: any) => Promise<void>;
   updateNote: (id: string, noteData: any) => Promise<void>;
   deleteNote: (id: string) => Promise<void>;
+  updatePhysicalActivity: (dateStr: string, completedIds: string[]) => Promise<void>;
 }
 
 const DataContext = createContext<DataContextType>({
-  sessions: [],
-  aiQuestions: [],
-  aiEssays: [],
-  aiEssayTopics: [],
-  physicalActivities: [],
   notes: [],
+  physicalActivities: [],
   loading: true,
   toast: { message: '', visible: false },
-  toggleSession: async () => {},
-  addSession: async () => {},
-  addAiQuestion: async () => {},
-  addAiEssay: async () => {},
-  addAiEssayTopic: async () => {},
-  updatePhysicalActivity: async () => {},
   addNote: async () => {},
   updateNote: async () => {},
   deleteNote: async () => {},
+  updatePhysicalActivity: async () => {},
 });
 
-// Helper for local storage
+// Helpers de localStorage
 const getLocalValues = (key: string) => {
   try {
     const val = localStorage.getItem(`enem_${key}`);
@@ -69,15 +52,10 @@ const setLocalValues = (key: string, values: any[]) => {
 
 export const DataProvider = ({ children }: { children: React.ReactNode }) => {
   const { user } = useAuth();
-  
-  const [sessions, setSessions] = useState<StudySession[]>([]);
-  const [aiQuestions, setAiQuestions] = useState<any[]>([]);
-  const [aiEssays, setAiEssays] = useState<any[]>([]);
-  const [aiEssayTopics, setAiEssayTopics] = useState<any[]>([]);
-  const [physicalActivities, setPhysicalActivities] = useState<any[]>([]);
-  const [notes, setNotes] = useState<any[]>([]);
-  const [loading, setLoading] = useState(true);
 
+  const [notes, setNotes] = useState<any[]>([]);
+  const [physicalActivities, setPhysicalActivities] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
   const [toast, setToast] = useState({ message: '', visible: false });
 
   const showToast = (message: string) => {
@@ -89,92 +67,40 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
 
   useEffect(() => {
     if (!user) {
-      setSessions([]);
-      setAiQuestions([]);
-      setAiEssays([]);
-      setAiEssayTopics([]);
-      setPhysicalActivities([]);
       setNotes([]);
+      setPhysicalActivities([]);
       setLoading(false);
       return;
     }
 
     if (user.isOffline) {
-      // Load offline data from localStorage
-      setSessions(getLocalValues('sessions'));
-      const q = getLocalValues('ai_questions');
-      q.sort((a: any, b: any) => (b.createdAt || 0) - (a.createdAt || 0));
-      setAiQuestions(q);
-      
-      const e = getLocalValues('ai_essays');
-      e.sort((a: any, b: any) => (b.createdAt || 0) - (a.createdAt || 0));
-      setAiEssays(e);
-      
-      const t = getLocalValues('ai_essay_topics');
-      t.sort((a: any, b: any) => (b.createdAt || 0) - (a.createdAt || 0));
-      setAiEssayTopics(t);
-      
-      setPhysicalActivities(getLocalValues('physical_activities'));
-      
+      // Carrega dados offline do localStorage
       const n = getLocalValues('notes');
       n.sort((a: any, b: any) => (b.createdAt || 0) - (a.createdAt || 0));
       setNotes(n);
-      
-      setLoading(false);
-      return;
-    }
-
-    // Firebase flow — verificação defensiva caso db não esteja disponível
-    if (!db) {
-      console.warn("Firestore não disponível. Carregando dados locais.");
-      setSessions(getLocalValues('sessions'));
-      setAiQuestions(getLocalValues('ai_questions'));
-      setAiEssays(getLocalValues('ai_essays'));
-      setAiEssayTopics(getLocalValues('ai_essay_topics'));
       setPhysicalActivities(getLocalValues('physical_activities'));
-      setNotes(getLocalValues('notes'));
       setLoading(false);
       return;
     }
 
-    const sessionsRef = collection(db, 'users', user.uid, 'sessions');
-    const unsubscribeSessions = onSnapshot(sessionsRef, (snapshot) => {
-      const data = snapshot.docs.map(doc => ({
-        id: doc.id,
-        ...doc.data()
-      })) as StudySession[];
-      setSessions(data);
+    // Modo Firebase — verificação defensiva
+    if (!db) {
+      console.warn('Firestore não disponível. Carregando dados locais.');
+      setNotes(getLocalValues('notes'));
+      setPhysicalActivities(getLocalValues('physical_activities'));
       setLoading(false);
-    });
+      return;
+    }
 
-    const questionsRef = collection(db, 'users', user.uid, 'ai_questions');
-    const unsubscribeQuestions = onSnapshot(questionsRef, (snapshot) => {
+    const notesRef = collection(db, 'users', user.uid, 'notes');
+    const unsubscribeNotes = onSnapshot(notesRef, (snapshot) => {
       const data = snapshot.docs.map(doc => ({
         id: doc.id,
         ...doc.data()
       })) as any[];
       data.sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
-      setAiQuestions(data);
-    });
-
-    const essaysRef = collection(db, 'users', user.uid, 'ai_essays');
-    const unsubscribeEssays = onSnapshot(essaysRef, (snapshot) => {
-      const data = snapshot.docs.map(doc => ({
-        id: doc.id,
-        ...doc.data()
-      })) as any[];
-      data.sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
-      setAiEssays(data);
-    });
-
-    const topicsRef = collection(db, 'users', user.uid, 'ai_essay_topics');
-    const unsubscribeTopics = onSnapshot(topicsRef, (snapshot) => {
-      const data = snapshot.docs.map(doc => ({
-        id: doc.id,
-        ...doc.data()
-      })) as any[];
-      data.sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
-      setAiEssayTopics(data);
+      setNotes(data);
+      setLoading(false);
     });
 
     const activitiesRef = collection(db, 'users', user.uid, 'physical_activities');
@@ -186,120 +112,57 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
       setPhysicalActivities(data);
     });
 
-    const notesRef = collection(db, 'users', user.uid, 'notes');
-    const unsubscribeNotes = onSnapshot(notesRef, (snapshot) => {
-      const data = snapshot.docs.map(doc => ({
-        id: doc.id,
-        ...doc.data()
-      })) as any[];
-      data.sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
-      setNotes(data);
-    });
-
     return () => {
-      unsubscribeSessions();
-      unsubscribeQuestions();
-      unsubscribeEssays();
-      unsubscribeTopics();
-      unsubscribeActivities();
       unsubscribeNotes();
+      unsubscribeActivities();
     };
   }, [user]);
 
-  // Offline handler helper
+  // Helper para ações offline
   const handleOfflineAction = (key: string, updater: (items: any[]) => any[]) => {
     const current = getLocalValues(key);
     const updated = updater(current);
     setLocalValues(key, updated);
-    
-    // update local state
-    if (key === 'sessions') setSessions(updated);
-    else if (key === 'ai_questions') setAiQuestions(updated);
-    else if (key === 'ai_essays') setAiEssays(updated);
-    else if (key === 'ai_essay_topics') setAiEssayTopics(updated);
+    if (key === 'notes') setNotes(updated);
     else if (key === 'physical_activities') setPhysicalActivities(updated);
-    else if (key === 'notes') setNotes(updated);
-    
     showToast('Salvo offline');
   };
 
-  const toggleSession = async (session: StudySession) => {
+  const addNote = async (noteData: any) => {
     if (!user) return;
+    const id = `n_${Date.now()}`;
+    const data = { ...noteData, id, userId: user.uid, createdAt: Date.now() };
     if (user.isOffline || !db) {
-      handleOfflineAction('sessions', (items) => {
-        const index = items.findIndex(s => s.id === session.id);
-        if (index >= 0) {
-          items[index] = { ...items[index], completed: !session.completed };
-          return [...items];
-        }
-        return [...items, { ...session, completed: !session.completed }];
-      });
+      handleOfflineAction('notes', (items) => [data, ...items]);
       return;
     }
-
-    const sessionRef = doc(db, 'users', user.uid, 'sessions', session.id);
-    await setDoc(sessionRef, {
-      ...session,
-      completed: !session.completed,
-      userId: user.uid,
-    }, { merge: true });
-    showToast('Sessão atualizada!');
-  };
-
-  const addSession = async (session: Omit<StudySession, "id"> & { id?: string }) => {
-    if (!user) return;
-    const id = session.id || `${session.date}_${Date.now()}`;
-    if (user.isOffline || !db) {
-      handleOfflineAction('sessions', (items) => {
-        return [...items, { ...session, id }];
-      });
-      return;
-    }
-    const sessionRef = doc(db, 'users', user.uid, 'sessions', id);
-    await setDoc(sessionRef, {
-      ...session,
-      userId: user.uid,
-    });
-    showToast('Adicionado com sucesso!');
-  };
-
-  const addAiQuestion = async (questionData: any) => {
-    if (!user) return;
-    const id = `q_${Date.now()}`;
-    const data = { ...questionData, id, userId: user.uid, createdAt: Date.now() };
-    if (user.isOffline || !db) {
-      handleOfflineAction('ai_questions', (items) => [data, ...items]);
-      return;
-    }
-    const ref = doc(db, 'users', user.uid, 'ai_questions', id);
+    const ref = doc(db, 'users', user.uid, 'notes', id);
     await setDoc(ref, data);
-    showToast('Questão salva com sucesso!');
+    showToast('Anotação salva com sucesso!');
   };
 
-  const addAiEssay = async (essayData: any) => {
+  const updateNote = async (id: string, noteData: any) => {
     if (!user) return;
-    const id = `e_${Date.now()}`;
-    const data = { ...essayData, id, userId: user.uid, createdAt: Date.now() };
     if (user.isOffline || !db) {
-      handleOfflineAction('ai_essays', (items) => [data, ...items]);
+      handleOfflineAction('notes', (items) =>
+        items.map(n => n.id === id ? { ...n, ...noteData, updatedAt: Date.now() } : n)
+      );
       return;
     }
-    const ref = doc(db, 'users', user.uid, 'ai_essays', id);
-    await setDoc(ref, data);
-    showToast('Redação salva com sucesso!');
+    const ref = doc(db, 'users', user.uid, 'notes', id);
+    await setDoc(ref, { ...noteData, updatedAt: Date.now() }, { merge: true });
+    showToast('Anotação atualizada!');
   };
 
-  const addAiEssayTopic = async (topicData: any) => {
+  const deleteNote = async (id: string) => {
     if (!user) return;
-    const id = `t_${Date.now()}`;
-    const data = { ...topicData, id, userId: user.uid, createdAt: Date.now() };
     if (user.isOffline || !db) {
-      handleOfflineAction('ai_essay_topics', (items) => [data, ...items]);
+      handleOfflineAction('notes', (items) => items.filter(n => n.id !== id));
       return;
     }
-    const ref = doc(db, 'users', user.uid, 'ai_essay_topics', id);
-    await setDoc(ref, data);
-    showToast('Novo tópico de redação salvo!');
+    const ref = doc(db, 'users', user.uid, 'notes', id);
+    await deleteDoc(ref);
+    showToast('Anotação removida.');
   };
 
   const updatePhysicalActivity = async (dateStr: string, completedIds: string[]) => {
@@ -322,53 +185,20 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
       updatedAt: Date.now(),
       userId: user.uid
     }, { merge: true });
-    showToast('Atividade física salva!');
-  };
-
-  const addNote = async (noteData: any) => {
-    if (!user) return;
-    const id = `n_${Date.now()}`;
-    const data = { ...noteData, id, userId: user.uid, createdAt: Date.now() };
-    if (user.isOffline || !db) {
-      handleOfflineAction('notes', (items) => [data, ...items]);
-      return;
-    }
-    const ref = doc(db, 'users', user.uid, 'notes', id);
-    await setDoc(ref, data);
-    showToast('Anotação salva com sucesso!');
-  };
-
-  const updateNote = async (id: string, noteData: any) => {
-    if (!user) return;
-    if (user.isOffline || !db) {
-      handleOfflineAction('notes', (items) => {
-        return items.map(n => n.id === id ? { ...n, ...noteData, updatedAt: Date.now() } : n);
-      });
-      return;
-    }
-    const ref = doc(db, 'users', user.uid, 'notes', id);
-    await setDoc(ref, {
-      ...noteData,
-      updatedAt: Date.now()
-    }, { merge: true });
-    showToast('Anotação atualizada!');
-  };
-
-  const deleteNote = async (id: string) => {
-    if (!user) return;
-    if (user.isOffline || !db) {
-      handleOfflineAction('notes', (items) => {
-        return items.filter(n => n.id !== id);
-      });
-      return;
-    }
-    const ref = doc(db, 'users', user.uid, 'notes', id);
-    await deleteDoc(ref);
-    showToast('Anotação removida.');
+    showToast('Atividade salva!');
   };
 
   return (
-    <DataContext.Provider value={{ sessions, aiQuestions, aiEssays, aiEssayTopics, physicalActivities, notes, loading, toast, toggleSession, addSession, addAiQuestion, addAiEssay, addAiEssayTopic, updatePhysicalActivity, addNote, updateNote, deleteNote }}>
+    <DataContext.Provider value={{
+      notes,
+      physicalActivities,
+      loading,
+      toast,
+      addNote,
+      updateNote,
+      deleteNote,
+      updatePhysicalActivity,
+    }}>
       {children}
     </DataContext.Provider>
   );

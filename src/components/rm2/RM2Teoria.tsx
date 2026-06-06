@@ -43,7 +43,6 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
             assuntoDescricao: assunto.descricao,
             nivel,
             userId: user?.uid || 'offline_user',
-            openRouterKey: localStorage.getItem('enem_rm2_openrouter_key') || ''
           })
         });
 

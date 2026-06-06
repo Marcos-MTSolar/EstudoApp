@@ -19,34 +19,46 @@ export function getAdminDb() {
   try { return getFirestore(app); } catch (_) { return null; }
 }
 
-export async function callOpenRouter(prompt: string, clientKey?: string): Promise<any> {
-  const apiKey = process.env.OPENROUTER_API_KEY || clientKey;
-  if (!apiKey || apiKey.trim() === "" || apiKey === "your_openrouter_api_key_here") {
-    throw new Error("Chave OpenRouter não configurada. Configure sua chave na aba Configurações do módulo RM2.");
+/**
+ * Chama a API da Groq (substituto do OpenRouter).
+ * Usa o modelo llama3-70b-8192, gratuito e de alta qualidade.
+ * Retorna o conteúdo da resposta como string (JSON ou texto bruto).
+ */
+export async function callGroq(
+  systemPrompt: string,
+  userPrompt: string,
+  maxTokens: number = 4096
+): Promise<any> {
+  const apiKey = process.env.GROQ_API_KEY;
+  if (!apiKey || apiKey.trim() === "" || apiKey === "your_groq_api_key_here") {
+    throw new Error("Chave Groq não configurada. Adicione GROQ_API_KEY nas variáveis de ambiente da Vercel (Settings → Environment Variables).");
   }
-  const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+
+  const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
     headers: {
       "Authorization": `Bearer ${apiKey.trim()}`,
       "Content-Type": "application/json",
-      "HTTP-Referer": "https://mtsolarpe.com.br",
-      "X-Title": "EstudoApp RM2 Marinha"
     },
     body: JSON.stringify({
-      model: "google/gemma-3-27b-it:free",
-      messages: [{ role: "user", content: prompt }],
-      temperature: 0.3
-    })
+      model: "llama3-70b-8192",
+      messages: [
+        { role: "system", content: systemPrompt },
+        { role: "user", content: userPrompt },
+      ],
+      max_tokens: maxTokens,
+      temperature: 0.3,
+    }),
   });
 
   if (!response.ok) {
     const err = await response.json().catch(() => ({})) as any;
-    const msg = err?.error?.message || err?.message || `Erro OpenRouter: ${response.status} ${response.statusText}`;
+    const msg = err?.error?.message || `Erro Groq: ${response.status} ${response.statusText}`;
     throw new Error(msg);
   }
 
   const data = await response.json() as any;
-  let raw: string = data?.choices?.[0]?.message?.content || "";
+  const raw: string = data?.choices?.[0]?.message?.content || "";
 
   if (!raw) {
     throw new Error("Resposta vazia da IA. Tente novamente.");

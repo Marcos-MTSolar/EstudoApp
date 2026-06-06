@@ -75,7 +75,7 @@ export function Configuracoes() {
                   onChange={(e) => setTheme(e.target.value)}
                   className="w-full bg-surface border border-border rounded-lg px-3 py-2 text-sm text-gray-200 focus:outline-none focus:border-primary"
                 >
-                   <option value="dark">Escuro (Padrão ENEM 2027)</option>
+                   <option value="dark">Escuro (Padrão RM2 Marinha)</option>
                    <option value="light" disabled>Claro (Desabilitado)</option>
                 </select>
              </div>

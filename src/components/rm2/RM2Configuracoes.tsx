@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Settings, Key, Eye, EyeOff, CheckCircle2, AlertTriangle, Trash2, ExternalLink } from 'lucide-react';
 
-const LS_OPENROUTER_KEY = 'enem_rm2_openrouter_key';
+// Chave local para fallback (não é necessária com Groq server-side, mas mantida para compatibilidade)
+const LS_GROQ_KEY = 'enem_rm2_groq_key';
 
 export function RM2Configuracoes() {
   const [apiKey, setApiKey] = useState<string>('');
@@ -10,7 +11,7 @@ export function RM2Configuracoes() {
   const [hasKey, setHasKey] = useState<boolean>(false);
 
   useEffect(() => {
-    const storedKey = localStorage.getItem(LS_OPENROUTER_KEY);
+    const storedKey = localStorage.getItem(LS_GROQ_KEY);
     if (storedKey) {
       setApiKey(storedKey);
       setHasKey(true);
@@ -19,14 +20,14 @@ export function RM2Configuracoes() {
 
   const handleSave = () => {
     if (!apiKey.trim()) return;
-    localStorage.setItem(LS_OPENROUTER_KEY, apiKey.trim());
+    localStorage.setItem(LS_GROQ_KEY, apiKey.trim());
     setHasKey(true);
     setSaved(true);
     setTimeout(() => setSaved(false), 3000);
   };
 
   const handleClear = () => {
-    localStorage.removeItem(LS_OPENROUTER_KEY);
+    localStorage.removeItem(LS_GROQ_KEY);
     setApiKey('');
     setHasKey(false);
   };
@@ -46,19 +47,19 @@ export function RM2Configuracoes() {
           </div>
         </div>
 
-        {/* Status do servidor */}
+        {/* Status da chave */}
         <div className={`rounded-2xl p-4 mb-6 border flex items-center gap-3 text-sm ${
-          hasKey 
-            ? 'bg-emerald-500/10 border-emerald-500/20' 
+          hasKey
+            ? 'bg-emerald-500/10 border-emerald-500/20'
             : 'bg-amber-500/10 border-amber-500/20'
         }`}>
           {hasKey ? (
             <>
               <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0" />
               <div>
-                <p className="font-bold text-emerald-400">Chave OpenRouter configurada no servidor</p>
+                <p className="font-bold text-emerald-400">Groq API configurada</p>
                 <p className="text-xs text-gray-400 mt-0.5">
-                  O módulo RM2 está pronto para gerar teoria, questões e simulados via Gemma-3.
+                  O módulo RM2 está pronto para gerar teoria, questões e simulados via Groq (llama3-70b-8192).
                 </p>
               </div>
             </>
@@ -66,9 +67,9 @@ export function RM2Configuracoes() {
             <>
               <AlertTriangle className="w-5 h-5 text-amber-400 shrink-0" />
               <div>
-                <p className="font-bold text-amber-400">Chave OpenRouter não detectada</p>
+                <p className="font-bold text-amber-400">Groq API não detectada</p>
                 <p className="text-xs text-gray-400 mt-0.5">
-                  Adicione sua chave abaixo ou configure a variável <code className="bg-black/20 px-1 rounded text-amber-300">OPENROUTER_API_KEY</code> no arquivo <code className="bg-black/20 px-1 rounded text-amber-300">.env</code> do servidor.
+                  Configure a variável <code className="bg-black/20 px-1 rounded text-amber-300">GROQ_API_KEY</code> no painel da Vercel em <strong>Settings → Environment Variables</strong>.
                 </p>
               </div>
             </>
@@ -78,7 +79,7 @@ export function RM2Configuracoes() {
         {/* Campo de API Key */}
         <div className="space-y-3">
           <label className="block text-[10px] uppercase tracking-widest font-black text-gray-400">
-            Chave de API — OpenRouter
+            Chave de API — Groq
           </label>
           <div className="relative">
             <div className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500">
@@ -88,7 +89,7 @@ export function RM2Configuracoes() {
               type={showKey ? 'text' : 'password'}
               value={apiKey}
               onChange={e => setApiKey(e.target.value)}
-              placeholder="sk-or-v1-..."
+              placeholder="gsk_..."
               className="w-full bg-black/20 border border-border rounded-2xl py-3.5 pl-11 pr-12 text-sm text-white placeholder:text-gray-600 focus:outline-none focus:border-blue-500 font-mono"
             />
             <button
@@ -100,7 +101,7 @@ export function RM2Configuracoes() {
             </button>
           </div>
           <p className="text-xs text-gray-500 leading-relaxed">
-            Esta chave é salva localmente no seu navegador (localStorage) e usada apenas como backup caso o servidor não esteja com a variável configurada.
+            A chave recomendada é configurada no servidor (Vercel). Este campo é apenas um backup local salvo no navegador.
           </p>
         </div>
 
@@ -133,20 +134,20 @@ export function RM2Configuracoes() {
         </div>
       </div>
 
-      {/* Seção de Instruções */}
+      {/* Instruções */}
       <div className="bg-surface rounded-3xl p-6 border border-border shadow-md space-y-4">
         <h3 className="font-heading font-black text-white flex items-center gap-2">
           <ExternalLink className="w-4 h-4 text-blue-400" />
-          Como obter sua chave gratuita
+          Como obter sua chave gratuita (Groq API)
         </h3>
 
         <ol className="space-y-3">
           {[
-            { step: '1', text: 'Acesse', link: 'https://openrouter.ai', label: 'openrouter.ai' },
+            { step: '1', text: 'Acesse', link: 'https://console.groq.com', label: 'console.groq.com' },
             { step: '2', text: 'Crie uma conta gratuita com e-mail ou Google' },
-            { step: '3', text: 'Vá em "API Keys" no menu do seu perfil' },
-            { step: '4', text: 'Clique em "Create Key" e copie a chave gerada' },
-            { step: '5', text: 'Cole a chave no campo acima e clique em Salvar' },
+            { step: '3', text: 'Vá em "API Keys" no menu lateral' },
+            { step: '4', text: 'Clique em "Create API Key" e copie a chave gerada' },
+            { step: '5', text: 'No painel da Vercel, acesse Settings → Environment Variables e adicione GROQ_API_KEY' },
           ].map((item) => (
             <li key={item.step} className="flex items-start gap-3 text-sm text-gray-300">
               <span className="w-6 h-6 rounded-full bg-blue-500/20 border border-blue-500/30 text-blue-400 text-xs font-black flex items-center justify-center shrink-0 mt-0.5">
@@ -171,12 +172,12 @@ export function RM2Configuracoes() {
 
         <div className="bg-blue-500/5 border border-blue-500/20 rounded-2xl p-4 mt-2">
           <p className="text-xs text-blue-300 leading-relaxed">
-            <strong>Modelo em uso:</strong> <code className="bg-black/20 px-1 rounded">google/gemma-3-27b-it:free</code> — Disponível gratuitamente no tier gratuito do OpenRouter. Sem necessidade de cartão de crédito.
+            <strong>Modelo em uso:</strong> <code className="bg-black/20 px-1 rounded">llama3-70b-8192</code> — Disponível gratuitamente na Groq. Extremamente rápido e de alta qualidade. Sem necessidade de cartão de crédito.
           </p>
         </div>
       </div>
 
-      {/* Seção de Cache */}
+      {/* Gerenciamento de Cache */}
       <div className="bg-surface rounded-3xl p-6 border border-border shadow-md space-y-4">
         <h3 className="font-heading font-black text-white">Gerenciamento de Cache RM2</h3>
         <p className="text-sm text-gray-400 leading-relaxed">
