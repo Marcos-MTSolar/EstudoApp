@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { callGroq, getCache, saveCache } from "../_utils";
+import { callGroq, extractJSON, getCache, saveCache } from "../_utils";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
@@ -21,9 +21,10 @@ Regras obrigatórias: cada questão tem 5 alternativas (A, B, C, D, E), apenas U
 Responda SOMENTE com este JSON:
 {"questoes":[{"id":1,"enunciado":"texto do enunciado","textoBase":null,"alternativas":{"A":"texto A","B":"texto B","C":"texto C","D":"texto D","E":"texto E"},"gabarito":"A","explicacao":"explicação detalhada","assunto":"${assuntoNome}","nivel":"${nivel}"}]}`;
 
-    const conteudo = await callGroq(systemPrompt, userPrompt);
+    const raw = await callGroq(systemPrompt, userPrompt, 8192);
+    const conteudo = JSON.parse(extractJSON(raw));
     await saveCache(cacheId, assuntoNome, "questoes", nivel, conteudo);
-    res.json({ fonte: "ia", conteudo });
+    return res.status(200).json({ fonte: "ia", conteudo });
   } catch (e: any) {
     res.status(500).json({ error: e.message });
   }

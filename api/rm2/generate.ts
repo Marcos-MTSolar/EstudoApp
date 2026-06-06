@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { callGroq } from "../_utils";
+import { callGroq, extractJSON } from "../_utils";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
@@ -10,37 +10,16 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     // Extrai system e user do array de mensagens recebido
-    const systemMsg = messages.find((m: any) => m.role === "system")?.content || "Você é um assistente especialista em Língua Portuguesa para o concurso RM2 da Marinha do Brasil.";
+    const systemMsg = messages.find((m: any) => m.role === "system")?.content || "Você é um assistente especialista em Língua Portuguesa para o concurso RM2 da Marinha do Brasil. Responda SOMENTE com JSON válido, sem texto adicional, sem markdown.";
     const userMsg = messages.find((m: any) => m.role === "user")?.content || "";
 
-    const apiKey = process.env.GROQ_API_KEY;
-    if (!apiKey || apiKey === "your_groq_api_key_here") {
-      throw new Error("Chave Groq não configurada. Adicione GROQ_API_KEY nas variáveis de ambiente da Vercel.");
-    }
+    // Usa callGroq centralizado — retorna a string content da resposta
+    const raw = await callGroq(systemMsg, userMsg, 8192);
 
-    // Chama a API da Groq diretamente para retornar o formato original esperado pelo frontend
-    const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        "Authorization": `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        model: "llama-3.3-70b-versatile",
-        messages: [
-          { role: "system", content: systemMsg },
-          { role: "user", content: userMsg },
-        ],
-        temperature: 0.3,
-      }),
-    });
+    // Sanitiza possíveis blocos markdown e parseia o JSON
+    const parsed = JSON.parse(extractJSON(raw));
 
-    if (!response.ok) {
-      const errorData = await response.json().catch(() => ({})) as any;
-      throw new Error(errorData.error?.message || `Erro da Groq: ${response.statusText}`);
-    }
-
-    res.json(await response.json());
+    return res.status(200).json({ fonte: "ia", conteudo: parsed });
   } catch (e: any) {
     res.status(500).json({ error: e.message });
   }

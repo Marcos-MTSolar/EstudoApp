@@ -28,7 +28,7 @@ export async function callGroq(
   systemPrompt: string,
   userPrompt: string,
   maxTokens: number = 8192
-): Promise<any> {
+): Promise<string> {
   const apiKey = process.env.GROQ_API_KEY;
   if (!apiKey || apiKey.trim() === "" || apiKey === "your_groq_api_key_here") {
     throw new Error("Chave Groq não configurada. Adicione GROQ_API_KEY nas variáveis de ambiente da Vercel (Settings → Environment Variables).");
@@ -63,26 +63,18 @@ export async function callGroq(
   if (!raw) {
     throw new Error("Resposta vazia da IA. Tente novamente.");
   }
+  return raw;
+}
 
-  // 1) Tenta extrair bloco JSON com regex (```json ... ```)
-  const blockMatch = raw.match(/```json\s*([\s\S]*?)```/i);
-  if (blockMatch?.[1]) {
-    try { return JSON.parse(blockMatch[1].trim()); } catch (_) {}
-  }
-
-  // 2) Remove marcadores de código e tenta parse direto
-  let cleaned = raw.replace(/```json/gi, "").replace(/```/g, "").trim();
-  try { return JSON.parse(cleaned); } catch (_) {}
-
-  // 3) Tenta encontrar o primeiro { ... } ou [ ... ] válido no texto
-  const jsonMatch = cleaned.match(/(\{[\s\S]*\}|\[[\s\S]*\])/);
-  if (jsonMatch?.[1]) {
-    try { return JSON.parse(jsonMatch[1]); } catch (_) {}
-  }
-
-  // 4) Falha com mensagem útil
-  console.error("Conteúdo bruto retornado pela IA:", raw.slice(0, 500));
-  throw new Error("A IA não retornou JSON válido. Tente novamente ou mude o nível de dificuldade.");
+export function extractJSON(raw: string): string {
+  const cleaned = raw
+    .replace(/^```json\s*/i, '')
+    .replace(/^```\s*/i, '')
+    .replace(/```\s*$/i, '')
+    .trim();
+  const match = cleaned.match(/\{[\s\S]*\}/);
+  if (!match) throw new Error('Nenhum JSON válido encontrado na resposta da IA');
+  return match[0];
 }
 
 export async function getCache(cacheId: string): Promise<any | null> {

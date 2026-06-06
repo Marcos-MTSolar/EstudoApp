@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { callGroq, getCache, saveCache } from "../_utils";
+import { callGroq, extractJSON, getCache, saveCache } from "../_utils";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
@@ -20,9 +20,10 @@ DESCRIÇÃO: ${assuntoDescricao || ""}
 Estruture a resposta obrigatoriamente neste formato JSON:
 {"titulo":"nome do assunto","resumo":"resumo em 2-3 linhas","teoria":"explicação completa com exemplos práticos","regras":["regra 1","regra 2"],"exemplos":[{"frase":"exemplo de frase","explicacao":"explicação do exemplo"}],"dicaProva":"dica específica para não errar na prova da Marinha","pegadinhas":["pegadinha 1","pegadinha 2"]}`;
 
-    const conteudo = await callGroq(systemPrompt, userPrompt);
+    const raw = await callGroq(systemPrompt, userPrompt, 8192);
+    const conteudo = JSON.parse(extractJSON(raw));
     await saveCache(cacheId, assuntoNome, "teoria", nivel, conteudo);
-    res.json({ fonte: "ia", conteudo });
+    return res.status(200).json({ fonte: "ia", conteudo });
   } catch (e: any) {
     console.error("Erro /api/rm2/teoria:", e.message);
     res.status(500).json({ error: e.message });
