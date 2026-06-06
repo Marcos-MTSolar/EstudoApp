@@ -375,3 +375,34 @@ O sistema funciona de duas maneiras:
   - `RESUMO_MESTRE.md` [ATUALIZADO]
 
 ---
+
+### Parte 14 — Tratamento de Rate Limit e Erros de IA
+- **Data e hora:** 06/06/2026 às 10:47 (Horário Local)
+- **Motivação:** Rate limit da Groq (HTTP 429) identificado nos testes locais da Parte 13. Sem tratamento, erros apareciam como tela em branco ou mensagem genérica no frontend.
+- **O que foi feito:**
+  1. **`api/_utils.ts`** — `callGroq` agora classifica erros HTTP por tipo antes de lançar exceção:
+     - HTTP 429 → `throw new Error('RATE_LIMIT: ...')`
+     - HTTP 503/500 → `throw new Error('GROQ_UNAVAILABLE: ...')`
+     - Demais → `throw new Error('GROQ_ERROR_{status}: ...')`
+  2. **`api/rm2/teoria.ts`, `questoes.ts`, `simulacao.ts`, `generate.ts`** — Catch tipado em todos os handlers:
+     - `RATE_LIMIT` → HTTP 429 `{ erro: 'rate_limit', mensagem: '...' }`
+     - `GROQ_UNAVAILABLE` → HTTP 503 `{ erro: 'servico_indisponivel', mensagem: '...' }`
+     - Demais → HTTP 500 `{ erro: 'erro_interno', mensagem: '...' }`
+  3. **`src/components/rm2/RM2Teoria.tsx`** — Fetch atualizado: lê `data` antes de checar `response.ok`, mapeia HTTP 429 → '⏳ Muitas requisições...', HTTP 503 → '🔧 Serviço indisponível...', outros → `data.mensagem`.
+  4. **`src/components/rm2/RM2Questoes.tsx`** — Mesmo padrão aplicado.
+  5. **`src/components/rm2/RM2Simulacao.tsx`** — Mesmo padrão aplicado (rota `/api/rm2/simulacao`).
+  6. **Estados de loading confirmados** nos 3 componentes: `loading` state + `Loader2` já presentes e funcionais antes desta parte — nenhuma alteração necessária.
+  7. **Build de validação:** `tsc --noEmit` ✅ zero erros | `npm run build` ✅ 2930 módulos, zero erros.
+- **Commit:** `5a71a86` — *feat: tratamento de rate limit e erros de IA com feedback visual no frontend RM2*
+- **Arquivos modificados:**
+  - `api/_utils.ts` [ATUALIZADO — classificação de erros por tipo HTTP]
+  - `api/rm2/teoria.ts` [ATUALIZADO — catch tipado]
+  - `api/rm2/questoes.ts` [ATUALIZADO — catch tipado]
+  - `api/rm2/simulacao.ts` [ATUALIZADO — catch tipado]
+  - `api/rm2/generate.ts` [ATUALIZADO — catch tipado]
+  - `src/components/rm2/RM2Teoria.tsx` [ATUALIZADO — tratamento de erro por status HTTP]
+  - `src/components/rm2/RM2Questoes.tsx` [ATUALIZADO — tratamento de erro por status HTTP]
+  - `src/components/rm2/RM2Simulacao.tsx` [ATUALIZADO — tratamento de erro por status HTTP]
+  - `RESUMO_MESTRE.md` [ATUALIZADO]
+
+---
