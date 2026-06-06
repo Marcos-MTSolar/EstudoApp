@@ -41,10 +41,6 @@ Este documento consolida a análise detalhada e atualizada da arquitetura, stack
 /EstudoApp/PlanoEstudo
 ├── api/                          # Funções serverless Vercel
 │   ├── _utils.ts                 # Utilitários compartilhados: callGroq, getCache, saveCache, getAdminDb
-│   ├── ai/                       # Rotas legadas do módulo ENEM (Gemini) — não usadas pelo frontend ativo
-│   │   ├── questions.ts
-│   │   ├── essay-topic.ts
-│   │   └── grade-essay.ts
 │   └── rm2/                      # Rotas de IA do módulo RM2 Marinha
 │       ├── teoria.ts             # POST — gera teoria estruturada por assunto
 │       ├── questoes.ts           # POST — gera questões de múltipla escolha
@@ -406,3 +402,22 @@ O sistema funciona de duas maneiras:
   - `RESUMO_MESTRE.md` [ATUALIZADO]
 
 ---
+
+### Parte 15 — Checagem Geral e Validação Final de Produção
+- **Data e hora:** 06/06/2026 às 11:00 (Horário Local)
+- **Status geral do projeto:** ✅ PRODUÇÃO VALIDADA
+- **Auditoria ENEM:** Itens residuais corrigidos (pasta `api/ai/` com rotas do ENEM removida do repositório; arquivo `server.ts` de desenvolvimento local limpo de referências a Gemini e OpenRouter, configurado para usar a API da Groq e apenas rotas do RM2)
+- **vercel.json:** Válido, contendo rewrites SPA e sem blocos functions/builds legados
+- **Modelo de IA ativo:** llama-3.3-70b-versatile (Groq)
+- **Build final:** 2930 módulos, zero erros
+- **Partes executadas e registradas:** 1 a 15
+- **Repositório:** https://github.com/Marcos-MTSolar/EstudoApp.git
+- **Branch:** main
+- **Último commit:** ac9c016
+- **App em produção:** https://estudo-app-rm2.vercel.app
+- **Cronograma de estudos:** 08/06/2026 a 06/09/2026 — 13 semanas — 28 tópicos oficiais
+- **Prova Objetiva:** 40 questões de Língua Portuguesa × 2,5 pts — nota mínima 40/100
+- **RESUMO_MESTRE.md [ATUALIZADO E SINCRONIZADO]**
+
+---
+
