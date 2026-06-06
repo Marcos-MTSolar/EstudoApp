@@ -1,22 +1,28 @@
-import { initializeApp, getApps, cert, App } from "firebase-admin/app";
-import { getFirestore } from "firebase-admin/firestore";
+import * as admin from 'firebase-admin';
 
-export function getAdminDb() {
-  let app: App;
-  if (!getApps().length) {
-    try {
-      if (process.env.FIREBASE_SERVICE_ACCOUNT) {
-        app = initializeApp({ credential: cert(JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT)) });
+let db: admin.firestore.Firestore | null = null;
+
+function getFirestoreDb(): admin.firestore.Firestore | null {
+  if (db) return db;
+  try {
+    if (!admin.apps.length) {
+      const serviceAccount = process.env.FIREBASE_SERVICE_ACCOUNT;
+      if (serviceAccount) {
+        admin.initializeApp({
+          credential: admin.credential.cert(JSON.parse(serviceAccount)),
+        });
       } else {
-        app = initializeApp();
+        // Sem credenciais — Firebase Admin desabilitado, cache só em memória
+        console.warn('[Firebase Admin] FIREBASE_SERVICE_ACCOUNT não configurada. Cache Firestore desabilitado.');
+        return null;
       }
-    } catch (_) {
-      return null;
     }
-  } else {
-    app = getApps()[0];
+    db = admin.firestore();
+    return db;
+  } catch (e) {
+    console.error('[Firebase Admin] Falha na inicialização:', e);
+    return null;
   }
-  try { return getFirestore(app); } catch (_) { return null; }
 }
 
 /**
@@ -86,25 +92,36 @@ export function extractJSON(raw: string): string {
   return match[0];
 }
 
-export async function getCache(cacheId: string): Promise<any | null> {
-  const db = getAdminDb();
-  if (!db) return null;
-  try {
-    const snap = await db.collection("rm2_cache").doc(cacheId).get();
-    if (snap.exists) {
-      const data = snap.data()!;
-      if (data.expiraEm > Date.now()) return data.conteudo;
-    }
-  } catch (_) {}
-  return null;
+export function getAdminDb() {
+  return getFirestoreDb();
 }
 
-export async function saveCache(cacheId: string, assunto: string, tipo: string, nivel: string, conteudo: any): Promise<void> {
-  const db = getAdminDb();
-  if (!db) return;
-  const criadoEm = Date.now();
-  const expiraEm = criadoEm + 30 * 24 * 60 * 60 * 1000;
+export async function getCache(hash: string): Promise<any | null> {
+  const firestore = getFirestoreDb();
+  if (!firestore) return null; // sem cache Firestore, retorna null silenciosamente
   try {
-    await db.collection("rm2_cache").doc(cacheId).set({ id: cacheId, assunto, tipo, nivel, conteudo, criadoEm, expiraEm });
-  } catch (_) {}
+    const doc = await firestore.collection('rm2_cache').doc(hash).get();
+    if (!doc.exists) return null;
+    const data = doc.data()!;
+    if (Date.now() > data.expiraEm) return null;
+    return data.conteudo;
+  } catch (e) {
+    console.error('[Cache] Erro ao buscar cache:', e);
+    return null;
+  }
+}
+
+export async function saveCache(hash: string, assunto: string, tipo: string, nivel: string, conteudo: any): Promise<void> {
+  const firestore = getFirestoreDb();
+  if (!firestore) return; // sem cache Firestore, ignora silenciosamente
+  try {
+    const agora = Date.now();
+    await firestore.collection('rm2_cache').doc(hash).set({
+      id: hash, assunto, tipo, nivel, conteudo,
+      criadoEm: agora,
+      expiraEm: agora + 30 * 24 * 60 * 60 * 1000,
+    });
+  } catch (e) {
+    console.error('[Cache] Erro ao salvar cache:', e);
+  }
 }
