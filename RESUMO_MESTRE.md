@@ -494,3 +494,43 @@ O sistema funciona de duas maneiras:
   - `RESUMO_MESTRE.md` [ATUALIZADO]
 
 ---
+
+### Parte 20 — Migração para Conteúdos Estáticos JSON (RM2 Marinha)
+- **Data e hora:** 06/06/2026 às 13:00 (Horário Local)
+- **Sessão de referência:** Conversa 4b91038e
+- **O que foi feito:**
+  1. **tsconfig.json** — Adicionada a opção `"resolveJsonModule": true` dentro de `compilerOptions` para suportar importações diretas de JSON.
+  2. **src/data/conteudo/** — Criada a pasta para os arquivos JSON com um arquivo de ancoragem `.gitkeep`.
+  3. **src/data/conteudoIndex.ts** — Criado o indexador central de conteúdos com as assinaturas `getConteudo` e `getIdsDisponiveis`.
+  4. **src/components/rm2/RM2Teoria.tsx** — Removido o fetch para `/api/rm2/teoria` e integrada a busca de teoria diretamente de `getConteudo`. O resumo rápido agora é processado localmente a partir dos dados estáticos, evitando chamadas à rede.
+  5. **src/components/rm2/RM2Questoes.tsx** — Removido o fetch para `/api/rm2/questoes` e integrada a busca de questões de `getConteudo`. Filtragem de nível e quantidade ajustados localmente com `slice`.
+  6. **src/components/rm2/RM2Simulacao.tsx** — Removido o fetch para `/api/rm2/simulacao` e integrado o carregamento concorrente de questões do simulado de todos os tópicos disponíveis no indexador. Mantida a lógica de embaralhamento e limite de questões, garantindo o início do simulado com `setStarted(true)`.
+  7. **api/rm2/** — Desativadas as rotas do Vercel `teoria.ts`, `questoes.ts`, `simulacao.ts` e `generate.ts` comentando a primeira linha com o cabeçalho de migração estática.
+  8. **Build de validação:** `tsc --noEmit` executado com sucesso e zero erros de compilação.
+- **Arquivos modificados:**
+  - `tsconfig.json` **[ATUALIZADO]**
+  - `src/data/conteudo/.gitkeep` **[NOVO]**
+  - `src/data/conteudoIndex.ts` **[NOVO]**
+  - `src/components/rm2/RM2Teoria.tsx` **[ATUALIZADO]**
+  - `src/components/rm2/RM2Questoes.tsx` **[ATUALIZADO]**
+  - `src/components/rm2/RM2Simulacao.tsx` **[ATUALIZADO]**
+  - `api/rm2/teoria.ts` **[ATUALIZADO]**
+  - `api/rm2/questoes.ts` **[ATUALIZADO]**
+  - `api/rm2/simulacao.ts` **[ATUALIZADO]**
+  - `api/rm2/generate.ts` **[ATUALIZADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 21 — Registro do Conteúdo Estático de Gramática (gram-01) e Build
+- **Data e hora:** 06/06/2026 às 13:10 (Horário Local)
+- **Sessão de referência:** Conversa 4b91038e
+- **O que foi feito:**
+  1. **src/data/conteudoIndex.ts** — Registrada a importação dinâmica do arquivo `gram-01.json` dentro do objeto `modulos`.
+  2. **Validação de tipos** — Executado `npx tsc --noEmit` apresentando zero erros.
+  3. **Build de Produção** — Executado `npm run build` com sucesso, compilando 2933 módulos. O Vite separou o arquivo `gram-01.json` em um chunk separado (`dist/assets/gram-01-SDIF3ngQ.js`), validando nossa estratégia de code splitting dinâmico.
+- **Arquivos modificados:**
+  - `src/data/conteudoIndex.ts` **[ATUALIZADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---

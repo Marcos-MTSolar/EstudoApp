@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Loader2, ArrowLeft, Clock, ShieldCheck, Award, CheckCircle2, XCircle, ChevronDown, ChevronUp } from 'lucide-react';
 import { useAuth } from '../../lib/AuthContext';
 import { RM2_CONTEUDO } from '../../data/rm2Conteudo';
+import { getConteudo, getIdsDisponiveis } from '../../data/conteudoIndex';
 
 interface RM2SimulacaoProps {
   modo: "rapido" | "completo";
@@ -58,41 +59,28 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
     setLoading(true);
     setError('');
 
-    // Busca todos os IDs dos assuntos disponíveis
-    const assuntosIds = RM2_CONTEUDO.areas.flatMap(a => a.assuntos.map(as => as.id));
-
     try {
-      const response = await fetch('/api/rm2/simulacao', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          modo,
-          assuntosIds,
-          userId: user?.uid || 'offline_user',
-        })
-      });
+      const ids = getIdsDisponiveis();
+      const todasQuestoes: any[] = [];
 
-      const data = await response.json();
+      for (const id of ids) {
+        const conteudo = await getConteudo(id);
+        if (conteudo?.simulado) {
+          todasQuestoes.push(...conteudo.simulado);
+        }
+      }
 
-      if (!response.ok) {
-        if (response.status === 429) {
-          setError('⏳ Muitas requisições em seguida. Aguarde alguns segundos e tente novamente.');
-          return;
-        }
-        if (response.status === 503) {
-          setError('🔧 Serviço de IA temporariamente indisponível. Tente novamente em instantes.');
-          return;
-        }
-        setError(data?.mensagem || 'Erro ao gerar simulado. Tente novamente.');
+      if (todasQuestoes.length === 0) {
+        setError('Nenhum conteúdo disponível para simulado ainda.');
+        setLoading(false);
         return;
       }
 
-      if (data.questoes) {
-        setQuestoes(data.questoes);
-        setStarted(true);
-      } else {
-        throw new Error('Formato inválido de simulado retornado.');
-      }
+      const embaralhadas = todasQuestoes.sort(() => Math.random() - 0.5);
+      const modoRapido = modo === 'rapido';
+      const quantidade = modoRapido ? 10 : 40;
+      setQuestoes(embaralhadas.slice(0, quantidade));
+      setStarted(true);
     } catch (err: any) {
       console.error(err);
       setError(err.message || 'Erro ao carregar simulado.');

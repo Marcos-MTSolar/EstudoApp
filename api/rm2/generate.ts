@@ -1,3 +1,4 @@
+// DESATIVADO — conteúdo migrado para JSON estático
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { callGroq, extractJSON } from '../_utils.js';
 

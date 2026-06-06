@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Loader2, ArrowLeft, Brain, Sparkles, BookOpen, CheckCircle, FileText, ChevronDown } from 'lucide-react';
 import { useAuth } from '../../lib/AuthContext';
 import { useRM2Data } from '../../lib/useRM2Data';
+import { getConteudo } from '../../data/conteudoIndex';
 
 interface Assunto {
   id: string;
@@ -64,32 +65,7 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
       return;
     }
 
-    setGerandoResumo(true);
-    try {
-      const response = await fetch('/api/rm2/teoria', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          assuntoId: assunto.id,
-          assuntoNome: assunto.nome,
-          assuntoDescricao: assunto.descricao,
-          nivel,
-          modo: 'resumo',
-          userId: user?.uid || 'offline_user',
-        })
-      });
-      const data = await response.json();
-      if (response.ok && data?.conteudo?.resumo) {
-        setResumo(data.conteudo.resumo);
-      } else {
-        setResumo(data?.conteudo?.teoria?.substring(0, 300) || 'Não foi possível gerar o resumo rápido.');
-      }
-    } catch (e: any) {
-      console.error(e);
-      setResumo('Erro ao gerar o resumo rápido.');
-    } finally {
-      setGerandoResumo(false);
-    }
+    setResumo(teoriaData?.teoria?.substring(0, 300) + '...' || 'Não foi possível gerar o resumo rápido.');
   };
 
   useEffect(() => {
@@ -100,38 +76,13 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
       setFonte(null);
 
       try {
-        const response = await fetch('/api/rm2/teoria', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            assuntoId: assunto.id,
-            assuntoNome: assunto.nome,
-            assuntoDescricao: assunto.descricao,
-            nivel,
-            userId: user?.uid || 'offline_user',
-          })
-        });
-
-        const data = await response.json();
-
-        if (!response.ok) {
-          // Rate limit — mensagem amigável específica
-          if (response.status === 429) {
-            setError('⏳ Muitas requisições em seguida. Aguarde alguns segundos e tente novamente.');
-            return;
-          }
-          // Serviço indisponível
-          if (response.status === 503) {
-            setError('🔧 Serviço de IA temporariamente indisponível. Tente novamente em instantes.');
-            return;
-          }
-          // Erro genérico — usa mensagem do backend se disponível
-          setError(data?.mensagem || 'Erro ao gerar conteúdo. Tente novamente.');
+        const conteudo = await getConteudo(assunto.id);
+        if (!conteudo) {
+          setError('Conteúdo ainda não disponível para este tópico.');
+          setLoading(false);
           return;
         }
-
-        setTeoriaData(data.conteudo);
-        setFonte(data.fonte);
+        setTeoriaData(conteudo);
       } catch (err: any) {
         console.error(err);
         setError(err.message || 'Ocorreu um erro ao buscar a teoria.');

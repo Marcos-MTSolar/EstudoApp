@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Loader2, ArrowLeft, Brain, BookOpen, CheckCircle2, XCircle, ChevronRight, Award } from 'lucide-react';
 import { useAuth } from '../../lib/AuthContext';
 import { useRM2Data } from '../../lib/useRM2Data';
+import { getConteudo } from '../../data/conteudoIndex';
 
 interface Assunto {
   id: string;
@@ -40,38 +41,18 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
     setQuizFinished(false);
 
     try {
-      const response = await fetch('/api/rm2/questoes', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          assuntoId: assunto.id,
-          assuntoNome: assunto.nome,
-          nivel,
-          quantidade,
-          userId: user?.uid || 'offline_user',
-        })
-      });
-
-      const data = await response.json();
-
-      if (!response.ok) {
-        if (response.status === 429) {
-          setError('⏳ Muitas requisições em seguida. Aguarde alguns segundos e tente novamente.');
-          return;
-        }
-        if (response.status === 503) {
-          setError('🔧 Serviço de IA temporariamente indisponível. Tente novamente em instantes.');
-          return;
-        }
-        setError(data?.mensagem || 'Erro ao gerar questões. Tente novamente.');
+      const conteudo = await getConteudo(assunto.id);
+      if (!conteudo || !conteudo.questoes) {
+        setError('Questões ainda não disponíveis para este tópico.');
+        setLoading(false);
         return;
       }
-
-      if (data.conteudo && data.conteudo.questoes) {
-        setQuestoes(data.conteudo.questoes);
-      } else {
-        throw new Error('Formato inválido de retorno de questões.');
-      }
+      const filtradas = nivel === 'todos'
+        ? conteudo.questoes
+        : conteudo.questoes.filter((q: any) => q.nivel === nivel);
+      
+      const fatiadas = filtradas.slice(0, quantidade);
+      setQuestoes(fatiadas);
     } catch (err: any) {
       console.error(err);
       setError(err.message || 'Ocorreu um erro ao obter as questões.');
