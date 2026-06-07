@@ -585,5 +585,136 @@ O sistema funciona de duas maneiras:
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Teoria.tsx` **[ATUALIZADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
-
 ---
+
+## SESSÃO DE ESTUDOS RM2 — CONTROLE DE CONTEÚDO
+
+### Como usar esta seção
+Esta seção é atualizada automaticamente pelo Windsurf ao final de cada sessão.
+Ao iniciar uma nova conversa no Claude (claude.ai), envie este arquivo completo
+como contexto. O Claude saberá exatamente qual tópico gerar a seguir e em qual
+formato, sem necessidade de briefing adicional.
+
+### Instruções para o Claude ao receber este arquivo
+Você está ajudando um candidato a se preparar para o concurso RM2 da Marinha
+do Brasil, vaga de Engenharia Elétrica em Fortaleza/CE. A prova é exclusivamente
+de Língua Portuguesa: 40 questões de múltipla escolha, 5 alternativas, 2,5 pontos
+cada, duração 3 horas, nota mínima 40 pontos.
+
+O candidato tem um app React (EstudoApp) que exibe teoria, questões e simulados
+a partir de arquivos JSON estáticos em `src/data/conteudo/`. Cada JSON segue a
+estrutura definida na seção 4 deste documento. Quando solicitado, gere o próximo
+JSON da lista de pendentes abaixo, seguindo exatamente essa estrutura, sem texto
+antes ou depois, sem blocos de markdown, apenas o JSON puro começando com { e
+terminando com }. O conteúdo deve ser baseado na bibliografia oficial do edital:
+Cunha e Cintra (Nova Gramática), Koch e Elias, Fiorin e Savioli, Manual de
+Redação e Estilo da Marinha. O Acordo Ortográfico foi assinado em 1990 e entrou
+em vigor em 2016 — nunca mencionar 2009. Coautor não tem hífen.
+
+### Estrutura do JSON (padrão obrigatório)
+```json
+{
+  "id": "",
+  "titulo": "",
+  "area": "",
+  "resumo": "",
+  "teoria": {
+    "blocos": [
+      {
+        "subtitulo": "",
+        "conteudo": "",
+        "exemplos": [],
+        "regra": ""
+      }
+    ]
+  },
+  "pegadinhas": [
+    {
+      "titulo": "",
+      "errado": "",
+      "correto": "",
+      "explicacao": ""
+    }
+  ],
+  "cascas_de_banana": [
+    {
+      "situacao": "",
+      "dica": ""
+    }
+  ],
+  "questoes": [
+    {
+      "id": "q01",
+      "nivel": "basico",
+      "enunciado": "",
+      "alternativas": { "A": "", "B": "", "C": "", "D": "", "E": "" },
+      "gabarito": "",
+      "explicacao": ""
+    }
+  ],
+  "simulado": [
+    {
+      "id": "s01",
+      "nivel": "avancado",
+      "enunciado": "",
+      "alternativas": { "A": "", "B": "", "C": "", "D": "", "E": "" },
+      "gabarito": "",
+      "explicacao": ""
+    }
+  ]
+}
+```
+
+Requisitos de quantidade por JSON: mínimo 5 blocos de teoria, exatamente 5
+pegadinhas, exatamente 3 cascas de banana, exatamente 10 questões sendo 3
+básico, 4 intermediário e 3 avançado, exatamente 5 questões de simulado nível
+avançado.
+
+### JSONs implementados
+| ID | Título | Arquivo | Data |
+|---|---|---|---|
+| gram-01 | Ortografia e Acentuação Gráfica | gram-01.json | 07/06/2026 |
+
+### Próximo a gerar
+ID: gram-02
+Título: Uso do Sinal Indicador de Crase
+Arquivo a criar: src/data/conteudo/gram-02.json
+Após gerar, adicionar em conteudoIndex.ts: 'gram-02': () => import('./conteudo/gram-02.json'),
+
+### JSONs pendentes (por ordem de prioridade)
+| Prioridade | ID | Título |
+|---|---|---|
+| 1 | gram-02 | Uso do sinal indicador de crase |
+| 2 | gram-09 | Concordância nominal e verbal |
+| 3 | gram-10 | Regência nominal e verbal |
+| 4 | gram-11 | Colocação pronominal |
+| 5 | comp-03 | Informações implícitas e explícitas |
+| 6 | comp-06 | Relações lexicais |
+| 7 | comp-07 | Figuras de linguagem |
+| 8 | gram-08 | Coordenação e subordinação |
+| 9 | comp-10 | Coesão e coerência textual |
+| 10 | gram-12 | Pontuação |
+| 11 | gram-04 | Classes de palavras |
+| 12 | gram-05 | Flexão nominal e verbal |
+| 13 | comp-04 | Linguagem denotativa e conotativa |
+| 14 | comp-08 | Tipos e gêneros textuais |
+| 15 | gram-03 | Estrutura e formação de palavras |
+| 16 | gram-06 | Frase, oração e período |
+| 17 | gram-07 | Análise sintática da oração |
+| 18 | comp-02 | Propósitos do autor |
+| 19 | comp-09 | Tipos de discurso |
+| 20 | comp-05 | Ambiguidade e polissemia |
+| 21 | comp-13 | Variação linguística |
+| 22 | gram-13 | Reescritura de frases |
+| 23 | gram-14 | Paralelismo sintático |
+| 24 | comp-01 | Textos verbais e não verbais |
+| 25 | comp-11 | Intencionalidade e intertextualidade |
+| 26 | comp-12 | Informatividade e situacionalidade |
+| 27 | comp-14 | Elementos ficcionais e não ficcionais |
+
+### Instrução de atualização para o Windsurf
+Ao finalizar qualquer sessão que envolva adição de novo JSON ao app, atualize
+esta seção da seguinte forma: mova o ID recém-implementado da tabela de pendentes
+para a tabela de implementados com a data atual, atualize o campo Próximo a gerar
+com o próximo ID da lista de pendentes, e faça commit com a mensagem:
+docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
