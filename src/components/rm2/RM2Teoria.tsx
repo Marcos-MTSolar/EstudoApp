@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Loader2, ArrowLeft, Brain, Sparkles, BookOpen, CheckCircle, FileText, ChevronDown } from 'lucide-react';
+import { Loader2, ArrowLeft, Brain, CheckCircle, FileText, ChevronDown } from 'lucide-react';
 import { useAuth } from '../../lib/AuthContext';
 import { useRM2Data } from '../../lib/useRM2Data';
 import { getConteudo } from '../../data/conteudoIndex';
@@ -30,11 +30,9 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
   const [teoriaConcluidaLocal, setTeoriaConcluidaLocal] = useState(false);
   const [showConfirmacao, setShowConfirmacao] = useState(false);
 
-  const [resumo, setResumo] = useState<string | null>(null);
-  const [gerandoResumo, setGerandoResumo] = useState(false);
+  const [mostrarResumo, setMostrarResumo] = useState(false);
 
   useEffect(() => {
-    setResumo(null);
     const prog = getProgressoAssunto(assunto.id);
     if (prog?.teoriaVista) {
       setTeoriaConcluidaLocal(true);
@@ -54,18 +52,8 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
     }
   };
 
-  const handleGerarResumo = async () => {
-    if (resumo) {
-      setResumo(null);
-      return;
-    }
-
-    if (teoriaData?.resumo) {
-      setResumo(teoriaData.resumo);
-      return;
-    }
-
-    setResumo(teoriaData?.teoria?.substring(0, 300) + '...' || 'Não foi possível gerar o resumo rápido.');
+  const handleGerarResumo = () => {
+    setMostrarResumo(prev => !prev);
   };
 
   useEffect(() => {
@@ -181,33 +169,39 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
 
             <div className="space-y-3">
               <h3 className="text-base font-black text-white uppercase tracking-wider text-xs text-gray-400">Teoria Completa</h3>
-              {teoriaData.teoria?.blocos?.map((bloco: any, index: number) => (
-                <div key={index} style={{ marginBottom: '1.5rem' }}>
-                  {bloco.subtitulo && (
-                    <h4 className="text-sm font-black text-blue-300 mb-2">{bloco.subtitulo}</h4>
-                  )}
-                  <p className="text-sm text-gray-300 leading-relaxed" style={{ whiteSpace: 'pre-wrap' }}>{bloco.conteudo}</p>
-                  {bloco.regra && (
-                    <div style={{
-                      background: 'rgba(59,130,246,0.08)',
-                      borderLeft: '3px solid rgba(59,130,246,0.5)',
-                      padding: '0.5rem 0.75rem',
-                      marginTop: '0.5rem',
-                      borderRadius: '4px'
-                    }}>
-                      <span className="text-xs font-black text-blue-400 uppercase tracking-wider">Regra: </span>
-                      <span className="text-xs text-gray-300">{bloco.regra}</span>
-                    </div>
-                  )}
-                  {bloco.exemplos?.length > 0 && (
-                    <ul className="mt-2 space-y-1 list-disc list-inside">
-                      {bloco.exemplos.map((ex: string, i: number) => (
-                        <li key={i} className="text-xs text-gray-400">{ex}</li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
-              ))}
+              {(() => {
+                const todos = teoriaData.teoria?.blocos ?? [];
+                const quantidade = nivel === 'basico' ? 2
+                  : nivel === 'intermediario' ? 4
+                  : todos.length;
+                return todos.slice(0, quantidade).map((bloco: any, index: number) => (
+                  <div key={index} style={{ marginBottom: '1.5rem' }}>
+                    {bloco.subtitulo && (
+                      <h4 className="text-sm font-black text-blue-300 mb-2">{bloco.subtitulo}</h4>
+                    )}
+                    <p className="text-sm text-gray-300 leading-relaxed" style={{ whiteSpace: 'pre-wrap' }}>{bloco.conteudo}</p>
+                    {bloco.regra && (
+                      <div style={{
+                        background: 'rgba(59,130,246,0.08)',
+                        borderLeft: '3px solid rgba(59,130,246,0.5)',
+                        padding: '0.5rem 0.75rem',
+                        marginTop: '0.5rem',
+                        borderRadius: '4px'
+                      }}>
+                        <span className="text-xs font-black text-blue-400 uppercase tracking-wider">Regra: </span>
+                        <span className="text-xs text-gray-300">{bloco.regra}</span>
+                      </div>
+                    )}
+                    {bloco.exemplos?.length > 0 && (
+                      <ul className="mt-2 space-y-1 list-disc list-inside">
+                        {bloco.exemplos.map((ex: string, i: number) => (
+                          <li key={i} className="text-xs text-gray-400">{ex}</li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                ));
+              })()}
             </div>
 
             {teoriaData.regras?.length > 0 && (
@@ -265,30 +259,36 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
                         <span>⚠️ Pegadinhas Frequentes</span>
                       </h4>
                       <div className="space-y-3">
-                        {teoriaData.pegadinhas.map((peg: any, index: number) => (
-                          <div key={index} style={{ marginBottom: '0.75rem' }}>
-                            {typeof peg === 'string' ? (
-                              <p className="text-xs text-gray-300">{peg}</p>
-                            ) : (
-                              <>
-                                {peg.titulo && <p className="text-xs font-black text-red-300">{peg.titulo}</p>}
-                                {peg.errado && (
-                                  <p className="text-xs mt-1">
-                                    <span style={{ color: '#e55' }}>✗ Errado:</span> <span className="text-gray-400">{peg.errado}</span>
-                                  </p>
-                                )}
-                                {peg.correto && (
-                                  <p className="text-xs">
-                                    <span style={{ color: '#5a5' }}>✓ Correto:</span> <span className="text-gray-300">{peg.correto}</span>
-                                  </p>
-                                )}
-                                {peg.explicacao && (
-                                  <p className="text-xs text-gray-400 italic mt-1">{peg.explicacao}</p>
-                                )}
-                              </>
-                            )}
-                          </div>
-                        ))}
+                        {(() => {
+                          const todas = teoriaData.pegadinhas ?? [];
+                          const quantidade = nivel === 'basico' ? 2
+                            : nivel === 'intermediario' ? 3
+                            : todas.length;
+                          return todas.slice(0, quantidade).map((peg: any, index: number) => (
+                            <div key={index} style={{ marginBottom: '0.75rem' }}>
+                              {typeof peg === 'string' ? (
+                                <p className="text-xs text-gray-300">{peg}</p>
+                              ) : (
+                                <>
+                                  {peg.titulo && <p className="text-xs font-black text-red-300">{peg.titulo}</p>}
+                                  {peg.errado && (
+                                    <p className="text-xs mt-1">
+                                      <span style={{ color: '#e55' }}>✗ Errado:</span> <span className="text-gray-400">{peg.errado}</span>
+                                    </p>
+                                  )}
+                                  {peg.correto && (
+                                    <p className="text-xs">
+                                      <span style={{ color: '#5a5' }}>✓ Correto:</span> <span className="text-gray-300">{peg.correto}</span>
+                                    </p>
+                                  )}
+                                  {peg.explicacao && (
+                                    <p className="text-xs text-gray-400 italic mt-1">{peg.explicacao}</p>
+                                  )}
+                                </>
+                              )}
+                            </div>
+                          ));
+                        })()}
                       </div>
                     </div>
                   )}
@@ -302,14 +302,20 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
                 <hr className="border-border/60" />
                 <div className="space-y-3">
                   <h3 className="text-xs uppercase font-black tracking-wider text-amber-400">⚠️ Cascas de Banana</h3>
-                  {teoriaData.cascas_de_banana.map((casca: any, index: number) => (
-                    <div key={index} className="bg-amber-500/5 border border-amber-500/20 rounded-xl p-4 space-y-1">
-                      <p className="text-xs text-amber-300 font-bold">{casca.situacao}</p>
-                      <p className="text-xs text-gray-300 leading-relaxed">
-                        <span className="font-bold text-gray-200">Dica: </span>{casca.dica}
-                      </p>
-                    </div>
-                  ))}
+                  {(() => {
+                    const todas = teoriaData.cascas_de_banana ?? [];
+                    const quantidade = nivel === 'basico' ? 1
+                      : nivel === 'intermediario' ? 2
+                      : todas.length;
+                    return todas.slice(0, quantidade).map((casca: any, index: number) => (
+                      <div key={index} className="bg-amber-500/5 border border-amber-500/20 rounded-xl p-4 space-y-1">
+                        <p className="text-xs text-amber-300 font-bold">{casca.situacao}</p>
+                        <p className="text-xs text-gray-300 leading-relaxed">
+                          <span className="font-bold text-gray-200">Dica: </span>{casca.dica}
+                        </p>
+                      </div>
+                    ));
+                  })()}
                 </div>
               </>
             )}
@@ -336,25 +342,25 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
                 )}
               </div>
 
-              {/* B — Seção de Resumo Gerado por IA */}
+              {/* B — Seção de Resumo Rápido (lido do JSON estático) */}
               <div className="border border-gray-700 rounded-lg overflow-hidden">
                 <button
                   onClick={handleGerarResumo}
-                  disabled={gerandoResumo}
                   className="w-full flex items-center justify-between px-5 py-4 bg-gray-800 hover:bg-gray-750 text-left"
                 >
                   <span className="flex items-center gap-2 font-medium text-gray-200">
                     <FileText className="w-4 h-4" />
                     Resumo Rápido para Revisão
                   </span>
-                  {gerandoResumo
-                    ? <Loader2 className="w-4 h-4 animate-spin text-blue-400" />
-                    : <ChevronDown className="w-4 h-4 text-gray-400" />
-                  }
+                  <ChevronDown
+                    className={`w-4 h-4 text-gray-400 transition-transform ${
+                      mostrarResumo ? 'rotate-180' : ''
+                    }`}
+                  />
                 </button>
-                {resumo && (
+                {mostrarResumo && teoriaData?.resumo && (
                   <div className="px-5 py-4 bg-gray-900 text-gray-300 text-sm leading-relaxed whitespace-pre-wrap">
-                    {resumo}
+                    {teoriaData.resumo}
                   </div>
                 )}
               </div>

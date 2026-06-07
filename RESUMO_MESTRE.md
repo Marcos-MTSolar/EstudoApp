@@ -556,3 +556,34 @@ O sistema funciona de duas maneiras:
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
+
+### Parte 23 — Conteúdo progressivo por nível e resumo estático corrigido
+- **Data e hora:** 07/06/2026 às 06:34 (Horário Local)
+- **O que foi feito:**
+
+  **Correção 1 — Conteúdo progressivo por nível (`RM2Teoria.tsx`):**
+  - Blocos de teoria, pegadinhas e cascas de banana agora são fatiados com `slice(0, quantidade)` conforme o nível selecionado:
+
+    | Seção | Básico | Intermediário | Avançado |
+    |---|---|---|---|
+    | Blocos de teoria | 2 | 4 | todos |
+    | Pegadinhas | 2 | 3 | todas |
+    | Cascas de banana | 1 | 2 | todas |
+
+  - Implementado via IIFE `(() => { ... })()` em cada bloco de renderização, mantendo a lógica de filtragem isolada sem criar componentes extras.
+
+  **Correção 2 — Resumo rápido abre e fecha corretamente:**
+  - **Causa raiz:** `setResumo(null)` dentro do `useEffect` de carregamento resetava o estado de exibição do resumo a cada re-render, fazendo o painel fechar imediatamente após abrir.
+  - **Solução:** Substituído o estado `const [resumo, setResumo] = useState<string | null>(null)` pelo booleano independente `const [mostrarResumo, setMostrarResumo] = useState(false)`, que **não é resetado** pelo useEffect de carregamento.
+  - `handleGerarResumo` simplificado para `setMostrarResumo(prev => !prev)` (padrão funcional — sem closure stale).
+  - O conteúdo do resumo é lido diretamente de `teoriaData.resumo` do JSON estático — sem nenhuma chamada à API Groq.
+  - Removidos os estados e imports obsoletos: `gerandoResumo`, `Sparkles`, `BookOpen`.
+
+- **Validação:**
+  - `tsc --noEmit` ✅ zero erros TypeScript
+  - `npm run build` ✅ 2933 módulos transformados, zero erros
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Teoria.tsx` **[ATUALIZADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
