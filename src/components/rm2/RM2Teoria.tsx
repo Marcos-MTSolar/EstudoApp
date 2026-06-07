@@ -181,12 +181,36 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
 
             <div className="space-y-3">
               <h3 className="text-base font-black text-white uppercase tracking-wider text-xs text-gray-400">Teoria Completa</h3>
-              <p className="text-sm text-gray-300 leading-relaxed whitespace-pre-wrap">
-                {teoriaData.teoria}
-              </p>
+              {teoriaData.teoria?.blocos?.map((bloco: any, index: number) => (
+                <div key={index} style={{ marginBottom: '1.5rem' }}>
+                  {bloco.subtitulo && (
+                    <h4 className="text-sm font-black text-blue-300 mb-2">{bloco.subtitulo}</h4>
+                  )}
+                  <p className="text-sm text-gray-300 leading-relaxed" style={{ whiteSpace: 'pre-wrap' }}>{bloco.conteudo}</p>
+                  {bloco.regra && (
+                    <div style={{
+                      background: 'rgba(59,130,246,0.08)',
+                      borderLeft: '3px solid rgba(59,130,246,0.5)',
+                      padding: '0.5rem 0.75rem',
+                      marginTop: '0.5rem',
+                      borderRadius: '4px'
+                    }}>
+                      <span className="text-xs font-black text-blue-400 uppercase tracking-wider">Regra: </span>
+                      <span className="text-xs text-gray-300">{bloco.regra}</span>
+                    </div>
+                  )}
+                  {bloco.exemplos?.length > 0 && (
+                    <ul className="mt-2 space-y-1 list-disc list-inside">
+                      {bloco.exemplos.map((ex: string, i: number) => (
+                        <li key={i} className="text-xs text-gray-400">{ex}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              ))}
             </div>
 
-            {teoriaData.regras && teoriaData.regras.length > 0 && (
+            {teoriaData.regras?.length > 0 && (
               <>
                 <hr className="border-border/60" />
                 <div className="space-y-3">
@@ -203,7 +227,7 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
               </>
             )}
 
-            {teoriaData.exemplos && teoriaData.exemplos.length > 0 && (
+            {teoriaData.exemplos?.length > 0 && (
               <>
                 <hr className="border-border/60" />
                 <div className="space-y-4">
@@ -220,7 +244,7 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
               </>
             )}
 
-            {(teoriaData.dicaProva || (teoriaData.pegadinhas && teoriaData.pegadinhas.length > 0)) && (
+            {(teoriaData.dicaProva || (teoriaData.pegadinhas?.length > 0)) && (
               <>
                 <hr className="border-border/60" />
                 <div className="grid md:grid-cols-2 gap-5">
@@ -235,18 +259,57 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
                     </div>
                   )}
 
-                  {teoriaData.pegadinhas && teoriaData.pegadinhas.length > 0 && (
+                  {teoriaData.pegadinhas?.length > 0 && (
                     <div className="bg-red-500/5 border border-red-500/20 p-5 rounded-2xl space-y-2">
                       <h4 className="text-xs uppercase tracking-widest font-black text-red-400 flex items-center gap-2">
                         <span>⚠️ Pegadinhas Frequentes</span>
                       </h4>
-                      <ul className="space-y-1.5 list-disc list-inside text-xs text-gray-300 leading-relaxed">
-                        {teoriaData.pegadinhas.map((peg: string, i: number) => (
-                          <li key={i}>{peg}</li>
+                      <div className="space-y-3">
+                        {teoriaData.pegadinhas.map((peg: any, index: number) => (
+                          <div key={index} style={{ marginBottom: '0.75rem' }}>
+                            {typeof peg === 'string' ? (
+                              <p className="text-xs text-gray-300">{peg}</p>
+                            ) : (
+                              <>
+                                {peg.titulo && <p className="text-xs font-black text-red-300">{peg.titulo}</p>}
+                                {peg.errado && (
+                                  <p className="text-xs mt-1">
+                                    <span style={{ color: '#e55' }}>✗ Errado:</span> <span className="text-gray-400">{peg.errado}</span>
+                                  </p>
+                                )}
+                                {peg.correto && (
+                                  <p className="text-xs">
+                                    <span style={{ color: '#5a5' }}>✓ Correto:</span> <span className="text-gray-300">{peg.correto}</span>
+                                  </p>
+                                )}
+                                {peg.explicacao && (
+                                  <p className="text-xs text-gray-400 italic mt-1">{peg.explicacao}</p>
+                                )}
+                              </>
+                            )}
+                          </div>
                         ))}
-                      </ul>
+                      </div>
                     </div>
                   )}
+                </div>
+              </>
+            )}
+
+            {/* Cascas de Banana */}
+            {teoriaData.cascas_de_banana?.length > 0 && (
+              <>
+                <hr className="border-border/60" />
+                <div className="space-y-3">
+                  <h3 className="text-xs uppercase font-black tracking-wider text-amber-400">⚠️ Cascas de Banana</h3>
+                  {teoriaData.cascas_de_banana.map((casca: any, index: number) => (
+                    <div key={index} className="bg-amber-500/5 border border-amber-500/20 rounded-xl p-4 space-y-1">
+                      <p className="text-xs text-amber-300 font-bold">{casca.situacao}</p>
+                      <p className="text-xs text-gray-300 leading-relaxed">
+                        <span className="font-bold text-gray-200">Dica: </span>{casca.dica}
+                      </p>
+                    </div>
+                  ))}
                 </div>
               </>
             )}

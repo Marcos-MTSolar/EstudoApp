@@ -534,3 +534,25 @@ O sistema funciona de duas maneiras:
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
+
+### Parte 22 — Correção do React Minified Error #31 (objeto renderizado no JSX)
+- **Data e hora:** 07/06/2026 às 06:21 (Horário Local)
+- **Causa raiz:** Após a migração para JSON estático (Parte 20), o componente `RM2Teoria.tsx` tentava renderizar campos com tipos incompatíveis:
+  - `teoriaData.teoria` era um **objeto** `{ blocos: [...] }` sendo renderizado como `string` → Error #31
+  - `teoriaData.pegadinhas` era um **array de objetos** `{titulo, errado, correto, explicacao}` sendo iterado como `string[]` → Error #31
+  - Campos `regras`, `exemplos` e `dicaProva` não existem na raiz do JSON → `undefined` em condições sem optional chaining
+- **O que foi feito:**
+  1. **Correção 1 — `teoriaData.teoria`:** Substituída a renderização direta pela iteração sobre `teoriaData.teoria?.blocos?.map()`. Cada bloco exibe `subtitulo`, `conteudo`, `regra` (borda azul esquerda) e `exemplos` em lista.
+  2. **Correção 2 — `teoriaData.regras`:** Condição trocada para optional chaining `?.length > 0`.
+  3. **Correção 3 — `teoriaData.exemplos`:** Mesma correção com optional chaining.
+  4. **Correção 4 — `teoriaData.dicaProva`:** Bloco condicional simples — campo ausente resulta em `undefined` → seguro.
+  5. **Correção 5 — `teoriaData.pegadinhas`:** Render inteligente: `typeof peg === 'string'` exibe `<p>`, caso contrário exibe estrutura com `titulo`, `errado`, `correto` e `explicacao`.
+  6. **Correção 6 — `teoriaData.cascas_de_banana`:** Adicionada seção "⚠️ Cascas de Banana" iterando `situacao` + `dica`.
+- **Validação:**
+  - `tsc --noEmit` ✅ zero erros TypeScript
+  - `npm run build` ✅ 2933 módulos transformados, zero erros de build
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Teoria.tsx` **[CORRIGIDO — Error #31 eliminado]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
