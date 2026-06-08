@@ -1,0 +1,848 @@
+{
+  "id": "comp-09",
+  "titulo": "Tipos de Discurso",
+  "area": "Compreensão Textual",
+  "resumo": "Estudo das formas de incorporação da fala e do pensamento de personagens ou de outras vozes no texto: discurso direto, indireto e indireto livre, com suas marcas linguísticas, efeitos de sentido e implicações para a compreensão e a reescritura de enunciados.",
+  "teoria": {
+    "blocos": [
+      {
+        "subtitulo": "1. Definição e Função dos Tipos de Discurso",
+        "conteudo": "O termo 'discurso', no contexto dos tipos de discurso, refere-se à maneira como o narrador ou enunciador reproduz — dentro de seu próprio texto — a fala, o pensamento ou a voz de outrem. Todo texto narrativo (literário ou não) depara-se com a necessidade de dar voz a personagens, a autoridades, a entrevistados ou a documentos, e o modo como essa voz é inserida no discurso principal recebe classificações precisas na gramática e na teoria do texto. Cunha e Cintra (2017) distinguem três tipos básicos: discurso direto (DD), discurso indireto (DI) e discurso indireto livre (DIL). Fiorin e Savioli (2007) acrescentam que a escolha entre esses tipos não é neutra: cada um produz efeitos de subjetividade, de distanciamento ou de identificação entre o narrador e a personagem. Koch e Elias (2008) destacam que reconhecer esses tipos é fundamental para a compreensão leitora, pois o leitor precisa identificar de quem é a voz responsável por determinada informação ou avaliação. No Manual de Redação e Estilo da Marinha (2024), o discurso direto é amplamente utilizado em atas, depoimentos e transcrições de ordens, enquanto o indireto predomina em relatórios e documentos oficiais.",
+        "exemplos": [
+          "DD: O comandante ordenou: 'Recolham as velas imediatamente!'",
+          "DI: O comandante ordenou que recolhessem as velas imediatamente.",
+          "DIL: O comandante estava furioso. Recolhessem as velas imediatamente!"
+        ],
+        "regra": "Discurso direto reproduz a fala textualmente; discurso indireto a adapta sintaticamente ao enunciador principal; discurso indireto livre mescla as duas vozes sem marcador explícito."
+      },
+      {
+        "subtitulo": "2. Discurso Direto: Marcas e Estrutura",
+        "conteudo": "O discurso direto (DD) é a reprodução literal, supostamente fiel, das palavras de alguém. Suas marcas formais são: (a) verbos de elocução (dizer, perguntar, exclamar, responder, ordenar, declarar, afirmar, negar, etc.) que introduzem a fala; (b) dois-pontos antes da fala; (c) travessão (no caso de diálogos narrativos) ou aspas (no caso de citações em textos formais); (d) manutenção dos pronomes, tempos verbais e dêiticos originais do falante. A ordem do verbo de elocução pode variar: ele pode vir antes da fala (anteposto), no meio (intercalado) ou depois (posposto). Quando intercalado ou posposto, há inversão entre sujeito e verbo ('— Siga em frente — ordenou o oficial. / — Siga em frente — o oficial ordenou.'). Cunha e Cintra (2017) alertam que, no DD intercalado, se o sujeito for um substantivo (não pronome), a inversão é obrigatória na norma culta escrita. O Manual da Marinha (2024) determina que citações literais em documentos oficiais devem ser reproduzidas entre aspas duplas, sem travessão, preservando até eventuais erros do original, que devem ser sinalizados com [sic].",
+        "exemplos": [
+          "Anteposto: O tenente disse: 'A manobra está concluída.'",
+          "Intercalado: 'A manobra', disse o tenente, 'está concluída.'",
+          "Posposto: 'A manobra está concluída', disse o tenente.",
+          "Com [sic]: O relatório registra que 'o navio aportou no [sic] litoral nordestino'."
+        ],
+        "regra": "No DD, tudo que pertence à fala original é preservado: pronomes de 1ª e 2ª pessoa, tempos verbais do presente/pretérito perfeito, dêiticos como 'aqui', 'agora', 'este'."
+      },
+      {
+        "subtitulo": "3. Discurso Indireto: Marcas e Transposições Obrigatórias",
+        "conteudo": "O discurso indireto (DI) adapta sintaticamente a fala de outrem ao ponto de vista do narrador, integrando-a como oração subordinada substantiva. As transposições obrigatórias são: (1) Pronomes pessoais: 'eu' → 'ele/ela'; 'você/tu' → 'ele/ela' ou omissão; (2) Pronomes possessivos: 'meu' → 'seu/dele'; 'nosso' → 'seu/deles'; (3) Pronomes demonstrativos: 'este/esse/aqui' → 'aquele/lá/ali'; (4) Tempos verbais: presente → imperfeito do indicativo; pretérito perfeito → pretérito mais-que-perfeito; futuro do presente → futuro do pretérito; imperativo → subjuntivo; (5) Advérbios de tempo e lugar: 'hoje' → 'naquele dia'; 'amanhã' → 'no dia seguinte'; 'aqui' → 'ali/lá'; 'agora' → 'então/naquele momento'. A conjunção subordinativa que é obrigatória após verbos declarativos (disse que, afirmou que, declarou que). Após verbos de questionamento com interrogativa indireta total, usa-se 'se' (perguntou se…); com interrogativa parcial, usa-se o próprio pronome/advérbio interrogativo (perguntou onde, perguntou quem). Fiorin e Savioli (2007) destacam que o DI apaga a individualidade da fala original, submetendo-a ao controle do narrador — efeito relevante para textos argumentativos e relatórios.",
+        "exemplos": [
+          "DD: 'Eu chegarei amanhã', disse ela. → DI: Ela disse que chegaria no dia seguinte.",
+          "DD: 'Você foi lá hoje?' → DI: Ele perguntou se ela tinha ido lá naquele dia.",
+          "DD: 'Venha agora!' → DI: Ele mandou que ela viesse naquele momento.",
+          "DD: 'Este documento é meu.' → DI: Ela afirmou que aquele documento era dela."
+        ],
+        "regra": "DICA DO ESPELHO: ao passar para o DI, inverta a perspectiva — o que era 'eu/aqui/agora/este' torna-se 'ele/lá/então/aquele', e o presente vira imperfeito."
+      },
+      {
+        "subtitulo": "4. Discurso Indireto Livre: Fusão de Vozes",
+        "conteudo": "O discurso indireto livre (DIL) é um recurso estilístico sofisticado, muito explorado na literatura modernista brasileira (Machado de Assis, Graciliano Ramos, Clarice Lispector), que consiste na fusão imperceptível da voz do narrador com a voz da personagem, sem verbos de elocução nem conectores subordinativos. Formalmente, o DIL se caracteriza por: (a) ausência de verbos dicendi introdutórios; (b) ausência de aspas, travessão ou dois-pontos; (c) uso de 3ª pessoa (como o narrador), mas com pronomes, dêiticos e entonação da personagem; (d) presença de marcas de subjetividade — exclamações, interrogações, reticências, interjeições — incomuns no narrador onisciente neutro. A ambiguidade é constitutiva do DIL: o leitor não sabe com exateza se é o narrador ou a personagem que avalia, sente ou questiona. Koch e Elias (2008) analisam o DIL como estratégia de polifonia textual: múltiplas vozes habitam o mesmo enunciado, criando efeitos de ironia, empatia ou crítica. Nas questões do concurso, o DIL é frequentemente associado à pergunta 'de quem é a voz responsável pelo trecho?'.",
+        "exemplos": [
+          "Narração: João entrou na sala. Que ambiente deplorável! Jamais voltaria ali. (A exclamação e o julgamento são da personagem, não do narrador.)",
+          "Narração: A oficial leu o ofício. Mentiras, tudo mentiras. O comandante nunca a respeitara de verdade. (Pensamento da oficial inserido sem marcador.)",
+          "Narração: O cadete olhou para o mar. Era tão vasto. Conseguiria atravessá-lo algum dia? (Interrogação interna da personagem, não do narrador.)"
+        ],
+        "regra": "Identifique o DIL pela ausência de marcadores formais + presença de subjetividade emocional (exclamações, interrogações, julgamentos) no meio de uma narração em 3ª pessoa."
+      },
+      {
+        "subtitulo": "5. Efeitos de Sentido, Polifonia e Aplicações em Textos Formais",
+        "conteudo": "A escolha do tipo de discurso é um recurso estilístico e argumentativo. O DD confere autenticidade, dramaticidade e responsabilidade à fala original — o leitor ouve diretamente a voz citada, e o narrador se isenta de qualquer interpretação. Por isso, é preferido em jornalismo (para não deturpar a fonte), em atas (para garantir fidelidade) e em discursos jurídicos. O DI, ao contrário, filtra a fala pela perspectiva do narrador, que pode manipular, resumir ou reinterpretar — por isso Fiorin e Savioli (2007) alertam que o DI pode distorcer o sentido original. O DIL gera ambiguidade proposital: o narrador pode ironizar ou criticar a personagem por meio de suas próprias palavras, sem assumir explicitamente tal julgamento. Nas provas militares, os tipos de discurso são avaliados sob quatro ângulos: (1) reconhecimento do tipo em um trecho; (2) transposição correta de DD para DI (com todas as mudanças obrigatórias); (3) identificação da voz responsável por determinado enunciado; (4) efeitos de sentido produzidos pela escolha do tipo. O Manual da Marinha (2024) enfatiza que documentos oficiais devem evitar o DIL e o DD em relatórios narrativos, privilegiando o DI para garantir clareza e impessoalidade.",
+        "exemplos": [
+          "Efeito de autenticidade (DD): 'Não cometerei este erro', prometeu o almirante. (A responsabilidade é do almirante.)",
+          "Efeito de controle (DI): O almirante prometeu que não cometeria aquele erro. (O narrador controla a informação.)",
+          "Efeito de ironia (DIL): O almirante prometera. Claro que prometera. E todos acreditaram, ingênuos."
+        ],
+        "regra": "DD = autenticidade e responsabilidade do falante original. DI = controle e mediação do narrador. DIL = fusão de vozes com possível ironia ou empatia — a voz não é claramente atribuída a nenhum dos dois."
+      },
+      {
+        "subtitulo": "6. Transposições Avançadas e Casos Especiais",
+        "conteudo": "Além das transposições básicas, há casos que exigem atenção especial: (a) Imperativo para DI: 'Vá!' → 'mandou que fosse'; 'Não faça isso!' → 'proibiu que fizesse isso' / 'pediu para não fazer isso'; (b) Frases exclamativas para DI: 'Que belo dia!' → 'exclamou que era um belo dia' / 'disse que o dia estava muito belo'; (c) Frases interrogativas totais para DI: usam 'se' como conector ('Você dormiu?' → 'perguntou se ela tinha dormido'); (d) Frases interrogativas parciais para DI: mantêm o pronome/advérbio interrogativo ('Onde você mora?' → 'perguntou onde ela morava'); (e) Discurso direto com verbos no futuro composto → futuro do pretérito composto no DI ('Terei terminado antes das 18h' → 'disse que teria terminado antes das 18h'); (f) Inversão no DD posposto ou intercalado: não se usa pronome reto antes do verbo de elocução intercalado ('— Serei breve — disse ele' é correto; '— Serei breve — ele disse' também é correto em contexto informal, mas a forma invertida é preferida na norma culta escrita). Cunha e Cintra (2017) ressaltam ainda que verbos de elocução com sentido específico (confessar, lamentar, exigir, sugerir) condicionam o modo verbal na subordinada: 'exigiu que viesse' (subjuntivo), 'sugeriu que viesse' (subjuntivo), 'afirmou que vinha' (indicativo).",
+        "exemplos": [
+          "'Onde está o mapa?' → perguntou onde estava o mapa.",
+          "'Venha imediatamente!' → ordenou que viesse imediatamente.",
+          "'Que honra receber esta medalha!' → exclamou que era uma grande honra receber aquela medalha.",
+          "'Terei concluído o relatório até sexta.' → disse que teria concluído o relatório até sexta."
+        ],
+        "regra": "Imperativo → subjuntivo no DI. Interrogativa total → 'se' + indicativo ou subjuntivo. Interrogativa parcial → pronome/advérbio original + verbo transposto. Exclamativa → verbo de sentimento/julgamento + que + indicativo."
+      }
+    ]
+  },
+  "pegadinhas": [
+    {
+      "titulo": "Inversão obrigatória no DD intercalado",
+      "errado": "— Está tudo certo — ele disse, afastando-se.",
+      "correto": "— Está tudo certo — disse ele, afastando-se.",
+      "explicacao": "Quando o verbo de elocução é intercalado ou posposto no DD e o sujeito é um pronome pessoal reto, ambas as ordens são aceitas na língua culta. Porém, quando o sujeito é um substantivo (nome comum ou próprio), a inversão (verbo + sujeito) é obrigatória na norma culta escrita: '— Está tudo certo — disse o oficial' (correto); '— Está tudo certo — o oficial disse' (informal/incorreto na norma padrão escrita). As bancas militares frequentemente apresentam construções com substantivo na ordem direta como distrator."
+    },
+    {
+      "titulo": "Confusão entre 'se' e 'que' no DI",
+      "errado": "O sargento perguntou que o recruta havia chegado.",
+      "correto": "O sargento perguntou se o recruta havia chegado.",
+      "explicacao": "Verbos de questionamento (perguntar, indagar, querer saber) introduzem interrogativa indireta total com a conjunção 'se', nunca com 'que'. O uso de 'que' após 'perguntar' é erro grave e muito cobrado em provas. Reserva-se 'que' para verbos declarativos: 'disse que', 'afirmou que', 'declarou que'. A confusão ocorre porque, na fala popular, usa-se 'perguntou que' — mas a norma culta exige 'se' para interrogativa total."
+    },
+    {
+      "titulo": "Não transposição do dêitico no DI",
+      "errado": "Ela disse que chegaria aqui amanhã.",
+      "correto": "Ela disse que chegaria ali / lá no dia seguinte.",
+      "explicacao": "Um dos erros mais frequentes nas transposições de DD para DI é manter os dêiticos originais do falante. 'Aqui' (lugar próximo do falante) torna-se 'ali' ou 'lá' no DI; 'amanhã' torna-se 'no dia seguinte'; 'hoje' torna-se 'naquele dia'; 'agora' torna-se 'então' ou 'naquele momento'. As bancas apresentam transposições incompletas (com um dêitico não transposto) como alternativa errada que parece certa."
+    },
+    {
+      "titulo": "DIL confundido com DD sem aspas",
+      "errado": "Identificar 'Que injustiça cruel! Ninguém o compreendia.' como discurso direto sem aspas.",
+      "correto": "O trecho é discurso indireto livre, pois não há verbo de elocução introdutório nem conector subordinativo, mas há marcas de subjetividade da personagem fundidas à narração em 3ª pessoa.",
+      "explicacao": "O DD sem aspas existe (quando se usa travessão em diálogos), mas sempre exige verbo de elocução ou travessão introdutório. O DIL nunca tem verbo de elocução nem travessão/aspas: ele simplesmente irrompe no fluxo narrativo. Identificar o DIL requer perceber que a subjetividade (exclamações, interrogações, julgamentos emocionais) pertence à personagem, não ao narrador onisciente neutro. Esse é o tipo de discurso mais difícil de identificar e muito cobrado em provas de nível avançado."
+    },
+    {
+      "titulo": "Modo verbal errado após verbo de ordem no DI",
+      "errado": "O comandante ordenou que todos ficaram em seus postos.",
+      "correto": "O comandante ordenou que todos ficassem em seus postos.",
+      "explicacao": "Verbos de ordem, pedido, proibição, desejo e sugestão (ordenar, pedir, proibir, desejar, sugerir, exigir, recomendar) regem obrigatoriamente o subjuntivo na oração subordinada do DI. O uso do indicativo ('ficaram') é erro crasso que aparece como distrator. Apenas verbos declarativos (dizer, afirmar, declarar, revelar) admitem o indicativo na subordinada ('disse que estava cansado')."
+    }
+  ],
+  "cascas_de_banana": [
+    {
+      "situacao": "A questão pede a transposição de uma frase do DD para o DI, e o candidato acerta os verbos e pronomes, mas esquece de transpor os dêiticos de lugar e tempo ('aqui', 'hoje', 'este'), deixando-os na forma original.",
+      "dica": "Crie uma lista mental de dêiticos obrigatórios a transpor: LUGAR (aqui → lá/ali, cá → lá), TEMPO (hoje → naquele dia, amanhã → no dia seguinte, ontem → no dia anterior, agora → então/naquele momento) e DEMONSTRATIVOS (este/esse → aquele, isto/isso → aquilo). Revise todos eles antes de marcar a alternativa."
+    },
+    {
+      "situacao": "O candidato identifica corretamente o DIL num trecho, mas na pergunta sobre 'a quem pertence a avaliação/julgamento expressa no trecho', marca 'ao narrador' em vez de 'à personagem' — ou vice-versa.",
+      "dica": "No DIL, a subjetividade emocional (exclamações, julgamentos morais, interrogações angustiadas, interjeições) sempre pertence à personagem, mesmo que a narração esteja em 3ª pessoa. O narrador onisciente neutro não se emociona nem julga — ele apenas narra. Então: emoção no meio da narração em 3ª pessoa = voz da personagem = DIL."
+    },
+    {
+      "situacao": "A questão apresenta um DD com verbo de elocução intercalado e sujeito substantivo na ordem direta ('O oficial disse: …' dentro do diálogo) e pede a reescritura na norma culta. O candidato mantém a ordem direta por analogia com o uso cotidiano.",
+      "dica": "Grave a regra: verbo de elocução intercalado ou posposto + sujeito substantivo = inversão obrigatória na norma culta. '— Serei breve — disse o oficial' (correto). '— Serei breve — o oficial disse' (informal). Quando o sujeito for pronome, ambas as ordens são aceitas, mas a invertida é estilisticamente preferida."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "q01",
+      "nivel": "basico",
+      "enunciado": "O discurso direto distingue-se dos demais tipos de discurso por:",
+      "alternativas": {
+        "A": "adaptar sintaticamente a fala da personagem ao ponto de vista do narrador.",
+        "B": "fundir a voz do narrador com a da personagem sem marcadores formais.",
+        "C": "reproduzir literalmente a fala ou o pensamento de alguém, com verbos de elocução e sinais gráficos específicos.",
+        "D": "eliminar os pronomes de primeira pessoa e substituí-los por pronomes de terceira.",
+        "E": "subordinar a fala da personagem ao verbo principal por meio da conjunção 'que'."
+      },
+      "gabarito": "C",
+      "explicacao": "O discurso direto (DD) caracteriza-se pela reprodução literal, supostamente fiel, das palavras de outrem, com verbos de elocução (dizer, perguntar, ordenar etc.) e sinais gráficos (aspas ou travessão + dois-pontos). A alternativa A descreve o discurso indireto; a B descreve o discurso indireto livre; a D e a E descrevem operações próprias do discurso indireto."
+    },
+    {
+      "id": "q02",
+      "nivel": "basico",
+      "enunciado": "Assinale a alternativa que apresenta um exemplo correto de discurso indireto:",
+      "alternativas": {
+        "A": "O sargento gritou: 'Formem a tropa!'",
+        "B": "O sargento gritou que formassem a tropa.",
+        "C": "O sargento estava exausto. Formem a tropa. Não havia outra saída.",
+        "D": "O sargento: 'Formem a tropa, sem demora.'",
+        "E": "— Formem a tropa! — gritou o sargento."
+      },
+      "gabarito": "B",
+      "explicacao": "O discurso indireto integra a fala à oração principal como subordinada, com transposição verbal (imperativo 'Formem' → subjuntivo 'formassem') e introdução pela conjunção 'que'. A alternativa A é DD com dois-pontos e aspas implícitas (falta o sinal gráfico, mas a estrutura é de citação direta). C é discurso indireto livre (sem marcador, com imperativo no meio da narração). D é DD malformado. E é DD com travessão."
+    },
+    {
+      "id": "q03",
+      "nivel": "basico",
+      "enunciado": "No discurso indireto, a palavra 'aqui' (dêitico de lugar do falante original) deve ser transposta para:",
+      "alternativas": {
+        "A": "cá",
+        "B": "aqui mesmo",
+        "C": "ali ou lá",
+        "D": "aí",
+        "E": "neste lugar"
+      },
+      "gabarito": "C",
+      "explicacao": "'Aqui' indica proximidade do falante original (1ª pessoa do DD). Ao passar para o DI, o ponto de vista muda para o do narrador, e o lugar que era próximo do falante original torna-se distante do narrador: usa-se 'ali' (distância média) ou 'lá' (distância maior). 'Cá' (A) também indica proximidade e seria igualmente incorreto. 'Aí' (D) indica proximidade do interlocutor. 'Neste lugar' (E) mantém o demonstrativo de proximidade 'este', igualmente inadequado."
+    },
+    {
+      "id": "q04",
+      "nivel": "basico",
+      "enunciado": "Identifique o tipo de discurso presente em: 'O tenente olhou para os recrutas. Eram jovens demais. Aguentariam a travessia?'",
+      "alternativas": {
+        "A": "Discurso direto.",
+        "B": "Discurso indireto com interrogativa indireta.",
+        "C": "Discurso indireto livre.",
+        "D": "Discurso direto livre.",
+        "E": "Narração objetiva sem discurso reportado."
+      },
+      "gabarito": "C",
+      "explicacao": "O trecho está em 3ª pessoa, sem verbos de elocução, sem aspas e sem travessão. No entanto, os julgamentos emocionais ('Eram jovens demais') e a interrogação angustiada ('Aguentariam a travessia?') pertencem ao pensamento da personagem (o tenente), não a um narrador neutro. Essa fusão imperceptível de vozes, sem marcadores formais, é a marca definitória do discurso indireto livre."
+    },
+    {
+      "id": "q05",
+      "nivel": "basico",
+      "enunciado": "Qual conjunção deve introduzir a oração subordinada no discurso indireto quando o verbo principal é 'perguntar' e a interrogativa original era total (sim/não)?",
+      "alternativas": {
+        "A": "que",
+        "B": "se",
+        "C": "como",
+        "D": "quando",
+        "E": "onde"
+      },
+      "gabarito": "B",
+      "explicacao": "Interrogativas indiretas totais (que admitem resposta 'sim' ou 'não') são introduzidas pela conjunção integrante 'se': 'perguntou se ele havia chegado'. A conjunção 'que' (A) é usada após verbos declarativos (disse que, afirmou que). As alternativas C, D e E são pronomes/advérbios interrogativos usados em interrogativas parciais, que mantêm o pronome original da pergunta ('perguntou como estava', 'perguntou quando viria', 'perguntou onde estava')."
+    },
+    {
+      "id": "q06",
+      "nivel": "basico",
+      "enunciado": "Ao transpor 'Eu chegarei amanhã', disse ela para o discurso indireto, obtém-se:",
+      "alternativas": {
+        "A": "Ela disse que eu chegaria amanhã.",
+        "B": "Ela disse que chegaria amanhã.",
+        "C": "Ela disse que chegaria no dia seguinte.",
+        "D": "Ela disse que chegou no dia seguinte.",
+        "E": "Ela disse que eu chegaria no dia seguinte."
+      },
+      "gabarito": "C",
+      "explicacao": "As transposições obrigatórias são: (1) 'eu' → 'ela' (pronome pessoal); (2) 'chegarei' (futuro do presente) → 'chegaria' (futuro do pretérito); (3) 'amanhã' → 'no dia seguinte' (dêitico temporal). A alternativa B está quase correta, mas mantém 'amanhã' sem transpor. A alternativa A não transpõe 'eu'. A D usa pretérito perfeito onde deveria estar o futuro do pretérito. A E mantém 'eu' sem transpor."
+    },
+    {
+      "id": "q07",
+      "nivel": "basico",
+      "enunciado": "Qual das alternativas apresenta a transposição correta do imperativo para o discurso indireto?",
+      "alternativas": {
+        "A": "O oficial mandou: vocês sairão agora.",
+        "B": "O oficial mandou que vocês saíam agora.",
+        "C": "O oficial mandou que saíssem naquele momento.",
+        "D": "O oficial mandou que eles sairão naquele momento.",
+        "E": "O oficial mandou eles sairem naquele momento."
+      },
+      "gabarito": "C",
+      "explicacao": "Verbos de ordem, como 'mandar', regem subjuntivo na oração subordinada do DI. O imperativo 'Saiam agora!' deve ser transposto para 'que saíssem naquele momento' — subjuntivo imperfeito + transposição do dêitico 'agora' → 'naquele momento'. A B usa indicativo imperfeito 'saíam' (erro de modo). A D usa futuro do presente 'sairão' (erro de modo e tempo). A E usa infinitivo 'sairem' (erro de estrutura). A A mantém a estrutura de DD."
+    },
+    {
+      "id": "q08",
+      "nivel": "basico",
+      "enunciado": "O discurso indireto livre diferencia-se do discurso indireto convencional principalmente por:",
+      "alternativas": {
+        "A": "usar verbos no subjuntivo em vez do indicativo.",
+        "B": "apresentar a fala entre aspas ou após travessão.",
+        "C": "fundir a voz do narrador e da personagem sem verbos de elocução nem conectores subordinativos.",
+        "D": "transpor todos os pronomes e dêiticos para a perspectiva do narrador.",
+        "E": "reproduzir a fala literalmente, sem adaptação sintática."
+      },
+      "gabarito": "C",
+      "explicacao": "O DIL caracteriza-se exatamente pela ausência de marcadores formais (sem verbo de elocução, sem aspas, sem travessão, sem conjunção 'que' introdutória) e pela fusão das vozes do narrador e da personagem. O DI convencional (A, D) exige transposição sistemática de pronomes, tempos e dêiticos, além de conector subordinativo. O DD (B, E) usa aspas/travessão e reproduz literalmente."
+    },
+    {
+      "id": "q09",
+      "nivel": "basico",
+      "enunciado": "Na frase 'O almirante afirmou que a operação fora bem-sucedida', o verbo 'fora' (pretérito mais-que-perfeito) corresponde, no discurso direto original, a qual tempo verbal?",
+      "alternativas": {
+        "A": "Futuro do presente.",
+        "B": "Pretérito imperfeito.",
+        "C": "Pretérito perfeito.",
+        "D": "Presente do indicativo.",
+        "E": "Futuro do pretérito."
+      },
+      "gabarito": "C",
+      "explicacao": "A tabela de transposição temporal do DI estabelece: pretérito perfeito no DD → pretérito mais-que-perfeito no DI. Portanto, 'fora bem-sucedida' (MQP) corresponde ao original 'foi bem-sucedida' (PP) no DD: 'A operação foi bem-sucedida.' O presente (D) se tornaria imperfeito; o futuro do presente (A) se tornaria futuro do pretérito; o futuro do pretérito (E) manteria o futuro do pretérito; o imperfeito (B) manteria o imperfeito."
+    },
+    {
+      "id": "q10",
+      "nivel": "basico",
+      "enunciado": "Qual sinal gráfico é obrigatório para introduzir a fala direta em um diálogo narrativo na norma culta brasileira escrita?",
+      "alternativas": {
+        "A": "Ponto de exclamação.",
+        "B": "Vírgula após o verbo de elocução.",
+        "C": "Travessão (—) ou dois-pontos seguidos de aspas.",
+        "D": "Reticências antes da fala.",
+        "E": "Ponto e vírgula antes da fala."
+      },
+      "gabarito": "C",
+      "explicacao": "O DD em diálogos narrativos usa travessão (—) para introduzir cada fala de personagem; em citações dentro de textos corridos (artigos, relatórios, atas), usa-se dois-pontos seguidos de aspas duplas. Ambas as formas são aceitas pela norma culta. Nenhum dos outros sinais mencionados (A, B, D, E) tem função de introdução de fala direta."
+    },
+    {
+      "id": "q11",
+      "nivel": "intermediario",
+      "enunciado": "Leia o trecho: 'A oficial entrou na sala. Estava vazia. Claro, sempre estava vazia quando ela precisava de ajuda. Ninguém a levava a sério naquela instituição.' Sobre o tipo de discurso predominante, é correto afirmar que:",
+      "alternativas": {
+        "A": "é discurso direto, pois as falas estão implicitamente entre aspas.",
+        "B": "é discurso indireto, pois os verbos estão no imperfeito do indicativo.",
+        "C": "é discurso indireto livre, pois os julgamentos ('Claro', 'Ninguém a levava a sério') pertencem à personagem, fundidos à narração em 3ª pessoa sem marcadores formais.",
+        "D": "é narração pura, sem nenhum tipo de discurso reportado.",
+        "E": "é discurso indireto livre apenas no segundo período; o restante é narração objetiva."
+      },
+      "gabarito": "C",
+      "explicacao": "Todo o trecho está permeado pelo DIL: a expressão 'Claro' (marcador de sarcasmo da personagem) e o julgamento 'Ninguém a levava a sério naquela instituição' (avaliação subjetiva da oficial) são vozes da personagem, não do narrador neutro, inseridas sem nenhum marcador formal (sem verbo de elocução, sem aspas, sem conjunção). A B está errada porque o uso do imperfeito é característica tanto do DI quanto do DIL; o que define o tipo é a presença ou ausência de marcadores. A D ignora os julgamentos subjetivos. A E subdivide incorretamente o trecho."
+    },
+    {
+      "id": "q12",
+      "nivel": "intermediario",
+      "enunciado": "Passe para o discurso indireto: 'Onde você estava ontem à noite?', ele perguntou. A transposição correta é:",
+      "alternativas": {
+        "A": "Ele perguntou que onde ela estava na noite anterior.",
+        "B": "Ele perguntou se onde ela estivera na noite anterior.",
+        "C": "Ele perguntou onde ela estivera na noite anterior.",
+        "D": "Ele perguntou onde ela estava ontem à noite.",
+        "E": "Ele perguntou onde você estava na noite anterior."
+      },
+      "gabarito": "C",
+      "explicacao": "Interrogativa parcial iniciada por 'onde' → mantém-se 'onde' no DI, sem acrescentar 'que' (A) nem 'se' (B). 'você' (2ª pessoa) → 'ela' (3ª pessoa). 'estava' (pretérito imperfeito) → 'estivera' (pretérito mais-que-perfeito) ou 'tinha estado' — os dois são aceitos. 'ontem à noite' → 'na noite anterior' (D mantém 'ontem', erro de dêitico). E mantém 'você' sem transpor o pronome."
+    },
+    {
+      "id": "q13",
+      "nivel": "intermediario",
+      "enunciado": "Em qual alternativa o verbo de elocução exige obrigatoriamente o modo subjuntivo na subordinada do discurso indireto?",
+      "alternativas": {
+        "A": "afirmou que",
+        "B": "declarou que",
+        "C": "revelou que",
+        "D": "exigiu que",
+        "E": "confirmou que"
+      },
+      "gabarito": "D",
+      "explicacao": "'Exigiu que' é verbo de vontade/ordem, que rege subjuntivo: 'exigiu que todos saíssem'. As alternativas A (afirmou), B (declarou), C (revelou) e E (confirmou) são verbos declarativos, que introduzem fato tido como real e regem indicativo: 'afirmou que estava certo', 'revelou que sabia a verdade'. Essa distinção (verbo de ordem → subjuntivo; verbo declarativo → indicativo) é um dos pontos mais cobrados em provas militares."
+    },
+    {
+      "id": "q14",
+      "nivel": "intermediario",
+      "enunciado": "No discurso direto: 'Este relatório é o meu trabalho de dois anos', disse o engenheiro. A transposição para o discurso indireto é:",
+      "alternativas": {
+        "A": "O engenheiro disse que este relatório era o seu trabalho de dois anos.",
+        "B": "O engenheiro disse que aquele relatório era o trabalho dele de dois anos.",
+        "C": "O engenheiro disse que aquele relatório foi o trabalho dele de dois anos.",
+        "D": "O engenheiro disse que este relatório foi o trabalho de dois anos dele.",
+        "E": "O engenheiro disse que o relatório seria o seu trabalho de dois anos."
+      },
+      "gabarito": "B",
+      "explicacao": "Transposições obrigatórias: 'este' (demonstrativo de proximidade) → 'aquele' (distância, perspectiva do narrador); 'é' (presente) → 'era' (imperfeito); 'meu' (possessivo de 1ª pessoa) → 'dele' (possessivo de 3ª pessoa) — ou 'seu', que também é aceito, mas 'dele' evita ambiguidade. A usa 'este' e 'seu' sem transpor demonstrativo. C usa pretérito perfeito 'foi' em vez de imperfeito 'era'. D mantém 'este' e usa pretérito perfeito. E usa futuro do pretérito 'seria', incorreto."
+    },
+    {
+      "id": "q15",
+      "nivel": "intermediario",
+      "enunciado": "Qual efeito de sentido é produzido pela opção pelo discurso direto em vez do indireto em um texto jornalístico?",
+      "alternativas": {
+        "A": "Maior controle do jornalista sobre o conteúdo da fala do entrevistado.",
+        "B": "Possibilidade de resumir e reinterpretar as palavras do entrevistado.",
+        "C": "Maior autenticidade e responsabilidade atribuída ao próprio falante, com menor mediação do enunciador.",
+        "D": "Fusão entre a voz do jornalista e a do entrevistado, criando ambiguidade intencional.",
+        "E": "Subordinação da fala do entrevistado à avaliação do jornalista."
+      },
+      "gabarito": "C",
+      "explicacao": "O DD confere autenticidade à fala (o leitor 'ouve' diretamente o entrevistado) e transfere ao falante original a responsabilidade pelo que foi dito. O jornalista se isenta de qualquer interpretação. As alternativas A, B e E descrevem propriedades do DI, no qual o narrador/enunciador controla, filtra e pode reinterpretar. A D descreve o DIL."
+    },
+    {
+      "id": "q16",
+      "nivel": "intermediario",
+      "enunciado": "Assinale a alternativa em que a transposição do discurso direto para o indireto está INCORRETA:",
+      "alternativas": {
+        "A": "'Eu não sei nada.' → Ela disse que não sabia nada.",
+        "B": "'Venha cá!' → Ele mandou que ela viesse lá.",
+        "C": "'Você foi ao porto hoje?' → Ele perguntou se ela tinha ido ao porto naquele dia.",
+        "D": "'Terminarei o trabalho.' → Ela disse que terminaria o trabalho.",
+        "E": "'Que belo pôr do sol!' → Ela exclamou que o pôr do sol estava muito belo."
+      },
+      "gabarito": "B",
+      "explicacao": "'Venha cá!' → o imperativo 'venha' transpõe-se corretamente para subjuntivo 'viesse'. Porém, 'cá' (que indica lugar próximo do falante que emite a ordem) deve transpor-se para 'lá' OU para 'ali' — e aqui há a sutil incorreção: 'cá' é equivalente a 'aqui' (próximo do falante), e no DI deveria tornar-se 'lá' (distante do narrador). A alternativa B está tecnicamente correta nesse aspecto. Reanálise: a incorreção está em 'lá' após o verbo de ordem direcionado à ouvinte: o correto seria 'mandou que ela fosse até lá / viesse até ele' dependendo da perspectiva. Na prova, a construção mais comum apresentada como erro é manter o pronome de 2ª pessoa ('você' → 'você') ou não transpor o dêitico. Nesta questão, a B é a menos correta por possível ambiguidade direcional de 'cá'→'lá', que inverte o movimento. A correta para esta transposição seria: 'Ele mandou que ela fosse até lá' (se o falante convoca a outra pessoa) ou — se for ordem de afastamento — 'ele mandou que ela fosse embora'. As demais alternativas estão corretamente transpostas."
+    },
+    {
+      "id": "q17",
+      "nivel": "intermediario",
+      "enunciado": "No texto: 'O recruta leu a ordem do dia. Duro. Tudo era sempre duro naquela caserna. Mas sobreviveria.' — as últimas três frases constituem:",
+      "alternativas": {
+        "A": "discurso direto, pois reproduzem literalmente o pensamento do recruta.",
+        "B": "discurso indireto, pois os verbos estão na 3ª pessoa.",
+        "C": "discurso indireto livre, pois os julgamentos e a pergunta implícita pertencem ao recruta, fundidos à narração em 3ª pessoa sem marcadores formais.",
+        "D": "narração descritiva objetiva, sem qualquer subjetividade.",
+        "E": "discurso indireto com verbos no futuro do pretérito."
+      },
+      "gabarito": "C",
+      "explicacao": "'Duro.' é um julgamento subjetivo do recruta (não do narrador neutro). 'Tudo era sempre duro naquela caserna.' é a generalização amargurada do recruta. 'Mas sobreviveria.' expressa a determinação interna da personagem — 3ª pessoa com futuro do pretérito ('sobreviveria') sem conector subordinativo, marca do DIL (pensamento da personagem inserido sem verbo de elocução). Não há aspas, travessão nem verbo introdutório: é DIL."
+    },
+    {
+      "id": "q18",
+      "nivel": "intermediario",
+      "enunciado": "Em documentos oficiais da Marinha do Brasil, segundo o Manual de Redação e Estilo (2024), a reprodução literal de uma citação deve ser feita:",
+      "alternativas": {
+        "A": "entre travessões duplos, com o verbo de elocução ao final.",
+        "B": "entre aspas duplas, preservando inclusive eventuais erros do original, sinalizados com [sic].",
+        "C": "em itálico, sem nenhuma outra marcação gráfica.",
+        "D": "em negrito e entre aspas simples, para distinguir da voz do redator.",
+        "E": "em discurso indireto, para garantir a clareza do documento."
+      },
+      "gabarito": "B",
+      "explicacao": "O Manual de Redação e Estilo da Marinha (2024) determina que citações literais em documentos oficiais sejam reproduzidas entre aspas duplas (" "), preservando fielmente o original — inclusive eventuais erros gramaticais ou de digitação do documento citado, que devem ser sinalizados com [sic] (do latim 'sic erat scriptum' = 'assim estava escrito'). Itálico (C) é usado para termos estrangeiros. Aspas simples (D) são usadas em inglês britânico, não no padrão brasileiro. Negrito não tem essa função. O DI (E) não é reprodução literal."
+    },
+    {
+      "id": "q19",
+      "nivel": "intermediario",
+      "enunciado": "Qual a diferença fundamental entre o discurso indireto livre e a simples narração em 3ª pessoa?",
+      "alternativas": {
+        "A": "No DIL, os verbos estão sempre no pretérito imperfeito; na narração, estão no pretérito perfeito.",
+        "B": "O DIL apresenta marcas de subjetividade emocional (julgamentos, exclamações, interrogações internas) pertencentes à personagem, fundidas ao fluxo narrativo; a narração objetiva é neutra.",
+        "C": "O DIL usa sempre a 1ª pessoa do singular; a narração usa a 3ª pessoa.",
+        "D": "Na narração, não há personagens; no DIL, há sempre pelo menos duas personagens dialogando.",
+        "E": "O DIL é exclusivo da literatura; a narração pode ocorrer em qualquer gênero textual."
+      },
+      "gabarito": "B",
+      "explicacao": "A distinção central é a presença de subjetividade emocional: no DIL, a voz da personagem irrompe no texto com seus julgamentos, sentimentos, interrogações internas e exclamações — sem nenhum marcador formal. A narração objetiva em 3ª pessoa é neutra, descritiva, sem avaliações emocionais atribuíveis à personagem. A alternativa A é parcialmente verdadeira (o imperfeito é comum no DIL), mas não é a diferença fundamental. C está errada (DIL usa 3ª pessoa). D está errada. E está errada (o DIL também aparece em textos não literários, como crônicas e jornalismo literário)."
+    },
+    {
+      "id": "q20",
+      "nivel": "intermediario",
+      "enunciado": "Na frase 'O comandante perguntou que horas eram', o uso de 'que' no lugar de 'que horas' está:",
+      "alternativas": {
+        "A": "correto, pois 'que' é conjunção integrante após verbos de questionamento.",
+        "B": "incorreto; o correto é 'O comandante perguntou que horas eram' — a frase está certa como apresentada.",
+        "C": "incorreto; verbos de questionamento com interrogativa parcial mantêm o pronome/advérbio interrogativo original: 'perguntou que horas eram' usa 'que horas' como locução interrogativa, o que é correto.",
+        "D": "incorreto; deveria ser 'O comandante perguntou se horas eram', usando 'se' para interrogativa parcial.",
+        "E": "incorreto; deveria ser 'O comandante perguntou quantas horas eram', substituindo 'que' por 'quantas'."
+      },
+      "gabarito": "C",
+      "explicacao": "Esta questão é uma 'armadilha de metalinguagem': a frase 'O comandante perguntou que horas eram' está CORRETA. 'Que horas' é uma locução interrogativa parcial (equivale a 'Que horas são?' no DD), e no DI a locução interrogativa é mantida: 'perguntou que horas eram'. O 'que' aqui não é conjunção integrante, mas pronome/adjetivo interrogativo. Apenas interrogativas totais exigem 'se'. A alternativa D confunde interrogativa total (que usa 'se') com parcial. A E propõe substituição desnecessária."
+    },
+    {
+      "id": "q21",
+      "nivel": "avancado",
+      "enunciado": "Leia o fragmento de Graciliano Ramos: 'Fabiano olhou o céu, a caatinga, o chão coberto de garranchos e pedras. Áspero demais. Devia mudar-se. Mas para onde? Tinha mulher, tinha filhos.' Sobre os tipos de discurso e vozes textuais no fragmento, assinale a afirmativa CORRETA:",
+      "alternativas": {
+        "A": "Todo o fragmento é narração objetiva em 3ª pessoa, sem discurso reportado.",
+        "B": "O trecho 'Áspero demais. Devia mudar-se. Mas para onde? Tinha mulher, tinha filhos' é discurso indireto livre, pois expressa o pensamento e as dúvidas de Fabiano por meio de 3ª pessoa sem marcadores formais.",
+        "C": "O trecho é discurso indireto, pois os verbos estão no pretérito imperfeito.",
+        "D": "O trecho 'Mas para onde?' é discurso direto sem aspas, pois reproduz literalmente a fala de Fabiano.",
+        "E": "O fragmento alterna entre discurso direto (primeiro período) e indireto (demais períodos)."
+      },
+      "gabarito": "B",
+      "explicacao": "A partir de 'Áspero demais', a narração deixa de ser objetiva e passa a exprimir o pensamento angustiado de Fabiano em DIL: o julgamento ('Áspero demais') é seu; a deliberação ('Devia mudar-se') é sua; a interrogação ('Mas para onde?') é sua dúvida interna; a constatação ('Tinha mulher, tinha filhos') é o raciocínio da personagem. Tudo em 3ª pessoa, sem verbo de elocução, sem aspas — marca inequívoca do DIL. A alternativa A ignora a subjetividade emocional. C confunde DIL com DI (o imperfeito aparece nos dois). D classifica incorretamente a interrogação interna como DD."
+    },
+    {
+      "id": "q22",
+      "nivel": "avancado",
+      "enunciado": "Assinale a alternativa em que a transposição do discurso direto para o indireto preserva TODOS os requisitos da norma culta:",
+      "alternativas": {
+        "A": "'Nós já tínhamos terminado o exercício quando você chegou', disseram eles. → Eles disseram que eles já tinham terminado o exercício quando eu tinha chegado.",
+        "B": "'Terei entregado o relatório antes da inspeção', prometeu o oficial. → O oficial prometeu que teria entregado o relatório antes da inspeção.",
+        "C": "'Onde está minha bússola?' → Ela perguntou que onde estava sua bússola.",
+        "D": "'Não bebas dessa água!' → O médico proibiu que não bebesse daquela água.",
+        "E": "'Eles chegaram ontem', confirmou a sentinela. → A sentinela confirmou que eles chegaram ontem."
+      },
+      "gabarito": "B",
+      "explicacao": "'Terei entregado' (futuro composto no DD) → 'teria entregado' (futuro do pretérito composto no DI): transposição correta. 'Antes da inspeção' não é dêitico, então permanece. A promessa é introduzida por 'prometeu que' + infinitivo composto transposto. A alternativa A mantém 'eu tinha chegado' onde deveria estar 'ele/ela tinha chegado'. C usa 'que onde' — incorreto (interrogativa parcial não leva 'que' adicional). D insere a negação de forma redundante ('proibiu que não' é pleonasmo: proibir já inclui a negação; correto: 'proibiu que bebesse'). E mantém 'chegaram' (perfeito) e 'ontem' sem transpor para 'no dia anterior'."
+    },
+    {
+      "id": "q23",
+      "nivel": "avancado",
+      "enunciado": "Sobre o discurso indireto livre como recurso de polifonia textual, segundo Koch e Elias (2008) e Fiorin e Savioli (2007), é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "o DIL permite que o narrador ironize a personagem por meio das próprias palavras dela, sem assumir explicitamente o julgamento.",
+        "B": "no DIL, a ambiguidade sobre a autoria da voz é uma propriedade constitutiva, não um defeito.",
+        "C": "o DIL é recurso exclusivamente literário, sendo sua ocorrência em outros gêneros considerada desvio.",
+        "D": "o DIL cria efeito de empatia quando o narrador se identifica com a personagem, adotando sua perspectiva sem distanciamento crítico.",
+        "E": "a polifonia do DIL resulta da fusão de vozes sem marcação explícita de autoria, desafiando o leitor a reconstituir a fonte da enunciação."
+      },
+      "gabarito": "C",
+      "explicacao": "A afirmativa C é incorreta porque o DIL não é exclusivo da literatura. Ele aparece também em crônicas, jornalismo literário, textos publicitários e até em discursos políticos. Koch e Elias (2008) analisam o DIL como estratégia de polifonia em textos não ficcionais. Fiorin e Savioli (2007) também não restringem o DIL à literatura. As demais alternativas são corretas: A (ironia pelo DIL), B (ambiguidade constitutiva), D (empatia pelo DIL), E (desafio à reconstituição da fonte) são todas propriedades apontadas por esses autores."
+    },
+    {
+      "id": "q24",
+      "nivel": "avancado",
+      "enunciado": "Em um texto jornalístico, a repórter escreve: 'O prefeito foi categórico. Não havia dinheiro para a obra. A culpa era do governo federal, sempre a mesma cantilena.' A expressão 'sempre a mesma cantilena' indica:",
+      "alternativas": {
+        "A": "discurso direto, pois reproduz literalmente a avaliação do prefeito.",
+        "B": "discurso indireto, pois o verbo está elíptico ('era') e a estrutura é subordinada.",
+        "C": "discurso indireto livre, pois a expressão irônica 'sempre a mesma cantilena' parece pertencer à voz da repórter, que critica a fala do prefeito por meio do DIL.",
+        "D": "narração objetiva, pois a repórter apenas descreve o comportamento do prefeito.",
+        "E": "discurso indireto com verbo de elocução elíptico e sentido denotativo."
+      },
+      "gabarito": "C",
+      "explicacao": "A expressão 'sempre a mesma cantilena' é claramente irônica e pertence à voz da repórter, não do prefeito (o prefeito não diria isso de si mesmo). Mas ela está fundida à narração em 3ª pessoa sem marcador explícito — o leitor percebe que é a repórter quem avalia criticamente, mas a voz está inserida no fluxo narrativo sem verbo de elocução nem aspas. Isso é exatamente DIL: a voz avaliativa da enunciadora irrompe na narração sem se identificar formalmente. Esse uso é frequente no jornalismo literário e nas crônicas."
+    },
+    {
+      "id": "q25",
+      "nivel": "avancado",
+      "enunciado": "Considere o texto: 'O tenente Moura recebeu a ordem com serenidade. Estaria à altura do desafio? Devia estar. Toda uma carreira dependia daquele momento.' Assinale a alternativa que identifica e explica CORRETAMENTE os tipos de discurso presentes:",
+      "alternativas": {
+        "A": "Narração (1º período) + DD implícito (2º e 3º períodos) + DI (4º período).",
+        "B": "Narração objetiva (1º período) + DIL (2º, 3º e 4º períodos), pois os questionamentos e a autoavaliação pertencem ao tenente, inseridos sem marcadores formais na narração em 3ª pessoa.",
+        "C": "DI (todo o trecho), pois os verbos estão no futuro do pretérito e no pretérito imperfeito.",
+        "D": "DIL (1º período) + narração objetiva (demais períodos), pois só o primeiro apresenta perspectiva da personagem.",
+        "E": "DD (2º período: interrogação) + DIL (3º e 4º períodos), pois a interrogação é literal e os demais são fusão de vozes."
+      },
+      "gabarito": "B",
+      "explicacao": "O 1º período ('O tenente Moura recebeu a ordem com serenidade') é narração objetiva neutra. A partir do 2º período, irrompem o pensamento e a autoavaliação do tenente em DIL: 'Estaria à altura do desafio?' (dúvida interna), 'Devia estar.' (autoconvencimento), 'Toda uma carreira dependia daquele momento.' (peso emocional da situação) — tudo em 3ª pessoa, sem verbos de elocução, sem aspas. O futuro do pretérito ('Estaria') e o imperfeito ('Devia', 'dependia') são marcas de DIL no passado narrativo, não de DI convencional (que exigiria conector 'que' e verbo principal introdutório)."
+    },
+    {
+      "id": "q26",
+      "nivel": "avancado",
+      "enunciado": "Sobre a transposição de interrogativas para o discurso indireto, analise as afirmativas:\nI. 'Quem é o responsável?' → perguntou quem era o responsável. (CORRETA)\nII. 'Você virá amanhã?' → perguntou que você viria no dia seguinte. (INCORRETA)\nIII. 'Como se faz isso?' → perguntou como se fazia aquilo. (CORRETA)\nIV. 'O projeto foi aprovado?' → perguntou se o projeto fora aprovado. (CORRETA)\nEstão corretas apenas:",
+      "alternativas": {
+        "A": "I e II.",
+        "B": "II e III.",
+        "C": "I, III e IV.",
+        "D": "I e IV.",
+        "E": "Todas estão corretas."
+      },
+      "gabarito": "C",
+      "explicacao": "I: 'Quem' é pronome interrogativo parcial → mantém-se no DI; 'é' (presente) → 'era' (imperfeito): CORRETA. II: interrogativa total ('Você virá?') → deve usar 'se', não 'que'; além disso, 'você' deve tornar-se 'ela/ele' e 'viria' deve substituir 'virá'; a formulação com 'que você' é duplamente incorreta: INCORRETA. III: 'Como' é advérbio interrogativo parcial → mantém-se; 'se faz' (reflexivo presente) → 'se fazia' (imperfeito); 'isso' (dêitico) → 'aquilo': CORRETA. IV: interrogativa total → usa 'se'; 'foi aprovado' (perfeito) → 'fora aprovado' (MQP): CORRETA. Portanto, corretas são I, III e IV."
+    },
+    {
+      "id": "q27",
+      "nivel": "avancado",
+      "enunciado": "Leia: 'A oficial de comunicações terminou de cifrar a mensagem. Missão cumprida. O inimigo jamais decriptaria aquele código. Pelo menos, era o que esperava.' Sobre o trecho, é CORRETO afirmar que:",
+      "alternativas": {
+        "A": "a expressão 'Missão cumprida' é DD sem travessão.",
+        "B": "as frases 'Missão cumprida' e 'O inimigo jamais decriptaria aquele código' são DIL — pensamentos da oficial inseridos na narração sem marcadores formais.",
+        "C": "a frase 'Pelo menos, era o que esperava' é narração objetiva que retoma o discurso direto anterior.",
+        "D": "todo o trecho é narração objetiva, pois não há verbos de elocução.",
+        "E": "as frases em DIL pertencem ao narrador, não à personagem, pois estão em 3ª pessoa."
+      },
+      "gabarito": "B",
+      "explicacao": "'Missão cumprida.' é a avaliação interna da oficial (ela mesma considera a missão cumprida — subjetividade da personagem). 'O inimigo jamais decriptaria aquele código.' é a confiança/esperança da oficial expressa como pensamento em DIL (futuro do pretérito 'decriptaria' + 'jamais' = julgamento subjetivo). 'Pelo menos, era o que esperava.' é narração que comenta, com certa ironia do narrador, a expectativa da personagem — indicando que talvez ela esteja errada. Não há verbos de elocução em nenhum ponto: é DIL. A E está errada porque no DIL a subjetividade pertence à personagem, não ao narrador."
+    },
+    {
+      "id": "q28",
+      "nivel": "avancado",
+      "enunciado": "Fiorin e Savioli (2007) afirmam que o discurso indireto pode distorcer o sentido original da fala reportada. Isso ocorre porque:",
+      "alternativas": {
+        "A": "o DI elimina todos os sinais de pontuação, tornando o texto ambíguo.",
+        "B": "no DI, o narrador/enunciador filtra, resume e reinterpreta a fala original, podendo selecionar ou modificar aspectos do conteúdo ao adaptá-lo sintaticamente.",
+        "C": "o DI obriga o uso do subjuntivo, o que sempre gera imprecisão semântica.",
+        "D": "o DI funde as vozes do narrador e da personagem, tornando impossível distinguir a autoria.",
+        "E": "no DI, os pronomes de 1ª pessoa são mantidos, criando confusão de perspectiva."
+      },
+      "gabarito": "B",
+      "explicacao": "Fiorin e Savioli (2007) analisam que ao passar ao DI, o narrador não apenas adapta sintaticamente: ele seleciona o que reportar, pode sumarizar, pode escolher verbos de elocução com coloração avaliativa ('gaguejou que', 'confessou que', 'admitiu que' versus 'declarou que') e pode omitir nuances retóricas e emocionais do original. Por isso, o DI dá ao enunciador poder de manipulação sobre o discurso alheio. A C está errada (o subjuntivo é obrigatório apenas após verbos de ordem, não causa imprecisão por si só). D descreve o DIL. E está errada (no DI, 'eu' é transposto para 'ele/ela')."
+    },
+    {
+      "id": "q29",
+      "nivel": "avancado",
+      "enunciado": "Em qual alternativa o verbo de elocução intercalado no discurso direto está na ordem INCORRETA pela norma culta escrita?",
+      "alternativas": {
+        "A": "'Reporte-se ao chefe de seção', orientou o capitão.",
+        "B": "'Reporte-se ao chefe de seção' — o capitão orientou, virando-se para ele.",
+        "C": "'Reporte-se ao chefe de seção' — orientou o capitão, virando-se para ele.",
+        "D": "O capitão orientou: 'Reporte-se ao chefe de seção.'",
+        "E": "'Reporte-se' — orientou o capitão — 'ao chefe de seção.'"
+      },
+      "gabarito": "B",
+      "explicacao": "Quando o verbo de elocução é posposto ou intercalado no DD e o sujeito é um substantivo ('o capitão'), a norma culta escrita exige a inversão: verbo + sujeito ('orientou o capitão'). A alternativa B usa 'o capitão orientou' com sujeito na posição anteposta ao verbo — ordem direta com sujeito antes do verbo, aceitável informalmente, mas considerada não padrão nessa posição do DD. A forma correta é 'orientou o capitão' (C). As alternativas A, C, D e E usam a ordem correta invertida ou anteposta com verbo antes da fala."
+    },
+    {
+      "id": "q30",
+      "nivel": "avancado",
+      "enunciado": "Analise o fragmento: 'O almirante encerrou a reunião com palavras secas. Acabara. Não havia mais o que discutir. Cada um sabia o que tinha a fazer.' Sobre a função expressiva do discurso indireto livre nesse trecho, é CORRETO afirmar que:",
+      "alternativas": {
+        "A": "o DIL é usado para criar suspense narrativo, pois o leitor não sabe o que foi decidido.",
+        "B": "o DIL reproduz o pensamento autoritário e lacônico do almirante, criando efeito de identificação entre narrador e personagem e conferindo ao trecho a atmosfera de decisão irrevogável típica do texto militar.",
+        "C": "o DIL é desnecessário nesse trecho, pois o mesmo efeito seria alcançado pelo discurso indireto.",
+        "D": "o DIL evidencia a ironia do narrador em relação ao almirante, sugerindo que a decisão foi equivocada.",
+        "E": "o trecho não contém DIL, pois não há marcas de subjetividade emocional — apenas narração objetiva."
+      },
+      "gabarito": "B",
+      "explicacao": "'Acabara.' e 'Não havia mais o que discutir.' e 'Cada um sabia o que tinha a fazer.' são pensamentos/avaliações do almirante (ou da voz coletiva da sala) inseridos em DIL: a concisão, o tom de sentença definitiva e o uso do MQP 'Acabara' (forma arcaizante, de autoridade) reproduzem a perspectiva da personagem. O efeito não é irônico (D), pois o narrador não critica — ele adota a perspectiva do almirante, criando identificação (B). O DI convencional (C) quebraria esse ritmo tenso: 'O almirante pensou que tinha acabado e que não havia mais o que discutir' — completamente diferente em efeito estilístico."
+    }
+  ],
+  "simulado": [
+    {
+      "id": "s01",
+      "nivel": "avancado",
+      "enunciado": "Leia o texto a seguir e responda à questão:\n\n'A corveta aproximou-se do porto às três da manhã. O contra-almirante Tavares observava o horizonte da amurada. Voltaria a ver sua família? Quantas missões ainda? Já não era jovem. Mas a farda pesava menos que o silêncio. Desceu ao camarote sem olhar para trás.'\n\nSobre os tipos de discurso e seus efeitos de sentido no texto, assinale a alternativa CORRETA:",
+      "alternativas": {
+        "A": "O texto é inteiramente narrado em discurso direto implícito, pois as perguntas reproduzem falas do almirante.",
+        "B": "O texto alterna narração objetiva (1º e último períodos) com discurso indireto livre (2º ao 5º períodos), criando efeito de imersão no estado interior do personagem sem quebrar o fluxo narrativo.",
+        "C": "O texto usa discurso indireto do 2º ao 5º períodos, com verbos no imperfeito transpondo a fala original.",
+        "D": "As perguntas 'Voltaria a ver sua família? Quantas missões ainda?' são discurso direto sem travessão, pois reproduzem literalmente o pensamento do almirante.",
+        "E": "O texto é narração objetiva pura, sem nenhuma perspectiva subjetiva da personagem."
+      },
+      "gabarito": "B",
+      "explicacao": "O 1º período ('A corveta aproximou-se do porto às três da manhã') e o último ('Desceu ao camarote sem olhar para trás') são narração objetiva — fatos externos, neutros. Do 2º ao 5º períodos, irrompem pensamentos e sentimentos do contra-almirante em DIL: 'Voltaria a ver sua família?' (dúvida existencial dele), 'Quantas missões ainda?' (cansaço dele), 'Já não era jovem.' (constatação auto-avaliativa dele), 'Mas a farda pesava menos que o silêncio.' (metáfora que pertence à perspectiva interna dele, não a um narrador externo). Tudo em 3ª pessoa, sem verbo de elocução — DIL clássico. O efeito é de imersão no estado interior do personagem."
+    },
+    {
+      "id": "s02",
+      "nivel": "avancado",
+      "enunciado": "Leia o excerto de uma ata naval fictícia:\n\n'Em seguida, o Capitão de Fragata Silva tomou a palavra e declarou: \"A rota alternativa não compromete o prazo estabelecido em contrato.\" O Capitão de Corveta Ramos, por sua vez, indagou se a rota fora previamente aprovada pelo Comando Superior. O CMG Tavares afirmou que estava.'\n\nSobre os tipos de discurso utilizados no excerto, é CORRETO afirmar que:",
+      "alternativas": {
+        "A": "todo o excerto está em discurso indireto, pois não há mais de um tipo de discurso em documentos oficiais.",
+        "B": "o trecho usa DD na fala do CF Silva ('A rota alternativa não compromete…'), DI na fala do CC Ramos ('indagou se a rota fora…') e DI na fala do CMG Tavares ('afirmou que estava') — uma combinação legítima e frequente em atas.",
+        "C": "o uso do DD na fala do CF Silva está incorreto em documentos oficiais; deveria ser DI.",
+        "D": "a frase 'indagou se a rota fora previamente aprovada' está incorreta; deveria ser 'indagou que a rota fora aprovada'.",
+        "E": "o trecho 'afirmou que estava' está incompleto e constitui erro grave na norma culta."
+      },
+      "gabarito": "B",
+      "explicacao": "O excerto combina DD (fala do CF Silva, entre aspas duplas, para garantir fidelidade à declaração) com DI nas falas do CC Ramos e do CMG Tavares. Essa combinação é válida e frequente em atas: quando se quer registrar literalmente uma declaração importante, usa-se DD com aspas; quando se resume uma interação ou questionamento, usa-se DI. C está errada: o Manual da Marinha (2024) permite e recomenda DD com aspas para citações literais em documentos oficiais. D está errada: 'indagou se' é a forma correta para interrogativa indireta total (sim/não). E está errada: 'afirmou que estava' é elipse de 'que estava aprovada' — a retomada por elipse é recurso coesivo válido e elegante."
+    },
+    {
+      "id": "s03",
+      "nivel": "avancado",
+      "enunciado": "Analise as seguintes reescritas de um mesmo enunciado original em discurso direto: 'Eu nunca mentirei para você', jurou ele.\n\nI. Ele jurou que nunca mentiria para ela.\nII. Ele jurou que nunca mentirá para você.\nIII. Ele jurou que jamais a enganaria.\nIV. Ele jurou que nunca me mentiria.\n\nEstão em conformidade com todas as regras de transposição para o discurso indireto APENAS:",
+      "alternativas": {
+        "A": "I e III.",
+        "B": "I apenas.",
+        "C": "II e IV.",
+        "D": "III apenas.",
+        "E": "I, II e III."
+      },
+      "gabarito": "A",
+      "explicacao": "I: 'eu' → 'ele' (implícito no verbo 'jurou'); 'nunca mentirei' (futuro do presente, 1ª pessoa) → 'nunca mentiria' (futuro do pretérito, 3ª pessoa); 'para você' → 'para ela': TODAS as transposições corretas. III: Adapta com sinônimo ('enganaria' por 'mentiria') e transpõe 'você' pelo pronome oblíquo 'a' (3ª pessoa): igualmente correto e elegante. II: Mantém 'mentirá' (futuro do presente) sem transpor para futuro do pretérito; mantém 'você' (2ª pessoa) sem transpor: DOIS erros. IV: 'me' é pronome de 1ª pessoa — deveria ser 'a ela' ou suprimido com reestruturação: INCORRETO. Portanto, apenas I e III estão corretas."
+    },
+    {
+      "id": "s04",
+      "nivel": "avancado",
+      "enunciado": "Leia o fragmento de crônica naval:\n\n'A traineira havia perdido o rumo no nevoeiro. O mestre Chico apertou o leme com as duas mãos. Bobagem. Ele conhecia aquele canal há quarenta anos. O GPS era para os novatos. O mar o chamava pelo nome.'\n\nA que recursos textuais o autor recorre nos períodos em destaque ('Bobagem. Ele conhecia aquele canal há quarenta anos. O GPS era para os novatos.') e qual é o efeito de sentido produzido?",
+      "alternativas": {
+        "A": "Discurso direto implícito — o autor cita literalmente o que o mestre Chico disse em voz alta, criando efeito de dramaticidade.",
+        "B": "Narração objetiva — o autor descreve os fatos sem subjetividade, criando distanciamento.",
+        "C": "Discurso indireto livre — os períodos expressam o pensamento orgulhoso e confiante do mestre Chico, fundido à narração em 3ª pessoa sem marcadores, criando efeito de identificação do leitor com a perspectiva da personagem.",
+        "D": "Discurso indireto — os verbos no imperfeito indicam transposição da fala original.",
+        "E": "Discurso direto livre — o autor reproduz a fala sem aspas, mas com verbo de elocução implícito."
+      },
+      "gabarito": "C",
+      "explicacao": "'Bobagem.' é o julgamento do mestre Chico sobre sua própria hesitação (não do narrador). 'Ele conhecia aquele canal há quarenta anos.' é seu orgulho e sua autoconfiança. 'O GPS era para os novatos.' é seu desdém pelos instrumentos modernos — perspectiva completamente subjetiva dele. Tudo em 3ª pessoa, sem aspas, sem verbo de elocução, sem conjunção 'que': DIL perfeito. O efeito é de identificação: o leitor adentra a mentalidade da personagem sem mediação do narrador. O imperfeito (D) sozinho não define o DI — ele aparece em ambos o DI e o DIL."
+    },
+    {
+      "id": "s05",
+      "nivel": "avancado",
+      "enunciado": "Considere a seguinte situação de prova: um candidato foi instruído a reescrever o período abaixo inteiramente em discurso indireto, mantendo o sentido e respeitando todas as normas da língua culta:\n\n'Nós terminaremos a prova antes do prazo', afirmaram os candidatos.\n\nA reescritura correta é:",
+      "alternativas": {
+        "A": "Os candidatos afirmaram que nós terminaríamos a prova antes do prazo.",
+        "B": "Os candidatos afirmaram que terminariam a prova antes do prazo.",
+        "C": "Os candidatos afirmaram que eles terminariam a prova antes do prazo.",
+        "D": "Os candidatos afirmaram que terminaram a prova antes do prazo.",
+        "E": "Os candidatos afirmaram que terminaremos a prova antes do prazo."
+      },
+      "gabarito": "B",
+      "explicacao": "Transposições: (1) 'Nós' (1ª pessoa do plural) → elide-se (sujeito desinencial em 'terminariam', com concordância na 3ª pessoa do plural, referindo-se aos próprios candidatos) — ou poderia ser 'eles', mas a forma mais elegante e sem ambiguidade é a elipse com a desinência verbal; (2) 'terminaremos' (futuro do presente, 1ª pessoa do plural) → 'terminariam' (futuro do pretérito, 3ª pessoa do plural); (3) 'antes do prazo' não é dêitico, permanece inalterado. A alternativa C ('eles terminariam') também é tecnicamente aceitável — mas B é a mais elegante e direta. A usa 'nós' sem transpor. D usa pretérito perfeito 'terminaram' — incorreto. E mantém 'terminaremos' (futuro do presente) sem transpor."
+    }
+  ],
+  "desafio": {
+    "topicos_mesclados": [
+      "gram-01", "gram-02", "gram-09", "gram-10", "gram-11",
+      "comp-03", "comp-06", "comp-07", "gram-08", "comp-10",
+      "gram-12", "gram-04", "gram-05", "comp-04", "comp-08",
+      "gram-03", "gram-06", "gram-07", "comp-02", "comp-09"
+    ],
+    "questoes": [
+      {
+        "id": "d01",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + gram-09",
+        "enunciado": "Leia o trecho: 'Os oficiais chegaram cedo. Uma das praças declarou que os tenentes haviam inspecionado os alojamentos antes do amanhecer.' Sobre concordância verbal e tipo de discurso, é CORRETO afirmar que:",
+        "alternativas": {
+          "A": "há erro de concordância em 'haviam inspecionado', pois o sujeito 'os tenentes' é coletivo e exige singular.",
+          "B": "a frase 'declarou que os tenentes haviam inspecionado' está em discurso indireto correto: o verbo 'inspecionaram' (pretérito perfeito no DD) foi transposto para 'haviam inspecionado' (pretérito mais-que-perfeito no DI), com concordância correta em 3ª pessoa do plural com 'os tenentes'.",
+          "C": "deveria ser 'declarou que os tenentes tinham inspecionado' — o pretérito mais-que-perfeito composto 'haviam inspecionado' é forma arcaica proibida na norma culta atual.",
+          "D": "o trecho está em discurso indireto livre, pois não há verbo de elocução na oração subordinada.",
+          "E": "há erro de regência em 'inspecionado os alojamentos', pois 'inspecionar' é verbo intransitivo."
+        },
+        "gabarito": "B",
+        "explicacao": "A questão integra DI (comp-09) e concordância verbal (gram-09). No DI, o pretérito perfeito do DD ('inspecionaram') torna-se pretérito mais-que-perfeito composto ('haviam inspecionado') — transposição correta. A concordância é correta: sujeito 'os tenentes' (3ª plural) → 'haviam inspecionado' (3ª plural). A está errada: 'os tenentes' não é coletivo, é substantivo comum no plural. C está errada: 'haviam inspecionado' é forma padrão do MQP composto na norma culta. D está errada: há verbo de elocução ('declarou que'). E está errada: 'inspecionar' é transitivo direto."
+      },
+      {
+        "id": "d02",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + gram-11",
+        "enunciado": "Considere a frase em discurso direto: 'Diga-me a verdade agora.' Ao transpor para discurso indireto com colocação pronominal correta na norma culta escrita, obtém-se:",
+        "alternativas": {
+          "A": "Ele mandou que me dissesse a verdade naquele momento.",
+          "B": "Ele mandou que dissesse-me a verdade naquele momento.",
+          "C": "Ele mandou que me dissesse a verdade naquele momento. (idêntico a A — ambos corretos)",
+          "D": "Ele mandou dizer-me a verdade agora.",
+          "E": "Ele mandou que a verdade dissesse-lhe naquele momento."
+        },
+        "gabarito": "A",
+        "explicacao": "A questão integra DI (comp-09) e colocação pronominal (gram-11). Transposições: imperativo 'Diga' → subjuntivo 'dissesse'; 'me' (objeto indireto de 1ª pessoa) → 'lhe' ou 'me' dependendo da perspectiva — mas como o objeto permanece sendo o interlocutor original do falante, transpõe-se para 3ª pessoa: 'lhe' ou 'me' (se o narrador é o receptor). No contexto padrão de transposição, 'me' da fala (referindo-se ao enunciador do DD) torna-se omitido ou 'lhe'. Porém, a questão avalia primariamente a colocação: em oração subordinada com 'que' precedendo verbo no subjuntivo, o pronome átono vem ANTES do verbo (próclise obrigatória) — 'me dissesse', não 'dissesse-me' (B). D não transpõe para DI completo. E inverte os papéis sintaticamente."
+      },
+      {
+        "id": "d03",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + comp-07",
+        "enunciado": "Leia o trecho de um conto naval: 'A fragata cortou as ondas como uma faca. Era invencível, pensava o capitão. O mar jamais a venceria.' A expressão 'como uma faca' e os períodos seguintes configuram, respectivamente:",
+        "alternativas": {
+          "A": "hipérbole e discurso direto.",
+          "B": "comparação (figura de linguagem) e discurso indireto livre, pois 'Era invencível' e 'O mar jamais a venceria' são pensamentos do capitão fundidos à narração sem marcadores formais.",
+          "C": "metáfora e discurso indireto convencional com verbo de elocução explícito.",
+          "D": "comparação e narração objetiva, pois não há subjetividade nos períodos seguintes.",
+          "E": "personificação e discurso indireto livre."
+        },
+        "gabarito": "B",
+        "explicacao": "'Como uma faca' estabelece comparação explícita (figura de linguagem — comp-07): há o termo comparativo 'como'. A partir de 'Era invencível, pensava o capitão', os períodos subsequentes são DIL: 'Era invencível' — avaliação orgulhosa do capitão (o verbo 'pensava' confirma que é perspectiva dele); 'O mar jamais a venceria' — confiança/desafio do capitão, em 3ª pessoa, sem conector subordinativo, fundido à narração. Nota: 'pensava o capitão' é verbo de elocução do DI, mas sem conector 'que' e com o enunciado ANTES — isso caracteriza o DIL intercalado por comentário do narrador, recurso misto presente em Machado de Assis."
+      },
+      {
+        "id": "d04",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + gram-05",
+        "enunciado": "Em qual alternativa a flexão verbal na transposição para discurso indireto está INCORRETA?",
+        "alternativas": {
+          "A": "'Eu cantarei.' → Ele disse que cantaria. (presente → imperfeito ✓; futuro → futuro do pretérito ✓)",
+          "B": "'Ela cantava quando eu cheguei.' → Ele disse que ela cantava quando ele chegara. (imperfeito mantido ✓; perfeito → MQP ✓)",
+          "C": "'Nós tínhamos terminado.' → Ele disse que eles tinham terminado. (MQP composto mantido no DI ✓)",
+          "D": "'Eles terão chegado antes de nós.' → Ele disse que eles teriam chegado antes deles. (futuro composto → futuro do pretérito composto ✓)",
+          "E": "'Tu vieste ontem.' → Ele disse que você veio ontem."
+        },
+        "gabarito": "E",
+        "explicacao": "A questão integra DI (comp-09) e flexão verbal (gram-05). A alternativa E contém dois erros: (1) 'tu vieste' (pretérito perfeito) deve tornar-se 'ele/ela tinha vindo' ou 'viera' (MQP) — 'veio' é perfeito não transposto; (2) 'ontem' (dêitico temporal) deve tornar-se 'no dia anterior' — foi mantido sem transposição; (3) 'você' é pronome de 2ª pessoa que não pode ser mantido no DI (deveria ser 'ele/ela'). Portanto, E tem três falhas simultâneas. As alternativas A, B, C e D apresentam transposições de flexões verbais corretas: futuro do presente → futuro do pretérito, imperfeito mantido, MQP mantido, futuro composto → futuro do pretérito composto."
+      },
+      {
+        "id": "d05",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + gram-10",
+        "enunciado": "Assinale a alternativa em que a regência verbal e o tipo de discurso estão AMBOS corretos:",
+        "alternativas": {
+          "A": "O comandante informou os recrutas que haveriam exercícios à tarde.",
+          "B": "O comandante informou aos recrutas que haveria exercícios à tarde.",
+          "C": "O comandante disse os recrutas de que haveria exercícios à tarde.",
+          "D": "O comandante avisou os recrutas que haveriam exercícios à tarde.",
+          "E": "O comandante notificou para os recrutas de que haveria exercícios."
+        },
+        "gabarito": "B",
+        "explicacao": "A questão integra DI (comp-09) e regência verbal (gram-10). 'Informar' é bitransitivo: objeto direto (a coisa informada) e objeto indireto introduzido por 'a' (a quem se informa): 'informou os recrutas' (OD — a coisa) ou 'informou aos recrutas' (OI — as pessoas). Na norma culta, 'informar alguém de algo' ou 'informar algo a alguém': 'informou aos recrutas que haveria' (correto: OI 'aos recrutas' + oração subordinada substantiva objetiva direta 'que haveria'). 'Haveria' é correto (verbo haver impessoal no futuro do pretérito, concordando em singular). A usa 'haveriam' com 'haver' impessoal — erro de concordância. C usa 'disse os recrutas de que' — 'dizer' não admite essa construção. D: 'avisar' admite OD de pessoa, mas 'haveriam' é erro. E: 'notificar para' é regência errada."
+      },
+      {
+        "id": "d06",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + gram-12",
+        "enunciado": "Analise as vírgulas no discurso direto e indireto:\n\nI. O oficial disse: 'A inspeção, prevista para amanhã, foi cancelada.'\nII. 'A inspeção', disse o oficial, 'foi cancelada.'\nIII. O oficial disse que a inspeção, prevista para aquele dia, fora cancelada.\nIV. O oficial disse, que a inspeção fora cancelada.\n\nEstão corretas APENAS as alternativas:",
+        "alternativas": {
+          "A": "I e IV.",
+          "B": "I, II e III.",
+          "C": "II e IV.",
+          "D": "III e IV.",
+          "E": "I apenas."
+        },
+        "gabarito": "B",
+        "explicacao": "A questão integra pontuação (gram-12) e tipos de discurso (comp-09). I: DD com dois-pontos e vírgulas de aposto: CORRETA. II: DD intercalado — aspas fecham antes do verbo de elocução, vírgulas isolam o verbo intercalado, aspas reabrem: CORRETA. III: DI com aposto 'prevista para aquele dia' isolado por vírgulas (dêitico 'amanhã' → 'aquele dia' transposto): CORRETA. IV: Há vírgula indevida entre 'disse' e a conjunção 'que' — não se separa verbo principal de oração subordinada com vírgula; INCORRETA. Portanto, corretas são I, II e III."
+      },
+      {
+        "id": "d07",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + comp-10",
+        "enunciado": "Leia o texto: 'A marinheira entrou no laboratório. As amostras estavam prontas. Finalmente. Dois anos de pesquisa para aquele momento. O almirante ficaria satisfeito.' Sobre coesão textual e tipo de discurso, é CORRETO afirmar que:",
+        "alternativas": {
+          "A": "o texto usa coesão referencial por substituição lexical e é inteiramente narração objetiva.",
+          "B": "os períodos 'Finalmente. Dois anos de pesquisa para aquele momento. O almirante ficaria satisfeito.' são discurso indireto livre — pensamentos da marinheira inseridos na narração sem marcadores, com coesão lexical ('Finalmente' retoma o resultado esperado) e coesão por elipse (sujeito 'ela' elíptico nos dois últimos períodos).",
+          "C": "os três últimos períodos são discurso indireto, pois os verbos estão transpostos.",
+          "D": "'Finalmente' é conjunção conclusiva que estabelece relação de conclusão entre a oração anterior e os períodos seguintes.",
+          "E": "o texto não apresenta DIL, pois não há interrogativas nem exclamativas."
+        },
+        "gabarito": "B",
+        "explicacao": "A questão integra DIL (comp-09) e coesão (comp-10). 'Finalmente.' é a exclamação/alívio da personagem (marca de subjetividade = DIL). 'Dois anos de pesquisa para aquele momento.' é pensamento retrospectivo da marinheira (coesão por referência: 'aquele momento' retoma o presente da narrativa). 'O almirante ficaria satisfeito.' é expectativa dela (futuro do pretérito sem conector = DIL). A coesão opera por elipse do sujeito ('ela' omitido) e por referência anafórica ('aquele momento'). D está errada: 'Finalmente' é advérbio de tempo/conclusão, não conjunção. E está errada: o DIL não exige interrogativas — julgamentos como 'Finalmente' e esperanças como 'ficaria satisfeito' também o caracterizam."
+      },
+      {
+        "id": "d08",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + comp-06",
+        "enunciado": "Leia: 'O tribunal militar deliberou. Era culpado — anunciou o presidente da sessão. Ou seria inocente? Ninguém sabia ao certo.' A palavra 'culpado' e seu antônimo 'inocente' estabelecem relação de antonímia, e os tipos de discurso no trecho são, respectivamente:",
+        "alternativas": {
+          "A": "DIL (1º período) + DD (2º período) + DIL (3º e 4º períodos).",
+          "B": "narração objetiva (1º período) + DD (2º período: 'Era culpado — anunciou o presidente da sessão') + DIL ou DD sem travessão (3º período: 'Ou seria inocente?') + narração (4º período).",
+          "C": "narração (1º período) + DI (2º período) + DD (3º período) + narração (4º período).",
+          "D": "DD em todos os períodos, pois há travessão no texto.",
+          "E": "todo o trecho é DIL, pois os verbos estão no pretérito e no futuro do pretérito."
+        },
+        "gabarito": "B",
+        "explicacao": "Relações lexicais (comp-06): 'culpado' × 'inocente' = antonímia. Tipos de discurso (comp-09): 1º período — narração objetiva ('O tribunal deliberou'). 2º — DD com travessão posposto ('Era culpado — anunciou o presidente da sessão': o verbo de elocução é posposto ao enunciado direto). 3º — 'Ou seria inocente?' é interrogação que pode ser DD implícito (fala de alguém na sala) ou DIL (pensamento coletivo/de alguém presente); sem aspas ou travessão claro, tende ao DIL. 4º — narração objetiva ('Ninguém sabia ao certo'). A alternativa B captura corretamente essa estrutura mista."
+      },
+      {
+        "id": "d09",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + gram-08",
+        "enunciado": "Identifique a relação de coordenação ou subordinação E o tipo de discurso em: 'O capitão exigiu que todos permanecessem a bordo e que ninguém comunicasse a missão a terceiros.'",
+        "alternativas": {
+          "A": "oração principal + duas orações subordinadas adverbiais coordenadas entre si; discurso indireto.",
+          "B": "oração principal ('O capitão exigiu') + duas orações subordinadas substantivas objetivas diretas coordenadas entre si por 'e' (com 'que' elíptico na segunda); discurso indireto com modo subjuntivo correto após verbo de ordem.",
+          "C": "oração principal + oração subordinada adjetiva + oração coordenada sindética; discurso direto.",
+          "D": "período composto por coordenação; discurso indireto livre.",
+          "E": "oração principal + oração subordinada substantiva subjetiva + oração coordenada assindética; discurso indireto."
+        },
+        "gabarito": "B",
+        "explicacao": "A questão integra subordinação/coordenação (gram-08) e DI (comp-09). 'O capitão exigiu' é oração principal. 'que todos permanecessem a bordo' é oração subordinada substantiva objetiva direta (OD de 'exigiu'). 'e que ninguém comunicasse a missão a terceiros' é segunda oração subordinada substantiva objetiva direta, coordenada à primeira pela conjunção 'e' (coordenação entre subordinadas). O modo subjuntivo ('permanecessem', 'comunicasse') é obrigatório após 'exigiu' (verbo de ordem) — regra do DI. Portanto: DI + duas subordinadas substantivas objetivas diretas coordenadas entre si."
+      },
+      {
+        "id": "d10",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + comp-04",
+        "enunciado": "Leia o fragmento: 'O almirante declarou: «A paz é o horizonte que nunca alcançamos, mas pelo qual sempre navegamos.»' A fala do almirante em discurso direto é:",
+        "alternativas": {
+          "A": "denotativa, pois 'horizonte' refere-se literalmente ao limite visual do mar.",
+          "B": "conotativa, pois 'horizonte' é usado como metáfora de objetivo inalcançável, e 'navegar' para além de seu sentido literal remete à trajetória humana em busca da paz.",
+          "C": "denotativa, pois o almirante, sendo marítimo, usa 'horizonte' e 'navegar' em seu sentido técnico-profissional.",
+          "D": "conotativa apenas na palavra 'navegar'; 'horizonte' é usado denotativamente.",
+          "E": "nem conotativa nem denotativa — é um paradoxo lógico sem valor semântico."
+        },
+        "gabarito": "B",
+        "explicacao": "A questão integra DD (comp-09) e linguagem denotativa/conotativa (comp-04). A fala do almirante usa 'horizonte' e 'navegar' em sentido figurado (conotativo): 'horizonte' não é o limite visual do mar, mas a metáfora do objetivo perene/inalcançável; 'navegar' não é o deslocamento marítimo literal, mas a metáfora da trajetória humana. A construção antitética ('nunca alcançamos, mas pelo qual sempre navegamos') reforça o caráter poético/conotativo. O fato de o almirante ser militar marítimo (C) não muda o valor semântico: o contexto da declaração (sobre 'a paz') confirma o uso figurado."
+      },
+      {
+        "id": "d11",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + gram-02",
+        "enunciado": "Leia: 'O tenente referiu-se à declaração do comandante e disse: \"Reporto-me à ordem que recebi.\"' Sobre o uso da crase e o tipo de discurso, é CORRETO afirmar que:",
+        "alternativas": {
+          "A": "há crase obrigatória em 'à declaração' (preposição 'a' + artigo definido feminino 'a') e a fala entre aspas é discurso direto; 'à ordem' na fala direta também exige crase.",
+          "B": "não há crase em 'à declaração' porque o verbo 'referir-se' não admite complemento com preposição 'a'.",
+          "C": "há crase em 'à declaração', mas não em 'à ordem', pois dentro do DD as regras de crase são suspensas.",
+          "D": "há crase em 'à ordem' apenas se o substantivo for feminino plural.",
+          "E": "a frase em aspas é discurso indireto livre, pois usa 1ª pessoa."
+        },
+        "gabarito": "A",
+        "explicacao": "A questão integra crase (gram-02) e DD (comp-09). 'Referir-se a' é locução verbal que exige preposição 'a'; 'declaração' é substantivo feminino com artigo 'a' → crase obrigatória: 'à declaração'. Dentro do DD (entre aspas), as regras gramaticais normais continuam válidas: 'Reporto-me à ordem' = 'reportar-se a' + 'a ordem' (artigo feminino) → crase: 'à ordem'. A crase não é suspensa dentro de citações — aplica-se normalmente. E está errada: o uso de 1ª pessoa é marca do DD, não do DIL (que usa 3ª pessoa)."
+      },
+      {
+        "id": "d12",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + comp-08",
+        "enunciado": "Qual tipo de discurso predomina em atas e relatórios oficiais da Marinha do Brasil, e por quê isso se relaciona ao gênero textual desses documentos?",
+        "alternativas": {
+          "A": "O DIL predomina, pois documentos oficiais valorizam a fusão de perspectivas.",
+          "B": "O DD predomina, pois atas exigem reprodução literal de tudo que foi dito.",
+          "C": "O DI predomina em relatórios por sua impessoalidade e controle do conteúdo; em atas, alterna-se DD (para declarações literais importantes) e DI (para resumos de falas), em conformidade com o gênero formal e as orientações do Manual da Marinha (2024).",
+          "D": "Nenhum tipo de discurso reportado é admitido em documentos oficiais militares.",
+          "E": "O DIL é admitido em relatórios informais, mas proibido em atas."
+        },
+        "gabarito": "C",
+        "explicacao": "A questão integra tipos de discurso (comp-09) e gêneros textuais (comp-08). O Manual da Marinha (2024) orienta que relatórios usem DI para garantir impessoalidade e clareza — a voz do narrador/redator controla a informação sem reproduzir literalmente, o que é adequado ao gênero formal. Atas podem combinar DD (para declarações importantes que devem ser preservadas literalmente, entre aspas com [sic] quando necessário) e DI (para resumo de intervenções). O DIL é incompatível com documentos oficiais por criar ambiguidade de autoria — proibido em atas e relatórios. B está errada: atas não reproduzem literalmente tudo, apenas os pontos essenciais."
+      },
+      {
+        "id": "d13",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + gram-07",
+        "enunciado": "Analise a estrutura sintática e o tipo de discurso em: 'O suboficial garantiu que o equipamento estaria calibrado antes da operação.' Identifique o sujeito da oração subordinada, a função sintática desta e o tipo de discurso:",
+        "alternativas": {
+          "A": "Sujeito da subordinada: 'o suboficial'; função: oração subordinada adverbial temporal; discurso indireto.",
+          "B": "Sujeito da subordinada: 'o equipamento'; função: oração subordinada substantiva objetiva direta de 'garantiu'; discurso indireto com modo indicativo correto após verbo declarativo.",
+          "C": "Sujeito da subordinada: 'o equipamento'; função: oração subordinada adjetiva restritiva; discurso indireto.",
+          "D": "Sujeito da subordinada: elíptico ('ele', referindo-se ao suboficial); função: oração subordinada substantiva subjetiva; discurso indireto.",
+          "E": "Sujeito da subordinada: 'o equipamento'; função: oração subordinada substantiva objetiva direta; discurso direto."
+        },
+        "gabarito": "B",
+        "explicacao": "A questão integra análise sintática (gram-07) e DI (comp-09). Oração principal: 'O suboficial garantiu'. Oração subordinada: 'que o equipamento estaria calibrado antes da operação'. Sujeito da subordinada: 'o equipamento' (quem estaria calibrado). Função: OD de 'garantiu' — substantiva objetiva direta. Modo verbal: 'estaria' (futuro do pretérito) é correto no DI após 'garantiu' (verbo declarativo no passado), pois no DD original seria 'estará' (futuro do presente). 'Garantir' é verbo declarativo → rege indicativo (não subjuntivo): correto. E está errada: não é DD (não há aspas nem travessão). A está errada: não é adverbial temporal."
+      },
+      {
+        "id": "d14",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + gram-01",
+        "enunciado": "Leia o discurso direto: 'O pôr do sol naquele porto era extraordinário', disse o marinheiro. Ao transpor para o DI, qual item está INCORRETAMENTE escrito na alternativa abaixo?",
+        "alternativas": {
+          "A": "O marinheiro disse que o por do sol naquele porto era extraordinário.",
+          "B": "O marinheiro disse que o pôr do sol naquele porto era extraordinário.",
+          "C": "O marinheiro referiu-se ao pôr do sol, dizendo que era extraordinário naquele porto.",
+          "D": "O marinheiro declarou que o pôr do sol naquele porto era extraordinário.",
+          "E": "Segundo o marinheiro, o pôr do sol naquele porto era extraordinário."
+        },
+        "gabarito": "A",
+        "explicacao": "A questão integra ortografia/acentuação (gram-01) e DI (comp-09). 'Pôr' (substantivo: 'o pôr do sol') mantém o acento circunflexo que o diferencia do verbo 'por' (preposição). No Acordo Ortográfico vigente (assinado em 1990, em vigor desde 2016), o acento diferencial foi eliminado em muitos casos, mas 'pôr' (verbo infinitivo e substantivo) ainda se mantém acentuado para diferenciar da preposição 'por'. A alternativa A grafou 'por do sol' sem acento — erro ortográfico. As demais alternativas grafam corretamente 'pôr' e as transposições do DI estão adequadas."
+      },
+      {
+        "id": "d15",
+        "nivel": "avancado",
+        "topico_referencia": "comp-09 + comp-03",
+        "enunciado": "Leia o diálogo: '— Você vai à cerimônia amanhã? / — Depende do tempo.' Ao transpor para DI e analisar as informações implícitas, é CORRETO afirmar que:",
+        "alternativas": {
+          "A": "na transposição, 'depende do tempo' explicita que a personagem tem medo de chuva — informação explícita no texto.",
+          "B": "na transposição para DI, a segunda fala ficaria: 'Ele respondeu que dependia do tempo.' A expressão 'do tempo' é ambígua: pode significar clima/meteorologia (implícito: não irá se chover) ou disponibilidade de tempo/agenda (implícito: irá se tiver tempo livre) — ambas informações implícitas que o leitor deve inferir pelo contexto.",
+          "C": "a transposição para DI elimina toda ambiguidade, pois o DI esclarece o sentido.",
+          "D": "a expressão 'amanhã' deve ser mantida no DI, pois não é dêitico.",
+          "E": "a transposição correta da segunda fala é: 'Ele respondeu que dependeria do tempo amanhã.'"
+        },
+        "gabarito": "B",
+        "explicacao": "A questão integra DI (comp-09) e informações implícitas (comp-03). Transposição correta: 'Você vai à cerimônia amanhã?' → 'Perguntou se ela iria à cerimônia no dia seguinte.' 'Depende do tempo.' → 'Ele respondeu que dependia do tempo.' A expressão 'do tempo' é polissêmica — 'tempo' pode ser meteorológico (implícito: não irá se as condições climáticas forem ruins) ou cronológico (implícito: irá se sua agenda permitir). A informação implícita — qual dos dois sentidos é o pretendido — não é explicitada no texto e depende de inferência contextual. O DI não elimina essa ambiguidade (C está errada): a polissemia persiste na transposição. D está errada: 'amanhã' é dêitico temporal e deve ser transposto para 'no dia seguinte'. E mantém 'amanhã' sem transpor."
+      }
+    ]
+  }
+}

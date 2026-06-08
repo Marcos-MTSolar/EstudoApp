@@ -1,10 +1,14 @@
 const modulos: Record<string, () => Promise<any>> = {
+  'comp-02': () => import('./conteudo/comp-02.json'),
   'comp-03': () => import('./conteudo/comp-03.json'),
   'comp-04': () => import('./conteudo/comp-04.json'),
+  'comp-05': () => import('./conteudo/comp-05.json'),
   'comp-06': () => import('./conteudo/comp-06.json'),
   'comp-07': () => import('./conteudo/comp-07.json'),
   'comp-08': () => import('./conteudo/comp-08.json'),
+  'comp-09': () => import('./conteudo/comp-09.json'),
   'comp-10': () => import('./conteudo/comp-10.json'),
+  'comp-13': () => import('./conteudo/comp-13.json'),
   'gram-01': () => import('./conteudo/gram-01.json'),
   'gram-02': () => import('./conteudo/gram-02.json'),
   'gram-03': () => import('./conteudo/gram-03.json'),
@@ -17,6 +21,7 @@ const modulos: Record<string, () => Promise<any>> = {
   'gram-10': () => import('./conteudo/gram-10.json'),
   'gram-11': () => import('./conteudo/gram-11.json'),
   'gram-12': () => import('./conteudo/gram-12.json'),
+  'gram-14': () => import('./conteudo/gram-14.json'),
 };
 
 export async function getConteudo(id: string): Promise<any | null> {
