@@ -1,102 +1,45 @@
 import React, { useState } from 'react';
-import { Loader2, ArrowLeft, Brain, BookOpen, CheckCircle2, XCircle, ChevronRight, Award } from 'lucide-react';
-import { useAuth } from '../../lib/AuthContext';
-import { useRM2Data } from '../../lib/useRM2Data';
-import { getConteudo } from '../../data/conteudoIndex';
-import RM2Desafio from './RM2Desafio';
+import { ArrowLeft, CheckCircle2, XCircle, ChevronRight, Award } from 'lucide-react';
 
-interface Assunto {
+interface Questao {
   id: string;
-  nome: string;
-  descricao: string;
+  nivel: string;
+  enunciado: string;
+  textoBase?: string;
+  alternativas: Record<string, string>;
+  gabarito: string;
+  explicacao: string;
 }
 
-interface RM2QuestoesProps {
-  assunto: Assunto;
+interface DesafioData {
+  topicos_mesclados: string[];
+  questoes: Questao[];
+}
+
+interface RM2DesafioProps {
+  desafio: DesafioData;
+  assuntoNome: string;
   onVoltar: () => void;
   onFinalizou: (acertos: number, total: number) => void;
 }
 
-export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps) {
-  const { user } = useAuth();
-  const { salvarResultadoQuestoes } = useRM2Data(user?.uid || 'offline_user');
-
-  // Configuração inicial
-  const [nivel, setNivel] = useState<'basico' | 'intermediario' | 'avancado' | 'desafio'>('intermediario');
-  const [quantidade, setQuantidade] = useState<number>(5);
-
-  // Status de controle
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
-  const [questoes, setQuestoes] = useState<any[]>([]);
+export default function RM2Desafio({ desafio, assuntoNome, onVoltar, onFinalizou }: RM2DesafioProps) {
   const [currentIdx, setCurrentIdx] = useState<number>(0);
   const [userAnswers, setUserAnswers] = useState<Record<string, string>>({}); // { questaoId: 'A' }
-  const [quizFinished, setQuizFinished] = useState<boolean>(false);
   const [mostrarRelatorio, setMostrarRelatorio] = useState<boolean>(false);
-  const [desafioData, setDesafioData] = useState<any>(null);
 
-  const buscarQuestoes = async (nivelAlvo = nivel) => {
-    setLoading(true);
-    setError('');
-    setQuestoes([]);
-    setCurrentIdx(0);
-    setUserAnswers({});
-    setQuizFinished(false);
-    setMostrarRelatorio(false);
-    setDesafioData(null);
+  const questoes = desafio.questoes || [];
+  const topicosMesclados = desafio.topicos_mesclados || [];
 
-    try {
-      const conteudo = await getConteudo(assunto.id);
-      if (!conteudo) {
-        setError('Conteúdo não encontrado.');
-        setLoading(false);
-        return;
-      }
-
-      if (nivelAlvo === 'desafio') {
-        if (!conteudo.desafio) {
-          setError('Desafio ainda não disponível para este tópico.');
-          setLoading(false);
-          return;
-        }
-        const desafioObj = conteudo.desafio;
-        const listQuestoes = Array.isArray(desafioObj) ? desafioObj : (desafioObj.questoes || []);
-        if (listQuestoes.length === 0) {
-          setError('Desafio ainda não disponível para este tópico.');
-          setLoading(false);
-          return;
-        }
-        setDesafioData(desafioObj);
-      } else {
-        if (!conteudo.questoes) {
-          setError('Questões ainda não disponíveis para este tópico.');
-          setLoading(false);
-          return;
-        }
-        const filtradas = conteudo.questoes.filter((q: any) => q.nivel === nivelAlvo);
-        const fatiadas = filtradas.slice(0, quantidade);
-        if (fatiadas.length === 0) {
-          setError(`Nenhuma questão encontrada para o nível ${nivelAlvo === 'basico' ? 'Básico' : nivelAlvo === 'intermediario' ? 'Intermediário' : 'Avançado'}.`);
-          setLoading(false);
-          return;
-        }
-        setQuestoes(fatiadas);
-      }
-    } catch (err: any) {
-      console.error(err);
-      setError(err.message || 'Ocorreu um erro ao obter as questões.');
-    } finally {
-      setLoading(false);
-    }
-  };
+  const qAtual = questoes[currentIdx];
+  const userResp = qAtual ? userAnswers[qAtual.id] : undefined;
+  const responds = userResp !== undefined;
 
   const handleSelectAnswer = (letra: string) => {
-    const q = questoes[currentIdx];
-    if (userAnswers[q.id] !== undefined) return; // já respondeu
-
+    if (responds) return; // já respondeu
     setUserAnswers(prev => ({
       ...prev,
-      [q.id]: letra
+      [qAtual.id]: letra
     }));
   };
 
@@ -112,72 +55,43 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
         }
       });
 
-      // Salva no hook de progresso
-      salvarResultadoQuestoes(assunto.id, acertos, questoes.length);
-      setQuizFinished(true);
+      // Salva no hook de progresso via callback
+      onFinalizou(acertos, questoes.length);
       setMostrarRelatorio(true);
     }
   };
 
-  // Renderiza Loading
-  if (loading) {
-    return (
-      <div className="bg-surface border border-border rounded-3xl p-16 text-center flex flex-col items-center justify-center min-h-[350px] max-w-xl mx-auto">
-        <Loader2 className="w-10 h-10 text-blue-500 animate-spin mb-4" />
-        <h3 className="font-bold text-white text-base">Gerando base de questões...</h3>
-        <p className="text-xs text-gray-500 mt-1">Elaborando enunciados e explicações no padrão da prova.</p>
-      </div>
-    );
-  }
+  const handleTentarNovamente = () => {
+    setCurrentIdx(0);
+    setUserAnswers({});
+    setMostrarRelatorio(false);
+  };
 
-  // Renderiza o Desafio se ativo
-  if (desafioData) {
-    return (
-      <RM2Desafio
-        desafio={desafioData}
-        assuntoNome={assunto.nome}
-        onVoltar={() => {
-          setDesafioData(null);
-          setQuestoes([]);
-        }}
-        onFinalizou={(acertos, total) => {
-          salvarResultadoQuestoes(assunto.id, acertos, total);
-        }}
-      />
-    );
-  }
-
-  // Renderiza Relatório se estiver ativo
+  // Se o relatório estiver ativo, renderiza o Relatório do Desafio
   if (mostrarRelatorio) {
-    const acertos = questoes.filter(q => userAnswers[q.id] === q.gabarito).length;
-    const percent = questoes.length > 0 ? Math.round((acertos / questoes.length) * 100) : 0;
-
-    const handleTentarNovamente = () => {
-      setCurrentIdx(0);
-      setUserAnswers({});
-      setMostrarRelatorio(false);
-      setQuizFinished(false);
-    };
-
-    const handleProximoNivel = () => {
-      let proximo: 'basico' | 'intermediario' | 'avancado' | 'desafio' | null = null;
-      if (nivel === 'basico') proximo = 'intermediario';
-      else if (nivel === 'intermediario') proximo = 'avancado';
-
-      if (proximo) {
-        setNivel(proximo);
-        buscarQuestoes(proximo);
+    let acertos = 0;
+    questoes.forEach(q => {
+      if (userAnswers[q.id] === q.gabarito) {
+        acertos++;
       }
-    };
+    });
+    const percent = questoes.length > 0 ? Math.round((acertos / questoes.length) * 100) : 0;
 
     return (
       <div className="space-y-6 max-w-3xl mx-auto animate-in fade-in duration-300">
         {/* Cabeçalho */}
         <div className="bg-surface border border-border rounded-3xl p-6 md:p-8 space-y-6 shadow-md text-center">
           <div className="space-y-2">
-            <h2 className="text-xl font-heading font-black text-white">Relatório de Desempenho</h2>
-            <p className="text-xs text-gray-400">{assunto.nome}</p>
+            <h2 className="text-xl font-heading font-black text-white">Relatório do Desafio</h2>
+            <p className="text-xs text-gray-400">{assuntoNome}</p>
           </div>
+
+          {topicosMesclados.length > 0 && (
+            <div className="text-xs text-gray-300 bg-black/25 p-4 rounded-2xl border border-border/60 max-w-xl mx-auto text-left space-y-1">
+              <span className="font-black uppercase tracking-wider text-blue-400 block text-[10px]">Tópicos Mesclados neste Desafio:</span>
+              <p className="leading-relaxed">{topicosMesclados.join(', ')}</p>
+            </div>
+          )}
 
           <div className="bg-black/20 p-5 rounded-2xl border border-border flex justify-around items-center max-w-sm mx-auto">
             <div>
@@ -268,22 +182,13 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
         </div>
 
         {/* Botões */}
-        <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+        <div className="flex gap-4 pt-4 justify-center">
           <button
             onClick={handleTentarNovamente}
             className="flex-1 max-w-xs bg-blue-600 hover:bg-blue-700 text-white font-black py-4 px-6 rounded-2xl transition-all text-xs uppercase tracking-wider text-center shadow-md shadow-blue-500/10"
           >
             Tentar Novamente
           </button>
-          
-          {(nivel === 'basico' || nivel === 'intermediario') && (
-            <button
-              onClick={handleProximoNivel}
-              className="flex-1 max-w-xs bg-black/25 hover:bg-black/40 border border-border text-gray-300 font-black py-4 px-6 rounded-2xl transition-all text-xs uppercase tracking-wider text-center"
-            >
-              Próximo Nível
-            </button>
-          )}
         </div>
 
         <div className="flex justify-center pt-2">
@@ -291,92 +196,19 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
             onClick={onVoltar}
             className="text-xs font-black uppercase tracking-wider text-gray-400 hover:text-white transition-colors"
           >
-            Voltar para Tópicos
+            Voltar para Níveis
           </button>
         </div>
       </div>
     );
   }
 
-  // Renderiza Configuração Inicial
-  if (questoes.length === 0 && !loading && !desafioData) {
-    return (
-      <div className="space-y-6 max-w-xl mx-auto animate-in fade-in duration-300">
-        <button onClick={onVoltar} className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-gray-400 hover:text-white transition-colors">
-          <ArrowLeft className="w-4 h-4" /> Voltar
-        </button>
-
-        <div className="bg-surface border border-border rounded-3xl p-6 md:p-8 space-y-6 shadow-md">
-          <div className="space-y-2">
-            <h2 className="text-xl font-heading font-black text-white">Treinamento de Questões</h2>
-            <p className="text-xs text-gray-400">Gere questões no estilo do edital RM2 para fixação do assunto.</p>
-          </div>
-
-          <div className="space-y-4">
-            {/* Nível */}
-            <div className="space-y-2">
-              <label className="block text-[10px] uppercase tracking-widest font-black text-gray-400">Nível de Dificuldade</label>
-              <div className="grid grid-cols-4 gap-2 bg-black/25 p-1 rounded-2xl border border-border/60">
-                {(['basico', 'intermediario', 'avancado', 'desafio'] as const).map((lvl) => (
-                  <button
-                    key={lvl}
-                    onClick={() => setNivel(lvl)}
-                    className={`py-2 px-1 rounded-xl text-[10px] font-black uppercase tracking-wider transition-all ${
-                      nivel === lvl ? 'bg-blue-600 text-white' : 'text-gray-400 hover:text-white'
-                    }`}
-                  >
-                    {lvl === 'basico' ? 'Básico' : lvl === 'intermediario' ? 'Interm.' : lvl === 'avancado' ? 'Avançado' : 'Desafio'}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* Quantidade */}
-            {nivel !== 'desafio' && (
-              <div className="space-y-2 animate-in fade-in duration-200">
-                <label className="block text-[10px] uppercase tracking-widest font-black text-gray-400">Quantidade de Questões</label>
-                <div className="grid grid-cols-3 gap-2 bg-black/25 p-1 rounded-2xl border border-border/60">
-                  {[1, 5, 10].map((qtd) => (
-                    <button
-                      key={qtd}
-                      onClick={() => setQuantidade(qtd)}
-                      className={`py-2 px-3 rounded-xl text-[10px] font-black uppercase tracking-wider transition-all ${
-                        quantidade === qtd ? 'bg-blue-600 text-white' : 'text-gray-400 hover:text-white'
-                      }`}
-                    >
-                      {qtd} {qtd === 1 ? 'Questão' : 'Questões'}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
-          </div>
-
-          {error && <p className="text-xs font-bold text-red-400">{error}</p>}
-
-          <button
-            onClick={() => buscarQuestoes(nivel)}
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-black py-4 px-6 rounded-2xl transition-all flex items-center justify-center gap-2 text-sm uppercase tracking-wider shadow-md shadow-blue-500/10"
-          >
-            <Brain className="w-4.5 h-4.5" />
-            <span>{nivel === 'desafio' ? 'Iniciar Desafio' : 'Gerar Questões com IA'}</span>
-          </button>
-        </div>
-      </div>
-    );
-  }
-
-  // Renderiza Questão Atual
-  const qAtual = questoes[currentIdx];
-  const userResp = userAnswers[qAtual.id];
-  const responds = userResp !== undefined;
-
+  // Renderiza a questão ativa do Desafio
   return (
     <div className="space-y-6 max-w-3xl mx-auto animate-in fade-in duration-300">
-      
-      {/* Progresso de Questões */}
+      {/* Progresso */}
       <div className="flex items-center justify-between text-xs text-gray-400">
-        <span className="font-bold">Questão {currentIdx + 1} de {questoes.length}</span>
+        <span className="font-bold">Desafio — Questão {currentIdx + 1} de {questoes.length}</span>
         <div className="w-40 h-1.5 bg-white/5 rounded-full overflow-hidden">
           <div 
             className="h-full bg-blue-500 rounded-full transition-all duration-300"
@@ -462,7 +294,7 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
                 className="bg-blue-600 hover:bg-blue-700 text-white font-black py-3 px-6 rounded-xl flex items-center gap-1.5 transition-all text-xs uppercase tracking-wider"
               >
                 <span>
-                  {currentIdx === questoes.length - 1 ? 'Concluir Treinamento' : 'Próxima Questão'}
+                  {currentIdx === questoes.length - 1 ? 'Concluir Desafio' : 'Próxima Questão'}
                 </span>
                 <ChevronRight className="w-4 h-4" />
               </button>
@@ -470,7 +302,6 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
           </div>
         )}
       </div>
-
     </div>
   );
 }

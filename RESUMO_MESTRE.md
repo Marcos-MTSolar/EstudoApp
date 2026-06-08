@@ -585,6 +585,24 @@ O sistema funciona de duas maneiras:
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Teoria.tsx` **[ATUALIZADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 24 — Relatório completo de desempenho e Seção de Desafio no RM2Questoes
+- **Data e hora:** 07/06/2026 às 07:25 (Horário Local)
+- **O que foi feito:**
+  1. **Relatório completo de desempenho (`RM2Questoes.tsx`):** Substituída a antiga tela de pontuação por um relatório detalhado. Mostra cabeçalho com pontuação, percentual de aproveitamento, e uma lista com cada questão respondida, destacando a alternativa do usuário (verde se correta, vermelho se errada), a alternativa gabarito (verde) e a explicação pedagógica.
+  2. **Botões de controle:** Adicionados botões "Tentar Novamente" (reinicia o nível atual) e "Próximo Nível" (avança para o nível seguinte de dificuldade se houver).
+  3. **Aba Desafio:** Adicionado o botão/aba "Desafio" ao lado dos botões de nível. Se o usuário escolher Desafio, o app carrega o campo `desafio` do JSON (contendo 15 questões mescladas). Caso o campo não exista, exibe uma mensagem amigável: "Desafio ainda não disponível para este tópico."
+  4. **Componente Desafio (`RM2Desafio.tsx`):** Criado o novo componente `RM2Desafio` para encapsular a gameplay e o relatório específicos do modo desafio, listando no topo do relatório os tópicos mesclados lidos de `topicos_mesclados`.
+- **Validação:**
+  - `tsc --noEmit` ✅ zero erros TypeScript
+  - `npm run build` ✅ 2934 módulos transformados, compilado com sucesso
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Questoes.tsx` **[ATUALIZADO]**
+  - `src/components/rm2/RM2Desafio.tsx` **[NOVO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
 ---
 
 ## SESSÃO DE ESTUDOS RM2 — CONTROLE DE CONTEÚDO
@@ -592,7 +610,7 @@ O sistema funciona de duas maneiras:
 ### Como usar esta seção
 Esta seção é atualizada automaticamente pelo Windsurf ao final de cada sessão.
 Ao iniciar uma nova conversa no Claude (claude.ai), envie este arquivo completo
-como contexto. O Claude saberá exatamente qual tópico gerar a seguir e em qual
+como contexto. O Claude saberá exatamente qual tópico gerar aui a seguir e em qual
 formato, sem necessidade de briefing adicional.
 
 ### Instruções para o Claude ao receber este arquivo
@@ -601,17 +619,21 @@ do Brasil, vaga de Engenharia Elétrica em Fortaleza/CE. A prova é exclusivamen
 de Língua Portuguesa: 40 questões de múltipla escolha, 5 alternativas, 2,5 pontos
 cada, duração 3 horas, nota mínima 40 pontos.
 
-O candidato tem um app React (EstudoApp) que exibe teoria, questões e simulados
-a partir de arquivos JSON estáticos em `src/data/conteudo/`. Cada JSON segue a
-estrutura definida na seção 4 deste documento. Quando solicitado, gere o próximo
-JSON da lista de pendentes abaixo, seguindo exatamente essa estrutura, sem texto
-antes ou depois, sem blocos de markdown, apenas o JSON puro começando com { e
-terminando com }. O conteúdo deve ser baseado na bibliografia oficial do edital:
-Cunha e Cintra (Nova Gramática), Koch e Elias, Fiorin e Savioli, Manual de
-Redação e Estilo da Marinha. O Acordo Ortográfico foi assinado em 1990 e entrou
-em vigor em 2016 — nunca mencionar 2009. Coautor não tem hífen.
+O candidato tem um app React chamado EstudoApp em produção na Vercel
+(https://estudo-app-rm2.vercel.app) que exibe teoria, questões e simulados
+a partir de arquivos JSON estáticos em src/data/conteudo/. Quando solicitado,
+gere o próximo JSON da lista de pendentes abaixo seguindo exatamente a estrutura
+definida nesta seção. Entregue apenas o JSON puro começando com { e terminando
+com }, sem texto antes ou depois e sem blocos de markdown.
 
-### Estrutura do JSON (padrão obrigatório)
+O conteúdo deve ser baseado na bibliografia oficial do edital: Cunha e Cintra
+(Nova Gramática do Português Contemporâneo, Lexikon 2017), Koch e Elias (Ler e
+compreender os sentidos do texto, Contexto 2008), Fiorin e Savioli (Para entender
+o texto, Ática 2007), Manual de Redação e Estilo da Marinha (Letras Marítimas 2024).
+O Acordo Ortográfico foi assinado em 1990 e entrou em vigor em 2016 — nunca
+mencionar 2009. Coautor não tem hífen.
+
+### Estrutura obrigatória do JSON
 ```json
 {
   "id": "",
@@ -661,14 +683,44 @@ em vigor em 2016 — nunca mencionar 2009. Coautor não tem hífen.
       "gabarito": "",
       "explicacao": ""
     }
-  ]
+  ],
+  "desafio": {
+    "topicos_mesclados": [],
+    "questoes": [
+      {
+        "id": "d01",
+        "nivel": "avancado",
+        "topico_referencia": "",
+        "enunciado": "",
+        "alternativas": { "A": "", "B": "", "C": "", "D": "", "E": "" },
+        "gabarito": "",
+        "explicacao": ""
+      }
+    ]
+  }
 }
 ```
 
-Requisitos de quantidade por JSON: mínimo 5 blocos de teoria, exatamente 5
-pegadinhas, exatamente 3 cascas de banana, exatamente 10 questões sendo 3
-básico, 4 intermediário e 3 avançado, exatamente 5 questões de simulado nível
-avançado.
+### Requisitos obrigatórios de quantidade por JSON
+- Teoria: mínimo 5 blocos
+- Pegadinhas: exatamente 5
+- Cascas de banana: exatamente 3
+- Questões de fixação: exatamente 30 sendo 10 básico (q01–q10), 10 intermediário (q11–q20) e 10 avançado (q21–q30)
+- Simulado: exatamente 5 questões nível avançado (s01–s05)
+- Desafio: exatamente 15 questões (d01–d15) mesclando o tópico atual com todos os tópicos já implementados listados na tabela de JSONs implementados abaixo. O campo topico_referencia de cada questão deve indicar de qual tópico ela foi extraída.
+
+### Fluxo de entrega por JSON
+Após entregar cada JSON completo, o Claude deve gerar automaticamente o seguinte bloco antes de começar o próximo, substituindo [ID] pelo id real do tópico gerado:
+
+PROMPT WINDSURF — IMPLEMENTAR [ID]
+Acabei de criar o arquivo src/data/conteudo/[ID].json.
+Abra o arquivo src/data/conteudoIndex.ts e adicione esta linha dentro do objeto modulos:
+'[ID]': () => import('./conteudo/[ID].json'),
+Após adicionar execute tsc --noEmit and npm run build e confirme que compilou sem erros.
+Não altere nenhum outro arquivo.
+
+Após gerar esse bloco o Claude aguarda confirmação de que o arquivo foi salvo e
+implementado antes de começar o próximo JSON.
 
 ### JSONs implementados
 | ID | Título | Arquivo | Data |
@@ -679,7 +731,8 @@ avançado.
 ID: gram-02
 Título: Uso do Sinal Indicador de Crase
 Arquivo a criar: src/data/conteudo/gram-02.json
-Após gerar, adicionar em conteudoIndex.ts: 'gram-02': () => import('./conteudo/gram-02.json'),
+Após gerar, adicionar em conteudoIndex.ts:
+'gram-02': () => import('./conteudo/gram-02.json'),
 
 ### JSONs pendentes (por ordem de prioridade)
 | Prioridade | ID | Título |
