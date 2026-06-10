@@ -138,7 +138,7 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
         <div className="bg-surface border border-red-500/20 rounded-3xl p-8 text-center text-red-400 space-y-4">
           <p className="text-sm font-bold">{error}</p>
           <button
-            onClick={() => setNivel(nivel)} // Triggers refetch
+            onClick={() => setNivel(nivel)}
             className="px-5 py-2.5 bg-red-500/10 hover:bg-red-500/20 border border-red-500/20 rounded-xl text-xs font-black uppercase"
           >
             Tentar Novamente
@@ -148,10 +148,13 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
 
       {teoriaData && !loading && (
         <div className="bg-surface border border-border rounded-3xl overflow-hidden shadow-xl">
-          {/* Corpo do Conteúdo */}
           <div className="p-6 md:p-8 space-y-6">
+
+            {/* Título do assunto — 1.6rem */}
             <div>
-              <h2 className="text-2xl font-heading font-black text-white">{teoriaData.titulo || assunto.nome}</h2>
+              <h2 style={{ fontSize: '1.6rem', fontWeight: 900, color: '#fff', lineHeight: 1.3 }}>
+                {teoriaData.titulo || assunto.nome}
+              </h2>
               <p className="text-sm text-blue-400 font-medium mt-1 uppercase tracking-wider text-[10px]">
                 Edital RM2 Marinha • Língua Portuguesa
               </p>
@@ -167,35 +170,72 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
 
             <hr className="border-border/60" />
 
-            <div className="space-y-3">
-              <h3 className="text-base font-black text-white uppercase tracking-wider text-xs text-gray-400">Teoria Completa</h3>
+            {/* TEORIA COMPLETA — blocos com tipografia e separadores melhorados */}
+            <div>
+              <h3 className="text-xs uppercase font-black tracking-wider text-gray-400 mb-4">Teoria Completa</h3>
               {(() => {
                 const todos = teoriaData.teoria?.blocos ?? [];
                 const quantidade = nivel === 'basico' ? 2
                   : nivel === 'intermediario' ? 4
                   : todos.length;
-                return todos.slice(0, quantidade).map((bloco: any, index: number) => (
-                  <div key={index} style={{ marginBottom: '1.5rem' }}>
+                return todos.slice(0, quantidade).map((bloco: any, index: number, arr: any[]) => (
+                  <div
+                    key={index}
+                    style={{
+                      marginBottom: '28px',
+                      paddingBottom: '20px',
+                      /* Separador sutil entre blocos, exceto no último */
+                      borderBottom: index < arr.length - 1 ? '1px solid rgba(55,65,81,0.5)' : 'none',
+                    }}
+                  >
+                    {/* Subtítulo do bloco: 1.15rem, font-weight 600 */}
                     {bloco.subtitulo && (
-                      <h4 className="text-sm font-black text-blue-300 mb-2">{bloco.subtitulo}</h4>
+                      <h4 style={{ fontSize: '1.15rem', fontWeight: 600, color: '#93c5fd', marginBottom: '8px', lineHeight: 1.4 }}>
+                        {bloco.subtitulo}
+                      </h4>
                     )}
-                    <p className="text-sm text-gray-300 leading-relaxed" style={{ whiteSpace: 'pre-wrap' }}>{bloco.conteudo}</p>
+
+                    {/* Conteúdo principal: 1.05rem, line-height 1.75 */}
+                    <p style={{ fontSize: '1.05rem', lineHeight: 1.75, color: '#d1d5db', whiteSpace: 'pre-wrap' }}>
+                      {bloco.conteudo}
+                    </p>
+
+                    {/* Regra: borda azul esquerda, 1.0rem, line-height 1.7 */}
                     {bloco.regra && (
                       <div style={{
                         background: 'rgba(59,130,246,0.08)',
-                        borderLeft: '3px solid rgba(59,130,246,0.5)',
-                        padding: '0.5rem 0.75rem',
-                        marginTop: '0.5rem',
-                        borderRadius: '4px'
+                        borderLeft: '3px solid rgba(59,130,246,0.6)',
+                        padding: '8px 12px',
+                        marginTop: '10px',
+                        borderRadius: '4px',
                       }}>
-                        <span className="text-xs font-black text-blue-400 uppercase tracking-wider">Regra: </span>
-                        <span className="text-xs text-gray-300">{bloco.regra}</span>
+                        <span style={{ fontSize: '0.7rem', fontWeight: 900, color: '#60a5fa', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                          Regra:{' '}
+                        </span>
+                        <span style={{ fontSize: '1.0rem', lineHeight: 1.7, color: '#d1d5db' }}>{bloco.regra}</span>
                       </div>
                     )}
+
+                    {/* Exemplos: padding 10px 14px, mb 10px, borda accent esquerda, itálico 1.0rem */}
                     {bloco.exemplos?.length > 0 && (
-                      <ul className="mt-2 space-y-1 list-disc list-inside">
+                      <ul style={{ marginTop: '10px', listStyle: 'none', padding: 0 }}>
                         {bloco.exemplos.map((ex: string, i: number) => (
-                          <li key={i} className="text-xs text-gray-400">{ex}</li>
+                          <li
+                            key={i}
+                            style={{
+                              padding: '10px 14px',
+                              marginBottom: '10px',
+                              background: 'rgba(31,41,55,0.7)',
+                              borderLeft: '3px solid rgba(59,130,246,0.55)',
+                              borderRadius: '4px',
+                              fontSize: '1.0rem',
+                              fontStyle: 'italic',
+                              color: '#9ca3af',
+                              lineHeight: 1.6,
+                            }}
+                          >
+                            {ex}
+                          </li>
                         ))}
                       </ul>
                     )}
@@ -208,7 +248,7 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
               <>
                 <hr className="border-border/60" />
                 <div className="space-y-3">
-                  <h3 className="text-base font-black text-white uppercase tracking-wider text-xs text-gray-400">Regras Importantes</h3>
+                  <h3 className="text-xs uppercase font-black tracking-wider text-gray-400">Regras Importantes</h3>
                   <ul className="grid md:grid-cols-2 gap-3">
                     {teoriaData.regras.map((regra: string, i: number) => (
                       <li key={i} className="flex gap-3 bg-black/15 border border-border/40 p-4 rounded-xl text-xs text-gray-300 leading-relaxed items-start">
@@ -225,7 +265,7 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
               <>
                 <hr className="border-border/60" />
                 <div className="space-y-4">
-                  <h3 className="text-base font-black text-white uppercase tracking-wider text-xs text-gray-400">Exemplos Práticos</h3>
+                  <h3 className="text-xs uppercase font-black tracking-wider text-gray-400">Exemplos Práticos</h3>
                   <div className="space-y-3">
                     {teoriaData.exemplos.map((ex: any, i: number) => (
                       <div key={i} className="p-4 bg-black/20 border border-border/60 rounded-xl space-y-2">
@@ -253,36 +293,54 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
                     </div>
                   )}
 
+                  {/* Pegadinhas — cards com padding 12px e texto maior */}
                   {teoriaData.pegadinhas?.length > 0 && (
-                    <div className="bg-red-500/5 border border-red-500/20 p-5 rounded-2xl space-y-2">
-                      <h4 className="text-xs uppercase tracking-widest font-black text-red-400 flex items-center gap-2">
-                        <span>⚠️ Pegadinhas Frequentes</span>
+                    <div className="bg-red-500/5 border border-red-500/20 rounded-2xl overflow-hidden">
+                      <h4 className="text-xs uppercase tracking-widest font-black text-red-400 px-5 pt-5 pb-3">
+                        ⚠️ Pegadinhas Frequentes
                       </h4>
-                      <div className="space-y-3">
+                      <div style={{ padding: '0 12px 12px' }}>
                         {(() => {
                           const todas = teoriaData.pegadinhas ?? [];
                           const quantidade = nivel === 'basico' ? 2
                             : nivel === 'intermediario' ? 3
                             : todas.length;
                           return todas.slice(0, quantidade).map((peg: any, index: number) => (
-                            <div key={index} style={{ marginBottom: '0.75rem' }}>
+                            <div
+                              key={index}
+                              style={{
+                                padding: '12px',
+                                marginBottom: '10px',
+                                background: 'rgba(239,68,68,0.05)',
+                                border: '1px solid rgba(239,68,68,0.12)',
+                                borderRadius: '8px',
+                              }}
+                            >
                               {typeof peg === 'string' ? (
-                                <p className="text-xs text-gray-300">{peg}</p>
+                                <p style={{ fontSize: '0.95rem', lineHeight: 1.65, color: '#d1d5db' }}>{peg}</p>
                               ) : (
                                 <>
-                                  {peg.titulo && <p className="text-xs font-black text-red-300">{peg.titulo}</p>}
+                                  {peg.titulo && (
+                                    <p style={{ fontSize: '0.85rem', fontWeight: 900, color: '#fca5a5', marginBottom: '6px' }}>
+                                      {peg.titulo}
+                                    </p>
+                                  )}
                                   {peg.errado && (
-                                    <p className="text-xs mt-1">
-                                      <span style={{ color: '#e55' }}>✗ Errado:</span> <span className="text-gray-400">{peg.errado}</span>
+                                    <p style={{ fontSize: '0.98rem', marginBottom: '4px' }}>
+                                      <span style={{ color: '#e55', fontWeight: 700 }}>✗ Errado:</span>{' '}
+                                      <span style={{ color: '#9ca3af' }}>{peg.errado}</span>
                                     </p>
                                   )}
                                   {peg.correto && (
-                                    <p className="text-xs">
-                                      <span style={{ color: '#5a5' }}>✓ Correto:</span> <span className="text-gray-300">{peg.correto}</span>
+                                    <p style={{ fontSize: '0.98rem', marginBottom: '4px' }}>
+                                      <span style={{ color: '#5a5', fontWeight: 700 }}>✓ Correto:</span>{' '}
+                                      <span style={{ color: '#d1d5db' }}>{peg.correto}</span>
                                     </p>
                                   )}
                                   {peg.explicacao && (
-                                    <p className="text-xs text-gray-400 italic mt-1">{peg.explicacao}</p>
+                                    <p style={{ fontSize: '0.95rem', lineHeight: 1.65, color: '#9ca3af', fontStyle: 'italic', marginTop: '6px' }}>
+                                      {peg.explicacao}
+                                    </p>
                                   )}
                                 </>
                               )}
@@ -296,7 +354,7 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
               </>
             )}
 
-            {/* Cascas de Banana */}
+            {/* Cascas de Banana — padding 12px e texto maior */}
             {teoriaData.cascas_de_banana?.length > 0 && (
               <>
                 <hr className="border-border/60" />
@@ -308,10 +366,20 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
                       : nivel === 'intermediario' ? 2
                       : todas.length;
                     return todas.slice(0, quantidade).map((casca: any, index: number) => (
-                      <div key={index} className="bg-amber-500/5 border border-amber-500/20 rounded-xl p-4 space-y-1">
-                        <p className="text-xs text-amber-300 font-bold">{casca.situacao}</p>
-                        <p className="text-xs text-gray-300 leading-relaxed">
-                          <span className="font-bold text-gray-200">Dica: </span>{casca.dica}
+                      <div
+                        key={index}
+                        style={{
+                          padding: '12px',
+                          background: 'rgba(245,158,11,0.05)',
+                          border: '1px solid rgba(245,158,11,0.2)',
+                          borderRadius: '12px',
+                        }}
+                      >
+                        <p style={{ fontSize: '0.98rem', fontWeight: 700, color: '#fcd34d', marginBottom: '6px' }}>
+                          {casca.situacao}
+                        </p>
+                        <p style={{ fontSize: '0.95rem', lineHeight: 1.65, color: '#d1d5db' }}>
+                          <span style={{ fontWeight: 700, color: '#e5e7eb' }}>Dica: </span>{casca.dica}
                         </p>
                       </div>
                     ));
@@ -322,7 +390,7 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
 
             <hr className="border-border/60" />
 
-            {/* A — Botão Marcar Teoria como Concluída */}
+            {/* Botão Marcar Teoria como Concluída */}
             <div className="mt-6 flex flex-col gap-4">
               <div className="flex items-center gap-4">
                 <button
@@ -342,7 +410,7 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
                 )}
               </div>
 
-              {/* B — Seção de Resumo Rápido (lido do JSON estático) */}
+              {/* Seção de Resumo Rápido */}
               <div className="border border-gray-700 rounded-lg overflow-hidden">
                 <button
                   onClick={handleGerarResumo}

@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Loader2, ArrowLeft, Clock, ShieldCheck, Award, CheckCircle2, XCircle, ChevronDown, ChevronUp } from 'lucide-react';
-import { useAuth } from '../../lib/AuthContext';
 import { RM2_CONTEUDO } from '../../data/rm2Conteudo';
 import { getConteudo, getIdsDisponiveis } from '../../data/conteudoIndex';
 
@@ -11,8 +10,6 @@ interface RM2SimulacaoProps {
 }
 
 export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps) {
-  const { user } = useAuth();
-  
   // Controle de estados
   const [started, setStarted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -105,45 +102,66 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
     setLoading(true);
 
     const duracaoSegundos = initialSeconds - secondsLeft;
-    
-    // Transforma respostas do formato Record para Array
-    const respostasArray = questoes.map(q => ({
-      questaoId: q.id,
-      resposta: respostas[q.id] || ''
-    }));
 
     try {
-      const response = await fetch('/api/rm2/resultado', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: user?.uid || 'offline_user',
-          simulacaoId: `sim_${modo}_${Date.now()}`,
-          respostas: respostasArray,
-          questoes,
-          duracaoSegundos
-        })
+      // Cálculo local do resultado (app 100% offline — sem chamadas a servidor)
+      const respostasDetalhadas = questoes.map((q: any) => {
+        const respostaUsuario = respostas[q.id] || '';
+        const gabarito = q.gabarito || q.resposta_correta || '';
+        const correto = respostaUsuario.toUpperCase() === gabarito.toUpperCase();
+        return {
+          questaoId: q.id,
+          enunciado: q.enunciado || '',
+          assunto: q.assunto || q.area || '',
+          respostaUsuario,
+          gabarito,
+          correto,
+          explicacao: q.explicacao || q.comentario || 'Veja a alternativa correta acima.'
+        };
       });
 
-      if (!response.ok) {
-        throw new Error('Falha ao processar e salvar resultados.');
-      }
+      const totalAcertos = respostasDetalhadas.filter((r: any) => r.correto).length;
+      const totalQuestoes = questoes.length;
+      const percentualAcerto = totalQuestoes > 0
+        ? Math.round((totalAcertos / totalQuestoes) * 100)
+        : 0;
 
-      const data = await response.json();
+      const data = {
+        totalAcertos,
+        totalQuestoes,
+        percentualAcerto,
+        duracaoSegundos,
+        respostasDetalhadas
+      };
+
+      // Salva resultado no localStorage para histórico
+      const historico = JSON.parse(localStorage.getItem('rm2_simulados_historico') || '[]');
+      historico.push({
+        id: `sim_${modo}_${Date.now()}`,
+        modo,
+        data: new Date().toISOString(),
+        totalAcertos,
+        totalQuestoes,
+        percentualAcerto,
+        duracaoSegundos
+      });
+      localStorage.setItem('rm2_simulados_historico', JSON.stringify(historico));
+
       setResultadoFinal(data);
       setShowResult(true);
-      
+
       // Callback externo opcional
       if (onFinalizar) {
         onFinalizar(data);
       }
     } catch (err: any) {
       console.error(err);
-      alert(err.message || 'Ocorreu um erro ao salvar o resultado.');
+      alert(err.message || 'Ocorreu um erro ao processar o resultado.');
     } finally {
       setLoading(false);
     }
   };
+
 
   const formatTime = (secs: number) => {
     const mins = Math.floor(secs / 60);

@@ -20,9 +20,7 @@ Este documento consolida a análise detalhada e atualizada da arquitetura, stack
 * **Ícones:** Lucide React v0.546.0.
 
 ### Backend
-* **Infraestrutura:** Funções Serverless Vercel (`@vercel/node`) dentro do diretório `api/`.
-* **Servidor Local (Dev):** Node.js com Express v4.21.2 em `server.ts` (reserva de desenvolvimento, não implantado).
-* **Compilação/Bundling:** `esbuild` para gerar o bundle do servidor Node em formato CommonJS (`dist/server.cjs`) em desenvolvimento local.
+* **Infraestrutura:** ⚡ **App 100% estático/frontend-only.** Sem rotas serverless, sem servidor Node.js. Todo o conteúdo é carregado via `import()` dinâmico de JSON locais em `src/data/conteudo/`. O deploy na Vercel serve apenas o SPA (`/index.html`).
 
 ### Banco de Dados e Storage
 * **Local:** LocalStorage para persistência de dados no modo offline (chaves com prefixo `enem_`).
@@ -605,7 +603,114 @@ O sistema funciona de duas maneiras:
 
 ---
 
-## SESSÃO DE ESTUDOS RM2 — CONTROLE DE CONTEÚDO
+### Parte 25 — Atualização Completa do Controle de Conteúdo (Todos os JSONs do Edital)
+- **Data e hora:** 10/06/2026 às 14:49 (Horário Local)
+- **O que foi feito:**
+  1. Atualizada a tabela de "JSONs implementados" no controle de conteúdo para incluir os 28 tópicos (gram-01 a gram-14 e comp-01 a comp-14) que foram criados e integrados localmente nas sessões anteriores.
+  2. Atualizados os campos "Próximo a gerar" e "JSONs pendentes" para indicar a conclusão total do mapeamento estático do conteúdo programático do edital RM2.
+- **Arquivos modificados:**
+  - `RESUMO_MESTRE.md` (em `PlanoEstudo/` e na raiz `/`)
+
+---
+
+### Parte 26 — Reordenação dos Tópicos por Progressão Pedagógica
+- **Data e hora:** 10/06/2026 às 15:28 (Horário Local)
+- **Motivação:** A ordem original dos tópicos em `rm2Conteudo.ts` e `conteudoIndex.ts` seguia a numeração dos IDs (gram-01 a gram-14, comp-01 a comp-14), o que colocava assuntos avançados antes de seus pré-requisitos.
+- **Nova ordem pedagógica aplicada:**
+
+  **Área 1 — Gramática (base estrutural):**
+  | # | ID | Tópico |
+  |---|---|---|
+  | 1 | gram-04 | Estrutura e Formação de Palavras |
+  | 2 | gram-05 | Classes de Palavras |
+  | 3 | gram-06 | Flexão Nominal |
+  | 4 | gram-07 | Flexão Verbal |
+  | 5 | gram-01 | Sistema Ortográfico |
+  | 6 | gram-02 | Acentuação Gráfica |
+  | 7 | gram-03 | Uso do Sinal de Crase |
+  | 8 | gram-08 | Organização Sintática: Frase, Oração e Período |
+  | 9 | gram-09 | Termos da Oração |
+  | 10 | gram-10 | Coordenação e Subordinação |
+  | 11 | gram-11 | Concordância Nominal |
+  | 12 | gram-12 | Concordância Verbal |
+  | 13 | gram-13 | Regência Nominal e Verbal |
+  | 14 | gram-14 | Colocação Pronominal e Pontuação |
+
+  **Área 2 — Compreensão e Interpretação (aplica a gramática):**
+  | # | ID | Tópico |
+  |---|---|---|
+  | 15 | comp-03 | Linguagem Denotativa e Conotativa |
+  | 16 | comp-06 | Relações Lexicais |
+  | 17 | comp-05 | Ambiguidade e Polissemia |
+  | 18 | comp-07 | Figuras de Linguagem |
+  | 19 | comp-14 | Adequação Vocabular e Variação Linguística |
+  | 20 | comp-01 | Leitura de Textos Verbais e Não Verbais |
+  | 21 | comp-02 | Informações Implícitas e Explícitas |
+  | 22 | comp-04 | Elementos Ficcionais e Não Ficcionais |
+  | 23 | comp-08 | Tipos e Gêneros Textuais |
+  | 24 | comp-09 | Tipos de Discurso |
+  | 25 | comp-11 | Coesão Textual |
+  | 26 | comp-12 | Coerência e Textualidade |
+  | 27 | comp-10 | Reescritura de Frases |
+  | 28 | comp-13 | Intertextualidade |
+
+- **Validação:**
+  - `tsc --noEmit` ✅ zero erros TypeScript
+  - `npm run build` ✅ 2961 módulos transformados, zero erros
+- **Arquivos modificados:**
+  - `src/data/rm2Conteudo.ts` **[REORDENADO — progressão pedagógica]**
+  - `src/data/conteudoIndex.ts` **[REORDENADO — mesma sequência]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 27 — Melhoria de Tipografia e Espaçamento na Tela de Teoria
+- **Data e hora:** 10/06/2026 às 15:35 (Horário Local)
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Teoria.tsx` **[ATUALIZADO — tipografia e espaçamento]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 28 — Cronograma Intensivo Atualizado
+- **Data e hora:** 10/06/2026 às 15:45 (Horário Local)
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Cronograma.tsx` **[REESCRITO — cronograma intensivo]**
+  - `src/components/EstudoRM2.tsx` **[ATUALIZADO — integração onNavigate]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 29 — Seção de Saúde Completamente Reformulada
+- **Data e hora:** 10/06/2026 às 15:55 (Horário Local)
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Saude.tsx` **[REESCRITO — módulo de saúde]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 30 — Remoção do Backend e Limpeza do Projeto
+- **Data e hora:** 10/06/2026 às 16:00 (Horário Local)
+- **O que foi feito:**
+  1. **Deletados** todos os arquivos de backend: `api/` (pasta completa com `_utils.ts`, `rm2/teoria.ts`, `rm2/questoes.ts`, `rm2/simulacao.ts`, `rm2/resultado.ts`, `rm2/generate.ts`) e `server.ts`.
+  2. **`package.json` simplificado:** Removidas as dependências de backend (`firebase-admin`, `express`, `@vercel/node`, `@google/genai`, `dotenv`, `esbuild`, `tsx`, `@types/express`, `@firebase/eslint-plugin-security-rules`). Scripts simplificados para `dev: vite`, `build: vite build`, `lint: tsc --noEmit`.
+  3. **`vercel.json` simplificado:** Removida a rota `/api/(.*)`, mantendo apenas o rewrite SPA `/(.*) → /index.html`.
+  4. **`RM2Configuracoes.tsx` reescrito:** Removida toda a seção de Groq API Key (campo de input, botão salvar, instruções de setup na Vercel). Substituída por seção "Sobre o App" com versão, informações do edital e gerenciamento de dados locais.
+  5. **`RM2Simulacao.tsx` corrigido:** A chamada `fetch('/api/rm2/resultado')` foi substituída por cálculo local do resultado (acertos, percentual, comentários), com salvamento no `localStorage` na chave `rm2_simulados_historico`.
+  6. **Zero referências a Groq/firebase-admin** restantes no frontend.
+- **Validação:**
+  - `tsc --noEmit` ✅ zero erros TypeScript
+  - `vite build` ✅ build concluído com sucesso (Exit code: 0)
+- **Arquivos modificados/deletados:**
+  - `api/` **[DELETADO]**
+  - `server.ts` **[DELETADO]**
+  - `package.json` **[SIMPLIFICADO — apenas frontend]**
+  - `vercel.json` **[SIMPLIFICADO — SPA only]**
+  - `src/components/rm2/RM2Configuracoes.tsx` **[REESCRITO — sem Groq]**
+  - `src/components/rm2/RM2Simulacao.tsx` **[CORRIGIDO — cálculo local]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
 
 ### Como usar esta seção
 Esta seção é atualizada automaticamente pelo Windsurf ao final de cada sessão.
@@ -725,49 +830,41 @@ implementado antes de começar o próximo JSON.
 ### JSONs implementados
 | ID | Título | Arquivo | Data |
 |---|---|---|---|
-| gram-01 | Ortografia e Acentuação Gráfica | gram-01.json | 07/06/2026 |
+| gram-01 | Sistema Ortográfico | gram-01.json | 06/06/2026 |
+| gram-02 | Acentuação Gráfica | gram-02.json | 08/06/2026 |
+| gram-03 | Uso do Sinal de Crase | gram-03.json | 08/06/2026 |
+| gram-04 | Estrutura e Formação de Palavras | gram-04.json | 08/06/2026 |
+| gram-05 | Classes de Palavras | gram-05.json | 08/06/2026 |
+| gram-06 | Flexão Nominal | gram-06.json | 08/06/2026 |
+| gram-07 | Flexão Verbal | gram-07.json | 08/06/2026 |
+| gram-08 | Organização Sintática: Frase, Oração e Período | gram-08.json | 08/06/2026 |
+| gram-09 | Termos da Oração | gram-09.json | 08/06/2026 |
+| gram-10 | Coordenação e Subordinação | gram-10.json | 08/06/2026 |
+| gram-11 | Concordância Nominal | gram-11.json | 08/06/2026 |
+| gram-12 | Concordância Verbal | gram-12.json | 08/06/2026 |
+| gram-13 | Regência Nominal e Verbal | gram-13.json | 10/06/2026 |
+| gram-14 | Colocação Pronominal e Pontuação | gram-14.json | 08/06/2026 |
+| comp-01 | Leitura de Textos Verbais e Não Verbais | comp-01.json | 10/06/2026 |
+| comp-02 | Informações Implícitas e Explícitas | comp-02.json | 08/06/2026 |
+| comp-03 | Linguagem Denotativa e Conotativa | comp-03.json | 08/06/2026 |
+| comp-04 | Elementos Ficcionais e Não Ficcionais | comp-04.json | 08/06/2026 |
+| comp-05 | Ambiguidade e Polissemia | comp-05.json | 08/06/2026 |
+| comp-06 | Relações Lexicais | comp-06.json | 08/06/2026 |
+| comp-07 | Figuras de Linguagem | comp-07.json | 08/06/2026 |
+| comp-08 | Tipos e Gêneros Textuais | comp-08.json | 08/06/2026 |
+| comp-09 | Tipos de Discurso | comp-09.json | 08/06/2026 |
+| comp-10 | Reescritura de Frases | comp-10.json | 08/06/2026 |
+| comp-11 | Coesão Textual | comp-11.json | 10/06/2026 |
+| comp-12 | Coerência e Textualidade | comp-12.json | 10/06/2026 |
+| comp-13 | Intertextualidade | comp-13.json | 08/06/2026 |
+| comp-14 | Adequação Vocabular e Variação Linguística | comp-14.json | 10/06/2026 |
 
 ### Próximo a gerar
-ID: gram-02
-Título: Uso do Sinal Indicador de Crase
-Arquivo a criar: src/data/conteudo/gram-02.json
-Após gerar, adicionar em conteudoIndex.ts:
-'gram-02': () => import('./conteudo/gram-02.json'),
+Todos os JSONs de conteúdo do edital RM2 foram implementados e integrados com sucesso. Não há novos conteúdos pendentes de geração.
 
 ### JSONs pendentes (por ordem de prioridade)
-| Prioridade | ID | Título |
-|---|---|---|
-| 1 | gram-02 | Uso do sinal indicador de crase |
-| 2 | gram-09 | Concordância nominal e verbal |
-| 3 | gram-10 | Regência nominal e verbal |
-| 4 | gram-11 | Colocação pronominal |
-| 5 | comp-03 | Informações implícitas e explícitas |
-| 6 | comp-06 | Relações lexicais |
-| 7 | comp-07 | Figuras de linguagem |
-| 8 | gram-08 | Coordenação e subordinação |
-| 9 | comp-10 | Coesão e coerência textual |
-| 10 | gram-12 | Pontuação |
-| 11 | gram-04 | Classes de palavras |
-| 12 | gram-05 | Flexão nominal e verbal |
-| 13 | comp-04 | Linguagem denotativa e conotativa |
-| 14 | comp-08 | Tipos e gêneros textuais |
-| 15 | gram-03 | Estrutura e formação de palavras |
-| 16 | gram-06 | Frase, oração e período |
-| 17 | gram-07 | Análise sintática da oração |
-| 18 | comp-02 | Propósitos do autor |
-| 19 | comp-09 | Tipos de discurso |
-| 20 | comp-05 | Ambiguidade e polissemia |
-| 21 | comp-13 | Variação linguística |
-| 22 | gram-13 | Reescritura de frases |
-| 23 | gram-14 | Paralelismo sintático |
-| 24 | comp-01 | Textos verbais e não verbais |
-| 25 | comp-11 | Intencionalidade e intertextualidade |
-| 26 | comp-12 | Informatividade e situacionalidade |
-| 27 | comp-14 | Elementos ficcionais e não ficcionais |
+Nenhum. Todos os 28 tópicos oficiais do edital foram completamente mapeados e criados como arquivos JSON estáticos locais no diretório `src/data/conteudo/`.
 
 ### Instrução de atualização para o Windsurf
-Ao finalizar qualquer sessão que envolva adição de novo JSON ao app, atualize
-esta seção da seguinte forma: mova o ID recém-implementado da tabela de pendentes
-para a tabela de implementados com a data atual, atualize o campo Próximo a gerar
-com o próximo ID da lista de pendentes, e faça commit com a mensagem:
+Ao finalizar qualquer sessão que envolva adição de novo JSON ao app, atualize esta seção da seguinte forma: mova o ID recém-implementado da tabela de pendentes para a tabela de implementados com a data atual, atualize o campo Próximo a gerar com o próximo ID da lista de pendentes, e faça commit com a mensagem:
 docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE

@@ -1,41 +1,36 @@
-import React, { useState, useEffect } from 'react';
-import { Settings, Key, Eye, EyeOff, CheckCircle2, AlertTriangle, Trash2, ExternalLink } from 'lucide-react';
-
-// Chave local para fallback (não é necessária com Groq server-side, mas mantida para compatibilidade)
-const LS_GROQ_KEY = 'enem_rm2_groq_key';
+import React from 'react';
+import { Settings, Info, BookOpen, Calendar, Award, Trash2, FileText } from 'lucide-react';
 
 export function RM2Configuracoes() {
-  const [apiKey, setApiKey] = useState<string>('');
-  const [showKey, setShowKey] = useState<boolean>(false);
-  const [saved, setSaved] = useState<boolean>(false);
-  const [hasKey, setHasKey] = useState<boolean>(false);
-
-  useEffect(() => {
-    const storedKey = localStorage.getItem(LS_GROQ_KEY);
-    if (storedKey) {
-      setApiKey(storedKey);
-      setHasKey(true);
-    }
-  }, []);
-
-  const handleSave = () => {
-    if (!apiKey.trim()) return;
-    localStorage.setItem(LS_GROQ_KEY, apiKey.trim());
-    setHasKey(true);
-    setSaved(true);
-    setTimeout(() => setSaved(false), 3000);
+  const handleLimparProgresso = () => {
+    if (!window.confirm('Tem certeza? Isso apagará TODO o progresso de estudos salvo localmente.')) return;
+    const prefixos = ['rm2_', 'enem_rm2_'];
+    let total = 0;
+    Object.keys(localStorage).forEach(k => {
+      if (prefixos.some(p => k.startsWith(p))) {
+        localStorage.removeItem(k);
+        total++;
+      }
+    });
+    alert(`${total} registro(s) de progresso removidos. Recarregando...`);
+    window.location.reload();
   };
 
-  const handleClear = () => {
-    localStorage.removeItem(LS_GROQ_KEY);
-    setApiKey('');
-    setHasKey(false);
+  const handleLimparSaude = () => {
+    const chaves = [
+      'rm2_saude_diarios',
+      'rm2_saude_exercicios_concluidos',
+      'rm2_saude_habitos_diarios'
+    ];
+    chaves.forEach(k => localStorage.removeItem(k));
+    alert('Dados de Saúde & Bem-Estar removidos com sucesso.');
+    window.location.reload();
   };
 
   return (
     <div className="space-y-6 max-w-2xl animate-in fade-in duration-300">
 
-      {/* Título */}
+      {/* Header */}
       <div className="bg-surface rounded-3xl p-6 border border-border shadow-md">
         <div className="flex items-center gap-4 mb-6">
           <div className="w-12 h-12 rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400">
@@ -43,157 +38,104 @@ export function RM2Configuracoes() {
           </div>
           <div>
             <h2 className="text-xl font-heading font-black text-white">Configurações do Módulo RM2</h2>
-            <p className="text-gray-400 text-sm mt-0.5">Gerencie suas chaves de API e preferências</p>
+            <p className="text-gray-400 text-sm mt-0.5">Informações do app e gerenciamento de dados locais</p>
           </div>
         </div>
 
-        {/* Status da chave */}
-        <div className={`rounded-2xl p-4 mb-6 border flex items-center gap-3 text-sm ${
-          hasKey
-            ? 'bg-emerald-500/10 border-emerald-500/20'
-            : 'bg-amber-500/10 border-amber-500/20'
-        }`}>
-          {hasKey ? (
-            <>
-              <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0" />
-              <div>
-                <p className="font-bold text-emerald-400">Groq API configurada</p>
-                <p className="text-xs text-gray-400 mt-0.5">
-                  O módulo RM2 está pronto para gerar teoria, questões e simulados via Groq (llama3-70b-8192).
-                </p>
-              </div>
-            </>
-          ) : (
-            <>
-              <AlertTriangle className="w-5 h-5 text-amber-400 shrink-0" />
-              <div>
-                <p className="font-bold text-amber-400">Groq API não detectada</p>
-                <p className="text-xs text-gray-400 mt-0.5">
-                  Configure a variável <code className="bg-black/20 px-1 rounded text-amber-300">GROQ_API_KEY</code> no painel da Vercel em <strong>Settings → Environment Variables</strong>.
-                </p>
-              </div>
-            </>
-          )}
-        </div>
-
-        {/* Campo de API Key */}
-        <div className="space-y-3">
-          <label className="block text-[10px] uppercase tracking-widest font-black text-gray-400">
-            Chave de API — Groq
-          </label>
-          <div className="relative">
-            <div className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500">
-              <Key className="w-4 h-4" />
-            </div>
-            <input
-              type={showKey ? 'text' : 'password'}
-              value={apiKey}
-              onChange={e => setApiKey(e.target.value)}
-              placeholder="gsk_..."
-              className="w-full bg-black/20 border border-border rounded-2xl py-3.5 pl-11 pr-12 text-sm text-white placeholder:text-gray-600 focus:outline-none focus:border-blue-500 font-mono"
-            />
-            <button
-              type="button"
-              onClick={() => setShowKey(!showKey)}
-              className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-300 transition-colors"
-            >
-              {showKey ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
-            </button>
+        {/* Badge offline-first */}
+        <div className="bg-emerald-500/10 border border-emerald-500/20 rounded-2xl p-4 flex items-start gap-3">
+          <Award className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
+          <div>
+            <p className="font-bold text-emerald-400 text-sm">App 100% Offline</p>
+            <p className="text-xs text-gray-400 mt-0.5 leading-relaxed">
+              Todo o conteúdo (teoria, questões e simulados) está embutido localmente no aplicativo como arquivos JSON estáticos. 
+              Não é necessária nenhuma chave de API ou conexão com servidores externos.
+            </p>
           </div>
-          <p className="text-xs text-gray-500 leading-relaxed">
-            A chave recomendada é configurada no servidor (Vercel). Este campo é apenas um backup local salvo no navegador.
-          </p>
-        </div>
-
-        {/* Botões */}
-        <div className="flex gap-3 mt-5">
-          <button
-            onClick={handleSave}
-            disabled={!apiKey.trim()}
-            className="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-black py-3 px-5 rounded-2xl transition-all text-sm disabled:opacity-50 flex items-center justify-center gap-2"
-          >
-            {saved ? (
-              <>
-                <CheckCircle2 className="w-4 h-4" />
-                <span>Chave Salva!</span>
-              </>
-            ) : (
-              'Salvar Chave'
-            )}
-          </button>
-
-          {hasKey && (
-            <button
-              onClick={handleClear}
-              className="bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/20 font-black py-3 px-5 rounded-2xl transition-all text-sm flex items-center gap-2"
-            >
-              <Trash2 className="w-4 h-4" />
-              <span>Remover</span>
-            </button>
-          )}
         </div>
       </div>
 
-      {/* Instruções */}
+      {/* Sobre o App */}
       <div className="bg-surface rounded-3xl p-6 border border-border shadow-md space-y-4">
         <h3 className="font-heading font-black text-white flex items-center gap-2">
-          <ExternalLink className="w-4 h-4 text-blue-400" />
-          Como obter sua chave gratuita (Groq API)
+          <Info className="w-4 h-4 text-blue-400" />
+          Sobre o EstudoApp RM2
         </h3>
 
-        <ol className="space-y-3">
+        <div className="grid grid-cols-2 gap-3">
           {[
-            { step: '1', text: 'Acesse', link: 'https://console.groq.com', label: 'console.groq.com' },
-            { step: '2', text: 'Crie uma conta gratuita com e-mail ou Google' },
-            { step: '3', text: 'Vá em "API Keys" no menu lateral' },
-            { step: '4', text: 'Clique em "Create API Key" e copie a chave gerada' },
-            { step: '5', text: 'No painel da Vercel, acesse Settings → Environment Variables e adicione GROQ_API_KEY' },
-          ].map((item) => (
-            <li key={item.step} className="flex items-start gap-3 text-sm text-gray-300">
-              <span className="w-6 h-6 rounded-full bg-blue-500/20 border border-blue-500/30 text-blue-400 text-xs font-black flex items-center justify-center shrink-0 mt-0.5">
-                {item.step}
-              </span>
-              <span>
-                {item.text}
-                {item.link && (
-                  <a
-                    href={item.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-400 font-bold hover:underline ml-1"
-                  >
-                    {item.label}
-                  </a>
-                )}
-              </span>
+            { label: 'Versão', value: '2.0.0 — Estático' },
+            { label: 'Plataforma', value: 'React 19 + Vite 6' },
+            { label: 'Conteúdo', value: '28 tópicos (JSON local)' },
+            { label: 'Questões', value: '840+ questões (30/tópico)' },
+          ].map(item => (
+            <div key={item.label} className="bg-black/20 border border-border/60 rounded-2xl p-3.5 space-y-0.5">
+              <p className="text-[10px] uppercase font-black tracking-wider text-gray-500">{item.label}</p>
+              <p className="text-sm font-bold text-white">{item.value}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Informações do Edital */}
+      <div className="bg-surface rounded-3xl p-6 border border-border shadow-md space-y-4">
+        <h3 className="font-heading font-black text-white flex items-center gap-2">
+          <BookOpen className="w-4 h-4 text-indigo-400" />
+          Edital RM2 — Marinha do Brasil
+        </h3>
+
+        <ul className="space-y-3">
+          {[
+            { icon: FileText, label: 'Prova', value: 'Língua Portuguesa — 40 questões objetivas, 5 alternativas' },
+            { icon: Calendar, label: 'Data Estimada da Prova', value: 'Janeiro / 2027' },
+            { icon: Award, label: 'Nota Mínima de Aprovação', value: '40 pontos (cada questão vale 2,5 pts)' },
+            { icon: BookOpen, label: 'Duração da Prova', value: '3 horas (180 minutos)' },
+          ].map(item => (
+            <li key={item.label} className="flex items-start gap-3 text-sm text-gray-300">
+              <item.icon className="w-4 h-4 text-indigo-400 shrink-0 mt-0.5" />
+              <div>
+                <span className="text-[10px] uppercase font-black tracking-wider text-gray-500 block">{item.label}</span>
+                <span className="text-sm text-white font-bold">{item.value}</span>
+              </div>
             </li>
           ))}
-        </ol>
+        </ul>
 
-        <div className="bg-blue-500/5 border border-blue-500/20 rounded-2xl p-4 mt-2">
-          <p className="text-xs text-blue-300 leading-relaxed">
-            <strong>Modelo em uso:</strong> <code className="bg-black/20 px-1 rounded">llama3-70b-8192</code> — Disponível gratuitamente na Groq. Extremamente rápido e de alta qualidade. Sem necessidade de cartão de crédito.
+        <div className="bg-indigo-500/5 border border-indigo-500/20 rounded-2xl p-4">
+          <p className="text-xs text-indigo-300 leading-relaxed">
+            <strong>Bibliograia oficial:</strong> Cunha & Cintra (Nova Gramática do Português Contemporâneo), 
+            Koch & Elias (Ler e Compreender os Sentidos do Texto), Fiorin & Savioli (Para Entender o Texto), 
+            Manual de Redação e Estilo da Marinha (Letras Marítimas, 2024).
           </p>
         </div>
       </div>
 
-      {/* Gerenciamento de Cache */}
+      {/* Gerenciamento de Dados Locais */}
       <div className="bg-surface rounded-3xl p-6 border border-border shadow-md space-y-4">
-        <h3 className="font-heading font-black text-white">Gerenciamento de Cache RM2</h3>
+        <h3 className="font-heading font-black text-white">Gerenciamento de Dados Locais</h3>
         <p className="text-sm text-gray-400 leading-relaxed">
-          Cada teoria, questão e simulado gerado fica salvo em cache por <strong className="text-white">30 dias</strong> para evitar chamadas desnecessárias à IA. Limpe o cache abaixo se quiser forçar a geração de novos conteúdos.
+          Todo o seu progresso (questões respondidas, simulados, checklist do cronograma e registros de saúde) 
+          é salvo no <strong className="text-white">armazenamento local do navegador</strong>. 
+          Use os botões abaixo para limpar dados específicos se necessário.
         </p>
-        <button
-          onClick={() => {
-            const keys = Object.keys(localStorage).filter(k => k.startsWith('enem_rm2_cache_'));
-            keys.forEach(k => localStorage.removeItem(k));
-            alert(`${keys.length} item(s) de cache removidos com sucesso.`);
-          }}
-          className="bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/20 font-black py-3 px-5 rounded-2xl transition-all text-sm flex items-center gap-2"
-        >
-          <Trash2 className="w-4 h-4" />
-          <span>Limpar Cache Local</span>
-        </button>
+
+        <div className="space-y-3">
+          <button
+            onClick={handleLimparSaude}
+            className="w-full bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 border border-amber-500/20 font-black py-3 px-5 rounded-2xl transition-all text-sm flex items-center gap-2"
+          >
+            <Trash2 className="w-4 h-4" />
+            <span>Limpar Dados de Saúde & Bem-Estar</span>
+          </button>
+
+          <button
+            onClick={handleLimparProgresso}
+            className="w-full bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/20 font-black py-3 px-5 rounded-2xl transition-all text-sm flex items-center gap-2"
+          >
+            <Trash2 className="w-4 h-4" />
+            <span>Limpar Todo o Progresso de Estudos (IRREVERSÍVEL)</span>
+          </button>
+        </div>
       </div>
 
     </div>

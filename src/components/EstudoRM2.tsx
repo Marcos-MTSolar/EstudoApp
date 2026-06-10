@@ -186,7 +186,18 @@ export function EstudoRM2() {
         return <RM2Progresso />;
 
       case 'cronograma':
-        return <RM2Cronograma />;
+        return (
+          <RM2Cronograma 
+            onNavigate={(tab, subject, mode) => {
+              setActiveTab(tab);
+              if (subject) {
+                if (tab === 'teoria') setSelectedAssuntoTeoria(subject);
+                if (tab === 'questoes') setSelectedAssuntoQuestoes(subject);
+              }
+              if (mode) setSimuladoModo(mode);
+            }} 
+          />
+        );
 
       case 'saude':
         return <RM2Saude />;
