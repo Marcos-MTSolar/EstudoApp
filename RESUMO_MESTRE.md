@@ -984,3 +984,18 @@ docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 
+---
+
+### Parte 37 — Cronograma RM2 Ajustado para Segunda-Feira 15/06/2026 com 33 Semanas e 5 Dias Úteis
+- **Data e hora:** 13/06/2026 às 11:28 (Horário Local)
+- **O que foi feito:**
+  - **Ajuste de Data de Início:** Atualizada a data de início oficial dos estudos para **15/06/2026** (segunda-feira) e término em **29/01/2027** (33 semanas exatas), alinhando o cronograma pedagógico com as orientações mais recentes.
+  - **Reestruturação Semanal de 5 Dias:** Os dias de estudo de cada semana foram definidos estritamente de segunda a sexta-feira, eliminando a escala de final de semana para foco total nos dias úteis e descanso regular.
+  - **Cálculo de Progresso e Métricas por Área:** Adicionada a barra de aproveitamento de checklists específica para Gramática e Compreensão de Texto no painel de checklists, facilitando a visualização rápida do desempenho por matéria.
+  - **Correções do Calendário de Revisões:** Corrigido o cálculo de status de cada ciclo (Inicial, 1ª, 2ª e 3ª revisão) com base no número da semana de forma dinâmica para mostrar os status `⏳`, `📍` e `✅`.
+- **Validação:**
+  - Execução de `npx tsc --noEmit` ✅ zero erros
+  - Execução de `npm run build` ✅ compilação concluída com sucesso (Exit code: 0)
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Cronograma.tsx` **[ATUALIZADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
