@@ -1,6 +1,6 @@
 {
   "id": "gram-01",
-  "titulo": "Ortografia e Acentuação Gráfica",
+  "titulo": "Sistema Ortográfico",
   "area": "Gramática",
   "resumo": "Estudo das regras ortográficas e de acentuação gráfica do português brasileiro conforme o Acordo Ortográfico de 1990, em vigor desde 2016, fundamentado em Cunha e Cintra (Nova Gramática do Português Contemporâneo, Lexikon 2017). Abrange o uso correto das letras, o emprego dos acentos agudo, circunflexo, grave e til, as regras de oxítonas, paroxítonas e proparoxítonas, os casos especiais de hiato, as alterações promovidas pelo Acordo e as armadilhas mais frequentes em provas militares.",
   "teoria": {
@@ -616,7 +616,10 @@
     }
   ],
   "desafio": {
-    "topicos_mesclados": ["gram-02", "gram-01"],
+    "topicos_mesclados": [
+      "gram-02",
+      "gram-01"
+    ],
     "questoes": [
       {
         "id": "d01",

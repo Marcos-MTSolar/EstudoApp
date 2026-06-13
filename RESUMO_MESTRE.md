@@ -963,3 +963,24 @@ docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
   - `src/components/rm2/RM2Cronograma.tsx` **[ATUALIZADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
+---
+
+### Parte 36 — Implementação Completa do Cronograma RM2 de 33 Semanas com 5 Fases Pedagógicas
+- **Data e hora:** 13/06/2026 às 10:30 (Horário Local)
+- **O que foi feito:**
+  - **Reescrita do Cronograma:** Substituição total da lógica antiga pela nova estrutura completa de 33 semanas (13/06/2026 a 31/01/2027) com data-alvo de prova para 17/01/2027.
+  - **Fases Pedagógicas Integradas:** Distribuídas as semanas em 5 fases (Fase 1: Estudo Inicial de 14 semanas; Fase 2: 1ª Revisão Espaçada de 7 semanas; Fase 3: 2ª Revisão Espaçada de 4 semanas; Fase 4: Simulados Intensivos de 4 semanas; Fase 5: 3ª Revisão Final de 4 semanas).
+  - **Exibição Avançada em 4 Abas:**
+    1. *Visão Geral*: Linha do tempo interativa e status das fases (Futura, Atual, Concluída) baseado no cálculo automático do tempo real.
+    2. *Semana Atual*: Divisão de tarefas diárias detalhadas de Sábado a Sexta-feira. Adicionados botões e redirecionamento direto aos tópicos do aplicativo (Estudar Teoria e Praticar Questões) via callback `onNavigate`.
+    3. *Calendário de Revisões*: Tabela de controle de revisão espaçada mostrando em quais semanas específicas do plano cada tópico será revisado (1ª, 2ª e 3ª revisão).
+    4. *Checklist*: Lista de checkboxes persistidos localmente (`rm2_cronograma_v2`) para marcar avanço em Teoria, Básico, Avançado e Revisão para cada um dos 28 tópicos.
+  - **Métricas Visuais e Countdown:** Indicador de progresso geral do cronograma, painel de tópicos dominados (aproveitamento >= 70% usando dados do `useRM2Data`) e contagem regressiva em dias para a prova objetiva.
+- **Validação:**
+  - Execução de `npx tsc --noEmit` ✅ zero erros
+  - Execução de `npm run build` ✅ compilação concluída com sucesso (Exit code: 0)
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Cronograma.tsx` **[ATUALIZADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+

@@ -1,6 +1,6 @@
 {
   "id": "gram-12",
-  "titulo": "Pontuação",
+  "titulo": "Concordância Verbal",
   "area": "gramatica",
   "resumo": "A pontuação é o conjunto de sinais gráficos que organiza o discurso escrito, marcando pausas, entonações, limites entre orações e relações de sentido que na fala são transmitidos pela prosódia. Dominar o uso correto da vírgula, do ponto e vírgula, dos dois-pontos, das aspas, dos parênteses e dos demais sinais é essencial para a produção e a interpretação de textos formais, especialmente no padrão exigido pelo Manual de Redação e Estilo da Marinha. As provas do concurso RM2 cobram principalmente a vírgula — seu uso obrigatório, facultativo e proibido —, bem como a distinção entre os efeitos de sentido produzidos pela presença ou ausência de determinados sinais.",
   "teoria": {
@@ -634,7 +634,19 @@
     }
   ],
   "desafio": {
-    "topicos_mesclados": ["gram-01", "gram-02", "gram-09", "gram-10", "gram-11", "comp-03", "comp-06", "comp-07", "gram-08", "comp-10", "gram-12"],
+    "topicos_mesclados": [
+      "gram-01",
+      "gram-02",
+      "gram-09",
+      "gram-10",
+      "gram-11",
+      "comp-03",
+      "comp-06",
+      "comp-07",
+      "gram-08",
+      "comp-10",
+      "gram-12"
+    ],
     "questoes": [
       {
         "id": "d01",
