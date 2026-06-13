@@ -868,3 +868,98 @@ Nenhum. Todos os 28 tópicos oficiais do edital foram completamente mapeados e c
 ### Instrução de atualização para o Windsurf
 Ao finalizar qualquer sessão que envolva adição de novo JSON ao app, atualize esta seção da seguinte forma: mova o ID recém-implementado da tabela de pendentes para a tabela de implementados com a data atual, atualize o campo Próximo a gerar com o próximo ID da lista de pendentes, e faça commit com a mensagem:
 docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
+
+---
+
+### Parte 31 — Correção do Bug de Mapeamento de Assunto no RM2Dashboard
+- **Data e hora:** 13/06/2026 às 09:43 (Horário Local)
+- **Problema identificado:**
+  - `RM2Dashboard.tsx` sempre passava `assunto={defaultAssunto}` (fixo: `areas[0].assuntos[0]` = `gram-04`) para `RM2Teoria` e `RM2Questoes` quando a navegação era feita internamente pelo Dashboard (via `setActiveView`), ignorando qual assunto o usuário havia clicado.
+  - O botão "Estudar" nas áreas chamava `onNavigate('teoria')` sem passar o assunto, causando a abertura do seletor de assunto em branco no fluxo via `EstudoRM2.tsx`.
+  - **Nota:** O próprio `RM2Teoria.tsx` já estava correto — `getConteudo(assunto.id)` já usava o campo `id` diretamente.
+- **Correção aplicada em `RM2Dashboard.tsx`:**
+  1. Declaração de `defaultAssunto` movida para **antes** dos `useState` que a utilizam (eliminado o erro TS2448: "used before its declaration").
+  2. Adicionado estado `const [selectedAssunto, setSelectedAssunto] = useState<any>(defaultAssunto)` para rastrear qual assunto foi selecionado.
+  3. `RM2Teoria` e `RM2Questoes` passam `assunto={selectedAssunto}` em vez de `assunto={defaultAssunto}`.
+  4. Botão "Estudar" de cada área agora chama `onNavigate('teoria', primeiroAssunto)` (via fluxo externo) ou `setSelectedAssunto(primeiroAssunto); setActiveView('teoria')` (via fluxo interno).
+- **Validação:**
+  - `tsc --noEmit` ✅ zero erros TypeScript
+  - `npm run build` ✅ 3091 módulos transformados, Exit code: 0
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Dashboard.tsx` **[CORRIGIDO — mapeamento de assunto]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 32 — Correção do Botão Voltar em RM2Teoria (reset de estados internos)
+- **Data e hora:** 13/06/2026 às 09:47 (Horário Local)
+- **Problema identificado:**
+  - O botão "Voltar" em `RM2Teoria.tsx` chamava `onClick={onVoltar}` diretamente, sem limpar os estados internos do componente antes de retornar ao seletor de assuntos.
+  - Em cenários de re-render React (especialmente quando o componente é reutilizado sem desmontar completamente), os estados `teoriaData`, `loading`, `error` e `mostrarResumo` permaneciam com valores do assunto anterior, causando comportamento inconsistente na tela de seleção.
+  - **Nota:** O `onVoltar` (prop) estava correto — chamava `setSelectedAssuntoTeoria(null)` no pai. O problema era a ausência de limpeza dos estados internos antes de propagar a chamada.
+- **Correção aplicada em `RM2Teoria.tsx`:**
+  1. Criada a função `handleVoltar()` que:
+     - Chama `setTeoriaData(null)` — limpa o conteúdo carregado
+     - Chama `setLoading(false)` — garante que o spinner não persiste
+     - Chama `setError('')` — limpa mensagens de erro anteriores
+     - Chama `setMostrarResumo(false)` — fecha o painel de resumo colapsável
+     - Chama `onVoltar()` — propaga o retorno ao componente pai
+  2. Botão "Voltar" atualizado: `onClick={onVoltar}` → `onClick={handleVoltar}`
+  3. Nenhuma outra lógica foi alterada.
+- **Validação:**
+  - `tsc --noEmit` ✅ zero erros TypeScript
+  - `npm run build` ✅ 3091 módulos transformados, Exit code: 0
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Teoria.tsx` **[CORRIGIDO — handleVoltar com reset de estados]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 33 — Auditoria e Correção do Mapeamento em conteudoIndex.ts
+- **Data e hora:** 13/06/2026 às 09:49 (Horário Local)
+- **Auditoria realizada:** Verificação linha a linha das 28 entradas do objeto `modulos`.
+- **Resultado da auditoria:** Cada chave (`id`) já apontava para o arquivo `.json` correto — **nenhum desalinhamento de conteúdo** foi encontrado. O problema era apenas a **ordem das entradas**, que seguia a progressão pedagógica em vez da sequência numérica.
+- **Correção aplicada em `src/data/conteudoIndex.ts`:**
+  - Objeto `modulos` reordenado para a sequência numérica exata especificada:
+    - Gramática: `gram-01` → `gram-02` → … → `gram-14`
+    - Interpretação: `comp-01` → `comp-02` → … → `comp-14`
+  - Funções `getConteudo` e `getIdsDisponiveis` preservadas integralmente.
+  - Duplicata acidental das funções (gerada pela ferramenta de edição) removida no mesmo ciclo.
+- **Validação:**
+  - `tsc --noEmit` ✅ zero erros TypeScript
+  - `npm run build` ✅ 3091 módulos transformados, Exit code: 0
+- **Arquivos modificados:**
+  - `src/data/conteudoIndex.ts` **[REORDENADO — sequência numérica gram-01→14, comp-01→14]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 34 — Auditoria de IDs em rm2Conteudo.ts
+- **Data e hora:** 13/06/2026 às 09:54 (Horário Local)
+- **Auditoria realizada:** Verificação linha a linha dos 28 tópicos contidos em `src/data/rm2Conteudo.ts` para confirmar se seus IDs correspondem exatamente aos nomes dos arquivos JSON locais e aos caminhos mapeados.
+- **Resultado da auditoria:** Todos os 28 IDs foram validados um a um contra a sequência pedagógica (gram-04, gram-05, gram-06, gram-07, gram-01, gram-02, gram-03, gram-08, gram-09, gram-10, gram-11, gram-12, gram-13, gram-14, comp-03, comp-06, comp-05, comp-07, comp-14, comp-01, comp-02, comp-04, comp-08, comp-09, comp-11, comp-12, comp-10, comp-13) e estão 100% corretos. Nenhuma alteração foi necessária.
+- **Validação:**
+  - `tsc --noEmit` ✅ zero erros TypeScript
+  - `npm run build` ✅ 3091 módulos transformados, Exit code: 0
+- **Arquivos modificados:**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 35 — Reorganização do Cronograma RM2 para 13 Semanas com Programação Diária
+- **Data e hora:** 13/06/2026 às 10:00 (Horário Local)
+- **Problema resolvido:**
+  - O cronograma de estudos do edital RM2 estava com 19 semanas e continha associações de tópicos desalinhadas com a sequência pedagógica correta.
+  - Faltava a exibição da programação diária de estudos (segunda a sexta) para orientar o candidato sobre o que fazer cada dia útil.
+- **Alterações efetuadas em `RM2Cronograma.tsx`:**
+  1. **Novo Cronograma de 13 Semanas:** Atualizado o array `SEMANAS` com as datas de 08/06/2026 a 06/09/2026, associando os IDs de tópicos pedagógicos exatos de gramática e compreensão.
+  2. **Planejamento Diário:** Incluído no campo `descricao` de cada semana a divisão detalhada de tarefas de segunda a sexta-feira, dividindo teoria, questões e revisões de modo equilibrado.
+  3. **Correção de Exibição:** Adicionada a classe `whitespace-pre-line` na tag do parágrafo de descrição (`semana.descricao`), garantindo a renderização visual perfeita das quebras de linha da programação diária sem alterar o layout original.
+  4. **Detecção de Semana Ativa:** Ajustada a função de busca automática da semana atual no carregamento do componente para respeitar os novos limites de semanas (1 a 13).
+- **Validação:**
+  - Execução de `npx tsc --noEmit` ✅ Zero erros detectados
+  - Execução de `npm run build` ✅ Compilação concluída com sucesso (Exit code: 0)
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Cronograma.tsx` **[ATUALIZADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+

@@ -34,8 +34,13 @@ export function RM2Dashboard({ onNavigate }: RM2DashboardProps) {
     resetarProgresso 
   } = useRM2Data(userId);
 
+  // Objeto de fallback padrão (declarado antes dos useState que o utilizam)
+  const defaultAssunto = RM2_CONTEUDO.areas[0]?.assuntos[0] || { id: '', nome: '', descricao: '', niveis: [] };
+
   const [activeView, setActiveView] = useState<SubView>('dashboard');
   const [simuladoModo, setSimuladoModo] = useState<'rapido' | 'completo' | null>(null);
+  // Estado que rastreia qual assunto foi selecionado para teoria/questões
+  const [selectedAssunto, setSelectedAssunto] = useState<any>(defaultAssunto);
 
   // Calcula progresso específico de uma área
   const getAreaPercent = (areaId: string) => {
@@ -56,9 +61,6 @@ export function RM2Dashboard({ onNavigate }: RM2DashboardProps) {
     }
   };
 
-  // Objeto de fallback padrão para evitar erros de compilação TS
-  const defaultAssunto = RM2_CONTEUDO.areas[0]?.assuntos[0] || { id: '', nome: '', descricao: '', niveis: [] };
-
   // Renderiza subview
   if (activeView === 'teoria') {
     return (
@@ -67,7 +69,7 @@ export function RM2Dashboard({ onNavigate }: RM2DashboardProps) {
           <ArrowLeft className="w-4 h-4" /> Voltar ao Painel
         </button>
         <RM2Teoria 
-          assunto={defaultAssunto} 
+          assunto={selectedAssunto} 
           onVoltar={() => setActiveView('dashboard')} 
           onIrParaQuestoes={() => setActiveView('questoes')} 
         />
@@ -82,7 +84,7 @@ export function RM2Dashboard({ onNavigate }: RM2DashboardProps) {
           <ArrowLeft className="w-4 h-4" /> Voltar ao Painel
         </button>
         <RM2Questoes 
-          assunto={defaultAssunto} 
+          assunto={selectedAssunto} 
           onVoltar={() => setActiveView('dashboard')} 
           onFinalizou={() => setActiveView('dashboard')} 
         />
@@ -251,7 +253,16 @@ export function RM2Dashboard({ onNavigate }: RM2DashboardProps) {
                   </div>
 
                   <button 
-                    onClick={() => onNavigate ? onNavigate('teoria') : setActiveView('teoria')}
+                    onClick={() => {
+                      // Usa o primeiro assunto da área como ponto de entrada ao clicar em "Estudar"
+                      const primeiroAssunto = area.assuntos[0];
+                      if (onNavigate) {
+                        onNavigate('teoria', primeiroAssunto);
+                      } else {
+                        setSelectedAssunto(primeiroAssunto);
+                        setActiveView('teoria');
+                      }
+                    }}
                     className="shrink-0 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/10 rounded-xl px-3 py-2 text-xs font-black uppercase text-gray-300 transition-colors flex items-center gap-1"
                   >
                     Estudar

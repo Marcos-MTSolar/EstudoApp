@@ -56,6 +56,15 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
     setMostrarResumo(prev => !prev);
   };
 
+  // Reseta todos os estados internos antes de retornar ao seletor de assuntos
+  const handleVoltar = () => {
+    setTeoriaData(null);
+    setLoading(false);
+    setError('');
+    setMostrarResumo(false);
+    onVoltar();
+  };
+
   useEffect(() => {
     const fetchTeoria = async () => {
       setLoading(true);
@@ -87,7 +96,7 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
       {/* Cabeçalho / Voltar */}
       <div className="flex items-center justify-between">
         <button
-          onClick={onVoltar}
+          onClick={handleVoltar}
           className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-gray-400 hover:text-white transition-colors"
         >
           <ArrowLeft className="w-4 h-4" />

@@ -33,13 +33,13 @@ interface Semana {
   tipo: 'conteudo' | 'revisao' | 'simulado' | 'sprint';
 }
 
-// 18 Semanas + Sprint Final do Cronograma Intensivo
+// Plano Semanal Oficial de 13 semanas com distribuição diária equilibrada
 const SEMANAS: Semana[] = [
   {
     numero: 1,
-    periodo: '10–13/jun/2026',
+    periodo: '08/jun–14/jun/2026',
     titulo: 'Morfologia Fundacional',
-    descricao: 'Estudo de Estrutura e Formação de Palavras (gram-04) + Classes de Palavras (gram-05)',
+    descricao: 'Tópicos: Estrutura e Formação de Palavras (gram-04) + Classes de Palavras (gram-05)\n· Seg 08/06: Teoria — gram-04\n· Ter 09/06: Questões — gram-04\n· Qua 10/06: Teoria — gram-05\n· Qui 11/06: Questões — gram-05\n· Sex 12/06: Revisão + Simulado rápido gram-04 e gram-05',
     areaId: 'gramatica',
     topicos: ['gram-04', 'gram-05'],
     cor: 'blue',
@@ -47,9 +47,9 @@ const SEMANAS: Semana[] = [
   },
   {
     numero: 2,
-    periodo: '16–20/jun/2026',
+    periodo: '15/jun–21/jun/2026',
     titulo: 'Morfologia Flexional',
-    descricao: 'Flexão Nominal (gram-06) + Flexão Verbal e Conjugações (gram-07)',
+    descricao: 'Tópicos: Flexão Nominal (gram-06) + Flexão Verbal (gram-07)\n· Seg 15/06: Teoria — gram-06\n· Ter 16/06: Questões — gram-06\n· Qua 17/06: Teoria — gram-07\n· Qui 18/06: Questões — gram-07\n· Sex 19/06: Revisão + Simulado rápido gram-06 e gram-07',
     areaId: 'gramatica',
     topicos: ['gram-06', 'gram-07'],
     cor: 'blue',
@@ -57,173 +57,113 @@ const SEMANAS: Semana[] = [
   },
   {
     numero: 3,
-    periodo: '23–27/jun/2026',
+    periodo: '22/jun–28/jun/2026',
     titulo: 'Ortografia e Acentuação',
-    descricao: 'Sistema Ortográfico (gram-01) + Acentuação Gráfica (gram-02)',
+    descricao: 'Tópicos: Sistema Ortográfico (gram-01) + Acentuação Gráfica (gram-02) + Uso da Crase (gram-03)\n· Seg 22/06: Teoria e Questões — gram-01\n· Ter 23/06: Teoria e Questões — gram-02\n· Qua 24/06: Teoria e Questões — gram-03\n· Qui 25/06: Reforço e Exercícios Avançados dos 3 tópicos\n· Sex 26/06: Revisão Geral + Simulado rápido (gram-01 a 03)',
     areaId: 'gramatica',
-    topicos: ['gram-01', 'gram-02'],
+    topicos: ['gram-01', 'gram-02', 'gram-03'],
     cor: 'blue',
     tipo: 'conteudo'
   },
   {
     numero: 4,
-    periodo: '30/jun–04/jul/2026',
+    periodo: '29/jun–05/jul/2026',
     titulo: 'Crase e Sintaxe do Período Simples',
-    descricao: 'Uso do Sinal de Crase (gram-03) + Organização Sintática: Frase, Oração e Período (gram-08)',
+    descricao: 'Tópicos: Organização Sintática (gram-08) + Termos da Oração (gram-09)\n· Seg 29/06: Teoria — gram-08\n· Ter 30/06: Questões — gram-08\n· Qua 01/07: Teoria — gram-09\n· Qui 02/07: Questões — gram-09\n· Sex 03/07: Revisão + Simulado rápido gram-08 e gram-09',
     areaId: 'gramatica',
-    topicos: ['gram-03', 'gram-08'],
+    topicos: ['gram-08', 'gram-09'],
     cor: 'blue',
     tipo: 'conteudo'
   },
   {
     numero: 5,
-    periodo: '07–11/jul/2026',
+    periodo: '06/jul–12/jul/2026',
     titulo: 'Sintaxe do Período Composto e Termos',
-    descricao: 'Termos da Oração (gram-09) + Processos de Coordenação e Subordinação (gram-10)',
+    descricao: 'Tópicos: Coordenação e Subordinação (gram-10) + Concordância Nominal (gram-11)\n· Seg 06/07: Teoria — gram-10\n· Ter 07/07: Questões — gram-10\n· Qua 08/07: Teoria — gram-11\n· Qui 09/07: Questões — gram-11\n· Sex 10/07: Revisão + Simulado rápido gram-10 e gram-11',
     areaId: 'gramatica',
-    topicos: ['gram-09', 'gram-10'],
+    topicos: ['gram-10', 'gram-11'],
     cor: 'blue',
     tipo: 'conteudo'
   },
   {
     numero: 6,
-    periodo: '14–18/jul/2026',
-    titulo: 'Concordância Nominal e Verbal',
-    descricao: 'Regras de Concordância Nominal (gram-11) + Concordância Verbal (gram-12)',
+    periodo: '13/jul–19/jul/2026',
+    titulo: 'Concordância e Regência',
+    descricao: 'Tópicos: Concordância Verbal (gram-12) + Regência Nominal e Verbal (gram-13)\n· Seg 13/07: Teoria — gram-12\n· Ter 14/07: Questões — gram-12\n· Qua 15/07: Teoria — gram-13\n· Qui 16/07: Questões — gram-13\n· Sex 17/07: Revisão + Simulado rápido gram-12 e gram-13',
     areaId: 'gramatica',
-    topicos: ['gram-11', 'gram-12'],
+    topicos: ['gram-12', 'gram-13'],
     cor: 'blue',
     tipo: 'conteudo'
   },
   {
     numero: 7,
-    periodo: '21–25/jul/2026',
-    titulo: 'Regência, Colocação e Pontuação',
-    descricao: 'Regência Nominal e Verbal (gram-13) + Colocação Pronominal e Sinais de Pontuação (gram-14)',
+    periodo: '20/jul–26/jul/2026',
+    titulo: 'Colocação Pronominal e Pontuação',
+    descricao: 'Tópico: Colocação Pronominal e Pontuação (gram-14)\n· Seg 20/07: Teoria — gram-14 (Foco em Colocação)\n· Ter 21/07: Questões — gram-14\n· Qua 22/07: Teoria — gram-14 (Foco em Pontuação)\n· Qui 23/07: Questões — gram-14\n· Sex 24/07: Revisão Completa + Simulado rápido gram-14',
     areaId: 'gramatica',
-    topicos: ['gram-13', 'gram-14'],
+    topicos: ['gram-14'],
     cor: 'blue',
     tipo: 'conteudo'
   },
   {
-    numero: 8, // Semana Especial de Revisão 1
-    periodo: '28/jul–01/ago/2026',
-    titulo: 'REVISÃO 1 — Ciclo de Gramática Completo',
-    descricao: 'Revisão geral de toda a Gramática (tópicos gram-01 a gram-14) com foco em exercícios e fichamentos',
-    areaId: 'gramatica',
-    topicos: ['gram-04', 'gram-05', 'gram-06', 'gram-07', 'gram-01', 'gram-02', 'gram-03', 'gram-08', 'gram-09', 'gram-10', 'gram-11', 'gram-12', 'gram-13', 'gram-14'],
-    cor: 'amber',
-    tipo: 'revisao'
+    numero: 8,
+    periodo: '27/jul–02/ago/2026',
+    titulo: 'Semântica e Relações Lexicais',
+    descricao: 'Tópicos: Linguagem Denotativa e Conotativa (comp-03) + Relações Lexicais (comp-06) + Ambiguidade e Polissemia (comp-05)\n· Seg 27/07: Teoria e Questões — comp-03\n· Ter 28/07: Teoria e Questões — comp-06\n· Qua 29/07: Teoria e Questões — comp-05\n· Qui 30/07: Reforço e Exercícios Avançados dos 3 tópicos\n· Sex 31/07: Revisão Geral + Simulado rápido (comp-03, 05, 06)',
+    areaId: 'interpretacao',
+    topicos: ['comp-03', 'comp-06', 'comp-05'],
+    cor: 'emerald',
+    tipo: 'conteudo'
   },
   {
     numero: 9,
-    periodo: '04–08/ago/2026',
-    titulo: 'Semântica e Relações Lexicais',
-    descricao: 'Linguagem Denotativa e Conotativa (comp-03) + Relações Lexicais (comp-06)',
+    periodo: '03/ago–09/ago/2026',
+    titulo: 'Polissemia, Estilística e Leitura',
+    descricao: 'Tópicos: Figuras de Linguagem (comp-07) + Adequação Vocabular (comp-14) + Leitura de Textos (comp-01)\n· Seg 03/08: Teoria e Questões — comp-07\n· Ter 04/08: Teoria e Questões — comp-14\n· Qua 05/08: Teoria e Questões — comp-01\n· Qui 06/08: Reforço e Exercícios Avançados dos 3 tópicos\n· Sex 07/08: Revisão Geral + Simulado rápido (comp-01, 07, 14)',
     areaId: 'interpretacao',
-    topicos: ['comp-03', 'comp-06'],
+    topicos: ['comp-07', 'comp-14', 'comp-01'],
     cor: 'emerald',
     tipo: 'conteudo'
   },
   {
     numero: 10,
-    periodo: '11–15/ago/2026',
-    titulo: 'Polissemia e Estilística',
-    descricao: 'Ambiguidade e Polissemia (comp-05) + Figuras de Linguagem (comp-07)',
+    periodo: '10/ago–16/ago/2026',
+    titulo: 'Leitura Crítica e Modos de Texto',
+    descricao: 'Tópicos: Informações Implícitas/Explícitas (comp-02) + Ficção e Não Ficção (comp-04) + Gêneros Textuais (comp-08)\n· Seg 10/08: Teoria e Questões — comp-02\n· Ter 11/08: Teoria e Questões — comp-04\n· Qua 12/08: Teoria e Questões — comp-08\n· Qui 13/08: Reforço e Exercícios Avançados dos 3 tópicos\n· Sex 14/08: Revisão Geral + Simulado rápido (comp-02, 04, 08)',
     areaId: 'interpretacao',
-    topicos: ['comp-05', 'comp-07'],
+    topicos: ['comp-02', 'comp-04', 'comp-08'],
     cor: 'emerald',
     tipo: 'conteudo'
   },
   {
     numero: 11,
-    periodo: '18–22/ago/2026',
-    titulo: 'Variação e Leitura de Textos',
-    descricao: 'Adequação Vocabular e Variação Linguística (comp-14) + Leitura de Textos Verbais e Não Verbais (comp-01)',
+    periodo: '17/ago–23/ago/2026',
+    titulo: 'Discursos Narrativos e Textualidade',
+    descricao: 'Tópicos: Tipos de Discurso (comp-09) + Coesão Textual (comp-11) + Coerência e Textualidade (comp-12)\n· Seg 17/08: Teoria e Questões — comp-09\n· Ter 18/08: Teoria e Questões — comp-11\n· Qua 19/08: Teoria e Questões — comp-12\n· Qui 20/08: Reforço e Exercícios Avançados dos 3 tópicos\n· Sex 21/08: Revisão Geral + Simulado rápido (comp-09, 11, 12)',
     areaId: 'interpretacao',
-    topicos: ['comp-14', 'comp-01'],
+    topicos: ['comp-09', 'comp-11', 'comp-12'],
     cor: 'emerald',
     tipo: 'conteudo'
   },
   {
     numero: 12,
-    periodo: '25–29/ago/2026',
-    titulo: 'Leitura Crítica e Modos de Texto',
-    descricao: 'Informações Implícitas e Explícitas (comp-02) + Elementos Ficcionais e Não Ficcionais (comp-04)',
-    areaId: 'interpretacao',
-    topicos: ['comp-02', 'comp-04'],
-    cor: 'emerald',
-    tipo: 'conteudo'
-  },
-  {
-    numero: 13,
-    periodo: '01–05/set/2026',
-    titulo: 'Tipologia e Discursos Narrativos',
-    descricao: 'Tipos e Gêneros Textuais (comp-08) + Tipos de Discurso (comp-09)',
-    areaId: 'interpretacao',
-    topicos: ['comp-08', 'comp-09'],
-    cor: 'emerald',
-    tipo: 'conteudo'
-  },
-  {
-    numero: 14,
-    periodo: '08–12/set/2026',
-    titulo: 'Textualidade: Coesão e Coerência',
-    descricao: 'Coesão Textual (comp-11) + Coerência e Textualidade (comp-12)',
-    areaId: 'interpretacao',
-    topicos: ['comp-11', 'comp-12'],
-    cor: 'emerald',
-    tipo: 'conteudo'
-  },
-  {
-    numero: 15,
-    periodo: '15–19/set/2026',
-    titulo: 'Estilística e Relações Intertextuais',
-    descricao: 'Reescritura de Frases (comp-10) + Intertextualidade e Alusões (comp-13)',
+    periodo: '24/ago–30/ago/2026',
+    titulo: 'Reescritura, Intertextualidade e Revisão',
+    descricao: 'Tópicos: Reescritura de Frases (comp-10) + Intertextualidade (comp-13)\n· Seg 24/08: Teoria e Questões — comp-10\n· Ter 25/08: Teoria e Questões — comp-13\n· Qua 26/08: Revisão Geral da Área de Compreensão de Texto\n· Qui 27/08: Revisão Geral da Área de Gramática\n· Sex 28/08: Simulado Rápido Geral de Todos os Tópicos',
     areaId: 'interpretacao',
     topicos: ['comp-10', 'comp-13'],
-    cor: 'emerald',
-    tipo: 'conteudo'
-  },
-  {
-    numero: 16, // Semana Especial de Revisão 2
-    periodo: '22–26/set/2026',
-    titulo: 'REVISÃO 2 — Ciclo de Compreensão de Texto',
-    descricao: 'Revisão geral de toda a área de Interpretação (tópicos comp-01 a comp-14) com foco em análise de questões antigas',
-    areaId: 'interpretacao',
-    topicos: ['comp-03', 'comp-06', 'comp-05', 'comp-07', 'comp-14', 'comp-01', 'comp-02', 'comp-04', 'comp-08', 'comp-09', 'comp-11', 'comp-12', 'comp-10', 'comp-13'],
     cor: 'amber',
     tipo: 'revisao'
   },
   {
-    numero: 17, // Semana Especial de Simulados
-    periodo: '29/set–17/out/2026',
-    titulo: 'REVISÃO 3 — Simulados de Fixação',
-    descricao: 'Resolução sistemática de simulados e provas anteriores de RM2 de Português para calibrar o tempo de prova',
+    numero: 13,
+    periodo: '31/ago–06/set/2026',
+    titulo: 'Simulado Final e Fechamento',
+    descricao: '🎯 Resolução de simulados completos e provas anteriores do PSU RM2 sob condições reais de prova (40 questões de Português, tempo limite de 3 horas).',
     areaId: null,
     topicos: [],
     cor: 'purple',
     tipo: 'simulado'
-  },
-  {
-    numero: 18,
-    periodo: '20/out–14/nov/2026',
-    titulo: 'Revisão por Pontos Fracos (Sem. 15-18)',
-    descricao: 'Carga horária dedicada aos pontos com menor índice de aproveitamento nos simulados (2 tópicos fracos por semana com foco nos erros)',
-    areaId: null,
-    topicos: [],
-    cor: 'purple',
-    tipo: 'revisao'
-  },
-  {
-    numero: 19,
-    periodo: '17/nov/2026–16/jan/2027',
-    titulo: 'SPRINT FINAL (Jan/2027)',
-    descricao: 'Estudo de altíssima intensidade: simulados diários rápidos e revisão de regras finais até a data da prova',
-    areaId: null,
-    topicos: [],
-    cor: 'rose',
-    tipo: 'sprint'
   }
 ];
 
@@ -256,7 +196,7 @@ export function RM2Cronograma({ onNavigate }: RM2CronogramaProps) {
     const hoje = new Date();
     const semIndex = SEMANAS.findIndex(sem => {
       if (sem.numero === 1) return hoje <= new Date(2026, 5, 14);
-      if (sem.numero === 19) return hoje >= new Date(2026, 10, 17);
+      if (sem.numero === 13) return hoje >= new Date(2026, 8, 6);
       return false;
     });
     if (semIndex !== -1) {
@@ -569,7 +509,7 @@ export function RM2Cronograma({ onNavigate }: RM2CronogramaProps) {
                     <span className="text-xs text-gray-400 font-bold">{semana.periodo}</span>
                   </div>
                   <h2 className="text-lg font-heading font-black text-white">{semana.titulo}</h2>
-                  <p className="text-xs text-gray-400 leading-relaxed">{semana.descricao}</p>
+                  <p className="text-xs text-gray-400 leading-relaxed whitespace-pre-line">{semana.descricao}</p>
                 </div>
 
                 <hr className="border-border/60" />
