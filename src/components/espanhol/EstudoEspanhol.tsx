@@ -1,98 +1,182 @@
 import React, { useState } from 'react';
-import { BookOpen, HelpCircle, ClipboardList, LayoutDashboard } from 'lucide-react';
+import {
+  Languages, BookOpen, Brain, Award, BarChart2,
+  Settings, ChevronLeft, LayoutDashboard, ChevronRight
+} from 'lucide-react';
 import EspanholDashboard from './EspanholDashboard';
 import EspanholTeoria from './EspanholTeoria';
 import EspanholQuestoes from './EspanholQuestoes';
 import EspanholSimulacao from './EspanholSimulacao';
 import { areasEspanhol } from '../../data/espanholConteudo';
 
-type View = 'dashboard' | 'teoria' | 'questoes' | 'simulacao';
+type EspanholTab = 'dashboard' | 'teoria' | 'questoes' | 'simulacao';
 
-interface EstudoEspanholProps {
-  onBack?: () => void;
+interface EspanholTabDef {
+  id: EspanholTab;
+  label: string;
+  icon: React.ElementType;
 }
 
-export default function EstudoEspanhol({ onBack }: EstudoEspanholProps) {
-  const [activeView, setActiveView] = useState<View>('dashboard');
-  const [selectedAssunto, setSelectedAssunto] = useState<any>(
-    areasEspanhol[0].assuntos[0]
+const ESPANHOL_TABS: EspanholTabDef[] = [
+  { id: 'dashboard',  label: 'Início',   icon: LayoutDashboard },
+  { id: 'teoria',     label: 'Teoria',   icon: BookOpen },
+  { id: 'questoes',   label: 'Questões', icon: Brain },
+  { id: 'simulacao',  label: 'Simulado', icon: Award },
+];
+
+export default function EstudoEspanhol() {
+  const [activeTab, setActiveTab] = useState<EspanholTab>('dashboard');
+  const [selectedAssuntoTeoria, setSelectedAssuntoTeoria] = useState<any>(null);
+  const [selectedAssuntoQuestoes, setSelectedAssuntoQuestoes] = useState<any>(null);
+
+  const activeTabDef = ESPANHOL_TABS.find(t => t.id === activeTab);
+
+  const findAssuntoById = (id: string) => {
+    for (const area of areasEspanhol) {
+      const found = area.assuntos.find(as => as.id === id);
+      if (found) return found;
+    }
+    return null;
+  };
+
+  const renderAssuntoSelector = (type: 'teoria' | 'questoes') => (
+    <div className="space-y-6 animate-in fade-in duration-300">
+      <div className="space-y-1">
+        <h2 className="text-xl font-heading font-black text-white">
+          {type === 'teoria' ? 'Selecione um Módulo Teórico' : 'Selecione para Praticar'}
+        </h2>
+        <p className="text-xs text-gray-400">Escolha qualquer módulo do curso de Espanhol para começar.</p>
+      </div>
+
+      <div className="grid md:grid-cols-2 gap-4">
+        {areasEspanhol.map(area => (
+          <div key={area.id} className="bg-surface border border-border rounded-3xl p-5 space-y-3">
+            <h3 className="text-xs font-black text-blue-400 uppercase tracking-wider">{area.titulo}</h3>
+            <div className="space-y-2">
+              {area.assuntos.map(as => (
+                <button
+                  key={as.id}
+                  onClick={() => {
+                    if (type === 'teoria') setSelectedAssuntoTeoria(as);
+                    else setSelectedAssuntoQuestoes(as);
+                  }}
+                  className="w-full text-left p-3.5 bg-black/15 hover:bg-black/35 border border-border hover:border-white/10 rounded-2xl flex items-center justify-between gap-4 transition-all text-xs font-bold text-gray-300"
+                >
+                  <span className="truncate flex-1">{as.titulo}</span>
+                  <ChevronRight className="w-4 h-4 text-gray-500 shrink-0" />
+                </button>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 
-  const tabs: { id: View; label: string; icon: React.ReactNode }[] = [
-    { id: 'dashboard', label: 'Início', icon: <LayoutDashboard size={16} /> },
-    { id: 'teoria', label: 'Teoria', icon: <BookOpen size={16} /> },
-    { id: 'questoes', label: 'Questões', icon: <HelpCircle size={16} /> },
-    { id: 'simulacao', label: 'Simulado', icon: <ClipboardList size={16} /> },
-  ];
+  const renderContent = () => {
+    switch (activeTab) {
+      case 'dashboard':
+        return (
+          <EspanholDashboard
+            onNavigate={(tab, assuntoId) => {
+              setActiveTab(tab as EspanholTab);
+              if (assuntoId) {
+                const as = findAssuntoById(assuntoId);
+                if (as) {
+                  if (tab === 'teoria') setSelectedAssuntoTeoria(as);
+                  if (tab === 'questoes') setSelectedAssuntoQuestoes(as);
+                }
+              }
+            }}
+          />
+        );
 
-  function handleNavigate(view: View, assuntoId?: string) {
-    if (assuntoId) {
-      let found: any = null;
-      for (const area of areasEspanhol) {
-        const as = area.assuntos.find(a => a.id === assuntoId);
-        if (as) {
-          found = as;
-          break;
-        }
-      }
-      if (found) setSelectedAssunto(found);
+      case 'teoria':
+        if (!selectedAssuntoTeoria) return renderAssuntoSelector('teoria');
+        return (
+          <EspanholTeoria
+            assunto={selectedAssuntoTeoria}
+            onVoltar={() => setSelectedAssuntoTeoria(null)}
+          />
+        );
+
+      case 'questoes':
+        if (!selectedAssuntoQuestoes) return renderAssuntoSelector('questoes');
+        return (
+          <EspanholQuestoes
+            assunto={selectedAssuntoQuestoes}
+            onVoltar={() => setSelectedAssuntoQuestoes(null)}
+          />
+        );
+
+      case 'simulacao':
+        return (
+          <EspanholSimulacao
+            onVoltar={() => setActiveTab('dashboard')}
+          />
+        );
+
+      default:
+        return <EspanholDashboard onNavigate={() => {}} />;
     }
-    setActiveView(view);
-  }
+  };
 
   return (
-    <div className="estudo-espanhol">
-      <nav className="rm2-tabs" style={{ display: 'flex', gap: '0.25rem', marginBottom: '1rem', overflowX: 'auto', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.5rem' }}>
-        {tabs.map(tab => (
-          <button
-            key={tab.id}
-            className={`rm2-tab ${activeView === tab.id ? 'active' : ''}`}
-            onClick={() => setActiveView(tab.id)}
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '0.5rem',
-              padding: '0.5rem 1rem',
-              border: 'none',
-              background: activeView === tab.id ? 'var(--accent)' : 'transparent',
-              color: activeView === tab.id ? '#fff' : 'var(--text-secondary)',
-              borderRadius: '8px',
-              cursor: 'pointer',
-              fontWeight: 500,
-              fontSize: '0.85rem',
-              whiteSpace: 'nowrap'
-            }}
-          >
-            {tab.icon}
-            <span>{tab.label}</span>
-          </button>
-        ))}
-      </nav>
+    <div className="p-4 md:p-8 max-w-5xl mx-auto w-full flex flex-col gap-6">
 
-      <div className="rm2-content">
-        {activeView === 'dashboard' && (
-          <EspanholDashboard
-            onNavigate={(view, id) => handleNavigate(view as View, id)}
-          />
-        )}
-        {activeView === 'teoria' && (
-          <EspanholTeoria
-            assunto={selectedAssunto}
-            onVoltar={() => setActiveView('dashboard')}
-          />
-        )}
-        {activeView === 'questoes' && (
-          <EspanholQuestoes
-            assunto={selectedAssunto}
-            onVoltar={() => setActiveView('dashboard')}
-          />
-        )}
-        {activeView === 'simulacao' && (
-          <EspanholSimulacao
-            onVoltar={() => setActiveView('dashboard')}
-          />
-        )}
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 rounded-xl bg-blue-500/15 border border-blue-500/30 flex items-center justify-center text-blue-400 shrink-0">
+              <Languages className="w-4.5 h-4.5" />
+            </div>
+            <div className="flex items-center gap-2 text-sm">
+              <span className="font-black text-white">Espanhol</span>
+              {activeTab !== 'dashboard' && (
+                <>
+                  <ChevronLeft className="w-3.5 h-3.5 text-gray-600 rotate-180" />
+                  <span className="text-gray-400">{activeTabDef?.label}</span>
+                </>
+              )}
+            </div>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-1 overflow-x-auto pb-1 scrollbar-none">
+          {ESPANHOL_TABS.map(tab => {
+            const Icon = tab.icon;
+            const isActive = activeTab === tab.id;
+            return (
+              <button
+                key={tab.id}
+                onClick={() => {
+                  setActiveTab(tab.id);
+                  if (tab.id !== 'teoria') setSelectedAssuntoTeoria(null);
+                  if (tab.id !== 'questoes') setSelectedAssuntoQuestoes(null);
+                }}
+                className={`
+                  flex items-center gap-2 px-4 py-2.5 rounded-2xl text-xs font-black
+                  uppercase tracking-wider whitespace-nowrap transition-all shrink-0
+                  ${isActive
+                    ? 'bg-blue-600 text-white shadow-md shadow-blue-500/20'
+                    : 'text-gray-400 hover:text-white hover:bg-white/5 border border-transparent hover:border-white/10'
+                  }
+                `}
+              >
+                <Icon className="w-3.5 h-3.5" />
+                <span>{tab.label}</span>
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="h-px bg-border w-full"></div>
       </div>
+
+      <div className="flex-1">
+        {renderContent()}
+      </div>
+
     </div>
   );
 }

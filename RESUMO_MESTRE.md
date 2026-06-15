@@ -1108,6 +1108,21 @@ docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
   - `src/App.tsx` **[MODIFICADO]** (integração da nova aba e seu renderizador)
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
+---
+
+### Parte 46 — Refatoração do EstudoEspanhol para layout idêntico ao RM2
+- **Data e hora:** 15/06/2026 às 10:27 (Horário Local)
+- **O que foi feito:**
+  - Reescrito completamente o arquivo `src/components/espanhol/EstudoEspanhol.tsx` com o novo layout visual idêntico ao `EstudoRM2.tsx`. O componente agora exibe: cabeçalho com ícone `Languages` e breadcrumb da aba ativa; barra de sub-navegação com botões estilizados (azul sólido para ativo, texto cinza para inativo); seletor de módulo em grid (exibido quando nenhum assunto está selecionado nas abas Teoria e Questões); e separador horizontal entre header e conteúdo.
+  - Adaptações necessárias em relação ao prompt original: corrigido nome do export (`areasEspanhol` ao invés de `espanholAreas`) e campo de exibição (`titulo` ao invés de `nome`); removidos props inexistentes nos sub-componentes (`onIrParaQuestoes`, `onFinalizou`, `modo`, `onFinalizar`) mantendo apenas as interfaces reais. Nenhum outro arquivo foi alterado.
+- **Validação:**
+  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
+  - `npm run build` ✅ build de produção concluído com sucesso (Exit code: 0).
+- **Arquivos modificados:**
+  - `src/components/espanhol/EstudoEspanhol.tsx` **[MODIFICADO]** (reescrita completa do layout)
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+
 
 
 
