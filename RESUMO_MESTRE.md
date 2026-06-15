@@ -1122,11 +1122,12 @@ docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
   - `src/components/espanhol/EstudoEspanhol.tsx` **[MODIFICADO]** (reescrita completa do layout)
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
+---
 
-
-
-
-
-
-
-
+### Parte 47 — Execução do Script de Auditoria de Conteúdos
+- **Data e hora:** 15/06/2026 às 18:46 (Horário Local)
+- **O que foi feito:**
+  - Executada a auditoria automatizada através do script `audita_conteudo.py` na pasta `src/data/conteudo/` para mapear os 28 arquivos JSON estáticos de Língua Portuguesa.
+  - A auditoria gerou a listagem detalhada mostrando identificadores internos, títulos, áreas de estudo, resumos e quantidades de questões, simulados e desafios de cada módulo.
+- **Arquivos modificados:**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
