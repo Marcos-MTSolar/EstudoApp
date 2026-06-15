@@ -999,3 +999,119 @@ docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Cronograma.tsx` **[ATUALIZADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 38 — Estrutura de dados para o módulo Espanhol
+- **Data e hora:** 15/06/2026 às 09:07 (Horário Local)
+- **O que foi feito:**
+  - Criado o arquivo `src/data/espanholConteudo.ts` contendo a tipagem (`AssuntoEspanhol`, `AreaEspanhol`) e a definição das 5 áreas temáticas com os 20 assuntos/módulos previstos do curso de Espanhol.
+- **Validação:**
+  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
+- **Arquivos modificados:**
+  - `src/data/espanholConteudo.ts` **[NOVO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 39 — Indexador de conteúdos do módulo Espanhol
+- **Data e hora:** 15/06/2026 às 09:08 (Horário Local)
+- **O que foi feito:**
+  - Criado o arquivo `src/data/espanholIndex.ts` para mapear os imports dinâmicos dos 20 JSONs de conteúdo de espanhol (`esp-01.json` a `esp-20.json`).
+  - Criados os arquivos JSON de marcação vazios (placeholders `{}`) em `src/data/conteudo/esp-01.json` a `esp-20.json` para permitir que o indexador TypeScript compile sem erros de importação ausente.
+- **Validação:**
+  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
+- **Arquivos modificados:**
+  - `src/data/espanholIndex.ts` **[NOVO]**
+  - `src/data/conteudo/esp-*.json` **[NOVO]** (placeholders de esp-01 a esp-20)
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 40 — Hook de progresso do módulo Espanhol
+- **Data e hora:** 15/06/2026 às 09:10 (Horário Local)
+- **O que foi feito:**
+  - Criado o arquivo `src/lib/useEspanholData.ts` para gerenciar a persistência local (no `localStorage`) do progresso do usuário no módulo de Espanhol (teoria visualizada, questões resolvidas, acertos e simulados).
+  - Adicionado o casting de tipo `as ProgressoAssuntoEspanhol[]` em `Object.values(progresso)` para compatibilidade estrita do compilador TypeScript.
+- **Validação:**
+  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
+- **Arquivos modificados:**
+  - `src/lib/useEspanholData.ts` **[NOVO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 41 — Dashboard do módulo Espanhol
+- **Data e hora:** 15/06/2026 às 09:12 (Horário Local)
+- **O que foi feito:**
+  - Criado o componente de dashboard `src/components/espanhol/EspanholDashboard.tsx` que apresenta cartões de status do progresso geral, teorias vistas, módulos concluídos, barra de progresso visual e a listagem interativa de todos os 20 módulos do edital de espanhol agrupados por suas áreas temáticas (Fundamentos, Verbos, Vocabulário, Comunicação Escrita e Simulados DELE B1).
+- **Validação:**
+  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
+- **Arquivos modificados:**
+  - `src/components/espanhol/EspanholDashboard.tsx` **[NOVO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 42 — Componente de Teoria do módulo Espanhol
+- **Data e hora:** 15/06/2026 às 09:17 (Horário Local)
+- **O que foi feito:**
+  - Criado o componente de visualização de conteúdo teórico `src/components/espanhol/EspanholTeoria.tsx`. O componente inclui suporte para carregar o JSON do módulo correspondente, seleção dinâmica de nível (básico, intermediário, avançado) com limitação de blocos exibidos de acordo com o nível selecionado, painel retrátil de resumo rápido, e seções dedicadas para "Pegadinhas" e "Cascas de Banana" com marcação de conclusão de teoria.
+- **Validação:**
+  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
+- **Arquivos modificados:**
+  - `src/components/espanhol/EspanholTeoria.tsx` **[NOVO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 43 — Componente de Questões do módulo Espanhol
+- **Data e hora:** 15/06/2026 às 09:43 (Horário Local)
+- **O que foi feito:**
+  - Criado o componente de resolução de questões `src/components/espanhol/EspanholQuestoes.tsx`. O componente lida com a carga de questões baseada no nível selecionado (básico, intermediário, avançado, ou desafio), renderização do progresso atual, barra de progresso visual, cálculo de aproveitamento com salvamento de resultados via hook de persistência, gabarito instantâneo com explicações detalhadas, e tela final de resultados contendo revisão de todas as questões respondidas.
+  - Atualizado o hook `useEspanholData.ts` adicionando a função `registrarQuestoes` como facilitadora para adequação das assinaturas de persistência das respostas.
+- **Validação:**
+  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
+  - `npm run build` ✅ build de produção concluído com sucesso.
+- **Arquivos modificados:**
+  - `src/lib/useEspanholData.ts` **[MODIFICADO]** (adicionada função registrarQuestoes para compatibilidade)
+  - `src/components/espanhol/EspanholQuestoes.tsx` **[NOVO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 44 — Componente de Simulado do módulo Espanhol
+- **Data e hora:** 15/06/2026 às 09:49 (Horário Local)
+- **O que foi feito:**
+  - Criado o componente de simulação de provas `src/components/espanhol/EspanholSimulacao.tsx`. Ele gerencia a configuração do simulado (modos Rápido de 10 questões e 30 minutos, e Completo de 20 questões e 60 minutos), coleta de questões de nível "avançado" de todos os módulos disponíveis do edital de espanhol com embaralhamento automático, cronômetro regressivo na tela, gravação de históricos no `localStorage` e gabarito final comentado.
+  - Atualizado o hook `useEspanholData.ts` adicionando a função `registrarSimulado` para compatibilidade com o salvamento de resultados de simulação de espanhol.
+- **Validação:**
+  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
+  - `npm run build` ✅ build de produção concluído com sucesso.
+- **Arquivos modificados:**
+  - `src/lib/useEspanholData.ts` **[MODIFICADO]** (adicionada função registrarSimulado para compatibilidade)
+  - `src/components/espanhol/EspanholSimulacao.tsx` **[NOVO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 45 — Integração da Aba Espanhol no Layout Principal
+- **Data e hora:** 15/06/2026 às 10:01 (Horário Local)
+- **O que foi feito:**
+  - Criado o componente shell principal da aba de espanhol: `src/components/espanhol/EstudoEspanhol.tsx` para gerenciar a alternância de sub-visualizações (Início/Dashboard, Teoria, Questões, Simulado) e resolver a navegação a partir do Dashboard localizando os objetos de assunto por ID a partir de `areasEspanhol`.
+  - Editado cirurgicamente o arquivo `src/App.tsx` para importar `EstudoEspanhol`, registrar a nova aba "Espanhol" com o ícone `Languages` no array `TABS`, e adicioná-la ao renderizador dinâmico de abas `CurrentView`.
+- **Validação:**
+  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript (após a importação explícita de `React` no shell principal).
+  - `npm run build` ✅ build de produção concluído com sucesso.
+- **Arquivos modificados:**
+  - `src/components/espanhol/EstudoEspanhol.tsx` **[NOVO]**
+  - `src/App.tsx` **[MODIFICADO]** (integração da nova aba e seu renderizador)
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+
+
+
+
+
+
+

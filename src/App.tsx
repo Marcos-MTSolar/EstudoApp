@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { AuthProvider, useAuth } from './lib/AuthContext';
-import { CalendarDays, LogOut, Menu, Settings, X, WifiOff, Anchor } from 'lucide-react';
+import { CalendarDays, LogOut, Menu, Settings, X, WifiOff, Anchor, Languages } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Configuracoes } from './components/Configuracoes';
 import { EstudoRM2 } from './components/EstudoRM2';
+import EstudoEspanhol from './components/espanhol/EstudoEspanhol';
 
-// Abas principais do app (apenas RM2 e Configurações)
+// Abas principais do app
 const TABS = [
   { id: 'rm2', name: 'RM2 Marinha', icon: Anchor },
+  { id: 'espanhol', name: 'Espanhol', icon: Languages },
   { id: 'configuracoes', name: 'Configurações', icon: Settings },
 ];
 
@@ -34,6 +36,7 @@ function MainApp() {
   const CurrentView = () => {
     switch (activeTab) {
       case 'rm2': return <EstudoRM2 />;
+      case 'espanhol': return <EstudoEspanhol />;
       case 'configuracoes': return <Configuracoes />;
       default: return <EstudoRM2 />;
     }

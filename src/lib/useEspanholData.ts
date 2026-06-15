@@ -1,0 +1,110 @@
+import { useState, useEffect, useCallback } from 'react';
+
+export interface ProgressoAssuntoEspanhol {
+  id: string;
+  teoriaVista: boolean;
+  questoesFeitas: number;
+  ultimoAcerto: number;
+  nivelAtual: string;
+  concluido: boolean;
+}
+
+export interface ResultadoSimuladoEspanhol {
+  id: string;
+  data: string;
+  assuntoId: string;
+  acertos: number;
+  total: number;
+  percentual: number;
+}
+
+const STORAGE_KEY_PROGRESSO = 'espanhol_progresso';
+const STORAGE_KEY_SIMULADOS = 'espanhol_simulados_historico';
+
+export function useEspanholData() {
+  const [progresso, setProgresso] = useState<Record<string, ProgressoAssuntoEspanhol>>({});
+  const [historico, setHistorico] = useState<ResultadoSimuladoEspanhol[]>([]);
+
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY_PROGRESSO);
+      if (raw) setProgresso(JSON.parse(raw));
+    } catch { /* ignora erro de parse */ }
+
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY_SIMULADOS);
+      if (raw) setHistorico(JSON.parse(raw));
+    } catch { /* ignora erro de parse */ }
+  }, []);
+
+  const salvarProgresso = useCallback((novo: Record<string, ProgressoAssuntoEspanhol>) => {
+    setProgresso(novo);
+    localStorage.setItem(STORAGE_KEY_PROGRESSO, JSON.stringify(novo));
+  }, []);
+
+  const getProgressoAssunto = useCallback((id: string): ProgressoAssuntoEspanhol => {
+    return progresso[id] ?? {
+      id,
+      teoriaVista: false,
+      questoesFeitas: 0,
+      ultimoAcerto: 0,
+      nivelAtual: 'basico',
+      concluido: false,
+    };
+  }, [progresso]);
+
+  const marcarTeoriaVista = useCallback((id: string, nivel: string) => {
+    const atual = progresso[id] ?? { id, teoriaVista: false, questoesFeitas: 0, ultimoAcerto: 0, nivelAtual: 'basico', concluido: false };
+    const atualizado = { ...atual, teoriaVista: true, nivelAtual: nivel };
+    atualizado.concluido = atualizado.teoriaVista && atualizado.ultimoAcerto >= 60;
+    salvarProgresso({ ...progresso, [id]: atualizado });
+  }, [progresso, salvarProgresso]);
+
+  const registrarResultadoQuestoes = useCallback((id: string, acertos: number, total: number) => {
+    const percentual = Math.round((acertos / total) * 100);
+    const atual = progresso[id] ?? { id, teoriaVista: false, questoesFeitas: 0, ultimoAcerto: 0, nivelAtual: 'basico', concluido: false };
+    const atualizado = { ...atual, questoesFeitas: atual.questoesFeitas + total, ultimoAcerto: percentual };
+    atualizado.concluido = atualizado.teoriaVista && atualizado.ultimoAcerto >= 60;
+    salvarProgresso({ ...progresso, [id]: atualizado });
+  }, [progresso, salvarProgresso]);
+
+  const salvarResultadoSimulado = useCallback((resultado: Omit<ResultadoSimuladoEspanhol, 'id' | 'data'>) => {
+    const novo: ResultadoSimuladoEspanhol = {
+      ...resultado,
+      id: `sim_${Date.now()}`,
+      data: new Date().toLocaleDateString('pt-BR'),
+    };
+    const atualizado = [novo, ...historico].slice(0, 50);
+    setHistorico(atualizado);
+    localStorage.setItem(STORAGE_KEY_SIMULADOS, JSON.stringify(atualizado));
+  }, [historico]);
+
+  const registrarQuestoes = useCallback((id: string, total: number, acertos: number, percentual?: number) => {
+    registrarResultadoQuestoes(id, acertos, total);
+  }, [registrarResultadoQuestoes]);
+
+  const registrarSimulado = useCallback((acertos: number, total: number, percentual: number) => {
+    salvarResultadoSimulado({
+      assuntoId: 'simulado',
+      acertos,
+      total,
+      percentual,
+    });
+  }, [salvarResultadoSimulado]);
+
+  const totalConcluidos = (Object.values(progresso) as ProgressoAssuntoEspanhol[]).filter(p => p.concluido).length;
+  const totalTeoriasVistas = (Object.values(progresso) as ProgressoAssuntoEspanhol[]).filter(p => p.teoriaVista).length;
+
+  return {
+    progresso,
+    historico,
+    getProgressoAssunto,
+    marcarTeoriaVista,
+    registrarResultadoQuestoes,
+    registrarQuestoes,
+    salvarResultadoSimulado,
+    registrarSimulado,
+    totalConcluidos,
+    totalTeoriasVistas,
+  };
+}
