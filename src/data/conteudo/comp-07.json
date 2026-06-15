@@ -1,7 +1,7 @@
 {
   "id": "comp-07",
   "titulo": "Figuras de Linguagem",
-  "area": "Compreensão de Textos",
+  "area": "Compreensão e Interpretação de Texto",
   "resumo": "Figuras de linguagem são recursos expressivos que desviam da linguagem denotativa padrão para produzir efeitos estéticos, emotivos ou argumentativos. Dividem-se em figuras de som (ou harmonia), figuras de construção (ou sintaxe), figuras de pensamento e tropos (figuras de palavra). O domínio desses recursos é essencial para interpretar textos literários e jornalísticos cobrados no concurso RM2 da Marinha do Brasil.",
   "teoria": {
     "blocos": [
@@ -613,12 +613,21 @@
     }
   ],
   "desafio": {
-    "topicos_mesclados": ["gram-01", "gram-02", "gram-09", "gram-10", "gram-11", "comp-03", "comp-06", "comp-07"],
+    "topicos_mesclados": [
+      "gram-01",
+      "gram-03",
+      "gram-11",
+      "gram-13",
+      "gram-14",
+      "comp-02",
+      "comp-06",
+      "comp-07"
+    ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "comp-07 + gram-09",
+        "topico_referencia": "comp-07 + gram-11",
         "enunciado": "Leia: 'As águas do rio, serenas e silenciosas, narravam histórias que o tempo havia esquecido.' A forma verbal 'narravam' concorda com 'as águas' e configura, simultaneamente, qual recurso gramatical e qual figura de linguagem?",
         "alternativas": {
           "A": "Concordância verbal regular com sujeito simples e metonímia.",
@@ -633,7 +642,7 @@
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "comp-07 + gram-10",
+        "topico_referencia": "comp-07 + gram-13",
         "enunciado": "Analise: 'O comandante aspirava à vitória como um náufrago aspira ao ar.' Considerando regência verbal e figuras de linguagem, assinale a correta:",
         "alternativas": {
           "A": "O verbo 'aspirar' no sentido de 'desejar' é intransitivo; a frase contém metáfora.",
@@ -648,7 +657,7 @@
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "comp-07 + gram-11",
+        "topico_referencia": "comp-07 + gram-14",
         "enunciado": "Leia: 'A honra, cultivamo-la dia após dia.' Nesta frase, além do recurso estilístico de antecipação do objeto, qual figura de linguagem e qual fenômeno de colocação pronominal estão presentes?",
         "alternativas": {
           "A": "Hipérbole e próclise.",
@@ -678,7 +687,7 @@
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "comp-07 + comp-03",
+        "topico_referencia": "comp-07 + comp-02",
         "enunciado": "Leia o trecho: 'O relatório foi impecável — cada dado, uma pedra no edifício da verdade.' Qual informação está IMPLÍCITA no uso da metáfora 'pedra no edifício da verdade' e que não poderia ser extraída de uma afirmação denotativa equivalente?",
         "alternativas": {
           "A": "Que o relatório foi aprovado pela chefia.",
@@ -708,7 +717,7 @@
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "comp-07 + gram-09",
+        "topico_referencia": "comp-07 + gram-11",
         "enunciado": "Leia: 'Feitas as considerações, os dados e a análise falam por si.' O verbo 'falam' concorda com sujeito composto e a expressão 'falam por si' é exemplo de:",
         "alternativas": {
           "A": "Concordância regular com sujeito composto posposto; metonímia.",
@@ -723,7 +732,7 @@
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "comp-07 + gram-02",
+        "topico_referencia": "comp-07 + gram-03",
         "enunciado": "Analise: 'O oficial recorreu à sabedoria de seus mentores como se recorre à bússola em noite fechada.' A crase em 'à sabedoria' e 'à bússola' está correta e a figura empregada é:",
         "alternativas": {
           "A": "Corretas; metáfora em ambos os casos.",
@@ -738,7 +747,7 @@
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "comp-07 + gram-10",
+        "topico_referencia": "comp-07 + gram-13",
         "enunciado": "Na frase 'O capitão não perdoou os erros nem esqueceu as falhas', o verbo 'perdoar' rege objeto direto e 'esquecer' rege objeto direto. Se o texto dissesse 'O capitão não perdoou os erros nem se esqueceu das falhas', qual alteração ocorreria em termos de regência e qual figura de linguagem permaneceria inalterada?",
         "alternativas": {
           "A": "Mudaria a regência de 'esquecer' para transitivo indireto com pronome reflexivo; a antítese entre 'perdoar' e 'esquecer' permaneceria.",
@@ -753,7 +762,7 @@
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "comp-07 + comp-03",
+        "topico_referencia": "comp-07 + comp-02",
         "enunciado": "Leia a seguinte manchete de boletim naval: 'Novo horizonte: Marinha expande sua presença no Atlântico Sul.' Qual informação está IMPLÍCITA no uso de 'horizonte' em sentido figurado e qual figura está empregada?",
         "alternativas": {
           "A": "Implícito: a Marinha está em dificuldades financeiras; figura: ironia.",
@@ -768,7 +777,7 @@
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "comp-07 + gram-11",
+        "topico_referencia": "comp-07 + gram-14",
         "enunciado": "Analise: 'A glória, buscamo-la em cada missão.' Em relação à colocação pronominal e à figura de linguagem, assinale a correta:",
         "alternativas": {
           "A": "Próclise correta; metáfora.",
@@ -783,7 +792,7 @@
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "comp-07 + gram-09",
+        "topico_referencia": "comp-07 + gram-11",
         "enunciado": "Leia: 'Nem o cansaço nem o medo detinha os recrutas.' Há erro de concordância verbal? Qual figura está presente na construção com 'nem...nem'?",
         "alternativas": {
           "A": "Não há erro; a frase usa assíndeto.",
@@ -828,7 +837,7 @@
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "comp-07 + comp-03 + gram-09",
+        "topico_referencia": "comp-07 + comp-02 + gram-11",
         "enunciado": "Leia o seguinte parágrafo de redação oficial naval: 'A burocracia consome o entusiasmo dos melhores servidores. Formulários, protocolos e relatórios trituram a criatividade. O sistema, voraz, não poupa ninguém.' Assinale a alternativa que identifica corretamente: (I) a figura de linguagem predominante, (II) uma informação implícita do texto, e (III) a concordância verbal na oração 'Formulários, protocolos e relatórios trituram a criatividade':",
         "alternativas": {
           "A": "(I) Metáfora; (II) a burocracia é necessária; (III) o verbo está no plural — correto.",

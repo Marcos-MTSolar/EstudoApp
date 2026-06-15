@@ -1131,3 +1131,29 @@ docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
   - A auditoria gerou a listagem detalhada mostrando identificadores internos, títulos, áreas de estudo, resumos e quantidades de questões, simulados e desafios de cada módulo.
 - **Arquivos modificados:**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 48 — Correção Cirúrgica Definitiva do Deslocamento de Conteúdo RM2 (v2)
+- **Data e hora:** 15/06/2026 às 22:02 (Horário Local)
+- **O que foi feito:**
+  - Diagnosticado que o deslocamento de conteúdos nos 28 arquivos JSON não era um passo cíclico uniforme de +2, mas um mapa irregular causado por 3 fusões de pares de tópicos durante a geração original (Flexão Nom+Verbal, Concordância Nom+Verbal, Coesão+Coerência) e 2 conteúdos extras sem tópico correspondente (Paralelismo Sintático e Propósitos do Autor).
+  - Criado e executado o script `corrige_deslocamento_v2.py` com mapa 1:1 manual cirúrgico, usando as seguintes estratégias acordadas:
+    - **Pares fundidos** (gram-05, gram-09, comp-10 originais): conteúdo duplicado nos dois destinos correspondentes — cada arquivo recebe teoria+questões+simulado+desafio completos. Ex: `gram-06` (Flexão Nominal) e `gram-07` (Flexão Verbal) ambos recebem o conteúdo de `gram-05` original.
+    - **Conteúdo extra** (Paralelismo Sintático de gram-14 original, Propósitos do Autor de comp-02 original): incorporados como **blocos de teoria complementares** nos tópicos mais próximos (`comp-10` Reescritura e `comp-01` Leitura, respectivamente), marcados com prefixo `[Conteúdo complementar — ...]` para rastreabilidade.
+    - **Arquivos já corretos** (comp-05 a comp-09): mantidos intocados.
+  - Executado dry-run (geração de `.json.new`) e validação manual de 2 arquivos críticos (`gram-14.json.new` e `comp-10.json.new`) antes da aplicação.
+  - Aplicado com `--apply`: todos os 28 `.json` sobrescritos com o conteúdo corrigido; backups `.json.bak` criados automaticamente.
+  - Auditoria final (`audita_conteudo.py`) confirmou: **28/28 arquivos com `[OK]`**, IDs e títulos alinhados.
+  - `npx tsc --noEmit` ✅ sem erros.
+  - `npm run build` ✅ Exit code: 0 (3119 módulos transformados, built in 10.37s).
+  - Limpeza: removidos arquivos `.json.bak`, `antes.txt`, `antes_utf8.txt`, `depois.txt` e `scratch_read.py`.
+- **Débito técnico registrado:**
+  - Os tópicos `gram-06` (Flexão Nominal) e `gram-07` (Flexão Verbal) têm conteúdo idêntico (duplicado de `gram-05` original). Futuramente, gerar conteúdo exclusivo para Flexão Verbal e substituir `gram-07.json`.
+  - Mesmo para `gram-11`/`gram-12` (Concordância Nominal/Verbal) duplicados de `gram-09` original.
+  - `comp-11` (Coesão Textual) e `comp-12` (Coerência e Textualidade) têm o mesmo conteúdo principal, mas `comp-12` recebe adicionalmente os blocos extras de `comp-11` e `comp-12` originais como complemento.
+- **Arquivos modificados:**
+  - `src/data/conteudo/gram-01.json` a `gram-14.json` **[CORRIGIDOS]** (conteúdo realinhado ao tópico oficial)
+  - `src/data/conteudo/comp-01.json` a `comp-14.json` **[CORRIGIDOS]** (conteúdo realinhado ao tópico oficial)
+  - `src/data/conteudo/corrige_deslocamento_v2.py` **[NOVO]** (script definitivo de correção cirúrgica)
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**

@@ -1,856 +1,926 @@
 {
   "id": "comp-10",
   "titulo": "Reescritura de Frases",
-  "area": "Compreensão de Textos",
-  "resumo": "Coesão e coerência são propriedades fundamentais do texto bem construído. A coesão refere-se aos mecanismos linguísticos que estabelecem ligações entre os elementos do texto — pronomes, conectivos, elipses, substituições —, garantindo sua unidade formal. A coerência diz respeito à unidade semântica e lógica, à construção de sentido que permite ao leitor interpretar o texto como um todo articulado. Ambas as propriedades são exploradas sistematicamente nas provas militares, exigindo do candidato capacidade de identificar problemas de progressão temática, retomadas equivocadas, quebras de coerência e uso inadequado de conectivos.",
+  "area": "Compreensão e Interpretação de Texto",
+  "resumo": "A reescritura de frases consiste em reformular enunciados preservando o sentido original, aplicando transformações sintáticas e morfológicas como mudança de voz verbal, substituição de termos, alteração de estrutura oracional e uso de equivalentes lexicais. É tópico recorrente em provas militares e exige domínio integrado de sintaxe, morfologia, semântica e estilística.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Texto, Textualidade e as Propriedades do Texto",
-        "conteudo": "Um texto não é uma simples sequência de frases justapostas: é uma unidade de sentido reconhecível e interpretável dentro de uma situação comunicativa. Koch e Elias (2008) apontam que a textualidade resulta de um conjunto de fatores que fazem com que uma sequência linguística seja percebida como texto coerente e coeso. Entre os critérios de textualidade, destacam-se a coesão, a coerência, a intencionalidade, a aceitabilidade, a informatividade, a situacionalidade e a intertextualidade. Para o concurso RM2, os dois fatores mais explorados são coesão e coerência: o primeiro atua no nível da superfície textual (gramática do texto); o segundo atua no nível do sentido (semântica do texto). Fiorin e Savioli (2007) reforçam que um texto incoerente pode ter frases gramaticalmente corretas, e um texto coeso pode ainda assim carecer de unidade de sentido — o que mostra que coesão e coerência, embora relacionadas, são fenômenos distintos.",
+        "subtitulo": "1. Conceito e Finalidade da Reescritura",
+        "conteudo": "Reescrever uma frase significa reformulá-la de modo que o conteúdo proposicional — o conjunto de informações que ela veicula — seja preservado, ainda que a forma seja alterada. A transformação pode envolver mudança de voz verbal (ativa para passiva ou vice-versa), substituição de orações subordinadas por locuções equivalentes, troca de classes gramaticais (nominalização ou verbalização), inversão de ordem dos termos, substituição de conjunções por outras de valor semântico equivalente, ou emprego de sinônimos e paráfrases. Em provas de concurso, a reescritura é avaliada com duas exigências simultâneas: (a) manutenção fiel do sentido e (b) correção gramatical da nova formulação. Falhar em qualquer um dos dois critérios invalida a alternativa.",
         "exemplos": [
-          "Sequência coesa, mas incoerente: 'O sol nasceu a oeste. Por isso, os pescadores saíram ao mar ao entardecer.' (conectivo causal correto, mas relação lógica impossível)",
-          "Sequência coerente, mas pouco coesa: 'João chegou tarde. A chuva estava forte. O ônibus atrasou.' (ideias relacionáveis, mas sem conectivos explícitos)"
+          "Original: 'O comandante assinou o relatório.' → Reescrita (voz passiva): 'O relatório foi assinado pelo comandante.'",
+          "Original: 'Embora estivesse cansado, o oficial concluiu a missão.' → Reescrita (locução): 'Apesar do cansaço, o oficial concluiu a missão.'",
+          "Original: 'A decisão foi tomada rapidamente.' → Reescrita (nominalização): 'A rapidez na tomada de decisão foi notável.'"
         ],
-        "regra": "Coesão = mecanismos linguísticos de ligação (forma). Coerência = unidade de sentido e lógica (conteúdo). Todo texto precisa das duas propriedades para funcionar plenamente."
+        "regra": "Toda reescritura válida deve preservar: (1) as informações factuais do enunciado; (2) a polaridade (afirmação/negação); (3) a modalidade (certeza, dúvida, obrigação). Qualquer alteração nesses três eixos invalida a reescrita."
       },
       {
-        "subtitulo": "2. Coesão Referencial: Anáfora, Catáfora e Elipse",
-        "conteudo": "A coesão referencial é o mecanismo pelo qual elementos do texto remetem a outros elementos, evitando repetições desnecessárias e criando cadeias de referência. A anáfora é a retomada de um elemento já mencionado (antecedente): um pronome, sinônimo ou expressão nominal que aponta para trás no texto. A catáfora é o movimento oposto: o elemento de referência aponta para frente, antecipando algo que será dito. A elipse é a omissão de um elemento recuperável pelo contexto — muito comum com sujeitos de verbos consecutivos e com objetos. Koch e Elias (2008) destacam que a coesão referencial é a mais explorada em provas, pois erros de retomada pronominal ambígua, pronomes sem antecedente claro e concordância inadequada são frequentes em questões de múltipla escolha. O uso de expressões nominais definidas ('o referido documento', 'tal proposta', 'esse militar') também integra a coesão referencial.",
+        "subtitulo": "2. Transformação de Voz Verbal",
+        "conteudo": "A transformação entre voz ativa e voz passiva é a operação de reescritura mais cobrada em provas militares. Na passagem da voz ativa para a passiva analítica, o objeto direto da ativa torna-se sujeito da passiva; o sujeito da ativa migra para agente da passiva (introduzido por 'por', 'pelo', 'pela', 'pelos', 'pelas'); o verbo transitivo direto combina-se com o auxiliar 'ser' (ou 'estar', 'ficar', 'ir', 'vir') conjugado no mesmo tempo e modo do verbo ativo, enquanto o verbo principal passa ao particípio. Atenção: nem todo verbo admite passiva (intransitivos e alguns transitivos indiretos não formam passiva analítica). A voz passiva sintética usa pronome 'se' apassivador com o verbo concordando com o sujeito-paciente. A passagem da passiva para a ativa exige a operação inversa e deve preservar o tempo verbal.",
         "exemplos": [
-          "Anáfora pronominal: 'O comandante assinou o ofício. Ele foi encaminhado à chefia.' (ele = o ofício — ambiguidade com 'ele' podendo referir-se ao comandante)",
-          "Catáfora: 'Eis o que o regulamento exige: disciplina, pontualidade e dedicação.'",
-          "Elipse de sujeito: 'O aluno estudou toda a noite e [Ø] passou na prova.' (o sujeito elíptico é 'o aluno')",
-          "Expressão nominal definida: 'O projeto foi aprovado. A referida proposta entra em vigor em janeiro.'"
+          "Ativa: 'A Marinha construiu o navio.' → Passiva analítica: 'O navio foi construído pela Marinha.'",
+          "Ativa: 'O tribunal julgará os réus amanhã.' → Passiva analítica: 'Os réus serão julgados pelo tribunal amanhã.'",
+          "Ativa: 'Alguém vendeu as armas.' → Passiva sintética: 'Venderam-se as armas.' / 'As armas foram vendidas.'",
+          "Passiva: 'O projeto foi aprovado pela comissão.' → Ativa: 'A comissão aprovou o projeto.'"
         ],
-        "regra": "Identifique sempre o antecedente do pronome ou expressão anafórica. Se o antecedente for ambíguo ou inexistente, há problema de coesão referencial — e isso é gabarito de questão."
+        "regra": "Na transformação ativa→passiva: sujeito ativo vira 'pelo/pela + agente'; objeto direto vira sujeito; verbo = auxiliar (ser/estar) no mesmo tempo + particípio do verbo principal. Verifique sempre a concordância do particípio com o novo sujeito."
       },
       {
-        "subtitulo": "3. Coesão Sequencial: Conectivos e Progressão Textual",
-        "conteudo": "A coesão sequencial garante a progressão do texto por meio de conectivos (conjunções, preposições, advérbios conectivos, locuções) e pela organização lógico-temporal das ideias. Os conectivos estabelecem relações semânticas precisas entre os segmentos textuais: adição (e, além disso, também), oposição (mas, porém, contudo, todavia, entretanto, no entanto), causa (porque, pois, já que, visto que), consequência (portanto, logo, assim, por isso, de modo que), concessão (embora, ainda que, mesmo que, apesar de), finalidade (para que, a fim de que), condição (se, caso, desde que), comparação (como, assim como, tanto quanto), conformidade (conforme, segundo, de acordo com), tempo (quando, enquanto, depois que, assim que). Fiorin e Savioli (2007) alertam que a troca de um conectivo por outro de relação semântica diversa altera completamente o sentido do período — e esse é o principal teste em questões de reescritura e coesão. O Manual da Marinha (2024) valoriza o uso preciso dos conectivos na redação oficial, evitando o 'e' como coringa e privilegiando conectivos que explicitem a relação lógica.",
+        "subtitulo": "3. Substituição de Orações por Locuções Equivalentes",
+        "conteudo": "Orações subordinadas adverbiais podem ser substituídas por locuções prepositivas que expressem a mesma relação semântica, e vice-versa. Essa operação é chamada de redução oracional ou expansão oracional. As correspondências mais cobradas em provas são: causal ('porque' / 'pois' ↔ 'por causa de', 'em virtude de', 'devido a'); concessiva ('embora', 'ainda que' ↔ 'apesar de', 'a despeito de'); final ('para que', 'a fim de que' ↔ 'para', 'a fim de', 'com o intuito de'); temporal ('quando', 'enquanto' ↔ 'ao', 'durante', 'no momento de'); condicional ('se' ↔ 'em caso de', 'no caso de'); consecutiva ('de modo que' ↔ 'a ponto de'). Na substituição por locução, o verbo da oração subordinada converte-se em substantivo (nominalização) ou infinitivo. O sujeito da oração subordinada pode desaparecer se for correferente com o da principal; se for diferente, exige estrutura específica (ex.: 'Apesar de ele ter chegado tarde...').",
         "exemplos": [
-          "Adição: 'O militar cumpriu o serviço e ainda elaborou o relatório.'",
-          "Oposição real (adversativa): 'O prazo encerrou, mas o requerimento foi aceito.'",
-          "Concessão (subordinação): 'Embora o prazo tivesse encerrado, o requerimento foi aceito.'",
-          "Causa × Explicação: 'Ele não foi, porque estava doente.' (causa) × 'Ele não foi, pois estava doente.' (explicação — a ordem das orações importa)",
-          "Troca indevida: 'Estudou muito, portanto não passou.' (portanto indica consequência positiva esperada; a frase é contraditória — o correto seria 'porém/mas não passou')"
+          "'Como chegou atrasado, não entrou.' → 'Por ter chegado atrasado, não entrou.' / 'Devido ao atraso, não entrou.'",
+          "'Embora estivesse doente, compareceu.' → 'Apesar de estar doente, compareceu.' / 'A despeito da doença, compareceu.'",
+          "'Estudou muito para que passasse na prova.' → 'Estudou muito a fim de passar na prova.'",
+          "'Se houver necessidade, retornaremos.' → 'Em caso de necessidade, retornaremos.'"
         ],
-        "regra": "Cada conectivo carrega uma relação semântica específica e insubstituível. Em questões de coesão, teste a relação lógica entre as orações antes de escolher ou validar o conectivo."
+        "regra": "Ao substituir oração por locução: converta o verbo em substantivo ou infinitivo; elimine conjunção; use a preposição correspondente à relação semântica; confira se o sujeito é o mesmo da oração principal (se for, omita-o; se for diferente, mantenha-o na forma adequada)."
       },
       {
-        "subtitulo": "4. Coerência Textual: Princípios e Fatores",
-        "conteudo": "A coerência é a propriedade que faz do texto uma unidade de sentido interpretável. Koch e Elias (2008) apontam que a coerência não está apenas no texto, mas na interação entre texto, autor e leitor: um texto é coerente quando o leitor consegue construir para ele uma interpretação global, sem contradições ou lacunas insanáveis. Os principais fatores de coerência são: (a) não contradição — o texto não pode afirmar e negar a mesma coisa sem propósito retórico; (b) não tautologia — o texto não deve repetir o mesmo conteúdo sem acréscimo de informação; (c) relevância — cada parte do texto deve contribuir para o tema central; (d) progressão temática — o texto deve avançar, acrescentando informações novas ao tema; (e) continuidade — deve haver fio temático que perpasse todo o texto. A incoerência pode ser lógica (contradição entre fatos), semântica (incompatibilidade de sentidos) ou pragmática (inadequação ao contexto comunicativo). Fiorin e Savioli (2007) acrescentam que a coerência depende também do conhecimento de mundo compartilhado entre autor e leitor: o que parece incoerente para um leitor pode ser coerente para outro com diferentes conhecimentos enciclopédicos.",
+        "subtitulo": "4. Substituição de Termos e Equivalência Semântica",
+        "conteudo": "A reescritura por substituição lexical exige que o termo empregado mantenha não apenas o significado central (sema nuclear) mas também a conotação e o valor sintático no contexto. Em provas militares, os erros mais comuns nesse tipo de reescritura são: (a) usar sinônimo de sentido próximo mas não idêntico no contexto dado; (b) alterar a classe gramatical sem ajustar a estrutura da frase; (c) usar pronome relativo inadequado ao antecedente; (d) trocar conectivo por outro de valor semântico diferente. A substituição de 'cujo/cuja' por 'que' ou 'do qual/da qual' exige atenção especial à regência. A substituição de advérbios ('rapidamente' → 'com rapidez') e de adjetivos ('veloz' → 'de grande velocidade') são transformações frequentes que testam o domínio das classes de palavras.",
         "exemplos": [
-          "Contradição lógica: 'O candidato foi aprovado, mas foi reprovado na prova oral.' (contradição direta, salvo contexto que explique)",
-          "Tautologia: 'A decisão final e definitiva, que pôs fim à questão, foi tomada de forma conclusiva.' (repetição vazia de conteúdo)",
-          "Quebra de relevância: 'A Marinha do Brasil tem tradição secular. O futebol brasileiro é famoso no mundo.' (a segunda frase é irrelevante ao tema)",
-          "Progressão temática adequada: 'O navio partiu ao amanhecer. A tripulação, descansada após a escala, estava pronta para a travessia de sete dias.'"
+          "'O oficial, cuja missão era secreta, partiu.' → 'O oficial, cuja missão era sigilosa, partiu.' (sinonímia válida)",
+          "'O aluno que tirou nota máxima ganhou o prêmio.' → 'O aluno que obteve a pontuação máxima ganhou o prêmio.'",
+          "'Ele agiu com imprudência.' → 'Ele agiu imprudentemente.' (mudança de classe com ajuste estrutural correto)",
+          "'O navio chegou rapidamente.' → 'O navio chegou com rapidez.' (adjunto adverbial mantido)"
         ],
-        "regra": "Um texto coerente não se contradiz, não repete sem acrescentar, mantém o fio temático e progride. Identifique qual desses princípios é violado nas questões que pedem 'o trecho que compromete a coerência'."
+        "regra": "Ao substituir termos: verifique (1) sinonímia contextual (não apenas dicionarizada); (2) manutenção da classe gramatical ou ajuste estrutural correspondente; (3) concordância e regência com os demais termos da frase."
       },
       {
-        "subtitulo": "5. Mecanismos de Coesão Lexical e Distinção Coesão × Coerência em Provas",
-        "conteudo": "A coesão lexical opera pela escolha de palavras que retomam ou antecipam elementos do texto sem o uso de pronomes. Os principais mecanismos são: (a) sinonímia — substituição por palavra de sentido equivalente; (b) hiperonímia/hiponímia — substituição por termo de classe mais ampla (hiperônimo) ou mais específica (hipônimo); (c) antonímia — uso de opostos para criar contraste coeso; (d) reiteração — repetição intencional e estratégica de um termo; (e) meronímia — relação parte-todo. Cunha e Cintra (2017) incluem a coesão lexical como parte dos recursos estilísticos da língua, observando que a variação lexical controlada enriquece o texto sem prejuízo da clareza. Nas provas militares, questões de coesão lexical testam se o candidato identifica: (i) o antecedente correto de uma expressão nominal; (ii) o hiperônimo que substitui adequadamente uma série de termos; (iii) a sinonímia que preserva o sentido original. A distinção prática entre coesão e coerência em questões: se o problema é de ligação formal (pronome sem antecedente, conectivo errado, elipse ambígua) → coesão; se o problema é de sentido (contradição, irrelevância, progressão quebrada) → coerência.",
+        "subtitulo": "5. Nominalização, Verbalização e Adjetivação",
+        "conteudo": "A transformação morfossintática entre classes de palavras — nominalização (verbo ou adjetivo → substantivo), verbalização (substantivo → verbo) e adjetivação (substantivo → adjetivo) — é recurso estilístico e gramatical que altera a estrutura da frase sem mudar seu sentido. Na nominalização, o verbo converte-se em substantivo derivado (ex.: 'decidir' → 'a decisão'; 'analisar' → 'a análise'; 'construir' → 'a construção') e os complementos do verbo tornam-se complementos nominais ou adjuntos adnominais. Na verbalização, o substantivo retorna à forma verbal e os adjuntos reorganizam-se como complementos verbais. Essas transformações são cobradas especialmente em questões de reescritura que envolvem também coesão textual, pois a nominalização é recurso coesivo de retomada.",
         "exemplos": [
-          "Sinonímia: 'O oficial assinou o documento. O militar encaminhou o ofício à repartição.' ('militar' retoma 'oficial'; 'ofício' retoma 'documento')",
-          "Hiperonímia: 'Adquiriu corvetas, fragatas e submarinos. Essas embarcações foram incorporadas à frota.' ('embarcações' é hiperônimo)",
-          "Hipônimo: 'A Marinha recebeu novos veículos. Uma das corvetas foi batizada ontem.' ('corvetas' é hipônimo de 'veículos navais')",
-          "Reiteração intencional: 'Guerra. Guerra que destrói. Guerra que mata. Guerra que não cessa.' (anáfora retórica — coesão + efeito estilístico)",
-          "Questão-tipo: 'No texto, a expressão \"tais medidas\" retoma: (A) os decretos presidenciais; (B) as reformas administrativas; (C) os acordos bilaterais...'"
+          "Verbalização → nominalização: 'A equipe analisou os dados.' → 'A análise dos dados pela equipe foi concluída.'",
+          "Nominalização → verbalização: 'A construção do porto exigiu dois anos.' → 'Construir o porto exigiu dois anos.'",
+          "Adjetivação: 'Um navio de guerra' → 'Um navio bélico'",
+          "Nominalização de adjetivo: 'O discurso foi claro.' → 'A clareza do discurso foi notável.'"
         ],
-        "regra": "Coesão lexical = retomada por palavras (sinônimos, hiperônimos, hipônimos). Identifique o referente exato da expressão nominal para não cair em distratores que oferecem termos plausíveis, mas incorretos conforme o texto."
+        "regra": "Na nominalização: identifique o substantivo abstrato correspondente ao verbo; reorganize agente e paciente como adjuntos (ex.: 'A equipe analisou os dados' → 'a análise dos dados pela equipe'); confira se o significado se mantém integralmente."
       },
       {
-        "subtitulo": "6. Progressão Temática e Paralelismo na Organização Textual",
-        "conteudo": "A progressão temática é o modo como um texto avança: cada nova oração ou parágrafo deve acrescentar uma rema (informação nova) ao tema (o que já é conhecido). Koch e Elias (2008) identificam os padrões básicos de progressão: (a) progressão linear — a rema de uma oração torna-se o tema da seguinte; (b) progressão com tema constante — o mesmo tema recebe remas diferentes ao longo do texto; (c) progressão com temas derivados — os temas de cada oração derivam de um hipretema (tema geral do parágrafo). A quebra de progressão — quando um parágrafo não avança, apenas parafraseia o anterior — é um defeito textual explorado em questões de coerência. O paralelismo sintático e semântico contribui para a coesão: elementos de mesma função sintática devem ter a mesma estrutura formal. Fiorin e Savioli (2007) enfatizam que a coesão por paralelismo é também um recurso estilístico poderoso, especialmente em textos argumentativos e dissertativos, que são os mais frequentes no RM2.",
+        "subtitulo": "6. Reescritura com Foco em Pontuação e Ordem dos Termos",
+        "conteudo": "A inversão da ordem canônica (Sujeito–Verbo–Complemento) para a ordem invertida (Complemento–Verbo–Sujeito ou outras) pode alterar ênfase mas não deve alterar o sentido proposicional. Em reescritas que envolvem deslocamento de adjuntos adverbiais, orações subordinadas antepostas ou apostos, a vírgula é obrigatória para isolar o elemento deslocado. A supressão ou inserção indevida de vírgula em reescritas é cobrada como erro gramatical. Além disso, a reescritura pode envolver a fusão de dois períodos em um (com uso de conjunção ou pronome relativo) ou a divisão de um período composto em dois simples — nesses casos, o conteúdo informacional deve ser integralmente preservado sem adição nem subtração de ideias.",
         "exemplos": [
-          "Progressão linear: 'O oficial recebeu a missão. A missão exigia rapidez. A rapidez dependia de recursos disponíveis.'",
-          "Progressão com tema constante: 'O regulamento é claro. [O regulamento] admite poucas exceções. [O regulamento] deve ser seguido rigorosamente.'",
-          "Quebra de progressão (problema): 'A Marinha investe em tecnologia. Investimentos em tecnologia são importantes. Tecnologia é fundamental para a Marinha.' (as três frases dizem o mesmo)",
-          "Paralelismo: 'O candidato deve ser pontual, disciplinado e dedicado.' (três adjetivos em série — paralelismo morfológico)"
+          "Ordem direta: 'O almirante assinou o documento ontem.' → Inversão com vírgula: 'Ontem, o almirante assinou o documento.'",
+          "Fusão: 'O navio atracou. Ele transportava suprimentos.' → 'O navio, que transportava suprimentos, atracou.'",
+          "Divisão: 'Quando o sol nasceu, os marinheiros içaram a bandeira.' → 'O sol nasceu. Os marinheiros içaram a bandeira.' (perde-se a relação temporal — divisão inválida se cobrar equivalência total)"
         ],
-        "regra": "Em cada parágrafo, pergunte: o que este trecho acrescenta ao que já foi dito? Se a resposta for 'nada', há quebra de progressão — e isso pode ser a resposta da questão."
+        "regra": "Ao inverter a ordem dos termos: use vírgula para isolar qualquer elemento anteposto (adjunto adverbial, oração subordinada, aposto). Na fusão de orações, o pronome relativo deve concordar em gênero e número com o antecedente. Na divisão, preserve todas as relações semânticas entre as orações."
+      },
+      {
+        "subtitulo": "[Conteúdo complementar — Colocação Pronominal e Pontuação] Conceito e Fundamentos do Paralelismo Sintático",
+        "conteudo": "Paralelismo sintático (também chamado de correlação ou simetria estrutural) é o princípio segundo o qual termos coordenados — isto é, termos que exercem a mesma função sintática e estão ligados por conjunções coordenativas ou colocados em série — devem apresentar estrutura morfossintática equivalente.\n\nCunha e Cintra (2017) enfatizam que a coordenação pressupõe equivalência funcional entre os elementos coordenados, o que implica, idealmente, equivalência formal. Quando dois ou mais elementos são coordenados por conjunção ('e', 'ou', 'mas', 'nem') ou por vírgula em enumeração, espera-se que todos pertençam à mesma categoria gramatical e estejam na mesma forma (substantivo com substantivo, infinitivo com infinitivo, oração com oração).\n\nO Manual de Redação e Estilo da Marinha (2024) destaca que a clareza e a objetividade dos documentos oficiais dependem, entre outros fatores, da correção sintática e da simetria estrutural nas enumerações e nas construções coordenadas.\n\nFiorin e Savioli (2007) apontam que o paralelismo é também recurso retórico-estilístico: na literatura e nos discursos formais, a repetição de estruturas paralelas cria ritmo, ênfase e coesão textual — o chamado paralelismo estilístico. Entretanto, na língua padrão escrita, a quebra de paralelismo involuntária é considerada desvio de norma.",
+        "exemplos": [
+          "PARALELO (correto): 'O candidato deve estudar, praticar e revisar.' (três infinitivos — simetria perfeita)",
+          "NÃO PARALELO (incorreto): 'O candidato deve estudar, praticar e a revisão é necessária.' (infinitivo + infinitivo + oração — assimetria)",
+          "PARALELO: 'Ela é inteligente, dedicada e responsável.' (três adjetivos)",
+          "NÃO PARALELO: 'Ela é inteligente, dedicada e tem responsabilidade.' (adjetivo + adjetivo + oração verbal — assimetria)"
+        ],
+        "regra": "REGRA FUNDAMENTAL: Elementos que exercem a mesma função sintática e estão em série (coordenados) devem pertencer à mesma classe gramatical e estar na mesma forma. Ao listar verbos, use todos no mesmo modo/tempo; ao listar substantivos, use todos substantivos; ao listar orações, use todas com a mesma estrutura."
+      },
+      {
+        "subtitulo": "[Conteúdo complementar — Colocação Pronominal e Pontuação] Paralelismo entre Verbos: Modo, Tempo e Forma Nominal",
+        "conteudo": "O tipo mais cobrado em provas é o paralelismo entre verbos coordenados. Quando dois ou mais verbos são coordenados (ligados por conjunção ou em série), devem estar na mesma forma verbal: ambos no infinitivo, ambos no gerúndio, ambos no mesmo tempo do indicativo, etc.\n\nCASOS MAIS FREQUENTES DE QUEBRA:\n\n1. INFINITIVO × SUBSTANTIVO: 'Gosto de nadar e das caminhadas.' → erro. Correto: 'Gosto de nadar e de caminhar.' OU 'Gosto de natação e de caminhadas.'\n\n2. INFINITIVO × GERÚNDIO: 'O oficial passou a noite estudando os mapas e a analisar rotas.' → erro. Correto: 'estudando os mapas e analisando rotas.' OU 'a estudar os mapas e a analisar rotas.'\n\n3. INFINITIVO × ORAÇÃO DESENVOLVIDA: 'O dever do militar é servir à pátria e que ele proteja a nação.' → erro. Correto: 'servir à pátria e proteger a nação.' (dois infinitivos)\n\n4. PRESENTE × INFINITIVO EM LISTA: 'Os objetivos são: aumentar a eficiência, reduzir custos e os resultados são melhores.' → erro. Correto: 'aumentar a eficiência, reduzir custos e melhorar resultados.' (três infinitivos)\n\nA quebra de paralelismo verbal é especialmente grave em documentos oficiais com listas de objetivos, metas, deveres ou procedimentos — gêneros frequentes no ambiente naval.",
+        "exemplos": [
+          "ERRADO: 'O instrutor pediu que estudassem a teoria e a prática também deve ser exercitada.'",
+          "CORRETO: 'O instrutor pediu que estudassem a teoria e exercitassem a prática.' (duas orações subordinadas substantivas na mesma estrutura)",
+          "ERRADO: 'O engenheiro prefere trabalhar em equipe a o trabalho solitário.'",
+          "CORRETO: 'O engenheiro prefere trabalhar em equipe a trabalhar sozinho.' (dois infinitivos)",
+          "ERRADO: 'São atribuições do cargo: fiscalizar, coordenar e a supervisão das atividades.'",
+          "CORRETO: 'São atribuições do cargo: fiscalizar, coordenar e supervisionar as atividades.' (três infinitivos)"
+        ],
+        "regra": "REGRA: Em listas de verbos coordenados, mantenha todos na mesma forma: infinitivos juntos, gerúndios juntos, subjuntivos juntos. Nunca misture infinitivo com substantivo deverbal ('fiscalizar e a supervisão' → errado; 'fiscalizar e supervisionar' → correto)."
+      },
+      {
+        "subtitulo": "[Conteúdo complementar — Colocação Pronominal e Pontuação] Paralelismo entre Substantivos, Adjetivos e Orações",
+        "conteudo": "Além dos verbos, o paralelismo é exigido em enumerações de substantivos, adjetivos e, fundamentalmente, de orações coordenadas.\n\nPARALELISMO NOMINAL (substantivos):\nQuando se enumera substantivos, todos devem ser substantivos (ou locuções substantivas). Não se pode misturar substantivo com infinitivo ou com oração.\nErrado: 'O cargo exige dedicação, esforço e ser pontual.'\nCorreto: 'O cargo exige dedicação, esforço e pontualidade.' (três substantivos)\n\nPARALELISMO ADJETIVAL:\nEm predicados compostos ou apostos explicativos, adjetivos devem ser coordenados com adjetivos.\nErrado: 'O texto é claro, objetivo e apresenta coerência.'\nCorreto: 'O texto é claro, objetivo e coerente.' (três adjetivos)\nOU: 'O texto apresenta clareza, objetividade e coerência.' (três substantivos)\n\nPARALELISMO ORACIONAL:\nOrações coordenadas devem ter a mesma estrutura (todas desenvolvidas ou todas reduzidas).\nErrado: 'O relatório foi entregue, revisado e que foi aprovado pela chefia.'\nCorreto: 'O relatório foi entregue, revisado e aprovado pela chefia.' (três particípios em locução verbal passiva)\n\nO problema mais sutil é a mistura de oração reduzida com oração desenvolvida:\nErrado: 'É necessário estudar e que se pratique bastante.'\nCorreto: 'É necessário estudar e praticar bastante.' OU 'É necessário que se estude e que se pratique bastante.'",
+        "exemplos": [
+          "ERRADO: 'As qualidades do oficial são: liderança, disciplina e ser íntegro.'",
+          "CORRETO: 'As qualidades do oficial são: liderança, disciplina e integridade.' (três substantivos)",
+          "ERRADO: 'Ela chegou cedo, trabalhou muito e saindo tarde.'",
+          "CORRETO: 'Ela chegou cedo, trabalhou muito e saiu tarde.' (três verbos no pretérito perfeito)",
+          "ERRADO: 'O plano inclui treinar a equipe, a aquisição de equipamentos e a implementação dos protocolos.'",
+          "CORRETO: 'O plano inclui treinar a equipe, adquirir equipamentos e implementar os protocolos.' (três infinitivos)"
+        ],
+        "regra": "REGRA: Em enumerações nominais, use todos substantivos. Em predicados compostos, use todos adjetivos. Ao detectar mistura de classe gramatical em elementos coordenados, reescreva convertendo todos para a mesma categoria — de preferência a que exija menos alterações no período."
+      },
+      {
+        "subtitulo": "[Conteúdo complementar — Colocação Pronominal e Pontuação] Paralelismo nas Correlações: tanto…quanto, não só…mas também, ora…ora",
+        "conteudo": "As conjunções correlativas exigem paralelismo rigoroso entre os dois termos que elas correlacionam. Cada parte da correlação deve ser seguida de elementos da mesma natureza gramatical.\n\nPRINCIPAIS CONJUNÇÕES CORRELATIVAS E SEUS PARES:\n- tanto… quanto (também: tanto… como)\n- não só… mas também (também: não apenas… mas também; não somente… como também)\n- ou… ou\n- nem… nem\n- ora… ora\n- seja… seja\n- quer… quer\n- assim… como\n\nREGRA DO POSICIONAMENTO:\nA correlação exige que o elemento que vem depois do primeiro termo seja da mesma natureza do que vem depois do segundo termo. Se após 'tanto' há um substantivo, após 'quanto' deve haver também um substantivo. Se após 'não só' há um verbo no infinitivo, após 'mas também' deve haver também um verbo no infinitivo.\n\nExemplo de erro clássico:\nErrado: 'Ele tanto admira a disciplina quanto é admirado pela coragem.' (substantivo × oração verbal)\nCorreto: 'Ele tanto admira a disciplina quanto a coragem.' (dois substantivos, objetos do mesmo verbo)\nOU: 'Ele tanto é admirado pela disciplina quanto pela coragem.' (duas locuções preposicionais)\n\nErrado: 'O candidato não só estudou muito mas também foi disciplinado o comportamento.'\nCorreto: 'O candidato não só estudou muito mas também se comportou com disciplina.' (dois verbos no pretérito perfeito + complementos)\n\nUma forma prática de verificar o paralelismo em correlações é isolar os dois termos correlacionados e verificar se têm a mesma estrutura gramatical.",
+        "exemplos": [
+          "ERRADO: 'Ora chora, ora risos são derramados.' → CORRETO: 'Ora chora, ora ri.' (dois verbos)",
+          "ERRADO: 'Nem o frio nem que o vento soprasse o afastou.' → CORRETO: 'Nem o frio nem o vento o afastou.' (dois substantivos sujeitos)",
+          "ERRADO: 'Não só é dedicado mas também a pontualidade é uma qualidade sua.' → CORRETO: 'Não só é dedicado mas também é pontual.' (dois predicados nominais com adjetivos)",
+          "ERRADO: 'Seja por honra, seja porque quer glória, lutará.' → CORRETO: 'Seja por honra, seja por glória, lutará.' (duas locuções preposicionais)"
+        ],
+        "regra": "REGRA PARA CORRELAÇÕES: Isole os dois membros da correlação. Pergunte: o que vem imediatamente após o primeiro conector? E o que vem após o segundo? Ambos devem ter a mesma função e estrutura gramatical. Se não têm, reescreva um dos membros para igualar ao outro."
+      },
+      {
+        "subtitulo": "[Conteúdo complementar — Colocação Pronominal e Pontuação] Paralelismo Estilístico, Zeugma e Ellipse: Quando a Assimetria é Recurso",
+        "conteudo": "Nem toda assimetria é erro: o paralelismo pode ser intencionalmente rompido como recurso estilístico, e há casos em que a língua admite estruturas aparentemente assimétricas por mecanismos gramaticais legítimos.\n\nZEUGMA:\nO zeugma é a elipse (omissão) de um termo já expresso anteriormente, que é subentendido nos demais membros da frase. O zeugma pode criar assimetria aparente sem constituir erro, desde que o termo omitido seja facilmente recuperável.\nExemplo: 'Uns chegaram cedo; outros, tarde.' (o verbo 'chegaram' é zeugado no segundo membro — omitido mas subentendido). Isso não é quebra de paralelismo, pois os elementos coordenados ('cedo' e 'tarde') têm a mesma função (adjunto adverbial de tempo).\n\nPARALELISMO ESTILÍSTICO (recurso literário):\nNa linguagem literária e retórica, o paralelismo pode ser explorado como figura de construção (isocolon, anáfora, epístrofe). A repetição de estruturas idênticas cria ritmo e ênfase.\nExemplo (Rui Barbosa): 'Não fui eu quem os fiz; não sou eu quem os desfaz.'\nExemplo (texto bíblico): 'Tudo tem o seu tempo determinado, e há tempo para todo propósito debaixo do céu.'\n\nDIFERENÇA FUNDAMENTAL PARA A PROVA:\n- Paralelismo QUEBRADO por erro: o escritor não percebeu a assimetria → isso é defeito\n- Paralelismo intencionalmente rompido (zeugma, anáfora, etc.) → isso é recurso\n- Em provas militares, questões pedem IDENTIFICAR e CORRIGIR quebras de paralelismo involuntárias, ou IDENTIFICAR o paralelismo como recurso em textos literários.\n\nFiorin e Savioli (2007) distinguem claramente o paralelismo como princípio gramatical de correção do paralelismo como figura retórica de repetição estrutural — ambos presentes em provas de alta complexidade.",
+        "exemplos": [
+          "ZEUGMA CORRETO: 'João gosta de futebol; Pedro, de natação.' (o verbo 'gosta' está zeugado no segundo membro — não é erro)",
+          "PARALELISMO ESTILÍSTICO: 'Vim, vi, venci.' (César — três verbos no pretérito perfeito, estrutura tripartida perfeitamente paralela)",
+          "ANÁFORA: 'Lutarei pelo meu país. Lutarei pela minha família. Lutarei pela liberdade.' (repetição da estrutura 'Lutarei + adjunto adverbial')",
+          "ASSIMETRIA INTENCIONAL (ironia): 'Ele é estudioso, trabalhador e mentiroso.' (quebra da expectativa positiva no terceiro membro — recurso retórico)"
+        ],
+        "regra": "REGRA: Em provas, diferencie: (1) quebra de paralelismo = assimetria gramatical involuntária, a ser corrigida; (2) zeugma = omissão legítima de termo recuperável; (3) paralelismo estilístico = repetição estrutural intencional como recurso retórico. Nas questões de reescritura, corrija apenas os casos de quebra involuntária; nas questões de interpretação, reconheça o paralelismo como recurso de construção."
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Pegadinha 1: 'Porém' no lugar de 'portanto' — inversão de relação lógica",
-      "errado": "'O candidato estudou muito, porém foi aprovado com louvor.'",
-      "correto": "'O candidato estudou muito, portanto foi aprovado com louvor.'",
-      "explicacao": "'Porém' é adversativo e indica oposição ou contraste. Usar 'porém' entre 'estudou muito' e 'foi aprovado' sugere que a aprovação é surpreendente ou contrária ao esperado, o que é ilógico nesse contexto. 'Portanto' indica consequência, que é a relação correta: estudou muito → consequência lógica → foi aprovado. As provas militares frequentemente substituem um conectivo por outro de relação diversa para testar se o candidato percebe a incoerência semântica gerada."
+      "titulo": "Passiva sem agente ≠ passiva com agente omitido",
+      "errado": "'Venderam os equipamentos.' reescrito como 'Os equipamentos foram vendidos por alguém.'",
+      "correto": "'Venderam os equipamentos.' → 'Os equipamentos foram vendidos.' (sem agente da passiva, pois o sujeito indeterminado da ativa não se converte em agente expresso)",
+      "explicacao": "Quando a oração ativa tem sujeito indeterminado (terceira pessoa do plural sem referente), a passiva correspondente omite o agente. Inserir 'por alguém' altera o sentido ao especificar a indefinição de uma forma não presente no original."
     },
     {
-      "titulo": "Pegadinha 2: Pronome ambíguo que compromete a coesão referencial",
-      "errado": "'O comandante chamou o imediato ao seu gabinete. Ele estava nervoso.'",
-      "correto": "Reescrever para eliminar a ambiguidade: 'O comandante, que estava nervoso, chamou o imediato ao seu gabinete.' ou 'O comandante chamou o imediato ao gabinete; o imediato estava nervoso.'",
-      "explicacao": "O pronome 'ele' pode retomar tanto 'o comandante' quanto 'o imediato', gerando ambiguidade que compromete a coesão referencial. Em provas, questões perguntam 'a qual termo o pronome se refere?' e as alternativas exploram exatamente essa ambiguidade. A solução é ou reposicionar o pronome, ou substituí-lo pelo nome do referente, ou reestruturar o período."
+      "titulo": "Concordância do particípio na voz passiva",
+      "errado": "'A Marinha construiu os navios.' → 'Os navios foram construído pela Marinha.'",
+      "correto": "'Os navios foram construídos pela Marinha.' (particípio concorda com o sujeito 'os navios': masculino plural)",
+      "explicacao": "Na voz passiva analítica, o particípio funciona como predicativo e concorda em gênero e número com o sujeito da passiva (que era o objeto direto da ativa). 'Construído' deve ir para 'construídos' porque o sujeito 'os navios' é masculino plural."
     },
     {
-      "titulo": "Pegadinha 3: Confundir 'embora' (concessão) com 'porque' (causa)",
-      "errado": "'Embora o prazo tivesse encerrado, o documento foi rejeitado.'",
-      "correto": "'Porque o prazo havia encerrado, o documento foi rejeitado.' ou 'O documento foi rejeitado porque o prazo havia encerrado.'",
-      "explicacao": "'Embora' introduz uma oração concessiva, indicando que a consequência da oração principal ocorre apesar do fato subordinado — há uma expectativa frustrada. Em 'embora o prazo tivesse encerrado, o documento foi rejeitado', o sentido correto seria 'apesar de o prazo ter encerrado' (o que tornaria a rejeição inesperada). Se a lógica é que o documento foi rejeitado exatamente por causa do prazo encerrado, o conectivo deve ser causal ('porque', 'pois', 'uma vez que'). Trocar concessão por causa é um dos erros mais frequentes em questões de coesão sequencial."
+      "titulo": "Nominalização que altera a polaridade",
+      "errado": "'Ele não respondeu às perguntas.' reescrito como 'Houve resposta às perguntas por ele.'",
+      "correto": "'Não houve resposta de sua parte às perguntas.' ou 'Houve omissão de respostas às perguntas.'",
+      "explicacao": "A nominalização deve preservar a negação presente no original. Converter 'não respondeu' em 'houve resposta' inverte completamente o sentido, pois a negação desaparece. A reescritura é inválida por alterar a polaridade do enunciado."
     },
     {
-      "titulo": "Pegadinha 4: Elipse ambígua que cria sujeito indeterminado indesejado",
-      "errado": "'O diretor apresentou o projeto à equipe. Ficaram satisfeitos com os resultados.' (sujeito de 'ficaram' indeterminado)",
-      "correto": "'O diretor apresentou o projeto à equipe. A equipe ficou satisfeita com os resultados.'",
-      "explicacao": "Na segunda frase, a elipse do sujeito deveria retomar o sujeito anterior ('o diretor'), mas 'ficaram' está no plural — o que impossibilita a retomada de 'o diretor' (singular). Isso cria um sujeito indeterminado ou obriga o leitor a buscar 'a equipe' como antecedente, o que é tecnicamente possível, mas exige inferência forçada. Em provas militares, questões apontam esse tipo de inconsistência número-pessoa como problema de coesão referencial por elipse mal resolvida."
+      "titulo": "Substituição de 'embora' por 'apesar de' sem ajustar o verbo",
+      "errado": "'Embora estudasse muito, não passou.' reescrito como 'Apesar de estudasse muito, não passou.'",
+      "correto": "'Apesar de estudar muito, não passou.' (a locução prepositiva 'apesar de' exige infinitivo ou substantivo, não forma conjugada)",
+      "explicacao": "Locução prepositiva 'apesar de' rege infinitivo ou substantivo. A conjunção 'embora' rege subjuntivo. Ao trocar 'embora' por 'apesar de', o verbo conjugado ('estudasse') deve converter-se em infinitivo ('estudar'). Manter a forma conjugada é erro grave de regência."
     },
     {
-      "titulo": "Pegadinha 5: Hiperônimo impreciso que distorce a referência",
-      "errado": "'A Marinha recebeu fragatas, submarinos e helicópteros. Esses veículos serão incorporados à frota.' ('veículos' como hiperônimo de fragatas + submarinos + helicópteros, mas helicóptero não integra 'frota' naval no mesmo sentido)",
-      "correto": "'A Marinha recebeu fragatas, submarinos e helicópteros. Esses equipamentos serão incorporados ao arsenal da força.' ou separar a referência: 'As embarcações serão incorporadas à frota; os helicópteros, à aviação naval.'",
-      "explicacao": "O hiperônimo escolhido para a coesão lexical deve ser semanticamente compatível com todos os itens da série que substitui. 'Veículos' e 'frota' são parcialmente imprecisos quando a série inclui aeronaves. Questões de coesão lexical frequentemente apresentam um hiperônimo que cobre quase todos os itens, mas deixa um de fora ou distorce o campo semântico — e o candidato deve identificar a imprecisão."
+      "titulo": "Troca de 'cujo' por 'que' sem ajuste estrutural",
+      "errado": "'O oficial cujo relatório foi aprovado recebeu elogios.' reescrito como 'O oficial que o relatório foi aprovado recebeu elogios.'",
+      "correto": "'O oficial cujo relatório foi aprovado recebeu elogios.' → 'O oficial que teve o relatório aprovado recebeu elogios.' ou 'O oficial, o relatório do qual foi aprovado, recebeu elogios.'",
+      "explicacao": "'Cujo' é pronome relativo com função de adjunto adnominal que relaciona dois substantivos (antecedente e o substantivo seguinte). Substituí-lo por 'que' sem reestruturar a oração gera ambiguidade ou erro sintático. A substituição exige reorganização da oração relativa."
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "O candidato confunde 'coesão' com 'coerência' ao responder qual propriedade está comprometida no texto. Uma questão mostra um trecho com pronome sem antecedente claro e pergunta qual propriedade textual foi violada. O candidato, por associar o problema ao 'sentido', marca coerência.",
-      "dica": "Pronome sem antecedente, conectivo trocado, elipse ambígua → sempre COESÃO (problema de superfície linguística). Contradição lógica, irrelevância temática, repetição sem acréscimo → sempre COERÊNCIA (problema de sentido). Memorize: coesão é forma, coerência é sentido."
+      "situacao": "Ao transformar voz ativa em passiva, o candidato esquece de ajustar o tempo verbal do auxiliar 'ser' ao tempo do verbo ativo, escrevendo 'será construído' quando o original está no pretérito ('construiu').",
+      "dica": "Antes de montar a passiva, identifique o tempo e o modo do verbo ativo. O auxiliar 'ser' (ou 'estar', 'ficar') deve receber exatamente esse tempo. 'Construiu' (pretérito perfeito do indicativo) → 'foi construído'. 'Construirá' → 'será construído'. Faça essa verificação antes de escrever o particípio."
     },
     {
-      "situacao": "O candidato, ao responder qual expressão retoma determinado termo no texto, escolhe a alternativa que é semanticamente compatível com o referente, mas que, no texto, na verdade retoma outro elemento. Exemplo: o texto fala de 'oficiais e praças' e a expressão 'esses militares' pode parecer que retoma ambos, mas no contexto imediato retoma apenas 'os praças'.",
-      "dica": "Sempre volte ao texto e identifique o referente imediato (o elemento mais próximo compatível com a expressão). Compatibilidade semântica não é suficiente — o contexto sintático e a posição no texto determinam o antecedente correto. Leia as duas frases que cercam a expressão anafórica antes de responder."
+      "situacao": "O candidato substitui uma oração causal ('porque') por uma locução causal ('devido a') mas não nominaliza o verbo, produzindo 'devido a chegou tarde' em vez de 'devido ao atraso' ou 'devido a ter chegado tarde'.",
+      "dica": "Locuções prepositivas (devido a, em virtude de, por causa de, apesar de, a fim de) exigem após si um substantivo, um pronome ou um infinitivo — nunca uma forma verbal conjugada. Ao usar essas locuções, sempre converta o verbo da oração em substantivo derivado ou em infinitivo."
     },
     {
-      "situacao": "O candidato avalia uma questão de reescritura e aceita a troca de 'contudo' por 'portanto' porque ambos aparecem no início de oração e parecem intercambiáveis sintaticamente. Não percebe que a relação semântica mudou de oposição para consequência, tornando o texto incoerente.",
-      "dica": "Em questões de reescritura com troca de conectivos, nunca avalie apenas a posição sintática do conectivo — avalie a relação semântica que ele estabelece. Pergunte: a ideia que vem depois é oposta, consequente, concessiva, causal ou aditiva em relação à que vem antes? Só aceite a troca se a relação semântica for idêntica."
+      "situacao": "Ao deslocar um adjunto adverbial para o início da frase durante a reescritura, o candidato omite a vírgula obrigatória, o que pode ser considerado erro gramatical ou alterar o sentido em questões de pontuação.",
+      "dica": "Todo adjunto adverbial deslocado para antes do sujeito deve ser seguido de vírgula. Regra prática: se o elemento não é o sujeito da oração e está antes do verbo principal, separe-o com vírgula. Exemplos: 'Ontem[,] o oficial partiu.' / 'Por isso[,] a missão foi cancelada.'"
     }
   ],
   "questoes": [
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa que apresenta a definição correta de coesão textual.",
+      "enunciado": "Reescreva a frase 'O engenheiro revisou o projeto.' na voz passiva analítica. Qual das alternativas apresenta a reescritura correta?",
       "alternativas": {
-        "A": "Coesão é a propriedade que garante a unidade de sentido e a não contradição lógica entre as partes do texto.",
-        "B": "Coesão é o conjunto de mecanismos linguísticos que estabelecem ligações entre os elementos do texto, garantindo sua unidade formal.",
-        "C": "Coesão é a capacidade do texto de ser adequado à situação comunicativa e ao perfil do interlocutor.",
-        "D": "Coesão é a propriedade que assegura que o texto apresente informações novas e relevantes para o leitor.",
-        "E": "Coesão é a relação entre o texto e outros textos de mesma natureza, garantindo a pertinência intertextual."
+        "A": "O projeto foi revisado pelo engenheiro.",
+        "B": "O projeto foi revisado por o engenheiro.",
+        "C": "O projeto foi revisto do engenheiro.",
+        "D": "O projeto é revisado pelo engenheiro.",
+        "E": "O projeto foi revisando pelo engenheiro."
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B define corretamente coesão como os mecanismos linguísticos (pronomes, conectivos, elipses, substituições lexicais) que criam ligações formais entre os elementos do texto — é o nível da superfície textual. A alternativa A descreve coerência (unidade de sentido). A alternativa C descreve situacionalidade. A alternativa D descreve informatividade. A alternativa E descreve intertextualidade."
+      "gabarito": "A",
+      "explicacao": "A voz passiva analítica correta é: sujeito paciente ('o projeto') + auxiliar 'ser' no pretérito perfeito ('foi') + particípio ('revisado') + agente da passiva ('pelo engenheiro'). (A) está correta. (B) erra ao usar 'por o' em vez de 'pelo' (contração obrigatória). (C) usa preposição 'de' indevida no lugar de 'por/pelo'. (D) usa presente do indicativo ('é revisado'), alterando o tempo verbal. (E) usa gerúndio ('revisando') em vez de particípio, forma agramatical na passiva analítica."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "No trecho 'O comandante emitiu a ordem. O oficial a cumpriu imediatamente.', o pronome 'a' exerce qual função coesiva?",
+      "enunciado": "Qual das reescritas abaixo transforma corretamente 'Os alunos leram os textos.' para a voz passiva?",
       "alternativas": {
-        "A": "Catáfora, pois antecipa o elemento que será mencionado a seguir.",
-        "B": "Elipse, pois omite um elemento recuperável pelo contexto.",
-        "C": "Anáfora pronominal, pois retoma o elemento 'a ordem' já mencionado.",
-        "D": "Coesão lexical por sinonímia, pois substitui 'ordem' por um sinônimo.",
-        "E": "Progressão temática, pois introduz uma informação nova ao tema anterior."
+        "A": "Os textos foram lidos pelos alunos.",
+        "B": "Os textos foram lido pelos alunos.",
+        "C": "Os textos foram ler pelos alunos.",
+        "D": "Os textos foi lidos pelos alunos.",
+        "E": "Os textos foram lidos dos alunos."
       },
-      "gabarito": "C",
-      "explicacao": "O pronome 'a' retoma anaforicamente o substantivo 'a ordem', já mencionado na oração anterior. Isso é anáfora pronominal — um dos mecanismos fundamentais de coesão referencial. A catáfora (A) aponta para frente, não para trás. A elipse (B) é a omissão, não a substituição pronominal. A coesão lexical (D) opera com palavras de mesma classe e campo semântico, não com pronomes. Progressão temática (E) é uma propriedade organizacional do texto, não um mecanismo pronominal específico."
+      "gabarito": "A",
+      "explicacao": "(A) está correta: 'os textos' (sujeito paciente, masc. pl.) + 'foram' (auxiliar, pret. perf., plural) + 'lidos' (particípio concordando com sujeito masc. pl.) + 'pelos alunos' (agente). (B) 'lido' não concorda com 'os textos' (plural). (C) 'ler' é infinitivo, não particípio. (D) 'foi' é singular, não concorda com 'os textos' (plural). (E) usa 'dos' em vez de 'pelos' — a preposição do agente da passiva é 'por' (+ artigo)."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Qual alternativa apresenta um exemplo de coesão por elipse?",
+      "enunciado": "A frase 'A diretora assinou os documentos ontem.' reescrita na voz passiva analítica fica:",
       "alternativas": {
-        "A": "'O navio partiu. A embarcação atracou no porto três dias depois.'",
-        "B": "'Estudou bastante e [Ø] passou no concurso.'",
-        "C": "'Eis o que importa: disciplina e dedicação.'",
-        "D": "'O projeto foi aprovado. Tal medida entrará em vigor em janeiro.'",
-        "E": "'Embora estudasse muito, não conseguiu a aprovação.'"
+        "A": "Os documentos foram assinados pela diretora ontem.",
+        "B": "Os documentos foram assinados da diretora ontem.",
+        "C": "Os documentos foram assinado pela diretora ontem.",
+        "D": "Os documentos serão assinados pela diretora ontem.",
+        "E": "Os documentos foram assinados por a diretora ontem."
       },
-      "gabarito": "B",
-      "explicacao": "Na alternativa B, o sujeito da segunda oração ('e [Ø] passou') foi omitido — é a elipse do sujeito, recuperável pelo contexto ('ele' ou o nome do estudante). A alternativa A é coesão lexical por sinonímia ('embarcação' retoma 'navio'). A alternativa C é catáfora ('o que importa' antecipa 'disciplina e dedicação'). A alternativa D é coesão lexical por expressão nominal definida ('tal medida' retoma 'o projeto aprovado'). A alternativa E é coesão sequencial por conectivo concessivo."
+      "gabarito": "A",
+      "explicacao": "(A) está correta: sujeito paciente 'os documentos', auxiliar 'foram' (pretérito perfeito), particípio 'assinados' concordando com 'os documentos' (masc. pl.), agente 'pela diretora', adjunto 'ontem' preservado. (B) usa 'da' em vez de 'pela'. (C) particípio 'assinado' não concorda com o sujeito plural. (D) 'serão' é futuro, diferente do pretérito original. (E) 'por a' deve contrair-se em 'pela'."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "O conectivo que estabelece relação de consequência entre duas orações é:",
+      "enunciado": "Ao substituir a oração adverbial causal por uma locução equivalente na frase 'Como chegou atrasado, o candidato não entrou na prova.', qual alternativa apresenta reescritura gramaticalmente correta?",
       "alternativas": {
-        "A": "Embora",
-        "B": "Porém",
-        "C": "Portanto",
-        "D": "Visto que",
-        "E": "Desde que"
+        "A": "Por ter chegado atrasado, o candidato não entrou na prova.",
+        "B": "Devido a chegou atrasado, o candidato não entrou na prova.",
+        "C": "Apesar de chegar atrasado, o candidato não entrou na prova.",
+        "D": "Embora chegasse atrasado, o candidato não entrou na prova.",
+        "E": "A fim de chegar atrasado, o candidato não entrou na prova."
       },
-      "gabarito": "C",
-      "explicacao": "'Portanto' é um conectivo conclusivo-consecutivo que introduz a consequência ou conclusão lógica de algo afirmado anteriormente. 'Embora' (A) indica concessão. 'Porém' (B) indica oposição/adversidade. 'Visto que' (D) indica causa. 'Desde que' (E) indica condição."
+      "gabarito": "A",
+      "explicacao": "(A) é a única correta: 'por ter chegado atrasado' é locução prepositiva causal com infinitivo composto, equivalente à oração causal 'como chegou'. (B) é agramatical: 'devido a' exige substantivo ou infinitivo, não forma conjugada. (C) usa 'apesar de', que expressa concessão, alterando o sentido. (D) usa 'embora', que expressa concessão, não causalidade. (E) usa 'a fim de', que expressa finalidade."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Qual das opções abaixo define corretamente a coerência textual?",
+      "enunciado": "A frase 'Ela agiu com imprudência.' pode ser corretamente reescrita como:",
       "alternativas": {
-        "A": "Coerência é o uso adequado de pronomes para retomar elementos já mencionados no texto.",
-        "B": "Coerência é a propriedade que garante a unidade de sentido, a não contradição lógica e a progressão temática do texto.",
-        "C": "Coerência é a substituição de palavras por sinônimos para evitar repetições no texto.",
-        "D": "Coerência é o emprego correto dos conectivos que ligam as orações no interior do período.",
-        "E": "Coerência é a adequação do texto às normas gramaticais da língua culta."
+        "A": "Ela agiu imprudentemente.",
+        "B": "Ela agiu imprudente.",
+        "C": "Ela agiu em imprudência.",
+        "D": "Ela agiu imprudência.",
+        "E": "Ela com imprudência agiu."
       },
-      "gabarito": "B",
-      "explicacao": "Coerência diz respeito ao nível semântico e lógico do texto: um texto coerente não se contradiz, mantém o fio temático, progride e é interpretável como uma unidade de sentido. A alternativa A descreve coesão referencial por pronomes. A alternativa C descreve coesão lexical por sinonímia. A alternativa D descreve coesão sequencial por conectivos. A alternativa E descreve correção gramatical, que não é o mesmo que coerência."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: o adjunto adverbial de modo 'com imprudência' equivale ao advérbio 'imprudentemente', derivado do adjetivo 'imprudente' com o sufixo '-mente'. (B) 'imprudente' é adjetivo, não advérbio, e não pode funcionar como adjunto adverbial sem a locução 'de modo'. (C) 'em imprudência' não é locução adverbial padrão na língua culta. (D) 'imprudência' como substantivo sem preposição não pode ser adjunto adverbial. (E) a inversão do adjunto para antes do verbo, sem vírgula, não preserva o registro formal exigido."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "No trecho 'Ela amava o mar, os ventos, as marés — tudo que remetia à vida naval', o travessão introduz um exemplo de qual mecanismo coesivo?",
+      "enunciado": "Identifique a alternativa que reescreve corretamente 'O relatório foi elaborado pelo analista.' na voz ativa:",
       "alternativas": {
-        "A": "Anáfora nominal, pois 'tudo' retoma os elementos listados anteriormente.",
-        "B": "Catáfora, pois 'tudo' antecipa o detalhamento que vem a seguir.",
-        "C": "Elipse de objeto, pois o objeto direto foi omitido antes do travessão.",
-        "D": "Coesão sequencial adversativa, pois o travessão introduz oposição.",
-        "E": "Progressão por tema constante, pois o sujeito 'ela' permanece o mesmo."
+        "A": "O analista elaborou o relatório.",
+        "B": "O analista elaborava o relatório.",
+        "C": "O analista foi elaborado o relatório.",
+        "D": "O relatório elaborou o analista.",
+        "E": "O analista elaborado o relatório."
       },
       "gabarito": "A",
-      "explicacao": "O pronome indefinido 'tudo' retoma anaforicamente os elementos já listados ('o mar, os ventos, as marés'), funcionando como um hiperônimo anafórico que resume a série. Isso é anáfora nominal (ou coesão lexical por hiperonímia com função anafórica). A catáfora (B) aponta para frente. Não há elipse de objeto (C). O travessão aqui não introduz oposição (D) — introduz síntese. A progressão com tema constante (E) descreve a estrutura geral do texto, não o mecanismo do travessão especificamente."
+      "explicacao": "(A) é correta: o agente da passiva 'pelo analista' torna-se sujeito da ativa; o sujeito da passiva 'o relatório' torna-se objeto direto; o verbo 'foi elaborado' (pretérito perfeito do indicativo passivo) converte-se em 'elaborou' (pretérito perfeito do indicativo ativo). (B) usa pretérito imperfeito, alterando o tempo verbal. (C) mantém estrutura passiva sem sentido. (D) inverte os papéis sintáticos, mudando o sentido. (E) usa particípio isolado sem verbo auxiliar."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Identifique o trecho que apresenta problema de coerência por contradição lógica.",
+      "enunciado": "Qual reescritura substitui corretamente 'Embora fosse tarde, o médico atendeu o paciente.' por uma locução equivalente?",
       "alternativas": {
-        "A": "'O militar chegou tarde ao quartel. O ônibus havia atrasado.'",
-        "B": "'A prova foi cancelada, mas os candidatos foram convocados normalmente.'",
-        "C": "'Estudou pouco, portanto não ficou satisfeito com o resultado.'",
-        "D": "'O prazo encerrou. Os documentos foram protocolados antes do encerramento.'",
-        "E": "'A missão foi cumprida com êxito embora as condições fossem adversas.'"
+        "A": "Apesar de ser tarde, o médico atendeu o paciente.",
+        "B": "Apesar de era tarde, o médico atendeu o paciente.",
+        "C": "Por ser tarde, o médico atendeu o paciente.",
+        "D": "Porque era tarde, o médico atendeu o paciente.",
+        "E": "Se fosse tarde, o médico atendeu o paciente."
       },
-      "gabarito": "B",
-      "explicacao": "Se a prova foi cancelada, não haveria razão para convocar os candidatos 'normalmente' — há uma contradição lógica entre as duas afirmações. O conectivo 'mas' (adversativo) não resolve a contradição; ao contrário, chama atenção para ela sem justificá-la. As demais alternativas apresentam textos coerentes: (A) relação causal implícita; (C) causa e consequência compatíveis; (D) sequência temporal coerente; (E) concessão logicamente válida."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: 'embora' (conjunção concessiva + subjuntivo) equivale à locução 'apesar de' + infinitivo. 'Fosse tarde' → 'ser tarde' (infinitivo). (B) usa forma conjugada 'era' após 'apesar de', o que é agramatical (exige infinitivo). (C) 'por ser tarde' expressa causa, não concessão, alterando o sentido. (D) 'porque era tarde' expressa causalidade, não concessão. (E) 'se fosse tarde' expressa condição, não concessão."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Qual conectivo estabelece relação de concessão?",
+      "enunciado": "A frase 'Os marinheiros construíram o barco.' reescrita com sujeito paciente fica:",
       "alternativas": {
-        "A": "Portanto",
-        "B": "Visto que",
-        "C": "Embora",
-        "D": "Assim como",
-        "E": "Desde que"
+        "A": "O barco foi construído pelos marinheiros.",
+        "B": "O barco foi construídos pelos marinheiros.",
+        "C": "O barco foram construído pelos marinheiros.",
+        "D": "O barco foi construído dos marinheiros.",
+        "E": "Os marinheiros foram construídos pelo barco."
       },
-      "gabarito": "C",
-      "explicacao": "'Embora' é uma conjunção subordinativa concessiva — introduz uma oração que expressa uma circunstância contrária ao esperado, sem impedir a realização do fato da oração principal. 'Portanto' (A) indica conclusão/consequência. 'Visto que' (B) indica causa. 'Assim como' (D) indica conformidade/comparação. 'Desde que' (E) indica condição."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: 'o barco' (masc. sing.) é sujeito paciente; 'foi' concorda com sujeito singular; 'construído' concorda com sujeito masc. sing.; 'pelos marinheiros' é o agente da passiva. (B) 'construídos' (plural) não concorda com 'o barco' (singular). (C) 'foram' (plural) não concorda com 'o barco' (singular). (D) usa preposição 'de' em vez de 'por' para o agente. (E) inverte agente e paciente, resultando em sentido absurdo."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "O mecanismo de coesão lexical que consiste em substituir uma palavra por outra de sentido mais amplo, que engloba a anterior, chama-se:",
+      "enunciado": "Considere a frase: 'A decisão foi tomada com rapidez.' Qual reescritura substitui corretamente o adjunto adverbial 'com rapidez' por um advérbio?",
       "alternativas": {
-        "A": "Sinonímia",
-        "B": "Antonímia",
-        "C": "Hiperonímia",
-        "D": "Meronímia",
-        "E": "Reiteração"
+        "A": "A decisão foi tomada rapidamente.",
+        "B": "A decisão foi tomada rápido.",
+        "C": "A decisão foi tomada em rapidez.",
+        "D": "A decisão foi tomada velozamente.",
+        "E": "A decisão foi tomada com rapidez."
       },
-      "gabarito": "C",
-      "explicacao": "Hiperonímia é a relação entre um termo de sentido mais amplo (hiperônimo) e os termos de sentido mais específico que ele engloba (hipônimos). Exemplo: 'fragatas, corvetas e submarinos' → 'embarcações de guerra' (hiperônimo). Sinonímia (A) é substituição por palavra de sentido equivalente. Antonímia (B) é substituição pelo oposto. Meronímia (D) é relação parte-todo. Reiteração (E) é repetição intencional do mesmo termo."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: 'com rapidez' (locução adverbial de modo) equivale a 'rapidamente' (advérbio de modo formado com o sufixo '-mente'). (B) 'rápido' pode ser usado como advérbio na língua coloquial, mas na norma culta de provas militares é preferível 'rapidamente'; além disso, o enunciado pede o advérbio derivado de 'rapidez'. (C) 'em rapidez' não é locução adverbial padrão. (D) 'velozamente' é sinônimo, mas não equivale morfologicamente a 'com rapidez'. (E) reproduz o original sem alteração."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Em 'Eis o que o comandante exige de todos: pontualidade, disciplina e dedicação', o mecanismo coesivo presente é:",
+      "enunciado": "Qual das alternativas apresenta reescritura que preserva integralmente o sentido de 'Ele saiu porque estava cansado.'?",
       "alternativas": {
-        "A": "Anáfora pronominal, pois 'o que' retoma o elemento anterior.",
-        "B": "Catáfora, pois 'o que o comandante exige' antecipa os itens que serão listados a seguir.",
-        "C": "Elipse de sujeito, pois o sujeito da enumeração foi omitido.",
-        "D": "Coesão lexical por antonímia, pois os três substantivos se opõem semanticamente.",
-        "E": "Progressão com tema derivado, pois cada item da lista constitui um subtema autônomo."
+        "A": "Ele saiu em virtude do cansaço.",
+        "B": "Ele saiu apesar do cansaço.",
+        "C": "Ele saiu embora estivesse cansado.",
+        "D": "Ele saiu para descansar.",
+        "E": "Se estivesse cansado, ele sairia."
       },
-      "gabarito": "B",
-      "explicacao": "A expressão 'o que o comandante exige de todos' introduz catáfora: ela aponta para os elementos que serão listados logo a seguir (pontualidade, disciplina e dedicação). A catáfora é o mecanismo em que o elemento de referência precede o referente no texto. A anáfora (A) seria o inverso. Não há elipse de sujeito (C). Os três substantivos não são opostos (D) — são termos de campo semântico compatível. A progressão com temas derivados (E) é uma estrutura de parágrafo, não um mecanismo coesivo local."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: 'em virtude do cansaço' é locução causal que equivale a 'porque estava cansado'. O sentido causal é preservado. (B) 'apesar do cansaço' expressa concessão ('saiu mesmo estando cansado'), invertendo a relação lógica. (C) 'embora estivesse cansado' expressa concessão, não causalidade. (D) 'para descansar' expressa finalidade, acrescentando informação não presente no original. (E) 'se estivesse cansado' expressa condição hipotética, diferente da afirmação factual do original."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Leia o trecho: 'O relatório foi concluído pela equipe. Ele foi encaminhado ao departamento competente no prazo determinado. O trabalho recebeu elogios da chefia.' Sobre a coesão referencial do trecho, é correto afirmar que:",
+      "enunciado": "Leia: 'A comissão avaliará os projetos submetidos até sexta-feira.' Assinale a alternativa que apresenta a reescritura na voz passiva sem alterar o sentido:",
       "alternativas": {
-        "A": "O pronome 'ele' retoma inequivocamente 'o relatório', pois ambos são masculinos singulares e o contexto não gera ambiguidade.",
-        "B": "O pronome 'ele' é ambíguo, pois pode retomar tanto 'o relatório' quanto 'a equipe', comprometendo a coesão.",
-        "C": "A expressão 'o trabalho' na terceira frase é um hiperônimo que engloba 'o relatório' e 'a equipe'.",
-        "D": "Há elipse do sujeito na segunda oração, pois o pronome 'ele' foi suprimido para evitar repetição.",
-        "E": "A coesão referencial do trecho está comprometida porque 'ele' e 'o trabalho' retomam referentes diferentes sem marcação adequada."
+        "A": "Os projetos submetidos até sexta-feira serão avaliados pela comissão.",
+        "B": "Os projetos submetidos até sexta-feira serão avaliados da comissão.",
+        "C": "Os projetos submetidos até sexta-feira serão avaliado pela comissão.",
+        "D": "Os projetos submetidos até sexta-feira foram avaliados pela comissão.",
+        "E": "Os projetos submetidos até sexta-feira serão avaliados, pela comissão."
       },
       "gabarito": "A",
-      "explicacao": "O pronome 'ele' retoma 'o relatório' — ambos são masculinos singulares, e no contexto, 'a equipe' é feminino, o que elimina a ambiguidade de gênero. A alternativa A está correta. A alternativa B erra ao dizer que 'ele' poderia retomar 'a equipe' (feminino). A alternativa C erra ao chamar 'o trabalho' de hiperônimo de 'relatório' e 'equipe' — 'trabalho' é sinônimo contextual de 'relatório', não hiperônimo de ambos. A alternativa D confunde elipse com uso de pronome: pronome não é elipse. A alternativa E afirma que a coesão está comprometida, o que é incorreto — a retomada é clara."
+      "explicacao": "(A) é correta: 'avaliará' (futuro do presente) → 'serão avaliados' (futuro do presente passivo), concordando com 'os projetos' (masc. pl.); agente da passiva 'pela comissão' correto. (B) usa 'da' em vez de 'pela'. (C) 'avaliado' não concorda com 'os projetos' (plural). (D) 'foram avaliados' é pretérito perfeito, diferente do futuro do original. (E) a vírgula antes de 'pela comissão' é inadequada e fragmenta o agente da passiva."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que a substituição do conectivo destacado NÃO altera a relação lógica do período: 'Ele não compareceu à reunião, **pois** estava de licença médica.'",
+      "enunciado": "Reescreva: 'Para que o projeto fosse aprovado, a equipe trabalhou durante meses.' Qual alternativa usa locução final equivalente com correção?",
       "alternativas": {
-        "A": "Substituir 'pois' por 'portanto'.",
-        "B": "Substituir 'pois' por 'porque'.",
-        "C": "Substituir 'pois' por 'contudo'.",
-        "D": "Substituir 'pois' por 'embora'.",
-        "E": "Substituir 'pois' por 'desde que'."
+        "A": "Com o intuito de aprovar o projeto, a equipe trabalhou durante meses.",
+        "B": "Com o intuito de que o projeto aprovasse, a equipe trabalhou durante meses.",
+        "C": "A fim de que o projeto fosse aprovado, a equipe trabalhou durante meses.",
+        "D": "Porque o projeto fosse aprovado, a equipe trabalhou durante meses.",
+        "E": "Embora o projeto fosse aprovado, a equipe trabalhou durante meses."
       },
-      "gabarito": "B",
-      "explicacao": "No período, 'pois' introduz uma explicação causal: a licença médica é a razão de não ter comparecido. 'Porque' também indica causa, podendo substituir 'pois' sem alterar a relação lógica. 'Portanto' (A) indicaria consequência, invertendo a relação. 'Contudo' (C) indicaria oposição. 'Embora' (D) indicaria concessão. 'Desde que' (E) indicaria condição. Apenas 'porque' preserva a relação causal/explicativa."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: 'com o intuito de aprovar o projeto' usa locução prepositiva final + infinitivo, transformando a oração subordinada final em locução equivalente e preservando o sentido. (B) mantém forma conjugada após 'com o intuito de', o que é agramatical. (C) preserva a estrutura oracional com 'a fim de que' + subjuntivo — é gramaticalmente correta como variante, mas não é uma locução (mantém oração); porém mais importante: a questão pede substituição por locução, eliminando (C). (D) 'porque' expressa causa, não finalidade. (E) 'embora' expressa concessão."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'As fragatas, os submarinos e as corvetas foram incorporados à esquadra. **Essas embarcações** passarão por revisão técnica antes do primeiro deslocamento.' A expressão destacada exerce qual função coesiva?",
+      "enunciado": "A frase 'O engenheiro, cujo projeto foi premiado, recebeu uma bolsa.' pode ser reescrita como:",
       "alternativas": {
-        "A": "Catáfora, pois antecipa os tipos de embarcações que serão descritos a seguir.",
-        "B": "Elipse, pois omite o sujeito da segunda oração para evitar repetição.",
-        "C": "Coesão lexical por hiperonímia, retomando anaforicamente os termos 'fragatas, submarinos e corvetas'.",
-        "D": "Coesão lexical por sinonímia, pois 'embarcações' é sinônimo de 'fragatas, submarinos e corvetas'.",
-        "E": "Reiteração, pois repete o mesmo conteúdo da frase anterior com outras palavras."
+        "A": "O engenheiro, que teve o projeto premiado, recebeu uma bolsa.",
+        "B": "O engenheiro, que o projeto foi premiado, recebeu uma bolsa.",
+        "C": "O engenheiro, o projeto que foi premiado, recebeu uma bolsa.",
+        "D": "O engenheiro que foi premiado o projeto recebeu uma bolsa.",
+        "E": "O engenheiro, de qual o projeto foi premiado, recebeu uma bolsa."
       },
-      "gabarito": "C",
-      "explicacao": "'Essas embarcações' é uma expressão nominal definida que retoma anaforicamente os três termos já mencionados (fragatas, submarinos, corvetas), usando 'embarcações' como hiperônimo — palavra de sentido mais amplo que engloba os três hipônimos. Isso é coesão lexical por hiperonímia com função anafórica. Não é catáfora (A) porque aponta para trás. Não é elipse (B) porque não há omissão — há substituição explícita. Não é sinonímia (D) porque hiperônimo e sinônimo são relações distintas. Não é reiteração (E) porque não repete o mesmo termo — substitui por um hiperônimo."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: 'cujo projeto foi premiado' (pronome relativo 'cujo' + substantivo 'projeto') é substituído por oração relativa com verbo 'ter' + objeto direto: 'que teve o projeto premiado'. O sentido possessivo de 'cujo' é mantido. (B) 'que o projeto foi premiado' é estrutura agramatical — o pronome 'que' não pode ser seguido diretamente de sujeito sem preposição. (C) não há verbo na relativa, tornando a frase agramatical. (D) suprime as vírgulas do aposto e cria ambiguidade sobre quem foi premiado. (E) 'de qual' é construção não padrão; o correto seria 'do qual o projeto foi premiado'."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Indique o trecho em que a quebra de coerência ocorre por irrelevância temática.",
+      "enunciado": "Transforme 'Análise cuidadosa dos dados foi realizada pelos pesquisadores.' para a voz ativa preservando o tempo verbal e o sentido.",
       "alternativas": {
-        "A": "'A Marinha do Brasil possui tradição centenária. Seu histórico remonta ao período imperial, quando a força foi decisiva na Guerra do Paraguai.'",
-        "B": "'O concurso exige domínio de Língua Portuguesa. As questões abordam gramática, interpretação e redação. O português é língua oficial do Brasil desde o século XVIII.'",
-        "C": "'O candidato deve apresentar os documentos até o prazo indicado. A falta de qualquer item implica desclassificação. Os documentos devem ser originais ou cópias autenticadas.'",
-        "D": "'O oficial recebeu a comenda por bravura em serviço. A cerimônia foi realizada na sede do Comando. O mar do Atlântico Sul possui grande biodiversidade.'",
-        "E": "'A aprovação no concurso garante o ingresso no corpo de engenheiros da Marinha. O processo seletivo é rigoroso e exige preparação específica.'"
+        "A": "Os pesquisadores realizaram análise cuidadosa dos dados.",
+        "B": "Os pesquisadores realizavam análise cuidadosa dos dados.",
+        "C": "Os pesquisadores vão realizar análise cuidadosa dos dados.",
+        "D": "Os dados realizaram análise cuidadosa pelos pesquisadores.",
+        "E": "Os pesquisadores realizaram os dados com análise cuidadosa."
       },
-      "gabarito": "D",
-      "explicacao": "Em D, as duas primeiras frases tratam de uma cerimônia de comenda. A terceira — 'O mar do Atlântico Sul possui grande biodiversidade' — é completamente irrelevante para o tema, quebrando a coerência por falta de pertinência temática. Nas demais alternativas, todas as frases são relevantes ao tema desenvolvido: (A) trata de tradição histórica da Marinha; (B) trata do escopo do concurso de Português (a menção histórica ainda se relaciona ao tema); (C) trata de documentação; (E) trata do concurso e seus benefícios."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: agente 'pelos pesquisadores' → sujeito ativo 'os pesquisadores'; sujeito paciente 'análise cuidadosa dos dados' → objeto direto; 'foi realizada' (pretérito perfeito passivo) → 'realizaram' (pretérito perfeito ativo). (B) usa pretérito imperfeito, alterando o tempo. (C) usa futuro perifrástico, diferente do pretérito. (D) inverte os papéis, resultando em sentido absurdo. (E) desestrutura os termos e altera o sentido."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "O princípio da coerência textual denominado 'progressão temática' está respeitado em qual alternativa?",
+      "enunciado": "Assinale a reescritura de 'Venderam-se muitos livros na feira.' que preserva o sentido e a correção gramatical:",
       "alternativas": {
-        "A": "'A disciplina é fundamental. A disciplina é importante. Sem disciplina não há resultado. Disciplina é a base de tudo.'",
-        "B": "'A Marinha investe em tecnologia naval. Essa tecnologia é desenvolvida em parceria com universidades. Os projetos conjuntos já geraram patentes relevantes.'",
-        "C": "'O candidato deve estudar. Estudar é necessário. É necessário que o candidato estude. O estudo é indispensável.'",
-        "D": "'A missão foi cumprida. A missão foi cumprida com êxito. O êxito da missão foi notável. Notável foi o êxito.'",
-        "E": "'O concurso é difícil. É difícil o concurso. Difícil é o concurso para quem não se prepara. Não se preparar torna o concurso difícil.'"
+        "A": "Muitos livros foram vendidos na feira.",
+        "B": "Muitos livros foram vendidos na feira por alguém.",
+        "C": "Muitos livros vendeu-se na feira.",
+        "D": "Muitos livros venderam na feira.",
+        "E": "Na feira, muitos livros foi vendido."
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B apresenta progressão temática linear: a rema de cada frase torna-se o tema da seguinte. 'Tecnologia naval' (rema de 1) → 'essa tecnologia' (tema de 2) → 'os projetos conjuntos' (rema de 2, tema de 3) → 'patentes relevantes' (rema de 3). As alternativas A, C, D e E apresentam quebra de progressão por tautologia ou paráfrase: repetem o mesmo conteúdo com variações formais, sem acrescentar informação nova."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: a voz passiva sintética 'venderam-se' equivale à passiva analítica 'foram vendidos'. O agente não é expresso porque o sujeito original é indeterminado. (B) acrescenta 'por alguém', explicitando agente não presente no original e alterando o sentido. (C) 'vendeu-se' é singular e não concorda com 'muitos livros'. (D) 'venderam' sem pronome é voz ativa com sujeito indeterminado, construção possível, mas 'muitos livros' seria objeto, não sujeito — a vírgula ou preposição seria necessária. (E) 'foi vendido' não concorda com 'muitos livros' (plural)."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Leia o trecho e responda: 'O projeto foi aprovado pelo conselho. **Tal medida** representa um avanço para a instituição. Os membros do conselho comemoraram a decisão.' Qual é o referente da expressão 'tal medida'?",
+      "enunciado": "A frase 'A reunião começará às 14h.' pode ser reescrita como 'O início da reunião...'",
       "alternativas": {
-        "A": "O conselho, pois é o sujeito da primeira oração.",
-        "B": "Os membros do conselho, pois eles são os agentes da decisão.",
-        "C": "A aprovação do projeto, pois 'medida' retoma o ato de aprovar, não o objeto aprovado.",
-        "D": "O projeto, pois é o elemento mais proeminente da primeira oração.",
-        "E": "A instituição, pois é o beneficiário da medida mencionada."
+        "A": "...está previsto para as 14h.",
+        "B": "...começa às 14h.",
+        "C": "...começará às 14h.",
+        "D": "...é às 14h começa.",
+        "E": "...às 14h é previsto."
       },
-      "gabarito": "C",
-      "explicacao": "'Tal medida' retoma anaforicamente o ato de aprovação — a ação de 'ter aprovado o projeto', não o projeto em si. 'Medida' é um substantivo que denota ação/decisão, e o evento referido é a aprovação. O referente de 'tal medida' é, portanto, 'a aprovação do projeto' (o evento descrito na primeira frase). A alternativa D erra ao apontar 'o projeto' — o projeto é o objeto da medida, não a medida em si. As alternativas A, B e E apontam agentes ou beneficiários, não o referente da expressão."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: nominalização de 'começar' → 'o início'; 'começará' (futuro) → 'está previsto para' (locução que expressa futuridade). O sentido de previsão temporal é mantido. (B) usa presente em vez de futuro, alterando o tempo. (C) mantém 'começará' mas 'o início' não pode ter como predicado um verbo de ação ('começar'), pois 'início' já é o substantivo do evento. (D) estrutura agramatical com dois predicados. (E) estrutura sintática invertida e agramatical sem verbo de ligação."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Qual das frases abaixo apresenta problema de coesão por ambiguidade pronominal?",
+      "enunciado": "Considere: 'O aluno foi elogiado pela professora.' Qual das reescritas abaixo está INCORRETA?",
       "alternativas": {
-        "A": "'O sargento entregou o requerimento ao tenente. O tenente o assinou de imediato.'",
-        "B": "'A candidata entregou o formulário à coordenadora. Ela ficou satisfeita com a organização dos documentos.'",
-        "C": "'Os recrutas completaram o treinamento. Eles foram dispensados às 18h.'",
-        "D": "'O navio atracou no porto. A embarcação aguardava inspeção.'",
-        "E": "'A missão foi concluída antes do prazo. O resultado surpreendeu positivamente a chefia.'"
+        "A": "A professora elogiou o aluno.",
+        "B": "A professora elogiou-o.",
+        "C": "O aluno, a professora elogiou.",
+        "D": "O aluno foi elogiado por a professora.",
+        "E": "O aluno recebeu elogios da professora."
       },
-      "gabarito": "B",
-      "explicacao": "Em B, o pronome 'ela' pode retomar tanto 'a candidata' quanto 'a coordenadora', pois ambos os substantivos são femininos singulares. Não há como determinar com certeza qual das duas ficou satisfeita — a coesão referencial está comprometida por ambiguidade. Nas demais: (A) 'o' retoma 'requerimento' — sem ambiguidade; (C) 'eles' retoma 'os recrutas' — sem ambiguidade; (D) não usa pronome, usa expressão nominal; (E) 'o resultado' retoma a conclusão da missão — sem ambiguidade."
+      "gabarito": "D",
+      "explicacao": "A questão pede a alternativa INCORRETA. (D) é incorreta porque 'por a professora' é agramatical — a preposição 'por' seguida de artigo definido feminino 'a' deve ser contraída em 'pela'. (A) é correta: voz ativa equivalente. (B) é correta: pronome oblíquo 'o' retoma 'o aluno', objeto direto. (C) é correta: topicalização do objeto com ordem invertida e vírgula adequada. (E) é correta: paráfrase com verbo 'receber' + complemento nominal 'da professora'."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Sobre o uso de conectivos, assinale a alternativa que preenche corretamente as lacunas do período: 'O candidato não foi aprovado na primeira fase ___ tinha estudado muito; ___, resolveu intensificar a preparação.'",
+      "enunciado": "Reescreva 'Se houver problemas técnicos, a missão será cancelada.' substituindo a oração condicional por locução equivalente:",
       "alternativas": {
-        "A": "porque / portanto",
-        "B": "embora / entretanto",
-        "C": "visto que / logo",
-        "D": "pois / todavia",
-        "E": "uma vez que / assim"
+        "A": "Em caso de problemas técnicos, a missão será cancelada.",
+        "B": "Por problemas técnicos, a missão será cancelada.",
+        "C": "Apesar de problemas técnicos, a missão será cancelada.",
+        "D": "Embora haja problemas técnicos, a missão será cancelada.",
+        "E": "Porque haja problemas técnicos, a missão será cancelada."
       },
-      "gabarito": "B",
-      "explicacao": "A estrutura lógica exige: (1) o candidato não foi aprovado APESAR DE ter estudado muito — relação concessiva (embora); (2) a decisão de intensificar a preparação é CONTRÁRIA ao esperado após um fracasso desanimador — relação adversativa (entretanto). 'Embora... entretanto' encaixa perfeitamente: 'embora tivesse estudado muito' (concessão) + 'entretanto, resolveu intensificar' (oposição ao desânimo esperado). As demais alternativas erram: (A) 'porque' indicaria causa da reprovação, não concessão; (C) e (E) também indicam causa; (D) 'pois' indica causa/explicação, e 'todavia' funcionaria na segunda lacuna, mas a primeira está errada."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: 'em caso de' é locução prepositiva condicional equivalente a 'se houver'. Preserva a condição hipotética. (B) 'por' expressa causa, alterando a relação semântica de condicional para causal. (C) 'apesar de' expressa concessão, invertendo a relação lógica. (D) 'embora' expressa concessão com subjuntivo, não condição. (E) 'porque' expressa causa, não condição, e 'haja' (subjuntivo) seria inadequado após conjunção causal."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'A Marinha do Brasil possui uma frota moderna. Fragatas, corvetas, submarinos e navios-patrulha compõem seu arsenal. **Essas unidades operativas** passam por manutenção periódica.' A expressão 'essas unidades operativas' é um exemplo de:",
+      "enunciado": "A reescritura de 'O navio, que o comandante inspecionou, partiu ontem.' substituindo 'que...inspecionou' por uma forma equivalente com 'cujo' está correta em:",
       "alternativas": {
-        "A": "Coesão por reiteração, pois repete o conteúdo da frase anterior.",
-        "B": "Coesão referencial catafórica, pois antecipa os elementos navais que serão descritos.",
-        "C": "Coesão lexical por sinonímia, pois 'unidades operativas' é sinônimo exato de 'frota'.",
-        "D": "Coesão lexical por hiperonímia com função anafórica, pois retoma os quatro tipos de embarcações listados.",
-        "E": "Coesão por elipse, pois omite os tipos específicos de embarcação para evitar repetição."
+        "A": "Não é possível usar 'cujo' aqui, pois 'que' funciona como objeto direto sem relação possessiva.",
+        "B": "O navio, cujo comandante inspecionou, partiu ontem.",
+        "C": "O navio, do qual o comandante inspecionou, partiu ontem.",
+        "D": "O navio, cuja inspeção o comandante realizou, partiu ontem.",
+        "E": "O navio, que foi inspecionado pelo comandante, partiu ontem."
       },
       "gabarito": "D",
-      "explicacao": "'Essas unidades operativas' retoma anaforicamente os quatro termos listados (fragatas, corvetas, submarinos, navios-patrulha), usando uma expressão nominal definida cujo núcleo ('unidades operativas') funciona como hiperônimo técnico-militar que engloba todos eles. É coesão lexical por hiperonímia com função anafórica. Não é reiteração (A) — não repete os mesmos termos. Não é catáfora (B) — a expressão aponta para trás. Não é sinonímia estrita (C) — hiperônimo e sinônimo são relações distintas. Não é elipse (D) — há substituição explícita, não omissão."
+      "explicacao": "(D) é a alternativa que usa corretamente 'cujo': 'cuja inspeção' relaciona o navio (antecedente) à inspeção (substantivo seguinte), com relação possessiva implícita ('a inspeção do navio'). O sentido é preservado. (A) está errada ao afirmar impossibilidade — 'cujo' pode ser usado com nominalização. (B) 'cujo comandante' sugeriria que o navio possui o comandante como um atributo possessivo, não que o comandante inspecionou o navio. (C) 'do qual o comandante inspecionou' é agramatical — 'do qual' seria objeto indireto, mas 'inspecionar' é transitivo direto. (E) reescreve na passiva, que é correta mas não usa 'cujo', como exige a questão."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Qual alternativa apresenta texto com problema de coerência por tautologia?",
+      "enunciado": "Assinale a alternativa que NÃO preserva o sentido de 'Ele saiu muito cedo para não perder o trem.'",
       "alternativas": {
-        "A": "'O militar foi punido porque descumpriu o regulamento.'",
-        "B": "'A decisão final, que pôs definitivamente um fim conclusivo e irrevogável à questão pendente, foi comunicada por escrito.'",
-        "C": "'Embora o prazo fosse curto, a equipe entregou o relatório.'",
-        "D": "'O projeto foi rejeitado. Os responsáveis apresentarão nova proposta.'",
-        "E": "'O candidato estudou oito horas por dia durante seis meses.'"
+        "A": "Ele saiu muito cedo a fim de não perder o trem.",
+        "B": "Ele saiu muito cedo para que não perdesse o trem.",
+        "C": "Ele saiu muito cedo com o objetivo de não perder o trem.",
+        "D": "Ele saiu muito cedo porque não perdeu o trem.",
+        "E": "Ele saiu muito cedo de modo a não perder o trem."
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B é um exemplo claro de tautologia: 'final', 'definitivamente', 'fim', 'conclusivo' e 'irrevogável' repetem o mesmo conteúdo semântico (algo que não pode ser modificado, que encerra a questão) sem acrescentar informação nova. A redundância excessiva é um problema de coerência por não respeitar o princípio da não tautologia. As demais alternativas apresentam frases coerentes e sem redundância problemática."
+      "gabarito": "D",
+      "explicacao": "(D) NÃO preserva o sentido: 'porque não perdeu o trem' transforma a relação de finalidade (saiu cedo para não perder) em causal (saiu cedo em decorrência de não ter perdido), além de indicar resultado já ocorrido ('não perdeu'), o que é diferente da intenção expressa no original. (A), (B), (C) e (E) expressam finalidade com locuções diferentes ('a fim de', 'para que + subjuntivo', 'com o objetivo de', 'de modo a'), todas equivalentes semânticas válidas."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'Os oficiais foram convocados para a reunião às 14h. Contudo, o encontro foi produtivo e gerou decisões relevantes para a força.' A presença do conectivo 'contudo' nesse contexto:",
+      "enunciado": "Considere o período: 'Tanto o comandante quanto os oficiais assinaram o documento.' Qual reescritura preserva corretamente o sentido, a concordância e a ênfase coletiva?",
       "alternativas": {
-        "A": "É adequada, pois 'contudo' pode introduzir qualquer informação complementar após uma oração anterior.",
-        "B": "É inadequada, pois 'contudo' indica oposição, mas não há contraste entre a convocação e a produtividade da reunião — o correto seria um conectivo aditivo ou conclusivo.",
-        "C": "É adequada, pois a convocação dos oficiais é um fato que se opõe naturalmente à produtividade da reunião.",
-        "D": "É inadequada apenas por razões estilísticas, pois 'contudo' é formal demais para este contexto.",
-        "E": "É adequada, pois 'contudo' pode funcionar como conectivo causal em registros formais da língua."
+        "A": "O documento foi assinado tanto pelo comandante quanto pelos oficiais.",
+        "B": "O documento foi assinado tanto pelo comandante quanto pelos oficiais, respectivamente.",
+        "C": "Tanto o documento quanto os oficiais foram assinados pelo comandante.",
+        "D": "O documento foi assinado pelo comandante e os oficiais.",
+        "E": "O documento foi assinado pelo comandante, assim como pelos oficiais."
       },
-      "gabarito": "B",
-      "explicacao": "'Contudo' é um conectivo adversativo que indica contraste ou oposição entre dois fatos. Para que seu uso seja adequado, a segunda oração deve apresentar algo contrário ao esperado ou oposto à primeira. No trecho, 'os oficiais foram convocados para a reunião' e 'o encontro foi produtivo' não se opõem — uma reunião convocada ser produtiva é o resultado esperado, não surpreendente. O conectivo correto seria aditivo ('e', 'além disso') ou conclusivo ('e, por isso'). 'Contudo' seria adequado se houvesse contraste, por exemplo: 'Os oficiais foram convocados às pressas; contudo, o encontro foi desorganizado.'"
+      "gabarito": "A",
+      "explicacao": "(A) é correta: a correlação 'tanto...quanto' é preservada na passiva, distribuindo-se entre agente e co-agente ('pelo comandante' / 'pelos oficiais'). O sentido de ação coletiva e enfática é mantido. (B) acrescenta 'respectivamente', que indica sequência ordenada de pares, inexistente no original. (C) inverte os papéis: 'o documento' não pode ser agente de 'assinar'. (D) suprime 'tanto...quanto', perdendo a correlação enfática. (E) 'assim como' não é equivalente a 'tanto...quanto'; expressa adição com menor ênfase na simultaneidade."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Analise: 'A proposta foi bem recebida pela comissão. No entanto, o projeto recebeu aprovação unânime.' Sobre a coesão e a coerência desse trecho, é correto afirmar que:",
+      "enunciado": "A frase 'Não obstante as dificuldades encontradas, o relatório foi concluído no prazo.' reescrita com oração adverbial concessiva fica:",
       "alternativas": {
-        "A": "O trecho é coeso e coerente, pois o conectivo 'no entanto' pode introduzir qualquer ideia nova.",
-        "B": "O trecho apresenta problema de coesão lexical, pois 'proposta' e 'projeto' não são sinônimos adequados nesse contexto.",
-        "C": "O trecho é incoerente porque o conectivo 'no entanto' (adversativo) é incompatível com a progressão lógica: aprovação unânime é consequência natural de boa recepção, não um fato oposto.",
-        "D": "O trecho é coerente, mas apresenta problema de coesão referencial, pois não fica claro se 'o projeto' retoma 'a proposta'.",
-        "E": "O trecho apresenta problema de coerência por tautologia, pois 'bem recebida' e 'aprovação unânime' têm o mesmo significado."
+        "A": "Embora houvesse dificuldades, o relatório foi concluído no prazo.",
+        "B": "Porque houve dificuldades, o relatório foi concluído no prazo.",
+        "C": "Se houvesse dificuldades, o relatório seria concluído no prazo.",
+        "D": "Para que houvesse dificuldades, o relatório foi concluído no prazo.",
+        "E": "Quando houve dificuldades, o relatório foi concluído no prazo."
       },
-      "gabarito": "C",
-      "explicacao": "O problema central é de coerência (e de coesão sequencial): 'no entanto' exige contraste — a segunda oração deveria apresentar algo inesperado ou oposto à boa recepção. Aprovação unânime é o resultado natural e esperado de boa recepção, não um contraponto. O uso inadequado do conectivo adversativo quebra a coerência lógica. A alternativa B é parcialmente plausível, mas não é o erro principal — 'proposta' e 'projeto' podem funcionar como sinônimos contextuais. A alternativa D é improvável, pois o contexto torna a retomada clara. A alternativa E erra ao chamar de tautologia o que é, na verdade, progressão temática normal."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: 'não obstante' é locução concessiva equivalente a 'embora'. A oração 'embora houvesse dificuldades' está no subjuntivo imperfeito, compatível com o pretérito perfeito da oração principal. (B) 'porque' expressa causa, não concessão. (C) 'se...seria' expressa condição hipotética. (D) 'para que' expressa finalidade. (E) 'quando' expressa tempo. Todas as alternativas incorretas trocam a relação concessiva por outra relação semântica."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "No trecho 'O relatório foi redigido pelo analista. O documento foi encaminhado à chefia. **O mesmo** foi arquivado após a leitura', a expressão 'o mesmo' exerce função anafórica. Sobre seu uso, é correto afirmar que:",
+      "enunciado": "Leia: 'Suspeitou-se de fraude no processo seletivo.' Assinale a alternativa que representa corretamente a passagem para a voz ativa com sujeito determinado hipotético:",
       "alternativas": {
-        "A": "O uso de 'o mesmo' é recomendável em textos formais por ser mais preciso que o pronome pessoal 'ele'.",
-        "B": "O uso de 'o mesmo' é gramaticalmente incorreto, pois pronomes não podem retomar substantivos em textos oficiais.",
-        "C": "O uso de 'o mesmo' como pronome anafórico é criticado pela norma culta; recomenda-se substituí-lo por 'ele', 'o' ou por repetição do nome.",
-        "D": "O uso de 'o mesmo' é adequado apenas quando o referente é ambíguo e precisa ser especificado.",
-        "E": "O uso de 'o mesmo' é uma forma de coesão lexical por sinonímia, equivalente a 'o referido documento'."
+        "A": "As autoridades suspeitaram de fraude no processo seletivo.",
+        "B": "A fraude foi suspeitada no processo seletivo.",
+        "C": "Fraude foi suspeitada pelas autoridades no processo seletivo.",
+        "D": "Suspeitaram de fraude no processo seletivo.",
+        "E": "A fraude no processo seletivo foi alvo de suspeitas."
       },
-      "gabarito": "C",
-      "explicacao": "O uso de 'o mesmo' como pronome anafórico (em lugar de 'ele', 'o' ou da repetição do nome) é amplamente criticado pelos gramáticos, incluindo Cunha e Cintra (2017), por ser considerado um vício de linguagem típico da linguagem burocrática. 'O mesmo' é pronome de identidade (indica que um elemento é igual a outro) e não pronome anafórico de retomada. O Manual da Marinha (2024) também desaconselha esse uso em textos oficiais. A forma recomendada é o pronome pessoal 'ele', o clítico 'o', ou a repetição do substantivo com artigo definido."
+      "gabarito": "D",
+      "explicacao": "A questão tem pegadinha sutil: 'suspeitar' é verbo transitivo INDIRETO (suspeitar DE algo), não admite voz passiva analítica com o complemento como sujeito. 'Suspeitou-se de fraude' é oração com sujeito indeterminado (uso do 'se' com verbo transitivo indireto — índice de indeterminação do sujeito, não apassivador). A passagem para a ativa com sujeito indeterminado é a terceira pessoa do plural sem agente expresso: 'Suspeitaram de fraude...' (D). (A) acrescenta 'as autoridades', informação não contida no original. (B) e (C) formam passivas analíticas indevidas com verbo transitivo indireto. (E) é paráfrase que nominaliza, válida estilisticamente mas não é a passagem para a ativa."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Os recrutas completaram o treinamento básico em março. Em abril, [Ø] iniciaram o módulo avançado. Em maio, [Ø] foram avaliados individualmente.' Sobre os sujeitos elípticos indicados por [Ø], é correto dizer que:",
+      "enunciado": "Considere: 'A rapidez com que o oficial tomou a decisão surpreendeu a todos.' Qual reescritura mantém integralmente o sentido usando verbalização?",
       "alternativas": {
-        "A": "As elipses comprometem a coesão porque os sujeitos omitidos não têm antecedente claro no texto.",
-        "B": "As elipses são recursos coesivos adequados, pois o sujeito omitido ('os recrutas') é recuperável pelo contexto gramatical e semântico.",
-        "C": "As elipses são incorretas porque sujeitos de orações diferentes não podem ser omitidos simultaneamente.",
-        "D": "As elipses geram ambiguidade porque 'os recrutas' poderia ser substituído por 'o treinamento'.",
-        "E": "As elipses caracterizam coesão lexical por reiteração, pois retomam o mesmo termo sem alteração."
+        "A": "O fato de o oficial ter tomado a decisão tão rapidamente surpreendeu a todos.",
+        "B": "O oficial tomou a decisão rapidamente e surpreendeu a todos.",
+        "C": "O oficial, que tomou a decisão com rapidez, surpreendeu a todos.",
+        "D": "Surpreendeu a todos que o oficial fosse rápido na decisão.",
+        "E": "Todos se surpreenderam com a decisão rápida do oficial."
       },
-      "gabarito": "B",
-      "explicacao": "As elipses são plenamente adequadas: em cada oração subsequente, o sujeito 'os recrutas' é recuperável sem ambiguidade — é o único sujeito disponível no contexto, e a concordância verbal no plural (iniciaram, foram avaliados) confirma a retomada. A elipse do sujeito é um dos mecanismos de coesão mais comuns e recomendáveis para evitar repetições desnecessárias. A alternativa A erra ao afirmar que não há antecedente claro. A alternativa C erra ao criar uma restrição gramatical inexistente. A alternativa D erra: 'o treinamento' é singular e não concorda com os verbos no plural. A alternativa E confunde elipse com reiteração."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: 'a rapidez com que... tomou a decisão' (sujeito com núcleo 'rapidez') é verbalizado em 'o fato de o oficial ter tomado a decisão tão rapidamente'. A oração substantiva com 'o fato de' equivale ao sujeito nominal original, preservando que foi a rapidez (não a decisão em si) que causou a surpresa. (B) coordena as ações, perdendo a informação de que foi a rapidez (modo) o fator surpreendente. (C) transforma o sujeito em adjunto adnominal relativo, alterando a estrutura informacional. (D) usa subjuntivo 'fosse', implicando dúvida inexistente no original; além disso, 'fosse rápido na decisão' não equivale a 'rapidez na tomada de decisão'. (E) perde a nuance de que foi especificamente a rapidez (e não a decisão) que surpreendeu."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Analise o parágrafo: 'A segurança nacional é prioridade do Estado. A Marinha do Brasil é responsável por guardar as fronteiras marítimas. O Brasil possui 7.491 km de litoral. As praias brasileiras são destinos turísticos famosos. O turismo gera divisas para o país.' Qual é o principal problema de coerência?",
+      "enunciado": "A frase 'Os engenheiros analisaram os dados antes de apresentarem o projeto.' pode ser reescrita com locuções preservando sentido e correção em:",
       "alternativas": {
-        "A": "Contradição lógica entre 'segurança nacional' e 'destinos turísticos'.",
-        "B": "Tautologia, pois 'segurança nacional' e 'fronteiras marítimas' têm o mesmo significado.",
-        "C": "Quebra de progressão temática e relevância: o parágrafo inicia com um tema (segurança/defesa nacional) e deriva para tópicos irrelevantes (turismo, divisas), perdendo a coerência temática.",
-        "D": "Coesão referencial comprometida, pois o pronome 'suas' não foi usado para retomar 'Marinha do Brasil'.",
-        "E": "Problema de coesão sequencial, pois faltam conectivos entre as frases."
+        "A": "Antes da apresentação do projeto, os engenheiros procederam à análise dos dados.",
+        "B": "Antes de apresentar o projeto, os engenheiros analisaram os dados.",
+        "C": "Antes que apresentassem o projeto, os engenheiros procederam à análise dos dados.",
+        "D": "Os engenheiros analisaram os dados para apresentar o projeto.",
+        "E": "Os engenheiros analisaram os dados, portanto apresentaram o projeto."
       },
-      "gabarito": "C",
-      "explicacao": "O parágrafo começa com o tema 'segurança nacional / defesa marítima' e desvia progressivamente para 'praias como destinos turísticos' e 'turismo como gerador de divisas'. Isso viola o princípio de relevância e progressão temática da coerência: cada oração deve contribuir para o desenvolvimento do tema central, não desviar para tópicos tangencialmente relacionados. A contradição (A) não existe — segurança e turismo não se contradizem, apenas pertencem a temas distintos. A tautologia (B) é incorreta — segurança e fronteiras não são sinônimos. O problema de coesão referencial (D) não se aplica, pois não há pronome mal empregado. A ausência de conectivos (E) pode ser um problema menor de coesão, mas não é o principal defeito do parágrafo."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: 'antes de apresentarem o projeto' (oração temporal) → 'antes da apresentação do projeto' (locução temporal com nominalização); 'analisaram os dados' → 'procederam à análise dos dados' (verbalização em locução verbal com nominalização). Todas as informações são preservadas. (B) é gramaticalmente correta e equivalente em sentido, mas a reescrita é parcial (mantém 'analisaram' sem nominalizar e usa infinitivo). Porém, como não há erro de sentido, é uma alternativa concorrente válida — nesse tipo de questão, (A) é preferida por ser mais completa na transformação. (C) usa oração com 'antes que' + subjuntivo, não locução. (D) 'para apresentar' expressa finalidade, não anterioridade temporal. (E) 'portanto' expressa conclusão, alterando a relação semântica."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "No texto 'O edital foi publicado na semana passada. Nele constam todos os requisitos para a inscrição. **Este** deve ser lido com atenção por todos os interessados.', o pronome demonstrativo 'este' retoma qual elemento?",
+      "enunciado": "Leia o trecho: 'O projeto, desenvolvido em tempo recorde, recebeu aprovação unânime do conselho.' Assinale a reescritura que expande a oração reduzida de particípio em oração desenvolvida sem alterar o sentido:",
       "alternativas": {
-        "A": "Retoma 'nele', pois os dois pronomes são correferenciais.",
-        "B": "Retoma 'edital', pois é o elemento mais proeminente do texto e 'este' indica proximidade textual com o referente mais recente.",
-        "C": "Retoma 'requisitos para a inscrição', pois é o elemento mais próximo sintaticamente.",
-        "D": "O uso de 'este' é inadequado, pois deveria ser usado 'esse' para retomada anafórica em contexto formal.",
-        "E": "O uso de 'este' é ambíguo entre 'edital' e 'requisitos', comprometendo a coesão."
+        "A": "O projeto, que foi desenvolvido em tempo recorde, recebeu aprovação unânime do conselho.",
+        "B": "O projeto, que desenvolveu em tempo recorde, recebeu aprovação unânime do conselho.",
+        "C": "O projeto, embora desenvolvido em tempo recorde, recebeu aprovação unânime do conselho.",
+        "D": "O projeto, porque foi desenvolvido em tempo recorde, recebeu aprovação unânime do conselho.",
+        "E": "O projeto, se fosse desenvolvido em tempo recorde, receberia aprovação unânime do conselho."
       },
-      "gabarito": "B",
-      "explicacao": "O pronome 'este' retoma anaforicamente 'o edital', que é o tópico central do texto e o referente mais saliente do contexto. 'Este' indica proximidade — e, no uso anafórico, aponta para o elemento mais recentemente mencionado ou mais proeminente. A lógica semântica confirma: é o edital, não os requisitos, que deve ser lido com atenção. A alternativa D está errada: 'este' pode ser usado anaforicamente em texto escrito (não há restrição gramatical que exija 'esse' para retomada formal). A alternativa E exagera a ambiguidade: o contexto disambigua claramente o referente como 'o edital'."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: a oração reduzida de particípio 'desenvolvido em tempo recorde' equivale à oração adjetiva restritiva 'que foi desenvolvido em tempo recorde' (voz passiva). O particípio com valor adjetivo se expande com o pronome relativo 'que' + verbo ser + particípio. (B) usa voz ativa 'desenvolveu', mas 'projeto' é paciente (não pode desenvolver a si mesmo); além disso, falta sujeito. (C) 'embora' acrescenta valor concessivo inexistente no original. (D) 'porque' acrescenta valor causal inexistente. (E) muda para subjuntivo condicional, alterando completamente o sentido factual do original."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Leia: 'O oficial cumpriu exemplarmente as determinações do comando. Não apenas concluiu a missão no prazo, **como também** superou as expectativas da chefia.' O conectivo 'como também' indica qual relação semântica?",
+      "enunciado": "Considere: 'Temia-se que os resultados fossem insatisfatórios.' Assinale a alternativa que reescreve corretamente na voz ativa com sujeito explícito hipotético 'todos':",
       "alternativas": {
-        "A": "Concessão: o fato de superar expectativas ocorreu apesar de concluir no prazo.",
-        "B": "Adição com ênfase: acrescenta um segundo fato que intensifica ou supera o primeiro, em estrutura correlativa com 'não apenas'.",
-        "C": "Causa: superar expectativas é a causa de ter concluído a missão no prazo.",
-        "D": "Consequência: superar expectativas é o resultado direto de cumprir as determinações.",
-        "E": "Comparação: o oficial superou as expectativas da chefia da mesma forma que concluiu a missão."
+        "A": "Todos temiam que os resultados fossem insatisfatórios.",
+        "B": "Todos temiam os resultados insatisfatórios.",
+        "C": "Os resultados insatisfatórios eram temidos por todos.",
+        "D": "Todos tiveram medo que os resultados fossem insatisfatórios.",
+        "E": "Que os resultados fossem insatisfatórios era temido por todos."
       },
-      "gabarito": "B",
-      "explicacao": "A estrutura 'não apenas... como também' é uma locução correlativa aditiva com ênfase: o segundo elemento acrescenta um fato que agrega e intensifica o primeiro. 'Não apenas X, como também Y' significa que Y é um acréscimo de valor superior a X — não uma oposição, causa, consequência ou comparação, mas adição graduada. Cunha e Cintra (2017) classificam essa estrutura entre as correlativas aditivas. Nenhuma das demais alternativas descreve corretamente essa relação."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: 'temia-se' com 'se' como índice de indeterminação do sujeito → sujeito explícito 'todos'; 'que os resultados fossem insatisfatórios' é oração subordinada substantiva objetiva direta, preservada integralmente. (B) suprime a oração substantiva 'que os resultados fossem insatisfatórios', perdendo a nuance do temor específico e a modalidade. (C) usa voz passiva em vez de ativa; além disso, 'temer' é transitivo direto, mas seu objeto é oração (não 'resultados insatisfatórios' diretamente — haveria perda da oração objetiva). (D) 'tiveram medo' altera o registro e a estrutura sintática. (E) transforma o objeto direto em sujeito e usa passiva, diferente do pedido de voz ativa."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Analise o trecho reescrito: Original: 'Os candidatos foram aprovados porque apresentaram excelente desempenho.' Reescrita: 'Os candidatos foram aprovados; **visto que** apresentaram excelente desempenho.' A reescrita:",
+      "enunciado": "A frase 'À medida que os recursos diminuíam, as dificuldades aumentavam.' reescrita com locução equivalente mantendo a proporcionalidade fica:",
       "alternativas": {
-        "A": "É adequada, pois 'visto que' pode substituir 'porque' em qualquer contexto sem alteração de sentido.",
-        "B": "Apresenta problema de coesão sequencial, pois 'visto que' é conjunção subordinativa causal, mas a ordem das orações (causa após efeito, separadas por ponto e vírgula) é atípica e pode prejudicar a clareza.",
-        "C": "É inadequada porque 'visto que' indica condição, não causa.",
-        "D": "É inadequada porque 'visto que' é um conectivo exclusivo da língua escrita formal e não pode ser usado após ponto e vírgula.",
-        "E": "É adequada e superior ao original, pois o ponto e vírgula confere maior ênfase à relação causal."
+        "A": "Proporcionalmente à diminuição dos recursos, as dificuldades aumentavam.",
+        "B": "Apesar da diminuição dos recursos, as dificuldades aumentavam.",
+        "C": "Porque os recursos diminuíam, as dificuldades aumentavam.",
+        "D": "Quando os recursos diminuíam, as dificuldades aumentavam.",
+        "E": "Se os recursos diminuíssem, as dificuldades aumentariam."
       },
-      "gabarito": "B",
-      "explicacao": "'Visto que' é de fato uma conjunção subordinativa causal, semanticamente equivalente a 'porque'. Porém, 'visto que' tipicamente introduz a causa ANTES do efeito (ordem direta da subordinação causal), e seu uso após ponto e vírgula — que separa as orações como se fossem mais independentes — é gramaticalmente atípico e pode prejudicar a clareza. A reescrita não é catastroficamente errada, mas apresenta problema de coesão sequencial pela combinação incomum de ponto e vírgula + 'visto que'. A alternativa A erra ao dizer que a substituição é sempre adequada. A alternativa C erra: 'visto que' é causal, não condicional. A alternativa D cria uma restrição inexistente."
+      "gabarito": "A",
+      "explicacao": "'À medida que' é conjunção proporcional, expressando relação de proporcionalidade entre dois eventos simultâneos e progressivos. (A) é a única que preserva essa relação proporcional através da locução 'proporcionalmente à diminuição dos recursos'. (B) 'apesar da' expressa concessão. (C) 'porque' expressa causa simples, sem proporcionalidade. (D) 'quando' expressa simultaneidade temporal sem proporcionalidade. (E) 'se...seriam' expressa condição hipotética, com mudança de modo verbal e de significado."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Leia o parágrafo: 'A pontualidade é uma virtude exigida dos militares. O regulamento interno estipula horários rígidos para todas as atividades. Atrasos são passíveis de sanção disciplinar. Por isso, a hora de chegada deve ser rigorosamente observada.' O parágrafo apresenta qual padrão de progressão temática?",
+      "enunciado": "Leia: 'O comandante ordenou que os marinheiros recolhessem os equipamentos.' Assinale a alternativa que reescreve com nominalização da oração objetiva direta sem perda de sentido:",
       "alternativas": {
-        "A": "Progressão linear, pois a rema de cada frase torna-se o tema da seguinte sem exceção.",
-        "B": "Progressão com temas derivados de um hipertema, pois todas as frases desenvolvem aspectos do tema geral 'pontualidade e suas exigências'.",
-        "C": "Progressão com tema constante, pois 'pontualidade' permanece o sujeito gramatical de todas as frases.",
-        "D": "Ausência de progressão, pois o parágrafo apresenta apenas tautologia.",
-        "E": "Progressão por antítese, pois cada frase se opõe à anterior."
+        "A": "O comandante ordenou o recolhimento dos equipamentos pelos marinheiros.",
+        "B": "O comandante ordenou o recolhimento dos equipamentos.",
+        "C": "O comandante ordenou os marinheiros a recolherem os equipamentos.",
+        "D": "O comandante deu ordens para o recolhimento dos equipamentos.",
+        "E": "O recolhimento dos equipamentos foi ordenado pelo comandante."
       },
-      "gabarito": "B",
-      "explicacao": "O parágrafo apresenta progressão com temas derivados: há um hipertema geral (pontualidade como exigência militar) do qual derivam subtemas específicos — regulamento (frase 2), sanções (frase 3), conclusão prática (frase 4). Cada frase desenvolve um aspecto diferente do tema central, sem que a rema de uma se torne necessariamente o tema da próxima (o que seria progressão linear). Não é tema constante (C) porque 'pontualidade' não é o sujeito gramatical de todas as frases. Não há tautologia (D) — cada frase acrescenta informação nova. Não há antítese (E)."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: a oração objetiva direta 'que os marinheiros recolhessem os equipamentos' é nominalizada em 'o recolhimento dos equipamentos pelos marinheiros' — o verbo 'recolherem' → substantivo 'recolhimento'; o sujeito 'os marinheiros' → agente nominal 'pelos marinheiros'; o objeto 'os equipamentos' → adjunto adnominal 'dos equipamentos'. Todos os elementos são preservados. (B) suprime os marinheiros como agente, perdendo informação. (C) altera a regência do verbo 'ordenar' (que não rege 'ordenar alguém a fazer algo' na norma culta). (D) suprime os marinheiros e usa paráfrase com verbo 'dar'. (E) reescreve na passiva, não nominaliza a oração objetiva."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Sobre a distinção entre coesão e coerência, assinale a alternativa que apresenta um texto com problema EXCLUSIVAMENTE de coesão (e não de coerência):",
+      "enunciado": "Assinale a alternativa que reescreve 'Não havia um oficial sequer que duvidasse da missão.' sem negar explicitamente e sem usar 'sequer', preservando o sentido de ausência total de dúvida:",
       "alternativas": {
-        "A": "'O militar foi punido. A punição foi merecida. A punição foi comunicada formalmente.' (repetição excessiva)",
-        "B": "'O sol nasceu a oeste. Por isso, o dia estava claro.' (relação lógica impossível)",
-        "C": "'O documento foi protocolado. Ela aguarda deferimento.' (pronome 'ela' sem antecedente claro — o documento é masculino)",
-        "D": "'A Marinha é uma força de mar. O futebol é popular no Brasil.' (irrelevância temática)",
-        "E": "'O candidato estudou bastante. Portanto, não estava bem preparado.' (contradição lógica com conectivo inadequado)"
+        "A": "Todos os oficiais confiavam plenamente na missão.",
+        "B": "Nenhum oficial duvidava da missão.",
+        "C": "Os oficiais duvidavam da missão em algum grau.",
+        "D": "Havia oficiais que não duvidavam da missão.",
+        "E": "Os oficiais, em sua maioria, não duvidavam da missão."
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C apresenta problema exclusivo de coesão referencial: o pronome 'ela' é feminino, mas o único antecedente disponível é 'o documento' (masculino) — não há referente feminino no texto. Isso é um problema de coesão (ligação formal mal resolvida), não de coerência semântica: o texto faz sentido lógico (protocolar um documento e aguardar deferimento é coerente), mas a ligação pronominal está errada. As alternativas B e E apresentam problemas de coerência lógica. A alternativa D apresenta problema de coerência por irrelevância. A alternativa A pode ser questionável como problema de coesão ou coerência, mas não é tão clara quanto C."
+      "gabarito": "A",
+      "explicacao": "(A) é a única que elimina a negação e 'sequer' ao afirmar positivamente a ausência de dúvida de todos: 'confiar plenamente' é o antônimo semântico de 'duvidar', e 'todos os oficiais' é o equivalente positivo de 'não havia um oficial sequer'. A pergunta é uma questão de equivalência semântica por antônimo e universalização. (B) usa negação explícita ('nenhum') e dúvida ('duvidava'), não atende ao pedido de eliminar a negação. (C) inverte o sentido (afirma dúvida). (D) afirma existência de alguns oficiais sem dúvida, mas não generaliza para todos. (E) usa 'em sua maioria', restringindo para a maior parte, não para todos."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o texto a seguir e responda à questão:\n\n'O Comando do Exército divulgou nota informando que as novas diretrizes operacionais entrarão em vigor no próximo trimestre. As medidas, elaboradas após ampla consulta aos setores envolvidos, visam a modernizar os procedimentos internos. Elas foram recebidas com cautela pelos comandantes de região, que aguardam os detalhes da implementação. Contudo, o impacto positivo esperado justifica o esforço de adaptação.'\n\nSobre a coesão e a coerência do texto, analise as afirmações:\nI. O pronome 'elas' (terceira frase) retoma anaforicamente 'as medidas', estabelecendo coesão referencial adequada.\nII. O uso de 'contudo' na última frase é inadequado, pois não há contraste real entre aguardar detalhes e o impacto positivo esperado.\nIII. A expressão 'as medidas' é um mecanismo de coesão lexical por hiperonímia em relação às 'novas diretrizes operacionais'.\nEstão corretas:",
+      "enunciado": "Leia o trecho a seguir, extraído de um relatório técnico naval fictício:\n\n'O sistema de navegação foi atualizado pelos técnicos da base no início do trimestre. Os dados coletados pelos sensores foram processados em tempo real. Problemas residuais foram identificados pela equipe e corrigidos imediatamente.'\n\nA reescritura do primeiro período na voz ativa, preservando o tempo verbal e o conteúdo informacional, é:",
       "alternativas": {
-        "A": "Apenas I.",
-        "B": "Apenas II.",
-        "C": "Apenas I e III.",
-        "D": "Apenas I e II.",
-        "E": "I, II e III."
+        "A": "Os técnicos da base atualizaram o sistema de navegação no início do trimestre.",
+        "B": "Os técnicos da base atualizaram o sistema de navegação.",
+        "C": "Os técnicos da base vão atualizar o sistema de navegação no início do trimestre.",
+        "D": "O sistema de navegação foi atualizado no início do trimestre.",
+        "E": "Os técnicos atualizaram o sistema de navegação da base no início do trimestre."
       },
-      "gabarito": "D",
-      "explicacao": "Afirmação I: correta. 'Elas' retoma 'as medidas' — ambas femininas e plurais, sem ambiguidade. Coesão referencial anafórica adequada. Afirmação II: correta. 'Contudo' é adversativo — exige contraste. A quarta frase ('o impacto positivo justifica o esforço') não se opõe à cautela dos comandantes; pelo contrário, complementa ou justifica a situação. O conectivo adequado seria 'ainda assim', 'no entanto' com ressalva, ou 'porém' se a adversidade fosse mais evidente. Mas mesmo assim, aguardar detalhes (cautela) e esperar impacto positivo são fatos que poderiam estar em tensão — a afirmação II é a mais polêmica, mas tecnicamente defensável. Afirmação III: incorreta. 'As medidas' é uma expressão de referenciação anafórica que funciona como sinônimo contextual (ou quase-sinônimo) de 'diretrizes operacionais', não como hiperônimo. Um hiperônimo englobaria as diretrizes como espécie — 'as medidas' tem relação de equivalência no contexto, não de classe mais ampla. Portanto, I e II estão corretas."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: agente 'pelos técnicos da base' → sujeito 'os técnicos da base'; sujeito passivo 'o sistema de navegação' → objeto direto; 'foi atualizado' (pretérito perfeito passivo) → 'atualizaram' (pretérito perfeito ativo); adjunto adverbial 'no início do trimestre' preservado. (B) suprime o adjunto temporal 'no início do trimestre', perdendo informação. (C) usa futuro perifrástico, mudando o tempo verbal. (D) omite o agente, retirando informação do original. (E) desloca 'da base' para adjetivo de 'sistema', alterando o significado ('os técnicos atualizaram o sistema de navegação da base' ≠ 'os técnicos da base atualizaram o sistema de navegação')."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Leia o texto:\n\n'A leitura é um hábito que transforma. Quem lê com regularidade amplia o vocabulário, desenvolve o raciocínio crítico e enriquece a capacidade de expressão. Esses benefícios, porém, não chegam de imediato: demandam tempo, constância e comprometimento. Portanto, aqueles que buscam os resultados da leitura sem o investimento que ela exige tendem à frustração.'\n\nSobre o texto, é INCORRETO afirmar que:",
+      "enunciado": "Leia o fragmento de regulamento interno fictício:\n\n'Compete ao oficial de plantão verificar os equipamentos antes que a guarda assuma o posto. A inspeção deverá ser registrada no livro de bordo.'\n\nA reescritura do primeiro período que substitui a oração temporal por locução e mantém o sentido é:",
       "alternativas": {
-        "A": "A expressão 'esses benefícios' retoma anaforicamente os três elementos listados na segunda frase (vocabulário, raciocínio crítico, capacidade de expressão).",
-        "B": "O conectivo 'porém' está adequado, pois introduz uma ressalva ou contraponto à afirmação anterior sobre os benefícios da leitura.",
-        "C": "O conectivo 'portanto' introduz uma conclusão logicamente derivada das informações anteriores.",
-        "D": "O texto apresenta progressão linear, pois a rema de cada frase torna-se o tema da seguinte, sem exceção.",
-        "E": "O texto é coerente, pois não apresenta contradições lógicas, mantém o tema central (leitura e seus benefícios) e progride informativamente."
+        "A": "Compete ao oficial de plantão verificar os equipamentos antes da assunção do posto pela guarda.",
+        "B": "Compete ao oficial de plantão verificar os equipamentos antes de assumir o posto.",
+        "C": "Compete ao oficial de plantão verificar os equipamentos quando a guarda assumir o posto.",
+        "D": "Compete ao oficial de plantão verificar os equipamentos para que a guarda assuma o posto.",
+        "E": "Compete ao oficial de plantão verificar os equipamentos após a guarda assumir o posto."
       },
-      "gabarito": "D",
-      "explicacao": "A alternativa D é a incorreta porque o texto não apresenta progressão estritamente linear. O padrão predominante é de progressão com hipertema constante (os benefícios da leitura e suas exigências) com temas derivados, não linear pura — em que cada rema se tornaria o tema da frase seguinte sem exceção. Por exemplo, a rema da segunda frase ('amplia vocabulário, desenvolve raciocínio, enriquece expressão') não se torna o tema literal da terceira frase — o tema da terceira é 'esses benefícios' (retomada coletiva), não um dos elementos específicos da rema anterior. As demais afirmativas (A, B, C, E) estão corretas."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: 'antes que a guarda assuma o posto' (oração temporal com sujeito diferente da principal) → 'antes da assunção do posto pela guarda' (locução temporal com nominalização 'assunção' e agente 'pela guarda'). Os dois sujeitos diferentes são preservados pela estrutura nominal. (B) usa infinitivo 'assumir' sem sujeito explícito, o que sugeriria que é o oficial (sujeito da principal) quem assume o posto, alterando o sentido. (C) 'quando' expressa simultaneidade, não anterioridade. (D) 'para que' expressa finalidade. (E) 'após' inverte a ordem temporal."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho de texto oficial (simulado):\n\n'O servidor deverá apresentar os documentos solicitados até o dia 30 do corrente mês. Caso não o faça no prazo estipulado, o processo será arquivado. **Outrossim**, deverá agendar entrevista com a chefia imediata para fins de instrução do expediente.'\n\nSobre o uso do conectivo 'outrossim', assinale a alternativa correta:",
+      "enunciado": "Leia o trecho de comunicado institucional fictício:\n\n'Em razão das condições meteorológicas adversas, o exercício de campo foi suspenso pela coordenação do curso. Todavia, as atividades teóricas prosseguirão normalmente.'\n\nA reescritura do primeiro período na voz ativa com a relação causal preservada em oração é:",
       "alternativas": {
-        "A": "'Outrossim' indica oposição, portanto seu uso é inadequado, devendo ser substituído por 'contudo'.",
-        "B": "'Outrossim' é um conectivo aditivo de registro formal, equivalente a 'além disso' ou 'também', adequado para acrescentar nova obrigação ao texto oficial.",
-        "C": "'Outrossim' indica conclusão lógica, equivalendo a 'portanto', sendo seu uso adequado para introduzir consequência da não apresentação dos documentos.",
-        "D": "'Outrossim' é um conectivo de uso exclusivo da língua literária e não deve figurar em textos oficiais.",
-        "E": "'Outrossim' indica concessão, equivalendo a 'embora', sendo seu uso inadequado no contexto de listagem de obrigações."
+        "A": "A coordenação do curso suspendeu o exercício de campo porque as condições meteorológicas eram adversas.",
+        "B": "A coordenação do curso suspendeu o exercício de campo embora as condições meteorológicas fossem adversas.",
+        "C": "A coordenação do curso suspendeu o exercício de campo e as condições meteorológicas eram adversas.",
+        "D": "As condições meteorológicas adversas suspenderam o exercício de campo.",
+        "E": "A coordenação do curso suspendeu o exercício de campo apesar das condições meteorológicas adversas."
       },
-      "gabarito": "B",
-      "explicacao": "'Outrossim' é um conectivo aditivo de registro formal, equivalente a 'além disso', 'ademais', 'também' — acrescenta uma informação ou exigência a uma já apresentada. É amplamente utilizado em textos jurídicos, administrativos e oficiais, como documentos militares. No trecho, 'outrossim' adiciona uma nova obrigação (agendar entrevista) às já mencionadas (apresentar documentos). O Manual da Marinha (2024) admite o uso de conectivos formais como 'outrossim' em comunicações oficiais. Não indica oposição (A), conclusão (C), nem é exclusivo da linguagem literária (D), tampouco indica concessão (E)."
+      "gabarito": "A",
+      "explicacao": "(A) é correta: 'em razão das condições meteorológicas adversas' (locução causal) → 'porque as condições meteorológicas eram adversas' (oração causal); 'foi suspenso pela coordenação' (passiva) → 'a coordenação suspendeu' (ativa). O sentido causal é mantido. (B) 'embora' é concessivo, invertendo a relação lógica. (C) usa coordenação aditiva, perdendo a relação causal. (D) atribui a ação de suspender às condições meteorológicas (sujeito que não é agente possível para 'suspender' intencionalmente). (E) 'apesar das' é concessivo, alterando o sentido."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia o parágrafo e responda:\n\n'A preparação para concursos militares exige método. Não basta estudar muito: é necessário estudar com eficiência. Quem organiza o tempo, seleciona o material adequado e revisita os conteúdos periodicamente tende a superar quem simplesmente acumula horas de estudo sem planejamento. Assim, a qualidade da preparação define o resultado, não apenas a quantidade.'\n\nSobre a estrutura coesiva e coerente do texto, analise:\nI. O conectivo 'assim' na última frase introduz uma conclusão derivada logicamente das informações anteriores.\nII. Há um paralelismo sintático na estrutura 'quem organiza o tempo, seleciona o material... e revisita os conteúdos', que contribui para a coesão.\nIII. O texto apresenta problema de coerência, pois afirmar que 'não basta estudar muito' contradiz a exigência de 'preparação' mencionada no início.\nEstão corretas apenas:",
+      "enunciado": "Leia o excerto de ata fictícia:\n\n'Deliberou-se acerca da proposta de modernização dos equipamentos. Decidiu-se que o investimento seria realizado no próximo exercício financeiro. Não se chegou a um consenso quanto ao fornecedor.'\n\nA alternativa que reescreve o primeiro período explicitando sujeito ativo SEM acrescentar informação não contida no original é:",
       "alternativas": {
-        "A": "I.",
-        "B": "II.",
-        "C": "I e II.",
-        "D": "II e III.",
-        "E": "I, II e III."
+        "A": "O colegiado deliberou acerca da proposta de modernização dos equipamentos.",
+        "B": "O colegiado deliberou sobre a modernização dos equipamentos.",
+        "C": "A proposta de modernização dos equipamentos foi deliberada.",
+        "D": "Os membros deliberaram acerca da proposta de modernização dos equipamentos.",
+        "E": "A diretoria deliberou acerca da proposta de modernização dos equipamentos."
       },
-      "gabarito": "C",
-      "explicacao": "Afirmação I: correta. 'Assim' é um conectivo conclusivo que introduz a síntese lógica das informações anteriores: método e qualidade superam quantidade — conclusão válida e derivada do argumento apresentado. Afirmação II: correta. 'Quem organiza o tempo, seleciona o material adequado e revisita os conteúdos' apresenta três verbos no mesmo tempo e modo, com estrutura paralela, contribuindo para a coesão sintática e rítmica. Afirmação III: incorreta. Não há contradição: 'preparação exige método' e 'não basta estudar muito (sem eficiência)' são complementares, não contraditórios. O texto argumenta que método e qualidade são superiores à quantidade bruta — posição coerente e progressiva. Portanto, apenas I e II estão corretas."
+      "gabarito": "D",
+      "explicacao": "A questão exige atenção ao contexto de ata e ao uso de 'se' como índice de indeterminação. 'Deliberou-se' indica sujeito indeterminado. A passagem para ativa com sujeito hipotético deve usar o recurso mínimo que não acrescente informação específica. (D) usa 'os membros', termo genérico compatível com deliberação coletiva sem especificar qual órgão. (A) 'o colegiado' acrescenta uma especificação institucional não presente. (B) além de acrescentar 'o colegiado', suprime 'acerca da proposta de' e troca por 'sobre a', alterando levemente a estrutura. (C) usa voz passiva, não ativa como pedido. (E) 'a diretoria' acrescenta especificação não autorizada pelo texto."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Leia o texto:\n\n'A comunicação eficaz nas organizações militares depende de clareza, objetividade e precisão. Documentos redigidos sem esses atributos geram ambiguidade, retrabalho e risco de cumprimento inadequado das ordens. **Por essa razão**, o Manual de Redação da Marinha estabelece padrões rigorosos para a produção de toda a documentação oficial. **Tais padrões**, ao serem seguidos, garantem a inteligibilidade das comunicações e a uniformidade dos procedimentos.'\n\nAs expressões destacadas 'por essa razão' e 'tais padrões' exercem, respectivamente, quais funções coesivas?",
+      "enunciado": "Leia o trecho de parecer técnico fictício:\n\n'A solução adotada, conquanto tecnicamente viável, implicou custos operacionais não previstos no orçamento inicial.'\n\nA reescritura com oração adverbial desenvolvida que preserva o valor semântico da locução 'conquanto' é:",
       "alternativas": {
-        "A": "Coesão sequencial causal e coesão referencial anafórica.",
-        "B": "Coesão referencial anafórica e coesão sequencial conclusiva.",
-        "C": "Coesão sequencial conclusiva e coesão lexical por sinonímia.",
-        "D": "Coesão sequencial consecutiva e coesão referencial catafórica.",
-        "E": "Coesão lexical por hiperonímia e coesão sequencial adversativa."
+        "A": "A solução adotada, ainda que fosse tecnicamente viável, implicou custos operacionais não previstos no orçamento inicial.",
+        "B": "A solução adotada, porque era tecnicamente viável, implicou custos operacionais não previstos no orçamento inicial.",
+        "C": "A solução adotada, desde que fosse tecnicamente viável, implicou custos operacionais não previstos no orçamento inicial.",
+        "D": "A solução adotada, quando era tecnicamente viável, implicou custos operacionais não previstos no orçamento inicial.",
+        "E": "A solução adotada, posto que era tecnicamente viável, implicou custos operacionais não previstos no orçamento inicial."
       },
       "gabarito": "A",
-      "explicacao": "'Por essa razão' é um conectivo de coesão sequencial causal/conclusiva — retoma as razões expostas (ambiguidade, retrabalho, risco) e as apresenta como causa que justifica o estabelecimento dos padrões. É primariamente um conectivo de relação causal-conclusiva, marcando coesão sequencial. 'Tais padrões' é uma expressão nominal definida que retoma anaforicamente 'padrões rigorosos' estabelecidos pelo Manual — exercendo coesão referencial anafórica. A alternativa A descreve corretamente as duas funções. A alternativa B inverte as funções. A alternativa C erra ao chamar 'tais padrões' de sinonímia. A alternativa D erra ao chamar o primeiro de 'consecutivo' (que indica resultado de intensidade) e o segundo de 'catafórico'. A alternativa E está completamente equivocada."
+      "explicacao": "'Conquanto' é conjunção concessiva equivalente a 'embora', 'ainda que', 'mesmo que', 'por mais que'. (A) é correta: 'ainda que fosse tecnicamente viável' é oração concessiva com subjuntivo imperfeito, equivalente à locução participial 'conquanto tecnicamente viável'. (B) 'porque' expressa causa. (C) 'desde que' expressa condição. (D) 'quando' expressa tempo. (E) 'posto que', embora possa ter valor causal em determinados contextos, no uso corrente culto equivale a 'visto que' (causal), não a 'conquanto' (concessivo). A substituição por (E) alteraria a relação semântica."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
       "gram-01",
-      "gram-02",
+      "gram-03",
+      "gram-04",
+      "gram-05",
+      "gram-06",
+      "gram-08",
       "gram-09",
       "gram-10",
       "gram-11",
+      "gram-13",
+      "gram-14",
+      "gram-12",
+      "comp-10",
+      "comp-02",
+      "comp-02",
       "comp-03",
+      "comp-05",
       "comp-06",
       "comp-07",
-      "gram-08",
-      "comp-10"
+      "comp-08",
+      "comp-09",
+      "comp-11",
+      "comp-14"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-08",
-        "enunciado": "Leia: 'O candidato estudou exaustivamente, **mas** não demonstrou ansiedade excessiva na prova, aprovando com folga.' O conectivo 'mas' e a relação coesiva que ele estabelece estão:",
+        "topico_referencia": "comp-10 + gram-11",
+        "enunciado": "Leia: 'A maioria dos candidatos foram aprovados na prova.' Assinale a alternativa que apresenta a reescritura na voz passiva analítica com concordância verbal correta:",
         "alternativas": {
-          "A": "Adequados, pois 'mas' pode introduzir qualquer continuação após uma oração.",
-          "B": "Inadequados: há contradição coerente — estudar muito e não ter ansiedade são opostos esperados, mas a aprovação (consequência) deveria ser introduzida por 'portanto', não por 'mas' que indica oposição antes da aprovação.",
-          "C": "Adequados, pois 'mas' indica que a ausência de ansiedade é surpreendente dado o estudo exaustivo.",
-          "D": "Inadequados apenas estilisticamente, pois 'porém' seria mais formal que 'mas'.",
-          "E": "Adequados, pois a coordenação adversativa com 'mas' pode indicar adição em registro informal."
+          "A": "A prova foi passada pela maioria dos candidatos.",
+          "B": "A prova aprovou a maioria dos candidatos.",
+          "C": "A maioria dos candidatos foram passados pela prova.",
+          "D": "Os candidatos, em sua maioria, foram aprovados na prova.",
+          "E": "A maioria foi aprovada na prova pelos candidatos."
         },
-        "gabarito": "C",
-        "explicacao": "O 'mas' é adequado porque introduz um fato inesperado: dado que o candidato estudou exaustivamente, seria esperado que apresentasse ansiedade — o 'mas' indica que isso não ocorreu (fato contrário ao esperado). A coesão sequencial adversativa está corretamente empregada. O trecho tem coerência e coesão: estudo exaustivo (contexto) + mas não demonstrou ansiedade (fato adverso ao esperado) + aprovando com folga (gerúndio de resultado). A alternativa B erra ao dizer que a aprovação deveria ser introduzida por 'portanto' — 'aprovando' está na forma de gerúndio consecutivo, integrado à oração adversativa. As demais alternativas erram ao relativizar o uso do conectivo sem analisar a relação lógica correta."
+        "gabarito": "B",
+        "explicacao": "Esta questão integra reescritura (gram-13) e concordância verbal (gram-09). A frase original está gramaticalmente problemática: o verbo 'aprovar' é ativo e 'a maioria dos candidatos' é sujeito. Na passagem para a voz ativa de 'A maioria dos candidatos foi/foram aprovada(os)', o sujeito paciente 'a maioria dos candidatos' torna-se objeto direto e o agente (implícito: a prova/banca) torna-se sujeito ativo. (B) 'A prova aprovou a maioria dos candidatos' é a voz ativa correspondente: 'a prova' é sujeito agente (implícito no original), 'a maioria dos candidatos' é objeto direto. As demais alternativas ou invertem os papéis, ou mantêm a passiva com erros de concordância, ou criam sentido absurdo."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-09",
-        "enunciado": "Leia: 'A coesão e a coerência **é** o que garante a textualidade de um bom texto.' O período apresenta simultaneamente um problema de coesão e de concordância. Identifique-os corretamente:",
+        "topico_referencia": "comp-10 + gram-14",
+        "enunciado": "Considere: 'O oficial entregou ao recruta o certificado.' Assinale a alternativa que reescreve o período na voz passiva e usa corretamente a colocação pronominal:",
         "alternativas": {
-          "A": "Coesão: 'o que' é catáfora inadequada; concordância: 'é' concorda com 'o que' (singular) — nenhum problema real.",
-          "B": "Coesão: não há problema de coesão; concordância: o verbo 'é' deveria concordar com o sujeito composto 'a coesão e a coerência' — 'são o que garante'.",
-          "C": "Coesão: 'o que' não tem antecedente claro; concordância: 'é' está no singular, mas o sujeito é plural.",
-          "D": "Coesão: a expressão 'a textualidade de um bom texto' é redundante; concordância: o verbo está correto.",
-          "E": "Coesão: 'garante' deveria estar no plural; concordância: o verbo 'é' está correto pois concorda com o predicativo."
+          "A": "O certificado foi entregue ao recruta pelo oficial.",
+          "B": "O certificado foi-lhe entregue pelo oficial.",
+          "C": "Foi entregue o certificado ao recruta pelo oficial.",
+          "D": "Entregou-se o certificado ao recruta pelo oficial.",
+          "E": "O certificado lhe foi entregue pelo oficial."
         },
-        "gabarito": "B",
-        "explicacao": "O problema de concordância é claro: o sujeito composto 'a coesão e a coerência' é plural — o verbo deveria ser 'são', não 'é'. Quanto à coesão, a construção é gramaticalmente válida (estrutura de clivagem com 'o que'), mas o verbo no singular é o erro principal. A alternativa B identifica corretamente o problema de concordância verbal (sujeito composto + verbo no singular). Não há problema de coesão referencial propriamente dito — 'o que' funciona como pronome relativo que retoma a estrutura predicativa. Este desafio exige integração de comp-10 (coesão/coerência textual) e gram-09 (concordância verbal)."
+        "gabarito": "E",
+        "explicacao": "Esta questão integra reescritura de voz (gram-13) e colocação pronominal (gram-11). (A) é correta gramaticalmente, mas não usa pronome. (E) usa 'lhe' retomando 'ao recruta' (objeto indireto original, mantido como complemento) e posiciona o pronome antes do verbo principal ('foi entregue'), respeitando a regra de próclise obrigatória quando o pronome está próximo do verbo principal em perífrase. (B) 'foi-lhe entregue' usa ênclise ao auxiliar 'foi', posição não padrão na norma culta contemporânea — o pronome deve vir antes do verbo principal. (C) inversão da ordem sem ajuste de vírgulas. (D) uso do 'se' apassivador com agente expresso é construção rara e problemática na norma culta."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-11",
-        "enunciado": "Leia: 'Os resultados apresentaram-se favoráveis. A chefia **se** congratulou com os responsáveis.' Sobre a colocação pronominal e a coesão do trecho, é correto afirmar que:",
+        "topico_referencia": "comp-10 + gram-13",
+        "enunciado": "Leia: 'O chefe assistiu ao treinamento dos novos recrutas.' Assinale a alternativa que reescreve na voz passiva analítica com a regência verbal correta:",
         "alternativas": {
-          "A": "A colocação de 'se' está errada; o correto seria 'congratulou-se', e o trecho perde coesão por elipse inadequada do sujeito.",
-          "B": "A colocação de 'se' é inadequada em início de oração; o pronome 'se' deveria ser posicionado após o verbo: 'congratulou-se'. A coesão do trecho não está comprometida.",
-          "C": "A colocação de 'se' é adequada, pois 'a chefia' é sujeito que não atrai ênclise; e a coesão está garantida pela progressão temática linear entre as frases.",
-          "D": "A colocação de 'se' está correta por ser oração com sujeito expresso, que na norma padrão permite próclise.",
-          "E": "A colocação de 'se' é irrelevante para a coesão, que depende apenas dos conectivos entre as orações."
+          "A": "O treinamento dos novos recrutas foi assistido pelo chefe.",
+          "B": "Os novos recrutas foram assistidos pelo chefe no treinamento.",
+          "C": "O treinamento foi assistido ao chefe pelos novos recrutas.",
+          "D": "O chefe teve o treinamento assistido.",
+          "E": "Ao treinamento dos novos recrutas, o chefe assistiu."
         },
-        "gabarito": "B",
-        "explicacao": "Na norma padrão culta, pronomes átonos não devem iniciar período ou oração. 'A chefia se congratulou' coloca o pronome 'se' em posição proclítica em relação ao verbo 'congratulou' — o que é correto quando há sujeito antes do verbo. Porém, a questão está mal formulada propositalmente: 'se' antes do verbo, com sujeito expresso, é próclise — permitida pela norma padrão quando há sujeito antes. O correto é 'A chefia congratulou-se' (ênclise, mais conservadora) ou 'A chefia se congratulou' (próclise, aceita). A coesão entre as frases não está comprometida — há progressão temática adequada. A alternativa B identifica a questão de colocação mais conservadora sem comprometer a análise coesiva."
+        "gabarito": "A",
+        "explicacao": "Esta questão integra reescritura (gram-13) e regência verbal (gram-10). 'Assistir' com sentido de 'presenciar' é transitivo INDIRETO (rege preposição 'a'): 'assistir a algo'. Transitivos indiretos NÃO formam passiva analítica convencional. No entanto, em provas, quando a questão pede passiva de 'assistir a', a construção mais aceita é usando o complemento inteiro como sujeito passivo: 'O treinamento dos novos recrutas foi assistido pelo chefe'. (A) representa essa construção. (B) usa 'os novos recrutas' como sujeito paciente, o que seria adequado para 'assistir' no sentido de 'auxiliar' (diferente sentido). (C) inverte agente e paciente. (D) é paráfrase com verbo 'ter'. (E) é ordem invertida sem passiva."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-02",
-        "enunciado": "Leia: 'Referiu-se **à** questão da coesão textual, que é fundamental **à** redação oficial.' O uso da crase e a função coesiva das expressões destacadas estão:",
+        "topico_referencia": "comp-10 + gram-10",
+        "enunciado": "Leia: 'A missão foi cumprida; por isso, o comandante recebeu elogios.' Assinale a alternativa que funde os dois períodos em um único período composto, preservando a relação de causa e consequência:",
         "alternativas": {
-          "A": "Corretos: ambas as crases são obrigatórias (preposição 'a' + artigo feminino 'a') e a expressão 'que' promove coesão por subordinação relativa.",
-          "B": "Correto apenas o primeiro 'à': 'referir-se a' exige preposição antes de artigo feminino, gerando crase; o segundo 'à' está errado pois 'fundamental' não rege preposição.",
-          "C": "Incorretos: 'referir-se' não admite crase, pois é verbo pronominal.",
-          "D": "Corretos, mas apenas por coincidência: os dois 'às' são crases facultativas em contexto formal.",
-          "E": "Incorreto o segundo 'à': 'fundamental à redação' exige crase apenas quando o substantivo é feminino definido, o que não ocorre com 'redação oficial'."
+          "A": "Como a missão foi cumprida, o comandante recebeu elogios.",
+          "B": "O comandante recebeu elogios porque a missão foi cumprida.",
+          "C": "A missão foi cumprida, de modo que o comandante recebeu elogios.",
+          "D": "A missão foi cumprida, então o comandante recebeu elogios.",
+          "E": "Cumprida a missão, o comandante recebeu elogios."
         },
-        "gabarito": "A",
-        "explicacao": "Ambos os empregos de crase são corretos. 'Referiu-se à questão': o verbo 'referir-se' é transitivo indireto com preposição 'a', e 'questão' é substantivo feminino com artigo — crase obrigatória. 'Fundamental à redação': o adjetivo 'fundamental' rege a preposição 'a' (fundamental a algo), e 'redação' é substantivo feminino com artigo implícito — crase obrigatória. A integração comp-10 + gram-02 exige que o candidato reconheça o mecanismo coesivo (pronome relativo 'que') e valide simultaneamente as crases. As alternativas B, C, D e E erram ao negar uma ou ambas as crases sem justificativa gramatical válida."
+        "gabarito": "C",
+        "explicacao": "Esta questão integra reescritura (gram-13) e coordenação/subordinação (gram-08). A conjunção 'por isso' indica conclusão/consequência (oração coordenada conclusiva). Ao fundir em um período, deve-se preservar a relação de consequência. (C) 'de modo que' é conjunção subordinativa consecutiva que expressa a consequência do fato anterior — equivale perfeitamente a 'por isso' ao fundir os dois períodos. (A) 'como' é causal, mas inverte a ordem e enfraquece a ênfase na consequência. (B) 'porque' é causal, não consecutiva. (D) 'então' é coordenativa conclusiva, possível mas menos formal que 'de modo que'. (E) reduz a oração, perdendo a conjunção lógica explícita. (C) é a melhor resposta por usar a conjunção subordinativa consecutiva que substitui com precisão 'por isso'."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + comp-07",
-        "enunciado": "Leia: 'O texto era um labirinto sem saída: as ideias se cruzavam, se contradiziam e se perdiam num emaranhado de incoerências.' A metáfora 'labirinto sem saída' e a figura de linguagem presente em 'as ideias se cruzavam, se contradiziam e se perdiam' contribuem para:",
+        "topico_referencia": "comp-10 + gram-12",
+        "enunciado": "Considere: 'Os resultados serão divulgados pela chefia na sexta-feira.' Assinale a alternativa que reescreve na voz ativa com a pontuação correta ao deslocar o adjunto temporal para o início:",
         "alternativas": {
-          "A": "Comprometer a coerência do texto, pois linguagem figurada é incompatível com a análise racional do texto.",
-          "B": "Criar coerência temática e coesão simultâneas: a metáfora introduz o tema (desorientação) e o paralelismo verbal ('se cruzavam, se contradiziam, se perdiam') desenvolve-o coesivamente por gradação e repetição estrutural.",
-          "C": "Gerar problema de coesão referencial, pois 'as ideias' não tem antecedente claro no texto.",
-          "D": "Apenas criar efeito estético, sem relação com as propriedades de coesão ou coerência.",
-          "E": "Comprometer a coesão sequencial, pois o conectivo 'e' final substitui indevidamente um conectivo conclusivo."
+          "A": "Na sexta-feira, a chefia divulgará os resultados.",
+          "B": "Na sexta-feira a chefia divulgará os resultados.",
+          "C": "A chefia, na sexta-feira, divulgará os resultados.",
+          "D": "Na sexta-feira: a chefia divulgará os resultados.",
+          "E": "A chefia divulgará — na sexta-feira — os resultados."
         },
-        "gabarito": "B",
-        "explicacao": "A metáfora 'labirinto sem saída' estabelece o tema (desorientação e incoerência textual) com coerência: as ideias que 'se cruzam, contradizem e perdem' são exatamente o que se espera num labirinto. O paralelismo verbal ('se cruzavam, se contradiziam, se perdiam') é um mecanismo de coesão por repetição estrutural (três verbos reflexivos em serie), que também configura gradação (intensificação do caos). A integração de comp-10 (coesão e coerência) com comp-07 (figuras de linguagem) exige reconhecer que figuras retóricas podem ser recursos coesivos e contribuir para a coerência temática — não apenas elementos estéticos isolados."
+        "gabarito": "A",
+        "explicacao": "Esta questão integra reescritura (gram-13) e pontuação (gram-12). A reescritura na voz ativa é correta em todas as alternativas que colocam 'a chefia' como sujeito e 'os resultados' como objeto. A diferença está na pontuação. (A) é correta: adjunto adverbial 'na sexta-feira' deslocado para o início da frase deve ser seguido de vírgula obrigatória segundo a norma culta. (B) omite a vírgula após o adjunto deslocado, o que é erro de pontuação. (C) insere o adjunto entre sujeito e verbo com duas vírgulas — é aceitável, mas menos precisa como reescritura do original (não deslocou para o início). (D) usa dois-pontos indevidamente. (E) usa travessões para inserção intercalada — possível estilisticamente, mas não é padrão para adjunto temporal."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + comp-06",
-        "enunciado": "Leia: 'A Marinha recebeu novos meios navais. As corvetas foram as primeiras **unidades** a entrar em operação.' A palavra 'unidades' em relação a 'corvetas' estabelece qual relação lexical e qual mecanismo coesivo?",
+        "topico_referencia": "comp-10 + comp-11",
+        "enunciado": "Leia o parágrafo:\n\n'Os especialistas analisaram os dados coletados durante seis meses. Os dados foram interpretados à luz das novas diretrizes. As diretrizes foram publicadas no início do ano.'\n\nA reescritura que funde os três períodos em um único, usando recursos coesivos de referenciação e subordinação sem perda de informação, é:",
         "alternativas": {
-          "A": "Sinonímia e coesão lexical por substituição: 'unidades' é sinônimo de 'corvetas' no contexto militar.",
-          "B": "Hiperonímia e coesão referencial: 'unidades' é um hiperônimo que engloba 'corvetas', retomando-as anaforicamente.",
-          "C": "Antonímia e coesão por contraste: 'unidades' se opõe a 'corvetas' para criar progressão temática.",
-          "D": "Meronímia e coesão por elipse: 'unidades' é parte de 'corvetas', e o sujeito foi elidido.",
-          "E": "Polissemia e coesão catafórica: 'unidades' antecipa os diferentes tipos de embarcações."
+          "A": "Os especialistas analisaram os dados coletados durante seis meses, os quais foram interpretados à luz das novas diretrizes publicadas no início do ano.",
+          "B": "Os especialistas analisaram os dados durante seis meses, que foram interpretados pelas diretrizes do início do ano.",
+          "C": "Os dados foram analisados e interpretados pelos especialistas com as diretrizes novas de início do ano.",
+          "D": "Os especialistas analisaram e interpretaram os dados das novas diretrizes publicadas no início do ano durante seis meses.",
+          "E": "Os especialistas analisaram os dados, que foram interpretados com as diretrizes, publicadas no início do ano."
         },
-        "gabarito": "B",
-        "explicacao": "No contexto militar, 'unidades navais' é o hiperônimo técnico de 'corvetas' (hipônimo). A expressão 'as corvetas foram as primeiras unidades a entrar em operação' usa 'unidades' para retomar 'corvetas' anaforicamente — mas tecnicamente 'unidades' é uma categoria mais ampla (inclui fragatas, submarinos etc.), enquanto 'corvetas' é específica. Isso caracteriza hiperonímia com função anafórica (coesão lexical). A integração comp-10 (mecanismos coesivos) com comp-06 (relações lexicais) exige que o candidato distinga sinonímia (sentido equivalente) de hiperonímia (sentido mais amplo) para identificar corretamente o mecanismo coesivo em jogo."
+        "gabarito": "A",
+        "explicacao": "Esta questão integra reescritura (gram-13) e coesão textual (comp-10). (A) usa pronome relativo 'os quais' para retomar 'os dados coletados durante seis meses' (coesão referencial), e oração reduzida de particípio 'publicadas no início do ano' para subordinar a informação sobre as diretrizes. Todas as informações são preservadas e articuladas coesivamente. (B) 'que' é ambíguo (pode retomar 'dados' ou 'meses') e 'pelas diretrizes' indica agente incorreto (diretrizes não interpretam dados). (C) perde a informação sobre quem interpretou e a distinção entre coleta e interpretação. (D) confunde 'os dados das novas diretrizes', criando nova relação não presente no original. (E) gera ambiguidade: 'que foram interpretados' pode retomar 'os dados' ou 'os especialistas'."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-10",
-        "enunciado": "Leia: 'O comandante **referiu-se** ao relatório, **informou** os presentes sobre as conclusões e **pediu** que todos **refletissem** sobre as medidas propostas.' Sobre a regência dos verbos e a coesão do período, é correto afirmar que:",
+        "topico_referencia": "comp-10 + comp-07",
+        "enunciado": "Leia: 'O tempo voa quando estamos ocupados.' Esta frase contém uma metáfora. Assinale a alternativa que reescreve o período eliminando a linguagem figurada e usando linguagem denotativa, sem alterar o sentido:",
         "alternativas": {
-          "A": "Há problema de coesão, pois os três verbos no pretérito perfeito não mantêm paralelismo com 'refletissem' no pretérito imperfeito do subjuntivo.",
-          "B": "Todos os verbos estão com regência correta: 'referiu-se a', 'informou sobre' e 'pediu que' são regências padrão; a coesão é garantida pelo paralelismo da série verbal.",
-          "C": "'Pediu que refletissem' apresenta problema de regência, pois o verbo 'pedir' é intransitivo e não admite oração completiva.",
-          "D": "Há problema de coesão referencial, pois 'todos' não tem antecedente explícito no período.",
-          "E": "'Informou sobre as conclusões' apresenta problema de regência, pois o verbo 'informar' no sentido de comunicar é intransitivo direto."
+          "A": "O tempo parece passar rapidamente quando estamos ocupados.",
+          "B": "O tempo corre velozmente quando estamos ocupados.",
+          "C": "Quando estamos ocupados, o tempo nos escapa.",
+          "D": "O tempo, quando ocupados, anda depressa.",
+          "E": "Estando ocupados, o tempo se transforma em voo."
         },
-        "gabarito": "B",
-        "explicacao": "Todas as regências estão corretas: 'referiu-se a' (transitivo indireto com 'a'), 'informou os presentes sobre' (transitivo direto + indireto), 'pediu que' (+ completiva no subjuntivo — regência verbal padrão). A coesão do período é garantida pela série de três verbos coordenados ('referiu-se', 'informou', 'pediu') com estruturas paralelas — coesão sequencial por coordenação e paralelismo sintático. O uso do subjuntivo ('refletissem') em 'pediu que' é exigência de regência verbal, não problema de concordância ou coesão. A integração comp-10 + gram-10 exige validar simultaneamente regência e coesão."
+        "gabarito": "A",
+        "explicacao": "Esta questão integra reescritura (gram-13) e figuras de linguagem (comp-07). A metáfora 'o tempo voa' atribui ao tempo a capacidade de voar para expressar que o tempo passa rapidamente sem nos darmos conta. A reescritura denotativa deve substituir o sentido figurado por uma expressão literal. (A) 'o tempo parece passar rapidamente' é a versão denotativa mais precisa: usa 'parece' (modalização epistêmica adequada à percepção subjetiva do tempo) e 'rapidamente' (equivalente literal de 'voa'). (B) 'corre velozmente' é outra metáfora (personificação do tempo como ser que corre). (C) 'nos escapa' é metáfora de evasão. (D) 'anda depressa' é personificação/metáfora. (E) acrescenta informação nova ('se transforma em voo') e não elimina a linguagem figurada."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + comp-03",
-        "enunciado": "Leia o trecho: 'A pontuação do candidato não atingiu o mínimo exigido. **Por isso**, o processo seletivo prosseguirá sem a sua participação.' A informação implícita contida no uso do conectivo 'por isso' e na expressão 'sem a sua participação' é:",
+        "topico_referencia": "comp-10 + comp-06",
+        "enunciado": "Leia: 'O servidor demonstrou diligência na execução das tarefas.' Assinale a alternativa que reescreve o período substituindo 'diligência' por um sinônimo contextualmente adequado e ajustando a estrutura quando necessário:",
         "alternativas": {
-          "A": "Que o candidato foi aprovado em outra etapa do processo.",
-          "B": "Que a nota mínima não atingida é condição de eliminação — o candidato está desclassificado.",
-          "C": "Que o processo seletivo será cancelado por falta de candidatos.",
-          "D": "Que o candidato poderá recorrer da decisão em instância superior.",
-          "E": "Que a nota mínima exigida é superior à média dos demais candidatos."
+          "A": "O servidor demonstrou zelo na execução das tarefas.",
+          "B": "O servidor demonstrou velocidade na execução das tarefas.",
+          "C": "O servidor demonstrou grandeza na execução das tarefas.",
+          "D": "O servidor demonstrou obediência na execução das tarefas.",
+          "E": "O servidor demonstrou bravura na execução das tarefas."
         },
-        "gabarito": "B",
-        "explicacao": "O conectivo 'por isso' (consecutivo-causal) indica que a não obtenção da nota mínima é a causa da exclusão. 'Sem a sua participação' explicita que o candidato foi eliminado — é a informação implícita decorrente da construção: não atingir o mínimo → desclassificação → processo prossegue sem ele. A integração comp-10 (coesão sequencial com 'por isso') e comp-03 (informações implícitas) exige que o candidato identifique, a partir do mecanismo coesivo causal, qual informação está pressuposta na construção — no caso, a eliminação do candidato como consequência direta da nota insuficiente."
+        "gabarito": "A",
+        "explicacao": "Esta questão integra reescritura (gram-13) e relações lexicais — sinonímia (comp-06). 'Diligência' significa aplicação, cuidado, esmero, dedicação no cumprimento de obrigações. (A) 'zelo' é o sinônimo contextualmente mais adequado: ambos expressam cuidado e empenho profissional. (B) 'velocidade' expressa rapidez, não empenho ou cuidado — é hiperônimo de 'diligência' apenas em sentido etimológico (lat. diligentia), não no uso contemporâneo. (C) 'grandeza' expressa magnitude ou nobreza, não dedicação ao trabalho. (D) 'obediência' refere-se a acatamento de ordens, não a empenho na execução. (E) 'bravura' refere-se a coragem ou valentia, sem relação semântica com 'diligência'."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-01",
-        "enunciado": "Leia: 'O texto **mal-escrito** prejudica a **coerência**, pois os leitores **veem** incoerências onde o autor **prevê** clareza.' Sobre a ortografia e a coesão do trecho, assinale a alternativa correta:",
+        "topico_referencia": "comp-10 + gram-03",
+        "enunciado": "Leia: 'Iremos à sede da repartição entregar os documentos a ela destinados.' Assinale a reescritura na voz passiva que emprega corretamente o sinal de crase:",
         "alternativas": {
-          "A": "'Mal-escrito' está errado; o correto é 'mal escrito' (sem hífen), e o trecho é coeso pois 'pois' indica a relação explicativa corretamente.",
-          "B": "'Coerência' está acentuada incorretamente; deveria ser 'coerencia'; a coesão do trecho está comprometida pelo conectivo 'pois'.",
-          "C": "Todas as grafias estão corretas, e a coesão do trecho está garantida pelo conectivo explicativo-causal 'pois' e pela progressão temática.",
-          "D": "'Veem' e 'prevê' estão com acento indevido; deveriam ser grafados 'vem' e 'preve'.",
-          "E": "'Mal-escrito' deveria ser 'malescrito' (vocábulo aglutinado), e 'pois' deveria ser substituído por 'contudo'."
+          "A": "Os documentos a ela destinados serão entregues à sede da repartição.",
+          "B": "Os documentos a ela destinados serão entregues a sede da repartição.",
+          "C": "Os documentos a ela destinados serão entregues à sede da repartição por nós.",
+          "D": "Os documentos destinados à ela serão entregues à sede da repartição.",
+          "E": "Os documentos a ela destinados serão entregues a à sede da repartição."
         },
-        "gabarito": "A",
-        "explicacao": "Após o Acordo Ortográfico (assinado em 1990, em vigor desde 2016), 'mal' + adjetivo não usa hífen quando 'mal' é advérbio de modo: 'mal escrito' (sem hífen). O hífen em 'mal-' é usado quando o segundo elemento começa por vogal ('mal-educado') ou por 'h' ('mal-humorado'). Portanto, 'mal-escrito' está errado — o correto é 'mal escrito'. 'Coerência' está correta (acento na proparoxítona). 'Veem' (acento no hiato de 'ver') e 'prevê' (acento no monossílabo tônico) estão corretos. O conectivo 'pois' indica causa/explicação adequadamente. A integração comp-10 (coesão com 'pois') e gram-01 (ortografia com hífen de 'mal') é essencial para resolver a questão."
+        "gabarito": "C",
+        "explicacao": "Esta questão integra reescritura na voz passiva (gram-13) e crase (gram-02). (C) é a mais completa: reescreve na passiva ('serão entregues'), preserva o adjunto 'à sede da repartição' com crase correta (preposição 'a' + artigo feminino 'a' diante de substantivo feminino), mantém 'a ela destinados' sem crase (pronome pessoal não admite crase) e acrescenta o agente da passiva 'por nós' (implícito em 'iremos'). (A) omite o agente da passiva — possível, mas menos completa. (B) suprime a crase em 'à sede', erro gramatical. (D) usa crase antes de pronome pessoal 'ela' ('à ela'), o que é erro — pronome pessoal não admite crase. (E) cria dupla preposição 'a à', agramatical."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-08",
-        "enunciado": "Leia: '**Embora** o texto fosse extenso, **e** a linguagem, densa, **mas** o leitor conseguiu extrair as informações principais.' O período apresenta problema de coesão sequencial porque:",
+        "topico_referencia": "comp-10 + comp-09",
+        "enunciado": "Leia o trecho em discurso direto:\n\n'O almirante declarou: 'A operação foi concluída com êxito e todos os objetivos foram atingidos.''\n\nA reescritura em discurso indireto que preserva o sentido e aplica corretamente os mecanismos de transposição é:",
         "alternativas": {
-          "A": "O conectivo 'embora' deveria ser substituído por 'porque'.",
-          "B": "Há uso simultâneo de 'embora' (concessivo subordinativo) e 'mas' (adversativo coordenativo), o que resulta em redundância de conectivos com a mesma função — apenas um deve ser usado.",
-          "C": "O conectivo 'e' está errado; deveria ser substituído por 'porém'.",
-          "D": "O uso de 'mas' é inadequado porque a oração é principal e não pode ter conectivo adversativo.",
-          "E": "Não há problema de coesão: 'embora', 'e' e 'mas' exercem funções distintas e complementares."
+          "A": "O almirante declarou que a operação fora concluída com êxito e que todos os objetivos tinham sido atingidos.",
+          "B": "O almirante declarou que a operação foi concluída com êxito e que todos os objetivos foram atingidos.",
+          "C": "O almirante declarou: a operação foi concluída com êxito e todos os objetivos foram atingidos.",
+          "D": "O almirante declarou que a operação estava concluída com êxito e que todos os objetivos seriam atingidos.",
+          "E": "O almirante declarou que a operação tivesse sido concluída com êxito e que todos os objetivos fossem atingidos."
         },
-        "gabarito": "B",
-        "explicacao": "O período mistura dois mecanismos de concessão-adversidade: 'embora' (conjunção subordinativa concessiva que já implica ideia de contraste/oposição superada) e 'mas' (conjunção coordenativa adversativa). Usar ambos é redundante — a frase já iniciada com 'embora' não precisa de 'mas' para marcar a adversidade. O correto seria: 'Embora o texto fosse extenso e a linguagem, densa, o leitor conseguiu extrair as informações principais.' (sem 'mas'). Ou alternativamente: 'O texto era extenso e a linguagem, densa, mas o leitor conseguiu extrair as informações principais.' (sem 'embora'). Este é um problema clássico de coesão sequencial por acumulação indevida de conectivos concessivo-adversativos."
+        "gabarito": "A",
+        "explicacao": "Esta questão integra reescritura (gram-13) e tipos de discurso (comp-09). Na transposição do discurso direto para o indireto, os verbos no pretérito perfeito do indicativo ('foi concluída', 'foram atingidos') passam para o pretérito mais-que-perfeito composto ou pretérito imperfeito na língua culta ('fora concluída'/'tinha sido concluída'). (A) usa 'fora concluída' e 'tinham sido atingidos' — formas do mais-que-perfeito, adequadas para o discurso indireto subordinado ao verbo 'declarou' (pretérito). (B) mantém o pretérito perfeito, que seria aceitável informalmente mas não na norma culta das provas militares. (C) mantém os dois-pontos e aspas, ainda é discurso direto. (D) usa 'estava' (imperfeito) e 'seriam' (futuro do pretérito), que alteram os tempos verbais incorretamente. (E) usa subjuntivo imperfeito, inadequado para discurso indireto declarativo."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-09",
-        "enunciado": "Leia: 'A coesão, a coerência e a progressão temática **constituem** os pilares de um bom texto. Sem **elas**, nenhum texto **alcança** o nível exigido em concursos militares.' O pronome 'elas' e a concordância verbal do período estão:",
+        "topico_referencia": "comp-10 + gram-06",
+        "enunciado": "Leia: 'O oficial propôs medidas preventivas à tripulação.' Assinale a alternativa que reescreve na voz passiva analítica com a flexão verbal correta:",
         "alternativas": {
-          "A": "Corretos: 'elas' retoma 'a coesão, a coerência e a progressão temática' (três elementos femininos), e os verbos concordam corretamente com os sujeitos respectivos.",
-          "B": "Incorretos: 'elas' deveria ser 'eles' para retomar o conjunto dos elementos, e 'constituem' deveria ser 'constitui'.",
-          "C": "Correto apenas 'elas': a concordância de 'constituem' está errada pois o sujeito composto admite verbo no singular.",
-          "D": "Incorreto apenas 'alcança': o verbo deveria ser 'alcançam' concordando com 'elas' (plural).",
-          "E": "Incorretos: 'elas' deveria ser 'eles' pois o núcleo do sujeito composto é 'pilares' (masculino)."
+          "A": "Medidas preventivas foram propostas à tripulação pelo oficial.",
+          "B": "Medidas preventivas foram propustas à tripulação pelo oficial.",
+          "C": "Medidas preventivas foram proposto à tripulação pelo oficial.",
+          "D": "Medidas preventivas foram propor à tripulação pelo oficial.",
+          "E": "Medidas preventivas foram propondo à tripulação pelo oficial."
         },
         "gabarito": "A",
-        "explicacao": "'Elas' retoma corretamente os três substantivos femininos do sujeito composto da primeira frase ('a coesão, a coerência e a progressão temática'). O pronome anafórico feminino plural é correto. 'Constituem' concorda com o sujeito composto de três elementos (plural) — correto. 'Alcança' concorda com o sujeito da segunda oração: 'nenhum texto' (singular masculino) — correto. Toda a concordância e a coesão referencial estão adequadas. A integração comp-10 (coesão referencial por pronome) e gram-09 (concordância verbal com sujeito composto e com sujeito simples) exige análise simultânea das duas propriedades."
+        "explicacao": "Esta questão integra reescritura na voz passiva (gram-13) e flexão verbal — particípio irregular (gram-05). O verbo 'propor' tem particípio IRREGULAR: 'proposto' (não 'proposto' segue a regra de verbos com dois particípios — regular 'proponido', inexistente; irregular 'proposto'). O particípio 'proposto' concorda com o sujeito passivo 'medidas preventivas' (feminino plural) → 'propostas'. (A) usa 'propostas' corretamente. (B) 'propustas' é forma inexistente. (C) 'proposto' não concorda com o sujeito feminino plural. (D) 'propor' é infinitivo, não particípio. (E) 'propondo' é gerúndio, não particípio."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + comp-06",
-        "enunciado": "Leia: 'O texto apresentava muitos **vícios**: redundâncias, tautologias e pleonasmos. **Esses defeitos** comprometiam a coerência.' A relação lexical entre 'vícios' e 'defeitos', e o mecanismo coesivo presente, são respectivamente:",
+        "topico_referencia": "comp-10 + comp-02",
+        "enunciado": "Leia o trecho:\n\n'As autoridades não comentaram sobre os resultados da investigação. Fontes internas, no entanto, indicam que há avanços significativos no caso.'\n\nA reescritura que transforma o segundo período em frase sem perder a informação implícita de contraste com o silêncio das autoridades é:",
         "alternativas": {
-          "A": "Hiponímia e coesão por elipse.",
-          "B": "Antonímia e coesão sequencial adversativa.",
-          "C": "Sinonímia contextual e coesão lexical anafórica (a expressão 'esses defeitos' retoma 'muitos vícios' por equivalência semântica no contexto).",
-          "D": "Hiperonímia e coesão referencial catafórica.",
-          "E": "Polissemia e coesão por reiteração."
+          "A": "Embora as autoridades não comentassem, fontes internas indicam avanços significativos no caso.",
+          "B": "As autoridades não comentaram, mas fontes internas indicam avanços no caso.",
+          "C": "Fontes internas indicam avanços, e as autoridades não comentaram.",
+          "D": "Como as autoridades não comentaram, fontes internas indicam avanços.",
+          "E": "Fontes internas indicam avanços, portanto as autoridades não comentaram."
         },
-        "gabarito": "C",
-        "explicacao": "No contexto dado, 'vícios' e 'defeitos' funcionam como sinônimos contextuais: ambos se referem a falhas textuais (redundâncias, tautologias, pleonasmos). A expressão nominal 'esses defeitos' retoma anaforicamente 'muitos vícios' por equivalência semântica — isso é coesão lexical anafórica por sinonímia contextual. Não é hiperonímia (A/D) porque 'defeitos' não engloba 'vícios' como categoria mais ampla — são equivalentes no contexto. Não é antonímia (B). Não é polissemia (E), que seria a mesma palavra com sentidos diferentes. A integração comp-10 (mecanismo coesivo) e comp-06 (relação lexical) é essencial."
+        "gabarito": "A",
+        "explicacao": "Esta questão integra reescritura (gram-13) e informações implícitas (comp-03). O segundo período com 'no entanto' carrega implícito o contraste com o silêncio das autoridades. A reescritura deve explicitar esse contraste na estrutura sintática. (A) usa 'embora' (conjunção concessiva), que é a forma que melhor captura a implicação: apesar do silêncio oficial, há progresso — a concessão preserva o implícito de que o silêncio seria esperado como sinal de ausência de avanços. (B) usa 'mas' (adversativa), que é mais simples e menos precisa — o contraste está presente, mas sem a gradação da concessão. (C) usa 'e' (aditiva), perdendo o contraste. (D) usa 'como' (causal), alterando a relação semântica. (E) usa 'portanto' (conclusiva), invertendo a lógica."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-02",
-        "enunciado": "Leia: 'O avaliador referiu-se **a** essa questão de coesão textual e concluiu que **a** análise deveria ser aprofundada **a** fim de garantir **a** adequação do texto **à** norma.' Sobre as ocorrências de 'a' no período, assinale a alternativa correta:",
+        "topico_referencia": "comp-10 + gram-01",
+        "enunciado": "Leia: 'Ele concluiu o exame em carater excepcional.' Assinale a alternativa que corrige o erro ortográfico E reescreve na voz passiva com grafia e flexão corretas:",
         "alternativas": {
-          "A": "Todas as ocorrências de 'a' são crases.",
-          "B": "Apenas a última ocorrência ('à norma') é crase; as demais são preposição simples ou artigo.",
-          "C": "A segunda ocorrência ('a análise') é crase, pois há preposição de 'referiu-se' mais artigo feminino.",
-          "D": "A expressão 'a fim de' deveria ser grafada com crase: 'à fim de'.",
-          "E": "Há crase em 'a essa questão', pois 'referir-se' é transitivo indireto com preposição 'a'."
+          "A": "O exame foi concluído em caráter excepcional por ele.",
+          "B": "O exame foi concluído em caráter exepcional por ele.",
+          "C": "O exame foi concluido em caráter excepcional por ele.",
+          "D": "O exame foi concluído em carater excepcional por ele.",
+          "E": "O exame foi conclúido em caráter excepcional por ele."
         },
-        "gabarito": "B",
-        "explicacao": "Análise de cada ocorrência: 1) 'a essa questão' — não há crase; pronomes demonstrativos ('essa') não admitem crase antes de si. 2) 'a análise' — artigo feminino, sem crase (não há preposição exigida pelo verbo 'concluiu' antes de 'a análise' — 'a análise' é sujeito da oração subordinada). 3) 'a fim de' — locução prepositiva, nunca leva crase. 4) 'a adequação' — artigo, sem preposição anterior que geraria crase no contexto. 5) 'à norma' — 'adequação' rege a preposição 'a' (adequação a algo) + artigo feminino 'a' → crase obrigatória. Apenas a última ocorrência é crase. A integração comp-10 + gram-02 exige identificar, dentro de um texto coeso, os casos de crase correta e incorreta."
+        "gabarito": "A",
+        "explicacao": "Esta questão integra reescritura (gram-13) e ortografia/acentuação (gram-01). Erros a corrigir no original: 'carater' → 'caráter' (proparoxítona, acentuação obrigatória no 'a' tônico). Na passiva: 'concluiu' → 'foi concluído' (particípio de 'concluir' é 'concluído', com acento no 'i' por ser hiato: 'conclu-í-do'). (A) corrige ambos. (B) mantém 'exepcional' (erro ortográfico — deve ser 'excepcional'). (C) grafa 'concluido' sem acento (erro — 'concluído' tem acento por hiato). (D) mantém 'carater' sem acento (erro). (E) grafa 'conclúido' com acento no 'ú' (erro — o acento é no 'í': 'concluído')."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + comp-07",
-        "enunciado": "Leia: 'As palavras eram pontes entre o escritor e o leitor. Quando a coesão falhava, essas pontes ruíam, e os dois lados ficavam à margem de um rio de incompreensão.' A metáfora 'pontes entre o escritor e o leitor' e sua continuação coesiva contribuem para o texto de qual forma?",
+        "topico_referencia": "comp-10 + comp-05",
+        "enunciado": "Leia: 'Vi o homem com o binóculo na varanda.' Esta frase é ambígua. Assinale a alternativa que reescreve o período desambiguando na direção de que o homem é quem estava na varanda:",
         "alternativas": {
-          "A": "Apenas como ornamento estilístico, sem relação com a coerência ou coesão do texto.",
-          "B": "Comprometem a coerência, pois a metáfora mistura campos semânticos (construção civil e literatura).",
-          "C": "Criam coerência metafórica: a metáfora inicial ('pontes') é desenvolvida coesivamente por extensão ('essas pontes ruíam', 'à margem', 'rio'), mantendo o campo semântico e sustentando o tema ao longo do trecho.",
-          "D": "Criam problema de coesão referencial, pois 'essas pontes' não tem antecedente claro.",
-          "E": "Geram tautologia, pois 'pontes ruíam' repete o mesmo conteúdo de 'coesão falhava'."
+          "A": "Vi o homem que estava na varanda com o binóculo.",
+          "B": "Vi, com o binóculo, o homem na varanda.",
+          "C": "Com o binóculo, vi o homem na varanda.",
+          "D": "Usando o binóculo, vi o homem que estava na varanda.",
+          "E": "Vi o homem na varanda usando o binóculo."
         },
-        "gabarito": "C",
-        "explicacao": "A metáfora inicial ('palavras eram pontes') é sustentada e desenvolvida ao longo do trecho: 'essas pontes ruíam' (anáfora nominal da metáfora), 'à margem' e 'rio de incompreensão' pertencem ao mesmo campo semântico hidráulico-arquitetônico da metáfora. Isso é coerência metafórica sustentada, em que a figura de linguagem se expande coesivamente sem quebrar o campo semântico. A integração comp-10 (coesão referencial anafórica com 'essas pontes') e comp-07 (metáfora e sua extensão) é fundamental: 'essas pontes' é um mecanismo de coesão referencial que retoma a metáfora, demonstrando que figura de linguagem e coesão textual são fenômenos que interagem."
+        "gabarito": "A",
+        "explicacao": "Esta questão integra reescritura (gram-13) e ambiguidade (comp-05). A frase original é ambígua porque 'com o binóculo' pode se ligar a 'vi' (instrumento de visão) ou a 'o homem' (posse do binóculo), e 'na varanda' pode se ligar a 'vi' ou a 'o homem'. Para desambiguar na direção de que o homem estava na varanda, deve-se reorganizar para que 'na varanda' seja claramente adjunto de 'o homem'. (A) usa oração relativa: 'o homem que estava na varanda' — o uso de 'que estava' vincula inequivocamente a varanda ao homem; 'com o binóculo' fica como adjunto do sujeito, levemente ambíguo mas secundário. (B) e (C) posicionam o binóculo como instrumento de visão, mas não esclarecem onde estava o homem. (D) e (E) sugerem que quem usa o binóculo é o falante, não clarificando onde estava o homem de forma tão precisa quanto (A)."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-11",
-        "enunciado": "Leia: '**Lhe** apresento os mecanismos de coesão. Espero que **lhe** sejam úteis e que você **os** aplique nos textos que produzir.' Sobre a colocação e o emprego dos pronomes e a coesão do período, assinale a alternativa correta:",
+        "topico_referencia": "comp-10 + comp-03",
+        "enunciado": "Leia o trecho de um relatório técnico:\n\n'O veículo apresentou falha no sistema de freios durante o percurso crítico, comprometendo a segurança da operação.'\n\nA reescritura que transforma a linguagem técnica (denotativa) em linguagem figurada (conotativa), adequada a um texto literário ou jornalístico de impacto, sem perder o sentido essencial, é:",
         "alternativas": {
-          "A": "O primeiro 'lhe' está incorreto; deveria ser 'o' pois o verbo 'apresentar' é transitivo direto.",
-          "B": "O segundo 'lhe' está correto (objeto indireto de 'sejam úteis') e 'os' está correto (objeto direto de 'aplicar', retomando 'os mecanismos de coesão' — coesão referencial anafórica).",
-          "C": "O pronome 'os' é redundante, pois o objeto de 'aplicar' já foi mencionado implicitamente.",
-          "D": "Há problema de colocação: 'lhe apresento' deveria ser 'apresento-lhe' pois em início de frase o pronome não pode ser proclítico.",
-          "E": "O pronome 'os' deveria ser 'lhes', pois retoma 'mecanismos' (masculino plural) na função de objeto indireto de 'aplicar'."
+          "A": "No momento mais decisivo, o veículo traiu sua própria missão, deixando a segurança à deriva.",
+          "B": "O veículo quebrou durante o percurso, o que foi perigoso.",
+          "C": "O veículo apresentou problemas, comprometendo a operação crítica.",
+          "D": "Durante o percurso, o veículo parou de funcionar corretamente.",
+          "E": "O veículo falhou no percurso e isso foi perigoso para a segurança."
         },
-        "gabarito": "B",
-        "explicacao": "Análise dos pronomes: (1) 'Lhe apresento' — em início de período, a norma clássica prefere ênclise ('Apresento-lhe'), mas na língua contemporânea a próclise é aceita em contexto coloquial. O ponto principal é a regência: 'apresentar algo a alguém' — 'lhe' é o objeto indireto ('a você') e os mecanismos são o objeto direto. (2) 'lhe sejam úteis' — 'lhe' é objeto indireto de 'sejam úteis a você' — correto. (3) 'os aplique' — 'os' retoma anaforicamente 'os mecanismos de coesão' como objeto direto de 'aplicar' — correto e essencial como mecanismo de coesão referencial. A alternativa B descreve corretamente as funções pronominais e o papel de 'os' na coesão. A alternativa D exagera a restrição à próclise em início de frase. A alternativa E erra a função de 'os': objeto direto, não indireto."
+        "gabarito": "A",
+        "explicacao": "Esta questão integra reescritura (gram-13) e linguagem denotativa/conotativa (comp-04). O original é denotativo (linguagem técnica precisa). A reescritura conotativa deve usar linguagem figurada com impacto expressivo. (A) usa metáforas: 'traiu sua própria missão' (personificação do veículo como ser capaz de traição, intensificando o impacto emocional), 'deixando a segurança à deriva' (metáfora marítima: 'à deriva' evoca perigo, adequada ao contexto naval). O 'momento mais decisivo' retoma 'percurso crítico' de forma expressiva. (B) é paráfrase simplificada sem figura de linguagem. (C) é apenas simplificação técnica, ainda denotativa. (D) é versão denotativa simplificada. (E) é paráfrase denotativa elementar sem recursos expressivos."
       }
     ]
   }

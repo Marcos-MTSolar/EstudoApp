@@ -1,7 +1,7 @@
 {
   "id": "comp-06",
   "titulo": "Relações Lexicais",
-  "area": "Compreensão e Interpretação de Textos",
+  "area": "Compreensão e Interpretação de Texto",
   "resumo": "Relações lexicais são os vínculos semânticos estabelecidos entre palavras de um mesmo idioma. Compreender sinonímia, antonímia, homonímia, paronímia, polissemia, hiponímia e hiperonímia é fundamental para interpretar textos com precisão e para resolver questões que exploram substituição vocabular, ambiguidade e coerência textual. Nas provas da Marinha, essas relações aparecem tanto em questões diretas quanto como distratores em interpretação.",
   "teoria": {
     "blocos": [
@@ -603,7 +603,15 @@
     }
   ],
   "desafio": {
-    "topicos_mesclados": ["gram-01", "gram-02", "gram-09", "gram-10", "gram-11", "comp-03", "comp-06"],
+    "topicos_mesclados": [
+      "gram-01",
+      "gram-03",
+      "gram-11",
+      "gram-13",
+      "gram-14",
+      "comp-02",
+      "comp-06"
+    ],
     "questoes": [
       {
         "id": "d01",
@@ -623,7 +631,7 @@
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-09",
+        "topico_referencia": "comp-06 + gram-11",
         "enunciado": "Leia: 'Nenhum dos candidatos aptos compareceu à segunda fase do processo seletivo, o que foi considerado um fenômeno inédito pelos organizadores.' Quanto à concordância verbal e à relação lexical entre 'inédito' e 'corriqueiro', assinale a alternativa correta.",
         "alternativas": {
           "A": "A concordância está correta; 'inédito' e 'corriqueiro' são antônimos.",
@@ -638,7 +646,7 @@
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-11",
+        "topico_referencia": "comp-06 + gram-14",
         "enunciado": "Leia: 'Os termos técnicos não nos devem intimidar; ao contrário, devemos nos apropriar deles para enriquecer nossa comunicação profissional.' Quanto à colocação pronominal e ao sentido de 'apropriar-se', assinale a alternativa correta.",
         "alternativas": {
           "A": "Ambas as colocações estão incorretas; o sentido de 'apropriar-se' é 'tomar indevidamente'.",
@@ -653,7 +661,7 @@
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-02",
+        "topico_referencia": "comp-06 + gram-03",
         "enunciado": "Leia: 'Com referência __ postura ética dos candidatos, o edital faz alusão __ necessidade de integridade em todas as etapas do processo.' Assinale a alternativa que preenche corretamente as lacunas E identifica a relação semântica entre 'postura ética' e 'integridade'.",
         "alternativas": {
           "A": "à; à; 'postura ética' e 'integridade' são antônimos.",
@@ -668,7 +676,7 @@
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + comp-03",
+        "topico_referencia": "comp-06 + comp-02",
         "enunciado": "Leia: 'O relator do processo acatou os fundamentos da defesa e absolveu o réu.' Com base no texto, assinale a alternativa que identifica corretamente um sinônimo de 'acatou' no contexto E uma inferência válida.",
         "alternativas": {
           "A": "'Acatou' = ignorou; inferência: o réu era culpado.",
@@ -683,7 +691,7 @@
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-10",
+        "topico_referencia": "comp-06 + gram-13",
         "enunciado": "Leia: 'O candidato anseia pelo resultado do concurso.' Quanto à regência do verbo 'ansiar' e ao sentido de 'anseia' no contexto, assinale a alternativa correta.",
         "alternativas": {
           "A": "'Ansiar' exige objeto direto; 'anseia pelo resultado' está incorreto; 'anseia' é sinônimo de 'teme'.",
@@ -698,7 +706,7 @@
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-09",
+        "topico_referencia": "comp-06 + gram-11",
         "enunciado": "Leia: 'A maioria das questões versava sobre sinonímia e antonímia.' A palavra 'versava' no contexto tem como sinônimo mais adequado:",
         "alternativas": {
           "A": "falava em verso",
@@ -728,7 +736,7 @@
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-11",
+        "topico_referencia": "comp-06 + gram-14",
         "enunciado": "Leia: 'Não me arrependo das decisões que tomei naquele processo.' A colocação pronominal está correta. 'Arrepender-se' é verbo que exige preposição 'de'. Qual das alternativas apresenta um sinônimo de 'arrepender-se' que mantém a mesma regência preposicional?",
         "alternativas": {
           "A": "lamentar (lamento de)",
@@ -743,7 +751,7 @@
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + comp-03",
+        "topico_referencia": "comp-06 + comp-02",
         "enunciado": "Leia o trecho: 'O edital é lacônico quanto às condições de aproveitamento de candidatos com deficiência.' Qual é o sentido de 'lacônico' no contexto e qual inferência pode ser feita com base nessa informação?",
         "alternativas": {
           "A": "'Lacônico' = detalhado; inferência: as condições são claras para todos os candidatos.",
@@ -758,7 +766,7 @@
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-02",
+        "topico_referencia": "comp-06 + gram-03",
         "enunciado": "Leia o fragmento: 'A banca foi implacável __ posição do candidato e manteve o gabarito original.' Assinale a alternativa que preenche corretamente a lacuna E explica o sentido de 'implacável' com o sinônimo adequado.",
         "alternativas": {
           "A": "à; 'implacável' = favorável, solidário.",
@@ -773,7 +781,7 @@
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-09",
+        "topico_referencia": "comp-06 + gram-11",
         "enunciado": "Leia: 'Todos os candidatos que se inscreveram até a data limite eram aptos a participar da seleção.' Qual das alternativas identifica corretamente a concordância E aponta um HIPÔNIMO de 'candidatos' que se encaixaria no contexto?",
         "alternativas": {
           "A": "Concordância correta; 'candidatos' tem como hipônimo 'pessoas' — mais específico.",
@@ -788,7 +796,7 @@
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-10",
+        "topico_referencia": "comp-06 + gram-13",
         "enunciado": "Leia: 'O oficial obedeceu às ordens superiores sem questionar.' Quanto à regência do verbo 'obedecer' e ao sentido de 'questionar' no contexto, assinale a alternativa correta.",
         "alternativas": {
           "A": "'Obedecer' exige objeto direto; 'obedeceu às ordens' está incorreto; 'questionar' é sinônimo de 'perguntar sobre algo banal'.",
@@ -803,7 +811,7 @@
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + comp-03",
+        "topico_referencia": "comp-06 + comp-02",
         "enunciado": "Leia o texto: 'O candidato obteve nota exígua na prova discursiva, comprometendo sua classificação geral.' Qual é o sentido de 'exígua' e que informação pode ser INFERIDA com base na frase?",
         "alternativas": {
           "A": "'Exígua' = elevada; infere-se que o candidato foi bem classificado.",
@@ -818,7 +826,7 @@
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-01 + gram-02",
+        "topico_referencia": "comp-06 + gram-01 + gram-03",
         "enunciado": "Leia: 'Refiro-me especificamente __ conduta ímproba do servidor, que infringiu as normas ao invés de as cumprir.' Identifique: (1) o preenchimento correto da lacuna com ou sem crase; (2) o parônimo incorretamente usado; (3) o sentido correto do parônimo que deveria ser usado.",
         "alternativas": {
           "A": "à; 'infringiu' está incorreto; deveria ser 'infligiu' (aplicou punição).",

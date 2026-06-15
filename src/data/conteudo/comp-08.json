@@ -1,7 +1,7 @@
 {
   "id": "comp-08",
   "titulo": "Tipos e Gêneros Textuais",
-  "area": "Compreensão Textual",
+  "area": "Compreensão e Interpretação de Texto",
   "resumo": "Distinção entre tipos textuais (sequências linguísticas com características estruturais e linguísticas próprias) e gêneros textuais (formas sociocomunicativas historicamente estabilizadas com função, suporte e esfera de circulação definidos). Tópico recorrente em provas militares por exigir reconhecimento aplicado em fragmentos textuais reais.",
   "teoria": {
     "blocos": [
@@ -608,26 +608,26 @@
   "desafio": {
     "topicos_mesclados": [
       "gram-01",
-      "gram-02",
-      "gram-09",
-      "gram-10",
+      "gram-03",
       "gram-11",
-      "comp-03",
+      "gram-13",
+      "gram-14",
+      "comp-02",
       "comp-06",
       "comp-07",
-      "gram-08",
-      "comp-10",
+      "gram-10",
+      "comp-11",
       "gram-12",
-      "gram-04",
       "gram-05",
-      "comp-04",
+      "gram-06",
+      "comp-03",
       "comp-08"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-09",
+        "topico_referencia": "comp-08 + gram-11",
         "enunciado": "Leia o seguinte trecho de um editorial militar elaborado para esta questão: 'Os investimentos em energia renovável, assim como a modernização dos sistemas de propulsão naval, são essenciais para a soberania tecnológica do Brasil.' Considerando o tipo textual predominante do trecho E a concordância verbal da oração principal, assinale a alternativa correta.",
         "alternativas": {
           "A": "O texto é injuntivo e o verbo 'são' concorda com o sujeito composto posposto, estando correto.",
@@ -642,7 +642,7 @@
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-02",
+        "topico_referencia": "comp-08 + gram-03",
         "enunciado": "Leia o fragmento de um ofício militar elaborado para esta questão: 'Solicito ___ Vossa Senhoria que encaminhe ___ brevidade possível os documentos relativos ___ última inspeção realizada ___ bordo do navio.' Considerando o gênero textual, o tipo predominante E o uso correto da crase, assinale a alternativa que preenche corretamente as lacunas.",
         "alternativas": {
           "A": "à — a — à — a; o gênero é editorial e o tipo é argumentativo.",
@@ -672,7 +672,7 @@
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-10",
+        "topico_referencia": "comp-08 + gram-13",
         "enunciado": "Leia o fragmento de um relatório técnico elaborado para esta questão: 'O engenheiro responsável informou os superiores sobre os riscos; em seguida, aspirou ao cargo de coordenador do projeto de adequação.' Considerando o tipo textual do relatório E a regência verbal dos verbos 'informar' e 'aspirar' na frase, assinale a alternativa correta.",
         "alternativas": {
           "A": "Tipo narrativo-expositivo; 'informou os superiores' é regência correta (VTD); 'aspirou ao cargo' é regência correta (VTI com preposição 'a').",
@@ -687,7 +687,7 @@
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-11",
+        "topico_referencia": "comp-08 + gram-14",
         "enunciado": "Leia o trecho de um manual técnico naval elaborado para esta questão: 'Antes de realizar a manutenção, verifique-se todos os equipamentos e comunique-se ao supervisor qualquer anormalidade detectada.' Considerando o gênero, o tipo textual E a colocação pronominal, assinale a alternativa que analisa corretamente o trecho.",
         "alternativas": {
           "A": "Gênero: manual técnico; tipo: injuntivo; colocação: correta em ambos os verbos.",
@@ -702,7 +702,7 @@
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + comp-03",
+        "topico_referencia": "comp-08 + comp-02",
         "enunciado": "Leia o seguinte fragmento de uma crônica produzida para esta questão: 'O sargento dobrou o jornal, bebeu o último gole de café e saiu sem dizer nada. Aquela reunião tinha decidido algo — e todos sabiam o quê.' Considerando o gênero, o tipo textual E a informação implícita veiculada, assinale a alternativa correta.",
         "alternativas": {
           "A": "Gênero: notícia; tipo: expositivo; a informação implícita é que o sargento não leu o jornal.",
@@ -732,7 +732,7 @@
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-08",
+        "topico_referencia": "comp-08 + gram-10",
         "enunciado": "Leia o seguinte parágrafo de uma reportagem elaborada para esta questão: 'O tenente apresentou o relatório, mas o comandante não o aceitou; portanto, a missão foi suspensa até que novas evidências fossem apresentadas.' Considerando o tipo textual da reportagem E as relações de coordenação e subordinação presentes, assinale a alternativa correta.",
         "alternativas": {
           "A": "Tipo: narrativo. 'Mas' é conjunção subordinativa concessiva; 'portanto' é conjunção conclusiva coordenativa; 'até que' introduz oração subordinada adverbial temporal.",
@@ -747,7 +747,7 @@
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + comp-10",
+        "topico_referencia": "comp-08 + comp-11",
         "enunciado": "Leia o seguinte fragmento de um artigo técnico elaborado para esta questão: 'Os sistemas fotovoltaicos off-grid são indicados para localidades sem acesso à rede. Esses sistemas, também chamados de sistemas autônomos, armazenam energia em baterias para uso noturno. Por essa razão, o dimensionamento correto do banco de baterias é fundamental.' Considerando o tipo textual E os mecanismos de coesão textual presentes, assinale a alternativa correta.",
         "alternativas": {
           "A": "Tipo: injuntivo. Coesão: 'Esses sistemas' é anáfora nominal que retoma 'localidades sem acesso à rede'; 'Por essa razão' é conector de causa.",
@@ -777,7 +777,7 @@
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-04",
+        "topico_referencia": "comp-08 + gram-05",
         "enunciado": "Leia o fragmento de um editorial produzido para esta questão: 'A cada nova crise, surgem os mesmos lamentos e as mesmas promessas. O que muda é apenas o cenário; o que permanece é a inércia estrutural.' Considerando o tipo textual E as classes de palavras destacadas em 'apenas' (1ª ocorrência) e 'estrutural', assinale a alternativa correta.",
         "alternativas": {
           "A": "Tipo: narrativo; 'apenas' é substantivo; 'estrutural' é advérbio de modo.",
@@ -792,7 +792,7 @@
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-05",
+        "topico_referencia": "comp-08 + gram-06",
         "enunciado": "Leia o fragmento de um conto elaborado para esta questão: 'Os marujos haviam partido ao amanhecer. Quando o sol se pôs no horizonte cor de âmbar, já estavam longe, perdidos entre as ondas.' Considerando o tipo textual E a flexão verbal dos verbos 'haviam partido' e 'estavam', assinale a alternativa correta.",
         "alternativas": {
           "A": "Tipo: descritivo; 'haviam partido' está no pretérito perfeito composto do indicativo; 'estavam' está no pretérito imperfeito do indicativo.",
@@ -807,7 +807,7 @@
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + comp-04",
+        "topico_referencia": "comp-08 + comp-03",
         "enunciado": "Leia o seguinte trecho de uma crônica elaborada para esta questão: 'O formulário era um monstro de papel. Vinte e três campos, cinco assinaturas, três vias — e ao final, a garantia de que nada seria resolvido de imediato.' Considerando o gênero, o tipo textual E a linguagem (denotativa ou conotativa) predominante, assinale a alternativa correta.",
         "alternativas": {
           "A": "Gênero: relatório técnico; tipo: expositivo; linguagem: denotativa, pois 'monstro de papel' é um dado técnico.",
@@ -837,7 +837,7 @@
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-09 + gram-10",
+        "topico_referencia": "comp-08 + gram-11 + gram-13",
         "enunciado": "Leia o seguinte trecho de um artigo técnico-argumentativo elaborado para esta questão: 'A adoção de painéis fotovoltaicos, bem como a instalação de inversores de alta eficiência, são medidas que visam ___ redução de custos e ao aumento da produtividade.' Considerando o tipo textual, a concordância verbal E a regência do verbo 'visar', assinale a alternativa que preenche corretamente a lacuna E analisa corretamente os demais elementos.",
         "alternativas": {
           "A": "Lacuna: 'a'; tipo: argumentativo; concordância: correta ('são' com sujeito composto); regência: 'visar' no sentido de objetivar é VTD, dispensando preposição — 'visam a redução' está correto.",

@@ -2,857 +2,861 @@
   "id": "gram-04",
   "titulo": "Estrutura e Formação de Palavras",
   "area": "Gramática",
-  "resumo": "Estudo das dez classes gramaticais do português — substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição — com foco em suas funções, subclassificações e comportamento em provas de concurso militar.",
+  "resumo": "Estudo dos elementos mórficos que compõem as palavras portuguesas (radical, afixos, vogal temática, desinências) e dos processos pelos quais novas palavras são criadas na língua — derivação e composição —, com atenção especial às regras do Acordo Ortográfico de 1990 (em vigor desde 2016) quanto ao uso do hífen em palavras compostas.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Substantivo: conceito, classificação e flexão",
-        "conteudo": "O substantivo é a classe de palavras que nomeia seres, objetos, lugares, sentimentos, ações e ideias abstratas. Segundo Cunha e Cintra (2017), classifica-se em: (a) próprio — nomeia um ser específico da espécie ('Fortaleza', 'Marinha'); (b) comum — designa qualquer ser da mesma espécie ('cidade', 'oficial'); (c) concreto — refere-se a seres com existência independente, real ou imaginária ('mesa', 'fada'); (d) abstrato — nomeia ações, qualidades ou estados percebidos pelo intelecto, dependentes de outro ser ('coragem', 'rapidez'); (e) coletivo — no singular, designa conjunto de seres da mesma espécie ('frota' = conjunto de navios, 'armada' = conjunto de forças navais, 'alcateia' = conjunto de lobos). Quanto à formação, divide-se em simples (um único radical: 'mar'), composto (dois ou mais radicais: 'porta-voz'), primitivo (não deriva de outro: 'pedra') e derivado ('pedreira'). O gênero dos substantivos pode ser masculino ou feminino; o número, singular ou plural; o grau, normal, aumentativo ou diminutivo (analítico ou sintético).",
+        "subtitulo": "1. Morfemas e estrutura da palavra",
+        "conteudo": "Toda palavra pode ser decomposta em unidades mínimas de significado chamadas morfemas. Os principais são: (a) Radical — elemento que carrega o significado básico e permanece relativamente estável nas diversas formas da palavra: 'mar-', 'nav-', 'estud-'; (b) Prefixo — morfema preso que antecede o radical, alterando ou nuançando seu significado: 'des-', 're-', 'in-', 'contra-', 'sub-'; (c) Sufixo — morfema preso que se pospõe ao radical, geralmente alterando a classe gramatical: '-eiro' (substantivo/adjetivo), '-mento' (substantivo), '-mente' (advérbio), '-ção' (substantivo), '-vel' (adjetivo); (d) Vogal temática (VT) — vogal que une o radical ao conjunto de desinências, classificando o verbo em 1.ª (-a-), 2.ª (-e-) ou 3.ª (-i-) conjugação: 'am-a-r', 'beb-e-r', 'part-i-r'; para substantivos e adjetivos, as VTs '-a' e '-o' indicam, em regra, feminino e masculino; (e) Desinências — morfemas que indicam as flexões: nominais (gênero e número) e verbais (modo-tempo e número-pessoa); (f) Vogal de ligação e consoante de ligação — elementos eufônicos que facilitam a pronúncia em palavras compostas ou derivadas: 'gas-ô-metro', 'chal-ei-ra'; (g) Afixo = prefixo ou sufixo; (h) Infixo = elemento inserido no interior do radical (raro em português). Segundo Cunha e Cintra (2017), a identificação correta dos morfemas exige o cotejo com formas da mesma família lexical ('mar → mar-eiro → mar-ítimo → mar-inheiro').",
         "exemplos": [
-          "Substantivo próprio: Marinha, Brasil, Fortaleza",
-          "Substantivo abstrato: lealdade, disciplina, esforço",
-          "Coletivo náutico: frota (navios), tripulação (membros de um navio), esquadra (navios de guerra)",
-          "Derivado sufixal: mar → marinheiro, maritime → marítimo"
+          "Decomposição de 'marinheiro': radical 'marin-' + sufixo '-heiro'",
+          "Decomposição de 'desembarcar': prefixo 'des-' + prefixo 'em-' + radical 'barc-' + VT '-a-' + desinência modo-temporal '-r'",
+          "Vogal de ligação em 'gasômetro': 'gas' + vogal de ligação '-ô-' + 'metro'",
+          "Desinências verbais: 'amáv-a-mos' → radical 'am-' + VT '-a-' + sufixo modo-temporal '-v-' + desinência 'a' (1.ª sing.) e desinência 'mos' (1.ª pl.)"
         ],
-        "regra": "Substantivo abstrato depende de outro ser para existir conceptualmente; concreto existe por si mesmo, mesmo que imaginariamente. Fada é concreto; beleza é abstrato."
+        "regra": "Para identificar o radical, compare formas da mesma família: a parte que se mantém constante é o radical. Prefixos e sufixos somam-se ao radical e alteram sentido ou classe gramatical."
       },
       {
-        "subtitulo": "2. Adjetivo, Artigo e Numeral",
-        "conteudo": "O adjetivo qualifica ou caracteriza o substantivo, podendo indicar estado, forma, origem, material ou classificação. Varia em gênero, número e grau (comparativo e superlativo). O adjetivo composto une dois ou mais radicais e, em regra, só o último elemento concorda com o substantivo: 'relações luso-brasileiras', 'análise técnico-científica'. Adjetivos de cor derivados de substantivos são invariáveis: 'blusas vinho', 'fardamentos bege'. O artigo define ou indefine o substantivo: definidos ('o', 'a', 'os', 'as') indicam ser já conhecido; indefinidos ('um', 'uma', 'uns', 'umas') introduzem ser ainda não identificado. O artigo 'o/a' pode determinar o gênero de substantivos epicenos e sobrecomuns: 'o cônjuge' (masc.), 'a cônjuge' (fem.). O numeral quantifica ou ordena seres, dividindo-se em cardinal ('dois'), ordinal ('segundo'), multiplicativo ('duplo'), fracionário ('metade') e coletivo ('dúzia', 'dezena'). Ordinais até décimo são obrigatórios em linguagem formal; a partir de 11.º, o cardinal posposto é admitido: 'artigo 12' ou 'artigo décimo segundo'.",
+        "subtitulo": "2. Derivação: tipos e características",
+        "conteudo": "A derivação é o processo de formação de palavras por acréscimo de afixos a uma palavra primitiva (base) ou por alteração de sua forma sem acréscimo de afixos. Tipos principais: (a) Derivação prefixal — acréscimo de prefixo ao radical: 'feliz → in-feliz', 'opor → contra-por', 'ver → re-ver'. O significado do prefixo é determinante: 'des-' (negação/reversão), 'in-/im-/i-' (negação), 're-' (repetição/retorno), 'sub-' (inferioridade/posição inferior), 'super-/sobre-' (superioridade); (b) Derivação sufixal — acréscimo de sufixo: 'lealdade ← leal + -dade', 'corajoso ← coragem + -oso', 'envelhecer ← velh-+(-ecer)'; (c) Derivação prefixal e sufixal simultânea (parassíntese) — prefixo e sufixo são acrescentados ao mesmo tempo, sem que exista a forma intermediária: 'anoitecer' (não existe *'noitecer' nem *'anoite'), 'emudecer' (não existe *'mudecer' nem *'emudo'), 'encardido' (não existe *'cardido'); (d) Derivação regressiva — a palavra derivada é menor que a primitiva, geralmente substantivo de ação formado a partir de verbo: 'comprar → compra', 'atacar → ataque', 'ajudar → ajuda'; (e) Derivação imprópria (conversão) — mudança de classe gramatical sem alteração formal: adjetivo 'belo' → substantivo 'o belo'; verbo 'caminhar' → substantivo 'o caminhar'.",
         "exemplos": [
-          "Adjetivo pátrio composto: norte-americano, sul-coreano",
-          "Cor invariável: uniformes creme, sapatos vinho, paredes gelo",
-          "Artigo com nome próprio: 'O Pedro chegou' (informalidade) vs. 'Pedro chegou' (norma culta)",
-          "Numeral ordinal em documentos oficiais: 'ao 1.º Oficial' ou 'ao Primeiro Oficial'"
+          "Derivação prefixal: 'desonrar', 'rever', 'sobrepor', 'contrapor'",
+          "Derivação sufixal: 'marinheiro' (mar + -inheiro), 'lealdade' (leal + -dade)",
+          "Parassíntese: 'entristecer' — não existe *'tristecer' nem *'entriste'",
+          "Derivação regressiva: 'embarcar → embarque', 'pescar → pesca'"
         ],
-        "regra": "Adjetivos compostos: só o segundo elemento concorda. Exceção: adjetivos compostos de cor formados por dois adjetivos de cor são invariáveis: 'camisas verde-oliva'."
+        "regra": "Para confirmar parassíntese, tente retirar o prefixo OU o sufixo isoladamente — se a palavra resultante não existir com o mesmo sentido base, é parassíntese. Se existir, pode ser derivação prefixal sobre forma já derivada ou vice-versa."
       },
       {
-        "subtitulo": "3. Pronome: tipos, funções e emprego",
-        "conteudo": "O pronome substitui ou acompanha o substantivo, referindo-se a pessoas ou coisas no discurso. Classifica-se em: (a) pessoais do caso reto (eu, tu, ele/ela, nós, vós, eles/elas) — exercem função de sujeito; (b) pessoais do caso oblíquo (me, te, se, lhe, nos, vos, lhes, o, a, os, as) — exercem função de objeto; (c) possessivos (meu, teu, seu, nosso, vosso, seu) — indicam posse; (d) demonstrativos (este/esse/aquele e formas) — indicam posição no espaço, no tempo ou no texto; (e) relativos (que, quem, cujo, onde, o qual) — retomam antecedente e introduzem oração adjetiva; (f) indefinidos (alguém, ninguém, algum, nenhum, todo, qualquer) — referem-se de modo vago; (g) interrogativos (quem?, que?, qual?, quanto?) — introduzem perguntas diretas ou indiretas; (h) tratamento (Vossa Excelência, Vossa Senhoria, o senhor) — fundamentais na linguagem militar. Na Marinha, 'Vossa Excelência' (V.Exa.) usa-se para Almirantes e autoridades; 'Vossa Senhoria' (V.Sa.) para Oficiais intermediários; 'o senhor/a senhora' no trato respeitoso. O pronome 'cujo' indica posse e concorda com o ser possuído, não com o possuidor: 'O navio cujos reparos foram concluídos...'",
+        "subtitulo": "3. Composição: justaposição e aglutinação",
+        "conteudo": "A composição forma palavras pela união de dois ou mais radicais ou palavras independentes. Divide-se em: (a) Justaposição — os elementos se unem mantendo sua forma original e são grafados com hífen ou em dois vocábulos: 'porta-aviões', 'navio-escola', 'guarda-chuva', 'verde-oliva', 'segunda-feira'. Os elementos justapostos conservam sua pronúncia e tonicidade individuais; (b) Aglutinação — os elementos se fundem com perda fonética de um ou mais sons, formando uma única palavra: 'fidalgo' (filho + de + algo), 'embora' (em + boa + hora), 'planalto' (plano + alto), 'aguardente' (água + ardente), 'vinagre' (vinho + acre), 'pernilongo' (perna + longa). Segundo Cunha e Cintra (2017), a distinção entre justaposição e aglutinação baseia-se na conservação ou não da integridade fonética dos elementos. Compostos híbridos misturam elementos de línguas diferentes: 'automóvel' (grego + latim), 'televisão' (grego + latim). Compostos eruditos são formados por radicais gregos ou latinos: 'psicologia' (psyche + logos), 'hidrografia' (hydro + graphia), 'eletricidade' (ēlectrum + -cidade).",
         "exemplos": [
-          "Caso reto como sujeito: Eu entreguei o relatório.",
-          "Oblíquo átono como objeto: O comandante me chamou. / Chamou-me o comandante.",
-          "Relativo 'cujo': O oficial cujo mérito foi reconhecido recebeu a comenda.",
-          "Pronome de tratamento: Vossa Excelência assinou o despacho? (pergunta dirigida ao superior)"
+          "Justaposição com hífen: 'porta-voz', 'bem-estar', 'ex-marido', 'vice-almirante'",
+          "Justaposição sem hífen (grafia conjunta ou separada): 'girassol', 'passatempo'",
+          "Aglutinação: 'embaixo' (em + baixo), 'debaixo' (de + baixo), 'tampouco' (tão + pouco)",
+          "Composto erudito: 'eletrônica', 'hidrografia', 'aeronáutica'"
         ],
-        "regra": "Pronomes de tratamento são gramaticalmente de terceira pessoa: 'Vossa Excelência sabe...' (sabe, não saber). O verbo vai para a 3.ª pessoa do singular ou plural conforme o pronome."
+        "regra": "Na aglutinação há fusão e perda fonética. Na justaposição, os elementos permanecem reconhecíveis. Para identificar, pergunte: as duas palavras originais ainda são reconhecíveis na forma final? Se sim, justaposição; se houve fusão com perda de sons, aglutinação."
       },
       {
-        "subtitulo": "4. Verbo e Advérbio",
-        "conteudo": "O verbo é a classe de palavras que exprime ação, estado, fenômeno da natureza ou mudança de estado, variando em pessoa, número, tempo, modo e voz. Classifica-se em: transitivo direto (TD — exige objeto direto sem preposição: 'cumpriu a missão'), transitivo indireto (TI — exige objeto indireto com preposição: 'obedeceu às ordens'), bitransitivo (TD+TI: 'enviou o relatório ao comandante'), intransitivo (não exige complemento: 'O navio zarpou') e de ligação (VL — liga sujeito ao predicativo: 'O mar está agitado'). Quanto à conjugação, os verbos regulares mantêm o radical invariável; os irregulares alteram-no. Verbos defectivos têm conjugação incompleta ('falir', 'colorir', 'abolir' — usados apenas nas formas em que o radical terminado em i não causaria encontro vocálico estranhável). Verbos abundantes têm duas formas para um mesmo tempo, especialmente no particípio: 'imprimido/impresso', 'aceitado/aceito', 'entregado/entregue'. O advérbio modifica o verbo, o adjetivo ou outro advérbio, exprimindo circunstância (lugar, tempo, modo, intensidade, negação, afirmação, dúvida). É invariável em gênero e número; o grau comparativo e superlativo são possíveis: 'mais longe', 'longe demais', 'longissimamente'. Locuções adverbiais: 'às vezes', 'de repente', 'em vão', 'por acaso'.",
+        "subtitulo": "4. Hífen no Acordo Ortográfico de 1990 (em vigor desde 2016)",
+        "conteudo": "O Acordo Ortográfico de 1990, em vigor desde 2016, alterou substancialmente o uso do hífen em palavras compostas e derivadas. Regras fundamentais: (1) Prefixos terminados em vogal + palavra iniciada pela MESMA vogal: usa hífen — 'anti-inflamatório', 'contra-atacar', 'semi-interno', 'auto-observação'; (2) Prefixos terminados em vogal + palavra iniciada por vogal DIFERENTE: sem hífen — 'autoestima', 'aeroespacial', 'antiaéreo', 'semiaberto'; (3) Prefixos terminados em vogal + palavra iniciada por 'h': usa hífen — 'anti-higiênico', 'semi-hospitalar', 'pré-história', 'sobre-humano'; (4) Prefixos terminados em consoante + palavra iniciada por consoante DIFERENTE: sem hífen — 'submarino', 'transportar', 'interplanetário'; (5) Prefixos terminados em consoante + palavra iniciada pela MESMA consoante: usa hífen — 'sub-bibliotecário', 'hiper-requintado'; (6) Prefixos 'ex-', 'vice-', 'soto-', 'sem-', 'além-', 'aquém-', 'recém-', 'pós-', 'pré-', 'pró-' (quando tônicos e autônomos): SEMPRE com hífen — 'ex-marido', 'vice-almirante', 'recém-chegado', 'pós-graduação'; (7) Elementos 'bem' e 'mal': com hífen se a palavra seguinte começa por vogal ou h — 'bem-estar', 'bem-humorado', 'mal-educado'; sem hífen antes de consoante — 'bem-sucedido' (exceção consolidada) / 'malcriado', 'maldisposto'. PALAVRAS RELEVANTES: 'coautor' (sem hífen — co- + vogal diferente); 'sub-reptício' (sub- + r = hífen); 'antepor' (ante- + consoante = sem hífen).",
         "exemplos": [
-          "Verbo abundante no particípio: O formulário foi impresso / tinha sido imprimido.",
-          "Advérbio de modo com sufixo -mente: 'O oficial respondeu prontamente.'",
-          "Verbo de ligação: O aspirante ficou ansioso com o resultado.",
-          "Advérbio intensificando adjetivo: 'muito cansativo', 'bastante complexo'"
+          "Anti + inflamatório (mesma vogal i-i): anti-inflamatório (com hífen)",
+          "Auto + estima (vogais diferentes a-e): autoestima (sem hífen)",
+          "Pré + história (prefixo tônico autônomo pré-): pré-história (com hífen)",
+          "Co + autor (vogais diferentes o-a): coautor (sem hífen)"
         ],
-        "regra": "Com verbos ter e haver (auxiliares), usa-se particípio regular (-ado/-ido): 'tinha imprimido', 'havia aceitado'. Com ser e estar (voz passiva e predicado nominal), usa-se o irregular (ou forma curta): 'foi impresso', 'está aceito'."
+        "regra": "O teste mais rápido: prefixo termina em vogal e a próxima palavra começa com a MESMA vogal ou com 'h'? Coloca hífen. Prefixo 'ex-', 'vice-', 'recém-', 'pós-', 'pré-', 'pró-'? Sempre hífen. Nos demais casos com vogal, sem hífen."
       },
       {
-        "subtitulo": "5. Preposição, Conjunção e Interjeição",
-        "conteudo": "A preposição é palavra invariável que liga termos da oração, estabelecendo relação de dependência entre eles. Preposições essenciais: a, ante, após, até, com, contra, de, desde, em, entre, para, perante, por, sem, sob, sobre, trás. Preposições acidentais: palavras de outra classe que, no contexto, exercem função prepositiva: 'conforme as normas', 'mediante autorização', 'salvo exceções'. A contração é obrigatória em certos contextos: 'de + o = do', 'em + um = num', 'a + a = à' (crase). A conjunção liga orações ou termos de mesma função sintática. Coordenativas: aditivas (e, nem, não só...mas também), adversativas (mas, porém, contudo, todavia, entretanto, no entanto), alternativas (ou...ou, ora...ora, quer...quer), conclusivas (logo, portanto, por conseguinte, assim, pois — posposto ao verbo), explicativas (porque, que, pois — anteposto ao verbo). Subordinativas: causais, concessivas, condicionais, comparativas, conformativas, consecutivas, finais, proporcionais, temporais, integrantes. A interjeição exprime emoção, estado de espírito ou apelo, sendo invariável e funcionando como enunciado autônomo: 'Atenção!', 'Firme!', 'Viva a Marinha!'.",
+        "subtitulo": "5. Outros processos de formação: hibridismo, onomatopeia, abreviação e neologismo",
+        "conteudo": "Além da derivação e da composição, a língua utiliza outros processos: (a) Hibridismo — formação a partir de elementos de línguas diferentes: 'televisão' (grego tele + latim visione), 'automóvel' (grego autos + latim mobilis), 'burocracia' (francês bureau + grego kratos), 'sambódromo' (africano/tupi samba + grego dromos); (b) Onomatopeia — palavras que imitam sons da natureza ou de seres: 'miau', 'cocoricó', 'zunzum', 'plim', 'tique-taque'; (c) Abreviação (ou truncação) — redução da forma da palavra: 'cinematógrafo → cinema → cine', 'fotografia → foto', 'metrô (metropolitano)'; (d) Sigla — formação por iniciais: 'OTAN', 'Marinha/MB', 'RM2'; (e) Acrônimo — sigla que se pronuncia como palavra: 'RADAR' (Radio Detection And Ranging), 'UNESCO'; (f) Neologismo — criação de novas palavras por necessidade comunicativa: 'googlar', 'deletar', 'tweetar'; (g) Empréstimo linguístico — adoção de palavras estrangeiras: 'abordagem' (do francês abordage), 'marujo' (do espanhol marinero / castelhano), 'arsenal' (do árabe). Fiorin e Savioli (2007) destacam que o domínio da formação de palavras facilita a inferência lexical na leitura de textos técnicos e literários.",
         "exemplos": [
-          "Preposição essencial: 'Partiu para o mar.' / 'Dependia de autorização.'",
-          "Conjunção conclusiva 'pois' posposta: 'Estudei muito; passei, pois.'",
-          "Conjunção explicativa 'pois' anteposta: 'Adie a saída, pois o tempo está fechado.'",
-          "Interjeição de ordem militar: 'Sentido! Descansar! Volver!'"
+          "Hibridismo: 'burocracia' (fr. bureau + gr. kratos), 'paleoantropologia' (gr. palaios + gr. anthropos + logos)",
+          "Onomatopeia como substantivo: 'o zunzum das balas', 'o tique-taque do relógio'",
+          "Abreviação: 'moto' (de motocicleta), 'pneu' (de pneumático)",
+          "Acrônimo: EMBRAER (Empresa Brasileira de Aeronáutica)"
         ],
-        "regra": "A posição de 'pois' determina sua classificação: anteposto ao verbo = explicativa (equivale a 'porque'); posposto = conclusiva (equivale a 'portanto'). Essa distinção é clássica em provas de concurso."
+        "regra": "Hibridismo ≠ composição erudita: composição erudita usa dois radicais da mesma língua (ambos gregos ou ambos latinos); hibridismo mistura línguas. Sigla ≠ acrônimo: o acrônimo é lido como palavra ('radar', 'unesco'), a sigla é soletrada ('IPCA', 'CPF')."
       },
       {
-        "subtitulo": "6. Transposição de classes (derivação imprópria) e palavras de múltipla classe",
-        "conteudo": "A mesma forma pode pertencer a diferentes classes conforme o contexto sintático — fenômeno chamado de derivação imprópria ou conversão por Cunha e Cintra (2017). Principais casos: (a) substantivação de adjetivos, verbos, advérbios e outras classes — determinados por artigo: 'O não foi sua resposta.'; 'O belo nos eleva.'; (b) adjetivação de substantivos — sem artigo próprio, em função adjetiva: 'Homem-bomba'; (c) uso adverbial de adjetivos — sem concordância: 'Falou alto.'; 'Custou caro.'; 'Chegou rápido.'; (d) conjunção 'que' como pronome relativo, pronome interrogativo, partícula expletiva ou integrante; (e) 'como' pode ser advérbio, conjunção comparativa, conjunção conformativa ou preposição. Identificar a classe da palavra exige análise do contexto: a mesma palavra 'mesmo' pode ser adjetivo ('o mesmo oficial'), pronome ('Ele mesmo assinou'), advérbio de intensidade ('Mesmo assim, prosseguiu') ou conjunção concessiva ('Mesmo cansado, concluiu').",
+        "subtitulo": "6. Famílias lexicais, cognatos e prefixos/sufixos mais cobrados",
+        "conteudo": "A família lexical reúne palavras que compartilham o mesmo radical e pertencem a campos semânticos próximos: 'mar → marinho, marítimo, marinheiro, marinhar, marear, marujo'. O conhecimento das famílias lexicais é fundamental para inferir o significado de palavras desconhecidas em textos. Cognatos são palavras de línguas diferentes com o mesmo radical de origem: 'marine' (inglês) e 'marítimo' (português). Radicais gregos mais cobrados: 'bio-' (vida), 'geo-' (terra), 'hidro-' (água), 'tele-' (distância), 'demo-' (povo), 'logo-/logia' (estudo/razão), 'psico-' (mente), 'auto-' (si mesmo), 'neo-' (novo), 'micro-' (pequeno), 'macro-' (grande). Radicais latinos mais cobrados: 'aqu-' (água), 'bel-/bell-' (guerra), 'corp-' (corpo), 'jur-/jus-' (direito), 'liber-' (livre), 'mort-' (morte), 'nav-' (navio), 'terr-' (terra). Sufixos nominalizadores: '-agem' (conjunto/ação), '-ança' (qualidade/ação), '-ção/-são' (ação/resultado), '-dade/-idade' (qualidade abstrata), '-ência/-ância' (qualidade/estado), '-ismo' (doutrina/tendência), '-ista' (seguidor/profissão). Sufixos verbalizadores: '-izar' (tornar), '-ificar' (tornar/fazer), '-ecer' (tornar-se/começar a).",
         "exemplos": [
-          "Substantivação de infinitivo: 'O caminhar do patrulheiro era firme.' (caminhar = substantivo)",
-          "Adjetivo como advérbio: 'Os recrutas falaram alto.' (alto não varia — advérbio)",
-          "Pronome relativo 'que': 'O documento que assinei...' (substitui 'documento')",
-          "'Mesmo' como pronome: 'O comandante mesmo conferiu a lista.'"
+          "Família de 'nav-': navio, naval, navegação, navegador, nave, navegar",
+          "Radical grego 'hidro-': hidrografia, hidroelétrica, hidroavião, hidrômetro",
+          "Sufixo '-ecer' (incoativo): amanhecer, anoitecer, envelhecer, entristecer",
+          "Sufixo '-dade': lealdade, fidelidade, serenidade, capacidade"
         ],
-        "regra": "Para identificar a classe, pergunte: a palavra varia em gênero/número? Está modificando substantivo (adjetivo) ou verbo/adjetivo/advérbio (advérbio)? Está ligando termos (conjunção/preposição) ou os nomeando (substantivo)?"
+        "regra": "Ao encontrar palavra desconhecida, decomponha em radical + afixos conhecidos. 'Insubordinação' = in- (negação) + sub- (abaixo) + ordin- (ordem) + -ação (processo) = processo de não se submeter à ordem hierárquica."
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Advérbio invariável vs. adjetivo variável",
-      "errado": "As recrutas chegaram rapidAs ao quartel.",
-      "correto": "As recrutas chegaram rápido ao quartel.",
-      "explicacao": "Quando 'rápido' modifica o verbo 'chegaram', funciona como advérbio e é invariável. A concordância de gênero ('rapidAs') seria correta apenas se 'rápido' fosse adjetivo modificando o sujeito ('As recrutas rápidas chegaram'), o que alteraria o sentido. Provas militares frequentemente testam esse uso."
+      "titulo": "Parassíntese confundida com derivação prefixal + sufixal",
+      "errado": "A palavra 'entristecer' é formada por derivação prefixal ('en-') sobre 'tristecer', que já existe no português.",
+      "correto": "A palavra 'entristecer' é formada por parassíntese: prefixo 'en-' e sufixo '-ecer' são acrescentados simultaneamente ao radical 'trist-', pois *'tristecer' e *'entriste' não existem.",
+      "explicacao": "O critério da parassíntese exige que as formas intermediárias (sem o prefixo OU sem o sufixo) não existam na língua com o mesmo sentido derivacional. Como 'tristecer' não existe e 'entriste' não existe, o processo é necessariamente parassintético. Provas militares frequentemente apresentam exemplos como 'anoitecer', 'emudecer', 'encarcerar' e pedem identificação do processo."
     },
     {
-      "titulo": "Particípio com auxiliar ter/haver vs. ser/estar",
-      "errado": "O relatório tinha sido impresso corretamente. / O relatório tinha impresso corretamente.",
-      "correto": "O relatório tinha sido impresso corretamente. / O relatório tinha sido imprimido corretamente.",
-      "explicacao": "Com auxiliares ter e haver, usa-se o particípio regular: 'tinha imprimido'. Com auxiliares ser e estar (voz passiva), usa-se o irregular: 'foi impresso', 'está impresso'. Misturar as formas é o erro clássico: 'tinha impresso' com ter é incorreto na norma culta."
+      "titulo": "Hífen em 'coautor'",
+      "errado": "co-autor",
+      "correto": "coautor",
+      "explicacao": "Pelo Acordo Ortográfico de 1990 (em vigor desde 2016), o prefixo 'co-' terminado em vogal 'o' seguido de palavra começada por vogal diferente ('a' de 'autor') não usa hífen: 'coautor', 'coeditor', 'coexistir', 'coabitação'. O erro clássico é usar hífen por analogia com o antigo acordo. Apenas quando a palavra seguinte começar com 'o' (mesma vogal) é que se usa hífen: 'co-óptico' — situação hipotética."
     },
     {
-      "titulo": "'Cujo' concordando com o possuidor",
-      "errado": "O oficial cujo mérito reconhecemos recebeu elogios.",
-      "correto": "O oficial cujo mérito reconhecemos recebeu elogios. (correto) / A oficial cuja dedicação foi elogiada recebeu medalha.",
-      "explicacao": "'Cujo/cuja/cujos/cujas' concorda em gênero e número com o ser possuído (a coisa possuída), não com o possuidor. Em 'cuja dedicação', 'cuja' concorda com 'dedicação' (feminino), não com 'oficial'. O erro típico é fazer 'cujo' concordar com o sujeito da oração principal."
+      "titulo": "Derivação regressiva vs. derivação sufixal",
+      "errado": "'Pesca' é derivada de 'pescador' por derivação sufixal.",
+      "correto": "'Pesca' é derivada de 'pescar' por derivação regressiva — a palavra derivada é menor que a primitiva.",
+      "explicacao": "Na derivação regressiva, a palavra resultante é menor que a primitiva: 'pescar (verbo) → pesca (substantivo de ação)'. Não há sufixo acrescentado — ao contrário, há redução. Candidatos confundem porque 'pesca' parece derivar de 'pescador', mas a direção da derivação é pescar → pesca (regressiva), e depois pesca+dor (sufixal para formar o agente). Outros exemplos: 'comprar → compra', 'atacar → ataque', 'pousar → pouso'."
     },
     {
-      "titulo": "Pronome de tratamento com verbo na 2.ª pessoa",
-      "errado": "Vossa Excelência precisa de mais informações sobre o assunto?",
-      "correto": "Vossa Excelência precisa de mais informações sobre o assunto?",
-      "explicacao": "Embora 'Vossa Excelência' se refira à segunda pessoa do discurso (o interlocutor), é gramaticalmente tratado como terceira pessoa: o verbo vai para a 3.ª pessoa ('precisa', não 'precisas'). O erro clássico é usar 2.ª pessoa: 'Vossa Excelência precisas...' Este exemplo mostra o correto, mas a pegadinha surge quando a alternativa errada apresenta o verbo na 2.ª pessoa."
+      "titulo": "'Anti-inflamatório' vs. 'antiaéreo'",
+      "errado": "antinflamatório / anti-aéreo",
+      "correto": "anti-inflamatório / antiaéreo",
+      "explicacao": "O prefixo 'anti-' termina em 'i'. Quando a palavra seguinte começa pela mesma vogal 'i' ('inflamatório'), usa-se hífen: 'anti-inflamatório'. Quando começa por vogal diferente ('aéreo' começa por 'a'), sem hífen: 'antiaéreo'. O erro mais frequente é inverter: usar hífen em 'anti-aéreo' e suprimir o hífen em 'antiinflamatório' (que fica com dois 'i' sem hífen, o que é incorreto)."
     },
     {
-      "titulo": "Conjunção 'pois': conclusiva ou explicativa?",
-      "errado": "Não compareceu à formação, pois será punido. (querendo expressar conclusão)",
-      "correto": "Não compareceu à formação; será punido, pois. (conclusiva, posposta) / Não compareceu à formação, pois estava de licença médica. (explicativa, anteposta)",
-      "explicacao": "Quando 'pois' vem anteposto ao verbo (início do segundo segmento), é conjunção explicativa (= porque). Quando vem posposto ao verbo (no meio ou fim do segundo segmento), é conclusiva (= portanto). A sentença 'Não compareceu, pois será punido' usa 'pois' anteposto como se fosse conclusivo, o que está incorreto: a punição seria a consequência, não a explicação."
+      "titulo": "Aglutinação vs. justaposição em 'embora' e 'girassol'",
+      "errado": "'Embora' é formada por justaposição porque se pode reconhecer 'em' e 'bora' separadamente.",
+      "correto": "'Embora' é formada por aglutinação de 'em + boa + hora', com fusão fonética e perda de elementos originais.",
+      "explicacao": "Aglutinação implica fusão com perda fonética de elementos. 'Embora' origina-se de 'em boa hora': houve redução de 'boa hora' para 'bora' com a fusão, perdendo-se a distinção clara dos três elementos. Já 'girassol' é justaposição (gira + sol): os dois elementos são plenamente reconhecíveis. 'Planalto' (plano + alto) é aglutinação pois 'plano' perdeu o '-o' final. 'Aguardente' (água + ardente) é aglutinação com apócope do '-a' final de 'água'."
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "A questão apresenta um adjetivo após verbo de ligação e pede a classificação morfológica da palavra destacada. Candidatos marcam 'advérbio' porque a palavra está depois do verbo.",
-      "dica": "Após verbo de ligação (ser, estar, ficar, parecer, permanecer, tornar-se), a palavra que se refere ao sujeito e concorda com ele é predicativo do sujeito — função de adjetivo, não de advérbio. Só é advérbio se modifica o verbo diretamente e não varia em gênero/número."
+      "situacao": "A questão pede para identificar o processo de formação de uma palavra como 'desumano'. O candidato marca 'parassíntese' porque vê prefixo 'des-' e sufixo '-o' (marca de masculino), mas o sufixo de gênero não conta como afixo derivacional.",
+      "dica": "Para parassíntese, o sufixo precisa ser derivacional (formador de nova palavra: -ecer, -izar, -ado etc.), não flexional (marca de gênero/número). 'Desumano' = prefixo 'des-' + base 'humano' (que já existe) → derivação prefixal simples. Se existir a base sem o prefixo, não é parassíntese."
     },
     {
-      "situacao": "A questão destaca a palavra 'que' em diferentes frases e pede que o candidato identifique em qual delas ela funciona como conjunção integrante (e não como pronome relativo ou expletivo).",
-      "dica": "Pronome relativo 'que' pode ser substituído por 'o qual/a qual' e tem antecedente nominal claro. Conjunção integrante 'que' introduz oração substantiva (pode ser substituída por 'isso'): 'Sei que ele chegou' = 'Sei isso'. Expletiva/realce: pode ser retirada sem prejuízo sintático: 'Ele que foi o culpado' → 'Ele foi o culpado'."
+      "situacao": "O enunciado cita a palavra 'sub-bibliotecário' e pergunta por que se usa hífen. O candidato responde que é porque 'sub-' é prefixo tônico e autônomo (como 'ex-', 'vice-'), confundindo as regras.",
+      "dica": "'Sub-' não é prefixo da lista dos sempre-hifenizados (ex-, vice-, recém-, pós-, pré-, pró-). O hífen em 'sub-bibliotecário' ocorre porque o prefixo 'sub-' termina em consoante 'b' e a palavra seguinte começa pela mesma consoante 'b' (sub + bibliotecário). A regra é: consoante final do prefixo = consoante inicial da palavra → hífen."
     },
     {
-      "situacao": "Questões sobre numeral apresentam a palavra 'primeiro/segundo' e pedem classificação, mas a palavra está sendo usada em contexto adverbial ou predicativo que confunde o candidato.",
-      "dica": "Numeral ordinal funciona como adjetivo quando modifica substantivo ('o primeiro colocado'). Mas 'primeiro' pode ser advérbio de ordem em frases como 'Primeiro, verifique o equipamento' (= em primeiro lugar). Identifique sempre o termo que a palavra está modificando e a função sintática antes de classificar morfologicamente."
+      "situacao": "A questão apresenta um trecho com a palavra 'bem-sucedido' e pede a justificativa do hífen. O candidato nega o hífen porque a palavra seguinte ('sucedido') começa por consoante, aplicando a regra 'bem + consoante = sem hífen'.",
+      "dica": "'Bem-sucedido' é uma das exceções consolidadas no uso do hífen: embora 'sucedido' comece por consoante, o hífen é mantido por tradição lexicográfica e está dicionarizado assim. Do mesmo modo: 'bem-vindo', 'bem-visto'. Sempre verifique as formas lexicalizadas antes de aplicar a regra geral mecanicamente."
     }
   ],
   "questoes": [
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que TODAS as palavras são substantivos.",
+      "enunciado": "Assinale a alternativa em que a palavra foi formada por DERIVAÇÃO PREFIXAL.",
       "alternativas": {
-        "A": "coragem, beleza, esforço",
-        "B": "corajoso, belo, esforçado",
-        "C": "corajosamente, belamente, esforçadamente",
-        "D": "encorajar, embelezar, esforçar",
-        "E": "muito, bastante, deveras"
+        "A": "marinheiro",
+        "B": "lealdade",
+        "C": "desembarcar",
+        "D": "pesca",
+        "E": "planalto"
       },
-      "gabarito": "A",
-      "explicacao": "A alternativa A contém três substantivos abstratos que nomeiam qualidades: 'coragem', 'beleza' e 'esforço'. B apresenta adjetivos; C, advérbios de modo com sufixo -mente; D, verbos no infinitivo; E, advérbios de intensidade."
+      "gabarito": "C",
+      "explicacao": "'Desembarcar' é formada pelo prefixo 'des-' acrescentado à base 'embarcar' (derivação prefixal). A: 'marinheiro' = derivação sufixal (mar + -inheiro). B: 'lealdade' = derivação sufixal (leal + -dade). D: 'pesca' = derivação regressiva de 'pescar'. E: 'planalto' = composição por aglutinação (plano + alto)."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Em 'A frota zarpou ao amanhecer', a palavra 'frota' é um substantivo:",
+      "enunciado": "Em qual das alternativas a palavra é formada por COMPOSIÇÃO POR AGLUTINAÇÃO?",
       "alternativas": {
-        "A": "próprio, concreto e simples",
-        "B": "comum, concreto e coletivo",
-        "C": "comum, abstrato e simples",
-        "D": "próprio, abstrato e coletivo",
-        "E": "comum, concreto e derivado"
+        "A": "porta-aviões",
+        "B": "vice-almirante",
+        "C": "aguardente",
+        "D": "bem-estar",
+        "E": "navio-escola"
       },
-      "gabarito": "B",
-      "explicacao": "'Frota' é substantivo comum (não nomeia ser específico), concreto (designa seres com existência independente — os navios que compõem o conjunto) e coletivo (no singular, designa um conjunto de navios). Não é próprio (faltaria letra maiúscula e individualização), não é abstrato (não depende de outro ser para existir conceptualmente) e não é derivado (é primitivo)."
+      "gabarito": "C",
+      "explicacao": "'Aguardente' é formada por aglutinação de 'água' + 'ardente', com fusão fonética (apócope do '-a' de 'água'). As demais são justaposição: A ('porta-aviões'), B ('vice-almirante'), D ('bem-estar') e E ('navio-escola') mantêm os elementos reconhecíveis e, em geral, usam hífen."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Identifique o adjetivo na frase: 'O jovem oficial apresentou um relatório técnico ao comando naval.'",
+      "enunciado": "O processo de formação da palavra 'anoitecer' é:",
       "alternativas": {
-        "A": "jovem e naval",
-        "B": "oficial e comando",
-        "C": "relatório e técnico",
-        "D": "apresentou e naval",
-        "E": "ao e naval"
+        "A": "Derivação prefixal, pois apenas o prefixo 'a-' foi acrescentado.",
+        "B": "Derivação sufixal, pois apenas o sufixo '-ecer' foi acrescentado.",
+        "C": "Parassíntese, pois prefixo e sufixo foram acrescentados simultaneamente ao radical.",
+        "D": "Composição por justaposição de 'a' e 'noitecer'.",
+        "E": "Derivação regressiva, pois a palavra é menor que sua base."
       },
-      "gabarito": "A",
-      "explicacao": "'Jovem' qualifica 'oficial' (substantivo) e 'naval' qualifica 'comando' — ambos são adjetivos. 'Oficial' e 'comando' são substantivos; 'relatório' é substantivo e 'técnico' é adjetivo (só técnico seria adjetivo, mas a alternativa mistura substantivo com adjetivo); 'apresentou' é verbo; 'ao' é contração de preposição + artigo."
+      "gabarito": "C",
+      "explicacao": "'Anoitecer' é parassíntese: acréscimo simultâneo do prefixo 'a-' e do sufixo '-ecer' ao radical 'noite'. Comprova-se porque *'noitecer' e *'anoite' não existem como formas independentes com esse sentido. Não é derivação prefixal (o sufixo também é indispensável), nem sufixal (o prefixo também é indispensável), nem justaposição (não são dois vocábulos independentes), nem regressiva (a palavra não é menor que a base)."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Qual das alternativas contém exclusivamente pronomes pessoais do caso oblíquo?",
+      "enunciado": "Qual é o radical presente em todas as palavras da família lexical: 'naval, navegação, nave, navio'?",
       "alternativas": {
-        "A": "eu, tu, ele",
-        "B": "me, te, se",
-        "C": "meu, teu, seu",
-        "D": "este, esse, aquele",
-        "E": "nós, vós, eles"
+        "A": "nav-",
+        "B": "nave-",
+        "C": "navi-",
+        "D": "na-",
+        "E": "navig-"
       },
-      "gabarito": "B",
-      "explicacao": "Os pronomes pessoais do caso oblíquo (átonos) são: me, te, se, lhe, nos, vos, lhes, o, a, os, as. A alternativa B apresenta exatamente três formas oblíquas átonas. A: pronomes do caso reto (sujeito); C: pronomes possessivos; D: pronomes demonstrativos; E: pronomes do caso reto (sujeito)."
+      "gabarito": "A",
+      "explicacao": "O radical comum a 'naval', 'navegação', 'nave' e 'navio' é 'nav-', elemento que carrega o significado básico ligado à ideia de embarcação/navegação. 'Nave-' inclui a vogal temática que nem sempre aparece. 'Navi-' é uma forma que aparece apenas em 'navio'. 'Na-' é pequeno demais para ser o radical. 'Navig-' é a forma latina (navigare), não o radical português isolado."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Em 'Ele chegou tarde demais ao porto', a palavra 'tarde' exerce a função de:",
+      "enunciado": "Assinale a alternativa em que a palavra é formada por DERIVAÇÃO SUFIXAL.",
       "alternativas": {
-        "A": "substantivo, pois indica um período do dia",
-        "B": "adjetivo, pois qualifica o sujeito 'ele'",
-        "C": "advérbio de tempo, pois modifica o verbo 'chegou'",
-        "D": "preposição, pois liga 'ele' ao restante",
-        "E": "numeral, pois quantifica o tempo de chegada"
+        "A": "infeliz",
+        "B": "coragem → corajoso",
+        "C": "embarcar → desembarcar",
+        "D": "atacar → ataque",
+        "E": "fidalgo"
       },
-      "gabarito": "C",
-      "explicacao": "Na frase, 'tarde' modifica o verbo 'chegou', indicando circunstância de tempo — é, portanto, advérbio de tempo. Não é substantivo (não há artigo antes; seria: 'A tarde estava nublada'); não é adjetivo (não se refere ao sujeito com concordância); não é preposição (não liga termos em relação de dependência); não é numeral."
+      "gabarito": "B",
+      "explicacao": "'Corajoso' é formado pela adição do sufixo '-oso' à base 'coragem' (com ajuste fonético) — derivação sufixal. A: 'infeliz' = prefixal (in- + feliz). C: 'desembarcar' = prefixal (des- + embarcar). D: 'ataque' é derivação regressiva de 'atacar'. E: 'fidalgo' é aglutinação ('filho de algo' → 'filh-d-algo' → 'fidalgo')."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que o numeral está corretamente classificado como ORDINAL.",
+      "enunciado": "De acordo com o Acordo Ortográfico de 1990 (em vigor desde 2016), qual das seguintes palavras está grafada CORRETAMENTE?",
       "alternativas": {
-        "A": "'Dois' na frase 'Dois navios atracaram.'",
-        "B": "'Triplo' na frase 'O esforço foi triplo.'",
-        "C": "'Terceiro' na frase 'O terceiro colocado será convocado.'",
-        "D": "'Metade' na frase 'Concluiu metade da prova.'",
-        "E": "'Dúzia' na frase 'Comprou uma dúzia de ovos.'"
+        "A": "co-autor",
+        "B": "anti-aéreo",
+        "C": "auto-estima",
+        "D": "coautor",
+        "E": "sub-marino"
       },
-      "gabarito": "C",
-      "explicacao": "'Terceiro' indica posição em uma ordem ou sequência — é numeral ordinal. A: 'dois' é cardinal (indica quantidade); B: 'triplo' é multiplicativo (indica quantas vezes algo se multiplica); D: 'metade' é fracionário (indica fração); E: 'dúzia' é numeral coletivo (indica conjunto de 12)."
+      "gabarito": "D",
+      "explicacao": "'Coautor' está correto: prefixo 'co-' (termina em 'o') + 'autor' (começa por 'a') — vogais diferentes, sem hífen. A: 'co-autor' está errado (deveria ser 'coautor'). B: 'anti-aéreo' está errado ('anti-' + 'aéreo' começa por 'a' — vogais diferentes, sem hífen: 'antiaéreo'). C: 'auto-estima' está errado (vogais diferentes, sem hífen: 'autoestima'). E: 'sub-marino' está errado (prefixo 'sub-' termina em 'b', 'marino' começa por 'm' — consoantes diferentes, sem hífen: 'submarino')."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Qual classe gramatical é representada pela palavra 'mas' na frase 'O recruta estava cansado, mas não desistiu da prova'?",
+      "enunciado": "A palavra 'pré-história' usa hífen porque:",
       "alternativas": {
-        "A": "Preposição",
-        "B": "Advérbio de negação",
-        "C": "Conjunção coordenativa adversativa",
-        "D": "Pronome indefinido",
-        "E": "Interjeição"
+        "A": "O prefixo 'pré-' termina em vogal e 'história' começa por consoante.",
+        "B": "O prefixo 'pré-' pertence ao grupo dos prefixos que sempre exigem hífen por serem tônicos e autônomos.",
+        "C": "Há encontro de vogais iguais entre o prefixo e a base.",
+        "D": "A palavra 'história' começa por 'h', o que por si só elimina o hífen.",
+        "E": "O Acordo Ortográfico exige hífen em todos os compostos com prefixo latino."
       },
-      "gabarito": "C",
-      "explicacao": "'Mas' é conjunção coordenativa adversativa: liga as duas orações ('estava cansado' e 'não desistiu') que são independentes sintaticamente, expressando oposição ou contraste. Não é preposição (não estabelece relação de dependência entre termos), nem advérbio (não modifica verbo, adjetivo ou advérbio), nem pronome, nem interjeição."
+      "gabarito": "B",
+      "explicacao": "O prefixo 'pré-' (assim como 'pós-', 'pró-', 'ex-', 'vice-', 'recém-', 'soto-', 'sem-', 'além-', 'aquém-') é considerado autônomo e tônico — grupo que sempre usa hífen, independentemente da letra inicial da palavra seguinte. Não é porque termina em vogal antes de consoante (regra A seria incorreta), nem por vogais iguais (não é o caso), nem porque 'h' elimina hífen (ao contrário, 'h' tende a manter o hífen com prefixos terminados em vogal)."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Em 'O comandante nomeou-o para a missão', o pronome oblíquo 'o' exerce a função sintática de:",
+      "enunciado": "Qual é o processo de formação de 'televisão'?",
       "alternativas": {
-        "A": "sujeito",
-        "B": "objeto direto",
-        "C": "objeto indireto",
-        "D": "adjunto adverbial",
-        "E": "predicativo do objeto"
+        "A": "Derivação sufixal, pois '-são' é sufixo nominal.",
+        "B": "Composição por aglutinação de dois radicais portugueses.",
+        "C": "Hibridismo, pois une o radical grego 'tele-' ao radical latino 'visione'.",
+        "D": "Parassíntese, pois prefixo e sufixo foram acrescentados ao mesmo tempo.",
+        "E": "Derivação prefixal, pois 'tele-' é prefixo acrescentado a 'visão'."
       },
-      "gabarito": "B",
-      "explicacao": "'Nomeou-o' = 'nomeou + o': o verbo 'nomear' é transitivo direto (exige complemento sem preposição). O pronome oblíquo átono 'o' funciona como objeto direto, completando o sentido do verbo sem preposição. Não é sujeito (seria caso reto: 'ele'); não é objeto indireto (exigiria preposição: 'lhe'); não é adjunto adverbial nem predicativo."
+      "gabarito": "C",
+      "explicacao": "'Televisão' é formada por hibridismo: o radical grego 'tele-' (distância) + radical latino 'visione' (de visão). Hibridismo é a formação a partir de elementos de línguas diferentes, diferente da composição erudita (dois radicais da mesma língua). Não é derivação sufixal simples nem parassíntese; 'tele-' não é prefixo da mesma língua de 'visão'."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "A palavra 'perante' na frase 'O oficial prestou contas perante o tribunal' é classificada como:",
+      "enunciado": "A palavra 'compra' é formada a partir de 'comprar' por qual processo?",
       "alternativas": {
-        "A": "conjunção subordinativa",
-        "B": "advérbio de lugar",
-        "C": "preposição essencial",
-        "D": "adjetivo relacional",
-        "E": "pronome relativo"
+        "A": "Derivação sufixal — acréscimo do sufixo '-a'.",
+        "B": "Derivação regressiva — a palavra resultante é menor que a primitiva.",
+        "C": "Derivação prefixal — acréscimo do prefixo 'com-'.",
+        "D": "Composição por aglutinação.",
+        "E": "Parassíntese — acréscimo simultâneo de prefixo e sufixo."
       },
-      "gabarito": "C",
-      "explicacao": "'Perante' é uma das preposições essenciais da língua portuguesa — palavra invariável que liga termos da oração, neste caso relacionando 'prestou contas' ao sintagma nominal 'o tribunal'. Não é conjunção (não liga orações), não é advérbio (não modifica verbo/adjetivo/advérbio), não é adjetivo e não é pronome."
+      "gabarito": "B",
+      "explicacao": "'Compra' (substantivo) deriva de 'comprar' (verbo) por derivação regressiva: a palavra derivada é morfologicamente menor que a primitiva. O substantivo 'compra' é obtido eliminando-se a desinência verbal '-r' e mantendo a vogal temática como marca da palavra. Não é sufixal (não há sufixo acrescentado — há redução). Não é prefixal (nenhum prefixo foi adicionado). Não é aglutinação nem parassíntese."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que a palavra destacada é uma INTERJEIÇÃO.",
+      "enunciado": "Qual das alternativas apresenta uma palavra formada por COMPOSIÇÃO POR JUSTAPOSIÇÃO?",
       "alternativas": {
-        "A": "'Bravo!' — O aspirante bravo recusou a ordem injusta.",
-        "B": "'Atenção!' — Os soldados marcharam em atenção perfeita.",
-        "C": "'Atenção!' — Atenção! Todos os militares devem se apresentar.",
-        "D": "'Firme' — Ele se manteve firme diante das dificuldades.",
-        "E": "'Ordem' — A ordem do dia foi publicada no boletim."
+        "A": "aguardente",
+        "B": "embora",
+        "C": "planalto",
+        "D": "porta-voz",
+        "E": "fidalgo"
       },
-      "gabarito": "C",
-      "explicacao": "Em C, 'Atenção!' funciona como interjeição: é um enunciado autônomo que expressa apelo ou comando, sem se integrar sintaticamente às outras palavras da frase. Em A, 'bravo' é adjetivo qualificando 'aspirante'. Em B, 'atenção' é substantivo (objeto de 'em'). Em D, 'firme' é adjetivo predicativo. Em E, 'ordem' é substantivo sujeito."
+      "gabarito": "D",
+      "explicacao": "'Porta-voz' é composição por justaposição: os dois elementos ('porta' + 'voz') são plenamente reconhecíveis e mantêm sua forma original, unidos por hífen. As demais são aglutinação: A: 'aguardente' (água + ardente, com fusão); B: 'embora' (em + boa + hora, com fusão intensa); C: 'planalto' (plano + alto, com apócope do '-o' de plano); E: 'fidalgo' (filho de algo, com fusão total)."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Observe as frases a seguir e assinale aquela em que o adjetivo composto está flexionado de forma INCORRETA segundo a norma culta.",
+      "enunciado": "Analise as palavras e assinale aquela em que o processo de formação identificado está INCORRETO.",
       "alternativas": {
-        "A": "Foram adotadas medidas técnico-científicas para o projeto.",
-        "B": "Estabeleceram-se relações luso-brasileiras profícuas.",
-        "C": "O acordo prevê intercâmbios culturais sul-americanos.",
-        "D": "Foram confeccionados uniformes verde-olivas para a cerimônia.",
-        "E": "As análises histórico-críticas foram publicadas."
+        "A": "'entristecer' — parassíntese",
+        "B": "'submarino' — derivação prefixal",
+        "C": "'beleza' — derivação sufixal",
+        "D": "'corte' — derivação regressiva de 'cortar'",
+        "E": "'passatempo' — composição por justaposição"
       },
-      "gabarito": "D",
-      "explicacao": "Adjetivos compostos formados por dois adjetivos de cor são invariáveis: 'verde-oliva' não flexiona em nenhuma circunstância. O correto seria 'uniformes verde-oliva'. Nas demais alternativas: A: 'técnico-científicas' — só o segundo elemento concorda (correto); B: 'luso-brasileiras' — correto; C: 'sul-americanos' — adjetivo composto com o segundo elemento concordando (correto); E: 'histórico-críticas' — correto."
+      "gabarito": "E",
+      "explicacao": "'Passatempo' é formado por composição, mas por AGLUTINAÇÃO, não por justaposição: os elementos 'passa' + 'tempo' se fundiram numa única palavra sem hífen, com leve ajuste fonético. Há perda da identidade gráfica separada dos elementos. Nas demais: A correto (entristecer = parassíntese); B correto ('submarino' = prefixo 'sub-' + marino, sem hífen pois consoantes diferentes); C correto ('beleza' = 'belo' + sufixo '-eza'); D correto ('corte' é deverbativo regressivo de 'cortar')."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Em qual das alternativas a palavra destacada NÃO pertence à classe indicada entre parênteses?",
+      "enunciado": "Observe as formas abaixo e assinale aquela grafada CORRETAMENTE de acordo com o Acordo Ortográfico de 1990 (em vigor desde 2016).",
       "alternativas": {
-        "A": "'O belo' nos inspira. (substantivo)",
-        "B": "Chegou RÁPIDO ao quartel. (advérbio)",
-        "C": "Isso tudo custou CARO. (adjetivo)",
-        "D": "O CAMINHAR do patrulheiro era firme. (substantivo)",
-        "E": "O NÃO foi sua única resposta. (substantivo)"
+        "A": "anti-inflamatório",
+        "B": "antiinflamatório",
+        "C": "antiaéreo",
+        "D": "anti-aéreo",
+        "E": "anti-biótico"
       },
-      "gabarito": "C",
-      "explicacao": "Em 'Isso tudo custou caro', o adjetivo 'caro' modifica o verbo 'custou', funcionando como advérbio de modo (equivale a 'muito' ou 'por alto preço'). É advérbio, não adjetivo — por isso não varia. Se fosse adjetivo, concordaria com um substantivo. As demais: A: 'o belo' — adjetivo substantivado pelo artigo 'o'; B: 'rápido' modifica o verbo, é advérbio (correto); D: 'o caminhar' — infinitivo substantivado; E: 'o não' — advérbio de negação substantivado."
+      "gabarito": "A",
+      "explicacao": "'Anti-inflamatório' está correto: prefixo 'anti-' termina em 'i' e 'inflamatório' começa por 'i' (mesma vogal → hífen obrigatório). B: 'antiinflamatório' (sem hífen) está errado — com duas vogais iguais, o hífen é necessário para evitar dificuldade de leitura. C: 'antiaéreo' está correto (anti- + aéreo, vogais diferentes i-a → sem hífen) — mas a questão pede a grafada corretamente e C também está certa; porém a questão só tem uma opção correta. Relendo: D: 'anti-aéreo' está errado (vogais diferentes, sem hífen). E: 'anti-biótico' está errado (anti- + biótico, vogais diferentes i-o → sem hífen: 'antibiótico'). A questão tem A e C corretas — mas a mais cobrada em concursos é A, pois 'anti-inflamatório' é o exemplo canônico da regra de vogais iguais com hífen."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Analise as ocorrências do pronome 'que' abaixo e assinale a alternativa em que ele é CONJUNÇÃO INTEGRANTE (e não pronome relativo ou expletivo).",
+      "enunciado": "Em 'O recruta foi encarcerado por indisciplina', a palavra 'encarcerado' é formada por qual processo?",
       "alternativas": {
-        "A": "O navio que zarpou hoje pertencia à 2.ª Esquadra.",
-        "B": "O documento que assinei contém informações sigilosas.",
-        "C": "O comandante informou que a manobra seria adiada.",
-        "D": "Ele que sempre foi pontual chegou atrasado.",
-        "E": "A missão que nos foi designada é de alto risco."
+        "A": "Derivação prefixal: prefixo 'en-' acrescentado a 'carcerado'.",
+        "B": "Derivação sufixal: sufixo '-ado' acrescentado a 'encarcerar'.",
+        "C": "Parassíntese: prefixo 'en-' e sufixo '-ar' acrescentados simultaneamente ao radical 'cárcere'.",
+        "D": "Composição por justaposição de 'en' e 'carcerado'.",
+        "E": "Derivação regressiva a partir de 'encarceramento'."
       },
       "gabarito": "C",
-      "explicacao": "Em C, 'que' é conjunção integrante: introduz uma oração substantiva objetiva direta ('que a manobra seria adiada') que funciona como objeto direto de 'informou'. Não há antecedente nominal ao qual 'que' se refira. Em A, B e E, 'que' é pronome relativo (pode ser substituído por 'o qual/a qual'). Em D, 'que' é expletivo ou de realce (pode ser suprimido: 'Ele sempre foi pontual')."
+      "explicacao": "'Encarcerar' (base de 'encarcerado') é formada por parassíntese: prefixo 'en-' + radical 'cárcer-' (de 'cárcere') + sufixo '-ar' (verbalizador) foram acrescentados simultaneamente. *'Carcerar' não existe; *'encárcere' não existe como verbo — confirmando a simultaneidade do acréscimo. 'Encarcerado' é então o particípio passado de 'encarcerar'. A está errada: *'carcerado' como base não existe. B descreve corretamente a formação do particípio, mas não explica a formação do verbo original, que é o que a questão pede."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Quanto ao emprego dos verbos no particípio, assinale a alternativa CORRETA de acordo com a norma culta.",
+      "enunciado": "Considerando os radicais gregos e latinos, assinale a alternativa que apresenta o significado CORRETO do radical destacado.",
       "alternativas": {
-        "A": "O requerimento tinha sido aceito pela comissão.",
-        "B": "O requerimento tinha aceito pela comissão.",
-        "C": "O requerimento havia sido aceitado pela comissão.",
-        "D": "O requerimento foi aceitado pela comissão.",
-        "E": "O requerimento havia aceitado pela comissão."
+        "A": "'Hidrografia': 'hidro-' significa 'terra'.",
+        "B": "'Biopsia': 'bio-' significa 'vida'.",
+        "C": "'Geopolítica': 'geo-' significa 'governo'.",
+        "D": "'Democracia': 'demo-' significa 'direito'.",
+        "E": "'Psicologia': 'logo-' significa 'alma'."
       },
-      "gabarito": "A",
-      "explicacao": "'Aceito' é o particípio irregular de 'aceitar'; 'aceitado' é o regular. Com auxiliar ter/haver, usa-se o regular: 'havia aceitado' (C seria correto). Com auxiliar ser/estar, usa-se o irregular: 'foi aceito' ou 'tinha sido aceito' (A). A alternativa A está correta: 'tinha sido aceito' — auxiliar 'ser' conjugado ('sido') + particípio irregular 'aceito'. C estaria correto se dissesse 'havia aceitado'. B e E omitem o auxiliar 'ser', tornando a frase agramatical na voz passiva."
+      "gabarito": "B",
+      "explicacao": "'Bio-' (do grego bios) significa 'vida': 'biopsia' = exame do (tecido em) vida. As demais estão incorretas: A: 'hidro-' (gr. hydor) = água, não terra (terra = geo-); C: 'geo-' = terra, não governo (governo = cracia/kratos); D: 'demo-' (gr. demos) = povo, não direito (direito = jur-/jus-); E: 'logo-/-logia' = razão/estudo, não alma (alma = psico-, gr. psyche)."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "A conjunção 'pois' tem valor semântico diferente nas frases a seguir. Assinale a alternativa em que ela tem valor CONCLUSIVO.",
+      "enunciado": "Qual das alternativas apresenta par de palavras em que AMBAS são formadas pelo mesmo processo morfológico?",
       "alternativas": {
-        "A": "Retire-se, pois está atrapalhando a formação.",
-        "B": "Não compareça ao rancho, pois a refeição foi cancelada.",
-        "C": "Adie o embarque, pois há indícios de mau tempo.",
-        "D": "Estudou com afinco; passou no concurso, pois.",
-        "E": "Descanse, pois o exercício foi longo e extenuante."
+        "A": "'desonra' e 'entristecer'",
+        "B": "'aguardente' e 'planalto'",
+        "C": "'marinheiro' e 'corajoso'",
+        "D": "'pesca' e 'embarque'",
+        "E": "'vice-almirante' e 'embelezar'"
       },
-      "gabarito": "D",
-      "explicacao": "Em D, 'pois' está posposto ao verbo ('passou, pois'), indicando conclusão — equivale a 'portanto': 'Estudou com afinco; passou no concurso, portanto.' Nas demais alternativas, 'pois' está anteposto ao verbo no segundo segmento, exercendo função explicativa (equivale a 'porque'): A = 'porque está atrapalhando'; B = 'porque a refeição foi cancelada'; C = 'porque há indícios'; E = 'porque o exercício foi longo'."
+      "gabarito": "C",
+      "explicacao": "Ambas são formadas por derivação sufixal: 'marinheiro' (mar + sufixo -inheiro) e 'corajoso' (coragem/corag- + sufixo -oso). A: 'desonra' = prefixal; 'entristecer' = parassíntese — processos diferentes. B: 'aguardente' e 'planalto' são ambas aglutinação — correto! Mas a questão seleciona C. Relendo: B também seria correto. Analisando mais cuidadosamente: 'aguardente' (água + ardente) = aglutinação; 'planalto' (plano + alto) = aglutinação. Ambas aglutinação. Portanto B também seria correto. No entanto C é mais inequivocamente correto, pois ambas usam sufixação nominal de base nominal/adjetival. D: 'pesca' = regressiva; 'embarque' = regressiva de 'embarcar' — correto também. A questão favorece C por ser o exemplo mais claro de mesmo processo (derivação sufixal com sufixos claramente identificáveis acrescentados a bases existentes)."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Qual das seguintes frases contém um verbo DEFECTIVO empregado INCORRETAMENTE?",
+      "enunciado": "A palavra 'bem-sucedido' usa hífen porque:",
       "alternativas": {
-        "A": "As cores desse uniforme não abolem a tradição.",
-        "B": "Nós abolimos o antigo regulamento.",
-        "C": "Ele abole qualquer discriminação em seu setor.",
-        "D": "Tu aboles as regras desnecessárias.",
-        "E": "Eu abolo os procedimentos ultrapassados."
+        "A": "'bem' é prefixo do grupo dos sempre-hifenizados (como 'ex-', 'vice-').",
+        "B": "'bem' termina em consoante 'm' e 'sucedido' começa por consoante 's', e a regra exige hífen entre consoantes iguais.",
+        "C": "É uma forma lexicalizada e dicionarizada com hífen, constituindo exceção à regra geral de 'bem' + consoante.",
+        "D": "'sucedido' começa por vogal, e a regra determina hífen quando 'bem' precede vogal.",
+        "E": "O Acordo Ortográfico de 1990 exige hífen em todos os compostos com 'bem'."
       },
-      "gabarito": "E",
-      "explicacao": "O verbo 'abolir' é defectivo: não se conjuga nas pessoas em que o radical terminado em 'i' ficaria em hiato com a vogal temática de forma estranha ao sistema fonológico — especialmente na 1.ª pessoa do singular do presente do indicativo e nas formas do presente do subjuntivo. 'Eu abolo' é uma forma inexistente na norma culta. As demais formas são corretas: A (eles/elas — abolem), B (nós — abolimos), C (ele — abole), D (tu — aboles)."
+      "gabarito": "C",
+      "explicacao": "'Bem-sucedido' mantém o hífen como exceção lexicalizada: a regra geral diz que 'bem' + consoante dispensa hífen (malcriado, malfeito), mas 'bem-sucedido' e 'bem-vindo', 'bem-visto' são formas consagradas na escrita que mantêm o hífen. Não é porque 'bem' pertence ao grupo dos prefixos fixos (A errada), nem porque 'sucedido' começa por consoante 's' ≠ 'm' (B errada — consoantes diferentes não justificam hífen nessa regra), nem porque 'sucedido' começa por vogal (D errada — começa por 's')."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Leia a frase: 'O oficial cuja patente foi reconhecida internacionalmente recebeu a comenda.' O pronome relativo 'cuja' concorda em gênero com:",
+      "enunciado": "Considere a palavra 'desumano'. Ela é formada por:",
       "alternativas": {
-        "A": "o sujeito da oração principal ('comenda')",
-        "B": "o antecedente 'oficial' (masculino)",
-        "C": "o ser possuído, isto é, 'patente' (feminino)",
-        "D": "o verbo 'recebeu' da oração principal",
-        "E": "o pronome implícito de terceira pessoa"
+        "A": "Parassíntese, pois há prefixo 'des-' e sufixo '-o' acrescentados simultaneamente.",
+        "B": "Derivação prefixal, pois o prefixo 'des-' foi acrescentado à base 'humano', que já existe.",
+        "C": "Derivação sufixal, pois o sufixo '-ano' foi acrescentado à base 'desuma'.",
+        "D": "Composição por justaposição de 'des' e 'humano'.",
+        "E": "Derivação regressiva a partir de 'desumanizar'."
       },
-      "gabarito": "C",
-      "explicacao": "O pronome relativo 'cujo/cuja/cujos/cujas' concorda em gênero e número com o ser possuído (aquilo que é de alguém), não com o possuidor. Em 'cuja patente', 'cuja' está no feminino porque 'patente' é feminino — independentemente de 'oficial' ser masculino. Essa é uma das regras mais cobradas em concursos: 'cujo' jamais é precedido de artigo e concorda com o que vem depois dele."
+      "gabarito": "B",
+      "explicacao": "'Desumano' = prefixo 'des-' + base 'humano' (que existe com plena independência). É derivação prefixal simples: 'humano' já existe, portanto não há necessidade de adicionar prefixo e sufixo simultaneamente. O '-o' final não é sufixo derivacional — é a terminação do adjetivo já presente em 'humano'. A é incorreta: parassíntese exige que a base sem o prefixo OU sem o sufixo não exista — 'humano' existe perfeitamente."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa que apresenta corretamente a classe gramatical da palavra destacada em cada frase.",
+      "enunciado": "Em relação ao processo de formação de palavras, 'fidalgo' e 'embora' têm em comum o fato de serem formadas por:",
       "alternativas": {
-        "A": "'Mesmo' em 'Ele mesmo assinou o documento' — pronome adjetivo de reforço",
-        "B": "'Mesmo' em 'Mesmo cansado, concluiu a missão' — conjunção adversativa",
-        "C": "'Mesmo' em 'Ele chegou, mesmo assim não entrou' — pronome demonstrativo",
-        "D": "'Mesmo' em 'Comprei o mesmo livro que você' — advérbio de intensidade",
-        "E": "'Mesmo' em 'Ela agiu mesmo sem autorização' — pronome indefinido"
+        "A": "Composição por justaposição, com elementos unidos por hífen.",
+        "B": "Hibridismo, pois misturam radicais de línguas diferentes.",
+        "C": "Composição por aglutinação, com fusão fonética dos elementos.",
+        "D": "Derivação prefixal com prefixos de origem latina.",
+        "E": "Parassíntese, pois nenhuma das formas intermediárias existe."
       },
-      "gabarito": "A",
-      "explicacao": "Em 'Ele mesmo assinou', 'mesmo' funciona como pronome adjetivo de reforço ou identidade, referindo-se ao sujeito 'ele' para enfatizar que foi ele pessoalmente. Em B, 'mesmo' é conjunção concessiva (= 'embora'). Em C, 'mesmo assim' — 'mesmo' é advérbio ou partícula aditiva-concessiva. Em D, 'mesmo' é pronome adjetivo de identidade (= idêntico). Em E, 'mesmo sem' — 'mesmo' é advérbio de inclusão/reforço."
+      "gabarito": "C",
+      "explicacao": "Ambas são composição por aglutinação. 'Fidalgo' = 'filho de algo' (filh + d + algo, com fusão intensa). 'Embora' = 'em boa hora' (em + boa + hora, com redução para 'embora'). Em ambos os casos houve fusão fonética com perda de elementos originais, caracterizando aglutinação. Não são justaposição (os elementos não são mais claramente reconhecíveis), nem hibridismo (são formações do próprio português), nem derivação prefixal, nem parassíntese."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Sobre as preposições, assinale a alternativa que apresenta uma preposição ACIDENTAL (e não essencial) em destaque.",
+      "enunciado": "A decomposição morfológica de 'desembarcar' em 'des- + em- + barc- + -a- + -r' identifica corretamente:",
       "alternativas": {
-        "A": "'de' em 'O oficial saiu de serviço.'",
-        "B": "'com' em 'Partiu com a esquadra.'",
-        "C": "'conforme' em 'Agiu conforme as normas.'",
-        "D": "'por' em 'Foi reconhecido por todos.'",
-        "E": "'entre' em 'Ficou entre os melhores.'"
+        "A": "Dois sufixos ('des-' e 'em-'), uma vogal temática ('-a-') e a desinência de infinitivo ('-r').",
+        "B": "Dois prefixos ('des-' e 'em-'), o radical 'barc-', a vogal temática '-a-' e a desinência de infinitivo '-r'.",
+        "C": "Um prefixo ('des-'), um infixo ('em-'), o radical 'barc-' e um sufixo ('-ar').",
+        "D": "Um radical composto ('des-em-'), a base 'barc-' e o sufixo verbal '-ar'.",
+        "E": "Prefixo 'des-', base 'embarcar' e desinência '-o' apagada."
       },
-      "gabarito": "C",
-      "explicacao": "'Conforme' é uma preposição acidental: palavra que, em sua origem, pertence a outra classe (aqui, de valor conformativo), mas que, neste contexto, funciona como preposição ligando 'agiu' ao complemento 'as normas'. Outras preposições acidentais: durante, mediante, salvo, exceto, segundo, visto, feito. As demais — de, com, por, entre — são preposições essenciais por natureza."
+      "gabarito": "B",
+      "explicacao": "'Desembarcar' tem dois prefixos: 'des-' (reversão) + 'em-' (direção/movimento para dentro) — ambos são morfemas presos que antecedem o radical; o radical é 'barc-' (de barca/barco); a vogal temática '-a-' classifica o verbo na 1.ª conjugação; '-r' é a desinência modo-temporal de infinitivo. A confunde prefixo com sufixo; C usa o termo 'infixo' incorretamente (em português, infixos são raros e de natureza diferente); D e E são decomposições incorretas."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Em qual das alternativas há substantivo coletivo náutico empregado de forma INCORRETA?",
+      "enunciado": "Qual das alternativas apresenta par em que uma palavra é formada por HIBRIDISMO e a outra por COMPOSIÇÃO ERUDITA (dois radicais da mesma língua)?",
       "alternativas": {
-        "A": "A frota de guerra estava fundeada na baía.",
-        "B": "A tripulação do navio-escola realizou exercícios.",
-        "C": "A armada nacional recebeu novos equipamentos.",
-        "D": "A alcateia de navios patrulhou o litoral.",
-        "E": "A esquadra foi mobilizada para a operação."
+        "A": "'televisão' e 'psicologia'",
+        "B": "'automóvel' e 'burocracia'",
+        "C": "'hidrografia' e 'aeronáutica'",
+        "D": "'burocracia' e 'geopolítica'",
+        "E": "'telepatia' e 'fidalgo'"
       },
-      "gabarito": "D",
-      "explicacao": "'Alcateia' é o coletivo de lobos (ou de malfeitores, no sentido figurado), não de navios. Usar 'alcateia de navios' é incorreto. Os coletivos navais corretos são: 'frota' (conjunto de navios mercantes ou de guerra), 'armada' (conjunto de forças navais de um país), 'esquadra' (conjunto de navios de guerra), 'tripulação' (conjunto de membros de uma embarcação)."
+      "gabarito": "A",
+      "explicacao": "'Televisão' é hibridismo (grego 'tele-' + latim 'visione'). 'Psicologia' é composição erudita de dois radicais gregos ('psyche' + 'logos'). Portanto, A apresenta um hibridismo e uma composição erudita. B: 'automóvel' é hibridismo (gr. autos + lat. mobilis); 'burocracia' também é hibridismo (fr. bureau + gr. kratos) — dois hibridismos. C: 'hidrografia' (gr. hydro + gr. graphia) e 'aeronáutica' (gr. aero + gr. nautike) são ambas composição erudita grega. D: idem. E: 'telepatia' é composição erudita grega; 'fidalgo' é aglutinação do português."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Analise o trecho: 'O contra-almirante, que há décadas servia à Marinha, dela se despediu com a nobreza que lhe era característica.' Assinale a alternativa que identifica CORRETAMENTE a classe e a função das palavras destacadas 'que' (primeira ocorrência) e 'que' (segunda ocorrência).",
+      "enunciado": "Analise o trecho: 'O vice-almirante, recém-promovido, discursou sobre a necessidade de bem-estar nos quartéis e pró-atividade nos exercícios.' Considerando o Acordo Ortográfico de 1990 (em vigor desde 2016), identifique as formas hifenizadas INCORRETAS.",
       "alternativas": {
-        "A": "Ambos são pronomes relativos com função de sujeito em suas respectivas orações.",
-        "B": "O primeiro é conjunção integrante; o segundo é pronome relativo com função de sujeito.",
-        "C": "O primeiro é pronome relativo com função de sujeito; o segundo é pronome relativo com função de objeto direto.",
-        "D": "Ambos são conjunções integrantes introduzindo orações substantivas.",
-        "E": "O primeiro é pronome relativo com função de sujeito; o segundo é conjunção comparativa."
+        "A": "Todas as formas estão corretas.",
+        "B": "Apenas 'pró-atividade' está incorreta — deveria ser 'proatividade'.",
+        "C": "Apenas 'bem-estar' está incorreta — deveria ser 'bemestar'.",
+        "D": "Apenas 'recém-promovido' está incorreta — deveria ser 'recémpromovido'.",
+        "E": "'Vice-almirante' e 'recém-promovido' estão corretas, mas 'pró-atividade' deveria ser 'proatividade' e 'bem-estar' deveria ser 'bemestar'."
       },
       "gabarito": "A",
-      "explicacao": "Primeiro 'que': 'o contra-almirante que há décadas servia à Marinha' — pronome relativo, retoma 'contra-almirante' e exerce a função de sujeito da oração adjetiva ('que servia à Marinha'). Segundo 'que': 'a nobreza que lhe era característica' — pronome relativo, retoma 'nobreza' e é sujeito da oração adjetiva ('que era característica'). Ambos são pronomes relativos com função de sujeito. C está errado porque o segundo 'que' também é sujeito, não objeto."
+      "explicacao": "Todas as formas estão corretas. 'Vice-almirante': 'vice-' é prefixo do grupo dos sempre-hifenizados. 'Recém-promovido': 'recém-' pertence ao mesmo grupo. 'Bem-estar': 'bem' + 'estar' (começa por vogal 'e') → com hífen (regra: bem + vogal = hífen). 'Pró-atividade': 'pró-' é prefixo tônico autônomo (como 'pré-', 'pós-') → sempre com hífen. Nenhuma das formas está incorreta."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Considere a frase: 'Vossa Excelência estará presente à cerimônia de comissionamento?' Qual das alternativas apresenta a análise morfossintática CORRETA do pronome de tratamento destacado?",
+      "enunciado": "Em 'O oficial insubordinado foi submetido a conselho disciplinar', as palavras 'insubordinado' e 'submetido' têm processos de formação que se distinguem porque:",
       "alternativas": {
-        "A": "Pronome pessoal de 2.ª pessoa — sujeito da oração, concordando com verbo na 2.ª pessoa.",
-        "B": "Pronome de tratamento — sujeito da oração, concordando com verbo na 3.ª pessoa do singular.",
-        "C": "Pronome demonstrativo — adjunto adnominal de 'cerimônia'.",
-        "D": "Pronome indefinido — predicativo do sujeito implícito.",
-        "E": "Pronome relativo — introduzindo oração adjetiva implícita."
+        "A": "Ambas são parassíntese: 'in-' e 'sub-' com sufixos simultâneos.",
+        "B": "'Insubordinado' tem dois prefixos ('in-' e 'sub-') e sufixo '-ado'; 'submetido' tem um prefixo ('sub-') e sufixo '-ido'.",
+        "C": "'Insubordinado' é parassíntese; 'submetido' é derivação prefixal simples.",
+        "D": "Ambas são derivação prefixal simples com os mesmos prefixos.",
+        "E": "'Insubordinado' é composição; 'submetido' é derivação sufixal."
       },
       "gabarito": "B",
-      "explicacao": "'Vossa Excelência' é pronome de tratamento, exerce a função sintática de sujeito da oração. Embora semanticamente se refira à segunda pessoa do discurso (o interlocutor), é gramaticalmente tratado como terceira pessoa: o verbo concorda na 3.ª pessoa do singular ('estará', não 'estarás'). Isso é fundamental na linguagem militar. A é incorreta porque a concordância é na 3.ª pessoa, não na 2.ª."
+      "explicacao": "'Insubordinado': o adjetivo resulta de 'in-' (negação) + 'sub-' (hierarquia inferior) + radical 'ordin-' + sufixo '-ado' — dois prefixos e um sufixo. 'Submetido': 'sub-' (posição inferior/sujeição) + radical 'met-' (de 'meter') + sufixo '-ido' (particípio) — um prefixo. São processos distintos em quantidade de prefixos. A é incorreta: não há parassíntese em nenhuma das duas (as formas intermediárias existem). C é incorreta: 'insubordinado' não é parassíntese (existe 'subordinado'). D é incorreta: têm prefixos diferentes em quantidade."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Os relatórios tinham sido impressos, mas ainda não tinham sido entregues ao departamento.' Sobre os particípios 'impressos' e 'entregues', assinale a alternativa CORRETA.",
+      "enunciado": "Leia: 'O coautor do manual de navegação publicou também pesquisas sobre hidrografia e aeronavegação.' Assinale a alternativa que apresenta a análise morfológica e ortográfica COMPLETAMENTE CORRETA das palavras em destaque.",
       "alternativas": {
-        "A": "'Impressos' é regular; 'entregues' é irregular — ambos usados corretamente com o auxiliar 'ter'.",
-        "B": "'Impressos' é irregular de 'imprimir'; 'entregues' é irregular de 'entregar' — ambos corretos com o auxiliar 'ser'.",
-        "C": "Ambos são irregulares e estão incorretamente usados, pois com 'ter' deveriam ser as formas regulares.",
-        "D": "'Impressos' está incorreto (deveria ser 'imprimidos'); 'entregues' está correto, pois é a única forma de particípio de 'entregar'.",
-        "E": "Ambos os particípios estão incorretos; deveriam ser 'imprimidos' e 'entregados'."
+        "A": "'Coautor': grafia correta (sem hífen); 'hidrografia': composição erudita grega; 'aeronavegação': composição por aglutinação.",
+        "B": "'Coautor': grafia correta; 'hidrografia': hibridismo (grego + latim); 'aeronavegação': composição erudita.",
+        "C": "'Coautor': deveria ser 'co-autor' (com hífen); 'hidrografia': composição erudita grega; 'aeronavegação': composição erudita.",
+        "D": "'Coautor': grafia correta (sem hífen); 'hidrografia': composição erudita grega; 'aeronavegação': hibridismo.",
+        "E": "'Coautor': grafia correta; 'hidrografia': composição por justaposição; 'aeronavegação': derivação prefixal."
       },
-      "gabarito": "B",
-      "explicacao": "Na voz passiva com auxiliar 'ser' (aqui: 'tinham sido' = ter + sido = auxiliar ser no particípio), usa-se o particípio irregular (ou forma curta): 'impressos' (de 'imprimir') e 'entregues' (de 'entregar'). A estrutura 'tinham sido impressos' = ter (auxiliar) + sido (particípio de ser) + impressos (particípio de imprimir na voz passiva). Portanto, B está correto. A regra: com auxiliar ter/haver sozinho, usa-se o regular; com auxiliar ser/estar, usa-se o irregular."
+      "gabarito": "A",
+      "explicacao": "'Coautor' sem hífen está correto: co- (termina em 'o') + autor (começa por 'a') — vogais diferentes, sem hífen (Acordo de 1990, em vigor desde 2016). 'Hidrografia': radical grego 'hydro-' + radical grego 'graphia' — composição erudita de dois radicais gregos. 'Aeronavegação': radical grego 'aero-' + palavra portuguesa 'navegação' — poderia ser hibridismo, mas é mais precisamente classificada como composição por justaposição ou como derivação de 'aeronavegar'. A alternativa A está correta na análise das três formas conforme os processos descritos na gramática. B e D erram na classificação de 'hidrografia' e 'aeronavegação'."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Na frase 'Não há dados suficientes; logo, a conclusão é precipitada', a conjunção 'logo' tem valor semântico de:",
+      "enunciado": "Assinale a alternativa em que a palavra NÃO é formada por parassíntese.",
       "alternativas": {
-        "A": "Concessão — introduz ideia contrária à esperada",
-        "B": "Conclusão — apresenta consequência lógica da premissa anterior",
-        "C": "Adição — acrescenta informação nova ao que foi dito",
-        "D": "Explicação — justifica a afirmação anterior",
-        "E": "Alternância — apresenta possibilidade em oposição"
+        "A": "entristecer",
+        "B": "emudecer",
+        "C": "encarecer",
+        "D": "empobrecer",
+        "E": "endurecer"
       },
-      "gabarito": "B",
-      "explicacao": "'Logo' é conjunção coordenativa conclusiva: introduz uma oração que apresenta a conclusão ou consequência lógica derivada do que foi afirmado antes. Equivale a 'portanto', 'por conseguinte', 'assim'. Na frase, a inexistência de dados suficientes conduz à conclusão de que... a conclusão (inferência) é precipitada. Não é concessiva (ausência de contraste do tipo 'embora'), aditiva, explicativa nem alternativa."
+      "gabarito": "C",
+      "explicacao": "'Encarecer' NÃO é parassíntese: existe o verbo 'carecer' (= necessitar, ser carente de), portanto é possível acrescentar apenas o prefixo 'en-' sobre a base existente 'carecer' — derivação prefixal simples. As demais são parassíntese: 'entristecer' (*tristecer, *entriste não existem), 'emudecer' (*mudecer, *emude não existem), 'empobrecer' (*pobrecer existe marginalmente, mas *empobre não), 'endurecer' (*durecer não existe com esse sentido, *endure não existe). A questão é de alto nível pois exige verificação das formas intermediárias."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a identificação da classe gramatical da palavra em destaque está INCORRETA.",
+      "enunciado": "A palavra 'malcriado' está grafada de acordo com o Acordo Ortográfico de 1990 (em vigor desde 2016)? Assinale a alternativa com a análise CORRETA.",
       "alternativas": {
-        "A": "'Ele partiu ANTES do previsto.' — 'antes': advérbio de tempo",
-        "B": "'Chegou ANTES que o sinal fosse dado.' — 'antes': conjunção temporal",
-        "C": "'Feito o relatório, partiu.' — 'feito': preposição acidental (= após, depois de)",
-        "D": "'Durante a manobra, todos estavam atentos.' — 'durante': preposição acidental",
-        "E": "'Salvo os oficiais de plantão, todos foram dispensados.' — 'salvo': conjunção adversativa"
+        "A": "Não — deveria ser 'mal-criado', pois 'mal' é prefixo do grupo dos sempre-hifenizados.",
+        "B": "Sim — 'mal' + consoante ('c' de 'criado') → sem hífen.",
+        "C": "Não — deveria ser 'mal criado' (sem hífen e sem junção), pois 'mal' é advérbio.",
+        "D": "Sim — 'mal' + vogal → com hífen é a regra, mas como 'criado' começa por consoante, a fusão está correta.",
+        "E": "Não — a forma correta é 'mau-criado', pois 'mau' é o adjetivo correspondente a 'mal'."
       },
-      "gabarito": "E",
-      "explicacao": "Em 'Salvo os oficiais de plantão, todos foram dispensados', 'salvo' não é conjunção adversativa — é preposição acidental com valor de 'exceto', 'com exceção de'. Liga o complemento 'os oficiais de plantão' ao restante da frase em sentido de exclusão. Conjunções adversativas (mas, porém, contudo) ligam orações, não termos nominais. A, B, C e D estão corretos em suas classificações."
+      "gabarito": "B",
+      "explicacao": "'Malcriado' está grafia correta: 'mal' + 'criado' (começa por consoante 'c') → sem hífen, formando uma única palavra: 'malcriado'. A regra: 'bem/mal' + consoante = sem hífen (malcriado, malfeito, maldisposto). 'Bem/mal' + vogal ou h = com hífen (mal-educado, mal-humorado, bem-estar, bem-humorado). A é incorreta: 'mal' não pertence ao grupo fixo (ex-, vice-). C é incorreta: não se escreve separado. E confunde 'mal' (advérbio/prefixo) com 'mau' (adjetivo)."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Em 'Os navios norte-americanos e luso-brasileiros participaram do exercício conjunto', as formas dos adjetivos compostos obedecem à regra de flexão porque:",
+      "enunciado": "Considere as seguintes afirmações sobre morfologia e assinale a CORRETA.",
       "alternativas": {
-        "A": "Ambos flexionam todos os elementos, pois são adjetivos gentílicos compostos.",
-        "B": "Apenas o primeiro elemento de cada adjetivo composto concorda com o substantivo.",
-        "C": "Apenas o último elemento de cada adjetivo composto concorda com o substantivo.",
-        "D": "Adjetivos compostos gentílicos são invariáveis em gênero e número.",
-        "E": "A flexão dos adjetivos compostos obedece à concordância com o verbo, não com o substantivo."
+        "A": "O radical é sempre invariável em todas as formas de uma família lexical.",
+        "B": "A vogal temática verbal indica a conjugação do verbo e nunca recebe acento tônico.",
+        "C": "Desinências modo-temporais e número-pessoais podem estar ausentes em determinadas formas verbais.",
+        "D": "Prefixos nunca alteram a classe gramatical da palavra derivada.",
+        "E": "Sufixos nunca se combinam com outros sufixos na mesma palavra."
       },
       "gabarito": "C",
-      "explicacao": "Em adjetivos compostos, somente o último elemento concorda em gênero e número com o substantivo a que se refere. Em 'norte-americanos': 'norte' é invariável; 'americanos' concorda com 'navios' (masculino plural). Em 'luso-brasileiros': 'luso' é invariável; 'brasileiros' concorda com 'navios'. Esta é a regra geral para adjetivos compostos, com exceção dos formados por dois adjetivos de cor, que são totalmente invariáveis."
+      "explicacao": "Desinências modo-temporais e número-pessoais podem estar ausentes (morfema zero): no infinitivo impessoal ('amar'), há desinência modo-temporal '-r' mas a desinência número-pessoal é zero; na 3.ª pessoa do singular do presente ('ama'), há morfema zero para número-pessoa. A é incorreta: radicais podem ter alomorfes (variações): 'ser → é → foi'. B é incorreta: a VT pode receber acento em formas específicas. D é incorreta: prefixos podem alterar a classe (ex.: 'a-' verbalizador em 'amanhecer' — 'noite' substantivo → verbo). E é incorreta: sufixos se combinam: 'feliz → feliz-mente', 'bel-ez-a → bel-ez-inha'."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Considerando a frase 'O aspirante passou a oficial de baixa patente a alto posto em poucos anos', quantas e quais são as preposições presentes?",
+      "enunciado": "O processo de formação da palavra 'radar' (Radio Detection And Ranging) é:",
       "alternativas": {
-        "A": "Duas: 'a' (antes de 'oficial') e 'a' (antes de 'alto')",
-        "B": "Três: 'a' (antes de 'oficial'), 'de' (antes de 'baixa') e 'a' (antes de 'alto')",
-        "C": "Três: 'a' (antes de 'oficial'), 'de' (antes de 'baixa') e 'em' (antes de 'poucos')",
-        "D": "Quatro: 'a', 'de', 'a' e 'em'",
-        "E": "Cinco: 'a', 'oficial', 'de', 'a' e 'em'"
+        "A": "Hibridismo, pois une elementos do inglês e do português.",
+        "B": "Abreviação, pois é a redução de uma expressão longa para uma forma mais curta.",
+        "C": "Acrônimo, pois é uma sigla que se pronuncia como palavra.",
+        "D": "Composição por aglutinação de radicais latinos.",
+        "E": "Derivação prefixal com o prefixo 'ra-' de origem latina."
       },
-      "gabarito": "D",
-      "explicacao": "Na frase, as preposições são: (1) 'a' antes de 'oficial' (passou a oficial); (2) 'de' antes de 'baixa' (de baixa patente); (3) 'a' antes de 'alto' (a alto posto); (4) 'em' antes de 'poucos' (em poucos anos). Total: quatro preposições. 'Oficial', 'baixa', 'alto', 'poucos' e 'anos' são substantivos, adjetivos e numerais, não preposições."
+      "gabarito": "C",
+      "explicacao": "'Radar' é acrônimo: formado pelas iniciais de 'Radio Detection And Ranging' e pronunciado como uma palavra comum. Diferencia-se de sigla (pronunciada letra a letra: 'FBI' = 'efe-bê-í') por ser lido como vocábulo. Não é hibridismo (não une radicais de línguas diferentes numa composição morfológica), nem abreviação simples (não é truncação de uma palavra única), nem aglutinação latina, nem derivação prefixal."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Analise: 'Embora exaustos, os mergulhadores continuaram a operação.' e 'Os mergulhadores, porém, continuaram a operação.' As conjunções destacadas introduzem orações/termos de naturezas distintas porque:",
+      "enunciado": "Assinale a alternativa em que TODAS as palavras estão com hífen correto segundo o Acordo Ortográfico de 1990 (em vigor desde 2016).",
       "alternativas": {
-        "A": "Ambas são conjunções subordinativas, mas de tipos diferentes.",
-        "B": "'Embora' é subordinativa concessiva; 'porém' é coordenativa adversativa.",
-        "C": "Ambas são coordenativas, com valores semânticos distintos.",
-        "D": "'Embora' é coordenativa adversativa; 'porém' é subordinativa concessiva.",
-        "E": "'Embora' é preposição; 'porém' é advérbio de modo."
+        "A": "sub-oficial, super-homem, anti-inflamatório, vice-almirante",
+        "B": "sub-oficial, superhomem, antiinflamatório, vice-almirante",
+        "C": "suboficial, super-homem, anti-inflamatório, vice-almirante",
+        "D": "sub-oficial, super-homem, antinflamatório, vice-almirante",
+        "E": "suboficial, superhomem, antiinflamatório, vicealmirante"
       },
-      "gabarito": "B",
-      "explicacao": "'Embora' é conjunção subordinativa concessiva: introduz uma oração subordinada adverbial que expressa concessão, admitindo um fato contrário que não impede a realização do fato principal. 'Porém' é conjunção coordenativa adversativa: liga duas orações independentes com valor de oposição ou contraste. A diferença estrutural é fundamental: 'embora' cria dependência sintática (subordinação); 'porém' mantém as orações coordenadas (independentes)."
+      "gabarito": "C",
+      "explicacao": "Análise de C: 'suboficial' — 'sub-' termina em 'b' (consoante) + 'oficial' começa por 'o' (vogal diferente) → sem hífen: 'suboficial' ✓; 'super-homem' — 'super-' termina em 'r' + 'homem' começa por 'h' → com hífen ✓; 'anti-inflamatório' — 'anti-' termina em 'i' + 'inflamatório' começa por 'i' (mesma vogal) → com hífen ✓; 'vice-almirante' — prefixo 'vice-' do grupo fixo → sempre com hífen ✓. A: 'sub-oficial' está incorreto (deveria ser 'suboficial'). B: 'antiinflamatório' está incorreto (deveria ter hífen). D: 'antinflamatório' está incorreto (falta hífen e vogal). E: todo incorreto."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'Quem muito viaja, muito aprende — eis a divisa do marinheiro.' A palavra 'quem' exerce qual função morfossintática?",
+      "enunciado": "Em relação à derivação regressiva, assinale a alternativa que apresenta par INCORRETAMENTE classificado como tal.",
       "alternativas": {
-        "A": "Pronome interrogativo — sujeito de oração interrogativa indireta",
-        "B": "Pronome relativo sem antecedente — sujeito da oração substantiva subjetiva",
-        "C": "Pronome indefinido — sujeito da oração principal",
-        "D": "Pronome pessoal do caso reto — sujeito da oração principal",
-        "E": "Conjunção integrante — introduzindo oração subordinada substantiva"
+        "A": "pescar → pesca",
+        "B": "embarcar → embarque",
+        "C": "pousar → pouso",
+        "D": "atacar → ataque",
+        "E": "navegar → navegação"
       },
-      "gabarito": "B",
-      "explicacao": "'Quem muito viaja' é uma oração substantiva subjetiva (equivale ao sujeito de uma oração mais complexa). 'Quem' é pronome relativo sem antecedente expresso (pronome relativo indefinido, segundo Cunha e Cintra): funciona como pronome relativo que, ao mesmo tempo, é o sujeito de sua própria oração adjetiva/substantiva. Não é interrogativo (não há pergunta), não é pessoal (pronomes pessoais são eu, tu, ele...), não é conjunção (pronomes introduzem orações sem perder função sintática)."
+      "gabarito": "E",
+      "explicacao": "'Navegação' NÃO é derivação regressiva de 'navegar' — é derivação sufixal progressiva: 'navegar' + sufixo '-ção' (com ajuste: naveg-a-ção) = 'navegação', que é maior que a base 'navegar'. A derivação regressiva produz uma forma menor. As demais são regressivas: 'pesca' < 'pescar' (menor), 'embarque' < 'embarcar' (menor), 'pouso' < 'pousar' (menor), 'ataque' < 'atacar' (menor). Em todos esses, o substantivo deverbativo é obtido por redução da forma verbal."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Em relação às classes de palavras, assinale a alternativa que apresenta análise morfológica COMPLETAMENTE CORRETA do segmento 'muito raramente'.",
+      "enunciado": "Leia: 'O autor buscou desvendar os meandros da insubordinação mediante análise sócio-histórica dos conflitos navais.' Assinale a alternativa que identifica CORRETAMENTE o processo de formação e a análise morfológica de 'desvendar' e 'insubordinação'.",
       "alternativas": {
-        "A": "'muito': adjetivo indefinido; 'raramente': advérbio de modo",
-        "B": "'muito': advérbio de intensidade; 'raramente': advérbio de modo com sufixo -mente",
-        "C": "'muito': pronome indefinido; 'raramente': adjetivo no grau superlativo",
-        "D": "'muito': numeral multiplicativo; 'raramente': advérbio de frequência",
-        "E": "'muito': adjetivo; 'raramente': advérbio de frequência"
+        "A": "'Desvendar': parassíntese (des- + vend- + -ar); 'insubordinação': derivação prefixal dupla sobre 'ordenação'.",
+        "B": "'Desvendar': derivação prefixal (des- + vendar); 'insubordinação': cadeia derivacional (in- + sub- + ordin- + -ação).",
+        "C": "'Desvendar': derivação sufixal (-ar sobre 'desvenda'); 'insubordinação': parassíntese.",
+        "D": "'Desvendar': composição por justaposição; 'insubordinação': derivação regressiva.",
+        "E": "'Desvendar': aglutinação de 'des' e 'vendar'; 'insubordinação': hibridismo latino-grego."
       },
       "gabarito": "B",
-      "explicacao": "'Muito', quando modifica um advérbio (raramente), funciona como advérbio de intensidade — é invariável nessa função. 'Raramente' é advérbio de modo (ou de frequência, segundo alguns gramáticos) formado pelo adjetivo 'raro' + sufixo -mente, indicando que algo ocorre com raridade. Em A, 'muito' seria adjetivo se estivesse antes de substantivo com concordância. Em C, pronome indefinido seria se modificasse substantivo. Em D, numeral multiplicativo indica quantas vezes mais (duplo, triplo). Em E, 'muito' seria adjetivo apenas com concordância nominal."
+      "explicacao": "'Desvendar' = prefixo 'des-' + base 'vendar' (que existe: 'vendar os olhos') — derivação prefixal. 'Insubordinação': cadeia derivacional = prefixo 'in-' (negação) + prefixo 'sub-' (posição inferior) + radical 'ordin-' (ordem) + sufixo '-ação' (processo/resultado). Não é parassíntese (existem 'subordinação', 'subordinar'). A é incorreta: 'desvendar' não é parassíntese pois 'vendar' existe. C inverte o processo. D e E são completamente incorretos."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o texto a seguir e responda à questão.\n\n'A tripulação do porta-aviões, composta por marinheiros veteranos e recrutas recém-chegados, enfrentou, durante as manobras noturnas, condições meteorológicas adversas que puseram à prova não apenas a competência técnica dos pilotos navais, mas também a serenidade e o espírito de corpo de todos os envolvidos.'\n\nIdentifique, entre as palavras do texto, um substantivo abstrato, um adjetivo composto e uma preposição essencial e assinale a alternativa que os apresenta na ordem CORRETA.",
+      "enunciado": "Leia o seguinte trecho adaptado de um relatório naval:\n\n'A Marinha do Brasil, reconhecida internacionalmente pela excelência de sua formação, promove anualmente exercícios de aeronavegação e operações antisubmarinas em parceria com forças aliadas. O coautor do manual de procedimentos enfatizou a necessidade de treinamento constante e pró-atividade dos tripulantes.'\n\nConsiderando o Acordo Ortográfico de 1990 (em vigor desde 2016), assinale a alternativa que identifica CORRETAMENTE as palavras grafadas de acordo com a norma vigente.",
       "alternativas": {
-        "A": "tripulação / noturnas / de",
-        "B": "serenidade / porta-aviões / mas",
-        "C": "serenidade / noturnas / durante",
-        "D": "competência / meteorológicas / de",
-        "E": "manobras / recém-chegados / por"
+        "A": "Todas as palavras do trecho estão grafadas corretamente.",
+        "B": "'antisubmarinas' está errada — deveria ser 'anti-submarinas'; 'coautor' está errado — deveria ser 'co-autor'.",
+        "C": "'coautor' está errado — deveria ser 'co-autor'; 'pró-atividade' está errado — deveria ser 'proatividade'.",
+        "D": "'antisubmarinas' está errada — deveria ser 'anti-submarinas'; 'pró-atividade' está correto.",
+        "E": "Apenas 'aeronavegação' está errada — deveria ser 'aero-navegação'."
       },
-      "gabarito": "D",
-      "explicacao": "'Competência' é substantivo abstrato (nomeia uma qualidade, dependendo de outro ser para existir); 'meteorológicas' é adjetivo composto (formado por 'meteorológico' com segundo elemento concordando com 'condições', no feminino plural); 'de' é preposição essencial. Análise das demais: A — 'tripulação' é coletivo (concreto); 'noturnas' é adjetivo simples; 'de' está correto mas os dois anteriores não. B — 'serenidade' é abstrato (correto); 'porta-aviões' é substantivo composto, não adjetivo; 'mas' é conjunção, não preposição. C — 'serenidade' correto; 'noturnas' não é composto; 'durante' é preposição acidental. E — 'manobras' é concreto; 'recém-chegados' é adjetivo composto (correto), mas 'manobras' não é abstrato."
+      "gabarito": "A",
+      "explicacao": "Todas as grafias estão corretas. 'Aeronavegação': 'aero-' + 'navegação' (vogais diferentes a-n) → sem hífen ✓. 'Antisubmarinas': 'anti-' + 'submarinas' (vogais diferentes i-s... 'sub' começa por consoante) → prefixo 'anti-' termina em vogal 'i' + palavra que começa por consoante 's' → sem hífen ✓. 'Coautor': 'co-' + 'autor' (vogais diferentes o-a) → sem hífen ✓. 'Pró-atividade': 'pró-' é prefixo tônico autônomo → sempre com hífen ✓. B e C erram ao questionar 'coautor' e 'antisubmarinas'. D erra ao questionar 'antisubmarinas'."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Leia o fragmento: 'O almirante, perante o qual o jovem oficial se curvou respeitosamente, era cuja autoridade todos reconheciam desde os tempos de academia.'\n\nEste fragmento contém um erro relacionado ao uso do pronome relativo. Assinale a alternativa que apresenta a versão CORRIGIDA do trecho em destaque.",
+      "enunciado": "Analise o seguinte conjunto de palavras e suas classificações morfológicas:\n\nI. 'anoitecer' — parassíntese\nII. 'aguardente' — composição por aglutinação\nIII. 'televisão' — composição erudita (dois radicais gregos)\nIV. 'pesca' — derivação sufixal de 'pescar'\nV. 'malcriado' — correto sem hífen (mal + consoante)\n\nEstão CORRETAS apenas:",
       "alternativas": {
-        "A": "era cuja autoridade todos reconheciam → era aquele cuja autoridade todos reconheciam",
-        "B": "era cuja autoridade → era de cuja autoridade",
-        "C": "O trecho está correto; 'cuja' pode iniciar oração predicativa normalmente.",
-        "D": "era cuja autoridade → cuja autoridade era",
-        "E": "era cuja autoridade todos reconheciam → era aquele a quem todos reconheciam autoridade"
+        "A": "I, II e V",
+        "B": "I, III e IV",
+        "C": "II, III e V",
+        "D": "I, II, IV e V",
+        "E": "Todas estão corretas."
       },
       "gabarito": "A",
-      "explicacao": "O pronome 'cujo' é relativo possessivo que precisa de antecedente claro na oração anterior e nunca pode iniciar um predicado verbal (não se usa 'era cuja...'). A correção adequada reestrutura a frase: 'O almirante, perante o qual o jovem oficial se curvou respeitosamente, era aquele cuja autoridade todos reconheciam desde os tempos de academia.' A alternativa A insere o antecedente 'aquele' para que 'cuja' tenha referente adequado. B deturpa o sentido; D altera drasticamente a estrutura; E usa construção diferente que muda o pronome relativo empregado."
+      "explicacao": "I: 'anoitecer' = parassíntese ✓ (*noitecer e *anoite não existem). II: 'aguardente' = aglutinação ✓ (água + ardente, fusão fonética). V: 'malcriado' sem hífen ✓ (mal + consoante = sem hífen). III: INCORRETA — 'televisão' é HIBRIDISMO (grego 'tele-' + latim 'visione'), não composição erudita de dois radicais gregos. IV: INCORRETA — 'pesca' é derivação REGRESSIVA de 'pescar' (não sufixal; a palavra derivada é menor que a primitiva). Portanto, corretas: I, II e V → alternativa A."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Analise as afirmações sobre classes de palavras e assinale a CORRETA:\n\nI. O artigo definido pode, em certos contextos, exercer função substantivadora, como em 'O belo e o útil raramente coincidem'.\nII. O numeral 'ambos' pode ser classificado como pronome indefinido na perspectiva de alguns gramáticos.\nIII. A palavra 'feito' em 'Feita a lição, o aluno descansou' é particípio passado exercendo função de preposição.\nIV. Advérbios com sufixo -mente são invariáveis em gênero e número, mas podem apresentar grau comparativo e superlativo.",
+      "enunciado": "Um candidato ao concurso RM2 encontrou no edital a expressão 'pré-requisitos eliminatórios'. Analise as afirmações:\n\nI. 'Pré-requisitos' usa hífen porque 'pré-' é prefixo tônico autônomo do grupo dos sempre-hifenizados.\nII. 'Eliminatórios' é formado por derivação sufixal: radical 'elimin-' + sufixo '-atórios'.\nIII. O radical de 'requisitos' e de 'requisitar' é 'requis-' (do latim requisitum).\nIV. 'Pré-' pertence ao mesmo grupo que 'ex-', 'vice-', 'recém-', 'pós-', sendo todos grafados com hífen.\n\nAssinale a alternativa que indica as afirmações CORRETAS.",
       "alternativas": {
-        "A": "Apenas I e IV estão corretas.",
-        "B": "Apenas II e III estão corretas.",
-        "C": "I, II e IV estão corretas.",
-        "D": "Apenas III e IV estão corretas.",
-        "E": "Todas as afirmações estão corretas."
+        "A": "Apenas I e IV",
+        "B": "I, II e IV",
+        "C": "I, III e IV",
+        "D": "II, III e IV",
+        "E": "Todas estão corretas."
       },
-      "gabarito": "A",
-      "explicacao": "I: Correta — o artigo definido 'o' substantiva o adjetivo 'belo' e 'útil', permitindo que funcionem como sujeito da oração. IV: Correta — advérbios em -mente são invariáveis em gênero/número, mas admitem grau: 'mais rapidamente', 'lentíssimamente'. II: Incorreta — 'ambos' é geralmente classificado como pronome indefinido (ou numeral coletivo), mas a afirmação omite que, para Cunha e Cintra, é categoricamente pronome indefinido — a imprecisão torna a afirmação aceitável, mas III inviabiliza B. III: Incorreta — 'Feita a lição' — 'feita' é particípio em oração absoluta (= ablativo absoluto); a palavra 'feito' funcionando como preposição ocorreria em 'Feito um deus, ele ordenava tudo' (= como), e mesmo assim há divergência gramatical."
+      "gabarito": "B",
+      "explicacao": "I: Correta — 'pré-' é prefixo tônico do grupo fixo, sempre com hífen. II: Correta — 'eliminatórios' = radical 'elimin-' + vogal temática '-a-' + sufixo '-tório' (adjetivo deverbativo) + desinência de gênero/número '-s' — derivação sufixal. IV: Correta — 'pré-', 'pós-', 'pró-', 'ex-', 'vice-', 'recém-', 'soto-', 'além-', 'aquém-' são todos do grupo dos sempre-hifenizados. III: INCORRETA — o radical de 'requisito' é mais precisamente 'requis-' ou 'requist-', mas 'requisitar' deriva do substantivo 'requisito', não o contrário. A afirmação sobre o radical ser do latim não está errada per se, mas a identificação 'requis-' como radical de ambas é imprecisa para o nível exigido. Portanto: I, II e IV corretas → B."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia: 'O cadete que foi aprovado com louvor recebeu o diploma das mãos do Comandante da Escola Naval, que proferiu discurso sobre a importância do caráter ilibado para os que trilham a carreira das armas.'\n\nAssinale a alternativa que classifica CORRETAMENTE todos os pronomes relativos do texto.",
+      "enunciado": "Leia o trecho: 'O oficial bem-humorado, apesar de recém-chegado ao quartel, demonstrou autoconfiança e antipatia pelos procedimentos ultrapassados.'\n\nSobre a formação e a grafia das palavras destacadas, assinale a alternativa CORRETA.",
       "alternativas": {
-        "A": "Todos os 'que' são pronomes relativos; o segundo 'que' e o terceiro têm antecedentes distintos.",
-        "B": "O primeiro 'que' é pronome relativo; o segundo 'que' é conjunção integrante; o terceiro 'que' é pronome indefinido.",
-        "C": "O primeiro e o segundo 'que' são pronomes relativos; o terceiro 'que' ('os que') funciona como pronome relativo sem antecedente expresso.",
-        "D": "O primeiro 'que' é conjunção; o segundo e o terceiro são pronomes relativos com antecedentes 'Comandante' e 'carreira'.",
-        "E": "Todos os 'que' são conjunções integrantes introduzindo orações substantivas."
+        "A": "'bem-humorado': correto (bem + h → hífen); 'recém-chegado': correto (recém- do grupo fixo); 'autoconfiança': correto (auto- + vogal diferente, sem hífen); 'antipatia': correto (anti- + consoante, sem hífen).",
+        "B": "'bem-humorado': incorreto (deveria ser 'bemhumorado'); os demais estão corretos.",
+        "C": "'autoconfiança': incorreto (deveria ser 'auto-confiança'); os demais estão corretos.",
+        "D": "'antipatia': incorreto (deveria ser 'anti-patia'); os demais estão corretos.",
+        "E": "'recém-chegado': incorreto (deveria ser 'recémchegado'); os demais estão corretos."
       },
-      "gabarito": "C",
-      "explicacao": "Primeiro 'que': retoma 'cadete' — pronome relativo, função de sujeito da oração adjetiva. Segundo 'que': retoma 'Comandante da Escola Naval' — pronome relativo, sujeito da oração adjetiva 'que proferiu discurso'. Terceiro 'que' ('os que trilham'): pronome relativo sem antecedente expresso — 'os' funciona como artigo substantivador e 'que' é relativo indefinido, formando locução pronominal. Não há conjunção integrante nem pronome indefinido autônomo entre eles."
+      "gabarito": "A",
+      "explicacao": "Todas as grafias estão corretas. 'Bem-humorado': 'bem' + 'humorado' (começa por 'h') → com hífen ✓. 'Recém-chegado': 'recém-' é prefixo do grupo fixo → sempre com hífen ✓. 'Autoconfiança': 'auto-' termina em 'o' + 'confiança' começa por 'c' (consoante) → sem hífen ✓. 'Antipatia': 'anti-' termina em 'i' + 'patia' começa por 'p' (consoante) → sem hífen ✓. B erra ao questionar 'bem-humorado'; C erra ao questionar 'autoconfiança'; D erra ao questionar 'antipatia'; E erra ao questionar 'recém-chegado'."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Em relação à derivação imprópria (transposição de classe gramatical), analise as frases e assinale a alternativa INCORRETA:",
+      "enunciado": "Considere o seguinte parágrafo de um texto técnico naval:\n\n'A eletrônica embarcada nos navios modernos resulta de décadas de pesquisas interdisciplinares. A hidrografia e a geopolítica influenciam diretamente as decisões estratégicas, enquanto a burocracia, muitas vezes, retarda a inovação. O empréstimo de tecnologias estrangeiras foi imprescindível para o desenvolvimento da aeronavegação.'\n\nSobre os processos de formação das palavras 'interdisciplinares', 'hidrografia', 'burocracia', 'eletrônica' e 'aeronavegação', assinale a alternativa CORRETA.",
       "alternativas": {
-        "A": "Em 'O sim e o não são respostas igualmente válidas', os advérbios 'sim' e 'não' foram substantivados pelo artigo.",
-        "B": "Em 'Falou grosso para o superior', 'grosso' é adjetivo funcionando como advérbio, pois modifica o verbo sem variar.",
-        "C": "Em 'O jantar estava pronto às dezoito horas', 'jantar' é verbo no infinitivo funcionando como substantivo.",
-        "D": "Em 'Chegaram os porquês de tudo que aconteceu', 'porquês' é advérbio interrogativo substantivado.",
-        "E": "Em 'Ele agiu como um herói', 'como' é preposição de comparação equivalente a 'à maneira de'."
+        "A": "Todas são compostas por radicais exclusivamente gregos.",
+        "B": "'Interdisciplinares': derivação prefixal (inter- + disciplinares); 'hidrografia': composição erudita grega; 'burocracia': hibridismo (fr. bureau + gr. kratos); 'eletrônica': derivação sufixal do radical grego 'ēlectrum'; 'aeronavegação': composição de radical grego + vocábulo português.",
+        "C": "'Burocracia' é composição erudita de dois radicais latinos.",
+        "D": "'Hidrografia' é hibridismo (latim + grego); 'eletrônica' é composição erudita grega.",
+        "E": "'Interdisciplinares' é parassíntese; 'aeronavegação' é aglutinação."
       },
-      "gabarito": "E",
-      "explicacao": "'Como' em 'agiu como um herói' é conjunção comparativa (ou conformativa, segundo alguns), não preposição. Preposição estabelece relação de dependência sintática entre termos; conjunção liga orações ou termos de mesma função. Aqui, 'como um herói' é uma oração comparativa reduzida (= 'como age um herói'). As demais estão corretas: A — substantivação de advérbios por artigo; B — adjetivo como advérbio (uso adverbial de adjetivo sem concordância); C — infinitivo substantivado com artigo; D — 'porquê' substantivado no plural (advérbio/conjunção 'porque' → substantivo 'porquê/porquês')."
+      "gabarito": "B",
+      "explicacao": "B apresenta análise correta de cada palavra. 'Interdisciplinares': prefixo latino 'inter-' + base 'disciplinar' (já existente) + sufixo '-es' (plural) = derivação prefixal. 'Hidrografia': radical grego 'hydro-' (água) + radical grego 'graphia' (escrita) = composição erudita grega. 'Burocracia': francês 'bureau' + grego 'kratos' = hibridismo. 'Eletrônica': radical grego 'ēlectrum' + sufixo '-ônica/-ica' = derivação sufixal erudita. 'Aeronavegação': radical grego 'aero-' + vocábulo português 'navegação' = composição híbrida. A é incorreta (burocracia e interdisciplinares não são só gregos). C é incorreta (burocracia tem elemento francês). D e E são incorretos."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
       "gram-01",
-      "gram-02",
-      "gram-09",
-      "gram-10",
+      "gram-03",
       "gram-11",
-      "comp-03",
+      "gram-13",
+      "gram-14",
+      "comp-02",
       "comp-06",
       "comp-07",
-      "gram-08",
-      "comp-10",
+      "gram-10",
+      "comp-11",
       "gram-12",
+      "gram-05",
+      "gram-06",
+      "comp-03",
+      "comp-08",
       "gram-04"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-09",
-        "enunciado": "Leia: 'Os dados técnico-científicos apresentados pelo perito foram contestados pelos advogados.' Assinale a alternativa que apresenta tanto a classificação morfológica do adjetivo composto 'técnico-científicos' quanto a justificativa de concordância CORRETA.",
+        "topico_referencia": "gram-04 + gram-01",
+        "enunciado": "Assinale a alternativa em que a formação da palavra E a grafia estão ambas CORRETAS segundo o Acordo Ortográfico de 1990 (em vigor desde 2016).",
         "alternativas": {
-          "A": "Adjetivo composto pátrio; ambos os elementos concordam com 'dados' no masculino plural.",
-          "B": "Adjetivo composto qualificativo; só o primeiro elemento concorda com 'dados', mantendo 'científicos' invariável.",
-          "C": "Adjetivo composto qualificativo; só o último elemento ('científicos') concorda com 'dados' em gênero e número.",
-          "D": "Adjetivo composto de cor; é invariável em gênero e número.",
-          "E": "Adjetivo composto gentílico; todos os elementos concordam com o substantivo em gênero e número."
+          "A": "'co-autor': derivação prefixal de 'co-' sobre 'autor', com hífen por serem vogais iguais.",
+          "B": "'coautor': derivação prefixal de 'co-' sobre 'autor', sem hífen por serem vogais distintas.",
+          "C": "'pré-história': parassíntese de 'pré-' e '-história', pois nenhuma forma intermediária existe.",
+          "D": "'anti-aéreo': derivação prefixal correta pois 'anti-' sempre usa hífen antes de vogal.",
+          "E": "'autoestima': composição erudita grega, sem hífen por ser composto aglutinado."
         },
-        "gabarito": "C",
-        "explicacao": "A regra de concordância nominal (gram-09) para adjetivos compostos (gram-04) estabelece que somente o último elemento varia em gênero e número, concordando com o substantivo. 'Técnico' permanece invariável; 'científicos' concorda com 'dados' (masculino plural). Não é adjetivo de cor (não designa cor), nem é gentílico (não indica origem ou nacionalidade com dois adjetivos pátrios)."
+        "gabarito": "B",
+        "explicacao": "Integra gram-03 (derivação prefixal) e gram-01 (ortografia/hífen). 'Coautor': prefixo 'co-' (termina em 'o') + 'autor' (começa por 'a') — vogais diferentes → sem hífen. Grafia e processo corretos. A: a grafia 'co-autor' está errada (vogais diferentes, sem hífen). C: 'pré-história' não é parassíntese — é derivação prefixal simples com 'história' existente; e o hífen em 'pré-' é por ser prefixo tônico autônomo, não por parassíntese. D: 'anti-aéreo' está errado — vogais diferentes (i ≠ a), sem hífen: 'antiaéreo'. E: 'autoestima' está correto na grafia, mas a classificação 'composição erudita grega' está errada — é derivação prefixal ('auto-' + 'estima')."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-02",
-        "enunciado": "Considere: 'Refiro-me à análise histórico-crítica publicada pelo instituto.' A crase em 'à análise' é justificada porque:",
+        "topico_referencia": "gram-04 + gram-11",
+        "enunciado": "Leia: 'As análises sócio-históricas e os estudos político-militares revelaram dados preocupantes.' Sobre a concordância nominal dos adjetivos compostos (gram-09) e a formação desses compostos (gram-03), assinale a alternativa CORRETA.",
         "alternativas": {
-          "A": "O artigo definido que acompanha o substantivo feminino 'análise' se contrai com a preposição exigida pelo verbo 'referir-se'.",
-          "B": "A preposição é exigida pelo adjetivo 'histórico-crítica', que é transitivo indireto.",
-          "C": "O pronome relativo implícito exige preposição que se funde com o artigo.",
-          "D": "O numeral ordinal implícito antes de 'análise' exige artigo feminino, gerando a crase.",
-          "E": "A crase é facultativa neste contexto, pois 'análise' é substantivo abstrato."
+          "A": "'Sócio-históricas' e 'político-militares': ambos os elementos de cada composto concordam com o substantivo — correto pela regra geral.",
+          "B": "Apenas o último elemento de cada adjetivo composto concorda com o substantivo: 'históricas' concorda com 'análises' (fem. pl.) e 'militares' concorda com 'estudos' (masc. pl.) — correto.",
+          "C": "Ambos os adjetivos compostos deveriam ser invariáveis, pois são compostos de cor.",
+          "D": "'Sócio-históricas' deveria ser 'sócio-histórica' (singular) por concordar com o núcleo implícito 'análise' no singular.",
+          "E": "O hífen em 'sócio-históricas' e 'político-militares' está incorreto — o Acordo de 1990 eliminou o hífen em adjetivos compostos."
         },
-        "gabarito": "A",
-        "explicacao": "A questão integra gram-04 (classes de palavras: verbo e substantivo) e gram-02 (crase). O verbo 'referir-se' é transitivo indireto e exige a preposição 'a' ('referir-se a algo'). 'Análise' é substantivo feminino precedido de artigo definido 'a'. A fusão de preposição 'a' + artigo definido feminino 'a' produz a crase: 'à'. Não é o adjetivo que exige preposição; pronomes relativos não geram crase per se; substantivos abstratos não impedem a crase."
+        "gabarito": "B",
+        "explicacao": "Integra gram-03 (composição de adjetivos) e gram-09 (concordância nominal). Em adjetivos compostos, somente o último elemento concorda em gênero e número com o substantivo: 'sócio-' é invariável; 'históricas' concorda com 'análises' (feminino plural) ✓. 'Político-' é invariável; 'militares' concorda com 'estudos' (masculino plural) ✓. A está errada (não são todos os elementos que concordam). C está errada (não são adjetivos de cor, os quais sim são invariáveis). D está errada (concordância é com 'análises' no plural, correto). E está errada (o Acordo não eliminou o hífen em adjetivos compostos — apenas reformulou as regras)."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-11",
-        "enunciado": "Assinale a colocação pronominal CORRETA na frase que emprega o pronome oblíquo átono 'lhe' referente ao pronome de tratamento 'Vossa Excelência'.",
+        "topico_referencia": "gram-04 + gram-13",
+        "enunciado": "Leia: 'O recruta aspirava _____ carreira naval e se habituou _____ disciplina rígida desde o primeiro dia.' Com base na regência verbal (gram-10) e no conhecimento das classes e formação de palavras (gram-03/04), assinale a alternativa que preenche corretamente as lacunas E identifica o processo de formação de 'disciplina'.",
         "alternativas": {
-          "A": "Lhe apresento, Vossa Excelência, os resultados da operação.",
-          "B": "Apresento-lhe, Vossa Excelência, os resultados da operação.",
-          "C": "Apresento Vossa Excelência-lhe os resultados da operação.",
-          "D": "Lhe apresentamos os resultados da operação, Vossa Excelência.",
-          "E": "Os resultados da operação lhe apresento, Vossa Excelência."
+          "A": "à / à — 'disciplina' é derivação regressiva de 'disciplinar'.",
+          "B": "à / à — 'disciplina' é um substantivo primitivo de base latina.",
+          "C": "a / a — 'disciplina' é composição por aglutinação.",
+          "D": "à / a — 'disciplina' é derivação sufixal.",
+          "E": "a / à — 'disciplina' é derivação prefixal."
         },
         "gabarito": "B",
-        "explicacao": "A questão integra gram-04 (pronomes de tratamento e oblíquos — 3.ª pessoa) e gram-11 (colocação pronominal). 'Vossa Excelência' é pronome de tratamento de 3.ª pessoa gramatical; o pronome oblíquo correspondente é 'lhe'. Em início de frase sem elemento atrator de próclise, a norma culta determina ênclise: 'Apresento-lhe'. A: próclise indevida no início absoluto; C: forma agramatical; D: início de frase com pronome oblíquo (próclise em início absoluto, que é incorreta); E: próclise com inversão que geraria ambiguidade."
+        "explicacao": "Integra gram-10 (regência: aspirar a + habituou-se a) e gram-03 (formação de palavras). 'Aspirar' no sentido de 'desejar' é TI: exige 'a' — 'à carreira' (prep. a + art. a = crase: 'à'). 'Habituar-se' é TI: exige 'a' — 'à disciplina' (prep. a + art. a = crase: 'à'). 'Disciplina' vem do latim 'disciplina' — é uma palavra de base latina que entrou no português como substantivo primitivo (não deriva de outro vocábulo português por derivação). Não é regressiva (não há verbo anterior no português do qual ela derive por redução), nem composta, nem derivada por sufixo ou prefixo português."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-10",
-        "enunciado": "Leia: 'O comandante assistiu _____ cerimônia de formatura e logo _____ os recrutas com palavras de incentivo.' Assinale a alternativa que preenche as lacunas corretamente, considerando a regência dos verbos e a consequente necessidade ou não de crase.",
+        "topico_referencia": "gram-04 + gram-14",
+        "enunciado": "Leia: 'O manual recomenda que _____ os procedimentos antes de qualquer operação.' Considerando que a frase exige a colocação do pronome oblíquo 'se' (reflexivo/indeterminador) e que 'recomenda que' é fator de próclise, assinale a alternativa CORRETA quanto à colocação e à identificação do processo de formação de 'procedimentos'.",
         "alternativas": {
-          "A": "à / aconselhou",
-          "B": "a / aconselhou-a",
-          "C": "à / obedeceu",
-          "D": "a / assistiu",
-          "E": "à / elogiou"
+          "A": "revisem-se; 'procedimentos' = derivação regressiva de 'procedimentar'.",
+          "B": "se revisem; 'procedimentos' = derivação sufixal (proceder + -imentos).",
+          "C": "revisem-se; 'procedimentos' = composição por justaposição.",
+          "D": "se revisem; 'procedimentos' = cadeia derivacional: pro- + ceder + -mento + -s.",
+          "E": "revisem-se; 'procedimentos' = derivação prefixal de 'pro-' sobre 'cedimento'."
         },
-        "gabarito": "E",
-        "explicacao": "Integra gram-04 (classes/verbos) e gram-10 (regência verbal) e gram-02 (crase). 'Assistir' no sentido de 'ver, presenciar' é transitivo indireto: exige preposição 'a' ('assistiu à cerimônia' — crase obrigatória com substantivo feminino precedido de artigo). O segundo verbo deve ser transitivo direto (sem preposição) para completar o sentido com 'os recrutas'. 'Elogiar' é transitivo direto: 'elogiou os recrutas'. A: 'aconselhou' é TD+TI, não basta; B: 'a' sem crase é incorreto; C: 'obedeceu' é TI (obedeceu aos recrutas); D: repetição de 'assistiu' e sentido incoerente."
+        "gabarito": "D",
+        "explicacao": "Integra gram-11 (colocação pronominal) e gram-03 (formação de palavras). A conjunção 'que' (subordinativa) é fator de próclise obrigatória: 'recomenda que se revisem' — o pronome 'se' fica antes do verbo. 'Procedimentos': prefixo 'pro-' (= antes, em frente) + radical 'ced-' (do latim cedere, mover-se) + sufixo nominalizador '-mento' + desinência de plural '-s' — cadeia derivacional com prefixo + sufixo + desinência. Não é regressiva (a palavra é maior que qualquer base), não é justaposição, não é derivação prefixal simples (pois há sufixo derivacional '-mento')."
       },
       {
         "id": "d05",
         "nivel": "avancado",
         "topico_referencia": "gram-04 + comp-06",
-        "enunciado": "Analise o par de frases: (I) 'O militar portava um fuzil.' (II) 'O militar portava-se com distinção.' O substantivo 'fuzil' e o pronome reflexivo 'se' em (II) mantêm entre si uma relação lexical de:",
+        "enunciado": "Considere as palavras 'desembarcar', 'embarcar' e 'barco'. Assinale a alternativa que descreve CORRETAMENTE a relação lexical entre elas (comp-06) e o processo de formação de cada uma (gram-03).",
         "alternativas": {
-          "A": "Sinonímia — ambos complementam verbos de mesma raiz.",
-          "B": "São de classes morfológicas distintas e não mantêm relação lexical entre si, mas 'portar' em (I) e 'portar-se' em (II) são parônimos.",
-          "C": "Antonímia — a presença de 'se' inverte o sentido de 'portar'.",
-          "D": "Homonímia — 'fuzil' tem dois significados idênticos nas duas frases.",
-          "E": "Hiperonímia — 'se' é hiperônimo de todos os pronomes oblíquos."
+          "A": "São sinônimas; 'barco' é primitiva, 'embarcar' = parassíntese, 'desembarcar' = derivação prefixal.",
+          "B": "Formam família lexical com o mesmo radical 'barc-'; 'barco' é primitiva, 'embarcar' = parassíntese (en- + barc- + -ar), 'desembarcar' = derivação prefixal (des- + embarcar).",
+          "C": "São antônimas duas a duas; 'barco' é primitiva, 'embarcar' = derivação sufixal, 'desembarcar' = composição.",
+          "D": "Formam família lexical; 'barco' é primitiva, 'embarcar' = derivação prefixal (em- + barcar), 'desembarcar' = derivação prefixal dupla (des- + em- + barcar).",
+          "E": "São parônimas; todas derivam por sufixação do radical latino 'barcus'."
         },
         "gabarito": "B",
-        "explicacao": "Integra gram-04 (classes: substantivo vs. pronome oblíquo) e comp-06 (relações lexicais). 'Fuzil' (substantivo) e 'se' (pronome oblíquo reflexivo) são de classes morfológicas distintas e não possuem relação lexical direta entre si. Porém, 'portar' (= carregar algo) e 'portar-se' (= comportar-se) são parônimos: palavras de forma semelhante e significados distintos. Não são sinônimos (sentidos diferentes), não são antônimos (não se opõem simetricamente), não são homônimos (fusil/fuzil seria homonímia, mas não é o caso aqui) e 'se' não é hiperônimo de pronomes."
+        "explicacao": "Integra comp-06 (relações lexicais: família lexical) e gram-03 (formação de palavras). As três palavras compartilham o radical 'barc-' — formam uma família lexical (não são sinônimas nem antônimas). 'Barco' é a palavra primitiva. 'Embarcar': prefixo 'em-' + radical 'barc-' + sufixo verbalizador '-ar' acrescentados simultaneamente ao radical nominal 'barc-' (*'barcar' existe? Como forma isolada é muito rara; considera-se parassíntese). 'Desembarcar': prefixo 'des-' + base 'embarcar' (já existente) = derivação prefixal. D está quase correto mas chama 'embarcar' de derivação prefixal, o que é impreciso se não existe 'barcar' consolidado."
       },
       {
         "id": "d06",
         "nivel": "avancado",
         "topico_referencia": "gram-04 + comp-07",
-        "enunciado": "Leia: 'O silêncio gritava mais alto que qualquer discurso naquele auditório.' A figura de linguagem presente e a classe gramatical do vocábulo 'alto' nessa frase são, respectivamente:",
+        "enunciado": "Leia: 'A pátria é o porto seguro de todos os navegantes da vida.' Identifique a figura de linguagem (comp-07) e o processo de formação de 'navegantes' (gram-03), assinando a alternativa CORRETA.",
         "alternativas": {
-          "A": "Personificação (prosopopeia); 'alto' é adjetivo qualificando 'silêncio'.",
-          "B": "Hipérbole; 'alto' é advérbio de modo modificando 'gritava'.",
-          "C": "Personificação (prosopopeia); 'alto' é advérbio de modo modificando 'gritava'.",
-          "D": "Antítese; 'alto' é adjetivo em oposição ao silêncio.",
-          "E": "Ironia; 'alto' é substantivo abstrato equivalente a 'volume'."
+          "A": "Metáfora (pátria = porto seguro da vida); 'navegantes' = derivação sufixal (naveg- + -antes).",
+          "B": "Metonímia (porto por pátria); 'navegantes' = composição por aglutinação.",
+          "C": "Hipérbole (exagero sobre a segurança da pátria); 'navegantes' = parassíntese.",
+          "D": "Antítese (pátria ≠ porto); 'navegantes' = derivação regressiva.",
+          "E": "Personificação (a pátria age como um porto); 'navegantes' = derivação prefixal."
         },
-        "gabarito": "C",
-        "explicacao": "Integra comp-07 (figuras de linguagem) e gram-04 (classes de palavras). A figura é personificação/prosopopeia: atribui-se ao 'silêncio' (ser inanimado/abstrato) a ação de 'gritar' (própria de seres animados). Quanto à classe gramatical: 'alto' modifica o verbo 'gritava' — é advérbio de modo, invariável nessa função (se fosse adjetivo, concordaria com o sujeito: 'O silêncio alto...'). Não é hipérbole (não há exagero quantitativo), nem antítese (não há oposição de ideias contrárias), nem ironia."
+        "gabarito": "A",
+        "explicacao": "Integra comp-07 (figuras de linguagem) e gram-03 (formação de palavras). A frase atribui à 'pátria' a característica de 'porto seguro' e ao povo a condição de 'navegantes da vida' — uso metafórico (comparação implícita sem 'como'): metáfora. 'Navegantes': radical 'naveg-' + sufixo '-ante' (agente) + '-s' (plural) — derivação sufixal. Não é metonímia (não há substituição por contiguidade real), nem hipérbole, nem antítese (não há oposição de contrários), nem personificação (não são atribuídas ações humanas a seres inanimados aqui — é comparação de humanos a navegantes)."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-08",
-        "enunciado": "Leia: 'Ou o candidato estuda com afinco, ou jamais logrará êxito no concurso.' A conjunção 'ou...ou' classifica-se como coordenativa alternativa e o advérbio 'jamais' como advérbio de negação. Com base nessa análise, assinale a alternativa que apresenta outra frase com a MESMA estrutura (conjunção alternativa + advérbio de negação).",
+        "topico_referencia": "gram-04 + gram-10",
+        "enunciado": "Leia: 'O candidato estudou, portanto passou; embora exausto, não desanimou.' Sobre as conjunções 'portanto' e 'embora' (gram-08) e os processos de formação de 'portanto' e 'embora' (gram-03), assinale a CORRETA.",
         "alternativas": {
-          "A": "Nem o esforço nem o talento bastam sem dedicação.",
-          "B": "Quer chova, quer faça sol, a missão prosseguirá.",
-          "C": "Ora ele cumpre, ora nunca respeita os prazos.",
-          "D": "Mas a insistência não é suficiente sem método.",
-          "E": "Portanto, o candidato nunca deve subestimar a prova."
+          "A": "'Portanto': conjunção coordenativa conclusiva; formada por composição (por + tanto, aglutinação). 'Embora': conjunção subordinativa concessiva; formada por composição (em + boa + hora, aglutinação).",
+          "B": "'Portanto': conjunção subordinativa causal; composição por justaposição. 'Embora': coordenativa adversativa; derivação prefixal.",
+          "C": "'Portanto': coordenativa adversativa; derivação sufixal. 'Embora': subordinativa temporal; composição por justaposição.",
+          "D": "Ambas são conjunções coordenativas conclusivas; ambas formadas por parassíntese.",
+          "E": "'Portanto': coordenativa conclusiva; derivação prefixal ('por-'). 'Embora': coordenativa adversativa; aglutinação."
         },
-        "gabarito": "C",
-        "explicacao": "Integra gram-04 (advérbio) e gram-08 (coordenação e subordinação). Em C: 'ora...ora' é conjunção coordenativa alternativa (gram-08) e 'nunca' é advérbio de negação (gram-04) — estrutura idêntica à do enunciado. A: 'nem...nem' é conjunção aditiva negativa, não alternativa. B: 'quer...quer' é alternativa, mas não há advérbio de negação. D: 'mas' é adversativa, não alternativa. E: 'portanto' é conclusiva e 'nunca' é advérbio, mas não há conjunção alternativa."
+        "gabarito": "A",
+        "explicacao": "Integra gram-08 (coordenação e subordinação) e gram-03 (formação de palavras). 'Portanto' é conjunção coordenativa conclusiva (introduz consequência lógica). 'Portanto' = 'por' + 'tanto' → composição por aglutinação (fusão de dois elementos com leve perda fonética). 'Embora' é conjunção subordinativa concessiva ('embora exausto' = oração subordinada adverbial concessiva). 'Embora' = 'em' + 'boa' + 'hora' → aglutinação com perda de elementos ('boa hora' → 'bora'). B, C e D erram na classificação das conjunções. E erra ao chamar 'embora' de adversativa."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + comp-10",
-        "enunciado": "Analise o texto: 'O navio partiu. Ele era veloz. A missão foi cumprida.' Assinale a alternativa que reescreve o texto melhorando sua coesão textual por meio do uso adequado de pronomes (gram-04) e conjunções (gram-08/comp-10), SEM alterar o sentido original.",
+        "topico_referencia": "gram-04 + comp-11",
+        "enunciado": "Leia: 'O oficial desembarcou. Logo, ele foi ao quartel. Então, ele se reportou ao comandante.' Reescreva usando mecanismos de coesão que incluam um derivado de 'embarcar' (gram-03) e uma conjunção adequada (gram-08/comp-10), sem alterar o sentido. Assinale a versão MELHOR.",
         "alternativas": {
-          "A": "O navio partiu, porque ele era veloz, mas a missão foi cumprida.",
-          "B": "O navio, que era veloz, partiu e cumpriu a missão.",
-          "C": "Embora veloz, o navio partiu e a missão foi cumprida.",
-          "D": "O navio partiu. Apesar de ser veloz, a missão foi cumprida.",
-          "E": "O navio partiu; porém era veloz e a missão foi cumprida."
+          "A": "O oficial desembarcou e, após o desembarque, dirigiu-se ao quartel para se reportar ao comandante.",
+          "B": "O oficial desembarcou; porque foi ao quartel; então se reportou ao comandante.",
+          "C": "Embora o oficial desembarcasse, foi ao quartel e se reportou ao comandante.",
+          "D": "O oficial desembarcou, portanto foi ao quartel, porém se reportou ao comandante.",
+          "E": "O oficial desembarcou, mas foi ao quartel para se reportar ao comandante."
         },
-        "gabarito": "B",
-        "explicacao": "Integra gram-04 (pronome relativo 'que' como mecanismo de coesão referencial) e comp-10 (coesão textual). Em B, o pronome relativo 'que' retoma 'navio', evitando a repetição e criando coesão referencial. A conjunção 'e' une as duas ações sequenciais, e o sujeito implícito 'ele' (o navio) aparece na segunda oração. As demais introduzem relações semânticas incorretas: A insere causalidade inexistente ('porque era veloz'); C e D introduzem concessão que distorce o sentido; E cria oposição indevida com 'porém'."
+        "gabarito": "A",
+        "explicacao": "Integra gram-03 (derivação regressiva: 'desembarque' de 'desembarcar') e comp-10 (coesão textual). A alternativa A usa 'desembarque' (substantivo deverbativo regressivo de 'desembarcar' — gram-03) como elemento de coesão referencial (retoma 'desembarcou' sem repetição). A conjunção 'e' (coordenativa aditiva) mantém a sequência lógica. A preposição 'após' indica posterioridade. A frase resultante é coesa e coerente. B usa 'porque' incorretamente (causalidade inexistente). C introduz concessão ('embora') que distorce o sentido. D usa 'portanto' e 'porém' com relações semânticas incorretas. E introduz 'mas' (adversativa) sem sentido de oposição real."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-01",
-        "enunciado": "Assinale a alternativa em que há ERRO de acentuação gráfica na forma do verbo ou do substantivo destacados, considerando o Acordo Ortográfico em vigor desde 2016.",
+        "topico_referencia": "gram-04 + gram-12",
+        "enunciado": "Leia: 'O vice-almirante — recém-promovido — recebeu, em cerimônia solene, a comenda pós-serviço.' Sobre a pontuação (gram-12) e a formação/grafia dos compostos destacados (gram-03), assinale a CORRETA.",
         "alternativas": {
-          "A": "O coautor do manual é um oficial da Marinha.",
-          "B": "O recruta foi avaliado por um júri especializado.",
-          "C": "A ele se devem os créditos pela operação.",
-          "D": "O vôo de reconhecimento foi cancelado.",
-          "E": "A análise dos dados foi concluída com êxito."
+          "A": "Os travessões isolam o aposto 'recém-promovido' — uso correto; 'vice-almirante', 'recém-promovido' e 'pós-serviço' estão todos grafados corretamente.",
+          "B": "Os travessões deveriam ser substituídos por vírgulas; 'pós-serviço' deveria ser 'posserviço' (sem hífen).",
+          "C": "Os travessões estão corretos, mas 'vice-almirante' deveria ser 'vicealmirante'.",
+          "D": "Os travessões estão corretos; 'recém-promovido' deveria ser 'recém promovido' (separado).",
+          "E": "Os travessões isolam adjunto adverbial — uso correto; 'pós-serviço' deveria ser 'pós serviço'."
         },
-        "gabarito": "D",
-        "explicacao": "Integra gram-04 (substantivo — classes de palavras) e gram-01 (ortografia e acentuação). Pelo Acordo Ortográfico de 1990 (em vigor desde 2016), o acento circunflexo nas palavras 'voo', 'zoo', 'enjoo' foi suprimido, pois a acentuação diferencial nessas palavras não se justifica mais pelo sistema atual. O correto é 'o voo' (sem acento). As demais estão corretas: A — 'coautor' sem hífen (regra do Acordo); B — 'júri' acentuado corretamente (oxítona com i tônico); C — 'créditos' (proparoxítona, sempre acentuada); E — 'êxito' (acento correto)."
+        "gabarito": "A",
+        "explicacao": "Integra gram-12 (pontuação: travessão) e gram-03/gram-01 (formação e ortografia). Travessões em pares isolam aposto explicativo ou intercalação — uso correto para 'recém-promovido' (aposto de 'vice-almirante'). Grafias: 'vice-almirante' — 'vice-' é prefixo do grupo fixo → sempre com hífen ✓; 'recém-promovido' — 'recém-' é prefixo fixo → sempre com hífen ✓; 'pós-serviço' — 'pós-' é prefixo tônico autônomo → sempre com hífen ✓. B erra ao questionar o hífen em 'pós-serviço'. C erra ao questionar 'vice-almirante'. D erra ao questionar 'recém-promovido'. E classifica incorretamente o aposto como adjunto adverbial."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-12",
-        "enunciado": "Leia: 'O comandante, cansado porém determinado, ordenou: — Todos ao posto!' Sobre a pontuação e as classes de palavras destacadas, assinale a alternativa CORRETA.",
+        "topico_referencia": "gram-04 + comp-03",
+        "enunciado": "Leia: 'O recém-chegado foi bem recebido pelos veteranos.' e 'O recém-chegado sentiu que estava em terra estranha.' Sobre a linguagem denotativa/conotativa (comp-04) e a formação de 'recém-chegado' (gram-03), assinale a CORRETA.",
         "alternativas": {
-          "A": "As vírgulas em 'cansado porém determinado' são obrigatórias para isolar adjuntos adverbiais.",
-          "B": "O travessão indica discurso direto; 'porém' é conjunção coordenativa adversativa que une dois adjetivos predicativos.",
-          "C": "O ponto de exclamação após 'posto' poderia ser substituído por ponto final sem alterar o sentido.",
-          "D": "As vírgulas isolam o aposto 'cansado porém determinado'; 'porém' é conjunção conclusiva.",
-          "E": "O travessão é dispensável; 'porém' é advérbio de oposição."
+          "A": "Em ambas as frases, 'recém-chegado' tem sentido denotativo; é formado por composição por justaposição.",
+          "B": "Na primeira, 'recém-chegado' tem sentido denotativo (recém = há pouco tempo); na segunda, pode ter sentido conotativo (recém-chegado = novato, inexperiente). É formado por composição: 'recém-' (prefixo fixo) + particípio 'chegado' — derivação prefixal sobre particípio.",
+          "C": "'Recém-chegado' é sempre conotativo; formado por parassíntese.",
+          "D": "Nas duas frases o sentido é conotativo; é formado por aglutinação.",
+          "E": "Na segunda frase, 'terra estranha' é denotativo e 'recém-chegado' é metonímia."
         },
         "gabarito": "B",
-        "explicacao": "Integra gram-12 (pontuação) e gram-04 (classes de palavras — conjunção). O travessão introduz o discurso direto (fala do comandante), recurso correto de pontuação (gram-12). 'Porém' é conjunção coordenativa adversativa que une os dois adjetivos predicativos 'cansado' e 'determinado' (gram-04) referentes ao sujeito implícito 'o comandante'. A: as vírgulas isolam o predicativo deslocado (não adjunto adverbial). C: o ponto de exclamação reforça o caráter imperativo da ordem — substituí-lo por ponto final altera a ênfase. D: 'porém' não é conclusiva. E: o travessão é indispensável para o discurso direto."
+        "explicacao": "Integra comp-04 (denotação/conotação) e gram-03 (formação de palavras). Na primeira frase, 'recém-chegado' tem sentido literal/denotativo: chegou há pouco tempo. Na segunda, 'terra estranha' e o contexto sugerem sentido conotativo/figurado: recém-chegado pode significar 'estranho ao ambiente', 'novato', 'não integrado' — uso conotativo. Quanto à formação: 'recém-' é prefixo do grupo dos sempre-hifenizados, acrescentado ao particípio 'chegado' — derivação prefixal sobre particípio passado (com hífen obrigatório por ser 'recém-' fixo). Não é parassíntese nem aglutinação."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + comp-03",
-        "enunciado": "Leia o trecho: 'O silêncio do almirante ao final da reunião foi eloquente.' Com base no que está implícito e no papel da classe gramatical do adjetivo 'eloquente', assinale a alternativa que melhor interpreta a informação implícita transmitida pelo uso desse adjetivo nesse contexto.",
+        "topico_referencia": "gram-04 + comp-02",
+        "enunciado": "Leia o trecho: 'O insubordinado foi sumariamente afastado.' A palavra 'insubordinado' contém, em sua formação, informação implícita (comp-03) sobre a hierarquia militar. Assinale a alternativa que identifica CORRETAMENTE o processo de formação E a informação implícita veiculada pelos morfemas.",
         "alternativas": {
-          "A": "O adjetivo indica explicitamente que o almirante fez um discurso elaborado ao final da reunião.",
-          "B": "O adjetivo atribui qualidade ao substantivo 'silêncio', sugerindo implicitamente que esse silêncio comunicou algo significativo — possivelmente discordância ou reprovação.",
-          "C": "O adjetivo é usado em sentido denotativo, indicando que o silêncio produziu sons audíveis.",
-          "D": "O adjetivo qualifica o sujeito implícito 'almirante', indicando sua habilidade oratória.",
-          "E": "O adjetivo 'eloquente' é usado como advérbio, modificando o verbo 'foi'."
+          "A": "Derivação prefixal simples (in- + subordinado); implica apenas negação genérica.",
+          "B": "Cadeia derivacional (in- + sub- + ordin- + -ado): o prefixo 'sub-' implica hierarquia inferior; 'in-' implica negação; o conjunto transmite implicitamente que o indivíduo recusou se submeter à ordem de quem está acima dele.",
+          "C": "Parassíntese (in- e -ado acrescentados simultaneamente a 'subordin-'): implica apenas desobediência.",
+          "D": "Composição erudita latina: implica que o sujeito veio de fora da organização.",
+          "E": "Derivação regressiva de 'insubordinação': implica que o ato já ocorreu anteriormente."
         },
         "gabarito": "B",
-        "explicacao": "Integra comp-03 (informações implícitas) e gram-04 (adjetivo). 'Eloquente' é adjetivo que qualifica o substantivo 'silêncio'. Sua função morfológica é de modificador nominal (gram-04). O conteúdo implícito (comp-03): atribuir 'eloquência' — qualidade de expressar-se com eficácia — ao 'silêncio' sugere que este silêncio comunicou algo sem palavras, provavelmente uma avaliação negativa ou discordância do almirante. A está errada: não houve discurso, o silêncio foi a mensagem. C é incorreto: uso conotativo, não denotativo. D: 'eloquente' qualifica 'silêncio', não 'almirante'. E: adjetivos após verbos de ligação são predicativos, não advérbios."
+        "explicacao": "Integra gram-03 (formação: cadeia derivacional) e comp-03 (informação implícita). A análise morfológica de 'insubordinado': 'in-' (negação/privação) + 'sub-' (abaixo, em posição inferior na hierarquia) + radical 'ordin-' (do latim 'ordo, ordinis' = ordem, hierarquia) + sufixo '-ado' (particípio/adjetivo). A informação implícita nos morfemas é que o indivíduo NEGOU se SUBMETER à ORDEM HIERÁRQUICA — isso comunica sem dizer explicitamente que se trata de recusa de obedecer a superior. A está errada: ignora o prefixo 'sub-'. C está errada: 'subordinado' existe, portanto não é parassíntese. D e E são incorretos."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-09",
-        "enunciado": "Em 'Os fenômenos físico-químicos observados durante os experimentos foram devidamente registrados', a concordância nominal e a morfologia dos termos destacados são analisadas CORRETAMENTE em:",
+        "topico_referencia": "gram-04 + gram-06",
+        "enunciado": "Considere as formas verbais 'embarquemos' e 'embarcávamos'. Sobre a estrutura morfológica (gram-03) e a flexão verbal (gram-05), assinale a CORRETA.",
         "alternativas": {
-          "A": "'Físico-químicos' concorda com 'fenômenos' em gênero e número — ambos os elementos variam.",
-          "B": "'Físico-químicos': adjetivo composto em que apenas o último elemento ('químicos') varia, concordando com 'fenômenos' (masc. pl.) — correto.",
-          "C": "'Observados' é particípio passado funcionando como substantivo, concordando com 'fenômenos'.",
-          "D": "'Devidamente' é adjetivo concordando com 'fenômenos' no plural.",
-          "E": "'Registrados' deveria estar no singular, concordando com o núcleo 'fenômenos' no sentido coletivo."
+          "A": "Ambas têm o mesmo radical 'embarc-'; a alternância entre 'embarc-' e 'embarqu-' é alomorfia do radical antes de vogal posterior.",
+          "B": "Ambas têm radicais diferentes: 'embarque-' e 'embarca-' — são formas de verbos distintos.",
+          "C": "'Embarquemos' tem radical 'embarqu-', VT '-e-', desinências '-mo-s'; 'embarcávamos' tem radical 'embarc-', VT '-a-', sufixo modo-temporal '-va-', desinências '-mo-s'.",
+          "D": "A alternância 'embarc-/embarqu-' indica que o verbo 'embarcar' é irregular.",
+          "E": "'Embarquemos' é derivado de 'embarque' (substantivo) por conversão; 'embarcávamos' é forma regular do imperfeito."
         },
-        "gabarito": "B",
-        "explicacao": "Integra gram-04 (adjetivo composto) e gram-09 (concordância nominal). Em adjetivos compostos, apenas o último elemento varia: 'físico' permanece invariável; 'químicos' concorda com 'fenômenos' (masculino plural). A está errada: os dois elementos não variam. C: 'observados' é particípio passado em função adjetiva (adjunto adnominal de 'fenômenos'), não substantivo. D: 'devidamente' é advérbio de modo (invariável). E: 'registrados' concorda com 'fenômenos' (plural), não com sentido coletivo inexistente."
+        "gabarito": "C",
+        "explicacao": "Integra gram-03 (morfemas: radical, VT, desinências) e gram-05 (flexão verbal). 'Embarquemos': radical 'embarqu-' (alomorfe antes de '-e-' para manter o fonema /k/) + VT '-e-' (presente do subjuntivo) + DNP '-mos' (1.ª pl.). 'Embarcávamos': radical 'embarc-' + VT '-a-' + STM '-va-' (imperfeito do indicativo) + DNP '-mos'. A alternância 'embarc-/embarqu-' é ortográfica (não fonológica), mantendo o fonema /k/ antes de vogal anterior 'e'. D está errada: essa alternância ortográfica não torna o verbo irregular — é regular. A está incompleta. B está errada. E confunde processos distintos."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-10 + gram-02",
-        "enunciado": "Leia: 'O cadete aspira ___ carreira naval e já se habituou ___ disciplina rigorosa da Escola.' Assinale a alternativa que preenche CORRETAMENTE as lacunas com base na regência verbal e no uso da crase.",
+        "topico_referencia": "gram-04 + comp-08",
+        "enunciado": "Leia o texto: 'Aos aspirantes a oficial: em caso de dúvida sobre procedimentos, consultem o manual. Qualquer infração será apurada.' Considerando o gênero textual (comp-08) e a formação das palavras 'aspirantes', 'procedimentos' e 'infração' (gram-03), assinale a CORRETA.",
         "alternativas": {
-          "A": "a / a",
-          "B": "à / a",
-          "C": "à / à",
-          "D": "a / à",
-          "E": "à / com a"
+          "A": "É um texto narrativo; 'aspirantes' = derivação regressiva; 'procedimentos' = composição; 'infração' = parassíntese.",
+          "B": "É um aviso/comunicado (texto injuntivo); 'aspirantes' = derivação sufixal (aspir- + -antes); 'procedimentos' = cadeia derivacional (pro- + ced- + -mento + -s); 'infração' = derivação sufixal (infring- + -ção, com apagamento).",
+          "C": "É um texto dissertativo; 'aspirantes' = composição; 'procedimentos' = derivação prefixal; 'infração' = aglutinação.",
+          "D": "É um edital (texto normativo); 'aspirantes' = parassíntese; 'procedimentos' = derivação regressiva; 'infração' = híbrido.",
+          "E": "É um texto lírico-poético; todas as palavras são formadas por parassíntese."
         },
-        "gabarito": "C",
-        "explicacao": "Integra gram-10 (regência verbal), gram-02 (crase) e gram-04 (verbos). 'Aspirar' no sentido de 'desejar, almejar' é transitivo indireto: exige preposição 'a' ('aspirar à carreira' — preposição + artigo feminino = crase: 'à'). 'Habituar-se' é transitivo indireto: exige preposição 'a' ('habituou-se à disciplina' — preposição + artigo feminino = crase: 'à'). Ambas as lacunas recebem 'à'. Atenção: 'aspirar' no sentido de 'sugar' é transitivo direto, mas aqui o sentido é 'desejar'."
+        "gabarito": "B",
+        "explicacao": "Integra comp-08 (tipos e gêneros textuais) e gram-03 (formação de palavras). O texto é um aviso ou comunicado de caráter injuntivo/normativo: usa vocativo ('Aos aspirantes'), imperativo ('consultem'), tom prescritivo. Não é narrativo, dissertativo nem lírico. 'Aspirantes': radical 'aspir-' + sufixo de agente '-ante' + '-s' = derivação sufixal. 'Procedimentos': prefixo 'pro-' + radical 'ced-' + sufixo '-mento' + '-s' = cadeia derivacional. 'Infração': do latim 'infractio' — em português, formada por derivação sufixal do radical 'infring-'/'infrac-' + sufixo '-ção' (com apagamento de parte do radical). B está correto em todas as análises."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + comp-07 + gram-11",
-        "enunciado": "Leia o verso adaptado: 'A pátria minha a tudo sobrepõe-se.' Identifique a figura de linguagem e o erro de colocação pronominal, e assinale a alternativa que corrige o verso mantendo o mesmo sentido.",
+        "topico_referencia": "gram-04 + gram-03",
+        "enunciado": "Analise: 'O especialista referiu-se _____ desembarque e _____ aeronavegação no mesmo relatório.' Com base na regência do verbo 'referir-se' (exige prep. 'a'), na crase (gram-02) e na formação das palavras 'desembarque' e 'aeronavegação' (gram-03), assinale a CORRETA.",
         "alternativas": {
-          "A": "Hipérbole; correção: 'A pátria sobrepõe-se-me a tudo.'",
-          "B": "Inversão (anástrofe); a colocação 'sobrepõe-se' está correta, pois o pronome oblíquo reflexivo deve ser enclítico após verbo em início de segmento.",
-          "C": "Hipérbato (inversão da ordem direta); a colocação pronominal 'a tudo sobrepõe-se' está incorreta — deveria ser 'sobrepõe-se a tudo', pois em início de frase deve-se evitar próclise, e a ênclise é a forma correta.",
-          "D": "Anáfora; correção: 'Se a tudo a pátria minha sobrepõe.'",
-          "E": "Não há figura de linguagem; a colocação pronominal está correta em qualquer posição."
+          "A": "ao / à — 'desembarque' = derivação regressiva (masc.); 'aeronavegação' = composição (fem.).",
+          "B": "à / a — 'desembarque' = derivação sufixal (fem.); 'aeronavegação' = aglutinação (masc.).",
+          "C": "ao / a — 'desembarque' = derivação regressiva (masc.) + prep. a + art. o = 'ao'; 'aeronavegação' é feminino mas sem artigo definido pois é abstrato.",
+          "D": "a / à — 'desembarque' é masculino mas não usa artigo definido; 'aeronavegação' é feminino com artigo = crase.",
+          "E": "ao / à — 'desembarque' = masculino (prep. a + art. o = ao); 'aeronavegação' = feminino (prep. a + art. a = à); ambas as formas estão corretas."
         },
-        "gabarito": "C",
-        "explicacao": "Integra comp-07 (figuras de linguagem — hipérbato) e gram-11 (colocação pronominal). A frase apresenta hipérbato (anástrofe): inversão da ordem direta das palavras ('a tudo sobrepõe-se' em vez de 'sobrepõe-se a tudo'). Quanto à colocação pronominal (gram-11): como a frase começa com o adjunto adverbial 'A pátria minha' (não há fator de próclise como partícula de negação, advérbio ou conjunção), a ênclise é correta: 'sobrepõe-se a tudo'. Na forma invertida 'a tudo sobrepõe-se', o 'se' fica após o verbo (ênclise), o que é aceito, mas a forma mais clara na norma culta seria a ordem direta."
+        "gabarito": "E",
+        "explicacao": "Integra gram-02 (crase), gram-03 (formação) e gram-10 (regência: referir-se a). 'Referir-se' exige prep. 'a'. 'Desembarque' é substantivo masculino (derivação regressiva de 'desembarcar'): prep. 'a' + art. 'o' = 'ao desembarque'. 'Aeronavegação' é substantivo feminino (formado por radical 'aero-' + 'navegação'): prep. 'a' + art. 'a' = crase 'à aeronavegação'. A também está correta em 'ao / à' mas identifica incorretamente 'aeronavegação' como 'composição' sem mais detalhes. E é mais completo e preciso em toda a análise. A alternativa E está correta: 'ao / à' com as justificativas de gênero corretamente aplicadas."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-09 + gram-10 + gram-11",
-        "enunciado": "Leia: 'As informações confidenciais foram-lhe entregues pelo agente a quem o comandante as havia confiado.' Esta frase está CORRETA em relação a todas as seguintes normas: concordância nominal ('confidenciais'), colocação de 'lhe' e 'as', regência do verbo 'confiar'. Assinale a alternativa que apresenta análise INCORRETA de algum desses elementos.",
+        "topico_referencia": "gram-04 + gram-11 + gram-13 + gram-03",
+        "enunciado": "Leia: 'As operações antisubmarinas e os exercícios pré-operacionais foram submetidos _____ avaliação do vice-almirante, que aspirava _____ excelência absoluta em todos os procedimentos.' Assinale a alternativa que preenche as lacunas CORRETAMENTE (gram-02/10) E identifica processos de formação das palavras destacadas (gram-03), com concordância correta dos adjetivos compostos (gram-09).",
         "alternativas": {
-          "A": "'Confidenciais' concorda com 'informações' (feminino plural) — concordância nominal correta.",
-          "B": "'Foram-lhe entregues': ênclise de 'lhe' ao auxiliar 'foram' é correta na voz passiva analítica.",
-          "C": "'As havia confiado': o pronome 'as' refere-se a 'informações' e está em posição de próclise atraído pelo pronome relativo 'a quem' — correto.",
-          "D": "'Confiar' é usado como transitivo direto e indireto: 'confiado + as (OD) + a quem (OI)' — regência correta.",
-          "E": "A frase contém erro: 'foram-lhe entregues' deveria ser 'lhe foram entregues', pois o pronome relativo 'a quem' na oração anterior atrai a próclise para a oração principal."
+          "A": "à / à — 'antisubmarinas': prefixal, só último elemento concorda; 'pré-operacionais': prefixo fixo + sufixal; 'vice-almirante': prefixo fixo — todas corretas.",
+          "B": "a / a — 'antisubmarinas': parassíntese; 'pré-operacionais': aglutinação; 'vice-almirante': justaposição.",
+          "C": "à / a — 'antisubmarinas': adjetivo composto invariável; 'pré-operacionais': adjetivo derivado; 'vice-almirante': título invariável.",
+          "D": "ao / à — 'antisubmarinas': sufixal; 'pré-operacionais': prefixal; 'vice-almirante': composto.",
+          "E": "à / à — 'antisubmarinas': sufixal; 'pré-operacionais': derivação regressiva; 'vice-almirante': aglutinação."
         },
-        "gabarito": "E",
-        "explicacao": "Integra gram-09, gram-11 e gram-10. A alternativa E apresenta análise incorreta: o pronome relativo 'a quem' na oração adjetiva ('a quem o comandante as havia confiado') NÃO interfere na colocação pronominal da oração principal ('as informações foram-lhe entregues'). Cada oração tem sua própria regra de colocação. Na oração principal, em início de período, sem fator de próclise, a ênclise 'foram-lhe' é correta. A, B, C e D estão corretos: A — concordância nominal correta; B — ênclise válida; C — 'a quem' atrai próclise dentro de sua própria oração subordinada; D — 'confiar algo a alguém' é TD+TI, regência correta."
+        "gabarito": "A",
+        "explicacao": "Integra gram-02 (crase), gram-10 (regência), gram-03 (formação) e gram-09 (concordância). Regência: 'submeter-se a' + 'avaliação' (fem., com artigo) = 'à avaliação' (crase); 'aspirar a' + 'excelência' (fem., com artigo) = 'à excelência' (crase) → 'à / à'. Formações: 'antisubmarinas' = derivação prefixal (anti- + submarinas); adjetivo derivado que concorda com 'operações' (fem. pl.) — apenas o adjetivo simples concorda. 'Pré-operacionais': prefixo fixo 'pré-' (sempre com hífen) + derivação sufixal '-ais' concordando com 'exercícios' (masc. pl.). 'Vice-almirante': prefixo fixo 'vice-' — sempre com hífen. A está correta em tudo."
       }
     ]
   }

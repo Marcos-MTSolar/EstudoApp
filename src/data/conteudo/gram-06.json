@@ -2,871 +2,865 @@
   "id": "gram-06",
   "titulo": "Flexão Nominal",
   "area": "Gramática",
-  "resumo": "Distinção entre frase, oração e período; critérios de identificação de orações pelo verbo ou locução verbal; classificação de períodos em simples e composto; reconhecimento de frases nominais, verbais e exclamativas em contextos de prova militar.",
+  "resumo": "A flexão é o processo pelo qual as palavras variam sua forma para expressar categorias gramaticais. Os nomes (substantivos, adjetivos, artigos, pronomes e numerais) flexionam em gênero e número; alguns pronomes e artigos também em caso. Os verbos flexionam em pessoa, número, tempo, modo e voz. O domínio da flexão nominal e verbal é condição essencial para a correção gramatical dos textos, influenciando diretamente a concordância, a regência e o emprego correto das formas verbais. No concurso RM2, questões de flexão aparecem embutidas em contextos de concordância, interpretação textual e reescritura de frases.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Frase: conceito e tipos",
-        "conteudo": "Frase é todo enunciado linguístico dotado de sentido completo numa situação comunicativa, independentemente de possuir verbo. Ela pode ser verbal (contém verbo ou locução verbal) ou nominal (não contém verbo). A frase se delimita pela entonação: começa com letra maiúscula e termina com ponto final, ponto de interrogação, ponto de exclamação ou reticências. Toda frase tem, necessariamente, sentido completo no contexto em que ocorre, mas não precisa ter estrutura gramatical plena. Segundo Cunha e Cintra (2017), a frase é a unidade mínima de comunicação com sentido completo, podendo ser constituída por uma única palavra, como nas interjeições ('Fogo!', 'Silêncio!'), por um sintagma nominal ('Atenção aos detalhes.') ou por uma estrutura verbal completa. Na comunicação cotidiana e nos textos militares, frases nominais são frequentes em avisos, comandos e títulos.",
+        "subtitulo": "1. Flexão de Gênero nos Substantivos",
+        "conteudo": "O gênero gramatical em português é masculino ou feminino e não corresponde necessariamente ao sexo biológico. Os substantivos se distribuem em: (a) substantivos biformes — possuem duas formas, uma para cada gênero, podendo variar por sufixo ('menino/menina', 'ator/atriz', 'rei/rainha'), por palavra distinta (heterônimos: 'boi/vaca', 'pai/mãe', 'genro/nora') ou por artigo diferenciador ('o guia/a guia', 'o colega/a colega'); (b) substantivos uniformes — têm uma única forma para os dois gêneros, distinguidos pelo artigo: epicenos (referem-se a animais, com gênero fixo independente do sexo: 'a cobra', 'o gavião'), sobrecomuns (referem-se a pessoas com gênero fixo: 'a criança', 'a testemunha', 'o cônjuge') e comuns de dois gêneros (variam apenas pelo artigo: 'o/a artista', 'o/a estudante', 'o/a intérprete'). Cunha e Cintra (2017) alertam para os substantivos que mudam de sentido conforme o gênero: 'o capital' (dinheiro) / 'a capital' (cidade), 'o coma' (estado clínico) / 'a coma' (cabeleira), 'o rádio' (aparelho) / 'a rádio' (emissora).",
         "exemplos": [
-          "Frase verbal: 'O oficial assinou o relatório.'",
-          "Frase nominal: 'Silêncio absoluto!' (sem verbo, sentido completo)",
-          "Frase nominal: 'Proibida a entrada de civis.' (sem verbo explícito)",
-          "Frase exclamativa: 'Que honra servir à Marinha!'",
-          "Frase interrogativa: 'Quando parte o navio?'"
+          "Biformes por sufixo: 'diretor/diretora', 'leão/leoa', 'barão/baronesa'",
+          "Heterônimos: 'bode/cabra', 'cavaleiro/dama', 'frei/freira'",
+          "Sobrecomuns: 'a vítima' (homem ou mulher), 'o indivíduo' (homem ou mulher)",
+          "Comuns de dois gêneros: 'o/a repórter', 'o/a líder', 'o/a mártir'",
+          "Mudança de sentido: 'o moral' (estado psicológico) / 'a moral' (conjunto de valores)"
         ],
-        "regra": "REGRA: Frase = sentido completo em situação comunicativa. Não exige verbo. Pode ser uma única palavra com entonação adequada."
+        "regra": "Para substantivos uniformes, o gênero é marcado pelo artigo (o/a), não pela terminação da palavra. Para palavras que mudam de sentido conforme o gênero, o artigo é determinante — memorize os pares mais cobrados em provas: capital, moral, rádio, coma, cabeça."
       },
       {
-        "subtitulo": "2. Oração: conceito e estrutura",
-        "conteudo": "Oração é a unidade sintática que se organiza em torno de um verbo ou locução verbal. Toda oração tem, obrigatoriamente, um predicado (que contém o verbo); o sujeito pode estar explícito, implícito (elíptico) ou ser inexistente (oração sem sujeito). A oração não precisa ter sentido completo isoladamente — sua completude depende do contexto sintático. A diferença fundamental entre frase e oração: a frase é definida pelo critério comunicativo (tem sentido completo), a oração, pelo critério sintático (organiza-se em torno de um verbo). Uma oração pode coincidir com uma frase ('Choveu ontem.' é ao mesmo tempo oração e frase), mas nem toda frase é oração ('Socorro!' é frase, não oração) e nem toda oração é frase completa em si mesma ('Quando chegar o comandante' é oração, mas não frase, pois não tem sentido completo isolada). Locução verbal = verbo auxiliar + verbo principal (infinitivo, gerúndio ou particípio). Toda locução verbal forma o núcleo de uma única oração.",
+        "subtitulo": "2. Flexão de Número nos Substantivos e Adjetivos",
+        "conteudo": "A formação do plural dos substantivos e adjetivos segue regras específicas conforme a terminação do singular. Terminações e plurais: (a) vogal ou ditongo oral → acrescenta '-s': 'casa/casas', 'pai/pais'; (b) '-ão' → três possibilidades: '-ões' (mais comum: 'avião/aviões', 'coração/corações'), '-ães' ('pão/pães', 'cão/cães', 'alemão/alemães'), '-ãos' (paroxítonos e alguns outros: 'mão/mãos', 'grão/grãos', 'cidadão/cidadãos'); (c) '-m' → '-ns': 'homem/homens', 'garagem/garagens'; (d) '-r', '-z', '-n' → acrescenta '-es': 'mar/mares', 'rapaz/rapazes', 'abdômen/abdomens' (ou abdômens); (e) '-s' em oxítonas → acrescenta '-es': 'mês/meses', 'país/países'; '-s' em não oxítonas → invariável: 'o/os atlas', 'o/os vírus', 'o/os ônibus'; (f) '-al', '-el', '-ol', '-ul' → troca '-l' por '-is': 'animal/animais', 'papel/papéis', 'farol/faróis', 'paul/paus'; (g) '-il' oxítono → '-is': 'fuzil/fuzis'; '-il' não oxítono → '-eis': 'fácil/fáceis', 'réptil/répteis'. Compostos: seguem regras específicas conforme a estrutura.",
         "exemplos": [
-          "'O recruta dormiu.' — oração com sujeito explícito ('o recruta') e predicado ('dormiu')",
-          "'Dormiu cedo.' — oração com sujeito elíptico (ele/ela), recuperável pelo contexto",
-          "'Chove muito em Fortaleza.' — oração sem sujeito (verbo fenômeno da natureza)",
-          "'Havia muitos candidatos no concurso.' — oração sem sujeito (verbo haver = existir)",
-          "'Estava sendo construído o novo quartel.' — locução verbal: estava sendo construído"
+          "'-ão' com três plurais: 'cidadão/cidadãos', 'cão/cães', 'avião/aviões'",
+          "'-s' invariável: 'o atlas/os atlas', 'o vírus/os vírus'",
+          "'-al' → '-ais': 'canal/canais', 'animal/animais', 'sinal/sinais'",
+          "'-il' oxítono: 'barril/barris', 'fuzil/fuzis'; '-il' não oxítono: 'fácil/fáceis', 'míssil/mísseis'",
+          "Compostos com dois núcleos: 'couve-flor/couves-flores'; com verbo: 'guarda-chuva/guarda-chuvas' (ou 'guarda-chuvas')"
         ],
-        "regra": "REGRA: Oração = unidade sintática com verbo ou locução verbal. Sujeito pode ser explícito, elíptico ou inexistente. Identifique o verbo → encontrou oração."
+        "regra": "Para palavras em '-ão', decore os três grupos. Para palavras em '-s', a invariabilidade vale apenas para não oxítonas. Para '-il', a tonicidade determina o plural: oxítona → '-is'; não oxítona → '-eis'."
       },
       {
-        "subtitulo": "3. Período: simples e composto",
-        "conteudo": "Período é a frase constituída por uma ou mais orações. O período começa com maiúscula e termina com ponto (final, exclamação, interrogação ou reticências). Período simples: possui apenas uma oração (= uma única forma verbal ou locução verbal). Período composto: possui duas ou mais orações (= duas ou mais formas verbais ou locuções verbais). A contagem de orações em um período é feita pelo número de verbos (ou locuções verbais) presentes. Cada verbo ou locução verbal marca uma oração. Atenção: verbos que integram locuções não se contam separadamente — 'estava dormindo' é uma locução (um verbo = uma oração). O período composto se divide em: período composto por coordenação (orações independentes, ligadas por conjunções coordenativas ou justapostas), período composto por subordinação (oração principal + oração(ões) subordinada(s), com relação de dependência sintática) e período composto por coordenação e subordinação (misto).",
+        "subtitulo": "3. Flexão dos Adjetivos: Grau Comparativo e Superlativo",
+        "conteudo": "Os adjetivos flexionam em gênero e número (concordando com o substantivo) e também em grau. O grau comparativo pode ser: (a) de superioridade: 'mais... do que/que'; (b) de inferioridade: 'menos... do que/que'; (c) de igualdade: 'tão... quanto/como'. O grau superlativo pode ser: (a) relativo de superioridade ('o mais... de/entre') ou de inferioridade ('o menos... de/entre'); (b) absoluto sintético — com sufixos como '-íssimo', '-érrimo', '-ílimo': 'fácil/facílimo', 'pobre/paupérrimo', 'ágil/agílimo'; absoluto analítico — com advérbios: 'muito fácil', 'extremamente ágil'. Formas especiais (irregulares) de comparativo e superlativo: 'bom/melhor/ótimo', 'mau/pior/péssimo', 'grande/maior/máximo', 'pequeno/menor/mínimo', 'alto/superior/supremo', 'baixo/inferior/ínfimo'. Cunha e Cintra (2017) advertem que 'mais melhor', 'mais pior', 'mais maior' são pleonasmos a evitar — 'melhor', 'pior' e 'maior' já são comparativos.",
         "exemplos": [
-          "Período simples: 'O capitão revisou os documentos.' (1 verbo = 1 oração)",
-          "Período simples: 'Havia sido publicado o edital do concurso.' (locução = 1 oração)",
-          "Período composto: 'O cadete estudou muito e passou no concurso.' (2 verbos = 2 orações)",
-          "Período composto: 'Espero que o resultado seja favorável.' (2 verbos = 2 orações)",
-          "Período composto misto: 'Quando o navio chegou, todos comemoraram e os sinos tocaram.' (3 orações)"
+          "Comparativo de superioridade analítico: 'O texto é mais claro do que o anterior.'",
+          "Comparativo sintético irregular: 'Esta solução é melhor que aquela.' (não: 'mais melhor')",
+          "Superlativo absoluto sintético: 'O oficial é celebérrimo.' (de 'célebre')",
+          "Superlativo absoluto sintético irregular: 'O resultado foi ótimo.' (de 'bom')",
+          "Superlativo relativo: 'É o maior porto do país.' (de 'grande'; não: 'o mais maior')"
         ],
-        "regra": "REGRA: Conte os verbos (e locuções verbais) no período → esse número indica a quantidade de orações. 1 verbo = período simples. 2+ verbos = período composto."
+        "regra": "Formas irregulares de comparativo ('melhor', 'pior', 'maior', 'menor', 'superior', 'inferior') nunca se combinam com 'mais' ou 'menos' — isso gera pleonasmo vicioso. Memorize os seis pares: bom/melhor/ótimo, mau/pior/péssimo, grande/maior/máximo, pequeno/menor/mínimo, alto/superior/supremo, baixo/inferior/ínfimo."
       },
       {
-        "subtitulo": "4. Período composto por coordenação",
-        "conteudo": "No período composto por coordenação, as orações são sintaticamente independentes entre si: cada uma tem sentido próprio e poderia funcionar como período simples. Podem ser ligadas por conjunção coordenativa (orações coordenadas sindéticas) ou apenas por justaposição, sem conjunção (orações coordenadas assindéticas). As orações coordenadas sindéticas classificam-se conforme a conjunção que as une: aditivas (e, nem, não só… mas também), adversativas (mas, porém, contudo, todavia, entretanto, no entanto), alternativas (ou, ou… ou, ora… ora, quer… quer), conclusivas (logo, portanto, pois — posposto, por isso, por conseguinte), explicativas (pois — anteposto, porque, que, porquanto). Macete: 'AAACE' — Aditiva, Adversativa, Alternativa, Conclusiva, Explicativa. Nas provas militares, a distinção entre 'pois' explicativo (anteposto ao verbo que explica) e 'pois' conclusivo (posposto ao sujeito da conclusão) é cobrada com frequência.",
+        "subtitulo": "4. Flexão Verbal: Modo, Tempo, Pessoa e Número",
+        "conteudo": "Os verbos em português flexionam em: (a) modo — indicativo (certeza), subjuntivo (dúvida, desejo, hipótese), imperativo (ordem, pedido); (b) tempo — presente, pretérito (perfeito, imperfeito, mais-que-perfeito), futuro (do presente, do pretérito); (c) pessoa — 1ª, 2ª, 3ª; (d) número — singular, plural; (e) voz — ativa, passiva, reflexiva. Os verbos se classificam em regulares (seguem o paradigma da conjugação), irregulares (têm variações no radical ou nas desinências), defectivos (não possuem algumas formas: 'falir', 'abolir', 'colorir' — sem 1ª pessoa do singular do presente do indicativo) e abundantes (possuem duas formas para a mesma flexão, especialmente no particípio: 'aceitado/aceito', 'entregado/entregue', 'matado/morto'). Cunha e Cintra (2017) destacam que verbos com dois particípios usam o particípio regular com os auxiliares 'ter' e 'haver' ('tinha aceitado', 'havia entregado') e o particípio irregular com os auxiliares 'ser' e 'estar' ('foi aceito', 'está entregue').",
         "exemplos": [
-          "Assindética: 'Entrei, vi, venci.' (três orações justapostas sem conjunção)",
-          "Aditiva: 'O oficial leu o relatório e assinou os documentos.'",
-          "Adversativa: 'Estudei bastante, mas não me saí bem na prova.'",
-          "Alternativa: 'Ou você cumpre o regulamento, ou sofre as consequências.'",
-          "Conclusiva: 'Você se preparou muito; portanto, passará no concurso.'",
-          "Explicativa: 'Descanse, pois a viagem será longa.' (pois anteposto = explica)"
+          "Irregular no presente: 'eu faço' (fazer), 'eu ouço' (ouvir), 'eu perco' (perder)',",
+          "Defectivo: 'abolir' — não se usa 'eu abolo'; usa-se nas formas com 'i' no radical: 'abolimos', 'abolem'",
+          "Abundante: 'tinha entregado' (aux. ter + part. regular) / 'foi entregue' (aux. ser + part. irregular)",
+          "Modo subjuntivo presente: 'que eu faça', 'que ele venha', 'que nós saibamos'",
+          "Futuro do pretérito (condicional): 'Estudaria mais se tivesse tempo.'"
         ],
-        "regra": "REGRA: Coordenação = independência entre orações. Identifique a conjunção coordenativa e sua classe. 'Pois' anteposto = explicativa; 'pois' posposto = conclusiva."
+        "regra": "Para particípios duplos: ter/haver + particípio regular; ser/estar + particípio irregular. Para verbos defectivos, evite as formas inexistentes — em prova, a alternativa com 'eu abolo', 'eu coloro' está errada."
       },
       {
-        "subtitulo": "5. Período composto por subordinação",
-        "conteudo": "No período composto por subordinação, uma oração (subordinada) depende sintaticamente de outra (oração principal ou oração de que ela é termos). As orações subordinadas classificam-se em: substantivas (exercem função de substantivo: sujeito, objeto direto, objeto indireto, predicativo, aposto, complemento nominal), adjetivas (exercem função de adjetivo, modificando um substantivo — antecedente — e introduzidas geralmente por pronome relativo: que, o qual, cujo, onde, quem) e adverbiais (exercem função de advérbio, indicando circunstâncias: tempo, causa, concessão, condição, comparação, conformidade, finalidade, proporção, consequência). As subordinadas podem ser desenvolvidas (introduzidas por conjunção ou pronome relativo, com verbo flexionado) ou reduzidas (sem conjunção introdutora, com verbo em forma nominal: infinitivo, gerúndio ou particípio). Distinguir oração principal de oração subordinada é essencial para a análise sintática e para questões de coesão e coerência.",
+        "subtitulo": "5. Formas Nominais do Verbo e Vozes Verbais",
+        "conteudo": "As formas nominais do verbo — infinitivo, gerúndio e particípio — são assim chamadas porque não se flexionam em pessoa e número de forma plena e podem exercer funções de nomes no período. O infinitivo pode ser impessoal ('estudar é importante') ou pessoal, quando flexionado: 'É preciso estudarmos a matéria' / 'É necessário estudarem os candidatos'. O infinitivo pessoal é obrigatório quando o sujeito do verbo no infinitivo é diferente do da oração principal e quando se quer especificar o sujeito. O gerúndio indica ação em curso simultânea ou imediatamente anterior à da oração principal e é invariável. O particípio concorda em gênero e número com o substantivo quando é adjetivo: 'a porta fechada', 'os documentos assinados'. A voz verbal indica a relação entre sujeito e ação: ativa (sujeito pratica a ação), passiva analítica (sujeito recebe a ação: ser + particípio), passiva sintética (verbo + se), reflexiva (sujeito pratica e recebe). A conversão de voz ativa em passiva mantém o sentido: 'O comandante assinou o ofício' → 'O ofício foi assinado pelo comandante'.",
         "exemplos": [
-          "Substantiva subjetiva: 'É necessário que todos compareçam.' (oração = sujeito de 'é necessário')",
-          "Substantiva objetiva direta: 'O comandante ordenou que os recrutas se apresentassem.'",
-          "Adjetiva restritiva: 'O militar que se dedicou foi aprovado.' (restringe 'o militar')",
-          "Adjetiva explicativa: 'O almirante, que conhecia bem o mar, conduziu a missão.'",
-          "Adverbial causal: 'Passou no concurso porque estudou muito.'",
-          "Adverbial concessiva: 'Embora chovesse, a cerimônia foi realizada.'",
-          "Reduzida de infinitivo: 'Ele saiu sem dizer nada.' (= sem que dissesse nada)"
+          "Infinitivo pessoal obrigatório: 'Mandaram os recrutas marcharem.' (sujeito diferente)",
+          "Infinitivo impessoal: 'É bom estudar todos os dias.'",
+          "Gerúndio simultâneo: 'O oficial entrou na sala sorrindo.'",
+          "Particípio como adjetivo: 'Os recrutas selecionados foram convocados.'",
+          "Voz passiva analítica: 'O projeto foi aprovado pelo conselho.'",
+          "Voz passiva sintética: 'Aprovaram-se os candidatos.' / 'Vendem-se imóveis.'"
         ],
-        "regra": "REGRA: Subordinação = dependência. Substantiva = função de substantivo; adjetiva = modifica substantivo (tem pronome relativo); adverbial = indica circunstância (tem conjunção adverbial ou locução). Reduzidas: verbo em forma nominal, sem conjunção."
+        "regra": "O infinitivo pessoal é obrigatório quando o sujeito do infinitivo é diferente do sujeito da oração principal, ou quando se deseja dar ênfase ao sujeito. Na conversão ativa → passiva: objeto direto vira sujeito; sujeito vira agente da passiva (precedido de 'por'); o verbo ativo vira 'ser' + particípio no mesmo tempo."
       },
       {
-        "subtitulo": "6. Distinções críticas e casos especiais",
-        "conteudo": "Alguns casos geram confusão em provas: (a) 'Que' pode ser pronome relativo (introduz subordinada adjetiva), conjunção integrante (introduz subordinada substantiva) ou conjunção coordenativa explicativa. A distinção é feita pela função sintática. (b) Orações intercaladas (incidentais): 'disse ele', 'afirmou o porta-voz' — inseridas no meio do discurso direto, são coordenadas, não subordinadas. (c) Período simples com locução verbal: 'O navio tinha chegado ao porto' é período simples (uma locução = uma oração), apesar de ter dois verbos na forma. (d) Frases sem verbo que são orações reduzidas: 'Ao entrar na sala, o oficial foi saudado' — 'ao entrar na sala' é oração reduzida de infinitivo (tem verbo em forma nominal). (e) Aposto e vocativo não formam orações — são termos acessórios da oração. (f) O imperativo, mesmo sem sujeito expresso, é oração (o verbo está presente). Segundo Cunha e Cintra (2017), a análise do período deve partir sempre da identificação dos verbos e locuções verbais para depois estabelecer as relações de dependência ou independência entre as orações.",
+        "subtitulo": "6. Verbos Irregulares e Defectivos de Alta Incidência em Provas",
+        "conteudo": "Alguns verbos irregulares e defectivos são especialmente cobrados em concursos militares. Verbos com irregularidade no presente do indicativo e subjuntivo: 'poder' (posso, podes, pode... / que eu possa), 'querer' (quero, queres... / que eu queira), 'saber' (sei, sabes... / que eu saiba), 'perder' (perco, perdes... / que eu perca), 'caber' (caibo, cabes... / que eu caiba), 'valer' (valho, vales... / que eu valha), 'medir' (meço, medes... / que eu meça). Verbos anômalos: 'ser' e 'ir' têm paradigmas completamente distintos entre os tempos. 'Pôr' e seus derivados ('compor', 'dispor', 'repor') seguem conjugação própria: presente 'ponho, pões, põe, pomos, pondes, põem'; pretérito imperfeito 'punha'; pretérito perfeito 'pus, puseste, pôs, pusemos, pusestes, puseram'. Verbos defectivos de alta incidência: 'falir', 'abolir', 'colorir', 'reaver' (só formas com 'v': 'reavemos', 'reaveram'), 'precaver-se' (conjuga-se como 'vir': 'me precavenho', 'precavens'). Fiorin e Savioli (2007) lembram que o domínio das formas verbais irregulares é indispensável para a reescritura correta de frases e para a identificação de erros gramaticais em questões de múltipla escolha.",
         "exemplos": [
-          "'Que belo pôr do sol!' — frase exclamativa nominal (não é oração)",
-          "'O tenente disse que partiríamos cedo.' — 'que' conjunção integrante (substantiva OD)",
-          "'O recruta que chegou atrasado foi advertido.' — 'que' pronome relativo (adjetiva)",
-          "'Descanse, que a jornada é longa.' — 'que' conjunção explicativa (coordenada)",
-          "'Ao ouvir a ordem, o soldado se posicionou.' — oração reduzida de infinitivo (adverbial temporal)"
+          "'Pôr' no presente: 'O oficial põe o documento sobre a mesa.' (não 'põem' se sujeito singular)",
+          "'Caber': 'Eu caibo nesta definição.' / 'que eu caiba' (subjuntivo)",
+          "'Valer': 'Eu valho mais pela experiência.' / 'que eu valha'",
+          "'Reaver': 'Reavemos os documentos.' (correto) / 'reavejo' (forma inexistente)",
+          "'Precaver-se': 'Precavenho-me de situações adversas.' (presente do indicativo)"
         ],
-        "regra": "REGRA: Identifique o 'que': se substituível por 'o qual/a qual' = relativo (adjetiva); se introduz oração-argumento do verbo = integrante (substantiva); se pode ser substituído por 'pois/porque' = explicativo (coordenada)."
+        "regra": "Para 'pôr' e derivados, memorize: presente 'ponho/pões/põe/pomos/pondes/põem'; imperfeito 'punha'; perfeito 'pus/puseste/pôs'. Para verbos defectivos, nunca use as formas inexistentes — a prova os apresentará como alternativas erradas para testar seu conhecimento."
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Locução verbal conta como uma só oração",
-      "errado": "'O edital havia sido publicado na semana passada' possui dois verbos, logo é período composto com duas orações.",
-      "correto": "A locução verbal 'havia sido publicado' forma uma única oração. O período é simples, com apenas um predicado.",
-      "explicacao": "A banca costuma apresentar períodos com locuções verbais (verbo auxiliar + verbo principal) e perguntar quantas orações existem. Locuções verbais, independentemente do número de verbos que as compõem, formam o núcleo de UMA única oração. Apenas quando há dois núcleos verbais independentes (sem relação de auxiliar + principal) temos duas orações."
+      "titulo": "Pegadinha 1: 'Mais melhor' e 'mais pior' — pleonasmo com comparativos irregulares",
+      "errado": "'O resultado foi mais melhor do que o esperado.' / 'A situação ficou mais pior após a decisão.'",
+      "correto": "'O resultado foi melhor do que o esperado.' / 'A situação ficou pior após a decisão.'",
+      "explicacao": "'Melhor' e 'pior' já são formas de grau comparativo de superioridade (irregulares de 'bom' e 'mau'), portanto combiná-los com 'mais' é pleonasmo vicioso. O mesmo vale para 'maior/menor' (de 'grande/pequeno'), 'superior/inferior' (de 'alto/baixo'). Em provas militares, alternativas com 'mais melhor', 'mais maior', 'menos pior' estão automaticamente erradas."
     },
     {
-      "titulo": "'Pois' conclusivo versus 'pois' explicativo",
-      "errado": "Em 'Você merece, pois trabalhou muito', o 'pois' é conclusivo, pois indica resultado.",
-      "correto": "Nesse contexto, 'pois' é explicativo (anteposto ao argumento que justifica a afirmação anterior). 'Pois' conclusivo ocorre posposto ao sujeito: 'Você trabalhou muito; merece, pois.'",
-      "explicacao": "A posição do 'pois' é determinante para sua classificação. Anteposto à oração que apresenta a explicação/justificativa = explicativo. Posposto ao sujeito da oração que indica conclusão = conclusivo. Nas provas militares, essa distinção é explorada com frequência em questões de classificação de orações coordenadas."
+      "titulo": "Pegadinha 2: Particípio com auxiliares — confundir 'ter/haver' com 'ser/estar'",
+      "errado": "'O relatório foi entregado ao comandante.' / 'O projeto tinha aceito pela comissão.'",
+      "correto": "'O relatório foi entregue ao comandante.' (ser + particípio irregular) / 'O projeto tinha sido aceito pela comissão.' ou 'O projeto foi aceito pela comissão.'",
+      "explicacao": "Verbos abundantes (com dois particípios) seguem a regra: ter/haver + particípio regular ('tinha entregado', 'havia aceitado'); ser/estar + particípio irregular ('foi entregue', 'está aceito'). Usar particípio regular com 'ser' ('foi entregado') ou irregular com 'ter' ('tinha entregue') em contexto de voz passiva é o erro clássico cobrado em provas. Os pares mais importantes: entregar → entregado/entregue; aceitar → aceitado/aceito; matar → matado/morto; pagar → pagado/pago; ganhar → ganhado/ganho."
     },
     {
-      "titulo": "Frase nominal não é o mesmo que oração sem sujeito",
-      "errado": "'Silêncio!' é uma oração sem sujeito porque não há sujeito identificável.",
-      "correto": "'Silêncio!' é uma frase nominal (não possui verbo), portanto não é oração. Oração sem sujeito é aquela que possui verbo, mas esse verbo não admite sujeito (verbos meteorológicos, 'haver' existencial, etc.).",
-      "explicacao": "Confundir frase nominal com oração sem sujeito é erro clássico. Frase nominal: ausência de verbo (ex.: 'Proibido fumar.'). Oração sem sujeito: presença de verbo impessoal (ex.: 'Choveu durante toda a cerimônia.' / 'Há vagas no concurso.'). A distinção é fundamental para questões de análise sintática."
+      "titulo": "Pegadinha 3: Infinitivo pessoal ou impessoal — omitir a flexão obrigatória",
+      "errado": "'É necessário os candidatos apresentar os documentos.' / 'Mandaram os recrutas marchar em fila.'",
+      "correto": "'É necessário os candidatos apresentarem os documentos.' / 'Mandaram os recrutas marcharem em fila.'",
+      "explicacao": "O infinitivo pessoal é obrigatório quando o sujeito do verbo no infinitivo é diferente do da oração principal e está expresso. Em 'É necessário os candidatos apresentarem', o sujeito do infinitivo ('os candidatos') está explícito e é diferente do sujeito da principal (oração impessoal), exigindo flexão. Omitir a desinência '-em' é erro de flexão. A questão testa se o candidato distingue os contextos de infinitivo pessoal e impessoal."
     },
     {
-      "titulo": "Oração principal não equivale sempre à oração mais importante",
-      "errado": "Em 'Espero que tudo corra bem', a oração principal é 'que tudo corra bem', pois é o conteúdo mais importante da frase.",
-      "correto": "A oração principal é 'Espero', pois é dela que depende sintaticamente 'que tudo corra bem' (substantiva objetiva direta, funcionando como objeto direto do verbo 'espero').",
-      "explicacao": "A oração principal é definida critério sintático, não pelo peso semântico. Ela é aquela de que a subordinada depende. Frequentemente, a oração principal é curta (um único verbo) e a subordinada é mais longa e rica em informação — mas isso não a torna 'principal'. Nas provas militares, essa confusão é explorada em questões de identificação e classificação de orações."
+      "titulo": "Pegadinha 4: Plural de palavras em '-ão' — escolher o plural errado",
+      "errado": "'Os cidadões aprovaram a proposta.' / 'Os pães foram distribuídos.' (correto) / 'Os capitãos partiram.' (errado)",
+      "correto": "'Os cidadãos aprovaram a proposta.' / 'Os capitães partiram.'",
+      "explicacao": "'Cidadão' forma plural em '-ãos' (cidadãos), assim como 'mão/mãos', 'grão/grãos', 'bênção/bênçãos'. 'Capitão' forma plural em '-ães' (capitães), como 'cão/cães', 'alemão/alemães'. 'Pão' forma plural em '-ães' (pães). Em provas, as três terminações de '-ão' são testadas simultaneamente, e a escolha do plural errado — 'cidadões', 'capitãos', 'pãos' — é a armadilha. Memorize os grupos pelos exemplos mais comuns."
     },
     {
-      "titulo": "Aposto e vocativo como falsas orações",
-      "errado": "Em 'Marinheiros, preparem-se para a manobra!', 'Marinheiros' é uma oração sem verbo.",
-      "correto": "'Marinheiros' é um vocativo — termo que identifica o interlocutor. Não é oração, pois não possui verbo. O período tem apenas uma oração: 'preparem-se para a manobra'.",
-      "explicacao": "Vocativo e aposto não formam orações. São termos exteriores à estrutura da oração (o vocativo) ou termos acessórios (o aposto). Ao contar orações, ignore vocativos, apostos e interjeições. Apenas verbos (e locuções verbais) marcam orações. Essa pegadinha aparece em questões que pedem a identificação do número de orações num período."
+      "titulo": "Pegadinha 5: Substantivo com gênero que muda o sentido — usar o artigo errado",
+      "errado": "'A capital investido na empresa foi insuficiente.' / 'O moral da história é clara.'",
+      "correto": "'O capital investido na empresa foi insuficiente.' / 'A moral da história é clara.'",
+      "explicacao": "'Capital' no sentido de dinheiro/patrimônio é masculino ('o capital'); no sentido de cidade principal é feminino ('a capital'). 'Moral' no sentido de estado psicológico/ânimo é masculino ('o moral da tropa estava alto'); no sentido de princípio ético/lição é feminino ('a moral da fábula'). Usar o artigo errado muda completamente o sentido da frase. Outros pares: 'o rádio' (aparelho) / 'a rádio' (emissora); 'o coma' (estado clínico) / 'a coma' (cabeleira)."
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "Contar verbos em locuções verbais como orações separadas. O candidato vê 'tinha sido aprovado' (3 palavras com função verbal) e marca 'três orações' ou 'período composto'.",
-      "dica": "Sempre verifique se os verbos formam uma locução (auxiliar + principal). Locução verbal = 1 oração, não importa quantos verbos a compõem. Só haverá período composto se houver dois núcleos verbais independentes (dois predicados distintos, não ligados pela relação auxiliar-principal)."
+      "situacao": "O candidato, ao identificar um verbo defectivo na questão, tenta reconhecer ou validar uma forma verbal inexistente como 'eu abolo', 'eu coloro', 'eu reavejo'. A alternativa a ser descartada apresenta exatamente essa forma, mas o candidato não a reconhece como erro porque o verbo parece seguir a conjugação regular.",
+      "dica": "Memorize os verbos defectivos mais cobrados: 'abolir', 'colorir', 'falir', 'reaver', 'precaver-se'. Nenhum deles possui 1ª pessoa do singular do presente do indicativo (exceto 'precaver-se', que tem forma irregular: 'precavenho'). Se a alternativa apresentar 'eu abolo' ou 'eu coloro', é automaticamente errada."
     },
     {
-      "situacao": "Identificar uma frase interrogativa ou exclamativa sem verbo como 'oração interrogativa' ou 'oração exclamativa', confundindo o tipo de frase com o conceito de oração.",
-      "dica": "Frase é o conceito comunicativo (tem sentido completo); oração é o conceito sintático (tem verbo). Uma frase pode ser interrogativa, exclamativa ou declarativa sem ser oração. Pergunte sempre: 'há verbo?' — sim = oração; não = frase nominal."
+      "situacao": "O candidato encontra na questão uma frase com particípio e testa se está correto — mas não verifica qual auxiliar está sendo usado. Valida 'tinha entregue' ou 'foi entregado' sem perceber que a regra do auxiliar determina qual particípio usar.",
+      "dica": "Antes de avaliar o particípio, identifique o auxiliar. Se for 'ter' ou 'haver': use o particípio regular (entregado, aceitado, pagado). Se for 'ser' ou 'estar': use o particípio irregular (entregue, aceito, pago). Nunca valide o particípio sem antes checar o auxiliar — essa é a ordem de análise obrigatória."
     },
     {
-      "situacao": "Classificar orações reduzidas (com verbo em forma nominal: infinitivo, gerúndio, particípio) como 'sem oração' por não terem conjunção introdutória ou verbo flexionado.",
-      "dica": "Orações reduzidas são orações completas, apesar de não terem conjunção e de o verbo aparecer em forma nominal. Ex.: 'Ao partir o navio, todos choraram' — 'ao partir o navio' é oração reduzida de infinitivo com valor temporal, equivalente a 'quando o navio partiu'. Conte o verbo em forma nominal como marcador de oração."
+      "situacao": "O candidato vê a palavra 'artista', 'estudante' ou 'líder' em uma frase e automaticamente pressupõe que é masculino ou feminino, sem verificar o artigo. Em uma questão de concordância, marca a alternativa com adjetivo no gênero 'esperado' pela terminação da palavra, e não pelo gênero marcado pelo artigo.",
+      "dica": "Substantivos comuns de dois gêneros têm seu gênero determinado exclusivamente pelo artigo (ou outro determinante). 'O artista famoso' / 'A artista famosa' — a terminação '-ista' não define o gênero. Em questões de concordância com esses substantivos, localize sempre o artigo antes de escolher o gênero do adjetivo."
     }
   ],
   "questoes": [
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa que apresenta uma FRASE NOMINAL.",
+      "enunciado": "Assinale a alternativa que apresenta o plural correto da palavra 'cidadão'.",
       "alternativas": {
-        "A": "O tenente revisou os documentos.",
-        "B": "Choveu durante toda a cerimônia.",
-        "C": "Silêncio absoluto na sala de provas!",
-        "D": "Os recrutas chegaram ao quartel.",
-        "E": "Há vagas no concurso da Marinha."
+        "A": "cidadões",
+        "B": "cidadães",
+        "C": "cidadãos",
+        "D": "cidadans",
+        "E": "cidadões"
       },
       "gabarito": "C",
-      "explicacao": "Frase nominal é aquela que não contém verbo. Em 'Silêncio absoluto na sala de provas!', não há nenhum verbo — trata-se de uma frase nominal exclamativa. (A) contém o verbo 'revisou'; (B) contém o verbo 'choveu'; (D) contém o verbo 'chegaram'; (E) contém o verbo 'há'."
+      "explicacao": "'Cidadão' forma plural em '-ãos': cidadãos. Essa é a terminação para paroxítonas em '-ão' e para algumas oxítonas do grupo com plural em '-ãos' (mão/mãos, grão/grãos, bênção/bênçãos, cristão/cristãos). 'Cidadões' (A e E) e 'cidadães' (B) são formas inexistentes. 'Cidadans' (D) é invenção sem base na língua."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Quantas orações há no período 'O oficial de serviço havia registrado todas as ocorrências do turno'?",
+      "enunciado": "Qual é o plural correto de 'animal'?",
       "alternativas": {
-        "A": "Três orações, pois há três formas verbais.",
-        "B": "Duas orações, pois há dois verbos.",
-        "C": "Uma oração, pois 'havia registrado' é locução verbal.",
-        "D": "Nenhuma oração, pois o período é nominal.",
-        "E": "Quatro orações, considerando os termos do período."
+        "A": "animales",
+        "B": "animais",
+        "C": "animales",
+        "D": "animas",
+        "E": "animales"
       },
-      "gabarito": "C",
-      "explicacao": "'Havia registrado' é uma locução verbal formada pelo auxiliar 'havia' + principal 'registrado'. Locução verbal = núcleo de UMA oração. Portanto, o período é simples (uma única oração). (A) e (B) erram ao contar cada verbo da locução como oração separada. (D) está errado pois há verbo. (E) é absurda."
+      "gabarito": "B",
+      "explicacao": "Palavras terminadas em '-al' formam o plural substituindo '-al' por '-ais': animal → animais, canal → canais, sinal → sinais, general → generais. As demais alternativas apresentam formas inexistentes em português."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Em qual das alternativas o período é SIMPLES?",
+      "enunciado": "Identifique a alternativa com a forma correta do superlativo absoluto sintético de 'pobre'.",
       "alternativas": {
-        "A": "O cadete estudou muito e foi aprovado no concurso.",
-        "B": "Espero que a Marinha publique o resultado em breve.",
-        "C": "Quando o navio partiu, a tripulação se despediu.",
-        "D": "A cerimônia de formatura foi realizada com pompa.",
-        "E": "O comandante ordenou que todos se apresentassem."
+        "A": "pobríssimo",
+        "B": "pouquíssimo",
+        "C": "paupérrimo",
+        "D": "pobérrimo",
+        "E": "pobrissimo"
       },
-      "gabarito": "D",
-      "explicacao": "'A cerimônia de formatura foi realizada com pompa' possui apenas uma forma verbal ('foi realizada' — locução verbal), portanto é período simples. (A) tem dois verbos independentes ('estudou' e 'foi aprovado'); (B) tem 'espero' e 'publique'; (C) tem 'partiu' e 'despediu'; (E) tem 'ordenou' e 'apresentassem'."
+      "gabarito": "C",
+      "explicacao": "O superlativo absoluto sintético de 'pobre' é 'paupérrimo', forma latina irregular. 'Pobríssimo' (A) é forma coloquial aceita por alguns, mas a forma culta preferida é 'paupérrimo'. 'Pouquíssimo' (B) é superlativo de 'pouco'. 'Pobérrimo' (D) é forma inventada. 'Pobrissimo' (E) está sem acento (erro ortográfico). Em provas de concurso, 'paupérrimo' é a resposta esperada."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Qual é a diferença fundamental entre FRASE e ORAÇÃO?",
+      "enunciado": "Qual dos verbos abaixo é defectivo, ou seja, não possui todas as formas de conjugação?",
       "alternativas": {
-        "A": "A frase deve ter sujeito e predicado; a oração não precisa.",
-        "B": "A frase é definida pelo sentido completo em situação comunicativa; a oração, pela presença de verbo.",
-        "C": "A oração é sempre mais curta que a frase.",
-        "D": "A frase só existe na forma escrita; a oração, na forma oral.",
-        "E": "Toda frase é uma oração, mas nem toda oração é uma frase."
+        "A": "cantar",
+        "B": "partir",
+        "C": "abolir",
+        "D": "vender",
+        "E": "correr"
       },
-      "gabarito": "B",
-      "explicacao": "Frase é o enunciado com sentido completo em uma situação comunicativa — pode ou não ter verbo. Oração é a unidade sintática organizada em torno de um verbo ou locução verbal. (A) inverte a relação: é a oração que pode ter sujeito, não a frase. (C) é falso — não há relação de tamanho. (D) é falso. (E) está invertido: toda oração pode coincidir com uma frase, mas nem toda frase é oração (ex.: frases nominais)."
+      "gabarito": "C",
+      "explicacao": "'Abolir' é verbo defectivo: não possui 1ª pessoa do singular do presente do indicativo ('eu abolo' não existe) nem as formas do presente do subjuntivo derivadas dela. Os verbos 'cantar', 'partir', 'vender' e 'correr' são regulares e possuem todas as formas de conjugação. Outros defectivos comuns: 'colorir', 'falir', 'reaver', 'precaver-se'."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Identifique o período composto na alternativa abaixo.",
+      "enunciado": "Assinale a alternativa que completa corretamente a frase: 'O documento ___ pelo secretário antes de ser arquivado.'",
       "alternativas": {
-        "A": "O almirante assinou o despacho.",
-        "B": "Será publicado o novo regulamento.",
-        "C": "Tinha sido uma jornada exaustiva.",
-        "D": "O recruta marchou e cantou o hino.",
-        "E": "Estava sendo construído o novo hangar."
+        "A": "foi assinado",
+        "B": "foi assinando",
+        "C": "tinha assinado",
+        "D": "há assinado",
+        "E": "estar assinado"
       },
-      "gabarito": "D",
-      "explicacao": "'O recruta marchou e cantou o hino' tem dois verbos independentes ('marchou' e 'cantou') — período composto por coordenação aditiva. (A) tem um verbo ('assinou'); (B) tem uma locução ('será publicado' — locução = 1 oração = período simples); (C) tem uma locução ('tinha sido'); (E) tem uma locução ('estava sendo construído')."
+      "gabarito": "A",
+      "explicacao": "A frase está na voz passiva analítica: 'foi assinado' (auxiliar 'ser' no pretérito perfeito + particípio de 'assinar'). A alternativa B usa gerúndio em lugar de particípio — erro. A alternativa C usa voz ativa com sujeito inexistente no contexto ('tinha assinado' seria ativo). A alternativa D usa 'há' incorretamente — 'há assinado' não é forma verbal do português padrão. A alternativa E usa o verbo 'estar' de forma inadequada para o contexto da frase."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "A oração 'Chove muito no litoral nordestino em janeiro' é classificada como:",
+      "enunciado": "O substantivo 'artista' pertence a qual categoria quanto ao gênero?",
       "alternativas": {
-        "A": "Oração com sujeito indeterminado.",
-        "B": "Oração com sujeito elíptico.",
-        "C": "Oração sem sujeito.",
-        "D": "Oração com sujeito oculto.",
-        "E": "Oração com sujeito simples."
+        "A": "Epiceno, pois se refere a animais e tem gênero fixo.",
+        "B": "Sobrecomum, pois é sempre feminino independentemente do sexo do referente.",
+        "C": "Biforme, pois possui duas formas: 'artisto' e 'artista'.",
+        "D": "Comum de dois gêneros, pois admite artigo masculino e feminino sem mudar a forma.",
+        "E": "Heterônimo, pois o masculino e o feminino são palavras completamente diferentes."
       },
-      "gabarito": "C",
-      "explicacao": "O verbo 'chover' é verbo de fenômeno meteorológico (verbo impessoal). Não admite sujeito — nem explícito, nem elíptico, nem indeterminado. Portanto, a oração é sem sujeito. (A) sujeito indeterminado ocorre quando o sujeito existe mas não é identificado (ex.: verbos na 3ª pessoa do plural sem agente expresso, verbo com 'se' apassivador). (B) e (D) pressupõem sujeito elíptico/recuperável — não é o caso de verbos meteorológicos. (E) sujeito simples = sujeito com um núcleo nominal."
+      "gabarito": "D",
+      "explicacao": "'Artista' é um substantivo comum de dois gêneros: a forma é única e o gênero é determinado pelo artigo ('o artista' / 'a artista'). Epicenos (A) referem-se a animais com gênero único ('a cobra macho'). Sobrecomuns (B) são substantivos de pessoas com gênero gramatical fixo ('a vítima', 'o cônjuge'). Biformes (C) têm duas formas distintas — 'artisto' não existe. Heterônimos (E) usam palavras diferentes ('boi/vaca')."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Em 'Há muitos candidatos inscritos no concurso da Marinha', o verbo 'há' é:",
+      "enunciado": "Assinale a frase em que o infinitivo pessoal está empregado corretamente.",
       "alternativas": {
-        "A": "Verbo de ligação, com sujeito 'candidatos'.",
-        "B": "Verbo transitivo direto, com sujeito 'candidatos'.",
-        "C": "Verbo impessoal (sentido de existência), e a oração é sem sujeito.",
-        "D": "Verbo intransitivo, com sujeito 'concurso'.",
-        "E": "Auxiliar de locução verbal com 'inscritos'."
+        "A": "É preciso estudar mais.",
+        "B": "É necessário os candidatos apresentarem os documentos.",
+        "C": "Para vencer, devia treinar bastante.",
+        "D": "Convém descansar antes da prova.",
+        "E": "Antes de sair, verificou tudo."
       },
-      "gabarito": "C",
-      "explicacao": "O verbo 'haver' no sentido de existência (= existir) é impessoal: não tem sujeito. 'Muitos candidatos inscritos' é o objeto direto (não o sujeito). Para verificar: tente colocar no plural — 'Há muitos' não vira '*Hão muitos' (forma incorreta); o verbo permanece na 3ª pessoa do singular. (A) incorreto — 'haver' existencial não é de ligação. (B) incorreto quanto à classificação do sujeito. (D) incorreto. (E) incorreto — 'inscritos' é particípio com função adjetiva, não forma parte de locução com 'há'."
+      "gabarito": "B",
+      "explicacao": "Em B, o sujeito do infinitivo ('os candidatos') está explícito e é diferente do sujeito da oração principal (impessoal), tornando obrigatório o infinitivo pessoal flexionado: 'apresentarem'. Nas demais alternativas, o infinitivo impessoal é adequado: em A, D e E não há sujeito explícito diferente; em C, o sujeito do infinitivo ('ele') coincide com o da principal."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Qual alternativa apresenta um período composto por COORDENAÇÃO?",
+      "enunciado": "Qual é o particípio irregular do verbo 'entregar'?",
       "alternativas": {
-        "A": "O comandante esperava que a missão fosse bem-sucedida.",
-        "B": "Embora estivesse cansado, o oficial continuou a patrulha.",
-        "C": "O tenente saiu cedo porque tinha uma reunião importante.",
-        "D": "O recruta estudou bastante, mas não foi aprovado na primeira fase.",
-        "E": "Quero que você leia este manual com atenção."
+        "A": "entregando",
+        "B": "entregado",
+        "C": "entregue",
+        "D": "entregado e entregue (ambos regulares)",
+        "E": "entregavado"
       },
-      "gabarito": "D",
-      "explicacao": "'O recruta estudou bastante, mas não foi aprovado na primeira fase' apresenta duas orações independentes ligadas pela conjunção adversativa 'mas' — coordenação. (A) 'que a missão fosse bem-sucedida' é subordinada substantiva (depende de 'esperava'). (B) 'Embora estivesse cansado' é subordinada adverbial concessiva. (C) 'porque tinha uma reunião' é subordinada adverbial causal. (E) 'que você leia' é subordinada substantiva objetiva direta."
+      "gabarito": "C",
+      "explicacao": "'Entregue' é o particípio irregular de 'entregar'. O particípio regular é 'entregado'. A regra dos verbos abundantes: com auxiliar 'ter' ou 'haver', usa-se o regular ('tinha entregado'); com auxiliar 'ser' ou 'estar', usa-se o irregular ('foi entregue'). 'Entregando' (A) é gerúndio. 'Entregavado' (E) é forma inexistente."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "Em 'Quando o oficial entrar, todos devem se levantar', quantas orações há e qual é a relação entre elas?",
+      "enunciado": "Em 'O moral da tropa estava elevado', a palavra 'moral' é:",
       "alternativas": {
-        "A": "Uma oração; período simples.",
-        "B": "Duas orações; coordenação aditiva.",
-        "C": "Duas orações; subordinação (adverbial temporal + principal).",
-        "D": "Três orações; coordenação adversativa.",
-        "E": "Duas orações; coordenação adversativa."
+        "A": "Feminina, pois indica um conceito abstrato.",
+        "B": "Masculina, pois 'moral' no sentido de ânimo/estado psicológico é masculino.",
+        "C": "Feminina, pois qualquer uso de 'moral' exige artigo feminino.",
+        "D": "Neutra, pois substantivos abstratos não têm gênero definido.",
+        "E": "Masculina apenas quando acompanhada de adjetivos."
       },
-      "gabarito": "C",
-      "explicacao": "Há dois verbos: 'entrar' e 'devem se levantar' (locução). 'Quando o oficial entrar' é oração subordinada adverbial temporal (introduzida por 'quando'). 'Todos devem se levantar' é a oração principal. A relação é de subordinação. (A) errado — há dois núcleos verbais. (B) errado — não é coordenação, há dependência sintática. (D) errado — não há três verbos independentes. (E) errado — não é adversativa."
+      "gabarito": "B",
+      "explicacao": "'Moral' no sentido de ânimo, estado psicológico, disposição da tropa é masculino: 'o moral'. No sentido de princípio ético, lição ou conjunto de valores é feminino: 'a moral da história'. O artigo 'o' na frase ('O moral') confirma o uso masculino. Não existe gênero neutro em português (D), e o gênero de 'moral' não depende do adjetivo (E)."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que o trecho destacado é uma ORAÇÃO SUBORDINADA ADJETIVA.",
+      "enunciado": "Qual é a forma correta da 1ª pessoa do singular do presente do indicativo do verbo 'valer'?",
       "alternativas": {
-        "A": "'Espero [que o resultado seja positivo].'",
-        "B": "'O militar [que se destacou na missão] foi promovido.'",
-        "C": "'Ele saiu [porque estava doente].'",
-        "D": "'É necessário [que todos se apresentem].'",
-        "E": "'[Quando soube da notícia], o oficial ficou emocionado.'"
+        "A": "eu valo",
+        "B": "eu vale",
+        "C": "eu valho",
+        "D": "eu valejo",
+        "E": "eu val"
       },
-      "gabarito": "B",
-      "explicacao": "Em (B), 'que se destacou na missão' é introduzida pelo pronome relativo 'que' e modifica o substantivo 'militar' (antecedente) — função adjetiva restritiva. (A) 'que o resultado seja positivo' é substantiva objetiva direta (complementa 'espero'). (C) 'porque estava doente' é adverbial causal. (D) 'que todos se apresentem' é substantiva subjetiva. (E) 'Quando soube da notícia' é adverbial temporal."
+      "gabarito": "C",
+      "explicacao": "'Valer' é verbo irregular na 1ª pessoa do singular do presente do indicativo: 'eu valho'. Do mesmo modo, o presente do subjuntivo é 'que eu valha'. As formas 'eu valo' (A), 'eu vale' (B), 'eu valejo' (D) e 'eu val' (E) são todas inexistentes no paradigma de 'valer'. Outros verbos com irregularidade similar: 'caber' (caibo), 'perder' (perco), 'medir' (meço)."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Analise o período: 'O sinal tocou, os alunos saíram, os professores recolheram os materiais.' Qual é a classificação correta das orações?",
+      "enunciado": "Assinale a alternativa em que o emprego do particípio está correto de acordo com a norma culta.",
       "alternativas": {
-        "A": "Período composto por subordinação, com três orações subordinadas.",
-        "B": "Período composto por coordenação assindética, com três orações coordenadas.",
-        "C": "Período simples com três predicados nominais.",
-        "D": "Período composto misto, com coordenação e subordinação.",
-        "E": "Período composto por coordenação sindética aditiva."
+        "A": "O projeto tinha sido entregue pela equipe ontem.",
+        "B": "A proposta foi entregada ao diretor na reunião.",
+        "C": "Os documentos tinham entregue antes do prazo.",
+        "D": "O resultado havia aceito pela banca examinadora.",
+        "E": "O relatório foi pagado integralmente."
       },
-      "gabarito": "B",
-      "explicacao": "As três orações são independentes sintaticamente (cada uma tem sujeito e predicado próprios) e estão ligadas apenas pela justaposição (vírgulas), sem conjunção — coordenação assindética. (A) errado — não há subordinação. (C) errado — há três verbos, não um. (D) errado — não há subordinação. (E) errado — seria sindética se houvesse conjunção coordenativa (como 'e')."
+      "gabarito": "A",
+      "explicacao": "Na alternativa A, o auxiliar é 'ter' + 'sido' + particípio irregular 'entregue' — formação de voz passiva analítica com tempo composto: correto. Na alternativa B, usa-se 'foi' (auxiliar 'ser') com particípio regular 'entregada' — erro: com 'ser', deveria ser 'entregue' (irregular). Na alternativa C, 'tinham entregue' usa auxiliar 'ter' com particípio irregular — erro: com 'ter', deveria ser 'entregado'. Na alternativa D, 'havia aceito' seria correto, mas falta o sujeito que recebe a ação e a voz passiva está incompleta. Na alternativa E, 'foi pagado' usa auxiliar 'ser' com particípio regular — erro: deveria ser 'foi pago'."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Classifique a oração subordinada em: 'O comandante determinou que os recrutas fizessem exercícios diariamente.'",
+      "enunciado": "Leia: 'Embora ___ muito, não conseguiu a aprovação.' Assinale a alternativa que preenche corretamente a lacuna com a forma verbal adequada ao modo subjuntivo.",
       "alternativas": {
-        "A": "Subordinada adverbial final.",
-        "B": "Subordinada adjetiva restritiva.",
-        "C": "Subordinada substantiva objetiva direta.",
-        "D": "Subordinada adverbial condicional.",
-        "E": "Subordinada substantiva subjetiva."
+        "A": "estudou",
+        "B": "estudava",
+        "C": "estude",
+        "D": "estudasse",
+        "E": "estudaria"
       },
-      "gabarito": "C",
-      "explicacao": "'Que os recrutas fizessem exercícios diariamente' é o objeto direto do verbo 'determinou' — responde à pergunta 'O comandante determinou o quê?'. Por ser uma oração exercendo função de objeto direto (função típica de substantivo), classifica-se como substantiva objetiva direta. (A) final indicaria finalidade (para que). (B) adjetiva modificaria um substantivo e seria introduzida por pronome relativo. (D) condicional indicaria condição (se). (E) subjetiva seria o sujeito do verbo."
+      "gabarito": "D",
+      "explicacao": "A conjunção 'embora' é concessiva e exige o verbo no modo subjuntivo. Como o verbo principal está no pretérito perfeito ('não conseguiu'), o subjuntivo deve estar no pretérito imperfeito: 'estudasse' (correlação temporal: pretérito perfeito do indicativo / pretérito imperfeito do subjuntivo). 'Estudou' (A) é indicativo. 'Estudava' (B) é imperfeito do indicativo. 'Estude' (C) é presente do subjuntivo — inadequado pela correlação temporal. 'Estudaria' (E) é futuro do pretérito do indicativo."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "No período 'Embora tenha chovido muito, a cerimônia militar foi realizada normalmente', identifique a oração subordinada e sua classificação.",
+      "enunciado": "Qual alternativa apresenta o plural correto de 'réptil'?",
       "alternativas": {
-        "A": "'a cerimônia militar foi realizada normalmente' — subordinada adverbial concessiva.",
-        "B": "'Embora tenha chovido muito' — subordinada adverbial concessiva.",
-        "C": "'Embora tenha chovido muito' — subordinada adverbial causal.",
-        "D": "'a cerimônia militar foi realizada normalmente' — oração principal e única.",
-        "E": "'Embora tenha chovido muito' — subordinada adverbial condicional."
+        "A": "réptils",
+        "B": "reptis",
+        "C": "répteis",
+        "D": "reptiles",
+        "E": "reptílis"
       },
-      "gabarito": "B",
-      "explicacao": "'Embora tenha chovido muito' é introduzida pela conjunção concessiva 'embora' e estabelece uma relação de concessão (algo ocorre apesar de um obstáculo). É oração subordinada adverbial concessiva. 'A cerimônia militar foi realizada normalmente' é a oração principal (aquela de que a subordinada depende). (A) inverte as posições. (C) erra a classificação: 'embora' é concessiva, não causal (causal = porque, pois, visto que…). (D) está incompleto. (E) erra a classificação: condicional seria introduzida por 'se', 'caso', 'desde que'."
+      "gabarito": "C",
+      "explicacao": "'Réptil' é paroxítona terminada em '-il' (não oxítona), portanto o plural é formado pela troca de '-il' por '-eis': répteis. Para '-il' oxítono, o plural seria em '-is' ('fuzil/fuzis', 'barril/barris'). A alternativa B perde o acento e a sílaba. As demais são formas inexistentes no português padrão."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Analise: 'O recruta que não cumpriu as normas foi advertido.' A oração 'que não cumpriu as normas' é:",
+      "enunciado": "Assinale a frase em que 'o/a' indica que a palavra é sobrecomum.",
       "alternativas": {
-        "A": "Subordinada substantiva subjetiva, pois é o sujeito da oração.",
-        "B": "Subordinada adverbial causal, pois indica a razão da advertência.",
-        "C": "Subordinada adjetiva restritiva, pois restringe o sentido de 'recruta'.",
-        "D": "Subordinada adjetiva explicativa, pois apenas acrescenta informação.",
-        "E": "Oração coordenada adversativa, indicando contraste."
+        "A": "'O/A estudante leu o livro.' ('estudante' é comum de dois gêneros)",
+        "B": "'A cobra estava imóvel.' ('cobra' é epiceno feminino)",
+        "C": "'A testemunha prestou depoimento.' ('testemunha' é sobrecomum — sempre feminino, independentemente do sexo)",
+        "D": "'O/A cônjuge assinou o contrato.' ('cônjuge' é sobrecomum — sempre masculino)",
+        "E": "'O gavião voou alto.' ('gavião' é epiceno masculino)"
       },
       "gabarito": "C",
-      "explicacao": "'Que não cumpriu as normas' é introduzida pelo pronome relativo 'que' e modifica o substantivo 'recruta' (antecedente), restringindo o conjunto de recrutas àqueles que não cumpriram as normas. É adjetiva restritiva (sem vírgula). Seria adjetiva explicativa (D) se estivesse entre vírgulas, acrescentando informação acessória ('O recruta, que não cumpriu as normas, foi advertido' — implica que havia apenas um recruta). (A), (B) e (E) classificam incorretamente a função e a natureza da oração."
+      "explicacao": "'Testemunha' é sobrecomum: é sempre gramaticalmente feminino ('a testemunha'), independentemente de o referente ser homem ou mulher. Não há variação de artigo. 'Estudante' (A) é comum de dois gêneros (admite 'o' e 'a'). 'Cobra' (B) e 'gavião' (E) são epicenos (gênero único referente a animais). 'Cônjuge' (D) é sobrecomum, mas o gênero gramatical é masculino ('o cônjuge') — a alternativa D erra ao apresentar a forma como variável (o/a)."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Qual é a diferença entre as orações em: (I) 'O comandante, que conhecia bem a região, liderou a missão.' e (II) 'O comandante que conhecia bem a região liderou a missão.'?",
+      "enunciado": "Em qual alternativa o verbo está corretamente conjugado na 2ª pessoa do singular do presente do indicativo do verbo 'pôr'?",
       "alternativas": {
-        "A": "Em (I), a oração é adjetiva restritiva; em (II), é adjetiva explicativa.",
-        "B": "Em (I), a oração é adjetiva explicativa (vírgulas indicam informação acessória); em (II), é adjetiva restritiva (restringe quais comandantes).",
-        "C": "Ambas são adjetivas restritivas, pois possuem pronome relativo 'que'.",
-        "D": "Em (I), a oração é substantiva apositiva; em (II), é adjetiva.",
-        "E": "Não há diferença de sentido entre os dois períodos."
+        "A": "tu pões",
+        "B": "tu põe",
+        "C": "tu pões-te",
+        "D": "tu pores",
+        "E": "tu pos"
       },
-      "gabarito": "B",
-      "explicacao": "A vírgula é crucial: em (I), as vírgulas indicam que a informação 'que conhecia bem a região' é acessória, explicativa — pressupõe que havia um único comandante ou que todos os comandantes conheciam a região (adjetiva explicativa). Em (II), sem vírgulas, a oração restringe o conjunto de comandantes àqueles que conhecem a região — adjetiva restritiva, implicando que havia mais de um comandante. (A) inverte a classificação. (C) ignora a diferença fundamental das vírgulas. (D) incorreto. (E) há diferença de sentido sim."
+      "gabarito": "A",
+      "explicacao": "O verbo 'pôr' na 2ª pessoa do singular do presente do indicativo é 'tu pões'. O paradigma completo: eu ponho, tu pões, ele põe, nós pomos, vós pondes, eles põem. 'Tu põe' (B) seria a 3ª pessoa. 'Tu pões-te' (C) adiciona o pronome reflexivo sem necessidade. 'Tu pores' (D) é futuro do subjuntivo. 'Tu pos' (E) é forma inexistente."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "No período 'Estude muito para que você passe no concurso da Marinha', a oração 'para que você passe no concurso da Marinha' é:",
+      "enunciado": "A frase 'O candidato foi aprovado' está na voz passiva analítica. Qual é a sua equivalente na voz ativa?",
       "alternativas": {
-        "A": "Subordinada substantiva completiva nominal.",
-        "B": "Subordinada adverbial final.",
-        "C": "Subordinada adverbial causal.",
-        "D": "Subordinada substantiva objetiva indireta.",
-        "E": "Coordenada sindética conclusiva."
+        "A": "Aprovaram o candidato.",
+        "B": "O candidato aprovou.",
+        "C": "Aprovava-se o candidato.",
+        "D": "O candidato aprova.",
+        "E": "Aprovou-se o candidato."
       },
-      "gabarito": "B",
-      "explicacao": "'Para que você passe no concurso' indica a finalidade/objetivo da ação de estudar. É subordinada adverbial final, introduzida pela locução conjuntiva 'para que'. (A) completiva nominal complementa um nome. (C) causal indicaria causa/motivo (porque, pois). (D) objetiva indireta complementaria um verbo transitivo indireto. (E) conclusiva indicaria conclusão (logo, portanto)."
+      "gabarito": "A",
+      "explicacao": "Na conversão de voz passiva para ativa: o sujeito da passiva ('o candidato') torna-se o objeto direto; o agente da passiva (ausente na frase, logo indeterminado) torna-se o sujeito indeterminado. Como o agente não está expresso, o sujeito da voz ativa fica indeterminado, expresso pela 3ª pessoa do plural: 'Aprovaram o candidato'. A alternativa B torna 'o candidato' sujeito ativo, mas 'o candidato aprovou' muda o sentido (quem aprovou?). A alternativa C é voz passiva sintética. A alternativa E é voz passiva sintética no pretérito perfeito. A alternativa D usa o presente sem justificativa."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Identifique a natureza e a classificação da oração em destaque: 'Ao terminar a prova, o candidato conferiu as respostas.'",
+      "enunciado": "Qual alternativa apresenta emprego INCORRETO do grau dos adjetivos?",
       "alternativas": {
-        "A": "Oração principal, pois vem em primeiro lugar.",
-        "B": "Oração coordenada assindética, pois não há conjunção.",
-        "C": "Oração subordinada adverbial temporal reduzida de infinitivo.",
-        "D": "Oração subordinada substantiva subjetiva reduzida de infinitivo.",
-        "E": "Frase nominal, pois não há verbo flexionado."
+        "A": "Esta proposta é melhor que a anterior.",
+        "B": "O resultado foi ótimo para todos.",
+        "C": "A situação ficou mais pior após a decisão.",
+        "D": "O candidato obteve a menor nota da turma.",
+        "E": "A aprovação foi a melhor notícia do mês."
       },
       "gabarito": "C",
-      "explicacao": "'Ao terminar a prova' é uma oração reduzida (verbo em infinitivo, sem conjunção flexionada) com valor temporal (equivale a 'quando terminou a prova'). A preposição 'ao' + infinitivo é uma das formas típicas de reduzida temporal. Trata-se de subordinada adverbial temporal reduzida de infinitivo. (A) errado — é subordinada, não principal. (B) errado — a ausência de conjunção em oração subordinada a torna reduzida, não coordenada assindética. (D) errado — não é subjetiva, é adverbial. (E) errado — há verbo ('terminar'), apenas não está flexionado."
+      "explicacao": "'Mais pior' é pleonasmo vicioso: 'pior' já é o comparativo de superioridade de 'mau/ruim', portanto é redundante acrescentar 'mais'. O correto é simplesmente 'pior'. As demais alternativas estão corretas: (A) 'melhor' como comparativo de 'bom'; (B) 'ótimo' como superlativo de 'bom'; (D) 'menor' como comparativo de 'pequeno'; (E) 'melhor' como superlativo relativo de 'bom'."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Em 'O oficial correu, pulou o obstáculo e chegou primeiro', as orações coordenadas são:",
+      "enunciado": "Assinale a alternativa em que o verbo defectivo está empregado CORRETAMENTE.",
       "alternativas": {
-        "A": "A primeira assindética, a segunda assindética e a terceira sindética aditiva.",
-        "B": "Todas sindéticas aditivas.",
-        "C": "A primeira sindética, as demais assindéticas.",
-        "D": "Todas assindéticas.",
-        "E": "A primeira assindética, a segunda sindética, a terceira subordinada."
+        "A": "Eu abolo a lei injusta.",
+        "B": "Nós abolimos a penalidade prevista.",
+        "C": "Tu coloris o desenho com esmero.",
+        "D": "Eu coloro o mapa conforme a legenda.",
+        "E": "Ele reavejo os documentos perdidos."
       },
-      "gabarito": "A",
-      "explicacao": "'O oficial correu' e 'pulou o obstáculo' são justapostas por vírgula, sem conjunção — coordenadas assindéticas. 'e chegou primeiro' é ligada pela conjunção aditiva 'e' — coordenada sindética aditiva. Portanto: 1ª assindética (justaposição), 2ª assindética (justaposição), 3ª sindética aditiva. (B) errado — as duas primeiras são assindéticas. (C) errado — a primeira é assindética. (D) errado — a última tem conjunção 'e'. (E) errado — a terceira é coordenada, não subordinada."
+      "gabarito": "B",
+      "explicacao": "'Abolimos' é a 1ª pessoa do plural do presente do indicativo de 'abolir' — forma existente e correta (o verbo possui formas com 'i' no radical). As demais alternativas apresentam formas inexistentes: 'eu abolo' (A) — 1ª pessoa do singular inexistente; 'tu coloris' (C) — forma incorreta (o verbo não possui a 2ª pessoa do singular do indicativo com essa terminação de forma padrão); 'eu coloro' (D) — 1ª pessoa do singular de 'colorir' inexistente; 'eu reavejo' (E) — 'reaver' só possui formas com 'v' no radical ('reavemos', 'reaveram')."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Qual é a função sintática exercida pela oração 'que o resultado fosse publicado rapidamente' em: 'O comandante queria que o resultado fosse publicado rapidamente'?",
+      "enunciado": "Leia: 'O comandante pediu para ___ ao relatório antes de distribuí-lo.' Qual forma verbal preenche corretamente a lacuna, considerando que o sujeito do infinitivo é diferente do da oração principal?",
       "alternativas": {
-        "A": "Sujeito do verbo 'queria'.",
-        "B": "Objeto direto do verbo 'queria'.",
-        "C": "Objeto indireto do verbo 'queria'.",
-        "D": "Predicativo do sujeito.",
-        "E": "Adjunto adverbial de finalidade."
+        "A": "ele assinar",
+        "B": "ele assine",
+        "C": "ele assinasse",
+        "D": "ele assinou",
+        "E": "ele assinando"
       },
-      "gabarito": "B",
-      "explicacao": "'Querer' é verbo transitivo direto. A oração 'que o resultado fosse publicado rapidamente' responde à pergunta 'O comandante queria o quê?' — é o objeto direto do verbo 'queria'. Por exercer função de substantivo (objeto direto), classifica-se como oração subordinada substantiva objetiva direta. (A) sujeito seria 'o quê queria?' sem agente definido. (C) objeto indireto exigiria preposição antes da conjunção. (D) predicativo complementaria verbo de ligação. (E) adjunto adverbial indicaria circunstância, não complemento."
+      "gabarito": "A",
+      "explicacao": "Com a preposição 'para' seguida de infinitivo, e havendo sujeito explícito diferente do da oração principal, usa-se o infinitivo pessoal: 'para ele assinar'. O sujeito do infinitivo ('ele') é diferente do sujeito da oração principal ('o comandante'), exigindo o infinitivo flexionado. 'Ele assine' (B) e 'ele assinasse' (C) usam o subjuntivo, inadequado após 'para' com infinitivo. 'Ele assinou' (D) é indicativo, incompatível com a estrutura. 'Ele assinando' (E) é gerúndio, inadequado após 'para'."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "No período composto 'Se você estudar, será aprovado', a oração 'Se você estudar' é classificada como:",
+      "enunciado": "Qual dos pares abaixo apresenta substantivos heterônimos?",
       "alternativas": {
-        "A": "Subordinada adverbial causal.",
-        "B": "Subordinada adverbial temporal.",
-        "C": "Subordinada adverbial condicional.",
-        "D": "Subordinada adverbial concessiva.",
-        "E": "Coordenada sindética explicativa."
+        "A": "leão / leoa",
+        "B": "ator / atriz",
+        "C": "boi / vaca",
+        "D": "diretor / diretora",
+        "E": "professor / professora"
       },
       "gabarito": "C",
-      "explicacao": "'Se você estudar' é introduzida pela conjunção condicional 'se', estabelecendo uma condição para que a oração principal se realize. É subordinada adverbial condicional. (A) causal seria introduzida por 'porque', 'pois', 'já que'. (B) temporal seria introduzida por 'quando', 'enquanto', 'antes que'. (D) concessiva seria introduzida por 'embora', 'ainda que', 'mesmo que'. (E) seria coordenada se fosse independente sintaticamente, o que não é o caso."
+      "explicacao": "Heterônimos são pares em que masculino e feminino são expressos por palavras de radicais completamente diferentes: 'boi/vaca', 'pai/mãe', 'genro/nora', 'frei/freira', 'cavaleiro/dama'. As alternativas A ('leão/leoa') e B ('ator/atriz') são biformes com variação de sufixo a partir da mesma raiz. As alternativas D ('diretor/diretora') e E ('professor/professora') são biformes com acréscimo de '-a'."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Analise o período: 'Diz-se que os melhores candidatos são aqueles que estudam com método.' Qual é a classificação correta das orações subordinadas?",
+      "enunciado": "Leia: 'Os documentos ___ à chefia antes da reunião, mas o prazo ___ sem que todos ___ devidamente protocolados.' Assinale a alternativa que preenche corretamente as lacunas, na ordem, com as formas verbais adequadas.",
       "alternativas": {
-        "A": "'que os melhores candidatos são aqueles' = adjetiva; 'que estudam com método' = adjetiva.",
-        "B": "'que os melhores candidatos são aqueles' = substantiva subjetiva; 'que estudam com método' = adjetiva restritiva.",
-        "C": "'que os melhores candidatos são aqueles' = substantiva objetiva direta; 'que estudam com método' = adjetiva restritiva.",
-        "D": "'que os melhores candidatos são aqueles' = adverbial; 'que estudam com método' = substantiva.",
-        "E": "Ambas as orações são coordenadas assindéticas."
+        "A": "foram entregues / expirou / fossem",
+        "B": "foram entregados / expirou / foram",
+        "C": "tinham entregue / expirou / eram",
+        "D": "foram entregues / expirava / sejam",
+        "E": "haviam entregados / expirou / fossem"
       },
-      "gabarito": "B",
-      "explicacao": "'Diz-se' tem sujeito indeterminado. A oração 'que os melhores candidatos são aqueles' é o sujeito do verbo 'diz-se' (= substantiva subjetiva). O pronome demonstrativo 'aqueles' é o antecedente de 'que estudam com método', que funciona como adjetiva restritiva (especifica quais candidatos). (A) equivoca a classificação da primeira. (C) erro: com 'diz-se', a oração que complementa é subjetiva (sujeito), não objetiva direta. (D) e (E) incorretos."
+      "gabarito": "A",
+      "explicacao": "Primeira lacuna: 'foram entregues' — auxiliar 'ser' + particípio irregular 'entregues', correto para voz passiva. Segunda lacuna: 'expirou' — pretérito perfeito, coerente com o contexto narrativo. Terceira lacuna: 'fossem... devidamente protocolados' — após 'sem que', usa-se o modo subjuntivo (pretérito imperfeito: 'fossem'), pois 'sem que' é conjunção que exige subjuntivo. A alternativa B erra em 'entregados' com auxiliar 'ser'. A alternativa C erra em 'tinham entregue' (com 'ter', deveria ser 'entregado') e em 'eram' (o subjuntivo é exigido por 'sem que'). A alternativa D usa 'sejam' (presente do subjuntivo, inadequado pela correlação temporal com 'expirava'). A alternativa E usa particípio regular com 'haver' erradamente: 'entregados' deveria ser 'entregue'."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Classifique a oração subordinada em 'É fundamental que os candidatos ao concurso conheçam a gramática normativa.'",
+      "enunciado": "Sobre o verbo 'pôr' e seus derivados, analise as afirmações:\nI. 'Compor', 'dispor' e 'repor' conjugam-se como 'pôr' em todos os tempos.\nII. O pretérito imperfeito do indicativo de 'pôr' é 'punha, punhas, punha, púnhamos, púnheis, punham'.\nIII. O pretérito perfeito de 'pôr' na 3ª pessoa do singular é 'pôs' (com acento circunflexo para diferenciar de 'pos' — forma inexistente).\nEstão corretas:",
       "alternativas": {
-        "A": "Subordinada substantiva objetiva direta.",
-        "B": "Subordinada substantiva completiva nominal.",
-        "C": "Subordinada substantiva subjetiva.",
-        "D": "Subordinada adjetiva restritiva.",
-        "E": "Subordinada adverbial final."
+        "A": "Apenas I.",
+        "B": "Apenas II.",
+        "C": "Apenas I e III.",
+        "D": "Apenas II e III.",
+        "E": "I, II e III."
       },
-      "gabarito": "C",
-      "explicacao": "O verbo 'é' é de ligação; 'fundamental' é o predicativo do sujeito. A oração 'que os candidatos ao concurso conheçam a gramática normativa' é o SUJEITO de toda a oração ('o quê é fundamental?'). Portanto, é subordinada substantiva subjetiva. (A) objetiva direta complementaria verbo transitivo direto. (B) completiva nominal complementaria um nome. (D) adjetiva modificaria um substantivo antecedente. (E) adverbial final indicaria objetivo."
+      "gabarito": "E",
+      "explicacao": "Todas as afirmações estão corretas. I: 'compor', 'dispor', 'repor', 'impor', 'propor', 'supor' são derivados de 'pôr' e seguem seu paradigma de conjugação. II: o pretérito imperfeito de 'pôr' é 'punha' (não 'pôia' nem 'põia'), forma irregular derivada do latim. III: 'pôs' (3ª pessoa do singular do pretérito perfeito) leva acento circunflexo para diferenciar da preposição 'por' sem acento — distinção ortográfica relevante. A acentuação diferencial do tipo 'pôs/por' foi preservada pelo Acordo Ortográfico de 1990 (em vigor desde 2016)."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Em 'O militar necessitava de que lhe dessem apoio logístico', a oração subordinada é classificada como:",
+      "enunciado": "Leia o trecho: 'Os mísseis ___ lançados com precisão. O alvo ___ atingido com a potência necessária. Os resultados ___ divulgados no relatório final.' Assinale a alternativa que completa corretamente as lacunas com particípios na voz passiva analítica.",
       "alternativas": {
-        "A": "Subordinada substantiva subjetiva.",
-        "B": "Subordinada substantiva objetiva direta.",
-        "C": "Subordinada substantiva objetiva indireta.",
-        "D": "Subordinada adverbial causal.",
-        "E": "Subordinada adjetiva restritiva."
+        "A": "foram lançados / foi atingido / foram divulgados",
+        "B": "foram lançados / foi atingido / haviam divulgados",
+        "C": "tinham lançados / foi atingido / foram divulgados",
+        "D": "foram lançados / foi atingindo / foram divulgados",
+        "E": "foram lançado / foi atingido / foram divulgados"
       },
-      "gabarito": "C",
-      "explicacao": "'Necessitar' é verbo transitivo indireto (rege preposição 'de'). A oração 'que lhe dessem apoio logístico' é o complemento indireto do verbo 'necessitava' (necessitava de quê?). Por exercer função de objeto indireto, é oração subordinada substantiva objetiva indireta. A preposição 'de' antes da conjunção 'que' é a marca típica dessa classificação. (A) subjetiva seria sujeito. (B) objetiva direta não teria preposição. (D) causal indicaria causa. (E) adjetiva modificaria substantivo."
+      "gabarito": "A",
+      "explicacao": "Em A, todos os particípios estão corretos: 'foram lançados' (auxiliar 'ser' + particípio regular de 'lançar', concordando com 'os mísseis' — masculino plural); 'foi atingido' (auxiliar 'ser' + particípio de 'atingir', concordando com 'o alvo' — masculino singular); 'foram divulgados' (auxiliar 'ser' + particípio de 'divulgar', concordando com 'os resultados' — masculino plural). Em B, 'haviam divulgados' usa 'haver' + particípio que não concorda (erro duplo). Em C, 'tinham lançados' usa auxiliar 'ter' com particípio irregular concordado — erro. Em D, 'foi atingindo' usa gerúndio em lugar de particípio. Em E, 'foram lançado' — particípio sem concordância com 'os mísseis' (deveria ser 'lançados')."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Analise o período: 'Tanto estudou o candidato que foi aprovado em primeiro lugar.' Identifique o tipo de subordinação adverbial.",
+      "enunciado": "Analise o período: 'Apesar de ___ muito esforço, o resultado ___ satisfatório, pois os candidatos ___ as expectativas da banca.' Assinale a alternativa que completa corretamente as lacunas.",
       "alternativas": {
-        "A": "Adverbial comparativa.",
-        "B": "Adverbial concessiva.",
-        "C": "Adverbial proporcional.",
-        "D": "Adverbial consecutiva.",
-        "E": "Adverbial conformativa."
+        "A": "ter exigido / foi / superaram",
+        "B": "exigir / foi / superava",
+        "C": "ter exigido / era / superaram",
+        "D": "exigir / seria / superaram",
+        "E": "ter exigido / foi / superassem"
       },
-      "gabarito": "D",
-      "explicacao": "A estrutura 'tanto… que' é a correlação típica das orações adverbiais consecutivas, que expressam consequência. 'Foi aprovado em primeiro lugar' é a consequência de ter estudado tanto. (A) comparativa usa estruturas como 'mais… do que', 'tão… quanto'. (B) concessiva usa 'embora', 'ainda que'. (C) proporcional usa 'à medida que', 'quanto mais… mais'. (E) conformativa usa 'como', 'conforme', 'segundo'."
+      "gabarito": "A",
+      "explicacao": "'Apesar de ter exigido muito esforço' — a locução 'apesar de' é prepositiva e exige o infinitivo; como a ação de exigir é anterior à da oração principal, usa-se o infinitivo composto 'ter exigido'. 'o resultado foi satisfatório' — pretérito perfeito, coerente com o contexto narrativo de evento concluído. 'os candidatos superaram as expectativas' — pretérito perfeito, concordando com o tempo principal e com a ideia de ação concluída. A alternativa B usa 'exigir' (infinitivo simples, possível, mas menos preciso temporalmente) e 'superava' (imperfeito, inadequado). A alternativa C usa 'era' (imperfeito) onde se espera 'foi' (perfeito). A alternativa D usa 'seria' (condicional, sem contexto). A alternativa E usa 'superassem' (subjuntivo, sem necessidade)."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "No período 'Conforme determinado no edital, os candidatos devem apresentar documentação completa', a oração 'Conforme determinado no edital' é:",
+      "enunciado": "Sobre a flexão nominal de gênero e o sentido das palavras, assinale a alternativa INCORRETA.",
       "alternativas": {
-        "A": "Oração subordinada adverbial conformativa reduzida de particípio.",
-        "B": "Oração subordinada adverbial causal reduzida de gerúndio.",
-        "C": "Oração principal, pois antecede a outra.",
-        "D": "Oração coordenada assindética.",
-        "E": "Oração subordinada substantiva subjetiva."
+        "A": "'O capital estrangeiro foi atraído pela política de incentivos.' (capital = dinheiro/patrimônio — masculino)",
+        "B": "'A capital do estado sediará o evento.' (capital = cidade principal — feminino)",
+        "C": "'O rádio transmitia as notícias para toda a frota.' (rádio = aparelho — masculino)",
+        "D": "'A rádio divulgou o comunicado oficial.' (rádio = emissora — feminino)",
+        "E": "'O coma da paciente indicava gravidade.' (coma = estado clínico — feminino)"
       },
-      "gabarito": "A",
-      "explicacao": "'Conforme determinado no edital' é introduzida pela conjunção conformativa 'conforme' e possui verbo em forma nominal de particípio ('determinado') — é portanto reduzida de particípio com valor conformativo (indica conformidade/acordo). (B) causal teria valor de causa, não conformidade. (C) a posição não determina qual é a principal — é a dependência sintática que define. (D) não é coordenada, pois depende sintaticamente da principal. (E) não exerce função de sujeito."
+      "gabarito": "E",
+      "explicacao": "'Coma' no sentido de estado clínico de inconsciência é masculino: 'o coma'. O emprego correto seria 'O coma do paciente indicava gravidade'. 'A coma' é o plural de 'coma' no sentido de cabeleira/cabelos (poético). A alternativa E erra ao usar o artigo feminino 'a' para o sentido clínico. As alternativas A, B, C e D estão corretas quanto ao gênero conforme o sentido da palavra."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Analise o período: 'Tendo sido aprovado no concurso, o cadete recebeu sua carteira de identidade militar.' A oração sublinhada ('Tendo sido aprovado no concurso') é:",
+      "enunciado": "Leia: 'Caso ___ disponíveis, os recursos ___ imediatamente alocados; caso contrário, o projeto ___ postergado.' Assinale a alternativa que preenche corretamente as lacunas.",
       "alternativas": {
-        "A": "Oração principal, com verbo no gerúndio.",
-        "B": "Oração coordenada assindética.",
-        "C": "Oração subordinada adverbial causal reduzida de gerúndio.",
-        "D": "Oração subordinada adverbial temporal reduzida de infinitivo.",
-        "E": "Frase nominal sem verbo."
+        "A": "estejam / serão / será",
+        "B": "estiverem / serão / será",
+        "C": "estão / serão / será",
+        "D": "estejam / seriam / seria",
+        "E": "estiverem / sejam / seja"
       },
-      "gabarito": "C",
-      "explicacao": "'Tendo sido aprovado no concurso' é oração reduzida de gerúndio. A locução 'tendo sido' (auxiliar 'ter' em gerúndio + particípio 'sido aprovado') indica uma circunstância de causa: o cadete recebeu a carteira porque foi aprovado. Trata-se de subordinada adverbial causal reduzida de gerúndio. (A) não é principal — a principal é 'o cadete recebeu sua carteira'. (B) não é coordenada — há dependência sintática. (D) teria verbo em infinitivo, não gerúndio. (E) há verbo ('tendo sido')."
+      "gabarito": "B",
+      "explicacao": "'Caso' é conjunção subordinativa condicional que exige o modo subjuntivo. Como a condição refere-se ao futuro ('estiverem disponíveis'), usa-se o futuro do subjuntivo: 'estiverem'. As consequências ('recursos alocados', 'projeto postergado') são afirmações sobre o futuro real, portanto no futuro do indicativo: 'serão alocados' e 'será postergado'. A alternativa A usa 'estejam' (presente do subjuntivo — possível em registros coloquiais, mas 'estiverem' é mais preciso para condição futura). A alternativa C usa 'estão' (indicativo — inadequado após 'caso'). A alternativa D usa condicionais ('seriam', 'seria') sem base no contexto. A alternativa E mistura 'estiverem' (correto) com 'sejam' e 'seja' (presente do subjuntivo — inadequado para as consequências)."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "No período 'O general, conquanto estivesse cansado, concluiu a inspeção', identifique corretamente a oração subordinada e sua classificação.",
+      "enunciado": "Sobre o infinitivo pessoal flexionado, analise as frases:\nI. 'É importante nós estudarmos sistematicamente.' (infinitivo pessoal obrigatório — sujeito explícito 'nós')\nII. 'Mandei os recrutas marcharem em fila.' (infinitivo pessoal obrigatório — sujeito diferente do principal)\nIII. 'Para vencer, é necessário treinar muito.' (infinitivo impessoal — sujeito indeterminado)\nEstão corretas:",
       "alternativas": {
-        "A": "'O general concluiu a inspeção' — subordinada adverbial.",
-        "B": "'conquanto estivesse cansado' — subordinada adverbial concessiva.",
-        "C": "'conquanto estivesse cansado' — subordinada adverbial condicional.",
-        "D": "'conquanto estivesse cansado' — coordenada adversativa.",
-        "E": "'O general, conquanto estivesse cansado' — oração principal."
+        "A": "Apenas I.",
+        "B": "Apenas I e II.",
+        "C": "Apenas II e III.",
+        "D": "Apenas I e III.",
+        "E": "I, II e III."
       },
-      "gabarito": "B",
-      "explicacao": "'Conquanto' é conjunção concessiva (= embora, ainda que, mesmo que). 'Conquanto estivesse cansado' é oração subordinada adverbial concessiva — indica que a ação da principal se realizou apesar de um obstáculo (o cansaço). A oração principal é 'o general concluiu a inspeção'. (A) inverte a classificação. (C) condicional usaria 'se', 'caso'. (D) não é coordenada adversativa — adversativa seria introduzida por 'mas', 'porém', e as orações seriam independentes. (E) a oração principal é apenas a que tem o verbo principal 'concluiu'."
+      "gabarito": "E",
+      "explicacao": "Todas as frases estão corretas. I: com sujeito explícito do infinitivo ('nós') diferente do da principal (oração impessoal), o infinitivo pessoal é obrigatório: 'estudarmos'. II: com verbo de causação ('mandar') seguido de sujeito explícito diferente ('os recrutas'), o infinitivo pessoal é adequado: 'marcharem'. III: quando não há sujeito explícito do infinitivo e o contexto é de afirmação geral, usa-se o infinitivo impessoal: 'treinar'. As três frases demonstram diferentes contextos de uso correto do infinitivo."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Analise: 'É necessário ao marinheiro que conheça os procedimentos de segurança.' Qual é a classificação da oração subordinada?",
+      "enunciado": "Leia: 'A proposta que ___ à diretoria ontem ___ aceita por unanimidade e ___ imediatamente em vigor.' Qual alternativa preenche as lacunas corretamente?",
       "alternativas": {
-        "A": "Subordinada substantiva subjetiva.",
-        "B": "Subordinada substantiva objetiva direta.",
-        "C": "Subordinada substantiva completiva nominal.",
-        "D": "Subordinada adjetiva restritiva.",
-        "E": "Subordinada adverbial final."
+        "A": "foi levada / foi / entrou",
+        "B": "foi levada / foi / foi entrada",
+        "C": "levou-se / foi / entrou",
+        "D": "foi levada / estava / entrou",
+        "E": "levara / foi / entrou"
       },
-      "gabarito": "C",
-      "explicacao": "O adjetivo 'necessário' exige complemento com preposição 'a' (necessário a quê? / a que…). A oração 'que conheça os procedimentos de segurança' completa o nome 'necessário' — função de complemento nominal. Trata-se, portanto, de subordinada substantiva completiva nominal. (A) subjetiva seria sujeito do verbo. (B) objetiva direta complementaria verbo transitivo direto. (D) adjetiva modificaria substantivo com pronome relativo. (E) adverbial indicaria circunstância."
+      "gabarito": "A",
+      "explicacao": "Primeira lacuna: 'foi levada' — voz passiva analítica (ser + particípio), concordando com 'a proposta' (feminino singular). Segunda lacuna: 'foi aceita' — voz passiva analítica, correto (particípio irregular de 'aceitar' com auxiliar 'ser'). Terceira lacuna: 'entrou imediatamente em vigor' — voz ativa, intransitivo, pretérito perfeito. A alternativa B erra em 'foi entrada' — 'entrar' não tem particípio passivo ('entrada' como particípio de voz passiva é incorreto nesse contexto). A alternativa C usa voz passiva sintética 'levou-se' — aceitável, mas muda a estrutura. A alternativa D usa 'estava aceita' (estado permanente, inadequado). A alternativa E usa 'levara' (mais-que-perfeito simples — possível, mas descasado do tempo 'foi' nas lacunas seguintes)."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Em 'Quanto mais o candidato praticar, melhor será seu desempenho na prova', a oração 'Quanto mais o candidato praticar' é classificada como:",
+      "enunciado": "Analise o período hipotético: 'Se os candidatos ___ mais, certamente ___ aprovados.' Assinale a alternativa que completa corretamente as lacunas para expressar uma hipótese improvável ou contrária à realidade presente.",
       "alternativas": {
-        "A": "Subordinada adverbial comparativa.",
-        "B": "Subordinada adverbial proporcional.",
-        "C": "Subordinada adverbial consecutiva.",
-        "D": "Subordinada adverbial condicional.",
-        "E": "Coordenada sindética aditiva."
+        "A": "estudam / serão",
+        "B": "estudassem / seriam",
+        "C": "estudem / serão",
+        "D": "estudariam / seriam",
+        "E": "estudassem / foram"
       },
       "gabarito": "B",
-      "explicacao": "A estrutura 'quanto mais… melhor' é a correlação típica das orações subordinadas adverbiais proporcionais, que expressam uma relação de proporcionalidade entre dois fatos que evoluem simultaneamente. (A) comparativa usa 'mais… do que', 'tão… quanto' para comparar. (C) consecutiva usa 'tão/tanto/tamanho… que'. (D) condicional usa 'se', 'caso'. (E) coordenada aditiva usaria 'e', 'nem'."
+      "explicacao": "Para expressar hipótese improvável ou contrária à realidade presente ('se' + pretérito imperfeito do subjuntivo + futuro do pretérito do indicativo): 'Se estudassem mais, seriam aprovados.' Este é o período hipotético irreal presente. A alternativa A ('estudam/serão') expressa condição real/possível. A alternativa C ('estudem/serão') combina presente do subjuntivo (condição possível) com futuro do indicativo — mistura de estruturas. A alternativa D usa futuro do pretérito nas duas orações — incorreto (a prótase com 'se' não usa o condicional). A alternativa E combina 'estudassem' (correto para a prótase) com 'foram' (pretérito perfeito — inadequado para a apódose do período irreal)."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Considere: 'O recruta prometeu estudar todos os dias.' A oração 'estudar todos os dias' é:",
+      "enunciado": "Sobre a voz verbal e a conversão entre vozes, analise as afirmações:\nI. 'O oficial recebeu a comenda.' (voz ativa) → 'A comenda foi recebida pelo oficial.' (voz passiva analítica) — conversão correta.\nII. 'Aprovaram os candidatos.' (voz ativa com sujeito indeterminado) → 'Os candidatos foram aprovados.' (voz passiva analítica) — conversão correta.\nIII. 'Vendem-se imóveis.' (voz passiva sintética) → 'Imóveis são vendidos.' (voz passiva analítica) — conversão correta.\nEstão corretas:",
       "alternativas": {
-        "A": "Subordinada substantiva objetiva direta desenvolvida.",
-        "B": "Subordinada adverbial final reduzida de infinitivo.",
-        "C": "Subordinada substantiva objetiva direta reduzida de infinitivo.",
-        "D": "Frase nominal sem verbo.",
-        "E": "Oração principal, pois não tem conjunção."
+        "A": "Apenas I.",
+        "B": "Apenas I e II.",
+        "C": "Apenas II e III.",
+        "D": "Apenas I e III.",
+        "E": "I, II e III."
       },
-      "gabarito": "C",
-      "explicacao": "'Prometeu' é verbo transitivo direto (prometeu o quê?). A oração 'estudar todos os dias' é o objeto direto de 'prometeu'. Por ter verbo em infinitivo (forma nominal) sem conjunção introdutória, é reduzida de infinitivo. Por exercer função de objeto direto, é substantiva objetiva direta. A forma desenvolvida equivalente seria 'que estudaria todos os dias'. (A) desenvolvida teria conjunção e verbo flexionado. (B) adverbial final indicaria finalidade; além disso, seria 'para estudar'. (D) há verbo 'estudar' (infinitivo). (E) não é principal — depende sintaticamente de 'prometeu'."
+      "gabarito": "E",
+      "explicacao": "Todas as conversões estão corretas. I: 'o oficial' (sujeito ativo) → 'pelo oficial' (agente da passiva); 'a comenda' (objeto direto) → sujeito da passiva; 'recebeu' → 'foi recebida' (particípio concordando com 'a comenda', feminino singular). II: sujeito indeterminado da ativa (3ª pessoa do plural sem pronome) → sem agente da passiva expresso; 'os candidatos' (objeto direto) → sujeito da passiva. III: voz passiva sintética com 'se' apassivador equivale à passiva analítica; 'imóveis' (objeto direto com 'se') → sujeito da passiva analítica."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho a seguir, extraído de um boletim interno da Marinha: 'Recomenda-se que todos os aspirantes revisem os procedimentos operacionais antes de zarpar, tendo em vista que as condições meteorológicas podem mudar rapidamente.' Quantas orações há nesse período e como se classificam as subordinadas?",
+      "enunciado": "Leia o trecho a seguir e responda à questão:\n\n'O novo regulamento havia sido aprovado pela diretoria. Os procedimentos estabelecidos deveriam ser cumpridos por todos. Caso alguma norma fosse descumprida, o responsável seria notificado e as medidas cabíveis, adotadas.'\n\nSobre as formas verbais empregadas no trecho, analise as afirmações:\nI. 'havia sido aprovado' é um tempo composto na voz passiva: auxiliar 'haver' + particípio de 'ser' + particípio de 'aprovar' — formação correta.\nII. 'deveriam ser cumpridos' é uma locução verbal na voz passiva com modal 'dever' no futuro do pretérito — formação correta.\nIII. 'fosse descumprida' está no pretérito imperfeito do subjuntivo, adequado após 'caso' para expressar hipótese — correto.\nIV. 'seriam notificado' apresenta erro de concordância do particípio com o sujeito.\nEstão corretas:",
       "alternativas": {
-        "A": "Duas orações: a primeira é substantiva subjetiva; a segunda é adverbial causal.",
-        "B": "Três orações: a primeira é substantiva subjetiva; a segunda é adverbial temporal; a terceira é adjetiva.",
-        "C": "Três orações: 'Recomenda-se' é a oração principal; 'que todos os aspirantes revisem os procedimentos operacionais antes de zarpar' é substantiva subjetiva; 'que as condições meteorológicas podem mudar rapidamente' é substantiva completiva nominal.",
-        "D": "Três orações: a principal é 'Recomenda-se'; a segunda é substantiva subjetiva; a terceira é adverbial causal.",
-        "E": "Duas orações: coordenada aditiva e coordenada adversativa."
+        "A": "Apenas I e II.",
+        "B": "Apenas I, II e III.",
+        "C": "Apenas II, III e IV.",
+        "D": "Apenas I e IV.",
+        "E": "I, II, III e IV."
       },
-      "gabarito": "D",
-      "explicacao": "Há três verbos: 'recomenda' (locução com 'se' = 1 oração principal); 'revisem' (oração subordinada: 'que todos os aspirantes revisem...' — sujeito de 'recomenda-se' = substantiva subjetiva); 'podem mudar' (oração subordinada: 'que as condições meteorológicas podem mudar rapidamente' — introduzida por 'tendo em vista que', locução causal = adverbial causal). Portanto: 3 orações; principal + substantiva subjetiva + adverbial causal. (A) conta apenas dois verbos, ignorando 'podem mudar'. (B) erra a classificação da terceira. (C) classifica incorretamente a terceira como completiva nominal. (E) não há coordenação."
+      "gabarito": "B",
+      "explicacao": "Afirmação I: correta. 'Havia sido aprovado' é de fato um tempo composto em voz passiva: 'havia' (auxiliar de 'haver' no imperfeito) + 'sido' (particípio de 'ser', auxiliar da passiva) + 'aprovado' (particípio de 'aprovar'). Afirmação II: correta. 'Deveriam ser cumpridos' é uma locução com modal 'dever' no futuro do pretérito ('deveriam') + passiva analítica ('ser cumpridos'), com particípio concordando com 'os procedimentos' (masculino plural). Afirmação III: correta. 'Caso' é conjunção condicional que exige subjuntivo; 'fosse descumprida' é pretérito imperfeito do subjuntivo, correlacionado com o futuro do pretérito ('seria notificado') — estrutura do período hipotético irreal. Afirmação IV: incorreta. No trecho, o texto diz 'o responsável seria notificado' — o particípio 'notificado' concorda corretamente com 'o responsável' (masculino singular). A afirmação IV inventa um erro inexistente no texto."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Leia: 'O cadete que terminar o curso em primeiro lugar receberá uma menção honrosa, o que certamente motivará os demais.' Analise as orações relativas presentes e suas classificações.",
+      "enunciado": "Leia:\n\n'Os fuzis e os mísseis foram inspecionados antes do exercício. As fragatas, por sua vez, haviam passado por revisão completa. O material, uma vez verificado, estaria apto para uso operacional.'\n\nSobre a flexão verbal e nominal no trecho, é INCORRETO afirmar que:",
       "alternativas": {
-        "A": "'que terminar o curso em primeiro lugar' = adjetiva explicativa; 'o que certamente motivará os demais' = adjetiva restritiva.",
-        "B": "'que terminar o curso em primeiro lugar' = adjetiva restritiva; 'o que certamente motivará os demais' = adjetiva explicativa (com antecedente oracional).",
-        "C": "Ambas são adjetivas restritivas, pois ambas têm pronome relativo.",
-        "D": "'que terminar o curso em primeiro lugar' = substantiva objetiva direta; 'o que certamente motivará os demais' = adjetiva.",
-        "E": "Ambas são adjetivas explicativas, pois ambas acrescentam informação ao antecedente."
+        "A": "'Fuzis' é o plural de 'fuzil' (oxítona em '-il'), formado pela troca de '-il' por '-is': correto.",
+        "B": "'Mísseis' é o plural de 'míssil' (paroxítona em '-il'), formado pela troca de '-il' por '-eis': correto.",
+        "C": "'Foram inspecionados' está na voz passiva analítica, com particípio concordando com 'os fuzis e os mísseis' (masculino plural): correto.",
+        "D": "'Haviam passado' é um tempo composto na voz ativa, com particípio invariável ('passado'): correto.",
+        "E": "'Verificado' concorda com 'as fragatas' (feminino plural) — deveria ser 'verificadas': INCORRETO no trecho."
       },
-      "gabarito": "B",
-      "explicacao": "'Que terminar o curso em primeiro lugar' modifica 'cadete' sem vírgulas, restringindo quais cadetes (adjetiva restritiva). 'O que certamente motivará os demais' tem como antecedente toda a oração anterior (receber menção honrosa), indicado pelo artigo 'o' antes de 'que'. Esse uso do pronome relativo com antecedente oracional é típico da adjetiva explicativa de valor conclusivo/consequente. (A) inverte as classificações. (C) ignora a diferença entre restritiva e explicativa. (D) erra a classificação da primeira. (E) a primeira é claramente restritiva (sem vírgula)."
+      "gabarito": "E",
+      "explicacao": "A afirmação E é a incorreta (que a questão pede). No trecho, 'o material, uma vez verificado' — 'verificado' concorda com 'o material' (masculino singular), não com 'as fragatas'. O particípio absoluto 'uma vez verificado' retoma 'o material', e a concordância está correta. As demais afirmativas estão corretas: (A) 'fuzil' é oxítona em '-il' → plural em '-is': 'fuzis'; (B) 'míssil' é paroxítona em '-il' → plural em '-eis': 'mísseis'; (C) voz passiva analítica com concordância correta; (D) 'haviam passado' é tempo composto ativo com particípio invariável (o particípio em locuções com 'ter/haver' é invariável)."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Analise o fragmento de um manual de redação militar: 'Lavra-se esta ata para que dela conste e produza os devidos efeitos.' Classifique a oração 'para que dela conste e produza os devidos efeitos'.",
+      "enunciado": "Leia o trecho simulado de texto oficial:\n\n'Determino que os oficiais compareçam à solenidade às 14h. Solicito, outrossim, que os documentos necessários sejam apresentados com antecedência. Caso algum impedimento ocorra, deverá ser comunicado ao Comando com a máxima brevidade possível.'\n\nSobre a flexão verbal no trecho, analise:\nI. 'compareçam' é a 3ª pessoa do plural do presente do subjuntivo de 'comparecer', exigido pelo verbo 'determino' (que governa subjuntivo): correto.\nII. 'sejam apresentados' é voz passiva no presente do subjuntivo, exigido por 'solicito': correto.\nIII. 'ocorra' é o presente do subjuntivo de 'ocorrer', exigido por 'caso': correto.\nIV. 'deverá ser comunicado' é voz passiva no futuro do indicativo, adequado para a consequência da condição: correto.\nEstão corretas:",
       "alternativas": {
-        "A": "Oração subordinada adverbial consecutiva.",
-        "B": "Oração subordinada adverbial final, com dois verbos coordenados internamente.",
-        "C": "Oração principal, pois expressa o objetivo do documento.",
-        "D": "Oração subordinada substantiva objetiva direta.",
-        "E": "Oração coordenada sindética explicativa."
+        "A": "Apenas I e II.",
+        "B": "Apenas I, II e IV.",
+        "C": "Apenas II, III e IV.",
+        "D": "Apenas III e IV.",
+        "E": "I, II, III e IV."
       },
-      "gabarito": "B",
-      "explicacao": "'Para que' é locução conjuntiva final, introduzindo subordinada adverbial de finalidade (objetivo/propósito). Internamente, a oração tem dois verbos coordenados: 'conste' e 'produza' (ligados por 'e') — mas isso não cria uma nova oração subordinada; os dois verbos compartilham a mesma oração subordinada. (A) consecutiva usa 'que' após intensificador. (C) não é principal — 'Lavra-se esta ata' é a principal. (D) objetiva direta complementaria verbo transitivo direto sem preposição. (E) explicativa coordenada seria independente sintaticamente."
+      "gabarito": "E",
+      "explicacao": "Todas as afirmações estão corretas. I: 'compareçam' — presente do subjuntivo de 'comparecer' (forma irregular: 'compareço' → 'compareça'), 3ª pessoa do plural. 'Determinar que' exige subjuntivo. II: 'sejam apresentados' — voz passiva analítica no presente do subjuntivo, exigida por 'solicitar que'. III: 'ocorra' — presente do subjuntivo de 'ocorrer', corretamente exigido por 'caso' (conjunção condicional). IV: 'deverá ser comunicado' — modal 'dever' no futuro do indicativo + passiva analítica no presente, estrutura adequada para a consequência da condição (apódose do período condicional real)."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia o período: 'Mal o comandante chegou, toda a guarnição se pôs em posição de sentido.' A oração 'Mal o comandante chegou' é classificada como:",
+      "enunciado": "Leia:\n\n'A capitã recebeu a comenda pelas mãos do almirante. Emocionada, ela agradeceu e comprometeu-se a honrar a distinção recebida. Os presentes a aplaudiram de pé.'\n\nSobre a flexão nominal e verbal do trecho, assinale a alternativa INCORRETA.",
       "alternativas": {
-        "A": "Subordinada adverbial concessiva, pois indica oposição.",
-        "B": "Subordinada adverbial temporal, introduzida pela conjunção temporal 'mal'.",
-        "C": "Oração coordenada adversativa, pois 'mal' equivale a 'mas'.",
-        "D": "Frase nominal, pois 'mal' é um substantivo.",
-        "E": "Subordinada adverbial condicional, pois indica hipótese."
+        "A": "'Capitã' é o feminino de 'capitão', formado por heterogenia de sufixo: 'capitão/capitã' — par biforme por sufixo.",
+        "B": "'Emocionada' é o particípio de 'emocionar' empregado como adjetivo, concordando com 'ela' (feminino singular): correto.",
+        "C": "'Comprometeu-se' está na voz reflexiva, com o pronome 'se' indicando que o sujeito pratica e recebe a ação: correto.",
+        "D": "'A aplaudiram' apresenta o pronome 'a' como objeto direto referente à capitã: correto.",
+        "E": "'Recebida' em 'distinção recebida' é particípio passivo concordando com 'distinção' (feminino singular), funcionando como adjetivo: correto."
       },
-      "gabarito": "B",
-      "explicacao": "'Mal' (= assim que, logo que, quando) é conjunção subordinativa temporal. 'Mal o comandante chegou' é oração subordinada adverbial temporal — indica que as duas ações ocorreram quase simultaneamente, com imediata sucessão. Não confundir 'mal' (conjunção temporal) com 'mas' (conjunção adversativa) nem com o substantivo/advérbio 'mal'. (A) concessiva indicaria obstáculo superado. (C) 'mas' é adversativa, 'mal' é temporal. (D) há verbo 'chegou'. (E) condicional indicaria condição hipotética."
+      "gabarito": "A",
+      "explicacao": "A alternativa A contém imprecisão: 'capitão/capitã' é par biforme, mas a variação não é por sufixo diferente — ambas as formas compartilham o mesmo radical ('capitan-') e a alternância de terminação '-ão'/'-ã' é uma variação de gênero por vogal temática, não por sufixo derivacional distinto (como '-eiro/'-eira' ou '-or'/'-riz'). A afirmação de que é 'heterogenia de sufixo' é imprecisa — seria mais correto dizer variação morfológica de terminação. As demais alternativas estão corretas: (B) adjetivo concordado; (C) voz reflexiva; (D) pronome clítico objeto direto; (E) particípio como adjetivo concordado."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Leia o período composto: 'Não sei se devo responder agora ou se devo aguardar o resultado do recurso.' Qual é a classificação das orações iniciadas por 'se'?",
+      "enunciado": "Leia o período:\n\n'Convém que os recrutas ___ os procedimentos antes de ___ ao campo de treinamento; assim, ___ possível evitar incidentes.'\n\nAssinale a alternativa que preenche as lacunas corretamente, considerando as regras de flexão verbal e modo.",
       "alternativas": {
-        "A": "Subordinadas adverbiais condicionais, pois 'se' é conjunção condicional.",
-        "B": "Subordinadas substantivas objetivas diretas, introduzidas por 'se' com valor de conjunção integrante.",
-        "C": "Coordenadas alternativas, ligadas por 'ou'.",
-        "D": "Subordinadas adjetivas, pois modificam o sujeito da oração principal.",
-        "E": "Subordinadas adverbiais temporais, indicando sequência de ações."
+        "A": "revejam / irem / será",
+        "B": "revisem / ir / seria",
+        "C": "revejam / ir / será",
+        "D": "revejam / irem / seria",
+        "E": "revisem / irem / será"
       },
-      "gabarito": "B",
-      "explicacao": "Nesse contexto, 'se' não é conjunção condicional — é conjunção integrante (= se interrogativo indireto), introduzindo oração que funciona como objeto direto do verbo 'sei' (sei o quê? — se devo responder / se devo aguardar). As duas orações são substantivas objetivas diretas coordenadas alternativas entre si (ligadas por 'ou'), mas cada uma é subordinada em relação à oração principal 'Não sei'. (A) erro clássico: confundir 'se' integrante com 'se' condicional. O critério: 'se' condicional pode ser substituído por 'caso'; 'se' integrante introduz interrogativa indireta e não pode ser substituído por 'caso'. (C) as próprias orações com 'se' não são as alternativas; são as substantivas que estão em relação alternativa entre si internamente. (D) e (E) incorretos."
+      "gabarito": "A",
+      "explicacao": "Primeira lacuna: 'convém que' exige subjuntivo. O verbo é 'rever' (não 'revisar' no sentido de rever/examinar novamente): presente do subjuntivo de 'rever' é 'reveja, revejas, reveja, revejamos, revejais, revejam' — 3ª pessoa do plural: 'revejam'. Segunda lacuna: 'antes de' é locução prepositiva seguida de infinitivo com sujeito expresso ('os recrutas') — infinitivo pessoal: 'irem'. Terceira lacuna: 'assim, será possível' — futuro do indicativo, consistente com o contexto de consequência real. A alternativa B usa 'revisem' (de 'revisar', sentido diferente de verificar/fiscalizar) e 'ir' sem flexão (inadequado com sujeito explícito). A alternativa C usa 'ir' sem flexão. A alternativa D usa 'seria' (condicional sem justificativa). A alternativa E usa 'revisem' (sentido inadequado)."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
       "gram-01",
-      "gram-02",
       "gram-03",
-      "gram-04",
-      "gram-05",
-      "gram-06",
-      "gram-08",
-      "gram-09",
-      "gram-10",
       "gram-11",
-      "gram-12",
-      "comp-03",
-      "comp-04",
+      "gram-13",
+      "gram-14",
+      "comp-02",
       "comp-06",
       "comp-07",
-      "comp-08",
-      "comp-10"
+      "gram-10",
+      "comp-11",
+      "gram-12",
+      "gram-05",
+      "gram-06"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-09",
-        "enunciado": "Leia o período: 'É necessário que todos os candidatos aprovados na prova objetiva entregue os documentos no prazo.' Há um erro de concordância verbal. Identifique o erro e a correção adequada, considerando também a classificação da oração sublinhada.",
+        "topico_referencia": "gram-06 + gram-11",
+        "enunciado": "Leia: 'A coesão e a coerência **constitui** os pilares do texto bem escrito.' O período apresenta erro de:",
         "alternativas": {
-          "A": "O verbo 'entregue' deveria estar no plural 'entreguem', concordando com 'candidatos'; a oração 'que todos os candidatos aprovados entregue os documentos' é substantiva subjetiva.",
-          "B": "O verbo 'entregue' está correto no singular, concordando com 'prova'; a oração é adjetiva restritiva.",
-          "C": "O verbo 'entregue' deveria concordar com 'objetiva'; a oração é adverbial final.",
-          "D": "Não há erro; 'entregue' concorda com o sujeito implícito 'ele'.",
-          "E": "O verbo 'entregue' deveria estar no infinitivo 'entregar'; a oração é substantiva objetiva direta."
+          "A": "Flexão verbal: o verbo 'constitui' deveria ser 'constituem' para concordar com o sujeito composto 'a coesão e a coerência'.",
+          "B": "Flexão nominal: 'coesão' e 'coerência' deveriam ser pluralizadas.",
+          "C": "Regência verbal: 'constituir' não admite sujeito composto.",
+          "D": "Colocação pronominal: falta pronome antes de 'constitui'.",
+          "E": "Ortografia: 'coerência' deveria ser grafado sem acento."
         },
         "gabarito": "A",
-        "explicacao": "A oração 'que todos os candidatos aprovados na prova objetiva entregue os documentos no prazo' é subordinada substantiva subjetiva — é o sujeito de 'é necessário'. O sujeito do verbo 'entregar' dentro da subordinada é 'todos os candidatos aprovados na prova objetiva' (plural), portanto o verbo deve concordar no plural: 'entreguem'. O erro combina: classificação da oração subordinada (gram-06) e concordância verbal com sujeito composto/plural na subordinada (gram-09). (B) errado — sujeito de 'entregue' é 'candidatos', não 'prova'. (C) erro de classificação. (D) não há sujeito implícito 'ele'; há sujeito expresso. (E) o infinitivo seria adequado em estrutura diferente."
+        "explicacao": "O sujeito composto 'a coesão e a coerência' é plural (dois núcleos), exigindo o verbo no plural: 'constituem'. O uso de 'constitui' (singular) é erro de concordância verbal com sujeito composto — regra básica: sujeito composto de pessoas ou coisas diferentes → verbo no plural. A integração gram-05 (flexão verbal — formas do presente do indicativo) e gram-09 (concordância verbal com sujeito composto) é necessária para identificar o erro: trata-se de uma forma verbal morfologicamente existente ('constitui', 3ª singular), mas errada pela concordância exigida pelo sujeito."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-11",
-        "enunciado": "Analise: 'O comandante prometeu aos recrutas revelar-lhes os resultados assim que chegassem.' Sobre a colocação do pronome e a estrutura oracional, é correto afirmar:",
+        "topico_referencia": "gram-06 + gram-14",
+        "enunciado": "Leia: 'Os documentos **tinham-se entregue** à comissão antes do prazo.' Sobre a flexão verbal e a colocação pronominal, é correto afirmar que:",
         "alternativas": {
-          "A": "'Revelar-lhes' é a colocação correta em qualquer contexto; 'assim que chegassem' é subordinada adverbial causal.",
-          "B": "'Revelar-lhes' é ênclise após infinitivo, adequada quando não há palavra atrativa anterior; 'assim que chegassem' é subordinada adverbial temporal.",
-          "C": "Deveria ser 'lhes revelar', pois pronome nunca vem depois de infinitivo.",
-          "D": "'Revelar-lhes' é incorreto; o pronome deveria ser 'os', não 'lhes', pois se refere a 'resultados'.",
-          "E": "'Assim que chegassem' é oração coordenada assindética, pois não depende da oração anterior."
+          "A": "A colocação e o particípio estão corretos: 'tinham-se entregue' é forma padrão com auxiliar 'ter' e particípio irregular.",
+          "B": "Há dois erros: (1) com auxiliar 'ter', o particípio deveria ser regular 'entregado'; (2) o pronome 'se' não se encaixa nessa estrutura de voz passiva composta.",
+          "C": "Apenas o particípio está errado: com 'ter', deveria ser 'entregado'; a colocação do 'se' está correta.",
+          "D": "Apenas a colocação está errada: 'se tinham entregue' seria o correto.",
+          "E": "A frase está correta: 'entregue' é o único particípio existente de 'entregar'."
         },
         "gabarito": "B",
-        "explicacao": "Em 'revelar-lhes', o pronome 'lhes' está em ênclise após o infinitivo — construção gramaticalmente adequada quando não há palavra atrativa que exija próclise. O pronome 'lhes' refere-se aos recrutas (objeto indireto de 'revelar': revelar a eles). 'Assim que chegassem' é introduzida por locução conjuntiva temporal 'assim que', indicando o momento em que a revelação ocorreria — subordinada adverbial temporal. Integra, portanto, conhecimentos de colocação pronominal com infinitivo (gram-11) e classificação de subordinadas adverbiais (gram-06). (A) erra a classificação temporal. (C) pronome pode sim vir depois de infinitivo em ênclise. (D) 'lhes' está correto — refere-se aos recrutas, não aos resultados. (E) 'assim que chegassem' é subordinada, há dependência sintática clara."
+        "explicacao": "A frase apresenta dois problemas simultâneos que exigem integração de gram-05 e gram-11. (1) Flexão verbal: com auxiliar 'ter' ou 'haver', o particípio deve ser regular — 'tinham entregado', não 'entregue'. 'Entregue' é o particípio irregular, usado com auxiliar 'ser' ou 'estar'. (2) Colocação e uso do 'se': na estrutura 'tinham-se entregue', o pronome 'se' parece introduzir voz reflexiva ou passiva sintética, mas a combinação com 'tinham' (auxiliar de tempo composto ativo) e particípio cria uma estrutura híbrida problemática. O correto seria: 'tinham entregado os documentos à comissão' (ativo) ou 'os documentos tinham sido entregues à comissão' (passiva analítica)."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-10",
-        "enunciado": "Leia: 'O oficial informou aos marinheiros que deveriam obedecer às ordens sem questionamento.' A preposição em 'obedecer às ordens' está correta?  Qual é a classificação da oração 'que deveriam obedecer às ordens sem questionamento'?",
+        "topico_referencia": "gram-06 + gram-03",
+        "enunciado": "Leia: 'Referiu-**se** **à** proposta de abolir **às** restrições e de reaver **os** documentos confiscados.' Sobre a flexão/morfologia e o uso de crase, identifique o erro:",
         "alternativas": {
-          "A": "A preposição está errada; 'obedecer' é transitivo direto. A oração é substantiva objetiva direta.",
-          "B": "A preposição está correta; 'obedecer' é transitivo indireto e rege 'a'. A oração é adjetiva restritiva.",
-          "C": "A preposição está correta; 'obedecer' é transitivo indireto e rege 'a'. A oração é substantiva objetiva direta de 'informou'.",
-          "D": "A preposição está errada; deveria ser 'obedecerEM às ordens'. A oração é adverbial.",
-          "E": "A preposição está correta; 'obedecer' é transitivo indireto e rege 'a'. A oração é coordenada assindética."
+          "A": "O pronome 'se' está incorretamente colocado após o verbo.",
+          "B": "'À proposta' está correto (crase antes de feminino); 'às restrições' está errado — 'abolir' não admite crase antes de seu objeto.",
+          "C": "Não há erros: todas as formas estão corretas.",
+          "D": "'Reaver' está incorretamente conjugado — o infinitivo correto seria 'reavê-los'.",
+          "E": "'Os documentos' deveria ser 'aos documentos', pois 'reaver' é transitivo indireto."
         },
-        "gabarito": "C",
-        "explicacao": "'Obedecer' é verbo transitivo indireto — rege a preposição 'a' (obedecer a algo/alguém), portanto 'obedecer às ordens' está correto. A oração 'que deveriam obedecer às ordens sem questionamento' é o objeto direto do verbo 'informou' ('O oficial informou o quê?') — substantiva objetiva direta. Este item integra regência verbal de 'obedecer' (gram-10) com a classificação de oração subordinada substantiva (gram-06). (A) erro de regência — 'obedecer' não é transitivo direto. (B) erra a classificação da oração (adjetiva exige pronome relativo e antecedente nominal). (D) erro de concordância e de classificação. (E) não é coordenada — há dependência."
+        "gabarito": "B",
+        "explicacao": "A integração gram-05 + gram-02 exige analisar a regência de 'abolir' e o uso de crase. 'Abolir' é transitivo direto — seu complemento não exige preposição. Portanto, 'abolir às restrições' usa crase indevida: o correto é 'abolir as restrições' (objeto direto, sem preposição, sem crase). Já 'referiu-se à proposta' está correto: 'referir-se a' é transitivo indireto com preposição 'a' antes de feminino articulado → crase obrigatória. 'Reaver os documentos' está correto: 'reaver' é transitivo direto. A integração de gram-05 (verbo defectivo 'reaver' e 'abolir'), gram-02 (crase) e gram-10 (regência de 'abolir') é essencial para detectar o erro em 'às restrições'."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-12",
-        "enunciado": "Leia: 'O tenente ordenou que os recrutas marchassem até o alojamento, que ficava na ala norte do quartel, e que recolhessem imediatamente.' A vírgula antes do segundo 'que' (em 'que ficava na ala norte') e a ausência de vírgula antes do último 'e que' estão:",
+        "topico_referencia": "gram-06 + gram-01",
+        "enunciado": "Leia: 'O **míssel** foi lançado com precisão. Os **fuzís** foram recolhidos após o exercício.' Sobre a flexão de número e a ortografia, assinale a alternativa correta:",
         "alternativas": {
-          "A": "Ambas incorretas: nenhuma vírgula é necessária nesse período.",
-          "B": "A vírgula antes de 'que ficava' está correta (delimita adjetiva explicativa); a ausência antes de 'e que recolhessem' está correta (oração coordenada com 'e' não exige vírgula).",
-          "C": "A vírgula está incorreta; deveria haver vírgula também antes de 'e que recolhessem'.",
-          "D": "A vírgula antes de 'que ficava' está correta (adjetiva explicativa); seria necessária também vírgula antes de 'e que recolhessem', pois é outra oração subordinada nova.",
-          "E": "A vírgula está incorreta; 'que ficava' é adjetiva restritiva e não deve ser isolada por vírgulas."
+          "A": "Ambas as formas estão corretas: 'míssel' e 'fuzís' são grafias válidas.",
+          "B": "'Míssel' está errado — o singular correto é 'míssil'; 'fuzís' está errado — o plural de 'fuzil' é 'fuzis' (sem acento).",
+          "C": "'Míssel' está correto; 'fuzís' deveria ser 'fuzeis'.",
+          "D": "'Míssel' deveria ser 'míssil'; 'fuzís' está correto pois oxítonas em '-il' levam acento no plural.",
+          "E": "Ambas estão erradas: o singular é 'míssil' e o plural é 'fuzils'."
         },
         "gabarito": "B",
-        "explicacao": "'Que ficava na ala norte do quartel' está entre vírgulas (adjetiva explicativa — acrescenta informação acessória sobre o alojamento já identificado). 'E que recolhessem imediatamente' é mais uma substantiva objetiva direta coordenada internamente (objeto direto de 'ordenou', junto com 'que marchassem'), ligada por 'e' — não exige vírgula antes de 'e' quando as orações têm o mesmo sujeito e estão em coordenação. A questão integra classificação de adjetivas (gram-06) com uso da vírgula em adjetivas e em coordenadas (gram-12). (A) errado — a vírgula da explicativa é necessária. (C) não há necessidade de vírgula antes de 'e que'. (D) a vírgula antes de 'e que' não é necessária nesse caso. (E) errado — 'que ficava' é explicativa (o alojamento já está identificado)."
+        "explicacao": "A integração gram-05 (flexão de número) e gram-01 (ortografia e acentuação) é fundamental. 'Míssel' está errado: o singular correto é 'míssil' (paroxítona proparoxítona terminada em '-il'). 'Fuzís' está errado por dois motivos: (1) o plural de 'fuzil' (oxítona em '-il') é 'fuzis' — sem acento, pois oxítonas terminadas em '-is' não recebem acento gráfico pelo Acordo Ortográfico em vigor desde 2016; (2) o acento em 'fuzís' seria incorreto. O correto é 'fuzis' (sem acento). Portanto, ambas as formas do trecho estão erradas."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + comp-10",
-        "enunciado": "Leia o parágrafo: 'A disciplina é o fundamento de toda organização militar. Ela garante que as ordens sejam cumpridas com eficiência. Sem ela, nenhuma missão poderia ser concluída.' Do ponto de vista da coesão textual e da estrutura oracional, analise o pronome 'ela' no terceiro período.",
+        "topico_referencia": "gram-06 + comp-11",
+        "enunciado": "Leia: 'Os recrutas completaram o treinamento. **Eles** foram dispensados às 18h. **Os mesmos** receberão o certificado na próxima semana.' Sobre a flexão pronominal e a coesão referencial, identifique o problema:",
         "alternativas": {
-          "A": "'Ela' retoma 'organização' por coesão referencial; 'poderia ser concluída' é oração principal do período simples.",
-          "B": "'Ela' retoma 'disciplina' por coesão referencial anafórica; 'nenhuma missão poderia ser concluída' é a oração principal do período simples; 'Sem ela' é adjunto adverbial.",
-          "C": "'Ela' retoma 'ela' do segundo período por coesão catafórica; o período é composto.",
-          "D": "'Ela' é dêitico situacional; o período é composto por coordenação.",
-          "E": "'Ela' retoma 'eficiência' por coesão referencial; o período é simples com sujeito indeterminado."
+          "A": "'Eles' está incorreto; deveria ser 'eles mesmos' para evitar ambiguidade.",
+          "B": "'Os mesmos' como pronome anafórico é criticado pela norma culta — deveria ser substituído por 'eles', 'os recrutas' ou 'os aprovados'; a flexão de 'eles' está correta.",
+          "C": "Não há problema: 'eles' e 'os mesmos' são pronomes anafóricos equivalentes e intercambiáveis.",
+          "D": "O problema está em 'foram dispensados': com 'ser', o particípio deveria concordar com o sujeito — 'dispensados' está correto, mas a voz passiva é inadequada.",
+          "E": "Há problema de concordância: 'os mesmos' deveria ser 'os mesmo' (invariável)."
         },
         "gabarito": "B",
-        "explicacao": "'Ela' retoma anaforicamente 'a disciplina' (primeira menção no parágrafo), mantendo a coesão referencial por substituição pronominal — recurso de coesão textual (comp-10). O terceiro período 'Sem ela, nenhuma missão poderia ser concluída' é período simples: há apenas uma forma verbal ('poderia ser concluída', locução verbal). 'Sem ela' é adjunto adverbial de condição. A questão integra coesão referencial anafórica (comp-10) com identificação de período simples e locução verbal (gram-06). (A) 'ela' não retoma 'organização'. (C) coesão catafórica aponta para frente, não para trás. (D) não é dêitico situacional. (E) 'ela' não retoma 'eficiência'."
+        "explicacao": "A integração gram-05 (flexão pronominal — 'eles' como pronome pessoal do caso reto, plural masculino) e comp-10 (coesão referencial) é necessária. O pronome 'eles' está morfologicamente correto e exerce coesão anafórica adequada. O problema está em 'os mesmos': 'mesmo' é pronome de identidade ('o mesmo que') e não pronome de retomada anafórica — seu uso como substituto de 'eles' ou 'os recrutas' é considerado vício de linguagem burocrática por Cunha e Cintra (2017) e pelo Manual da Marinha (2024). A coesão referencial estaria melhor servida por 'eles' ou pela repetição de 'os recrutas'."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-04",
-        "enunciado": "Em 'Mal o sinal soou, os candidatos entregaram as provas', a palavra 'mal' exerce que função e que classe gramatical, e como se classifica a oração que introduz?",
+        "topico_referencia": "gram-06 + gram-10",
+        "enunciado": "Leia: 'O candidato estudou muito, **portanto** passou na prova, **embora** as questões **fossem** difíceis.' Sobre a flexão verbal e os conectivos, é correto afirmar que:",
         "alternativas": {
-          "A": "'Mal' é advérbio de modo, modificando 'soou'; a oração é coordenada assindética.",
-          "B": "'Mal' é substantivo com função de sujeito; a oração é nominal.",
-          "C": "'Mal' é conjunção subordinativa temporal; introduz subordinada adverbial temporal.",
-          "D": "'Mal' é pronome indefinido; a oração é subordinada substantiva.",
-          "E": "'Mal' é preposição; a oração é subordinada adverbial condicional."
+          "A": "Há problema de flexão: 'fossem' deveria ser 'foram', pois 'embora' não exige subjuntivo.",
+          "B": "A frase está correta: 'portanto' indica consequência (estudou → passou) e 'embora' indica concessão com subjuntivo ('fossem') — flexão e conectivos adequados.",
+          "C": "Há problema de conectivo: 'portanto' deveria ser 'mas', pois estudar muito não garante aprovação.",
+          "D": "Há problema de flexão: 'fossem' deveria ser 'são', pois o subjuntivo é desnecessário após 'embora'.",
+          "E": "Há problema duplo: 'portanto' deveria ser 'porém' e 'fossem' deveria ser 'eram'."
         },
-        "gabarito": "C",
-        "explicacao": "Nesse contexto, 'mal' funciona como conjunção subordinativa temporal (equivale a 'assim que', 'logo que'), introduzindo a oração 'Mal o sinal soou' como subordinada adverbial temporal (gram-06). Pertence à classe das conjunções (gram-04). Não é advérbio (que modificaria o verbo no sentido de 'deficientemente'), nem substantivo, nem pronome, nem preposição. (A) se fosse advérbio, o sentido seria 'o sinal soou deficientemente' — sem sentido no contexto. (B) e (D) e (E) incorretos quanto à classe gramatical e função."
+        "gabarito": "B",
+        "explicacao": "A integração gram-05 (flexão verbal — modo subjuntivo, pretérito imperfeito) e gram-08 (subordinação concessiva com 'embora') é essencial. 'Embora' é conjunção subordinativa concessiva que exige o modo subjuntivo — correto. Como o verbo principal está no pretérito perfeito ('passou'), a correlação temporal exige o pretérito imperfeito do subjuntivo: 'fossem' — correto. O conectivo 'portanto' indica consequência lógica de estudar → passar — relação semanticamente válida. A frase toda é gramaticalmente correta: sequência (estudou + portanto passou) + ressalva concessiva (embora as questões fossem difíceis)."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-05",
-        "enunciado": "Analise o período: 'Os recrutas que partissem em missão deveriam ter sido vacinados previamente.' Identifique o modo e tempo verbal de 'partissem' e classifique a oração que contém esse verbo.",
+        "topico_referencia": "gram-06 + gram-13",
+        "enunciado": "Leia: 'O oficial **referiu-se** ao relatório, **informou** os presentes e **pediu** para os recrutas **apresentarem** as conclusões.' Sobre a regência e a flexão verbal, é correto afirmar que:",
         "alternativas": {
-          "A": "'Partissem' é pretérito imperfeito do subjuntivo; a oração 'que partissem em missão' é subordinada adjetiva restritiva.",
-          "B": "'Partissem' é futuro do subjuntivo; a oração é coordenada assindética.",
-          "C": "'Partissem' é pretérito imperfeito do indicativo; a oração é adverbial causal.",
-          "D": "'Partissem' é presente do subjuntivo; a oração é substantiva subjetiva.",
-          "E": "'Partissem' é imperfeito do indicativo; a oração é adjetiva explicativa."
+          "A": "'Pediu para os recrutas apresentarem' — o infinitivo pessoal 'apresentarem' está incorreto; deveria ser 'apresentar' (impessoal).",
+          "B": "'Referiu-se ao relatório' está correto ('referir-se a' — transitivo indireto com preposição 'a'); 'pediu para os recrutas apresentarem' também está correto — infinitivo pessoal com sujeito expresso diferente do principal.",
+          "C": "'Informou os presentes' está errado: 'informar' exige preposição 'a' — deveria ser 'informou aos presentes'.",
+          "D": "'Referiu-se ao relatório' está errado: 'referir-se' é transitivo direto, sem necessidade de preposição.",
+          "E": "Há erro de colocação pronominal: 'o oficial referiu-se' deveria ser 'o oficial se referiu'."
         },
-        "gabarito": "A",
-        "explicacao": "'Partissem' é a forma do pretérito imperfeito do subjuntivo do verbo 'partir' (3ª pessoa do plural). O pretérito imperfeito do subjuntivo é reconhecido pela terminação '-sse' (partisse, partisses, partisse, partíssemos, partísseis, partissem). A oração 'que partissem em missão' tem 'que' como pronome relativo, modificando 'os recrutas' (antecedente) — adjetiva restritiva (sem vírgula). A questão integra flexão verbal — modo e tempo (gram-05) — com classificação de oração subordinada adjetiva (gram-06). (B) futuro do subjuntivo seria 'partissem' → não, o futuro seria 'partirem'. (C) e (E) indicativo é incorreto no contexto (o subjuntivo indica incerteza/hipótese). (D) presente do subjuntivo seria 'partam'."
+        "gabarito": "B",
+        "explicacao": "A integração gram-05 (infinitivo pessoal) e gram-10 (regência de 'referir-se', 'informar', 'pedir') é necessária. 'Referir-se a' é transitivo indireto com preposição 'a' — correto. 'Informar alguém' (no sentido de comunicar a alguém) admite objeto direto ('informou os presentes') — correto. 'Pediu para os recrutas apresentarem': o sujeito do infinitivo ('os recrutas') é diferente do sujeito da principal ('o oficial'), tornando obrigatório o infinitivo pessoal: 'apresentarem' — correto. A alternativa A erra ao negar o infinitivo pessoal obrigatório. A alternativa C erra ao impor preposição a 'informar'. A alternativa D nega a preposição de 'referir-se'."
       },
       {
         "id": "d08",
         "nivel": "avancado",
         "topico_referencia": "gram-06 + comp-07",
-        "enunciado": "Leia o trecho poético de uma canção militar: 'Minha pátria é minha língua.' Considerando que essa frase é também uma metáfora, e analisando sua estrutura oracional, é correto afirmar:",
+        "enunciado": "Leia: 'As palavras **eram** lanças que **feriam** sem deixar cicatriz. O texto **vivia**, **respirava**, **movia**-se entre as linhas.' As formas verbais no pretérito imperfeito e a figura de linguagem empregada produzem que efeito conjunto?",
         "alternativas": {
-          "A": "É um período composto por subordinação; a metáfora reside no verbo 'é', que indica igualdade literal.",
-          "B": "É um período simples com predicado nominal; 'minha língua' é predicativo do sujeito 'minha pátria'; a metáfora consiste em identificar, de forma não literal, pátria e língua.",
-          "C": "É uma frase nominal, pois 'é' é verbo de ligação sem valor semântico.",
-          "D": "É período composto por coordenação aditiva; a metáfora é uma comparação explícita.",
-          "E": "É um período simples com predicado verbal; 'minha língua' é o objeto direto do verbo 'é'."
+          "A": "O imperfeito indica ações futuras; a figura é hipérbole.",
+          "B": "O imperfeito indica ações habituais no passado; a figura é personificação (prosopopeia) — atribuir ações humanas ('vivia', 'respirava', 'movia-se') a objetos inanimados ('o texto'). A combinação cria efeito de continuidade e vitalidade do texto no passado.",
+          "C": "O imperfeito indica ações concluídas; a figura é metáfora.",
+          "D": "O imperfeito é usado incorretamente; deveriam ser verbos no presente do indicativo.",
+          "E": "O imperfeito indica incerteza; a figura é eufemismo."
         },
         "gabarito": "B",
-        "explicacao": "'Minha pátria é minha língua' é período simples: há apenas um verbo ('é', de ligação). O verbo de ligação forma o predicado nominal junto com o predicativo do sujeito ('minha língua'). É uma metáfora (figura de linguagem — comp-07): identifica dois elementos distintos ('pátria' e 'língua') de forma não literal, atribuindo à pátria a essência da língua. A questão integra estrutura do período simples com predicado nominal (gram-06) e identificação de metáfora (comp-07). (A) não é composto — um só verbo. (C) há verbo ('é'), portanto não é frase nominal. (D) não é composto por coordenação. (E) 'ser' de ligação não tem objeto direto — tem predicativo."
+        "explicacao": "A integração gram-05 (flexão verbal — pretérito imperfeito do indicativo) e comp-07 (figuras de linguagem — personificação/prosopopeia) é necessária. O pretérito imperfeito ('eram', 'feriam', 'vivia', 'respirava', 'movia') indica ações ou estados habituais, contínuos ou descritivos no passado — não ações pontuais concluídas. A figura presente é a personificação (ou prosopopeia): o texto — entidade inanimada — 'vivia', 'respirava' e 'movia-se', ações tipicamente humanas/biológicas. A 'lanças' cria também uma metáfora, mas o efeito dominante e conjunto com o imperfeito é de personificação que confere ao texto vitalidade contínua no passado."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-02",
-        "enunciado": "Analise: 'Refiro-me à situação em que os candidatos se encontravam quando chegaram à instituição.' Há uso do sinal de crase nas duas ocorrências de 'à'. Ambas estão corretas?",
+        "topico_referencia": "gram-06 + gram-11",
+        "enunciado": "Leia: 'A maioria dos candidatos **aprovaram** com nota superior à mínima exigida.' Sobre a flexão verbal e a concordância, assinale a alternativa correta:",
         "alternativas": {
-          "A": "Apenas a primeira está correta; 'à instituição' não exige crase porque 'chegaram' é intransitivo.",
-          "B": "Ambas estão corretas: 'à situação' (referir-se a + a situação = crase) e 'à instituição' (chegar a + a instituição = crase).",
-          "C": "Nenhuma está correta; 'referir-se' e 'chegar' são verbos intransitivos.",
-          "D": "Apenas 'à instituição' está correta; 'referir-se à situação' não exige crase porque 'situação' é sujeito.",
-          "E": "Apenas a primeira está correta; 'chegaram à instituição' não usa crase porque há pronome relativo 'que' antes."
+          "A": "'Aprovaram' está correto, pois concorda com o núcleo real do sujeito ('candidatos', plural).",
+          "B": "'Aprovaram' está correto pela concordância atrativa com o complemento nominal no plural.",
+          "C": "'Aprovaram' está incorreto: o sujeito é 'a maioria' (singular), portanto o verbo deveria ser 'aprovou'. A concordância com o núcleo 'maioria' é a padrão.",
+          "D": "'Aprovaram' está incorreto: o verbo deveria ser 'aprovara' (mais-que-perfeito).",
+          "E": "Ambas as formas ('aprovou' e 'aprovaram') são igualmente corretas e intercambiáveis sem qualquer distinção."
         },
-        "gabarito": "B",
-        "explicacao": "'Referir-se a' é verbo transitivo indireto que rege preposição 'a' (gram-10). 'Situação' é substantivo feminino precedido de artigo definido 'a' — a fusão da preposição 'a' + artigo 'a' = crase (gram-02): 'à situação'. 'Chegar a' também rege preposição 'a'; 'instituição' é feminino com artigo — crase: 'à instituição'. A oração relativa 'em que os candidatos se encontravam' é subordinada adjetiva (gram-06) e não interfere na crase de 'à situação'. (A) errado — 'chegar' no sentido de deslocamento para algum lugar rege preposição 'a'. (C) errado — ambos são transitivos indiretos. (D) errado — 'situação' é complemento, não sujeito. (E) o pronome relativo 'que' introduz a adjetiva, mas não interfere na crase que ocorre dentro dela ou após ela."
+        "gabarito": "C",
+        "explicacao": "A integração gram-05 (flexão verbal — pessoas e números) e gram-09 (concordância verbal com sujeito de sentido coletivo) é essencial. 'A maioria' é uma expressão partitiva cujo núcleo é 'maioria' — substantivo singular. A concordância padrão (preferida pela norma culta e pelas bancas de concurso) é com o núcleo: 'a maioria... aprovou'. A concordância com o complemento partitivo plural ('aprovaram') é tolerada em registros informais e por alguns gramáticos, mas a alternativa C descreve a regra da norma padrão, que é o critério adotado em provas militares. As alternativas A e B justificam o plural, mas a norma do concurso privilegia o singular."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-08",
-        "enunciado": "Leia: 'O candidato foi aprovado, mas ainda não recebeu a convocação, pois os resultados não foram divulgados.' Identifique as relações entre as orações e classifique cada conjunção.",
+        "topico_referencia": "gram-06 + gram-12",
+        "enunciado": "Leia: 'Os documentos **foram entregues**, **revistos** e **arquivados**; o prazo, **cumprido**.' Sobre a flexão verbal (particípios) e a pontuação, é correto afirmar que:",
         "alternativas": {
-          "A": "'Mas' = adversativa (coordenada); 'pois' = causal/explicativa (coordenada). O período é composto apenas por coordenação.",
-          "B": "'Mas' = concessiva (subordinada); 'pois' = conclusiva (coordenada). O período é misto.",
-          "C": "'Mas' = alternativa; 'pois' = causal. O período é composto por subordinação.",
-          "D": "'Mas' e 'pois' são ambos conclusivos. O período é composto por coordenação.",
-          "E": "'Mas' = adversativa; 'pois' = integrante (introduz subordinada substantiva)."
+          "A": "Há erro de pontuação: o ponto e vírgula deveria ser substituído por vírgula.",
+          "B": "'Revistos' é particípio irregular de 'rever'; 'cumprido' é particípio elíptico (com elipse de 'foi') — o ponto e vírgula antes de 'o prazo, cumprido' é adequado para separar duas orações de sentido completo com estrutura paralela.",
+          "C": "'Revistos' está errado: com 'foram', deveria ser 'revisados' (particípio regular).",
+          "D": "O ponto e vírgula está errado porque as orações são coordenadas aditivas, que exigem vírgula.",
+          "E": "'Arquivados' deveria ser 'arquivados' — forma inexistente; o correto seria 'arquivos'."
         },
-        "gabarito": "A",
-        "explicacao": "Há três orações independentes sintaticamente, ligadas por conjunções coordenativas: 'mas' (adversativa — indica contraste/ressalva) e 'pois' anteposto ao verbo 'foram' (explicativo — apresenta a razão de 'ainda não recebeu a convocação'). O período é composto exclusivamente por coordenação. Integra coordenação e subordinação (gram-08) com estrutura e classificação de orações (gram-06). (B) 'mas' não é concessivo — concessão usa 'embora', 'ainda que'. (C) erro de classificação; 'mas' não é alternativo. (D) 'mas' é adversativo, não conclusivo. (E) 'pois' não é integrante — não introduz substantiva."
+        "gabarito": "B",
+        "explicacao": "A integração gram-05 (flexão verbal — particípios) e gram-12 (pontuação — ponto e vírgula) é necessária. 'Entregues' é particípio irregular de 'entregar' (correto com 'foram'). 'Revistos' é particípio irregular de 'rever' — correto. 'Arquivados' é particípio regular de 'arquivar' — correto. O ponto e vírgula separa 'os documentos foram entregues, revistos e arquivados' da oração elíptica 'o prazo, [foi] cumprido' — separação de orações paralelas com sujeitos diferentes e sem conjunção, uso adequado do ponto e vírgula conforme as regras de pontuação. A alternativa C erra ao exigir 'revisados' com 'foram': 'rever' tem particípio irregular 'revisto', usado com 'ser/estar/foram'."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + comp-03",
-        "enunciado": "Leia o trecho: 'Os que chegaram cedo puderam escolher melhores lugares.' A informação implícita corretamente inferida é:",
+        "topico_referencia": "gram-06 + comp-02",
+        "enunciado": "Leia: 'Caso os documentos **tivessem sido entregues** no prazo, o processo **teria avançado** normalmente.' Qual é a informação implícita depreendida da flexão verbal em modo e tempo, e qual é a estrutura verbal presente?",
         "alternativas": {
-          "A": "Todos chegaram cedo.",
-          "B": "Ninguém chegou tarde.",
-          "C": "Há pessoas que não chegaram cedo e, portanto, não puderam escolher os melhores lugares.",
-          "D": "Os melhores lugares eram em número ilimitado.",
-          "E": "Chegar cedo foi obrigatório para todos os presentes."
+          "A": "Informação implícita: os documentos foram entregues no prazo. Estrutura: condicional real.",
+          "B": "Informação implícita: os documentos NÃO foram entregues no prazo, e o processo NÃO avançou normalmente. Estrutura: período hipotético irreal do passado (pretérito mais-que-perfeito do subjuntivo + futuro do pretérito composto).",
+          "C": "Informação implícita: talvez os documentos tenham sido entregues. Estrutura: condicional possível.",
+          "D": "Informação implícita: os documentos serão entregues no prazo. Estrutura: condicional futuro.",
+          "E": "Não há informação implícita; o período é apenas hipotético sem comprometimento com a realidade."
         },
-        "gabarito": "C",
-        "explicacao": "A oração adjetiva restritiva 'Os que chegaram cedo' (gram-06 — adjetiva restritiva) pressupõe implicitamente a existência de um grupo que NÃO chegou cedo — do contrário, o uso do artigo definido 'Os' com a restritiva não faria sentido (bastaria dizer 'Todos puderam escolher…'). Essa informação implícita (comp-03) é uma pressuposição: ao restringir 'os que chegaram cedo', o enunciado implica que outros não chegaram cedo e, portanto, não tiveram o mesmo benefício. (A) e (B) contradizem a pressuposição da restritiva. (D) contradiz a lógica da escassez implícita. (E) não há indicação de obrigatoriedade — foi uma vantagem, não uma exigência."
+        "gabarito": "B",
+        "explicacao": "A integração gram-05 (modo subjuntivo — pretérito mais-que-perfeito do subjuntivo: 'tivessem sido entregues'; futuro do pretérito composto: 'teria avançado') e comp-03 (informação implícita) é essencial. O período hipotético irreal do passado — construído com pretérito mais-que-perfeito do subjuntivo na prótase + futuro do pretérito composto na apódose — implica que a condição NÃO se realizou no passado: os documentos NÃO foram entregues no prazo (por isso o subjuntivo irreal); consequentemente, o processo NÃO avançou normalmente. Essa é a informação implícita codificada pela flexão verbal — o leitor a deduz da estrutura gramatical sem que esteja explicitamente enunciada."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-09",
-        "enunciado": "Analise o período: 'São conhecidos os feitos heroicos dos marinheiros que defenderam o litoral.' O verbo 'São' está em concordância com:",
+        "topico_referencia": "gram-06 + gram-05",
+        "enunciado": "Leia: '**Aprovados** os candidatos, **divulgaram-se** os resultados.' Sobre a classificação morfológica e a flexão das formas verbais destacadas, assinale a alternativa correta:",
         "alternativas": {
-          "A": "Com 'feitos', que é o predicativo do sujeito 'heroicos'.",
-          "B": "Com 'os feitos heroicos dos marinheiros', que é o sujeito posposto ao verbo.",
-          "C": "Com 'marinheiros', que é o sujeito da oração adjetiva restritiva.",
-          "D": "Com 'litoral', que é o objeto direto da oração subordinada.",
-          "E": "Há erro de concordância: o correto seria 'É conhecido os feitos'."
+          "A": "'Aprovados' é particípio em oração absoluta; 'divulgaram-se' é verbo na voz passiva sintética — ambos flexionados corretamente.",
+          "B": "'Aprovados' é adjetivo; 'divulgaram-se' é verbo reflexivo.",
+          "C": "'Aprovados' é gerúndio; 'divulgaram-se' é verbo na voz ativa.",
+          "D": "'Aprovados' é particípio; 'divulgaram-se' é voz ativa com sujeito indeterminado pelo 'se'.",
+          "E": "'Aprovados' é infinitivo pessoal flexionado; 'divulgaram-se' é voz passiva sintética."
         },
-        "gabarito": "B",
-        "explicacao": "O verbo 'São' concorda com o sujeito 'os feitos heroicos dos marinheiros' (plural), que está posposto (depois do verbo). Em predicados nominais com verbo 'ser', quando o sujeito vem depois do verbo, o verbo concorda com o sujeito (gram-09). 'Que defenderam o litoral' é subordinada adjetiva restritiva (gram-06) modificando 'marinheiros' — não é o sujeito da oração principal. (A) 'heroicos' é adjunto adnominal de 'feitos', não predicativo. (C) 'marinheiros' é sujeito da adjetiva, não da oração principal. (D) 'litoral' é objeto da subordinada. (E) há erro de análise — a concordância está correta."
+        "gabarito": "A",
+        "explicacao": "A integração gram-05 (formas nominais — particípio; voz passiva sintética) e gram-04 (classes de palavras — particípio como forma nominal do verbo) é necessária. 'Aprovados' é o particípio de 'aprovar', usado em oração reduzida de particípio (= 'Depois que os candidatos foram aprovados'), com concordância com 'os candidatos' (masculino plural). 'Divulgaram-se' é a voz passiva sintética: 'se' é apassivador, 'os resultados' é o sujeito paciente, e o verbo concordou com ele no plural ('divulgaram'). A alternativa D erra ao classificar 'divulgaram-se' como voz ativa com sujeito indeterminado — nesse caso, o 'se' é apassivador (há objeto que pode virar sujeito), não indeterminador."
       },
       {
         "id": "d13",
         "nivel": "avancado",
         "topico_referencia": "gram-06 + comp-06",
-        "enunciado": "Leia: 'O soldado que avança nunca recua.' e 'O soldado avança e nunca recua.' Em termos de relações lexicais e estrutura oracional, a diferença entre os dois períodos é:",
+        "enunciado": "Leia: 'O comandante **punira** os infratores. A **sanção** aplicada foi exemplar.' A forma verbal 'punira' e a palavra 'sanção' estabelecem que relação lexical e que flexão verbal?",
         "alternativas": {
-          "A": "No primeiro, 'avança' é verbo da oração adjetiva restritiva que modifica 'soldado'; no segundo, é verbo de oração coordenada aditiva. O sentido é o mesmo em ambos.",
-          "B": "No primeiro, 'que avança' é adjetiva restritiva — define um tipo específico de soldado (o que avança); 'nunca recua' é a oração principal. No segundo, ambos os verbos são de orações coordenadas com o mesmo sujeito. O sentido difere: o primeiro expressa condição ou característica; o segundo narra duas ações consecutivas.",
-          "C": "No primeiro, há hipérbole; no segundo, antítese. A estrutura oracional é idêntica.",
-          "D": "Ambos são períodos simples com predicados verbais compostos.",
-          "E": "No primeiro, 'avança' é predicativo do sujeito 'soldado'; no segundo, é verbo intransitivo coordenado."
+          "A": "'Punira' é o pretérito mais-que-perfeito simples de 'punir'; 'sanção' é um hiperônimo de 'puna' (punição) — relação de hiperonímia.",
+          "B": "'Punira' é o futuro do pretérito de 'punir'; 'sanção' é sinônimo contextual de 'punição' — relação de sinonímia.",
+          "C": "'Punira' é o pretérito mais-que-perfeito simples de 'punir' (3ª pessoa do singular); 'sanção' é sinônimo contextual de 'punição', estabelecendo coesão lexical por sinonímia.",
+          "D": "'Punira' é o pretérito perfeito de 'punir'; 'sanção' é hipônimo de 'punição'.",
+          "E": "'Punira' é o pretérito imperfeito de 'punir'; 'sanção' é antônimo de 'recompensa' — relação de antonímia."
         },
-        "gabarito": "B",
-        "explicacao": "No primeiro período, 'que avança' é oração subordinada adjetiva restritiva (gram-06): restringe o universo de soldados àqueles que avançam, e diz que esses nunca recuam — há uma relação lógica de caracterização/condição. No segundo, 'avança' e 'recua' são verbos de orações coordenadas com o mesmo sujeito ('o soldado'), narrando duas ações do mesmo sujeito. A relação de sentido muda: no primeiro, a propriedade de avançar é uma condição permanente (relação léxico-semântica de complementaridade — comp-06); no segundo, descreve ações sequenciais ou habituais. A questão integra classificação de adjetivas (gram-06) com análise de relações lexicais/semânticas (comp-06). (A) nega a diferença de sentido — que existe. (C) figura de linguagem incorreta. (D) ambos são compostos."
+        "gabarito": "C",
+        "explicacao": "A integração gram-05 (flexão verbal — pretérito mais-que-perfeito simples) e comp-06 (relações lexicais — sinonímia) é necessária. 'Punira' é o pretérito mais-que-perfeito simples do indicativo de 'punir': eu punira, tu puniras, ele punira — forma que indica ação passada anterior a outra ação passada. 'Sanção' é sinônimo contextual de 'punição' — no contexto jurídico-militar, 'sanção' refere-se a penalidade aplicada, equivalendo a 'punição'. Essa substituição configura coesão lexical por sinonímia (comp-10/comp-06): evita repetir 'puniu/punição' e retoma o evento com termo equivalente."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + comp-04",
-        "enunciado": "Leia o fragmento de um discurso do comandante: 'Aqui, neste quartel, cada pedra transpira história.' Sobre a estrutura oracional e o tipo de linguagem, é correto afirmar:",
+        "topico_referencia": "gram-06 + gram-11",
+        "enunciado": "Leia: 'Fazem dez anos que o regulamento **foi aprovado**. Naquela época, **fazia-se** necessário modernizar os procedimentos.' Sobre a flexão verbal de 'fazer' como verbo impessoal e a voz verbal, assinale a alternativa correta:",
         "alternativas": {
-          "A": "Período composto por subordinação; linguagem denotativa, pois pedras realmente retêm umidade.",
-          "B": "Período simples com sujeito 'cada pedra' e predicado verbal 'transpira história'; uso de linguagem conotativa (personificação/prosopopeia), pois pedras não transpiram literalmente.",
-          "C": "Período simples; linguagem denotativa, pois 'transpirar' está em sentido próprio.",
-          "D": "Período composto por coordenação; linguagem técnica e objetiva.",
-          "E": "Frase nominal, pois não há verbo; linguagem conotativa."
+          "A": "'Fazem dez anos' está correto: 'fazer' concorda com 'dez anos' (plural).",
+          "B": "'Fazem dez anos' está incorreto: 'fazer' no sentido de tempo decorrido é impessoal — fica no singular: 'Faz dez anos'. 'Foi aprovado' é voz passiva analítica correta. 'Fazia-se necessário' é correto: 'fazer-se' no sentido de 'tornar-se' com predicativo.",
+          "C": "'Fazia-se necessário' está errado: com sujeito expresso, o 'se' é indeterminador e não se usa com 'fazia'.",
+          "D": "'Foi aprovado' está errado: com 'ser', o particípio deveria ser 'aprovando'.",
+          "E": "'Fazem dez anos' e 'fazia-se necessário' estão ambos corretos; apenas 'foi aprovado' está errado."
         },
         "gabarito": "B",
-        "explicacao": "'Cada pedra transpira história' é período simples: um único verbo ('transpira'), sujeito 'cada pedra', predicado verbal 'transpira história'. 'Aqui, neste quartel' são adjuntos adverbiais de lugar. O verbo 'transpirar', aplicado a pedras (seres inanimados), expressa linguagem conotativa (comp-04) — especificamente prosopopeia/personificação (figura de linguagem comp-07), atribuindo a objeto inanimado uma ação humana. Integra estrutura do período simples (gram-06) com distinção entre linguagem denotativa e conotativa (comp-04). (A) há apenas um verbo — período simples, não composto. (C) 'transpirar' não está em sentido literal/denotativo aqui. (D) não há dois núcleos verbais independentes. (E) há verbo 'transpira'."
+        "explicacao": "A integração gram-05 (flexão verbal — impessoalidade do verbo 'fazer' indicando tempo) e gram-09 (concordância — verbo impessoal permanece no singular) é fundamental. 'Fazer' no sentido de tempo decorrido é impessoal: não possui sujeito, permanece sempre no singular — 'faz dez anos', 'fazia dois meses'. 'Fazem dez anos' é erro de concordância: o falante trata 'dez anos' como sujeito, mas ele é complemento. 'Foi aprovado' é voz passiva analítica correta. 'Fazia-se necessário': construção com 'fazer-se' + adjetivo ('necessário') funciona como locução verbal de sentido de 'tornar-se/ser necessário' — aceita na norma culta."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-01",
-        "enunciado": "Leia o período: 'Quem quer que seja o aprovado deverá comparecer imediatamente, visto que o prazo expirara na véspera.' Há erro de ortografia ou acentuação nesse período?",
+        "topico_referencia": "gram-06 + gram-14",
+        "enunciado": "Leia: '**Entregue-lhe** os documentos solicitados.' e 'Os documentos solicitados **lhe entregue**.' Sobre a flexão do imperativo, a colocação pronominal e a adequação das frases, assinale a alternativa correta:",
         "alternativas": {
-          "A": "Sim: 'expirara' deveria ser 'expirará' (futuro do presente).",
-          "B": "Não há erro; 'expirara' é pretérito mais-que-perfeito simples (sem acento), correto no contexto.",
-          "C": "Sim: 'véspera' deveria ser acentuada como 'véspéra'.",
-          "D": "Sim: 'quem quer que seja' deveria ser escrito 'quem-quer-que-seja' com hifens.",
-          "E": "Sim: 'visto que' deveria ser 'vistoque' (uma palavra só)."
+          "A": "Ambas as frases estão corretas e são equivalentes.",
+          "B": "'Entregue-lhe' (ênclise no imperativo afirmativo) está incorreto: no imperativo afirmativo, o pronome vai depois do verbo apenas em próclise.",
+          "C": "'Entregue-lhe os documentos' está correto (ênclise no imperativo afirmativo — regra padrão). 'Os documentos solicitados lhe entregue' apresenta ordem invertida (objeto antecipado) com próclise — estrutura possível, mas marcada estilisticamente.",
+          "D": "'Entregue-lhe' está correto; 'lhe entregue' está errado porque pronomes não podem preceder o verbo no imperativo.",
+          "E": "Ambas as frases estão erradas: o imperativo afirmativo exige ênclise com hífen obrigatório e não admite próclise."
         },
-        "gabarito": "B",
-        "explicacao": "'Expirara' é a forma do pretérito mais-que-perfeito simples do verbo 'expirar' (3ª pessoa do singular: eu expirara, tu expirarás… — note: sem acento no mais-que-perfeito simples; o acento circunflexo distinguia o mais-que-perfeito do futuro do pretérito, mas pelo Acordo Ortográfico vigente desde 2016 — gram-01 — esse acento diferencial foi eliminado). O contexto ('o prazo expirara na véspera') exige o mais-que-perfeito (ação anterior a outra no passado), e 'expirara' sem acento está correto. 'Véspera' é paroxítona terminada em 'a', sem necessidade de acento. 'Quem quer que seja' é locução pronomial não hifenizada. 'Visto que' é locução conjuntiva de duas palavras. (A) errado — o contexto exige mais-que-perfeito (antes do prazo de comparecimento), não futuro. (C) 'véspera' não tem segunda sílaba tônica. (D) e (E) incorretos ortograficamente."
+        "gabarito": "C",
+        "explicacao": "A integração gram-05 (modo imperativo — flexão verbal) e gram-11 (colocação pronominal) é essencial. No imperativo afirmativo, a regra padrão é a ênclise: 'entregue-lhe' — correto. Quando há elemento antecipado (objeto direto à frente da oração), a próclise se justifica por atração pronominal: 'Os documentos solicitados lhe entregue' — a anteposição do objeto ('os documentos solicitados') cria contexto de próclise. A alternativa D erra ao afirmar que próclise é impossível no imperativo — ela é apenas não preferida sem fator de atração. A alternativa E erra ao absolutizar a ênclise como regra sem exceções."
       }
     ]
   }
