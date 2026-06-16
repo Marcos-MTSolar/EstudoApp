@@ -14,6 +14,8 @@ interface DiaSemana {
   topicos: string[];
   atividade: 'teoria' | 'questoes' | 'simulado' | 'revisao' | 'descanso';
   descricao: string;
+  // Nível pedagógico por tópico do dia: chave = topicoId, valor = nivel
+  nivelPorTopico: Record<string, 'basico' | 'intermediario' | 'avancado' | null>;
 }
 
 interface Semana {
@@ -98,6 +100,8 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
   const [checklist, setChecklist] = useState<Record<string, Record<string, boolean>>>({});
   const [semanaAtual, setSemanaAtual] = useState<number>(1);
   const [semanaVisualizadaIndex, setSemanaVisualizadaIndex] = useState<number>(0);
+  // Status diário: chave = "semana{N}_{diaNome}_{topicoId}", valor = status
+  const [statusDiario, setStatusDiario] = useState<Record<string, 'pendente' | 'andamento' | 'concluido'>>({}); 
 
   // Calcula semana atual baseada em new Date() e INICIO_ESTUDOS
   useEffect(() => {
@@ -122,6 +126,33 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
       }
     }
   }, []);
+
+  // Carrega status diário do localStorage (chave separada)
+  useEffect(() => {
+    const saved = localStorage.getItem('rm2_cronograma_status_diario');
+    if (saved) {
+      try {
+        setStatusDiario(JSON.parse(saved));
+      } catch (e) {
+        console.error("Erro ao ler rm2_cronograma_status_diario:", e);
+      }
+    }
+  }, []);
+
+  // Alterna o status de uma tarefa diária ciclicamente: pendente → andamento → concluido → pendente
+  const toggleStatusDiario = (chave: string) => {
+    setStatusDiario(prev => {
+      const atual = prev[chave] || 'pendente';
+      const proximo: Record<string, 'pendente' | 'andamento' | 'concluido'> = {
+        pendente: 'andamento',
+        andamento: 'concluido',
+        concluido: 'pendente'
+      };
+      const novo = { ...prev, [chave]: proximo[atual] };
+      localStorage.setItem('rm2_cronograma_status_diario', JSON.stringify(novo));
+      return novo;
+    });
+  };
 
   const toggleCheck = (topicoId: string, fase: string) => {
     setChecklist(prev => {
@@ -297,12 +328,29 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
           }
         }
 
+        // Determina o nível pedagógico de cada tópico do dia
+        const nivelPorTopico: Record<string, 'basico' | 'intermediario' | 'avancado' | null> = {};
+        if (sem.f === 1) {
+          // Fase 1 — Estudo Inicial: nível básico em todos os tópicos
+          topicosDia.forEach(tid => { nivelPorTopico[tid] = 'basico'; });
+        } else if (sem.f === 2) {
+          // Fase 2 — 1ª Revisão Espaçada: nível intermediário
+          topicosDia.forEach(tid => { nivelPorTopico[tid] = 'intermediario'; });
+        } else if (sem.f === 3) {
+          // Fase 3 — 2ª Revisão Espaçada: nível avançado
+          topicosDia.forEach(tid => { nivelPorTopico[tid] = 'avancado'; });
+        } else {
+          // Fases 4 e 5 — Simulados e Revisão Final: sem nível específico
+          topicosDia.forEach(tid => { nivelPorTopico[tid] = null; });
+        }
+
         dias.push({
           data: dataBR,
           diaNome,
           topicos: topicosDia,
           atividade,
-          descricao
+          descricao,
+          nivelPorTopico
         });
       }
 
@@ -385,18 +433,19 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
     }
   };
 
-  // Calcular aproveitamento por área
+  // Calcular aproveitamento por área (5 checkpoints: teoria, basico, intermediario, avancado, revisao)
   const aproveitamentoArea = (areaId: string) => {
     const area = RM2_CONTEUDO.areas.find(a => a.id === areaId);
     if (!area) return 0;
     
     let totalChecks = 0;
-    const totalPossivel = area.assuntos.length * 4; // 4 checkpoints por assunto
+    const totalPossivel = area.assuntos.length * 5; // 5 checkpoints por assunto
 
     area.assuntos.forEach(as => {
       const state = checklist[as.id] || {};
       if (state.teoria) totalChecks++;
       if (state.basico) totalChecks++;
+      if (state.intermediario) totalChecks++; // campo adicionado na Parte 50
       if (state.avancado) totalChecks++;
       if (state.revisao) totalChecks++;
     });
@@ -645,25 +694,59 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
                                   {dia.topicos.map(tId => {
                                     const as = findAssuntoById(tId);
                                     if (!as) return null;
+                                    // Chave única: semana + dia + tópico
+                                    const chaveStatus = `semana${sem.numero}_${dia.diaNome.replace(/[^a-zA-Z]/g, '').toLowerCase()}_${tId}`;
+                                    const statusAtual = statusDiario[chaveStatus] || 'pendente';
+                                    const nivelTopico = dia.nivelPorTopico?.[tId] ?? null;
+                                    const nivelLabel: Record<string, string> = {
+                                      basico: 'BÁSICO',
+                                      intermediario: 'INTERMEDIÁRIO',
+                                      avancado: 'AVANÇADO'
+                                    };
+                                    const statusConfig = {
+                                      pendente: { icon: '⚪', label: 'Pendente', cls: 'bg-white/5 border-white/10 text-gray-400 hover:border-white/20' },
+                                      andamento: { icon: '🟡', label: 'Em Andamento', cls: 'bg-yellow-500/10 border-yellow-500/20 text-yellow-400 hover:bg-yellow-500/15' },
+                                      concluido: { icon: '✅', label: 'Concluído', cls: 'bg-emerald-500/10 border-emerald-500/20 text-emerald-400 hover:bg-emerald-500/15' }
+                                    };
+                                    const sc = statusConfig[statusAtual];
                                     return (
                                       <div key={tId} className="flex flex-wrap items-center justify-between gap-3 bg-black/20 p-2.5 rounded-xl border border-border/60">
-                                        <span className="text-xs text-gray-200 font-bold truncate max-w-md">{as.nome}</span>
-                                        {onNavigate && (
-                                          <div className="flex items-center gap-2">
-                                            <button
-                                              onClick={() => onNavigate('teoria', as)}
-                                              className="bg-blue-600/15 hover:bg-blue-600/20 border border-blue-500/20 text-blue-400 px-3 py-1.5 rounded-lg text-[10px] font-black uppercase tracking-wide transition-colors font-sans"
-                                            >
-                                              Estudar Teoria
-                                            </button>
-                                            <button
-                                              onClick={() => onNavigate('questoes', as)}
-                                              className="bg-purple-600/15 hover:bg-purple-600/20 border border-purple-500/20 text-purple-400 px-3 py-1.5 rounded-lg text-[10px] font-black uppercase tracking-wide transition-colors font-sans"
-                                            >
-                                              Bateria Questões
-                                            </button>
-                                          </div>
-                                        )}
+                                        <div className="flex flex-wrap items-center gap-2 flex-1 min-w-0">
+                                          <span className="text-xs text-gray-200 font-bold truncate max-w-xs">{as.nome}</span>
+                                          {/* Badge de nível pedagógico */}
+                                          {nivelTopico && (
+                                            <span className="text-[8px] font-black uppercase px-1.5 py-0.5 rounded bg-white/5 border border-white/10 text-gray-400 shrink-0">
+                                              NÍVEL: {nivelLabel[nivelTopico]}
+                                            </span>
+                                          )}
+                                        </div>
+                                        <div className="flex items-center gap-2 shrink-0">
+                                          {onNavigate && (
+                                            <>
+                                              <button
+                                                onClick={() => onNavigate('teoria', as)}
+                                                className="bg-blue-600/15 hover:bg-blue-600/20 border border-blue-500/20 text-blue-400 px-3 py-1.5 rounded-lg text-[10px] font-black uppercase tracking-wide transition-colors font-sans"
+                                              >
+                                                Estudar Teoria
+                                              </button>
+                                              <button
+                                                onClick={() => onNavigate('questoes', as)}
+                                                className="bg-purple-600/15 hover:bg-purple-600/20 border border-purple-500/20 text-purple-400 px-3 py-1.5 rounded-lg text-[10px] font-black uppercase tracking-wide transition-colors font-sans"
+                                              >
+                                                Bateria Questões
+                                              </button>
+                                            </>
+                                          )}
+                                          {/* Botão de status cíclico */}
+                                          <button
+                                            onClick={() => toggleStatusDiario(chaveStatus)}
+                                            title={`Status: ${sc.label} — clique para avançar`}
+                                            className={`flex items-center gap-1 px-2.5 py-1.5 rounded-lg border text-[10px] font-black uppercase tracking-wide transition-all font-sans ${sc.cls}`}
+                                          >
+                                            <span>{sc.icon}</span>
+                                            <span className="hidden sm:inline">{sc.label}</span>
+                                          </button>
+                                        </div>
                                       </div>
                                     );
                                   })}
@@ -785,8 +868,9 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
                     <div className="grid gap-3">
                       {area.assuntos.map(assunto => {
                         const state = checklist[assunto.id] || {};
-                        const numConcluidos = ['teoria', 'basico', 'avancado', 'revisao'].filter(f => state[f]).length;
-                        const allDone = numConcluidos === 4;
+                        // intermediario pode estar ausente em dados antigos — trata como false
+                        const numConcluidos = ['teoria', 'basico', 'intermediario', 'avancado', 'revisao'].filter(f => !!state[f]).length;
+                        const allDone = numConcluidos === 5;
 
                         return (
                           <div
@@ -803,11 +887,12 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
                               <p className="text-[10px] text-gray-500 leading-normal font-medium">{assunto.descricao}</p>
                             </div>
 
-                            {/* Fases do checklist */}
-                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 shrink-0 font-sans">
+                            {/* Fases do checklist — 5 colunas incluindo Intermediário */}
+                            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 shrink-0 font-sans">
                               {[
                                 { key: 'teoria', label: 'Teoria' },
                                 { key: 'basico', label: 'Básico (≥60%)' },
+                                { key: 'intermediario', label: 'Intermediário (≥65%)' },
                                 { key: 'avancado', label: 'Avançado (≥70%)' },
                                 { key: 'revisao', label: 'Revisão' }
                               ].map(fase => {

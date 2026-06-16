@@ -1154,6 +1154,30 @@ docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
   - `comp-11` (Coesão Textual) e `comp-12` (Coerência e Textualidade) têm o mesmo conteúdo principal, mas `comp-12` recebe adicionalmente os blocos extras de `comp-11` e `comp-12` originais como complemento.
 - **Arquivos modificados:**
   - `src/data/conteudo/gram-01.json` a `gram-14.json` **[CORRIGIDOS]** (conteúdo realinhado ao tópico oficial)
-  - `src/data/conteudo/comp-01.json` a `comp-14.json` **[CORRIGIDOS]** (conteúdo realinhado ao tópico oficial)
-  - `src/data/conteudo/corrige_deslocamento_v2.py` **[NOVO]** (script definitivo de correção cirúrgica)
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 49 — Cronograma com Status de Conclusão e Nível de Estudo
+- **Data e hora:** 16/06/2026 às 10:05 (Horário Local)
+- **O que foi feito:**
+  - Adicionado o campo `nivelPorTopico` nas tarefas diárias geradas no `useMemo` das `SEMANAS`.
+  - Mapeado o nível de estudo pedagógico por fase: primeira semana de cada tópico (Fase 1) = Básico, segunda passagem (Fase 2) = Intermediário, fase de revisão (Fase 3) = Avançado. Outras fases/atividades sem nível específico foram definidas como `null`.
+  - Exibida uma badge do nível ao lado da badge de atividade no card de tópicos recomendados (ex: "NÍVEL: BÁSICO", "NÍVEL: INTERMEDIÁRIO", "NÍVEL: AVANÇADO") quando disponível.
+  - Implementado botão de status diário cíclico à direita do card com três estados clicáveis: `⚪ Pendente` ➔ `🟡 Em Andamento` ➔ `✅ Concluído` ➔ volta para `⚪ Pendente`.
+  - Persistido o status de cada tarefa diária no `localStorage` sob a chave exclusiva `rm2_cronograma_status_diario` usando identificadores compostos: `semana{N}_{diaNome}_{topicoId}`.
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
+
+---
+
+### Parte 50 — Checklist de Tópico com Nível Intermediário
+- **Data e hora:** 16/06/2026 às 10:10 (Horário Local)
+- **O que foi feito:**
+  - Adicionada a quinta coluna de checkbox "INTERMEDIÁRIO (≥65%)" posicionada entre "BÁSICO (≥60%)" e "AVANÇADO (≥70%)" na aba "Checklist de Tópicos".
+  - O estado do checkbox "INTERMEDIÁRIO" foi integrado à persistência do `localStorage` sob a chave `rm2_cronograma_v2`, tratando a ausência do campo em dados antigos como `false` por padrão.
+  - Ajustado o cálculo da barra de progresso por área (Gramática e Compreensão de Texto) no topo da tela do Checklist para passar a considerar 5 checkpoints por assunto (Teoria, Básico, Intermediário, Avançado, Revisão) em vez de 4.
+  - Validado o build com `npx tsc --noEmit` (zero erros TypeScript) e `npm run build` (sucesso com Exit code: 0).
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
