@@ -1236,3 +1236,19 @@ docs: atualiza controle de conteÃºdo RM2 no RESUMO_MESTRE
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 55 - Auditoria de Gabaritos e Correção de Ambiguidade
+- **Data e hora:** 20/06/2026 às 11:08 (Horário Local)
+- **O que foi feito:**
+  - Executada auditoria de 1.250 questões (questões, simulados e desafios) em 25 arquivos JSON do RM2 para identificar inconsistências entre o gabarito oficial e a explicação fornecida.
+  - Foram corrigidos 4 casos óbvios automaticamente nos arquivos gram-01.json e gram-03.json.
+  - Foi corrigido 1 caso ambíguo no gram-01.json (questão d09): gabarito alterado de E para B, e explicação reescrita mantendo o padrão didático e corrigindo a análise do uso do hífen em "contraordem".
+  - Validação via 
+px tsc --noEmit e 
+pm run build concluída com sucesso (Exit code: 0).
+- **Arquivos modificados:**
+  - src/data/conteudo/gram-01.json **[MODIFICADO]**
+  - src/data/conteudo/gram-03.json **[MODIFICADO]**
+  - RESUMO_MESTRE.md **[ATUALIZADO]**
