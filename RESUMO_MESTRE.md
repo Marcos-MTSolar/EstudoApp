@@ -1252,3 +1252,20 @@ pm run build conclu�da com sucesso (Exit code: 0).
   - src/data/conteudo/gram-01.json **[MODIFICADO]**
   - src/data/conteudo/gram-03.json **[MODIFICADO]**
   - RESUMO_MESTRE.md **[ATUALIZADO]**
+
+---
+
+### Parte 56 - Substituição de Conteúdos Duplicados no Módulo RM2 (gram-07, gram-12, comp-12)
+- **Data e hora:** 20/06/2026 às 11:33 (Horário Local)
+- **O que foi feito:**
+  - Substituição integral dos arquivos gram-07.json (Flexão Verbal), gram-12.json (Concordância Verbal) e comp-12.json (Coerência e Textualidade) com os novos dados de conteúdo pedagógico.
+  - Correção na estrutura de gram-12.json (remoção da chave incorreta explicacode da questão q18).
+  - Todos os arquivos substituídos mantiveram a adesão estrita ao padrão de tipagem do projeto.
+  - Testes realizados com 
+px tsc --noEmit e 
+pm run build após cada etapa, todos finalizados com sucesso (Exit code 0).
+- **Arquivos modificados:**
+  - src/data/conteudo/gram-07.json **[MODIFICADO]**
+  - src/data/conteudo/gram-12.json **[MODIFICADO]**
+  - src/data/conteudo/comp-12.json **[MODIFICADO]**
+  - RESUMO_MESTRE.md **[ATUALIZADO]**

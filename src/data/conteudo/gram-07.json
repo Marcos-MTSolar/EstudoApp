@@ -2,873 +2,871 @@
   "id": "gram-07",
   "titulo": "Flexão Verbal",
   "area": "Gramática",
-  "resumo": "A flexão é o processo pelo qual as palavras variam sua forma para expressar categorias gramaticais. Os nomes (substantivos, adjetivos, artigos, pronomes e numerais) flexionam em gênero e número; alguns pronomes e artigos também em caso. Os verbos flexionam em pessoa, número, tempo, modo e voz. O domínio da flexão nominal e verbal é condição essencial para a correção gramatical dos textos, influenciando diretamente a concordância, a regência e o emprego correto das formas verbais. No concurso RM2, questões de flexão aparecem embutidas em contextos de concordância, interpretação textual e reescritura de frases.",
+  "resumo": "Estudo das flexões do verbo — pessoa, número, modo, tempo, voz e formas nominais — incluindo a conjugação de verbos regulares, irregulares, defectivos e abundantes, com foco nos casos mais cobrados em provas de Língua Portuguesa.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Flexão de Gênero nos Substantivos",
-        "conteudo": "O gênero gramatical em português é masculino ou feminino e não corresponde necessariamente ao sexo biológico. Os substantivos se distribuem em: (a) substantivos biformes — possuem duas formas, uma para cada gênero, podendo variar por sufixo ('menino/menina', 'ator/atriz', 'rei/rainha'), por palavra distinta (heterônimos: 'boi/vaca', 'pai/mãe', 'genro/nora') ou por artigo diferenciador ('o guia/a guia', 'o colega/a colega'); (b) substantivos uniformes — têm uma única forma para os dois gêneros, distinguidos pelo artigo: epicenos (referem-se a animais, com gênero fixo independente do sexo: 'a cobra', 'o gavião'), sobrecomuns (referem-se a pessoas com gênero fixo: 'a criança', 'a testemunha', 'o cônjuge') e comuns de dois gêneros (variam apenas pelo artigo: 'o/a artista', 'o/a estudante', 'o/a intérprete'). Cunha e Cintra (2017) alertam para os substantivos que mudam de sentido conforme o gênero: 'o capital' (dinheiro) / 'a capital' (cidade), 'o coma' (estado clínico) / 'a coma' (cabeleira), 'o rádio' (aparelho) / 'a rádio' (emissora).",
+        "subtitulo": "O que é flexão verbal",
+        "conteudo": "Flexão verbal é a capacidade que o verbo tem de variar sua forma para indicar pessoa, número, modo, tempo e voz, sem perder seu significado lexical básico. Diferente do substantivo e do adjetivo (flexão nominal), o verbo é a classe de palavras com o sistema de flexões mais complexo da língua portuguesa, pois precisa expressar simultaneamente quem pratica a ação (pessoa), se é um ou vários (número), a atitude do falante diante do fato (modo), quando a ação ocorre (tempo) e a relação entre o sujeito e a ação (voz).",
         "exemplos": [
-          "Biformes por sufixo: 'diretor/diretora', 'leão/leoa', 'barão/baronesa'",
-          "Heterônimos: 'bode/cabra', 'cavaleiro/dama', 'frei/freira'",
-          "Sobrecomuns: 'a vítima' (homem ou mulher), 'o indivíduo' (homem ou mulher)",
-          "Comuns de dois gêneros: 'o/a repórter', 'o/a líder', 'o/a mártir'",
-          "Mudança de sentido: 'o moral' (estado psicológico) / 'a moral' (conjunto de valores)"
+          "embarcar → embarco, embarcamos, embarcaram, embarcarei",
+          "comandar → comando, comandávamos, comandassem, comandado"
         ],
-        "regra": "Para substantivos uniformes, o gênero é marcado pelo artigo (o/a), não pela terminação da palavra. Para palavras que mudam de sentido conforme o gênero, o artigo é determinante — memorize os pares mais cobrados em provas: capital, moral, rádio, coma, cabeça."
+        "regra": "Toda forma verbal finita (exceto o infinitivo impessoal) traz, necessariamente, as marcas de modo, tempo, número e pessoa simultaneamente."
       },
       {
-        "subtitulo": "2. Flexão de Número nos Substantivos e Adjetivos",
-        "conteudo": "A formação do plural dos substantivos e adjetivos segue regras específicas conforme a terminação do singular. Terminações e plurais: (a) vogal ou ditongo oral → acrescenta '-s': 'casa/casas', 'pai/pais'; (b) '-ão' → três possibilidades: '-ões' (mais comum: 'avião/aviões', 'coração/corações'), '-ães' ('pão/pães', 'cão/cães', 'alemão/alemães'), '-ãos' (paroxítonos e alguns outros: 'mão/mãos', 'grão/grãos', 'cidadão/cidadãos'); (c) '-m' → '-ns': 'homem/homens', 'garagem/garagens'; (d) '-r', '-z', '-n' → acrescenta '-es': 'mar/mares', 'rapaz/rapazes', 'abdômen/abdomens' (ou abdômens); (e) '-s' em oxítonas → acrescenta '-es': 'mês/meses', 'país/países'; '-s' em não oxítonas → invariável: 'o/os atlas', 'o/os vírus', 'o/os ônibus'; (f) '-al', '-el', '-ol', '-ul' → troca '-l' por '-is': 'animal/animais', 'papel/papéis', 'farol/faróis', 'paul/paus'; (g) '-il' oxítono → '-is': 'fuzil/fuzis'; '-il' não oxítono → '-eis': 'fácil/fáceis', 'réptil/répteis'. Compostos: seguem regras específicas conforme a estrutura.",
+        "subtitulo": "Flexão de número e pessoa",
+        "conteudo": "O verbo flexiona-se em duas pessoas (1ª, 2ª e 3ª) e dois números (singular e plural), concordando com o sujeito da oração. No português padrão da norma culta, a 2ª pessoa do plural (vós) é pouco usada na linguagem corrente, mas pode aparecer em textos formais, discursos solenes e documentos oficiais — contexto relevante para a redação militar, que preserva registros mais formais em comunicações cerimoniais.",
         "exemplos": [
-          "'-ão' com três plurais: 'cidadão/cidadãos', 'cão/cães', 'avião/aviões'",
-          "'-s' invariável: 'o atlas/os atlas', 'o vírus/os vírus'",
-          "'-al' → '-ais': 'canal/canais', 'animal/animais', 'sinal/sinais'",
-          "'-il' oxítono: 'barril/barris', 'fuzil/fuzis'; '-il' não oxítono: 'fácil/fáceis', 'míssil/mísseis'",
-          "Compostos com dois núcleos: 'couve-flor/couves-flores'; com verbo: 'guarda-chuva/guarda-chuvas' (ou 'guarda-chuvas')"
+          "1ª pessoa do singular: eu zarpo",
+          "3ª pessoa do plural: os aspirantes zarparam",
+          "2ª pessoa do plural (uso solene): vós zarpastes rumo ao alto-mar"
         ],
-        "regra": "Para palavras em '-ão', decore os três grupos. Para palavras em '-s', a invariabilidade vale apenas para não oxítonas. Para '-il', a tonicidade determina o plural: oxítona → '-is'; não oxítona → '-eis'."
+        "regra": "A pessoa e o número do verbo devem sempre concordar com o sujeito a que se referem, mesmo quando este está oculto ou subentendido."
       },
       {
-        "subtitulo": "3. Flexão dos Adjetivos: Grau Comparativo e Superlativo",
-        "conteudo": "Os adjetivos flexionam em gênero e número (concordando com o substantivo) e também em grau. O grau comparativo pode ser: (a) de superioridade: 'mais... do que/que'; (b) de inferioridade: 'menos... do que/que'; (c) de igualdade: 'tão... quanto/como'. O grau superlativo pode ser: (a) relativo de superioridade ('o mais... de/entre') ou de inferioridade ('o menos... de/entre'); (b) absoluto sintético — com sufixos como '-íssimo', '-érrimo', '-ílimo': 'fácil/facílimo', 'pobre/paupérrimo', 'ágil/agílimo'; absoluto analítico — com advérbios: 'muito fácil', 'extremamente ágil'. Formas especiais (irregulares) de comparativo e superlativo: 'bom/melhor/ótimo', 'mau/pior/péssimo', 'grande/maior/máximo', 'pequeno/menor/mínimo', 'alto/superior/supremo', 'baixo/inferior/ínfimo'. Cunha e Cintra (2017) advertem que 'mais melhor', 'mais pior', 'mais maior' são pleonasmos a evitar — 'melhor', 'pior' e 'maior' já são comparativos.",
+        "subtitulo": "Flexão de modo",
+        "conteudo": "O modo verbal expressa a atitude do falante em relação ao fato enunciado. O Indicativo apresenta o fato como certo, real, objetivo. O Subjuntivo apresenta o fato como hipotético, duvidoso, desejado ou dependente de outra ação. O Imperativo expressa ordem, pedido, conselho ou proibição, dirigindo-se diretamente ao interlocutor.",
         "exemplos": [
-          "Comparativo de superioridade analítico: 'O texto é mais claro do que o anterior.'",
-          "Comparativo sintético irregular: 'Esta solução é melhor que aquela.' (não: 'mais melhor')",
-          "Superlativo absoluto sintético: 'O oficial é celebérrimo.' (de 'célebre')",
-          "Superlativo absoluto sintético irregular: 'O resultado foi ótimo.' (de 'bom')",
-          "Superlativo relativo: 'É o maior porto do país.' (de 'grande'; não: 'o mais maior')"
+          "Indicativo: O comandante autoriza o desembarque.",
+          "Subjuntivo: Espero que o comandante autorize o desembarque.",
+          "Imperativo: Autorize o desembarque imediatamente!"
         ],
-        "regra": "Formas irregulares de comparativo ('melhor', 'pior', 'maior', 'menor', 'superior', 'inferior') nunca se combinam com 'mais' ou 'menos' — isso gera pleonasmo vicioso. Memorize os seis pares: bom/melhor/ótimo, mau/pior/péssimo, grande/maior/máximo, pequeno/menor/mínimo, alto/superior/supremo, baixo/inferior/ínfimo."
+        "regra": "O Subjuntivo costuma aparecer em orações subordinadas após verbos ou expressões que indiquem dúvida, desejo, ordem indireta ou possibilidade (esperar que, talvez, é possível que, duvidar que)."
       },
       {
-        "subtitulo": "4. Flexão Verbal: Modo, Tempo, Pessoa e Número",
-        "conteudo": "Os verbos em português flexionam em: (a) modo — indicativo (certeza), subjuntivo (dúvida, desejo, hipótese), imperativo (ordem, pedido); (b) tempo — presente, pretérito (perfeito, imperfeito, mais-que-perfeito), futuro (do presente, do pretérito); (c) pessoa — 1ª, 2ª, 3ª; (d) número — singular, plural; (e) voz — ativa, passiva, reflexiva. Os verbos se classificam em regulares (seguem o paradigma da conjugação), irregulares (têm variações no radical ou nas desinências), defectivos (não possuem algumas formas: 'falir', 'abolir', 'colorir' — sem 1ª pessoa do singular do presente do indicativo) e abundantes (possuem duas formas para a mesma flexão, especialmente no particípio: 'aceitado/aceito', 'entregado/entregue', 'matado/morto'). Cunha e Cintra (2017) destacam que verbos com dois particípios usam o particípio regular com os auxiliares 'ter' e 'haver' ('tinha aceitado', 'havia entregado') e o particípio irregular com os auxiliares 'ser' e 'estar' ('foi aceito', 'está entregue').",
+        "subtitulo": "Flexão de tempo nos modos Indicativo e Subjuntivo",
+        "conteudo": "No Indicativo, os tempos são: presente, pretérito perfeito, pretérito imperfeito, pretérito mais-que-perfeito, futuro do presente e futuro do pretérito. No Subjuntivo, os tempos são apenas três: presente, pretérito imperfeito e futuro. Cada tempo localiza a ação em relação ao momento da fala ou a um ponto de referência no passado ou no futuro.",
         "exemplos": [
-          "Irregular no presente: 'eu faço' (fazer), 'eu ouço' (ouvir), 'eu perco' (perder)',",
-          "Defectivo: 'abolir' — não se usa 'eu abolo'; usa-se nas formas com 'i' no radical: 'abolimos', 'abolem'",
-          "Abundante: 'tinha entregado' (aux. ter + part. regular) / 'foi entregue' (aux. ser + part. irregular)",
-          "Modo subjuntivo presente: 'que eu faça', 'que ele venha', 'que nós saibamos'",
-          "Futuro do pretérito (condicional): 'Estudaria mais se tivesse tempo.'"
+          "Pretérito perfeito: A esquadra partiu ao amanhecer.",
+          "Pretérito imperfeito: A esquadra partia todos os dias ao amanhecer.",
+          "Pretérito mais-que-perfeito: A esquadra já partira quando o sinal chegou.",
+          "Futuro do subjuntivo: Quando a esquadra partir, avisaremos o comando."
         ],
-        "regra": "Para particípios duplos: ter/haver + particípio regular; ser/estar + particípio irregular. Para verbos defectivos, evite as formas inexistentes — em prova, a alternativa com 'eu abolo', 'eu coloro' está errada."
+        "regra": "O futuro do subjuntivo, em verbos regulares, é formado retirando-se a terminação -am da 3ª pessoa do plural do pretérito perfeito do indicativo (eles partiram → quando ele partir)."
       },
       {
-        "subtitulo": "5. Formas Nominais do Verbo e Vozes Verbais",
-        "conteudo": "As formas nominais do verbo — infinitivo, gerúndio e particípio — são assim chamadas porque não se flexionam em pessoa e número de forma plena e podem exercer funções de nomes no período. O infinitivo pode ser impessoal ('estudar é importante') ou pessoal, quando flexionado: 'É preciso estudarmos a matéria' / 'É necessário estudarem os candidatos'. O infinitivo pessoal é obrigatório quando o sujeito do verbo no infinitivo é diferente do da oração principal e quando se quer especificar o sujeito. O gerúndio indica ação em curso simultânea ou imediatamente anterior à da oração principal e é invariável. O particípio concorda em gênero e número com o substantivo quando é adjetivo: 'a porta fechada', 'os documentos assinados'. A voz verbal indica a relação entre sujeito e ação: ativa (sujeito pratica a ação), passiva analítica (sujeito recebe a ação: ser + particípio), passiva sintética (verbo + se), reflexiva (sujeito pratica e recebe). A conversão de voz ativa em passiva mantém o sentido: 'O comandante assinou o ofício' → 'O ofício foi assinado pelo comandante'.",
+        "subtitulo": "Verbos regulares, irregulares, anômalos, defectivos e abundantes",
+        "conteudo": "Verbos regulares seguem o paradigma normal de sua conjugação, sem alteração no radical (falar, comer, partir). Verbos irregulares sofrem alterações no radical ou nas terminações em alguma flexão (fazer → faço, fiz; dizer → digo, disse). Verbos anômalos apresentam irregularidades tão profundas que possuem mais de um radical (ser → sou, fui, era; ir → vou, fui, ia). Verbos defectivos não possuem conjugação completa em todas as pessoas (falir, reaver, precaver-se — sem 1ª pessoa do singular do presente do indicativo e, por consequência, sem presente do subjuntivo). Verbos abundantes têm mais de uma forma equivalente, geralmente no particípio (entregar → entregado/entregue; matar → matado/morto).",
         "exemplos": [
-          "Infinitivo pessoal obrigatório: 'Mandaram os recrutas marcharem.' (sujeito diferente)",
-          "Infinitivo impessoal: 'É bom estudar todos os dias.'",
-          "Gerúndio simultâneo: 'O oficial entrou na sala sorrindo.'",
-          "Particípio como adjetivo: 'Os recrutas selecionados foram convocados.'",
-          "Voz passiva analítica: 'O projeto foi aprovado pelo conselho.'",
-          "Voz passiva sintética: 'Aprovaram-se os candidatos.' / 'Vendem-se imóveis.'"
+          "Irregular: O comandante requer relatório diário. (requerer)",
+          "Defectivo: *Eu falo (inexistente em 'falir' na 1ª pessoa)",
+          "Abundante: O documento foi entregue ao almirante. / O documento havia entregado o protocolo."
         ],
-        "regra": "O infinitivo pessoal é obrigatório quando o sujeito do infinitivo é diferente do sujeito da oração principal, ou quando se deseja dar ênfase ao sujeito. Na conversão ativa → passiva: objeto direto vira sujeito; sujeito vira agente da passiva (precedido de 'por'); o verbo ativo vira 'ser' + particípio no mesmo tempo."
+        "regra": "Em verbos abundantes, a norma culta geralmente reserva o particípio regular para a voz ativa (com auxiliares ter/haver) e o particípio irregular para a voz passiva (com auxiliares ser/estar)."
       },
       {
-        "subtitulo": "6. Verbos Irregulares e Defectivos de Alta Incidência em Provas",
-        "conteudo": "Alguns verbos irregulares e defectivos são especialmente cobrados em concursos militares. Verbos com irregularidade no presente do indicativo e subjuntivo: 'poder' (posso, podes, pode... / que eu possa), 'querer' (quero, queres... / que eu queira), 'saber' (sei, sabes... / que eu saiba), 'perder' (perco, perdes... / que eu perca), 'caber' (caibo, cabes... / que eu caiba), 'valer' (valho, vales... / que eu valha), 'medir' (meço, medes... / que eu meça). Verbos anômalos: 'ser' e 'ir' têm paradigmas completamente distintos entre os tempos. 'Pôr' e seus derivados ('compor', 'dispor', 'repor') seguem conjugação própria: presente 'ponho, pões, põe, pomos, pondes, põem'; pretérito imperfeito 'punha'; pretérito perfeito 'pus, puseste, pôs, pusemos, pusestes, puseram'. Verbos defectivos de alta incidência: 'falir', 'abolir', 'colorir', 'reaver' (só formas com 'v': 'reavemos', 'reaveram'), 'precaver-se' (conjuga-se como 'vir': 'me precavenho', 'precavens'). Fiorin e Savioli (2007) lembram que o domínio das formas verbais irregulares é indispensável para a reescritura correta de frases e para a identificação de erros gramaticais em questões de múltipla escolha.",
+        "subtitulo": "Vozes verbais",
+        "conteudo": "A voz verbal indica a relação entre o sujeito e a ação expressa pelo verbo. Na voz ativa, o sujeito pratica a ação. Na voz passiva, o sujeito sofre a ação — podendo ser passiva analítica (verbo ser + particípio) ou passiva sintética/pronominal (verbo + pronome 'se', com o chamado sujeito paciente). Na voz reflexiva, o sujeito pratica e sofre a ação ao mesmo tempo.",
         "exemplos": [
-          "'Pôr' no presente: 'O oficial põe o documento sobre a mesa.' (não 'põem' se sujeito singular)",
-          "'Caber': 'Eu caibo nesta definição.' / 'que eu caiba' (subjuntivo)",
-          "'Valer': 'Eu valho mais pela experiência.' / 'que eu valha'",
-          "'Reaver': 'Reavemos os documentos.' (correto) / 'reavejo' (forma inexistente)",
-          "'Precaver-se': 'Precavenho-me de situações adversas.' (presente do indicativo)"
+          "Voz ativa: O almirante assinou a ordem de embarque.",
+          "Voz passiva analítica: A ordem de embarque foi assinada pelo almirante.",
+          "Voz passiva sintética: Assinou-se a ordem de embarque.",
+          "Voz reflexiva: O recruta feriu-se durante o treinamento."
         ],
-        "regra": "Para 'pôr' e derivados, memorize: presente 'ponho/pões/põe/pomos/pondes/põem'; imperfeito 'punha'; perfeito 'pus/puseste/pôs'. Para verbos defectivos, nunca use as formas inexistentes — a prova os apresentará como alternativas erradas para testar seu conhecimento."
+        "regra": "Na voz passiva sintética, o pronome 'se' é partícula apassivadora quando o verbo é transitivo direto e o sujeito é paciente, exigindo concordância do verbo com esse sujeito (Vendem-se navios = sujeito 'navios')."
+      },
+      {
+        "subtitulo": "Formas nominais do verbo",
+        "conteudo": "As formas nominais — infinitivo, gerúndio e particípio — não indicam tempo nem modo de forma plena, comportando-se como substantivo, advérbio/adjetivo e adjetivo, respectivamente. O infinitivo pode ser pessoal (flexionado, concordando com o sujeito) ou impessoal (invariável). O gerúndio expressa ação em desenvolvimento. O particípio, frequentemente usado com auxiliares (ter, haver, ser, estar), expressa ação concluída.",
+        "exemplos": [
+          "Infinitivo impessoal: É preciso embarcar cedo.",
+          "Infinitivo pessoal: É preciso embarcarmos cedo.",
+          "Gerúndio: Os marinheiros, içando as velas, prepararam a partida.",
+          "Particípio: A embarcação havia atracado no cais."
+        ],
+        "regra": "O infinitivo pessoal flexiona-se quando se quer indicar claramente o sujeito da ação, especialmente quando esse sujeito é diferente do sujeito da oração principal ou quando se busca maior clareza e ênfase."
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Pegadinha 1: 'Mais melhor' e 'mais pior' — pleonasmo com comparativos irregulares",
-      "errado": "'O resultado foi mais melhor do que o esperado.' / 'A situação ficou mais pior após a decisão.'",
-      "correto": "'O resultado foi melhor do que o esperado.' / 'A situação ficou pior após a decisão.'",
-      "explicacao": "'Melhor' e 'pior' já são formas de grau comparativo de superioridade (irregulares de 'bom' e 'mau'), portanto combiná-los com 'mais' é pleonasmo vicioso. O mesmo vale para 'maior/menor' (de 'grande/pequeno'), 'superior/inferior' (de 'alto/baixo'). Em provas militares, alternativas com 'mais melhor', 'mais maior', 'menos pior' estão automaticamente erradas.",
-      "nivel": "basico"
+      "nivel": "basico",
+      "titulo": "Confusão entre 'requer' e 'requere'",
+      "errado": "O comandante requere a presença de todos os oficiais.",
+      "correto": "O comandante requer a presença de todos os oficiais.",
+      "explicacao": "O verbo 'requerer' é irregular e segue o paradigma de 'querer' apenas parcialmente: na 3ª pessoa do singular do presente do indicativo, a forma correta é 'requer' (sem o 'e' final), e não 'requere', forma inexistente na norma culta."
     },
     {
-      "titulo": "Pegadinha 2: Particípio com auxiliares — confundir 'ter/haver' com 'ser/estar'",
-      "errado": "'O relatório foi entregado ao comandante.' / 'O projeto tinha aceito pela comissão.'",
-      "correto": "'O relatório foi entregue ao comandante.' (ser + particípio irregular) / 'O projeto tinha sido aceito pela comissão.' ou 'O projeto foi aceito pela comissão.'",
-      "explicacao": "Verbos abundantes (com dois particípios) seguem a regra: ter/haver + particípio regular ('tinha entregado', 'havia aceitado'); ser/estar + particípio irregular ('foi entregue', 'está aceito'). Usar particípio regular com 'ser' ('foi entregado') ou irregular com 'ter' ('tinha entregue') em contexto de voz passiva é o erro clássico cobrado em provas. Os pares mais importantes: entregar → entregado/entregue; aceitar → aceitado/aceito; matar → matado/morto; pagar → pagado/pago; ganhar → ganhado/ganho.",
-      "nivel": "basico"
+      "nivel": "basico",
+      "titulo": "Confusão entre 'interviu' e 'interveio'",
+      "errado": "O capitão interviu na discussão entre os tripulantes.",
+      "correto": "O capitão interveio na discussão entre os tripulantes.",
+      "explicacao": "O verbo 'intervir' é conjugado como 'vir', e não como 'viver'. No pretérito perfeito do indicativo, a forma correta é 'interveio', seguindo o paradigma de 'veio'."
     },
     {
-      "titulo": "Pegadinha 3: Infinitivo pessoal ou impessoal — omitir a flexão obrigatória",
-      "errado": "'É necessário os candidatos apresentar os documentos.' / 'Mandaram os recrutas marchar em fila.'",
-      "correto": "'É necessário os candidatos apresentarem os documentos.' / 'Mandaram os recrutas marcharem em fila.'",
-      "explicacao": "O infinitivo pessoal é obrigatório quando o sujeito do verbo no infinitivo é diferente do da oração principal e está expresso. Em 'É necessário os candidatos apresentarem', o sujeito do infinitivo ('os candidatos') está explícito e é diferente do sujeito da principal (oração impessoal), exigindo flexão. Omitir a desinência '-em' é erro de flexão. A questão testa se o candidato distingue os contextos de infinitivo pessoal e impessoal.",
-      "nivel": "intermediario"
+      "nivel": "intermediario",
+      "titulo": "Uso indevido do futuro do subjuntivo em vez do infinitivo pessoal",
+      "errado": "Ao chegarem ao porto, os marinheiros desembarcarão o material.",
+      "correto": "Ao chegarem ao porto, os marinheiros desembarcarão o material. (correto, mas atenção ao contexto equivalente)",
+      "explicacao": "Esta construção está correta, mas é frequentemente confundida pelos candidatos com o uso indevido do futuro do subjuntivo fora de oração condicional ou temporal introduzida por conectivos como 'quando', 'se', 'caso'. O erro típico de prova é empregar o futuro do subjuntivo sem o conectivo apropriado, como em '*Ao eles chegarem ao porto', que soa estranho — a forma nominal (infinitivo pessoal) é a escolha adequada após preposição 'ao'."
     },
     {
-      "titulo": "Pegadinha 4: Plural de palavras em '-ão' — escolher o plural errado",
-      "errado": "'Os cidadões aprovaram a proposta.' / 'Os pães foram distribuídos.' (correto) / 'Os capitãos partiram.' (errado)",
-      "correto": "'Os cidadãos aprovaram a proposta.' / 'Os capitães partiram.'",
-      "explicacao": "'Cidadão' forma plural em '-ãos' (cidadãos), assim como 'mão/mãos', 'grão/grãos', 'bênção/bênçãos'. 'Capitão' forma plural em '-ães' (capitães), como 'cão/cães', 'alemão/alemães'. 'Pão' forma plural em '-ães' (pães). Em provas, as três terminações de '-ão' são testadas simultaneamente, e a escolha do plural errado — 'cidadões', 'capitãos', 'pãos' — é a armadilha. Memorize os grupos pelos exemplos mais comuns.",
-      "nivel": "avancado"
+      "nivel": "avancado",
+      "titulo": "Concordância do verbo na voz passiva sintética com sujeito plural",
+      "errado": "Vende-se navios cargueiros usados pela Marinha.",
+      "correto": "Vendem-se navios cargueiros usados pela Marinha.",
+      "explicacao": "Quando o 'se' é partícula apassivadora (o verbo é transitivo direto e o termo seguinte é o sujeito paciente da oração), o verbo deve concordar em número e pessoa com esse sujeito. Como 'navios cargueiros' está no plural, o verbo deve ser 'vendem-se', e não 'vende-se'."
     },
     {
-      "titulo": "Pegadinha 5: Substantivo com gênero que muda o sentido — usar o artigo errado",
-      "errado": "'A capital investido na empresa foi insuficiente.' / 'O moral da história é clara.'",
-      "correto": "'O capital investido na empresa foi insuficiente.' / 'A moral da história é clara.'",
-      "explicacao": "'Capital' no sentido de dinheiro/patrimônio é masculino ('o capital'); no sentido de cidade principal é feminino ('a capital'). 'Moral' no sentido de estado psicológico/ânimo é masculino ('o moral da tropa estava alto'); no sentido de princípio ético/lição é feminino ('a moral da fábula'). Usar o artigo errado muda completamente o sentido da frase. Outros pares: 'o rádio' (aparelho) / 'a rádio' (emissora); 'o coma' (estado clínico) / 'a coma' (cabeleira).",
-      "nivel": "avancado"
+      "nivel": "avancado",
+      "titulo": "Confusão entre o futuro do subjuntivo e o infinitivo pessoal em verbos irregulares",
+      "errado": "Quando o aspirante vier a saber do resultado, ele avisará a tripulação, pois quando ele pode vir, fará o relatório.",
+      "correto": "Quando o aspirante vier a saber do resultado, ele avisará a tripulação; ao poder vir, fará o relatório.",
+      "explicacao": "O verbo 'vir' no futuro do subjuntivo (após 'quando') é 'vier', forma corretamente empregada na primeira oração. Já na segunda oração, o emprego adequado após a preposição 'ao' exige o infinitivo pessoal ('ao poder vir'), e não uma nova oração com 'quando ele pode vir', que produz redundância e desvio do padrão culto esperado pela banca."
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "O candidato, ao identificar um verbo defectivo na questão, tenta reconhecer ou validar uma forma verbal inexistente como 'eu abolo', 'eu coloro', 'eu reavejo'. A alternativa a ser descartada apresenta exatamente essa forma, mas o candidato não a reconhece como erro porque o verbo parece seguir a conjugação regular.",
-      "dica": "Memorize os verbos defectivos mais cobrados: 'abolir', 'colorir', 'falir', 'reaver', 'precaver-se'. Nenhum deles possui 1ª pessoa do singular do presente do indicativo (exceto 'precaver-se', que tem forma irregular: 'precavenho'). Se a alternativa apresentar 'eu abolo' ou 'eu coloro', é automaticamente errada.",
-      "nivel": "basico"
+      "nivel": "basico",
+      "situacao": "Achar que todo verbo terminado em -ear segue o mesmo padrão de conjugação.",
+      "dica": "Verbos terminados em -ear (como 'passear', 'cear', 'nomear') recebem um 'i' antes da terminação em certas formas do presente: eu passeio, ele passeia, eles passeiam — e não 'eu passeo' ou 'ele passea'. Decore esse grupo, pois é item clássico de prova."
     },
     {
-      "situacao": "O candidato encontra na questão uma frase com particípio e testa se está correto — mas não verifica qual auxiliar está sendo usado. Valida 'tinha entregue' ou 'foi entregado' sem perceber que a regra do auxiliar determina qual particípio usar.",
-      "dica": "Antes de avaliar o particípio, identifique o auxiliar. Se for 'ter' ou 'haver': use o particípio regular (entregado, aceitado, pagado). Se for 'ser' ou 'estar': use o particípio irregular (entregue, aceito, pago). Nunca valide o particípio sem antes checar o auxiliar — essa é a ordem de análise obrigatória.",
-      "nivel": "intermediario"
+      "nivel": "intermediario",
+      "situacao": "Confundir o pretérito perfeito do indicativo com o futuro do subjuntivo em verbos irregulares cuja forma é semelhante.",
+      "dica": "Muitos verbos formam o futuro do subjuntivo a partir da 3ª pessoa do plural do pretérito perfeito, retirando o '-am' (eles fizeram → quando ele fizer). Para não errar, sempre identifique primeiro o pretérito perfeito do verbo na 3ª pessoa do plural antes de derivar o futuro do subjuntivo."
     },
     {
-      "situacao": "O candidato vê a palavra 'artista', 'estudante' ou 'líder' em uma frase e automaticamente pressupõe que é masculino ou feminino, sem verificar o artigo. Em uma questão de concordância, marca a alternativa com adjetivo no gênero 'esperado' pela terminação da palavra, e não pelo gênero marcado pelo artigo.",
-      "dica": "Substantivos comuns de dois gêneros têm seu gênero determinado exclusivamente pelo artigo (ou outro determinante). 'O artista famoso' / 'A artista famosa' — a terminação '-ista' não define o gênero. Em questões de concordância com esses substantivos, localize sempre o artigo antes de escolher o gênero do adjetivo.",
-      "nivel": "avancado"
+      "nivel": "avancado",
+      "situacao": "Aplicar a mesma regra de particípio duplo (abundância) para verbos que, na verdade, são defectivos ou têm apenas uma forma de particípio aceita na norma culta.",
+      "dica": "Nem todo verbo com duas formas aparentes de particípio é, de fato, abundante na norma culta — algumas formas curtas (como 'pago', 'gasto', 'aceito') já se tornaram a única forma aceita em registros formais, enquanto as longas ('pagado', 'gastado') caíram em desuso. Sempre verifique a forma consagrada antes de marcar uma alternativa como certa só por parecer 'mais formal'."
     }
   ],
   "questoes": [
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa que apresenta o plural correto da palavra 'cidadão'.",
+      "enunciado": "Assinale a alternativa em que a flexão verbal está de acordo com a norma-padrão da língua portuguesa.",
       "alternativas": {
-        "A": "cidadões",
-        "B": "cidadães",
-        "C": "cidadãos",
-        "D": "cidadans",
-        "E": "cidadões"
+        "A": "Os aspirantes interviram na decisão do comandante.",
+        "B": "Os aspirantes intervieram na decisão do comandante.",
+        "C": "Os aspirantes intervieram na decisão do comandante, mas se intervirem novamente serão advertidos.",
+        "D": "Os aspirantes intervirão na decisão do comandante quando intervir for necessário.",
+        "E": "Os aspirantes interveio na decisão do comandante."
       },
       "gabarito": "C",
-      "explicacao": "'Cidadão' forma plural em '-ãos': cidadãos. Essa é a terminação para paroxítonas em '-ão' e para algumas oxítonas do grupo com plural em '-ãos' (mão/mãos, grão/grãos, bênção/bênçãos, cristão/cristãos). 'Cidadões' (A e E) e 'cidadães' (B) são formas inexistentes. 'Cidadans' (D) é invenção sem base na língua."
+      "explicacao": "O verbo 'intervir' conjuga-se como 'vir'. No pretérito perfeito do indicativo, a forma correta para a 3ª pessoa do plural é 'intervieram', e no futuro do subjuntivo é 'intervierem'. A alternativa C apresenta ambas as formas corretas: 'intervieram' (pretérito perfeito) e 'intervirem' (futuro do subjuntivo, concordando com 'eles')."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Qual é o plural correto de 'animal'?",
+      "enunciado": "Em 'Se o navio _____ atracar antes das seis, avisaremos a tripulação', a forma verbal que completa corretamente a lacuna é:",
       "alternativas": {
-        "A": "animales",
-        "B": "animais",
-        "C": "animales",
-        "D": "animas",
-        "E": "animales"
+        "A": "conseguir",
+        "B": "consiguir",
+        "C": "conseguir-se",
+        "D": "consegue",
+        "E": "consegui"
       },
-      "gabarito": "B",
-      "explicacao": "Palavras terminadas em '-al' formam o plural substituindo '-al' por '-ais': animal → animais, canal → canais, sinal → sinais, general → generais. As demais alternativas apresentam formas inexistentes em português."
+      "gabarito": "A",
+      "explicacao": "Trata-se de oração condicional introduzida por 'se', exigindo o futuro do subjuntivo. O verbo 'conseguir' é regular de 2ª conjugação (na verdade 3ª, terminado em -ir) e mantém a forma 'conseguir' no futuro do subjuntivo para a 3ª pessoa do singular, idêntica ao infinitivo neste caso, por ser regular."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Identifique a alternativa com a forma correta do superlativo absoluto sintético de 'pobre'.",
+      "enunciado": "Assinale a alternativa que apresenta a forma correta do verbo 'haver' impessoal no sentido de 'existir', no pretérito imperfeito do indicativo.",
       "alternativas": {
-        "A": "pobríssimo",
-        "B": "pouquíssimo",
-        "C": "paupérrimo",
-        "D": "pobérrimo",
-        "E": "pobrissimo"
+        "A": "Haviam muitos navios no porto naquela época.",
+        "B": "Havia muitos navios no porto naquela época.",
+        "C": "Houveram muitos navios no porto naquela época.",
+        "D": "Houve muitos navios no porto naquela época, e haviam outros chegando.",
+        "E": "Havia muitos navio no porto naquela época."
       },
-      "gabarito": "C",
-      "explicacao": "O superlativo absoluto sintético de 'pobre' é 'paupérrimo', forma latina irregular. 'Pobríssimo' (A) é forma coloquial aceita por alguns, mas a forma culta preferida é 'paupérrimo'. 'Pouquíssimo' (B) é superlativo de 'pouco'. 'Pobérrimo' (D) é forma inventada. 'Pobrissimo' (E) está sem acento (erro ortográfico). Em provas de concurso, 'paupérrimo' é a resposta esperada."
+      "gabarito": "B",
+      "explicacao": "O verbo 'haver', no sentido de existir, é impessoal e permanece sempre na 3ª pessoa do singular, independentemente do número do termo que o segue. A forma correta no pretérito imperfeito do indicativo é 'havia', nunca 'haviam'."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Qual dos verbos abaixo é defectivo, ou seja, não possui todas as formas de conjugação?",
+      "enunciado": "Qual das alternativas abaixo apresenta o verbo flexionado corretamente no presente do indicativo?",
       "alternativas": {
-        "A": "cantar",
-        "B": "partir",
-        "C": "abolir",
-        "D": "vender",
-        "E": "correr"
+        "A": "Eu intervenho nas questões do esquadrão quando necessário.",
+        "B": "Eu intervejo nas questões do esquadrão quando necessário.",
+        "C": "Eu intervim nas questões do esquadrão quando necessário.",
+        "D": "Eu intervenco nas questões do esquadrão quando necessário.",
+        "E": "Eu intervi nas questões do esquadrão quando necessário."
       },
-      "gabarito": "C",
-      "explicacao": "'Abolir' é verbo defectivo: não possui 1ª pessoa do singular do presente do indicativo ('eu abolo' não existe) nem as formas do presente do subjuntivo derivadas dela. Os verbos 'cantar', 'partir', 'vender' e 'correr' são regulares e possuem todas as formas de conjugação. Outros defectivos comuns: 'colorir', 'falir', 'reaver', 'precaver-se'."
+      "gabarito": "A",
+      "explicacao": "O verbo 'intervir' segue o paradigma do verbo 'vir'. Na 1ª pessoa do singular do presente do indicativo, a forma correta é 'intervenho', tal como 'venho' é a forma de 'vir'."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa que completa corretamente a frase: 'O documento ___ pelo secretário antes de ser arquivado.'",
+      "enunciado": "Assinale a alternativa em que o particípio está empregado de acordo com a norma culta, considerando o uso com o auxiliar 'ter'.",
       "alternativas": {
-        "A": "foi assinado",
-        "B": "foi assinando",
-        "C": "tinha assinado",
-        "D": "há assinado",
-        "E": "estar assinado"
+        "A": "O oficial tinha entregue o relatório na sexta-feira.",
+        "B": "O oficial tinha entregado o relatório na sexta-feira.",
+        "C": "O relatório foi entregado pelo oficial na sexta-feira, e ele já o havia entregue antes.",
+        "D": "O oficial tem entregado e entregue o relatório regularmente.",
+        "E": "O oficial entregue o relatório toda sexta-feira."
       },
-      "gabarito": "A",
-      "explicacao": "A frase está na voz passiva analítica: 'foi assinado' (auxiliar 'ser' no pretérito perfeito + particípio de 'assinar'). A alternativa B usa gerúndio em lugar de particípio — erro. A alternativa C usa voz ativa com sujeito inexistente no contexto ('tinha assinado' seria ativo). A alternativa D usa 'há' incorretamente — 'há assinado' não é forma verbal do português padrão. A alternativa E usa o verbo 'estar' de forma inadequada para o contexto da frase."
+      "gabarito": "B",
+      "explicacao": "O verbo 'entregar' é abundante: possui o particípio regular 'entregado' e o irregular 'entregue'. Na norma culta tradicional, o particípio regular acompanha os auxiliares 'ter' e 'haver' (voz ativa), enquanto o irregular acompanha 'ser' e 'estar' (voz passiva). Assim, 'tinha entregado' está correto."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "O substantivo 'artista' pertence a qual categoria quanto ao gênero?",
+      "enunciado": "Em qual alternativa o verbo 'pôr' está corretamente flexionado no pretérito perfeito do indicativo, 3ª pessoa do plural?",
       "alternativas": {
-        "A": "Epiceno, pois se refere a animais e tem gênero fixo.",
-        "B": "Sobrecomum, pois é sempre feminino independentemente do sexo do referente.",
-        "C": "Biforme, pois possui duas formas: 'artisto' e 'artista'.",
-        "D": "Comum de dois gêneros, pois admite artigo masculino e feminino sem mudar a forma.",
-        "E": "Heterônimo, pois o masculino e o feminino são palavras completamente diferentes."
+        "A": "Os marinheiros poram as cordas no convés.",
+        "B": "Os marinheiros puseram as cordas no convés.",
+        "C": "Os marinheiros pusaram as cordas no convés.",
+        "D": "Os marinheiros poseram as cordas no convés.",
+        "E": "Os marinheiros pôs as cordas no convés."
       },
-      "gabarito": "D",
-      "explicacao": "'Artista' é um substantivo comum de dois gêneros: a forma é única e o gênero é determinado pelo artigo ('o artista' / 'a artista'). Epicenos (A) referem-se a animais com gênero único ('a cobra macho'). Sobrecomuns (B) são substantivos de pessoas com gênero gramatical fixo ('a vítima', 'o cônjuge'). Biformes (C) têm duas formas distintas — 'artisto' não existe. Heterônimos (E) usam palavras diferentes ('boi/vaca')."
+      "gabarito": "B",
+      "explicacao": "O verbo 'pôr' é anômalo. No pretérito perfeito do indicativo, sua conjugação completa é: pus, puseste, pôs, pusemos, pusestes, puseram. Logo, a forma correta para a 3ª pessoa do plural é 'puseram'."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Assinale a frase em que o infinitivo pessoal está empregado corretamente.",
+      "enunciado": "Assinale a alternativa correta quanto à flexão do verbo 'precaver-se', sabendo que se trata de verbo defectivo.",
       "alternativas": {
-        "A": "É preciso estudar mais.",
-        "B": "É necessário os candidatos apresentarem os documentos.",
-        "C": "Para vencer, devia treinar bastante.",
-        "D": "Convém descansar antes da prova.",
-        "E": "Antes de sair, verificou tudo."
+        "A": "Eu me precavejo contra os riscos da travessia.",
+        "B": "Eu me precavenho contra os riscos da travessia.",
+        "C": "Eu me precavém contra os riscos da travessia.",
+        "D": "Nós nos precavemos contra os riscos da travessia.",
+        "E": "Eu me precavi contra os riscos da travessia."
       },
-      "gabarito": "B",
-      "explicacao": "Em B, o sujeito do infinitivo ('os candidatos') está explícito e é diferente do sujeito da oração principal (impessoal), tornando obrigatório o infinitivo pessoal flexionado: 'apresentarem'. Nas demais alternativas, o infinitivo impessoal é adequado: em A, D e E não há sujeito explícito diferente; em C, o sujeito do infinitivo ('ele') coincide com o da principal."
+      "gabarito": "D",
+      "explicacao": "O verbo 'precaver-se' é defectivo: não possui 1ª pessoa do singular no presente do indicativo nem qualquer forma do presente do subjuntivo. Apenas as formas em que a desinência começa por 'e' ou 'i' (como 'precavemos', 'precaveis') são usadas regularmente, além de todas as formas do pretérito e do futuro."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Qual é o particípio irregular do verbo 'entregar'?",
+      "enunciado": "No trecho 'É necessário que os tripulantes _____ as normas de segurança', a forma verbal adequada no presente do subjuntivo é:",
       "alternativas": {
-        "A": "entregando",
-        "B": "entregado",
-        "C": "entregue",
-        "D": "entregado e entregue (ambos regulares)",
-        "E": "entregavado"
+        "A": "sigam",
+        "B": "seguem",
+        "C": "seguiram",
+        "D": "seguirão",
+        "E": "seguissem"
       },
-      "gabarito": "C",
-      "explicacao": "'Entregue' é o particípio irregular de 'entregar'. O particípio regular é 'entregado'. A regra dos verbos abundantes: com auxiliar 'ter' ou 'haver', usa-se o regular ('tinha entregado'); com auxiliar 'ser' ou 'estar', usa-se o irregular ('foi entregue'). 'Entregando' (A) é gerúndio. 'Entregavado' (E) é forma inexistente."
+      "gabarito": "A",
+      "explicacao": "A expressão 'é necessário que' exige o modo subjuntivo. O verbo 'seguir' é irregular (sofre alteração no radical: sig-) e, no presente do subjuntivo, na 3ª pessoa do plural, a forma correta é 'sigam'."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "Em 'O moral da tropa estava elevado', a palavra 'moral' é:",
+      "enunciado": "Assinale a alternativa em que o gerúndio está empregado corretamente, sem caracterizar o chamado 'gerundismo'.",
       "alternativas": {
-        "A": "Feminina, pois indica um conceito abstrato.",
-        "B": "Masculina, pois 'moral' no sentido de ânimo/estado psicológico é masculino.",
-        "C": "Feminina, pois qualquer uso de 'moral' exige artigo feminino.",
-        "D": "Neutra, pois substantivos abstratos não têm gênero definido.",
-        "E": "Masculina apenas quando acompanhada de adjetivos."
+        "A": "Vamos estar verificando os equipamentos do navio amanhã.",
+        "B": "Estaremos analisando o relatório na próxima reunião.",
+        "C": "Verificando os equipamentos, o comandante autorizou a partida.",
+        "D": "Vamos estar analisando os dados assim que possível.",
+        "E": "Iremos estar checando o sistema de navegação em breve."
       },
-      "gabarito": "B",
-      "explicacao": "'Moral' no sentido de ânimo, estado psicológico, disposição da tropa é masculino: 'o moral'. No sentido de princípio ético, lição ou conjunto de valores é feminino: 'a moral da história'. O artigo 'o' na frase ('O moral') confirma o uso masculino. Não existe gênero neutro em português (D), e o gênero de 'moral' não depende do adjetivo (E)."
+      "gabarito": "C",
+      "explicacao": "O 'gerundismo' (construções como 'vamos estar verificando', 'iremos estar checando') é uma estrutura redundante e estilisticamente condenada, comum na linguagem oral informal. O uso clássico e correto do gerúndio para expressar ação simultânea ou em andamento, como em 'Verificando os equipamentos, o comandante autorizou a partida', é o adequado à norma culta."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Qual é a forma correta da 1ª pessoa do singular do presente do indicativo do verbo 'valer'?",
+      "enunciado": "Assinale a alternativa em que a forma verbal 'vier' está empregada corretamente.",
       "alternativas": {
-        "A": "eu valo",
-        "B": "eu vale",
-        "C": "eu valho",
-        "D": "eu valejo",
-        "E": "eu val"
+        "A": "Quando o navio vier ao porto, avisaremos a guarnição.",
+        "B": "Quando o navio veio ao porto, avisaremos a guarnição.",
+        "C": "Quando o navio vir ao porto, avisaremos a guarnição.",
+        "D": "Se o navio vier ao porto, avisamos a guarnição ontem.",
+        "E": "O navio vier ao porto ontem à noite."
       },
-      "gabarito": "C",
-      "explicacao": "'Valer' é verbo irregular na 1ª pessoa do singular do presente do indicativo: 'eu valho'. Do mesmo modo, o presente do subjuntivo é 'que eu valha'. As formas 'eu valo' (A), 'eu vale' (B), 'eu valejo' (D) e 'eu val' (E) são todas inexistentes no paradigma de 'valer'. Outros verbos com irregularidade similar: 'caber' (caibo), 'perder' (perco), 'medir' (meço)."
+      "gabarito": "A",
+      "explicacao": "A forma 'vier' é o futuro do subjuntivo do verbo 'vir', empregado corretamente em orações temporais ou condicionais que indicam fato futuro hipotético, como em 'Quando o navio vier ao porto, avisaremos a guarnição', mantendo coerência com o futuro do presente 'avisaremos'."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que o emprego do particípio está correto de acordo com a norma culta.",
+      "enunciado": "Considere o período: 'Caso o almirante _____ a embarcação antes do amanhecer, a tripulação _____ pronta para zarpar.' As formas verbais que preenchem corretamente as lacunas, na ordem, são:",
       "alternativas": {
-        "A": "O projeto tinha sido entregue pela equipe ontem.",
-        "B": "A proposta foi entregada ao diretor na reunião.",
-        "C": "Os documentos tinham entregue antes do prazo.",
-        "D": "O resultado havia aceito pela banca examinadora.",
-        "E": "O relatório foi pagado integralmente."
+        "A": "vistorie / estará",
+        "B": "vistoriar / estará",
+        "C": "vistoriar / esteja",
+        "D": "vistoriasse / estaria",
+        "E": "vistoriou / estará"
       },
-      "gabarito": "A",
-      "explicacao": "Na alternativa A, o auxiliar é 'ter' + 'sido' + particípio irregular 'entregue' — formação de voz passiva analítica com tempo composto: correto. Na alternativa B, usa-se 'foi' (auxiliar 'ser') com particípio regular 'entregada' — erro: com 'ser', deveria ser 'entregue' (irregular). Na alternativa C, 'tinham entregue' usa auxiliar 'ter' com particípio irregular — erro: com 'ter', deveria ser 'entregado'. Na alternativa D, 'havia aceito' seria correto, mas falta o sujeito que recebe a ação e a voz passiva está incompleta. Na alternativa E, 'foi pagado' usa auxiliar 'ser' com particípio regular — erro: deveria ser 'foi pago'."
+      "gabarito": "B",
+      "explicacao": "A conjunção condicional 'caso' exige o presente do subjuntivo apenas quando a oração não tiver natureza temporal explícita por outro conectivo; aqui, por se tratar de hipótese a se concretizar no futuro, emprega-se o futuro do subjuntivo 'vistoriar' (forma idêntica ao infinitivo por ser verbo regular de 1ª conjugação) e, na oração principal, o futuro do presente do indicativo 'estará', que expressa consequência certa diante da condição."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'Embora ___ muito, não conseguiu a aprovação.' Assinale a alternativa que preenche corretamente a lacuna com a forma verbal adequada ao modo subjuntivo.",
+      "enunciado": "Assinale a alternativa em que a concordância verbal da voz passiva sintética está correta.",
       "alternativas": {
-        "A": "estudou",
-        "B": "estudava",
-        "C": "estude",
-        "D": "estudasse",
-        "E": "estudaria"
+        "A": "Aluga-se cabines no convés superior do navio-escola.",
+        "B": "Alugam-se cabines no convés superior do navio-escola.",
+        "C": "Alugam-se cabine no convés superior do navio-escola.",
+        "D": "Foi alugado cabines no convés superior do navio-escola.",
+        "E": "Alugou-se cabines no convés superior do navio-escola."
       },
-      "gabarito": "D",
-      "explicacao": "A conjunção 'embora' é concessiva e exige o verbo no modo subjuntivo. Como o verbo principal está no pretérito perfeito ('não conseguiu'), o subjuntivo deve estar no pretérito imperfeito: 'estudasse' (correlação temporal: pretérito perfeito do indicativo / pretérito imperfeito do subjuntivo). 'Estudou' (A) é indicativo. 'Estudava' (B) é imperfeito do indicativo. 'Estude' (C) é presente do subjuntivo — inadequado pela correlação temporal. 'Estudaria' (E) é futuro do pretérito do indicativo."
+      "gabarito": "B",
+      "explicacao": "Quando o 'se' funciona como partícula apassivadora junto a verbo transitivo direto, o termo seguinte é sujeito paciente da oração, devendo o verbo concordar com ele em número. Como 'cabines' está no plural, a forma correta é 'alugam-se'."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Qual alternativa apresenta o plural correto de 'réptil'?",
+      "enunciado": "Assinale a alternativa que apresenta corretamente o uso do infinitivo pessoal.",
       "alternativas": {
-        "A": "réptils",
-        "B": "reptis",
-        "C": "répteis",
-        "D": "reptiles",
-        "E": "reptílis"
+        "A": "É hora de os aspirantes embarcarem na fragata.",
+        "B": "É hora de os aspirantes embarcar na fragata.",
+        "C": "É hora dos aspirante embarcarem na fragata.",
+        "D": "É hora de os aspirantes embarcaram na fragata.",
+        "E": "É hora de os aspirantes embarcando na fragata."
       },
-      "gabarito": "C",
-      "explicacao": "'Réptil' é paroxítona terminada em '-il' (não oxítona), portanto o plural é formado pela troca de '-il' por '-eis': répteis. Para '-il' oxítono, o plural seria em '-is' ('fuzil/fuzis', 'barril/barris'). A alternativa B perde o acento e a sílaba. As demais são formas inexistentes no português padrão."
+      "gabarito": "A",
+      "explicacao": "O infinitivo pessoal flexiona-se para concordar com seu sujeito próprio, especialmente quando este é diferente do sujeito da oração principal, conferindo clareza à frase. Em 'É hora de os aspirantes embarcarem na fragata', o sujeito do infinitivo é 'os aspirantes', justificando a flexão em 'embarcarem'."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Assinale a frase em que 'o/a' indica que a palavra é sobrecomum.",
+      "enunciado": "No período 'Se eu _____ no seu lugar, não _____ aquela ordem sem confirmar com o comando', as formas corretas são:",
       "alternativas": {
-        "A": "'O/A estudante leu o livro.' ('estudante' é comum de dois gêneros)",
-        "B": "'A cobra estava imóvel.' ('cobra' é epiceno feminino)",
-        "C": "'A testemunha prestou depoimento.' ('testemunha' é sobrecomum — sempre feminino, independentemente do sexo)",
-        "D": "'O/A cônjuge assinou o contrato.' ('cônjuge' é sobrecomum — sempre masculino)",
-        "E": "'O gavião voou alto.' ('gavião' é epiceno masculino)"
+        "A": "estivesse / cumpriria",
+        "B": "estaria / cumpria",
+        "C": "estive / cumprirei",
+        "D": "estiver / cumprirei",
+        "E": "estava / cumpriria"
       },
-      "gabarito": "C",
-      "explicacao": "'Testemunha' é sobrecomum: é sempre gramaticalmente feminino ('a testemunha'), independentemente de o referente ser homem ou mulher. Não há variação de artigo. 'Estudante' (A) é comum de dois gêneros (admite 'o' e 'a'). 'Cobra' (B) e 'gavião' (E) são epicenos (gênero único referente a animais). 'Cônjuge' (D) é sobrecomum, mas o gênero gramatical é masculino ('o cônjuge') — a alternativa D erra ao apresentar a forma como variável (o/a)."
+      "gabarito": "A",
+      "explicacao": "Trata-se de período hipotético irreal no presente, estrutura clássica que exige pretérito imperfeito do subjuntivo na oração condicional ('estivesse') e futuro do pretérito do indicativo na oração principal ('cumpriria'), expressando uma condição hipotética contrária à realidade."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Em qual alternativa o verbo está corretamente conjugado na 2ª pessoa do singular do presente do indicativo do verbo 'pôr'?",
+      "enunciado": "Assinale a alternativa em que a forma verbal do verbo 'reaver' está empregada corretamente, lembrando que se trata de verbo defectivo conjugado como 'haver'.",
       "alternativas": {
-        "A": "tu pões",
-        "B": "tu põe",
-        "C": "tu pões-te",
-        "D": "tu pores",
-        "E": "tu pos"
+        "A": "Eu reavejo os documentos extraviados.",
+        "B": "Nós reavemos os documentos extraviados.",
+        "C": "Eu reaveho os documentos extraviados.",
+        "D": "Eu reavo os documentos extraviados.",
+        "E": "Eu reavi os documentos no ano passado, mas reavejo outros agora."
       },
-      "gabarito": "A",
-      "explicacao": "O verbo 'pôr' na 2ª pessoa do singular do presente do indicativo é 'tu pões'. O paradigma completo: eu ponho, tu pões, ele põe, nós pomos, vós pondes, eles põem. 'Tu põe' (B) seria a 3ª pessoa. 'Tu pões-te' (C) adiciona o pronome reflexivo sem necessidade. 'Tu pores' (D) é futuro do subjuntivo. 'Tu pos' (E) é forma inexistente."
+      "gabarito": "B",
+      "explicacao": "O verbo 'reaver' é defectivo e só se conjuga nas formas em que aparece a letra 'v' do radical de 'haver' (reavemos, reaveis, reouve, reouvera, reaverá etc.). Não existe 1ª pessoa do singular no presente do indicativo nem qualquer forma do presente do subjuntivo. 'Reavemos' (1ª pessoa do plural) é forma corretamente atestada."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "A frase 'O candidato foi aprovado' está na voz passiva analítica. Qual é a sua equivalente na voz ativa?",
+      "enunciado": "Em 'O comandante exigiu que os subordinados _____ pontualmente ao posto de comando', a forma verbal correta é:",
       "alternativas": {
-        "A": "Aprovaram o candidato.",
-        "B": "O candidato aprovou.",
-        "C": "Aprovava-se o candidato.",
-        "D": "O candidato aprova.",
-        "E": "Aprovou-se o candidato."
+        "A": "compareçam",
+        "B": "comparecessem",
+        "C": "compareceriam",
+        "D": "compareceram",
+        "E": "comparecerão"
       },
-      "gabarito": "A",
-      "explicacao": "Na conversão de voz passiva para ativa: o sujeito da passiva ('o candidato') torna-se o objeto direto; o agente da passiva (ausente na frase, logo indeterminado) torna-se o sujeito indeterminado. Como o agente não está expresso, o sujeito da voz ativa fica indeterminado, expresso pela 3ª pessoa do plural: 'Aprovaram o candidato'. A alternativa B torna 'o candidato' sujeito ativo, mas 'o candidato aprovou' muda o sentido (quem aprovou?). A alternativa C é voz passiva sintética. A alternativa E é voz passiva sintética no pretérito perfeito. A alternativa D usa o presente sem justificativa."
+      "gabarito": "B",
+      "explicacao": "O verbo 'exigir' no pretérito perfeito ('exigiu') exige que a oração subordinada também esteja no passado do subjuntivo, por correlação verbo-temporal. A forma correta é o pretérito imperfeito do subjuntivo: 'comparecessem'."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Qual alternativa apresenta emprego INCORRETO do grau dos adjetivos?",
+      "enunciado": "Assinale a alternativa que contém erro de flexão verbal.",
       "alternativas": {
-        "A": "Esta proposta é melhor que a anterior.",
-        "B": "O resultado foi ótimo para todos.",
-        "C": "A situação ficou mais pior após a decisão.",
-        "D": "O candidato obteve a menor nota da turma.",
-        "E": "A aprovação foi a melhor notícia do mês."
+        "A": "Os comandantes intervirão na disputa se for preciso.",
+        "B": "Quando o navio aportar, a tripulação descansará.",
+        "C": "Espero que o relatório contenha todas as informações.",
+        "D": "Se a tempestade vir, suspenderemos a partida.",
+        "E": "Talvez o almirante já saiba do incidente."
       },
-      "gabarito": "C",
-      "explicacao": "'Mais pior' é pleonasmo vicioso: 'pior' já é o comparativo de superioridade de 'mau/ruim', portanto é redundante acrescentar 'mais'. O correto é simplesmente 'pior'. As demais alternativas estão corretas: (A) 'melhor' como comparativo de 'bom'; (B) 'ótimo' como superlativo de 'bom'; (D) 'menor' como comparativo de 'pequeno'; (E) 'melhor' como superlativo relativo de 'bom'."
+      "gabarito": "D",
+      "explicacao": "A forma correta após 'se' (condição futura hipotética) seria 'vier' (futuro do subjuntivo do verbo 'vir'), e não 'vir' (infinitivo, que também coincide com a forma do futuro do subjuntivo de 'ver'). Há aqui ambiguidade proposital: o contexto sugere o verbo 'vir' (chegar), cuja forma correta no futuro do subjuntivo é 'vier', tornando a frase 'Se a tempestade vier' a forma adequada — o enunciado, com 'vir', está incorreto para esse sentido."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que o verbo defectivo está empregado CORRETAMENTE.",
+      "enunciado": "Assinale a alternativa em que o verbo 'chover', impessoal, está corretamente flexionado.",
       "alternativas": {
-        "A": "Eu abolo a lei injusta.",
-        "B": "Nós abolimos a penalidade prevista.",
-        "C": "Tu coloris o desenho com esmero.",
-        "D": "Eu coloro o mapa conforme a legenda.",
-        "E": "Ele reavejo os documentos perdidos."
+        "A": "Choveram fortes tempestades na costa durante a travessia.",
+        "B": "Choveu fortes tempestades na costa durante a travessia.",
+        "C": "Tem chovido fortes tempestades na costa durante a travessia.",
+        "D": "Havia chovido fortes tempestades na costa durante a travessia, e elas continuam.",
+        "E": "Choveu forte na costa durante a travessia."
       },
-      "gabarito": "B",
-      "explicacao": "'Abolimos' é a 1ª pessoa do plural do presente do indicativo de 'abolir' — forma existente e correta (o verbo possui formas com 'i' no radical). As demais alternativas apresentam formas inexistentes: 'eu abolo' (A) — 1ª pessoa do singular inexistente; 'tu coloris' (C) — forma incorreta (o verbo não possui a 2ª pessoa do singular do indicativo com essa terminação de forma padrão); 'eu coloro' (D) — 1ª pessoa do singular de 'colorir' inexistente; 'eu reavejo' (E) — 'reaver' só possui formas com 'v' no radical ('reavemos', 'reaveram')."
+      "gabarito": "E",
+      "explicacao": "O verbo 'chover', indicando fenômeno da natureza, é impessoal e permanece sempre na 3ª pessoa do singular, sem sujeito. Quando usado em sentido figurado com objeto direto ('choveram críticas'), pode flexionar-se no plural, mas no sentido literal de fenômeno meteorológico, como em 'Choveu forte na costa', a forma correta é sempre singular e sem termo que force a flexão para o plural."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'O comandante pediu para ___ ao relatório antes de distribuí-lo.' Qual forma verbal preenche corretamente a lacuna, considerando que o sujeito do infinitivo é diferente do da oração principal?",
+      "enunciado": "No período 'Por mais que o aspirante _____ esforçado, não _____ aprovado sem estudar a fundo', as formas corretas são:",
       "alternativas": {
-        "A": "ele assinar",
-        "B": "ele assine",
-        "C": "ele assinasse",
-        "D": "ele assinou",
-        "E": "ele assinando"
+        "A": "seja / será",
+        "B": "for / será",
+        "C": "fosse / seria",
+        "D": "é / é",
+        "E": "for / seja"
       },
-      "gabarito": "A",
-      "explicacao": "Com a preposição 'para' seguida de infinitivo, e havendo sujeito explícito diferente do da oração principal, usa-se o infinitivo pessoal: 'para ele assinar'. O sujeito do infinitivo ('ele') é diferente do sujeito da oração principal ('o comandante'), exigindo o infinitivo flexionado. 'Ele assine' (B) e 'ele assinasse' (C) usam o subjuntivo, inadequado após 'para' com infinitivo. 'Ele assinou' (D) é indicativo, incompatível com a estrutura. 'Ele assinando' (E) é gerúndio, inadequado após 'para'."
+      "gabarito": "B",
+      "explicacao": "A locução concessiva 'por mais que' exige o futuro do subjuntivo quando a oração principal está no futuro do presente, mantendo correlação verbal coerente: 'for' (futuro do subjuntivo de 'ser') na oração subordinada e 'será' (futuro do presente do indicativo) na oração principal."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Qual dos pares abaixo apresenta substantivos heterônimos?",
+      "enunciado": "Assinale a alternativa em que a forma do verbo 'ganhar' está de acordo com a norma culta, considerando o emprego com o verbo 'ser'.",
       "alternativas": {
-        "A": "leão / leoa",
-        "B": "ator / atriz",
-        "C": "boi / vaca",
-        "D": "diretor / diretora",
-        "E": "professor / professora"
+        "A": "A medalha foi ganhada pelo aspirante mais dedicado.",
+        "B": "A medalha foi ganha pelo aspirante mais dedicado.",
+        "C": "A medalha tinha ganha pelo aspirante mais dedicado.",
+        "D": "A medalha tem ganho e ganhado pelo aspirante mais dedicado.",
+        "E": "A medalha foi ganhado pelo aspirante mais dedicado."
       },
-      "gabarito": "C",
-      "explicacao": "Heterônimos são pares em que masculino e feminino são expressos por palavras de radicais completamente diferentes: 'boi/vaca', 'pai/mãe', 'genro/nora', 'frei/freira', 'cavaleiro/dama'. As alternativas A ('leão/leoa') e B ('ator/atriz') são biformes com variação de sufixo a partir da mesma raiz. As alternativas D ('diretor/diretora') e E ('professor/professora') são biformes com acréscimo de '-a'."
+      "gabarito": "B",
+      "explicacao": "O verbo 'ganhar' é abundante, com particípios 'ganhado' (regular) e 'ganho' (irregular). Na norma culta, o particípio irregular acompanha os verbos auxiliares 'ser' e 'estar' (voz passiva), portanto 'foi ganha' é a forma adequada."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Os documentos ___ à chefia antes da reunião, mas o prazo ___ sem que todos ___ devidamente protocolados.' Assinale a alternativa que preenche corretamente as lacunas, na ordem, com as formas verbais adequadas.",
+      "enunciado": "Assinale a alternativa em que todas as formas verbais estão flexionadas de acordo com a norma-padrão.",
       "alternativas": {
-        "A": "foram entregues / expirou / fossem",
-        "B": "foram entregados / expirou / foram",
-        "C": "tinham entregue / expirou / eram",
-        "D": "foram entregues / expirava / sejam",
-        "E": "haviam entregados / expirou / fossem"
+        "A": "Se o oficial vier a saber do ocorrido, ele intervirá e exigirá que medidas se tomem.",
+        "B": "Se o oficial vir a saber do ocorrido, ele intervirá e exigirá que medidas se tomem.",
+        "C": "Se o oficial vier a saber do ocorrido, ele intervirá e exigirá que medidas se tomam.",
+        "D": "Se o oficial veio a saber do ocorrido, ele intervirá e exigirá que medidas se tomem.",
+        "E": "Se o oficial vier a saber do ocorrido, ele intervir e exigirá que medidas se tomem."
       },
       "gabarito": "A",
-      "explicacao": "Primeira lacuna: 'foram entregues' — auxiliar 'ser' + particípio irregular 'entregues', correto para voz passiva. Segunda lacuna: 'expirou' — pretérito perfeito, coerente com o contexto narrativo. Terceira lacuna: 'fossem... devidamente protocolados' — após 'sem que', usa-se o modo subjuntivo (pretérito imperfeito: 'fossem'), pois 'sem que' é conjunção que exige subjuntivo. A alternativa B erra em 'entregados' com auxiliar 'ser'. A alternativa C erra em 'tinham entregue' (com 'ter', deveria ser 'entregado') e em 'eram' (o subjuntivo é exigido por 'sem que'). A alternativa D usa 'sejam' (presente do subjuntivo, inadequado pela correlação temporal com 'expirava'). A alternativa E usa particípio regular com 'haver' erradamente: 'entregados' deveria ser 'entregue'."
+      "explicacao": "A frase reúne corretamente: 'vier' (futuro do subjuntivo de 'vir', após 'se'), 'intervirá' (futuro do presente de 'intervir', conjugado como 'vir'), e 'se tomem' (presente do subjuntivo, após 'exigir que', concordando com 'medidas'). Todas as demais alternativas trazem desvios em pelo menos uma dessas formas."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Sobre o verbo 'pôr' e seus derivados, analise as afirmações:\nI. 'Compor', 'dispor' e 'repor' conjugam-se como 'pôr' em todos os tempos.\nII. O pretérito imperfeito do indicativo de 'pôr' é 'punha, punhas, punha, púnhamos, púnheis, punham'.\nIII. O pretérito perfeito de 'pôr' na 3ª pessoa do singular é 'pôs' (com acento circunflexo para diferenciar de 'pos' — forma inexistente).\nEstão corretas:",
+      "enunciado": "Considerando a regência e a flexão verbal conjuntamente, assinale a alternativa correta.",
       "alternativas": {
-        "A": "Apenas I.",
-        "B": "Apenas II.",
-        "C": "Apenas I e III.",
-        "D": "Apenas II e III.",
-        "E": "I, II e III."
+        "A": "Caso a tripulação requeira reforços, eles virão imediatamente, pois o comando interveio rapidamente em casos similares.",
+        "B": "Caso a tripulação requeresse reforços, eles virão imediatamente.",
+        "C": "Caso a tripulação requerer reforços, eles viriam imediatamente.",
+        "D": "Caso a tripulação requeira reforço, eles vir imediatamente.",
+        "E": "Caso a tripulação requer reforços, eles virão imediatamente."
       },
-      "gabarito": "E",
-      "explicacao": "Todas as afirmações estão corretas. I: 'compor', 'dispor', 'repor', 'impor', 'propor', 'supor' são derivados de 'pôr' e seguem seu paradigma de conjugação. II: o pretérito imperfeito de 'pôr' é 'punha' (não 'pôia' nem 'põia'), forma irregular derivada do latim. III: 'pôs' (3ª pessoa do singular do pretérito perfeito) leva acento circunflexo para diferenciar da preposição 'por' sem acento — distinção ortográfica relevante. A acentuação diferencial do tipo 'pôs/por' foi preservada pelo Acordo Ortográfico de 1990 (em vigor desde 2016)."
+      "gabarito": "A",
+      "explicacao": "A oração condicional iniciada por 'caso' exige presente do subjuntivo: 'requeira' (de 'requerer', irregular). A oração principal traz corretamente o futuro do presente 'virão' (de 'vir'), e a oração final usa o pretérito perfeito 'interveio' (de 'intervir', conjugado como 'vir') de forma coerente com o contexto narrativo de fato já ocorrido."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'Os mísseis ___ lançados com precisão. O alvo ___ atingido com a potência necessária. Os resultados ___ divulgados no relatório final.' Assinale a alternativa que completa corretamente as lacunas com particípios na voz passiva analítica.",
+      "enunciado": "Assinale a alternativa em que a forma verbal sublinhada (indicada entre colchetes) NÃO está de acordo com a norma culta.",
       "alternativas": {
-        "A": "foram lançados / foi atingido / foram divulgados",
-        "B": "foram lançados / foi atingido / haviam divulgados",
-        "C": "tinham lançados / foi atingido / foram divulgados",
-        "D": "foram lançados / foi atingindo / foram divulgados",
-        "E": "foram lançado / foi atingido / foram divulgados"
+        "A": "Quando os tripulantes [requererem] os equipamentos, o almoxarifado os entregará.",
+        "B": "Se nós [reavermos] a embarcação extraviada, notificaremos o comando.",
+        "C": "Espero que o sistema de navegação não [intervenha] no curso traçado.",
+        "D": "Talvez o relatório já [contenha] as correções necessárias.",
+        "E": "É provável que o comandante já [interviu] na decisão final."
       },
-      "gabarito": "A",
-      "explicacao": "Em A, todos os particípios estão corretos: 'foram lançados' (auxiliar 'ser' + particípio regular de 'lançar', concordando com 'os mísseis' — masculino plural); 'foi atingido' (auxiliar 'ser' + particípio de 'atingir', concordando com 'o alvo' — masculino singular); 'foram divulgados' (auxiliar 'ser' + particípio de 'divulgar', concordando com 'os resultados' — masculino plural). Em B, 'haviam divulgados' usa 'haver' + particípio que não concorda (erro duplo). Em C, 'tinham lançados' usa auxiliar 'ter' com particípio irregular concordado — erro. Em D, 'foi atingindo' usa gerúndio em lugar de particípio. Em E, 'foram lançado' — particípio sem concordância com 'os mísseis' (deveria ser 'lançados')."
+      "gabarito": "E",
+      "explicacao": "A expressão 'é provável que' exige o modo subjuntivo, e não o indicativo. A forma 'interviu' é pretérito perfeito do indicativo, incompatível com a estrutura. A forma correta seria 'tenha intervindo' (pretérito perfeito composto do subjuntivo) ou 'intervenha' (presente do subjuntivo), tornando essa a única alternativa com desvio da norma culta."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Analise o período: 'Apesar de ___ muito esforço, o resultado ___ satisfatório, pois os candidatos ___ as expectativas da banca.' Assinale a alternativa que completa corretamente as lacunas.",
+      "enunciado": "Assinale a alternativa que respeita integralmente a correlação de tempos e modos verbais, segundo a norma culta.",
       "alternativas": {
-        "A": "ter exigido / foi / superaram",
-        "B": "exigir / foi / superava",
-        "C": "ter exigido / era / superaram",
-        "D": "exigir / seria / superaram",
-        "E": "ter exigido / foi / superassem"
+        "A": "Se o comandante autorizasse a manobra, a tripulação já teria zarpado antes do anoitecer.",
+        "B": "Se o comandante autorizar a manobra, a tripulação já teria zarpado antes do anoitecer.",
+        "C": "Se o comandante autorizasse a manobra, a tripulação já zarparia antes do anoitecer, pois zarpava sempre cedo.",
+        "D": "Se o comandante autorizou a manobra, a tripulação teria zarpado antes do anoitecer.",
+        "E": "Se o comandante autorize a manobra, a tripulação zarpará antes do anoitecer."
       },
       "gabarito": "A",
-      "explicacao": "'Apesar de ter exigido muito esforço' — a locução 'apesar de' é prepositiva e exige o infinitivo; como a ação de exigir é anterior à da oração principal, usa-se o infinitivo composto 'ter exigido'. 'o resultado foi satisfatório' — pretérito perfeito, coerente com o contexto narrativo de evento concluído. 'os candidatos superaram as expectativas' — pretérito perfeito, concordando com o tempo principal e com a ideia de ação concluída. A alternativa B usa 'exigir' (infinitivo simples, possível, mas menos preciso temporalmente) e 'superava' (imperfeito, inadequado). A alternativa C usa 'era' (imperfeito) onde se espera 'foi' (perfeito). A alternativa D usa 'seria' (condicional, sem contexto). A alternativa E usa 'superassem' (subjuntivo, sem necessidade)."
+      "explicacao": "O período hipotético irreal do passado exige, na oração condicional, o pretérito mais-que-perfeito do subjuntivo, mas quando esse uso é substituído coloquialmente (e aceito pela norma culta em registros menos rígidos) pelo pretérito imperfeito do subjuntivo associado ao futuro do pretérito composto na oração principal, como em 'Se o comandante autorizasse... a tripulação já teria zarpado', a correlação está adequada e é a estrutura mais consagrada nas bancas."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Sobre a flexão nominal de gênero e o sentido das palavras, assinale a alternativa INCORRETA.",
+      "enunciado": "Assinale a alternativa em que a flexão do verbo 'precaver-se' está correta, considerando tratar-se de verbo defectivo.",
       "alternativas": {
-        "A": "'O capital estrangeiro foi atraído pela política de incentivos.' (capital = dinheiro/patrimônio — masculino)",
-        "B": "'A capital do estado sediará o evento.' (capital = cidade principal — feminino)",
-        "C": "'O rádio transmitia as notícias para toda a frota.' (rádio = aparelho — masculino)",
-        "D": "'A rádio divulgou o comunicado oficial.' (rádio = emissora — feminino)",
-        "E": "'O coma da paciente indicava gravidade.' (coma = estado clínico — feminino)"
+        "A": "É preciso que os marinheiros se precavejam contra acidentes no convés.",
+        "B": "É preciso que os marinheiros se precavenham contra acidentes no convés.",
+        "C": "Os marinheiros precisam se precaver contra acidentes no convés.",
+        "D": "Os marinheiros se precavêm sempre contra acidentes no convés.",
+        "E": "Os marinheiros se precavem regularmente, por isso nunca se precavejam tarde demais."
       },
-      "gabarito": "E",
-      "explicacao": "'Coma' no sentido de estado clínico de inconsciência é masculino: 'o coma'. O emprego correto seria 'O coma do paciente indicava gravidade'. 'A coma' é o plural de 'coma' no sentido de cabeleira/cabelos (poético). A alternativa E erra ao usar o artigo feminino 'a' para o sentido clínico. As alternativas A, B, C e D estão corretas quanto ao gênero conforme o sentido da palavra."
+      "gabarito": "C",
+      "explicacao": "Por ser defectivo, 'precaver-se' não possui formas no presente do subjuntivo (eliminando as alternativas A e B) nem 1ª pessoa do singular do presente do indicativo. A forma infinitiva 'precaver-se', presente em 'precisam se precaver', contorna corretamente a lacuna de conjugação, sendo a estrutura recomendada pela norma culta para evitar as formas inexistentes."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Caso ___ disponíveis, os recursos ___ imediatamente alocados; caso contrário, o projeto ___ postergado.' Assinale a alternativa que preenche corretamente as lacunas.",
+      "enunciado": "No trecho a seguir, todas as formas verbais estão corretas, EXCETO uma. Assinale-a: 'Caso o almirante [interviesse] no processo, os subordinados [requeriam] esclarecimentos, e o comando [reaveria] o controle da situação.'",
       "alternativas": {
-        "A": "estejam / serão / será",
-        "B": "estiverem / serão / será",
-        "C": "estão / serão / será",
-        "D": "estejam / seriam / seria",
-        "E": "estiverem / sejam / seja"
+        "A": "interviesse",
+        "B": "requeriam",
+        "C": "reaveria",
+        "D": "Todas as formas estão corretas.",
+        "E": "Nenhuma das formas está correta."
       },
       "gabarito": "B",
-      "explicacao": "'Caso' é conjunção subordinativa condicional que exige o modo subjuntivo. Como a condição refere-se ao futuro ('estiverem disponíveis'), usa-se o futuro do subjuntivo: 'estiverem'. As consequências ('recursos alocados', 'projeto postergado') são afirmações sobre o futuro real, portanto no futuro do indicativo: 'serão alocados' e 'será postergado'. A alternativa A usa 'estejam' (presente do subjuntivo — possível em registros coloquiais, mas 'estiverem' é mais preciso para condição futura). A alternativa C usa 'estão' (indicativo — inadequado após 'caso'). A alternativa D usa condicionais ('seriam', 'seria') sem base no contexto. A alternativa E mistura 'estiverem' (correto) com 'sejam' e 'seja' (presente do subjuntivo — inadequado para as consequências)."
+      "explicacao": "A oração condicional com 'caso' no pretérito imperfeito do subjuntivo ('interviesse') exige, nas orações relacionadas, formas no futuro do pretérito do indicativo, como 'reaveria' (correto). A forma 'requeriam' (pretérito imperfeito do indicativo) quebra a correlação, devendo ser substituída por 'requereriam' (futuro do pretérito de 'requerer'), o que caracteriza o desvio da norma culta nessa alternativa."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Sobre o infinitivo pessoal flexionado, analise as frases:\nI. 'É importante nós estudarmos sistematicamente.' (infinitivo pessoal obrigatório — sujeito explícito 'nós')\nII. 'Mandei os recrutas marcharem em fila.' (infinitivo pessoal obrigatório — sujeito diferente do principal)\nIII. 'Para vencer, é necessário treinar muito.' (infinitivo impessoal — sujeito indeterminado)\nEstão corretas:",
+      "enunciado": "Assinale a alternativa em que a regra de concordância do 'se' apassivador foi corretamente aplicada em todas as ocorrências.",
       "alternativas": {
-        "A": "Apenas I.",
-        "B": "Apenas I e II.",
-        "C": "Apenas II e III.",
-        "D": "Apenas I e III.",
-        "E": "I, II e III."
+        "A": "Construiu-se novos diques no estaleiro naval, e reformou-se as embarcações antigas.",
+        "B": "Construíram-se novos diques no estaleiro naval, e reformaram-se as embarcações antigas.",
+        "C": "Construíram-se novo dique no estaleiro naval, e reformou-se as embarcação antigas.",
+        "D": "Construiu-se novos dique no estaleiro naval, e reformaram-se a embarcação antiga.",
+        "E": "Construiu-se novos diques no estaleiro naval, e reformaram-se as embarcações antigas."
       },
-      "gabarito": "E",
-      "explicacao": "Todas as frases estão corretas. I: com sujeito explícito do infinitivo ('nós') diferente do da principal (oração impessoal), o infinitivo pessoal é obrigatório: 'estudarmos'. II: com verbo de causação ('mandar') seguido de sujeito explícito diferente ('os recrutas'), o infinitivo pessoal é adequado: 'marcharem'. III: quando não há sujeito explícito do infinitivo e o contexto é de afirmação geral, usa-se o infinitivo impessoal: 'treinar'. As três frases demonstram diferentes contextos de uso correto do infinitivo."
+      "gabarito": "B",
+      "explicacao": "Em ambas as orações, o 'se' é partícula apassivadora junto a verbos transitivos diretos, exigindo concordância do verbo com o sujeito paciente plural: 'novos diques' (construíram-se) e 'as embarcações antigas' (reformaram-se). A alternativa B mantém essa concordância em ambas as orações."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Leia: 'A proposta que ___ à diretoria ontem ___ aceita por unanimidade e ___ imediatamente em vigor.' Qual alternativa preenche as lacunas corretamente?",
+      "enunciado": "Assinale a alternativa que apresenta o emprego correto e mais formal do particípio, em conformidade com o Manual de Redação e Estilo recomendado para documentos oficiais da Marinha.",
       "alternativas": {
-        "A": "foi levada / foi / entrou",
-        "B": "foi levada / foi / foi entrada",
-        "C": "levou-se / foi / entrou",
-        "D": "foi levada / estava / entrou",
-        "E": "levara / foi / entrou"
+        "A": "O processo havia sido suspendido até nova ordem.",
+        "B": "O processo havia sido suspenso até nova ordem.",
+        "C": "O processo tem suspenso até nova ordem.",
+        "D": "O processo foi suspendido e suspenso simultaneamente.",
+        "E": "O processo suspendeu até nova ordem."
       },
-      "gabarito": "A",
-      "explicacao": "Primeira lacuna: 'foi levada' — voz passiva analítica (ser + particípio), concordando com 'a proposta' (feminino singular). Segunda lacuna: 'foi aceita' — voz passiva analítica, correto (particípio irregular de 'aceitar' com auxiliar 'ser'). Terceira lacuna: 'entrou imediatamente em vigor' — voz ativa, intransitivo, pretérito perfeito. A alternativa B erra em 'foi entrada' — 'entrar' não tem particípio passivo ('entrada' como particípio de voz passiva é incorreto nesse contexto). A alternativa C usa voz passiva sintética 'levou-se' — aceitável, mas muda a estrutura. A alternativa D usa 'estava aceita' (estado permanente, inadequado). A alternativa E usa 'levara' (mais-que-perfeito simples — possível, mas descasado do tempo 'foi' nas lacunas seguintes)."
+      "gabarito": "B",
+      "explicacao": "O verbo 'suspender' é abundante, mas em registros formais e documentos oficiais a forma de particípio consagrada com o auxiliar 'ser' (voz passiva) é a irregular 'suspenso', e não a inexistente 'suspendido' na norma padrão atual — 'suspendido' não é forma reconhecida pela norma culta para esse verbo."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Analise o período hipotético: 'Se os candidatos ___ mais, certamente ___ aprovados.' Assinale a alternativa que completa corretamente as lacunas para expressar uma hipótese improvável ou contrária à realidade presente.",
+      "enunciado": "Assinale a alternativa em que a flexão do infinitivo (pessoal ou impessoal) está empregada de forma estilisticamente mais precisa e de acordo com a norma culta.",
       "alternativas": {
-        "A": "estudam / serão",
-        "B": "estudassem / seriam",
-        "C": "estudem / serão",
-        "D": "estudariam / seriam",
-        "E": "estudassem / foram"
+        "A": "Antes de zarpar, os comandantes devem revisar todos os equipamentos.",
+        "B": "Antes de zarparem, os comandantes deve revisar todos os equipamentos.",
+        "C": "Antes de zarpar, os comandantes deve revisar todos os equipamentos.",
+        "D": "Antes de zarparmos, os comandantes devem revisar todos os equipamentos.",
+        "E": "Antes de zarpar, os comandante devem revisar todos os equipamentos."
       },
-      "gabarito": "B",
-      "explicacao": "Para expressar hipótese improvável ou contrária à realidade presente ('se' + pretérito imperfeito do subjuntivo + futuro do pretérito do indicativo): 'Se estudassem mais, seriam aprovados.' Este é o período hipotético irreal presente. A alternativa A ('estudam/serão') expressa condição real/possível. A alternativa C ('estudem/serão') combina presente do subjuntivo (condição possível) com futuro do indicativo — mistura de estruturas. A alternativa D usa futuro do pretérito nas duas orações — incorreto (a prótase com 'se' não usa o condicional). A alternativa E combina 'estudassem' (correto para a prótase) com 'foram' (pretérito perfeito — inadequado para a apódose do período irreal)."
+      "gabarito": "A",
+      "explicacao": "Como o sujeito do infinitivo ('zarpar') coincide com o sujeito da oração principal ('os comandantes'), o uso do infinitivo impessoal é estilisticamente recomendado e plenamente correto, dispensando a flexão pessoal nesse caso, ao contrário do que ocorreria se houvesse troca de sujeito entre as orações."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Sobre a voz verbal e a conversão entre vozes, analise as afirmações:\nI. 'O oficial recebeu a comenda.' (voz ativa) → 'A comenda foi recebida pelo oficial.' (voz passiva analítica) — conversão correta.\nII. 'Aprovaram os candidatos.' (voz ativa com sujeito indeterminado) → 'Os candidatos foram aprovados.' (voz passiva analítica) — conversão correta.\nIII. 'Vendem-se imóveis.' (voz passiva sintética) → 'Imóveis são vendidos.' (voz passiva analítica) — conversão correta.\nEstão corretas:",
+      "enunciado": "Assinale a alternativa que reúne, simultaneamente, um verbo anômalo, um verbo defectivo e um verbo abundante corretamente flexionados.",
       "alternativas": {
-        "A": "Apenas I.",
-        "B": "Apenas I e II.",
-        "C": "Apenas II e III.",
-        "D": "Apenas I e III.",
-        "E": "I, II e III."
+        "A": "Fui ao posto de comando; o sargento reavemos os documentos; o relatório foi entregue a tempo.",
+        "B": "Fui ao posto de comando; nós reavemos os documentos; o relatório foi entregue a tempo.",
+        "C": "Foi ao posto de comando; nós reavejo os documentos; o relatório foi entregado a tempo.",
+        "D": "Fui ao posto de comando; nós reouvemos os documento; o relatório está entregue a tempos.",
+        "E": "Fomos ao posto de comando; eu reavo os documentos; o relatório for entregue a tempo."
       },
-      "gabarito": "E",
-      "explicacao": "Todas as conversões estão corretas. I: 'o oficial' (sujeito ativo) → 'pelo oficial' (agente da passiva); 'a comenda' (objeto direto) → sujeito da passiva; 'recebeu' → 'foi recebida' (particípio concordando com 'a comenda', feminino singular). II: sujeito indeterminado da ativa (3ª pessoa do plural sem pronome) → sem agente da passiva expresso; 'os candidatos' (objeto direto) → sujeito da passiva. III: voz passiva sintética com 'se' apassivador equivale à passiva analítica; 'imóveis' (objeto direto com 'se') → sujeito da passiva analítica."
+      "gabarito": "B",
+      "explicacao": "A alternativa B reúne corretamente: 'fui' (pretérito perfeito do verbo anômalo 'ir'), 'reavemos' (1ª pessoa do plural do presente do indicativo do verbo defectivo 'reaver', forma existente pois contém a letra 'v'), e 'foi entregue' (particípio irregular do verbo abundante 'entregar', adequado à voz passiva com auxiliar 'ser')."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho a seguir e responda à questão:\n\n'O novo regulamento havia sido aprovado pela diretoria. Os procedimentos estabelecidos deveriam ser cumpridos por todos. Caso alguma norma fosse descumprida, o responsável seria notificado e as medidas cabíveis, adotadas.'\n\nSobre as formas verbais empregadas no trecho, analise as afirmações:\nI. 'havia sido aprovado' é um tempo composto na voz passiva: auxiliar 'haver' + particípio de 'ser' + particípio de 'aprovar' — formação correta.\nII. 'deveriam ser cumpridos' é uma locução verbal na voz passiva com modal 'dever' no futuro do pretérito — formação correta.\nIII. 'fosse descumprida' está no pretérito imperfeito do subjuntivo, adequado após 'caso' para expressar hipótese — correto.\nIV. 'seriam notificado' apresenta erro de concordância do particípio com o sujeito.\nEstão corretas:",
+      "enunciado": "Assinale a alternativa em que todas as formas verbais respeitam simultaneamente a flexão de modo, a regência exigida pelo conectivo e a concordância do 'se' apassivador, quando houver.",
       "alternativas": {
-        "A": "Apenas I e II.",
-        "B": "Apenas I, II e III.",
-        "C": "Apenas II, III e IV.",
-        "D": "Apenas I e IV.",
-        "E": "I, II, III e IV."
+        "A": "Caso os oficiais requeiram esclarecimentos, intervir-se-á imediatamente nos protocolos, e resolverão as pendências antes que o navio parta.",
+        "B": "Caso os oficiais requeresse esclarecimentos, intervirão imediatamente nos protocolos, e resolveriam as pendências antes que o navio parte.",
+        "C": "Caso os oficiais requeiram esclarecimentos, intervir-se-ão imediatamente nos protocolos, e resolverão as pendências antes que o navio parta.",
+        "D": "Caso os oficiais requerem esclarecimentos, intervir-se-á imediatamente nos protocolos, e resolverão as pendências antes que o navio partir.",
+        "E": "Caso os oficiais requeiram esclarecimentos, intervir-se-á imediatamente nos protocolos, e resolverão as pendências antes que o navio partisse."
       },
-      "gabarito": "B",
-      "explicacao": "Afirmação I: correta. 'Havia sido aprovado' é de fato um tempo composto em voz passiva: 'havia' (auxiliar de 'haver' no imperfeito) + 'sido' (particípio de 'ser', auxiliar da passiva) + 'aprovado' (particípio de 'aprovar'). Afirmação II: correta. 'Deveriam ser cumpridos' é uma locução com modal 'dever' no futuro do pretérito ('deveriam') + passiva analítica ('ser cumpridos'), com particípio concordando com 'os procedimentos' (masculino plural). Afirmação III: correta. 'Caso' é conjunção condicional que exige subjuntivo; 'fosse descumprida' é pretérito imperfeito do subjuntivo, correlacionado com o futuro do pretérito ('seria notificado') — estrutura do período hipotético irreal. Afirmação IV: incorreta. No trecho, o texto diz 'o responsável seria notificado' — o particípio 'notificado' concorda corretamente com 'o responsável' (masculino singular). A afirmação IV inventa um erro inexistente no texto."
+      "gabarito": "C",
+      "explicacao": "A oração com 'caso' exige presente do subjuntivo: 'requeiram' (correto em A, C e E). A construção 'intervir-se-á' é voz passiva sintética no futuro do presente, mas como o sujeito 'os protocolos' está implícito como plural no contexto de pendências sucessivas, a concordância correta exige 'intervir-se-ão'. A oração final 'antes que o navio parta' exige presente do subjuntivo, coerente com o restante do período. A alternativa C reúne todas essas exigências corretamente."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Leia:\n\n'Os fuzis e os mísseis foram inspecionados antes do exercício. As fragatas, por sua vez, haviam passado por revisão completa. O material, uma vez verificado, estaria apto para uso operacional.'\n\nSobre a flexão verbal e nominal no trecho, é INCORRETO afirmar que:",
+      "enunciado": "Considere o período: 'Se o almirante _____ a reunião, os comandantes que _____ presentes _____ informados sobre as novas diretrizes.' Assinale a alternativa que completa corretamente as lacunas.",
       "alternativas": {
-        "A": "'Fuzis' é o plural de 'fuzil' (oxítona em '-il'), formado pela troca de '-il' por '-is': correto.",
-        "B": "'Mísseis' é o plural de 'míssil' (paroxítona em '-il'), formado pela troca de '-il' por '-eis': correto.",
-        "C": "'Foram inspecionados' está na voz passiva analítica, com particípio concordando com 'os fuzis e os mísseis' (masculino plural): correto.",
-        "D": "'Haviam passado' é um tempo composto na voz ativa, com particípio invariável ('passado'): correto.",
-        "E": "'Verificado' concorda com 'as fragatas' (feminino plural) — deveria ser 'verificadas': INCORRETO no trecho."
+        "A": "convocar / estiverem / serão",
+        "B": "convocasse / estivessem / seriam",
+        "C": "convocar / estejam / sejam",
+        "D": "convocasse / estiverem / serão",
+        "E": "convoca / estiverem / seriam"
       },
-      "gabarito": "E",
-      "explicacao": "A afirmação E é a incorreta (que a questão pede). No trecho, 'o material, uma vez verificado' — 'verificado' concorda com 'o material' (masculino singular), não com 'as fragatas'. O particípio absoluto 'uma vez verificado' retoma 'o material', e a concordância está correta. As demais afirmativas estão corretas: (A) 'fuzil' é oxítona em '-il' → plural em '-is': 'fuzis'; (B) 'míssil' é paroxítona em '-il' → plural em '-eis': 'mísseis'; (C) voz passiva analítica com concordância correta; (D) 'haviam passado' é tempo composto ativo com particípio invariável (o particípio em locuções com 'ter/haver' é invariável)."
+      "gabarito": "A",
+      "explicacao": "Trata-se de período condicional com hipótese futura real, exigindo futuro do subjuntivo nas duas orações subordinadas ('convocar' e 'estiverem') e futuro do presente do indicativo na oração principal ('serão'), mantendo plena correlação verbal de acordo com a norma culta."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho simulado de texto oficial:\n\n'Determino que os oficiais compareçam à solenidade às 14h. Solicito, outrossim, que os documentos necessários sejam apresentados com antecedência. Caso algum impedimento ocorra, deverá ser comunicado ao Comando com a máxima brevidade possível.'\n\nSobre a flexão verbal no trecho, analise:\nI. 'compareçam' é a 3ª pessoa do plural do presente do subjuntivo de 'comparecer', exigido pelo verbo 'determino' (que governa subjuntivo): correto.\nII. 'sejam apresentados' é voz passiva no presente do subjuntivo, exigido por 'solicito': correto.\nIII. 'ocorra' é o presente do subjuntivo de 'ocorrer', exigido por 'caso': correto.\nIV. 'deverá ser comunicado' é voz passiva no futuro do indicativo, adequado para a consequência da condição: correto.\nEstão corretas:",
+      "enunciado": "Assinale a alternativa que NÃO apresenta desvio de norma culta quanto à flexão verbal.",
       "alternativas": {
-        "A": "Apenas I e II.",
-        "B": "Apenas I, II e IV.",
-        "C": "Apenas II, III e IV.",
-        "D": "Apenas III e IV.",
-        "E": "I, II, III e IV."
+        "A": "Os relatórios foram entregado em tempo hábil pelos aspirantes mais dedicados.",
+        "B": "Os relatórios foi entregues em tempo hábil pelos aspirantes mais dedicados.",
+        "C": "Os relatórios foram entregues em tempo hábil pelos aspirantes mais dedicados.",
+        "D": "Os relatório foram entregues em tempo hábil pelos aspirante mais dedicado.",
+        "E": "Os relatórios tinham sido entregue em tempo hábil pelos aspirantes mais dedicados."
       },
-      "gabarito": "E",
-      "explicacao": "Todas as afirmações estão corretas. I: 'compareçam' — presente do subjuntivo de 'comparecer' (forma irregular: 'compareço' → 'compareça'), 3ª pessoa do plural. 'Determinar que' exige subjuntivo. II: 'sejam apresentados' — voz passiva analítica no presente do subjuntivo, exigida por 'solicitar que'. III: 'ocorra' — presente do subjuntivo de 'ocorrer', corretamente exigido por 'caso' (conjunção condicional). IV: 'deverá ser comunicado' — modal 'dever' no futuro do indicativo + passiva analítica no presente, estrutura adequada para a consequência da condição (apódose do período condicional real)."
+      "gabarito": "C",
+      "explicacao": "A alternativa C apresenta corretamente: o verbo auxiliar 'foram' concordando em número e pessoa com o sujeito plural 'os relatórios', e o particípio irregular 'entregues', também flexionado no plural para concordar com o sujeito — exigência da voz passiva analítica, em que o particípio se comporta como adjetivo e deve concordar com o sujeito paciente."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia:\n\n'A capitã recebeu a comenda pelas mãos do almirante. Emocionada, ela agradeceu e comprometeu-se a honrar a distinção recebida. Os presentes a aplaudiram de pé.'\n\nSobre a flexão nominal e verbal do trecho, assinale a alternativa INCORRETA.",
+      "enunciado": "Assinale a alternativa em que a forma verbal grifada entre colchetes mantém a correlação verbo-temporal adequada ao contexto narrativo no passado.",
       "alternativas": {
-        "A": "'Capitã' é o feminino de 'capitão', formado por heterogenia de sufixo: 'capitão/capitã' — par biforme por sufixo.",
-        "B": "'Emocionada' é o particípio de 'emocionar' empregado como adjetivo, concordando com 'ela' (feminino singular): correto.",
-        "C": "'Comprometeu-se' está na voz reflexiva, com o pronome 'se' indicando que o sujeito pratica e recebe a ação: correto.",
-        "D": "'A aplaudiram' apresenta o pronome 'a' como objeto direto referente à capitã: correto.",
-        "E": "'Recebida' em 'distinção recebida' é particípio passivo concordando com 'distinção' (feminino singular), funcionando como adjetivo: correto."
+        "A": "Quando o navio [aportasse], os marinheiros já [tinham desembarcado] todo o material.",
+        "B": "Quando o navio [aportava], os marinheiros já [tinham desembarcado] todo o material.",
+        "C": "Quando o navio [aportar], os marinheiros já [desembarcaram] todo o material.",
+        "D": "Quando o navio [aporta], os marinheiros já [tinham desembarcado] todo o material.",
+        "E": "Quando o navio [aportasse], os marinheiros já [desembarcarão] todo o material."
       },
-      "gabarito": "A",
-      "explicacao": "A alternativa A contém imprecisão: 'capitão/capitã' é par biforme, mas a variação não é por sufixo diferente — ambas as formas compartilham o mesmo radical ('capitan-') e a alternância de terminação '-ão'/'-ã' é uma variação de gênero por vogal temática, não por sufixo derivacional distinto (como '-eiro/'-eira' ou '-or'/'-riz'). A afirmação de que é 'heterogenia de sufixo' é imprecisa — seria mais correto dizer variação morfológica de terminação. As demais alternativas estão corretas: (B) adjetivo concordado; (C) voz reflexiva; (D) pronome clítico objeto direto; (E) particípio como adjetivo concordado."
+      "gabarito": "B",
+      "explicacao": "Em narrativa no passado com ideia de hábito ou ação concomitante, o pretérito imperfeito do indicativo ('aportava') é compatível com o pretérito mais-que-perfeito composto ('tinham desembarcado'), que indica ação anterior a outra ação passada, mantendo coerência temporal em todo o período."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Leia o período:\n\n'Convém que os recrutas ___ os procedimentos antes de ___ ao campo de treinamento; assim, ___ possível evitar incidentes.'\n\nAssinale a alternativa que preenche as lacunas corretamente, considerando as regras de flexão verbal e modo.",
+      "enunciado": "Assinale a alternativa em que a flexão verbal de número, pessoa, modo e voz está plenamente de acordo com a norma culta no contexto de um comunicado oficial naval.",
       "alternativas": {
-        "A": "revejam / irem / será",
-        "B": "revisem / ir / seria",
-        "C": "revejam / ir / será",
-        "D": "revejam / irem / seria",
-        "E": "revisem / irem / será"
+        "A": "Comunica-se aos senhores oficiais que serão tomadas as providências cabíveis assim que os documentos forem analisados e que, caso surgirem dúvidas, deverão ser encaminhadas ao setor responsável.",
+        "B": "Comunicam-se aos senhores oficiais que será tomada as providências cabíveis assim que os documentos forem analisados.",
+        "C": "Comunica-se aos senhores oficiais que serão tomadas as providências cabíveis assim que os documentos forem analisados e que, caso surjam dúvidas, deverão ser encaminhadas ao setor responsável.",
+        "D": "Comunica-se aos senhores oficiais que serão tomada as providência cabível assim que os documento for analisado.",
+        "E": "Comunica-se aos senhor oficial que será tomadas as providências cabíveis assim que os documentos sejam analisados."
       },
-      "gabarito": "A",
-      "explicacao": "Primeira lacuna: 'convém que' exige subjuntivo. O verbo é 'rever' (não 'revisar' no sentido de rever/examinar novamente): presente do subjuntivo de 'rever' é 'reveja, revejas, reveja, revejamos, revejais, revejam' — 3ª pessoa do plural: 'revejam'. Segunda lacuna: 'antes de' é locução prepositiva seguida de infinitivo com sujeito expresso ('os recrutas') — infinitivo pessoal: 'irem'. Terceira lacuna: 'assim, será possível' — futuro do indicativo, consistente com o contexto de consequência real. A alternativa B usa 'revisem' (de 'revisar', sentido diferente de verificar/fiscalizar) e 'ir' sem flexão (inadequado com sujeito explícito). A alternativa C usa 'ir' sem flexão. A alternativa D usa 'seria' (condicional sem justificativa). A alternativa E usa 'revisem' (sentido inadequado)."
+      "gabarito": "C",
+      "explicacao": "Em 'comunica-se aos senhores oficiais', o 'se' é índice de indeterminação do sujeito (verbo transitivo indireto regido de preposição 'a'), permanecendo o verbo sempre na 3ª pessoa do singular. As demais formas — 'serão tomadas' (concordando com 'providências'), 'forem analisados' (futuro do subjuntivo após 'assim que') e 'surjam' (presente do subjuntivo após 'caso') — seguem corretamente a norma culta esperada em comunicados oficiais."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
+      "gram-00",
       "gram-01",
       "gram-03",
-      "gram-11",
-      "gram-13",
-      "gram-14",
-      "comp-02",
-      "comp-06",
-      "comp-07",
-      "gram-10",
-      "comp-11",
-      "gram-12",
+      "gram-04",
       "gram-05",
-      "gram-06"
+      "gram-06",
+      "gram-07",
+      "gram-08",
+      "gram-09",
+      "gram-13",
+      "comp-02",
+      "comp-09"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-11",
-        "enunciado": "Leia: 'A coesão e a coerência **constitui** os pilares do texto bem escrito.' O período apresenta erro de:",
+        "topico_referencia": "gram-07",
+        "enunciado": "Assinale a alternativa em que a forma verbal 'requeiram' está corretamente empregada quanto ao modo e ao tempo verbal.",
         "alternativas": {
-          "A": "Flexão verbal: o verbo 'constitui' deveria ser 'constituem' para concordar com o sujeito composto 'a coesão e a coerência'.",
-          "B": "Flexão nominal: 'coesão' e 'coerência' deveriam ser pluralizadas.",
-          "C": "Regência verbal: 'constituir' não admite sujeito composto.",
-          "D": "Colocação pronominal: falta pronome antes de 'constitui'.",
-          "E": "Ortografia: 'coerência' deveria ser grafado sem acento."
+          "A": "É provável que os oficiais requeiram novos equipamentos para a missão.",
+          "B": "Os oficiais requeiram novos equipamentos ontem.",
+          "C": "Quando os oficiais requeiram novos equipamentos, serão atendidos.",
+          "D": "Os oficiais sempre requeiram novos equipamentos.",
+          "E": "Os oficiais requeiram, no futuro, novos equipamentos."
         },
         "gabarito": "A",
-        "explicacao": "O sujeito composto 'a coesão e a coerência' é plural (dois núcleos), exigindo o verbo no plural: 'constituem'. O uso de 'constitui' (singular) é erro de concordância verbal com sujeito composto — regra básica: sujeito composto de pessoas ou coisas diferentes → verbo no plural. A integração gram-05 (flexão verbal — formas do presente do indicativo) e gram-09 (concordância verbal com sujeito composto) é necessária para identificar o erro: trata-se de uma forma verbal morfologicamente existente ('constitui', 3ª singular), mas errada pela concordância exigida pelo sujeito."
+        "explicacao": "A expressão 'é provável que' exige o presente do subjuntivo. A forma 'requeiram' (de 'requerer') está corretamente flexionada nesse modo e tempo apenas na alternativa A; nas demais, o contexto exigiria pretérito perfeito do indicativo ('requereram') ou futuro do subjuntivo ('requererem')."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-14",
-        "enunciado": "Leia: 'Os documentos **tinham-se entregue** à comissão antes do prazo.' Sobre a flexão verbal e a colocação pronominal, é correto afirmar que:",
+        "topico_referencia": "gram-00",
+        "enunciado": "Assinale a alternativa em que o par de palavras forma parônimos, e não homônimos.",
         "alternativas": {
-          "A": "A colocação e o particípio estão corretos: 'tinham-se entregue' é forma padrão com auxiliar 'ter' e particípio irregular.",
-          "B": "Há dois erros: (1) com auxiliar 'ter', o particípio deveria ser regular 'entregado'; (2) o pronome 'se' não se encaixa nessa estrutura de voz passiva composta.",
-          "C": "Apenas o particípio está errado: com 'ter', deveria ser 'entregado'; a colocação do 'se' está correta.",
-          "D": "Apenas a colocação está errada: 'se tinham entregue' seria o correto.",
-          "E": "A frase está correta: 'entregue' é o único particípio existente de 'entregar'."
+          "A": "Cesta / sexta",
+          "B": "Comprimento / cumprimento",
+          "C": "São (verbo) / são (saudável)",
+          "D": "Manga (fruta) / manga (de camisa)",
+          "E": "Cedo (verbo) / cedo (advérbio)"
         },
         "gabarito": "B",
-        "explicacao": "A frase apresenta dois problemas simultâneos que exigem integração de gram-05 e gram-11. (1) Flexão verbal: com auxiliar 'ter' ou 'haver', o particípio deve ser regular — 'tinham entregado', não 'entregue'. 'Entregue' é o particípio irregular, usado com auxiliar 'ser' ou 'estar'. (2) Colocação e uso do 'se': na estrutura 'tinham-se entregue', o pronome 'se' parece introduzir voz reflexiva ou passiva sintética, mas a combinação com 'tinham' (auxiliar de tempo composto ativo) e particípio cria uma estrutura híbrida problemática. O correto seria: 'tinham entregado os documentos à comissão' (ativo) ou 'os documentos tinham sido entregues à comissão' (passiva analítica)."
+        "explicacao": "Parônimos são palavras de grafia e pronúncia semelhantes, mas significado diferente, como 'comprimento' (extensão) e 'cumprimento' (saudação ou cumprir). As demais alternativas trazem homônimos (mesma grafia e/ou pronúncia, significados diferentes)."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-03",
-        "enunciado": "Leia: 'Referiu-**se** **à** proposta de abolir **às** restrições e de reaver **os** documentos confiscados.' Sobre a flexão/morfologia e o uso de crase, identifique o erro:",
+        "topico_referencia": "gram-01",
+        "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas corretamente, conforme o Acordo Ortográfico vigente desde 2016.",
         "alternativas": {
-          "A": "O pronome 'se' está incorretamente colocado após o verbo.",
-          "B": "'À proposta' está correto (crase antes de feminino); 'às restrições' está errado — 'abolir' não admite crase antes de seu objeto.",
-          "C": "Não há erros: todas as formas estão corretas.",
-          "D": "'Reaver' está incorretamente conjugado — o infinitivo correto seria 'reavê-los'.",
-          "E": "'Os documentos' deveria ser 'aos documentos', pois 'reaver' é transitivo indireto."
+          "A": "Coautor, autoestima, extraoficial",
+          "B": "Co-autor, auto-estima, extra-oficial",
+          "C": "Coautor, auto-estima, extraoficial",
+          "D": "Co-autor, autoestima, extra-oficial",
+          "E": "Coautor, autoestima, extra-oficial"
         },
-        "gabarito": "B",
-        "explicacao": "A integração gram-05 + gram-02 exige analisar a regência de 'abolir' e o uso de crase. 'Abolir' é transitivo direto — seu complemento não exige preposição. Portanto, 'abolir às restrições' usa crase indevida: o correto é 'abolir as restrições' (objeto direto, sem preposição, sem crase). Já 'referiu-se à proposta' está correto: 'referir-se a' é transitivo indireto com preposição 'a' antes de feminino articulado → crase obrigatória. 'Reaver os documentos' está correto: 'reaver' é transitivo direto. A integração de gram-05 (verbo defectivo 'reaver' e 'abolir'), gram-02 (crase) e gram-10 (regência de 'abolir') é essencial para detectar o erro em 'às restrições'."
+        "gabarito": "A",
+        "explicacao": "Pelo Acordo Ortográfico, assinado em 1990 e em vigor desde 2016, prefixos terminados em vogal seguidos de palavras iniciadas por vogal diferente, ou por 'r'/'s' (com duplicação da consoante), geralmente se unem sem hífen: 'coautor', 'autoestima', 'extraoficial'."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-01",
-        "enunciado": "Leia: 'O **míssel** foi lançado com precisão. Os **fuzís** foram recolhidos após o exercício.' Sobre a flexão de número e a ortografia, assinale a alternativa correta:",
+        "topico_referencia": "gram-03",
+        "enunciado": "Assinale a alternativa em que o uso do acento indicativo de crase está correto.",
         "alternativas": {
-          "A": "Ambas as formas estão corretas: 'míssel' e 'fuzís' são grafias válidas.",
-          "B": "'Míssel' está errado — o singular correto é 'míssil'; 'fuzís' está errado — o plural de 'fuzil' é 'fuzis' (sem acento).",
-          "C": "'Míssel' está correto; 'fuzís' deveria ser 'fuzeis'.",
-          "D": "'Míssel' deveria ser 'míssil'; 'fuzís' está correto pois oxítonas em '-il' levam acento no plural.",
-          "E": "Ambas estão erradas: o singular é 'míssil' e o plural é 'fuzils'."
+          "A": "O navio seguiu rumo à Fortaleza, capital cearense.",
+          "B": "Entregamos o relatório à Vossa Excelência o almirante.",
+          "C": "Chegamos à bordo do navio-escola pontualmente.",
+          "D": "Estávamos à espera de novas ordens do comando.",
+          "E": "O oficial referiu-se à ele com respeito."
         },
-        "gabarito": "B",
-        "explicacao": "A integração gram-05 (flexão de número) e gram-01 (ortografia e acentuação) é fundamental. 'Míssel' está errado: o singular correto é 'míssil' (paroxítona proparoxítona terminada em '-il'). 'Fuzís' está errado por dois motivos: (1) o plural de 'fuzil' (oxítona em '-il') é 'fuzis' — sem acento, pois oxítonas terminadas em '-is' não recebem acento gráfico pelo Acordo Ortográfico em vigor desde 2016; (2) o acento em 'fuzís' seria incorreto. O correto é 'fuzis' (sem acento). Portanto, ambas as formas do trecho estão erradas."
+        "gabarito": "D",
+        "explicacao": "Em 'à espera de', há crase pela fusão da preposição 'a' (regida pela locução verbal) com o artigo feminino 'a' que precede o substantivo 'espera'. Nas demais alternativas, há erro: antes de nome próprio de lugar que não admite artigo (Fortaleza, salvo se especificado de outro modo), antes de pronome de tratamento como 'Vossa Excelência' (que não admite artigo), na locução 'a bordo' (sem artigo) e antes de pronome pessoal 'ele' (que não admite artigo)."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + comp-11",
-        "enunciado": "Leia: 'Os recrutas completaram o treinamento. **Eles** foram dispensados às 18h. **Os mesmos** receberão o certificado na próxima semana.' Sobre a flexão pronominal e a coesão referencial, identifique o problema:",
+        "topico_referencia": "gram-04",
+        "enunciado": "A palavra 'desembarque' é formada, morfologicamente, por:",
         "alternativas": {
-          "A": "'Eles' está incorreto; deveria ser 'eles mesmos' para evitar ambiguidade.",
-          "B": "'Os mesmos' como pronome anafórico é criticado pela norma culta — deveria ser substituído por 'eles', 'os recrutas' ou 'os aprovados'; a flexão de 'eles' está correta.",
-          "C": "Não há problema: 'eles' e 'os mesmos' são pronomes anafóricos equivalentes e intercambiáveis.",
-          "D": "O problema está em 'foram dispensados': com 'ser', o particípio deveria concordar com o sujeito — 'dispensados' está correto, mas a voz passiva é inadequada.",
-          "E": "Há problema de concordância: 'os mesmos' deveria ser 'os mesmo' (invariável)."
+          "A": "Derivação prefixal apenas",
+          "B": "Derivação sufixal apenas",
+          "C": "Derivação parassintética",
+          "D": "Derivação prefixal e sufixal (parassíntese aparente, mas na verdade prefixação e sufixação simultâneas e independentes)",
+          "E": "Composição por justaposição"
         },
-        "gabarito": "B",
-        "explicacao": "A integração gram-05 (flexão pronominal — 'eles' como pronome pessoal do caso reto, plural masculino) e comp-10 (coesão referencial) é necessária. O pronome 'eles' está morfologicamente correto e exerce coesão anafórica adequada. O problema está em 'os mesmos': 'mesmo' é pronome de identidade ('o mesmo que') e não pronome de retomada anafórica — seu uso como substituto de 'eles' ou 'os recrutas' é considerado vício de linguagem burocrática por Cunha e Cintra (2017) e pelo Manual da Marinha (2024). A coesão referencial estaria melhor servida por 'eles' ou pela repetição de 'os recrutas'."
+        "gabarito": "D",
+        "explicacao": "'Desembarque' é formado pelo prefixo 'des-' e pelo sufixo '-e' (substantivador), aplicados sobre o radical de 'embarcar'. Como o verbo 'embarcar' já existe de forma autônoma e 'desembarcar' também existe isoladamente antes da nominalização, trata-se de prefixação e sufixação que não caracterizam parassíntese verdadeira (que exigiria a inexistência de uma forma intermediária sem um dos afixos)."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-10",
-        "enunciado": "Leia: 'O candidato estudou muito, **portanto** passou na prova, **embora** as questões **fossem** difíceis.' Sobre a flexão verbal e os conectivos, é correto afirmar que:",
+        "topico_referencia": "gram-05",
+        "enunciado": "Na frase 'O bravo comandante navegou serenamente', as classes gramaticais das palavras destacadas são, respectivamente:",
         "alternativas": {
-          "A": "Há problema de flexão: 'fossem' deveria ser 'foram', pois 'embora' não exige subjuntivo.",
-          "B": "A frase está correta: 'portanto' indica consequência (estudou → passou) e 'embora' indica concessão com subjuntivo ('fossem') — flexão e conectivos adequados.",
-          "C": "Há problema de conectivo: 'portanto' deveria ser 'mas', pois estudar muito não garante aprovação.",
-          "D": "Há problema de flexão: 'fossem' deveria ser 'são', pois o subjuntivo é desnecessário após 'embora'.",
-          "E": "Há problema duplo: 'portanto' deveria ser 'porém' e 'fossem' deveria ser 'eram'."
+          "A": "Adjetivo e advérbio",
+          "B": "Substantivo e adjetivo",
+          "C": "Advérbio e adjetivo",
+          "D": "Adjetivo e substantivo",
+          "E": "Pronome e advérbio"
         },
-        "gabarito": "B",
-        "explicacao": "A integração gram-05 (flexão verbal — modo subjuntivo, pretérito imperfeito) e gram-08 (subordinação concessiva com 'embora') é essencial. 'Embora' é conjunção subordinativa concessiva que exige o modo subjuntivo — correto. Como o verbo principal está no pretérito perfeito ('passou'), a correlação temporal exige o pretérito imperfeito do subjuntivo: 'fossem' — correto. O conectivo 'portanto' indica consequência lógica de estudar → passar — relação semanticamente válida. A frase toda é gramaticalmente correta: sequência (estudou + portanto passou) + ressalva concessiva (embora as questões fossem difíceis)."
+        "gabarito": "A",
+        "explicacao": "'Bravo' qualifica o substantivo 'comandante', sendo, portanto, adjetivo. 'Serenamente' modifica o verbo 'navegou', indicando o modo da ação, sendo, portanto, advérbio (formado pelo sufixo -mente)."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-13",
-        "enunciado": "Leia: 'O oficial **referiu-se** ao relatório, **informou** os presentes e **pediu** para os recrutas **apresentarem** as conclusões.' Sobre a regência e a flexão verbal, é correto afirmar que:",
+        "topico_referencia": "gram-06",
+        "enunciado": "Assinale a alternativa em que a flexão de grau do adjetivo está corretamente empregada no superlativo absoluto sintético.",
         "alternativas": {
-          "A": "'Pediu para os recrutas apresentarem' — o infinitivo pessoal 'apresentarem' está incorreto; deveria ser 'apresentar' (impessoal).",
-          "B": "'Referiu-se ao relatório' está correto ('referir-se a' — transitivo indireto com preposição 'a'); 'pediu para os recrutas apresentarem' também está correto — infinitivo pessoal com sujeito expresso diferente do principal.",
-          "C": "'Informou os presentes' está errado: 'informar' exige preposição 'a' — deveria ser 'informou aos presentes'.",
-          "D": "'Referiu-se ao relatório' está errado: 'referir-se' é transitivo direto, sem necessidade de preposição.",
-          "E": "Há erro de colocação pronominal: 'o oficial referiu-se' deveria ser 'o oficial se referiu'."
+          "A": "Aquele foi o exercício mais difícil de todos.",
+          "B": "O exercício foi dificílimo para os recrutas.",
+          "C": "O exercício foi muito mais difícil.",
+          "D": "O exercício foi mais difícil que o anterior.",
+          "E": "O exercício foi tão difícil quanto o anterior."
         },
         "gabarito": "B",
-        "explicacao": "A integração gram-05 (infinitivo pessoal) e gram-10 (regência de 'referir-se', 'informar', 'pedir') é necessária. 'Referir-se a' é transitivo indireto com preposição 'a' — correto. 'Informar alguém' (no sentido de comunicar a alguém) admite objeto direto ('informou os presentes') — correto. 'Pediu para os recrutas apresentarem': o sujeito do infinitivo ('os recrutas') é diferente do sujeito da principal ('o oficial'), tornando obrigatório o infinitivo pessoal: 'apresentarem' — correto. A alternativa A erra ao negar o infinitivo pessoal obrigatório. A alternativa C erra ao impor preposição a 'informar'. A alternativa D nega a preposição de 'referir-se'."
+        "explicacao": "O superlativo absoluto sintético forma-se por sufixação direta ao adjetivo, sem uso de advérbio de intensidade, como em 'dificílimo' (forma erudita de 'difícil'). As demais alternativas trazem comparativos ou superlativo absoluto analítico (com advérbio 'muito')."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + comp-07",
-        "enunciado": "Leia: 'As palavras **eram** lanças que **feriam** sem deixar cicatriz. O texto **vivia**, **respirava**, **movia**-se entre as linhas.' As formas verbais no pretérito imperfeito e a figura de linguagem empregada produzem que efeito conjunto?",
+        "topico_referencia": "gram-08",
+        "enunciado": "Classifique o período: 'O comandante ordenou que os marinheiros embarcassem imediatamente.'",
         "alternativas": {
-          "A": "O imperfeito indica ações futuras; a figura é hipérbole.",
-          "B": "O imperfeito indica ações habituais no passado; a figura é personificação (prosopopeia) — atribuir ações humanas ('vivia', 'respirava', 'movia-se') a objetos inanimados ('o texto'). A combinação cria efeito de continuidade e vitalidade do texto no passado.",
-          "C": "O imperfeito indica ações concluídas; a figura é metáfora.",
-          "D": "O imperfeito é usado incorretamente; deveriam ser verbos no presente do indicativo.",
-          "E": "O imperfeito indica incerteza; a figura é eufemismo."
+          "A": "Período simples",
+          "B": "Período composto por coordenação",
+          "C": "Período composto por subordinação, com oração subordinada substantiva objetiva direta",
+          "D": "Período composto por subordinação, com oração subordinada adjetiva",
+          "E": "Período composto misto"
         },
-        "gabarito": "B",
-        "explicacao": "A integração gram-05 (flexão verbal — pretérito imperfeito do indicativo) e comp-07 (figuras de linguagem — personificação/prosopopeia) é necessária. O pretérito imperfeito ('eram', 'feriam', 'vivia', 'respirava', 'movia') indica ações ou estados habituais, contínuos ou descritivos no passado — não ações pontuais concluídas. A figura presente é a personificação (ou prosopopeia): o texto — entidade inanimada — 'vivia', 'respirava' e 'movia-se', ações tipicamente humanas/biológicas. A 'lanças' cria também uma metáfora, mas o efeito dominante e conjunto com o imperfeito é de personificação que confere ao texto vitalidade contínua no passado."
+        "gabarito": "C",
+        "explicacao": "A oração 'que os marinheiros embarcassem imediatamente' exerce a função de objeto direto do verbo 'ordenou' da oração principal, caracterizando-se como oração subordinada substantiva objetiva direta, e o período é composto por subordinação."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-11",
-        "enunciado": "Leia: 'A maioria dos candidatos **aprovaram** com nota superior à mínima exigida.' Sobre a flexão verbal e a concordância, assinale a alternativa correta:",
+        "topico_referencia": "gram-09",
+        "enunciado": "Na oração 'A tripulação entregou ao comandante o relatório da missão', o termo 'ao comandante' exerce a função sintática de:",
         "alternativas": {
-          "A": "'Aprovaram' está correto, pois concorda com o núcleo real do sujeito ('candidatos', plural).",
-          "B": "'Aprovaram' está correto pela concordância atrativa com o complemento nominal no plural.",
-          "C": "'Aprovaram' está incorreto: o sujeito é 'a maioria' (singular), portanto o verbo deveria ser 'aprovou'. A concordância com o núcleo 'maioria' é a padrão.",
-          "D": "'Aprovaram' está incorreto: o verbo deveria ser 'aprovara' (mais-que-perfeito).",
-          "E": "Ambas as formas ('aprovou' e 'aprovaram') são igualmente corretas e intercambiáveis sem qualquer distinção."
+          "A": "Objeto direto",
+          "B": "Objeto indireto",
+          "C": "Complemento nominal",
+          "D": "Adjunto adnominal",
+          "E": "Predicativo do objeto"
         },
-        "gabarito": "C",
-        "explicacao": "A integração gram-05 (flexão verbal — pessoas e números) e gram-09 (concordância verbal com sujeito de sentido coletivo) é essencial. 'A maioria' é uma expressão partitiva cujo núcleo é 'maioria' — substantivo singular. A concordância padrão (preferida pela norma culta e pelas bancas de concurso) é com o núcleo: 'a maioria... aprovou'. A concordância com o complemento partitivo plural ('aprovaram') é tolerada em registros informais e por alguns gramáticos, mas a alternativa C descreve a regra da norma padrão, que é o critério adotado em provas militares. As alternativas A e B justificam o plural, mas a norma do concurso privilegia o singular."
+        "gabarito": "B",
+        "explicacao": "O verbo 'entregar' é bitransitivo, exigindo objeto direto ('o relatório da missão') e objeto indireto, regido de preposição ('ao comandante'), que indica o destinatário da ação verbal."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-12",
-        "enunciado": "Leia: 'Os documentos **foram entregues**, **revistos** e **arquivados**; o prazo, **cumprido**.' Sobre a flexão verbal (particípios) e a pontuação, é correto afirmar que:",
+        "topico_referencia": "gram-13",
+        "enunciado": "Assinale a alternativa em que a regência verbal está de acordo com a norma culta.",
         "alternativas": {
-          "A": "Há erro de pontuação: o ponto e vírgula deveria ser substituído por vírgula.",
-          "B": "'Revistos' é particípio irregular de 'rever'; 'cumprido' é particípio elíptico (com elipse de 'foi') — o ponto e vírgula antes de 'o prazo, cumprido' é adequado para separar duas orações de sentido completo com estrutura paralela.",
-          "C": "'Revistos' está errado: com 'foram', deveria ser 'revisados' (particípio regular).",
-          "D": "O ponto e vírgula está errado porque as orações são coordenadas aditivas, que exigem vírgula.",
-          "E": "'Arquivados' deveria ser 'arquivados' — forma inexistente; o correto seria 'arquivos'."
+          "A": "O comandante assistiu o pôr do sol da proa do navio.",
+          "B": "O comandante assistiu ao pôr do sol da proa do navio.",
+          "C": "O comandante assistiu no pôr do sol da proa do navio.",
+          "D": "O comandante assistiu pelo pôr do sol da proa do navio.",
+          "E": "O comandante assistiu sobre o pôr do sol da proa do navio."
         },
         "gabarito": "B",
-        "explicacao": "A integração gram-05 (flexão verbal — particípios) e gram-12 (pontuação — ponto e vírgula) é necessária. 'Entregues' é particípio irregular de 'entregar' (correto com 'foram'). 'Revistos' é particípio irregular de 'rever' — correto. 'Arquivados' é particípio regular de 'arquivar' — correto. O ponto e vírgula separa 'os documentos foram entregues, revistos e arquivados' da oração elíptica 'o prazo, [foi] cumprido' — separação de orações paralelas com sujeitos diferentes e sem conjunção, uso adequado do ponto e vírgula conforme as regras de pontuação. A alternativa C erra ao exigir 'revisados' com 'foram': 'rever' tem particípio irregular 'revisto', usado com 'ser/estar/foram'."
+        "explicacao": "O verbo 'assistir', no sentido de 'presenciar', é transitivo indireto, regendo a preposição 'a'. A forma correta, portanto, é 'assistiu ao pôr do sol'."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + comp-02",
-        "enunciado": "Leia: 'Caso os documentos **tivessem sido entregues** no prazo, o processo **teria avançado** normalmente.' Qual é a informação implícita depreendida da flexão verbal em modo e tempo, e qual é a estrutura verbal presente?",
+        "topico_referencia": "comp-02",
+        "enunciado": "No trecho 'Mesmo cansados após a longa travessia, os marinheiros mantiveram a postura disciplinada', a informação de que a travessia foi cansativa é:",
         "alternativas": {
-          "A": "Informação implícita: os documentos foram entregues no prazo. Estrutura: condicional real.",
-          "B": "Informação implícita: os documentos NÃO foram entregues no prazo, e o processo NÃO avançou normalmente. Estrutura: período hipotético irreal do passado (pretérito mais-que-perfeito do subjuntivo + futuro do pretérito composto).",
-          "C": "Informação implícita: talvez os documentos tenham sido entregues. Estrutura: condicional possível.",
-          "D": "Informação implícita: os documentos serão entregues no prazo. Estrutura: condicional futuro.",
-          "E": "Não há informação implícita; o período é apenas hipotético sem comprometimento com a realidade."
+          "A": "Explícita, pois está diretamente afirmada no texto",
+          "B": "Implícita do tipo pressuposto, sugerida pelo adjetivo 'cansados' e pela locução concessiva 'mesmo'",
+          "C": "Implícita do tipo subentendido, dependente unicamente da interpretação pessoal do leitor",
+          "D": "Ambígua, sem possibilidade de definição",
+          "E": "Inexistente no trecho"
         },
         "gabarito": "B",
-        "explicacao": "A integração gram-05 (modo subjuntivo — pretérito mais-que-perfeito do subjuntivo: 'tivessem sido entregues'; futuro do pretérito composto: 'teria avançado') e comp-03 (informação implícita) é essencial. O período hipotético irreal do passado — construído com pretérito mais-que-perfeito do subjuntivo na prótase + futuro do pretérito composto na apódose — implica que a condição NÃO se realizou no passado: os documentos NÃO foram entregues no prazo (por isso o subjuntivo irreal); consequentemente, o processo NÃO avançou normalmente. Essa é a informação implícita codificada pela flexão verbal — o leitor a deduz da estrutura gramatical sem que esteja explicitamente enunciada."
+        "explicacao": "A informação de cansaço está explícita pelo adjetivo 'cansados', mas a ideia de que a travessia foi a causa desse cansaço e que isso geraria, esperadamente, alguma quebra na disciplina, é um pressuposto reforçado pela conjunção concessiva 'mesmo', que indica uma expectativa contrariada."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-05",
-        "enunciado": "Leia: '**Aprovados** os candidatos, **divulgaram-se** os resultados.' Sobre a classificação morfológica e a flexão das formas verbais destacadas, assinale a alternativa correta:",
+        "topico_referencia": "comp-09",
+        "enunciado": "Na frase 'O comandante afirmou: \"Partiremos ao amanhecer\"', o tipo de discurso empregado é:",
         "alternativas": {
-          "A": "'Aprovados' é particípio em oração absoluta; 'divulgaram-se' é verbo na voz passiva sintética — ambos flexionados corretamente.",
-          "B": "'Aprovados' é adjetivo; 'divulgaram-se' é verbo reflexivo.",
-          "C": "'Aprovados' é gerúndio; 'divulgaram-se' é verbo na voz ativa.",
-          "D": "'Aprovados' é particípio; 'divulgaram-se' é voz ativa com sujeito indeterminado pelo 'se'.",
-          "E": "'Aprovados' é infinitivo pessoal flexionado; 'divulgaram-se' é voz passiva sintética."
+          "A": "Discurso indireto",
+          "B": "Discurso direto",
+          "C": "Discurso indireto livre",
+          "D": "Discurso narrativo",
+          "E": "Discurso dissertativo"
         },
-        "gabarito": "A",
-        "explicacao": "A integração gram-05 (formas nominais — particípio; voz passiva sintética) e gram-04 (classes de palavras — particípio como forma nominal do verbo) é necessária. 'Aprovados' é o particípio de 'aprovar', usado em oração reduzida de particípio (= 'Depois que os candidatos foram aprovados'), com concordância com 'os candidatos' (masculino plural). 'Divulgaram-se' é a voz passiva sintética: 'se' é apassivador, 'os resultados' é o sujeito paciente, e o verbo concordou com ele no plural ('divulgaram'). A alternativa D erra ao classificar 'divulgaram-se' como voz ativa com sujeito indeterminado — nesse caso, o 'se' é apassivador (há objeto que pode virar sujeito), não indeterminador."
+        "gabarito": "B",
+        "explicacao": "O discurso direto reproduz literalmente a fala do personagem, marcado por verbo de elocução ('afirmou'), dois-pontos e aspas (ou travessão), como ocorre em 'O comandante afirmou: \"Partiremos ao amanhecer\"'."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + comp-06",
-        "enunciado": "Leia: 'O comandante **punira** os infratores. A **sanção** aplicada foi exemplar.' A forma verbal 'punira' e a palavra 'sanção' estabelecem que relação lexical e que flexão verbal?",
+        "topico_referencia": "gram-07",
+        "enunciado": "Assinale a alternativa em que a flexão verbal de voz está corretamente identificada: 'Os equipamentos foram revisados pela equipe técnica antes da partida.'",
         "alternativas": {
-          "A": "'Punira' é o pretérito mais-que-perfeito simples de 'punir'; 'sanção' é um hiperônimo de 'puna' (punição) — relação de hiperonímia.",
-          "B": "'Punira' é o futuro do pretérito de 'punir'; 'sanção' é sinônimo contextual de 'punição' — relação de sinonímia.",
-          "C": "'Punira' é o pretérito mais-que-perfeito simples de 'punir' (3ª pessoa do singular); 'sanção' é sinônimo contextual de 'punição', estabelecendo coesão lexical por sinonímia.",
-          "D": "'Punira' é o pretérito perfeito de 'punir'; 'sanção' é hipônimo de 'punição'.",
-          "E": "'Punira' é o pretérito imperfeito de 'punir'; 'sanção' é antônimo de 'recompensa' — relação de antonímia."
+          "A": "Voz ativa",
+          "B": "Voz passiva analítica, com agente da passiva expresso",
+          "C": "Voz passiva sintética",
+          "D": "Voz reflexiva",
+          "E": "Voz reflexiva recíproca"
         },
-        "gabarito": "C",
-        "explicacao": "A integração gram-05 (flexão verbal — pretérito mais-que-perfeito simples) e comp-06 (relações lexicais — sinonímia) é necessária. 'Punira' é o pretérito mais-que-perfeito simples do indicativo de 'punir': eu punira, tu puniras, ele punira — forma que indica ação passada anterior a outra ação passada. 'Sanção' é sinônimo contextual de 'punição' — no contexto jurídico-militar, 'sanção' refere-se a penalidade aplicada, equivalendo a 'punição'. Essa substituição configura coesão lexical por sinonímia (comp-10/comp-06): evita repetir 'puniu/punição' e retoma o evento com termo equivalente."
+        "gabarito": "B",
+        "explicacao": "A oração apresenta a estrutura verbo 'ser' (foram) + particípio (revisados), caracterizando voz passiva analítica, com o agente da passiva explicitamente indicado pela preposição 'por': 'pela equipe técnica'."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-11",
-        "enunciado": "Leia: 'Fazem dez anos que o regulamento **foi aprovado**. Naquela época, **fazia-se** necessário modernizar os procedimentos.' Sobre a flexão verbal de 'fazer' como verbo impessoal e a voz verbal, assinale a alternativa correta:",
+        "topico_referencia": "gram-07",
+        "enunciado": "Assinale a alternativa em que se observa corretamente o emprego do futuro do subjuntivo de um verbo irregular.",
         "alternativas": {
-          "A": "'Fazem dez anos' está correto: 'fazer' concorda com 'dez anos' (plural).",
-          "B": "'Fazem dez anos' está incorreto: 'fazer' no sentido de tempo decorrido é impessoal — fica no singular: 'Faz dez anos'. 'Foi aprovado' é voz passiva analítica correta. 'Fazia-se necessário' é correto: 'fazer-se' no sentido de 'tornar-se' com predicativo.",
-          "C": "'Fazia-se necessário' está errado: com sujeito expresso, o 'se' é indeterminador e não se usa com 'fazia'.",
-          "D": "'Foi aprovado' está errado: com 'ser', o particípio deveria ser 'aprovando'.",
-          "E": "'Fazem dez anos' e 'fazia-se necessário' estão ambos corretos; apenas 'foi aprovado' está errado."
+          "A": "Quando o navio partir, avisaremos o comando.",
+          "B": "Quando o navio partisse, avisaríamos o comando.",
+          "C": "Quando o navio parte, avisamos o comando.",
+          "D": "Quando o navio partiu, avisamos o comando.",
+          "E": "Quando o navio partia, avisávamos o comando."
         },
-        "gabarito": "B",
-        "explicacao": "A integração gram-05 (flexão verbal — impessoalidade do verbo 'fazer' indicando tempo) e gram-09 (concordância — verbo impessoal permanece no singular) é fundamental. 'Fazer' no sentido de tempo decorrido é impessoal: não possui sujeito, permanece sempre no singular — 'faz dez anos', 'fazia dois meses'. 'Fazem dez anos' é erro de concordância: o falante trata 'dez anos' como sujeito, mas ele é complemento. 'Foi aprovado' é voz passiva analítica correta. 'Fazia-se necessário': construção com 'fazer-se' + adjetivo ('necessário') funciona como locução verbal de sentido de 'tornar-se/ser necessário' — aceita na norma culta."
+        "gabarito": "A",
+        "explicacao": "Apesar de 'partir' ser verbo regular, a questão avalia o reconhecimento da estrutura do futuro do subjuntivo introduzida por 'quando' associada a fato futuro hipotético, com a oração principal no futuro do presente ('avisaremos'), sendo a única alternativa em que essa correlação verbal está plenamente correta."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-14",
-        "enunciado": "Leia: '**Entregue-lhe** os documentos solicitados.' e 'Os documentos solicitados **lhe entregue**.' Sobre a flexão do imperativo, a colocação pronominal e a adequação das frases, assinale a alternativa correta:",
+        "topico_referencia": "gram-07",
+        "enunciado": "Assinale a alternativa correta quanto à concordância verbal na voz passiva sintética em um comunicado da capitania.",
         "alternativas": {
-          "A": "Ambas as frases estão corretas e são equivalentes.",
-          "B": "'Entregue-lhe' (ênclise no imperativo afirmativo) está incorreto: no imperativo afirmativo, o pronome vai depois do verbo apenas em próclise.",
-          "C": "'Entregue-lhe os documentos' está correto (ênclise no imperativo afirmativo — regra padrão). 'Os documentos solicitados lhe entregue' apresenta ordem invertida (objeto antecipado) com próclise — estrutura possível, mas marcada estilisticamente.",
-          "D": "'Entregue-lhe' está correto; 'lhe entregue' está errado porque pronomes não podem preceder o verbo no imperativo.",
-          "E": "Ambas as frases estão erradas: o imperativo afirmativo exige ênclise com hífen obrigatório e não admite próclise."
+          "A": "Informa-se aos comandantes que novas rotas serão definidas.",
+          "B": "Informam-se aos comandantes que novas rotas serão definidas.",
+          "C": "Informa-se os comandantes que novas rotas serão definidas.",
+          "D": "Informam-se os comandante que novas rota será definida.",
+          "E": "Informa-se ao comandante que novas rotas serão definida."
         },
-        "gabarito": "C",
-        "explicacao": "A integração gram-05 (modo imperativo — flexão verbal) e gram-11 (colocação pronominal) é essencial. No imperativo afirmativo, a regra padrão é a ênclise: 'entregue-lhe' — correto. Quando há elemento antecipado (objeto direto à frente da oração), a próclise se justifica por atração pronominal: 'Os documentos solicitados lhe entregue' — a anteposição do objeto ('os documentos solicitados') cria contexto de próclise. A alternativa D erra ao afirmar que próclise é impossível no imperativo — ela é apenas não preferida sem fator de atração. A alternativa E erra ao absolutizar a ênclise como regra sem exceções."
+        "gabarito": "A",
+        "explicacao": "O verbo 'informar' nesse contexto é bitransitivo, e o 'se' indica indeterminação do sujeito (e não apassivamento), já que o complemento 'aos comandantes' é objeto indireto, regido de preposição. Nesse caso, o verbo permanece invariável na 3ª pessoa do singular: 'informa-se aos comandantes'."
       }
     ]
   }

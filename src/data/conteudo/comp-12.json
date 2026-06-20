@@ -2,965 +2,871 @@
   "id": "comp-12",
   "titulo": "Coerência e Textualidade",
   "area": "Compreensão e Interpretação de Texto",
-  "resumo": "Coesão e coerência são propriedades fundamentais do texto bem construído. A coesão refere-se aos mecanismos linguísticos que estabelecem ligações entre os elementos do texto — pronomes, conectivos, elipses, substituições —, garantindo sua unidade formal. A coerência diz respeito à unidade semântica e lógica, à construção de sentido que permite ao leitor interpretar o texto como um todo articulado. Ambas as propriedades são exploradas sistematicamente nas provas militares, exigindo do candidato capacidade de identificar problemas de progressão temática, retomadas equivocadas, quebras de coerência e uso inadequado de conectivos.",
+  "resumo": "Estudo da coerência textual como princípio de sentido global do texto, abrangendo os tipos de coerência (narrativa, temporal, lógica e estilística), os fatores de textualidade que sustentam a unidade significativa de um texto, e as principais quebras de coerência cobradas em provas de Língua Portuguesa.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Texto, Textualidade e as Propriedades do Texto",
-        "conteudo": "Um texto não é uma simples sequência de frases justapostas: é uma unidade de sentido reconhecível e interpretável dentro de uma situação comunicativa. Koch e Elias (2008) apontam que a textualidade resulta de um conjunto de fatores que fazem com que uma sequência linguística seja percebida como texto coerente e coeso. Entre os critérios de textualidade, destacam-se a coesão, a coerência, a intencionalidade, a aceitabilidade, a informatividade, a situacionalidade e a intertextualidade. Para o concurso RM2, os dois fatores mais explorados são coesão e coerência: o primeiro atua no nível da superfície textual (gramática do texto); o segundo atua no nível do sentido (semântica do texto). Fiorin e Savioli (2007) reforçam que um texto incoerente pode ter frases gramaticalmente corretas, e um texto coeso pode ainda assim carecer de unidade de sentido — o que mostra que coesão e coerência, embora relacionadas, são fenômenos distintos.",
+        "subtitulo": "O que é coerência textual",
+        "conteudo": "Coerência é o princípio que garante a um texto unidade de sentido, fazendo com que suas partes se articulem de forma lógica e compreensível para o leitor. Diferente da coesão, que opera no plano linguístico (conexões gramaticais visíveis), a coerência opera no plano do sentido e da lógica — um texto pode ter conectivos perfeitos e, ainda assim, ser incoerente se as ideias não fizerem sentido entre si, ou pode ter poucos conectivos explícitos e ser plenamente coerente, desde que o leitor consiga reconstruir a lógica subjacente.",
         "exemplos": [
-          "Sequência coesa, mas incoerente: 'O sol nasceu a oeste. Por isso, os pescadores saíram ao mar ao entardecer.' (conectivo causal correto, mas relação lógica impossível)",
-          "Sequência coerente, mas pouco coesa: 'João chegou tarde. A chuva estava forte. O ônibus atrasou.' (ideias relacionáveis, mas sem conectivos explícitos)"
+          "Texto coerente sem conectivos explícitos: 'Chegamos ao porto. O sol já se punha. Recolhemos as velas.' (sequência lógica implícita)",
+          "Texto coeso mas incoerente: 'O navio partiu, e por isso o sol é uma estrela.' (conectivo 'por isso' presente, mas sem relação lógica real)"
         ],
-        "regra": "Coesão = mecanismos linguísticos de ligação (forma). Coerência = unidade de sentido e lógica (conteúdo). Todo texto precisa das duas propriedades para funcionar plenamente."
+        "regra": "A coerência é fator de sentido (nível textual e pragmático), e não apenas de forma; depende da compatibilidade lógica entre as informações e do conhecimento de mundo compartilhado entre autor e leitor."
       },
       {
-        "subtitulo": "2. Coesão Referencial: Anáfora, Catáfora e Elipse",
-        "conteudo": "A coesão referencial é o mecanismo pelo qual elementos do texto remetem a outros elementos, evitando repetições desnecessárias e criando cadeias de referência. A anáfora é a retomada de um elemento já mencionado (antecedente): um pronome, sinônimo ou expressão nominal que aponta para trás no texto. A catáfora é o movimento oposto: o elemento de referência aponta para frente, antecipando algo que será dito. A elipse é a omissão de um elemento recuperável pelo contexto — muito comum com sujeitos de verbos consecutivos e com objetos. Koch e Elias (2008) destacam que a coesão referencial é a mais explorada em provas, pois erros de retomada pronominal ambígua, pronomes sem antecedente claro e concordância inadequada são frequentes em questões de múltipla escolha. O uso de expressões nominais definidas ('o referido documento', 'tal proposta', 'esse militar') também integra a coesão referencial.",
+        "subtitulo": "Coerência narrativa e temporal",
+        "conteudo": "A coerência narrativa exige que os fatos relatados sigam uma progressão lógica de causa e consequência, sem contradições internas. A coerência temporal, por sua vez, exige que a sequência de tempos verbais e marcadores temporais (antes, depois, em seguida, naquele momento) seja compatível com a ordem real ou pretendida dos acontecimentos, evitando saltos temporais incompreensíveis ou anacronismos.",
         "exemplos": [
-          "Anáfora pronominal: 'O comandante assinou o ofício. Ele foi encaminhado à chefia.' (ele = o ofício — ambiguidade com 'ele' podendo referir-se ao comandante)",
-          "Catáfora: 'Eis o que o regulamento exige: disciplina, pontualidade e dedicação.'",
-          "Elipse de sujeito: 'O aluno estudou toda a noite e [Ø] passou na prova.' (o sujeito elíptico é 'o aluno')",
-          "Expressão nominal definida: 'O projeto foi aprovado. A referida proposta entra em vigor em janeiro.'"
+          "Incoerência temporal: 'O navio atracará ontem à noite.' (futuro associado a marcador de passado)",
+          "Coerência temporal: 'O navio atracou ontem à noite.'"
         ],
-        "regra": "Identifique sempre o antecedente do pronome ou expressão anafórica. Se o antecedente for ambíguo ou inexistente, há problema de coesão referencial — e isso é gabarito de questão."
+        "regra": "Marcadores temporais devem ser compatíveis com o tempo verbal empregado; a quebra dessa compatibilidade é um dos erros de coerência mais cobrados em provas objetivas."
       },
       {
-        "subtitulo": "3. Coesão Sequencial: Conectivos e Progressão Textual",
-        "conteudo": "A coesão sequencial garante a progressão do texto por meio de conectivos (conjunções, preposições, advérbios conectivos, locuções) e pela organização lógico-temporal das ideias. Os conectivos estabelecem relações semânticas precisas entre os segmentos textuais: adição (e, além disso, também), oposição (mas, porém, contudo, todavia, entretanto, no entanto), causa (porque, pois, já que, visto que), consequência (portanto, logo, assim, por isso, de modo que), concessão (embora, ainda que, mesmo que, apesar de), finalidade (para que, a fim de que), condição (se, caso, desde que), comparação (como, assim como, tanto quanto), conformidade (conforme, segundo, de acordo com), tempo (quando, enquanto, depois que, assim que). Fiorin e Savioli (2007) alertam que a troca de um conectivo por outro de relação semântica diversa altera completamente o sentido do período — e esse é o principal teste em questões de reescritura e coesão. O Manual da Marinha (2024) valoriza o uso preciso dos conectivos na redação oficial, evitando o 'e' como coringa e privilegiando conectivos que explicitem a relação lógica.",
+        "subtitulo": "Coerência lógica e não contradição",
+        "conteudo": "A coerência lógica baseia-se no princípio de não contradição: duas informações que se opõem diretamente, sem ressalva ou justificativa textual, geram incoerência. Esse tipo de quebra costuma aparecer em provas por meio de afirmações que se anulam mutuamente dentro do mesmo parágrafo ou período, sem que o autor sinalize a oposição como proposital (por meio de conectivos adversativos, por exemplo).",
         "exemplos": [
-          "Adição: 'O militar cumpriu o serviço e ainda elaborou o relatório.'",
-          "Oposição real (adversativa): 'O prazo encerrou, mas o requerimento foi aceito.'",
-          "Concessão (subordinação): 'Embora o prazo tivesse encerrado, o requerimento foi aceito.'",
-          "Causa × Explicação: 'Ele não foi, porque estava doente.' (causa) × 'Ele não foi, pois estava doente.' (explicação — a ordem das orações importa)",
-          "Troca indevida: 'Estudou muito, portanto não passou.' (portanto indica consequência positiva esperada; a frase é contraditória — o correto seria 'porém/mas não passou')"
+          "Incoerente: 'Todos os tripulantes embarcaram, mas ninguém estava a bordo quando o navio partiu, e isso é normal.'",
+          "Coerente, com contradição justificada: 'Todos os tripulantes embarcaram, mas dois desembarcaram no último instante por motivos de saúde.'"
         ],
-        "regra": "Cada conectivo carrega uma relação semântica específica e insubstituível. Em questões de coesão, teste a relação lógica entre as orações antes de escolher ou validar o conectivo."
+        "regra": "Contradições só são admissíveis no texto quando devidamente justificadas ou sinalizadas; do contrário, configuram quebra de coerência lógica."
       },
       {
-        "subtitulo": "4. Coerência Textual: Princípios e Fatores",
-        "conteudo": "A coerência é a propriedade que faz do texto uma unidade de sentido interpretável. Koch e Elias (2008) apontam que a coerência não está apenas no texto, mas na interação entre texto, autor e leitor: um texto é coerente quando o leitor consegue construir para ele uma interpretação global, sem contradições ou lacunas insanáveis. Os principais fatores de coerência são: (a) não contradição — o texto não pode afirmar e negar a mesma coisa sem propósito retórico; (b) não tautologia — o texto não deve repetir o mesmo conteúdo sem acréscimo de informação; (c) relevância — cada parte do texto deve contribuir para o tema central; (d) progressão temática — o texto deve avançar, acrescentando informações novas ao tema; (e) continuidade — deve haver fio temático que perpasse todo o texto. A incoerência pode ser lógica (contradição entre fatos), semântica (incompatibilidade de sentidos) ou pragmática (inadequação ao contexto comunicativo). Fiorin e Savioli (2007) acrescentam que a coerência depende também do conhecimento de mundo compartilhado entre autor e leitor: o que parece incoerente para um leitor pode ser coerente para outro com diferentes conhecimentos enciclopédicos.",
+        "subtitulo": "Coerência estilística e de registro",
+        "conteudo": "A coerência estilística exige uniformidade no nível de linguagem (formal, informal, técnico) ao longo do texto, de modo que o registro escolhido inicialmente seja mantido, salvo intenção estilística clara (como ironia ou efeito de humor deliberado). Em documentos oficiais e textos técnicos — como os exigidos no concurso da Marinha — a quebra abrupta de registro, misturando gírias com vocabulário técnico-formal sem justificativa, é considerada falha grave de coerência.",
         "exemplos": [
-          "Contradição lógica: 'O candidato foi aprovado, mas foi reprovado na prova oral.' (contradição direta, salvo contexto que explique)",
-          "Tautologia: 'A decisão final e definitiva, que pôs fim à questão, foi tomada de forma conclusiva.' (repetição vazia de conteúdo)",
-          "Quebra de relevância: 'A Marinha do Brasil tem tradição secular. O futebol brasileiro é famoso no mundo.' (a segunda frase é irrelevante ao tema)",
-          "Progressão temática adequada: 'O navio partiu ao amanhecer. A tripulação, descansada após a escala, estava pronta para a travessia de sete dias.'"
+          "Incoerente: 'O comandante determinou, com base no regulamento vigente, que a tripulação desse o fora dos convidados não autorizados.'",
+          "Coerente: 'O comandante determinou, com base no regulamento vigente, que a tripulação retirasse os convidados não autorizados da embarcação.'"
         ],
-        "regra": "Um texto coerente não se contradiz, não repete sem acrescentar, mantém o fio temático e progride. Identifique qual desses princípios é violado nas questões que pedem 'o trecho que compromete a coerência'."
+        "regra": "O registro linguístico deve permanecer consistente ao longo de todo o texto, especialmente em gêneros formais como ofícios, memorandos e relatórios técnicos."
       },
       {
-        "subtitulo": "5. Mecanismos de Coesão Lexical e Distinção Coesão × Coerência em Provas",
-        "conteudo": "A coesão lexical opera pela escolha de palavras que retomam ou antecipam elementos do texto sem o uso de pronomes. Os principais mecanismos são: (a) sinonímia — substituição por palavra de sentido equivalente; (b) hiperonímia/hiponímia — substituição por termo de classe mais ampla (hiperônimo) ou mais específica (hipônimo); (c) antonímia — uso de opostos para criar contraste coeso; (d) reiteração — repetição intencional e estratégica de um termo; (e) meronímia — relação parte-todo. Cunha e Cintra (2017) incluem a coesão lexical como parte dos recursos estilísticos da língua, observando que a variação lexical controlada enriquece o texto sem prejuízo da clareza. Nas provas militares, questões de coesão lexical testam se o candidato identifica: (i) o antecedente correto de uma expressão nominal; (ii) o hiperônimo que substitui adequadamente uma série de termos; (iii) a sinonímia que preserva o sentido original. A distinção prática entre coesão e coerência em questões: se o problema é de ligação formal (pronome sem antecedente, conectivo errado, elipse ambígua) → coesão; se o problema é de sentido (contradição, irrelevância, progressão quebrada) → coerência.",
+        "subtitulo": "Fatores de textualidade: informatividade e intencionalidade",
+        "conteudo": "Além da coesão e da coerência, a textualidade — conjunto de características que fazem um conjunto de frases ser reconhecido como texto, e não como sequência aleatória de enunciados — depende também da informatividade (grau de previsibilidade ou novidade da informação) e da intencionalidade (propósito comunicativo do autor). Um texto muito previsível tende a ser menos informativo; um texto excessivamente imprevisível pode comprometer a compreensão, exigindo equilíbrio.",
         "exemplos": [
-          "Sinonímia: 'O oficial assinou o documento. O militar encaminhou o ofício à repartição.' ('militar' retoma 'oficial'; 'ofício' retoma 'documento')",
-          "Hiperonímia: 'Adquiriu corvetas, fragatas e submarinos. Essas embarcações foram incorporadas à frota.' ('embarcações' é hiperônimo)",
-          "Hipônimo: 'A Marinha recebeu novos veículos. Uma das corvetas foi batizada ontem.' ('corvetas' é hipônimo de 'veículos navais')",
-          "Reiteração intencional: 'Guerra. Guerra que destrói. Guerra que mata. Guerra que não cessa.' (anáfora retórica — coesão + efeito estilístico)",
-          "Questão-tipo: 'No texto, a expressão \"tais medidas\" retoma: (A) os decretos presidenciais; (B) as reformas administrativas; (C) os acordos bilaterais...'"
+          "Baixa informatividade: 'O navio navega na água.' (informação óbvia, pouco relevante)",
+          "Alta informatividade: 'O novo sistema de navegação reduziu em 40% o tempo de travessia entre os portos.'"
         ],
-        "regra": "Coesão lexical = retomada por palavras (sinônimos, hiperônimos, hipônimos). Identifique o referente exato da expressão nominal para não cair em distratores que oferecem termos plausíveis, mas incorretos conforme o texto."
+        "regra": "Um texto bem construído equilibra informações previsíveis (que ancoram a compreensão) e informações novas (que justificam a comunicação), sempre orientado por uma intenção comunicativa clara."
       },
       {
-        "subtitulo": "6. Progressão Temática e Paralelismo na Organização Textual",
-        "conteudo": "A progressão temática é o modo como um texto avança: cada nova oração ou parágrafo deve acrescentar uma rema (informação nova) ao tema (o que já é conhecido). Koch e Elias (2008) identificam os padrões básicos de progressão: (a) progressão linear — a rema de uma oração torna-se o tema da seguinte; (b) progressão com tema constante — o mesmo tema recebe remas diferentes ao longo do texto; (c) progressão com temas derivados — os temas de cada oração derivam de um hipretema (tema geral do parágrafo). A quebra de progressão — quando um parágrafo não avança, apenas parafraseia o anterior — é um defeito textual explorado em questões de coerência. O paralelismo sintático e semântico contribui para a coesão: elementos de mesma função sintática devem ter a mesma estrutura formal. Fiorin e Savioli (2007) enfatizam que a coesão por paralelismo é também um recurso estilístico poderoso, especialmente em textos argumentativos e dissertativos, que são os mais frequentes no RM2.",
+        "subtitulo": "Fatores de textualidade: situacionalidade e aceitabilidade",
+        "conteudo": "A situacionalidade refere-se à adequação do texto ao contexto de produção e recepção (quem escreve, para quem, em que circunstância), o que afeta diretamente as escolhas lexicais e estruturais. A aceitabilidade, por sua vez, é a expectativa do leitor de que o texto, mesmo com eventuais lacunas formais, faça sentido — o leitor colabora ativamente na construção do sentido, preenchendo informações implícitas com base no contexto.",
         "exemplos": [
-          "Progressão linear: 'O oficial recebeu a missão. A missão exigia rapidez. A rapidez dependia de recursos disponíveis.'",
-          "Progressão com tema constante: 'O regulamento é claro. [O regulamento] admite poucas exceções. [O regulamento] deve ser seguido rigorosamente.'",
-          "Quebra de progressão (problema): 'A Marinha investe em tecnologia. Investimentos em tecnologia são importantes. Tecnologia é fundamental para a Marinha.' (as três frases dizem o mesmo)",
-          "Paralelismo: 'O candidato deve ser pontual, disciplinado e dedicado.' (três adjetivos em série — paralelismo morfológico)"
+          "Situacionalidade adequada: um ofício militar usa vocativo formal ('Senhor Comandante') e linguagem protocolar.",
+          "Aceitabilidade: o leitor de um bilhete informal aceita frases incompletas como 'Já chegamos. Tudo certo.' como plenamente compreensíveis no contexto."
         ],
-        "regra": "Em cada parágrafo, pergunte: o que este trecho acrescenta ao que já foi dito? Se a resposta for 'nada', há quebra de progressão — e isso pode ser a resposta da questão."
+        "regra": "Situacionalidade exige adequação ao contexto comunicativo; aceitabilidade depende da cooperação interpretativa do leitor, que busca sentido mesmo diante de informações implícitas ou elípticas."
       },
       {
-        "subtitulo": "[Conteúdo complementar — Coesão Textual] Intencionalidade: Conceito e Relevância na Leitura",
-        "conteudo": "A intencionalidade é um dos sete critérios de textualidade definidos por Beaugrande e Dressler (1981), amplamente discutidos por Koch e Elias (2008). Refere-se à atitude do produtor do texto, que seleciona intencionalmente seus recursos linguísticos e discursivos para atingir determinados objetivos comunicativos junto ao interlocutor.\n\nTodo texto é produzido com uma ou mais intenções: informar, persuadir, entreter, emocionar, instruir, criticar, ironizar, homenagear, denunciar. A intencionalidade não é sempre declarada explicitamente — frequentemente precisa ser inferida pelo leitor a partir de pistas textuais como escolhas lexicais, estrutura argumentativa, tom, recursos retóricos e contexto de produção.\n\nKoch e Elias (2008) ressaltam que a compreensão da intencionalidade é fundamental para a construção do sentido do texto: dois textos com o mesmo conteúdo proposicional podem ter intenções completamente diferentes (um artigo científico e uma crônica sobre o mesmo tema têm intenções distintas). O leitor que não reconhece a intenção do autor frequentemente interpreta mal o texto.\n\nFiorin e Savioli (2007) acrescentam que a intenção do autor se manifesta nas escolhas de gênero, registro, argumentação e figuras de linguagem. Um texto que usa ironia pretende dizer o contrário do que literalmente afirma — reconhecer essa intenção é indispensável para a correta interpretação.\n\nNo contexto do concurso RM2, questões de intencionalidade geralmente pedem: identificar o propósito do autor (informar, persuadir, criticar etc.); reconhecer a intenção por trás de uma escolha linguística específica; distinguir intenção declarada de intenção implícita; avaliar se o texto atingiu seu propósito comunicativo.",
+        "subtitulo": "Fatores de textualidade: intertextualidade e progressão temática",
+        "conteudo": "A intertextualidade é a relação que um texto estabelece com outros textos (referências, alusões, paráfrases, citações), contribuindo para a construção do sentido a partir de um diálogo com o já dito. A progressão temática refere-se ao avanço organizado das ideias no texto, evitando repetições desnecessárias (estagnação temática) ou saltos bruscos sem conexão lógica entre os temas tratados (ruptura temática).",
         "exemplos": [
-          "Texto informativo com intenção persuasiva implícita: um artigo que 'apenas descreve' fatos, mas seleciona apenas os fatos favoráveis a uma tese — a intenção persuasiva está implícita.",
-          "Ironia como intenção: 'Que líder exemplar — faltou a todas as reuniões e não entregou nenhum relatório.' A intenção não é elogiar, mas criticar.",
-          "Intenção instrucional: manual técnico da Marinha — a intenção é prescrever comportamentos e procedimentos, não apenas descrever.",
-          "Intenção poética: texto literário que não visa transmitir informação objetiva, mas criar experiência estética e emocional no leitor."
+          "Progressão temática coerente: o texto apresenta o problema, depois discute causas, depois propõe soluções, em sequência lógica.",
+          "Ruptura temática: um parágrafo sobre os procedimentos de embarque é interrompido abruptamente por uma digressão não relacionada sobre o histórico da Marinha, sem retomada do tema original."
         ],
-        "regra": "REGRA: Para identificar a intencionalidade de um texto, pergunte: 'O que o autor quer que o leitor faça, pense ou sinta após ler este texto?' Se a resposta for 'acreditar em algo', é persuasivo; 'saber algo', é informativo; 'fazer algo', é instrucional; 'sentir algo', é expressivo/literário. Observe também o que o autor NÃO diz — a omissão pode revelar intenção."
+        "regra": "A progressão temática deve avançar de forma organizada, retomando o que já foi dito (tema) e acrescentando informação nova (rema), sem estagnação nem rupturas bruscas injustificadas."
       },
       {
-        "subtitulo": "[Conteúdo complementar — Coesão Textual] Intertextualidade: Conceito, Tipos e Funções",
-        "conteudo": "O conceito de intertextualidade foi formulado por Julia Kristeva (1969), a partir de ideias de Mikhail Bakhtin, e refere-se à propriedade constitutiva de todo texto de ser atravessado por outros textos. Não existe texto que nasça do nada: todo texto é, em alguma medida, resposta, continuação, refutação ou transformação de textos anteriores.\n\nKoch e Elias (2008) distinguem dois tipos fundamentais:\n\n1. INTERTEXTUALIDADE EXPLÍCITA (ou citação): o texto fonte é identificado claramente — nome do autor, título da obra, citação direta entre aspas. Exemplo: 'Como dizia Machado de Assis, o estilo é o homem.'\n\n2. INTERTEXTUALIDADE IMPLÍCITA (ou alusão): o texto incorpora elementos de outro texto sem identificá-lo diretamente — o leitor precisa reconhecer a referência. Exemplo: texto que usa estrutura e tema de um poema famoso sem citá-lo.\n\nFiorin e Savioli (2007) acrescentam subtipos importantes:\n- PARÁFRASE: reprodução do conteúdo de um texto com outras palavras, mantendo o sentido original.\n- PARÓDIA: transformação irônica ou humorística de um texto, invertendo ou subvertendo seu sentido original.\n- PASTICHE: imitação do estilo de um autor ou obra sem intenção crítica.\n- EPÍGRAFE: citação de texto alheio no início de um texto, como guia temático ou de sentido.\n- ALUSÃO: referência indireta a texto, personagem, evento histórico ou obra cultural.\n\nA função da intertextualidade pode ser: enriquecer o argumento (citar autoridade), criar efeito humorístico ou irônico (paródia), homenagear (pastiche), aprofundar o sentido (alusão), estabelecer diálogo crítico (refutação).",
+        "subtitulo": "Coerência e conhecimento de mundo (inferências pragmáticas)",
+        "conteudo": "Muitos textos pressupõem que o leitor mobilize conhecimento de mundo (cultural, histórico, técnico) para construir a coerência — informações que não estão explícitas no texto, mas que são necessárias para sua plena compreensão. Em provas de bancas como o CEBRASPE, é comum testar se o candidato consegue reconhecer quando uma inferência decorre legitimamente do texto e do conhecimento compartilhado, ou quando ela extrapola indevidamente o que foi dito.",
         "exemplos": [
-          "Intertextualidade explícita: 'Segundo Koch e Elias (2008), a coesão textual é condição necessária mas não suficiente para a coerência.'",
-          "Intertextualidade implícita (alusão): título de artigo 'Veni, vidi, vici na era digital' — alude à frase de Júlio César sem citá-la.",
-          "Paráfrase: 'O poema de Drummond diz, em síntese, que o amor pode ser ao mesmo tempo dor e alegria.'",
-          "Paródia: anúncio publicitário que recria a estrutura do 'Hino Nacional' para promover produto — inverte o propósito solene do original com fins comerciais.",
-          "Epígrafe: citação de trecho do Manual de Redação da Marinha no início de um relatório oficial."
+          "Texto: 'O navio içou a bandeira branca.' Inferência legítima (conhecimento de mundo): sinal de rendição ou trégua.",
+          "Inferência indevida: concluir, apenas a partir dessa frase, que o navio estava afundando — informação não sustentada pelo texto nem pelo conhecimento de mundo convencional sobre o símbolo da bandeira branca."
         ],
-        "regra": "REGRA PARA DISTINGUIR PARÁFRASE DE PARÓDIA: Paráfrase mantém ou reforça o sentido do texto original; paródia inverte, subverte ou critica ironicamente o sentido do original. Em provas, a chave é perguntar: 'O texto novo concorda com o original (paráfrase) ou o critica/inverte (paródia)?'"
-      },
-      {
-        "subtitulo": "[Conteúdo complementar — Coesão Textual] Intertextualidade Temática e Estilística",
-        "conteudo": "Além da intertextualidade por citação ou alusão a textos específicos, existe também a intertextualidade TEMÁTICA e ESTILÍSTICA, dimensões mais amplas que permeiam toda a produção textual.\n\nINTERTEXTUALIDADE TEMÁTICA: quando textos de épocas ou autores diferentes tratam do mesmo tema, estabelecendo diálogo implícito. Por exemplo, múltiplos textos sobre o tema 'solidão' na literatura brasileira se respondem mutuamente, mesmo que seus autores não se conheçam. Em provas, questões que pedem para 'relacionar os dois textos' exploram esse tipo.\n\nINTERTEXTUALIDADE ESTILÍSTICA: quando um texto imita ou recria o estilo de outro autor, gênero ou época. O pastiche é o exemplo mais puro. Textos que 'falam como Machado de Assis' ou 'imitam o estilo modernista' estabelecem intertextualidade estilística.\n\nINTERTEXTUALIDADE INTERDISCURSIVA: quando um texto dialoga não com um texto específico, mas com um DISCURSO (conjunto de ideias, valores, ideologia). Um texto que critica o discurso machista está em intertextualidade interdiscursiva com todos os textos que sustentam o machismo.\n\nFiorin e Savioli (2007) destacam que a intertextualidade é fenômeno que ultrapassa a simples citação: todo texto é resposta a outros textos e a discursos que circulam socialmente. A compreensão profunda de um texto exige que o leitor reconheça essas conexões.\n\nPara o concurso RM2, a intertextualidade temática é frequentemente explorada em questões que apresentam dois textos sobre o mesmo tema e pedem para identificar semelhanças, diferenças ou complementaridade de perspectivas.",
-        "exemplos": [
-          "Intertextualidade temática: dois poemas sobre o mar — um de Camões (século XVI) e um de Fernando Pessoa (século XX) — dialogam pelo tema sem que Pessoa cite Camões.",
-          "Intertextualidade estilística: conto contemporâneo escrito no estilo machadiano (ironia, narrador intruso, metalinguagem) — homenagem estilística.",
-          "Intertextualidade interdiscursiva: discurso militar que dialoga com o discurso do dever patriótico presente em hinos, proclamações e textos históricos.",
-          "Intertextualidade em publicidade: anúncio que usa estrutura de conto de fadas para vender produto — dialoga com o gênero conto de fadas e com todos os seus valores (magia, transformação, felicidade)."
-        ],
-        "regra": "REGRA: Em questões com dois textos, sempre identifique: (1) Há intertextualidade explícita (citação direta)? (2) Há intertextualidade implícita (alusão, paródia, paráfrase)? (3) Qual é o EFEITO de sentido dessa intertextualidade — reforça, critica, ironiza ou aprofunda o tema? O efeito é a chave para a resposta correta."
-      },
-      {
-        "subtitulo": "[Conteúdo complementar — Coesão Textual] Relação entre Intencionalidade e Intertextualidade",
-        "conteudo": "Intencionalidade e intertextualidade são princípios que se articulam profundamente: a intenção do autor frequentemente determina o tipo e o uso da intertextualidade. Quando um autor cita uma autoridade reconhecida, sua intenção é fortalecer seu argumento. Quando faz paródia, sua intenção é criticar ou ironizar. Quando usa epígrafe, sua intenção é indicar a perspectiva de leitura que deseja.\n\nKoch e Elias (2008) enfatizam que o reconhecimento da intertextualidade é indispensável para a construção do sentido do texto — um leitor que não identifica uma paródia pode interpretar o texto de forma literal e completamente equivocada. Do mesmo modo, um leitor que não percebe que uma citação é usada ironicamente (ou seja, o autor cita para refutar, não para concordar) erra a interpretação.\n\nA INTENÇÃO COMUNICATIVA orienta o TIPO de intertextualidade:\n- Intenção persuasiva → citação de autoridade (intertextualidade explícita)\n- Intenção crítica → paródia ou refutação (intertextualidade como diálogo polêmico)\n- Intenção homenagem → pastiche (intertextualidade estilística)\n- Intenção de ampliar sentido → alusão (intertextualidade implícita)\n- Intenção de contextualizar → epígrafe (intertextualidade como quadro interpretativo)\n\nEm provas, questões que integram intencionalidade e intertextualidade pedem ao candidato que identifique TANTO a referência intertextual QUANTO o propósito com que ela foi usada — o que exige leitura em dois níveis simultâneos: o que está dito e o que se pretende com o que está dito.",
-        "exemplos": [
-          "Citação de autoridade com intenção persuasiva: 'Segundo o Manual de Redação da Marinha (2024), a clareza é a primeira virtude do documento oficial' — intencionalidade: legitimar o argumento pela autoridade institucional.",
-          "Paródia com intenção crítica: crônica que recria o estilo de um discurso político pomposo para ridicularizá-lo — intenção crítica manifesta pelo recurso parodístico.",
-          "Alusão com intenção de aprofundar sentido: reportagem que intitula 'A última batalha' sobre crise econômica — alude a narrativas épicas para ampliar a gravidade do tema.",
-          "Refutação intertextual: artigo que cita e depois refuta as ideias de outro autor — a intenção é o diálogo polêmico, não a concordância."
-        ],
-        "regra": "REGRA INTEGRADA: Ao analisar intertextualidade em prova, responda SEMPRE duas perguntas: (1) QUAL é a referência intertextual? (que texto/discurso/autor está sendo evocado); (2) PARA QUÊ foi usada? (qual a intenção do autor ao fazer essa referência — concordar, criticar, homenagear, ironizar, reforçar). A segunda pergunta é geralmente a que a questão cobra."
-      },
-      {
-        "subtitulo": "[Conteúdo complementar — Coesão Textual] Intertextualidade na Prova: Como Identificar e Responder",
-        "conteudo": "As questões sobre intertextualidade e intencionalidade no concurso RM2 se manifestam principalmente em três formatos:\n\n1. QUESTÃO COM TEXTO ÚNICO: pede para identificar a intenção do autor, reconhecer uma alusão ou referência intertextual presente no texto, ou avaliar o efeito de sentido produzido por determinado recurso.\n\n2. QUESTÃO COM DOIS TEXTOS: apresenta dois textos que dialogam entre si (mesmo tema, resposta de um ao outro, paródia de um sobre o outro) e pede para identificar a relação intertextual, o que os une ou diferencia, ou como um ilumina o outro.\n\n3. QUESTÃO DE REESCRITURA COM INTERTEXTUALIDADE: pede para parafrasear ou identificar se uma reescritura mantém a intenção original.\n\nESTRATÉGIAS PARA A PROVA:\n- Ao encontrar referência a obra, autor, personagem ou evento histórico no texto, identifique-a como marca de intertextualidade.\n- Ao ler o texto, pergunte sempre: 'Por que o autor escolheu esse título? Essa citação? Esse personagem?' — a resposta revela a intencionalidade.\n- Desconfie de alternativas que afirmam que um texto 'apenas informa' sem nenhuma intenção adicional — raramente um texto tem propósito único.\n- Em questões de paródia, o humor ou a ironia são a chave: se o texto é engraçado ou irônico em relação ao original, é paródia; se apenas reformula sem julgamento, é paráfrase.\n\nFiorin e Savioli (2007) lembram que a leitura intertextual exige 'enciclopédia cultural' — um repertório de textos e referências que o leitor traz para o ato de leitura. Em provas militares, as referências mais cobradas são: textos literários canônicos brasileiros e portugueses, documentos históricos militares, provérbios e expressões culturais conhecidas, e referências bíblicas ou mitológicas amplamente difundidas.",
-        "exemplos": [
-          "Questão de dois textos: texto 1 é poema sobre saudade; texto 2 é crônica sobre a mesma emoção — a questão pede que se identifique o que os une (tema) e o que os diferencia (gênero, propósito, registro).",
-          "Alusão em título: artigo sobre disciplina militar intitulado 'A Arte da Guerra no século XXI' — alusão explícita à obra de Sun Tzu para situar o texto no campo da estratégia.",
-          "Paródia: propaganda eleitoral que usa estrutura de hino patriótico com letra modificada para fins políticos — a questão pede identificar o efeito de sentido da paródia.",
-          "Intenção dupla: texto informativo que, ao descrever um problema social, indiretamente pressiona por ação — intenção informativa + intenção persuasiva."
-        ],
-        "regra": "REGRA ESTRATÉGICA FINAL: Em toda questão de interpretação, leia o título, a epígrafe (se houver), o primeiro e o último parágrafo antes de ler o meio — esses são os pontos onde a intencionalidade e a intertextualidade geralmente se manifestam com mais clareza. O título já é, frequentemente, o primeiro gesto intertextual do autor."
-      },
-      {
-        "subtitulo": "[Conteúdo complementar — Coerência e Textualidade] 1. Textualidade e seus fatores constitutivos",
-        "conteudo": "Para que um conjunto de enunciados seja reconhecido como texto, ele precisa satisfazer determinadas condições chamadas fatores de textualidade ou propriedades textuais. Koch e Elias, com base em Beaugrande e Dressler, elencam sete fatores: coesão, coerência, intencionalidade, aceitabilidade, informatividade, situacionalidade e intertextualidade. Nenhum fator é mais importante que os demais de forma absoluta — todos atuam simultaneamente na constituição do sentido. A informatividade e a situacionalidade são fatores pragmáticos, ou seja, dependem da relação entre o texto e seus interlocutores em determinado contexto. Enquanto a coesão e a coerência são primariamente estruturais e semânticas, a informatividade e a situacionalidade situam o texto no universo comunicativo concreto. Provas militares cobram especialmente a capacidade de identificar o grau de informatividade de um trecho e de reconhecer como o contexto situacional orienta a interpretação.",
-        "exemplos": [
-          "Um texto com coesão e coerência pode ainda ser inadequado se ignorar o contexto situacional (ex.: linguagem técnica em bula destinada ao público leigo).",
-          "Um boletim meteorológico é altamente situacional: seu sentido pleno depende da data, da região e do público a que se destina."
-        ],
-        "regra": "Os sete fatores de textualidade atuam conjuntamente; informatividade e situacionalidade são os fatores pragmáticos que ligam o texto ao contexto de produção e recepção."
-      },
-      {
-        "subtitulo": "[Conteúdo complementar — Coerência e Textualidade] 2. Informatividade: conceito, graus e implicações",
-        "conteudo": "A informatividade diz respeito ao quanto o conteúdo de um texto é novo, inesperado ou imprevisível para o destinatário. Beaugrande e Dressler, retomados por Koch e Elias, distinguem três graus de informatividade. O primeiro grau corresponde a informações altamente previsíveis, convencionadas ou já conhecidas pelo leitor — como saudações formais, fórmulas de encerramento de carta ou enunciados tautológicos ('O sol nasce a leste'). O segundo grau apresenta equilíbrio entre o esperado e o novo, sendo o mais frequente em textos comunicativamente eficientes. O terceiro grau traz informações muito inesperadas, que surpreendem o leitor, como em paradoxos, ironia sofisticada ou jogos de linguagem em textos literários e publicitários. Um texto inteiramente de primeiro grau é tedioso e pouco informativo; um texto inteiramente de terceiro grau é difícil de processar e pode gerar incompreensão. A eficácia comunicativa está, portanto, no equilíbrio — predominância do segundo grau com doses calculadas do primeiro e do terceiro.",
-        "exemplos": [
-          "Primeiro grau: 'Prezado Senhor, venho por meio desta...' (fórmula previsível de carta formal).",
-          "Segundo grau: 'O relatório técnico aponta falha estrutural na ponte, exigindo intervenção imediata.' (informação nova, mas processável).",
-          "Terceiro grau: 'A guerra acabou: agora os mortos podem vencer.' (paradoxo de alta imprevisibilidade)."
-        ],
-        "regra": "Grau 1 = previsível/redundante; grau 2 = equilíbrio novo/conhecido (ideal para comunicação eficaz); grau 3 = altamente imprevisível/surpreendente. Textos eficientes predominam no grau 2."
-      },
-      {
-        "subtitulo": "[Conteúdo complementar — Coerência e Textualidade] 3. Informatividade e relevância: o que torna a informação textualmente produtiva",
-        "conteudo": "Não basta que uma informação seja nova para que seja informativamente relevante. Koch e Elias, apoiadas em Sperber e Wilson, destacam que a relevância informativa depende também do esforço de processamento e do efeito cognitivo obtido. Uma informação é relevante quando produz efeito cognitivo suficiente (modifica, confirma ou amplia o conhecimento do leitor) sem exigir esforço de processamento desproporcional. Daí a importância de conectivos e mecanismos de coesão: eles reduzem o esforço de processamento ao explicitar as relações lógicas entre as informações. Em textos argumentativos, a informatividade está diretamente ligada à progressão temática: cada novo período deve agregar informação nova ao tema, evitando a repetição vazia (que reduz o grau de informatividade) e o salto lógico excessivo (que eleva demais o grau de imprevisibilidade). Em provas de concurso, questões sobre informatividade frequentemente pedem que o candidato identifique qual trecho acrescenta informação nova ao texto ou qual passagem é redundante em relação ao que já foi dito.",
-        "exemplos": [
-          "Redundante (baixa informatividade): 'O candidato aprovado foi aprovado no concurso, sendo aprovado na seleção.' (repetição sem acréscimo).",
-          "Alta relevância: 'O candidato, aprovado em primeiro lugar, recusou a vaga por motivos pessoais.' (informação nova e consequente)."
-        ],
-        "regra": "Informação relevante = alto efeito cognitivo + baixo esforço de processamento. Evite redundância (grau 1 excessivo) e obscuridade (grau 3 excessivo)."
-      },
-      {
-        "subtitulo": "[Conteúdo complementar — Coerência e Textualidade] 4. Situacionalidade: conceito e dimensões",
-        "conteudo": "A situacionalidade refere-se à adequação do texto à situação comunicativa em que é produzido e recebido. Koch e Elias subdividem a situacionalidade em duas dimensões principais: (a) situacionalidade de produção — os fatores do contexto que influenciam a forma e o conteúdo do texto (quem escreve, para quem, onde, quando, com qual finalidade, em qual suporte); e (b) situacionalidade de recepção — a capacidade do leitor de mobilizar conhecimentos sobre a situação para interpretar o texto adequadamente. Um texto militarmente adequado como uma Ordem do Dia pressupõe conhecimento do contexto hierárquico, do destinatário (tropa) e do propósito (motivar, instruir, informar). Já uma mensagem naval operacional pressupõe codificação específica, siglas institucionais e registro técnico-formal. A situacionalidade explica por que o mesmo conteúdo pode ser expresso de formas radicalmente diferentes dependendo do contexto: um relatório técnico, um e-mail informal e uma notícia jornalística sobre o mesmo fato diferem profundamente em grau de formalidade, seleção lexical e estrutura, porque cada um responde a uma situação comunicativa distinta.",
-        "exemplos": [
-          "Uma Ordem do Dia da Marinha usa vocativo coletivo ('Camaradas'), registro formal e estrutura laudatória — adequação situacional à hierarquia militar.",
-          "Uma mensagem SMS entre colegas de trabalho usa abreviações e registro informal — adequação situacional ao suporte e à relação entre os interlocutores."
-        ],
-        "regra": "Situacionalidade = adequação texto ↔ contexto. Pergunte sempre: quem fala, para quem, onde, quando, para quê e em qual suporte."
-      },
-      {
-        "subtitulo": "[Conteúdo complementar — Coerência e Textualidade] 5. Interação entre informatividade e situacionalidade na prova",
-        "conteudo": "Informatividade e situacionalidade interagem de modo estreito: o grau de informatividade adequado depende da situação comunicativa. Um texto científico dirigido a especialistas pode operar com alto grau de informatividade técnica (terceiro grau relativo ao leigo, segundo grau ao especialista); um texto publicitário pode explorar o terceiro grau deliberadamente para chamar atenção. Em contextos militares, o Manual de Redação e Estilo da Marinha valoriza a precisão, a objetividade e a clareza, o que corresponde à predominância do segundo grau de informatividade aliado à plena situacionalidade institucional. Questões de provas militares exploram esta interação ao apresentar textos e pedir: (i) qual alternativa representa adequadamente o contexto de produção; (ii) qual trecho eleva desnecessariamente o grau de imprevisibilidade prejudicando a compreensão; (iii) qual reescritura mantém o grau de informatividade sem perda de sentido; (iv) qual é o nível de linguagem adequado à situação descrita. Fiorin e Savioli complementam ao mostrar que a variação de registro (formal/informal, técnico/comum) é essencialmente um fenômeno de adequação situacional.",
-        "exemplos": [
-          "Questão típica: 'O texto foi produzido para qual contexto situacional?' — exige identificar destinatário, suporte e finalidade.",
-          "Questão típica: 'Qual alternativa apresenta informação redundante em relação ao segundo parágrafo?' — exige avaliar grau de informatividade."
-        ],
-        "regra": "Na prova: identifique o contexto situacional (quem, para quem, onde, quando, para quê) e o grau de informatividade (novo vs. conhecido) antes de responder questões sobre adequação, redundância ou reescritura."
+        "regra": "Inferências coerentes devem ser sustentadas tanto pelo conteúdo explícito do texto quanto pelo conhecimento de mundo compartilhado socialmente, sem extrapolação não autorizada pelo enunciado."
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Pegadinha 1: 'Porém' no lugar de 'portanto' — inversão de relação lógica",
-      "errado": "'O candidato estudou muito, porém foi aprovado com louvor.'",
-      "correto": "'O candidato estudou muito, portanto foi aprovado com louvor.'",
-      "explicacao": "'Porém' é adversativo e indica oposição ou contraste. Usar 'porém' entre 'estudou muito' e 'foi aprovado' sugere que a aprovação é surpreendente ou contrária ao esperado, o que é ilógico nesse contexto. 'Portanto' indica consequência, que é a relação correta: estudou muito → consequência lógica → foi aprovado. As provas militares frequentemente substituem um conectivo por outro de relação diversa para testar se o candidato percebe a incoerência semântica gerada.",
-      "nivel": "basico"
+      "nivel": "basico",
+      "titulo": "Confundir coesão com coerência",
+      "errado": "Um texto com muitos conectivos (portanto, contudo, assim) é sempre coerente.",
+      "correto": "Um texto pode ter muitos conectivos e ainda ser incoerente, se as ideias conectadas não fizerem sentido lógico entre si.",
+      "explicacao": "Coesão é a conexão gramatical visível entre as partes do texto (uso de conectivos, pronomes, repetições); coerência é o sentido lógico que essas partes formam em conjunto. Um texto pode ser coeso e incoerente, ou coerente com pouca coesão explícita."
     },
     {
-      "titulo": "Pegadinha 2: Pronome ambíguo que compromete a coesão referencial",
-      "errado": "'O comandante chamou o imediato ao seu gabinete. Ele estava nervoso.'",
-      "correto": "Reescrever para eliminar a ambiguidade: 'O comandante, que estava nervoso, chamou o imediato ao seu gabinete.' ou 'O comandante chamou o imediato ao gabinete; o imediato estava nervoso.'",
-      "explicacao": "O pronome 'ele' pode retomar tanto 'o comandante' quanto 'o imediato', gerando ambiguidade que compromete a coesão referencial. Em provas, questões perguntam 'a qual termo o pronome se refere?' e as alternativas exploram exatamente essa ambiguidade. A solução é ou reposicionar o pronome, ou substituí-lo pelo nome do referente, ou reestruturar o período.",
-      "nivel": "basico"
+      "nivel": "basico",
+      "titulo": "Achar que toda contradição no texto é erro de coerência",
+      "errado": "A frase 'O comandante era rígido, mas extremamente compreensivo com a tripulação' é incoerente por trazer características opostas.",
+      "correto": "A frase é coerente, pois o conectivo adversativo 'mas' sinaliza e justifica a aparente contradição como um traço de personalidade complexo, e não como erro lógico.",
+      "explicacao": "Contradições sinalizadas por conectivos adversativos (mas, porém, contudo) e justificadas pelo contexto não configuram incoerência — pelo contrário, são recursos legítimos de construção de sentido, frequentemente usados para nuançar uma caracterização."
     },
     {
-      "titulo": "Pegadinha 3: Confundir 'embora' (concessão) com 'porque' (causa)",
-      "errado": "'Embora o prazo tivesse encerrado, o documento foi rejeitado.'",
-      "correto": "'Porque o prazo havia encerrado, o documento foi rejeitado.' ou 'O documento foi rejeitado porque o prazo havia encerrado.'",
-      "explicacao": "'Embora' introduz uma oração concessiva, indicando que a consequência da oração principal ocorre apesar do fato subordinado — há uma expectativa frustrada. Em 'embora o prazo tivesse encerrado, o documento foi rejeitado', o sentido correto seria 'apesar de o prazo ter encerrado' (o que tornaria a rejeição inesperada). Se a lógica é que o documento foi rejeitado exatamente por causa do prazo encerrado, o conectivo deve ser causal ('porque', 'pois', 'uma vez que'). Trocar concessão por causa é um dos erros mais frequentes em questões de coesão sequencial.",
-      "nivel": "intermediario"
+      "nivel": "intermediario",
+      "titulo": "Confundir baixa informatividade com incoerência",
+      "errado": "A frase 'O navio flutua na água' é incoerente por ser óbvia demais.",
+      "correto": "A frase é coerente, mas tem baixa informatividade — isso não a torna incoerente, apenas pouco relevante comunicativamente em determinado contexto.",
+      "explicacao": "Informatividade (grau de previsibilidade da informação) e coerência (sentido lógico) são fatores de textualidade distintos. Uma informação óbvia pode ser perfeitamente coerente, apenas comunicativamente pouco relevante, dependendo do contexto em que aparece."
     },
     {
-      "titulo": "Pegadinha 4: Elipse ambígua que cria sujeito indeterminado indesejado",
-      "errado": "'O diretor apresentou o projeto à equipe. Ficaram satisfeitos com os resultados.' (sujeito de 'ficaram' indeterminado)",
-      "correto": "'O diretor apresentou o projeto à equipe. A equipe ficou satisfeita com os resultados.'",
-      "explicacao": "Na segunda frase, a elipse do sujeito deveria retomar o sujeito anterior ('o diretor'), mas 'ficaram' está no plural — o que impossibilita a retomada de 'o diretor' (singular). Isso cria um sujeito indeterminado ou obriga o leitor a buscar 'a equipe' como antecedente, o que é tecnicamente possível, mas exige inferência forçada. Em provas militares, questões apontam esse tipo de inconsistência número-pessoa como problema de coesão referencial por elipse mal resolvida.",
-      "nivel": "avancado"
+      "nivel": "avancado",
+      "titulo": "Tratar toda inferência feita pelo leitor como quebra de coerência",
+      "errado": "Como o texto não disse explicitamente que o navio estava em perigo, qualquer inferência nesse sentido é sempre incoerente.",
+      "correto": "Inferências baseadas em conhecimento de mundo compartilhado (como o significado convencional de sinais e símbolos) são legítimas e fazem parte da coerência pragmática do texto, mesmo sem afirmação explícita.",
+      "explicacao": "A coerência não depende exclusivamente do que está explicitamente dito; ela também se constrói por meio de inferências pragmáticas legítimas, sustentadas pelo conhecimento de mundo do leitor. Rejeitar toda inferência implícita como incoerência ignora esse fator essencial da textualidade."
     },
     {
-      "titulo": "Pegadinha 5: Hiperônimo impreciso que distorce a referência",
-      "errado": "'A Marinha recebeu fragatas, submarinos e helicópteros. Esses veículos serão incorporados à frota.' ('veículos' como hiperônimo de fragatas + submarinos + helicópteros, mas helicóptero não integra 'frota' naval no mesmo sentido)",
-      "correto": "'A Marinha recebeu fragatas, submarinos e helicópteros. Esses equipamentos serão incorporados ao arsenal da força.' ou separar a referência: 'As embarcações serão incorporadas à frota; os helicópteros, à aviação naval.'",
-      "explicacao": "O hiperônimo escolhido para a coesão lexical deve ser semanticamente compatível com todos os itens da série que substitui. 'Veículos' e 'frota' são parcialmente imprecisos quando a série inclui aeronaves. Questões de coesão lexical frequentemente apresentam um hiperônimo que cobre quase todos os itens, mas deixa um de fora ou distorce o campo semântico — e o candidato deve identificar a imprecisão.",
-      "nivel": "avancado"
+      "nivel": "avancado",
+      "titulo": "Confundir ruptura temática proposital (digressão estilística) com erro de coerência",
+      "errado": "Toda digressão em um texto narrativo, mesmo que retomada depois, é sempre um erro de coerência.",
+      "correto": "Digressões temáticas que são retomadas e integradas ao fio condutor do texto não configuram erro de coerência, sendo recurso estilístico legítimo em muitos gêneros textuais.",
+      "explicacao": "A progressão temática não exige linearidade rígida; digressões podem ocorrer desde que o texto, ao final, retome e integre o tema principal de forma lógica. O erro de coerência ocorre apenas quando a ruptura é definitiva e não justificada, deixando o texto sem unidade temática reconhecível."
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "O candidato confunde 'coesão' com 'coerência' ao responder qual propriedade está comprometida no texto. Uma questão mostra um trecho com pronome sem antecedente claro e pergunta qual propriedade textual foi violada. O candidato, por associar o problema ao 'sentido', marca coerência.",
-      "dica": "Pronome sem antecedente, conectivo trocado, elipse ambígua → sempre COESÃO (problema de superfície linguística). Contradição lógica, irrelevância temática, repetição sem acréscimo → sempre COERÊNCIA (problema de sentido). Memorize: coesão é forma, coerência é sentido.",
-      "nivel": "basico"
+      "nivel": "basico",
+      "situacao": "Avaliar a coerência de um texto observando apenas a presença ou ausência de conectivos.",
+      "dica": "Para julgar coerência, vá além dos conectivos: pergunte-se se as ideias apresentadas fazem sentido lógico em conjunto, mesmo quando a conexão entre elas não está explicitada por uma palavra de ligação."
     },
     {
-      "situacao": "O candidato, ao responder qual expressão retoma determinado termo no texto, escolhe a alternativa que é semanticamente compatível com o referente, mas que, no texto, na verdade retoma outro elemento. Exemplo: o texto fala de 'oficiais e praças' e a expressão 'esses militares' pode parecer que retoma ambos, mas no contexto imediato retoma apenas 'os praças'.",
-      "dica": "Sempre volte ao texto e identifique o referente imediato (o elemento mais próximo compatível com a expressão). Compatibilidade semântica não é suficiente — o contexto sintático e a posição no texto determinam o antecedente correto. Leia as duas frases que cercam a expressão anafórica antes de responder.",
-      "nivel": "intermediario"
+      "nivel": "intermediario",
+      "situacao": "Considerar incoerente um texto técnico ou oficial só porque utiliza vocabulário especializado pouco familiar ao leitor comum.",
+      "dica": "A coerência deve ser avaliada em relação ao contexto e ao público-alvo do texto (situacionalidade). Um relatório técnico militar pode ser perfeitamente coerente para seu público especializado, mesmo que pareça hermético a um leitor leigo."
     },
     {
-      "situacao": "O candidato avalia uma questão de reescritura e aceita a troca de 'contudo' por 'portanto' porque ambos aparecem no início de oração e parecem intercambiáveis sintaticamente. Não percebe que a relação semântica mudou de oposição para consequência, tornando o texto incoerente.",
-      "dica": "Em questões de reescritura com troca de conectivos, nunca avalie apenas a posição sintática do conectivo — avalie a relação semântica que ele estabelece. Pergunte: a ideia que vem depois é oposta, consequente, concessiva, causal ou aditiva em relação à que vem antes? Só aceite a troca se a relação semântica for idêntica.",
-      "nivel": "avancado"
+      "nivel": "avancado",
+      "situacao": "Não diferenciar coerência (sentido global, lógico, pragmático) de gramaticalidade (correção formal das frases) ao julgar um texto em questões de prova.",
+      "dica": "Um texto pode conter pequenos desvios gramaticais e ainda ser plenamente coerente, assim como pode ser gramaticalmente impecável e incoerente. Em provas, fique atento ao comando da questão: se pergunta sobre 'sentido' e 'lógica textual', o foco é coerência; se pergunta sobre 'norma culta' ou 'concordância', o foco é gramaticalidade — não misture os critérios de julgamento."
     }
   ],
   "questoes": [
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa que apresenta a definição correta de coesão textual.",
+      "enunciado": "Assinale a alternativa que melhor define coerência textual.",
       "alternativas": {
-        "A": "Coesão é a propriedade que garante a unidade de sentido e a não contradição lógica entre as partes do texto.",
-        "B": "Coesão é o conjunto de mecanismos linguísticos que estabelecem ligações entre os elementos do texto, garantindo sua unidade formal.",
-        "C": "Coesão é a capacidade do texto de ser adequado à situação comunicativa e ao perfil do interlocutor.",
-        "D": "Coesão é a propriedade que assegura que o texto apresente informações novas e relevantes para o leitor.",
-        "E": "Coesão é a relação entre o texto e outros textos de mesma natureza, garantindo a pertinência intertextual."
+        "A": "É a conexão gramatical visível entre as partes do texto, feita por conectivos e pronomes.",
+        "B": "É o princípio que garante ao texto unidade de sentido e lógica interna, compreensível para o leitor.",
+        "C": "É a correção ortográfica e gramatical das frases que compõem o texto.",
+        "D": "É a repetição de palavras-chave ao longo do texto.",
+        "E": "É o uso exclusivo de conjunções coordenativas e subordinativas."
       },
       "gabarito": "B",
-      "explicacao": "A alternativa B define corretamente coesão como os mecanismos linguísticos (pronomes, conectivos, elipses, substituições lexicais) que criam ligações formais entre os elementos do texto — é o nível da superfície textual. A alternativa A descreve coerência (unidade de sentido). A alternativa C descreve situacionalidade. A alternativa D descreve informatividade. A alternativa E descreve intertextualidade."
+      "explicacao": "Coerência textual é o princípio responsável pela unidade de sentido do texto, garantindo que suas partes se articulem logicamente entre si — trata-se de um fenômeno de nível textual e pragmático, e não meramente formal."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "No trecho 'O comandante emitiu a ordem. O oficial a cumpriu imediatamente.', o pronome 'a' exerce qual função coesiva?",
+      "enunciado": "Assinale a alternativa em que a frase apresenta incoerência temporal.",
       "alternativas": {
-        "A": "Catáfora, pois antecipa o elemento que será mencionado a seguir.",
-        "B": "Elipse, pois omite um elemento recuperável pelo contexto.",
-        "C": "Anáfora pronominal, pois retoma o elemento 'a ordem' já mencionado.",
-        "D": "Coesão lexical por sinonímia, pois substitui 'ordem' por um sinônimo.",
-        "E": "Progressão temática, pois introduz uma informação nova ao tema anterior."
+        "A": "O navio atracará amanhã, segundo as previsões.",
+        "B": "O navio atracou ontem, conforme previsto.",
+        "C": "O navio atracará ontem, segundo as previsões.",
+        "D": "O navio está atracando agora mesmo.",
+        "E": "O navio atracará na próxima semana."
       },
       "gabarito": "C",
-      "explicacao": "O pronome 'a' retoma anaforicamente o substantivo 'a ordem', já mencionado na oração anterior. Isso é anáfora pronominal — um dos mecanismos fundamentais de coesão referencial. A catáfora (A) aponta para frente, não para trás. A elipse (B) é a omissão, não a substituição pronominal. A coesão lexical (D) opera com palavras de mesma classe e campo semântico, não com pronomes. Progressão temática (E) é uma propriedade organizacional do texto, não um mecanismo pronominal específico."
+      "explicacao": "Há incoerência temporal evidente entre o verbo no futuro ('atracará') e o marcador temporal de passado ('ontem'), criando uma contradição lógica impossível de sustentar."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Qual alternativa apresenta um exemplo de coesão por elipse?",
+      "enunciado": "Sobre a diferença entre coesão e coerência, assinale a afirmação correta.",
       "alternativas": {
-        "A": "'O navio partiu. A embarcação atracou no porto três dias depois.'",
-        "B": "'Estudou bastante e [Ø] passou no concurso.'",
-        "C": "'Eis o que importa: disciplina e dedicação.'",
-        "D": "'O projeto foi aprovado. Tal medida entrará em vigor em janeiro.'",
-        "E": "'Embora estudasse muito, não conseguiu a aprovação.'"
+        "A": "Coesão e coerência são sinônimos perfeitos, sem qualquer distinção conceitual.",
+        "B": "Coesão é sempre suficiente para garantir a coerência de um texto.",
+        "C": "Coesão opera no plano gramatical e linguístico; coerência opera no plano do sentido e da lógica.",
+        "D": "Coerência é exclusivamente garantida pelo uso de conectivos.",
+        "E": "Um texto incoerente nunca pode ser coeso."
       },
-      "gabarito": "B",
-      "explicacao": "Na alternativa B, o sujeito da segunda oração ('e [Ø] passou') foi omitido — é a elipse do sujeito, recuperável pelo contexto ('ele' ou o nome do estudante). A alternativa A é coesão lexical por sinonímia ('embarcação' retoma 'navio'). A alternativa C é catáfora ('o que importa' antecipa 'disciplina e dedicação'). A alternativa D é coesão lexical por expressão nominal definida ('tal medida' retoma 'o projeto aprovado'). A alternativa E é coesão sequencial por conectivo concessivo."
+      "gabarito": "C",
+      "explicacao": "A coesão refere-se às marcas linguísticas explícitas de conexão (conectivos, pronomes, repetições), enquanto a coerência refere-se ao sentido lógico global do texto — são fenômenos relacionados, mas distintos, e um texto pode apresentar um sem necessariamente apresentar o outro em grau pleno."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "O conectivo que estabelece relação de consequência entre duas orações é:",
+      "enunciado": "Assinale a alternativa que representa uma quebra de coerência lógica não justificada.",
       "alternativas": {
-        "A": "Embora",
-        "B": "Porém",
-        "C": "Portanto",
-        "D": "Visto que",
-        "E": "Desde que"
+        "A": "Todos os tripulantes embarcaram, exceto dois que ficaram doentes.",
+        "B": "Todos os tripulantes embarcaram, e nenhum tripulante estava a bordo.",
+        "C": "Quase todos os tripulantes embarcaram a tempo.",
+        "D": "Os tripulantes embarcaram às pressas, pois o horário estava atrasado.",
+        "E": "Alguns tripulantes embarcaram cedo; outros, mais tarde."
       },
-      "gabarito": "C",
-      "explicacao": "'Portanto' é um conectivo conclusivo-consecutivo que introduz a consequência ou conclusão lógica de algo afirmado anteriormente. 'Embora' (A) indica concessão. 'Porém' (B) indica oposição/adversidade. 'Visto que' (D) indica causa. 'Desde que' (E) indica condição."
+      "gabarito": "B",
+      "explicacao": "A afirmação de que 'todos embarcaram' seguida de 'nenhum estava a bordo' é uma contradição direta e não justificada, configurando quebra de coerência lógica pelo princípio da não contradição."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Qual das opções abaixo define corretamente a coerência textual?",
+      "enunciado": "Assinale a alternativa em que há quebra de coerência estilística (mistura de registro) em um contexto formal.",
       "alternativas": {
-        "A": "Coerência é o uso adequado de pronomes para retomar elementos já mencionados no texto.",
-        "B": "Coerência é a propriedade que garante a unidade de sentido, a não contradição lógica e a progressão temática do texto.",
-        "C": "Coerência é a substituição de palavras por sinônimos para evitar repetições no texto.",
-        "D": "Coerência é o emprego correto dos conectivos que ligam as orações no interior do período.",
-        "E": "Coerência é a adequação do texto às normas gramaticais da língua culta."
+        "A": "O comandante solicitou que os subordinados se apresentassem imediatamente.",
+        "B": "O comandante determinou, em caráter de urgência, o comparecimento dos subordinados.",
+        "C": "O comandante mandou todo mundo aparecer rapidinho, conforme o regulamento vigente.",
+        "D": "O comandante exigiu pontualidade de todos os subordinados.",
+        "E": "O comandante orientou os subordinados quanto aos novos procedimentos."
       },
-      "gabarito": "B",
-      "explicacao": "Coerência diz respeito ao nível semântico e lógico do texto: um texto coerente não se contradiz, mantém o fio temático, progride e é interpretável como uma unidade de sentido. A alternativa A descreve coesão referencial por pronomes. A alternativa C descreve coesão lexical por sinonímia. A alternativa D descreve coesão sequencial por conectivos. A alternativa E descreve correção gramatical, que não é o mesmo que coerência."
+      "gabarito": "C",
+      "explicacao": "A alternativa mistura linguagem coloquial ('todo mundo', 'rapidinho') com referência técnico-formal ('conforme o regulamento vigente'), quebrando a uniformidade de registro esperada em um contexto institucional formal."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "No trecho 'Ela amava o mar, os ventos, as marés — tudo que remetia à vida naval', o travessão introduz um exemplo de qual mecanismo coesivo?",
+      "enunciado": "Sobre os fatores de textualidade, assinale a alternativa correta.",
       "alternativas": {
-        "A": "Anáfora nominal, pois 'tudo' retoma os elementos listados anteriormente.",
-        "B": "Catáfora, pois 'tudo' antecipa o detalhamento que vem a seguir.",
-        "C": "Elipse de objeto, pois o objeto direto foi omitido antes do travessão.",
-        "D": "Coesão sequencial adversativa, pois o travessão introduz oposição.",
-        "E": "Progressão por tema constante, pois o sujeito 'ela' permanece o mesmo."
+        "A": "Informatividade refere-se exclusivamente à correção gramatical do texto.",
+        "B": "Intencionalidade refere-se ao propósito comunicativo do autor ao produzir o texto.",
+        "C": "Situacionalidade é irrelevante para a construção do sentido textual.",
+        "D": "Aceitabilidade depende apenas da extensão do texto.",
+        "E": "Intertextualidade refere-se unicamente ao uso de figuras de linguagem."
       },
-      "gabarito": "A",
-      "explicacao": "O pronome indefinido 'tudo' retoma anaforicamente os elementos já listados ('o mar, os ventos, as marés'), funcionando como um hiperônimo anafórico que resume a série. Isso é anáfora nominal (ou coesão lexical por hiperonímia com função anafórica). A catáfora (B) aponta para frente. Não há elipse de objeto (C). O travessão aqui não introduz oposição (D) — introduz síntese. A progressão com tema constante (E) descreve a estrutura geral do texto, não o mecanismo do travessão especificamente."
+      "gabarito": "B",
+      "explicacao": "Intencionalidade é um dos fatores de textualidade e refere-se ao propósito comunicativo que orienta a produção do texto pelo autor — o que ele pretende alcançar ao comunicar determinada mensagem."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Identifique o trecho que apresenta problema de coerência por contradição lógica.",
+      "enunciado": "Assinale a alternativa que apresenta progressão temática coerente.",
       "alternativas": {
-        "A": "'O militar chegou tarde ao quartel. O ônibus havia atrasado.'",
-        "B": "'A prova foi cancelada, mas os candidatos foram convocados normalmente.'",
-        "C": "'Estudou pouco, portanto não ficou satisfeito com o resultado.'",
-        "D": "'O prazo encerrou. Os documentos foram protocolados antes do encerramento.'",
-        "E": "'A missão foi cumprida com êxito embora as condições fossem adversas.'"
+        "A": "O texto repete a mesma informação sobre o porto em todos os parágrafos, sem acrescentar nada novo.",
+        "B": "O texto apresenta o problema do atraso na entrega de suprimentos, discute suas causas, e propõe soluções ao final.",
+        "C": "O texto inicia falando sobre o porto e, sem qualquer conexão, passa a tratar de receitas culinárias.",
+        "D": "O texto não possui parágrafos definidos, misturando temas aleatoriamente.",
+        "E": "O texto interrompe o assunto principal sem retomá-lo em nenhum momento."
       },
       "gabarito": "B",
-      "explicacao": "Se a prova foi cancelada, não haveria razão para convocar os candidatos 'normalmente' — há uma contradição lógica entre as duas afirmações. O conectivo 'mas' (adversativo) não resolve a contradição; ao contrário, chama atenção para ela sem justificá-la. As demais alternativas apresentam textos coerentes: (A) relação causal implícita; (C) causa e consequência compatíveis; (D) sequência temporal coerente; (E) concessão logicamente válida."
+      "explicacao": "A progressão temática coerente caracteriza-se pelo avanço organizado das ideias — apresentação do problema, discussão das causas e proposta de soluções — sem estagnação (repetição vazia) nem ruptura brusca e injustificada de tema."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Qual conectivo estabelece relação de concessão?",
+      "enunciado": "Assinale a alternativa em que a inferência feita pelo leitor é legítima, baseada em conhecimento de mundo compartilhado.",
       "alternativas": {
-        "A": "Portanto",
-        "B": "Visto que",
-        "C": "Embora",
-        "D": "Assim como",
-        "E": "Desde que"
+        "A": "Texto: 'O navio içou a bandeira branca.' Inferência: o navio estava sinalizando rendição ou trégua.",
+        "B": "Texto: 'O navio içou a bandeira branca.' Inferência: o navio estava afundando.",
+        "C": "Texto: 'O navio içou a bandeira branca.' Inferência: a tripulação estava festejando.",
+        "D": "Texto: 'O navio içou a bandeira branca.' Inferência: o comandante havia sido substituído.",
+        "E": "Texto: 'O navio içou a bandeira branca.' Inferência: o navio mudou de nacionalidade."
       },
-      "gabarito": "C",
-      "explicacao": "'Embora' é uma conjunção subordinativa concessiva — introduz uma oração que expressa uma circunstância contrária ao esperado, sem impedir a realização do fato da oração principal. 'Portanto' (A) indica conclusão/consequência. 'Visto que' (B) indica causa. 'Assim como' (D) indica conformidade/comparação. 'Desde que' (E) indica condição."
+      "gabarito": "A",
+      "explicacao": "A bandeira branca é um símbolo convencional amplamente reconhecido como sinal de rendição ou trégua, constituindo conhecimento de mundo compartilhado que sustenta legitimamente essa inferência, sem extrapolar o que o texto efetivamente comunica."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "O mecanismo de coesão lexical que consiste em substituir uma palavra por outra de sentido mais amplo, que engloba a anterior, chama-se:",
+      "enunciado": "Assinale a alternativa correta sobre a relação entre coerência e gramaticalidade.",
       "alternativas": {
-        "A": "Sinonímia",
-        "B": "Antonímia",
-        "C": "Hiperonímia",
-        "D": "Meronímia",
-        "E": "Reiteração"
+        "A": "Um texto gramaticalmente correto é sempre coerente.",
+        "B": "Um texto incoerente nunca pode ser gramaticalmente correto.",
+        "C": "Coerência e gramaticalidade são critérios distintos: um texto pode ser gramaticalmente correto e incoerente, ou apresentar pequenos desvios gramaticais e ser coerente.",
+        "D": "Coerência depende exclusivamente da pontuação utilizada.",
+        "E": "Gramaticalidade é um sinônimo de coerência textual."
       },
       "gabarito": "C",
-      "explicacao": "Hiperonímia é a relação entre um termo de sentido mais amplo (hiperônimo) e os termos de sentido mais específico que ele engloba (hipônimos). Exemplo: 'fragatas, corvetas e submarinos' → 'embarcações de guerra' (hiperônimo). Sinonímia (A) é substituição por palavra de sentido equivalente. Antonímia (B) é substituição pelo oposto. Meronímia (D) é relação parte-todo. Reiteração (E) é repetição intencional do mesmo termo."
+      "explicacao": "Coerência (sentido lógico-textual) e gramaticalidade (correção formal das estruturas linguísticas) são critérios de análise distintos e independentes entre si, podendo um texto apresentar um sem necessariamente apresentar o outro."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Em 'Eis o que o comandante exige de todos: pontualidade, disciplina e dedicação', o mecanismo coesivo presente é:",
+      "enunciado": "Assinale a alternativa em que há baixa informatividade, mas não necessariamente incoerência.",
       "alternativas": {
-        "A": "Anáfora pronominal, pois 'o que' retoma o elemento anterior.",
-        "B": "Catáfora, pois 'o que o comandante exige' antecipa os itens que serão listados a seguir.",
-        "C": "Elipse de sujeito, pois o sujeito da enumeração foi omitido.",
-        "D": "Coesão lexical por antonímia, pois os três substantivos se opõem semanticamente.",
-        "E": "Progressão com tema derivado, pois cada item da lista constitui um subtema autônomo."
+        "A": "O novo sistema de navegação reduziu o tempo de travessia em 40%.",
+        "B": "A Marinha brasileira foi fundada em 1822.",
+        "C": "O navio navega sobre a água.",
+        "D": "O comandante decidiu adiar a partida devido à tempestade.",
+        "E": "A tripulação foi reduzida em 15% após a reestruturação."
       },
-      "gabarito": "B",
-      "explicacao": "A expressão 'o que o comandante exige de todos' introduz catáfora: ela aponta para os elementos que serão listados logo a seguir (pontualidade, disciplina e dedicação). A catáfora é o mecanismo em que o elemento de referência precede o referente no texto. A anáfora (A) seria o inverso. Não há elipse de sujeito (C). Os três substantivos não são opostos (D) — são termos de campo semântico compatível. A progressão com temas derivados (E) é uma estrutura de parágrafo, não um mecanismo coesivo local."
+      "gabarito": "C",
+      "explicacao": "A frase 'o navio navega sobre a água' é uma informação previsível e pouco relevante (baixa informatividade), pois decorre do próprio conceito de navio, mas isso não a torna incoerente — apenas comunicativamente pouco significativa em muitos contextos."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Leia o trecho: 'O relatório foi concluído pela equipe. Ele foi encaminhado ao departamento competente no prazo determinado. O trabalho recebeu elogios da chefia.' Sobre a coesão referencial do trecho, é correto afirmar que:",
+      "enunciado": "Leia o trecho: 'O aspirante estudou intensamente para a prova. Por isso, foi reprovado.' Assinale a alternativa que identifica corretamente o problema de coerência presente.",
       "alternativas": {
-        "A": "O pronome 'ele' retoma inequivocamente 'o relatório', pois ambos são masculinos singulares e o contexto não gera ambiguidade.",
-        "B": "O pronome 'ele' é ambíguo, pois pode retomar tanto 'o relatório' quanto 'a equipe', comprometendo a coesão.",
-        "C": "A expressão 'o trabalho' na terceira frase é um hiperônimo que engloba 'o relatório' e 'a equipe'.",
-        "D": "Há elipse do sujeito na segunda oração, pois o pronome 'ele' foi suprimido para evitar repetição.",
-        "E": "A coesão referencial do trecho está comprometida porque 'ele' e 'o trabalho' retomam referentes diferentes sem marcação adequada."
+        "A": "O trecho está plenamente coerente, pois o conectivo 'por isso' estabelece relação causal adequada.",
+        "B": "O trecho apresenta incoerência lógica, pois o conectivo 'por isso' sugere uma relação de causa e consequência que contraria a expectativa lógica entre estudar intensamente e ser reprovado.",
+        "C": "O trecho está incorreto apenas gramaticalmente, sem qualquer problema de coerência.",
+        "D": "O trecho é incoerente apenas por motivos de pontuação.",
+        "E": "Não há problema algum no trecho, pois reprovação pode ocorrer independentemente do estudo."
       },
-      "gabarito": "A",
-      "explicacao": "O pronome 'ele' retoma 'o relatório' — ambos são masculinos singulares, e no contexto, 'a equipe' é feminino, o que elimina a ambiguidade de gênero. A alternativa A está correta. A alternativa B erra ao dizer que 'ele' poderia retomar 'a equipe' (feminino). A alternativa C erra ao chamar 'o trabalho' de hiperônimo de 'relatório' e 'equipe' — 'trabalho' é sinônimo contextual de 'relatório', não hiperônimo de ambos. A alternativa D confunde elipse com uso de pronome: pronome não é elipse. A alternativa E afirma que a coesão está comprometida, o que é incorreto — a retomada é clara."
+      "gabarito": "B",
+      "explicacao": "O conectivo 'por isso' indica relação de causa e consequência, mas o conteúdo associado (estudar intensamente levando à reprovação) contraria a expectativa lógica convencional, gerando incoerência — a menos que o texto explicasse essa relação inesperada (o que não ocorre no trecho)."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que a substituição do conectivo destacado NÃO altera a relação lógica do período: 'Ele não compareceu à reunião, **pois** estava de licença médica.'",
+      "enunciado": "Assinale a alternativa que exemplifica adequadamente o fator de textualidade 'situacionalidade'.",
       "alternativas": {
-        "A": "Substituir 'pois' por 'portanto'.",
-        "B": "Substituir 'pois' por 'porque'.",
-        "C": "Substituir 'pois' por 'contudo'.",
-        "D": "Substituir 'pois' por 'embora'.",
-        "E": "Substituir 'pois' por 'desde que'."
+        "A": "Um ofício militar utiliza vocativo formal e linguagem protocolar, adequados ao contexto institucional de produção.",
+        "B": "Um texto utiliza muitos conectivos para garantir coesão.",
+        "C": "Um texto repete a mesma ideia em parágrafos diferentes.",
+        "D": "Um texto apresenta informações totalmente previsíveis ao leitor.",
+        "E": "Um texto cita trechos de outros documentos sem qualquer adaptação."
       },
-      "gabarito": "B",
-      "explicacao": "No período, 'pois' introduz uma explicação causal: a licença médica é a razão de não ter comparecido. 'Porque' também indica causa, podendo substituir 'pois' sem alterar a relação lógica. 'Portanto' (A) indicaria consequência, invertendo a relação. 'Contudo' (C) indicaria oposição. 'Embora' (D) indicaria concessão. 'Desde que' (E) indicaria condição. Apenas 'porque' preserva a relação causal/explicativa."
+      "gabarito": "A",
+      "explicacao": "Situacionalidade refere-se à adequação do texto ao contexto de produção e recepção; um ofício militar que emprega vocativo formal e linguagem protocolar está adequando-se corretamente ao contexto institucional em que é produzido, exemplificando esse fator de textualidade."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'As fragatas, os submarinos e as corvetas foram incorporados à esquadra. **Essas embarcações** passarão por revisão técnica antes do primeiro deslocamento.' A expressão destacada exerce qual função coesiva?",
+      "enunciado": "Leia o trecho: 'A embarcação seguia tranquilamente pelo mar calmo, quando, de repente, uma tempestade surgiu, e por isso decidimos visitar o museu naval na próxima semana.' Assinale o que está incorreto nesse trecho quanto à coerência.",
       "alternativas": {
-        "A": "Catáfora, pois antecipa os tipos de embarcações que serão descritos a seguir.",
-        "B": "Elipse, pois omite o sujeito da segunda oração para evitar repetição.",
-        "C": "Coesão lexical por hiperonímia, retomando anaforicamente os termos 'fragatas, submarinos e corvetas'.",
-        "D": "Coesão lexical por sinonímia, pois 'embarcações' é sinônimo de 'fragatas, submarinos e corvetas'.",
-        "E": "Reiteração, pois repete o mesmo conteúdo da frase anterior com outras palavras."
+        "A": "Há ruptura temática brusca e injustificada, pois o assunto da tempestade não se conecta logicamente com a decisão de visitar o museu na semana seguinte.",
+        "B": "Há apenas um erro de concordância verbal, sem qualquer problema de coerência.",
+        "C": "O trecho está plenamente coerente, pois apresenta um conectivo causal.",
+        "D": "Há apenas um problema de pontuação, facilmente corrigível.",
+        "E": "O trecho é coerente, pois toda tempestade leva a uma visita futura a museus."
       },
-      "gabarito": "C",
-      "explicacao": "'Essas embarcações' é uma expressão nominal definida que retoma anaforicamente os três termos já mencionados (fragatas, submarinos, corvetas), usando 'embarcações' como hiperônimo — palavra de sentido mais amplo que engloba os três hipônimos. Isso é coesão lexical por hiperonímia com função anafórica. Não é catáfora (A) porque aponta para trás. Não é elipse (B) porque não há omissão — há substituição explícita. Não é sinonímia (D) porque hiperônimo e sinônimo são relações distintas. Não é reiteração (E) porque não repete o mesmo termo — substitui por um hiperônimo."
+      "gabarito": "A",
+      "explicacao": "O conectivo 'por isso' tenta estabelecer uma relação causal entre a tempestade e a decisão de visitar um museu, mas não há nenhuma conexão lógica plausível entre esses dois elementos, configurando ruptura temática brusca e quebra de coerência."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Indique o trecho em que a quebra de coerência ocorre por irrelevância temática.",
+      "enunciado": "Assinale a alternativa em que a informação apresentada é uma inferência indevida, que extrapola o que o texto efetivamente afirma: 'O comandante permaneceu em silêncio durante toda a reunião.'",
       "alternativas": {
-        "A": "'A Marinha do Brasil possui tradição centenária. Seu histórico remonta ao período imperial, quando a força foi decisiva na Guerra do Paraguai.'",
-        "B": "'O concurso exige domínio de Língua Portuguesa. As questões abordam gramática, interpretação e redação. O português é língua oficial do Brasil desde o século XVIII.'",
-        "C": "'O candidato deve apresentar os documentos até o prazo indicado. A falta de qualquer item implica desclassificação. Os documentos devem ser originais ou cópias autenticadas.'",
-        "D": "'O oficial recebeu a comenda por bravura em serviço. A cerimônia foi realizada na sede do Comando. O mar do Atlântico Sul possui grande biodiversidade.'",
-        "E": "'A aprovação no concurso garante o ingresso no corpo de engenheiros da Marinha. O processo seletivo é rigoroso e exige preparação específica.'"
+        "A": "O comandante não falou nada durante a reunião.",
+        "B": "O comandante estava presente fisicamente na reunião.",
+        "C": "O comandante estava furioso com a equipe, embora o texto não mencione isso.",
+        "D": "A reunião teve, pelo menos, alguma duração.",
+        "E": "O silêncio do comandante ocorreu durante todo o tempo da reunião."
       },
-      "gabarito": "D",
-      "explicacao": "Em D, as duas primeiras frases tratam de uma cerimônia de comenda. A terceira — 'O mar do Atlântico Sul possui grande biodiversidade' — é completamente irrelevante para o tema, quebrando a coerência por falta de pertinência temática. Nas demais alternativas, todas as frases são relevantes ao tema desenvolvido: (A) trata de tradição histórica da Marinha; (B) trata do escopo do concurso de Português (a menção histórica ainda se relaciona ao tema); (C) trata de documentação; (E) trata do concurso e seus benefícios."
+      "gabarito": "C",
+      "explicacao": "Atribuir ao silêncio do comandante o sentimento de fúria é uma inferência indevida, pois o texto não fornece nenhuma base — explícita ou de conhecimento de mundo convencional — que sustente essa conclusão; o silêncio pode ter inúmeras outras motivações."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "O princípio da coerência textual denominado 'progressão temática' está respeitado em qual alternativa?",
+      "enunciado": "Assinale a alternativa que apresenta um exemplo de digressão temática justificada, sem quebra de coerência.",
       "alternativas": {
-        "A": "'A disciplina é fundamental. A disciplina é importante. Sem disciplina não há resultado. Disciplina é a base de tudo.'",
-        "B": "'A Marinha investe em tecnologia naval. Essa tecnologia é desenvolvida em parceria com universidades. Os projetos conjuntos já geraram patentes relevantes.'",
-        "C": "'O candidato deve estudar. Estudar é necessário. É necessário que o candidato estude. O estudo é indispensável.'",
-        "D": "'A missão foi cumprida. A missão foi cumprida com êxito. O êxito da missão foi notável. Notável foi o êxito.'",
-        "E": "'O concurso é difícil. É difícil o concurso. Difícil é o concurso para quem não se prepara. Não se preparar torna o concurso difícil.'"
+        "A": "Um texto sobre os procedimentos de embarque que, ao mencionar o histórico do porto, retoma em seguida o assunto principal sobre os procedimentos.",
+        "B": "Um texto sobre os procedimentos de embarque que muda definitivamente de assunto para falar de culinária, sem retomar o tema original.",
+        "C": "Um texto sobre os procedimentos de embarque que simplesmente para no meio, sem conclusão.",
+        "D": "Um texto sobre os procedimentos de embarque que repete a mesma frase dez vezes.",
+        "E": "Um texto sobre os procedimentos de embarque que contradiz, sem explicação, o que disse no parágrafo anterior."
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B apresenta progressão temática linear: a rema de cada frase torna-se o tema da seguinte. 'Tecnologia naval' (rema de 1) → 'essa tecnologia' (tema de 2) → 'os projetos conjuntos' (rema de 2, tema de 3) → 'patentes relevantes' (rema de 3). As alternativas A, C, D e E apresentam quebra de progressão por tautologia ou paráfrase: repetem o mesmo conteúdo com variações formais, sem acrescentar informação nova."
+      "gabarito": "A",
+      "explicacao": "Digressões são aceitáveis e não quebram a coerência quando o texto retoma o fio condutor original após a pausa temática, integrando a informação adicional ao desenvolvimento lógico geral — diferente de uma ruptura definitiva e não retomada."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Leia o trecho e responda: 'O projeto foi aprovado pelo conselho. **Tal medida** representa um avanço para a instituição. Os membros do conselho comemoraram a decisão.' Qual é o referente da expressão 'tal medida'?",
+      "enunciado": "Assinale a alternativa em que a frase apresenta coerência apesar de uma aparente contradição.",
       "alternativas": {
-        "A": "O conselho, pois é o sujeito da primeira oração.",
-        "B": "Os membros do conselho, pois eles são os agentes da decisão.",
-        "C": "A aprovação do projeto, pois 'medida' retoma o ato de aprovar, não o objeto aprovado.",
-        "D": "O projeto, pois é o elemento mais proeminente da primeira oração.",
-        "E": "A instituição, pois é o beneficiário da medida mencionada."
+        "A": "O comandante era exigente, mas justo com seus subordinados.",
+        "B": "O comandante chegou cedo, mas chegou atrasado.",
+        "C": "Todos os marinheiros estavam presentes, mas nenhum compareceu.",
+        "D": "O navio partiu ontem, mas partirá amanhã.",
+        "E": "A tripulação estava completa, mas faltavam todos os membros."
       },
-      "gabarito": "C",
-      "explicacao": "'Tal medida' retoma anaforicamente o ato de aprovação — a ação de 'ter aprovado o projeto', não o projeto em si. 'Medida' é um substantivo que denota ação/decisão, e o evento referido é a aprovação. O referente de 'tal medida' é, portanto, 'a aprovação do projeto' (o evento descrito na primeira frase). A alternativa D erra ao apontar 'o projeto' — o projeto é o objeto da medida, não a medida em si. As alternativas A, B e E apontam agentes ou beneficiários, não o referente da expressão."
+      "gabarito": "A",
+      "explicacao": "A oposição entre 'exigente' e 'justo' não é uma contradição lógica real, mas uma caracterização complexa e plausível de personalidade, devidamente sinalizada pelo conectivo adversativo 'mas' — diferente das demais alternativas, que apresentam contradições diretas e logicamente impossíveis."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Qual das frases abaixo apresenta problema de coesão por ambiguidade pronominal?",
+      "enunciado": "Assinale a alternativa que NÃO constitui exemplo de fator de textualidade.",
       "alternativas": {
-        "A": "'O sargento entregou o requerimento ao tenente. O tenente o assinou de imediato.'",
-        "B": "'A candidata entregou o formulário à coordenadora. Ela ficou satisfeita com a organização dos documentos.'",
-        "C": "'Os recrutas completaram o treinamento. Eles foram dispensados às 18h.'",
-        "D": "'O navio atracou no porto. A embarcação aguardava inspeção.'",
-        "E": "'A missão foi concluída antes do prazo. O resultado surpreendeu positivamente a chefia.'"
+        "A": "Coesão",
+        "B": "Coerência",
+        "C": "Intencionalidade",
+        "D": "Aceitabilidade",
+        "E": "Conjugação verbal"
       },
-      "gabarito": "B",
-      "explicacao": "Em B, o pronome 'ela' pode retomar tanto 'a candidata' quanto 'a coordenadora', pois ambos os substantivos são femininos singulares. Não há como determinar com certeza qual das duas ficou satisfeita — a coesão referencial está comprometida por ambiguidade. Nas demais: (A) 'o' retoma 'requerimento' — sem ambiguidade; (C) 'eles' retoma 'os recrutas' — sem ambiguidade; (D) não usa pronome, usa expressão nominal; (E) 'o resultado' retoma a conclusão da missão — sem ambiguidade."
+      "gabarito": "E",
+      "explicacao": "Conjugação verbal é um fenômeno gramatical relativo à morfologia do verbo, não um fator de textualidade. Os fatores de textualidade clássicos são: coesão, coerência, intencionalidade, aceitabilidade, situacionalidade, informatividade e intertextualidade."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Sobre o uso de conectivos, assinale a alternativa que preenche corretamente as lacunas do período: 'O candidato não foi aprovado na primeira fase ___ tinha estudado muito; ___, resolveu intensificar a preparação.'",
+      "enunciado": "Leia: 'O relatório técnico precisa ser entregue até sexta-feira, beleza?' Assinale o problema de coerência presente nesse trecho, considerando tratar-se de um comunicado oficial.",
       "alternativas": {
-        "A": "porque / portanto",
-        "B": "embora / entretanto",
-        "C": "visto que / logo",
-        "D": "pois / todavia",
-        "E": "uma vez que / assim"
+        "A": "Quebra de coerência estilística, por misturar linguagem técnica/formal com expressão coloquial ('beleza?'), incompatível com o registro esperado em comunicados oficiais.",
+        "B": "Não há nenhum problema de coerência nesse trecho.",
+        "C": "O problema é exclusivamente de pontuação.",
+        "D": "O problema é de coesão, e não de coerência.",
+        "E": "O problema está na ausência de conectivos."
       },
-      "gabarito": "B",
-      "explicacao": "A estrutura lógica exige: (1) o candidato não foi aprovado APESAR DE ter estudado muito — relação concessiva (embora); (2) a decisão de intensificar a preparação é CONTRÁRIA ao esperado após um fracasso desanimador — relação adversativa (entretanto). 'Embora... entretanto' encaixa perfeitamente: 'embora tivesse estudado muito' (concessão) + 'entretanto, resolveu intensificar' (oposição ao desânimo esperado). As demais alternativas erram: (A) 'porque' indicaria causa da reprovação, não concessão; (C) e (E) também indicam causa; (D) 'pois' indica causa/explicação, e 'todavia' funcionaria na segunda lacuna, mas a primeira está errada."
+      "gabarito": "A",
+      "explicacao": "A expressão coloquial 'beleza?' quebra a uniformidade de registro esperada em um comunicado oficial técnico, configurando incoerência estilística por mistura indevida de níveis de linguagem."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'A Marinha do Brasil possui uma frota moderna. Fragatas, corvetas, submarinos e navios-patrulha compõem seu arsenal. **Essas unidades operativas** passam por manutenção periódica.' A expressão 'essas unidades operativas' é um exemplo de:",
+      "enunciado": "Assinale a alternativa que melhor explica por que um texto pode ser coeso, mas incoerente.",
       "alternativas": {
-        "A": "Coesão por reiteração, pois repete o conteúdo da frase anterior.",
-        "B": "Coesão referencial catafórica, pois antecipa os elementos navais que serão descritos.",
-        "C": "Coesão lexical por sinonímia, pois 'unidades operativas' é sinônimo exato de 'frota'.",
-        "D": "Coesão lexical por hiperonímia com função anafórica, pois retoma os quatro tipos de embarcações listados.",
-        "E": "Coesão por elipse, pois omite os tipos específicos de embarcação para evitar repetição."
+        "A": "Porque coesão e coerência nunca podem coexistir no mesmo texto.",
+        "B": "Porque a presença de conectivos gramaticalmente corretos não garante, por si só, que as ideias conectadas façam sentido lógico entre si.",
+        "C": "Porque todo texto coeso é, por definição, incoerente.",
+        "D": "Porque coesão depende exclusivamente do conhecimento de mundo do leitor.",
+        "E": "Porque coerência é sinônimo de coesão em qualquer contexto."
       },
-      "gabarito": "D",
-      "explicacao": "'Essas unidades operativas' retoma anaforicamente os quatro termos listados (fragatas, corvetas, submarinos, navios-patrulha), usando uma expressão nominal definida cujo núcleo ('unidades operativas') funciona como hiperônimo técnico-militar que engloba todos eles. É coesão lexical por hiperonímia com função anafórica. Não é reiteração (A) — não repete os mesmos termos. Não é catáfora (B) — a expressão aponta para trás. Não é sinonímia estrita (C) — hiperônimo e sinônimo são relações distintas. Não é elipse (D) — há substituição explícita, não omissão."
+      "gabarito": "B",
+      "explicacao": "A coesão garante apenas as conexões formais visíveis (conectivos, pronomes); a coerência depende da lógica e do sentido das ideias conectadas. É possível ter conectivos corretos unindo ideias sem relação lógica plausível, gerando um texto coeso, mas incoerente."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Qual alternativa apresenta texto com problema de coerência por tautologia?",
+      "enunciado": "Assinale a alternativa em que o fator de textualidade 'intertextualidade' está corretamente exemplificado.",
       "alternativas": {
-        "A": "'O militar foi punido porque descumpriu o regulamento.'",
-        "B": "'A decisão final, que pôs definitivamente um fim conclusivo e irrevogável à questão pendente, foi comunicada por escrito.'",
-        "C": "'Embora o prazo fosse curto, a equipe entregou o relatório.'",
-        "D": "'O projeto foi rejeitado. Os responsáveis apresentarão nova proposta.'",
-        "E": "'O candidato estudou oito horas por dia durante seis meses.'"
+        "A": "Um discurso do comandante que parafraseia um trecho conhecido de um discurso histórico naval, dialogando com essa referência.",
+        "B": "Um texto que usa muitos pronomes para evitar repetição de palavras.",
+        "C": "Um texto que apresenta apenas informações previsíveis.",
+        "D": "Um texto sem qualquer conectivo explícito.",
+        "E": "Um texto que respeita rigorosamente a norma culta da língua."
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B é um exemplo claro de tautologia: 'final', 'definitivamente', 'fim', 'conclusivo' e 'irrevogável' repetem o mesmo conteúdo semântico (algo que não pode ser modificado, que encerra a questão) sem acrescentar informação nova. A redundância excessiva é um problema de coerência por não respeitar o princípio da não tautologia. As demais alternativas apresentam frases coerentes e sem redundância problemática."
+      "gabarito": "A",
+      "explicacao": "Intertextualidade é a relação que um texto estabelece com outros textos, por meio de referências, alusões, citações ou paráfrases — um discurso que dialoga com um discurso histórico conhecido exemplifica diretamente esse fator de textualidade."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'Os oficiais foram convocados para a reunião às 14h. Contudo, o encontro foi produtivo e gerou decisões relevantes para a força.' A presença do conectivo 'contudo' nesse contexto:",
+      "enunciado": "Leia o trecho: 'A tripulação trabalhou incansavelmente durante toda a travessia. No dia seguinte, descansaram, pois ainda não haviam começado a viagem.' Assinale a alternativa que identifica corretamente o problema de coerência.",
       "alternativas": {
-        "A": "É adequada, pois 'contudo' pode introduzir qualquer informação complementar após uma oração anterior.",
-        "B": "É inadequada, pois 'contudo' indica oposição, mas não há contraste entre a convocação e a produtividade da reunião — o correto seria um conectivo aditivo ou conclusivo.",
-        "C": "É adequada, pois a convocação dos oficiais é um fato que se opõe naturalmente à produtividade da reunião.",
-        "D": "É inadequada apenas por razões estilísticas, pois 'contudo' é formal demais para este contexto.",
-        "E": "É adequada, pois 'contudo' pode funcionar como conectivo causal em registros formais da língua."
+        "A": "Não há problema de coerência, pois 'no dia seguinte' indica progressão temporal normal.",
+        "B": "Há incoerência lógico-temporal: a afirmação de que 'ainda não haviam começado a viagem' contradiz a informação anterior de que a tripulação já havia trabalhado durante toda a travessia.",
+        "C": "O problema é apenas de concordância verbal.",
+        "D": "O problema é exclusivamente de pontuação inadequada.",
+        "E": "Não há incoerência, pois descanso e trabalho são compatíveis."
       },
       "gabarito": "B",
-      "explicacao": "'Contudo' é um conectivo adversativo que indica contraste ou oposição entre dois fatos. Para que seu uso seja adequado, a segunda oração deve apresentar algo contrário ao esperado ou oposto à primeira. No trecho, 'os oficiais foram convocados para a reunião' e 'o encontro foi produtivo' não se opõem — uma reunião convocada ser produtiva é o resultado esperado, não surpreendente. O conectivo correto seria aditivo ('e', 'além disso') ou conclusivo ('e, por isso'). 'Contudo' seria adequado se houvesse contraste, por exemplo: 'Os oficiais foram convocados às pressas; contudo, o encontro foi desorganizado.'"
+      "explicacao": "A oração final ('pois ainda não haviam começado a viagem') contradiz diretamente a informação inicial de que a tripulação já trabalhara durante toda a travessia, configurando incoerência lógico-temporal grave e não justificada no trecho."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Analise: 'A proposta foi bem recebida pela comissão. No entanto, o projeto recebeu aprovação unânime.' Sobre a coesão e a coerência desse trecho, é correto afirmar que:",
+      "enunciado": "Assinale a alternativa que melhor diferencia 'estagnação temática' de 'progressão temática adequada'.",
       "alternativas": {
-        "A": "O trecho é coeso e coerente, pois o conectivo 'no entanto' pode introduzir qualquer ideia nova.",
-        "B": "O trecho apresenta problema de coesão lexical, pois 'proposta' e 'projeto' não são sinônimos adequados nesse contexto.",
-        "C": "O trecho é incoerente porque o conectivo 'no entanto' (adversativo) é incompatível com a progressão lógica: aprovação unânime é consequência natural de boa recepção, não um fato oposto.",
-        "D": "O trecho é coerente, mas apresenta problema de coesão referencial, pois não fica claro se 'o projeto' retoma 'a proposta'.",
-        "E": "O trecho apresenta problema de coerência por tautologia, pois 'bem recebida' e 'aprovação unânime' têm o mesmo significado."
+        "A": "Estagnação temática ocorre quando o texto repete a mesma informação sem avançar; progressão adequada ocorre quando o texto retoma o tema (informação dada) e acrescenta informação nova (rema) de forma organizada.",
+        "B": "Estagnação temática é sinônimo de progressão temática.",
+        "C": "Progressão temática adequada exige a ausência total de repetições no texto.",
+        "D": "Estagnação temática é sempre desejável em textos técnicos.",
+        "E": "Não há diferença relevante entre os dois conceitos."
       },
-      "gabarito": "C",
-      "explicacao": "O problema central é de coerência (e de coesão sequencial): 'no entanto' exige contraste — a segunda oração deveria apresentar algo inesperado ou oposto à boa recepção. Aprovação unânime é o resultado natural e esperado de boa recepção, não um contraponto. O uso inadequado do conectivo adversativo quebra a coerência lógica. A alternativa B é parcialmente plausível, mas não é o erro principal — 'proposta' e 'projeto' podem funcionar como sinônimos contextuais. A alternativa D é improvável, pois o contexto torna a retomada clara. A alternativa E erra ao chamar de tautologia o que é, na verdade, progressão temática normal."
+      "gabarito": "A",
+      "explicacao": "A estagnação temática caracteriza-se pela repetição de informações sem avanço real do conteúdo, prejudicando o dinamismo do texto; já a progressão temática adequada combina retomada do que já foi dito (tema) com acréscimo de informação nova (rema), mantendo o texto em desenvolvimento lógico constante."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "No trecho 'O relatório foi redigido pelo analista. O documento foi encaminhado à chefia. **O mesmo** foi arquivado após a leitura', a expressão 'o mesmo' exerce função anafórica. Sobre seu uso, é correto afirmar que:",
+      "enunciado": "Leia: 'O documento foi assinado por todos os presentes, com exceção do comandante, que se recusou a assiná-lo, embora tenha sido o primeiro a assinar.' Assinale o problema de coerência presente.",
       "alternativas": {
-        "A": "O uso de 'o mesmo' é recomendável em textos formais por ser mais preciso que o pronome pessoal 'ele'.",
-        "B": "O uso de 'o mesmo' é gramaticalmente incorreto, pois pronomes não podem retomar substantivos em textos oficiais.",
-        "C": "O uso de 'o mesmo' como pronome anafórico é criticado pela norma culta; recomenda-se substituí-lo por 'ele', 'o' ou por repetição do nome.",
-        "D": "O uso de 'o mesmo' é adequado apenas quando o referente é ambíguo e precisa ser especificado.",
-        "E": "O uso de 'o mesmo' é uma forma de coesão lexical por sinonímia, equivalente a 'o referido documento'."
+        "A": "Não há problema de coerência, pois o conectivo 'embora' resolve qualquer contradição.",
+        "B": "Há contradição lógica direta e não resolvida: o texto afirma simultaneamente que o comandante se recusou a assinar e que foi o primeiro a assinar.",
+        "C": "O problema é apenas de pontuação.",
+        "D": "O problema está na ausência de vírgula antes de 'embora'.",
+        "E": "Não há incoerência, pois recusar e assinar podem ocorrer na mesma pessoa sem problema."
       },
-      "gabarito": "C",
-      "explicacao": "O uso de 'o mesmo' como pronome anafórico (em lugar de 'ele', 'o' ou da repetição do nome) é amplamente criticado pelos gramáticos, incluindo Cunha e Cintra (2017), por ser considerado um vício de linguagem típico da linguagem burocrática. 'O mesmo' é pronome de identidade (indica que um elemento é igual a outro) e não pronome anafórico de retomada. O Manual da Marinha (2024) também desaconselha esse uso em textos oficiais. A forma recomendada é o pronome pessoal 'ele', o clítico 'o', ou a repetição do substantivo com artigo definido."
+      "gabarito": "B",
+      "explicacao": "Mesmo com o conectivo concessivo 'embora', a contradição entre 'se recusou a assiná-lo' e 'foi o primeiro a assinar' é direta e logicamente incompatível, pois ambas as afirmações não podem ser simultaneamente verdadeiras sem uma explicação adicional que o texto não oferece — configurando quebra grave de coerência."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Os recrutas completaram o treinamento básico em março. Em abril, [Ø] iniciaram o módulo avançado. Em maio, [Ø] foram avaliados individualmente.' Sobre os sujeitos elípticos indicados por [Ø], é correto dizer que:",
+      "enunciado": "Assinale a alternativa que melhor exemplifica o conceito de 'aceitabilidade' como fator de textualidade.",
       "alternativas": {
-        "A": "As elipses comprometem a coesão porque os sujeitos omitidos não têm antecedente claro no texto.",
-        "B": "As elipses são recursos coesivos adequados, pois o sujeito omitido ('os recrutas') é recuperável pelo contexto gramatical e semântico.",
-        "C": "As elipses são incorretas porque sujeitos de orações diferentes não podem ser omitidos simultaneamente.",
-        "D": "As elipses geram ambiguidade porque 'os recrutas' poderia ser substituído por 'o treinamento'.",
-        "E": "As elipses caracterizam coesão lexical por reiteração, pois retomam o mesmo termo sem alteração."
+        "A": "O leitor de um bilhete informal, como 'Já chegamos. Tudo certo.', compreende plenamente a mensagem mesmo diante de informações implícitas e elípticas.",
+        "B": "Um texto que utiliza apenas vocabulário técnico complexo, dificultando a compreensão geral.",
+        "C": "Um texto que apresenta erros gramaticais graves, tornando-o inaceitável para qualquer leitor.",
+        "D": "Um texto sem qualquer relação com outros textos previamente conhecidos.",
+        "E": "Um texto extremamente longo e detalhado, sem qualquer elipse."
       },
-      "gabarito": "B",
-      "explicacao": "As elipses são plenamente adequadas: em cada oração subsequente, o sujeito 'os recrutas' é recuperável sem ambiguidade — é o único sujeito disponível no contexto, e a concordância verbal no plural (iniciaram, foram avaliados) confirma a retomada. A elipse do sujeito é um dos mecanismos de coesão mais comuns e recomendáveis para evitar repetições desnecessárias. A alternativa A erra ao afirmar que não há antecedente claro. A alternativa C erra ao criar uma restrição gramatical inexistente. A alternativa D erra: 'o treinamento' é singular e não concorda com os verbos no plural. A alternativa E confunde elipse com reiteração."
+      "gabarito": "A",
+      "explicacao": "Aceitabilidade é a expectativa do leitor de que o texto, mesmo com lacunas formais (como elipses e informações implícitas), faça sentido — o leitor coopera ativamente na construção do sentido, como ocorre na compreensão natural de um bilhete informal e conciso."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Analise o parágrafo: 'A segurança nacional é prioridade do Estado. A Marinha do Brasil é responsável por guardar as fronteiras marítimas. O Brasil possui 7.491 km de litoral. As praias brasileiras são destinos turísticos famosos. O turismo gera divisas para o país.' Qual é o principal problema de coerência?",
+      "enunciado": "Leia o trecho de um relatório técnico: 'O sistema de navegação apresentou falha crítica às 14h. Às 13h, a equipe já havia identificado e corrigido completamente o problema.' Assinale o que está incorreto quanto à coerência.",
       "alternativas": {
-        "A": "Contradição lógica entre 'segurança nacional' e 'destinos turísticos'.",
-        "B": "Tautologia, pois 'segurança nacional' e 'fronteiras marítimas' têm o mesmo significado.",
-        "C": "Quebra de progressão temática e relevância: o parágrafo inicia com um tema (segurança/defesa nacional) e deriva para tópicos irrelevantes (turismo, divisas), perdendo a coerência temática.",
-        "D": "Coesão referencial comprometida, pois o pronome 'suas' não foi usado para retomar 'Marinha do Brasil'.",
-        "E": "Problema de coesão sequencial, pois faltam conectivos entre as frases."
+        "A": "Não há incoerência, pois correções podem ocorrer antes dos problemas em sistemas preventivos.",
+        "B": "Há incoerência lógico-temporal, pois o texto afirma que a correção (às 13h) ocorreu antes da própria falha ser identificada como tendo ocorrido (às 14h), o que é logicamente impossível em uma sequência causal normal.",
+        "C": "O problema é apenas de concordância nominal.",
+        "D": "O problema é exclusivamente de regência verbal.",
+        "E": "Não há problema, pois o texto não menciona explicitamente uma relação de causa e efeito."
       },
-      "gabarito": "C",
-      "explicacao": "O parágrafo começa com o tema 'segurança nacional / defesa marítima' e desvia progressivamente para 'praias como destinos turísticos' e 'turismo como gerador de divisas'. Isso viola o princípio de relevância e progressão temática da coerência: cada oração deve contribuir para o desenvolvimento do tema central, não desviar para tópicos tangencialmente relacionados. A contradição (A) não existe — segurança e turismo não se contradizem, apenas pertencem a temas distintos. A tautologia (B) é incorreta — segurança e fronteiras não são sinônimos. O problema de coesão referencial (D) não se aplica, pois não há pronome mal empregado. A ausência de conectivos (E) pode ser um problema menor de coesão, mas não é o principal defeito do parágrafo."
+      "gabarito": "B",
+      "explicacao": "A sequência temporal apresentada é logicamente impossível em uma relação de causa e efeito convencional: não é coerente que a correção de um problema (13h) ocorra antes do próprio problema ser registrado como tendo se manifestado (14h), salvo justificativa explícita no texto, que não está presente."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "No texto 'O edital foi publicado na semana passada. Nele constam todos os requisitos para a inscrição. **Este** deve ser lido com atenção por todos os interessados.', o pronome demonstrativo 'este' retoma qual elemento?",
+      "enunciado": "Assinale a alternativa que melhor explica por que um texto tecnicamente correto na gramática pode, ainda assim, ser considerado incoerente por uma banca examinadora.",
       "alternativas": {
-        "A": "Retoma 'nele', pois os dois pronomes são correferenciais.",
-        "B": "Retoma 'edital', pois é o elemento mais proeminente do texto e 'este' indica proximidade textual com o referente mais recente.",
-        "C": "Retoma 'requisitos para a inscrição', pois é o elemento mais próximo sintaticamente.",
-        "D": "O uso de 'este' é inadequado, pois deveria ser usado 'esse' para retomada anafórica em contexto formal.",
-        "E": "O uso de 'este' é ambíguo entre 'edital' e 'requisitos', comprometendo a coesão."
+        "A": "Porque a banca sempre prioriza erros gramaticais sobre problemas de sentido.",
+        "B": "Porque coerência é um critério de avaliação independente da correção gramatical, relacionado à lógica, à consistência argumentativa e ao sentido global do texto.",
+        "C": "Porque textos gramaticalmente corretos nunca são avaliados quanto à coerência.",
+        "D": "Porque a coerência depende exclusivamente da pontuação utilizada no texto.",
+        "E": "Porque não existe possibilidade de um texto gramaticalmente correto ser incoerente."
       },
       "gabarito": "B",
-      "explicacao": "O pronome 'este' retoma anaforicamente 'o edital', que é o tópico central do texto e o referente mais saliente do contexto. 'Este' indica proximidade — e, no uso anafórico, aponta para o elemento mais recentemente mencionado ou mais proeminente. A lógica semântica confirma: é o edital, não os requisitos, que deve ser lido com atenção. A alternativa D está errada: 'este' pode ser usado anaforicamente em texto escrito (não há restrição gramatical que exija 'esse' para retomada formal). A alternativa E exagera a ambiguidade: o contexto disambigua claramente o referente como 'o edital'."
+      "explicacao": "A coerência é avaliada como critério autônomo, relacionado ao sentido lógico e à consistência argumentativa do texto, podendo um texto gramaticalmente impecável apresentar falhas graves de coerência — por isso bancas como o CEBRASPE frequentemente cobram essa distinção em questões de interpretação."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Leia: 'O oficial cumpriu exemplarmente as determinações do comando. Não apenas concluiu a missão no prazo, **como também** superou as expectativas da chefia.' O conectivo 'como também' indica qual relação semântica?",
+      "enunciado": "Leia: 'Como medida de economia, a Marinha decidiu reduzir o número de embarcações na esquadra. Consequentemente, foram adquiridas dez novas embarcações no mesmo período.' Assinale o problema de coerência presente.",
       "alternativas": {
-        "A": "Concessão: o fato de superar expectativas ocorreu apesar de concluir no prazo.",
-        "B": "Adição com ênfase: acrescenta um segundo fato que intensifica ou supera o primeiro, em estrutura correlativa com 'não apenas'.",
-        "C": "Causa: superar expectativas é a causa de ter concluído a missão no prazo.",
-        "D": "Consequência: superar expectativas é o resultado direto de cumprir as determinações.",
-        "E": "Comparação: o oficial superou as expectativas da chefia da mesma forma que concluiu a missão."
+        "A": "Não há problema, pois aquisição de novas embarcações pode ser uma medida de economia.",
+        "B": "Há incoerência lógica, pois a relação de consequência ('consequentemente') estabelecida entre a redução de embarcações e a aquisição de dez novas embarcações é logicamente contraditória, sem justificativa textual para essa aparente contradição.",
+        "C": "O problema é exclusivamente de pontuação.",
+        "D": "O problema é de concordância verbal apenas.",
+        "E": "Não há incoerência, pois o texto trata de dois períodos diferentes."
       },
       "gabarito": "B",
-      "explicacao": "A estrutura 'não apenas... como também' é uma locução correlativa aditiva com ênfase: o segundo elemento acrescenta um fato que agrega e intensifica o primeiro. 'Não apenas X, como também Y' significa que Y é um acréscimo de valor superior a X — não uma oposição, causa, consequência ou comparação, mas adição graduada. Cunha e Cintra (2017) classificam essa estrutura entre as correlativas aditivas. Nenhuma das demais alternativas descreve corretamente essa relação."
+      "explicacao": "O conectivo 'consequentemente' sugere uma relação lógica de causa e efeito entre reduzir embarcações e adquirir novas embarcações, que são ações opostas e incompatíveis sem explicação adicional — configurando incoerência lógica não resolvida pelo texto."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Analise o trecho reescrito: Original: 'Os candidatos foram aprovados porque apresentaram excelente desempenho.' Reescrita: 'Os candidatos foram aprovados; **visto que** apresentaram excelente desempenho.' A reescrita:",
+      "enunciado": "Assinale a alternativa que melhor representa uma quebra de coerência por extrapolação indevida de inferência, em uma questão de interpretação típica da banca CEBRASPE.",
       "alternativas": {
-        "A": "É adequada, pois 'visto que' pode substituir 'porque' em qualquer contexto sem alteração de sentido.",
-        "B": "Apresenta problema de coesão sequencial, pois 'visto que' é conjunção subordinativa causal, mas a ordem das orações (causa após efeito, separadas por ponto e vírgula) é atípica e pode prejudicar a clareza.",
-        "C": "É inadequada porque 'visto que' indica condição, não causa.",
-        "D": "É inadequada porque 'visto que' é um conectivo exclusivo da língua escrita formal e não pode ser usado após ponto e vírgula.",
-        "E": "É adequada e superior ao original, pois o ponto e vírgula confere maior ênfase à relação causal."
+        "A": "Considerando que o texto afirma 'o comandante avaliou os relatórios com atenção', é correto inferir que ele os leu cuidadosamente.",
+        "B": "Considerando que o texto afirma 'o comandante avaliou os relatórios com atenção', é correto inferir que ele discordava de todo o conteúdo apresentado.",
+        "C": "Considerando que o texto afirma 'o comandante avaliou os relatórios com atenção', é correto inferir que a avaliação exigiu tempo e cuidado.",
+        "D": "Considerando que o texto afirma 'o comandante avaliou os relatórios com atenção', é correto inferir que ele dedicou esforço à tarefa.",
+        "E": "Considerando que o texto afirma 'o comandante avaliou os relatórios com atenção', é correto inferir que ele os examinou de forma criteriosa."
       },
       "gabarito": "B",
-      "explicacao": "'Visto que' é de fato uma conjunção subordinativa causal, semanticamente equivalente a 'porque'. Porém, 'visto que' tipicamente introduz a causa ANTES do efeito (ordem direta da subordinação causal), e seu uso após ponto e vírgula — que separa as orações como se fossem mais independentes — é gramaticalmente atípico e pode prejudicar a clareza. A reescrita não é catastroficamente errada, mas apresenta problema de coesão sequencial pela combinação incomum de ponto e vírgula + 'visto que'. A alternativa A erra ao dizer que a substituição é sempre adequada. A alternativa C erra: 'visto que' é causal, não condicional. A alternativa D cria uma restrição inexistente."
+      "explicacao": "Inferir que o comandante 'discordava de todo o conteúdo' extrapola indevidamente o que o texto efetivamente afirma; 'avaliar com atenção' não implica necessariamente discordância — essa é uma conclusão não sustentada nem pelo texto nem por conhecimento de mundo convencional, diferente das demais alternativas, que decorrem logicamente da expressão 'com atenção'."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Leia o parágrafo: 'A pontualidade é uma virtude exigida dos militares. O regulamento interno estipula horários rígidos para todas as atividades. Atrasos são passíveis de sanção disciplinar. Por isso, a hora de chegada deve ser rigorosamente observada.' O parágrafo apresenta qual padrão de progressão temática?",
+      "enunciado": "Assinale a alternativa que melhor explica a relação entre intencionalidade e coerência na produção de um texto oficial militar.",
       "alternativas": {
-        "A": "Progressão linear, pois a rema de cada frase torna-se o tema da seguinte sem exceção.",
-        "B": "Progressão com temas derivados de um hipertema, pois todas as frases desenvolvem aspectos do tema geral 'pontualidade e suas exigências'.",
-        "C": "Progressão com tema constante, pois 'pontualidade' permanece o sujeito gramatical de todas as frases.",
-        "D": "Ausência de progressão, pois o parágrafo apresenta apenas tautologia.",
-        "E": "Progressão por antítese, pois cada frase se opõe à anterior."
+        "A": "A intencionalidade comunicativa do autor (informar, ordenar, solicitar) orienta as escolhas lexicais e estruturais que sustentam a coerência do texto em relação ao seu propósito.",
+        "B": "Intencionalidade e coerência são conceitos incompatíveis e nunca podem ser analisados conjuntamente.",
+        "C": "A intencionalidade só é relevante em textos literários, não em textos oficiais.",
+        "D": "A coerência de um texto independe completamente de sua intenção comunicativa.",
+        "E": "A intencionalidade refere-se exclusivamente à pontuação utilizada no texto."
       },
-      "gabarito": "B",
-      "explicacao": "O parágrafo apresenta progressão com temas derivados: há um hipertema geral (pontualidade como exigência militar) do qual derivam subtemas específicos — regulamento (frase 2), sanções (frase 3), conclusão prática (frase 4). Cada frase desenvolve um aspecto diferente do tema central, sem que a rema de uma se torne necessariamente o tema da próxima (o que seria progressão linear). Não é tema constante (C) porque 'pontualidade' não é o sujeito gramatical de todas as frases. Não há tautologia (D) — cada frase acrescenta informação nova. Não há antítese (E)."
+      "gabarito": "A",
+      "explicacao": "A intencionalidade — o propósito comunicativo do autor — orienta diretamente as escolhas que constroem a coerência do texto: um ofício que pretende ordenar algo precisa manter coerência com essa finalidade, evitando ambiguidades ou contradições que comprometam o cumprimento desse propósito."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Sobre a distinção entre coesão e coerência, assinale a alternativa que apresenta um texto com problema EXCLUSIVAMENTE de coesão (e não de coerência):",
+      "enunciado": "Leia o trecho de um memorando: 'Solicitamos que todos os oficiais compareçam pontualmente à reunião de amanhã, às 8h. A reunião, realizada na última terça-feira, tratou de assuntos administrativos diversos.' Assinale o problema de coerência identificado.",
       "alternativas": {
-        "A": "'O militar foi punido. A punição foi merecida. A punição foi comunicada formalmente.' (repetição excessiva)",
-        "B": "'O sol nasceu a oeste. Por isso, o dia estava claro.' (relação lógica impossível)",
-        "C": "'O documento foi protocolado. Ela aguarda deferimento.' (pronome 'ela' sem antecedente claro — o documento é masculino)",
-        "D": "'A Marinha é uma força de mar. O futebol é popular no Brasil.' (irrelevância temática)",
-        "E": "'O candidato estudou bastante. Portanto, não estava bem preparado.' (contradição lógica com conectivo inadequado)"
+        "A": "Não há problema de coerência, pois reuniões podem ser mencionadas em qualquer ordem cronológica.",
+        "B": "Há incoerência temporal e referencial: o texto convoca para uma reunião 'de amanhã', mas em seguida descreve essa mesma reunião como já tendo ocorrido 'na última terça-feira', gerando ambiguidade sobre a que evento o texto se refere.",
+        "C": "O problema é exclusivamente de regência nominal.",
+        "D": "O problema é de concordância verbal apenas.",
+        "E": "Não há incoerência, pois o texto trata de duas reuniões completamente distintas e isso está claro."
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C apresenta problema exclusivo de coesão referencial: o pronome 'ela' é feminino, mas o único antecedente disponível é 'o documento' (masculino) — não há referente feminino no texto. Isso é um problema de coesão (ligação formal mal resolvida), não de coerência semântica: o texto faz sentido lógico (protocolar um documento e aguardar deferimento é coerente), mas a ligação pronominal está errada. As alternativas B e E apresentam problemas de coerência lógica. A alternativa D apresenta problema de coerência por irrelevância. A alternativa A pode ser questionável como problema de coesão ou coerência, mas não é tão clara quanto C."
+      "gabarito": "B",
+      "explicacao": "O uso do artigo definido 'a reunião' no segundo período sugere retomada anafórica da mesma reunião mencionada antes ('a reunião de amanhã'), mas a descreve no passado ('realizada na última terça-feira'), criando incoerência temporal e referencial — o texto não deixa claro se trata de duas reuniões diferentes ou comete um erro de coerência ao tratar da mesma reunião em tempos contraditórios."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o texto a seguir e responda à questão:\n\n'O Comando do Exército divulgou nota informando que as novas diretrizes operacionais entrarão em vigor no próximo trimestre. As medidas, elaboradas após ampla consulta aos setores envolvidos, visam a modernizar os procedimentos internos. Elas foram recebidas com cautela pelos comandantes de região, que aguardam os detalhes da implementação. Contudo, o impacto positivo esperado justifica o esforço de adaptação.'\n\nSobre a coesão e a coerência do texto, analise as afirmações:\nI. O pronome 'elas' (terceira frase) retoma anaforicamente 'as medidas', estabelecendo coesão referencial adequada.\nII. O uso de 'contudo' na última frase é inadequado, pois não há contraste real entre aguardar detalhes e o impacto positivo esperado.\nIII. A expressão 'as medidas' é um mecanismo de coesão lexical por hiperonímia em relação às 'novas diretrizes operacionais'.\nEstão corretas:",
+      "enunciado": "Leia: 'O navio partiu pontualmente às 6h, conforme o planejado. Antes disso, porém, às 8h, a tripulação já havia concluído todos os preparativos finais.' Assinale a alternativa correta quanto à coerência do trecho.",
       "alternativas": {
-        "A": "Apenas I.",
-        "B": "Apenas II.",
-        "C": "Apenas I e III.",
-        "D": "Apenas I e II.",
-        "E": "I, II e III."
+        "A": "O trecho é coerente, pois 'antes disso' indica claramente uma ação anterior bem situada no tempo.",
+        "B": "O trecho apresenta incoerência temporal, pois 'antes disso' (referindo-se à partida às 6h) é seguido por um horário (8h) posterior ao mencionado, o que é logicamente contraditório.",
+        "C": "O trecho é coerente, pois conectivos temporais sempre garantem coerência.",
+        "D": "O problema do trecho é exclusivamente de pontuação.",
+        "E": "Não há incoerência, pois 8h pode significar 8h da manhã do dia anterior."
       },
-      "gabarito": "D",
-      "explicacao": "Afirmação I: correta. 'Elas' retoma 'as medidas' — ambas femininas e plurais, sem ambiguidade. Coesão referencial anafórica adequada. Afirmação II: correta. 'Contudo' é adversativo — exige contraste. A quarta frase ('o impacto positivo justifica o esforço') não se opõe à cautela dos comandantes; pelo contrário, complementa ou justifica a situação. O conectivo adequado seria 'ainda assim', 'no entanto' com ressalva, ou 'porém' se a adversidade fosse mais evidente. Mas mesmo assim, aguardar detalhes (cautela) e esperar impacto positivo são fatos que poderiam estar em tensão — a afirmação II é a mais polêmica, mas tecnicamente defensável. Afirmação III: incorreta. 'As medidas' é uma expressão de referenciação anafórica que funciona como sinônimo contextual (ou quase-sinônimo) de 'diretrizes operacionais', não como hiperônimo. Um hiperônimo englobaria as diretrizes como espécie — 'as medidas' tem relação de equivalência no contexto, não de classe mais ampla. Portanto, I e II estão corretas."
+      "gabarito": "B",
+      "explicacao": "A expressão 'antes disso' indica que o evento seguinte ocorreu antes da partida às 6h, mas o horário citado (8h) é posterior a esse horário, criando contradição lógico-temporal explícita e não resolvida pelo texto."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Leia o texto:\n\n'A leitura é um hábito que transforma. Quem lê com regularidade amplia o vocabulário, desenvolve o raciocínio crítico e enriquece a capacidade de expressão. Esses benefícios, porém, não chegam de imediato: demandam tempo, constância e comprometimento. Portanto, aqueles que buscam os resultados da leitura sem o investimento que ela exige tendem à frustração.'\n\nSobre o texto, é INCORRETO afirmar que:",
+      "enunciado": "Assinale a alternativa que melhor distingue coerência textual de correção gramatical, no contexto de uma questão típica da banca CEBRASPE sobre julgamento de itens.",
       "alternativas": {
-        "A": "A expressão 'esses benefícios' retoma anaforicamente os três elementos listados na segunda frase (vocabulário, raciocínio crítico, capacidade de expressão).",
-        "B": "O conectivo 'porém' está adequado, pois introduz uma ressalva ou contraponto à afirmação anterior sobre os benefícios da leitura.",
-        "C": "O conectivo 'portanto' introduz uma conclusão logicamente derivada das informações anteriores.",
-        "D": "O texto apresenta progressão linear, pois a rema de cada frase torna-se o tema da seguinte, sem exceção.",
-        "E": "O texto é coerente, pois não apresenta contradições lógicas, mantém o tema central (leitura e seus benefícios) e progride informativamente."
+        "A": "Um item pode ser julgado 'certo' quanto à coerência mesmo que o trecho analisado contenha pequenos desvios de pontuação, desde que o sentido lógico permaneça preservado.",
+        "B": "Um item só pode ser julgado 'certo' se estiver gramaticalmente perfeito e coerente simultaneamente, sem exceção.",
+        "C": "Coerência e gramaticalidade são sempre avaliadas como um único critério indissociável pela banca.",
+        "D": "A banca nunca avalia coerência separadamente da gramática.",
+        "E": "Não existe distinção possível entre os dois critérios em provas objetivas."
       },
-      "gabarito": "D",
-      "explicacao": "A alternativa D é a incorreta porque o texto não apresenta progressão estritamente linear. O padrão predominante é de progressão com hipertema constante (os benefícios da leitura e suas exigências) com temas derivados, não linear pura — em que cada rema se tornaria o tema da frase seguinte sem exceção. Por exemplo, a rema da segunda frase ('amplia vocabulário, desenvolve raciocínio, enriquece expressão') não se torna o tema literal da terceira frase — o tema da terceira é 'esses benefícios' (retomada coletiva), não um dos elementos específicos da rema anterior. As demais afirmativas (A, B, C, E) estão corretas."
+      "gabarito": "A",
+      "explicacao": "A coerência é avaliada como critério de sentido lógico-textual, podendo ser julgada independentemente de pequenos desvios formais (como pontuação), desde que estes não comprometam a compreensão global do texto — distinção comum em questões de julgamento de itens da banca CEBRASPE."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho de texto oficial (simulado):\n\n'O servidor deverá apresentar os documentos solicitados até o dia 30 do corrente mês. Caso não o faça no prazo estipulado, o processo será arquivado. **Outrossim**, deverá agendar entrevista com a chefia imediata para fins de instrução do expediente.'\n\nSobre o uso do conectivo 'outrossim', assinale a alternativa correta:",
+      "enunciado": "Leia: 'O relatório técnico, embora extenso, é de fácil compreensão, pois utiliza linguagem rebuscada e repleta de termos técnicos desconhecidos do público em geral.' Assinale o problema de coerência presente.",
       "alternativas": {
-        "A": "'Outrossim' indica oposição, portanto seu uso é inadequado, devendo ser substituído por 'contudo'.",
-        "B": "'Outrossim' é um conectivo aditivo de registro formal, equivalente a 'além disso' ou 'também', adequado para acrescentar nova obrigação ao texto oficial.",
-        "C": "'Outrossim' indica conclusão lógica, equivalendo a 'portanto', sendo seu uso adequado para introduzir consequência da não apresentação dos documentos.",
-        "D": "'Outrossim' é um conectivo de uso exclusivo da língua literária e não deve figurar em textos oficiais.",
-        "E": "'Outrossim' indica concessão, equivalendo a 'embora', sendo seu uso inadequado no contexto de listagem de obrigações."
+        "A": "Não há problema, pois linguagem técnica sempre facilita a compreensão.",
+        "B": "Há incoerência lógica: a afirmação de que o texto é 'de fácil compreensão' contradiz a justificativa apresentada em seguida, de que utiliza 'linguagem rebuscada e termos técnicos desconhecidos', fatores que normalmente dificultam, e não facilitam, a compreensão.",
+        "C": "O problema é exclusivamente de concordância nominal.",
+        "D": "O problema é de regência verbal apenas.",
+        "E": "Não há incoerência, pois 'embora' já resolve qualquer contradição possível."
       },
       "gabarito": "B",
-      "explicacao": "'Outrossim' é um conectivo aditivo de registro formal, equivalente a 'além disso', 'ademais', 'também' — acrescenta uma informação ou exigência a uma já apresentada. É amplamente utilizado em textos jurídicos, administrativos e oficiais, como documentos militares. No trecho, 'outrossim' adiciona uma nova obrigação (agendar entrevista) às já mencionadas (apresentar documentos). O Manual da Marinha (2024) admite o uso de conectivos formais como 'outrossim' em comunicações oficiais. Não indica oposição (A), conclusão (C), nem é exclusivo da linguagem literária (D), tampouco indica concessão (E)."
+      "explicacao": "A conclusão de fácil compreensão é logicamente incompatível com a justificativa apresentada (linguagem rebuscada e termos desconhecidos do público geral), que normalmente indicaria dificuldade de compreensão, e não facilidade — configurando incoerência lógica entre afirmação e justificativa."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia o parágrafo e responda:\n\n'A preparação para concursos militares exige método. Não basta estudar muito: é necessário estudar com eficiência. Quem organiza o tempo, seleciona o material adequado e revisita os conteúdos periodicamente tende a superar quem simplesmente acumula horas de estudo sem planejamento. Assim, a qualidade da preparação define o resultado, não apenas a quantidade.'\n\nSobre a estrutura coesiva e coerente do texto, analise:\nI. O conectivo 'assim' na última frase introduz uma conclusão derivada logicamente das informações anteriores.\nII. Há um paralelismo sintático na estrutura 'quem organiza o tempo, seleciona o material... e revisita os conteúdos', que contribui para a coesão.\nIII. O texto apresenta problema de coerência, pois afirmar que 'não basta estudar muito' contradiz a exigência de 'preparação' mencionada no início.\nEstão corretas apenas:",
+      "enunciado": "Assinale a alternativa que melhor caracteriza a relação entre coerência e os fatores de situacionalidade e aceitabilidade em um bilhete deixado por um oficial a um colega: 'Saí. Volto às 14h. Deixei o relatório na mesa.'",
       "alternativas": {
-        "A": "I.",
-        "B": "II.",
-        "C": "I e II.",
-        "D": "II e III.",
-        "E": "I, II e III."
+        "A": "O texto é incoerente, pois não apresenta sujeito explícito em nenhuma das orações.",
+        "B": "O texto é coerente e plenamente aceitável no contexto de um bilhete informal entre colegas, pois a situacionalidade (gênero textual breve e direto) e a aceitabilidade (cooperação interpretativa do leitor) sustentam a compreensão apesar das elipses.",
+        "C": "O texto é incoerente por não utilizar conectivos entre as orações.",
+        "D": "O texto só seria coerente se fosse reescrito em linguagem formal e protocolar.",
+        "E": "Não há possibilidade de um texto tão curto ser considerado coerente."
       },
-      "gabarito": "C",
-      "explicacao": "Afirmação I: correta. 'Assim' é um conectivo conclusivo que introduz a síntese lógica das informações anteriores: método e qualidade superam quantidade — conclusão válida e derivada do argumento apresentado. Afirmação II: correta. 'Quem organiza o tempo, seleciona o material adequado e revisita os conteúdos' apresenta três verbos no mesmo tempo e modo, com estrutura paralela, contribuindo para a coesão sintática e rítmica. Afirmação III: incorreta. Não há contradição: 'preparação exige método' e 'não basta estudar muito (sem eficiência)' são complementares, não contraditórios. O texto argumenta que método e qualidade são superiores à quantidade bruta — posição coerente e progressiva. Portanto, apenas I e II estão corretas."
+      "gabarito": "B",
+      "explicacao": "O bilhete, mesmo com sujeitos elípticos e ausência de conectivos explícitos, é plenamente coerente e aceitável dentro do gênero textual a que pertence (bilhete informal e direto), pois a situacionalidade autoriza essa concisão e a aceitabilidade do leitor permite reconstruir o sentido sem dificuldade."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Leia o texto:\n\n'A comunicação eficaz nas organizações militares depende de clareza, objetividade e precisão. Documentos redigidos sem esses atributos geram ambiguidade, retrabalho e risco de cumprimento inadequado das ordens. **Por essa razão**, o Manual de Redação da Marinha estabelece padrões rigorosos para a produção de toda a documentação oficial. **Tais padrões**, ao serem seguidos, garantem a inteligibilidade das comunicações e a uniformidade dos procedimentos.'\n\nAs expressões destacadas 'por essa razão' e 'tais padrões' exercem, respectivamente, quais funções coesivas?",
+      "enunciado": "Leia o trecho de um relatório de missão: 'A embarcação não apresentou nenhuma falha durante toda a travessia. Diversas falhas técnicas, no entanto, foram registradas e corrigidas ao longo do trajeto.' Assinale a alternativa correta quanto à coerência.",
       "alternativas": {
-        "A": "Coesão sequencial causal e coesão referencial anafórica.",
-        "B": "Coesão referencial anafórica e coesão sequencial conclusiva.",
-        "C": "Coesão sequencial conclusiva e coesão lexical por sinonímia.",
-        "D": "Coesão sequencial consecutiva e coesão referencial catafórica.",
-        "E": "Coesão lexical por hiperonímia e coesão sequencial adversativa."
+        "A": "O trecho é plenamente coerente, pois o conectivo 'no entanto' resolve automaticamente qualquer contradição apresentada.",
+        "B": "Há incoerência lógica não resolvida: a afirmação categórica de que 'não apresentou nenhuma falha' contradiz diretamente a informação seguinte de que 'diversas falhas técnicas foram registradas e corrigidas', sem que o texto explique essa aparente contradição (por exemplo, distinguindo tipos de falha).",
+        "C": "O problema do trecho é exclusivamente de pontuação.",
+        "D": "Não há incoerência, pois falhas corrigidas deixam de ser consideradas falhas.",
+        "E": "O problema é apenas de concordância verbal entre as duas orações."
       },
-      "gabarito": "A",
-      "explicacao": "'Por essa razão' é um conectivo de coesão sequencial causal/conclusiva — retoma as razões expostas (ambiguidade, retrabalho, risco) e as apresenta como causa que justifica o estabelecimento dos padrões. É primariamente um conectivo de relação causal-conclusiva, marcando coesão sequencial. 'Tais padrões' é uma expressão nominal definida que retoma anaforicamente 'padrões rigorosos' estabelecidos pelo Manual — exercendo coesão referencial anafórica. A alternativa A descreve corretamente as duas funções. A alternativa B inverte as funções. A alternativa C erra ao chamar 'tais padrões' de sinonímia. A alternativa D erra ao chamar o primeiro de 'consecutivo' (que indica resultado de intensidade) e o segundo de 'catafórico'. A alternativa E está completamente equivocada."
+      "gabarito": "B",
+      "explicacao": "Apesar do conectivo adversativo 'no entanto', a contradição entre 'nenhuma falha' e 'diversas falhas técnicas registradas' permanece lógica e diretamente incompatível, pois o texto não oferece distinção ou ressalva (como diferenciar 'falha grave' de 'falha menor') que justifique essa aparente inconsistência — caracterizando quebra de coerência."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
       "gram-01",
       "gram-03",
-      "gram-11",
+      "gram-04",
+      "gram-07",
+      "gram-09",
+      "gram-12",
       "gram-13",
-      "gram-14",
+      "comp-01",
       "comp-02",
-      "comp-06",
+      "comp-03",
       "comp-07",
-      "gram-10",
       "comp-11"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + gram-10",
-        "enunciado": "Leia: 'O candidato estudou exaustivamente, **mas** não demonstrou ansiedade excessiva na prova, aprovando com folga.' O conectivo 'mas' e a relação coesiva que ele estabelece estão:",
+        "topico_referencia": "comp-12",
+        "enunciado": "Assinale a alternativa que apresenta uma quebra de coerência lógica não justificada.",
         "alternativas": {
-          "A": "Adequados, pois 'mas' pode introduzir qualquer continuação após uma oração.",
-          "B": "Inadequados: há contradição coerente — estudar muito e não ter ansiedade são opostos esperados, mas a aprovação (consequência) deveria ser introduzida por 'portanto', não por 'mas' que indica oposição antes da aprovação.",
-          "C": "Adequados, pois 'mas' indica que a ausência de ansiedade é surpreendente dado o estudo exaustivo.",
-          "D": "Inadequados apenas estilisticamente, pois 'porém' seria mais formal que 'mas'.",
-          "E": "Adequados, pois a coordenação adversativa com 'mas' pode indicar adição em registro informal."
+          "A": "O oficial trabalhou o dia todo e, por isso, estava exausto à noite.",
+          "B": "O oficial dormiu a noite toda e, por isso, estava exausto pela manhã.",
+          "C": "O oficial estudou bastante e, por isso, foi bem na prova.",
+          "D": "O oficial treinou intensamente e, por isso, melhorou seu desempenho físico.",
+          "E": "O oficial se alimentou bem e, por isso, teve mais disposição."
         },
-        "gabarito": "C",
-        "explicacao": "O 'mas' é adequado porque introduz um fato inesperado: dado que o candidato estudou exaustivamente, seria esperado que apresentasse ansiedade — o 'mas' indica que isso não ocorreu (fato contrário ao esperado). A coesão sequencial adversativa está corretamente empregada. O trecho tem coerência e coesão: estudo exaustivo (contexto) + mas não demonstrou ansiedade (fato adverso ao esperado) + aprovando com folga (gerúndio de resultado). A alternativa B erra ao dizer que a aprovação deveria ser introduzida por 'portanto' — 'aprovando' está na forma de gerúndio consecutivo, integrado à oração adversativa. As demais alternativas erram ao relativizar o uso do conectivo sem analisar a relação lógica correta."
+        "gabarito": "B",
+        "explicacao": "A relação causal estabelecida por 'por isso' entre 'dormiu a noite toda' e 'estava exausto pela manhã' contraria a expectativa lógica convencional (dormir bem normalmente leva a descanso, não a exaustão), configurando incoerência não justificada no texto."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + gram-11",
-        "enunciado": "Leia: 'A coesão e a coerência **é** o que garante a textualidade de um bom texto.' O período apresenta simultaneamente um problema de coesão e de concordância. Identifique-os corretamente:",
+        "topico_referencia": "gram-01",
+        "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas corretamente conforme a norma vigente desde 2016.",
         "alternativas": {
-          "A": "Coesão: 'o que' é catáfora inadequada; concordância: 'é' concorda com 'o que' (singular) — nenhum problema real.",
-          "B": "Coesão: não há problema de coesão; concordância: o verbo 'é' deveria concordar com o sujeito composto 'a coesão e a coerência' — 'são o que garante'.",
-          "C": "Coesão: 'o que' não tem antecedente claro; concordância: 'é' está no singular, mas o sujeito é plural.",
-          "D": "Coesão: a expressão 'a textualidade de um bom texto' é redundante; concordância: o verbo está correto.",
-          "E": "Coesão: 'garante' deveria estar no plural; concordância: o verbo 'é' está correto pois concorda com o predicativo."
+          "A": "Voo, enjoo, ideia",
+          "B": "Vôo, enjôo, idéia",
+          "C": "Voo, enjôo, ideia",
+          "D": "Vôo, enjoo, idéia",
+          "E": "Voo, enjoo, idéia"
         },
-        "gabarito": "B",
-        "explicacao": "O problema de concordância é claro: o sujeito composto 'a coesão e a coerência' é plural — o verbo deveria ser 'são', não 'é'. Quanto à coesão, a construção é gramaticalmente válida (estrutura de clivagem com 'o que'), mas o verbo no singular é o erro principal. A alternativa B identifica corretamente o problema de concordância verbal (sujeito composto + verbo no singular). Não há problema de coesão referencial propriamente dito — 'o que' funciona como pronome relativo que retoma a estrutura predicativa. Este desafio exige integração de comp-10 (coesão/coerência textual) e gram-09 (concordância verbal)."
+        "gabarito": "A",
+        "explicacao": "Pelo Acordo Ortográfico, em vigor desde 2016, o acento diferencial nos hiatos 'oo' e ditongos abertos 'ei'/'oi' em paroxítonas foi eliminado: 'voo', 'enjoo' e 'ideia' não levam mais acento."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + gram-14",
-        "enunciado": "Leia: 'Os resultados apresentaram-se favoráveis. A chefia **se** congratulou com os responsáveis.' Sobre a colocação pronominal e a coesão do trecho, é correto afirmar que:",
+        "topico_referencia": "gram-03",
+        "enunciado": "Assinale a alternativa em que o uso do acento de crase está correto.",
         "alternativas": {
-          "A": "A colocação de 'se' está errada; o correto seria 'congratulou-se', e o trecho perde coesão por elipse inadequada do sujeito.",
-          "B": "A colocação de 'se' é inadequada em início de oração; o pronome 'se' deveria ser posicionado após o verbo: 'congratulou-se'. A coesão do trecho não está comprometida.",
-          "C": "A colocação de 'se' é adequada, pois 'a chefia' é sujeito que não atrai ênclise; e a coesão está garantida pela progressão temática linear entre as frases.",
-          "D": "A colocação de 'se' está correta por ser oração com sujeito expresso, que na norma padrão permite próclise.",
-          "E": "A colocação de 'se' é irrelevante para a coesão, que depende apenas dos conectivos entre as orações."
+          "A": "O relatório foi entregue à Marinha do Brasil.",
+          "B": "O relatório foi entregue à instituições competentes.",
+          "C": "O relatório foi entregue à ela pessoalmente.",
+          "D": "O relatório foi entregue à uma autoridade qualquer.",
+          "E": "O relatório foi entregue à Vossa Excelência o comandante."
         },
-        "gabarito": "B",
-        "explicacao": "Na norma padrão culta, pronomes átonos não devem iniciar período ou oração. 'A chefia se congratulou' coloca o pronome 'se' em posição proclítica em relação ao verbo 'congratulou' — o que é correto quando há sujeito antes do verbo. Porém, a questão está mal formulada propositalmente: 'se' antes do verbo, com sujeito expresso, é próclise — permitida pela norma padrão quando há sujeito antes. O correto é 'A chefia congratulou-se' (ênclise, mais conservadora) ou 'A chefia se congratulou' (próclise, aceita). A coesão entre as frases não está comprometida — há progressão temática adequada. A alternativa B identifica a questão de colocação mais conservadora sem comprometer a análise coesiva."
+        "gabarito": "A",
+        "explicacao": "Há crase em 'à Marinha do Brasil' pela fusão da preposição 'a' (exigida pelo verbo 'entregar') com o artigo feminino 'a' que precede o substantivo 'Marinha'. Nas demais, há erro: antes de substantivo plural sem artigo definido específico, antes de pronome pessoal, antes de artigo indefinido, e antes de pronome de tratamento."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + gram-03",
-        "enunciado": "Leia: 'Referiu-se **à** questão da coesão textual, que é fundamental **à** redação oficial.' O uso da crase e a função coesiva das expressões destacadas estão:",
+        "topico_referencia": "gram-04",
+        "enunciado": "A palavra 'reembarque' é formada por qual processo morfológico?",
         "alternativas": {
-          "A": "Corretos: ambas as crases são obrigatórias (preposição 'a' + artigo feminino 'a') e a expressão 'que' promove coesão por subordinação relativa.",
-          "B": "Correto apenas o primeiro 'à': 'referir-se a' exige preposição antes de artigo feminino, gerando crase; o segundo 'à' está errado pois 'fundamental' não rege preposição.",
-          "C": "Incorretos: 'referir-se' não admite crase, pois é verbo pronominal.",
-          "D": "Corretos, mas apenas por coincidência: os dois 'às' são crases facultativas em contexto formal.",
-          "E": "Incorreto o segundo 'à': 'fundamental à redação' exige crase apenas quando o substantivo é feminino definido, o que não ocorre com 'redação oficial'."
+          "A": "Derivação prefixal e sufixal sobre o radical de 'embarcar'",
+          "B": "Composição por justaposição",
+          "C": "Composição por aglutinação",
+          "D": "Derivação regressiva apenas",
+          "E": "Onomatopeia"
         },
         "gabarito": "A",
-        "explicacao": "Ambos os empregos de crase são corretos. 'Referiu-se à questão': o verbo 'referir-se' é transitivo indireto com preposição 'a', e 'questão' é substantivo feminino com artigo — crase obrigatória. 'Fundamental à redação': o adjetivo 'fundamental' rege a preposição 'a' (fundamental a algo), e 'redação' é substantivo feminino com artigo implícito — crase obrigatória. A integração comp-10 + gram-02 exige que o candidato reconheça o mecanismo coesivo (pronome relativo 'que') e valide simultaneamente as crases. As alternativas B, C, D e E erram ao negar uma ou ambas as crases sem justificativa gramatical válida."
+        "explicacao": "'Reembarque' é formado pelo prefixo 're-' (indicando repetição) e pelo sufixo '-e' (substantivador) aplicados ao radical de 'embarcar', caracterizando derivação prefixal e sufixal."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + comp-07",
-        "enunciado": "Leia: 'O texto era um labirinto sem saída: as ideias se cruzavam, se contradiziam e se perdiam num emaranhado de incoerências.' A metáfora 'labirinto sem saída' e a figura de linguagem presente em 'as ideias se cruzavam, se contradiziam e se perdiam' contribuem para:",
+        "topico_referencia": "gram-07",
+        "enunciado": "Assinale a alternativa em que a forma verbal está corretamente flexionada no futuro do subjuntivo.",
         "alternativas": {
-          "A": "Comprometer a coerência do texto, pois linguagem figurada é incompatível com a análise racional do texto.",
-          "B": "Criar coerência temática e coesão simultâneas: a metáfora introduz o tema (desorientação) e o paralelismo verbal ('se cruzavam, se contradiziam, se perdiam') desenvolve-o coesivamente por gradação e repetição estrutural.",
-          "C": "Gerar problema de coesão referencial, pois 'as ideias' não tem antecedente claro no texto.",
-          "D": "Apenas criar efeito estético, sem relação com as propriedades de coesão ou coerência.",
-          "E": "Comprometer a coesão sequencial, pois o conectivo 'e' final substitui indevidamente um conectivo conclusivo."
+          "A": "Quando o relatório estiver pronto, será entregue ao comando.",
+          "B": "Quando o relatório estar pronto, será entregue ao comando.",
+          "C": "Quando o relatório esteja pronto, será entregue ao comando.",
+          "D": "Quando o relatório estivesse pronto, será entregue ao comando.",
+          "E": "Quando o relatório está pronto, será entregue ao comando."
         },
-        "gabarito": "B",
-        "explicacao": "A metáfora 'labirinto sem saída' estabelece o tema (desorientação e incoerência textual) com coerência: as ideias que 'se cruzam, contradizem e perdem' são exatamente o que se espera num labirinto. O paralelismo verbal ('se cruzavam, se contradiziam, se perdiam') é um mecanismo de coesão por repetição estrutural (três verbos reflexivos em serie), que também configura gradação (intensificação do caos). A integração de comp-10 (coesão e coerência) com comp-07 (figuras de linguagem) exige reconhecer que figuras retóricas podem ser recursos coesivos e contribuir para a coerência temática — não apenas elementos estéticos isolados."
+        "gabarito": "A",
+        "explicacao": "Após 'quando', indicando fato futuro hipotético, exige-se o futuro do subjuntivo. A forma correta do verbo 'estar' nesse tempo é 'estiver'."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + comp-06",
-        "enunciado": "Leia: 'A Marinha recebeu novos meios navais. As corvetas foram as primeiras **unidades** a entrar em operação.' A palavra 'unidades' em relação a 'corvetas' estabelece qual relação lexical e qual mecanismo coesivo?",
+        "topico_referencia": "gram-09",
+        "enunciado": "Na oração 'O comandante nomeou o aspirante responsável pela embarcação', o termo 'responsável pela embarcação' exerce a função de:",
         "alternativas": {
-          "A": "Sinonímia e coesão lexical por substituição: 'unidades' é sinônimo de 'corvetas' no contexto militar.",
-          "B": "Hiperonímia e coesão referencial: 'unidades' é um hiperônimo que engloba 'corvetas', retomando-as anaforicamente.",
-          "C": "Antonímia e coesão por contraste: 'unidades' se opõe a 'corvetas' para criar progressão temática.",
-          "D": "Meronímia e coesão por elipse: 'unidades' é parte de 'corvetas', e o sujeito foi elidido.",
-          "E": "Polissemia e coesão catafórica: 'unidades' antecipa os diferentes tipos de embarcações."
+          "A": "Objeto direto",
+          "B": "Objeto indireto",
+          "C": "Predicativo do objeto",
+          "D": "Complemento nominal",
+          "E": "Adjunto adverbial"
         },
-        "gabarito": "B",
-        "explicacao": "No contexto militar, 'unidades navais' é o hiperônimo técnico de 'corvetas' (hipônimo). A expressão 'as corvetas foram as primeiras unidades a entrar em operação' usa 'unidades' para retomar 'corvetas' anaforicamente — mas tecnicamente 'unidades' é uma categoria mais ampla (inclui fragatas, submarinos etc.), enquanto 'corvetas' é específica. Isso caracteriza hiperonímia com função anafórica (coesão lexical). A integração comp-10 (mecanismos coesivos) com comp-06 (relações lexicais) exige que o candidato distinga sinonímia (sentido equivalente) de hiperonímia (sentido mais amplo) para identificar corretamente o mecanismo coesivo em jogo."
+        "gabarito": "C",
+        "explicacao": "O verbo 'nomear', nesse contexto, é transitivo direto e exige predicativo do objeto, que atribui uma característica ou estado ao objeto direto ('o aspirante'): 'responsável pela embarcação'."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + gram-13",
-        "enunciado": "Leia: 'O comandante **referiu-se** ao relatório, **informou** os presentes sobre as conclusões e **pediu** que todos **refletissem** sobre as medidas propostas.' Sobre a regência dos verbos e a coesão do período, é correto afirmar que:",
+        "topico_referencia": "gram-12",
+        "enunciado": "Assinale a alternativa em que a concordância verbal está correta.",
         "alternativas": {
-          "A": "Há problema de coesão, pois os três verbos no pretérito perfeito não mantêm paralelismo com 'refletissem' no pretérito imperfeito do subjuntivo.",
-          "B": "Todos os verbos estão com regência correta: 'referiu-se a', 'informou sobre' e 'pediu que' são regências padrão; a coesão é garantida pelo paralelismo da série verbal.",
-          "C": "'Pediu que refletissem' apresenta problema de regência, pois o verbo 'pedir' é intransitivo e não admite oração completiva.",
-          "D": "Há problema de coesão referencial, pois 'todos' não tem antecedente explícito no período.",
-          "E": "'Informou sobre as conclusões' apresenta problema de regência, pois o verbo 'informar' no sentido de comunicar é intransitivo direto."
+          "A": "Fazem dez anos que o navio foi reformado pela última vez.",
+          "B": "Faz dez anos que o navio foi reformado pela última vez.",
+          "C": "Fazem dez ano que o navio foi reformado pela última vez.",
+          "D": "Faziam dez anos que o navio foi reformado pela última vez, no presente.",
+          "E": "Fazem, há dez anos, que o navio foi reformado pela última vez."
         },
         "gabarito": "B",
-        "explicacao": "Todas as regências estão corretas: 'referiu-se a' (transitivo indireto com 'a'), 'informou os presentes sobre' (transitivo direto + indireto), 'pediu que' (+ completiva no subjuntivo — regência verbal padrão). A coesão do período é garantida pela série de três verbos coordenados ('referiu-se', 'informou', 'pediu') com estruturas paralelas — coesão sequencial por coordenação e paralelismo sintático. O uso do subjuntivo ('refletissem') em 'pediu que' é exigência de regência verbal, não problema de concordância ou coesão. A integração comp-10 + gram-10 exige validar simultaneamente regência e coesão."
+        "explicacao": "O verbo 'fazer', indicando tempo decorrido, é impessoal e permanece sempre na 3ª pessoa do singular, independentemente do número do termo que o segue: 'faz dez anos'."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + comp-02",
-        "enunciado": "Leia o trecho: 'A pontuação do candidato não atingiu o mínimo exigido. **Por isso**, o processo seletivo prosseguirá sem a sua participação.' A informação implícita contida no uso do conectivo 'por isso' e na expressão 'sem a sua participação' é:",
+        "topico_referencia": "gram-13",
+        "enunciado": "Assinale a alternativa em que a regência verbal está de acordo com a norma culta.",
         "alternativas": {
-          "A": "Que o candidato foi aprovado em outra etapa do processo.",
-          "B": "Que a nota mínima não atingida é condição de eliminação — o candidato está desclassificado.",
-          "C": "Que o processo seletivo será cancelado por falta de candidatos.",
-          "D": "Que o candidato poderá recorrer da decisão em instância superior.",
-          "E": "Que a nota mínima exigida é superior à média dos demais candidatos."
+          "A": "O comandante visou a melhoria das condições da tripulação.",
+          "B": "O comandante visou à melhoria das condições da tripulação.",
+          "C": "O comandante visou na melhoria das condições da tripulação.",
+          "D": "O comandante visou pela melhoria das condições da tripulação.",
+          "E": "O comandante visou sobre a melhoria das condições da tripulação."
         },
         "gabarito": "B",
-        "explicacao": "O conectivo 'por isso' (consecutivo-causal) indica que a não obtenção da nota mínima é a causa da exclusão. 'Sem a sua participação' explicita que o candidato foi eliminado — é a informação implícita decorrente da construção: não atingir o mínimo → desclassificação → processo prossegue sem ele. A integração comp-10 (coesão sequencial com 'por isso') e comp-03 (informações implícitas) exige que o candidato identifique, a partir do mecanismo coesivo causal, qual informação está pressuposta na construção — no caso, a eliminação do candidato como consequência direta da nota insuficiente."
+        "explicacao": "O verbo 'visar', no sentido de 'ter como objetivo, pretender', é transitivo indireto e rege a preposição 'a': 'visou à melhoria' (com crase, pois 'a' + 'a' melhoria)."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + gram-01",
-        "enunciado": "Leia: 'O texto **mal-escrito** prejudica a **coerência**, pois os leitores **veem** incoerências onde o autor **prevê** clareza.' Sobre a ortografia e a coesão do trecho, assinale a alternativa correta:",
+        "topico_referencia": "comp-01",
+        "enunciado": "Sobre a leitura de textos não verbais (como mapas náuticos e gráficos), assinale a alternativa correta.",
         "alternativas": {
-          "A": "'Mal-escrito' está errado; o correto é 'mal escrito' (sem hífen), e o trecho é coeso pois 'pois' indica a relação explicativa corretamente.",
-          "B": "'Coerência' está acentuada incorretamente; deveria ser 'coerencia'; a coesão do trecho está comprometida pelo conectivo 'pois'.",
-          "C": "Todas as grafias estão corretas, e a coesão do trecho está garantida pelo conectivo explicativo-causal 'pois' e pela progressão temática.",
-          "D": "'Veem' e 'prevê' estão com acento indevido; deveriam ser grafados 'vem' e 'preve'.",
-          "E": "'Mal-escrito' deveria ser 'malescrito' (vocábulo aglutinado), e 'pois' deveria ser substituído por 'contudo'."
+          "A": "Textos não verbais não exigem nenhuma estratégia de leitura específica.",
+          "B": "A leitura de textos não verbais exige a mobilização de conhecimentos específicos sobre convenções visuais (símbolos, cores, legendas) para sua plena compreensão.",
+          "C": "Mapas náuticos não podem ser considerados textos.",
+          "D": "Textos não verbais são sempre mais simples de interpretar que textos verbais.",
+          "E": "A leitura de textos não verbais independe de qualquer conhecimento prévio do leitor."
         },
-        "gabarito": "A",
-        "explicacao": "Após o Acordo Ortográfico (assinado em 1990, em vigor desde 2016), 'mal' + adjetivo não usa hífen quando 'mal' é advérbio de modo: 'mal escrito' (sem hífen). O hífen em 'mal-' é usado quando o segundo elemento começa por vogal ('mal-educado') ou por 'h' ('mal-humorado'). Portanto, 'mal-escrito' está errado — o correto é 'mal escrito'. 'Coerência' está correta (acento na proparoxítona). 'Veem' (acento no hiato de 'ver') e 'prevê' (acento no monossílabo tônico) estão corretos. O conectivo 'pois' indica causa/explicação adequadamente. A integração comp-10 (coesão com 'pois') e gram-01 (ortografia com hífen de 'mal') é essencial para resolver a questão."
+        "gabarito": "B",
+        "explicacao": "Textos não verbais, como mapas e gráficos, possuem convenções visuais próprias (símbolos, legendas, escalas) que precisam ser conhecidas pelo leitor para a correta interpretação, assim como ocorre com as convenções linguísticas dos textos verbais."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + gram-10",
-        "enunciado": "Leia: '**Embora** o texto fosse extenso, **e** a linguagem, densa, **mas** o leitor conseguiu extrair as informações principais.' O período apresenta problema de coesão sequencial porque:",
+        "topico_referencia": "comp-02",
+        "enunciado": "No trecho 'O comandante, visivelmente irritado, ordenou silêncio imediato', a informação sobre o estado emocional do comandante é:",
         "alternativas": {
-          "A": "O conectivo 'embora' deveria ser substituído por 'porque'.",
-          "B": "Há uso simultâneo de 'embora' (concessivo subordinativo) e 'mas' (adversativo coordenativo), o que resulta em redundância de conectivos com a mesma função — apenas um deve ser usado.",
-          "C": "O conectivo 'e' está errado; deveria ser substituído por 'porém'.",
-          "D": "O uso de 'mas' é inadequado porque a oração é principal e não pode ter conectivo adversativo.",
-          "E": "Não há problema de coesão: 'embora', 'e' e 'mas' exercem funções distintas e complementares."
+          "A": "Totalmente implícita, sem qualquer marca textual",
+          "B": "Explícita, marcada diretamente pela expressão 'visivelmente irritado'",
+          "C": "Inexistente no texto",
+          "D": "Ambígua e impossível de determinar",
+          "E": "Uma inferência indevida do leitor"
         },
         "gabarito": "B",
-        "explicacao": "O período mistura dois mecanismos de concessão-adversidade: 'embora' (conjunção subordinativa concessiva que já implica ideia de contraste/oposição superada) e 'mas' (conjunção coordenativa adversativa). Usar ambos é redundante — a frase já iniciada com 'embora' não precisa de 'mas' para marcar a adversidade. O correto seria: 'Embora o texto fosse extenso e a linguagem, densa, o leitor conseguiu extrair as informações principais.' (sem 'mas'). Ou alternativamente: 'O texto era extenso e a linguagem, densa, mas o leitor conseguiu extrair as informações principais.' (sem 'embora'). Este é um problema clássico de coesão sequencial por acumulação indevida de conectivos concessivo-adversativos."
+        "explicacao": "A informação sobre o estado emocional do comandante está explicitamente marcada pela expressão 'visivelmente irritado', diretamente presente no texto, sem necessidade de inferência."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + gram-11",
-        "enunciado": "Leia: 'A coesão, a coerência e a progressão temática **constituem** os pilares de um bom texto. Sem **elas**, nenhum texto **alcança** o nível exigido em concursos militares.' O pronome 'elas' e a concordância verbal do período estão:",
+        "topico_referencia": "comp-03",
+        "enunciado": "Na frase 'O comandante é uma rocha em meio à tempestade', o sentido empregado para 'rocha' é:",
         "alternativas": {
-          "A": "Corretos: 'elas' retoma 'a coesão, a coerência e a progressão temática' (três elementos femininos), e os verbos concordam corretamente com os sujeitos respectivos.",
-          "B": "Incorretos: 'elas' deveria ser 'eles' para retomar o conjunto dos elementos, e 'constituem' deveria ser 'constitui'.",
-          "C": "Correto apenas 'elas': a concordância de 'constituem' está errada pois o sujeito composto admite verbo no singular.",
-          "D": "Incorreto apenas 'alcança': o verbo deveria ser 'alcançam' concordando com 'elas' (plural).",
-          "E": "Incorretos: 'elas' deveria ser 'eles' pois o núcleo do sujeito composto é 'pilares' (masculino)."
+          "A": "Denotativo, referindo-se literalmente a uma formação geológica",
+          "B": "Conotativo, sugerindo firmeza e estabilidade do comandante diante das dificuldades",
+          "C": "Técnico, próprio da geologia",
+          "D": "Ambíguo, sem possibilidade de interpretação",
+          "E": "Literal e objetivo"
         },
-        "gabarito": "A",
-        "explicacao": "'Elas' retoma corretamente os três substantivos femininos do sujeito composto da primeira frase ('a coesão, a coerência e a progressão temática'). O pronome anafórico feminino plural é correto. 'Constituem' concorda com o sujeito composto de três elementos (plural) — correto. 'Alcança' concorda com o sujeito da segunda oração: 'nenhum texto' (singular masculino) — correto. Toda a concordância e a coesão referencial estão adequadas. A integração comp-10 (coesão referencial por pronome) e gram-09 (concordância verbal com sujeito composto e com sujeito simples) exige análise simultânea das duas propriedades."
+        "gabarito": "B",
+        "explicacao": "O termo 'rocha' é empregado em sentido conotativo (figurado), associando metaforicamente a firmeza física de uma rocha à estabilidade emocional e à resiliência do comandante diante de situações difíceis."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + comp-06",
-        "enunciado": "Leia: 'O texto apresentava muitos **vícios**: redundâncias, tautologias e pleonasmos. **Esses defeitos** comprometiam a coerência.' A relação lexical entre 'vícios' e 'defeitos', e o mecanismo coesivo presente, são respectivamente:",
+        "topico_referencia": "comp-07",
+        "enunciado": "Na frase 'As ondas dançavam ao redor do navio', a figura de linguagem empregada é:",
         "alternativas": {
-          "A": "Hiponímia e coesão por elipse.",
-          "B": "Antonímia e coesão sequencial adversativa.",
-          "C": "Sinonímia contextual e coesão lexical anafórica (a expressão 'esses defeitos' retoma 'muitos vícios' por equivalência semântica no contexto).",
-          "D": "Hiperonímia e coesão referencial catafórica.",
-          "E": "Polissemia e coesão por reiteração."
+          "A": "Metonímia",
+          "B": "Prosopopeia (personificação)",
+          "C": "Hipérbole",
+          "D": "Eufemismo",
+          "E": "Antítese"
         },
-        "gabarito": "C",
-        "explicacao": "No contexto dado, 'vícios' e 'defeitos' funcionam como sinônimos contextuais: ambos se referem a falhas textuais (redundâncias, tautologias, pleonasmos). A expressão nominal 'esses defeitos' retoma anaforicamente 'muitos vícios' por equivalência semântica — isso é coesão lexical anafórica por sinonímia contextual. Não é hiperonímia (A/D) porque 'defeitos' não engloba 'vícios' como categoria mais ampla — são equivalentes no contexto. Não é antonímia (B). Não é polissemia (E), que seria a mesma palavra com sentidos diferentes. A integração comp-10 (mecanismo coesivo) e comp-06 (relação lexical) é essencial."
+        "gabarito": "B",
+        "explicacao": "Atribuir à 'onda', elemento inanimado, a ação humana de 'dançar' caracteriza a prosopopeia (ou personificação), figura de linguagem que confere características humanas a seres inanimados ou abstratos."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + gram-03",
-        "enunciado": "Leia: 'O avaliador referiu-se **a** essa questão de coesão textual e concluiu que **a** análise deveria ser aprofundada **a** fim de garantir **a** adequação do texto **à** norma.' Sobre as ocorrências de 'a' no período, assinale a alternativa correta:",
+        "topico_referencia": "comp-11",
+        "enunciado": "No trecho 'O comandante revisou o plano de rota. Ele encontrou falhas significativas', o pronome 'ele' exerce a função de:",
         "alternativas": {
-          "A": "Todas as ocorrências de 'a' são crases.",
-          "B": "Apenas a última ocorrência ('à norma') é crase; as demais são preposição simples ou artigo.",
-          "C": "A segunda ocorrência ('a análise') é crase, pois há preposição de 'referiu-se' mais artigo feminino.",
-          "D": "A expressão 'a fim de' deveria ser grafada com crase: 'à fim de'.",
-          "E": "Há crase em 'a essa questão', pois 'referir-se' é transitivo indireto com preposição 'a'."
+          "A": "Coesão lexical por sinonímia",
+          "B": "Coesão referencial por anáfora pronominal, retomando 'o comandante'",
+          "C": "Coesão por elipse",
+          "D": "Coesão por conjunção",
+          "E": "Coesão por catáfora"
         },
         "gabarito": "B",
-        "explicacao": "Análise de cada ocorrência: 1) 'a essa questão' — não há crase; pronomes demonstrativos ('essa') não admitem crase antes de si. 2) 'a análise' — artigo feminino, sem crase (não há preposição exigida pelo verbo 'concluiu' antes de 'a análise' — 'a análise' é sujeito da oração subordinada). 3) 'a fim de' — locução prepositiva, nunca leva crase. 4) 'a adequação' — artigo, sem preposição anterior que geraria crase no contexto. 5) 'à norma' — 'adequação' rege a preposição 'a' (adequação a algo) + artigo feminino 'a' → crase obrigatória. Apenas a última ocorrência é crase. A integração comp-10 + gram-02 exige identificar, dentro de um texto coeso, os casos de crase correta e incorreta."
+        "explicacao": "O pronome 'ele' retoma anaforicamente o termo 'o comandante', mencionado anteriormente no texto, caracterizando coesão referencial por anáfora pronominal, recurso fundamental para evitar repetições desnecessárias."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + comp-07",
-        "enunciado": "Leia: 'As palavras eram pontes entre o escritor e o leitor. Quando a coesão falhava, essas pontes ruíam, e os dois lados ficavam à margem de um rio de incompreensão.' A metáfora 'pontes entre o escritor e o leitor' e sua continuação coesiva contribuem para o texto de qual forma?",
+        "topico_referencia": "comp-12",
+        "enunciado": "Assinale a alternativa que apresenta um texto plenamente coerente, sem contradições lógicas.",
         "alternativas": {
-          "A": "Apenas como ornamento estilístico, sem relação com a coerência ou coesão do texto.",
-          "B": "Comprometem a coerência, pois a metáfora mistura campos semânticos (construção civil e literatura).",
-          "C": "Criam coerência metafórica: a metáfora inicial ('pontes') é desenvolvida coesivamente por extensão ('essas pontes ruíam', 'à margem', 'rio'), mantendo o campo semântico e sustentando o tema ao longo do trecho.",
-          "D": "Criam problema de coesão referencial, pois 'essas pontes' não tem antecedente claro.",
-          "E": "Geram tautologia, pois 'pontes ruíam' repete o mesmo conteúdo de 'coesão falhava'."
+          "A": "O navio chegou ao porto às 10h e, simultaneamente, ainda estava em alto-mar às 10h.",
+          "B": "O navio chegou ao porto às 10h, conforme previsto no planejamento de viagem.",
+          "C": "O navio chegará ontem ao porto, segundo as últimas informações.",
+          "D": "Todos os tripulantes desembarcaram, mas a embarcação permaneceu lotada.",
+          "E": "O navio nunca chegou ao porto, mas atracou perfeitamente às 10h."
         },
-        "gabarito": "C",
-        "explicacao": "A metáfora inicial ('palavras eram pontes') é sustentada e desenvolvida ao longo do trecho: 'essas pontes ruíam' (anáfora nominal da metáfora), 'à margem' e 'rio de incompreensão' pertencem ao mesmo campo semântico hidráulico-arquitetônico da metáfora. Isso é coerência metafórica sustentada, em que a figura de linguagem se expande coesivamente sem quebrar o campo semântico. A integração comp-10 (coesão referencial anafórica com 'essas pontes') e comp-07 (metáfora e sua extensão) é fundamental: 'essas pontes' é um mecanismo de coesão referencial que retoma a metáfora, demonstrando que figura de linguagem e coesão textual são fenômenos que interagem."
+        "gabarito": "B",
+        "explicacao": "A alternativa B apresenta informação lógica e temporalmente consistente, sem contradições internas, diferentemente das demais, que trazem incompatibilidades lógicas (estar em dois lugares ao mesmo tempo, futuro associado a marcador de passado, embarcação lotada sem tripulantes, chegar e nunca chegar simultaneamente)."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "comp-11 + gram-14",
-        "enunciado": "Leia: '**Lhe** apresento os mecanismos de coesão. Espero que **lhe** sejam úteis e que você **os** aplique nos textos que produzir.' Sobre a colocação e o emprego dos pronomes e a coesão do período, assinale a alternativa correta:",
+        "topico_referencia": "comp-12",
+        "enunciado": "Assinale a alternativa que melhor explica a função da coerência na avaliação de textos técnicos e oficiais, segundo o Manual de Redação e Estilo da Marinha.",
         "alternativas": {
-          "A": "O primeiro 'lhe' está incorreto; deveria ser 'o' pois o verbo 'apresentar' é transitivo direto.",
-          "B": "O segundo 'lhe' está correto (objeto indireto de 'sejam úteis') e 'os' está correto (objeto direto de 'aplicar', retomando 'os mecanismos de coesão' — coesão referencial anafórica).",
-          "C": "O pronome 'os' é redundante, pois o objeto de 'aplicar' já foi mencionado implicitamente.",
-          "D": "Há problema de colocação: 'lhe apresento' deveria ser 'apresento-lhe' pois em início de frase o pronome não pode ser proclítico.",
-          "E": "O pronome 'os' deveria ser 'lhes', pois retoma 'mecanismos' (masculino plural) na função de objeto indireto de 'aplicar'."
+          "A": "A coerência garante que o texto técnico transmita informações de forma logicamente consistente, evitando ambiguidades e contradições que possam comprometer decisões baseadas no documento.",
+          "B": "A coerência é irrelevante em textos técnicos, que se baseiam exclusivamente na correção gramatical.",
+          "C": "A coerência só é exigida em textos literários, nunca em documentos oficiais.",
+          "D": "A coerência depende exclusivamente da extensão do documento técnico.",
+          "E": "A coerência é garantida automaticamente pelo uso de vocabulário técnico especializado."
         },
-        "gabarito": "B",
-        "explicacao": "Análise dos pronomes: (1) 'Lhe apresento' — em início de período, a norma clássica prefere ênclise ('Apresento-lhe'), mas na língua contemporânea a próclise é aceita em contexto coloquial. O ponto principal é a regência: 'apresentar algo a alguém' — 'lhe' é o objeto indireto ('a você') e os mecanismos são o objeto direto. (2) 'lhe sejam úteis' — 'lhe' é objeto indireto de 'sejam úteis a você' — correto. (3) 'os aplique' — 'os' retoma anaforicamente 'os mecanismos de coesão' como objeto direto de 'aplicar' — correto e essencial como mecanismo de coesão referencial. A alternativa B descreve corretamente as funções pronominais e o papel de 'os' na coesão. A alternativa D exagera a restrição à próclise em início de frase. A alternativa E erra a função de 'os': objeto direto, não indireto."
+        "gabarito": "A",
+        "explicacao": "Em textos técnicos e oficiais, como os regidos pelo Manual de Redação e Estilo da Marinha, a coerência é essencial para garantir que as informações sejam transmitidas de forma lógica e consistente, evitando ambiguidades ou contradições que possam comprometer a tomada de decisões baseadas nesses documentos — função que vai muito além da simples correção gramatical."
       }
     ]
   }
