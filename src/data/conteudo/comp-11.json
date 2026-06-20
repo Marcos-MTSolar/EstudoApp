@@ -78,45 +78,53 @@
       "titulo": "Pegadinha 1: 'Porém' no lugar de 'portanto' — inversão de relação lógica",
       "errado": "'O candidato estudou muito, porém foi aprovado com louvor.'",
       "correto": "'O candidato estudou muito, portanto foi aprovado com louvor.'",
-      "explicacao": "'Porém' é adversativo e indica oposição ou contraste. Usar 'porém' entre 'estudou muito' e 'foi aprovado' sugere que a aprovação é surpreendente ou contrária ao esperado, o que é ilógico nesse contexto. 'Portanto' indica consequência, que é a relação correta: estudou muito → consequência lógica → foi aprovado. As provas militares frequentemente substituem um conectivo por outro de relação diversa para testar se o candidato percebe a incoerência semântica gerada."
+      "explicacao": "'Porém' é adversativo e indica oposição ou contraste. Usar 'porém' entre 'estudou muito' e 'foi aprovado' sugere que a aprovação é surpreendente ou contrária ao esperado, o que é ilógico nesse contexto. 'Portanto' indica consequência, que é a relação correta: estudou muito → consequência lógica → foi aprovado. As provas militares frequentemente substituem um conectivo por outro de relação diversa para testar se o candidato percebe a incoerência semântica gerada.",
+      "nivel": "basico"
     },
     {
       "titulo": "Pegadinha 2: Pronome ambíguo que compromete a coesão referencial",
       "errado": "'O comandante chamou o imediato ao seu gabinete. Ele estava nervoso.'",
       "correto": "Reescrever para eliminar a ambiguidade: 'O comandante, que estava nervoso, chamou o imediato ao seu gabinete.' ou 'O comandante chamou o imediato ao gabinete; o imediato estava nervoso.'",
-      "explicacao": "O pronome 'ele' pode retomar tanto 'o comandante' quanto 'o imediato', gerando ambiguidade que compromete a coesão referencial. Em provas, questões perguntam 'a qual termo o pronome se refere?' e as alternativas exploram exatamente essa ambiguidade. A solução é ou reposicionar o pronome, ou substituí-lo pelo nome do referente, ou reestruturar o período."
+      "explicacao": "O pronome 'ele' pode retomar tanto 'o comandante' quanto 'o imediato', gerando ambiguidade que compromete a coesão referencial. Em provas, questões perguntam 'a qual termo o pronome se refere?' e as alternativas exploram exatamente essa ambiguidade. A solução é ou reposicionar o pronome, ou substituí-lo pelo nome do referente, ou reestruturar o período.",
+      "nivel": "basico"
     },
     {
       "titulo": "Pegadinha 3: Confundir 'embora' (concessão) com 'porque' (causa)",
       "errado": "'Embora o prazo tivesse encerrado, o documento foi rejeitado.'",
       "correto": "'Porque o prazo havia encerrado, o documento foi rejeitado.' ou 'O documento foi rejeitado porque o prazo havia encerrado.'",
-      "explicacao": "'Embora' introduz uma oração concessiva, indicando que a consequência da oração principal ocorre apesar do fato subordinado — há uma expectativa frustrada. Em 'embora o prazo tivesse encerrado, o documento foi rejeitado', o sentido correto seria 'apesar de o prazo ter encerrado' (o que tornaria a rejeição inesperada). Se a lógica é que o documento foi rejeitado exatamente por causa do prazo encerrado, o conectivo deve ser causal ('porque', 'pois', 'uma vez que'). Trocar concessão por causa é um dos erros mais frequentes em questões de coesão sequencial."
+      "explicacao": "'Embora' introduz uma oração concessiva, indicando que a consequência da oração principal ocorre apesar do fato subordinado — há uma expectativa frustrada. Em 'embora o prazo tivesse encerrado, o documento foi rejeitado', o sentido correto seria 'apesar de o prazo ter encerrado' (o que tornaria a rejeição inesperada). Se a lógica é que o documento foi rejeitado exatamente por causa do prazo encerrado, o conectivo deve ser causal ('porque', 'pois', 'uma vez que'). Trocar concessão por causa é um dos erros mais frequentes em questões de coesão sequencial.",
+      "nivel": "intermediario"
     },
     {
       "titulo": "Pegadinha 4: Elipse ambígua que cria sujeito indeterminado indesejado",
       "errado": "'O diretor apresentou o projeto à equipe. Ficaram satisfeitos com os resultados.' (sujeito de 'ficaram' indeterminado)",
       "correto": "'O diretor apresentou o projeto à equipe. A equipe ficou satisfeita com os resultados.'",
-      "explicacao": "Na segunda frase, a elipse do sujeito deveria retomar o sujeito anterior ('o diretor'), mas 'ficaram' está no plural — o que impossibilita a retomada de 'o diretor' (singular). Isso cria um sujeito indeterminado ou obriga o leitor a buscar 'a equipe' como antecedente, o que é tecnicamente possível, mas exige inferência forçada. Em provas militares, questões apontam esse tipo de inconsistência número-pessoa como problema de coesão referencial por elipse mal resolvida."
+      "explicacao": "Na segunda frase, a elipse do sujeito deveria retomar o sujeito anterior ('o diretor'), mas 'ficaram' está no plural — o que impossibilita a retomada de 'o diretor' (singular). Isso cria um sujeito indeterminado ou obriga o leitor a buscar 'a equipe' como antecedente, o que é tecnicamente possível, mas exige inferência forçada. Em provas militares, questões apontam esse tipo de inconsistência número-pessoa como problema de coesão referencial por elipse mal resolvida.",
+      "nivel": "avancado"
     },
     {
       "titulo": "Pegadinha 5: Hiperônimo impreciso que distorce a referência",
       "errado": "'A Marinha recebeu fragatas, submarinos e helicópteros. Esses veículos serão incorporados à frota.' ('veículos' como hiperônimo de fragatas + submarinos + helicópteros, mas helicóptero não integra 'frota' naval no mesmo sentido)",
       "correto": "'A Marinha recebeu fragatas, submarinos e helicópteros. Esses equipamentos serão incorporados ao arsenal da força.' ou separar a referência: 'As embarcações serão incorporadas à frota; os helicópteros, à aviação naval.'",
-      "explicacao": "O hiperônimo escolhido para a coesão lexical deve ser semanticamente compatível com todos os itens da série que substitui. 'Veículos' e 'frota' são parcialmente imprecisos quando a série inclui aeronaves. Questões de coesão lexical frequentemente apresentam um hiperônimo que cobre quase todos os itens, mas deixa um de fora ou distorce o campo semântico — e o candidato deve identificar a imprecisão."
+      "explicacao": "O hiperônimo escolhido para a coesão lexical deve ser semanticamente compatível com todos os itens da série que substitui. 'Veículos' e 'frota' são parcialmente imprecisos quando a série inclui aeronaves. Questões de coesão lexical frequentemente apresentam um hiperônimo que cobre quase todos os itens, mas deixa um de fora ou distorce o campo semântico — e o candidato deve identificar a imprecisão.",
+      "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
       "situacao": "O candidato confunde 'coesão' com 'coerência' ao responder qual propriedade está comprometida no texto. Uma questão mostra um trecho com pronome sem antecedente claro e pergunta qual propriedade textual foi violada. O candidato, por associar o problema ao 'sentido', marca coerência.",
-      "dica": "Pronome sem antecedente, conectivo trocado, elipse ambígua → sempre COESÃO (problema de superfície linguística). Contradição lógica, irrelevância temática, repetição sem acréscimo → sempre COERÊNCIA (problema de sentido). Memorize: coesão é forma, coerência é sentido."
+      "dica": "Pronome sem antecedente, conectivo trocado, elipse ambígua → sempre COESÃO (problema de superfície linguística). Contradição lógica, irrelevância temática, repetição sem acréscimo → sempre COERÊNCIA (problema de sentido). Memorize: coesão é forma, coerência é sentido.",
+      "nivel": "basico"
     },
     {
       "situacao": "O candidato, ao responder qual expressão retoma determinado termo no texto, escolhe a alternativa que é semanticamente compatível com o referente, mas que, no texto, na verdade retoma outro elemento. Exemplo: o texto fala de 'oficiais e praças' e a expressão 'esses militares' pode parecer que retoma ambos, mas no contexto imediato retoma apenas 'os praças'.",
-      "dica": "Sempre volte ao texto e identifique o referente imediato (o elemento mais próximo compatível com a expressão). Compatibilidade semântica não é suficiente — o contexto sintático e a posição no texto determinam o antecedente correto. Leia as duas frases que cercam a expressão anafórica antes de responder."
+      "dica": "Sempre volte ao texto e identifique o referente imediato (o elemento mais próximo compatível com a expressão). Compatibilidade semântica não é suficiente — o contexto sintático e a posição no texto determinam o antecedente correto. Leia as duas frases que cercam a expressão anafórica antes de responder.",
+      "nivel": "intermediario"
     },
     {
       "situacao": "O candidato avalia uma questão de reescritura e aceita a troca de 'contudo' por 'portanto' porque ambos aparecem no início de oração e parecem intercambiáveis sintaticamente. Não percebe que a relação semântica mudou de oposição para consequência, tornando o texto incoerente.",
-      "dica": "Em questões de reescritura com troca de conectivos, nunca avalie apenas a posição sintática do conectivo — avalie a relação semântica que ele estabelece. Pergunte: a ideia que vem depois é oposta, consequente, concessiva, causal ou aditiva em relação à que vem antes? Só aceite a troca se a relação semântica for idêntica."
+      "dica": "Em questões de reescritura com troca de conectivos, nunca avalie apenas a posição sintática do conectivo — avalie a relação semântica que ele estabelece. Pergunte: a ideia que vem depois é oposta, consequente, concessiva, causal ou aditiva em relação à que vem antes? Só aceite a troca se a relação semântica for idêntica.",
+      "nivel": "avancado"
     }
   ],
   "questoes": [

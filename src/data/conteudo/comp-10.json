@@ -135,45 +135,53 @@
       "titulo": "Passiva sem agente ≠ passiva com agente omitido",
       "errado": "'Venderam os equipamentos.' reescrito como 'Os equipamentos foram vendidos por alguém.'",
       "correto": "'Venderam os equipamentos.' → 'Os equipamentos foram vendidos.' (sem agente da passiva, pois o sujeito indeterminado da ativa não se converte em agente expresso)",
-      "explicacao": "Quando a oração ativa tem sujeito indeterminado (terceira pessoa do plural sem referente), a passiva correspondente omite o agente. Inserir 'por alguém' altera o sentido ao especificar a indefinição de uma forma não presente no original."
+      "explicacao": "Quando a oração ativa tem sujeito indeterminado (terceira pessoa do plural sem referente), a passiva correspondente omite o agente. Inserir 'por alguém' altera o sentido ao especificar a indefinição de uma forma não presente no original.",
+      "nivel": "basico"
     },
     {
       "titulo": "Concordância do particípio na voz passiva",
       "errado": "'A Marinha construiu os navios.' → 'Os navios foram construído pela Marinha.'",
       "correto": "'Os navios foram construídos pela Marinha.' (particípio concorda com o sujeito 'os navios': masculino plural)",
-      "explicacao": "Na voz passiva analítica, o particípio funciona como predicativo e concorda em gênero e número com o sujeito da passiva (que era o objeto direto da ativa). 'Construído' deve ir para 'construídos' porque o sujeito 'os navios' é masculino plural."
+      "explicacao": "Na voz passiva analítica, o particípio funciona como predicativo e concorda em gênero e número com o sujeito da passiva (que era o objeto direto da ativa). 'Construído' deve ir para 'construídos' porque o sujeito 'os navios' é masculino plural.",
+      "nivel": "basico"
     },
     {
       "titulo": "Nominalização que altera a polaridade",
       "errado": "'Ele não respondeu às perguntas.' reescrito como 'Houve resposta às perguntas por ele.'",
       "correto": "'Não houve resposta de sua parte às perguntas.' ou 'Houve omissão de respostas às perguntas.'",
-      "explicacao": "A nominalização deve preservar a negação presente no original. Converter 'não respondeu' em 'houve resposta' inverte completamente o sentido, pois a negação desaparece. A reescritura é inválida por alterar a polaridade do enunciado."
+      "explicacao": "A nominalização deve preservar a negação presente no original. Converter 'não respondeu' em 'houve resposta' inverte completamente o sentido, pois a negação desaparece. A reescritura é inválida por alterar a polaridade do enunciado.",
+      "nivel": "intermediario"
     },
     {
       "titulo": "Substituição de 'embora' por 'apesar de' sem ajustar o verbo",
       "errado": "'Embora estudasse muito, não passou.' reescrito como 'Apesar de estudasse muito, não passou.'",
       "correto": "'Apesar de estudar muito, não passou.' (a locução prepositiva 'apesar de' exige infinitivo ou substantivo, não forma conjugada)",
-      "explicacao": "Locução prepositiva 'apesar de' rege infinitivo ou substantivo. A conjunção 'embora' rege subjuntivo. Ao trocar 'embora' por 'apesar de', o verbo conjugado ('estudasse') deve converter-se em infinitivo ('estudar'). Manter a forma conjugada é erro grave de regência."
+      "explicacao": "Locução prepositiva 'apesar de' rege infinitivo ou substantivo. A conjunção 'embora' rege subjuntivo. Ao trocar 'embora' por 'apesar de', o verbo conjugado ('estudasse') deve converter-se em infinitivo ('estudar'). Manter a forma conjugada é erro grave de regência.",
+      "nivel": "avancado"
     },
     {
       "titulo": "Troca de 'cujo' por 'que' sem ajuste estrutural",
       "errado": "'O oficial cujo relatório foi aprovado recebeu elogios.' reescrito como 'O oficial que o relatório foi aprovado recebeu elogios.'",
       "correto": "'O oficial cujo relatório foi aprovado recebeu elogios.' → 'O oficial que teve o relatório aprovado recebeu elogios.' ou 'O oficial, o relatório do qual foi aprovado, recebeu elogios.'",
-      "explicacao": "'Cujo' é pronome relativo com função de adjunto adnominal que relaciona dois substantivos (antecedente e o substantivo seguinte). Substituí-lo por 'que' sem reestruturar a oração gera ambiguidade ou erro sintático. A substituição exige reorganização da oração relativa."
+      "explicacao": "'Cujo' é pronome relativo com função de adjunto adnominal que relaciona dois substantivos (antecedente e o substantivo seguinte). Substituí-lo por 'que' sem reestruturar a oração gera ambiguidade ou erro sintático. A substituição exige reorganização da oração relativa.",
+      "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
       "situacao": "Ao transformar voz ativa em passiva, o candidato esquece de ajustar o tempo verbal do auxiliar 'ser' ao tempo do verbo ativo, escrevendo 'será construído' quando o original está no pretérito ('construiu').",
-      "dica": "Antes de montar a passiva, identifique o tempo e o modo do verbo ativo. O auxiliar 'ser' (ou 'estar', 'ficar') deve receber exatamente esse tempo. 'Construiu' (pretérito perfeito do indicativo) → 'foi construído'. 'Construirá' → 'será construído'. Faça essa verificação antes de escrever o particípio."
+      "dica": "Antes de montar a passiva, identifique o tempo e o modo do verbo ativo. O auxiliar 'ser' (ou 'estar', 'ficar') deve receber exatamente esse tempo. 'Construiu' (pretérito perfeito do indicativo) → 'foi construído'. 'Construirá' → 'será construído'. Faça essa verificação antes de escrever o particípio.",
+      "nivel": "basico"
     },
     {
       "situacao": "O candidato substitui uma oração causal ('porque') por uma locução causal ('devido a') mas não nominaliza o verbo, produzindo 'devido a chegou tarde' em vez de 'devido ao atraso' ou 'devido a ter chegado tarde'.",
-      "dica": "Locuções prepositivas (devido a, em virtude de, por causa de, apesar de, a fim de) exigem após si um substantivo, um pronome ou um infinitivo — nunca uma forma verbal conjugada. Ao usar essas locuções, sempre converta o verbo da oração em substantivo derivado ou em infinitivo."
+      "dica": "Locuções prepositivas (devido a, em virtude de, por causa de, apesar de, a fim de) exigem após si um substantivo, um pronome ou um infinitivo — nunca uma forma verbal conjugada. Ao usar essas locuções, sempre converta o verbo da oração em substantivo derivado ou em infinitivo.",
+      "nivel": "intermediario"
     },
     {
       "situacao": "Ao deslocar um adjunto adverbial para o início da frase durante a reescritura, o candidato omite a vírgula obrigatória, o que pode ser considerado erro gramatical ou alterar o sentido em questões de pontuação.",
-      "dica": "Todo adjunto adverbial deslocado para antes do sujeito deve ser seguido de vírgula. Regra prática: se o elemento não é o sujeito da oração e está antes do verbo principal, separe-o com vírgula. Exemplos: 'Ontem[,] o oficial partiu.' / 'Por isso[,] a missão foi cancelada.'"
+      "dica": "Todo adjunto adverbial deslocado para antes do sujeito deve ser seguido de vírgula. Regra prática: se o elemento não é o sujeito da oração e está antes do verbo principal, separe-o com vírgula. Exemplos: 'Ontem[,] o oficial partiu.' / 'Por isso[,] a missão foi cancelada.'",
+      "nivel": "avancado"
     }
   ],
   "questoes": [

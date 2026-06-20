@@ -311,10 +311,12 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
                       <div style={{ padding: '0 12px 12px' }}>
                         {(() => {
                           const todas = teoriaData.pegadinhas ?? [];
-                          const quantidade = nivel === 'basico' ? 2
-                            : nivel === 'intermediario' ? 3
-                            : todas.length;
-                          return todas.slice(0, quantidade).map((peg: any, index: number) => (
+                          const filtradas = todas.filter((peg: any) => {
+                            if (nivel === 'basico') return peg.nivel === 'basico';
+                            if (nivel === 'intermediario') return peg.nivel === 'basico' || peg.nivel === 'intermediario';
+                            return true;
+                          });
+                          return filtradas.map((peg: any, index: number) => (
                             <div
                               key={index}
                               style={{
@@ -371,10 +373,12 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
                   <h3 className="text-xs uppercase font-black tracking-wider text-amber-400">⚠️ Cascas de Banana</h3>
                   {(() => {
                     const todas = teoriaData.cascas_de_banana ?? [];
-                    const quantidade = nivel === 'basico' ? 1
-                      : nivel === 'intermediario' ? 2
-                      : todas.length;
-                    return todas.slice(0, quantidade).map((casca: any, index: number) => (
+                    const filtradas = todas.filter((casca: any) => {
+                      if (nivel === 'basico') return casca.nivel === 'basico';
+                      if (nivel === 'intermediario') return casca.nivel === 'basico' || casca.nivel === 'intermediario';
+                      return true;
+                    });
+                    return filtradas.map((casca: any, index: number) => (
                       <div
                         key={index}
                         style={{

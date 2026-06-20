@@ -22,7 +22,7 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
   const { salvarResultadoQuestoes } = useRM2Data(user?.uid || 'offline_user');
 
   // Configuração inicial
-  const [nivel, setNivel] = useState<'basico' | 'intermediario' | 'avancado' | 'desafio'>('intermediario');
+  const [nivel, setNivel] = useState<'basico' | 'intermediario' | 'avancado' | 'desafio'>('basico');
   const [quantidade, setQuantidade] = useState<number>(5);
 
   // Status de controle

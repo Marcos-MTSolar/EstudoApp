@@ -10,6 +10,14 @@ export const RM2_CONTEUDO = {
       id: "gramatica",
       nome: "Gramática",
       assuntos: [
+        // 0 — Fonética e Fonologia: base para ortografia
+        {
+          id: "gram-00",
+          nome: "Fonética e Fonologia",
+          descricao: "Sons da língua portuguesa: fonemas (vogais, semivogais e consoantes), sílaba, encontros vocálicos (ditongos, tritongos, hiatos) e consonantais (dígrafos e encontros consonantais); tonicidade e divisão silábica como base para ortografia e acentuação",
+          niveis: ["basico", "intermediario", "avancado"],
+          concluido: false
+        },
         // 1 — Base morfológica: estrutura e formação das palavras
         {
           id: "gram-04",

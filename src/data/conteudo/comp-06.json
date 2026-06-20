@@ -67,45 +67,53 @@
       "titulo": "Sinônimo que muda a nuance",
       "errado": "Aceitar qualquer sinônimo listado no dicionário como substituto válido em qualquer contexto.",
       "correto": "O sinônimo deve ser testado no contexto específico da frase. 'Ordenou' e 'sugeriu' podem parecer sinônimos em sentido amplo de 'comunicou uma ação', mas têm cargas semânticas completamente distintas — 'ordenou' implica hierarquia e obrigatoriedade, 'sugeriu' implica possibilidade e escolha.",
-      "explicacao": "Bancas usam pares como 'afirmou/garantiu', 'pediu/exigiu', 'disse/revelou' para testar se o candidato percebe a nuance. Em contexto militar, 'ordenou' jamais pode ser substituído por 'sugeriu'. Teste sempre o sinônimo no contexto antes de marcar."
+      "explicacao": "Bancas usam pares como 'afirmou/garantiu', 'pediu/exigiu', 'disse/revelou' para testar se o candidato percebe a nuance. Em contexto militar, 'ordenou' jamais pode ser substituído por 'sugeriu'. Teste sempre o sinônimo no contexto antes de marcar.",
+      "nivel": "basico"
     },
     {
       "titulo": "Parônimo confundido com sinônimo",
       "errado": "Tratar 'emigrar' e 'imigrar', ou 'descriminar' e 'discriminar' como sinônimos por terem forma parecida.",
       "correto": "'Emigrar' = sair do país de origem; 'imigrar' = entrar em outro país. 'Descriminar' = retirar do rol de crimes; 'discriminar' = diferenciar ou tratar de forma preconceituosa. São parônimos — forma parecida, sentido oposto ou muito distinto.",
-      "explicacao": "Parônimos são um dos tópicos mais explorados em provas militares. A banca apresenta um deles no texto e oferece o outro como alternativa de substituição. A diferença de uma ou duas letras muda completamente o significado. Memorize os pares clássicos: infligir/infringir, flagrante/fragrante, eminente/iminente, ratificar/retificar."
+      "explicacao": "Parônimos são um dos tópicos mais explorados em provas militares. A banca apresenta um deles no texto e oferece o outro como alternativa de substituição. A diferença de uma ou duas letras muda completamente o significado. Memorize os pares clássicos: infligir/infringir, flagrante/fragrante, eminente/iminente, ratificar/retificar.",
+      "nivel": "basico"
     },
     {
       "titulo": "Polissemia tratada como homonímia",
       "errado": "Afirmar que duas palavras idênticas com sentidos diferentes são sempre homônimas, ignorando se existe relação semântica entre os sentidos.",
       "correto": "Se os sentidos guardam relação histórica ou metafórica (ex.: 'cabo' de faca e 'cabo' como extremidade/promontório), trata-se de polissemia. Se os sentidos são completamente independentes e de origens distintas (ex.: 'são' = saudável e 'são' = verbo ser), trata-se de homonímia.",
-      "explicacao": "A distinção entre polissemia e homonímia é técnica e nem sempre consensual entre os gramáticos. Em prova, se a questão pede a identificação do fenômeno, analise se há relação de sentido entre os usos: relação = polissemia; sem relação = homonímia."
+      "explicacao": "A distinção entre polissemia e homonímia é técnica e nem sempre consensual entre os gramáticos. Em prova, se a questão pede a identificação do fenômeno, analise se há relação de sentido entre os usos: relação = polissemia; sem relação = homonímia.",
+      "nivel": "intermediario"
     },
     {
       "titulo": "Antônimo que não é realmente oposto no contexto",
       "errado": "Aceitar como antônimo qualquer palavra que pareça semanticamente oposta, sem verificar o contexto.",
       "correto": "O antônimo deve ser verificado no contexto. 'Fraco' pode ser antônimo de 'forte' em sentido físico, mas não é o melhor antônimo de 'forte' no contexto 'argumento forte' — o antônimo aqui seria 'frágil' ou 'inconsistente'.",
-      "explicacao": "Palavras polissêmicas têm antônimos diferentes para cada sentido. A banca explora isso: apresenta um termo em contexto específico e oferece antônimos de outro sentido da mesma palavra. Sempre identifique o sentido ativado no contexto antes de buscar o antônimo."
+      "explicacao": "Palavras polissêmicas têm antônimos diferentes para cada sentido. A banca explora isso: apresenta um termo em contexto específico e oferece antônimos de outro sentido da mesma palavra. Sempre identifique o sentido ativado no contexto antes de buscar o antônimo.",
+      "nivel": "avancado"
     },
     {
       "titulo": "Hiperônimo confundido com sinônimo",
       "errado": "Tratar o hiperônimo como sinônimo do hipônimo: afirmar que 'veículo' é sinônimo de 'navio'.",
       "correto": "'Veículo' é hiperônimo de 'navio' — inclui navio, mas não é equivalente a ele. Sinônimos têm sentidos equivalentes; hiperônimos têm sentidos mais abrangentes. Substituir 'navio' por 'veículo' em um texto especializado altera a precisão semântica.",
-      "explicacao": "Em questões de coesão, a substituição por hiperônimo é um recurso legítimo para evitar repetição. Mas em questões de sinonímia estrita, o hiperônimo não é sinônimo. 'O documento foi assinado' ≠ 'A coisa foi assinada' — embora 'coisa' seja hiperônimo de 'documento', a substituição empobrece e distorce o sentido."
+      "explicacao": "Em questões de coesão, a substituição por hiperônimo é um recurso legítimo para evitar repetição. Mas em questões de sinonímia estrita, o hiperônimo não é sinônimo. 'O documento foi assinado' ≠ 'A coisa foi assinada' — embora 'coisa' seja hiperônimo de 'documento', a substituição empobrece e distorce o sentido.",
+      "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
       "situacao": "A questão pede um sinônimo para substituição e uma das alternativas é um parônimo do termo original — palavra de forma muito parecida, mas sentido distinto.",
-      "dica": "Leia com atenção a grafia das alternativas. Parônimos diferem por uma ou duas letras. Se perceber essa semelhança, analise o significado de cada forma separadamente antes de escolher. Nunca marque pela semelhança de forma — marque pelo sentido no contexto."
+      "dica": "Leia com atenção a grafia das alternativas. Parônimos diferem por uma ou duas letras. Se perceber essa semelhança, analise o significado de cada forma separadamente antes de escolher. Nunca marque pela semelhança de forma — marque pelo sentido no contexto.",
+      "nivel": "basico"
     },
     {
       "situacao": "A questão pede o hiperônimo de um conjunto de palavras, mas uma das alternativas é um hipônimo de apenas alguns dos termos listados, e não de todos.",
-      "dica": "O hiperônimo verdadeiro deve incluir TODOS os termos do conjunto, sem exceção. Se uma alternativa não abrange todos os itens listados, ela não é o hiperônimo correto. Teste cada alternativa contra cada item do conjunto."
+      "dica": "O hiperônimo verdadeiro deve incluir TODOS os termos do conjunto, sem exceção. Se uma alternativa não abrange todos os itens listados, ela não é o hiperônimo correto. Teste cada alternativa contra cada item do conjunto.",
+      "nivel": "intermediario"
     },
     {
       "situacao": "A questão usa uma palavra polissêmica em contexto específico e as alternativas oferecem sinônimos válidos para sentidos diferentes dessa palavra.",
-      "dica": "Identifique primeiro qual sentido da palavra está sendo ativado no contexto da frase. Só então procure o sinônimo correspondente a esse sentido. Ignorar o contexto e escolher um sinônimo do sentido errado é o erro mais comum nesse tipo de questão."
+      "dica": "Identifique primeiro qual sentido da palavra está sendo ativado no contexto da frase. Só então procure o sinônimo correspondente a esse sentido. Ignorar o contexto e escolher um sinônimo do sentido errado é o erro mais comum nesse tipo de questão.",
+      "nivel": "avancado"
     }
   ],
   "questoes": [

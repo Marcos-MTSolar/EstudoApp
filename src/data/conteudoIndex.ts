@@ -1,5 +1,6 @@
 const modulos: Record<string, () => Promise<any>> = {
   // ÁREA 1 — GRAMÁTICA
+  'gram-00': () => import('./conteudo/gram-00.json'),
   'gram-01': () => import('./conteudo/gram-01.json'),
   'gram-02': () => import('./conteudo/gram-02.json'),
   'gram-03': () => import('./conteudo/gram-03.json'),

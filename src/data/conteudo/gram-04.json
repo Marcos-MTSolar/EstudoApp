@@ -78,45 +78,53 @@
       "titulo": "Parassíntese confundida com derivação prefixal + sufixal",
       "errado": "A palavra 'entristecer' é formada por derivação prefixal ('en-') sobre 'tristecer', que já existe no português.",
       "correto": "A palavra 'entristecer' é formada por parassíntese: prefixo 'en-' e sufixo '-ecer' são acrescentados simultaneamente ao radical 'trist-', pois *'tristecer' e *'entriste' não existem.",
-      "explicacao": "O critério da parassíntese exige que as formas intermediárias (sem o prefixo OU sem o sufixo) não existam na língua com o mesmo sentido derivacional. Como 'tristecer' não existe e 'entriste' não existe, o processo é necessariamente parassintético. Provas militares frequentemente apresentam exemplos como 'anoitecer', 'emudecer', 'encarcerar' e pedem identificação do processo."
+      "explicacao": "O critério da parassíntese exige que as formas intermediárias (sem o prefixo OU sem o sufixo) não existam na língua com o mesmo sentido derivacional. Como 'tristecer' não existe e 'entriste' não existe, o processo é necessariamente parassintético. Provas militares frequentemente apresentam exemplos como 'anoitecer', 'emudecer', 'encarcerar' e pedem identificação do processo.",
+      "nivel": "basico"
     },
     {
       "titulo": "Hífen em 'coautor'",
       "errado": "co-autor",
       "correto": "coautor",
-      "explicacao": "Pelo Acordo Ortográfico de 1990 (em vigor desde 2016), o prefixo 'co-' terminado em vogal 'o' seguido de palavra começada por vogal diferente ('a' de 'autor') não usa hífen: 'coautor', 'coeditor', 'coexistir', 'coabitação'. O erro clássico é usar hífen por analogia com o antigo acordo. Apenas quando a palavra seguinte começar com 'o' (mesma vogal) é que se usa hífen: 'co-óptico' — situação hipotética."
+      "explicacao": "Pelo Acordo Ortográfico de 1990 (em vigor desde 2016), o prefixo 'co-' terminado em vogal 'o' seguido de palavra começada por vogal diferente ('a' de 'autor') não usa hífen: 'coautor', 'coeditor', 'coexistir', 'coabitação'. O erro clássico é usar hífen por analogia com o antigo acordo. Apenas quando a palavra seguinte começar com 'o' (mesma vogal) é que se usa hífen: 'co-óptico' — situação hipotética.",
+      "nivel": "basico"
     },
     {
       "titulo": "Derivação regressiva vs. derivação sufixal",
       "errado": "'Pesca' é derivada de 'pescador' por derivação sufixal.",
       "correto": "'Pesca' é derivada de 'pescar' por derivação regressiva — a palavra derivada é menor que a primitiva.",
-      "explicacao": "Na derivação regressiva, a palavra resultante é menor que a primitiva: 'pescar (verbo) → pesca (substantivo de ação)'. Não há sufixo acrescentado — ao contrário, há redução. Candidatos confundem porque 'pesca' parece derivar de 'pescador', mas a direção da derivação é pescar → pesca (regressiva), e depois pesca+dor (sufixal para formar o agente). Outros exemplos: 'comprar → compra', 'atacar → ataque', 'pousar → pouso'."
+      "explicacao": "Na derivação regressiva, a palavra resultante é menor que a primitiva: 'pescar (verbo) → pesca (substantivo de ação)'. Não há sufixo acrescentado — ao contrário, há redução. Candidatos confundem porque 'pesca' parece derivar de 'pescador', mas a direção da derivação é pescar → pesca (regressiva), e depois pesca+dor (sufixal para formar o agente). Outros exemplos: 'comprar → compra', 'atacar → ataque', 'pousar → pouso'.",
+      "nivel": "intermediario"
     },
     {
       "titulo": "'Anti-inflamatório' vs. 'antiaéreo'",
       "errado": "antinflamatório / anti-aéreo",
       "correto": "anti-inflamatório / antiaéreo",
-      "explicacao": "O prefixo 'anti-' termina em 'i'. Quando a palavra seguinte começa pela mesma vogal 'i' ('inflamatório'), usa-se hífen: 'anti-inflamatório'. Quando começa por vogal diferente ('aéreo' começa por 'a'), sem hífen: 'antiaéreo'. O erro mais frequente é inverter: usar hífen em 'anti-aéreo' e suprimir o hífen em 'antiinflamatório' (que fica com dois 'i' sem hífen, o que é incorreto)."
+      "explicacao": "O prefixo 'anti-' termina em 'i'. Quando a palavra seguinte começa pela mesma vogal 'i' ('inflamatório'), usa-se hífen: 'anti-inflamatório'. Quando começa por vogal diferente ('aéreo' começa por 'a'), sem hífen: 'antiaéreo'. O erro mais frequente é inverter: usar hífen em 'anti-aéreo' e suprimir o hífen em 'antiinflamatório' (que fica com dois 'i' sem hífen, o que é incorreto).",
+      "nivel": "avancado"
     },
     {
       "titulo": "Aglutinação vs. justaposição em 'embora' e 'girassol'",
       "errado": "'Embora' é formada por justaposição porque se pode reconhecer 'em' e 'bora' separadamente.",
       "correto": "'Embora' é formada por aglutinação de 'em + boa + hora', com fusão fonética e perda de elementos originais.",
-      "explicacao": "Aglutinação implica fusão com perda fonética de elementos. 'Embora' origina-se de 'em boa hora': houve redução de 'boa hora' para 'bora' com a fusão, perdendo-se a distinção clara dos três elementos. Já 'girassol' é justaposição (gira + sol): os dois elementos são plenamente reconhecíveis. 'Planalto' (plano + alto) é aglutinação pois 'plano' perdeu o '-o' final. 'Aguardente' (água + ardente) é aglutinação com apócope do '-a' final de 'água'."
+      "explicacao": "Aglutinação implica fusão com perda fonética de elementos. 'Embora' origina-se de 'em boa hora': houve redução de 'boa hora' para 'bora' com a fusão, perdendo-se a distinção clara dos três elementos. Já 'girassol' é justaposição (gira + sol): os dois elementos são plenamente reconhecíveis. 'Planalto' (plano + alto) é aglutinação pois 'plano' perdeu o '-o' final. 'Aguardente' (água + ardente) é aglutinação com apócope do '-a' final de 'água'.",
+      "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
       "situacao": "A questão pede para identificar o processo de formação de uma palavra como 'desumano'. O candidato marca 'parassíntese' porque vê prefixo 'des-' e sufixo '-o' (marca de masculino), mas o sufixo de gênero não conta como afixo derivacional.",
-      "dica": "Para parassíntese, o sufixo precisa ser derivacional (formador de nova palavra: -ecer, -izar, -ado etc.), não flexional (marca de gênero/número). 'Desumano' = prefixo 'des-' + base 'humano' (que já existe) → derivação prefixal simples. Se existir a base sem o prefixo, não é parassíntese."
+      "dica": "Para parassíntese, o sufixo precisa ser derivacional (formador de nova palavra: -ecer, -izar, -ado etc.), não flexional (marca de gênero/número). 'Desumano' = prefixo 'des-' + base 'humano' (que já existe) → derivação prefixal simples. Se existir a base sem o prefixo, não é parassíntese.",
+      "nivel": "basico"
     },
     {
       "situacao": "O enunciado cita a palavra 'sub-bibliotecário' e pergunta por que se usa hífen. O candidato responde que é porque 'sub-' é prefixo tônico e autônomo (como 'ex-', 'vice-'), confundindo as regras.",
-      "dica": "'Sub-' não é prefixo da lista dos sempre-hifenizados (ex-, vice-, recém-, pós-, pré-, pró-). O hífen em 'sub-bibliotecário' ocorre porque o prefixo 'sub-' termina em consoante 'b' e a palavra seguinte começa pela mesma consoante 'b' (sub + bibliotecário). A regra é: consoante final do prefixo = consoante inicial da palavra → hífen."
+      "dica": "'Sub-' não é prefixo da lista dos sempre-hifenizados (ex-, vice-, recém-, pós-, pré-, pró-). O hífen em 'sub-bibliotecário' ocorre porque o prefixo 'sub-' termina em consoante 'b' e a palavra seguinte começa pela mesma consoante 'b' (sub + bibliotecário). A regra é: consoante final do prefixo = consoante inicial da palavra → hífen.",
+      "nivel": "intermediario"
     },
     {
       "situacao": "A questão apresenta um trecho com a palavra 'bem-sucedido' e pede a justificativa do hífen. O candidato nega o hífen porque a palavra seguinte ('sucedido') começa por consoante, aplicando a regra 'bem + consoante = sem hífen'.",
-      "dica": "'Bem-sucedido' é uma das exceções consolidadas no uso do hífen: embora 'sucedido' comece por consoante, o hífen é mantido por tradição lexicográfica e está dicionarizado assim. Do mesmo modo: 'bem-vindo', 'bem-visto'. Sempre verifique as formas lexicalizadas antes de aplicar a regra geral mecanicamente."
+      "dica": "'Bem-sucedido' é uma das exceções consolidadas no uso do hífen: embora 'sucedido' comece por consoante, o hífen é mantido por tradição lexicográfica e está dicionarizado assim. Do mesmo modo: 'bem-vindo', 'bem-visto'. Sempre verifique as formas lexicalizadas antes de aplicar a regra geral mecanicamente.",
+      "nivel": "avancado"
     }
   ],
   "questoes": [

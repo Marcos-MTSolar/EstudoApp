@@ -1,0 +1,842 @@
+{
+  "id": "gram-00",
+  "titulo": "Fonética e Fonologia",
+  "area": "Gramática",
+  "resumo": "Estudo dos sons da fala (fonemas), suas combinações (encontros vocálicos e consonantais) e a relação entre letras e fonemas, incluindo divisão silábica e ortoépia.",
+  "teoria": {
+    "blocos": [
+      {
+        "subtitulo": "1. Fonema e Letra",
+        "conteudo": "Fonema é a menor unidade sonora da fala que pode estabelecer distinção de significado entre palavras. Letra é a representação gráfica (sinal) do fonema na escrita. O número de letras nem sempre coincide com o número de fonemas.",
+        "exemplos": [
+          "Mala: 4 letras, 4 fonemas (/m/, /a/, /l/, /a/).",
+          "Táxi: 4 letras, 5 fonemas (/t/, /a/, /k/, /s/, /i/ - o 'x' soa como 'ks').",
+          "Hora: 4 letras, 3 fonemas (o 'h' não tem som próprio)."
+        ],
+        "regra": "Dígrafos (duas letras representando um único som) reduzem o número de fonemas em relação ao número de letras."
+      },
+      {
+        "subtitulo": "2. Vogais e Semivogais",
+        "conteudo": "As vogais são a base de qualquer sílaba na Língua Portuguesa; não existe sílaba sem vogal, e há apenas uma vogal por sílaba. As semivogais (/i/ e /u/ átonos) acompanham a vogal na mesma sílaba.",
+        "exemplos": [
+          "Pai: 'a' é vogal, 'i' é semivogal.",
+          "Quase: 'u' é semivogal, 'a' é vogal."
+        ],
+        "regra": "O 'a' é sempre vogal. 'e' e 'o' podem ser semivogais quando funcionam como 'i' ou 'u' átonos."
+      },
+      {
+        "subtitulo": "3. Encontros Vocálicos",
+        "conteudo": "São agrupamentos de vogais e semivogais numa palavra. Dividem-se em: Ditongo (vogal + semivogal ou vice-versa na mesma sílaba), Tritongo (semivogal + vogal + semivogal na mesma sílaba) e Hiato (vogais adjacentes que pertencem a sílabas diferentes).",
+        "exemplos": [
+          "Peixe: pei-xe (ditongo decrescente).",
+          "Uruguai: U-ru-guai (tritongo).",
+          "Saúde: sa-ú-de (hiato)."
+        ],
+        "regra": "Hiatos sempre se separam na divisão silábica, pois duas vogais não podem ficar na mesma sílaba."
+      },
+      {
+        "subtitulo": "4. Encontros Consonantais e Dígrafos",
+        "conteudo": "O encontro consonantal ocorre quando duas ou mais consoantes são pronunciadas (ex: prato, bloco). O dígrafo ocorre quando duas letras representam apenas um fonema (ex: carro, chave, nascer).",
+        "exemplos": [
+          "Encontro consonantal: Cl-a-ro, P-neu.",
+          "Dígrafos consonantais: ch, lh, nh, rr, ss, sc, sç, xc, xs.",
+          "Dígrafos vocálicos (nasais): am, an, em, en, im, in, om, on, um, un."
+        ],
+        "regra": "Os dígrafos 'rr', 'ss', 'sc', 'sç' e 'xc' devem ser separados na divisão silábica (car-ro, nas-cer)."
+      },
+      {
+        "subtitulo": "5. Divisão Silábica",
+        "conteudo": "A divisão silábica baseia-se na soletração, seguindo a base vocálica. Consoantes não seguidas de vogal juntam-se à sílaba anterior.",
+        "exemplos": [
+          "Ritmo: rit-mo.",
+          "Advogado: ad-vo-ga-do.",
+          "Tungstênio: tungs-tê-nio."
+        ],
+        "regra": "Não se separam os encontros consonantais que iniciam palavra (ex: pneu, psi-co-lo-gi-a)."
+      }
+    ]
+  },
+  "pegadinhas": [
+    {
+      "titulo": "X com som de KS",
+      "errado": "Considerar que 'táxi' possui 4 fonemas por ter 4 letras.",
+      "correto": "A palavra 'táxi' tem 5 fonemas, pois o 'x' representa dois sons (ks), formando um dífono.",
+      "explicacao": "Sempre conte os sons pronunciados. O 'x' pode representar cs/ks (táxi), z (exame), s (texto) ou ch (xadrez).",
+      "nivel": "basico"
+    },
+    {
+      "titulo": "A letra H",
+      "errado": "Achar que a palavra 'hoje' tem 4 fonemas.",
+      "correto": "Tem 4 letras, mas apenas 3 fonemas, pois o H não tem valor fonético.",
+      "explicacao": "Em início de palavras, o 'h' não possui som. Ele só compõe fonema quando forma os dígrafos ch, lh e nh.",
+      "nivel": "basico"
+    },
+    {
+      "titulo": "Dígrafos GU e QU",
+      "errado": "Classificar 'água' ou 'cinquenta' como palavras com dígrafos.",
+      "correto": "Se o 'u' for pronunciado, não há dígrafo, e sim encontro de sons (encontro vocálico).",
+      "explicacao": "GU e QU só são dígrafos quando seguidos de 'e' ou 'i' e o 'u' NÃO for pronunciado (ex: guerra, queijo).",
+      "nivel": "intermediario"
+    },
+    {
+      "titulo": "Vogais no Hiato",
+      "errado": "Achar que em 'saída' temos um ditongo.",
+      "correto": "'Saída' possui um hiato, as vogais ficam em sílabas separadas (sa-í-da).",
+      "explicacao": "Numa mesma sílaba, jamais haverá duas vogais. Se há duas letras vocálicas plenas e tônicas adjacentes, elas formam hiato.",
+      "nivel": "avancado"
+    },
+    {
+      "titulo": "Consoantes mudas iniciais",
+      "errado": "Separar sílabas assim: p-neu, g-no-mo.",
+      "correto": "A divisão correta é: pneu, gno-mo.",
+      "explicacao": "Consoante no início da palavra sem vogal seguinte não forma sílaba isolada, agrupando-se à sílaba subsequente.",
+      "nivel": "avancado"
+    }
+  ],
+  "cascas_de_banana": [
+    {
+      "situacao": "Dígrafos vocálicos confundidos com consoantes",
+      "dica": "Em 'tampa', o 'm' não é consoante sonora, apenas nasaliza o 'a'. Temos o dígrafo vocálico 'am', ou seja, 5 letras e 4 fonemas.",
+      "nivel": "basico"
+    },
+    {
+      "situacao": "Ditongos fonéticos em terminações",
+      "dica": "A palavra 'também' termina em 'em', mas na fala soa como 'ẽi'. Foneticamente, ocorre um ditongo nasal (embora não haja a letra 'i').",
+      "nivel": "intermediario"
+    },
+    {
+      "situacao": "Separação de prefixos",
+      "dica": "Em palavras como 'sublinhar' e 'bisavô', a divisão silábica segue a regra de ligação consonantal à vogal seguinte: su-bli-nhar, bi-sa-vô.",
+      "nivel": "avancado"
+    }
+  ],
+  "questoes": [
+    {
+      "id": "q01",
+      "nivel": "basico",
+      "enunciado": "Questão Básica 1 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "alternativas": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "gabarito": "B",
+      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+    },
+    {
+      "id": "q02",
+      "nivel": "basico",
+      "enunciado": "Questão Básica 2 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "alternativas": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "gabarito": "B",
+      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+    },
+    {
+      "id": "q03",
+      "nivel": "basico",
+      "enunciado": "Questão Básica 3 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "alternativas": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "gabarito": "B",
+      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+    },
+    {
+      "id": "q04",
+      "nivel": "basico",
+      "enunciado": "Questão Básica 4 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "alternativas": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "gabarito": "B",
+      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+    },
+    {
+      "id": "q05",
+      "nivel": "basico",
+      "enunciado": "Questão Básica 5 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "alternativas": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "gabarito": "B",
+      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+    },
+    {
+      "id": "q06",
+      "nivel": "basico",
+      "enunciado": "Questão Básica 6 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "alternativas": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "gabarito": "B",
+      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+    },
+    {
+      "id": "q07",
+      "nivel": "basico",
+      "enunciado": "Questão Básica 7 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "alternativas": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "gabarito": "B",
+      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+    },
+    {
+      "id": "q08",
+      "nivel": "basico",
+      "enunciado": "Questão Básica 8 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "alternativas": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "gabarito": "B",
+      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+    },
+    {
+      "id": "q09",
+      "nivel": "basico",
+      "enunciado": "Questão Básica 9 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "alternativas": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "gabarito": "B",
+      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+    },
+    {
+      "id": "q10",
+      "nivel": "basico",
+      "enunciado": "Questão Básica 10 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "alternativas": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "gabarito": "B",
+      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+    },
+    {
+      "id": "q11",
+      "nivel": "intermediario",
+      "enunciado": "Questão Intermediária 11 sobre encontros. Assinale a opção onde há dígrafo.",
+      "alternativas": {
+        "A": "Prato",
+        "B": "Claro",
+        "C": "Chave",
+        "D": "Mala",
+        "E": "Pneu"
+      },
+      "gabarito": "C",
+      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+    },
+    {
+      "id": "q12",
+      "nivel": "intermediario",
+      "enunciado": "Questão Intermediária 12 sobre encontros. Assinale a opção onde há dígrafo.",
+      "alternativas": {
+        "A": "Prato",
+        "B": "Claro",
+        "C": "Chave",
+        "D": "Mala",
+        "E": "Pneu"
+      },
+      "gabarito": "C",
+      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+    },
+    {
+      "id": "q13",
+      "nivel": "intermediario",
+      "enunciado": "Questão Intermediária 13 sobre encontros. Assinale a opção onde há dígrafo.",
+      "alternativas": {
+        "A": "Prato",
+        "B": "Claro",
+        "C": "Chave",
+        "D": "Mala",
+        "E": "Pneu"
+      },
+      "gabarito": "C",
+      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+    },
+    {
+      "id": "q14",
+      "nivel": "intermediario",
+      "enunciado": "Questão Intermediária 14 sobre encontros. Assinale a opção onde há dígrafo.",
+      "alternativas": {
+        "A": "Prato",
+        "B": "Claro",
+        "C": "Chave",
+        "D": "Mala",
+        "E": "Pneu"
+      },
+      "gabarito": "C",
+      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+    },
+    {
+      "id": "q15",
+      "nivel": "intermediario",
+      "enunciado": "Questão Intermediária 15 sobre encontros. Assinale a opção onde há dígrafo.",
+      "alternativas": {
+        "A": "Prato",
+        "B": "Claro",
+        "C": "Chave",
+        "D": "Mala",
+        "E": "Pneu"
+      },
+      "gabarito": "C",
+      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+    },
+    {
+      "id": "q16",
+      "nivel": "intermediario",
+      "enunciado": "Questão Intermediária 16 sobre encontros. Assinale a opção onde há dígrafo.",
+      "alternativas": {
+        "A": "Prato",
+        "B": "Claro",
+        "C": "Chave",
+        "D": "Mala",
+        "E": "Pneu"
+      },
+      "gabarito": "C",
+      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+    },
+    {
+      "id": "q17",
+      "nivel": "intermediario",
+      "enunciado": "Questão Intermediária 17 sobre encontros. Assinale a opção onde há dígrafo.",
+      "alternativas": {
+        "A": "Prato",
+        "B": "Claro",
+        "C": "Chave",
+        "D": "Mala",
+        "E": "Pneu"
+      },
+      "gabarito": "C",
+      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+    },
+    {
+      "id": "q18",
+      "nivel": "intermediario",
+      "enunciado": "Questão Intermediária 18 sobre encontros. Assinale a opção onde há dígrafo.",
+      "alternativas": {
+        "A": "Prato",
+        "B": "Claro",
+        "C": "Chave",
+        "D": "Mala",
+        "E": "Pneu"
+      },
+      "gabarito": "C",
+      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+    },
+    {
+      "id": "q19",
+      "nivel": "intermediario",
+      "enunciado": "Questão Intermediária 19 sobre encontros. Assinale a opção onde há dígrafo.",
+      "alternativas": {
+        "A": "Prato",
+        "B": "Claro",
+        "C": "Chave",
+        "D": "Mala",
+        "E": "Pneu"
+      },
+      "gabarito": "C",
+      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+    },
+    {
+      "id": "q20",
+      "nivel": "intermediario",
+      "enunciado": "Questão Intermediária 20 sobre encontros. Assinale a opção onde há dígrafo.",
+      "alternativas": {
+        "A": "Prato",
+        "B": "Claro",
+        "C": "Chave",
+        "D": "Mala",
+        "E": "Pneu"
+      },
+      "gabarito": "C",
+      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+    },
+    {
+      "id": "q21",
+      "nivel": "avancado",
+      "enunciado": "Questão Avançada 21 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "alternativas": {
+        "A": "pers-pec-ti-va",
+        "B": "per-spec-ti-va",
+        "C": "pers-pe-cti-va",
+        "D": "per-spe-cti-va",
+        "E": "pe-rs-pec-ti-va"
+      },
+      "gabarito": "A",
+      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+    },
+    {
+      "id": "q22",
+      "nivel": "avancado",
+      "enunciado": "Questão Avançada 22 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "alternativas": {
+        "A": "pers-pec-ti-va",
+        "B": "per-spec-ti-va",
+        "C": "pers-pe-cti-va",
+        "D": "per-spe-cti-va",
+        "E": "pe-rs-pec-ti-va"
+      },
+      "gabarito": "A",
+      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+    },
+    {
+      "id": "q23",
+      "nivel": "avancado",
+      "enunciado": "Questão Avançada 23 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "alternativas": {
+        "A": "pers-pec-ti-va",
+        "B": "per-spec-ti-va",
+        "C": "pers-pe-cti-va",
+        "D": "per-spe-cti-va",
+        "E": "pe-rs-pec-ti-va"
+      },
+      "gabarito": "A",
+      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+    },
+    {
+      "id": "q24",
+      "nivel": "avancado",
+      "enunciado": "Questão Avançada 24 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "alternativas": {
+        "A": "pers-pec-ti-va",
+        "B": "per-spec-ti-va",
+        "C": "pers-pe-cti-va",
+        "D": "per-spe-cti-va",
+        "E": "pe-rs-pec-ti-va"
+      },
+      "gabarito": "A",
+      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+    },
+    {
+      "id": "q25",
+      "nivel": "avancado",
+      "enunciado": "Questão Avançada 25 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "alternativas": {
+        "A": "pers-pec-ti-va",
+        "B": "per-spec-ti-va",
+        "C": "pers-pe-cti-va",
+        "D": "per-spe-cti-va",
+        "E": "pe-rs-pec-ti-va"
+      },
+      "gabarito": "A",
+      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+    },
+    {
+      "id": "q26",
+      "nivel": "avancado",
+      "enunciado": "Questão Avançada 26 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "alternativas": {
+        "A": "pers-pec-ti-va",
+        "B": "per-spec-ti-va",
+        "C": "pers-pe-cti-va",
+        "D": "per-spe-cti-va",
+        "E": "pe-rs-pec-ti-va"
+      },
+      "gabarito": "A",
+      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+    },
+    {
+      "id": "q27",
+      "nivel": "avancado",
+      "enunciado": "Questão Avançada 27 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "alternativas": {
+        "A": "pers-pec-ti-va",
+        "B": "per-spec-ti-va",
+        "C": "pers-pe-cti-va",
+        "D": "per-spe-cti-va",
+        "E": "pe-rs-pec-ti-va"
+      },
+      "gabarito": "A",
+      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+    },
+    {
+      "id": "q28",
+      "nivel": "avancado",
+      "enunciado": "Questão Avançada 28 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "alternativas": {
+        "A": "pers-pec-ti-va",
+        "B": "per-spec-ti-va",
+        "C": "pers-pe-cti-va",
+        "D": "per-spe-cti-va",
+        "E": "pe-rs-pec-ti-va"
+      },
+      "gabarito": "A",
+      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+    },
+    {
+      "id": "q29",
+      "nivel": "avancado",
+      "enunciado": "Questão Avançada 29 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "alternativas": {
+        "A": "pers-pec-ti-va",
+        "B": "per-spec-ti-va",
+        "C": "pers-pe-cti-va",
+        "D": "per-spe-cti-va",
+        "E": "pe-rs-pec-ti-va"
+      },
+      "gabarito": "A",
+      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+    },
+    {
+      "id": "q30",
+      "nivel": "avancado",
+      "enunciado": "Questão Avançada 30 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "alternativas": {
+        "A": "pers-pec-ti-va",
+        "B": "per-spec-ti-va",
+        "C": "pers-pe-cti-va",
+        "D": "per-spe-cti-va",
+        "E": "pe-rs-pec-ti-va"
+      },
+      "gabarito": "A",
+      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+    }
+  ],
+  "simulado": [
+    {
+      "id": "s01",
+      "nivel": "avancado",
+      "enunciado": "Simulado 1: Em relação à palavra EXCEÇÃO, marque a alternativa correta.",
+      "alternativas": {
+        "A": "Tem mais letras que fonemas.",
+        "B": "O 'x' tem som de 'ks'.",
+        "C": "Não há dígrafo.",
+        "D": "Tem o mesmo número de letras e fonemas.",
+        "E": "Apresenta encontro consonantal."
+      },
+      "gabarito": "A",
+      "explicacao": "A palavra EXCEÇÃO possui o dígrafo XC, logo, possui mais letras do que fonemas."
+    },
+    {
+      "id": "s02",
+      "nivel": "avancado",
+      "enunciado": "Simulado 2: Em relação à palavra EXCEÇÃO, marque a alternativa correta.",
+      "alternativas": {
+        "A": "Tem mais letras que fonemas.",
+        "B": "O 'x' tem som de 'ks'.",
+        "C": "Não há dígrafo.",
+        "D": "Tem o mesmo número de letras e fonemas.",
+        "E": "Apresenta encontro consonantal."
+      },
+      "gabarito": "A",
+      "explicacao": "A palavra EXCEÇÃO possui o dígrafo XC, logo, possui mais letras do que fonemas."
+    },
+    {
+      "id": "s03",
+      "nivel": "avancado",
+      "enunciado": "Simulado 3: Em relação à palavra EXCEÇÃO, marque a alternativa correta.",
+      "alternativas": {
+        "A": "Tem mais letras que fonemas.",
+        "B": "O 'x' tem som de 'ks'.",
+        "C": "Não há dígrafo.",
+        "D": "Tem o mesmo número de letras e fonemas.",
+        "E": "Apresenta encontro consonantal."
+      },
+      "gabarito": "A",
+      "explicacao": "A palavra EXCEÇÃO possui o dígrafo XC, logo, possui mais letras do que fonemas."
+    },
+    {
+      "id": "s04",
+      "nivel": "avancado",
+      "enunciado": "Simulado 4: Em relação à palavra EXCEÇÃO, marque a alternativa correta.",
+      "alternativas": {
+        "A": "Tem mais letras que fonemas.",
+        "B": "O 'x' tem som de 'ks'.",
+        "C": "Não há dígrafo.",
+        "D": "Tem o mesmo número de letras e fonemas.",
+        "E": "Apresenta encontro consonantal."
+      },
+      "gabarito": "A",
+      "explicacao": "A palavra EXCEÇÃO possui o dígrafo XC, logo, possui mais letras do que fonemas."
+    },
+    {
+      "id": "s05",
+      "nivel": "avancado",
+      "enunciado": "Simulado 5: Em relação à palavra EXCEÇÃO, marque a alternativa correta.",
+      "alternativas": {
+        "A": "Tem mais letras que fonemas.",
+        "B": "O 'x' tem som de 'ks'.",
+        "C": "Não há dígrafo.",
+        "D": "Tem o mesmo número de letras e fonemas.",
+        "E": "Apresenta encontro consonantal."
+      },
+      "gabarito": "A",
+      "explicacao": "A palavra EXCEÇÃO possui o dígrafo XC, logo, possui mais letras do que fonemas."
+    }
+  ],
+  "desafio": {
+    "topicos_mesclados": [
+      "Sistema Ortográfico",
+      "Acentuação Gráfica",
+      "Flexão Nominal",
+      "Fonética e Fonologia"
+    ],
+    "questoes": [
+      {
+        "id": "d01",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 1: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      },
+      {
+        "id": "d02",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 2: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      },
+      {
+        "id": "d03",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 3: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      },
+      {
+        "id": "d04",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 4: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      },
+      {
+        "id": "d05",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 5: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      },
+      {
+        "id": "d06",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 6: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      },
+      {
+        "id": "d07",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 7: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      },
+      {
+        "id": "d08",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 8: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      },
+      {
+        "id": "d09",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 9: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      },
+      {
+        "id": "d10",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 10: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      },
+      {
+        "id": "d11",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 11: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      },
+      {
+        "id": "d12",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 12: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      },
+      {
+        "id": "d13",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 13: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      },
+      {
+        "id": "d14",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 14: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      },
+      {
+        "id": "d15",
+        "nivel": "avancado",
+        "topico_referencia": "Fonética e Fonologia",
+        "enunciado": "Desafio 15: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "alternativas": {
+          "A": "Chuva",
+          "B": "Prato",
+          "C": "Pássaro",
+          "D": "Trabalho",
+          "E": "Água"
+        },
+        "gabarito": "D",
+        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+      }
+    ]
+  }
+}

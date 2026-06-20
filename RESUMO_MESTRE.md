@@ -1181,3 +1181,58 @@ docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 51 — Corrigir estado inicial do seletor de nível em RM2Questoes
+- **Data e hora:** 20/06/2026 às 09:25 (Horário Local)
+- **O que foi feito:**
+  - Alterado o valor inicial do estado `nivel` de `'intermediario'` para `'basico'` no componente `RM2Questoes.tsx`.
+  - Executada a verificação de compilação com `tsc --noEmit` e o build com `npm run build` confirmando sucesso na alteração e ausência de erros (Exit code: 0).
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Questoes.tsx` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 52 — Registrar gram-00 no conteudoIndex.ts e em rm2Conteudo.ts
+- **Data e hora:** 20/06/2026 às 09:31 (Horário Local)
+- **O que foi feito:**
+  - `src/data/conteudoIndex.ts`: Adicionada a importação de `gram-00` no topo da área de gramática.
+  - `src/data/rm2Conteudo.ts`: Adicionado o objeto completo para o assunto `gram-00` ("Fonética e Fonologia") na seção de Gramática, imediatamente antes de `gram-04`.
+  - Compilação do TypeScript validada via `npx tsc --noEmit` e o build com `npm run build` confirmando sucesso absoluto e ausência de erros (Exit code: 0).
+- **Arquivos modificados:**
+  - `src/data/conteudoIndex.ts` **[MODIFICADO]**
+  - `src/data/rm2Conteudo.ts` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 53 — Substituição de gram-02 e Correção de Bug de Níveis no Módulo RM2
+- **Data e hora:** 20/06/2026 às 10:09 (Horário Local)
+- **O que foi feito:**
+  - `src/data/conteudo/gram-02.json`: Substituído integralmente pelo conteúdo exclusivo de "Acentuação Gráfica".
+  - Auditoria dos níveis das questões: Script em Python varreu os 29 arquivos JSON para garantir que `questoes`, `simulado` e `desafio.questoes` estivessem com a propriedade `nivel` perfeitamente ajustada. Nenhuma inconsistência foi encontrada nas questões.
+  - Inserção estrutural de níveis: Inserida a propriedade `nivel` em todos os arrays `pegadinhas` e `cascas_de_banana` em 29 arquivos JSON. As classificações seguiram a distribuição de fatiamento original.
+  - `src/components/rm2/RM2Teoria.tsx`: A lógica de renderização foi atualizada. O `slice()` baseado em posições numéricas foi removido e trocado por um `filter()` fundamentado no nível selecionado, conferindo controle exato ao que o aluno estuda sem o risco de avançar precipitadamente a temas difíceis.
+  - Compilação do TypeScript validada via `npx tsc --noEmit` e build via `npm run build`, concluindo com sucesso (Exit code: 0).
+- **Arquivos modificados:**
+  - `src/data/conteudo/gram-02.json` **[MODIFICADO]**
+  - Todos os 29 arquivos JSON em `src/data/conteudo/` **[MODIFICADO]**
+  - `src/components/rm2/RM2Teoria.tsx` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 54 — Atualização do Cronograma RM2 para 22 Semanas
+- **Data e hora:** 20/06/2026 às 10:18 (Horário Local)
+- **O que foi feito:**
+  - O período do cronograma foi reduzido de 33 semanas para 22 semanas (22/06/2026 a 16/11/2026) devido à previsão do novo edital.
+  - A proporção de duração das 5 Fases Pedagógicas originais foi recalculada: Fase 1 (10s), Fase 2 (5s), Fase 3 (3s), Fase 4 (2s) e Fase 5 (2s).
+  - Redistribuímos todos os 29 tópicos, incluindo a inserção de `gram-00` no início, preservando estritamente a ordem de ensino entre Gramática e Compreensão.
+  - As constantes `INICIO_ESTUDOS` e `PROVA_PREVISTA` foram alteradas em `RM2Cronograma.tsx`.
+  - A lógica do `SEMANAS` foi readaptada para iterar até 3 tópicos semanais na Fase 1.
+  - Compilação validada com Exit code 0 via `npx tsc --noEmit` e `npm run build`.
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**

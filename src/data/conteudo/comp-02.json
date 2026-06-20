@@ -62,45 +62,53 @@
       "titulo": "Paráfrase vs. Distorção",
       "errado": "Considerar que qualquer reformulação de um trecho é informação explícita, mesmo quando a reformulação muda o sentido.",
       "correto": "Somente a paráfrase fiel — que preserva o sentido original sem acréscimos nem omissões relevantes — corresponde à informação explícita. Se a reformulação acrescenta ou omite informação que altera o sentido, já não é explícita.",
-      "explicacao": "Bancas constroem alternativas 'quase corretas', alterando sutilmente o sentido do texto: trocam 'alguns' por 'todos', 'pode' por 'deve', 'solicitou' por 'exigiu'. Cada uma dessas trocas cria uma distorção que invalida a alternativa. Leia com precisão cirúrgica."
+      "explicacao": "Bancas constroem alternativas 'quase corretas', alterando sutilmente o sentido do texto: trocam 'alguns' por 'todos', 'pode' por 'deve', 'solicitou' por 'exigiu'. Cada uma dessas trocas cria uma distorção que invalida a alternativa. Leia com precisão cirúrgica.",
+      "nivel": "basico"
     },
     {
       "titulo": "Pressuposto confundido com afirmação do texto",
       "errado": "Marcar como informação explícita algo que é apenas pressuposto do enunciado.",
       "correto": "O pressuposto é implícito — ele não está dito, mas é tomado como verdade pelo enunciado. 'Maria parou de trabalhar' pressupõe que ela trabalhava antes, mas esse fato não está explícito.",
-      "explicacao": "Em provas, uma alternativa pode apresentar o pressuposto como se fosse informação explícita. Se a questão pede 'o que o texto afirma diretamente', o pressuposto não é a resposta correta. Se pede 'o que se depreende do texto', o pressuposto pode ser a resposta."
+      "explicacao": "Em provas, uma alternativa pode apresentar o pressuposto como se fosse informação explícita. Se a questão pede 'o que o texto afirma diretamente', o pressuposto não é a resposta correta. Se pede 'o que se depreende do texto', o pressuposto pode ser a resposta.",
+      "nivel": "basico"
     },
     {
       "titulo": "Inferência provável confundida com inferência necessária",
       "errado": "Aceitar como inferência válida qualquer conclusão provável ou razoável que o texto sugere.",
       "correto": "Em provas militares, apenas a inferência necessária — aquela que decorre logicamente e sem exceções das informações do texto — é aceita como correta.",
-      "explicacao": "O texto diz: 'O aluno não compareceu às aulas por três semanas.' Uma inferência provável seria: 'O aluno estava doente.' Mas isso não é necessário — ele pode ter viajado, estar em missão etc. A inferência necessária seria: 'O aluno ficou ausente por três semanas.' Apenas esta é inquestionável."
+      "explicacao": "O texto diz: 'O aluno não compareceu às aulas por três semanas.' Uma inferência provável seria: 'O aluno estava doente.' Mas isso não é necessário — ele pode ter viajado, estar em missão etc. A inferência necessária seria: 'O aluno ficou ausente por três semanas.' Apenas esta é inquestionável.",
+      "nivel": "intermediario"
     },
     {
       "titulo": "Negação do implícito como se fosse negação do explícito",
       "errado": "Afirmar que uma informação foi negada pelo texto quando, na verdade, o texto simplesmente não a menciona.",
       "correto": "Ausência de informação no texto não equivale à negação dessa informação. O texto que não fala sobre X não está negando X.",
-      "explicacao": "Alternativas do tipo 'O texto nega que...' são frequentemente armadilhas. Se o texto não menciona determinado fato, ele não o nega — apenas não o confirma. A distinção entre 'negar' e 'não afirmar' é sutil, mas crucial para a interpretação correta."
+      "explicacao": "Alternativas do tipo 'O texto nega que...' são frequentemente armadilhas. Se o texto não menciona determinado fato, ele não o nega — apenas não o confirma. A distinção entre 'negar' e 'não afirmar' é sutil, mas crucial para a interpretação correta.",
+      "nivel": "avancado"
     },
     {
       "titulo": "Subentendido como única interpretação possível",
       "errado": "Tratar um subentendido (que depende do contexto e pode variar) como se fosse a única leitura possível do texto.",
       "correto": "O subentendido é uma leitura possível, não necessária. Em provas, ele só é aceito como correto se o contexto textual praticamente não deixar outra interpretação.",
-      "explicacao": "Exemplo: 'Você vai ao banco hoje?' pode subentender que o interlocutor precisa fazer um pagamento — mas isso é apenas uma possibilidade contextual. Em prova, um subentendido ambíguo não pode ser a base de uma resposta correta. Prefira sempre a inferência ancorada em elementos textuais concretos."
+      "explicacao": "Exemplo: 'Você vai ao banco hoje?' pode subentender que o interlocutor precisa fazer um pagamento — mas isso é apenas uma possibilidade contextual. Em prova, um subentendido ambíguo não pode ser a base de uma resposta correta. Prefira sempre a inferência ancorada em elementos textuais concretos.",
+      "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
       "situacao": "A alternativa apresenta uma afirmação que parece óbvia e razoável, mas que o texto não sustenta diretamente nem permite inferir com necessidade lógica.",
-      "dica": "Volte ao texto. Localize o trecho que sustentaria essa alternativa. Se não encontrar nenhum trecho que a comprove ou permita inferi-la necessariamente, a alternativa está errada, por mais razoável que pareça ao senso comum."
+      "dica": "Volte ao texto. Localize o trecho que sustentaria essa alternativa. Se não encontrar nenhum trecho que a comprove ou permita inferi-la necessariamente, a alternativa está errada, por mais razoável que pareça ao senso comum.",
+      "nivel": "basico"
     },
     {
       "situacao": "A questão usa verbos como 'infere-se', 'depreende-se', 'conclui-se' e uma alternativa apresenta uma generalização ampla ('sempre', 'todo', 'nunca', 'apenas') que o texto não garante.",
-      "dica": "Generalizações absolutas raramente são sustentadas pelo texto, que costuma apresentar casos específicos. Se o texto fala de um caso particular e a alternativa generaliza para todos os casos, desconfie e rejeite."
+      "dica": "Generalizações absolutas raramente são sustentadas pelo texto, que costuma apresentar casos específicos. Se o texto fala de um caso particular e a alternativa generaliza para todos os casos, desconfie e rejeite.",
+      "nivel": "intermediario"
     },
     {
       "situacao": "Alternativas que atribuem intenção, sentimento ou julgamento de valor ao autor ou a personagens do texto, sem que isso esteja explicitamente dito ou claramente implicado.",
-      "dica": "O texto é o único parâmetro. Julgamentos como 'o autor critica', 'o personagem sente raiva', 'o texto condena' só podem ser marcados se houver elementos concretos no texto que comprovem essa leitura. Evite projetar suas próprias interpretações."
+      "dica": "O texto é o único parâmetro. Julgamentos como 'o autor critica', 'o personagem sente raiva', 'o texto condena' só podem ser marcados se houver elementos concretos no texto que comprovem essa leitura. Evite projetar suas próprias interpretações.",
+      "nivel": "avancado"
     }
   ],
   "questoes": [
