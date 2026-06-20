@@ -1269,3 +1269,18 @@ pm run build após cada etapa, todos finalizados com sucesso (Exit code 0).
   - src/data/conteudo/gram-12.json **[MODIFICADO]**
   - src/data/conteudo/comp-12.json **[MODIFICADO]**
   - RESUMO_MESTRE.md **[ATUALIZADO]**
+
+---
+
+### Parte 57 - Auditoria de Similaridade e Ajuste em gram-02
+- **Data e hora:** 20/06/2026 às 11:42 (Horário Local)
+- **O que foi feito:**
+  - Correção pontual em gram-02.json (Questão q04): gabarito ajustado de A para B e explicação reescrita, eliminando "raciocínio em voz alta" e reforçando a justificativa de concordância temporal.
+  - Auditoria de Similaridade Cruzada (Jaccard) concluída com sucesso entre os pares de arquivos recentemente substituídos e seus originais correspondentes (gram-02 vs gram-01, gram-07 vs gram-06, gram-12 vs gram-11 e comp-12 vs comp-11).
+  - Verificou-se que não há sobreposição de conteúdo (0 questões similares acima de 85% e similaridade média teórica de ~15%).
+  - Validação final via 
+px tsc --noEmit e 
+pm run build confirmada com Exit code 0.
+- **Arquivos modificados:**
+  - src/data/conteudo/gram-02.json **[MODIFICADO]**
+  - RESUMO_MESTRE.md **[ATUALIZADO]**
