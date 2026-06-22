@@ -92,7 +92,7 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
   }, [assunto.id, nivel]);
 
   return (
-    <div className="space-y-6 max-w-4xl mx-auto animate-in fade-in duration-300">
+    <div className="space-y-6 w-full animate-in fade-in duration-300">
       {/* Cabeçalho / Voltar */}
       <div className="flex items-center justify-between">
         <button

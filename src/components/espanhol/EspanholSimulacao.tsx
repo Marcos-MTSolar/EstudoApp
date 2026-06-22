@@ -142,7 +142,7 @@ export default function EspanholSimulacao({ onVoltar }: EspanholSimulacaoProps) 
 
   // ── Tela de configuração ──────────────────────────────────────────────────
   if (fase === 'config') return (
-    <div style={{ padding: '1.5rem', maxWidth: 600, margin: '0 auto' }}>
+    <div style={{ padding: '1.5rem', width: '100%' }}>
       <button onClick={onVoltar} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1.5rem' }}>
         <ArrowLeft size={18} /> Voltar
       </button>
@@ -185,7 +185,7 @@ export default function EspanholSimulacao({ onVoltar }: EspanholSimulacaoProps) 
     const corTempo = tempoPerc > 33 ? '#22c55e' : tempoPerc > 15 ? '#f59e0b' : '#ef4444';
 
     return (
-      <div style={{ padding: '1.5rem', maxWidth: 720, margin: '0 auto' }}>
+      <div style={{ padding: '1.5rem', width: '100%' }}>
         {/* Header */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
           <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
@@ -265,7 +265,7 @@ export default function EspanholSimulacao({ onVoltar }: EspanholSimulacaoProps) 
   const cor = percentual >= 70 ? '#22c55e' : percentual >= 50 ? '#f59e0b' : '#ef4444';
 
   return (
-    <div style={{ padding: '1.5rem', maxWidth: 720, margin: '0 auto' }}>
+    <div style={{ padding: '1.5rem', width: '100%' }}>
       <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
         <Trophy size={44} color={cor} />
         <h2 style={{ margin: '0.5rem 0 0.25rem', color: 'var(--text-primary)' }}>

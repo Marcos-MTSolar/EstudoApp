@@ -78,7 +78,7 @@ export default function RM2Desafio({ desafio, assuntoNome, onVoltar, onFinalizou
     const percent = questoes.length > 0 ? Math.round((acertos / questoes.length) * 100) : 0;
 
     return (
-      <div className="space-y-6 max-w-3xl mx-auto animate-in fade-in duration-300">
+      <div className="space-y-6 w-full animate-in fade-in duration-300">
         {/* Cabeçalho */}
         <div className="bg-surface border border-border rounded-3xl p-6 md:p-8 space-y-6 shadow-md text-center">
           <div className="space-y-2">
@@ -87,13 +87,13 @@ export default function RM2Desafio({ desafio, assuntoNome, onVoltar, onFinalizou
           </div>
 
           {topicosMesclados.length > 0 && (
-            <div className="text-xs text-gray-300 bg-black/25 p-4 rounded-2xl border border-border/60 max-w-xl mx-auto text-left space-y-1">
+            <div className="text-xs text-gray-300 bg-black/25 p-4 rounded-2xl border border-border/60 w-full text-left space-y-1">
               <span className="font-black uppercase tracking-wider text-blue-400 block text-[10px]">Tópicos Mesclados neste Desafio:</span>
               <p className="leading-relaxed">{topicosMesclados.join(', ')}</p>
             </div>
           )}
 
-          <div className="bg-black/20 p-5 rounded-2xl border border-border flex justify-around items-center max-w-sm mx-auto">
+          <div className="bg-black/20 p-5 rounded-2xl border border-border flex justify-around items-center w-full">
             <div>
               <p className="text-[10px] uppercase font-black text-gray-500 tracking-wider">Pontuação Total</p>
               <p className="text-2xl font-black text-white mt-1">{acertos} de {questoes.length} acertos</p>
@@ -205,7 +205,7 @@ export default function RM2Desafio({ desafio, assuntoNome, onVoltar, onFinalizou
 
   // Renderiza a questão ativa do Desafio
   return (
-    <div className="space-y-6 max-w-3xl mx-auto animate-in fade-in duration-300">
+    <div className="space-y-6 w-full animate-in fade-in duration-300">
       {/* Progresso */}
       <div className="flex items-center justify-between text-xs text-gray-400">
         <span className="font-bold">Desafio — Questão {currentIdx + 1} de {questoes.length}</span>

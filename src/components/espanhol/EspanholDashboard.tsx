@@ -12,7 +12,7 @@ export default function EspanholDashboard({ onNavigate }: Props) {
   const percentualGeral = Math.round((totalConcluidos / totalAssuntos) * 100);
 
   return (
-    <div style={{ padding: '1.5rem', maxWidth: '800px', margin: '0 auto' }}>
+    <div style={{ padding: '1.5rem', width: '100%' }}>
       <div style={{ marginBottom: '2rem' }}>
         <h1 style={{ fontSize: '1.75rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
           🇪🇸 Espanhol — DELE B1

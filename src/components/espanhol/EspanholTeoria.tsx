@@ -48,7 +48,7 @@ export default function EspanholTeoria({ assunto, onVoltar }: Props) {
   const qtdCascas = nivel === 'basico' ? 1 : nivel === 'intermediario' ? 2 : undefined;
 
   return (
-    <div style={{ padding: '1.5rem', maxWidth: '800px', margin: '0 auto' }}>
+    <div style={{ padding: '1.5rem', width: '100%' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
         <button onClick={handleVoltar} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.9rem' }}>
           <ArrowLeft size={18} /> Voltar

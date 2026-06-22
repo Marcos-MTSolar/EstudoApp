@@ -122,7 +122,7 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
   // Renderiza Loading
   if (loading) {
     return (
-      <div className="bg-surface border border-border rounded-3xl p-16 text-center flex flex-col items-center justify-center min-h-[350px] max-w-xl mx-auto">
+      <div className="bg-surface border border-border rounded-3xl p-16 text-center flex flex-col items-center justify-center min-h-[350px] w-full">
         <Loader2 className="w-10 h-10 text-blue-500 animate-spin mb-4" />
         <h3 className="font-bold text-white text-base">Gerando base de questões...</h3>
         <p className="text-xs text-gray-500 mt-1">Elaborando enunciados e explicações no padrão da prova.</p>
@@ -171,7 +171,7 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
     };
 
     return (
-      <div className="space-y-6 max-w-3xl mx-auto animate-in fade-in duration-300">
+      <div className="space-y-6 w-full animate-in fade-in duration-300">
         {/* Cabeçalho */}
         <div className="bg-surface border border-border rounded-3xl p-6 md:p-8 space-y-6 shadow-md text-center">
           <div className="space-y-2">
@@ -301,7 +301,7 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
   // Renderiza Configuração Inicial
   if (questoes.length === 0 && !loading && !desafioData) {
     return (
-      <div className="space-y-6 max-w-xl mx-auto animate-in fade-in duration-300">
+      <div className="space-y-6 w-full animate-in fade-in duration-300">
         <button onClick={onVoltar} className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-gray-400 hover:text-white transition-colors">
           <ArrowLeft className="w-4 h-4" /> Voltar
         </button>
@@ -372,7 +372,7 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
   const responds = userResp !== undefined;
 
   return (
-    <div className="space-y-6 max-w-3xl mx-auto animate-in fade-in duration-300">
+    <div className="space-y-6 w-full animate-in fade-in duration-300">
       
       {/* Progresso de Questões */}
       <div className="flex items-center justify-between text-xs text-gray-400">

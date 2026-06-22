@@ -176,7 +176,7 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
   // --- TELA 1: PREPARAÇÃO/REGRAS ---
   if (!started && !showResult) {
     return (
-      <div className="space-y-6 max-w-xl mx-auto animate-in fade-in duration-300">
+      <div className="space-y-6 w-full animate-in fade-in duration-300">
         <button onClick={onVoltar} className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-gray-400 hover:text-white transition-colors">
           <ArrowLeft className="w-4 h-4" /> Voltar
         </button>
@@ -239,7 +239,7 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
   // --- TELA 2: PROVA ATIVA (EXIBE TODAS AS QUESTÕES) ---
   if (started && !showResult) {
     return (
-      <div className="space-y-6 max-w-4xl mx-auto pb-16 animate-in fade-in duration-300">
+      <div className="space-y-6 w-full pb-16 animate-in fade-in duration-300">
         
         {/* Sticky Header com Cronômetro e Progresso */}
         <div className="sticky top-0 z-40 bg-bg/95 backdrop-blur-md border-b border-border/80 py-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
@@ -250,7 +250,7 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
             </span>
           </div>
 
-          <div className="flex items-center gap-4 flex-1 max-w-md">
+          <div className="flex items-center gap-4 flex-1 w-full">
             <div className="flex-1 space-y-1">
               <div className="flex justify-between text-[10px] uppercase font-black tracking-wider text-gray-500">
                 <span>Progresso</span>
@@ -355,7 +355,7 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
   // --- TELA 3: FEEDBACK / RESULTADOS ---
   if (showResult && resultadoFinal) {
     return (
-      <div className="space-y-6 max-w-4xl mx-auto pb-16 animate-in fade-in duration-300">
+      <div className="space-y-6 w-full pb-16 animate-in fade-in duration-300">
         
         {/* Painel Geral */}
         <div className="bg-gradient-to-r from-slate-900 to-blue-950 border border-blue-900/40 rounded-3xl p-6 md:p-8 text-center space-y-6">
@@ -370,7 +370,7 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
             </p>
           </div>
 
-          <div className="bg-black/35 p-5 rounded-2xl border border-border max-w-sm mx-auto flex justify-around items-center">
+          <div className="bg-black/35 p-5 rounded-2xl border border-border w-full flex justify-around items-center">
             <div>
               <p className="text-[10px] uppercase font-black text-gray-500 tracking-wider">Acertos</p>
               <p className="text-2xl font-black text-emerald-400 mt-1">

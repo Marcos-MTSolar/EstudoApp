@@ -1284,3 +1284,24 @@ pm run build confirmada com Exit code 0.
 - **Arquivos modificados:**
   - src/data/conteudo/gram-02.json **[MODIFICADO]**
   - RESUMO_MESTRE.md **[ATUALIZADO]**
+
+
+---
+
+### Parte 58 - Otimizacao de Layout RM2 e Espanhol
+- **Data e hora:** 22/06/2026 11:33
+- **O que foi feito:**
+  - Removidas restricoes de largura horizontal (max-w-*) e centralizacoes que limitavam a largura (mx-auto) dos componentes dos modulos RM2 e Espanhol.
+  - Alterado o layout de wrappers para usar w-full ou width: 100%, permitindo a utilizacao de toda a tela em diferentes resolucoes.
+  - Modificacoes focadas unicamente em estilo, nao alterando a logica dos componentes.
+  - Validacao via npx tsc --noEmit e npm run build concluida com sucesso (Exit code 0).
+- **Arquivos modificados:**
+  - src/components/rm2/RM2Cronograma.tsx **[MODIFICADO]**
+  - src/components/rm2/RM2Saude.tsx **[MODIFICADO]**
+  - src/components/rm2/RM2Configuracoes.tsx **[MODIFICADO]**
+  - src/components/espanhol/EspanholDashboard.tsx **[MODIFICADO]**
+  - src/components/espanhol/EspanholTeoria.tsx **[MODIFICADO]**
+  - src/components/espanhol/EspanholQuestoes.tsx **[MODIFICADO]**
+  - src/components/espanhol/EspanholSimulacao.tsx **[MODIFICADO]**
+  - src/components/espanhol/EstudoEspanhol.tsx **[MODIFICADO]**
+  - RESUMO_MESTRE.md **[ATUALIZADO]**

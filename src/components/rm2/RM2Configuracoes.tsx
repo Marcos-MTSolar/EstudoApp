@@ -28,7 +28,7 @@ export function RM2Configuracoes() {
   };
 
   return (
-    <div className="space-y-6 max-w-2xl animate-in fade-in duration-300">
+    <div className="space-y-6 w-full animate-in fade-in duration-300">
 
       {/* Header */}
       <div className="bg-surface rounded-3xl p-6 border border-border shadow-md">

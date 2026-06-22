@@ -456,7 +456,7 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
   };
 
   return (
-    <div className="space-y-6 max-w-5xl mx-auto animate-in fade-in duration-300 text-gray-200">
+    <div className="space-y-6 w-full animate-in fade-in duration-300 text-gray-200">
       
       {/* ===== 1. BANNER INFORMATIVO NO TOPO ===== */}
       <div className="bg-gradient-to-r from-slate-900 to-blue-950/80 border border-blue-500/20 rounded-3xl p-6 shadow-xl space-y-4">

@@ -142,7 +142,7 @@ export default function EspanholQuestoes({ assunto, onVoltar }: EspanholQuestoes
     const cor = percentual >= 70 ? '#22c55e' : percentual >= 50 ? '#f59e0b' : '#ef4444';
 
     return (
-      <div style={{ padding: '1.5rem', maxWidth: 720, margin: '0 auto' }}>
+      <div style={{ padding: '1.5rem', width: '100%' }}>
         <button onClick={onVoltar} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1.5rem' }}>
           <ArrowLeft size={18} /> Voltar ao módulo
         </button>
@@ -206,7 +206,7 @@ export default function EspanholQuestoes({ assunto, onVoltar }: EspanholQuestoes
   if (!questaoAtual) return null;
 
   return (
-    <div style={{ padding: '1.5rem', maxWidth: 720, margin: '0 auto' }}>
+    <div style={{ padding: '1.5rem', width: '100%' }}>
       {/* Cabeçalho */}
       <button onClick={onVoltar} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
         <ArrowLeft size={18} /> Voltar
