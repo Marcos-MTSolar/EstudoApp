@@ -1305,3 +1305,17 @@ pm run build confirmada com Exit code 0.
   - src/components/espanhol/EspanholSimulacao.tsx **[MODIFICADO]**
   - src/components/espanhol/EstudoEspanhol.tsx **[MODIFICADO]**
   - RESUMO_MESTRE.md **[ATUALIZADO]**
+
+
+---
+
+### Parte 59 - Remove max-w-5xl e mx-auto do EstudoRM2
+- **Data e hora:** 22/06/2026 11:42
+- **O que foi feito:**
+  - Removido max-w-5xl e mx-auto do wrapper raiz do componente EstudoRM2.tsx (linha 214), substituindo por w-full.
+  - Removido max-w-xl e mx-auto do seletor de modo simulado (linha 142), substituindo por w-full.
+  - App.tsx e EstudoEspanhol.tsx verificados e confirmados sem restricoes de largura.
+  - Validacao via npx tsc --noEmit (zero erros) e npm run build (Exit code 0) com sucesso.
+- **Arquivos modificados:**
+  - src/components/EstudoRM2.tsx **[MODIFICADO]**
+  - RESUMO_MESTRE.md **[ATUALIZADO]**

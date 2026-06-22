@@ -139,7 +139,7 @@ export function EstudoRM2() {
       case 'simulado':
         if (!simuladoModo) {
           return (
-            <div className="max-w-xl mx-auto space-y-6 animate-in fade-in duration-300">
+            <div className="w-full space-y-6 animate-in fade-in duration-300">
               <div className="space-y-2">
                 <h2 className="text-xl font-heading font-black text-white">Modo Simulado</h2>
                 <p className="text-xs text-gray-400">Escolha o formato do simulado para testar seus conhecimentos.</p>
@@ -211,7 +211,7 @@ export function EstudoRM2() {
   };
 
   return (
-    <div className="p-4 md:p-8 max-w-5xl mx-auto w-full flex flex-col gap-6">
+    <div className="p-4 md:p-8 w-full flex flex-col gap-6">
 
       {/* Cabeçalho fixo do módulo com sub-navegação */}
       <div className="space-y-4">
