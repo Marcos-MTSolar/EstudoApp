@@ -1390,3 +1390,25 @@ pm run build\ concluídos com êxito (Exit code 0).
   - \src/data/conteudo/gram-14.json\ **[MODIFICADO]**
   - \src/data/conteudo/comp-13.json\ **[MODIFICADO]**
   - \RESUMO_MESTRE.md\ **[ATUALIZADO]**
+
+
+---
+
+### Parte 62 — Redistribuição posicional de gabaritos em comp-10.json (intermediário)
+- **Data e hora:** 22/06/2026 15:54
+- **O que foi feito:**
+  - Reposicionamento das alternativas corretas (que estavam todas na posição "A") para mitigar viés posicional nas questões de nível intermediário no arquivo \comp-10.json\.
+  - As alternativas foram preservadas integralmente, apenas suas chaves foram permutadas para posicionar a correta na letra designada.
+  - \q11\: Gabarito movido para "C".
+  - \q12\: Gabarito movido para "B".
+  - \q13\: Gabarito movido para "D".
+  - \q14\: Gabarito movido para "C".
+  - \q15\: Gabarito movido para "B".
+  - \q16\: Gabarito movido para "D".
+  - \q18\: Gabarito movido para "C".
+  - Validação: \
+px tsc --noEmit\ e \
+pm run build\ concluídos com êxito (Exit code 0).
+- **Arquivos modificados:**
+  - \src/data/conteudo/comp-10.json\ **[MODIFICADO]**
+  - \RESUMO_MESTRE.md\ **[ATUALIZADO]**
