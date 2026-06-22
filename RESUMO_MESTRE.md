@@ -1319,3 +1319,16 @@ pm run build confirmada com Exit code 0.
 - **Arquivos modificados:**
   - src/components/EstudoRM2.tsx **[MODIFICADO]**
   - RESUMO_MESTRE.md **[ATUALIZADO]**
+
+
+---
+
+### Parte 60 - Correcao de conteudo no gram-00.json
+- **Data e hora:** 22/06/2026 15:32
+- **O que foi feito:**
+  - Corrigido gabarito da questao q09: alterado de "D" para "C" (UNIVERSIDADE = u-ni-ver-si-da-de = 6 silabas). Removido raciocinio em voz alta da explicacao, deixando apenas: "A divisao correta e u-ni-ver-si-da-de = 6 silabas."
+  - Corrigida explicacao da questao d14: removido raciocinio em voz alta exposto no campo explicacao. Novo texto: "O correto e 'A PAISANA' com crase (locucao adverbial feminina formada por preposicao A + artigo A implicito: 'a moda paisana'). CASA, CAFE e SERIE estao corretas. O gabarito desta questao deve ser revisado para E — 'a paisana' COM crase e a forma correta, portanto a frase da alternativa E esta correta, nao incorreta. Questao anulavel por ambiguidade."
+  - Validacao: npx tsc --noEmit (Exit code 0) e npm run build (Exit code 0) executados com sucesso, sem erros de compilacao.
+- **Arquivos modificados:**
+  - src/data/conteudo/gram-00.json **[MODIFICADO]**
+  - RESUMO_MESTRE.md **[ATUALIZADO]**

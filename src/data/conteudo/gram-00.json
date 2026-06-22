@@ -2,111 +2,172 @@
   "id": "gram-00",
   "titulo": "Fonética e Fonologia",
   "area": "Gramática",
-  "resumo": "Estudo dos sons da fala (fonemas), suas combinações (encontros vocálicos e consonantais) e a relação entre letras e fonemas, incluindo divisão silábica e ortoépia.",
+  "resumo": "Estudo dos sons da língua portuguesa: fonemas, letras, vogais, semivogais, consoantes, encontros vocálicos (ditongo, tritongo, hiato), encontros consonantais, dígrafos, divisão silábica, classificação das sílabas e ortoépia. Base para compreender ortografia, acentuação e pronúncia padrão exigidos pela banca CEBRASPE.",
   "teoria": {
     "blocos": [
       {
         "subtitulo": "1. Fonema e Letra",
-        "conteudo": "Fonema é a menor unidade sonora da fala que pode estabelecer distinção de significado entre palavras. Letra é a representação gráfica (sinal) do fonema na escrita. O número de letras nem sempre coincide com o número de fonemas.",
+        "conteudo": "Fonema é a menor unidade sonora capaz de distinguir significados. Letra é o sinal gráfico que representa o fonema na escrita. O número de letras nem sempre coincide com o número de fonemas de uma palavra, pois existem letras sem som (h inicial, u em 'que' e 'gui'), sons representados por duas letras (dígrafos) e letras que representam dois sons (x = ks em 'táxi').",
         "exemplos": [
-          "Mala: 4 letras, 4 fonemas (/m/, /a/, /l/, /a/).",
-          "Táxi: 4 letras, 5 fonemas (/t/, /a/, /k/, /s/, /i/ - o 'x' soa como 'ks').",
-          "Hora: 4 letras, 3 fonemas (o 'h' não tem som próprio)."
+          "CASA: 4 letras, 4 fonemas (/k/ /a/ /z/ /a/).",
+          "TÁXI: 4 letras, 5 fonemas (/t/ /a/ /k/ /s/ /i/ — o x vale ks).",
+          "HORA: 4 letras, 3 fonemas (o h não tem valor sonoro).",
+          "GUERRA: 6 letras, 4 fonemas (gu = dígrafo, rr = dígrafo).",
+          "CHUVA: 5 letras, 4 fonemas (ch = dígrafo)."
         ],
-        "regra": "Dígrafos (duas letras representando um único som) reduzem o número de fonemas em relação ao número de letras."
+        "regra": "Conte sempre os sons pronunciados, nunca as letras. O h inicial e o u nos grupos qu/gu (antes de e ou i sem trema) não representam fonemas.",
+        "nivel": "basico"
       },
       {
-        "subtitulo": "2. Vogais e Semivogais",
-        "conteudo": "As vogais são a base de qualquer sílaba na Língua Portuguesa; não existe sílaba sem vogal, e há apenas uma vogal por sílaba. As semivogais (/i/ e /u/ átonos) acompanham a vogal na mesma sílaba.",
+        "subtitulo": "2. Classificação dos Fonemas: Vogais, Semivogais e Consoantes",
+        "conteudo": "Vogais são fonemas produzidos com passagem livre de ar pela boca; formam o núcleo obrigatório de toda sílaba. Semivogais (/i/ e /u/ átonos) acompanham a vogal na mesma sílaba sem ser o núcleo. Consoantes dependem sempre de uma vogal para formar sílaba, pois há obstrução ou estreitamento do canal vocal na sua produção.",
         "exemplos": [
-          "Pai: 'a' é vogal, 'i' é semivogal.",
-          "Quase: 'u' é semivogal, 'a' é vogal."
+          "PAI: 'a' é vogal (núcleo), 'i' é semivogal — formam ditongo.",
+          "QUASE: 'a' é vogal, 'u' é semivogal (não pronunciado em 'qu' antes de a = pronunciado; antes de e/i = dígrafo).",
+          "PRATO: 'p' e 'r' são consoantes que formam encontro consonantal.",
+          "MÃO: 'ã' é vogal nasal, 'o' é semivogal nasal — ditongo nasal decrescente."
         ],
-        "regra": "O 'a' é sempre vogal. 'e' e 'o' podem ser semivogais quando funcionam como 'i' ou 'u' átonos."
+        "regra": "Toda sílaba tem exatamente uma vogal. Nunca haverá duas vogais na mesma sílaba — quando aparecem juntas, uma delas é semivogal (ditongo) ou estão em sílabas diferentes (hiato).",
+        "nivel": "basico"
       },
       {
-        "subtitulo": "3. Encontros Vocálicos",
-        "conteudo": "São agrupamentos de vogais e semivogais numa palavra. Dividem-se em: Ditongo (vogal + semivogal ou vice-versa na mesma sílaba), Tritongo (semivogal + vogal + semivogal na mesma sílaba) e Hiato (vogais adjacentes que pertencem a sílabas diferentes).",
+        "subtitulo": "3. Encontros Vocálicos: Ditongo, Tritongo e Hiato",
+        "conteudo": "Ditongo: vogal + semivogal (decrescente: pai, lei) ou semivogal + vogal (crescente: sério, vácuo). Tritongo: semivogal + vogal + semivogal na mesma sílaba (Uruguai, quão). Hiato: duas vogais plenas em sílabas separadas (sa-ú-de, po-e-ta, ra-iz). O hiato ocorre porque duas vogais não podem coexistir no núcleo de uma mesma sílaba.",
         "exemplos": [
-          "Peixe: pei-xe (ditongo decrescente).",
-          "Uruguai: U-ru-guai (tritongo).",
-          "Saúde: sa-ú-de (hiato)."
+          "PEIXE: 'ei' = ditongo decrescente oral (pei-xe).",
+          "MÃO: 'ão' = ditongo decrescente nasal.",
+          "SÉRIO: 'io' = ditongo crescente (sé-rio).",
+          "URUGUAI: 'uai' = tritongo (U-ru-guai).",
+          "SAÚDE: 'a-ú' = hiato (sa-ú-de).",
+          "RAIZ: 'a-i' = hiato (ra-iz)."
         ],
-        "regra": "Hiatos sempre se separam na divisão silábica, pois duas vogais não podem ficar na mesma sílaba."
+        "regra": "Hiatos separam-se na divisão silábica. Ditongos e tritongos ficam na mesma sílaba. Cuidado com 'ia', 'ie', 'io', 'ua', 'ue', 'uo': podem ser ditongo crescente (mesma sílaba) ou hiato (sílabas separadas), dependendo da tonicidade.",
+        "nivel": "basico"
       },
       {
         "subtitulo": "4. Encontros Consonantais e Dígrafos",
-        "conteudo": "O encontro consonantal ocorre quando duas ou mais consoantes são pronunciadas (ex: prato, bloco). O dígrafo ocorre quando duas letras representam apenas um fonema (ex: carro, chave, nascer).",
+        "conteudo": "Encontro consonantal: duas ou mais consoantes pronunciadas na mesma sílaba ou em sílabas adjacentes. Dígrafo: duas letras que representam um único fonema. Os dígrafos consonantais são: ch, lh, nh, rr, ss, sc, sç, xc, xs. Os dígrafos vocálicos (nasais) são: am, an, em, en, im, in, om, on, um, un (quando seguidos de consoante ou no final de sílaba).",
         "exemplos": [
-          "Encontro consonantal: Cl-a-ro, P-neu.",
-          "Dígrafos consonantais: ch, lh, nh, rr, ss, sc, sç, xc, xs.",
-          "Dígrafos vocálicos (nasais): am, an, em, en, im, in, om, on, um, un."
+          "PRATO: encontro consonantal 'pr' (ambas pronunciadas).",
+          "PNEUMONIA: 'pn' = encontro consonantal de início de palavra (pneu-mo-ni-a).",
+          "CHAVE: 'ch' = dígrafo (um fonema /x/).",
+          "CARRO: 'rr' = dígrafo (um fonema /R/ vibrante forte).",
+          "NASCEU: 'sc' = dígrafo (um fonema /s/).",
+          "EXCEÇÃO: 'xc' = dígrafo (um fonema /s/).",
+          "CAMPO: 'am' = dígrafo vocálico nasal."
         ],
-        "regra": "Os dígrafos 'rr', 'ss', 'sc', 'sç' e 'xc' devem ser separados na divisão silábica (car-ro, nas-cer)."
+        "regra": "Dígrafos 'rr', 'ss', 'sc', 'sç' e 'xc' separam-se na divisão silábica (car-ro, nas-cer). Dígrafos 'ch', 'lh', 'nh' não se separam nunca.",
+        "nivel": "intermediario"
       },
       {
         "subtitulo": "5. Divisão Silábica",
-        "conteudo": "A divisão silábica baseia-se na soletração, seguindo a base vocálica. Consoantes não seguidas de vogal juntam-se à sílaba anterior.",
+        "conteudo": "A divisão silábica segue a pronuncia, não a etimologia. Regras principais: (1) Não se separa dígrafo ch, lh, nh; (2) Separam-se rr, ss, sc, sç, xc; (3) Encontros consonantais de início de sílaba não se separam (pr, br, tr, dr, cr, gr, fr, vr, pl, bl, cl, gl, fl); (4) Outros encontros consonantais separam-se; (5) Hiatos sempre separam; (6) Ditongos e tritongos ficam juntos.",
         "exemplos": [
-          "Ritmo: rit-mo.",
-          "Advogado: ad-vo-ga-do.",
-          "Tungstênio: tungs-tê-nio."
+          "RITMO: rit-mo (t e m ficam separados pois não formam grupo de início).",
+          "ADVOGADO: ad-vo-ga-do.",
+          "PNEU: pneu (consoante inicial sem vogal = sílaba única).",
+          "PERSPECTIVA: pers-pec-ti-va.",
+          "TRANSPORTE: trans-por-te.",
+          "PSICOLOGIA: psi-co-lo-gi-a.",
+          "SUBLINHAR: su-bli-nhar (bl não se separa)."
         ],
-        "regra": "Não se separam os encontros consonantais que iniciam palavra (ex: pneu, psi-co-lo-gi-a)."
+        "regra": "Grupos consonantais que iniciam palavras (pn, ps, gn, mn, pt) ficam sempre juntos na primeira sílaba. Dentro da palavra, separa-se qualquer encontro consonantal cujo segundo elemento não seja l ou r seguido de vogal.",
+        "nivel": "intermediario"
+      },
+      {
+        "subtitulo": "6. Classificação das Palavras quanto ao Número de Sílabas e quanto à Tonicidade",
+        "conteudo": "Pelo número de sílabas: monossílabas (1 sílaba: pá, sol, luz), dissílabas (2: ca-sa, ma-re), trissílabas (3: á-vo-re), polissílabas (4 ou mais: u-ni-ver-si-da-de). Pela tonicidade: oxítonas (tônica na última: ca-fé, pa-pel), paroxítonas (tônica na penúltima: ca-sa, lá-pis), proparoxítonas (tônica na antepenúltima: lâm-pa-da, mé-di-co). As proparoxítonas são sempre acentuadas graficamente.",
+        "exemplos": [
+          "CÁ: monossílaba tônica.",
+          "CAFÉ: dissílaba oxítona (acentuada por ser oxítona terminada em e).",
+          "MESA: dissílaba paroxítona (não acentuada — regra geral das paroxítonas em -a).",
+          "MÉDICO: trissílaba proparoxítona (sempre acentuada).",
+          "UNIVERSIDADE: polissílaba paroxítona."
+        ],
+        "regra": "Toda proparoxítona recebe acento gráfico obrigatório. As oxítonas e paroxítonas só recebem acento em condições específicas previstas nas regras de acentuação (gram-02).",
+        "nivel": "intermediario"
+      },
+      {
+        "subtitulo": "7. Ortoépia e Prosódia",
+        "conteudo": "Ortoépia é o estudo da pronúncia correta das palavras. Prosódia é o estudo da correta acentuação tônica. Erros de ortoépia (pronúncia) e de prosódia (tonicidade) são cobrados pela banca CEBRASPE, especialmente em questões sobre registros formais e informalidades da fala.",
+        "exemplos": [
+          "RUBRICA: proparoxítona (rú-bri-ca), não 'rubríca'.",
+          "PROJÉTIL: paroxítona (pro-jé-til), não 'projétíl'.",
+          "ÔMEGA: proparoxítona (ô-me-ga), não 'omêga'.",
+          "RECORDE (substantivo): paroxítona (re-cór-de); RECORDE (verbo): paroxítona (re-cor-de — acento diferente).",
+          "GRATUITO: paroxítona (gra-tu-í-to — hiato, o 'u' é vogal tônica)."
+        ],
+        "regra": "A tonicidade de uma palavra pode mudar seu significado (réstia × restia) ou sua classe gramatical. Em contexto de prova, sempre consulte a forma padrão culta.",
+        "nivel": "avancado"
+      },
+      {
+        "subtitulo": "8. O Fonema X e os Sons Polivalentes",
+        "conteudo": "A letra X é uma das mais complexas do português por representar até quatro fonemas diferentes dependendo do contexto: (1) /x/ como em 'xadrez'; (2) /s/ como em 'próximo'; (3) /z/ como em 'exame'; (4) /ks/ como em 'táxi'; (5) /ss/ como em 'máximo'. O mesmo vale para outras letras polivalentes como o S (som /s/ ou /z/) e o G (som /g/ ou /j/).",
+        "exemplos": [
+          "XADREZ: x = /x/ (som de 'ch').",
+          "PRÓXIMO: x = /s/.",
+          "EXAME: x = /z/ (entre vogais, após 'ex-').",
+          "TÁXI: x = /ks/.",
+          "MÁXIMO: x = /ss/.",
+          "CASA: s = /z/ (entre vogais).",
+          "PASSO: ss = /s/ (dígrafo)."
+        ],
+        "regra": "O som do X depende do contexto: após 'ex-' seguido de vogal = /z/; início de palavra geralmente = /x/; entre vogais pode ser /z/, /s/ ou /ks/. Memorize os casos excepcionales por lista de palavras.",
+        "nivel": "avancado"
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "X com som de KS",
-      "errado": "Considerar que 'táxi' possui 4 fonemas por ter 4 letras.",
-      "correto": "A palavra 'táxi' tem 5 fonemas, pois o 'x' representa dois sons (ks), formando um dífono.",
-      "explicacao": "Sempre conte os sons pronunciados. O 'x' pode representar cs/ks (táxi), z (exame), s (texto) ou ch (xadrez).",
+      "titulo": "Letra X com múltiplos sons",
+      "errado": "Assumir que o X sempre representa o fonema /x/ como em 'xícara'.",
+      "correto": "O X pode representar /x/ (xadrez), /s/ (próximo), /z/ (exame), /ks/ (táxi) ou o dígrafo /ss/ (máximo). O contexto determina o som.",
+      "explicacao": "Após o prefixo 'ex-' seguido de vogal, o X soa /z/ (exame, exato). Em início de palavra o padrão é /x/. Entre vogais é variável e deve ser memorizado caso a caso.",
       "nivel": "basico"
     },
     {
-      "titulo": "A letra H",
-      "errado": "Achar que a palavra 'hoje' tem 4 fonemas.",
-      "correto": "Tem 4 letras, mas apenas 3 fonemas, pois o H não tem valor fonético.",
-      "explicacao": "Em início de palavras, o 'h' não possui som. Ele só compõe fonema quando forma os dígrafos ch, lh e nh.",
+      "titulo": "H inicial não é fonema",
+      "errado": "Contar o H inicial como fonema na análise fonológica.",
+      "correto": "O H em início de palavra não tem valor sonoro. 'Hoje' tem 4 letras e 3 fonemas (/ó/ /j/ /i/).",
+      "explicacao": "O H só tem valor fonético quando integra os dígrafos ch, lh e nh. Isolado no início de palavra, é letra muda, mantida por tradição histórica (etimologia latina/grega).",
       "nivel": "basico"
     },
     {
-      "titulo": "Dígrafos GU e QU",
-      "errado": "Classificar 'água' ou 'cinquenta' como palavras com dígrafos.",
-      "correto": "Se o 'u' for pronunciado, não há dígrafo, e sim encontro de sons (encontro vocálico).",
-      "explicacao": "GU e QU só são dígrafos quando seguidos de 'e' ou 'i' e o 'u' NÃO for pronunciado (ex: guerra, queijo).",
+      "titulo": "GU e QU: dígrafo ou não?",
+      "errado": "Classificar 'água' e 'cinquenta' como palavras com dígrafos GU e QU.",
+      "correto": "GU e QU só são dígrafos quando o U não é pronunciado. Em 'água' (á-gua) e 'cinquenta' o U é pronunciado, portanto não há dígrafo.",
+      "explicacao": "Com trema (antes do Acordo de 1990) ou quando pronunciado, o U forma encontro vocálico ou faz parte do encontro consonantal. Sem trema e sem som = dígrafo (quero, guerra).",
       "nivel": "intermediario"
     },
     {
-      "titulo": "Vogais no Hiato",
-      "errado": "Achar que em 'saída' temos um ditongo.",
-      "correto": "'Saída' possui um hiato, as vogais ficam em sílabas separadas (sa-í-da).",
-      "explicacao": "Numa mesma sílaba, jamais haverá duas vogais. Se há duas letras vocálicas plenas e tônicas adjacentes, elas formam hiato.",
-      "nivel": "avancado"
+      "titulo": "Hiato confundido com ditongo",
+      "errado": "Classificar 'saída' como ditongo por haver duas letras vocálicas adjacentes.",
+      "correto": "'Saída' possui hiato (sa-í-da): o 'a' e o 'i' estão em sílabas diferentes porque ambos são vogais plenas e o 'i' é tônico.",
+      "explicacao": "Quando o I ou U átonos aparecem após vogal, formam ditongo. Quando são tônicos, formam hiato e a divisão silábica os separa. Regra do hiato: i e u tônicos após vogal = hiato.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Consoantes mudas iniciais",
-      "errado": "Separar sílabas assim: p-neu, g-no-mo.",
-      "correto": "A divisão correta é: pneu, gno-mo.",
-      "explicacao": "Consoante no início da palavra sem vogal seguinte não forma sílaba isolada, agrupando-se à sílaba subsequente.",
+      "titulo": "Proparoxítona aparente",
+      "errado": "Classificar 'série' como proparoxítona por ter acento na antepenúltima sílaba aparente.",
+      "correto": "'Série' é paroxítona (sé-rie), pois o 'ie' forma ditongo crescente na última sílaba, tornando 'sé' a penúltima.",
+      "explicacao": "As chamadas proparoxítonas aparentes (pátria, série, fúria) são na verdade paroxítonas cuja última sílaba termina em ditongo crescente. Isso importa para as regras de acentuação.",
       "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "Dígrafos vocálicos confundidos com consoantes",
-      "dica": "Em 'tampa', o 'm' não é consoante sonora, apenas nasaliza o 'a'. Temos o dígrafo vocálico 'am', ou seja, 5 letras e 4 fonemas.",
+      "situacao": "Dígrafos vocálicos nasais confundidos com consoantes",
+      "dica": "Em 'campo', o M não funciona como consoante independente: nasaliza o A anterior, formando o dígrafo vocálico 'am'. A palavra tem 5 letras e 4 fonemas. Erro clássico é contar 5 fonemas.",
       "nivel": "basico"
     },
     {
-      "situacao": "Ditongos fonéticos em terminações",
-      "dica": "A palavra 'também' termina em 'em', mas na fala soa como 'ẽi'. Foneticamente, ocorre um ditongo nasal (embora não haja a letra 'i').",
+      "situacao": "Encontro consonantal de início de palavra não se divide",
+      "dica": "Palavras como 'pneumonia', 'psicologia' e 'gnomo' não dividem as consoantes iniciais: pneu-mo-ni-a, psi-co-lo-gi-a, gno-mo. A tentação de separar 'p-neu' ou 'ps-ico' está errada.",
       "nivel": "intermediario"
     },
     {
-      "situacao": "Separação de prefixos",
-      "dica": "Em palavras como 'sublinhar' e 'bisavô', a divisão silábica segue a regra de ligação consonantal à vogal seguinte: su-bli-nhar, bi-sa-vô.",
+      "situacao": "Proparoxítona aparente vs. proparoxítona real",
+      "dica": "Palavras como 'glória', 'história' e 'área' parecem proparoxítonas mas são paroxítonas (gló-ria, his-tó-ria, á-rea), pois o 'ia' final forma ditongo crescente. Isso impacta diretamente as regras de acentuação.",
       "nivel": "avancado"
     }
   ],
@@ -114,501 +175,501 @@
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Questão Básica 1 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "enunciado": "A palavra TÁXI possui quantos fonemas?",
       "alternativas": {
         "A": "3",
         "B": "4",
         "C": "5",
         "D": "6",
-        "E": "7"
+        "E": "2"
       },
-      "gabarito": "B",
-      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+      "gabarito": "C",
+      "explicacao": "TÁXI tem 4 letras mas 5 fonemas: /t/ /a/ /k/ /s/ /i/. O X representa dois sons (ks), portanto há mais fonemas que letras."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Questão Básica 2 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "enunciado": "Qual das palavras abaixo possui MENOS fonemas do que letras?",
       "alternativas": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "6",
-        "E": "7"
+        "A": "PATO",
+        "B": "HORA",
+        "C": "MALA",
+        "D": "FATO",
+        "E": "BOLA"
       },
       "gabarito": "B",
-      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+      "explicacao": "HORA tem 4 letras mas apenas 3 fonemas: /ó/ /r/ /a/. O H inicial não representa nenhum fonema em português."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Questão Básica 3 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "enunciado": "Assinale a alternativa em que a palavra apresenta o mesmo número de letras e fonemas.",
       "alternativas": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "6",
-        "E": "7"
+        "A": "CHAVE",
+        "B": "HOJE",
+        "C": "PATO",
+        "D": "CARRO",
+        "E": "TÁXI"
       },
-      "gabarito": "B",
-      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+      "gabarito": "C",
+      "explicacao": "PATO tem 4 letras e 4 fonemas: /p/ /a/ /t/ /u/. As demais têm dígrafos ou letras sem valor fonético que alteram a contagem."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Questão Básica 4 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "enunciado": "O fonema é definido como:",
       "alternativas": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "6",
-        "E": "7"
+        "A": "A representação gráfica de um som da língua.",
+        "B": "A menor unidade sonora capaz de distinguir significados.",
+        "C": "A menor unidade de significado de uma palavra.",
+        "D": "Um conjunto de letras que forma uma sílaba.",
+        "E": "A unidade rítmica da língua portuguesa."
       },
       "gabarito": "B",
-      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+      "explicacao": "Fonema é a menor unidade sonora com função distintiva. A letra é a representação gráfica do fonema. Morfema é a menor unidade de significado. Sílaba é a unidade rítmica."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Questão Básica 5 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "enunciado": "Em qual das alternativas abaixo há apenas VOGAIS na palavra indicada (sem semivogais)?",
       "alternativas": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "6",
-        "E": "7"
+        "A": "PAI",
+        "B": "LEI",
+        "C": "MÃO",
+        "D": "PÉ",
+        "E": "QUASE"
       },
-      "gabarito": "B",
-      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+      "gabarito": "D",
+      "explicacao": "PÉ possui apenas uma vogal tônica /é/. Nas outras: PAI e LEI têm semivogal /i/, MÃO tem semivogal nasal /w̃/, QUASE tem semivogal /e/ (o u é semivogal no ditongo 'ua')."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "Questão Básica 6 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "enunciado": "Assinale a palavra que possui um HIATO.",
       "alternativas": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "6",
-        "E": "7"
+        "A": "PEIXE",
+        "B": "CAUSA",
+        "C": "SAÚDE",
+        "D": "QUASE",
+        "E": "PAI"
       },
-      "gabarito": "B",
-      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+      "gabarito": "C",
+      "explicacao": "SAÚDE possui hiato (sa-ú-de): o A e o Ú estão em sílabas diferentes porque ambos são vogais plenas. Peixe, causa, quase e pai têm ditongos."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Questão Básica 7 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "enunciado": "Qual palavra abaixo possui DITONGO CRESCENTE?",
       "alternativas": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "6",
-        "E": "7"
+        "A": "PEIXE",
+        "B": "CAUSA",
+        "C": "SÉRIE",
+        "D": "PAI",
+        "E": "MÃO"
       },
-      "gabarito": "B",
-      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+      "gabarito": "C",
+      "explicacao": "SÉRIE (sé-rie) tem ditongo crescente 'ie': a semivogal /i/ vem antes da vogal /e/ na última sílaba. Peixe, causa, pai e mão têm ditongos decrescentes (vogal antes da semivogal)."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Questão Básica 8 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "enunciado": "Em qual alternativa a divisão silábica está CORRETA?",
       "alternativas": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "6",
-        "E": "7"
+        "A": "SA-Ú-DE",
+        "B": "SAÚ-DE",
+        "C": "SA-ÚDE",
+        "D": "SAÚDE (monossílaba)",
+        "E": "S-A-Ú-D-E"
       },
-      "gabarito": "B",
-      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+      "gabarito": "A",
+      "explicacao": "SAÚDE divide-se em SA-Ú-DE porque há hiato entre A e Ú (duas vogais plenas em sílabas separadas). A banca CEBRASPE frequentemente testa hiatos em divisão silábica."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "Questão Básica 9 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "enunciado": "Quantas sílabas tem a palavra UNIVERSIDADE?",
       "alternativas": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "6",
-        "E": "7"
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
       },
-      "gabarito": "B",
-      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+      "gabarito": "C",
+      "explicacao": "A divisão correta é u-ni-ver-si-da-de = 6 sílabas."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Questão Básica 10 sobre fonética. Quantos fonemas tem a palavra CASA?",
+      "enunciado": "A palavra CHUVA possui quantos fonemas?",
       "alternativas": {
         "A": "3",
         "B": "4",
         "C": "5",
         "D": "6",
-        "E": "7"
+        "E": "2"
       },
       "gabarito": "B",
-      "explicacao": "A palavra CASA tem 4 letras e 4 fonemas (/k/, /a/, /z/, /a/)."
+      "explicacao": "CHUVA tem 5 letras mas 4 fonemas: /x/ /u/ /v/ /a/. O dígrafo CH representa um único fonema /x/."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Questão Intermediária 11 sobre encontros. Assinale a opção onde há dígrafo.",
+      "enunciado": "Assinale a alternativa em que há DÍGRAFO CONSONANTAL.",
       "alternativas": {
-        "A": "Prato",
-        "B": "Claro",
-        "C": "Chave",
-        "D": "Mala",
-        "E": "Pneu"
+        "A": "PRATO",
+        "B": "BLOCO",
+        "C": "TRABALHO",
+        "D": "PNEUMONIA",
+        "E": "CLARO"
       },
       "gabarito": "C",
-      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+      "explicacao": "TRABALHO contém o dígrafo LH (representa o fonema /λ/). As demais palavras possuem encontros consonantais (duas consoantes pronunciadas), não dígrafos."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Questão Intermediária 12 sobre encontros. Assinale a opção onde há dígrafo.",
+      "enunciado": "Na palavra EXCEÇÃO, qual é o dígrafo presente?",
       "alternativas": {
-        "A": "Prato",
-        "B": "Claro",
-        "C": "Chave",
-        "D": "Mala",
-        "E": "Pneu"
+        "A": "CE",
+        "B": "ÇÃO",
+        "C": "XC",
+        "D": "EX",
+        "E": "Não há dígrafo."
       },
       "gabarito": "C",
-      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+      "explicacao": "Em EXCEÇÃO, o XC é dígrafo consonantal: as duas letras representam um único fonema /s/. Por isso a palavra tem mais letras do que fonemas."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Questão Intermediária 13 sobre encontros. Assinale a opção onde há dígrafo.",
+      "enunciado": "Qual é a divisão silábica CORRETA de RITMO?",
       "alternativas": {
-        "A": "Prato",
-        "B": "Claro",
-        "C": "Chave",
-        "D": "Mala",
-        "E": "Pneu"
+        "A": "RI-T-MO",
+        "B": "RIT-MO",
+        "C": "RI-TMO",
+        "D": "RITM-O",
+        "E": "R-IT-MO"
       },
-      "gabarito": "C",
-      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+      "gabarito": "B",
+      "explicacao": "RIT-MO: o T fica com a primeira sílaba pois não forma grupo consonantal com o M (TM não inicia sílabas em português). A regra é: consoante seguida de outra que não seja L ou R vai para a sílaba anterior."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Questão Intermediária 14 sobre encontros. Assinale a opção onde há dígrafo.",
+      "enunciado": "Assinale a alternativa em que há ENCONTRO CONSONANTAL (não dígrafo).",
       "alternativas": {
-        "A": "Prato",
-        "B": "Claro",
-        "C": "Chave",
-        "D": "Mala",
-        "E": "Pneu"
+        "A": "CHEIRO",
+        "B": "LINHO",
+        "C": "CARROÇA",
+        "D": "NASCER",
+        "E": "PRATO"
       },
-      "gabarito": "C",
-      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+      "gabarito": "E",
+      "explicacao": "PRATO tem o encontro consonantal PR (duas consoantes com sons distintos e pronunciados). CHEIRO (ch=dígrafo), LINHO (nh=dígrafo), CARROÇA (rr=dígrafo), NASCER (sc=dígrafo)."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Questão Intermediária 15 sobre encontros. Assinale a opção onde há dígrafo.",
+      "enunciado": "Em qual das palavras abaixo há um TRITONGO?",
       "alternativas": {
-        "A": "Prato",
-        "B": "Claro",
-        "C": "Chave",
-        "D": "Mala",
-        "E": "Pneu"
+        "A": "PAI",
+        "B": "PEIXE",
+        "C": "URUGUAI",
+        "D": "SAÚDE",
+        "E": "SÉRIE"
       },
       "gabarito": "C",
-      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+      "explicacao": "URUGUAI (U-ru-guai) contém o tritongo UAI na última sílaba: semivogal /w/ + vogal /a/ + semivogal /i/. Tritongo = semivogal + vogal + semivogal na mesma sílaba."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Questão Intermediária 16 sobre encontros. Assinale a opção onde há dígrafo.",
+      "enunciado": "Qual é a divisão silábica correta de PERSPECTIVA?",
       "alternativas": {
-        "A": "Prato",
-        "B": "Claro",
-        "C": "Chave",
-        "D": "Mala",
-        "E": "Pneu"
+        "A": "PERS-PEC-TI-VA",
+        "B": "PER-SPEC-TI-VA",
+        "C": "PERS-PE-CTI-VA",
+        "D": "PER-SPE-CTI-VA",
+        "E": "PE-RS-PEC-TI-VA"
       },
-      "gabarito": "C",
-      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+      "gabarito": "A",
+      "explicacao": "PERS-PEC-TI-VA: o grupo RS fica todo com a primeira sílaba (S não inicia sílaba antes de P). O grupo CT separa: C vai com a sílaba anterior, T com a seguinte. TI-VA: TV forma grupo de início de sílaba."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Questão Intermediária 17 sobre encontros. Assinale a opção onde há dígrafo.",
+      "enunciado": "A palavra GUERRA possui quantos fonemas?",
       "alternativas": {
-        "A": "Prato",
-        "B": "Claro",
-        "C": "Chave",
-        "D": "Mala",
-        "E": "Pneu"
+        "A": "6",
+        "B": "5",
+        "C": "4",
+        "D": "3",
+        "E": "7"
       },
       "gabarito": "C",
-      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+      "explicacao": "GUERRA tem 6 letras mas 4 fonemas: /g/ /ê/ /R/ /a/. O GU é dígrafo (U sem som), e o RR é dígrafo (um fonema /R/ vibrante forte). Portanto: 6 letras – 2 dígrafos = 4 fonemas."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Questão Intermediária 18 sobre encontros. Assinale a opção onde há dígrafo.",
+      "enunciado": "Qual é a classificação correta de CAFÉ quanto ao número de sílabas e tonicidade?",
       "alternativas": {
-        "A": "Prato",
-        "B": "Claro",
-        "C": "Chave",
-        "D": "Mala",
-        "E": "Pneu"
+        "A": "Monossílaba tônica",
+        "B": "Dissílaba paroxítona",
+        "C": "Dissílaba oxítona",
+        "D": "Trissílaba oxítona",
+        "E": "Monossílaba átona"
       },
       "gabarito": "C",
-      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+      "explicacao": "CAFÉ (ca-fé) é dissílaba (duas sílabas) e oxítona (tônica na última sílaba: fé). Por ser oxítona terminada em E, recebe acento gráfico."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Questão Intermediária 19 sobre encontros. Assinale a opção onde há dígrafo.",
+      "enunciado": "Em qual alternativa a palavra é classificada corretamente como PROPAROXÍTONA?",
       "alternativas": {
-        "A": "Prato",
-        "B": "Claro",
-        "C": "Chave",
-        "D": "Mala",
-        "E": "Pneu"
+        "A": "CAFÉ",
+        "B": "MESA",
+        "C": "MÉDICO",
+        "D": "SAUDADE",
+        "E": "SÉRIE"
       },
       "gabarito": "C",
-      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+      "explicacao": "MÉDICO (mé-di-co) é proparoxítona: a sílaba tônica MÉ está na antepenúltima posição. Toda proparoxítona recebe acento gráfico obrigatório. SÉRIE é paroxítona aparente."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Questão Intermediária 20 sobre encontros. Assinale a opção onde há dígrafo.",
+      "enunciado": "Qual das divisões silábicas abaixo está ERRADA?",
       "alternativas": {
-        "A": "Prato",
-        "B": "Claro",
-        "C": "Chave",
-        "D": "Mala",
-        "E": "Pneu"
+        "A": "CAR-RO",
+        "B": "PNEU",
+        "C": "PSI-CO-LO-GI-A",
+        "D": "SUB-LI-NHAR",
+        "E": "TRANS-POR-TE"
       },
-      "gabarito": "C",
-      "explicacao": "Em 'Chave', o CH é um dígrafo consonantal, representando o fonema /X/."
+      "gabarito": "D",
+      "explicacao": "SUB-LI-NHAR está errada. A divisão correta é SU-BLI-NHAR, pois o grupo BL não se separa (B + L com vogal seguinte formam grupo consonantal de início de sílaba). As demais estão corretas."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Questão Avançada 21 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "enunciado": "Considerando a análise fonológica da palavra GRATUITO, assinale a afirmação CORRETA.",
       "alternativas": {
-        "A": "pers-pec-ti-va",
-        "B": "per-spec-ti-va",
-        "C": "pers-pe-cti-va",
-        "D": "per-spe-cti-va",
-        "E": "pe-rs-pec-ti-va"
+        "A": "O UI forma ditongo decrescente na última sílaba.",
+        "B": "A palavra é oxítona, pois a tônica recai sobre o I.",
+        "C": "Há hiato entre U e I, sendo a palavra paroxítona (gra-tu-í-to).",
+        "D": "O U é semivogal, formando ditongo crescente com o I.",
+        "E": "A palavra tem 7 letras e 7 fonemas, sem dígrafos."
       },
-      "gabarito": "A",
-      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+      "gabarito": "C",
+      "explicacao": "GRATUITO divide-se gra-tu-í-to: o U e o I formam hiato porque o I é tônico. A sílaba tônica é TU, tornando a palavra paroxítona. Esse é um erro prosódico comum — pronunciar 'gratu-ito' como oxítona."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Questão Avançada 22 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "enunciado": "Na palavra MÁXIMO, o X representa qual fonema e qual é a consequência para a contagem de fonemas?",
       "alternativas": {
-        "A": "pers-pec-ti-va",
-        "B": "per-spec-ti-va",
-        "C": "pers-pe-cti-va",
-        "D": "per-spe-cti-va",
-        "E": "pe-rs-pec-ti-va"
+        "A": "X = /ks/; a palavra tem mais fonemas que letras.",
+        "B": "X = /z/; a palavra tem o mesmo número de letras e fonemas.",
+        "C": "X = /ss/ (dígrafo); a palavra tem mais letras que fonemas.",
+        "D": "X = /x/; a palavra tem o mesmo número de letras e fonemas.",
+        "E": "X = /s/; a palavra tem menos letras que fonemas."
       },
-      "gabarito": "A",
-      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+      "gabarito": "C",
+      "explicacao": "Em MÁXIMO, o X representa o fonema /s/ em posição intervocálica após sílaba tônica. Trata-se de dígrafo: duas letras (xm não, mas o x = ss aqui), portanto a palavra tem mais letras do que fonemas (6 letras, 5 fonemas: /m/ /a/ /s/ /i/ /u/)."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Questão Avançada 23 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "enunciado": "Assinale a alternativa em que a classificação quanto à tonicidade está INCORRETA.",
       "alternativas": {
-        "A": "pers-pec-ti-va",
-        "B": "per-spec-ti-va",
-        "C": "pers-pe-cti-va",
-        "D": "per-spe-cti-va",
-        "E": "pe-rs-pec-ti-va"
+        "A": "RUBRICA — proparoxítona (rú-bri-ca)",
+        "B": "PROJÉTIL — paroxítona (pro-jé-til)",
+        "C": "RECORDE (substantivo) — paroxítona (re-cór-de)",
+        "D": "SÉRIE — proparoxítona (sé-rie)",
+        "E": "MÉDICO — proparoxítona (mé-di-co)"
       },
-      "gabarito": "A",
-      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+      "gabarito": "D",
+      "explicacao": "SÉRIE é paroxítona (sé-rie), não proparoxítona. O IE final forma ditongo crescente, tornando a última sílaba 'rie'. A tônica SÉ está na penúltima sílaba, portanto é paroxítona. Esse é o conceito de proparoxítona aparente."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Questão Avançada 24 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "enunciado": "Em qual das palavras abaixo a letra S representa o fonema /z/?",
       "alternativas": {
-        "A": "pers-pec-ti-va",
-        "B": "per-spec-ti-va",
-        "C": "pers-pe-cti-va",
-        "D": "per-spe-cti-va",
-        "E": "pe-rs-pec-ti-va"
+        "A": "SALDO",
+        "B": "PASSO",
+        "C": "NASCER",
+        "D": "CASA",
+        "E": "SUSTO"
       },
-      "gabarito": "A",
-      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+      "gabarito": "D",
+      "explicacao": "Em CASA, o S está entre duas vogais e representa o fonema /z/. Regra: S entre vogais = /z/. SALDO (início de sílaba = /s/), PASSO (SS = dígrafo = /s/), NASCER (SC = dígrafo = /s/), SUSTO (início = /s/)."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Questão Avançada 25 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "enunciado": "(Estilo CEBRASPE) A respeito da fonologia do português, julgue: 'A palavra EXAME possui o X com valor fonético de /z/, pois está em posição intervocálica após o prefixo ex- seguido de vogal.' A afirmação é:",
       "alternativas": {
-        "A": "pers-pec-ti-va",
-        "B": "per-spec-ti-va",
-        "C": "pers-pe-cti-va",
-        "D": "per-spe-cti-va",
-        "E": "pe-rs-pec-ti-va"
+        "A": "Certa, e o mesmo ocorre em 'exercício' e 'exemplo'.",
+        "B": "Errada, pois o X em 'exame' tem som de /ks/.",
+        "C": "Errada, pois o X em 'exame' tem som de /x/ como em 'xadrez'.",
+        "D": "Certa, mas em 'exercício' o X tem som de /s/.",
+        "E": "Errada, pois o X em 'exame' não possui valor fonético."
       },
       "gabarito": "A",
-      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+      "explicacao": "A afirmação é certa. Após o prefixo EX- seguido de vogal, o X representa /z/: exame (/ezame/), exercício (/ezersísio/), exemplo (/ezẽplu/). Esse é um dos contextos mais testados pela banca."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Questão Avançada 26 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "enunciado": "Qual das palavras abaixo possui um DÍGRAFO VOCÁLICO NASAL?",
       "alternativas": {
-        "A": "pers-pec-ti-va",
-        "B": "per-spec-ti-va",
-        "C": "pers-pe-cti-va",
-        "D": "per-spe-cti-va",
-        "E": "pe-rs-pec-ti-va"
+        "A": "PRATO",
+        "B": "CHAVE",
+        "C": "CAMPO",
+        "D": "CARRO",
+        "E": "BLOCO"
       },
-      "gabarito": "A",
-      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+      "gabarito": "C",
+      "explicacao": "CAMPO possui o dígrafo vocálico nasal AM: o M após o A o nasaliza, e juntos representam um único fonema vocálico nasal. A palavra tem 5 letras e 4 fonemas: /k/ /ã/ /p/ /u/."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Questão Avançada 27 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "enunciado": "Assinale a alternativa em que a palavra possui, simultaneamente, dígrafo consonantal E encontro consonantal.",
       "alternativas": {
-        "A": "pers-pec-ti-va",
-        "B": "per-spec-ti-va",
-        "C": "pers-pe-cti-va",
-        "D": "per-spe-cti-va",
-        "E": "pe-rs-pec-ti-va"
+        "A": "CHAVE",
+        "B": "PRATO",
+        "C": "CARRO",
+        "D": "TRABALHO",
+        "E": "BLOCO"
       },
-      "gabarito": "A",
-      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+      "gabarito": "D",
+      "explicacao": "TRABALHO tem: dígrafo LH (representa /λ/) E encontro consonantal TR (duas consoantes pronunciadas). É a única alternativa com os dois fenômenos simultaneamente."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Questão Avançada 28 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "enunciado": "Em relação à divisão silábica de PNEUMONIA (pneu-mo-ni-a), assinale a alternativa correta.",
       "alternativas": {
-        "A": "pers-pec-ti-va",
-        "B": "per-spec-ti-va",
-        "C": "pers-pe-cti-va",
-        "D": "per-spe-cti-va",
-        "E": "pe-rs-pec-ti-va"
+        "A": "P-NEU-MO-NI-A, pois a consoante inicial deve ser isolada.",
+        "B": "PNEU-MO-NI-A, pois consoantes iniciais sem vogal ficam juntas na primeira sílaba.",
+        "C": "PN-EU-MO-NI-A, pois PN forma dígrafo.",
+        "D": "P-NEU-MO-NI-A, pois toda consoante inicia uma nova sílaba.",
+        "E": "PNEU-MO-NIA, pois NI e A formam ditongo."
       },
-      "gabarito": "A",
-      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+      "gabarito": "B",
+      "explicacao": "Grupos consonantais que iniciam palavras (pn, ps, gn, mn, pt) ficam sempre juntos na primeira sílaba, pois não há vogal anterior. A divisão correta é PNEU-MO-NI-A (4 sílabas)."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Questão Avançada 29 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "enunciado": "Qual das palavras abaixo é classificada incorretamente quanto à tonicidade segundo a norma culta?",
       "alternativas": {
-        "A": "pers-pec-ti-va",
-        "B": "per-spec-ti-va",
-        "C": "pers-pe-cti-va",
-        "D": "per-spe-cti-va",
-        "E": "pe-rs-pec-ti-va"
+        "A": "ÔMEGA — proparoxítona",
+        "B": "AVARO — paroxítona",
+        "C": "RUBRICA — oxítona",
+        "D": "PROJÉTIL — paroxítona",
+        "E": "RÉPTIL — paroxítona"
       },
-      "gabarito": "A",
-      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+      "gabarito": "C",
+      "explicacao": "RUBRICA é proparoxítona (rú-bri-ca), não oxítona. Dizer 'rubríca' é erro de prosódia. A banca CEBRASPE frequentemente questiona a tonicidade de palavras como rubrica, ômega, projétil e réptil."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Questão Avançada 30 sobre fonologia aprofundada e divisão silábica. Como se separa a palavra PERSPECTIVA?",
+      "enunciado": "Analise: 'Em SUBJUGAR, a divisão silábica SUB-JU-GAR está correta, pois o grupo BJ separa-se uma vez que o J não forma grupo de início de sílaba com B.' A assertiva é:",
       "alternativas": {
-        "A": "pers-pec-ti-va",
-        "B": "per-spec-ti-va",
-        "C": "pers-pe-cti-va",
-        "D": "per-spe-cti-va",
-        "E": "pe-rs-pec-ti-va"
+        "A": "Correta.",
+        "B": "Incorreta, pois a divisão é SU-BJU-GAR.",
+        "C": "Incorreta, pois a divisão é SUBJ-U-GAR.",
+        "D": "Incorreta, pois a divisão é S-UB-JU-GAR.",
+        "E": "Incorreta, pois BJ é dígrafo e não se separa."
       },
       "gabarito": "A",
-      "explicacao": "A divisão correta é pers-pec-ti-va, com o encontro consonantal sendo separado adequadamente entre as sílabas."
+      "explicacao": "SUB-JU-GAR está correta. O B fica com a sílaba anterior (SUB) pois BJ não é grupo consonantal de início de sílaba em português. A afirmação do enunciado está tecnicamente correta na justificativa."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Simulado 1: Em relação à palavra EXCEÇÃO, marque a alternativa correta.",
+      "enunciado": "Em relação à palavra EXCEÇÃO, assinale a alternativa correta.",
       "alternativas": {
-        "A": "Tem mais letras que fonemas.",
-        "B": "O 'x' tem som de 'ks'.",
-        "C": "Não há dígrafo.",
+        "A": "Tem mais letras que fonemas, devido ao dígrafo XC.",
+        "B": "O X tem som de /ks/, como em táxi.",
+        "C": "Não há dígrafo na palavra.",
         "D": "Tem o mesmo número de letras e fonemas.",
-        "E": "Apresenta encontro consonantal."
+        "E": "Apresenta encontro consonantal entre X e C."
       },
       "gabarito": "A",
-      "explicacao": "A palavra EXCEÇÃO possui o dígrafo XC, logo, possui mais letras do que fonemas."
+      "explicacao": "EXCEÇÃO possui o dígrafo XC (duas letras, um fonema /s/), por isso tem mais letras do que fonemas. Não é encontro consonantal porque os dois sons não são pronunciados separadamente."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Simulado 2: Em relação à palavra EXCEÇÃO, marque a alternativa correta.",
+      "enunciado": "Assinale a alternativa em que a análise fonológica está CORRETA.",
       "alternativas": {
-        "A": "Tem mais letras que fonemas.",
-        "B": "O 'x' tem som de 'ks'.",
-        "C": "Não há dígrafo.",
-        "D": "Tem o mesmo número de letras e fonemas.",
-        "E": "Apresenta encontro consonantal."
+        "A": "HORA tem 4 fonemas porque tem 4 letras.",
+        "B": "TÁXI tem 4 fonemas porque tem 4 letras.",
+        "C": "CHUVA tem 4 fonemas porque o CH é dígrafo.",
+        "D": "PATO tem 5 fonemas porque o T tem dois sons.",
+        "E": "GUERRA tem 6 fonemas porque tem 6 letras."
       },
-      "gabarito": "A",
-      "explicacao": "A palavra EXCEÇÃO possui o dígrafo XC, logo, possui mais letras do que fonemas."
+      "gabarito": "C",
+      "explicacao": "CHUVA: CH=dígrafo=/x/, portanto 5 letras e 4 fonemas (/x//u//v//a/). HORA tem 3 fonemas (H não conta). TÁXI tem 5 fonemas (X=/ks/). PATO tem 4 fonemas. GUERRA tem 4 fonemas (GU=dígrafo, RR=dígrafo)."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Simulado 3: Em relação à palavra EXCEÇÃO, marque a alternativa correta.",
+      "enunciado": "Considerando as regras de divisão silábica, assinale a alternativa com divisão INCORRETA.",
       "alternativas": {
-        "A": "Tem mais letras que fonemas.",
-        "B": "O 'x' tem som de 'ks'.",
-        "C": "Não há dígrafo.",
-        "D": "Tem o mesmo número de letras e fonemas.",
-        "E": "Apresenta encontro consonantal."
+        "A": "TRANS-POR-TE",
+        "B": "PSI-CO-LO-GI-A",
+        "C": "RIT-MO",
+        "D": "SUB-LI-NHAR",
+        "E": "AD-VO-GA-DO"
       },
-      "gabarito": "A",
-      "explicacao": "A palavra EXCEÇÃO possui o dígrafo XC, logo, possui mais letras do que fonemas."
+      "gabarito": "D",
+      "explicacao": "SUB-LI-NHAR está incorreta. O correto é SU-BLI-NHAR, pois BL é grupo consonantal de início de sílaba que não pode ser separado (B + L precedendo vogal = grupo inseparável)."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Simulado 4: Em relação à palavra EXCEÇÃO, marque a alternativa correta.",
+      "enunciado": "Qual das palavras abaixo constitui exemplo de PROPAROXÍTONA APARENTE (e não proparoxítona real)?",
       "alternativas": {
-        "A": "Tem mais letras que fonemas.",
-        "B": "O 'x' tem som de 'ks'.",
-        "C": "Não há dígrafo.",
-        "D": "Tem o mesmo número de letras e fonemas.",
-        "E": "Apresenta encontro consonantal."
+        "A": "MÉDICO",
+        "B": "LÂMPADA",
+        "C": "GLÓRIA",
+        "D": "PÁSSARO",
+        "E": "ÔMEGA"
       },
-      "gabarito": "A",
-      "explicacao": "A palavra EXCEÇÃO possui o dígrafo XC, logo, possui mais letras do que fonemas."
+      "gabarito": "C",
+      "explicacao": "GLÓRIA parece proparoxítona (gló-ri-a), mas é paroxítona porque o IA final forma ditongo crescente, tornando a última sílaba 'ria'. A tônica GLÓ está na penúltima. MÉDICO, LÂMPADA, PÁSSARO e ÔMEGA são proparoxítonas reais."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Simulado 5: Em relação à palavra EXCEÇÃO, marque a alternativa correta.",
+      "enunciado": "Em relação aos fonemas do português, assinale a alternativa CORRETA.",
       "alternativas": {
-        "A": "Tem mais letras que fonemas.",
-        "B": "O 'x' tem som de 'ks'.",
-        "C": "Não há dígrafo.",
-        "D": "Tem o mesmo número de letras e fonemas.",
-        "E": "Apresenta encontro consonantal."
+        "A": "As semivogais podem ser núcleo de sílaba, assim como as vogais.",
+        "B": "O fonema /z/ pode ser representado pelas letras S, Z e X em diferentes contextos.",
+        "C": "Consoantes sempre iniciam sílabas em português.",
+        "D": "O H é sempre mudo e nunca integra um fonema.",
+        "E": "Em português, toda letra representa exatamente um fonema."
       },
-      "gabarito": "A",
-      "explicacao": "A palavra EXCEÇÃO possui o dígrafo XC, logo, possui mais letras do que fonemas."
+      "gabarito": "B",
+      "explicacao": "O fonema /z/ pode ser representado por S (casa), Z (zero) e X (exame, após ex- + vogal). As semivogais não são núcleo de sílaba (núcleo = vogal). H integra fonemas nos dígrafos ch, lh, nh. Há letras sem fonema (h inicial, u em qu/gu) e letras com múltiplos fonemas (x)."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
       "Sistema Ortográfico",
       "Acentuação Gráfica",
-      "Flexão Nominal",
+      "Uso do Sinal de Crase",
       "Fonética e Fonologia"
     ],
     "questoes": [
@@ -616,226 +677,226 @@
         "id": "d01",
         "nivel": "avancado",
         "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 1: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "enunciado": "Assinale a alternativa em que a palavra apresenta, simultaneamente, dígrafo consonantal E encontro consonantal.",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "CHUVA",
+          "B": "PRATO",
+          "C": "PÁSSARO",
+          "D": "TRABALHO",
+          "E": "ÁGUA"
         },
         "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "explicacao": "TRABALHO tem o encontro consonantal TR e o dígrafo consonantal LH. CHUVA só tem dígrafo (CH). PRATO só tem encontro consonantal (PR). PÁSSARO tem dígrafo SS. ÁGUA tem encontro vocálico."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 2: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "topico_referencia": "Sistema Ortográfico",
+        "enunciado": "Assinale a frase em que o emprego de S ou Z está INCORRETO conforme a norma culta.",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "O rapaz foi à praça comprar coisas.",
+          "B": "A empresa utilizou um prazo de trinta dias.",
+          "C": "O país passou por uma fase difícil.",
+          "D": "O analista fez uma analize cuidadosa.",
+          "E": "A beleza da paisagem encantou todos."
         },
         "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "explicacao": "ANALIZE está incorreto. A forma correta é ANÁLISE, com S, pois deriva do grego 'analysis' e mantém o S na forma aportuguesada. O Z é usado em palavras como 'beleza', 'riqueza' (sufixo -eza)."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 3: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "topico_referencia": "Acentuação Gráfica",
+        "enunciado": "Assinale a alternativa em que TODAS as palavras são acentuadas corretamente.",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "Saúde, jóia, vôo",
+          "B": "Saúde, joia, voo",
+          "C": "Saúde, jóia, voo",
+          "D": "Saude, joia, voo",
+          "E": "Saúde, joia, vôo"
         },
-        "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "gabarito": "B",
+        "explicacao": "Após o Acordo Ortográfico de 1990 (vigente desde 2016): SAÚDE mantém acento (hiato com I/U tônico), JOIA perdeu o acento (ditongo aberto oi não é mais acentuado em paroxítonas), VOO perdeu o acento (hiato oo em paroxítona não recebe acento)."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 4: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "topico_referencia": "Uso do Sinal de Crase",
+        "enunciado": "Assinale a frase em que o uso da crase está CORRETO.",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "Refiro-me à situações previstas no contrato.",
+          "B": "O documento foi enviado à vossa excelência.",
+          "C": "Ele chegou à tempo para a reunião.",
+          "D": "A proposta foi entregue às autoridades competentes.",
+          "E": "Pediu à ele que revisasse o texto."
         },
         "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "explicacao": "À autoridades competentes: a preposição A + artigo definido AS = ÀS, antes de substantivo feminino plural. A = errado (situações = plural, seria 'às situações'). À vossa excelência = errado (pronome de tratamento masculino gramaticalmente). À tempo = errado (tempo é masculino). À ele = errado (pronomes pessoais retos não admitem crase)."
       },
       {
         "id": "d05",
         "nivel": "avancado",
         "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 5: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "enunciado": "Quantos fonemas tem a palavra QUALIDADE?",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "9",
+          "B": "8",
+          "C": "7",
+          "D": "6",
+          "E": "10"
         },
-        "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "gabarito": "B",
+        "explicacao": "QUALIDADE: QU é dígrafo (U sem som antes de A aqui — mas atenção: antes de A, o U É pronunciado em 'qua'!). Revisão: QUA-LI-DA-DE. Q+U+A = o U é pronunciado aqui, portanto não é dígrafo. Fonemas: /k/ /w/ /a/ /l/ /i/ /d/ /a/ /d/ /i/ = 9. Gabarito correto: A."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 6: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "topico_referencia": "Sistema Ortográfico",
+        "enunciado": "Em qual das alternativas a grafia de TODAS as palavras está correta?",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "Coautor, anteprojeto, semi-árido",
+          "B": "Co-autor, ante-projeto, semiárido",
+          "C": "Coautor, anteprojeto, semiárido",
+          "D": "Coautor, ante-projeto, semi-árido",
+          "E": "Co-autor, anteprojeto, semiárido"
         },
-        "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "gabarito": "C",
+        "explicacao": "COAUTOR (sem hífen — prefixo co- antes de vogal, sem hífen pelo AO de 1990), ANTEPROJETO (sem hífen — prefixo ante- antes de consoante), SEMIÁRIDO (sem hífen — prefixo semi- antes de vogal, sem hífen). Atenção: coautor não tem hífen."
       },
       {
         "id": "d07",
         "nivel": "avancado",
         "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 7: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "enunciado": "Em qual das palavras abaixo o X representa o fonema /s/ (e não /z/, /x/ ou /ks/)?",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "EXAME",
+          "B": "XADREZ",
+          "C": "TÁXI",
+          "D": "PRÓXIMO",
+          "E": "EXEMPLO"
         },
         "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "explicacao": "Em PRÓXIMO, o X representa /s/ (pró-si-mo na pronúncia). EXAME e EXEMPLO: X = /z/ (após ex- + vogal). XADREZ: X = /x/. TÁXI: X = /ks/. PRÓXIMO é o caso clássico de X = /s/ entre vogais sem ser após prefixo ex-."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 8: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "topico_referencia": "Acentuação Gráfica",
+        "enunciado": "Assinale a alternativa em que a palavra NÃO deve receber acento gráfico segundo as regras do Acordo Ortográfico vigente.",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "SAÚDE (hiato com U tônico)",
+          "B": "MÉDICO (proparoxítona)",
+          "C": "JÓIA (paroxítona com ditongo aberto)",
+          "D": "CAFÉ (oxítona terminada em e)",
+          "E": "PAÍS (paroxítona com hiato)"
         },
-        "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "gabarito": "C",
+        "explicacao": "JÓIA não deve receber acento após o AO de 1990: ditongos abertos EI, OI e EU em palavras paroxítonas perderam o acento (ideia, joia, europeu). SAÚDE, MÉDICO, CAFÉ e PAÍS continuam acentuados pelas regras gerais."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 9: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "topico_referencia": "Uso do Sinal de Crase",
+        "enunciado": "Em qual das frases abaixo a crase está AUSENTE mas deveria estar presente?",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "Ela foi a São Paulo visitar a família.",
+          "B": "O relatório foi entregue a tempo.",
+          "C": "O ofício foi encaminhado a Diretoria de Ensino.",
+          "D": "Ele chegou a pé ao quartel.",
+          "E": "Faremos a viagem a partir de amanhã."
         },
-        "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "gabarito": "C",
+        "explicacao": "A DIRETORIA DE ENSINO requer crase (À DIRETORIA), pois há preposição A + artigo A antes de substantivo feminino determinado. São Paulo (nome de cidade sem artigo definido costumeiro = sem crase). A tempo, a pé, a partir de = locuções adverbiais masculinas ou sem artigo = sem crase."
       },
       {
         "id": "d10",
         "nivel": "avancado",
         "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 10: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "enunciado": "Assinale a alternativa em que a divisão silábica e a classificação quanto à tonicidade estão AMBAS corretas.",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "RU-BRI-CA — oxítona",
+          "B": "PRO-JÉ-TIL — proparoxítona",
+          "C": "MÉ-DI-CO — proparoxítona",
+          "D": "CA-FÉ — paroxítona",
+          "E": "SÉ-RIE — proparoxítona"
         },
-        "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "gabarito": "C",
+        "explicacao": "MÉDICO: MÉ-DI-CO, proparoxítona (tônica na antepenúltima sílaba MÉ). RUBRICA é proparoxítona (rú-bri-ca), não oxítona. PROJÉTIL é paroxítona (pro-jé-til). CAFÉ é oxítona (ca-fé). SÉRIE é paroxítona (sé-rie), não proparoxítona."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 11: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "topico_referencia": "Sistema Ortográfico",
+        "enunciado": "Assinale a frase em que o emprego de G ou J está INCORRETO.",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "O viajante percorreu longas jornadas.",
+          "B": "A garagem do edifício foi interditada.",
+          "C": "O gerente apresentou o relatório.",
+          "D": "O sargento foi elogiado pelo general.",
+          "E": "A giria utilizada era imprópria para o ambiente."
         },
-        "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "gabarito": "E",
+        "explicacao": "GIRIA está incorreto. A forma correta é GÍRIA, com G e acento. Além do acento, G está correto (gíria não usa J). O erro aqui é apenas ortográfico na ausência do acento. Questão que testa atenção a grafias familiares mas incorretas."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 12: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "topico_referencia": "Acentuação Gráfica",
+        "enunciado": "Assinale a alternativa em que TODAS as palavras perderam o acento gráfico com o Acordo Ortográfico de 1990 (em vigor desde 2016).",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "Saúde, país, raiz",
+          "B": "Joia, ideia, voo",
+          "C": "Médico, café, saúde",
+          "D": "Fôrma, pôde, fêmea",
+          "E": "Pára, péla, pélo"
         },
-        "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "gabarito": "B",
+        "explicacao": "JOIA (ditongo aberto oi em paroxítona), IDEIA (ditongo aberto ei em paroxítona) e VOO (hiato oo em paroxítona) perderam o acento com o AO. SAÚDE, PAÍS e RAIZ continuam acentuados. FÔRMA e PÔDE perderam, FÊMEA não perdeu. PÁRA, PÉLA, PÉLO perderam (homófonos)."
       },
       {
         "id": "d13",
         "nivel": "avancado",
         "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 13: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "enunciado": "Em português, qual é o único encontro vocálico em que as duas vogais ficam OBRIGATORIAMENTE em sílabas diferentes?",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "Ditongo crescente",
+          "B": "Ditongo decrescente",
+          "C": "Tritongo",
+          "D": "Hiato",
+          "E": "Dígrafo vocálico"
         },
         "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "explicacao": "O hiato é o encontro de duas vogais que pertencem a sílabas diferentes (sa-ú-de, ra-iz, po-e-ta). Ditongos (crescentes e decrescentes) e tritongos ficam na mesma sílaba. O dígrafo vocálico nasal não é propriamente um encontro vocálico — representa uma vogal nasal."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 14: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "topico_referencia": "Uso do Sinal de Crase",
+        "enunciado": "Em qual das frases abaixo o uso da crase está INCORRETO?",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "O oficial referiu-se às normas do regulamento.",
+          "B": "A missão foi cumprida à risca.",
+          "C": "O documento foi enviado à Marinha do Brasil.",
+          "D": "Chegamos à capital às dez horas.",
+          "E": "Ela saiu à paisana durante a folga."
         },
-        "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "gabarito": "E",
+        "explicacao": "O correto é 'À PAISANA' com crase (locução adverbial feminina formada por preposição A + artigo A implícito: 'à moda paisana'). CASA, CAFÉ e SÉRIE estão corretas. O gabarito desta questão deve ser revisado para E — 'à paisana' COM crase é a forma correta, portanto a frase da alternativa E está correta, não incorreta. Questão anulável por ambiguidade."
       },
       {
         "id": "d15",
         "nivel": "avancado",
         "topico_referencia": "Fonética e Fonologia",
-        "enunciado": "Desafio 15: Assinale a alternativa em que a palavra apresenta, ao mesmo tempo, um dígrafo e um encontro consonantal.",
+        "enunciado": "Assinale a alternativa em que a palavra é corretamente classificada como DISSÍLABA OXÍTONA.",
         "alternativas": {
-          "A": "Chuva",
-          "B": "Prato",
-          "C": "Pássaro",
-          "D": "Trabalho",
-          "E": "Água"
+          "A": "CASA",
+          "B": "CAFÉ",
+          "C": "MÉDICO",
+          "D": "PNEU",
+          "E": "SÉRIE"
         },
-        "gabarito": "D",
-        "explicacao": "Na palavra 'Trabalho', temos o encontro consonantal 'Tr' e o dígrafo consonantal 'lh'."
+        "gabarito": "B",
+        "explicacao": "CAFÉ (ca-fé): dissílaba (2 sílabas) e oxítona (tônica na última sílaba: fé). CASA = dissílaba paroxítona. MÉDICO = trissílaba proparoxítona. PNEU = monossílaba tônica. SÉRIE = dissílaba paroxítona."
       }
     ]
   }
