@@ -1412,3 +1412,8 @@ pm run build\ concluídos com êxito (Exit code 0).
 - **Arquivos modificados:**
   - \src/data/conteudo/comp-10.json\ **[MODIFICADO]**
   - \RESUMO_MESTRE.md\ **[ATUALIZADO]**
+
+## Registro de Alteracoes
+- **O que foi feito**: Substituicao integral do conteudo do arquivo gram-11.json.
+- **Data e hora da alteracao**: 22/06/2026 16:11:38
+- **Arquivos modificados**: src/data/conteudo/gram-11.json

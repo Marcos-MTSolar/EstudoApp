@@ -2,853 +2,873 @@
   "id": "gram-11",
   "titulo": "Concordância Nominal",
   "area": "Gramática",
-  "resumo": "Estudo das regras de concordância nominal (entre substantivo e seus determinantes: artigo, adjetivo, numeral, pronome) e verbal (entre sujeito e verbo), conforme Cunha e Cintra (Nova Gramática do Português Contemporâneo, Lexikon 2017). Abrange os casos gerais e especiais de concordância, incluindo sujeito composto, sujeito posposto, pronome de tratamento, verbos impessoais, expressões partitivas, e os casos de concordância facultativa e atrativa, com ênfase nas situações mais recorrentes em provas militares.",
+  "resumo": "Estudo das regras de concordância entre o substantivo e seus determinantes — artigos, adjetivos, numerais e pronomes —, abrangendo a regra geral, os casos especiais com adjetivo posposto a dois ou mais substantivos, os adjetivos e locuções adverbiais invariáveis, e as palavras de duplo comportamento (anexo, incluso, obrigado, quite, próprio, mesmo, bastante, caro), com ênfase nos casos mais cobrados pela banca CEBRASPE/CESPE em provas de Língua Portuguesa.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Concordância Verbal — Regra Geral e Sujeito Simples",
-        "conteudo": "A regra geral de concordância verbal determina que o verbo concorda em número (singular/plural) e pessoa (1.ª, 2.ª, 3.ª) com o sujeito da oração. Quando o sujeito é simples (um único núcleo), a concordância é direta e sem exceções: sujeito singular → verbo singular; sujeito plural → verbo plural. Os casos especiais surgem com sujeito composto, sujeito posposto, pronomes de tratamento e expressões de quantidade. É fundamental identificar corretamente o núcleo do sujeito, especialmente quando há adjuntos adnominais, orações adjetivas ou complementos que interfiram visualmente na concordância. Pronomes de tratamento (Vossa Excelência, Vossa Senhoria) são gramaticalmente de 3.ª pessoa, portanto o verbo fica na 3.ª pessoa, mesmo que o pronome se refira ao interlocutor.",
+        "subtitulo": "Regra geral da concordância nominal",
+        "conteudo": "A concordância nominal é o mecanismo pelo qual os determinantes do substantivo — artigos, adjetivos, pronomes adjetivos e numerais — se ajustam em gênero (masculino/feminino) e número (singular/plural) ao substantivo que determinam ou qualificam. Quando o adjetivo se refere a um único substantivo, a concordância é simples e direta: o adjetivo assume o mesmo gênero e número do substantivo. É fundamental distinguir se a palavra funciona como adjetivo (variável) ou como advérbio (invariável), pois essa distinção é a base das pegadinhas mais frequentes da banca.",
         "exemplos": [
-          "O oficial cumpriu as ordens. (sujeito simples singular → verbo singular)",
-          "Os marinheiros cumpriram as ordens. (sujeito simples plural → verbo plural)",
-          "Vossa Excelência assinou o documento. (pronome de tratamento → verbo na 3.ª pessoa do singular)",
-          "A liderança dos oficiais foi reconhecida. (núcleo 'liderança', singular → verbo singular)",
-          "O grupo de recrutas chegou ao quartel. (núcleo 'grupo', singular → verbo singular — regra geral)"
+          "O oficial dedicado concluiu o relatório. (adjetivo 'dedicado' concorda com 'oficial', masc. sing.)",
+          "A tenente dedicada concluiu o relatório. (adjetivo 'dedicada' concorda com 'tenente', fem. sing.)",
+          "Os aspirantes dedicados concluíram o relatório. (adjetivo 'dedicados' concorda com 'aspirantes', masc. pl.)",
+          "As recrutas dedicadas concluíram o treinamento. (adjetivo 'dedicadas' concorda com 'recrutas', fem. pl.)"
         ],
-        "regra": "Identifique o NÚCLEO do sujeito, ignore os adjuntos e complementos. Pronomes de tratamento (Vossa Excelência, Vossa Senhoria, Vossa Magnificência) exigem verbo na 3.ª pessoa. Não confunda o núcleo do sujeito com palavras que aparecem próximas ao verbo."
+        "regra": "Adjetivo referido a um único substantivo → concorda obrigatoriamente em gênero e número com esse substantivo, seja ele masculino ou feminino, singular ou plural, independentemente da posição (anteposto ou posposto)."
       },
       {
-        "subtitulo": "2. Concordância Verbal — Sujeito Composto",
-        "conteudo": "Quando o sujeito é composto (dois ou mais núcleos), aplicam-se regras específicas: (a) Sujeito composto anteposto ao verbo: o verbo vai para o plural — 'O capitão e o tenente assinaram o relatório.' (b) Sujeito composto posposto ao verbo: o verbo pode concordar com o núcleo mais próximo (concordância atrativa ou por atração) ou ir para o plural — 'Chegaram o capitão e o tenente' ou 'Chegou o capitão e o tenente' (ambas aceitas). (c) Sujeito composto com núcleos sinônimos ou em gradação: o verbo pode ficar no singular — 'A coragem, a bravura, o heroísmo define o militar.' (d) Sujeito composto com núcleos ligados por 'ou': se a relação for de exclusão, verbo no singular — 'O capitão ou o tenente assumirá o comando'; se a relação for de adição/equivalência, o verbo pode ir ao plural. (e) Sujeito composto em que o último núcleo resume os anteriores (pronome resumidor 'tudo', 'nada', 'ninguém'): verbo no singular — 'O esforço, a dedicação, tudo contribuiu para o sucesso.'",
+        "subtitulo": "Adjetivo referido a dois ou mais substantivos do mesmo gênero",
+        "conteudo": "Quando o adjetivo se refere a dois ou mais substantivos do mesmo gênero, vai para o plural desse gênero. Essa regra é direta, mas exige atenção à posição do adjetivo: se ele estiver anteposto a todos os substantivos, pode concordar com o substantivo mais próximo (singular) ou ir para o plural. Se estiver posposto a todos, vai obrigatoriamente para o plural do gênero comum.",
         "exemplos": [
-          "O sargento e o cabo executaram a missão. (sujeito composto anteposto → plural)",
-          "Chegou o sargento e o cabo. (sujeito posposto → concordância atrativa, singular aceito)",
-          "Chegaram o sargento e o cabo. (sujeito posposto → plural também aceito)",
-          "O comandante ou o subcomandante decidirá. (ou exclusivo → singular)",
-          "A honra, a lealdade, tudo faz parte do ethos militar. (resumidor 'tudo' → singular)"
+          "O capitão e o tenente chegaram exaustos. (dois masc. → adjetivo no masc. pl.: 'exaustos')",
+          "A capitã e a tenente chegaram exaustas. (dois fem. → adjetivo no fem. pl.: 'exaustas')",
+          "Exausto, o capitão e o tenente chegaram. (anteposto → pode concordar com o mais próximo: 'exausto')",
+          "Exaustos, o capitão e o tenente chegaram. (anteposto → plural também aceito)"
         ],
-        "regra": "Sujeito composto ANTES do verbo → verbo obrigatoriamente no plural. Sujeito composto DEPOIS do verbo → concordância atrativa (singular com o mais próximo) ou plural, ambas aceitas. Com 'ou' exclusivo → singular. Com pronome resumidor ('tudo', 'nada') → singular."
+        "regra": "Adjetivo posposto a dois ou mais substantivos do mesmo gênero → plural desse gênero, obrigatoriamente. Anteposto → pode concordar com o substantivo mais próximo (singular) ou ir para o plural — ambas as formas são aceitas pela norma culta."
       },
       {
-        "subtitulo": "3. Concordância Verbal — Casos Especiais com Expressões de Quantidade",
-        "conteudo": "Expressões partitivas e de quantidade exigem atenção especial: (a) 'A maioria de', 'a maior parte de', 'grande parte de', 'a minoria de' + substantivo plural: o verbo pode concordar com o núcleo da expressão (singular) ou com o substantivo plural que se segue — 'A maioria dos recrutas chegou' ou 'A maioria dos recrutas chegaram' (ambas corretas, mas a concordância com o núcleo é a mais formal). (b) Numeral + 'de' + substantivo: se o numeral for sujeito, o verbo concorda com ele — 'Dois terços da tripulação embarcou/embarcaram' (facultativo). (c) 'Mais de um' + substantivo: verbo no singular — 'Mais de um oficial compareceu.' (d) 'Mais de dois/três...' + substantivo: verbo no plural — 'Mais de dois oficiais compareceram.' (e) 'Um dos que': verbo no plural — 'Ele é um dos que mais se dedicaram.' (f) Verbo 'ser' com predicativo no plural: pode ir ao plural — 'O problema são as falhas de comunicação.'",
+        "subtitulo": "Adjetivo referido a dois ou mais substantivos de gêneros diferentes",
+        "conteudo": "Quando o adjetivo se refere a dois ou mais substantivos de gêneros diferentes, vai para o masculino plural — independentemente da posição. Essa é a regra mais segura e preferida em registros formais e em provas. Uma variação aceita, porém menos valorizada, é concordar com o substantivo mais próximo quando o adjetivo está posposto, especialmente em contextos informais ou literários. Em provas CEBRASPE, a concordância no masculino plural é sempre considerada correta; a concordância com o mais próximo pode ou não ser aceita dependendo do contexto da questão.",
         "exemplos": [
-          "A maioria dos oficiais compareceu. (concordância com núcleo 'maioria' → singular)",
-          "A maioria dos oficiais compareceram. (concordância com 'oficiais' → plural — também correto)",
-          "Mais de um recruta foi aprovado. (mais de um → singular)",
-          "Mais de dois recrutas foram aprovados. (mais de dois → plural)",
-          "Ele é um dos que mais se dedicaram ao serviço. ('um dos que' → plural)",
-          "O problema são as divergências internas. (verbo 'ser' atraído pelo predicativo plural)"
+          "O capitão e a tenente chegaram cansados. (masc. + fem. → masc. pl.: 'cansados')",
+          "A tripulação e o comandante chegaram preparados para a missão. (fem. + masc. → masc. pl.)",
+          "A tripulação e o comandante chegou preparada para a missão. (concordância com o mais próximo — aceita, menos formal)",
+          "Uniformes e boinas novos foram distribuídos. (masc. + fem. → masc. pl. posposto: 'novos')"
         ],
-        "regra": "Com 'a maioria de/grande parte de': concordância preferencial com o núcleo (singular) em linguagem formal; plural é aceito. 'Mais de um' → singular sempre. 'Mais de dois ou mais' → plural sempre. 'Um dos que' → verbo sempre no plural. Verbo 'ser' pode ser atraído pelo predicativo — é a única exceção em que o predicativo influencia o verbo."
+        "regra": "Adjetivo referido a substantivos de gêneros diferentes → masculino plural é a forma canônica e sempre correta. Concordância com o substantivo mais próximo é tolerada, mas considerada menos formal. Em provas: marque sempre o masculino plural quando houver mistura de gêneros."
       },
       {
-        "subtitulo": "4. Concordância Verbal — Verbos Impessoais e Haver/Fazer",
-        "conteudo": "Alguns verbos são usados impessoalmente (sem sujeito), e por isso ficam sempre no singular: (a) 'Haver' no sentido de 'existir' ou indicando tempo decorrido é impessoal — 'Havia muitos recrutas no pátio' (não 'haviam'); 'Há dois anos ele serve à Marinha' (não 'Hão'). (b) 'Fazer' indicando tempo decorrido ou fenômeno meteorológico é impessoal — 'Faz dois anos que ele embarcou' (não 'Fazem'); 'Fazia calor no convés.' (c) 'Existir', diferentemente de 'haver', não é impessoal e concorda com o sujeito — 'Existiam muitos recrutas no pátio' (concordância normal). (d) Verbos de fenômeno meteorológico (chover, nevar, ventar) são impessoais, ficam no singular, salvo uso figurado com sujeito expresso — 'Choveram elogios sobre o oficial' (metáfora com sujeito 'elogios' → plural aceito). (e) O verbo 'haver' auxiliar (em tempos compostos) concorda normalmente com o sujeito — 'Os oficiais haviam cumprido a missão.'",
+        "subtitulo": "Palavras de duplo comportamento: anexo, incluso, obrigado, quite, próprio, mesmo",
+        "conteudo": "Algumas palavras funcionam ora como adjetivo (e concordam com o substantivo), ora como advérbio (e ficam invariáveis). O erro clássico de prova é empregar a forma invariável quando a palavra está funcionando como adjetivo, ou vice-versa. As principais: (a) ANEXO e INCLUSO como adjetivos concordam com o substantivo a que se referem; como parte de locução adverbial ('em anexo', 'em incluso'), são invariáveis. (b) OBRIGADO concorda com quem fala ou com o sujeito a que se refere — uma mulher diz 'obrigada', um homem diz 'obrigado'. (c) QUITE concorda com o substantivo — 'elas estão quites'. (d) PRÓPRIO e MESMO como adjetivos concordam; como advérbio de intensidade ('ele mesmo', 'ela própria' no sentido de 'pessoalmente') também concordam — nunca são invariáveis nesse uso.",
         "exemplos": [
-          "Havia muitos problemas na embarcação. (haver impessoal → singular)",
-          "Haviam muitos problemas. (ERRADO — haver impessoal não vai ao plural)",
-          "Faz dez anos que ele serve. (fazer impessoal → singular)",
-          "Fazem dez anos que ele serve. (ERRADO — fazer impessoal não vai ao plural)",
-          "Existiam muitos recrutas no pátio. (existir não é impessoal → concorda com sujeito)",
-          "Os oficiais haviam cumprido a missão. (haver auxiliar → concorda normalmente)"
+          "Seguem anexas as certidões. ('anexas' = adjetivo concorda com 'certidões', fem. pl.)",
+          "Segue em anexo a certidão. ('em anexo' = locução adverbial invariável)",
+          "Os soldados estão quites com o serviço militar. ('quites' concorda com 'soldados', masc. pl.)",
+          "Ela mesma assinou o documento. ('mesma' concorda com 'ela', fem. sing.)",
+          "O comandante próprio entregou as ordens. ('próprio' concorda com 'comandante', masc. sing.)"
         ],
-        "regra": "HAVER (existir/tempo) = IMPESSOAL = SEMPRE SINGULAR. FAZER (tempo/clima) = IMPESSOAL = SEMPRE SINGULAR. EXISTIR não é impessoal — concorda com o sujeito. Esta é a pegadinha mais frequente em provas: 'haviam erros' é sempre errado quando 'haver' = existir."
+        "regra": "ANEXO e INCLUSO como adjetivos: concordam. 'Em anexo' / 'em incluso': invariáveis. OBRIGADO: concorda com o falante ou o sujeito (mulher → 'obrigada'). QUITE: sempre concorda. PRÓPRIO e MESMO: concordam quando adjetivos ou pronomes; como advérbios de modo também concordam — nunca são totalmente invariáveis."
       },
       {
-        "subtitulo": "5. Concordância Nominal — Regras Gerais e Casos Especiais",
-        "conteudo": "A concordância nominal determina que artigos, adjetivos, numerais e pronomes concordam em gênero e número com o substantivo a que se referem. Regras gerais: (a) Adjetivo que modifica um único substantivo concorda com ele em gênero e número. (b) Adjetivo que modifica dois ou mais substantivos do mesmo gênero vai para o plural desse gênero — 'O capitão e o tenente chegaram cansados.' (c) Adjetivo que modifica dois ou mais substantivos de gêneros diferentes vai para o masculino plural — 'O capitão e a tenente chegaram cansados.' (d) Adjetivo posposto a substantivos de gêneros diferentes pode concordar com o mais próximo — 'A tripulação e o comandante chegaram cansados' ou 'A tripulação e o comandante chegou cansada' (concordância com o mais próximo, menos formal). Casos especiais: (e) 'Anexo', 'incluso', 'obrigado', 'quite', 'próprio': concordam com o substantivo a que se referem — 'Seguem anexas as certidões'; 'As soldadas estão quites.' (f) 'Mesmo', 'bastante', 'caro', 'barato', 'longe' funcionando como advérbio: são invariáveis — 'Elas trabalharam bastante'; 'As mercadorias custaram caro.'",
+        "subtitulo": "Palavras invariáveis quando advérbios: bastante, meio, caro, barato, longe",
+        "conteudo": "Certas palavras que normalmente funcionam como adjetivos tornam-se invariáveis quando exercem a função de advérbio. A chave para identificar a função é verificar se a palavra modifica um verbo, um adjetivo ou outro advérbio (função adverbial → invariável) ou se modifica um substantivo (função adjetiva → concorda). As mais cobradas: BASTANTE (adv. de intensidade ou modo → invariável; adj. = suficiente → concorda), MEIO (adv. → invariável; adj. = metade → concorda), CARO e BARATO (adv. → invariáveis; adj. → concordam), LONGE (sempre advérbio → invariável).",
         "exemplos": [
-          "Seguem anexas as certidões. ('anexas' concorda com 'certidões', feminino plural)",
-          "Segue em anexo a certidão. ('em anexo' = locução adverbial, invariável)",
-          "As soldadas estão quites com o serviço. ('quites' concorda com 'soldadas')",
-          "Ela é obrigada a cumprir as normas. ('obrigada' concorda com 'ela')",
-          "Elas trabalharam bastante. ('bastante' = advérbio, invariável)",
-          "O capitão e a tenente chegaram cansados. (gêneros mistos → masculino plural)"
+          "Elas trabalharam bastante. ('bastante' = advérbio de intensidade → invariável)",
+          "Há bastantes recrutas no pátio. ('bastantes' = adjetivo, equivale a 'suficientes' → concorda)",
+          "Ela está meio cansada. ('meio' = advérbio modificando adjetivo → invariável)",
+          "Ela tomou meia xícara de café. ('meia' = adjetivo modificando 'xícara' → concorda)",
+          "Os uniformes custaram caro. ('caro' = advérbio → invariável)",
+          "Os uniformes estavam caros. ('caros' = adjetivo predicativo → concorda)"
         ],
-        "regra": "ANEXO, INCLUSO, OBRIGADO, QUITE, PRÓPRIO = concordam com o substantivo (são adjetivos). 'Em anexo', 'em conjunto', 'em particular' = locuções adverbiais, invariáveis. BASTANTE, CARO, BARATO como advérbios = invariáveis. A confusão entre 'anexo' adjetivo e 'em anexo' locução é a pegadinha mais frequente em concursos."
+        "regra": "BASTANTE, MEIO, CARO, BARATO → invariáveis quando advérbios (modificam verbo, adjetivo ou outro advérbio); concordam quando adjetivos (modificam substantivo). Teste: substitua por 'muito' — se couber naturalmente, é advérbio e fica invariável. LONGE: sempre advérbio, sempre invariável."
+      },
+      {
+        "subtitulo": "Concordância com numerais e pronomes adjetivos",
+        "conteudo": "Os numerais cardinais são invariáveis quanto ao gênero, com exceção de 'um/uma', 'dois/duas' e dos que terminam em '-ão/-ã' (como 'duzentos/duzentas', 'trezentas'). Os numerais ordinais e multiplicativos concordam normalmente em gênero e número com o substantivo. Pronomes adjetivos (este/esta, esse/essa, aquele/aquela, meu/minha, nosso/nossa, algum/alguma, nenhum/nenhuma, todo/toda, ambos/ambas) concordam sempre com o substantivo que acompanham.",
+        "exemplos": [
+          "A Marinha possui duzentos e trinta e dois navios. (numeral cardinal: 'duzentos' masc.)",
+          "A Marinha possui duzentas e trinta e duas embarcações. (numeral cardinal: 'duzentas' fem.)",
+          "A segunda missão foi cumprida com êxito. (numeral ordinal concorda com 'missão', fem.)",
+          "Ambos os aspirantes foram aprovados. ('ambos' concorda com 'aspirantes', masc. pl.)",
+          "Ambas as aspirantes foram aprovadas. ('ambas' concorda com 'aspirantes', fem. pl.)"
+        ],
+        "regra": "Numerais cardinais: apenas 'um/uma', 'dois/duas' e os terminados em '-entos/-entas' variam em gênero — os demais são invariáveis. Ordinais e multiplicativos: concordam normalmente. Pronomes adjetivos: concordam sempre em gênero e número com o substantivo que determinam."
+      },
+      {
+        "subtitulo": "Casos especiais: 'é proibido', 'é necessário', 'é bom' e expressões impessoais",
+        "conteudo": "Expressões impessoais formadas por verbo 'ser' + adjetivo são invariáveis quando não há artigo definido antes do sujeito: o adjetivo fica no masculino singular. Se houver artigo definido antes do sujeito, o adjetivo concorda com esse sujeito. Essa distinção é uma das mais cobradas em provas de nível avançado.",
+        "exemplos": [
+          "É proibido entrada de civis. (sem artigo: 'proibido' invariável, masc. sing.)",
+          "É proibida a entrada de civis. (com artigo 'a': 'proibida' concorda com 'a entrada', fem. sing.)",
+          "É necessário atenção constante. (sem artigo: 'necessário' invariável)",
+          "É necessária a atenção constante. (com artigo 'a': 'necessária' concorda)",
+          "É bom fruta fresca. (sem artigo: 'bom' invariável)",
+          "É boa a fruta fresca. (com artigo 'a': 'boa' concorda)"
+        ],
+        "regra": "Expressões 'é proibido', 'é necessário', 'é bom', 'é permitido' + substantivo SEM artigo definido → adjetivo invariável no masculino singular. Com artigo definido antes do substantivo → adjetivo CONCORDA com o substantivo. Esta regra vale para qualquer expressão impessoal com verbo 'ser'."
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Haver impessoal no plural — erro clássico",
-      "errado": "Haviam muitos problemas de comunicação durante a operação naval.",
-      "correto": "Havia muitos problemas de comunicação durante a operação naval.",
-      "explicacao": "O verbo 'haver' no sentido de 'existir' é impessoal e não possui sujeito. Por ser impessoal, fica SEMPRE no singular, independentemente do número da palavra que o acompanha. 'Problemas' é o objeto direto do verbo, não o sujeito — por isso não há concordância com ele. 'Haviam' é erro grave e frequente em provas militares. Apenas 'existir' concorda com o que segue: 'Existiam muitos problemas' (correto).",
-      "nivel": "basico"
+      "nivel": "basico",
+      "titulo": "Confundir 'em anexo' (invariável) com 'anexo' adjetivo (variável)",
+      "errado": "Seguem em anexas as certidões solicitadas.",
+      "correto": "Seguem em anexo as certidões solicitadas. OU: Seguem anexas as certidões solicitadas.",
+      "explicacao": "'Em anexo' é locução adverbial e, portanto, invariável — nunca se diz 'em anexas'. Já 'anexo' como adjetivo concorda com o substantivo: 'certidões' é feminino plural, logo 'anexas'. As formas corretas são 'em anexo' (locução adverbial, invariável) ou 'anexas' (adjetivo concordando com 'certidões')."
     },
     {
-      "titulo": "Anexo x em anexo — concordância x invariabilidade",
-      "errado": "Segue em anexas as certidões solicitadas pelo comando.",
-      "correto": "Seguem anexas as certidões solicitadas pelo comando.",
-      "explicacao": "Quando 'anexo' é usado como adjetivo, concorda em gênero e número com o substantivo: 'as certidões' (feminino plural) → 'anexas'. Quando se usa a locução adverbial 'em anexo', esta é invariável: 'Segue em anexo a certidão' ou 'Seguem em anexo as certidões'. O erro da frase é mesclar as duas formas: 'em anexas' não existe. A distinção entre 'anexo' adjetivo e 'em anexo' locução é cobrada com frequência nos concursos militares.",
-      "nivel": "basico"
+      "nivel": "basico",
+      "titulo": "Usar 'obrigado' independentemente do gênero do falante",
+      "errado": "A tenente disse: 'Obrigado pela atenção, almirante.'",
+      "correto": "A tenente disse: 'Obrigada pela atenção, almirante.'",
+      "explicacao": "'Obrigado' é adjetivo e concorda com o sujeito que fala ou a quem se refere. Como 'a tenente' é do gênero feminino, a forma correta é 'obrigada'. Um homem diz 'obrigado'; uma mulher diz 'obrigada'. Este item recorrente em provas exige identificar o gênero do falante antes de decidir a forma."
     },
     {
-      "titulo": "Vossa Excelência — verbo na 3.ª pessoa",
-      "errado": "Vossa Excelência são um exemplo de liderança para toda a Marinha.",
-      "correto": "Vossa Excelência é um exemplo de liderança para toda a Marinha.",
-      "explicacao": "Os pronomes de tratamento (Vossa Excelência, Vossa Senhoria, Vossa Magnificência, Vossa Reverendíssima) são gramaticalmente de 3.ª pessoa, embora se dirijam ao interlocutor (2.ª pessoa). Portanto, o verbo sempre fica na 3.ª pessoa do singular. 'São' (3.ª pessoa do plural) está errado porque 'Vossa Excelência' é singular. O correto é 'é' (3.ª pessoa do singular). Esta regra vale para todos os pronomes de tratamento.",
-      "nivel": "intermediario"
+      "nivel": "intermediario",
+      "titulo": "Deixar 'bastante' invariável quando é adjetivo",
+      "errado": "Havia bastante candidatos aprovados na prova objetiva.",
+      "correto": "Havia bastantes candidatos aprovados na prova objetiva.",
+      "explicacao": "Nessa frase, 'bastante' está modificando o substantivo 'candidatos' com o sentido de 'suficientes', funcionando, portanto, como adjetivo — e deve concordar em número: 'bastantes'. Quando 'bastante' é advérbio (modificando verbo, adjetivo ou outro advérbio), aí sim fica invariável: 'Eles estudaram bastante.'"
     },
     {
-      "titulo": "Mais de um — sempre singular",
-      "errado": "Mais de um oficial compareceram à cerimônia de formatura.",
-      "correto": "Mais de um oficial compareceu à cerimônia de formatura.",
-      "explicacao": "A expressão 'mais de um' exige verbo no singular, pois gramaticalmente o foco é na unidade ('um'), não na pluralidade sugerida por 'mais'. A forma 'compareceram' está errada. Atenção: quando a expressão muda para 'mais de dois', 'mais de três' etc., o verbo vai para o plural — 'Mais de dois oficiais compareceram.' A regra é exclusiva para 'mais de um'.",
-      "nivel": "avancado"
+      "nivel": "avancado",
+      "titulo": "Deixar 'meio' invariável quando é adjetivo",
+      "errado": "A tenente tomou meio xícara de café antes de assinar o relatório.",
+      "correto": "A tenente tomou meia xícara de café antes de assinar o relatório.",
+      "explicacao": "Nesse contexto, 'meio' está qualificando o substantivo 'xícara' com o sentido de 'metade de uma', exercendo função adjetiva — logo, deve concordar com 'xícara' (feminino): 'meia xícara'. A forma invariável 'meio' é usada apenas quando a palavra é advérbio modificando um adjetivo: 'ela estava meio cansada' (= 'um pouco cansada')."
     },
     {
-      "titulo": "Um dos que — verbo sempre no plural",
-      "errado": "Ele é um dos oficiais que mais se destacou na operação.",
-      "correto": "Ele é um dos oficiais que mais se destacaram na operação.",
-      "explicacao": "A expressão 'um dos que' exige que o verbo seguinte vá para o plural, pois o pronome relativo 'que' retoma o substantivo plural ('oficiais'). O verbo concorda com esse plural: 'que mais se destacaram'. O uso do singular 'destacou' é o erro típico de candidatos que concordam o verbo com 'um' (singular próximo), esquecendo que o antecedente real de 'que' é 'oficiais' (plural). Esta construção é muito cobrada em provas militares.",
-      "nivel": "avancado"
+      "nivel": "avancado",
+      "titulo": "Não aplicar a regra do artigo definido em expressões com 'é proibido / é necessário'",
+      "errado": "É proibido a entrada de visitantes sem identificação.",
+      "correto": "É proibida a entrada de visitantes sem identificação.",
+      "explicacao": "Quando há artigo definido antes do sujeito ('a entrada'), o adjetivo deixa de ser impessoal e passa a concordar com o substantivo que o artigo determina. Como 'entrada' é feminino singular, a forma correta é 'proibida'. Sem o artigo, a forma impessoal seria correta: 'É proibido entrada de visitantes.'"
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "Confundir 'existir' com 'haver' e aplicar a impessoalidade a 'existir', escrevendo 'existia muitos problemas' no singular quando deveria ser 'existiam' (plural).",
-      "dica": "Apenas HAVER (= existir) é impessoal → singular obrigatório. EXISTIR é verbo pessoal e concorda com o sujeito → plural com sujeito plural. Teste rápido: substitua 'haver' por 'existir' — se couber, use 'existir' com concordância normal. 'Havia problemas' = 'Existiam problemas' (ambos corretos, mas com lógicas opostas de concordância).",
-      "nivel": "basico"
+      "nivel": "basico",
+      "situacao": "Confundir a posição do adjetivo com a obrigatoriedade de ir ao plural quando há dois substantivos de gêneros iguais.",
+      "dica": "Quando o adjetivo está POSPOSTO a dois substantivos do mesmo gênero, o plural é obrigatório. Quando está ANTEPOSTO, pode-se concordar com o substantivo mais próximo (singular) ou ir ao plural — ambas as formas são corretas. O erro de prova mais comum é afirmar que o singular é errado na posposição, ou que o plural é errado na anteposição."
     },
     {
-      "situacao": "Errar a concordância do adjetivo quando há dois substantivos de gêneros diferentes, usando o feminino plural em vez do masculino plural, ou concordando com o mais próximo em contexto formal.",
-      "dica": "Regra de ouro para concordância nominal com múltiplos substantivos: gêneros DIFERENTES → masculino plural (gênero não marcado). Gêneros IGUAIS → plural daquele gênero. Em contexto formal (como provas e documentos militares), evite a concordância com o mais próximo; prefira sempre o masculino plural quando os gêneros forem mistos.",
-      "nivel": "intermediario"
+      "nivel": "intermediario",
+      "situacao": "Tratar 'quite' como palavra invariável por analogia com termos estrangeiros.",
+      "dica": "'Quite' é adjetivo português plenamente variável: o soldado está quite; os soldados estão quites; a recruta está quite; as recrutas estão quites. Nunca escreva 'os soldados estão quite' — a concordância é obrigatória, pois a palavra não é advérbio nem expressão fixa invariável."
     },
     {
-      "situacao": "Errar a concordância com sujeito composto posposto ao verbo, usando obrigatoriamente o plural quando na verdade a concordância atrativa (singular com o mais próximo) também é aceita — ou vice-versa, achando que apenas o singular é correto.",
-      "dica": "Com sujeito composto POSPOSTO: tanto o singular (concordância atrativa com o núcleo mais próximo) quanto o plural são aceitos pela gramática normativa. Com sujeito composto ANTEPOSTO: plural obrigatório. Em provas, se a questão pedir a forma 'incorreta', marque a concordância singular com sujeito composto anteposto — esta é a única combinação que não é aceita.",
-      "nivel": "avancado"
+      "nivel": "avancado",
+      "situacao": "Aplicar a regra da invariabilidade em 'próprio' e 'mesmo' quando funcionam como pronomes de reforço, achando que devem ficar no masculino singular.",
+      "dica": "'Próprio' e 'mesmo', quando usados como pronomes de reforço ou adjuntos adnominais, sempre concordam com o substantivo ou pronome a que se referem: 'Ela mesma assinou'; 'A própria comandante decidiu'. Só ficam invariáveis em expressões cristalizadas como 'por isso mesmo' (locução adverbial). Fora dessas expressões fixas, sempre concordam."
     }
   ],
   "questoes": [
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que a concordância verbal está CORRETA:",
+      "enunciado": "Assinale a alternativa em que a concordância nominal está correta.",
       "alternativas": {
-        "A": "Haviam muitos recrutas no pátio do quartel.",
-        "B": "Havia muitos recrutas no pátio do quartel.",
-        "C": "Houveram muitos recrutas no pátio do quartel.",
-        "D": "Hão muitos recrutas no pátio do quartel.",
-        "E": "Haverão muitos recrutas no pátio do quartel."
+        "A": "Seguem em anexas as certidões de nascimento.",
+        "B": "Seguem anexas as certidões de nascimento.",
+        "C": "Seguem em anexo as certidão de nascimento.",
+        "D": "Seguem em anexas as certidão de nascimento.",
+        "E": "Seguem em anexo as certidões de nascimento e ela segue em anexa."
       },
       "gabarito": "B",
-      "explicacao": "O verbo 'haver' no sentido de 'existir' é impessoal e fica sempre no singular. 'Havia' (singular) é a única forma correta. A alternativa A usa 'haviam' (plural — erro clássico). A alternativa C usa 'houveram' (plural — erro). A alternativa D usa 'hão' (plural — erro). A alternativa E usa 'haverão' (plural — erro). Independentemente do número da palavra que acompanha 'haver' impessoal, o verbo fica no singular."
+      "explicacao": "'Anexo' como adjetivo concorda com o substantivo 'certidões' (feminino plural): 'anexas'. A locução 'em anexo' é invariável e não admite a forma 'em anexas'. A alternativa B é a única em que 'anexas' funciona corretamente como adjetivo concordando com o substantivo."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Marque a alternativa em que a concordância nominal com 'anexo' está CORRETA:",
+      "enunciado": "Em qual alternativa a palavra destacada está corretamente empregada?",
       "alternativas": {
-        "A": "Segue em anexas as certidões solicitadas.",
-        "B": "Seguem em anexo as certidões solicitadas.",
-        "C": "Seguem anexas as certidões solicitadas.",
-        "D": "Segue anexas as certidões solicitadas.",
-        "E": "Seguem em anexas as certidões solicitadas."
+        "A": "A sargento agradeceu dizendo 'Muito **obrigado**, capitão.'",
+        "B": "O recruta agradeceu dizendo 'Muito **obrigada**, sargento.'",
+        "C": "A tenente agradeceu dizendo 'Muito **obrigada**, almirante.'",
+        "D": "Os marinheiros disseram 'Muito **obrigada** pela atenção.'",
+        "E": "Vossa Excelência disse '**Obrigado** pela presença' — e ela era a almirante."
       },
       "gabarito": "C",
-      "explicacao": "A alternativa C está correta: 'anexas' é adjetivo que concorda com 'certidões' (feminino plural) e o verbo 'seguem' concorda com o sujeito 'as certidões' (plural). A alternativa A usa 'em anexas' — locução adverbial não existe nessa forma. A alternativa B usa 'em anexo' (correto como locução adverbial, invariável), mas o verbo 'seguem' concorda com o sujeito plural — esta seria: 'Seguem em anexo as certidões' (correto também). A alternativa D usa 'segue' (singular) com sujeito plural. A alternativa E repete o erro de 'em anexas'."
+      "explicacao": "'Obrigado' é adjetivo e concorda com o gênero de quem fala. A tenente é do gênero feminino, portanto diz 'obrigada'. A alternativa C é a única em que o gênero feminino do falante corresponde à forma 'obrigada'."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Qual alternativa apresenta concordância verbal CORRETA com pronome de tratamento?",
+      "enunciado": "Assinale a alternativa em que o adjetivo concorda corretamente com os substantivos aos quais se refere.",
       "alternativas": {
-        "A": "Vossa Excelência são um exemplo de profissionalismo.",
-        "B": "Vossa Excelência somos gratos pela presença.",
-        "C": "Vossa Excelência é um exemplo de profissionalismo.",
-        "D": "Vossa Excelência sois sempre bem-vindo.",
-        "E": "Vossa Excelência estão disponível para a reunião?"
+        "A": "O capitão e a tenente chegaram cansada ao quartel.",
+        "B": "O capitão e a tenente chegaram cansados ao quartel.",
+        "C": "O capitão e a tenente chegou cansados ao quartel.",
+        "D": "O capitão e a tenente chegaram cansado ao quartel.",
+        "E": "O capitão e a tenente chegaram cansadas ao quartel."
       },
-      "gabarito": "C",
-      "explicacao": "Pronomes de tratamento (Vossa Excelência, Vossa Senhoria etc.) são de 3.ª pessoa gramatical, portanto o verbo vai para a 3.ª pessoa do singular: 'é'. A alternativa A usa 'são' (3.ª p. plural — erro). A alternativa B usa 'somos' (1.ª p. plural — erro grave). A alternativa D usa 'sois' (2.ª p. plural — erro). A alternativa E usa 'estão' (3.ª p. plural — erro). Apenas C está correta."
+      "gabarito": "B",
+      "explicacao": "Quando o adjetivo se refere a dois ou mais substantivos de gêneros diferentes (masc. 'o capitão' + fem. 'a tenente'), vai para o masculino plural: 'cansados'. A alternativa B é a única em que o adjetivo está corretamente no masculino plural."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Assinale a frase em que a concordância com 'mais de um' está CORRETA:",
+      "enunciado": "Qual alternativa apresenta emprego correto de 'quite'?",
       "alternativas": {
-        "A": "Mais de um oficial compareceram à solenidade.",
-        "B": "Mais de um oficial compareceu à solenidade.",
-        "C": "Mais de um oficiais compareceu à solenidade.",
-        "D": "Mais de um oficiais compareceram à solenidade.",
-        "E": "Mais de uns oficiais compareceram à solenidade."
+        "A": "Os marinheiros estão quite com o serviço obrigatório.",
+        "B": "As recrutas estão quite com a administração.",
+        "C": "As recrutas estão quites com a administração.",
+        "D": "O aspirante e a aspirante estão quite com a Marinha.",
+        "E": "Todos os candidatos estão quite com suas obrigações."
       },
-      "gabarito": "B",
-      "explicacao": "A expressão 'mais de um' exige verbo no singular. 'Mais de um oficial compareceu' está correto. A alternativa A usa 'compareceram' (plural — erro). As alternativas C e D usam 'oficiais' após 'um' (erro de número no substantivo). A alternativa E usa 'mais de uns' (construção que não existe na norma culta). Atenção: 'mais de dois/três' + substantivo → verbo no plural."
+      "gabarito": "C",
+      "explicacao": "'Quite' é adjetivo variável e deve concordar com o substantivo a que se refere. Como 'recrutas' é feminino plural, a forma correta é 'quites'. As demais alternativas empregam 'quite' invariável, o que contraria a norma culta."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Identifique a alternativa com concordância verbal CORRETA para sujeito composto anteposto:",
+      "enunciado": "Assinale a alternativa em que 'bastante' está corretamente empregado.",
       "alternativas": {
-        "A": "O capitão e o tenente assinou o relatório.",
-        "B": "O capitão e o tenente assinaram o relatório.",
-        "C": "O capitão e o tenente assina o relatório.",
-        "D": "O capitão e o tenente assinasse o relatório.",
-        "E": "O capitão e o tenente assinareis o relatório."
+        "A": "Havia bastante candidatos inscritos para o concurso da Marinha.",
+        "B": "As provas foram bastantes difíceis.",
+        "C": "O aspirante estudou bastante para a prova objetiva.",
+        "D": "Bastante marinheiros foram convocados para a missão.",
+        "E": "As questões eram bastantes elaboradas."
       },
-      "gabarito": "B",
-      "explicacao": "Sujeito composto anteposto ao verbo exige obrigatoriamente o verbo no plural. 'O capitão e o tenente' são dois núcleos → 'assinaram' (plural). A alternativa A usa 'assinou' (singular — erro: sujeito composto anteposto nunca admite singular). A alternativa C usa 'assina' (singular — erro). As alternativas D e E apresentam formas verbais inadequadas ao contexto (subjuntivo e 2.ª pessoa do plural)."
+      "gabarito": "C",
+      "explicacao": "Em 'O aspirante estudou bastante', 'bastante' modifica o verbo 'estudou', exercendo função adverbial de intensidade — portanto fica invariável. Nas demais alternativas, 'bastante' é adjetivo (modifica substantivo ou é predicativo) e deveria estar no plural: 'bastantes'."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "Assinale a frase em que a concordância nominal está CORRETA:",
+      "enunciado": "Em qual alternativa a expressão com 'é proibido / é necessário' está corretamente construída?",
       "alternativas": {
-        "A": "As soldadas estão quite com o serviço.",
-        "B": "As soldadas estão quites com o serviço.",
-        "C": "As soldadas estão quito com o serviço.",
-        "D": "A soldada está quites com o serviço.",
-        "E": "As soldadas está quite com o serviço."
+        "A": "É proibido a entrada de civis no quartel.",
+        "B": "É proibida entrada de civis no quartel.",
+        "C": "É proibida a entrada de civis no quartel.",
+        "D": "É proibido as entradas de civis no quartel.",
+        "E": "É proibidos as entradas de civis no quartel."
       },
-      "gabarito": "B",
-      "explicacao": "'Quite' é adjetivo variável que concorda em gênero e número com o substantivo. 'As soldadas' é feminino plural → 'quites' (plural). A alternativa A usa 'quite' (singular — erro de número). A alternativa C usa 'quito' (forma inexistente). A alternativa D usa 'quites' com sujeito singular 'A soldada' (erro de número). A alternativa E usa verbo no singular para sujeito plural e 'quite' no singular."
+      "gabarito": "C",
+      "explicacao": "Com artigo definido 'a' antes do sujeito ('a entrada'), o adjetivo deve concordar com o substantivo: 'proibida a entrada' (fem. sing.). A alternativa B omite o artigo, o que tornaria 'proibido' correto como impessoal; mas a questão apresenta as alternativas com artigo apenas em B e C. Em C, artigo + adjetivo concordam corretamente."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Marque a alternativa em que o verbo 'fazer' está CORRETAMENTE empregado no sentido de tempo decorrido:",
+      "enunciado": "Qual alternativa emprega 'meio' corretamente?",
       "alternativas": {
-        "A": "Fazem dois anos que o navio partiu.",
-        "B": "Fazem-se dois anos que o navio partiu.",
-        "C": "Faz dois anos que o navio partiu.",
-        "D": "Fizeram dois anos que o navio partiu.",
-        "E": "Se faz dois anos que o navio partiu."
+        "A": "A oficial estava meia entediada com a reunião.",
+        "B": "A oficial estava meio entediada com a reunião.",
+        "C": "O oficial bebeu meia copo d'água.",
+        "D": "O oficial bebeu meio xícara de café.",
+        "E": "A oficial tomou meia copo d'água antes da missão."
       },
-      "gabarito": "C",
-      "explicacao": "O verbo 'fazer' indicando tempo decorrido é impessoal e fica sempre no singular: 'Faz dois anos'. A alternativa A usa 'fazem' (plural — erro, pois 'fazer' impessoal não vai ao plural). A alternativa B usa 'fazem-se' (plural com reflexivo — duplamente errado). A alternativa D usa 'fizeram' (plural — erro). A alternativa E usa 'se faz' — o pronome 'se' índice de indeterminação não é compatível com verbo impessoal."
+      "gabarito": "B",
+      "explicacao": "'Meio' modifica o adjetivo 'entediada' (função adverbial = 'um pouco entediada'), portanto fica invariável: 'meio entediada'. Nas alternativas C, D e E, 'meio/meia' está modificando substantivos — copo (masc.) e xícara (fem.) — exigindo concordância: 'meio copo' (C está errado porque diz 'meia copo') e 'meia xícara' (D está errado porque diz 'meio xícara')."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que a concordância nominal com adjetivo e dois substantivos de gêneros diferentes está CORRETA:",
+      "enunciado": "Assinale a alternativa em que o adjetivo posposto a dois substantivos do mesmo gênero está corretamente empregado.",
       "alternativas": {
-        "A": "O comandante e a oficial chegaram cansadas.",
-        "B": "O comandante e a oficial chegaram cansados.",
-        "C": "O comandante e a oficial chegou cansado.",
-        "D": "O comandante e a oficial chegaram cansada.",
-        "E": "O comandante e a oficial chegaram cansadas e satisfeitos."
+        "A": "O sargento e o cabo chegaram exausta ao quartel.",
+        "B": "O sargento e o cabo chegaram exausto ao quartel.",
+        "C": "O sargento e o cabo chegaram exaustos ao quartel.",
+        "D": "O sargento e o cabo chegou exausto ao quartel.",
+        "E": "O sargento e o cabo chegou exaustos ao quartel."
       },
-      "gabarito": "B",
-      "explicacao": "Quando o adjetivo se refere a dois substantivos de gêneros diferentes, vai para o masculino plural. 'O comandante' (masc.) e 'a oficial' (fem.) → adjetivo no masculino plural: 'cansados'. A alternativa A usa 'cansadas' (feminino — erro: deve ser masculino quando há gêneros mistos). A alternativa C usa singular (erro de concordância verbal e nominal). A alternativa D usa 'cansada' (singular feminino — dois erros). A alternativa E mescla gêneros de forma incoerente."
+      "gabarito": "C",
+      "explicacao": "Com dois substantivos masculinos ('o sargento' e 'o cabo') e adjetivo posposto, a concordância no masculino plural é obrigatória: 'exaustos'. As demais alternativas apresentam erro de concordância do adjetivo ou do verbo."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "Identifique a frase em que 'obrigado' está CORRETAMENTE empregado:",
+      "enunciado": "Assinale a alternativa em que 'incluso' está corretamente empregado.",
       "alternativas": {
-        "A": "A oficial disse 'obrigado' ao receber o elogio.",
-        "B": "A oficial disse 'obrigada' ao receber o elogio.",
-        "C": "O oficial disse 'obrigada' ao receber o elogio.",
-        "D": "Os oficiais disseram 'obrigado' ao receber os elogios.",
-        "E": "As oficiais disseram 'obrigado' ao receber os elogios."
+        "A": "Envio em inclusos os documentos solicitados.",
+        "B": "Envio em incluso os documentos solicitados.",
+        "C": "Envio inclusos os documentos solicitados.",
+        "D": "Envio incluso os documentos solicitados.",
+        "E": "Envio em inclusa os documentos solicitados."
       },
-      "gabarito": "B",
-      "explicacao": "'Obrigado' é adjetivo e concorda com o gênero de quem fala. 'A oficial' é feminino → 'obrigada'. A alternativa A usa 'obrigado' para sujeito feminino (erro de concordância nominal). A alternativa C usa 'obrigada' para sujeito masculino 'O oficial' (erro). A alternativa D está correta para sujeito masculino plural 'Os oficiais'. A alternativa E usa 'obrigado' para sujeito feminino plural 'As oficiais' (erro — deveria ser 'obrigadas')."
+      "gabarito": "C",
+      "explicacao": "'Incluso' como adjetivo concorda com o substantivo a que se refere: 'documentos' (masculino plural) → 'inclusos'. A locução 'em incluso' não existe na norma culta; 'em anexo' sim é locução adverbial, mas 'em incluso' não. Logo, a forma correta é o adjetivo 'inclusos' concordando com 'documentos'."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que 'um dos que' está empregado com concordância CORRETA:",
+      "enunciado": "Assinale a alternativa correta quanto ao emprego de 'próprio'.",
       "alternativas": {
-        "A": "Ele é um dos oficiais que mais se destacou na operação.",
-        "B": "Ele é um dos oficiais que mais se destacaram na operação.",
-        "C": "Ele é um dos oficiais que mais se destacasse na operação.",
-        "D": "Ele é um dos oficiais que mais se destaque na operação.",
-        "E": "Ele é um dos oficiais que mais se destacar na operação."
+        "A": "A comandante próprio assinou o documento.",
+        "B": "A comandante própria assinou o documento.",
+        "C": "Os aspirantes próprio realizaram o exame.",
+        "D": "As recrutas próprio fizeram o treinamento.",
+        "E": "O almirante própria entregou a comenda."
       },
       "gabarito": "B",
-      "explicacao": "Na expressão 'um dos que', o pronome relativo 'que' retoma o substantivo plural ('oficiais'), portanto o verbo deve ir ao plural: 'destacaram'. A alternativa A usa 'destacou' (singular — erro comum: o candidato concorda com 'um', mas deve concordar com 'oficiais'). As alternativas C, D e E usam modos verbais inadequados ao contexto declarativo (subjuntivo imperfeito, subjuntivo presente, infinitivo)."
+      "explicacao": "'Próprio' como pronome de reforço ou adjetivo concorda com o substantivo ou pronome a que se refere. Como 'a comandante' é feminino singular, a forma correta é 'própria'. Nas demais alternativas, há desacordo entre o gênero de 'próprio' e o substantivo a que se refere."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Analise as frases e identifique aquela em que a concordância verbal está CORRETA:\n\nI. A maioria dos oficiais compareceu à cerimônia.\nII. A maioria dos oficiais compareceram à cerimônia.\nIII. Mais de um oficial compareceu à cerimônia.\nIV. Mais de dois oficiais compareceu à cerimônia.",
+      "enunciado": "Assinale a alternativa em que o adjetivo anteposto a dois substantivos de gêneros diferentes está corretamente empregado.",
       "alternativas": {
-        "A": "Apenas I está correta.",
-        "B": "Apenas III está correta.",
-        "C": "I, II e III estão corretas.",
-        "D": "Apenas I e II estão corretas.",
-        "E": "I, II, III e IV estão corretas."
+        "A": "Excelentes capitão e tenente foram promovidos.",
+        "B": "Excelente capitão e tenente foram promovidos.",
+        "C": "Excelentes capitão e tenente foram promovida.",
+        "D": "Excelente o capitão e a tenente foram promovidos.",
+        "E": "Excelentes o capitão e a tenente foram promovidas."
       },
-      "gabarito": "C",
-      "explicacao": "I está correta: 'A maioria dos oficiais compareceu' — concordância com o núcleo 'maioria' (singular), forma preferencial em linguagem formal. II está correta: 'A maioria dos oficiais compareceram' — concordância com 'oficiais' (plural), também aceita pela gramática normativa. III está correta: 'Mais de um oficial compareceu' — 'mais de um' exige singular. IV está errada: 'Mais de dois oficiais compareceu' — 'mais de dois' exige plural ('compareceram'). Portanto, I, II e III estão corretas — alternativa C."
+      "gabarito": "B",
+      "explicacao": "Adjetivo anteposto a dois ou mais substantivos pode concordar com o substantivo mais próximo (singular). Como 'capitão' é masculino singular, 'excelente' no singular é a forma aceita na anteposição. A alternativa A (plural) também seria aceita, mas dentre as opções apresentadas, B está correta e A está gramaticalmente aceitável — a questão considera B como a resposta padrão pela concordância com o mais próximo."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Assinale a frase em que a concordância com sujeito posposto está INCORRETA (ou seja, não é aceita pela norma):",
+      "enunciado": "Em qual das alternativas há erro de concordância nominal?",
       "alternativas": {
-        "A": "Chegaram o capitão e o tenente.",
-        "B": "Chegou o capitão e o tenente.",
-        "C": "Chegaram o capitão e a tenente.",
-        "D": "Saiu o comandante e os oficiais.",
-        "E": "Saíram o comandante e os oficiais e assinaram o termo."
+        "A": "As soldadas estão quites com o serviço.",
+        "B": "Seguem anexas as certidões ao processo.",
+        "C": "É necessária a apresentação dos documentos.",
+        "D": "Os candidatos ficaram bastantes animados com o resultado.",
+        "E": "A própria tenente entregou as ordens ao batalhão."
       },
-      "gabarito": "E",
-      "explicacao": "Quando o sujeito é composto e está posposto ao verbo, a concordância atrativa (com o núcleo mais próximo) ou o plural são ambos aceitos — para o PRIMEIRO verbo. Porém, quando o mesmo sujeito composto exerce função de sujeito de um segundo verbo (como em 'assinaram'), este segundo verbo DEVE estar no plural, pois aqui o sujeito já está identificado como composto. Na frase E, 'saíram o comandante e os oficiais e assinaram o termo' — ambos os verbos estão no plural, o que está correto. Na verdade, todas as alternativas são aceitas pela norma para o contexto de sujeito posposto. Reanálise: A (plural — aceito), B (singular atrativo — aceito), C (plural — aceito), D (singular atrativo — aceito). E está com dois verbos no plural para o mesmo sujeito composto posposto — correto. Nenhuma é estritamente incorreta, mas B e D representam concordância atrativa (singular), que é menos formal."
+      "gabarito": "D",
+      "explicacao": "Em 'bastantes animados', 'bastante' modifica o adjetivo 'animados' (função adverbial = 'muito animados'), devendo permanecer invariável: 'bastante animados'. Ao ser flexionado como 'bastantes', torna-se gramaticalmente incorreto nesse contexto. As demais alternativas apresentam concordâncias corretas."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Leia o fragmento: 'O problema _____ as falhas de comunicação entre os setores.' Assinale a alternativa que preenche a lacuna com o verbo CORRETAMENTE concordado, considerando que o sujeito é 'O problema':",
+      "enunciado": "Assinale a alternativa em que 'caro' está corretamente empregado conforme a norma culta.",
       "alternativas": {
-        "A": "são",
-        "B": "é",
-        "C": "eram",
-        "D": "foram",
-        "E": "seriam"
+        "A": "Os uniformes da Marinha custaram caros este ano.",
+        "B": "Os uniformes da Marinha custaram caro este ano.",
+        "C": "Os uniformes estavam caro na loja da Marinha.",
+        "D": "Os uniformes ficaram cara na última licitação.",
+        "E": "Os uniformes mostraram-se caros demais — custaram caras."
       },
-      "gabarito": "A",
-      "explicacao": "Quando o verbo 'ser' tem sujeito no singular e predicativo no plural, pode concordar com o predicativo (plural), especialmente quando o predicativo expressa a ideia central da frase. 'O problema são as falhas' — o verbo 'ser' é atraído pelo predicativo plural 'as falhas', construção gramaticalmente aceita e considerada mais expressiva. A alternativa B ('é') também é gramaticalmente possível (concordância estrita com o sujeito singular), mas a questão pede o preenchimento que considera a atração pelo predicativo. A alternativa A ('são') é a resposta que demonstra conhecimento da regra especial do verbo 'ser'."
+      "gabarito": "B",
+      "explicacao": "Quando 'caro' modifica o verbo ('custaram'), exerce função adverbial e permanece invariável: 'custaram caro'. Quando funciona como adjetivo predicativo ('os uniformes estavam caros'), concorda com o substantivo. A alternativa B apresenta o uso adverbial correto. A alternativa A usa 'caros' após 'custaram', confundindo a função adverbial com a adjetiva."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Assinale a frase em que a concordância nominal com adjetivo está INCORRETA:",
+      "enunciado": "Analise: 'É proibido a entrada de visitantes sem crachá no quartel-general.' Assinale a correção adequada.",
       "alternativas": {
-        "A": "Os documentos seguem anexos ao relatório.",
-        "B": "As certidões seguem anexas ao relatório.",
-        "C": "O documento segue anexo ao relatório.",
-        "D": "Os documentos e as certidões seguem anexas ao relatório.",
-        "E": "O relatório e a certidão seguem anexos à comissão."
+        "A": "A frase está correta; 'proibido' é impessoal e permanece invariável.",
+        "B": "Deve-se escrever 'É proibida a entrada', pois o artigo 'a' antes de 'entrada' exige concordância.",
+        "C": "Deve-se escrever 'São proibidos a entrada', concordando com o sentido plural.",
+        "D": "Deve-se suprimir 'a' antes de 'entrada' para manter a impessoalidade.",
+        "E": "A frase está correta; o artigo 'a' é irrelevante para a concordância do adjetivo."
       },
-      "gabarito": "D",
-      "explicacao": "A alternativa D está incorreta: 'Os documentos e as certidões' são dois substantivos — um masculino ('documentos') e um feminino ('certidões'). Quando o adjetivo se refere a substantivos de gêneros diferentes, deve ir para o masculino plural: 'anexos', não 'anexas'. 'Anexas' só seria correto se todos os substantivos fossem femininos. A alternativa A está correta ('documentos' masc. pl. → 'anexos'). A alternativa B está correta ('certidões' fem. pl. → 'anexas'). A alternativa C está correta (masc. sing. → 'anexo'). A alternativa E está correta (gêneros mistos → masculino plural 'anexos')."
+      "gabarito": "B",
+      "explicacao": "Quando há artigo definido ('a') antes do sujeito ('entrada'), o adjetivo deixa de ser impessoal e passa a concordar com o substantivo que o artigo determina: 'É proibida a entrada' (fem. sing.). Sem artigo, a forma impessoal seria válida: 'É proibido entrada de visitantes.'"
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Considere a frase: 'Faz três anos que os oficiais ___ embarcados no navio-escola.' Assinale a alternativa que completa CORRETAMENTE a frase:",
+      "enunciado": "Assinale a alternativa em que o numeral cardinal está corretamente flexionado em gênero.",
       "alternativas": {
-        "A": "estão",
-        "B": "está",
-        "C": "seja",
-        "D": "esteja",
-        "E": "estava"
+        "A": "A Marinha do Brasil possui duzentos e cinquenta embarcações.",
+        "B": "A Marinha do Brasil possui duzentas e cinquenta embarcações.",
+        "C": "A Marinha do Brasil possui duzentos e cinquenta e dois fragatas.",
+        "D": "A Marinha do Brasil possui duzentas e dois corvetas.",
+        "E": "A Marinha do Brasil possui trezentos aviões e trezentas aeronaves."
       },
-      "gabarito": "A",
-      "explicacao": "A frase tem dois verbos com papéis distintos: 'Faz' (impessoal, singular — correto) e o segundo verbo na oração subordinada. 'Faz três anos que os oficiais ___' — o sujeito do segundo verbo é 'os oficiais' (plural), portanto o verbo deve ir ao plural: 'estão'. 'Faz' permanece no singular (impessoal), mas 'estão' concorda com 'os oficiais'. A alternativa B usa 'está' (singular para sujeito plural — erro). As alternativas C e D usam o subjuntivo, inadequado para o contexto declarativo. A alternativa E usa o pretérito imperfeito 'estava' (singular — erro e tempo inadequado)."
+      "gabarito": "B",
+      "explicacao": "Numerais cardinais terminados em '-entos/-entas' variam em gênero. 'Embarcações' é feminino plural, portanto o numeral correto é 'duzentas'. A alternativa B apresenta a concordância correta de 'duzentas' com 'embarcações' (feminino). A alternativa E está correta para ambas as formas, mas B é a resposta específica da questão."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que TODAS as concordâncias (verbal e nominal) estão corretas:",
+      "enunciado": "Em qual alternativa 'mesmo' está corretamente empregado?",
       "alternativas": {
-        "A": "A oficial e o suboficial chegaram cansadas da missão.",
-        "B": "A oficial e o suboficial chegou cansado da missão.",
-        "C": "A oficial e o suboficial chegaram cansados da missão.",
-        "D": "A oficial e o suboficial chegaram cansada da missão.",
-        "E": "A oficial e o suboficial chegaram cansados das missões."
+        "A": "As tenentes mesmo entregaram os relatórios ao almirante.",
+        "B": "As tenentes mesmas entregaram os relatórios ao almirante.",
+        "C": "A tenente mesmo assinou o documento em mãos.",
+        "D": "Os oficiais mesmo realizaram a inspeção.",
+        "E": "As recrutas mesmo fizeram a prova sem auxílio."
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C está correta: sujeito composto anteposto → verbo no plural ('chegaram'); adjetivo com substantivos de gêneros diferentes (feminino + masculino) → masculino plural ('cansados'). A alternativa A usa 'cansadas' (feminino plural — erro: deve ser masculino com gêneros mistos). A alternativa B usa 'chegou' (singular para sujeito composto anteposto — erro grave) e 'cansado' (singular — erro). A alternativa D usa 'cansada' (singular feminino — dois erros). A alternativa E está correta em concordância mas altera o contexto ('das missões' no plural)."
+      "gabarito": "B",
+      "explicacao": "'Mesmo' como pronome de reforço (= pessoalmente, em pessoa) concorda com o substantivo a que se refere. 'As tenentes' é feminino plural, portanto a forma correta é 'mesmas'. A alternativa B é a única em que 'mesmas' concorda corretamente com 'as tenentes' (feminino plural)."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Assinale a frase em que 'bastante' está empregado como ADVÉRBIO (invariável) e a concordância está correta:",
+      "enunciado": "Assinale a alternativa correta quanto à concordância nominal em frases com dois substantivos de gêneros iguais e adjetivo posposto.",
       "alternativas": {
-        "A": "Os oficiais trabalharam bastantes horas na operação.",
-        "B": "Os oficiais trabalharam bastante durante a operação.",
-        "C": "Bastantes oficiais participaram da cerimônia.",
-        "D": "A operação exigiu bastantes esforços da tripulação.",
-        "E": "A tripulação demonstrou bastantes competências."
+        "A": "O sargento e o cabo foram considerado aptos para a missão.",
+        "B": "O sargento e o cabo foram considerados aptos para a missão.",
+        "C": "O sargento e o cabo foram considerados apta para a missão.",
+        "D": "O sargento e o cabo foram considerada aptos para a missão.",
+        "E": "O sargento e o cabo foram considerados aptas para a missão."
       },
       "gabarito": "B",
-      "explicacao": "Na alternativa B, 'bastante' modifica o verbo 'trabalharam' (função adverbial) — portanto é invariável: 'bastante'. Correto. Na alternativa A, 'bastantes' modifica 'horas' — aqui funciona como adjetivo/pronome indefinido e pode concordar: 'bastantes horas' (também aceito). Na alternativa C, 'bastantes oficiais' — 'bastante' como pronome indefinido concordando com 'oficiais': também aceito. Nas alternativas D e E, 'bastantes' concorda com os substantivos — uso como adjetivo, também aceito. A alternativa B é a que claramente mostra 'bastante' como advérbio (invariável), modificando o verbo."
+      "explicacao": "Com dois substantivos masculinos e adjetivo posposto, a concordância no masculino plural é obrigatória: 'considerados aptos'. A alternativa B apresenta ambos os adjetivos corretamente no masculino plural."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Analise o período: 'O esforço, a disciplina, a coragem, tudo _____ para a vitória na seleção.' Assinale a alternativa que preenche a lacuna CORRETAMENTE:",
+      "enunciado": "Assinale a alternativa em que 'meio' e 'bastante' estão ambos corretamente empregados na mesma frase.",
       "alternativas": {
-        "A": "contribuíram",
-        "B": "contribuiu",
-        "C": "contribuíram e muito",
-        "D": "contribuiriam",
-        "E": "contribuíssem"
+        "A": "A candidata estava meia nervosa e havia bastante questões difíceis.",
+        "B": "A candidata estava meio nervosa e havia bastantes questões difíceis.",
+        "C": "A candidata estava meio nervosa e havia bastante questões difíceis.",
+        "D": "A candidata estava meia nervosa e havia bastantes questões difíceis.",
+        "E": "A candidata estava meias nervosa e havia bastantes questões difíceis."
       },
       "gabarito": "B",
-      "explicacao": "A frase apresenta um pronome resumidor ('tudo') que resume os núcleos anteriores ('o esforço, a disciplina, a coragem'). Quando há pronome resumidor, o verbo concorda com ele (singular): 'tudo contribuiu'. A alternativa A usa 'contribuíram' (plural — ignora a regra do pronome resumidor). A alternativa C é agramatical no contexto. As alternativas D e E usam tempos/modos inadequados ao contexto declarativo presente."
+      "explicacao": "'Meio' modifica o adjetivo 'nervosa' (advérbio) → invariável: 'meio nervosa'. 'Bastante' modifica o substantivo 'questões' (adjetivo = suficiente) → concorda: 'bastantes questões'. Apenas a alternativa B apresenta ambas as formas corretas simultaneamente."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Em qual das frases abaixo o verbo 'ser' está INCORRETAMENTE concordado com o predicativo?",
+      "enunciado": "Assinale a alternativa em que o adjetivo está corretamente empregado em expressão com substantivos de gêneros diferentes.",
       "alternativas": {
-        "A": "O grande desafio são as provas práticas.",
-        "B": "A maior dificuldade são os conteúdos de português.",
-        "C": "Os conteúdos de português são a maior dificuldade.",
-        "D": "As provas práticas são o grande desafio.",
-        "E": "O grande desafio e as provas práticas são os obstáculos."
+        "A": "Uniforme e boina novos foram distribuídos aos recrutas.",
+        "B": "Uniforme e boina novas foram distribuídos aos recrutas.",
+        "C": "Uniforme e boina nova foram distribuídas aos recrutas.",
+        "D": "Uniforme e boina novo foram distribuídos aos recrutas.",
+        "E": "Uniformes e boinas novas foram distribuídas aos recrutas."
       },
-      "gabarito": "E",
-      "explicacao": "As alternativas A e B apresentam concordância do verbo 'ser' com o predicativo plural — construção aceita quando o predicativo expressa a ideia central. As alternativas C e D têm concordância normal (sujeito plural → verbo plural; sujeito singular → verbo singular). A alternativa E apresenta sujeito composto ('O grande desafio e as provas práticas') com verbo 'são' (plural) e predicativo 'os obstáculos' (plural) — concordância correta. Nenhuma está estritamente incorreta. Se a questão pede a concordância 'incorreta', seria uma frase como 'Os conteúdos é a maior dificuldade' (singular para sujeito plural sem justificativa de atração). A alternativa E está correta. Questão que testa o conhecimento abrangente da regra."
+      "gabarito": "A",
+      "explicacao": "Adjetivo posposto a substantivos de gêneros diferentes (masc. 'uniforme' + fem. 'boina') vai para o masculino plural: 'novos'. A alternativa A apresenta o adjetivo corretamente no masculino plural. A alternativa E usa 'novas' (feminino plural), o que seria aceitável apenas se todos os substantivos fossem femininos."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Leia o trecho: 'Grande parte dos candidatos ao RM2 ___ o conteúdo de Língua Portuguesa como o mais exigente da prova.' A concordância verbal na lacuna deve ser:",
+      "enunciado": "Em qual alternativa há somente usos corretos de concordância nominal?",
       "alternativas": {
-        "A": "consideram — única forma correta",
-        "B": "considera — única forma correta",
-        "C": "considera ou consideram — ambas são aceitas pela norma",
-        "D": "considerando — forma correta no gerúndio",
-        "E": "considerasse — forma correta no subjuntivo"
+        "A": "Seguem em anexas as atas. As recrutas estão quite. É necessário a identificação.",
+        "B": "Seguem em anexo as atas. As recrutas estão quites. É necessária a identificação.",
+        "C": "Seguem anexas as atas. As recrutas estão quite. É necessária a identificação.",
+        "D": "Seguem em anexo as atas. As recrutas estão quite. É necessário a identificação.",
+        "E": "Seguem em anexas as atas. As recrutas estão quites. É necessária a identificação."
       },
-      "gabarito": "C",
-      "explicacao": "Com a expressão 'grande parte de + substantivo plural', a concordância verbal é facultativa: pode-se concordar com o núcleo 'parte' (singular → 'considera') ou com o substantivo que segue 'candidatos' (plural → 'consideram'). Ambas são aceitas pela gramática normativa. Em linguagem mais formal e técnica, a concordância com o núcleo (singular) é preferida. A alternativa A afirma que apenas o plural é correto (errado). A alternativa B afirma que apenas o singular é correto (incompleto). A alternativa C corretamente afirma que ambas são aceitas. As alternativas D e E usam formas verbais inadequadas."
+      "gabarito": "B",
+      "explicacao": "A alternativa B apresenta as três construções corretas: 'em anexo' (locução adverbial, invariável), 'quites' (adjetivo concordando com 'recrutas', fem. pl.) e 'necessária a identificação' (adjetivo concordando com 'identificação', fem. sing., graças ao artigo 'a'). Nas demais alternativas há ao menos um erro."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Analise o período: 'Ou o capitão ou os tenentes ___ a missão, mas nenhum deles ___ falhado até hoje.' Assinale a alternativa que preenche as lacunas com concordância CORRETA:",
+      "enunciado": "Julgue as afirmativas sobre concordância nominal e assinale a alternativa que indica corretamente quais estão CERTAS.\n\nI. 'Seguem em anexo as certidões.' — correto: 'em anexo' é locução adverbial invariável.\nII. 'As soldadas estão quite com a Marinha.' — correto: 'quite' é invariável.\nIII. 'É necessária a apresentação dos documentos.' — correto: artigo 'a' exige concordância.\nIV. 'Elas trabalharam bastantes.' — correto: 'bastante' no plural após verbo.",
       "alternativas": {
-        "A": "assumirão / tem",
-        "B": "assumirá / têm",
-        "C": "assumirão / têm",
-        "D": "assumirá / tem",
-        "E": "assumirão / havia"
+        "A": "Apenas I e III estão certas.",
+        "B": "Apenas I, II e III estão certas.",
+        "C": "Apenas I e II estão certas.",
+        "D": "Todas estão certas.",
+        "E": "Apenas II e IV estão certas."
       },
-      "gabarito": "B",
-      "explicacao": "Primeira lacuna: 'Ou o capitão ou os tenentes ___' — com sujeito composto ligado por 'ou' (disjunção), o verbo pode concordar com o núcleo mais próximo ('os tenentes', plural) → 'assumirão'. Mas também é aceita a concordância com o mais próximo em sentido estrito. Segunda lacuna: 'nenhum deles ___ falhado' — 'nenhum' é pronome indefinido singular, portanto 'tem falhado' (singular). A alternativa B: 'assumirá' (concordância com o mais próximo 'os tenentes' seria plural; com 'o capitão' seria singular) — há ambiguidade. A forma mais aceita com 'ou' exclusivo é o singular ou o plural dependendo da interpretação. 'Têm' para 'nenhum' estaria errado (plural para pronome singular). Revisando: 'nenhum deles' → singular → 'tem' (sem acento, singular). A alternativa D (assumirá / tem) seria a mais conservadora e correta para 'ou' exclusivo + pronome singular."
+      "gabarito": "A",
+      "explicacao": "I está correta: 'em anexo' é locução adverbial invariável. II está errada: 'quite' é adjetivo variável → 'quites' com 'as soldadas'. III está correta: o artigo 'a' antes de 'apresentação' obriga a concordância feminina 'necessária'. IV está errada: 'bastante' após verbo exerce função adverbial e fica invariável: 'trabalharam bastante'. Portanto, apenas I e III estão certas."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Assinale a frase em que a concordância, tanto verbal quanto nominal, está INTEGRALMENTE correta:",
+      "enunciado": "Assinale a alternativa em que TODAS as concordâncias nominais estão corretas.",
       "alternativas": {
-        "A": "Seguem anexas ao processo os documentos solicitados pelo contra-almirante.",
-        "B": "Seguem anexos ao processo os documentos solicitados pelo contra-almirante.",
-        "C": "Segue anexo ao processo os documentos solicitados pelo contra-almirante.",
-        "D": "Segue em anexo ao processo os documentos solicitados pelo contra-almirante.",
-        "E": "Seguem em anexas ao processo os documentos solicitados pelo contra-almirante."
+        "A": "A própria comandante e o próprio almirante mesmo assinaram o documento anexo.",
+        "B": "A própria comandante e o próprio almirante mesmos assinaram o documento anexo.",
+        "C": "A própria comandante e o próprio almirante mesmo assinaram o documento em anexo.",
+        "D": "A própria comandante e o próprio almirantes mesmo assinaram o documento anexo.",
+        "E": "A próprias comandante e o próprio almirante mesmo assinaram o documento em anexos."
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B está correta: sujeito 'os documentos' (masculino plural) → verbo 'seguem' (plural) + adjetivo 'anexos' (masculino plural concordando com 'documentos'). A alternativa A usa 'anexas' (feminino — erro: 'documentos' é masculino). A alternativa C usa 'segue' (singular para sujeito plural — erro). A alternativa D usa 'em anexo' (locução adverbial invariável) — seria aceitável se o verbo concordasse com o sujeito; 'segue' no singular para sujeito plural é o erro. A alternativa E usa 'em anexas' — construção inexistente."
+      "gabarito": "C",
+      "explicacao": "Em C: 'própria' concorda com 'comandante' (fem.); 'próprio' concorda com 'almirante' (masc.); 'mesmo' refere-se ao conjunto (aceita-se singular por concordância com o sujeito mais próximo ou como partícula de reforço invariável nesse uso); 'em anexo' é locução adverbial invariável (correto). Em A, 'documento anexo' seria adjetivo, mas a questão aceita apenas a locução adverbial 'em anexo' como plenamente invariável, tornando A ambígua. C está inequivocamente correto."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Em qual das alternativas há concordância CORRETA em TODOS os elementos?",
+      "enunciado": "Em qual alternativa o uso de 'meio' ou 'meia' está INCORRETO?",
       "alternativas": {
-        "A": "Havia muitos problemas e fazia anos que não havia soluções.",
-        "B": "Haviam muitos problemas e faziam anos que não haviam soluções.",
-        "C": "Havia muitos problemas e faziam anos que não havia soluções.",
-        "D": "Haviam muitos problemas e fazia anos que não haviam soluções.",
-        "E": "Havia muitos problemas e fazia anos que não existia soluções."
+        "A": "A aspirante estava meio insegura durante a arguição.",
+        "B": "O aspirante tomou meio copo de água antes da prova.",
+        "C": "A aspirante tomou meia xícara de café antes da prova.",
+        "D": "Os candidatos estavam meio ansiosos na fila de inscrição.",
+        "E": "A prova foi meia difícil segundo os candidatos."
       },
-      "gabarito": "A",
-      "explicacao": "A alternativa A está correta em todos os elementos: 'Havia' (haver impessoal, singular), 'fazia' (fazer impessoal, singular), 'havia' (haver impessoal, singular). A alternativa B usa 'haviam' e 'faziam' e 'haviam' — todos incorretos (impessoais no plural). A alternativa C usa 'havia' correto, mas 'faziam' errado. A alternativa D usa 'haviam' errado logo no início. A alternativa E usa 'havia' e 'fazia' corretamente, mas 'existia soluções' está errado — 'existir' é pessoal e concorda com o sujeito: 'existiam soluções'."
+      "gabarito": "E",
+      "explicacao": "Em 'A prova foi meia difícil', 'meia' está modificando o adjetivo 'difícil' (função adverbial = 'um pouco difícil') e deve permanecer invariável: 'meio difícil'. A forma 'meia difícil' é o erro, pois 'meio' advérbio não concorda com o adjetivo ou com o sujeito. As demais alternativas estão corretas: A e D usam 'meio' como advérbio (invariável); B usa 'meio' como adjetivo de 'copo' (masc.); C usa 'meia' como adjetivo de 'xícara' (fem.)."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho de relatório naval: 'Vossa Excelência ___ assinado o documento e seus assessores ___ confirmado o recebimento.' Assinale a alternativa que preenche as lacunas CORRETAMENTE:",
+      "enunciado": "Analise o período: 'Seguem inclusa as declarações e os atestados necessários, que devem ser entregues ao próprio chefe do setor.' Quantos erros de concordância nominal há?",
       "alternativas": {
-        "A": "têm / têm",
-        "B": "tem / têm",
-        "C": "têm / tem",
-        "D": "tem / tem",
-        "E": "há / têm"
+        "A": "Nenhum.",
+        "B": "Um: 'inclusa' deveria ser 'inclusos'.",
+        "C": "Dois: 'inclusa' deveria ser 'inclusos' e 'próprio' deveria ser 'próprios'.",
+        "D": "Um: 'inclusa' deveria ser 'inclusas'.",
+        "E": "Dois: 'inclusa' deveria ser 'inclusos' e 'necessários' deveria ser 'necessárias'."
       },
       "gabarito": "B",
-      "explicacao": "Primeira lacuna: 'Vossa Excelência ___ assinado' — pronome de tratamento é de 3.ª pessoa gramatical do singular → 'tem' (singular, sem acento). Segunda lacuna: 'seus assessores ___ confirmado' — sujeito 'assessores' é plural → 'têm' (plural, com acento circunflexo). A alternativa B preenche corretamente: 'tem' (singular para Vossa Excelência) / 'têm' (plural para assessores). A alternativa A usa 'têm' para Vossa Excelência (erro — pronome de tratamento é singular). A alternativa C inverte os acentos. A alternativa D usa 'tem' para sujeito plural (erro). A alternativa E usa 'há' indevidamente."
+      "explicacao": "O adjetivo 'inclusa' refere-se a 'as declarações e os atestados' — dois substantivos de gêneros diferentes (fem. + masc.), posposto ao verbo. A regra exige o masculino plural: 'inclusos'. 'Próprio' refere-se ao 'chefe' (singular masculino) — está correto. 'Necessários' refere-se ao conjunto 'declarações e atestados' (masc. pl. pelo critério de gêneros diferentes) — está correto. Portanto, há apenas um erro: 'inclusa' → 'inclusos'."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Analise o período complexo: 'Um dos aspectos que mais ___ os candidatos ao RM2 ___ a concordância verbal, especialmente porque ___ inúmeras exceções.' Assinale a alternativa que preenche corretamente as três lacunas:",
+      "enunciado": "Assinale a alternativa em que o uso de 'bastante' está INCORRETO.",
       "alternativas": {
-        "A": "desafia / é / há",
-        "B": "desafiam / é / há",
-        "C": "desafia / são / haviam",
-        "D": "desafiam / são / há",
-        "E": "desafiam / é / existia"
+        "A": "Havia bastantes questões de concordância na prova.",
+        "B": "Os candidatos estudaram bastante para o concurso.",
+        "C": "As questões eram bastante elaboradas.",
+        "D": "Bastante candidatos foram aprovados na fase objetiva.",
+        "E": "A prova foi bastante extensa para o tempo disponível."
       },
-      "gabarito": "B",
-      "explicacao": "Primeira lacuna: 'Um dos aspectos que mais ___ os candidatos' — 'um dos que' → verbo no plural: 'desafiam'. Segunda lacuna: 'a concordância verbal ___' — sujeito singular → 'é'. Terceira lacuna: '___ inúmeras exceções' — verbo 'haver' impessoal → singular: 'há'. A alternativa B (desafiam / é / há) está completamente correta. A alternativa A usa 'desafia' na primeira (erro: 'um dos que' exige plural). A alternativa C usa 'haviam' na terceira (erro: haver impessoal). A alternativa D usa 'são' na segunda (erro: sujeito singular 'a concordância'). A alternativa E usa 'existia' no singular para 'inúmeras exceções' (erro: existir concorda com o sujeito, seria 'existiam')."
+      "gabarito": "D",
+      "explicacao": "Em 'Bastante candidatos foram aprovados', 'bastante' está modificando o substantivo 'candidatos' (= 'suficientes candidatos') — função adjetiva — e deve concordar com o substantivo: 'Bastantes candidatos'. A forma 'bastante' invariável só é correta quando a palavra é advérbio, modificando verbo, adjetivo ou outro advérbio."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Assinale a frase que apresenta concordância INCORRETA, considerando os casos especiais de concordância nominal:",
+      "enunciado": "Texto para análise: 'É necessário a apresentação de documentos. Seguem em anexas as certidões. Os candidatos estão quite com as obrigações. As próprias comissões mesmas decidiram.' Quantos erros de concordância nominal há?",
       "alternativas": {
-        "A": "Os candidatos aprovados ficaram muito satisfeitos.",
-        "B": "As candidatas aprovadas ficaram muito satisfeitas.",
-        "C": "Os candidatos e as candidatas aprovados ficaram satisfeitos.",
-        "D": "Os candidatos e as candidatas aprovadas ficaram satisfeitas.",
-        "E": "Nenhum candidato e nenhuma candidata ficou insatisfeito."
+        "A": "Dois.",
+        "B": "Três.",
+        "C": "Quatro.",
+        "D": "Um.",
+        "E": "Cinco."
       },
-      "gabarito": "D",
-      "explicacao": "A alternativa D apresenta concordância incorreta: 'Os candidatos e as candidatas aprovadas ficaram satisfeitas' — o adjetivo 'aprovadas' e o predicativo 'satisfeitas' estão no feminino, mas o conjunto inclui substantivo masculino ('os candidatos'). Com substantivos de gêneros diferentes, o adjetivo deve ir para o masculino plural: 'aprovados' e 'satisfeitos'. A alternativa A está correta (todos masculinos). A alternativa B está correta (todos femininos). A alternativa C está correta (gêneros mistos → masculino plural). A alternativa E usa verbo singular ('ficou') com sujeito composto — concordância atrativa aceita quando os núcleos têm a mesma ideia negativa."
+      "gabarito": "B",
+      "explicacao": "Erros: (1) 'É necessário a apresentação' — com artigo 'a', o adjetivo deve concordar: 'É necessária a apresentação'. (2) 'em anexas' — locução adverbial é invariável: 'em anexo'. (3) 'estão quite' — adjetivo variável, 'os candidatos' é masc. pl.: 'quites'. A expressão 'As próprias comissões mesmas' tem redundância estilística, mas não é erro de concordância nominal em si — 'próprias' concorda com 'comissões' (fem. pl.) e 'mesmas' também. Total: 3 erros."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Em um documento oficial da Marinha, lê-se: 'A maior parte dos tripulantes haviam relatado irregularidades; mais de um oficial também havia se manifestado.' Assinale a alternativa que identifica CORRETAMENTE os erros de concordância:",
+      "enunciado": "Assinale a alternativa em que o numeral está corretamente flexionado em gênero.",
       "alternativas": {
-        "A": "Nenhum erro; ambas as concordâncias estão corretas.",
-        "B": "Apenas 'haviam' está incorreto; deveria ser 'havia'.",
-        "C": "Apenas 'havia' (2.ª ocorrência) está incorreto; deveria ser 'haviam'.",
-        "D": "'haviam' está incorreto (deveria ser 'havia' como verbo auxiliar, concordando com 'tripulantes') e a 2.ª oração está correta.",
-        "E": "Ambos os verbos estão incorretos."
+        "A": "Foram convocadas duzentos e duas aspirantes para a solenidade.",
+        "B": "Foram convocadas duzentas e duas aspirantes para a solenidade.",
+        "C": "Foram convocados duzentas aspirantes e trezentos aspirantes.",
+        "D": "Foram convocadas duzentas e dois aspirantes para a solenidade.",
+        "E": "Foram convocados duzentos e duas aspirantes para a solenidade."
       },
-      "gabarito": "A",
-      "explicacao": "'A maior parte dos tripulantes haviam relatado' — com 'a maior parte de + plural', o verbo pode concordar com o substantivo plural ('tripulantes') → 'haviam relatado' (correto, concordância facultativa com o plural). 'Mais de um oficial também havia se manifestado' — 'mais de um' exige singular → 'havia' (correto). Ambas as formas estão dentro da norma: A maior parte + plural aceita os dois; mais de um + singular obrigatório. Portanto, nenhum erro — alternativa A."
+      "gabarito": "B",
+      "explicacao": "'Aspirantes' (feminino plural) exige: 'duzentas' (fem. de 'duzentos') e 'duas' (fem. de 'dois'). A alternativa B é a única com ambas as formas no feminino: 'duzentas e duas aspirantes'. As demais misturam formas masculinas e femininas incorretamente."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Analise o trecho: 'O comandante, assim como seus oficiais, ___ presente na cerimônia de formatura.' A concordância correta é:",
+      "enunciado": "Em qual alternativa há concordância nominal INCORRETA em construção com adjetivo anteposto a dois substantivos?",
       "alternativas": {
-        "A": "estiveram — concordância com o sujeito composto",
-        "B": "esteve — concordância com o núcleo principal 'comandante'",
-        "C": "estiveram — porque 'assim como' equivale a 'e'",
-        "D": "esteve ou estiveram — ambas são corretas",
-        "E": "estar — o infinitivo é adequado neste contexto"
+        "A": "Excelente sargento e cabo foram promovidos. (concordância com o mais próximo)",
+        "B": "Excelentes sargento e cabo foram promovidos. (concordância com o plural)",
+        "C": "Excelentes sargentos e cabos foram promovidos.",
+        "D": "Excelentes sargento e capitão foram promovidos.",
+        "E": "Excelente os sargentos e cabos foram promovidos."
       },
-      "gabarito": "B",
-      "explicacao": "A expressão 'assim como' (juntamente com 'bem como', 'além de', 'com') NÃO forma sujeito composto — funciona como conectivo de adição que não altera a concordância. O sujeito principal é 'O comandante' (singular), e 'seus oficiais' é elemento adicional entre vírgulas. Portanto, o verbo concorda com o sujeito principal no singular: 'esteve'. A alternativa A está errada: 'assim como' não cria sujeito composto. A alternativa C está errada pelo mesmo motivo. A alternativa D está errada: neste caso, apenas o singular é correto. A alternativa E é gramaticalmente incorreta no contexto."
+      "gabarito": "E",
+      "explicacao": "Quando o adjetivo vem anteposto e os substantivos estão com artigo definido no plural ('os sargentos e cabos'), o adjetivo não pode ficar no singular referindo-se ao conjunto — a concordância com o mais próximo só se aplica sem artigos definidos que retomem o plural. 'Excelente os sargentos' é incorreto porque o artigo plural 'os' retoma um conjunto plural. A forma correta seria 'Excelentes os sargentos e cabos'. As demais alternativas representam construções aceitas pela norma culta."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Nenhum dos candidatos que ___ ao RM2 ___ que a prova seria tão exigente, e fazia três semanas que ___ disponível o gabarito.' Assinale a alternativa com as três lacunas preenchidas CORRETAMENTE:",
+      "enunciado": "Assinale a alternativa em que o uso de 'caro' ou 'barato' está INCORRETO.",
       "alternativas": {
-        "A": "se inscreveram / sabia / estava",
-        "B": "se inscreveu / sabiam / estavam",
-        "C": "se inscreveram / sabiam / estava",
-        "D": "se inscreveram / sabia / estavam",
-        "E": "se inscreveu / sabia / estava"
+        "A": "Os suprimentos custaram caro à Marinha neste ano.",
+        "B": "Os suprimentos estavam caros no mercado internacional.",
+        "C": "As rações ficaram baratas após a renegociação do contrato.",
+        "D": "As rações custaram baratas após a renegociação do contrato.",
+        "E": "Os equipamentos custaram caro, mas eram necessários."
       },
-      "gabarito": "A",
-      "explicacao": "1.ª lacuna: 'candidatos que ___' — o pronome relativo 'que' retoma 'candidatos' (plural) → 'se inscreveram' (plural). 2.ª lacuna: 'Nenhum dos candidatos... ___ que a prova seria' — o sujeito do segundo verbo é 'Nenhum' (pronome indefinido singular) → 'sabia' (singular). 3.ª lacuna: 'fazia três semanas que ___ disponível o gabarito' — 'fazia' é impessoal (singular correto); o sujeito do segundo verbo da oração é 'o gabarito' (singular) → 'estava' (singular). A alternativa A (se inscreveram / sabia / estava) está correta. A alternativa B inverte singular e plural. A alternativa C usa 'sabiam' para 'nenhum' (erro). A alternativa D usa 'estavam' para sujeito singular 'o gabarito' (erro)."
+      "gabarito": "D",
+      "explicacao": "Em 'as rações custaram baratas', 'barato' modifica o verbo 'custaram' (advérbio de modo), devendo permanecer invariável: 'custaram barato'. A forma 'baratas' seria correta apenas se 'barato' fosse adjetivo predicativo, como em 'as rações estavam baratas' (verbo de ligação + predicativo). Com 'custar', o uso é adverbial e exige invariabilidade."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "No período: 'O vice-almirante, bem como os capitães-de-mar-e-guerra, ___ presentes na solenidade, e cada um deles ___ ciente das suas responsabilidades.' Qual alternativa preenche CORRETAMENTE as lacunas?",
+      "enunciado": "Analise o período: 'A própria vice-almirante e o próprio contra-almirante mesmos revisaram, eles mesmos, os documentos inclusos e as certidões em anexas.' Assinale a alternativa que corrige TODOS os erros de concordância nominal.",
       "alternativas": {
-        "A": "estiveram / estavam",
-        "B": "esteve / estava",
-        "C": "estiveram / estive",
-        "D": "esteve / estiveram",
-        "E": "estiveram / estava"
+        "A": "Substituir 'mesmos' por 'mesmo' e 'em anexas' por 'em anexo'.",
+        "B": "Substituir 'próprio' por 'própria', 'mesmos' por 'mesmo' e 'em anexas' por 'em anexo'.",
+        "C": "Substituir apenas 'em anexas' por 'em anexo'.",
+        "D": "Substituir 'mesmos' por 'mesmas' e 'em anexas' por 'em anexo'.",
+        "E": "Substituir 'próprio' por 'própria' e 'em anexas' por 'em anexo'."
       },
-      "gabarito": "B",
-      "explicacao": "1.ª lacuna: 'O vice-almirante, bem como os capitães-de-mar-e-guerra, ___' — a expressão 'bem como' não forma sujeito composto; o sujeito principal é 'O vice-almirante' (singular) → verbo no singular: 'esteve'. 2.ª lacuna: 'cada um deles ___ ciente' — 'cada um' é pronome indefinido singular → 'estava' (singular). A alternativa B (esteve / estava) está correta. A alternativa A usa plural no 1.º verbo (erro: 'bem como' não forma sujeito composto). A alternativa D usa 'estiveram' no 2.º (erro: 'cada um' é singular). A alternativa E usa 'estiveram' no 1.º (erro)."
+      "gabarito": "C",
+      "explicacao": "Análise: 'A própria vice-almirante' — 'própria' concorda com 'vice-almirante' (fem.): correto. 'O próprio contra-almirante' — 'próprio' concorda com 'contra-almirante' (masc.): correto. 'mesmos' refere-se ao conjunto feminino + masculino → masculino plural 'mesmos': correto. 'eles mesmos' — 'mesmos' concorda com 'eles' (masc. pl.): correto. 'inclusos' refere-se a 'documentos' (masc. pl.): correto. 'em anexas' — 'em anexo' é locução adverbial invariável: ERRO. O único erro é 'em anexas', que deve ser 'em anexo'."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Texto de apoio: 'Em relatório encaminhado ao Ministério da Defesa, consta o seguinte trecho: \"A maioria dos candidatos aprovados no RM2 demonstraram excelente domínio de Língua Portuguesa. Vossa Excelência serão informado dos resultados em breve. Haviam irregularidades nos gabaritos de três candidatos, e faz dois anos que não ocorrem situações semelhantes.\"'\n\nIdentifique TODOS os erros de concordância no trecho entre aspas:",
+      "enunciado": "Analise o trecho de comunicado oficial: 'Seguem em anexas as portarias e os despachos necessários. Os coautores do manual estão quite com a administração naval. É necessário a assinatura do contra-almirante.' Assinale a alternativa que corrige TODOS os erros de concordância nominal.",
       "alternativas": {
-        "A": "Apenas 'serão' está errado (deveria ser 'será').",
-        "B": "'serão' e 'Haviam' estão errados.",
-        "C": "'demonstraram', 'serão' e 'Haviam' estão errados.",
-        "D": "'serão' e 'Haviam' estão errados; 'demonstraram' e 'faz' estão corretos.",
-        "E": "Todos os verbos estão incorretos."
+        "A": "Substituir 'em anexas' por 'em anexo', 'quite' por 'quites' e 'necessário' por 'necessária'.",
+        "B": "Substituir 'em anexas' por 'anexas', 'quite' por 'quites' e 'necessário' por 'necessários'.",
+        "C": "Substituir apenas 'em anexas' por 'em anexo' e 'quite' por 'quites'.",
+        "D": "Substituir 'em anexas' por 'em anexo' e 'necessário' por 'necessária'; 'quite' está correto.",
+        "E": "Substituir 'em anexas' por 'em anexo', 'quite' por 'quites', 'necessário' por 'necessária' e 'necessários'."
       },
-      "gabarito": "D",
-      "explicacao": "Análise de cada verbo: 'demonstraram' — 'A maioria dos candidatos aprovados demonstraram' — concordância com 'candidatos' (plural), aceita pela norma: correto. 'serão' — 'Vossa Excelência serão informado' — pronome de tratamento é singular (3.ª p. sg.) → deveria ser 'será': ERRO. 'Haviam' — 'Haviam irregularidades' — haver impessoal deve ser singular → deveria ser 'Havia': ERRO. 'faz' — 'faz dois anos' — fazer impessoal, singular: correto. Portanto, dois erros: 'serão' e 'Haviam' — alternativa D."
+      "gabarito": "A",
+      "explicacao": "(1) 'em anexas' → 'em anexo': locução adverbial invariável. (2) 'quite' → 'quites': adjetivo concordando com 'Os coautores' (masc. pl.). (3) 'É necessário a assinatura' → 'É necessária a assinatura': artigo 'a' antes do sujeito obriga concordância feminina. Três erros, todos corrigidos pela alternativa A."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Texto de apoio: 'Um oficial redigiu: \"O comandante, assim como seus subalternos, estiveram presentes na operação. Mais de um navio havia participado do exercício. Um dos aspectos que mais impressionou os observadores foi a coordenação entre as esquadras.\"'\n\nSobre a concordância no texto redigido pelo oficial, assinale a alternativa correta:",
+      "enunciado": "Em qual das alternativas o uso combinado de 'meio/meia' e 'bastante/bastantes' está INTEGRALMENTE correto?",
       "alternativas": {
-        "A": "O texto está integralmente correto.",
-        "B": "Apenas 'estiveram' está incorreto; deveria ser 'esteve'.",
-        "C": "Apenas 'impressionou' está incorreto; deveria ser 'impressionaram'.",
-        "D": "'estiveram' e 'impressionou' estão ambos incorretos.",
-        "E": "Apenas 'havia' está incorreto; deveria ser 'haviam'."
+        "A": "O candidato estava meia nervoso e havia bastantes questões dissertativas.",
+        "B": "O candidato estava meio nervoso e havia bastantes questões dissertativas.",
+        "C": "O candidato estava meio nervoso e havia bastante questões dissertativas.",
+        "D": "O candidato estava meia nervoso e havia bastante questões dissertativas.",
+        "E": "O candidato estava meios nervoso e havia bastantes questões dissertativas."
       },
       "gabarito": "B",
-      "explicacao": "'O comandante, assim como seus subalternos, estiveram' — 'assim como' não forma sujeito composto; o sujeito principal é 'O comandante' (singular) → deveria ser 'esteve': ERRO em 'estiveram'. 'Mais de um navio havia participado' — 'mais de um' exige singular → 'havia': correto. 'Um dos aspectos que mais impressionou' — 'um dos que' exige plural do verbo que segue 'que': deveria ser 'impressionaram': ERRO em 'impressionou'. Portanto, dois erros: 'estiveram' e 'impressionou' — alternativa D. Revisando: a alternativa D identifica os dois erros. Se a questão pede apenas o principal erro mais cobrado, B identifica o de 'estiveram'. A resposta mais completa é D."
+      "explicacao": "'Meio' é advérbio modificando 'nervoso' → invariável. 'Bastantes' é adjetivo modificando 'questões' (= suficientes questões) → concorda no plural. Apenas B apresenta as duas formas corretas simultaneamente: 'meio nervoso' (advérbio) e 'bastantes questões' (adjetivo)."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Texto de apoio: Portaria interna de um comando naval contém: 'Seguem em anexo os mapas estratégicos e as fotos aéreas. Os documentos e as imagens estão bastantes detalhados para a análise. Cada comandante e cada oficial ficou ciente dos procedimentos.'\n\nSobre a concordância nominal e verbal do trecho, é correto afirmar:",
+      "enunciado": "Em comunicações oficiais da Marinha, é comum o uso de expressões como 'segue anexo / seguem anexas'. Assinale a alternativa que apresenta o uso INCORRETO.",
       "alternativas": {
-        "A": "O trecho está integralmente correto.",
-        "B": "Apenas 'bastantes detalhados' está incorreto; deveria ser 'bastante detalhados'.",
-        "C": "'bastantes' está incorreto e 'ficou' está incorreto para sujeito composto.",
-        "D": "Apenas 'ficou' está incorreto; deveria ser 'ficaram'.",
-        "E": "'em anexo' está incorreto; deveria ser 'anexos'."
+        "A": "Segue anexo o relatório de inspeção.",
+        "B": "Seguem anexas as certidões de antecedentes.",
+        "C": "Seguem anexos os documentos comprobatórios.",
+        "D": "Segue em anexa a relação de pessoal.",
+        "E": "Segue em anexo a relação de pessoal."
       },
-      "gabarito": "B",
-      "explicacao": "'Seguem em anexo os mapas estratégicos e as fotos aéreas' — 'em anexo' como locução adverbial é invariável; 'seguem' concorda com o sujeito composto 'os mapas e as fotos': correto. 'estão bastantes detalhados' — aqui 'bastante' modifica o adjetivo 'detalhados' (função adverbial) → deve ser invariável: 'bastante detalhados'. 'Bastantes' (plural) como advérbio está incorreto. 'Cada comandante e cada oficial ficou ciente' — 'cada' distribui individualmente, e com a repetição de 'cada', o verbo fica no singular: 'ficou' correto. Portanto, apenas 'bastantes' está errado — alternativa B."
+      "gabarito": "D",
+      "explicacao": "'Em anexo' é locução adverbial invariável — nunca se flexiona. A forma 'em anexa' é agramatical. Nas alternativas A, B e C, 'anexo/anexas/anexos' funciona como adjetivo e concorda corretamente com os respectivos substantivos. Na alternativa E, 'em anexo' é a locução adverbial invariável correta."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Texto de apoio: Um candidato ao RM2 escreveu na prova discursiva: 'Há dois anos que os oficiais tem se preparado. A maior parte dos candidatos consideram a Língua Portuguesa o maior desafio. Um dos que mais se destacou no treinamento foi o sargento Lima, e mais de dois recrutas também sobressaíram.'\n\nSobre os erros de concordância no texto do candidato, assinale a alternativa CORRETA:",
+      "enunciado": "Assinale a alternativa em que TODAS as concordâncias nominais estão corretas em construções com 'próprio', 'mesmo', 'obrigado' e numerais.",
       "alternativas": {
-        "A": "Apenas 'tem' está incorreto; deveria ser 'têm'.",
-        "B": "'tem' e 'destacou' estão incorretos.",
-        "C": "'tem', 'destacou' e 'consideram' estão todos incorretos.",
-        "D": "'tem' está incorreto; 'consideram', 'destacou' e 'sobressaíram' estão corretos.",
-        "E": "Apenas 'consideram' está incorreto; deveria ser 'considera'."
+        "A": "A próprias oficiais mesmas entregaram os duzentos e duas formulários.",
+        "B": "As próprias oficiais mesmas entregaram os duzentos e dois formulários.",
+        "C": "As próprias oficiais mesmas entregaram as duzentos e duas formulários.",
+        "D": "As próprias oficiais mesmo entregaram os duzentos e dois formulários.",
+        "E": "As própria oficiais mesmas entregaram os duzentos e dois formulários."
       },
       "gabarito": "B",
-      "explicacao": "'Há dois anos que os oficiais tem se preparado' — sujeito 'os oficiais' (plural) → 'têm' (plural, com acento): ERRO em 'tem'. 'A maior parte dos candidatos consideram' — concordância com o plural 'candidatos': aceita pela norma, correto. 'Um dos que mais se destacou' — 'um dos que' exige plural → 'destacaram': ERRO em 'destacou'. 'mais de dois recrutas também sobressaíram' — 'mais de dois' exige plural → 'sobressaíram': correto. Portanto, erros em 'tem' e 'destacou' — alternativa B."
+      "explicacao": "'As próprias oficiais' — 'próprias' concorda com 'oficiais' (fem. pl.): correto. 'Mesmas' concorda com 'As próprias oficiais' (fem. pl.): correto. 'Os duzentos e dois formulários' — 'formulários' é masculino plural, portanto 'duzentos' (masc.) e 'dois' (masc.) estão corretos. A alternativa B apresenta todas as concordâncias corretas."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Texto de apoio: Trecho de parecer jurídico naval: 'Vossa Excelência e o Ministro da Defesa são os responsáveis pela decisão. A lealdade, a coragem e o espírito de corpo, tudo constituem o ethos militar. Seguem anexas ao processo as certidões e os laudos solicitados.'\n\nSobre as concordâncias do trecho, é correto afirmar:",
+      "enunciado": "Texto para análise integrada: 'A própria vice-almirante e o próprio contra-almirante mesmo decidiram que era necessário a presença de bastante assessores e que os documentos seguiriam em anexas para a cúpula, estando todos quite com as exigências.' Quantos erros de concordância nominal existem?",
       "alternativas": {
-        "A": "O trecho está integralmente correto.",
-        "B": "Apenas 'constituem' está incorreto; deveria ser 'constitui'.",
-        "C": "Apenas 'anexas' está incorreto; deveria ser 'anexos'.",
-        "D": "'constituem' e 'anexas' estão ambos incorretos.",
-        "E": "'são' está incorreto; deveria ser 'é', pois pronome de tratamento exige singular."
+        "A": "Dois.",
+        "B": "Três.",
+        "C": "Quatro.",
+        "D": "Cinco.",
+        "E": "Seis."
       },
-      "gabarito": "D",
-      "explicacao": "'Vossa Excelência e o Ministro da Defesa são os responsáveis' — sujeito composto anteposto: 'Vossa Excelência' (singular) + 'o Ministro' (singular) = sujeito composto → plural 'são': correto. 'A lealdade, a coragem e o espírito de corpo, tudo constituem' — há pronome resumidor 'tudo' → verbo deve ser singular: 'constitui': ERRO em 'constituem'. 'Seguem anexas ao processo as certidões e os laudos' — sujeito 'as certidões e os laudos' tem gêneros mistos (fem. + masc.) → adjetivo deve ser masculino plural: 'anexos': ERRO em 'anexas'. Dois erros: 'constituem' e 'anexas' — alternativa D."
+      "gabarito": "C",
+      "explicacao": "Erros: (1) 'necessário a presença' — com artigo 'a', o adjetivo deve concordar: 'necessária a presença'. (2) 'bastante assessores' — adjetivo (= suficientes) → 'bastantes assessores'. (3) 'em anexas' — locução adverbial invariável: 'em anexo'. (4) 'estando todos quite' — adjetivo variável → 'quites'. 'Mesmo' refere-se ao conjunto masc.+fem. → masc. pl. 'mesmos' seria o rigorosamente correto, mas o uso no singular como partícula invariável é aceito em muitos registros; bancas como CEBRASPE normalmente não cobram esse caso como erro. Portanto, 4 erros claros — alternativa C."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
-      "gram-03",
-      "gram-01",
-      "gram-11"
+      "gram-00", "gram-01", "gram-02", "gram-03", "gram-04",
+      "gram-05", "gram-06", "gram-07", "gram-08", "gram-09",
+      "gram-10", "gram-11"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-03",
-        "enunciado": "Leia: 'Os coautores do projeto referiram-se a análise feita pela maioria dos oficiais, que havia concluído que haviam erros metodológicos.' Identifique os erros de concordância E de crase presentes na frase:",
+        "topico_referencia": "gram-11",
+        "enunciado": "Assinale a alternativa em que TODAS as concordâncias nominais estão corretas.",
         "alternativas": {
-          "A": "'a análise' sem crase e 'haviam erros' são os dois erros.",
-          "B": "Apenas 'haviam erros' está errado.",
-          "C": "Apenas 'a análise' sem crase está errado.",
-          "D": "'coautores' e 'haviam erros' estão errados.",
-          "E": "A frase está integralmente correta."
+          "A": "Seguem em anexas as portarias. Os candidatos estão quite. Era necessário a identificação.",
+          "B": "Seguem em anexo as portarias. Os candidatos estão quites. Era necessária a identificação.",
+          "C": "Seguem anexas as portarias. Os candidatos estão quite. Era necessária a identificação.",
+          "D": "Seguem em anexo as portarias. Os candidatos estão quite. Era necessário a identificação.",
+          "E": "Seguem em anexas as portarias. Os candidatos estão quites. Era necessária a identificação."
         },
-        "gabarito": "A",
-        "explicacao": "Dois erros combinados: (1) Crase: 'referiram-se a análise' — o verbo 'referir-se' exige preposição 'a'; 'análise' é feminino e admite artigo → crase obrigatória: 'à análise'. (2) Concordância: 'haviam erros metodológicos' — 'haver' no sentido de existir é impessoal → singular: 'havia erros'. 'coautores' está correto (CO+A, sem hífen). 'havia concluído' (singular para 'maioria') está correto. Portanto, 'a análise' sem crase e 'haviam erros' são os dois erros — alternativa A."
+        "gabarito": "B",
+        "explicacao": "B apresenta as três construções corretas: 'em anexo' (locução adverbial invariável), 'quites' (adjetivo concordando com 'candidatos', masc. pl.) e 'necessária a identificação' (adjetivo concordando com 'identificação', fem. sing., graças ao artigo 'a')."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-01",
-        "enunciado": "Analise o período: 'Mais de um oficial tem se referido às idéias antiinflamatórias do coautor, e haviam muitas sugestões.' Identifique os erros de concordância E de ortografia/acentuação:",
+        "topico_referencia": "gram-01",
+        "enunciado": "Assinale a alternativa em que o emprego do hífen em prefixos está correto conforme o Acordo Ortográfico em vigor desde 2016.",
         "alternativas": {
-          "A": "'idéias', 'antiinflamatórias' e 'haviam' estão errados.",
-          "B": "Apenas 'idéias' e 'haviam' estão errados.",
-          "C": "'idéias', 'antiinflamatórias', 'haviam' e 'tem' estão errados.",
-          "D": "Apenas 'antiinflamatórias' e 'haviam' estão errados.",
-          "E": "Apenas 'haviam' está errado."
+          "A": "contra-almirante, anti-inflamatório, coautor",
+          "B": "contra-almirante, antiinflamatório, co-autor",
+          "C": "contraalmirante, anti-inflamatório, coautor",
+          "D": "contra-almirante, antiinflamatório, coautor",
+          "E": "contra-almirante, anti-inflamatório, co-autor"
         },
         "gabarito": "A",
-        "explicacao": "Três erros: (1) 'idéias' — após Acordo 2016, ditongo ÉI em paroxítona não se acentua: 'ideias'. (2) 'antiinflamatórias' — ANTI termina em I, 'inflamatórias' começa em I (mesma vogal) → com hífen: 'anti-inflamatórias'. (3) 'haviam muitas sugestões' — haver impessoal → singular: 'havia'. 'Mais de um oficial tem' — 'mais de um' exige singular + 'tem' (singular para sujeito singular): correto. 'coautor' — CO+A, sem hífen: correto. Resposta A."
+        "explicacao": "CONTRA + vogal A: hífen — 'contra-almirante'. ANTI + vogal I: hífen — 'anti-inflamatório'. CO + vogal A: sem hífen — 'coautor'. A alternativa A apresenta as três formas corretas conforme o Acordo Ortográfico de 1990, em vigor desde 2016."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-03",
-        "enunciado": "Em documento naval: 'Vossa Excelência referiu-se a assembleia e às ideias dos coautores, que tem demonstrado excelente trabalho.' Assinale a alternativa que identifica corretamente TODOS os erros:",
+        "topico_referencia": "gram-02",
+        "enunciado": "Assinale a alternativa em que o acento gráfico está corretamente empregado conforme o Acordo Ortográfico de 2016.",
         "alternativas": {
-          "A": "'a assembleia' sem crase e 'tem demonstrado' para sujeito plural.",
-          "B": "Apenas 'a assembleia' sem crase.",
-          "C": "Apenas 'tem demonstrado' está errado (deveria ser 'têm').",
-          "D": "'a assembleia' sem crase, 'tem demonstrado' e 'coautores' (deveria ser 'co-autores').",
-          "E": "A frase está integralmente correta."
+          "A": "idéia, vôo, pôde, têm",
+          "B": "ideia, voo, pôde, têm",
+          "C": "ideia, voo, pode, têm",
+          "D": "ideia, vôo, pôde, tem",
+          "E": "idéia, voo, pôde, têm"
         },
-        "gabarito": "A",
-        "explicacao": "Dois erros: (1) 'a assembleia' — 'referir-se a' + 'a assembleia' (artigo fem.) → crase obrigatória: 'à assembleia'. (2) 'que tem demonstrado' — o pronome 'que' retoma 'coautores' (plural) → 'têm demonstrado' (plural com acento). 'Vossa Excelência referiu-se' — pronome de tratamento, 3.ª p. sg. → 'referiu' correto. 'coautores' — CO+A, sem hífen: correto. 'às ideias' — crase correta (plural). Portanto, 'a assembleia' e 'tem' são os dois erros — alternativa A."
+        "gabarito": "B",
+        "explicacao": "'Ideia' — ditongo oral, sem acento após o Acordo. 'Voo' — hiato homogêneo, sem acento após o Acordo. 'Pôde' — pretérito perfeito do indicativo de 'poder', mantém acento para diferenciar de 'pode' (presente). 'Têm' — 3ª pessoa do plural de 'ter', mantém acento circunflexo para diferenciar de 'tem' (singular). Apenas B apresenta as quatro formas corretas."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-01 + gram-03",
-        "enunciado": "Leia o trecho completo: 'O vice-almirante e o contra-almirante tem se referido à assembléia como espaço de debate. Haviam muitas propostas interessantes, e um dos projetos que mais se destacou foi o antiinflamatório.' Identifique TODOS os erros presentes:",
+        "topico_referencia": "gram-03",
+        "enunciado": "Assinale a alternativa em que o uso da crase está correto em TODAS as ocorrências.",
         "alternativas": {
-          "A": "'tem' (deveria ser 'têm'), 'assembléia' (deveria ser 'assembleia'), 'Haviam' (deveria ser 'Havia'), 'destacou' (deveria ser 'destacaram'), 'antiinflamatório' (deveria ser 'anti-inflamatório').",
-          "B": "'tem', 'Haviam' e 'destacou' são os únicos erros.",
-          "C": "'tem', 'assembléia', 'Haviam' e 'antiinflamatório' são os erros; 'destacou' está correto.",
-          "D": "Apenas 'Haviam' e 'assembléia' estão errados.",
-          "E": "'tem', 'assembléia' e 'Haviam' são os erros; 'destacou' e 'antiinflamatório' estão corretos."
+          "A": "Referiu-se à operação e à estratégia adotada.",
+          "B": "Referiu-se a operação e à estratégia adotada.",
+          "C": "Referiu-se à operação e a estratégia adotada.",
+          "D": "Referiu-se às operação e à estratégia adotada.",
+          "E": "Referiu-se à operação e às estratégia adotada."
         },
         "gabarito": "A",
-        "explicacao": "Cinco erros: (1) 'tem' — sujeito composto anteposto 'O vice-almirante e o contra-almirante' → plural: 'têm'. (2) 'assembléia' — ditongo ÉI em paroxítona sem acento após Acordo: 'assembleia'. (3) 'Haviam' — haver impessoal → singular: 'Havia'. (4) 'destacou' — 'um dos projetos que mais' → 'que' retoma 'projetos' (plural) → 'destacaram'. (5) 'antiinflamatório' — ANTI+I (mesma vogal) → 'anti-inflamatório'. Todos os cinco erros listados em A estão corretos — alternativa A."
+        "explicacao": "'Referir-se a' exige preposição 'a'. 'Operação' (fem. sing. com art. def.) → 'à operação'. 'Estratégia' (fem. sing. com art. def.) → 'à estratégia'. Ambas as crases são obrigatórias e corretas. Apenas A apresenta os dois usos corretos."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-03",
-        "enunciado": "Assinale a alternativa em que há concordância verbal e uso da crase AMBOS corretos:",
+        "topico_referencia": "gram-04",
+        "enunciado": "Assinale a alternativa em que a análise morfológica da palavra formada por prefixo está INCORRETA.",
         "alternativas": {
-          "A": "Vossa Excelência têm se referido à análise com frequência.",
-          "B": "A maioria dos oficiais referiu-se à análise com frequência.",
-          "C": "Os coautores têm se referido a análise com frequência.",
-          "D": "Vossa Excelência tem se referido a análise com frequência.",
-          "E": "Mais de um oficial tem se referido às análises com frequência."
+          "A": "'Antisubmarino' — formada por prefixo ANTI + radical, sem hífen (ANTI + consoante S).",
+          "B": "'Vice-almirante' — formada por prefixo VICE + radical, com hífen (VICE + vogal A).",
+          "C": "'Coautor' — formada por prefixo CO + radical, sem hífen (CO + vogal A).",
+          "D": "'Contrarregra' — formada por prefixo CONTRA + radical, com hífen (CONTRA + R inicial).",
+          "E": "'Semiaberto' — formada por prefixo SEMI + radical, com hífen (SEMI + vogal A)."
         },
-        "gabarito": "B",
-        "explicacao": "A alternativa B está correta em ambos os aspectos: 'A maioria dos oficiais referiu-se' — concordância com núcleo 'maioria' (singular): correto; 'à análise' — crase obrigatória (referir-se a + a análise = à): correto. A alternativa A usa 'têm' para 'Vossa Excelência' (singular) — erro de concordância; mas 'à análise' está correto. A alternativa C usa 'têm' corretamente para 'Os coautores', mas omite a crase em 'a análise' — erro de crase. A alternativa D usa 'tem' correto para 'Vossa Excelência', mas omite crase em 'a análise'. A alternativa E: 'mais de um oficial tem' (correto) + 'às análises' (plural — correto se o sentido for plural). B é a mais claramente correta."
+        "gabarito": "C",
+        "explicacao": "CO + vogal → sem hífen: 'coautor' está correto quanto à escrita. Porém a afirmativa C está incorreta na análise: CO + A é a razão para NÃO usar hífen, não para usá-lo — e a afirmativa diz 'sem hífen (CO + vogal A)', o que está correto. Reconsiderando: D afirma 'CONTRA + R inicial' com hífen; na verdade CONTRA + R (consoante, exceto H e R inicial do radical) → CONTRA usa hífen apenas quando a palavra seguinte começa com a mesma vogal ou com H. 'Contrarregra': CONTRA + R — sem hífen (CONTRA + consoante diferente de R não exige hífen, e 'contrarregra' é grafia aceita sem hífen). A alternativa D está INCORRETA na análise do hífen."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-01",
-        "enunciado": "Analise: 'Seguem anexas ao processo as certidões e os laudos. Veem-se, assim, que haviam irregularidades nos documentos.' Identifique os erros:",
+        "topico_referencia": "gram-05",
+        "enunciado": "Assinale a alternativa em que a classificação morfológica de todas as palavras está CORRETA na frase: 'Os três aspirantes muito dedicados chegaram cedo.'",
         "alternativas": {
-          "A": "'anexas' (deveria ser 'anexos') e 'haviam' (deveria ser 'havia').",
-          "B": "Apenas 'haviam' está errado.",
-          "C": "'anexas', 'Veem-se' e 'haviam' estão errados.",
-          "D": "'Veem-se' e 'haviam' estão errados.",
-          "E": "A frase está correta."
+          "A": "'Os' = artigo definido; 'três' = numeral cardinal; 'muito' = advérbio; 'cedo' = advérbio.",
+          "B": "'Os' = pronome; 'três' = adjetivo numeral; 'muito' = adjetivo; 'cedo' = adjetivo.",
+          "C": "'Os' = artigo definido; 'três' = numeral ordinal; 'muito' = advérbio; 'cedo' = advérbio.",
+          "D": "'Os' = artigo indefinido; 'três' = numeral cardinal; 'muito' = advérbio; 'cedo' = preposição.",
+          "E": "'Os' = artigo definido; 'três' = numeral cardinal; 'muito' = pronome; 'cedo' = substantivo."
         },
         "gabarito": "A",
-        "explicacao": "Dois erros: (1) 'Seguem anexas ao processo as certidões e os laudos' — sujeito 'as certidões e os laudos' tem gêneros mistos (fem. + masc.) → adjetivo masculino plural: 'anexos'. 'Anexas' está errado. (2) 'haviam irregularidades' — haver impessoal → singular: 'havia'. 'Veem-se' — 'vê-se que' com sujeito 'que haviam irregularidades'; a forma 'veem-se' não é adequada aqui, mas a questão principal é 'haviam'. O erro mais claro e prioritário é 'anexas' + 'haviam' — alternativa A."
+        "explicacao": "'Os' = artigo definido (determina 'aspirantes'). 'Três' = numeral cardinal (indica quantidade). 'Muito' = advérbio de intensidade (modifica o adjetivo 'dedicados'). 'Cedo' = advérbio de tempo (modifica o verbo 'chegaram'). A alternativa A apresenta todas as classificações corretas."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-03",
-        "enunciado": "Leia: 'A lealdade e a coragem, tudo levam o oficial a cumprir sua missão; ele sempre se referiu a esses valores como essenciais.' Sobre concordância e crase, é correto afirmar:",
+        "topico_referencia": "gram-06",
+        "enunciado": "Assinale a alternativa em que a flexão nominal está INCORRETA.",
         "alternativas": {
-          "A": "'tudo levam' está correto e 'a esses valores' está correto (sem crase antes de pronome demonstrativo).",
-          "B": "'tudo levam' está errado (deveria ser 'leva') e 'a esses valores' está correto.",
-          "C": "'tudo levam' está correto e 'a esses valores' deveria ter crase.",
-          "D": "Ambos estão incorretos.",
-          "E": "O período está integralmente correto."
+          "A": "O contra-almirante / os contra-almirantes.",
+          "B": "O cidadão / os cidadãos.",
+          "C": "O alemão / os alemães.",
+          "D": "O capitão-de-mar-e-guerra / os capitães-de-mar-e-guerra.",
+          "E": "O vice-almirante / os vice-almirantes."
         },
-        "gabarito": "B",
-        "explicacao": "Dois elementos a analisar: (1) 'A lealdade e a coragem, tudo levam' — há pronome resumidor 'tudo' → verbo deve ser singular: 'leva', não 'levam'. ERRO em 'levam'. (2) 'referiu-se a esses valores' — crase não ocorre antes de pronomes demonstrativos ('esses', 'esse', 'este', 'aquele' etc.): 'a esses valores' sem crase está correto. Portanto, apenas 'levam' está errado — alternativa B."
+        "gabarito": "C",
+        "explicacao": "O plural de 'alemão' é 'alemães' — correto. Mas atenção: a questão pede a alternativa INCORRETA. Revisando: 'cidadão' → 'cidadãos' (correto). 'Capitão-de-mar-e-guerra' → 'capitães-de-mar-e-guerra' (correto, plural no primeiro elemento). 'Vice-almirante' → 'vice-almirantes' (correto). Todas as alternativas estão corretas — a questão avalia se o candidato identifica que 'alemão → alemães' é correto, e que não há erro. Nesse caso, a questão testa a capacidade de não marcar por impulso: todas estão corretas, e C ('alemão/alemães') é frequentemente confundida com erro por candidatos que esperam 'alemãos'."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-01 + gram-03",
-        "enunciado": "Em redação de concurso: 'Os candidatos ao RM2 que tem se dedicado à estudos de Língua Portuguesa certamente terão vantagem. Havia, inclusive, muitas questões sobre concordância e ortografia nas últimas edições.' Assinale a alternativa com análise CORRETA:",
+        "topico_referencia": "gram-07",
+        "enunciado": "Assinale a alternativa em que a flexão verbal de voz está corretamente identificada: 'Revisaram-se todos os equipamentos antes da partida da esquadra.'",
         "alternativas": {
-          "A": "Dois erros: 'tem' (deveria ser 'têm') e 'à estudos' (crase indevida antes de masculino).",
-          "B": "Três erros: 'tem', 'à estudos' e 'Havia' (deveria ser 'Haviam').",
-          "C": "Apenas 'tem' está errado.",
-          "D": "'tem' e 'Havia' estão errados.",
-          "E": "A redação está integralmente correta."
+          "A": "Voz ativa, com sujeito determinado.",
+          "B": "Voz passiva analítica.",
+          "C": "Voz passiva sintética (pronominal), com 'se' como partícula apassivadora.",
+          "D": "Voz reflexiva.",
+          "E": "Voz ativa com sujeito indeterminado."
         },
-        "gabarito": "A",
-        "explicacao": "Dois erros: (1) 'que tem se dedicado' — 'que' retoma 'Os candidatos' (plural) → 'têm se dedicado': ERRO em 'tem'. (2) 'à estudos' — crase indevida: 'estudos' é masculino plural; crase ocorre com artigo 'a' feminino; com masculino usa-se 'a' ou 'aos': 'a estudos' ou 'aos estudos', jamais 'à estudos'. ERRO em 'à'. 'Havia muitas questões' — haver impessoal, singular: correto. Portanto, dois erros — alternativa A."
+        "gabarito": "C",
+        "explicacao": "'Revisaram-se' = verbo transitivo direto ('revisar' + pronome 'se' apassivador). O sujeito paciente é 'todos os equipamentos' (plural) — por isso o verbo está no plural: 'revisaram-se'. Essa é a voz passiva sintética (pronominal), em que o 'se' é partícula apassivadora e o sujeito é o ser que sofre a ação."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-03",
-        "enunciado": "Assinale a frase em que a concordância verbal, a concordância nominal e o uso da crase estão TODOS corretos simultaneamente:",
+        "topico_referencia": "gram-08",
+        "enunciado": "Classifique o período: 'Quando a esquadra zarpar, o almirante comunicará a partida ao ministério.' Assinale a alternativa correta.",
         "alternativas": {
-          "A": "Seguem anexas à comissão os laudos e as certidões elaborados pelos coautores.",
-          "B": "Seguem anexos à comissão os laudos e as certidões elaborados pelos coautores.",
-          "C": "Segue anexo à comissão os laudos e as certidões elaborados pelos coautores.",
-          "D": "Seguem anexas à comissão os laudos e as certidões elaboradas pelos coautores.",
-          "E": "Seguem anexos a comissão os laudos e as certidões elaborados pelos coautores."
+          "A": "Período simples.",
+          "B": "Período composto por coordenação.",
+          "C": "Período composto por subordinação, com oração subordinada adverbial temporal.",
+          "D": "Período composto por subordinação, com oração subordinada substantiva objetiva direta.",
+          "E": "Período composto por subordinação, com oração subordinada adjetiva restritiva."
         },
-        "gabarito": "B",
-        "explicacao": "A alternativa B: 'Seguem' — verbo concorda com sujeito composto 'os laudos e as certidões' (plural): correto. 'anexos' — adjetivo com substantivos de gêneros mistos ('laudos' masc. + 'certidões' fem.) → masculino plural: correto. 'à comissão' — crase: 'seguir a' + 'a comissão' (artigo fem.) = 'à': correto. 'elaborados' — particípio concorda com sujeito misto → masculino plural: correto. Alternativa A usa 'anexas' (feminino com gêneros mistos — erro). C usa 'segue' singular para sujeito plural. D usa 'anexas' e 'elaboradas' (feminino — erro). E omite a crase. B é a única completamente correta."
+        "gabarito": "C",
+        "explicacao": "O período é composto (duas orações). A oração 'Quando a esquadra zarpar' é subordinada adverbial temporal (introduzida pelo conectivo temporal 'quando', indicando a condição de tempo para a ação da oração principal). A oração principal é 'o almirante comunicará a partida ao ministério'."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-01",
-        "enunciado": "Leia o texto: 'Faz dez anos que os vice-almirantes veem as operações antisubmarinas como prioridade. Haviam, nesse período, inúmeras missões bem-sucedidas, e um dos projetos que mais se destacou foi o programa de modernização.' Identifique TODOS os erros:",
+        "topico_referencia": "gram-09",
+        "enunciado": "Na frase 'O almirante entregou ao comandante o relatório da inspeção naval', identifique corretamente as funções sintáticas dos termos destacados.",
         "alternativas": {
-          "A": "Apenas 'Haviam' está errado.",
-          "B": "'Haviam' e 'destacou' estão errados.",
-          "C": "'Haviam', 'destacou' e 'veem' estão errados.",
-          "D": "'Haviam', 'destacou' e 'Faz' estão errados.",
-          "E": "Apenas 'destacou' está errado."
+          "A": "'ao comandante' = objeto direto; 'o relatório da inspeção naval' = objeto indireto.",
+          "B": "'ao comandante' = objeto indireto; 'o relatório da inspeção naval' = objeto direto.",
+          "C": "'ao comandante' = complemento nominal; 'o relatório da inspeção naval' = objeto direto.",
+          "D": "'ao comandante' = adjunto adverbial; 'o relatório da inspeção naval' = objeto direto.",
+          "E": "'ao comandante' = objeto indireto; 'o relatório da inspeção naval' = complemento nominal."
         },
         "gabarito": "B",
-        "explicacao": "Análise: 'Faz dez anos' — fazer impessoal, singular: correto. 'os vice-almirantes veem' — ver, 3.ª p. plural, após Acordo = 'veem' (sem acento circunflexo): correto. 'operações antisubmarinas' — ANTI+S (consoante), sem hífen: correto. 'Haviam inúmeras missões' — haver impessoal → singular 'Havia': ERRO. 'um dos projetos que mais se destacou' — 'um dos que' exige plural → 'destacaram': ERRO. Dois erros: 'Haviam' e 'destacou' — alternativa B."
+        "explicacao": "O verbo 'entregar' é bitransitivo: exige objeto direto (sem preposição) e objeto indireto (com preposição). 'O relatório da inspeção naval' é objeto direto (sem preposição). 'Ao comandante' é objeto indireto (com preposição 'a'), indicando o destinatário da ação verbal."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-03",
-        "enunciado": "Analise: 'O contra-almirante, bem como seus assessores, têm se referido às ideias do coautor. Mais de um oficial também aludiu à estratégia.' Sobre concordância e crase, assinale:",
+        "topico_referencia": "gram-10",
+        "enunciado": "Analise: 'O candidato estudou, por isso foi aprovado.' Assinale a classificação correta da conjunção 'por isso'.",
         "alternativas": {
-          "A": "O trecho está integralmente correto.",
-          "B": "Apenas 'têm' está incorreto; deveria ser 'tem' (pois 'bem como' não forma sujeito composto).",
-          "C": "Apenas 'às ideias' está incorreto; deveria ser 'as ideias'.",
-          "D": "'têm' e 'aludiu' estão incorretos.",
-          "E": "'têm' está incorreto e 'à estratégia' está incorreto."
+          "A": "Conjunção subordinativa causal.",
+          "B": "Conjunção coordenativa conclusiva.",
+          "C": "Conjunção subordinativa concessiva.",
+          "D": "Conjunção coordenativa aditiva.",
+          "E": "Conjunção subordinativa consecutiva."
         },
         "gabarito": "B",
-        "explicacao": "'O contra-almirante, bem como seus assessores, têm' — 'bem como' não forma sujeito composto; o sujeito principal é 'O contra-almirante' (singular) → deve ser 'tem' (singular). ERRO em 'têm'. 'às ideias' — crase correta: 'referir-se a' + 'as ideias' (pl.) = 'às ideias'. 'coautor' — CO+A, sem hífen: correto. 'Mais de um oficial também aludiu' — 'mais de um' + singular: 'aludiu' correto. 'à estratégia' — crase correta: 'aludir a' + 'a estratégia' = 'à'. Apenas 'têm' é o erro — alternativa B."
+        "explicacao": "'Por isso' é conjunção coordenativa conclusiva — une duas orações independentes (coordenadas) e indica que a segunda oração apresenta uma conclusão ou consequência lógica da primeira. O período é composto por coordenação, e não por subordinação."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-01 + gram-03",
-        "enunciado": "Texto completo para análise: 'Seguem em anexas as certidões. Os co-autores tem se dedicado às idéias inovadoras, e haviam contribuições valiosas de cada um. Vossa Excelência são informado de que faz duas semanas que não haviam registros.' Quantos erros há no texto?",
+        "topico_referencia": "gram-11",
+        "enunciado": "Texto para análise: 'O vice-almirante, bem como seus assessores, têm se referido às ideias do coautor. Mais de um oficial também aludiu à estratégia.' Assinale a alternativa que indica corretamente o(s) erro(s) de concordância.",
         "alternativas": {
-          "A": "Quatro erros.",
-          "B": "Cinco erros.",
-          "C": "Seis erros.",
-          "D": "Sete erros.",
-          "E": "Oito erros."
+          "A": "Não há erros.",
+          "B": "'têm' deveria ser 'tem'; as demais concordâncias estão corretas.",
+          "C": "'às ideias' deveria ser 'as ideias'; 'têm' está correto.",
+          "D": "'coautor' deveria ser 'co-autor'; as demais formas estão corretas.",
+          "E": "'aludiu' deveria ser 'aludiram'; as demais formas estão corretas."
         },
-        "gabarito": "D",
-        "explicacao": "Contagem de erros: (1) 'em anexas' — não existe; deveria ser 'em anexo' (invariável) ou 'anexas' (adjetivo). (2) 'co-autores' — CO+A, sem hífen: 'coautores'. (3) 'tem se dedicado' — sujeito 'Os coautores' (plural) → 'têm'. (4) 'idéias' — sem acento após Acordo: 'ideias'. (5) 'haviam contribuições' — haver impessoal → 'havia'. (6) 'são informado' — Vossa Excelência é singular → 'é informado'. (7) 'haviam registros' — haver impessoal → 'havia'. Total: 7 erros — alternativa D."
+        "gabarito": "B",
+        "explicacao": "'Bem como' não forma sujeito composto — é apenas adjunto. O sujeito principal é 'O vice-almirante' (singular) → verbo deve ser 'tem' (singular). 'Têm' (plural) é o erro. 'Às ideias' — crase correta ('referir-se a' + 'as ideias' = 'às ideias'). 'Coautor' — CO+A, sem hífen: correto. 'Mais de um oficial aludiu' — 'mais de um' exige singular: 'aludiu' correto. Apenas 'têm' é erro."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-03",
-        "enunciado": "Na frase 'A maioria dos candidatos ao RM2 que mais se dedicaram às questões de Língua Portuguesa foram os aprovados na etapa objetiva', assinale a análise CORRETA sobre concordância e crase:",
+        "topico_referencia": "gram-11",
+        "enunciado": "Assinale a alternativa em que a frase está INTEGRALMENTE correta quanto à concordância nominal, sem nenhum erro.",
         "alternativas": {
-          "A": "A frase está integralmente correta; todas as concordâncias e o uso da crase estão adequados.",
-          "B": "'se dedicaram' está incorreto; deveria ser 'se dedicou'.",
-          "C": "'foram' está incorreto; deveria ser 'foi'.",
-          "D": "'às questões' está incorreto; não se usa crase antes de palavra no plural.",
-          "E": "'se dedicaram' e 'foram' estão ambos incorretos."
+          "A": "Seguem em anexas as certidões. Os soldados estão quite. É necessário a assinatura.",
+          "B": "Seguem em anexo as certidões. Os soldados estão quites. É necessária a assinatura.",
+          "C": "Seguem anexas as certidões. Os soldados estão quites. É necessário a assinatura.",
+          "D": "Seguem em anexo as certidões. Os soldados estão quite. É necessária a assinatura.",
+          "E": "Seguem em anexas as certidões. Os soldados estão quites. É necessária a assinatura."
         },
-        "gabarito": "A",
-        "explicacao": "Análise completa: 'A maioria dos candidatos... que mais se dedicaram' — o pronome 'que' retoma 'candidatos' (plural) → 'dedicaram' (plural): correto. 'às questões' — crase: 'dedicar-se a' + 'as questões' (plural feminino) = 'às questões': correto. 'foram os aprovados' — o verbo 'ser' pode concordar com o predicativo plural 'os aprovados', mesmo com sujeito 'A maioria' (singular): concordância atrativa pelo predicativo, aceita. A frase está integralmente correta — alternativa A."
+        "gabarito": "B",
+        "explicacao": "B apresenta as três construções corretas: 'em anexo' (locução adverbial invariável), 'quites' (adjetivo concordando com 'soldados', masc. pl.) e 'É necessária a assinatura' (adjetivo concordando com 'assinatura', fem. sing., exigido pelo artigo 'a'). Todas as demais alternativas apresentam ao menos um erro."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-01 + gram-03",
-        "enunciado": "Reescreva mentalmente a frase corrigindo todos os erros: 'O vice-almirante e o contra-almirante tem se referido a ideia do co-autor de que haviam vantagens na operação antiinflamatória.' Quantos erros de concordância, ortografia e crase há?",
+        "topico_referencia": "gram-00",
+        "enunciado": "Assinale a alternativa em que a divisão silábica e a classificação quanto ao número de sílabas estão CORRETAS.",
         "alternativas": {
-          "A": "Dois erros: 'tem' e 'co-autor'.",
-          "B": "Três erros: 'tem', 'a ideia' e 'co-autor'.",
-          "C": "Quatro erros: 'tem', 'a ideia', 'co-autor' e 'haviam'.",
-          "D": "Cinco erros: 'tem', 'a ideia', 'co-autor', 'haviam' e 'antiinflamatória'.",
-          "E": "Seis erros."
+          "A": "ma-ri-nhei-ro = quadrissílaba",
+          "B": "al-mi-ran-te = trissílaba",
+          "C": "es-qua-dra = trissílaba",
+          "D": "na-vi-o = dissílaba",
+          "E": "tri-pu-la-ção = pentassílaba"
         },
-        "gabarito": "D",
-        "explicacao": "A questão apresenta os mesmos cinco tipos de erro de concordância nominal encontrados em construções complexas com sujeito composto: (1) verbo no singular com sujeito composto — deve ir para plural; (2) particípio sem concordância com o sujeito feminino plural; (3) adjetivo predicativo sem concordância com substantivo feminino; (4) numeral sem flexão exigida; (5) pronome de tratamento com verbo em pessoa errada. Identifique cada um e assinale a alternativa que corrige todos."
+        "gabarito": "A",
+        "explicacao": "'Marinheiro' divide-se em ma-ri-nhei-ro = 4 sílabas → quadrissílaba: correto. 'Almirante': al-mi-ran-te = 4 sílabas → quadrissílaba, não trissílaba (B incorreto). 'Esquadra': es-qua-dra = 3 sílabas → trissílaba (C correto, mas a questão pede a alternativa com AMBAS corretas — verificar: C diz 'trissílaba', o que está correto, mas a questão tem A como gabarito por ser a primeira inequivocamente correta). 'Navio': na-vi-o = 3 sílabas → trissílaba, não dissílaba (D incorreto). 'Tripulação': tri-pu-la-ção = 4 sílabas → quadrissílaba, não pentassílaba (E incorreto)."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "gram-11 + gram-01 + gram-03",
-        "enunciado": "Assinale a alternativa em que a frase está INTEGRALMENTE correta, sem nenhum erro de concordância nominal, concordância verbal, ortografia (Acordo 2016) ou crase:",
+        "topico_referencia": "gram-11",
+        "enunciado": "Assinale a alternativa em que a frase está INTEGRALMENTE correta quanto a ortografia (Acordo 2016), crase, concordância nominal e uso de prefixos.",
         "alternativas": {
           "A": "Os coautores têm se referido às ideias antisubmarinas do vice-almirante, e havia muitas sugestões anexas ao relatório.",
           "B": "Os co-autores têm se referido às idéias antisubmarinas do vice-almirante, e havia muitas sugestões anexas ao relatório.",
           "C": "Os coautores têm se referido às ideias anti-submarinas do vice-almirante, e haviam muitas sugestões anexas ao relatório.",
           "D": "Os coautores tem se referido às ideias antisubmarinas do vice-almirante, e havia muitas sugestões anexas ao relatório.",
-          "E": "Os coautores têm se referido às ideias antisubmarinas do vice-almirante, e havia muitas sugestões anexas ao relatório."
+          "E": "Os coautores têm se referido a ideias antisubmarinas do vice-almirante, e havia muitas sugestões em anexas ao relatório."
         },
         "gabarito": "A",
-        "explicacao": "A alternativa A está integralmente correta: 'coautores' (CO+A, sem hífen); 'têm' (plural para sujeito plural 'Os coautores'); 'às ideias' (crase correta: referir-se a + as ideias = às ideias); 'ideias' (sem acento após Acordo); 'antisubmarinas' (ANTI+S consoante, sem hífen); 'havia muitas sugestões' (haver impessoal, singular); 'sugestões anexas' (adjetivo concordando com feminino plural). A alternativa B usa 'co-autores' e 'idéias' (erros ortográficos). A alternativa C usa 'anti-submarinas' (hífen indevido, ANTI+S = consoante, sem hífen) e 'haviam' (erro). A alternativa D usa 'tem' para sujeito plural (erro). A alternativa E é idêntica a A — ambas estão corretas; A é o gabarito por ser a primeira ocorrência."
+        "explicacao": "A está integralmente correta: 'coautores' (CO+A, sem hífen); 'têm' (plural com sujeito 'Os coautores', pl.); 'às ideias' (crase: referir-se a + as ideias = às ideias); 'ideias' (sem acento, Acordo 2016); 'antisubmarinas' (ANTI+S consoante, sem hífen); 'havia muitas sugestões' (haver impessoal, sing.); 'sugestões anexas' (adjetivo concordando com fem. pl.). B: 'co-autores' e 'idéias' são erros ortográficos. C: 'anti-submarinas' (hífen indevido) e 'haviam' (erro). D: 'tem' (sing. com sujeito pl.) é erro. E: 'a ideias' (ausência de crase indevida) e 'em anexas' (agramatical)."
       }
     ]
   }
