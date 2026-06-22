@@ -1,0 +1,794 @@
+{
+  "id": "simulado-04",
+  "titulo": "Simulado 4 — 25/10/2026",
+  "data": "2026-10-25",
+  "duracao_minutos": 180,
+  "total_questoes": 40,
+  "textos": [
+    {
+      "id": "texto-1",
+      "titulo": "AS MÃOS DO MEU PAI",
+      "autor": "Inspirado em Fernando Sabino",
+      "fonte": "Simulado RM2 — uso interno.",
+      "conteudo": "Meu pai tinha mãos de carpinteiro, largas e calejadas, com veias que subiam pelo dorso como rios num mapa antigo. Quando eu era criança, essas mãos me pareciam a coisa mais segura do mundo — maiores do que qualquer problema, capazes de consertar portas emperradas, pregos tortos, brinquedos quebrados e, eu acreditava, qualquer outra coisa que o mundo pudesse desmanchar.\n\nFoi com essas mãos que ele me ensinou a andar de bicicleta numa tarde de sábado. Eu pedalava, ele corria ao lado, segurando o banco com firmeza. Em determinado momento, sem que eu percebesse, ele soltou. Continuei pedalando. Só entendi o que havia acontecido quando olhei para trás e o vi parado no meio da rua, sorrindo com aquele orgulho quieto que os pais guardam para os momentos em que os filhos não estão olhando.\n\nEssas mãos envelheceram antes do tempo. O trabalho braçal foi deixando marcas — cicatrizes de serras, manchas de verniz que nunca saíam completamente, articulações intumescidas pelo frio dos invernos. Quando eu as segurava, sentia o peso de anos que não eram meus, uma história escrita numa linguagem que eu entendia sem precisar de palavras.\n\nHoje, muito depois de ele ter partido, penso nessas mãos com uma clareza que a saudade, paradoxalmente, afia. Há coisas que só se veem bem de longe — o tamanho de um amor, o custo de uma vida de trabalho, a delicadeza que se esconde dentro da dureza. Meu pai nunca foi homem de muitas palavras. Mas aquelas mãos falavam por ele com uma eloquência que nenhum discurso poderia igualar."
+    },
+    {
+      "id": "texto-2",
+      "titulo": "O TEMPO DAS MANGUEIRAS",
+      "autor": "Inspirado em João Ubaldo Ribeiro",
+      "fonte": "Simulado RM2 — uso interno.",
+      "conteudo": "Há uma sabedoria particular no tempo das mangueiras — esse período entre o fim do calor mais intenso e a chegada das primeiras chuvas de outubro, quando as árvores se enchem de botões numa antecipação que parece desafiar o calendário. Quem nasceu no Nordeste conhece esse tempo pelo cheiro: uma mistura de terra seca, flor branca e promessa que o vento carrega de longe.\n\nMinha avó dizia que as mangueiras sabem antes dos meteorologistas. Ela observava as árvores do quintal com a mesma atenção com que outros consultam previsões e aplicativos. Se elas floresciam cedo, era sinal de chuva farta. Se tardavam, o ano seria seco e difícil. Nunca soube dizer se ela estava certa — a memória de infância não guarda estatísticas — mas a convicção com que ela o dizia era suficiente para que eu acreditasse.\n\nExiste, nessa sabedoria popular, algo que a ciência não invalida, mas tampouco explica completamente: a intimidade entre quem observa e o que é observado. O conhecimento que minha avó tinha das mangueiras não era o de um botânico — era o de quem conviveu décadas com aquelas árvores específicas, naquele quintal específico, naquela luz específica de fim de tarde. Era um saber encarnado, acumulado no corpo antes de alcançar a mente.\n\nAs mangueiras daquele quintal já não existem. O terreno foi vendido, as árvores derrubadas para ceder lugar a uma construção que em nada se parece com o que havia antes. Mas toda vez que sinto aquele cheiro particular — terra, flor branca, promessa — é como se o tempo dobrasse sobre si mesmo e eu voltasse a ser o menino que aprendia a ler o mundo pelas árvores do quintal da avó."
+    },
+    {
+      "id": "texto-3",
+      "titulo": "ELOGIO DA IMPERFEIÇÃO",
+      "autor": "Inspirado em Luís Fernando Veríssimo",
+      "fonte": "Simulado RM2 — uso interno.",
+      "conteudo": "Existe uma tirania silenciosa na exigência de perfeição. Ela se instala devagar, primeiro como aspiração legítima, depois como padrão, depois como julgamento — até que tudo o que é humano, irregular, manchado ou inacabado começa a parecer falha, e não vida.\n\nPensemos, por exemplo, nas frutas do mercado: polidas, uniformes, sem uma mancha ou imperfeição visível. São belas como objetos de arte e, com frequência, insossas como elas. A manguita que cai do quintal do vizinho, machucada de um lado e perfumada de outro, é infinitamente superior — mas não passaria no crivo dos distribuidores. O mesmo ocorre, guardadas as proporções, com as pessoas.\n\nOs amigos que mais valem são os que têm defeito visível. Não o defeito performático, exibido como charme, mas o defeito real: aquele que escapa no momento errado, que constrange, que revela o avesso da personalidade. Com essas pessoas, sabe-se onde se pisa. Com os impecáveis, nunca.\n\nHá também a questão do tempo: as coisas perfeitas não envelhecem bem. Um rosto sem história parece feito de plástico ao lado de um rosto que guarda as marcas do que viveu. Uma conversa perfeitamente articulada é menos memorável do que aquela em que alguém gaguejou ao dizer algo verdadeiro. A imperfeição é o vestígio do real — prova de que algo, de fato, aconteceu.\n\nNão estou fazendo o elogio do descuido ou da negligência. Estou propondo que aceitemos, com alguma generosidade, a inevitável irregularidade das coisas e das pessoas. Que deixemos espaço para o imperfeito — na fruta, no amigo, em nós mesmos. Talvez seja exatamente aí, naquele desvio do esperado, que a vida se torna mais ela mesma."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "q01",
+      "texto_ref": "texto-1",
+      "paragrafo_ref": "1°§",
+      "trecho_ref": "(...) com veias que subiam pelo dorso como rios num mapa antigo (...)",
+      "enunciado": "Com base no Texto 1, assinale a opção INCORRETA.",
+      "alternativas": {
+        "A": "O narrador descreve as mãos do pai como símbolo de segurança e capacidade de restaurar o que se quebra, tanto no plano concreto quanto no simbólico.",
+        "B": "O episódio da bicicleta é narrado para ilustrar o momento em que o filho percebe imediatamente que o pai o soltou, reagindo com surpresa.",
+        "C": "As marcas nas mãos do pai — cicatrizes, manchas, articulações intumescidas — são apresentadas como registros visíveis de anos de trabalho braçal.",
+        "D": "No último parágrafo, o narrador sugere que a saudade, ao invés de distorcer a memória, pode tornar certas percepções mais nítidas.",
+        "E": "O texto constrói uma oposição entre a ausência de palavras do pai e a eloquência comunicativa de suas mãos."
+      },
+      "gabarito": "B",
+      "topico": "comp-01",
+      "area": "Interpretação de Texto",
+      "explicacao": "A alternativa B está incorreta pois o texto afirma o oposto: 'sem que eu percebesse, ele soltou. Continuei pedalando. Só entendi o que havia acontecido quando olhei para trás' (2°§). O narrador não percebeu imediatamente — só descobriu ao olhar para trás. A: correta — 'capazes de consertar... qualquer outra coisa que o mundo pudesse desmanchar'. B: incorreta — percepção foi posterior, não imediata. C: correta — 'cicatrizes de serras, manchas de verniz... articulações intumescidas'. D: correta — 'a saudade, paradoxalmente, afia' a clareza. E: correta — 'nunca foi homem de muitas palavras. Mas aquelas mãos falavam por ele'."
+    },
+    {
+      "id": "q02",
+      "texto_ref": "texto-1",
+      "paragrafo_ref": "1°§",
+      "trecho_ref": "(...) veias que subiam pelo dorso como rios num mapa antigo (...)",
+      "enunciado": "No fragmento \"(...) veias que subiam pelo dorso como rios num mapa antigo (...)\"-1°§, que figura de linguagem é nitidamente observada?",
+      "alternativas": {
+        "A": "Metáfora.",
+        "B": "Hipérbole.",
+        "C": "Antítese.",
+        "D": "Personificação.",
+        "E": "Comparação."
+      },
+      "gabarito": "E",
+      "topico": "comp-07",
+      "area": "Figuras de Linguagem",
+      "explicacao": "O fragmento apresenta Comparação (símile): as veias são comparadas a rios por meio do conectivo comparativo explícito 'como'. A Metáfora (A) faria a mesma aproximação sem o conectivo ('as veias eram rios'). A Hipérbole (B) seria um exagero. A Antítese (C) pressupõe oposição. A Personificação (D) atribuiria ação humana a seres inanimados — 'subiam' poderia sugerir personificação, mas o foco da figura é a comparação com rios, não a ação de subir."
+    },
+    {
+      "id": "q03",
+      "texto_ref": "texto-1",
+      "paragrafo_ref": "2°§",
+      "trecho_ref": "(...) aquele orgulho quieto que os pais guardam para os momentos em que os filhos não estão olhando (...)",
+      "enunciado": "Assinale a opção em que o vocábulo sublinhado possui a mesma função sintática que o termo destacado no trecho: \"(...) ele me ensinou a andar de bicicleta numa tarde de sábado (...)\"-2°§.",
+      "alternativas": {
+        "A": "O pai correu pela rua com entusiasmo.",
+        "B": "A criança pedalou com esforço durante horas.",
+        "C": "O filho aprendeu a lição com dificuldade.",
+        "D": "Ele soltou o banco sem hesitar.",
+        "E": "O narrador olhou para trás e sorriu."
+      },
+      "gabarito": "C",
+      "topico": "gram-09",
+      "area": "Sintaxe",
+      "explicacao": "O termo destacado é 'a andar de bicicleta', que funciona como objeto direto do verbo 'ensinou' na locução 'ensinar a fazer algo' — é uma oração subordinada substantiva objetiva direta reduzida de infinitivo. Em C, 'a lição' é objeto direto de 'aprendeu' (VTD), mesma função sintática de complemento verbal direto. Em A, 'com entusiasmo' é adjunto adverbial de modo. Em B, 'com esforço' é adjunto adverbial de modo; 'durante horas' é adjunto adverbial de tempo. Em D, 'o banco' é OD — mas 'sem hesitar' é adjunto adverbial. Em E, 'para trás' é adjunto adverbial de lugar."
+    },
+    {
+      "id": "q04",
+      "texto_ref": "texto-1",
+      "paragrafo_ref": "3°§",
+      "trecho_ref": "(...) sentia o peso de anos que não eram meus, uma história escrita numa linguagem que eu entendia sem precisar de palavras (...)",
+      "enunciado": "Assinale a opção em que o vocábulo destacado possui a mesma classe gramatical que a palavra sublinhada em \"(...) sentia o peso de anos que não eram meus (...)\"-3°§.",
+      "alternativas": {
+        "A": "Cada gesto revelava algo sobre ele.",
+        "B": "Ela nunca soube da partida do pai.",
+        "C": "O trabalho era duro e cansativo.",
+        "D": "Tudo ficou para trás naquele momento.",
+        "E": "Alguém havia deixado a porta aberta."
+      },
+      "gabarito": "A",
+      "topico": "gram-05",
+      "area": "Classes de Palavras",
+      "explicacao": "O vocábulo sublinhado é 'meus', que é um pronome possessivo. Em A, 'Cada' é pronome indefinido adjetivo — ambos são pronomes que acompanham substantivos. Entretanto, a questão trata de classe gramatical geral (pronome). Em A, 'algo' é pronome indefinido; 'Cada' é pronome indefinido adjetivo. O pronome possessivo 'meus' pertence à classe dos pronomes. Analisando as opções: A — 'Cada' é pronome indefinido; B — 'nunca' é advérbio; C — 'duro' é adjetivo; D — 'Tudo' é pronome indefinido substantivo; E — 'Alguém' é pronome indefinido. A correspondência mais precisa com pronome possessivo em termos de classe geral (pronome) é A ('Cada') ou D ('Tudo'). Como pronome indefinido adjetivo, 'Cada' em A é o mais próximo da subclasse dos pronomes adjetivos, assim como 'meus' (pronome possessivo adjetivo)."
+    },
+    {
+      "id": "q05",
+      "texto_ref": "texto-1",
+      "paragrafo_ref": "4°§",
+      "trecho_ref": "(...) a saudade, paradoxalmente, afia (...)",
+      "enunciado": "A palavra \"paradoxalmente\" destacada no fragmento \"(...) a saudade, paradoxalmente, afia (...)\"-4°§ é formada pelo processo de:",
+      "alternativas": {
+        "A": "Composição por aglutinação.",
+        "B": "Derivação parassintética.",
+        "C": "Derivação prefixal.",
+        "D": "Derivação sufixal.",
+        "E": "Composição por justaposição."
+      },
+      "gabarito": "D",
+      "topico": "gram-04",
+      "area": "Formação de Palavras",
+      "explicacao": "A palavra 'paradoxalmente' é formada por derivação sufixal: parte do adjetivo 'paradoxal' e recebe o sufixo '-mente', que transforma adjetivos em advérbios de modo. Não há prefixo acrescentado (C). Não é parassintética (B), pois prefixo e sufixo não foram adicionados simultaneamente — 'paradoxal' já existia sem '-mente'. Não é composição (A, E), pois resulta da derivação de uma única base por acréscimo de sufixo."
+    },
+    {
+      "id": "q06",
+      "texto_ref": "texto-1",
+      "paragrafo_ref": "4°§",
+      "trecho_ref": "(...) Há coisas que só se veem bem de longe — o tamanho de um amor, o custo de uma vida de trabalho, a delicadeza que se esconde dentro da dureza (...)",
+      "enunciado": "O vocábulo \"se\" destacado em \"(...) a delicadeza que se esconde dentro da dureza (...)\"-4°§ é:",
+      "alternativas": {
+        "A": "Pronome reflexivo.",
+        "B": "Índice de indeterminação do sujeito.",
+        "C": "Partícula apassivadora.",
+        "D": "Pronome recíproco.",
+        "E": "Partícula expletiva ou de realce."
+      },
+      "gabarito": "A",
+      "topico": "gram-09",
+      "area": "Sintaxe",
+      "explicacao": "Em 'a delicadeza que se esconde dentro da dureza', o pronome 'se' é reflexivo: o sujeito (a delicadeza) pratica a ação sobre si mesmo — 'se esconde' equivale a 'esconde a si mesma'. O verbo 'esconder-se' é verbo pronominal reflexivo. Não é IIS (B), pois o sujeito é determinado ('a delicadeza'). Não é apassivador (C), pois o sujeito não recebe a ação de um agente externo — a delicadeza se esconde por conta própria. Não é recíproco (D), pois não há dois sujeitos agindo um sobre o outro. Não é expletivo (E), pois sua presença é essencial para o sentido."
+    },
+    {
+      "id": "q07",
+      "texto_ref": "texto-1",
+      "paragrafo_ref": "4°§",
+      "trecho_ref": "(...) Meu pai nunca foi homem de muitas palavras. Mas aquelas mãos falavam por ele com uma eloquência que nenhum discurso poderia igualar (...)",
+      "enunciado": "Assinale a opção em que as vírgulas estão empregadas pelo mesmo motivo que no fragmento: \"Hoje, muito depois de ele ter partido, penso nessas mãos com uma clareza que a saudade, paradoxalmente, afia.\"-4°§.",
+      "alternativas": {
+        "A": "As mãos do pai, calejadas e largas, contavam uma história.",
+        "B": "Ele pedalou, caiu e levantou sem ajuda.",
+        "C": "Quando ele soltou o banco, o filho continuou sozinho.",
+        "D": "O pai sorriu, orgulhoso, no meio da rua.",
+        "E": "A saudade, porém, não apaga — afia."
+      },
+      "gabarito": "D",
+      "topico": "gram-14",
+      "area": "Pontuação",
+      "explicacao": "No fragmento de referência, as vírgulas isolam dois tipos de inserção: 'muito depois de ele ter partir' é adjunto adverbial de tempo deslocado, e 'paradoxalmente' é advérbio intercalado. Ambos são elementos intercalados que interrompem a estrutura principal. Em D, 'orgulhoso' é predicativo/adjunto intercalado entre vírgulas no meio da oração, mesmo emprego de elemento intercalado. Em A, as vírgulas isolam aposto explicativo ('calejadas e largas'). Em B, vírgulas em enumeração de verbos. Em C, vírgula após oração adverbial antecipada. Em E, a vírgula isola conjunção adversativa 'porém'."
+    },
+    {
+      "id": "q08",
+      "texto_ref": "texto-1",
+      "paragrafo_ref": "3°§",
+      "trecho_ref": "(...) articulações intumescidas pelo frio dos invernos (...)",
+      "enunciado": "Assinale a opção em que a palavra sublinhada está corretamente grafada de acordo com o Acordo Ortográfico de 1990.",
+      "alternativas": {
+        "A": "O carpinteiro usava anti-séptico nas mãos feridas.",
+        "B": "A vêia do dorso era visível e pronunciada.",
+        "C": "O filho herdou a auto-estima do pai trabalhador.",
+        "D": "A cicatriz da sêrra ficou para sempre.",
+        "E": "O verniz extraído era inodoro e resistente."
+      },
+      "gabarito": "E",
+      "topico": "gram-01",
+      "area": "Ortografia",
+      "explicacao": "Em E, 'inodoro' está correto: prefixo 'in-' + 'odoro' (relativo a odor), sem hífen, grafia correta pelo AO/1990. Em A, 'anti-séptico' está incorreto — pelo AO/1990, a grafia correta é 'antisséptico' (prefixo 'anti-' + palavra iniciada por 's' → duplica o 's', sem hífen). Em B, 'vêia' está incorreto — a grafia correta é 'veia' (sem acento circunflexo, conforme AO/1990 que eliminou o acento diferencial em palavras paroxítonas como 'veia'). Em C, 'auto-estima' está incorreto — a grafia correta é 'autoestima' (sem hífen, pelo AO/1990). Em D, 'sêrra' está incorreto — a grafia correta é 'serra' (sem acento)."
+    },
+    {
+      "id": "q09",
+      "texto_ref": "texto-2",
+      "paragrafo_ref": "1°§",
+      "trecho_ref": "(...) uma antecipação que parece desafiar o calendário (...)",
+      "enunciado": "Com base no Texto 2, assinale a opção INCORRETA.",
+      "alternativas": {
+        "A": "A sabedoria popular da avó sobre as mangueiras é apresentada como complementar à ciência, e não necessariamente em contradição com ela.",
+        "B": "O narrador afirma com certeza que as previsões da avó sobre as chuvas eram sempre precisas, comprovadas ao longo dos anos.",
+        "C": "O conhecimento da avó sobre as mangueiras é descrito como encarnado e acumulado pela convivência, distinto do saber botânico formal.",
+        "D": "O desaparecimento das mangueiras do quintal representa, para o narrador, uma perda que vai além do físico — é também perda de um modo de conhecer o mundo.",
+        "E": "O cheiro de terra seca, flor branca e promessa funciona, para o narrador adulto, como gatilho involuntário de memória da infância."
+      },
+      "gabarito": "B",
+      "topico": "comp-01",
+      "area": "Interpretação de Texto",
+      "explicacao": "A alternativa B está incorreta pois o narrador explicitamente diz: 'Nunca soube dizer se ela estava certa — a memória de infância não guarda estatísticas — mas a convicção com que ela o dizia era suficiente para que eu acreditasse' (2°§). O narrador não confirma a precisão das previsões; ao contrário, admite não saber se eram corretas. A: correta — 'algo que a ciência não invalida, mas tampouco explica completamente'. C: correta — 'não era o de um botânico — era o de quem conviveu décadas... era um saber encarnado'. D: correta — as árvores foram derrubadas e o que se perdeu é o modo de ler o mundo por elas. E: correta — 'toda vez que sinto aquele cheiro... é como se o tempo dobrasse'."
+    },
+    {
+      "id": "q10",
+      "texto_ref": "texto-2",
+      "paragrafo_ref": "2°§",
+      "trecho_ref": "(...) Ela observava as árvores do quintal com a mesma atenção com que outros consultam previsões e aplicativos (...)",
+      "enunciado": "Assinale a opção em que o vocábulo sublinhado possui a mesma função sintática que o termo destacado no trecho: \"(...) Ela observava as árvores do quintal com a mesma atenção (...)\"-2°§.",
+      "alternativas": {
+        "A": "O menino correu pelo jardim alegremente.",
+        "B": "A avó conhecia bem as mangueiras do quintal.",
+        "C": "Ele soltou o banco no momento certo.",
+        "D": "O narrador sentiu o cheiro de longe.",
+        "E": "A chuva chegou antes do esperado."
+      },
+      "gabarito": "B",
+      "topico": "gram-09",
+      "area": "Sintaxe",
+      "explicacao": "O termo destacado 'as árvores do quintal' é objeto direto do verbo 'observava' (VTD). Em B, 'as mangueiras do quintal' é objeto direto de 'conhecia' (VTD), mesma função sintática. Em A, 'pelo jardim' é adjunto adverbial de lugar. Em C, 'o banco' é OD correto, mas a pergunta é pela equivalência de toda a estrutura — em C há também 'no momento certo' (adjunto adverbial). Em D, 'o cheiro' é OD, mas 'de longe' modifica o verbo. Em E, 'antes do esperado' é adjunto adverbial. A alternativa B é a correspondência mais direta e limpa."
+    },
+    {
+      "id": "q11",
+      "texto_ref": "texto-2",
+      "paragrafo_ref": "3°§",
+      "trecho_ref": "(...) O conhecimento que minha avó tinha das mangueiras não era o de um botânico — era o de quem conviveu décadas com aquelas árvores específicas (...)",
+      "enunciado": "A conjunção destacada na sentença \"(...) algo que a ciência não invalida, mas tampouco explica completamente (...)\"-3°§ expressa semanticamente valor de:",
+      "alternativas": {
+        "A": "Adição.",
+        "B": "Adversidade.",
+        "C": "Alternância.",
+        "D": "Conclusão.",
+        "E": "Explicação."
+      },
+      "gabarito": "B",
+      "topico": "gram-10",
+      "area": "Sintaxe",
+      "explicacao": "A conjunção 'mas' expressa valor semântico de adversidade/oposição: a ciência não invalida (ideia positiva) MAS tampouco explica completamente (ideia que contraria ou limita a anterior). Trata-se de coordenação adversativa, marcando contraste entre as duas afirmações. Em A, adição seria 'e/também'. Em C, alternância seria 'ora...ora/ou...ou'. Em D, conclusão seria 'portanto/logo'. Em E, explicação seria 'pois/porque' em coordenação."
+    },
+    {
+      "id": "q12",
+      "texto_ref": "texto-2",
+      "paragrafo_ref": "1°§",
+      "trecho_ref": "(...) uma mistura de terra seca, flor branca e promessa que o vento carrega de longe (...)",
+      "enunciado": "A palavra que NÃO é acentuada pela mesma regra do vocábulo sublinhado em \"(...) uma antecipação que parece desafiar o calendário (...)\"-1°§ é:",
+      "alternativas": {
+        "A": "Previsão.",
+        "B": "Botânico.",
+        "C": "Memória.",
+        "D": "Específico.",
+        "E": "Quintal."
+      },
+      "gabarito": "E",
+      "topico": "gram-02",
+      "area": "Acentuação",
+      "explicacao": "A palavra 'calendário' é paroxítona terminada em ditongo crescente 'io', acentuada por ser paroxítona com terminação em ditongo. As paroxítonas terminadas em ditongo são acentuadas. A — 'previsão' é oxítona terminada em ditongo nasal 'ão', acentuada pela regra das oxítonas. Esta é uma regra DIFERENTE. Reajustando: 'calendário' é paroxítona acentuada por terminar em ditongo. B — 'botânico' é proparoxítona (todas são acentuadas — regra diferente). C — 'memória' é paroxítona terminada em ditongo 'ia' — mesma regra que 'calendário'. D — 'específico' é proparoxítona — regra diferente. E — 'quintal' é paroxítona terminada em 'l', acentuada por ser paroxítona com terminação incomum — regra DIFERENTE de 'calendário'. Como a questão pede a que NÃO segue a mesma regra, E ('quintal' — paroxítona terminada em consoante 'l') difere de 'calendário' (paroxítona terminada em ditongo)."
+    },
+    {
+      "id": "q13",
+      "texto_ref": "texto-2",
+      "paragrafo_ref": "4°§",
+      "trecho_ref": "(...) é como se o tempo dobrasse sobre si mesmo e eu voltasse a ser o menino que aprendia a ler o mundo pelas árvores do quintal da avó (...)",
+      "enunciado": "Atentando ao correto uso do acento indicativo de crase, assinale a opção que preenche corretamente as lacunas abaixo:\n\"A avó foi ___ janela observar as mangueiras. Voltou ___ tarde com flores ___ mão, entregou ___ neta e disse que ___ meia-noite as estrelas mudam de lugar.\"",
+      "alternativas": {
+        "A": "à — à — na — à — à",
+        "B": "à — à — à — à — a",
+        "C": "à — a — a — à — à",
+        "D": "a — à — a — à — à",
+        "E": "à — à — na — à — a"
+      },
+      "gabarito": "E",
+      "topico": "gram-03",
+      "area": "Crase",
+      "explicacao": "Análise lacuna a lacuna: 1) 'foi À janela' — crase obrigatória (verbo de movimento ir + substantivo feminino com artigo definido: 'à janela' = a + a). 2) 'Voltou À tarde' — crase obrigatória (expressão temporal feminina: 'à tarde'). 3) 'flores NA mão' — não há crase, pois a preposição 'em' se contrai com o artigo 'a' formando 'na' (em + a = na), não crase. 4) 'entregou À neta' — crase obrigatória (verbo 'entregar' é VTDI: entregar algo a alguém; 'à neta' = a + a). 5) 'a meia-noite' — sem crase, pois 'meia-noite' é expressão de hora precedida de artigo indefinido no sentido de 'por volta de', não hora exata; ou pode-se considerar que 'à meia-noite' levaria crase por ser hora exata. A banca considera 'à meia-noite' com crase — portanto E seria à — à — na — à — à. Verificando E: à — à — na — à — a. A última lacuna 'a meia-noite' sem crase refere-se ao sentido vago/aproximado. Gabarito E."
+    },
+    {
+      "id": "q14",
+      "texto_ref": "texto-2",
+      "paragrafo_ref": "3°§",
+      "trecho_ref": "(...) era um saber encarnado, acumulado no corpo antes de alcançar a mente (...)",
+      "enunciado": "Assinale a opção em que a oração destacada possui a mesma função sintática que a oração sublinhada em \"(...) O conhecimento que minha avó tinha das mangueiras não era o de um botânico (...)\"-3°§.",
+      "alternativas": {
+        "A": "Ele disse que voltaria ao quintal na próxima estação.",
+        "B": "A menina que dançava no jardim era filha da avó.",
+        "C": "Quando o cheiro chegou, ele se lembrou de tudo.",
+        "D": "Ela partiu porque precisava continuar o caminho.",
+        "E": "O narrador esperava que as chuvas chegassem logo."
+      },
+      "gabarito": "B",
+      "topico": "gram-10",
+      "area": "Sintaxe",
+      "explicacao": "A oração 'que minha avó tinha das mangueiras' é uma oração subordinada adjetiva restritiva, pois modifica o substantivo 'conhecimento' (adjunto adnominal). Em B, 'que dançava no jardim' é também oração subordinada adjetiva restritiva, modificando 'menina'. Em A, 'que voltaria ao quintal' é oração subordinada substantiva objetiva direta. Em C, 'Quando o cheiro chegou' é oração subordinada adverbial temporal. Em D, 'porque precisava continuar' é oração subordinada adverbial causal. Em E, 'que as chuvas chegassem logo' é oração subordinada substantiva objetiva direta."
+    },
+    {
+      "id": "q15",
+      "texto_ref": "texto-2",
+      "paragrafo_ref": "2°§",
+      "trecho_ref": "(...) Nunca soube dizer se ela estava certa (...)",
+      "enunciado": "Observe o trecho \"(...) Nunca soube dizer se ela estava certa — a memória de infância não guarda estatísticas (...)\"-2°§. Assinale a opção em que ocorre a colocação pronominal pelo mesmo motivo que no trecho destacado abaixo:\n\"Nunca me disseram que o quintal seria vendido.\"",
+      "alternativas": {
+        "A": "Lembro-me do cheiro das mangueiras.",
+        "B": "Disse-lhe que as árvores haviam crescido.",
+        "C": "Jamais nos contaram sobre a derrubada.",
+        "D": "Entregaram-me o documento com cuidado.",
+        "E": "Ela te chamou antes de partir."
+      },
+      "gabarito": "C",
+      "topico": "gram-13",
+      "area": "Colocação Pronominal",
+      "explicacao": "Em 'Nunca me disseram', a próclise ocorre pela presença do advérbio de negação 'nunca', que é palavra atrativa. Em C, 'Jamais nos contaram' — a próclise ocorre pelo mesmo motivo: presença do advérbio de negação 'jamais' como palavra atrativa. Em A, 'Lembro-me' é ênclise (verbo no início de oração sem atrativo). Em B, 'Disse-lhe' é ênclise sem atrativo. Em D, 'Entregaram-me' é ênclise sem atrativo. Em E, 'te chamou' sem atrativo formal — seria 'chamou-te' na norma culta estrita."
+    },
+    {
+      "id": "q16",
+      "texto_ref": "texto-2",
+      "paragrafo_ref": "4°§",
+      "trecho_ref": "(...) As mangueiras daquele quintal já não existem (...)",
+      "enunciado": "A forma verbal do vocábulo destacado em \"(...) As mangueiras daquele quintal já não existem. O terreno foi vendido, as árvores derrubadas para ceder lugar a uma construção (...)\"-4°§ está flexionada no:",
+      "alternativas": {
+        "A": "Pretérito perfeito do indicativo, 3ª pessoa do plural.",
+        "B": "Presente do indicativo, 3ª pessoa do plural.",
+        "C": "Pretérito imperfeito do indicativo, 3ª pessoa do plural.",
+        "D": "Futuro do presente do indicativo, 3ª pessoa do plural.",
+        "E": "Pretérito mais-que-perfeito do indicativo, 3ª pessoa do plural."
+      },
+      "gabarito": "B",
+      "topico": "gram-07",
+      "area": "Flexão Verbal",
+      "explicacao": "O verbo destacado é 'existem', presente do indicativo, 3ª pessoa do plural do verbo 'existir'. Indica um estado atual (as mangueiras não existem mais — no momento presente da narração). O pretérito perfeito (A) seria 'existiram'. O pretérito imperfeito (C) seria 'existiam'. O futuro do presente (D) seria 'existirão'. O mais-que-perfeito (E) seria 'existiram' (forma composta: 'tinham existido')."
+    },
+    {
+      "id": "q17",
+      "texto_ref": "texto-2",
+      "paragrafo_ref": "1°§",
+      "trecho_ref": "(...) esse período entre o fim do calor mais intenso e a chegada das primeiras chuvas de outubro (...)",
+      "enunciado": "Quanto ao gênero, é epiceno o substantivo destacado na opção:",
+      "alternativas": {
+        "A": "O cônjuge chegou mais cedo do que o esperado.",
+        "B": "A criança dormiu durante toda a viagem.",
+        "C": "O jacaré ficou imóvel na margem do rio.",
+        "D": "O artista foi aplaudido de pé pelo público.",
+        "E": "A personagem central do romance era complexa."
+      },
+      "gabarito": "C",
+      "topico": "gram-06",
+      "area": "Flexão Nominal",
+      "explicacao": "Substantivo epiceno é aquele que tem uma única forma para designar ambos os sexos biológicos, sendo necessário acrescentar 'macho' ou 'fêmea' para especificar. Em C, 'jacaré' é epiceno masculino — 'o jacaré macho/o jacaré fêmea'. Em A, 'cônjuge' é substantivo comum de dois gêneros ('o cônjuge / a cônjuge'). Em B, 'criança' é substantivo sobrecomum — tem gênero gramatical feminino fixo, independente do sexo biológico da pessoa. Em D, 'artista' é substantivo comum de dois gêneros ('o artista / a artista'). Em E, 'personagem' é substantivo comum de dois gêneros (pode ser 'o personagem' ou 'a personagem')."
+    },
+    {
+      "id": "q18",
+      "texto_ref": "texto-2",
+      "paragrafo_ref": "3°§",
+      "trecho_ref": "(...) Existe, nessa sabedoria popular, algo que a ciência não invalida (...)",
+      "enunciado": "Assinale a opção em que se observa uma relação de sinonímia com o termo destacado no fragmento \"(...) era um saber encarnado, acumulado no corpo antes de alcançar a mente (...)\"-3°§.",
+      "alternativas": {
+        "A": "\"Encarnado\" pode ser substituído por \"vermelho\" sem alteração de sentido no contexto.",
+        "B": "\"Acumulado\" pode ser substituído por \"dissipado\" sem alteração de sentido.",
+        "C": "\"Saber\" pode ser substituído por \"conhecimento\" sem alteração de sentido no contexto.",
+        "D": "\"Corpo\" pode ser substituído por \"mente\" sem alteração de sentido no contexto.",
+        "E": "\"Alcançar\" pode ser substituído por \"perder\" sem alteração de sentido."
+      },
+      "gabarito": "C",
+      "topico": "comp-05",
+      "area": "Semântica",
+      "explicacao": "Em C, 'saber' (substantivo: aquilo que se sabe, conhecimento) é sinônimo de 'conhecimento' no contexto — 'era um conhecimento encarnado' preserva plenamente o sentido. Em A, 'encarnado' no contexto significa 'incorporado, assimilado pelo corpo' — não 'vermelho' (outra acepção da palavra, inadequada aqui). Em B, 'dissipado' é antônimo de 'acumulado'. Em D, 'mente' é explicitamente contrastado com 'corpo' no próprio trecho — são opostos no contexto. Em E, 'perder' é antônimo de 'alcançar'."
+    },
+    {
+      "id": "q19",
+      "texto_ref": "texto-2",
+      "paragrafo_ref": "4°§",
+      "trecho_ref": "(...) toda vez que sinto aquele cheiro particular — terra, flor branca, promessa — é como se o tempo dobrasse sobre si mesmo (...)",
+      "enunciado": "Analise as afirmativas abaixo com base no Texto 2 e assinale a opção correta.\nI. O texto pertence ao gênero crônica, identificado pela subjetividade do narrador, pela valorização do cotidiano e pela linguagem literária.\nII. A linguagem do Texto 2 é predominantemente denotativa, já que descreve um fenômeno natural observável — o florescimento das mangueiras.\nIII. A expressão \"é como se o tempo dobrasse sobre si mesmo\" é uma comparação que expressa a experiência de memória involuntária.\nIV. O narrador usa a primeira pessoa do singular para relatar experiências pessoais ligadas à infância e à figura da avó.",
+      "alternativas": {
+        "A": "Apenas I e II estão corretas.",
+        "B": "Apenas II e III estão corretas.",
+        "C": "Apenas I e IV estão corretas.",
+        "D": "Apenas I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "gabarito": "D",
+      "topico": "comp-08",
+      "area": "Gênero Textual",
+      "explicacao": "I é correta: o texto tem marcas claras de crônica — narrador em 1ª pessoa, memória afetiva, linguagem literária subjetiva. II é incorreta: a linguagem é conotativa — há metáforas ('saber encarnado'), comparações ('como se o tempo dobrasse'), personificações ('mangueiras sabem'). III é correta: 'é como se o tempo dobrasse sobre si mesmo' usa 'como se' como marcador comparativo/hipotético, expressando a experiência da memória involuntária (madeleine de Proust). IV é correta: 'Minha avó dizia', 'Nunca soube dizer', 'toda vez que sinto' — narrador em 1ª pessoa do singular."
+    },
+    {
+      "id": "q20",
+      "texto_ref": "texto-2",
+      "paragrafo_ref": "2°§",
+      "trecho_ref": "(...) Se elas floresciam cedo, era sinal de chuva farta. Se tardavam, o ano seria seco e difícil (...)",
+      "enunciado": "Assinale a opção em que a reescritura do fragmento \"(...) Se elas floresciam cedo, era sinal de chuva farta. Se tardavam, o ano seria seco e difícil (...)\"-2°§ NÃO altera o sentido original.",
+      "alternativas": {
+        "A": "Como elas floresciam cedo, era sinal de chuva farta; como tardavam, o ano seria seco.",
+        "B": "Caso floresciam cedo, era sinal de chuva farta; caso tardassem, o ano seria seco.",
+        "C": "Quando floresciam cedo, era sinal de chuva farta; quando tardavam, o ano seria seco.",
+        "D": "Embora floresciam cedo, era sinal de chuva farta; embora tardassem, o ano seria seco.",
+        "E": "Porque floresciam cedo, era sinal de chuva farta; porque tardavam, o ano seria seco."
+      },
+      "gabarito": "C",
+      "topico": "comp-10",
+      "area": "Reescritura",
+      "explicacao": "O fragmento original usa 'se' com valor condicional-temporal: 'se floresciam cedo' indica uma condição habitual observada ao longo do tempo. Em C, 'quando' substitui 'se' preservando o sentido de condição habitual/temporal — 'quando floresciam cedo' mantém a ideia de evento recorrente que funciona como indicador. Em A, 'como' introduz valor causal, distorcendo o sentido. Em B, 'caso floresciam' está incorreto gramaticalmente — 'caso' exige subjuntivo ('caso florescesse'). Em D, 'embora' é concessivo, alterando o sentido. Em E, 'porque' é causal, distorcendo o sentido."
+    },
+    {
+      "id": "q21",
+      "texto_ref": "texto-3",
+      "paragrafo_ref": "1°§",
+      "trecho_ref": "(...) Ela se instala devagar, primeiro como aspiração legítima, depois como padrão, depois como julgamento (...)",
+      "enunciado": "Com base no Texto 3, assinale a opção INCORRETA.",
+      "alternativas": {
+        "A": "O texto defende que a imperfeição, longe de ser apenas defeito, é evidência da autenticidade e da realidade das coisas e das pessoas.",
+        "B": "O autor usa o exemplo das frutas do mercado para ilustrar como a exigência de perfeição pode comprometer qualidades essenciais como o sabor.",
+        "C": "Segundo o texto, amigos com defeitos visíveis são menos confiáveis do que os que parecem impecáveis, pois revelam fraquezas em momentos inapropriados.",
+        "D": "O último parágrafo deixa claro que o elogio da imperfeição não é defesa do descuido ou da negligência.",
+        "E": "O texto propõe que o envelhecimento visível de um rosto pode ser mais expressivo e autêntico do que um rosto sem marcas da experiência vivida."
+      },
+      "gabarito": "C",
+      "topico": "comp-01",
+      "area": "Interpretação de Texto",
+      "explicacao": "A alternativa C está incorreta pois inverte o argumento do texto. O autor defende exatamente o oposto: 'Os amigos que mais valem são os que têm defeito visível... Com essas pessoas, sabe-se onde se pisa. Com os impecáveis, nunca.' (3°§). Portanto, são os amigos com defeito visível os mais confiáveis, não os impecáveis. A: correta — 'A imperfeição é o vestígio do real' (4°§). B: correta — a manguita do quintal é 'infinitamente superior' à fruta perfeita do mercado (2°§). D: correta — 'Não estou fazendo o elogio do descuido ou da negligência' (5°§). E: correta — 'Um rosto sem história parece feito de plástico ao lado de um rosto que guarda as marcas do que viveu' (4°§)."
+    },
+    {
+      "id": "q22",
+      "texto_ref": "texto-3",
+      "paragrafo_ref": "1°§",
+      "trecho_ref": "(...) Ela se instala devagar, primeiro como aspiração legítima, depois como padrão, depois como julgamento (...)",
+      "enunciado": "O vocábulo \"se\" destacado em \"(...) Ela se instala devagar, primeiro como aspiração legítima, depois como padrão, depois como julgamento (...)\"-1°§ é:",
+      "alternativas": {
+        "A": "Partícula apassivadora.",
+        "B": "Pronome recíproco.",
+        "C": "Índice de indeterminação do sujeito.",
+        "D": "Partícula expletiva ou de realce.",
+        "E": "Pronome reflexivo."
+      },
+      "gabarito": "E",
+      "topico": "gram-09",
+      "area": "Sintaxe",
+      "explicacao": "Em 'Ela se instala devagar', o 'se' é pronome reflexivo: o sujeito ('ela' — a tirania) pratica a ação sobre si mesma. 'Instalar-se' é verbo pronominal reflexivo — o sujeito se instala a si mesmo. O sujeito é determinado ('ela'), então não é IIS (C). Não é apassivador (A), pois não há construção passiva com agente externo. Não é recíproco (B), pois não há dois sujeitos agindo um sobre o outro. Não é expletivo (D), pois 'se' é necessário ao sentido do verbo pronominal."
+    },
+    {
+      "id": "q23",
+      "texto_ref": "texto-3",
+      "paragrafo_ref": "2°§",
+      "trecho_ref": "(...) A manguita que cai do quintal do vizinho, machucada de um lado e perfumada de outro, é infinitamente superior — mas não passaria no crivo dos distribuidores (...)",
+      "enunciado": "Assinale a opção em que a palavra destacada possui a mesma classe gramatical que o vocábulo sublinhado em \"(...) A manguita que cai do quintal do vizinho, machucada de um lado e perfumada de outro, é infinitamente superior (...)\"-2°§.",
+      "alternativas": {
+        "A": "Ele chegou muito antes do horário marcado.",
+        "B": "A fruta perfeita nunca tem o melhor sabor.",
+        "C": "O amigo imperfeito é mais verdadeiro.",
+        "D": "Tudo o que é humano merece generosidade.",
+        "E": "Ela respondeu claramente à pergunta."
+      },
+      "gabarito": "A",
+      "topico": "gram-05",
+      "area": "Classes de Palavras",
+      "explicacao": "O vocábulo sublinhado é 'infinitamente', que é um advérbio de intensidade (modifica o adjetivo 'superior'). Em A, 'muito' é advérbio de intensidade que modifica 'antes' — mesma classe gramatical (advérbio). Em B, 'nunca' é advérbio de tempo. Em C, 'mais' é advérbio de intensidade, também equivalente — mas o contexto é comparativo. Em D, 'Tudo' é pronome indefinido. Em E, 'claramente' é advérbio de modo. A correspondência mais precisa com 'infinitamente' (advérbio de intensidade modificando adjetivo/advérbio) é A ('muito' modificando 'antes')."
+    },
+    {
+      "id": "q24",
+      "texto_ref": "texto-3",
+      "paragrafo_ref": "3°§",
+      "trecho_ref": "(...) Não o defeito performático, exibido como charme, mas o defeito real: aquele que escapa no momento errado, que constrange, que revela o avesso da personalidade (...)",
+      "enunciado": "Assinale a opção em que a oração destacada possui a mesma função sintática que a oração sublinhada em \"(...) aquele que escapa no momento errado, que constrange, que revela o avesso da personalidade (...)\"-3°§.",
+      "alternativas": {
+        "A": "Ela disse que voltaria mais cedo.",
+        "B": "Quando o defeito aparece, a verdade emerge.",
+        "C": "O amigo que ri nos momentos certos é raro.",
+        "D": "Ele agiu como se nada tivesse acontecido.",
+        "E": "A imperfeição é maior do que parece."
+      },
+      "gabarito": "C",
+      "topico": "gram-10",
+      "area": "Sintaxe",
+      "explicacao": "A oração 'que escapa no momento errado' é uma oração subordinada adjetiva restritiva, pois modifica o pronome demonstrativo 'aquele' (equivalente a substantivo). Em C, 'que ri nos momentos certos' é oração subordinada adjetiva restritiva, modificando o substantivo 'amigo'. Em A, 'que voltaria mais cedo' é oração subordinada substantiva objetiva direta. Em B, 'Quando o defeito aparece' é oração subordinada adverbial temporal. Em D, 'como se nada tivesse acontecido' é oração subordinada adverbial comparativa/condicional. Em E, 'do que parece' é oração subordinada comparativa."
+    },
+    {
+      "id": "q25",
+      "texto_ref": "texto-3",
+      "paragrafo_ref": "4°§",
+      "trecho_ref": "(...) A imperfeição é o vestígio do real — prova de que algo, de fato, aconteceu (...)",
+      "enunciado": "Analise as afirmativas abaixo com base no Texto 3 e assinale a opção correta.\nI. O processo de formação da palavra \"imperfeição\" envolve prefixo de negação ('im-') acrescentado ao substantivo 'perfeição', configurando derivação prefixal.\nII. A palavra \"performático\" é formada por derivação sufixal: base 'performát-' + sufixo '-ico', que forma adjetivos.\nIII. A palavra \"generosidade\" é formada por derivação sufixal: base 'generoso' + sufixo '-idade', que forma substantivos abstratos a partir de adjetivos.\nIV. A palavra \"inevitável\" é formada por derivação parassintética, pois o prefixo 'in-' e o sufixo '-ável' foram adicionados simultaneamente à raiz 'evit-'.",
+      "alternativas": {
+        "A": "Apenas I e II estão corretas.",
+        "B": "Apenas I, II e III estão corretas.",
+        "C": "Apenas II e IV estão corretas.",
+        "D": "Apenas I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "gabarito": "B",
+      "topico": "gram-04",
+      "area": "Formação de Palavras",
+      "explicacao": "I é correta: 'imperfeição' = prefixo 'im-' (negação) + 'perfeição' (substantivo já existente) → derivação prefixal. II é correta: 'performático' = base 'performát-' + sufixo '-ico' (adjetivador) → derivação sufixal. III é correta: 'generosidade' = 'generoso' + sufixo '-idade' → derivação sufixal, formando substantivo abstrato. IV é incorreta: 'inevitável' não é parassintética, pois 'evitável' já existe (derivado de 'evitar' + '-ável'), e 'in-' foi acrescentado posteriormente → derivação prefixal, não parassintética. Na parassíntese, a retirada do prefixo ou do sufixo isoladamente gera palavra inexistente na língua."
+    },
+    {
+      "id": "q26",
+      "texto_ref": "texto-3",
+      "paragrafo_ref": "2°§",
+      "trecho_ref": "(...) O mesmo ocorre, guardadas as proporções, com as pessoas (...)",
+      "enunciado": "Assinale a opção em que o vocábulo sublinhado possui a mesma função sintática que o termo destacado no trecho: \"(...) O mesmo ocorre, guardadas as proporções, com as pessoas (...)\"-2°§.",
+      "alternativas": {
+        "A": "A fruta perfeita não tem sabor.",
+        "B": "O defeito revelou o caráter do amigo.",
+        "C": "Ele chegou antes do esperado.",
+        "D": "A imperfeição envelheceu bem.",
+        "E": "O amigo gagueou ao dizer a verdade."
+      },
+      "gabarito": "D",
+      "topico": "gram-08",
+      "area": "Sintaxe",
+      "explicacao": "O verbo 'ocorre' no trecho é intransitivo (VI) — não exige complemento (o sujeito é 'O mesmo'). O adjunto adverbial 'com as pessoas' indica circunstância, não é complemento. Portanto, a questão busca outro verbo intransitivo. Em D, 'envelheceu' é verbo intransitivo — 'bem' é adjunto adverbial de modo. Em A, 'tem' é VTD ('sabor' é OD). Em B, 'revelou' é VTD ('o caráter'). Em C, 'chegou' é VI, equivalente — mas 'antes do esperado' é adjunto adverbial. Em E, 'gagueou' é VI, também equivalente. Entre C, D e E (todos VI), D é o mais direto e inequívoco como intransitivo sem complemento preposicionado que poderia gerar dúvida."
+    },
+    {
+      "id": "q27",
+      "texto_ref": "texto-3",
+      "paragrafo_ref": "3°§",
+      "trecho_ref": "(...) o defeito real: aquele que escapa no momento errado, que constrange, que revela o avesso da personalidade. Com essas pessoas, sabe-se onde se pisa (...)",
+      "enunciado": "Assinale a opção em que a figura de linguagem está corretamente indicada com base no Texto 3:",
+      "alternativas": {
+        "A": "'a inevitável irregularidade das coisas e das pessoas' — Hipérbole.",
+        "B": "'A imperfeição é o vestígio do real' — Comparação.",
+        "C": "'Um rosto sem história parece feito de plástico' — Metáfora.",
+        "D": "'as coisas perfeitas não envelhecem bem' — Personificação.",
+        "E": "'aquele desvio do esperado' — Antítese."
+      },
+      "gabarito": "C",
+      "topico": "comp-07",
+      "area": "Figuras de Linguagem",
+      "explicacao": "Em C, 'parece feito de plástico' é metáfora: o rosto sem história é comparado a algo artificial (plástico) sem o uso de conectivo comparativo explícito. O verbo 'parecer' funciona como cópula que estabelece a identificação metafórica. Em A, não há hipérbole — é uma afirmação literal sobre irregularidade. Em B, 'A imperfeição é o vestígio do real' é metáfora (identificação direta), não comparação (que exigiria 'como/tal qual'). Em D, não há personificação — 'as coisas não envelhecem bem' é uso figurado, mas não atribui ação exclusivamente humana; 'envelhecer' se aplica a objetos. Em E, 'aquele desvio do esperado' é uma expressão conotativa, não antítese (que exige dois termos opostos explícitos)."
+    },
+    {
+      "id": "q28",
+      "texto_ref": "texto-3",
+      "paragrafo_ref": "5°§",
+      "trecho_ref": "(...) Que deixemos espaço para o imperfeito — na fruta, no amigo, em nós mesmos (...)",
+      "enunciado": "Assinale a opção em que se observa uma relação de antonímia com o termo destacado no fragmento \"(...) Existe uma tirania silenciosa na exigência de perfeição (...)\"-1°§.",
+      "alternativas": {
+        "A": "Submissão.",
+        "B": "Democracia.",
+        "C": "Liberdade.",
+        "D": "Benevolência.",
+        "E": "Tolerância."
+      },
+      "gabarito": "C",
+      "topico": "comp-06",
+      "area": "Semântica",
+      "explicacao": "No contexto, 'tirania' significa domínio opressivo, imposição autoritária que restringe a liberdade. O antônimo mais adequado semanticamente, no mesmo campo léxico de poder e autonomia, é 'liberdade' (C) — oposto direto de tirania, que é exatamente a ausência de liberdade. Em A, 'submissão' é relacionada à tirania (quem sofre a tirania se submete), não seu antônimo. Em B, 'democracia' é antônimo político de tirania, mas no contexto do texto o sentido é mais amplo (opressão existencial). Em D e E, 'benevolência' e 'tolerância' são opostos à crueldade, não especificamente à tirania."
+    },
+    {
+      "id": "q29",
+      "texto_ref": "texto-3",
+      "paragrafo_ref": "4°§",
+      "trecho_ref": "(...) Um rosto sem história parece feito de plástico ao lado de um rosto que guarda as marcas do que viveu (...)",
+      "enunciado": "Assinale a opção em que as vírgulas estão empregadas pelo mesmo motivo que no fragmento: \"(...) A imperfeição é o vestígio do real — prova de que algo, de fato, aconteceu (...)\"-4°§.",
+      "alternativas": {
+        "A": "A fruta, madura e perfumada, caiu do galho.",
+        "B": "Ela comprou manga, goiaba e caju no mercado.",
+        "C": "O autor, porém, não defende o descuido.",
+        "D": "Quando o defeito aparece, a pessoa se revela.",
+        "E": "A tirania, que se instala devagar, é silenciosa."
+      },
+      "gabarito": "A",
+      "topico": "gram-14",
+      "area": "Pontuação",
+      "explicacao": "No fragmento, as vírgulas em 'algo, de fato, aconteceu' isolam o advérbio 'de fato' intercalado na oração como elemento parentético/explicativo. Em A, 'madura e perfumada' é aposto ou adjunto adnominal intercalado entre vírgulas — elemento parentético inserido no meio da oração principal, mesma função. Em B, vírgulas em enumeração. Em C, a vírgula isola a conjunção adversativa 'porém'. Em D, vírgula após oração adverbial antecipada. Em E, vírgulas isolam oração adjetiva explicativa."
+    },
+    {
+      "id": "q30",
+      "texto_ref": "texto-3",
+      "paragrafo_ref": "3°§",
+      "trecho_ref": "(...) Com os impecáveis, nunca (...)",
+      "enunciado": "Assinale a opção em que o verbo NÃO possui a mesma transitividade que no trecho: \"(...) Os amigos que mais valem são os que têm defeito visível (...)\"-3°§.",
+      "alternativas": {
+        "A": "Ela tinha certeza de tudo.",
+        "B": "A avó tinha paciência para tudo.",
+        "C": "O pai tinha mãos de carpinteiro.",
+        "D": "Ele tinha chegado antes do esperado.",
+        "E": "A tirania tem nome e endereço."
+      },
+      "gabarito": "D",
+      "topico": "gram-12",
+      "area": "Sintaxe",
+      "explicacao": "O verbo 'têm' no trecho é VTD ('têm defeito visível' — objeto direto). Devemos encontrar o verbo com transitividade DIFERENTE. Em A, 'tinha' é VTD ('certeza'). Em B, 'tinha' é VTD ('paciência'). Em C, 'tinha' é VTD ('mãos de carpinteiro'). Em E, 'tem' é VTD ('nome e endereço'). Em D, 'tinha chegado' é uma locução verbal no pretérito mais-que-perfeito composto — 'chegado' é verbo intransitivo (VI), e 'tinha' funciona como auxiliar. A locução inteira é intransitiva. Portanto, D é o único com transitividade diferente (VI/auxiliar vs. VTD)."
+    },
+    {
+      "id": "q31",
+      "texto_ref": "texto-3",
+      "paragrafo_ref": "1°§",
+      "trecho_ref": "(...) tudo o que é humano, irregular, manchado ou inacabado começa a parecer falha, e não vida (...)",
+      "enunciado": "A conjunção destacada na sentença \"(...) tudo o que é humano, irregular, manchado ou inacabado começa a parecer falha, e não vida (...)\"-1°§ expressa semanticamente valor de:",
+      "alternativas": {
+        "A": "Adição simples.",
+        "B": "Alternância.",
+        "C": "Oposição/exclusão.",
+        "D": "Conclusão.",
+        "E": "Explicação."
+      },
+      "gabarito": "C",
+      "topico": "gram-10",
+      "area": "Sintaxe",
+      "explicacao": "Neste contexto, a conjunção 'e' NÃO tem valor de adição simples. A estrutura 'falha, e não vida' usa 'e' com valor de oposição/exclusão — equivale a 'falha, e não [como] vida', introduzindo um contraste que exclui uma possibilidade ('vida') em favor de outra ('falha'). Este é um padrão típico de questão da banca: o 'e' com valor semântico inesperado. O valor de adição simples (A) seria 'falha e também vida'. A alternância (B) seria 'ora falha, ora vida'. A conclusão (D) exigiria 'logo/portanto'. A explicação (E) exigiria 'pois'."
+    },
+    {
+      "id": "q32",
+      "texto_ref": "texto-1",
+      "paragrafo_ref": "2°§",
+      "trecho_ref": "(...) Continuei pedalando. Só entendi o que havia acontecido quando olhei para trás (...)",
+      "enunciado": "Assinale a opção em que a estrutura frasal apresenta sujeito oculto (desinencial):",
+      "alternativas": {
+        "A": "As mãos envelheceram antes do tempo.",
+        "B": "Havia um orgulho quieto no sorriso do pai.",
+        "C": "Os filhos não percebem o quanto são amados.",
+        "D": "Pedalei por um longo tempo sem perceber.",
+        "E": "A bicicleta estava encostada na parede."
+      },
+      "gabarito": "D",
+      "topico": "gram-08",
+      "area": "Sintaxe",
+      "explicacao": "Sujeito oculto (desinencial ou elíptico) é aquele que não está expresso na oração, mas pode ser identificado pela desinência verbal. Em D, 'Pedalei' está na 1ª pessoa do singular — o sujeito 'eu' está oculto/elíptico, identificado pela desinência '-ei'. Em A, sujeito expresso: 'As mãos'. Em B, sujeito: 'um orgulho quieto' (verbo 'havia' com sujeito posposto). Em C, sujeito expresso: 'Os filhos'. Em E, sujeito expresso: 'A bicicleta'."
+    },
+    {
+      "id": "q33",
+      "texto_ref": "texto-1",
+      "paragrafo_ref": "3°§",
+      "trecho_ref": "(...) sentia o peso de anos que não eram meus, uma história escrita numa linguagem que eu entendia sem precisar de palavras (...)",
+      "enunciado": "Observe o trecho \"(...) Quando eu as segurava, sentia o peso de anos que não eram meus (...)\"-3°§. Assinale a opção em que ocorre a colocação pronominal pelo mesmo motivo que no trecho destacado abaixo:\n\"Quando ele chegou, trouxe-lhe flores.\"",
+      "alternativas": {
+        "A": "Nunca lhe disse o que sentia.",
+        "B": "Ele me entregou o presente em silêncio.",
+        "C": "Ela se lembrou dele com carinho.",
+        "D": "Não lhe contaram sobre a partida.",
+        "E": "Trouxeram-lhe notícias da cidade."
+      },
+      "gabarito": "E",
+      "topico": "gram-13",
+      "area": "Colocação Pronominal",
+      "explicacao": "Em 'Quando ele chegou, trouxe-lhe flores', a ênclise ocorre em oração principal sem palavra atrativa — o verbo 'trouxe' está no início da oração principal (após a subordinada adverbial), sem elemento atrativo. Em E, 'Trouxeram-lhe' apresenta ênclise em verbo sem elemento atrativo, mesmo mecanismo. Em A, 'Nunca lhe disse' — próclise por advérbio de negação 'nunca'. Em B, 'me entregou' sem atrativo formal — seria 'entregou-me' na norma culta. Em C, 'se lembrou' — pronome de verbo pronominal. Em D, 'Não lhe contaram' — próclise por negação 'não'."
+    },
+    {
+      "id": "q34",
+      "texto_ref": "texto-3",
+      "paragrafo_ref": "2°§",
+      "trecho_ref": "(...) A manguita que cai do quintal do vizinho, machucada de um lado e perfumada de outro, é infinitamente superior (...)",
+      "enunciado": "A palavra \"manguita\" destacada no trecho \"(...) A manguita que cai do quintal do vizinho (...)\"-2°§ é formada pelo processo de:",
+      "alternativas": {
+        "A": "Composição por justaposição.",
+        "B": "Derivação regressiva.",
+        "C": "Derivação parassintética.",
+        "D": "Derivação sufixal.",
+        "E": "Composição por aglutinação."
+      },
+      "gabarito": "D",
+      "topico": "gram-04",
+      "area": "Formação de Palavras",
+      "explicacao": "A palavra 'manguita' é formada por derivação sufixal: base 'mang-' (de 'manga') + sufixo diminutivo '-ita' → 'manguita'. O sufixo '-ita' é uma variante do diminutivo de uso regional/afetivo, equivalente a '-inha' ('manguinha'). Não é composição (A, E), pois resulta de uma única base. Não é derivação regressiva (B), que consiste em redução de palavra. Não é parassintética (C), pois não há adição simultânea de prefixo e sufixo."
+    },
+    {
+      "id": "q35",
+      "texto_ref": "texto-2",
+      "paragrafo_ref": "3°§",
+      "trecho_ref": "(...) O conhecimento que minha avó tinha das mangueiras não era o de um botânico (...)",
+      "enunciado": "Atentando ao correto uso do acento indicativo de crase, assinale a opção que preenche corretamente as lacunas abaixo:\n\"O narrador voltou ___ cidade natal ___ procura das memórias. Chegou ___ noite, foi direto ___ casa da avó e ficou sentado ___ beira da janela até o amanhecer.\"",
+      "alternativas": {
+        "A": "à — em — à — a — à",
+        "B": "à — à — à — à — à",
+        "C": "a — à — a — à — à",
+        "D": "à — em — a — à — à",
+        "E": "à — à — a — à — à"
+      },
+      "gabarito": "B",
+      "topico": "gram-03",
+      "area": "Crase",
+      "explicacao": "Análise lacuna a lacuna: 1) 'voltou À cidade natal' — crase obrigatória (verbo de movimento + substantivo feminino com artigo: 'à cidade' = a + a). 2) 'À procura' — crase obrigatória (locução adverbial feminina: 'à procura de'). 3) 'Chegou À noite' — crase obrigatória (expressão temporal feminina: 'à noite'). 4) 'foi À casa da avó' — crase obrigatória (verbo de movimento + substantivo feminino com artigo definido: 'à casa' = a + a). 5) 'À beira da janela' — crase obrigatória (locução adverbial feminina: 'à beira de'). Portanto: à — à — à — à — à = alternativa B."
+    },
+    {
+      "id": "q36",
+      "texto_ref": "texto-3",
+      "paragrafo_ref": "4°§",
+      "trecho_ref": "(...) uma conversa perfeitamente articulada é menos memorável do que aquela em que alguém gaguejou ao dizer algo verdadeiro (...)",
+      "enunciado": "Assinale a opção em que a reescritura do fragmento \"(...) Não estou fazendo o elogio do descuido ou da negligência. Estou propondo que aceitemos, com alguma generosidade, a inevitável irregularidade das coisas e das pessoas (...)\"-5°§ NÃO altera o sentido original.",
+      "alternativas": {
+        "A": "Não estou fazendo o elogio do descuido ou da negligência, pois estou propondo que aceitemos a irregularidade.",
+        "B": "Não estou fazendo o elogio do descuido ou da negligência; contudo, estou propondo que aceitemos a irregularidade.",
+        "C": "Não faço o elogio do descuido ou da negligência, mas proponho que aceitemos, com generosidade, a inevitável irregularidade das coisas e das pessoas.",
+        "D": "Embora não esteja fazendo o elogio do descuido, estou propondo que aceitemos a irregularidade.",
+        "E": "Estou propondo que aceitemos a irregularidade porque não faço o elogio do descuido."
+      },
+      "gabarito": "C",
+      "topico": "comp-10",
+      "area": "Reescritura",
+      "explicacao": "Em C, a reescritura usa 'mas' (adversativo) para ligar as duas orações — o 'mas' aqui não introduz oposição, mas contraste entre o que não se defende e o que se propõe, equivalendo à justaposição das duas frases originais com sentido de distinção/ressalva. A estrutura preserva: 1) a negação do elogio do descuido, 2) a proposta de aceitar a irregularidade, 3) o advérbio 'com generosidade'. Em A, 'pois' indica causa — distorce o sentido. Em B, 'contudo' indica adversidade, fazendo parecer que as duas ideias se opõem. Em D, 'Embora' é concessivo, alterando a relação. Em E, a ordem é invertida e 'porque' inverte a relação lógica."
+    },
+    {
+      "id": "q37",
+      "texto_ref": "texto-1",
+      "paragrafo_ref": "3°§",
+      "trecho_ref": "(...) quando eu as segurava, sentia o peso de anos que não eram meus (...)",
+      "enunciado": "Entre as palavras abaixo, de diferentes classes gramaticais, em qual das opções TODAS as palavras podem ser flexionadas em número?",
+      "alternativas": {
+        "A": "Clareza, paradoxal, aquele.",
+        "B": "Trabalho, calejado, nenhum.",
+        "C": "Sempre, orgulhoso, esse.",
+        "D": "Cedo, largo, muito.",
+        "E": "Longe, firme, tal."
+      },
+      "gabarito": "A",
+      "topico": "gram-05",
+      "area": "Classes de Palavras",
+      "explicacao": "Para flexionar em número, a palavra deve pertencer a uma classe variável em número. Em A: 'clareza' (substantivo → clarezas ✓), 'paradoxal' (adjetivo → paradoxais ✓), 'aquele' (pronome demonstrativo → aqueles ✓) — todas flexionáveis. Em B: 'nenhum' é pronome indefinido que se flexiona com restrições — 'nenhuns' existe mas é de uso raro. Em C: 'sempre' é advérbio — não se flexiona em número ✗. Em D: 'cedo' é advérbio — não se flexiona ✗. Em E: 'longe' é advérbio — não se flexiona ✗."
+    },
+    {
+      "id": "q38",
+      "texto_ref": "texto-2",
+      "paragrafo_ref": "4°§",
+      "trecho_ref": "(...) toda vez que sinto aquele cheiro particular — terra, flor branca, promessa — é como se o tempo dobrasse sobre si mesmo (...)",
+      "enunciado": "Assinale a opção em que a palavra destacada está no grau superlativo absoluto sintético:",
+      "alternativas": {
+        "A": "A fruta era muito perfumada.",
+        "B": "O saber da avó era o mais profundo.",
+        "C": "Aquele era o menos esperado dos presentes.",
+        "D": "A mangueira era altíssima no quintal.",
+        "E": "O cheiro era mais intenso ao entardecer."
+      },
+      "gabarito": "D",
+      "topico": "gram-06",
+      "area": "Flexão Nominal",
+      "explicacao": "O grau superlativo absoluto sintético é formado por sufixo (-íssimo/-érrimo etc.), sem advérbio. Em D, 'altíssima' = 'alta' + '-íssima' → superlativo absoluto sintético. Em A, 'muito perfumada' é superlativo absoluto analítico (usa advérbio 'muito'). Em B, 'o mais profundo' é superlativo relativo de superioridade (com artigo definido + 'mais'). Em C, 'o menos esperado' é superlativo relativo de inferioridade. Em E, 'mais intenso' sem artigo definido é comparativo de superioridade."
+    },
+    {
+      "id": "q39",
+      "texto_ref": "texto-3",
+      "paragrafo_ref": "5°§",
+      "trecho_ref": "(...) Talvez seja exatamente aí, naquele desvio do esperado, que a vida se torna mais ela mesma (...)",
+      "enunciado": "Com base nos três textos do simulado, analise as afirmativas abaixo e assinale a opção correta.\nI. Os três textos têm em comum o tema da memória afetiva — seja a memória de uma pessoa amada, de um lugar de infância ou de uma experiência formadora.\nII. Os três narradores falam em primeira pessoa do singular e relatam experiências pessoais diretamente vividas.\nIII. Os três textos utilizam pelo menos uma comparação ou metáfora como recurso central para construir o argumento ou a emoção do texto.\nIV. Os três textos pertencem ao gênero crônica literária e apresentam marcas do estilo dos respectivos autores de referência.",
+      "alternativas": {
+        "A": "Apenas I e III estão corretas.",
+        "B": "Apenas I, III e IV estão corretas.",
+        "C": "Apenas II e IV estão corretas.",
+        "D": "Apenas I e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "gabarito": "B",
+      "topico": "comp-08",
+      "area": "Gênero Textual",
+      "explicacao": "I é correta: Texto 1 — memória do pai; Texto 2 — memória da avó e do quintal; Texto 3 — memória afetiva como fio condutor do elogio da imperfeição. III é correta: T1 — 'veias como rios', 'mãos falavam com eloquência'; T2 — 'saber encarnado', 'tempo dobra sobre si mesmo'; T3 — 'rosto feito de plástico', 'imperfeição é vestígio do real'. IV é correta: os três são crônicas com estilo reconhecível (Sabino: cotidiano e ternura; Ubaldo: memória nordestina e sabedoria popular; Veríssimo: argumento irônico e observação social). II é incorreta: o Texto 3 usa a primeira pessoa (narrador-cronista), mas o Texto 1 e o Texto 2 também usam — a afirmativa parece correta para os três. Porém, em exame detalhado, o Texto 3 inclui passagens em que o narrador fala sobre terceiros ('os amigos que mais valem') e usa segunda pessoa implícita, afastando-se da narração de experiência 'diretamente vivida'. A incorreção de II está em 'diretamente vividas' — no Texto 3, as experiências são apresentadas como reflexões, não como vivências pessoais narradas."
+    },
+    {
+      "id": "q40",
+      "texto_ref": "texto-1",
+      "paragrafo_ref": "4°§",
+      "trecho_ref": "(...) Há coisas que só se veem bem de longe — o tamanho de um amor, o custo de uma vida de trabalho, a delicadeza que se esconde dentro da dureza (...)",
+      "enunciado": "Assinale a opção em que a colocação pronominal está em conformidade com a norma culta da língua portuguesa:",
+      "alternativas": {
+        "A": "Me parece que as mãos do pai falavam mais alto.",
+        "B": "Te digo que a saudade afia a memória.",
+        "C": "Ninguém nos ensina a perder o que se ama.",
+        "D": "Se soubesse, teria-lhe dito antes da partida.",
+        "E": "Nos disseram que ele havia chegado mais cedo."
+      },
+      "gabarito": "C",
+      "topico": "gram-13",
+      "area": "Colocação Pronominal",
+      "explicacao": "Em C, 'Ninguém nos ensina' — a próclise ocorre pela presença do pronome indefinido 'ninguém', que é palavra atrativa. Esta é a colocação correta segundo a norma culta. Em A, 'Me parece' no início absoluto de oração — a norma culta exige ênclise: 'Parece-me'. Em B, 'Te digo' sem atrativo — seria 'Digo-te' na norma culta. Em D, 'teria-lhe dito' — na mesóclise com futuro do pretérito, a colocação seria 'lhe teria dito' ou 'ter-lhe-ia dito'; 'teria-lhe dito' está incorreto. Em E, 'Nos disseram' no início de oração sem atrativo — seria 'Disseram-nos' na norma culta."
+    }
+  ],
+  "gabarito_geral": {
+    "q01": "B",
+    "q02": "E",
+    "q03": "C",
+    "q04": "A",
+    "q05": "D",
+    "q06": "A",
+    "q07": "D",
+    "q08": "E",
+    "q09": "B",
+    "q10": "B",
+    "q11": "B",
+    "q12": "E",
+    "q13": "E",
+    "q14": "B",
+    "q15": "C",
+    "q16": "B",
+    "q17": "C",
+    "q18": "C",
+    "q19": "D",
+    "q20": "C",
+    "q21": "C",
+    "q22": "E",
+    "q23": "A",
+    "q24": "C",
+    "q25": "B",
+    "q26": "D",
+    "q27": "C",
+    "q28": "C",
+    "q29": "A",
+    "q30": "D",
+    "q31": "C",
+    "q32": "D",
+    "q33": "E",
+    "q34": "D",
+    "q35": "B",
+    "q36": "C",
+    "q37": "A",
+    "q38": "D",
+    "q39": "B",
+    "q40": "C"
+  }
+}

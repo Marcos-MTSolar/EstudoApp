@@ -1,35 +1,35 @@
-# RESUMO MESTRE — RM2 MARINHA (EstudoApp)
+# RESUMO MESTRE â€” RM2 MARINHA (EstudoApp)
 
-Este documento consolida a análise detalhada e atualizada da arquitetura, stack de tecnologias, estrutura do banco de dados, regras de negócio e integrações do sistema **RM2 Marinha** (EstudoApp), servindo como a principal fonte de verdade técnica do projeto.
-
----
-
-## 1. VISÃO GERAL
-
-* **Propósito do Sistema:** O **RM2 Marinha** é uma aplicação web interativa projetada para auxiliar candidatos na preparação para o concurso de Oficial Temporário da Marinha do Brasil (RM2), cuja prova é exclusivamente de **Língua Portuguesa**. O sistema oferece teoria estruturada gerada por IA, questões de fixação estilo CEBRASPE/CESPE, simulados cronometrados, progresso por assunto, cronograma do edital e diário de saúde/atividade física.
-* **Público-alvo:** Candidatos ao concurso de Oficial Temporário (RM2) da Marinha do Brasil.
-* **Estágio Atual do Projeto:** Aplicação funcional em produção na Vercel. Frontend React 19 com suporte híbrido Firebase/offline. Backend via funções serverless Vercel integradas à API Groq (llama-3.3-70b-versatile).
+Este documento consolida a anÃ¡lise detalhada e atualizada da arquitetura, stack de tecnologias, estrutura do banco de dados, regras de negÃ³cio e integraÃ§Ãµes do sistema **RM2 Marinha** (EstudoApp), servindo como a principal fonte de verdade tÃ©cnica do projeto.
 
 ---
 
-## 2. STACK TECNOLÓGICA
+## 1. VISÃƒO GERAL
+
+* **PropÃ³sito do Sistema:** O **RM2 Marinha** Ã© uma aplicaÃ§Ã£o web interativa projetada para auxiliar candidatos na preparaÃ§Ã£o para o concurso de Oficial TemporÃ¡rio da Marinha do Brasil (RM2), cuja prova Ã© exclusivamente de **LÃ­ngua Portuguesa**. O sistema oferece teoria estruturada gerada por IA, questÃµes de fixaÃ§Ã£o estilo CEBRASPE/CESPE, simulados cronometrados, progresso por assunto, cronograma do edital e diÃ¡rio de saÃºde/atividade fÃ­sica.
+* **PÃºblico-alvo:** Candidatos ao concurso de Oficial TemporÃ¡rio (RM2) da Marinha do Brasil.
+* **EstÃ¡gio Atual do Projeto:** AplicaÃ§Ã£o funcional em produÃ§Ã£o na Vercel. Frontend React 19 com suporte hÃ­brido Firebase/offline. Backend via funÃ§Ãµes serverless Vercel integradas Ã  API Groq (llama-3.3-70b-versatile).
+
+---
+
+## 2. STACK TECNOLÃ“GICA
 
 ### Frontend
 * **Core:** React 19 + Vite 6
-* **Estilização:** CSS customizado com variáveis de tema + Motion (anteriormente Framer Motion) para animações e transições de tela fluidas.
-* **Ícones:** Lucide React v0.546.0.
+* **EstilizaÃ§Ã£o:** CSS customizado com variÃ¡veis de tema + Motion (anteriormente Framer Motion) para animaÃ§Ãµes e transiÃ§Ãµes de tela fluidas.
+* **Ã�cones:** Lucide React v0.546.0.
 
 ### Backend
-* **Infraestrutura:** ⚡ **App 100% estático/frontend-only.** Sem rotas serverless, sem servidor Node.js. Todo o conteúdo é carregado via `import()` dinâmico de JSON locais em `src/data/conteudo/`. O deploy na Vercel serve apenas o SPA (`/index.html`).
+* **Infraestrutura:** âš¡ **App 100% estÃ¡tico/frontend-only.** Sem rotas serverless, sem servidor Node.js. Todo o conteÃºdo Ã© carregado via `import()` dinÃ¢mico de JSON locais em `src/data/conteudo/`. O deploy na Vercel serve apenas o SPA (`/index.html`).
 
 ### Banco de Dados e Storage
-* **Local:** LocalStorage para persistência de dados no modo offline (chaves com prefixo `enem_`).
+* **Local:** LocalStorage para persistÃªncia de dados no modo offline (chaves com prefixo `enem_`).
 * **Nuvem:** Firebase Firestore (opcional, habilitado via login com Google).
 
-### Integrações Externas
-* **Inteligência Artificial (RM2):** API da **Groq** com modelo `llama-3.3-70b-versatile` (gratuito, alta velocidade). Integração via função serverless `api/_utils.ts → callGroq()`.
-* **Firebase Admin SDK:** Usado nas funções serverless para gerenciar o cache de conteúdos de IA na coleção `rm2_cache` do Firestore.
-* **Firebase Client SDK:** Usado no frontend para autenticação Google e sincronização em tempo real.
+### IntegraÃ§Ãµes Externas
+* **InteligÃªncia Artificial (RM2):** API da **Groq** com modelo `llama-3.3-70b-versatile` (gratuito, alta velocidade). IntegraÃ§Ã£o via funÃ§Ã£o serverless `api/_utils.ts â†’ callGroq()`.
+* **Firebase Admin SDK:** Usado nas funÃ§Ãµes serverless para gerenciar o cache de conteÃºdos de IA na coleÃ§Ã£o `rm2_cache` do Firestore.
+* **Firebase Client SDK:** Usado no frontend para autenticaÃ§Ã£o Google e sincronizaÃ§Ã£o em tempo real.
 
 ---
 
@@ -37,101 +37,101 @@ Este documento consolida a análise detalhada e atualizada da arquitetura, stack
 
 ```text
 /EstudoApp/PlanoEstudo
-├── api/                          # Funções serverless Vercel
-│   ├── _utils.ts                 # Utilitários compartilhados: callGroq, getCache, saveCache, getAdminDb
-│   └── rm2/                      # Rotas de IA do módulo RM2 Marinha
-│       ├── teoria.ts             # POST — gera teoria estruturada por assunto
-│       ├── questoes.ts           # POST — gera questões de múltipla escolha
-│       ├── simulacao.ts          # POST — gera simulado rápido ou completo
-│       ├── resultado.ts          # POST — calcula notas e persiste resultado
-│       └── generate.ts           # POST — rota genérica para chat com a Groq
-├── src/                          # Código-fonte do frontend React
-│   ├── components/
-│   │   ├── Configuracoes.tsx     # Configurações gerais (tema, conta)
-│   │   ├── EstudoRM2.tsx         # Shell principal do módulo RM2 (roteador de abas)
-│   │   └── rm2/                  # Sub-componentes do módulo RM2
-│   │       ├── RM2Dashboard.tsx  # Painel de boas-vindas e progresso global
-│   │       ├── RM2Teoria.tsx     # Geração e exibição de teoria por assunto
-│   │       ├── RM2Questoes.tsx   # Questões interativas de fixação
-│   │       ├── RM2Simulacao.tsx  # Simulados cronometrados com gabarito
-│   │       ├── RM2Progresso.tsx  # Relatório detalhado de progresso por área
-│   │       ├── RM2Cronograma.tsx # Checklist interativo do edital RM2
-│   │       ├── RM2Saude.tsx      # Diário de atividade física e sono
-│   │       └── RM2Configuracoes.tsx # Gerenciamento da Groq API key e cache
-│   ├── lib/
-│   │   ├── AuthContext.tsx       # Autenticação Firebase / Offline
-│   │   ├── firebase.ts           # Configuração do Firebase Client SDK
-│   │   ├── constants.ts          # Constantes globais do sistema
-│   │   ├── schedule.ts           # Utilitários de agenda/horário
-│   │   ├── useData.tsx           # Hook de persistência local (notes, physicalActivities)
-│   │   └── useRM2Data.ts         # Hook de progresso RM2 (Firestore + LocalStorage)
-│   ├── data/
-│   │   └── rm2Conteudo.ts        # Conteúdo programático completo do edital RM2 (7 áreas, 30 tópicos — padrão histórico 2026)
-│   ├── App.tsx                   # Roteador principal + sidebar + autenticação
-│   ├── index.css                 # Estilos globais e variáveis de tema
-│   └── main.tsx                  # Ponto de entrada do frontend React
-├── server.ts                     # Servidor Express local (dev only — não implantado)
-├── vercel.json                   # Configuração de rewrites para SPA e API
-├── firestore.rules               # Regras de segurança do Firestore
-├── firebase-blueprint.json       # Esquema de dados do Firebase
-├── package.json                  # Dependências e scripts NPM
-└── tsconfig.json                 # Configurações do compilador TypeScript
+â”œâ”€â”€ api/                          # FunÃ§Ãµes serverless Vercel
+â”‚   â”œâ”€â”€ _utils.ts                 # UtilitÃ¡rios compartilhados: callGroq, getCache, saveCache, getAdminDb
+â”‚   â””â”€â”€ rm2/                      # Rotas de IA do mÃ³dulo RM2 Marinha
+â”‚       â”œâ”€â”€ teoria.ts             # POST â€” gera teoria estruturada por assunto
+â”‚       â”œâ”€â”€ questoes.ts           # POST â€” gera questÃµes de mÃºltipla escolha
+â”‚       â”œâ”€â”€ simulacao.ts          # POST â€” gera simulado rÃ¡pido ou completo
+â”‚       â”œâ”€â”€ resultado.ts          # POST â€” calcula notas e persiste resultado
+â”‚       â””â”€â”€ generate.ts           # POST â€” rota genÃ©rica para chat com a Groq
+â”œâ”€â”€ src/                          # CÃ³digo-fonte do frontend React
+â”‚   â”œâ”€â”€ components/
+â”‚   â”‚   â”œâ”€â”€ Configuracoes.tsx     # ConfiguraÃ§Ãµes gerais (tema, conta)
+â”‚   â”‚   â”œâ”€â”€ EstudoRM2.tsx         # Shell principal do mÃ³dulo RM2 (roteador de abas)
+â”‚   â”‚   â””â”€â”€ rm2/                  # Sub-componentes do mÃ³dulo RM2
+â”‚   â”‚       â”œâ”€â”€ RM2Dashboard.tsx  # Painel de boas-vindas e progresso global
+â”‚   â”‚       â”œâ”€â”€ RM2Teoria.tsx     # GeraÃ§Ã£o e exibiÃ§Ã£o de teoria por assunto
+â”‚   â”‚       â”œâ”€â”€ RM2Questoes.tsx   # QuestÃµes interativas de fixaÃ§Ã£o
+â”‚   â”‚       â”œâ”€â”€ RM2Simulacao.tsx  # Simulados cronometrados com gabarito
+â”‚   â”‚       â”œâ”€â”€ RM2Progresso.tsx  # RelatÃ³rio detalhado de progresso por Ã¡rea
+â”‚   â”‚       â”œâ”€â”€ RM2Cronograma.tsx # Checklist interativo do edital RM2
+â”‚   â”‚       â”œâ”€â”€ RM2Saude.tsx      # DiÃ¡rio de atividade fÃ­sica e sono
+â”‚   â”‚       â””â”€â”€ RM2Configuracoes.tsx # Gerenciamento da Groq API key e cache
+â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â”œâ”€â”€ AuthContext.tsx       # AutenticaÃ§Ã£o Firebase / Offline
+â”‚   â”‚   â”œâ”€â”€ firebase.ts           # ConfiguraÃ§Ã£o do Firebase Client SDK
+â”‚   â”‚   â”œâ”€â”€ constants.ts          # Constantes globais do sistema
+â”‚   â”‚   â”œâ”€â”€ schedule.ts           # UtilitÃ¡rios de agenda/horÃ¡rio
+â”‚   â”‚   â”œâ”€â”€ useData.tsx           # Hook de persistÃªncia local (notes, physicalActivities)
+â”‚   â”‚   â””â”€â”€ useRM2Data.ts         # Hook de progresso RM2 (Firestore + LocalStorage)
+â”‚   â”œâ”€â”€ data/
+â”‚   â”‚   â””â”€â”€ rm2Conteudo.ts        # ConteÃºdo programÃ¡tico completo do edital RM2 (7 Ã¡reas, 30 tÃ³picos â€” padrÃ£o histÃ³rico 2026)
+â”‚   â”œâ”€â”€ App.tsx                   # Roteador principal + sidebar + autenticaÃ§Ã£o
+â”‚   â”œâ”€â”€ index.css                 # Estilos globais e variÃ¡veis de tema
+â”‚   â””â”€â”€ main.tsx                  # Ponto de entrada do frontend React
+â”œâ”€â”€ server.ts                     # Servidor Express local (dev only â€” nÃ£o implantado)
+â”œâ”€â”€ vercel.json                   # ConfiguraÃ§Ã£o de rewrites para SPA e API
+â”œâ”€â”€ firestore.rules               # Regras de seguranÃ§a do Firestore
+â”œâ”€â”€ firebase-blueprint.json       # Esquema de dados do Firebase
+â”œâ”€â”€ package.json                  # DependÃªncias e scripts NPM
+â””â”€â”€ tsconfig.json                 # ConfiguraÃ§Ãµes do compilador TypeScript
 ```
 
 ---
 
-## 4. MÓDULOS E FUNCIONALIDADES
+## 4. MÃ“DULOS E FUNCIONALIDADES
 
-1. **Autenticação (`AuthContext.tsx`):**
-   * Login com Google (Firebase Auth) para sincronização em nuvem, ou uso offline imediato via LocalStorage.
+1. **AutenticaÃ§Ã£o (`AuthContext.tsx`):**
+   * Login com Google (Firebase Auth) para sincronizaÃ§Ã£o em nuvem, ou uso offline imediato via LocalStorage.
 
 2. **Dashboard RM2 (`RM2Dashboard.tsx`):**
-   * Painel de boas-vindas com progresso global do candidato, cards de acesso rápido às áreas de estudo e atalhos para simulados.
+   * Painel de boas-vindas com progresso global do candidato, cards de acesso rÃ¡pido Ã s Ã¡reas de estudo e atalhos para simulados.
 
 3. **Teoria (`RM2Teoria.tsx`):**
-   * Seleciona área/assunto e nível (básico, intermediário, avançado). Gera via Groq uma explicação estruturada (título, resumo, teoria completa, regras, exemplos, dica de prova, pegadinhas). Cache automático de 30 dias no Firestore.
+   * Seleciona Ã¡rea/assunto e nÃ­vel (bÃ¡sico, intermediÃ¡rio, avanÃ§ado). Gera via Groq uma explicaÃ§Ã£o estruturada (tÃ­tulo, resumo, teoria completa, regras, exemplos, dica de prova, pegadinhas). Cache automÃ¡tico de 30 dias no Firestore.
 
-4. **Questões (`RM2Questoes.tsx`):**
-   * Geração de questões no padrão CEBRASPE/CESPE com 5 alternativas, gabarito comentado e explicação pedagógica. Feedback visual imediato (verde/vermelho).
+4. **QuestÃµes (`RM2Questoes.tsx`):**
+   * GeraÃ§Ã£o de questÃµes no padrÃ£o CEBRASPE/CESPE com 5 alternativas, gabarito comentado e explicaÃ§Ã£o pedagÃ³gica. Feedback visual imediato (verde/vermelho).
 
 5. **Simulado (`RM2Simulacao.tsx`):**
-   * Modo Rápido (10 questões, 45 min) ou Completo (40 questões, 180 min). Cronômetro regressivo com auto-envio. Gabarito e pontuação detalhada ao final.
+   * Modo RÃ¡pido (10 questÃµes, 45 min) ou Completo (40 questÃµes, 180 min). CronÃ´metro regressivo com auto-envio. Gabarito e pontuaÃ§Ã£o detalhada ao final.
 
 6. **Progresso (`RM2Progresso.tsx`):**
-   * Relatório detalhado por área de estudo com barras de progresso CSS, lista de assuntos dominados (≥80%) e a revisar (<60%), histórico de simulações e exportação de relatório textual.
+   * RelatÃ³rio detalhado por Ã¡rea de estudo com barras de progresso CSS, lista de assuntos dominados (â‰¥80%) e a revisar (<60%), histÃ³rico de simulaÃ§Ãµes e exportaÃ§Ã£o de relatÃ³rio textual.
 
 7. **Cronograma (`RM2Cronograma.tsx`):**
-   * Plano de 13 semanas (08/jun–06/set/2026) com banner informativo (nota mínima 40/100, data da PO editável, incorporação 13/07/2026). Checklist interativo de 30 tópicos organizados por 7 áreas com 4 fases de estudo. Progresso salvo no LocalStorage.
+   * Plano de 13 semanas (08/junâ€“06/set/2026) com banner informativo (nota mÃ­nima 40/100, data da PO editÃ¡vel, incorporaÃ§Ã£o 13/07/2026). Checklist interativo de 30 tÃ³picos organizados por 7 Ã¡reas com 4 fases de estudo. Progresso salvo no LocalStorage.
 
-8. **Saúde (`RM2Saude.tsx`):**
-   * Diário de atividade física e sono para monitorar equilíbrio físico durante o período de estudos. Dados salvos em LocalStorage de forma independente.
+8. **SaÃºde (`RM2Saude.tsx`):**
+   * DiÃ¡rio de atividade fÃ­sica e sono para monitorar equilÃ­brio fÃ­sico durante o perÃ­odo de estudos. Dados salvos em LocalStorage de forma independente.
 
-9. **Configurações RM2 (`RM2Configuracoes.tsx`):**
-   * Gerenciamento da chave `GROQ_API_KEY` (backup local no navegador). Limpeza de cache local. Instruções de setup no painel Vercel.
+9. **ConfiguraÃ§Ãµes RM2 (`RM2Configuracoes.tsx`):**
+   * Gerenciamento da chave `GROQ_API_KEY` (backup local no navegador). Limpeza de cache local. InstruÃ§Ãµes de setup no painel Vercel.
 
-10. **Configurações Gerais (`Configuracoes.tsx`):**
-    * Preferências de tema visual (dark/light) e informações da conta sincronizada.
+10. **ConfiguraÃ§Ãµes Gerais (`Configuracoes.tsx`):**
+    * PreferÃªncias de tema visual (dark/light) e informaÃ§Ãµes da conta sincronizada.
 
 ---
 
 ## 5. BANCO DE DADOS
 
 O sistema funciona de duas maneiras:
-1. **LocalStorage (Offline):** Prefixo `enem_` para notes e activities; `enem_rm2_` para dados do módulo RM2.
-2. **Firebase Firestore (Nuvem):** Coleções sincronizadas:
+1. **LocalStorage (Offline):** Prefixo `enem_` para notes e activities; `enem_rm2_` para dados do mÃ³dulo RM2.
+2. **Firebase Firestore (Nuvem):** ColeÃ§Ãµes sincronizadas:
 
-### Coleções no Firestore
-* **`users/{uid}/notes`:** Anotações do candidato.
-* **`users/{uid}/physical_activities`:** Registros de atividade física e sono.
+### ColeÃ§Ãµes no Firestore
+* **`users/{uid}/notes`:** AnotaÃ§Ãµes do candidato.
+* **`users/{uid}/physical_activities`:** Registros de atividade fÃ­sica e sono.
 * **`users/{uid}/rm2_progresso`:** Progresso por assunto (teoriaVista, questoesFeitas, nivelAtual, concluido).
-* **`rm2_cache`:** Cache global de teoria, questões e simulados gerados por IA (30 dias de validade).
-* **`rm2_resultados`:** Histórico de resultados de simulados dos usuários.
+* **`rm2_cache`:** Cache global de teoria, questÃµes e simulados gerados por IA (30 dias de validade).
+* **`rm2_resultados`:** HistÃ³rico de resultados de simulados dos usuÃ¡rios.
 
 ### Estrutura do Documento de Cache (`rm2_cache`)
 ```json
 {
   "id": "string",            // hash: "assuntoId_tipo_nivel"
-  "assunto": "string",       // ex: "Concordância Verbal"
+  "assunto": "string",       // ex: "ConcordÃ¢ncia Verbal"
   "tipo": "string",          // "teoria" | "questoes" | "simulacao"
   "nivel": "string",         // "basico" | "intermediario" | "avancado"
   "conteudo": "object",      // JSON retornado pela Groq
@@ -142,89 +142,89 @@ O sistema funciona de duas maneiras:
 
 ---
 
-## 6. INTEGRAÇÕES EXTERNAS
+## 6. INTEGRAÃ‡Ã•ES EXTERNAS
 
-### Groq API (RM2 Marinha — ativo em produção)
-* **Modelo:** `llama-3.3-70b-versatile` — gratuito, extremamente rápido, alta qualidade.
+### Groq API (RM2 Marinha â€” ativo em produÃ§Ã£o)
+* **Modelo:** `llama-3.3-70b-versatile` â€” gratuito, extremamente rÃ¡pido, alta qualidade.
 * **Endpoint:** `https://api.groq.com/openai/v1/chat/completions`
-* **Autenticação:** Header `Authorization: Bearer ${GROQ_API_KEY}`
-* **Função:** `callGroq(systemPrompt, userPrompt, maxTokens)` em `api/_utils.ts`
-* **Controle de qualidade:** Parse de JSON com 4 estratégias de fallback (bloco ```json, parse direto, regex, erro descritivo).
+* **AutenticaÃ§Ã£o:** Header `Authorization: Bearer ${GROQ_API_KEY}`
+* **FunÃ§Ã£o:** `callGroq(systemPrompt, userPrompt, maxTokens)` em `api/_utils.ts`
+* **Controle de qualidade:** Parse de JSON com 4 estratÃ©gias de fallback (bloco ```json, parse direto, regex, erro descritivo).
 
 ### Firebase Client SDK
-* Autenticação Google e sincronização Firestore em tempo real no frontend.
+* AutenticaÃ§Ã£o Google e sincronizaÃ§Ã£o Firestore em tempo real no frontend.
 
 ### Firebase Admin SDK
-* Acesso server-side ao Firestore nas funções serverless Vercel (cache de IA e resultados).
+* Acesso server-side ao Firestore nas funÃ§Ãµes serverless Vercel (cache de IA e resultados).
 
-### Rotas Legadas (api/ai/ — não usadas pelo frontend ativo)
-* `api/ai/questions.ts`, `api/ai/essay-topic.ts`, `api/ai/grade-essay.ts` — usavam Gemini para módulo ENEM. Mantidas no repositório mas sem componentes frontend que as consomem.
+### Rotas Legadas (api/ai/ â€” nÃ£o usadas pelo frontend ativo)
+* `api/ai/questions.ts`, `api/ai/essay-topic.ts`, `api/ai/grade-essay.ts` â€” usavam Gemini para mÃ³dulo ENEM. Mantidas no repositÃ³rio mas sem componentes frontend que as consomem.
 
 ---
 
-## 7. AUTENTICAÇÃO E SEGURANÇA
+## 7. AUTENTICAÃ‡ÃƒO E SEGURANÃ‡A
 
 * **Login com Firebase Auth:** Login unificado e persistente via contas Google.
-* **Modo Offline Resiliente:** Se Firebase indisponível, o app carrega em modo offline com todas as funcionalidades ativas (LocalStorage).
-* **Segurança da Groq API Key:** A chave `GROQ_API_KEY` é configurada exclusivamente como variável de ambiente serverside na Vercel (Settings → Environment Variables). O frontend **não** acessa a chave diretamente. A RM2Configuracoes.tsx permite salvar um backup local (fallback), mas a chave principal é server-side.
+* **Modo Offline Resiliente:** Se Firebase indisponÃ­vel, o app carrega em modo offline com todas as funcionalidades ativas (LocalStorage).
+* **SeguranÃ§a da Groq API Key:** A chave `GROQ_API_KEY` Ã© configurada exclusivamente como variÃ¡vel de ambiente serverside na Vercel (Settings â†’ Environment Variables). O frontend **nÃ£o** acessa a chave diretamente. A RM2Configuracoes.tsx permite salvar um backup local (fallback), mas a chave principal Ã© server-side.
 
-⚠️ **ATENÇÃO:** O arquivo `server.ts` contém rotas do Express que expõem endpoints de IA. Este arquivo é para desenvolvimento local apenas e **não deve ser exposto publicamente**.
+âš ï¸� **ATENÃ‡ÃƒO:** O arquivo `server.ts` contÃ©m rotas do Express que expÃµem endpoints de IA. Este arquivo Ã© para desenvolvimento local apenas e **nÃ£o deve ser exposto publicamente**.
 
 ---
 
-## 8. REGRAS DE NEGÓCIO
+## 8. REGRAS DE NEGÃ“CIO
 
 * **Cache de IA (30 dias):**
   * ID normalizado: `assuntoId + "_" + tipo + "_" + nivel`.
-  * Antes de cada chamada à Groq, verifica cache no Firestore. Se `expiraEm > Date.now()`, serve o cache.
-  * Se não encontrar cache ou expirado, chama a Groq e salva por mais 30 dias.
+  * Antes de cada chamada Ã  Groq, verifica cache no Firestore. Se `expiraEm > Date.now()`, serve o cache.
+  * Se nÃ£o encontrar cache ou expirado, chama a Groq e salva por mais 30 dias.
   * Cache offline usa chave `enem_rm2_cache_{hash}` no LocalStorage.
 
-* **Cálculo de Resultado de Simulado:**
-  * Percorre todas as questões comparando `respostaUsuario` com `gabarito`.
+* **CÃ¡lculo de Resultado de Simulado:**
+  * Percorre todas as questÃµes comparando `respostaUsuario` com `gabarito`.
   * Calcula acertos/erros por assunto e percentual geral.
-  * Persiste resultado na coleção `rm2_resultados` do Firestore (quando disponível).
+  * Persiste resultado na coleÃ§Ã£o `rm2_resultados` do Firestore (quando disponÃ­vel).
 
 ---
 
 ## 9. FLUXO DO WHATSAPP
-*(Não aplicável a este projeto)*
+*(NÃ£o aplicÃ¡vel a este projeto)*
 
 ---
 
 ## 10. BUILD E DEPLOY
 
-### Compilação
-* **Frontend:** `vite build` → arquivos estáticos em `/dist`.
-* **Servidor local:** `esbuild server.ts` → `dist/server.cjs` (apenas para dev).
-* **Funções serverless:** Vercel compila automaticamente os arquivos `.ts` em `api/` durante o deploy.
+### CompilaÃ§Ã£o
+* **Frontend:** `vite build` â†’ arquivos estÃ¡ticos em `/dist`.
+* **Servidor local:** `esbuild server.ts` â†’ `dist/server.cjs` (apenas para dev).
+* **FunÃ§Ãµes serverless:** Vercel compila automaticamente os arquivos `.ts` em `api/` durante o deploy.
 
 ### Deploy na Vercel
-* Conectar repositório Git ao projeto Vercel.
-* Adicionar variável de ambiente: `GROQ_API_KEY` (Settings → Environment Variables).
+* Conectar repositÃ³rio Git ao projeto Vercel.
+* Adicionar variÃ¡vel de ambiente: `GROQ_API_KEY` (Settings â†’ Environment Variables).
 * Opcionalmente: `FIREBASE_SERVICE_ACCOUNT` para cache server-side no Firestore.
 * O `vercel.json` configura o roteamento: `/api/*` para serverless, `/*` para SPA.
 
 ### Resultado do Build (06/06/2026)
-* ✅ `tsc --noEmit` — zero erros TypeScript
-* ✅ `npm run build` — 2930 módulos transformados, zero erros
+* âœ… `tsc --noEmit` â€” zero erros TypeScript
+* âœ… `npm run build` â€” 2930 mÃ³dulos transformados, zero erros
 
 ---
 
 ## 11. PROBLEMAS RESOLVIDOS
 
-* **Tela preta se Firebase indisponível:** Resolvido com timeout e fallback offline no `AuthContext`.
-* **Erros de runtime na Vercel (`vercel.json`):** Removido o bloco `"functions"` com runtime sem versão. Vercel detecta automaticamente o `@vercel/node`.
-* **Falhas de geração com OpenRouter/Gemma:** Migrado para Groq API (llama3-70b-8192) — mais rápido, gratuito e confiável.
-* **Erro de firebase config:** `firebase.ts` atualizado com configuração real do projeto `estudoapp-8e89a` em vez do sandbox do AI Studio.
+* **Tela preta se Firebase indisponÃ­vel:** Resolvido com timeout e fallback offline no `AuthContext`.
+* **Erros de runtime na Vercel (`vercel.json`):** Removido o bloco `"functions"` com runtime sem versÃ£o. Vercel detecta automaticamente o `@vercel/node`.
+* **Falhas de geraÃ§Ã£o com OpenRouter/Gemma:** Migrado para Groq API (llama3-70b-8192) â€” mais rÃ¡pido, gratuito e confiÃ¡vel.
+* **Erro de firebase config:** `firebase.ts` atualizado com configuraÃ§Ã£o real do projeto `estudoapp-8e89a` em vez do sandbox do AI Studio.
 
 ---
 
-## 12. DÉBITOS TÉCNICOS
+## 12. DÃ‰BITOS TÃ‰CNICOS
 
-* **Pasta `api/ai/`:** Contém rotas Gemini do módulo ENEM que não são mais consumidas pelo frontend. Podem ser removidas em uma limpeza futura de repositório.
-* **Chunk size warning no build:** O bundle JS principal tem ~931 kB (gzip: ~249 kB). Recomenda-se implementar code splitting com `import()` dinâmico no futuro.
-* **Rate limiting ausente:** As rotas serverless não possuem limite de requisições por usuário/IP.
+* **Pasta `api/ai/`:** ContÃ©m rotas Gemini do mÃ³dulo ENEM que nÃ£o sÃ£o mais consumidas pelo frontend. Podem ser removidas em uma limpeza futura de repositÃ³rio.
+* **Chunk size warning no build:** O bundle JS principal tem ~931 kB (gzip: ~249 kB). Recomenda-se implementar code splitting com `import()` dinÃ¢mico no futuro.
+* **Rate limiting ausente:** As rotas serverless nÃ£o possuem limite de requisiÃ§Ãµes por usuÃ¡rio/IP.
 
 ---
 
@@ -232,111 +232,111 @@ O sistema funciona de duas maneiras:
 
 1. **Code Splitting:** Implementar carregamento lazy dos sub-componentes do RM2 para reduzir o bundle inicial.
 2. **Modo PWA:** Adicionar Service Worker para funcionamento offline completo com cache de assets.
-3. **Histórico de Teoria:** Tela para rever todas as teorias geradas anteriormente por assunto.
-4. **Notificações de Revisão:** Alertas espaçados por repetição espaçada (spaced repetition) para revisão de assuntos.
-5. **Remover `api/ai/`:** Deletar rotas legadas do ENEM após confirmar que não são mais necessárias.
+3. **HistÃ³rico de Teoria:** Tela para rever todas as teorias geradas anteriormente por assunto.
+4. **NotificaÃ§Ãµes de RevisÃ£o:** Alertas espaÃ§ados por repetiÃ§Ã£o espaÃ§ada (spaced repetition) para revisÃ£o de assuntos.
+5. **Remover `api/ai/`:** Deletar rotas legadas do ENEM apÃ³s confirmar que nÃ£o sÃ£o mais necessÃ¡rias.
 
 ---
 
-## 14. VARIÁVEIS DE AMBIENTE
+## 14. VARIÃ�VEIS DE AMBIENTE
 
-| Variável | Onde usar | Descrição |
+| VariÃ¡vel | Onde usar | DescriÃ§Ã£o |
 |---|---|---|
-| `GROQ_API_KEY` | Vercel (server-side) | Chave da API Groq — obtida em https://console.groq.com |
+| `GROQ_API_KEY` | Vercel (server-side) | Chave da API Groq â€” obtida em https://console.groq.com |
 | `FIREBASE_SERVICE_ACCOUNT` | Vercel (server-side, opcional) | JSON do Service Account do Firebase Admin para cache server-side |
-| `GEMINI_API_KEY` | Legado (`server.ts` dev) | Chave do Google AI Studio — apenas para rotas Express locais |
+| `GEMINI_API_KEY` | Legado (`server.ts` dev) | Chave do Google AI Studio â€” apenas para rotas Express locais |
 
-⚠️ **ATENÇÃO:** Nenhuma variável com `VITE_` é usada no projeto. As chaves de API são exclusivamente server-side (funções Vercel). Não expor `GROQ_API_KEY` no frontend.
+âš ï¸� **ATENÃ‡ÃƒO:** Nenhuma variÃ¡vel com `VITE_` Ã© usada no projeto. As chaves de API sÃ£o exclusivamente server-side (funÃ§Ãµes Vercel). NÃ£o expor `GROQ_API_KEY` no frontend.
 
 ---
 
-## REGISTRO DE ALTERAÇÕES (Task Log)
+## REGISTRO DE ALTERAÃ‡Ã•ES (Task Log)
 
-*(Partes 1–10 condensadas — ver histórico Git para detalhes de cada sessão)*
+*(Partes 1â€“10 condensadas â€” ver histÃ³rico Git para detalhes de cada sessÃ£o)*
 
-### Parte 11 — Remoção do Módulo ENEM e Migração para Groq API
-- **Data e hora:** 06/06/2026 às 09:49 (Horário Local)
-- **Sessão de referência:** Conversa c94d0d87 + 3fc44985
+### Parte 11 â€” RemoÃ§Ã£o do MÃ³dulo ENEM e MigraÃ§Ã£o para Groq API
+- **Data e hora:** 06/06/2026 Ã s 09:49 (HorÃ¡rio Local)
+- **SessÃ£o de referÃªncia:** Conversa c94d0d87 + 3fc44985
 - **O que foi feito:**
-  1. **App.tsx** — confirmado limpo: apenas abas `rm2` e `configuracoes`, sem qualquer import ou renderização de componentes ENEM (QuestoesIA, RedacaoIA, VisaoGeral, Cronograma, AgendaSemanal, Dicas, AtividadeFisica, Anotacoes).
-  2. **src/components/** — confirmado: apenas `Configuracoes.tsx` e `EstudoRM2.tsx` presentes. Nenhum arquivo de componente ENEM existe no diretório.
-  3. **src/lib/useData.tsx** — confirmado limpo: mantém apenas `notes` e `physicalActivities`. Sem coleções ENEM (essays, study_logs, aiQuestions, aiEssayTopics).
-  4. **api/_utils.ts** — migração `callOpenRouter → callGroq` confirmada: usa `https://api.groq.com/openai/v1/chat/completions` com modelo `llama3-70b-8192` e chave `GROQ_API_KEY`.
-  5. **api/rm2/*.ts** — todos os arquivos confirmados usando `callGroq` (teoria.ts, questoes.ts, simulacao.ts, generate.ts).
-  6. **.env** e **.env.example** — variável `GROQ_API_KEY` já presente com comentários adequados.
-  7. **src/components/rm2/RM2Configuracoes.tsx** — texto e links já referenciando "Groq API" e `https://console.groq.com`.
-  8. **src/components/Configuracoes.tsx** — corrigido texto "ENEM 2027" → "RM2 Marinha" no seletor de tema visual.
-  9. **Build final:** `tsc --noEmit` ✅ zero erros | `npm run build` ✅ 2930 módulos, zero erros.
-- **Arquivos modificados nesta sessão:**
-  - `src/components/Configuracoes.tsx` **[ATUALIZADO — texto de tema corrigido]**
+  1. **App.tsx** â€” confirmado limpo: apenas abas `rm2` e `configuracoes`, sem qualquer import ou renderizaÃ§Ã£o de componentes ENEM (QuestoesIA, RedacaoIA, VisaoGeral, Cronograma, AgendaSemanal, Dicas, AtividadeFisica, Anotacoes).
+  2. **src/components/** â€” confirmado: apenas `Configuracoes.tsx` e `EstudoRM2.tsx` presentes. Nenhum arquivo de componente ENEM existe no diretÃ³rio.
+  3. **src/lib/useData.tsx** â€” confirmado limpo: mantÃ©m apenas `notes` e `physicalActivities`. Sem coleÃ§Ãµes ENEM (essays, study_logs, aiQuestions, aiEssayTopics).
+  4. **api/_utils.ts** â€” migraÃ§Ã£o `callOpenRouter â†’ callGroq` confirmada: usa `https://api.groq.com/openai/v1/chat/completions` com modelo `llama3-70b-8192` e chave `GROQ_API_KEY`.
+  5. **api/rm2/*.ts** â€” todos os arquivos confirmados usando `callGroq` (teoria.ts, questoes.ts, simulacao.ts, generate.ts).
+  6. **.env** e **.env.example** â€” variÃ¡vel `GROQ_API_KEY` jÃ¡ presente com comentÃ¡rios adequados.
+  7. **src/components/rm2/RM2Configuracoes.tsx** â€” texto e links jÃ¡ referenciando "Groq API" e `https://console.groq.com`.
+  8. **src/components/Configuracoes.tsx** â€” corrigido texto "ENEM 2027" â†’ "RM2 Marinha" no seletor de tema visual.
+  9. **Build final:** `tsc --noEmit` âœ… zero erros | `npm run build` âœ… 2930 mÃ³dulos, zero erros.
+- **Arquivos modificados nesta sessÃ£o:**
+  - `src/components/Configuracoes.tsx` **[ATUALIZADO â€” texto de tema corrigido]**
   - `RESUMO_MESTRE.md` **[REFATORADO COMPLETAMENTE]**
 
-### Parte 11-B — Conteúdo Programático Atualizado com Apêndice V Oficial (2026)
-- **Data e hora:** 06/06/2026 às 10:12 (Horário Local)
-- **Fonte:** Apêndice V — Programa e Bibliografia para a Prova Objetiva do PSU RM2 2026 (Comando do 4° Distrito Naval)
+### Parte 11-B â€” ConteÃºdo ProgramÃ¡tico Atualizado com ApÃªndice V Oficial (2026)
+- **Data e hora:** 06/06/2026 Ã s 10:12 (HorÃ¡rio Local)
+- **Fonte:** ApÃªndice V â€” Programa e Bibliografia para a Prova Objetiva do PSU RM2 2026 (Comando do 4Â° Distrito Naval)
 - **O que foi feito:**
-  1. `rm2Conteudo.ts` atualizado com 28 tópicos distribuídos em 2 grandes áreas oficiais:
-     - Área 1: GRAMÁTICA (14 tópicos — gram-01 a gram-14)
-     - Área 2: COMPREENSÃO E INTERPRETAÇÃO DE TEXTO (14 tópicos — comp-01 a comp-14)
-  2. `RM2Cronograma.tsx` atualizado com plano de 13 semanas mapeado aos 28 tópicos oficiais.
-  3. Banner informativo atualizado com composição oficial da prova (40 questões × 2,5 pts, nota mínima 40 pts, banca CEBRASPE/CESPE, data da PO a consultar no Apêndice I).
+  1. `rm2Conteudo.ts` atualizado com 28 tÃ³picos distribuÃ­dos em 2 grandes Ã¡reas oficiais:
+     - Ã�rea 1: GRAMÃ�TICA (14 tÃ³picos â€” gram-01 a gram-14)
+     - Ã�rea 2: COMPREENSÃƒO E INTERPRETAÃ‡ÃƒO DE TEXTO (14 tÃ³picos â€” comp-01 a comp-14)
+  2. `RM2Cronograma.tsx` atualizado com plano de 13 semanas mapeado aos 28 tÃ³picos oficiais.
+  3. Banner informativo atualizado com composiÃ§Ã£o oficial da prova (40 questÃµes Ã— 2,5 pts, nota mÃ­nima 40 pts, banca CEBRASPE/CESPE, data da PO a consultar no ApÃªndice I).
 - **Bibliografia oficial registrada:**
-  - COSTA, Luiz Sergio Silveira. Manual de redação e estilo — Letras Marítimas, 2024.
-  - CUNHA & CINTRA. Nova gramática do português contemporâneo — Lexikon, 2017.
-  - HOUAISS & VILLAR. Dicionário Houaiss — Objetiva, 2009.
-  - KOCH & ELIAS. Ler e compreender os sentidos do texto — Contexto, 2008.
-  - FIORIN & SAVIOLI. Para entender o texto — Ática, 2007.
+  - COSTA, Luiz Sergio Silveira. Manual de redaÃ§Ã£o e estilo â€” Letras MarÃ­timas, 2024.
+  - CUNHA & CINTRA. Nova gramÃ¡tica do portuguÃªs contemporÃ¢neo â€” Lexikon, 2017.
+  - HOUAISS & VILLAR. DicionÃ¡rio Houaiss â€” Objetiva, 2009.
+  - KOCH & ELIAS. Ler e compreender os sentidos do texto â€” Contexto, 2008.
+  - FIORIN & SAVIOLI. Para entender o texto â€” Ã�tica, 2007.
 - **Arquivos modificados:**
-  - `src/data/rm2Conteudo.ts` **[ATUALIZADO — 28 tópicos oficiais]**
-  - `src/components/rm2/RM2Cronograma.tsx` **[ATUALIZADO — 13 semanas a partir de 08/06/2026]**
+  - `src/data/rm2Conteudo.ts` **[ATUALIZADO â€” 28 tÃ³picos oficiais]**
+  - `src/components/rm2/RM2Cronograma.tsx` **[ATUALIZADO â€” 13 semanas a partir de 08/06/2026]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 12 — Atualização do Conteúdo Programático e Cronograma RM2 (13 semanas)
-- **Data e hora:** 06/06/2026 às 10:03 (Horário Local)
-- **Sessão de referência:** Conversa c94d0d87
+### Parte 12 â€” AtualizaÃ§Ã£o do ConteÃºdo ProgramÃ¡tico e Cronograma RM2 (13 semanas)
+- **Data e hora:** 06/06/2026 Ã s 10:03 (HorÃ¡rio Local)
+- **SessÃ£o de referÃªncia:** Conversa c94d0d87
 - **O que foi feito:**
-  1. **`src/data/rm2Conteudo.ts`** — Substituído completamente com **7 áreas, 30 tópicos** de Língua Portuguesa (padrão histórico RM2, Aviso de Convocação nº 03/2025). Estrutura TypeScript idêntica à anterior:
-     - Área 1: Compreensão e Interpretação de Textos (8 tópicos)
-     - Área 2: Ortografia e Acentuação (3 tópicos)
-     - Área 3: Morfologia (4 tópicos)
-     - Área 4: Sintaxe (6 tópicos)
-     - Área 5: Semântica e Estilística (3 tópicos)
-     - Área 6: Pontuação e Paralelismo (3 tópicos)
-     - Área 7: Redação Oficial e Correspondência (3 tópicos)
-  2. **`src/components/rm2/RM2Cronograma.tsx`** — Reescrito com:
-     - **Banner informativo** no topo: data de início 08/06/2026, nota mínima 40/100 pontos (40 questões × 2,5 pts, 3h), campo de data da PO editável (salvo no localStorage), aviso sobre Apêndice V pendente e incorporação prevista 13/07/2026
-     - **Calendário visual de 13 semanas** (08/jun–06/set/2026) com cores por área e descrição dos tópicos de cada semana
-     - **Checklist de tópicos** por área com 4 fases atualizado para os novos IDs do rm2Conteudo.ts
-     - Distribuição: Sem 1–2 Interpretação, Sem 3–4 Ortografia+Morfologia, Sem 5–7 Sintaxe, Sem 8 Semântica, Sem 9 Pontuação, Sem 10 Redação Oficial, Sem 11–12 Revisão+Simulados, Sem 13 Simulado Final
-  3. **`.env.example`** — Sanitizado: removida chave Groq real exposta (`gsk_Xw7J...`). Substituída por placeholder `your_groq_api_key_here`. Adicionado campo `FIREBASE_SERVICE_ACCOUNT`.
-  4. **Build de validação:** `tsc --noEmit` ✅ zero erros | `npm run build` ✅ 2930 módulos, zero erros.
-- **⚠️ PENDENTE:** Receber Apêndice V do Edital 2026 para ajuste fino do conteúdo programático (Parte 3-B).
+  1. **`src/data/rm2Conteudo.ts`** â€” SubstituÃ­do completamente com **7 Ã¡reas, 30 tÃ³picos** de LÃ­ngua Portuguesa (padrÃ£o histÃ³rico RM2, Aviso de ConvocaÃ§Ã£o nÂº 03/2025). Estrutura TypeScript idÃªntica Ã  anterior:
+     - Ã�rea 1: CompreensÃ£o e InterpretaÃ§Ã£o de Textos (8 tÃ³picos)
+     - Ã�rea 2: Ortografia e AcentuaÃ§Ã£o (3 tÃ³picos)
+     - Ã�rea 3: Morfologia (4 tÃ³picos)
+     - Ã�rea 4: Sintaxe (6 tÃ³picos)
+     - Ã�rea 5: SemÃ¢ntica e EstilÃ­stica (3 tÃ³picos)
+     - Ã�rea 6: PontuaÃ§Ã£o e Paralelismo (3 tÃ³picos)
+     - Ã�rea 7: RedaÃ§Ã£o Oficial e CorrespondÃªncia (3 tÃ³picos)
+  2. **`src/components/rm2/RM2Cronograma.tsx`** â€” Reescrito com:
+     - **Banner informativo** no topo: data de inÃ­cio 08/06/2026, nota mÃ­nima 40/100 pontos (40 questÃµes Ã— 2,5 pts, 3h), campo de data da PO editÃ¡vel (salvo no localStorage), aviso sobre ApÃªndice V pendente e incorporaÃ§Ã£o prevista 13/07/2026
+     - **CalendÃ¡rio visual de 13 semanas** (08/junâ€“06/set/2026) com cores por Ã¡rea e descriÃ§Ã£o dos tÃ³picos de cada semana
+     - **Checklist de tÃ³picos** por Ã¡rea com 4 fases atualizado para os novos IDs do rm2Conteudo.ts
+     - DistribuiÃ§Ã£o: Sem 1â€“2 InterpretaÃ§Ã£o, Sem 3â€“4 Ortografia+Morfologia, Sem 5â€“7 Sintaxe, Sem 8 SemÃ¢ntica, Sem 9 PontuaÃ§Ã£o, Sem 10 RedaÃ§Ã£o Oficial, Sem 11â€“12 RevisÃ£o+Simulados, Sem 13 Simulado Final
+  3. **`.env.example`** â€” Sanitizado: removida chave Groq real exposta (`gsk_Xw7J...`). SubstituÃ­da por placeholder `your_groq_api_key_here`. Adicionado campo `FIREBASE_SERVICE_ACCOUNT`.
+  4. **Build de validaÃ§Ã£o:** `tsc --noEmit` âœ… zero erros | `npm run build` âœ… 2930 mÃ³dulos, zero erros.
+- **âš ï¸� PENDENTE:** Receber ApÃªndice V do Edital 2026 para ajuste fino do conteÃºdo programÃ¡tico (Parte 3-B).
 - **Arquivos modificados:**
-  - `src/data/rm2Conteudo.ts` **[SUBSTITUÍDO — 30 tópicos, 7 áreas, padrão histórico RM2]**
-  - `src/components/rm2/RM2Cronograma.tsx` **[REESCRITO — 13 semanas + banner informativo]**
-  - `.env.example` **[SANITIZADO — chave real removida]**
+  - `src/data/rm2Conteudo.ts` **[SUBSTITUÃ�DO â€” 30 tÃ³picos, 7 Ã¡reas, padrÃ£o histÃ³rico RM2]**
+  - `src/components/rm2/RM2Cronograma.tsx` **[REESCRITO â€” 13 semanas + banner informativo]**
+  - `.env.example` **[SANITIZADO â€” chave real removida]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
-- **Arquivos deletados do módulo ENEM (confirmados ausentes no repositório):**
-  - `src/components/QuestoesIA.tsx` ✅
-  - `src/components/RedacaoIA.tsx` ✅
-  - `src/components/VisaoGeral.tsx` ✅
-  - `src/components/Cronograma.tsx` ✅
-  - `src/components/AgendaSemanal.tsx` ✅
-  - `src/components/Dicas.tsx` ✅
-  - `src/components/AtividadeFisica.tsx` ✅
-  - `src/components/Anotacoes.tsx` ✅
+- **Arquivos deletados do mÃ³dulo ENEM (confirmados ausentes no repositÃ³rio):**
+  - `src/components/QuestoesIA.tsx` âœ…
+  - `src/components/RedacaoIA.tsx` âœ…
+  - `src/components/VisaoGeral.tsx` âœ…
+  - `src/components/Cronograma.tsx` âœ…
+  - `src/components/AgendaSemanal.tsx` âœ…
+  - `src/components/Dicas.tsx` âœ…
+  - `src/components/AtividadeFisica.tsx` âœ…
+  - `src/components/Anotacoes.tsx` âœ…
 
 ---
 
-### Parte 12 — Diagnóstico e Correção das Rotas de IA em Produção
-- **Data e hora:** 06/06/2026 às 10:26 (Horário Local)
+### Parte 12 â€” DiagnÃ³stico e CorreÃ§Ã£o das Rotas de IA em ProduÃ§Ã£o
+- **Data e hora:** 06/06/2026 Ã s 10:26 (HorÃ¡rio Local)
 - **O que foi feito:**
-  1. Curl de diagnóstico executado nas rotas `/api/rm2/teoria`, `/api/rm2/questoes` e `/api/rm2/generate`.
-  2. Cenário identificado: Cenário E (o modelo `llama3-70b-8192` foi desativado/decommissioned pela Groq).
-  3. Correção aplicada: Substituído o modelo Groq de `llama3-70b-8192` para o modelo ativo `llama-3.3-70b-versatile` e aumentado o limite de `max_tokens` para 8192 em `api/_utils.ts` e `api/rm2/generate.ts`.
-  4. Testes locais validados com sucesso: Teoria ✅ | Questões ✅ | Simulação ✅
+  1. Curl de diagnÃ³stico executado nas rotas `/api/rm2/teoria`, `/api/rm2/questoes` e `/api/rm2/generate`.
+  2. CenÃ¡rio identificado: CenÃ¡rio E (o modelo `llama3-70b-8192` foi desativado/decommissioned pela Groq).
+  3. CorreÃ§Ã£o aplicada: SubstituÃ­do o modelo Groq de `llama3-70b-8192` para o modelo ativo `llama-3.3-70b-versatile` e aumentado o limite de `max_tokens` para 8192 em `api/_utils.ts` e `api/rm2/generate.ts`.
+  4. Testes locais validados com sucesso: Teoria âœ… | QuestÃµes âœ… | SimulaÃ§Ã£o âœ…
 - **Arquivos modificados:**
   - `api/_utils.ts`
   - `api/rm2/generate.ts`
@@ -345,166 +345,166 @@ O sistema funciona de duas maneiras:
 
 ---
 
-### Parte 13 — Correção do Pipeline de Resposta das Rotas RM2
-- **Data e hora:** 06/06/2026 às 10:36 (Horário Local)
-- **Problema identificado:** `api/rm2/generate.ts` retornava o objeto bruto do Groq (formato OpenAI completo com `choices`, `usage`, etc.) em vez do JSON estruturado esperado pelo frontend. As rotas `teoria.ts`, `questoes.ts` e `simulacao.ts` chamavam `callGroq()` que retornava `any` e já parseava internamente, mas com lógica duplicada e frágil.
+### Parte 13 â€” CorreÃ§Ã£o do Pipeline de Resposta das Rotas RM2
+- **Data e hora:** 06/06/2026 Ã s 10:36 (HorÃ¡rio Local)
+- **Problema identificado:** `api/rm2/generate.ts` retornava o objeto bruto do Groq (formato OpenAI completo com `choices`, `usage`, etc.) em vez do JSON estruturado esperado pelo frontend. As rotas `teoria.ts`, `questoes.ts` e `simulacao.ts` chamavam `callGroq()` que retornava `any` e jÃ¡ parseava internamente, mas com lÃ³gica duplicada e frÃ¡gil.
 - **O que foi feito:**
-  1. **`api/_utils.ts`** — Alterada a assinatura de `callGroq` de `Promise<any>` para `Promise<string>`: agora retorna apenas `choices[0].message.content` como string bruta, sem parsear internamente. Adicionada e exportada a função `extractJSON(raw)` para sanitizar marcadores markdown e extrair o bloco JSON com regex.
-  2. **`api/rm2/generate.ts`** — Reescrito completamente: substituída a chamada direta à API Groq pela função centralizada `callGroq`. Aplicado `JSON.parse(extractJSON(raw))` e retornado `{ fonte: 'ia', conteudo: parsed }` para o frontend.
-  3. **`api/rm2/teoria.ts`** — Adicionado `extractJSON` ao import. Atualizado o fluxo para `raw = await callGroq(...)` seguido de `JSON.parse(extractJSON(raw))`.
-  4. **`api/rm2/questoes.ts`** — Mesma correção de teoria.ts.
-  5. **`api/rm2/simulacao.ts`** — Mesma correção de teoria.ts.
+  1. **`api/_utils.ts`** â€” Alterada a assinatura de `callGroq` de `Promise<any>` para `Promise<string>`: agora retorna apenas `choices[0].message.content` como string bruta, sem parsear internamente. Adicionada e exportada a funÃ§Ã£o `extractJSON(raw)` para sanitizar marcadores markdown e extrair o bloco JSON com regex.
+  2. **`api/rm2/generate.ts`** â€” Reescrito completamente: substituÃ­da a chamada direta Ã  API Groq pela funÃ§Ã£o centralizada `callGroq`. Aplicado `JSON.parse(extractJSON(raw))` e retornado `{ fonte: 'ia', conteudo: parsed }` para o frontend.
+  3. **`api/rm2/teoria.ts`** â€” Adicionado `extractJSON` ao import. Atualizado o fluxo para `raw = await callGroq(...)` seguido de `JSON.parse(extractJSON(raw))`.
+  4. **`api/rm2/questoes.ts`** â€” Mesma correÃ§Ã£o de teoria.ts.
+  5. **`api/rm2/simulacao.ts`** â€” Mesma correÃ§Ã£o de teoria.ts.
   6. **Testes locais re-executados** (3 rodadas devido ao rate limit TPM da conta gratuita Groq):
-     - Teoria: HTTP 200 ✅ | `{ fonte: 'ia', conteudo: { titulo, resumo, teoria, ... } }`
-     - Questões: HTTP 200 ✅ | `{ fonte: 'ia', conteudo: { questoes: [...] } }`
-     - Generate: HTTP 200 ✅ | `{ fonte: 'ia', conteudo: { resposta: 'Olá, tudo bem!' } }`
-  7. **Build de validação:** `tsc --noEmit` ✅ zero erros | `npm run build` ✅ 2930 módulos, zero erros.
-- **Commit:** `896840d` — *fix: corrige pipeline de resposta em generate.ts e valida extractJSON em todas as rotas RM2*
+     - Teoria: HTTP 200 âœ… | `{ fonte: 'ia', conteudo: { titulo, resumo, teoria, ... } }`
+     - QuestÃµes: HTTP 200 âœ… | `{ fonte: 'ia', conteudo: { questoes: [...] } }`
+     - Generate: HTTP 200 âœ… | `{ fonte: 'ia', conteudo: { resposta: 'OlÃ¡, tudo bem!' } }`
+  7. **Build de validaÃ§Ã£o:** `tsc --noEmit` âœ… zero erros | `npm run build` âœ… 2930 mÃ³dulos, zero erros.
+- **Commit:** `896840d` â€” *fix: corrige pipeline de resposta em generate.ts e valida extractJSON em todas as rotas RM2*
 - **Arquivos modificados:**
-  - `api/_utils.ts` [ATUALIZADO — callGroq retorna string; extractJSON adicionada]
-  - `api/rm2/generate.ts` [CORRIGIDO — pipeline de resposta via callGroq + extractJSON]
-  - `api/rm2/teoria.ts` [CORRIGIDO — extractJSON aplicado]
-  - `api/rm2/questoes.ts` [CORRIGIDO — extractJSON aplicado]
-  - `api/rm2/simulacao.ts` [CORRIGIDO — extractJSON aplicado]
+  - `api/_utils.ts` [ATUALIZADO â€” callGroq retorna string; extractJSON adicionada]
+  - `api/rm2/generate.ts` [CORRIGIDO â€” pipeline de resposta via callGroq + extractJSON]
+  - `api/rm2/teoria.ts` [CORRIGIDO â€” extractJSON aplicado]
+  - `api/rm2/questoes.ts` [CORRIGIDO â€” extractJSON aplicado]
+  - `api/rm2/simulacao.ts` [CORRIGIDO â€” extractJSON aplicado]
   - `RESUMO_MESTRE.md` [ATUALIZADO]
 
 ---
 
-### Parte 14 — Tratamento de Rate Limit e Erros de IA
-- **Data e hora:** 06/06/2026 às 10:47 (Horário Local)
-- **Motivação:** Rate limit da Groq (HTTP 429) identificado nos testes locais da Parte 13. Sem tratamento, erros apareciam como tela em branco ou mensagem genérica no frontend.
+### Parte 14 â€” Tratamento de Rate Limit e Erros de IA
+- **Data e hora:** 06/06/2026 Ã s 10:47 (HorÃ¡rio Local)
+- **MotivaÃ§Ã£o:** Rate limit da Groq (HTTP 429) identificado nos testes locais da Parte 13. Sem tratamento, erros apareciam como tela em branco ou mensagem genÃ©rica no frontend.
 - **O que foi feito:**
-  1. **`api/_utils.ts`** — `callGroq` agora classifica erros HTTP por tipo antes de lançar exceção:
-     - HTTP 429 → `throw new Error('RATE_LIMIT: ...')`
-     - HTTP 503/500 → `throw new Error('GROQ_UNAVAILABLE: ...')`
-     - Demais → `throw new Error('GROQ_ERROR_{status}: ...')`
-  2. **`api/rm2/teoria.ts`, `questoes.ts`, `simulacao.ts`, `generate.ts`** — Catch tipado em todos os handlers:
-     - `RATE_LIMIT` → HTTP 429 `{ erro: 'rate_limit', mensagem: '...' }`
-     - `GROQ_UNAVAILABLE` → HTTP 503 `{ erro: 'servico_indisponivel', mensagem: '...' }`
-     - Demais → HTTP 500 `{ erro: 'erro_interno', mensagem: '...' }`
-  3. **`src/components/rm2/RM2Teoria.tsx`** — Fetch atualizado: lê `data` antes de checar `response.ok`, mapeia HTTP 429 → '⏳ Muitas requisições...', HTTP 503 → '🔧 Serviço indisponível...', outros → `data.mensagem`.
-  4. **`src/components/rm2/RM2Questoes.tsx`** — Mesmo padrão aplicado.
-  5. **`src/components/rm2/RM2Simulacao.tsx`** — Mesmo padrão aplicado (rota `/api/rm2/simulacao`).
-  6. **Estados de loading confirmados** nos 3 componentes: `loading` state + `Loader2` já presentes e funcionais antes desta parte — nenhuma alteração necessária.
-  7. **Build de validação:** `tsc --noEmit` ✅ zero erros | `npm run build` ✅ 2930 módulos, zero erros.
-- **Commit:** `5a71a86` — *feat: tratamento de rate limit e erros de IA com feedback visual no frontend RM2*
+  1. **`api/_utils.ts`** â€” `callGroq` agora classifica erros HTTP por tipo antes de lanÃ§ar exceÃ§Ã£o:
+     - HTTP 429 â†’ `throw new Error('RATE_LIMIT: ...')`
+     - HTTP 503/500 â†’ `throw new Error('GROQ_UNAVAILABLE: ...')`
+     - Demais â†’ `throw new Error('GROQ_ERROR_{status}: ...')`
+  2. **`api/rm2/teoria.ts`, `questoes.ts`, `simulacao.ts`, `generate.ts`** â€” Catch tipado em todos os handlers:
+     - `RATE_LIMIT` â†’ HTTP 429 `{ erro: 'rate_limit', mensagem: '...' }`
+     - `GROQ_UNAVAILABLE` â†’ HTTP 503 `{ erro: 'servico_indisponivel', mensagem: '...' }`
+     - Demais â†’ HTTP 500 `{ erro: 'erro_interno', mensagem: '...' }`
+  3. **`src/components/rm2/RM2Teoria.tsx`** â€” Fetch atualizado: lÃª `data` antes de checar `response.ok`, mapeia HTTP 429 â†’ 'â�³ Muitas requisiÃ§Ãµes...', HTTP 503 â†’ 'ðŸ”§ ServiÃ§o indisponÃ­vel...', outros â†’ `data.mensagem`.
+  4. **`src/components/rm2/RM2Questoes.tsx`** â€” Mesmo padrÃ£o aplicado.
+  5. **`src/components/rm2/RM2Simulacao.tsx`** â€” Mesmo padrÃ£o aplicado (rota `/api/rm2/simulacao`).
+  6. **Estados de loading confirmados** nos 3 componentes: `loading` state + `Loader2` jÃ¡ presentes e funcionais antes desta parte â€” nenhuma alteraÃ§Ã£o necessÃ¡ria.
+  7. **Build de validaÃ§Ã£o:** `tsc --noEmit` âœ… zero erros | `npm run build` âœ… 2930 mÃ³dulos, zero erros.
+- **Commit:** `5a71a86` â€” *feat: tratamento de rate limit e erros de IA com feedback visual no frontend RM2*
 - **Arquivos modificados:**
-  - `api/_utils.ts` [ATUALIZADO — classificação de erros por tipo HTTP]
-  - `api/rm2/teoria.ts` [ATUALIZADO — catch tipado]
-  - `api/rm2/questoes.ts` [ATUALIZADO — catch tipado]
-  - `api/rm2/simulacao.ts` [ATUALIZADO — catch tipado]
-  - `api/rm2/generate.ts` [ATUALIZADO — catch tipado]
-  - `src/components/rm2/RM2Teoria.tsx` [ATUALIZADO — tratamento de erro por status HTTP]
-  - `src/components/rm2/RM2Questoes.tsx` [ATUALIZADO — tratamento de erro por status HTTP]
-  - `src/components/rm2/RM2Simulacao.tsx` [ATUALIZADO — tratamento de erro por status HTTP]
+  - `api/_utils.ts` [ATUALIZADO â€” classificaÃ§Ã£o de erros por tipo HTTP]
+  - `api/rm2/teoria.ts` [ATUALIZADO â€” catch tipado]
+  - `api/rm2/questoes.ts` [ATUALIZADO â€” catch tipado]
+  - `api/rm2/simulacao.ts` [ATUALIZADO â€” catch tipado]
+  - `api/rm2/generate.ts` [ATUALIZADO â€” catch tipado]
+  - `src/components/rm2/RM2Teoria.tsx` [ATUALIZADO â€” tratamento de erro por status HTTP]
+  - `src/components/rm2/RM2Questoes.tsx` [ATUALIZADO â€” tratamento de erro por status HTTP]
+  - `src/components/rm2/RM2Simulacao.tsx` [ATUALIZADO â€” tratamento de erro por status HTTP]
   - `RESUMO_MESTRE.md` [ATUALIZADO]
 
 ---
 
-### Parte 15 — Checagem Geral e Validação Final de Produção
-- **Data e hora:** 06/06/2026 às 11:00 (Horário Local)
-- **Status geral do projeto:** ✅ PRODUÇÃO VALIDADA
-- **Auditoria ENEM:** Itens residuais corrigidos (pasta `api/ai/` com rotas do ENEM removida do repositório; arquivo `server.ts` de desenvolvimento local limpo de referências a Gemini e OpenRouter, configurado para usar a API da Groq e apenas rotas do RM2)
-- **vercel.json:** Válido, contendo rewrites SPA e sem blocos functions/builds legados
+### Parte 15 â€” Checagem Geral e ValidaÃ§Ã£o Final de ProduÃ§Ã£o
+- **Data e hora:** 06/06/2026 Ã s 11:00 (HorÃ¡rio Local)
+- **Status geral do projeto:** âœ… PRODUÃ‡ÃƒO VALIDADA
+- **Auditoria ENEM:** Itens residuais corrigidos (pasta `api/ai/` com rotas do ENEM removida do repositÃ³rio; arquivo `server.ts` de desenvolvimento local limpo de referÃªncias a Gemini e OpenRouter, configurado para usar a API da Groq e apenas rotas do RM2)
+- **vercel.json:** VÃ¡lido, contendo rewrites SPA e sem blocos functions/builds legados
 - **Modelo de IA ativo:** llama-3.3-70b-versatile (Groq)
-- **Build final:** 2930 módulos, zero erros
+- **Build final:** 2930 mÃ³dulos, zero erros
 - **Partes executadas e registradas:** 1 a 15
-- **Repositório:** https://github.com/Marcos-MTSolar/EstudoApp.git
+- **RepositÃ³rio:** https://github.com/Marcos-MTSolar/EstudoApp.git
 - **Branch:** main
-- **Último commit:** ac9c016
-- **App em produção:** https://estudo-app-rm2.vercel.app
-- **Cronograma de estudos:** 08/06/2026 a 06/09/2026 — 13 semanas — 28 tópicos oficiais
-- **Prova Objetiva:** 40 questões de Língua Portuguesa × 2,5 pts — nota mínima 40/100
+- **Ãšltimo commit:** ac9c016
+- **App em produÃ§Ã£o:** https://estudo-app-rm2.vercel.app
+- **Cronograma de estudos:** 08/06/2026 a 06/09/2026 â€” 13 semanas â€” 28 tÃ³picos oficiais
+- **Prova Objetiva:** 40 questÃµes de LÃ­ngua Portuguesa Ã— 2,5 pts â€” nota mÃ­nima 40/100
 - **RESUMO_MESTRE.md [ATUALIZADO E SINCRONIZADO]**
 
 ---
 
-### Parte 16 — Correção de Crash nas Funções Serverless e Índice Firestore
-- **Data e hora:** 06/06/2026 às 11:22 (Horário Local)
+### Parte 16 â€” CorreÃ§Ã£o de Crash nas FunÃ§Ãµes Serverless e Ã�ndice Firestore
+- **Data e hora:** 06/06/2026 Ã s 11:22 (HorÃ¡rio Local)
 - **Problema 1:** Rotas `/api/rm2/*` retornando HTTP 500 com texto puro.
-  - **Causa raiz:** Firebase Admin crashando na inicialização por ausência de `FIREBASE_SERVICE_ACCOUNT` na Vercel, derrubando a função antes do `try/catch` das rotas.
-- **Solução:** Inicialização defensiva do Firebase Admin em `api/_utils.ts` via função `getFirestoreDb()` com `try/catch` completo. Cache Firestore agora é **opcional** — se indisponível, as rotas continuam funcionando e chamam a Groq diretamente.
-- **Problema 2:** `FirebaseError` na coleção `rm2_resultados` exigindo índice composto.
-  - **Solução:** Índice a ser criado manualmente no console do Firebase via link do erro (quando surgir em produção).
+  - **Causa raiz:** Firebase Admin crashando na inicializaÃ§Ã£o por ausÃªncia de `FIREBASE_SERVICE_ACCOUNT` na Vercel, derrubando a funÃ§Ã£o antes do `try/catch` das rotas.
+- **SoluÃ§Ã£o:** InicializaÃ§Ã£o defensiva do Firebase Admin em `api/_utils.ts` via funÃ§Ã£o `getFirestoreDb()` com `try/catch` completo. Cache Firestore agora Ã© **opcional** â€” se indisponÃ­vel, as rotas continuam funcionando e chamam a Groq diretamente.
+- **Problema 2:** `FirebaseError` na coleÃ§Ã£o `rm2_resultados` exigindo Ã­ndice composto.
+  - **SoluÃ§Ã£o:** Ã�ndice a ser criado manualmente no console do Firebase via link do erro (quando surgir em produÃ§Ã£o).
 - **O que foi feito em `api/_utils.ts`:**
-  1. Substituída a importação fracionada (`initializeApp, getApps, cert`) pelo `import * as admin from 'firebase-admin'`.
-  2. Criada função `getFirestoreDb()` com inicialização lazy, singleton e totalmente defensiva (`try/catch`):
-     - Se `FIREBASE_SERVICE_ACCOUNT` não estiver configurada → loga aviso e retorna `null`.
-     - Se a inicialização falhar → loga erro e retorna `null`.
+  1. SubstituÃ­da a importaÃ§Ã£o fracionada (`initializeApp, getApps, cert`) pelo `import * as admin from 'firebase-admin'`.
+  2. Criada funÃ§Ã£o `getFirestoreDb()` com inicializaÃ§Ã£o lazy, singleton e totalmente defensiva (`try/catch`):
+     - Se `FIREBASE_SERVICE_ACCOUNT` nÃ£o estiver configurada â†’ loga aviso e retorna `null`.
+     - Se a inicializaÃ§Ã£o falhar â†’ loga erro e retorna `null`.
   3. `getCache` e `saveCache` reescritos usando `getFirestoreDb()` com logs de erro estruturados.
-  4. Mantido `getAdminDb()` como wrapper (compatível com `resultado.ts` que o importa diretamente).
-- **Verificação:**
-  - `resultado.ts` usa `getAdminDb` de `../_utils` — sem importação direta do Firebase Admin ✅
-  - `teoria.ts`, `questoes.ts`, `simulacao.ts`, `generate.ts` — sem importação direta do Firebase Admin ✅
-  - `tsc --noEmit` ✅ zero erros | `npm run build` ✅ 2930 módulos, zero erros
-- **Commit:** `c02b5a8` — *fix: inicializacao defensiva do Firebase Admin para evitar crash nas funcoes serverless*
+  4. Mantido `getAdminDb()` como wrapper (compatÃ­vel com `resultado.ts` que o importa diretamente).
+- **VerificaÃ§Ã£o:**
+  - `resultado.ts` usa `getAdminDb` de `../_utils` â€” sem importaÃ§Ã£o direta do Firebase Admin âœ…
+  - `teoria.ts`, `questoes.ts`, `simulacao.ts`, `generate.ts` â€” sem importaÃ§Ã£o direta do Firebase Admin âœ…
+  - `tsc --noEmit` âœ… zero erros | `npm run build` âœ… 2930 mÃ³dulos, zero erros
+- **Commit:** `c02b5a8` â€” *fix: inicializacao defensiva do Firebase Admin para evitar crash nas funcoes serverless*
 - **Arquivos modificados:**
-  - `api/_utils.ts` [CORRIGIDO — inicialização defensiva do Firebase Admin]
+  - `api/_utils.ts` [CORRIGIDO â€” inicializaÃ§Ã£o defensiva do Firebase Admin]
   - `RESUMO_MESTRE.md` [ATUALIZADO]
 
 ---
 
-### Parte 18 — Correção dos Imports ESM nas Funções Serverless
-- **Data e hora:** 06/06/2026 às 11:36 (Horário Local)
-- **Causa raiz confirmada:** `package.json` declara `"type": "module"` → projeto é ESM puro. Node.js ESM **exige extensão `.js` explícita** nos imports relativos. O import `from "../_utils"` sem extensão causa `ERR_MODULE_NOT_FOUND` em runtime na Vercel.
-- **Diagnóstico dos arquivos de configuração:**
-  - `package.json` → `"type": "module"` ✅ (ESM confirmado — extensão obrigatória)
-  - `tsconfig.json` → `"moduleResolution": "bundler"`, `"module": "ESNext"` — **não alterado** (já correto)
-  - `vercel.json` → Inicialmente foi adicionado o bloco `functions` com `nodejs20.x`, porém a Vercel falhou no build com `Function Runtimes must have a valid version`. O bloco foi removido e revertido para as regras simples de `rewrites`, visto que a Vercel detecta e compila arquivos `.ts` automaticamente.
-- **Solução:** Extensão `.js` adicionada nos imports de `../_utils` em todos os 5 arquivos de `api/rm2/`:
-  - `teoria.ts` → `from '../_utils.js'` ✅
-  - `questoes.ts` → `from '../_utils.js'` ✅
-  - `simulacao.ts` → `from '../_utils.js'` ✅
-  - `resultado.ts` → `from '../_utils.js'` ✅
-  - `generate.ts` → `from '../_utils.js'` ✅
-- **Build de validação:** `tsc --noEmit` ✅ zero erros | `npm run build` ✅ 2930 módulos, zero erros
-- **Commit:** `c42079c` — *fix: remove bloco functions invalido do vercel.json — Vercel detecta TS automaticamente*
+### Parte 18 â€” CorreÃ§Ã£o dos Imports ESM nas FunÃ§Ãµes Serverless
+- **Data e hora:** 06/06/2026 Ã s 11:36 (HorÃ¡rio Local)
+- **Causa raiz confirmada:** `package.json` declara `"type": "module"` â†’ projeto Ã© ESM puro. Node.js ESM **exige extensÃ£o `.js` explÃ­cita** nos imports relativos. O import `from "../_utils"` sem extensÃ£o causa `ERR_MODULE_NOT_FOUND` em runtime na Vercel.
+- **DiagnÃ³stico dos arquivos de configuraÃ§Ã£o:**
+  - `package.json` â†’ `"type": "module"` âœ… (ESM confirmado â€” extensÃ£o obrigatÃ³ria)
+  - `tsconfig.json` â†’ `"moduleResolution": "bundler"`, `"module": "ESNext"` â€” **nÃ£o alterado** (jÃ¡ correto)
+  - `vercel.json` â†’ Inicialmente foi adicionado o bloco `functions` com `nodejs20.x`, porÃ©m a Vercel falhou no build com `Function Runtimes must have a valid version`. O bloco foi removido e revertido para as regras simples de `rewrites`, visto que a Vercel detecta e compila arquivos `.ts` automaticamente.
+- **SoluÃ§Ã£o:** ExtensÃ£o `.js` adicionada nos imports de `../_utils` em todos os 5 arquivos de `api/rm2/`:
+  - `teoria.ts` â†’ `from '../_utils.js'` âœ…
+  - `questoes.ts` â†’ `from '../_utils.js'` âœ…
+  - `simulacao.ts` â†’ `from '../_utils.js'` âœ…
+  - `resultado.ts` â†’ `from '../_utils.js'` âœ…
+  - `generate.ts` â†’ `from '../_utils.js'` âœ…
+- **Build de validaÃ§Ã£o:** `tsc --noEmit` âœ… zero erros | `npm run build` âœ… 2930 mÃ³dulos, zero erros
+- **Commit:** `c42079c` â€” *fix: remove bloco functions invalido do vercel.json â€” Vercel detecta TS automaticamente*
 - **Arquivos modificados:**
-  - `api/rm2/teoria.ts` [CORRIGIDO — import com .js]
-  - `api/rm2/questoes.ts` [CORRIGIDO — import com .js]
-  - `api/rm2/simulacao.ts` [CORRIGIDO — import com .js]
-  - `api/rm2/resultado.ts` [CORRIGIDO — import com .js]
-  - `api/rm2/generate.ts` [CORRIGIDO — import com .js]
-  - `vercel.json` [REVERTIDO — removido bloco functions]
+  - `api/rm2/teoria.ts` [CORRIGIDO â€” import com .js]
+  - `api/rm2/questoes.ts` [CORRIGIDO â€” import com .js]
+  - `api/rm2/simulacao.ts` [CORRIGIDO â€” import com .js]
+  - `api/rm2/resultado.ts` [CORRIGIDO â€” import com .js]
+  - `api/rm2/generate.ts` [CORRIGIDO â€” import com .js]
+  - `vercel.json` [REVERTIDO â€” removido bloco functions]
   - `RESUMO_MESTRE.md` [ATUALIZADO]
 
 ---
 
-### Parte 19 — Marcação de Teoria, Resumo por IA e Correção do Progresso
-- **Data e hora:** 06/06/2026 às 11:51 (Horário Local)
+### Parte 19 â€” MarcaÃ§Ã£o de Teoria, Resumo por IA e CorreÃ§Ã£o do Progresso
+- **Data e hora:** 06/06/2026 Ã s 11:51 (HorÃ¡rio Local)
 - **O que foi feito:**
   1. **RM2Teoria.tsx:**
-     - Adicionado o botão "Marcar como Concluída" (ícone `CheckCircle`) exibido quando a teoria é carregada.
-     - Persistência imediata via `marcarTeoriaVista(assunto.id, nivel)` e exibição de feedback visual temporário "Progresso salvo!".
-     - Inicialização reativa do estado do botão baseada no status anterior do assunto (`getProgressoAssunto(assunto.id)?.teoriaVista`).
-     - Adicionada a seção colapsável "Resumo Rápido para Revisão" (ícone `FileText`), que exibe o resumo já presente nos dados do assunto ou faz uma chamada POST para `/api/rm2/teoria` passando `modo: 'resumo'`.
+     - Adicionado o botÃ£o "Marcar como ConcluÃ­da" (Ã­cone `CheckCircle`) exibido quando a teoria Ã© carregada.
+     - PersistÃªncia imediata via `marcarTeoriaVista(assunto.id, nivel)` e exibiÃ§Ã£o de feedback visual temporÃ¡rio "Progresso salvo!".
+     - InicializaÃ§Ã£o reativa do estado do botÃ£o baseada no status anterior do assunto (`getProgressoAssunto(assunto.id)?.teoriaVista`).
+     - Adicionada a seÃ§Ã£o colapsÃ¡vel "Resumo RÃ¡pido para RevisÃ£o" (Ã­cone `FileText`), que exibe o resumo jÃ¡ presente nos dados do assunto ou faz uma chamada POST para `/api/rm2/teoria` passando `modo: 'resumo'`.
   2. **useRM2Data.ts:**
-     - A função `marcarTeoriaVista` foi atualizada para aceitar o parâmetro opcional `nivel` e atualizar `nivelAtual` no progresso.
-     - Atualizada a regra de conclusão de tópicos (`concluido`): agora exige que a teoria tenha sido vista (`teoriaVista === true`) **E** que o último acerto em questões seja superior ou igual a 60% (`ultimoAcerto >= 60`), servindo como critério unificado para atualização de progresso tanto na marcação de teoria quanto na resolução de questões.
+     - A funÃ§Ã£o `marcarTeoriaVista` foi atualizada para aceitar o parÃ¢metro opcional `nivel` e atualizar `nivelAtual` no progresso.
+     - Atualizada a regra de conclusÃ£o de tÃ³picos (`concluido`): agora exige que a teoria tenha sido vista (`teoriaVista === true`) **E** que o Ãºltimo acerto em questÃµes seja superior ou igual a 60% (`ultimoAcerto >= 60`), servindo como critÃ©rio unificado para atualizaÃ§Ã£o de progresso tanto na marcaÃ§Ã£o de teoria quanto na resoluÃ§Ã£o de questÃµes.
   3. **RM2Progresso.tsx:**
-     - Confirmado que o componente consome o progresso reativo e unificado fornecido pelo hook `useRM2Data`, refletindo as mudanças de progresso sem dessincronização.
-- **Build de validação:** `tsc --noEmit` ✅ zero erros | `npm run build` ✅ 2930 módulos, zero erros
-- **Commit:** `cb7fb25` — *feat: botao marcar teoria concluida, resumo por IA e correcao do tracker de progresso*
+     - Confirmado que o componente consome o progresso reativo e unificado fornecido pelo hook `useRM2Data`, refletindo as mudanÃ§as de progresso sem dessincronizaÃ§Ã£o.
+- **Build de validaÃ§Ã£o:** `tsc --noEmit` âœ… zero erros | `npm run build` âœ… 2930 mÃ³dulos, zero erros
+- **Commit:** `cb7fb25` â€” *feat: botao marcar teoria concluida, resumo por IA e correcao do tracker de progresso*
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Teoria.tsx` [CORRIGIDO/ATUALIZADO]
   - `src/lib/useRM2Data.ts` [CORRIGIDO/ATUALIZADO]
-  - `src/components/rm2/RM2Progresso.tsx` [VERIFICADO — leitura via hook com threshold corrigido no hook]
+  - `src/components/rm2/RM2Progresso.tsx` [VERIFICADO â€” leitura via hook com threshold corrigido no hook]
   - `RESUMO_MESTRE.md` [ATUALIZADO]
 
 ---
 
-### Parte 20 — Migração para Conteúdos Estáticos JSON (RM2 Marinha)
-- **Data e hora:** 06/06/2026 às 13:00 (Horário Local)
-- **Sessão de referência:** Conversa 4b91038e
+### Parte 20 â€” MigraÃ§Ã£o para ConteÃºdos EstÃ¡ticos JSON (RM2 Marinha)
+- **Data e hora:** 06/06/2026 Ã s 13:00 (HorÃ¡rio Local)
+- **SessÃ£o de referÃªncia:** Conversa 4b91038e
 - **O que foi feito:**
-  1. **tsconfig.json** — Adicionada a opção `"resolveJsonModule": true` dentro de `compilerOptions` para suportar importações diretas de JSON.
-  2. **src/data/conteudo/** — Criada a pasta para os arquivos JSON com um arquivo de ancoragem `.gitkeep`.
-  3. **src/data/conteudoIndex.ts** — Criado o indexador central de conteúdos com as assinaturas `getConteudo` e `getIdsDisponiveis`.
-  4. **src/components/rm2/RM2Teoria.tsx** — Removido o fetch para `/api/rm2/teoria` e integrada a busca de teoria diretamente de `getConteudo`. O resumo rápido agora é processado localmente a partir dos dados estáticos, evitando chamadas à rede.
-  5. **src/components/rm2/RM2Questoes.tsx** — Removido o fetch para `/api/rm2/questoes` e integrada a busca de questões de `getConteudo`. Filtragem de nível e quantidade ajustados localmente com `slice`.
-  6. **src/components/rm2/RM2Simulacao.tsx** — Removido o fetch para `/api/rm2/simulacao` e integrado o carregamento concorrente de questões do simulado de todos os tópicos disponíveis no indexador. Mantida a lógica de embaralhamento e limite de questões, garantindo o início do simulado com `setStarted(true)`.
-  7. **api/rm2/** — Desativadas as rotas do Vercel `teoria.ts`, `questoes.ts`, `simulacao.ts` e `generate.ts` comentando a primeira linha com o cabeçalho de migração estática.
-  8. **Build de validação:** `tsc --noEmit` executado com sucesso e zero erros de compilação.
+  1. **tsconfig.json** â€” Adicionada a opÃ§Ã£o `"resolveJsonModule": true` dentro de `compilerOptions` para suportar importaÃ§Ãµes diretas de JSON.
+  2. **src/data/conteudo/** â€” Criada a pasta para os arquivos JSON com um arquivo de ancoragem `.gitkeep`.
+  3. **src/data/conteudoIndex.ts** â€” Criado o indexador central de conteÃºdos com as assinaturas `getConteudo` e `getIdsDisponiveis`.
+  4. **src/components/rm2/RM2Teoria.tsx** â€” Removido o fetch para `/api/rm2/teoria` e integrada a busca de teoria diretamente de `getConteudo`. O resumo rÃ¡pido agora Ã© processado localmente a partir dos dados estÃ¡ticos, evitando chamadas Ã  rede.
+  5. **src/components/rm2/RM2Questoes.tsx** â€” Removido o fetch para `/api/rm2/questoes` e integrada a busca de questÃµes de `getConteudo`. Filtragem de nÃ­vel e quantidade ajustados localmente com `slice`.
+  6. **src/components/rm2/RM2Simulacao.tsx** â€” Removido o fetch para `/api/rm2/simulacao` e integrado o carregamento concorrente de questÃµes do simulado de todos os tÃ³picos disponÃ­veis no indexador. Mantida a lÃ³gica de embaralhamento e limite de questÃµes, garantindo o inÃ­cio do simulado com `setStarted(true)`.
+  7. **api/rm2/** â€” Desativadas as rotas do Vercel `teoria.ts`, `questoes.ts`, `simulacao.ts` e `generate.ts` comentando a primeira linha com o cabeÃ§alho de migraÃ§Ã£o estÃ¡tica.
+  8. **Build de validaÃ§Ã£o:** `tsc --noEmit` executado com sucesso e zero erros de compilaÃ§Ã£o.
 - **Arquivos modificados:**
   - `tsconfig.json` **[ATUALIZADO]**
   - `src/data/conteudo/.gitkeep` **[NOVO]**
@@ -520,82 +520,82 @@ O sistema funciona de duas maneiras:
 
 ---
 
-### Parte 21 — Registro do Conteúdo Estático de Gramática (gram-01) e Build
-- **Data e hora:** 06/06/2026 às 13:10 (Horário Local)
-- **Sessão de referência:** Conversa 4b91038e
+### Parte 21 â€” Registro do ConteÃºdo EstÃ¡tico de GramÃ¡tica (gram-01) e Build
+- **Data e hora:** 06/06/2026 Ã s 13:10 (HorÃ¡rio Local)
+- **SessÃ£o de referÃªncia:** Conversa 4b91038e
 - **O que foi feito:**
-  1. **src/data/conteudoIndex.ts** — Registrada a importação dinâmica do arquivo `gram-01.json` dentro do objeto `modulos`.
-  2. **Validação de tipos** — Executado `npx tsc --noEmit` apresentando zero erros.
-  3. **Build de Produção** — Executado `npm run build` com sucesso, compilando 2933 módulos. O Vite separou o arquivo `gram-01.json` em um chunk separado (`dist/assets/gram-01-SDIF3ngQ.js`), validando nossa estratégia de code splitting dinâmico.
+  1. **src/data/conteudoIndex.ts** â€” Registrada a importaÃ§Ã£o dinÃ¢mica do arquivo `gram-01.json` dentro do objeto `modulos`.
+  2. **ValidaÃ§Ã£o de tipos** â€” Executado `npx tsc --noEmit` apresentando zero erros.
+  3. **Build de ProduÃ§Ã£o** â€” Executado `npm run build` com sucesso, compilando 2933 mÃ³dulos. O Vite separou o arquivo `gram-01.json` em um chunk separado (`dist/assets/gram-01-SDIF3ngQ.js`), validando nossa estratÃ©gia de code splitting dinÃ¢mico.
 - **Arquivos modificados:**
   - `src/data/conteudoIndex.ts` **[ATUALIZADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 22 — Correção do React Minified Error #31 (objeto renderizado no JSX)
-- **Data e hora:** 07/06/2026 às 06:21 (Horário Local)
-- **Causa raiz:** Após a migração para JSON estático (Parte 20), o componente `RM2Teoria.tsx` tentava renderizar campos com tipos incompatíveis:
-  - `teoriaData.teoria` era um **objeto** `{ blocos: [...] }` sendo renderizado como `string` → Error #31
-  - `teoriaData.pegadinhas` era um **array de objetos** `{titulo, errado, correto, explicacao}` sendo iterado como `string[]` → Error #31
-  - Campos `regras`, `exemplos` e `dicaProva` não existem na raiz do JSON → `undefined` em condições sem optional chaining
+### Parte 22 â€” CorreÃ§Ã£o do React Minified Error #31 (objeto renderizado no JSX)
+- **Data e hora:** 07/06/2026 Ã s 06:21 (HorÃ¡rio Local)
+- **Causa raiz:** ApÃ³s a migraÃ§Ã£o para JSON estÃ¡tico (Parte 20), o componente `RM2Teoria.tsx` tentava renderizar campos com tipos incompatÃ­veis:
+  - `teoriaData.teoria` era um **objeto** `{ blocos: [...] }` sendo renderizado como `string` â†’ Error #31
+  - `teoriaData.pegadinhas` era um **array de objetos** `{titulo, errado, correto, explicacao}` sendo iterado como `string[]` â†’ Error #31
+  - Campos `regras`, `exemplos` e `dicaProva` nÃ£o existem na raiz do JSON â†’ `undefined` em condiÃ§Ãµes sem optional chaining
 - **O que foi feito:**
-  1. **Correção 1 — `teoriaData.teoria`:** Substituída a renderização direta pela iteração sobre `teoriaData.teoria?.blocos?.map()`. Cada bloco exibe `subtitulo`, `conteudo`, `regra` (borda azul esquerda) e `exemplos` em lista.
-  2. **Correção 2 — `teoriaData.regras`:** Condição trocada para optional chaining `?.length > 0`.
-  3. **Correção 3 — `teoriaData.exemplos`:** Mesma correção com optional chaining.
-  4. **Correção 4 — `teoriaData.dicaProva`:** Bloco condicional simples — campo ausente resulta em `undefined` → seguro.
-  5. **Correção 5 — `teoriaData.pegadinhas`:** Render inteligente: `typeof peg === 'string'` exibe `<p>`, caso contrário exibe estrutura com `titulo`, `errado`, `correto` e `explicacao`.
-  6. **Correção 6 — `teoriaData.cascas_de_banana`:** Adicionada seção "⚠️ Cascas de Banana" iterando `situacao` + `dica`.
-- **Validação:**
-  - `tsc --noEmit` ✅ zero erros TypeScript
-  - `npm run build` ✅ 2933 módulos transformados, zero erros de build
+  1. **CorreÃ§Ã£o 1 â€” `teoriaData.teoria`:** SubstituÃ­da a renderizaÃ§Ã£o direta pela iteraÃ§Ã£o sobre `teoriaData.teoria?.blocos?.map()`. Cada bloco exibe `subtitulo`, `conteudo`, `regra` (borda azul esquerda) e `exemplos` em lista.
+  2. **CorreÃ§Ã£o 2 â€” `teoriaData.regras`:** CondiÃ§Ã£o trocada para optional chaining `?.length > 0`.
+  3. **CorreÃ§Ã£o 3 â€” `teoriaData.exemplos`:** Mesma correÃ§Ã£o com optional chaining.
+  4. **CorreÃ§Ã£o 4 â€” `teoriaData.dicaProva`:** Bloco condicional simples â€” campo ausente resulta em `undefined` â†’ seguro.
+  5. **CorreÃ§Ã£o 5 â€” `teoriaData.pegadinhas`:** Render inteligente: `typeof peg === 'string'` exibe `<p>`, caso contrÃ¡rio exibe estrutura com `titulo`, `errado`, `correto` e `explicacao`.
+  6. **CorreÃ§Ã£o 6 â€” `teoriaData.cascas_de_banana`:** Adicionada seÃ§Ã£o "âš ï¸� Cascas de Banana" iterando `situacao` + `dica`.
+- **ValidaÃ§Ã£o:**
+  - `tsc --noEmit` âœ… zero erros TypeScript
+  - `npm run build` âœ… 2933 mÃ³dulos transformados, zero erros de build
 - **Arquivos modificados:**
-  - `src/components/rm2/RM2Teoria.tsx` **[CORRIGIDO — Error #31 eliminado]**
+  - `src/components/rm2/RM2Teoria.tsx` **[CORRIGIDO â€” Error #31 eliminado]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 23 — Conteúdo progressivo por nível e resumo estático corrigido
-- **Data e hora:** 07/06/2026 às 06:34 (Horário Local)
+### Parte 23 â€” ConteÃºdo progressivo por nÃ­vel e resumo estÃ¡tico corrigido
+- **Data e hora:** 07/06/2026 Ã s 06:34 (HorÃ¡rio Local)
 - **O que foi feito:**
 
-  **Correção 1 — Conteúdo progressivo por nível (`RM2Teoria.tsx`):**
-  - Blocos de teoria, pegadinhas e cascas de banana agora são fatiados com `slice(0, quantidade)` conforme o nível selecionado:
+  **CorreÃ§Ã£o 1 â€” ConteÃºdo progressivo por nÃ­vel (`RM2Teoria.tsx`):**
+  - Blocos de teoria, pegadinhas e cascas de banana agora sÃ£o fatiados com `slice(0, quantidade)` conforme o nÃ­vel selecionado:
 
-    | Seção | Básico | Intermediário | Avançado |
+    | SeÃ§Ã£o | BÃ¡sico | IntermediÃ¡rio | AvanÃ§ado |
     |---|---|---|---|
     | Blocos de teoria | 2 | 4 | todos |
     | Pegadinhas | 2 | 3 | todas |
     | Cascas de banana | 1 | 2 | todas |
 
-  - Implementado via IIFE `(() => { ... })()` em cada bloco de renderização, mantendo a lógica de filtragem isolada sem criar componentes extras.
+  - Implementado via IIFE `(() => { ... })()` em cada bloco de renderizaÃ§Ã£o, mantendo a lÃ³gica de filtragem isolada sem criar componentes extras.
 
-  **Correção 2 — Resumo rápido abre e fecha corretamente:**
-  - **Causa raiz:** `setResumo(null)` dentro do `useEffect` de carregamento resetava o estado de exibição do resumo a cada re-render, fazendo o painel fechar imediatamente após abrir.
-  - **Solução:** Substituído o estado `const [resumo, setResumo] = useState<string | null>(null)` pelo booleano independente `const [mostrarResumo, setMostrarResumo] = useState(false)`, que **não é resetado** pelo useEffect de carregamento.
-  - `handleGerarResumo` simplificado para `setMostrarResumo(prev => !prev)` (padrão funcional — sem closure stale).
-  - O conteúdo do resumo é lido diretamente de `teoriaData.resumo` do JSON estático — sem nenhuma chamada à API Groq.
+  **CorreÃ§Ã£o 2 â€” Resumo rÃ¡pido abre e fecha corretamente:**
+  - **Causa raiz:** `setResumo(null)` dentro do `useEffect` de carregamento resetava o estado de exibiÃ§Ã£o do resumo a cada re-render, fazendo o painel fechar imediatamente apÃ³s abrir.
+  - **SoluÃ§Ã£o:** SubstituÃ­do o estado `const [resumo, setResumo] = useState<string | null>(null)` pelo booleano independente `const [mostrarResumo, setMostrarResumo] = useState(false)`, que **nÃ£o Ã© resetado** pelo useEffect de carregamento.
+  - `handleGerarResumo` simplificado para `setMostrarResumo(prev => !prev)` (padrÃ£o funcional â€” sem closure stale).
+  - O conteÃºdo do resumo Ã© lido diretamente de `teoriaData.resumo` do JSON estÃ¡tico â€” sem nenhuma chamada Ã  API Groq.
   - Removidos os estados e imports obsoletos: `gerandoResumo`, `Sparkles`, `BookOpen`.
 
-- **Validação:**
-  - `tsc --noEmit` ✅ zero erros TypeScript
-  - `npm run build` ✅ 2933 módulos transformados, zero erros
+- **ValidaÃ§Ã£o:**
+  - `tsc --noEmit` âœ… zero erros TypeScript
+  - `npm run build` âœ… 2933 mÃ³dulos transformados, zero erros
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Teoria.tsx` **[ATUALIZADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 24 — Relatório completo de desempenho e Seção de Desafio no RM2Questoes
-- **Data e hora:** 07/06/2026 às 07:25 (Horário Local)
+### Parte 24 â€” RelatÃ³rio completo de desempenho e SeÃ§Ã£o de Desafio no RM2Questoes
+- **Data e hora:** 07/06/2026 Ã s 07:25 (HorÃ¡rio Local)
 - **O que foi feito:**
-  1. **Relatório completo de desempenho (`RM2Questoes.tsx`):** Substituída a antiga tela de pontuação por um relatório detalhado. Mostra cabeçalho com pontuação, percentual de aproveitamento, e uma lista com cada questão respondida, destacando a alternativa do usuário (verde se correta, vermelho se errada), a alternativa gabarito (verde) e a explicação pedagógica.
-  2. **Botões de controle:** Adicionados botões "Tentar Novamente" (reinicia o nível atual) e "Próximo Nível" (avança para o nível seguinte de dificuldade se houver).
-  3. **Aba Desafio:** Adicionado o botão/aba "Desafio" ao lado dos botões de nível. Se o usuário escolher Desafio, o app carrega o campo `desafio` do JSON (contendo 15 questões mescladas). Caso o campo não exista, exibe uma mensagem amigável: "Desafio ainda não disponível para este tópico."
-  4. **Componente Desafio (`RM2Desafio.tsx`):** Criado o novo componente `RM2Desafio` para encapsular a gameplay e o relatório específicos do modo desafio, listando no topo do relatório os tópicos mesclados lidos de `topicos_mesclados`.
-- **Validação:**
-  - `tsc --noEmit` ✅ zero erros TypeScript
-  - `npm run build` ✅ 2934 módulos transformados, compilado com sucesso
+  1. **RelatÃ³rio completo de desempenho (`RM2Questoes.tsx`):** SubstituÃ­da a antiga tela de pontuaÃ§Ã£o por um relatÃ³rio detalhado. Mostra cabeÃ§alho com pontuaÃ§Ã£o, percentual de aproveitamento, e uma lista com cada questÃ£o respondida, destacando a alternativa do usuÃ¡rio (verde se correta, vermelho se errada), a alternativa gabarito (verde) e a explicaÃ§Ã£o pedagÃ³gica.
+  2. **BotÃµes de controle:** Adicionados botÃµes "Tentar Novamente" (reinicia o nÃ­vel atual) e "PrÃ³ximo NÃ­vel" (avanÃ§a para o nÃ­vel seguinte de dificuldade se houver).
+  3. **Aba Desafio:** Adicionado o botÃ£o/aba "Desafio" ao lado dos botÃµes de nÃ­vel. Se o usuÃ¡rio escolher Desafio, o app carrega o campo `desafio` do JSON (contendo 15 questÃµes mescladas). Caso o campo nÃ£o exista, exibe uma mensagem amigÃ¡vel: "Desafio ainda nÃ£o disponÃ­vel para este tÃ³pico."
+  4. **Componente Desafio (`RM2Desafio.tsx`):** Criado o novo componente `RM2Desafio` para encapsular a gameplay e o relatÃ³rio especÃ­ficos do modo desafio, listando no topo do relatÃ³rio os tÃ³picos mesclados lidos de `topicos_mesclados`.
+- **ValidaÃ§Ã£o:**
+  - `tsc --noEmit` âœ… zero erros TypeScript
+  - `npm run build` âœ… 2934 mÃ³dulos transformados, compilado com sucesso
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Questoes.tsx` **[ATUALIZADO]**
   - `src/components/rm2/RM2Desafio.tsx` **[NOVO]**
@@ -603,142 +603,142 @@ O sistema funciona de duas maneiras:
 
 ---
 
-### Parte 25 — Atualização Completa do Controle de Conteúdo (Todos os JSONs do Edital)
-- **Data e hora:** 10/06/2026 às 14:49 (Horário Local)
+### Parte 25 â€” AtualizaÃ§Ã£o Completa do Controle de ConteÃºdo (Todos os JSONs do Edital)
+- **Data e hora:** 10/06/2026 Ã s 14:49 (HorÃ¡rio Local)
 - **O que foi feito:**
-  1. Atualizada a tabela de "JSONs implementados" no controle de conteúdo para incluir os 28 tópicos (gram-01 a gram-14 e comp-01 a comp-14) que foram criados e integrados localmente nas sessões anteriores.
-  2. Atualizados os campos "Próximo a gerar" e "JSONs pendentes" para indicar a conclusão total do mapeamento estático do conteúdo programático do edital RM2.
+  1. Atualizada a tabela de "JSONs implementados" no controle de conteÃºdo para incluir os 28 tÃ³picos (gram-01 a gram-14 e comp-01 a comp-14) que foram criados e integrados localmente nas sessÃµes anteriores.
+  2. Atualizados os campos "PrÃ³ximo a gerar" e "JSONs pendentes" para indicar a conclusÃ£o total do mapeamento estÃ¡tico do conteÃºdo programÃ¡tico do edital RM2.
 - **Arquivos modificados:**
   - `RESUMO_MESTRE.md` (em `PlanoEstudo/` e na raiz `/`)
 
 ---
 
-### Parte 26 — Reordenação dos Tópicos por Progressão Pedagógica
-- **Data e hora:** 10/06/2026 às 15:28 (Horário Local)
-- **Motivação:** A ordem original dos tópicos em `rm2Conteudo.ts` e `conteudoIndex.ts` seguia a numeração dos IDs (gram-01 a gram-14, comp-01 a comp-14), o que colocava assuntos avançados antes de seus pré-requisitos.
-- **Nova ordem pedagógica aplicada:**
+### Parte 26 â€” ReordenaÃ§Ã£o dos TÃ³picos por ProgressÃ£o PedagÃ³gica
+- **Data e hora:** 10/06/2026 Ã s 15:28 (HorÃ¡rio Local)
+- **MotivaÃ§Ã£o:** A ordem original dos tÃ³picos em `rm2Conteudo.ts` e `conteudoIndex.ts` seguia a numeraÃ§Ã£o dos IDs (gram-01 a gram-14, comp-01 a comp-14), o que colocava assuntos avanÃ§ados antes de seus prÃ©-requisitos.
+- **Nova ordem pedagÃ³gica aplicada:**
 
-  **Área 1 — Gramática (base estrutural):**
-  | # | ID | Tópico |
+  **Ã�rea 1 â€” GramÃ¡tica (base estrutural):**
+  | # | ID | TÃ³pico |
   |---|---|---|
-  | 1 | gram-04 | Estrutura e Formação de Palavras |
+  | 1 | gram-04 | Estrutura e FormaÃ§Ã£o de Palavras |
   | 2 | gram-05 | Classes de Palavras |
-  | 3 | gram-06 | Flexão Nominal |
-  | 4 | gram-07 | Flexão Verbal |
-  | 5 | gram-01 | Sistema Ortográfico |
-  | 6 | gram-02 | Acentuação Gráfica |
+  | 3 | gram-06 | FlexÃ£o Nominal |
+  | 4 | gram-07 | FlexÃ£o Verbal |
+  | 5 | gram-01 | Sistema OrtogrÃ¡fico |
+  | 6 | gram-02 | AcentuaÃ§Ã£o GrÃ¡fica |
   | 7 | gram-03 | Uso do Sinal de Crase |
-  | 8 | gram-08 | Organização Sintática: Frase, Oração e Período |
-  | 9 | gram-09 | Termos da Oração |
-  | 10 | gram-10 | Coordenação e Subordinação |
-  | 11 | gram-11 | Concordância Nominal |
-  | 12 | gram-12 | Concordância Verbal |
-  | 13 | gram-13 | Regência Nominal e Verbal |
-  | 14 | gram-14 | Colocação Pronominal e Pontuação |
+  | 8 | gram-08 | OrganizaÃ§Ã£o SintÃ¡tica: Frase, OraÃ§Ã£o e PerÃ­odo |
+  | 9 | gram-09 | Termos da OraÃ§Ã£o |
+  | 10 | gram-10 | CoordenaÃ§Ã£o e SubordinaÃ§Ã£o |
+  | 11 | gram-11 | ConcordÃ¢ncia Nominal |
+  | 12 | gram-12 | ConcordÃ¢ncia Verbal |
+  | 13 | gram-13 | RegÃªncia Nominal e Verbal |
+  | 14 | gram-14 | ColocaÃ§Ã£o Pronominal e PontuaÃ§Ã£o |
 
-  **Área 2 — Compreensão e Interpretação (aplica a gramática):**
-  | # | ID | Tópico |
+  **Ã�rea 2 â€” CompreensÃ£o e InterpretaÃ§Ã£o (aplica a gramÃ¡tica):**
+  | # | ID | TÃ³pico |
   |---|---|---|
   | 15 | comp-03 | Linguagem Denotativa e Conotativa |
-  | 16 | comp-06 | Relações Lexicais |
+  | 16 | comp-06 | RelaÃ§Ãµes Lexicais |
   | 17 | comp-05 | Ambiguidade e Polissemia |
   | 18 | comp-07 | Figuras de Linguagem |
-  | 19 | comp-14 | Adequação Vocabular e Variação Linguística |
-  | 20 | comp-01 | Leitura de Textos Verbais e Não Verbais |
-  | 21 | comp-02 | Informações Implícitas e Explícitas |
-  | 22 | comp-04 | Elementos Ficcionais e Não Ficcionais |
-  | 23 | comp-08 | Tipos e Gêneros Textuais |
+  | 19 | comp-14 | AdequaÃ§Ã£o Vocabular e VariaÃ§Ã£o LinguÃ­stica |
+  | 20 | comp-01 | Leitura de Textos Verbais e NÃ£o Verbais |
+  | 21 | comp-02 | InformaÃ§Ãµes ImplÃ­citas e ExplÃ­citas |
+  | 22 | comp-04 | Elementos Ficcionais e NÃ£o Ficcionais |
+  | 23 | comp-08 | Tipos e GÃªneros Textuais |
   | 24 | comp-09 | Tipos de Discurso |
-  | 25 | comp-11 | Coesão Textual |
-  | 26 | comp-12 | Coerência e Textualidade |
+  | 25 | comp-11 | CoesÃ£o Textual |
+  | 26 | comp-12 | CoerÃªncia e Textualidade |
   | 27 | comp-10 | Reescritura de Frases |
   | 28 | comp-13 | Intertextualidade |
 
-- **Validação:**
-  - `tsc --noEmit` ✅ zero erros TypeScript
-  - `npm run build` ✅ 2961 módulos transformados, zero erros
+- **ValidaÃ§Ã£o:**
+  - `tsc --noEmit` âœ… zero erros TypeScript
+  - `npm run build` âœ… 2961 mÃ³dulos transformados, zero erros
 - **Arquivos modificados:**
-  - `src/data/rm2Conteudo.ts` **[REORDENADO — progressão pedagógica]**
-  - `src/data/conteudoIndex.ts` **[REORDENADO — mesma sequência]**
+  - `src/data/rm2Conteudo.ts` **[REORDENADO â€” progressÃ£o pedagÃ³gica]**
+  - `src/data/conteudoIndex.ts` **[REORDENADO â€” mesma sequÃªncia]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 27 — Melhoria de Tipografia e Espaçamento na Tela de Teoria
-- **Data e hora:** 10/06/2026 às 15:35 (Horário Local)
+### Parte 27 â€” Melhoria de Tipografia e EspaÃ§amento na Tela de Teoria
+- **Data e hora:** 10/06/2026 Ã s 15:35 (HorÃ¡rio Local)
 - **Arquivos modificados:**
-  - `src/components/rm2/RM2Teoria.tsx` **[ATUALIZADO — tipografia e espaçamento]**
+  - `src/components/rm2/RM2Teoria.tsx` **[ATUALIZADO â€” tipografia e espaÃ§amento]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 28 — Cronograma Intensivo Atualizado
-- **Data e hora:** 10/06/2026 às 15:45 (Horário Local)
+### Parte 28 â€” Cronograma Intensivo Atualizado
+- **Data e hora:** 10/06/2026 Ã s 15:45 (HorÃ¡rio Local)
 - **Arquivos modificados:**
-  - `src/components/rm2/RM2Cronograma.tsx` **[REESCRITO — cronograma intensivo]**
-  - `src/components/EstudoRM2.tsx` **[ATUALIZADO — integração onNavigate]**
+  - `src/components/rm2/RM2Cronograma.tsx` **[REESCRITO â€” cronograma intensivo]**
+  - `src/components/EstudoRM2.tsx` **[ATUALIZADO â€” integraÃ§Ã£o onNavigate]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 29 — Seção de Saúde Completamente Reformulada
-- **Data e hora:** 10/06/2026 às 15:55 (Horário Local)
+### Parte 29 â€” SeÃ§Ã£o de SaÃºde Completamente Reformulada
+- **Data e hora:** 10/06/2026 Ã s 15:55 (HorÃ¡rio Local)
 - **Arquivos modificados:**
-  - `src/components/rm2/RM2Saude.tsx` **[REESCRITO — módulo de saúde]**
+  - `src/components/rm2/RM2Saude.tsx` **[REESCRITO â€” mÃ³dulo de saÃºde]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 30 — Remoção do Backend e Limpeza do Projeto
-- **Data e hora:** 10/06/2026 às 16:00 (Horário Local)
+### Parte 30 â€” RemoÃ§Ã£o do Backend e Limpeza do Projeto
+- **Data e hora:** 10/06/2026 Ã s 16:00 (HorÃ¡rio Local)
 - **O que foi feito:**
   1. **Deletados** todos os arquivos de backend: `api/` (pasta completa com `_utils.ts`, `rm2/teoria.ts`, `rm2/questoes.ts`, `rm2/simulacao.ts`, `rm2/resultado.ts`, `rm2/generate.ts`) e `server.ts`.
-  2. **`package.json` simplificado:** Removidas as dependências de backend (`firebase-admin`, `express`, `@vercel/node`, `@google/genai`, `dotenv`, `esbuild`, `tsx`, `@types/express`, `@firebase/eslint-plugin-security-rules`). Scripts simplificados para `dev: vite`, `build: vite build`, `lint: tsc --noEmit`.
-  3. **`vercel.json` simplificado:** Removida a rota `/api/(.*)`, mantendo apenas o rewrite SPA `/(.*) → /index.html`.
-  4. **`RM2Configuracoes.tsx` reescrito:** Removida toda a seção de Groq API Key (campo de input, botão salvar, instruções de setup na Vercel). Substituída por seção "Sobre o App" com versão, informações do edital e gerenciamento de dados locais.
-  5. **`RM2Simulacao.tsx` corrigido:** A chamada `fetch('/api/rm2/resultado')` foi substituída por cálculo local do resultado (acertos, percentual, comentários), com salvamento no `localStorage` na chave `rm2_simulados_historico`.
-  6. **Zero referências a Groq/firebase-admin** restantes no frontend.
-- **Validação:**
-  - `tsc --noEmit` ✅ zero erros TypeScript
-  - `vite build` ✅ build concluído com sucesso (Exit code: 0)
+  2. **`package.json` simplificado:** Removidas as dependÃªncias de backend (`firebase-admin`, `express`, `@vercel/node`, `@google/genai`, `dotenv`, `esbuild`, `tsx`, `@types/express`, `@firebase/eslint-plugin-security-rules`). Scripts simplificados para `dev: vite`, `build: vite build`, `lint: tsc --noEmit`.
+  3. **`vercel.json` simplificado:** Removida a rota `/api/(.*)`, mantendo apenas o rewrite SPA `/(.*) â†’ /index.html`.
+  4. **`RM2Configuracoes.tsx` reescrito:** Removida toda a seÃ§Ã£o de Groq API Key (campo de input, botÃ£o salvar, instruÃ§Ãµes de setup na Vercel). SubstituÃ­da por seÃ§Ã£o "Sobre o App" com versÃ£o, informaÃ§Ãµes do edital e gerenciamento de dados locais.
+  5. **`RM2Simulacao.tsx` corrigido:** A chamada `fetch('/api/rm2/resultado')` foi substituÃ­da por cÃ¡lculo local do resultado (acertos, percentual, comentÃ¡rios), com salvamento no `localStorage` na chave `rm2_simulados_historico`.
+  6. **Zero referÃªncias a Groq/firebase-admin** restantes no frontend.
+- **ValidaÃ§Ã£o:**
+  - `tsc --noEmit` âœ… zero erros TypeScript
+  - `vite build` âœ… build concluÃ­do com sucesso (Exit code: 0)
 - **Arquivos modificados/deletados:**
   - `api/` **[DELETADO]**
   - `server.ts` **[DELETADO]**
-  - `package.json` **[SIMPLIFICADO — apenas frontend]**
-  - `vercel.json` **[SIMPLIFICADO — SPA only]**
-  - `src/components/rm2/RM2Configuracoes.tsx` **[REESCRITO — sem Groq]**
-  - `src/components/rm2/RM2Simulacao.tsx` **[CORRIGIDO — cálculo local]**
+  - `package.json` **[SIMPLIFICADO â€” apenas frontend]**
+  - `vercel.json` **[SIMPLIFICADO â€” SPA only]**
+  - `src/components/rm2/RM2Configuracoes.tsx` **[REESCRITO â€” sem Groq]**
+  - `src/components/rm2/RM2Simulacao.tsx` **[CORRIGIDO â€” cÃ¡lculo local]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Como usar esta seção
-Esta seção é atualizada automaticamente pelo Windsurf ao final de cada sessão.
+### Como usar esta seÃ§Ã£o
+Esta seÃ§Ã£o Ã© atualizada automaticamente pelo Windsurf ao final de cada sessÃ£o.
 Ao iniciar uma nova conversa no Claude (claude.ai), envie este arquivo completo
-como contexto. O Claude saberá exatamente qual tópico gerar aui a seguir e em qual
+como contexto. O Claude saberÃ¡ exatamente qual tÃ³pico gerar aui a seguir e em qual
 formato, sem necessidade de briefing adicional.
 
-### Instruções para o Claude ao receber este arquivo
-Você está ajudando um candidato a se preparar para o concurso RM2 da Marinha
-do Brasil, vaga de Engenharia Elétrica em Fortaleza/CE. A prova é exclusivamente
-de Língua Portuguesa: 40 questões de múltipla escolha, 5 alternativas, 2,5 pontos
-cada, duração 3 horas, nota mínima 40 pontos.
+### InstruÃ§Ãµes para o Claude ao receber este arquivo
+VocÃª estÃ¡ ajudando um candidato a se preparar para o concurso RM2 da Marinha
+do Brasil, vaga de Engenharia ElÃ©trica em Fortaleza/CE. A prova Ã© exclusivamente
+de LÃ­ngua Portuguesa: 40 questÃµes de mÃºltipla escolha, 5 alternativas, 2,5 pontos
+cada, duraÃ§Ã£o 3 horas, nota mÃ­nima 40 pontos.
 
-O candidato tem um app React chamado EstudoApp em produção na Vercel
-(https://estudo-app-rm2.vercel.app) que exibe teoria, questões e simulados
-a partir de arquivos JSON estáticos em src/data/conteudo/. Quando solicitado,
-gere o próximo JSON da lista de pendentes abaixo seguindo exatamente a estrutura
-definida nesta seção. Entregue apenas o JSON puro começando com { e terminando
+O candidato tem um app React chamado EstudoApp em produÃ§Ã£o na Vercel
+(https://estudo-app-rm2.vercel.app) que exibe teoria, questÃµes e simulados
+a partir de arquivos JSON estÃ¡ticos em src/data/conteudo/. Quando solicitado,
+gere o prÃ³ximo JSON da lista de pendentes abaixo seguindo exatamente a estrutura
+definida nesta seÃ§Ã£o. Entregue apenas o JSON puro comeÃ§ando com { e terminando
 com }, sem texto antes ou depois e sem blocos de markdown.
 
-O conteúdo deve ser baseado na bibliografia oficial do edital: Cunha e Cintra
-(Nova Gramática do Português Contemporâneo, Lexikon 2017), Koch e Elias (Ler e
+O conteÃºdo deve ser baseado na bibliografia oficial do edital: Cunha e Cintra
+(Nova GramÃ¡tica do PortuguÃªs ContemporÃ¢neo, Lexikon 2017), Koch e Elias (Ler e
 compreender os sentidos do texto, Contexto 2008), Fiorin e Savioli (Para entender
-o texto, Ática 2007), Manual de Redação e Estilo da Marinha (Letras Marítimas 2024).
-O Acordo Ortográfico foi assinado em 1990 e entrou em vigor em 2016 — nunca
-mencionar 2009. Coautor não tem hífen.
+o texto, Ã�tica 2007), Manual de RedaÃ§Ã£o e Estilo da Marinha (Letras MarÃ­timas 2024).
+O Acordo OrtogrÃ¡fico foi assinado em 1990 e entrou em vigor em 2016 â€” nunca
+mencionar 2009. Coautor nÃ£o tem hÃ­fen.
 
-### Estrutura obrigatória do JSON
+### Estrutura obrigatÃ³ria do JSON
 ```json
 {
   "id": "",
@@ -806,179 +806,179 @@ mencionar 2009. Coautor não tem hífen.
 }
 ```
 
-### Requisitos obrigatórios de quantidade por JSON
-- Teoria: mínimo 5 blocos
+### Requisitos obrigatÃ³rios de quantidade por JSON
+- Teoria: mÃ­nimo 5 blocos
 - Pegadinhas: exatamente 5
 - Cascas de banana: exatamente 3
-- Questões de fixação: exatamente 30 sendo 10 básico (q01–q10), 10 intermediário (q11–q20) e 10 avançado (q21–q30)
-- Simulado: exatamente 5 questões nível avançado (s01–s05)
-- Desafio: exatamente 15 questões (d01–d15) mesclando o tópico atual com todos os tópicos já implementados listados na tabela de JSONs implementados abaixo. O campo topico_referencia de cada questão deve indicar de qual tópico ela foi extraída.
+- QuestÃµes de fixaÃ§Ã£o: exatamente 30 sendo 10 bÃ¡sico (q01â€“q10), 10 intermediÃ¡rio (q11â€“q20) e 10 avanÃ§ado (q21â€“q30)
+- Simulado: exatamente 5 questÃµes nÃ­vel avanÃ§ado (s01â€“s05)
+- Desafio: exatamente 15 questÃµes (d01â€“d15) mesclando o tÃ³pico atual com todos os tÃ³picos jÃ¡ implementados listados na tabela de JSONs implementados abaixo. O campo topico_referencia de cada questÃ£o deve indicar de qual tÃ³pico ela foi extraÃ­da.
 
 ### Fluxo de entrega por JSON
-Após entregar cada JSON completo, o Claude deve gerar automaticamente o seguinte bloco antes de começar o próximo, substituindo [ID] pelo id real do tópico gerado:
+ApÃ³s entregar cada JSON completo, o Claude deve gerar automaticamente o seguinte bloco antes de comeÃ§ar o prÃ³ximo, substituindo [ID] pelo id real do tÃ³pico gerado:
 
-PROMPT WINDSURF — IMPLEMENTAR [ID]
+PROMPT WINDSURF â€” IMPLEMENTAR [ID]
 Acabei de criar o arquivo src/data/conteudo/[ID].json.
 Abra o arquivo src/data/conteudoIndex.ts e adicione esta linha dentro do objeto modulos:
 '[ID]': () => import('./conteudo/[ID].json'),
-Após adicionar execute tsc --noEmit and npm run build e confirme que compilou sem erros.
-Não altere nenhum outro arquivo.
+ApÃ³s adicionar execute tsc --noEmit and npm run build e confirme que compilou sem erros.
+NÃ£o altere nenhum outro arquivo.
 
-Após gerar esse bloco o Claude aguarda confirmação de que o arquivo foi salvo e
-implementado antes de começar o próximo JSON.
+ApÃ³s gerar esse bloco o Claude aguarda confirmaÃ§Ã£o de que o arquivo foi salvo e
+implementado antes de comeÃ§ar o prÃ³ximo JSON.
 
 ### JSONs implementados
-| ID | Título | Arquivo | Data |
+| ID | TÃ­tulo | Arquivo | Data |
 |---|---|---|---|
-| gram-01 | Sistema Ortográfico | gram-01.json | 06/06/2026 |
-| gram-02 | Acentuação Gráfica | gram-02.json | 08/06/2026 |
+| gram-01 | Sistema OrtogrÃ¡fico | gram-01.json | 06/06/2026 |
+| gram-02 | AcentuaÃ§Ã£o GrÃ¡fica | gram-02.json | 08/06/2026 |
 | gram-03 | Uso do Sinal de Crase | gram-03.json | 08/06/2026 |
-| gram-04 | Estrutura e Formação de Palavras | gram-04.json | 08/06/2026 |
+| gram-04 | Estrutura e FormaÃ§Ã£o de Palavras | gram-04.json | 08/06/2026 |
 | gram-05 | Classes de Palavras | gram-05.json | 08/06/2026 |
-| gram-06 | Flexão Nominal | gram-06.json | 08/06/2026 |
-| gram-07 | Flexão Verbal | gram-07.json | 08/06/2026 |
-| gram-08 | Organização Sintática: Frase, Oração e Período | gram-08.json | 08/06/2026 |
-| gram-09 | Termos da Oração | gram-09.json | 08/06/2026 |
-| gram-10 | Coordenação e Subordinação | gram-10.json | 08/06/2026 |
-| gram-11 | Concordância Nominal | gram-11.json | 08/06/2026 |
-| gram-12 | Concordância Verbal | gram-12.json | 08/06/2026 |
-| gram-13 | Regência Nominal e Verbal | gram-13.json | 10/06/2026 |
-| gram-14 | Colocação Pronominal e Pontuação | gram-14.json | 08/06/2026 |
-| comp-01 | Leitura de Textos Verbais e Não Verbais | comp-01.json | 10/06/2026 |
-| comp-02 | Informações Implícitas e Explícitas | comp-02.json | 08/06/2026 |
+| gram-06 | FlexÃ£o Nominal | gram-06.json | 08/06/2026 |
+| gram-07 | FlexÃ£o Verbal | gram-07.json | 08/06/2026 |
+| gram-08 | OrganizaÃ§Ã£o SintÃ¡tica: Frase, OraÃ§Ã£o e PerÃ­odo | gram-08.json | 08/06/2026 |
+| gram-09 | Termos da OraÃ§Ã£o | gram-09.json | 08/06/2026 |
+| gram-10 | CoordenaÃ§Ã£o e SubordinaÃ§Ã£o | gram-10.json | 08/06/2026 |
+| gram-11 | ConcordÃ¢ncia Nominal | gram-11.json | 08/06/2026 |
+| gram-12 | ConcordÃ¢ncia Verbal | gram-12.json | 08/06/2026 |
+| gram-13 | RegÃªncia Nominal e Verbal | gram-13.json | 10/06/2026 |
+| gram-14 | ColocaÃ§Ã£o Pronominal e PontuaÃ§Ã£o | gram-14.json | 08/06/2026 |
+| comp-01 | Leitura de Textos Verbais e NÃ£o Verbais | comp-01.json | 10/06/2026 |
+| comp-02 | InformaÃ§Ãµes ImplÃ­citas e ExplÃ­citas | comp-02.json | 08/06/2026 |
 | comp-03 | Linguagem Denotativa e Conotativa | comp-03.json | 08/06/2026 |
-| comp-04 | Elementos Ficcionais e Não Ficcionais | comp-04.json | 08/06/2026 |
+| comp-04 | Elementos Ficcionais e NÃ£o Ficcionais | comp-04.json | 08/06/2026 |
 | comp-05 | Ambiguidade e Polissemia | comp-05.json | 08/06/2026 |
-| comp-06 | Relações Lexicais | comp-06.json | 08/06/2026 |
+| comp-06 | RelaÃ§Ãµes Lexicais | comp-06.json | 08/06/2026 |
 | comp-07 | Figuras de Linguagem | comp-07.json | 08/06/2026 |
-| comp-08 | Tipos e Gêneros Textuais | comp-08.json | 08/06/2026 |
+| comp-08 | Tipos e GÃªneros Textuais | comp-08.json | 08/06/2026 |
 | comp-09 | Tipos de Discurso | comp-09.json | 08/06/2026 |
 | comp-10 | Reescritura de Frases | comp-10.json | 08/06/2026 |
-| comp-11 | Coesão Textual | comp-11.json | 10/06/2026 |
-| comp-12 | Coerência e Textualidade | comp-12.json | 10/06/2026 |
+| comp-11 | CoesÃ£o Textual | comp-11.json | 10/06/2026 |
+| comp-12 | CoerÃªncia e Textualidade | comp-12.json | 10/06/2026 |
 | comp-13 | Intertextualidade | comp-13.json | 08/06/2026 |
-| comp-14 | Adequação Vocabular e Variação Linguística | comp-14.json | 10/06/2026 |
+| comp-14 | AdequaÃ§Ã£o Vocabular e VariaÃ§Ã£o LinguÃ­stica | comp-14.json | 10/06/2026 |
 
-### Próximo a gerar
-Todos os JSONs de conteúdo do edital RM2 foram implementados e integrados com sucesso. Não há novos conteúdos pendentes de geração.
+### PrÃ³ximo a gerar
+Todos os JSONs de conteÃºdo do edital RM2 foram implementados e integrados com sucesso. NÃ£o hÃ¡ novos conteÃºdos pendentes de geraÃ§Ã£o.
 
 ### JSONs pendentes (por ordem de prioridade)
-Nenhum. Todos os 28 tópicos oficiais do edital foram completamente mapeados e criados como arquivos JSON estáticos locais no diretório `src/data/conteudo/`.
+Nenhum. Todos os 28 tÃ³picos oficiais do edital foram completamente mapeados e criados como arquivos JSON estÃ¡ticos locais no diretÃ³rio `src/data/conteudo/`.
 
-### Instrução de atualização para o Windsurf
-Ao finalizar qualquer sessão que envolva adição de novo JSON ao app, atualize esta seção da seguinte forma: mova o ID recém-implementado da tabela de pendentes para a tabela de implementados com a data atual, atualize o campo Próximo a gerar com o próximo ID da lista de pendentes, e faça commit com a mensagem:
-docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
+### InstruÃ§Ã£o de atualizaÃ§Ã£o para o Windsurf
+Ao finalizar qualquer sessÃ£o que envolva adiÃ§Ã£o de novo JSON ao app, atualize esta seÃ§Ã£o da seguinte forma: mova o ID recÃ©m-implementado da tabela de pendentes para a tabela de implementados com a data atual, atualize o campo PrÃ³ximo a gerar com o prÃ³ximo ID da lista de pendentes, e faÃ§a commit com a mensagem:
+docs: atualiza controle de conteÃºdo RM2 no RESUMO_MESTRE
 
 ---
 
-### Parte 31 — Correção do Bug de Mapeamento de Assunto no RM2Dashboard
-- **Data e hora:** 13/06/2026 às 09:43 (Horário Local)
+### Parte 31 â€” CorreÃ§Ã£o do Bug de Mapeamento de Assunto no RM2Dashboard
+- **Data e hora:** 13/06/2026 Ã s 09:43 (HorÃ¡rio Local)
 - **Problema identificado:**
-  - `RM2Dashboard.tsx` sempre passava `assunto={defaultAssunto}` (fixo: `areas[0].assuntos[0]` = `gram-04`) para `RM2Teoria` e `RM2Questoes` quando a navegação era feita internamente pelo Dashboard (via `setActiveView`), ignorando qual assunto o usuário havia clicado.
-  - O botão "Estudar" nas áreas chamava `onNavigate('teoria')` sem passar o assunto, causando a abertura do seletor de assunto em branco no fluxo via `EstudoRM2.tsx`.
-  - **Nota:** O próprio `RM2Teoria.tsx` já estava correto — `getConteudo(assunto.id)` já usava o campo `id` diretamente.
-- **Correção aplicada em `RM2Dashboard.tsx`:**
-  1. Declaração de `defaultAssunto` movida para **antes** dos `useState` que a utilizam (eliminado o erro TS2448: "used before its declaration").
+  - `RM2Dashboard.tsx` sempre passava `assunto={defaultAssunto}` (fixo: `areas[0].assuntos[0]` = `gram-04`) para `RM2Teoria` e `RM2Questoes` quando a navegaÃ§Ã£o era feita internamente pelo Dashboard (via `setActiveView`), ignorando qual assunto o usuÃ¡rio havia clicado.
+  - O botÃ£o "Estudar" nas Ã¡reas chamava `onNavigate('teoria')` sem passar o assunto, causando a abertura do seletor de assunto em branco no fluxo via `EstudoRM2.tsx`.
+  - **Nota:** O prÃ³prio `RM2Teoria.tsx` jÃ¡ estava correto â€” `getConteudo(assunto.id)` jÃ¡ usava o campo `id` diretamente.
+- **CorreÃ§Ã£o aplicada em `RM2Dashboard.tsx`:**
+  1. DeclaraÃ§Ã£o de `defaultAssunto` movida para **antes** dos `useState` que a utilizam (eliminado o erro TS2448: "used before its declaration").
   2. Adicionado estado `const [selectedAssunto, setSelectedAssunto] = useState<any>(defaultAssunto)` para rastrear qual assunto foi selecionado.
   3. `RM2Teoria` e `RM2Questoes` passam `assunto={selectedAssunto}` em vez de `assunto={defaultAssunto}`.
-  4. Botão "Estudar" de cada área agora chama `onNavigate('teoria', primeiroAssunto)` (via fluxo externo) ou `setSelectedAssunto(primeiroAssunto); setActiveView('teoria')` (via fluxo interno).
-- **Validação:**
-  - `tsc --noEmit` ✅ zero erros TypeScript
-  - `npm run build` ✅ 3091 módulos transformados, Exit code: 0
+  4. BotÃ£o "Estudar" de cada Ã¡rea agora chama `onNavigate('teoria', primeiroAssunto)` (via fluxo externo) ou `setSelectedAssunto(primeiroAssunto); setActiveView('teoria')` (via fluxo interno).
+- **ValidaÃ§Ã£o:**
+  - `tsc --noEmit` âœ… zero erros TypeScript
+  - `npm run build` âœ… 3091 mÃ³dulos transformados, Exit code: 0
 - **Arquivos modificados:**
-  - `src/components/rm2/RM2Dashboard.tsx` **[CORRIGIDO — mapeamento de assunto]**
+  - `src/components/rm2/RM2Dashboard.tsx` **[CORRIGIDO â€” mapeamento de assunto]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 32 — Correção do Botão Voltar em RM2Teoria (reset de estados internos)
-- **Data e hora:** 13/06/2026 às 09:47 (Horário Local)
+### Parte 32 â€” CorreÃ§Ã£o do BotÃ£o Voltar em RM2Teoria (reset de estados internos)
+- **Data e hora:** 13/06/2026 Ã s 09:47 (HorÃ¡rio Local)
 - **Problema identificado:**
-  - O botão "Voltar" em `RM2Teoria.tsx` chamava `onClick={onVoltar}` diretamente, sem limpar os estados internos do componente antes de retornar ao seletor de assuntos.
-  - Em cenários de re-render React (especialmente quando o componente é reutilizado sem desmontar completamente), os estados `teoriaData`, `loading`, `error` e `mostrarResumo` permaneciam com valores do assunto anterior, causando comportamento inconsistente na tela de seleção.
-  - **Nota:** O `onVoltar` (prop) estava correto — chamava `setSelectedAssuntoTeoria(null)` no pai. O problema era a ausência de limpeza dos estados internos antes de propagar a chamada.
-- **Correção aplicada em `RM2Teoria.tsx`:**
-  1. Criada a função `handleVoltar()` que:
-     - Chama `setTeoriaData(null)` — limpa o conteúdo carregado
-     - Chama `setLoading(false)` — garante que o spinner não persiste
-     - Chama `setError('')` — limpa mensagens de erro anteriores
-     - Chama `setMostrarResumo(false)` — fecha o painel de resumo colapsável
-     - Chama `onVoltar()` — propaga o retorno ao componente pai
-  2. Botão "Voltar" atualizado: `onClick={onVoltar}` → `onClick={handleVoltar}`
-  3. Nenhuma outra lógica foi alterada.
-- **Validação:**
-  - `tsc --noEmit` ✅ zero erros TypeScript
-  - `npm run build` ✅ 3091 módulos transformados, Exit code: 0
+  - O botÃ£o "Voltar" em `RM2Teoria.tsx` chamava `onClick={onVoltar}` diretamente, sem limpar os estados internos do componente antes de retornar ao seletor de assuntos.
+  - Em cenÃ¡rios de re-render React (especialmente quando o componente Ã© reutilizado sem desmontar completamente), os estados `teoriaData`, `loading`, `error` e `mostrarResumo` permaneciam com valores do assunto anterior, causando comportamento inconsistente na tela de seleÃ§Ã£o.
+  - **Nota:** O `onVoltar` (prop) estava correto â€” chamava `setSelectedAssuntoTeoria(null)` no pai. O problema era a ausÃªncia de limpeza dos estados internos antes de propagar a chamada.
+- **CorreÃ§Ã£o aplicada em `RM2Teoria.tsx`:**
+  1. Criada a funÃ§Ã£o `handleVoltar()` que:
+     - Chama `setTeoriaData(null)` â€” limpa o conteÃºdo carregado
+     - Chama `setLoading(false)` â€” garante que o spinner nÃ£o persiste
+     - Chama `setError('')` â€” limpa mensagens de erro anteriores
+     - Chama `setMostrarResumo(false)` â€” fecha o painel de resumo colapsÃ¡vel
+     - Chama `onVoltar()` â€” propaga o retorno ao componente pai
+  2. BotÃ£o "Voltar" atualizado: `onClick={onVoltar}` â†’ `onClick={handleVoltar}`
+  3. Nenhuma outra lÃ³gica foi alterada.
+- **ValidaÃ§Ã£o:**
+  - `tsc --noEmit` âœ… zero erros TypeScript
+  - `npm run build` âœ… 3091 mÃ³dulos transformados, Exit code: 0
 - **Arquivos modificados:**
-  - `src/components/rm2/RM2Teoria.tsx` **[CORRIGIDO — handleVoltar com reset de estados]**
+  - `src/components/rm2/RM2Teoria.tsx` **[CORRIGIDO â€” handleVoltar com reset de estados]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 33 — Auditoria e Correção do Mapeamento em conteudoIndex.ts
-- **Data e hora:** 13/06/2026 às 09:49 (Horário Local)
-- **Auditoria realizada:** Verificação linha a linha das 28 entradas do objeto `modulos`.
-- **Resultado da auditoria:** Cada chave (`id`) já apontava para o arquivo `.json` correto — **nenhum desalinhamento de conteúdo** foi encontrado. O problema era apenas a **ordem das entradas**, que seguia a progressão pedagógica em vez da sequência numérica.
-- **Correção aplicada em `src/data/conteudoIndex.ts`:**
-  - Objeto `modulos` reordenado para a sequência numérica exata especificada:
-    - Gramática: `gram-01` → `gram-02` → … → `gram-14`
-    - Interpretação: `comp-01` → `comp-02` → … → `comp-14`
-  - Funções `getConteudo` e `getIdsDisponiveis` preservadas integralmente.
-  - Duplicata acidental das funções (gerada pela ferramenta de edição) removida no mesmo ciclo.
-- **Validação:**
-  - `tsc --noEmit` ✅ zero erros TypeScript
-  - `npm run build` ✅ 3091 módulos transformados, Exit code: 0
+### Parte 33 â€” Auditoria e CorreÃ§Ã£o do Mapeamento em conteudoIndex.ts
+- **Data e hora:** 13/06/2026 Ã s 09:49 (HorÃ¡rio Local)
+- **Auditoria realizada:** VerificaÃ§Ã£o linha a linha das 28 entradas do objeto `modulos`.
+- **Resultado da auditoria:** Cada chave (`id`) jÃ¡ apontava para o arquivo `.json` correto â€” **nenhum desalinhamento de conteÃºdo** foi encontrado. O problema era apenas a **ordem das entradas**, que seguia a progressÃ£o pedagÃ³gica em vez da sequÃªncia numÃ©rica.
+- **CorreÃ§Ã£o aplicada em `src/data/conteudoIndex.ts`:**
+  - Objeto `modulos` reordenado para a sequÃªncia numÃ©rica exata especificada:
+    - GramÃ¡tica: `gram-01` â†’ `gram-02` â†’ â€¦ â†’ `gram-14`
+    - InterpretaÃ§Ã£o: `comp-01` â†’ `comp-02` â†’ â€¦ â†’ `comp-14`
+  - FunÃ§Ãµes `getConteudo` e `getIdsDisponiveis` preservadas integralmente.
+  - Duplicata acidental das funÃ§Ãµes (gerada pela ferramenta de ediÃ§Ã£o) removida no mesmo ciclo.
+- **ValidaÃ§Ã£o:**
+  - `tsc --noEmit` âœ… zero erros TypeScript
+  - `npm run build` âœ… 3091 mÃ³dulos transformados, Exit code: 0
 - **Arquivos modificados:**
-  - `src/data/conteudoIndex.ts` **[REORDENADO — sequência numérica gram-01→14, comp-01→14]**
+  - `src/data/conteudoIndex.ts` **[REORDENADO â€” sequÃªncia numÃ©rica gram-01â†’14, comp-01â†’14]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 34 — Auditoria de IDs em rm2Conteudo.ts
-- **Data e hora:** 13/06/2026 às 09:54 (Horário Local)
-- **Auditoria realizada:** Verificação linha a linha dos 28 tópicos contidos em `src/data/rm2Conteudo.ts` para confirmar se seus IDs correspondem exatamente aos nomes dos arquivos JSON locais e aos caminhos mapeados.
-- **Resultado da auditoria:** Todos os 28 IDs foram validados um a um contra a sequência pedagógica (gram-04, gram-05, gram-06, gram-07, gram-01, gram-02, gram-03, gram-08, gram-09, gram-10, gram-11, gram-12, gram-13, gram-14, comp-03, comp-06, comp-05, comp-07, comp-14, comp-01, comp-02, comp-04, comp-08, comp-09, comp-11, comp-12, comp-10, comp-13) e estão 100% corretos. Nenhuma alteração foi necessária.
-- **Validação:**
-  - `tsc --noEmit` ✅ zero erros TypeScript
-  - `npm run build` ✅ 3091 módulos transformados, Exit code: 0
+### Parte 34 â€” Auditoria de IDs em rm2Conteudo.ts
+- **Data e hora:** 13/06/2026 Ã s 09:54 (HorÃ¡rio Local)
+- **Auditoria realizada:** VerificaÃ§Ã£o linha a linha dos 28 tÃ³picos contidos em `src/data/rm2Conteudo.ts` para confirmar se seus IDs correspondem exatamente aos nomes dos arquivos JSON locais e aos caminhos mapeados.
+- **Resultado da auditoria:** Todos os 28 IDs foram validados um a um contra a sequÃªncia pedagÃ³gica (gram-04, gram-05, gram-06, gram-07, gram-01, gram-02, gram-03, gram-08, gram-09, gram-10, gram-11, gram-12, gram-13, gram-14, comp-03, comp-06, comp-05, comp-07, comp-14, comp-01, comp-02, comp-04, comp-08, comp-09, comp-11, comp-12, comp-10, comp-13) e estÃ£o 100% corretos. Nenhuma alteraÃ§Ã£o foi necessÃ¡ria.
+- **ValidaÃ§Ã£o:**
+  - `tsc --noEmit` âœ… zero erros TypeScript
+  - `npm run build` âœ… 3091 mÃ³dulos transformados, Exit code: 0
 - **Arquivos modificados:**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 35 — Reorganização do Cronograma RM2 para 13 Semanas com Programação Diária
-- **Data e hora:** 13/06/2026 às 10:00 (Horário Local)
+### Parte 35 â€” ReorganizaÃ§Ã£o do Cronograma RM2 para 13 Semanas com ProgramaÃ§Ã£o DiÃ¡ria
+- **Data e hora:** 13/06/2026 Ã s 10:00 (HorÃ¡rio Local)
 - **Problema resolvido:**
-  - O cronograma de estudos do edital RM2 estava com 19 semanas e continha associações de tópicos desalinhadas com a sequência pedagógica correta.
-  - Faltava a exibição da programação diária de estudos (segunda a sexta) para orientar o candidato sobre o que fazer cada dia útil.
-- **Alterações efetuadas em `RM2Cronograma.tsx`:**
-  1. **Novo Cronograma de 13 Semanas:** Atualizado o array `SEMANAS` com as datas de 08/06/2026 a 06/09/2026, associando os IDs de tópicos pedagógicos exatos de gramática e compreensão.
-  2. **Planejamento Diário:** Incluído no campo `descricao` de cada semana a divisão detalhada de tarefas de segunda a sexta-feira, dividindo teoria, questões e revisões de modo equilibrado.
-  3. **Correção de Exibição:** Adicionada a classe `whitespace-pre-line` na tag do parágrafo de descrição (`semana.descricao`), garantindo a renderização visual perfeita das quebras de linha da programação diária sem alterar o layout original.
-  4. **Detecção de Semana Ativa:** Ajustada a função de busca automática da semana atual no carregamento do componente para respeitar os novos limites de semanas (1 a 13).
-- **Validação:**
-  - Execução de `npx tsc --noEmit` ✅ Zero erros detectados
-  - Execução de `npm run build` ✅ Compilação concluída com sucesso (Exit code: 0)
+  - O cronograma de estudos do edital RM2 estava com 19 semanas e continha associaÃ§Ãµes de tÃ³picos desalinhadas com a sequÃªncia pedagÃ³gica correta.
+  - Faltava a exibiÃ§Ã£o da programaÃ§Ã£o diÃ¡ria de estudos (segunda a sexta) para orientar o candidato sobre o que fazer cada dia Ãºtil.
+- **AlteraÃ§Ãµes efetuadas em `RM2Cronograma.tsx`:**
+  1. **Novo Cronograma de 13 Semanas:** Atualizado o array `SEMANAS` com as datas de 08/06/2026 a 06/09/2026, associando os IDs de tÃ³picos pedagÃ³gicos exatos de gramÃ¡tica e compreensÃ£o.
+  2. **Planejamento DiÃ¡rio:** IncluÃ­do no campo `descricao` de cada semana a divisÃ£o detalhada de tarefas de segunda a sexta-feira, dividindo teoria, questÃµes e revisÃµes de modo equilibrado.
+  3. **CorreÃ§Ã£o de ExibiÃ§Ã£o:** Adicionada a classe `whitespace-pre-line` na tag do parÃ¡grafo de descriÃ§Ã£o (`semana.descricao`), garantindo a renderizaÃ§Ã£o visual perfeita das quebras de linha da programaÃ§Ã£o diÃ¡ria sem alterar o layout original.
+  4. **DetecÃ§Ã£o de Semana Ativa:** Ajustada a funÃ§Ã£o de busca automÃ¡tica da semana atual no carregamento do componente para respeitar os novos limites de semanas (1 a 13).
+- **ValidaÃ§Ã£o:**
+  - ExecuÃ§Ã£o de `npx tsc --noEmit` âœ… Zero erros detectados
+  - ExecuÃ§Ã£o de `npm run build` âœ… CompilaÃ§Ã£o concluÃ­da com sucesso (Exit code: 0)
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Cronograma.tsx` **[ATUALIZADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 36 — Implementação Completa do Cronograma RM2 de 33 Semanas com 5 Fases Pedagógicas
-- **Data e hora:** 13/06/2026 às 10:30 (Horário Local)
+### Parte 36 â€” ImplementaÃ§Ã£o Completa do Cronograma RM2 de 33 Semanas com 5 Fases PedagÃ³gicas
+- **Data e hora:** 13/06/2026 Ã s 10:30 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - **Reescrita do Cronograma:** Substituição total da lógica antiga pela nova estrutura completa de 33 semanas (13/06/2026 a 31/01/2027) com data-alvo de prova para 17/01/2027.
-  - **Fases Pedagógicas Integradas:** Distribuídas as semanas em 5 fases (Fase 1: Estudo Inicial de 14 semanas; Fase 2: 1ª Revisão Espaçada de 7 semanas; Fase 3: 2ª Revisão Espaçada de 4 semanas; Fase 4: Simulados Intensivos de 4 semanas; Fase 5: 3ª Revisão Final de 4 semanas).
-  - **Exibição Avançada em 4 Abas:**
-    1. *Visão Geral*: Linha do tempo interativa e status das fases (Futura, Atual, Concluída) baseado no cálculo automático do tempo real.
-    2. *Semana Atual*: Divisão de tarefas diárias detalhadas de Sábado a Sexta-feira. Adicionados botões e redirecionamento direto aos tópicos do aplicativo (Estudar Teoria e Praticar Questões) via callback `onNavigate`.
-    3. *Calendário de Revisões*: Tabela de controle de revisão espaçada mostrando em quais semanas específicas do plano cada tópico será revisado (1ª, 2ª e 3ª revisão).
-    4. *Checklist*: Lista de checkboxes persistidos localmente (`rm2_cronograma_v2`) para marcar avanço em Teoria, Básico, Avançado e Revisão para cada um dos 28 tópicos.
-  - **Métricas Visuais e Countdown:** Indicador de progresso geral do cronograma, painel de tópicos dominados (aproveitamento >= 70% usando dados do `useRM2Data`) e contagem regressiva em dias para a prova objetiva.
-- **Validação:**
-  - Execução de `npx tsc --noEmit` ✅ zero erros
-  - Execução de `npm run build` ✅ compilação concluída com sucesso (Exit code: 0)
+  - **Reescrita do Cronograma:** SubstituiÃ§Ã£o total da lÃ³gica antiga pela nova estrutura completa de 33 semanas (13/06/2026 a 31/01/2027) com data-alvo de prova para 17/01/2027.
+  - **Fases PedagÃ³gicas Integradas:** DistribuÃ­das as semanas em 5 fases (Fase 1: Estudo Inicial de 14 semanas; Fase 2: 1Âª RevisÃ£o EspaÃ§ada de 7 semanas; Fase 3: 2Âª RevisÃ£o EspaÃ§ada de 4 semanas; Fase 4: Simulados Intensivos de 4 semanas; Fase 5: 3Âª RevisÃ£o Final de 4 semanas).
+  - **ExibiÃ§Ã£o AvanÃ§ada em 4 Abas:**
+    1. *VisÃ£o Geral*: Linha do tempo interativa e status das fases (Futura, Atual, ConcluÃ­da) baseado no cÃ¡lculo automÃ¡tico do tempo real.
+    2. *Semana Atual*: DivisÃ£o de tarefas diÃ¡rias detalhadas de SÃ¡bado a Sexta-feira. Adicionados botÃµes e redirecionamento direto aos tÃ³picos do aplicativo (Estudar Teoria e Praticar QuestÃµes) via callback `onNavigate`.
+    3. *CalendÃ¡rio de RevisÃµes*: Tabela de controle de revisÃ£o espaÃ§ada mostrando em quais semanas especÃ­ficas do plano cada tÃ³pico serÃ¡ revisado (1Âª, 2Âª e 3Âª revisÃ£o).
+    4. *Checklist*: Lista de checkboxes persistidos localmente (`rm2_cronograma_v2`) para marcar avanÃ§o em Teoria, BÃ¡sico, AvanÃ§ado e RevisÃ£o para cada um dos 28 tÃ³picos.
+  - **MÃ©tricas Visuais e Countdown:** Indicador de progresso geral do cronograma, painel de tÃ³picos dominados (aproveitamento >= 70% usando dados do `useRM2Data`) e contagem regressiva em dias para a prova objetiva.
+- **ValidaÃ§Ã£o:**
+  - ExecuÃ§Ã£o de `npx tsc --noEmit` âœ… zero erros
+  - ExecuÃ§Ã£o de `npm run build` âœ… compilaÃ§Ã£o concluÃ­da com sucesso (Exit code: 0)
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Cronograma.tsx` **[ATUALIZADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
@@ -986,41 +986,41 @@ docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
 
 ---
 
-### Parte 37 — Cronograma RM2 Ajustado para Segunda-Feira 15/06/2026 com 33 Semanas e 5 Dias Úteis
-- **Data e hora:** 13/06/2026 às 11:28 (Horário Local)
+### Parte 37 â€” Cronograma RM2 Ajustado para Segunda-Feira 15/06/2026 com 33 Semanas e 5 Dias Ãšteis
+- **Data e hora:** 13/06/2026 Ã s 11:28 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - **Ajuste de Data de Início:** Atualizada a data de início oficial dos estudos para **15/06/2026** (segunda-feira) e término em **29/01/2027** (33 semanas exatas), alinhando o cronograma pedagógico com as orientações mais recentes.
-  - **Reestruturação Semanal de 5 Dias:** Os dias de estudo de cada semana foram definidos estritamente de segunda a sexta-feira, eliminando a escala de final de semana para foco total nos dias úteis e descanso regular.
-  - **Cálculo de Progresso e Métricas por Área:** Adicionada a barra de aproveitamento de checklists específica para Gramática e Compreensão de Texto no painel de checklists, facilitando a visualização rápida do desempenho por matéria.
-  - **Correções do Calendário de Revisões:** Corrigido o cálculo de status de cada ciclo (Inicial, 1ª, 2ª e 3ª revisão) com base no número da semana de forma dinâmica para mostrar os status `⏳`, `📍` e `✅`.
-- **Validação:**
-  - Execução de `npx tsc --noEmit` ✅ zero erros
-  - Execução de `npm run build` ✅ compilação concluída com sucesso (Exit code: 0)
+  - **Ajuste de Data de InÃ­cio:** Atualizada a data de inÃ­cio oficial dos estudos para **15/06/2026** (segunda-feira) e tÃ©rmino em **29/01/2027** (33 semanas exatas), alinhando o cronograma pedagÃ³gico com as orientaÃ§Ãµes mais recentes.
+  - **ReestruturaÃ§Ã£o Semanal de 5 Dias:** Os dias de estudo de cada semana foram definidos estritamente de segunda a sexta-feira, eliminando a escala de final de semana para foco total nos dias Ãºteis e descanso regular.
+  - **CÃ¡lculo de Progresso e MÃ©tricas por Ã�rea:** Adicionada a barra de aproveitamento de checklists especÃ­fica para GramÃ¡tica e CompreensÃ£o de Texto no painel de checklists, facilitando a visualizaÃ§Ã£o rÃ¡pida do desempenho por matÃ©ria.
+  - **CorreÃ§Ãµes do CalendÃ¡rio de RevisÃµes:** Corrigido o cÃ¡lculo de status de cada ciclo (Inicial, 1Âª, 2Âª e 3Âª revisÃ£o) com base no nÃºmero da semana de forma dinÃ¢mica para mostrar os status `â�³`, `ðŸ“�` e `âœ…`.
+- **ValidaÃ§Ã£o:**
+  - ExecuÃ§Ã£o de `npx tsc --noEmit` âœ… zero erros
+  - ExecuÃ§Ã£o de `npm run build` âœ… compilaÃ§Ã£o concluÃ­da com sucesso (Exit code: 0)
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Cronograma.tsx` **[ATUALIZADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 38 — Estrutura de dados para o módulo Espanhol
-- **Data e hora:** 15/06/2026 às 09:07 (Horário Local)
+### Parte 38 â€” Estrutura de dados para o mÃ³dulo Espanhol
+- **Data e hora:** 15/06/2026 Ã s 09:07 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Criado o arquivo `src/data/espanholConteudo.ts` contendo a tipagem (`AssuntoEspanhol`, `AreaEspanhol`) e a definição das 5 áreas temáticas com os 20 assuntos/módulos previstos do curso de Espanhol.
-- **Validação:**
-  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
+  - Criado o arquivo `src/data/espanholConteudo.ts` contendo a tipagem (`AssuntoEspanhol`, `AreaEspanhol`) e a definiÃ§Ã£o das 5 Ã¡reas temÃ¡ticas com os 20 assuntos/mÃ³dulos previstos do curso de Espanhol.
+- **ValidaÃ§Ã£o:**
+  - `npx tsc --noEmit` âœ… compilado sem erros no TypeScript.
 - **Arquivos modificados:**
   - `src/data/espanholConteudo.ts` **[NOVO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 39 — Indexador de conteúdos do módulo Espanhol
-- **Data e hora:** 15/06/2026 às 09:08 (Horário Local)
+### Parte 39 â€” Indexador de conteÃºdos do mÃ³dulo Espanhol
+- **Data e hora:** 15/06/2026 Ã s 09:08 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Criado o arquivo `src/data/espanholIndex.ts` para mapear os imports dinâmicos dos 20 JSONs de conteúdo de espanhol (`esp-01.json` a `esp-20.json`).
-  - Criados os arquivos JSON de marcação vazios (placeholders `{}`) em `src/data/conteudo/esp-01.json` a `esp-20.json` para permitir que o indexador TypeScript compile sem erros de importação ausente.
-- **Validação:**
-  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
+  - Criado o arquivo `src/data/espanholIndex.ts` para mapear os imports dinÃ¢micos dos 20 JSONs de conteÃºdo de espanhol (`esp-01.json` a `esp-20.json`).
+  - Criados os arquivos JSON de marcaÃ§Ã£o vazios (placeholders `{}`) em `src/data/conteudo/esp-01.json` a `esp-20.json` para permitir que o indexador TypeScript compile sem erros de importaÃ§Ã£o ausente.
+- **ValidaÃ§Ã£o:**
+  - `npx tsc --noEmit` âœ… compilado sem erros no TypeScript.
 - **Arquivos modificados:**
   - `src/data/espanholIndex.ts` **[NOVO]**
   - `src/data/conteudo/esp-*.json` **[NOVO]** (placeholders de esp-01 a esp-20)
@@ -1028,155 +1028,155 @@ docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
 
 ---
 
-### Parte 40 — Hook de progresso do módulo Espanhol
-- **Data e hora:** 15/06/2026 às 09:10 (Horário Local)
+### Parte 40 â€” Hook de progresso do mÃ³dulo Espanhol
+- **Data e hora:** 15/06/2026 Ã s 09:10 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Criado o arquivo `src/lib/useEspanholData.ts` para gerenciar a persistência local (no `localStorage`) do progresso do usuário no módulo de Espanhol (teoria visualizada, questões resolvidas, acertos e simulados).
+  - Criado o arquivo `src/lib/useEspanholData.ts` para gerenciar a persistÃªncia local (no `localStorage`) do progresso do usuÃ¡rio no mÃ³dulo de Espanhol (teoria visualizada, questÃµes resolvidas, acertos e simulados).
   - Adicionado o casting de tipo `as ProgressoAssuntoEspanhol[]` em `Object.values(progresso)` para compatibilidade estrita do compilador TypeScript.
-- **Validação:**
-  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
+- **ValidaÃ§Ã£o:**
+  - `npx tsc --noEmit` âœ… compilado sem erros no TypeScript.
 - **Arquivos modificados:**
   - `src/lib/useEspanholData.ts` **[NOVO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 41 — Dashboard do módulo Espanhol
-- **Data e hora:** 15/06/2026 às 09:12 (Horário Local)
+### Parte 41 â€” Dashboard do mÃ³dulo Espanhol
+- **Data e hora:** 15/06/2026 Ã s 09:12 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Criado o componente de dashboard `src/components/espanhol/EspanholDashboard.tsx` que apresenta cartões de status do progresso geral, teorias vistas, módulos concluídos, barra de progresso visual e a listagem interativa de todos os 20 módulos do edital de espanhol agrupados por suas áreas temáticas (Fundamentos, Verbos, Vocabulário, Comunicação Escrita e Simulados DELE B1).
-- **Validação:**
-  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
+  - Criado o componente de dashboard `src/components/espanhol/EspanholDashboard.tsx` que apresenta cartÃµes de status do progresso geral, teorias vistas, mÃ³dulos concluÃ­dos, barra de progresso visual e a listagem interativa de todos os 20 mÃ³dulos do edital de espanhol agrupados por suas Ã¡reas temÃ¡ticas (Fundamentos, Verbos, VocabulÃ¡rio, ComunicaÃ§Ã£o Escrita e Simulados DELE B1).
+- **ValidaÃ§Ã£o:**
+  - `npx tsc --noEmit` âœ… compilado sem erros no TypeScript.
 - **Arquivos modificados:**
   - `src/components/espanhol/EspanholDashboard.tsx` **[NOVO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 42 — Componente de Teoria do módulo Espanhol
-- **Data e hora:** 15/06/2026 às 09:17 (Horário Local)
+### Parte 42 â€” Componente de Teoria do mÃ³dulo Espanhol
+- **Data e hora:** 15/06/2026 Ã s 09:17 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Criado o componente de visualização de conteúdo teórico `src/components/espanhol/EspanholTeoria.tsx`. O componente inclui suporte para carregar o JSON do módulo correspondente, seleção dinâmica de nível (básico, intermediário, avançado) com limitação de blocos exibidos de acordo com o nível selecionado, painel retrátil de resumo rápido, e seções dedicadas para "Pegadinhas" e "Cascas de Banana" com marcação de conclusão de teoria.
-- **Validação:**
-  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
+  - Criado o componente de visualizaÃ§Ã£o de conteÃºdo teÃ³rico `src/components/espanhol/EspanholTeoria.tsx`. O componente inclui suporte para carregar o JSON do mÃ³dulo correspondente, seleÃ§Ã£o dinÃ¢mica de nÃ­vel (bÃ¡sico, intermediÃ¡rio, avanÃ§ado) com limitaÃ§Ã£o de blocos exibidos de acordo com o nÃ­vel selecionado, painel retrÃ¡til de resumo rÃ¡pido, e seÃ§Ãµes dedicadas para "Pegadinhas" e "Cascas de Banana" com marcaÃ§Ã£o de conclusÃ£o de teoria.
+- **ValidaÃ§Ã£o:**
+  - `npx tsc --noEmit` âœ… compilado sem erros no TypeScript.
 - **Arquivos modificados:**
   - `src/components/espanhol/EspanholTeoria.tsx` **[NOVO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 43 — Componente de Questões do módulo Espanhol
-- **Data e hora:** 15/06/2026 às 09:43 (Horário Local)
+### Parte 43 â€” Componente de QuestÃµes do mÃ³dulo Espanhol
+- **Data e hora:** 15/06/2026 Ã s 09:43 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Criado o componente de resolução de questões `src/components/espanhol/EspanholQuestoes.tsx`. O componente lida com a carga de questões baseada no nível selecionado (básico, intermediário, avançado, ou desafio), renderização do progresso atual, barra de progresso visual, cálculo de aproveitamento com salvamento de resultados via hook de persistência, gabarito instantâneo com explicações detalhadas, e tela final de resultados contendo revisão de todas as questões respondidas.
-  - Atualizado o hook `useEspanholData.ts` adicionando a função `registrarQuestoes` como facilitadora para adequação das assinaturas de persistência das respostas.
-- **Validação:**
-  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
-  - `npm run build` ✅ build de produção concluído com sucesso.
+  - Criado o componente de resoluÃ§Ã£o de questÃµes `src/components/espanhol/EspanholQuestoes.tsx`. O componente lida com a carga de questÃµes baseada no nÃ­vel selecionado (bÃ¡sico, intermediÃ¡rio, avanÃ§ado, ou desafio), renderizaÃ§Ã£o do progresso atual, barra de progresso visual, cÃ¡lculo de aproveitamento com salvamento de resultados via hook de persistÃªncia, gabarito instantÃ¢neo com explicaÃ§Ãµes detalhadas, e tela final de resultados contendo revisÃ£o de todas as questÃµes respondidas.
+  - Atualizado o hook `useEspanholData.ts` adicionando a funÃ§Ã£o `registrarQuestoes` como facilitadora para adequaÃ§Ã£o das assinaturas de persistÃªncia das respostas.
+- **ValidaÃ§Ã£o:**
+  - `npx tsc --noEmit` âœ… compilado sem erros no TypeScript.
+  - `npm run build` âœ… build de produÃ§Ã£o concluÃ­do com sucesso.
 - **Arquivos modificados:**
-  - `src/lib/useEspanholData.ts` **[MODIFICADO]** (adicionada função registrarQuestoes para compatibilidade)
+  - `src/lib/useEspanholData.ts` **[MODIFICADO]** (adicionada funÃ§Ã£o registrarQuestoes para compatibilidade)
   - `src/components/espanhol/EspanholQuestoes.tsx` **[NOVO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 44 — Componente de Simulado do módulo Espanhol
-- **Data e hora:** 15/06/2026 às 09:49 (Horário Local)
+### Parte 44 â€” Componente de Simulado do mÃ³dulo Espanhol
+- **Data e hora:** 15/06/2026 Ã s 09:49 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Criado o componente de simulação de provas `src/components/espanhol/EspanholSimulacao.tsx`. Ele gerencia a configuração do simulado (modos Rápido de 10 questões e 30 minutos, e Completo de 20 questões e 60 minutos), coleta de questões de nível "avançado" de todos os módulos disponíveis do edital de espanhol com embaralhamento automático, cronômetro regressivo na tela, gravação de históricos no `localStorage` e gabarito final comentado.
-  - Atualizado o hook `useEspanholData.ts` adicionando a função `registrarSimulado` para compatibilidade com o salvamento de resultados de simulação de espanhol.
-- **Validação:**
-  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
-  - `npm run build` ✅ build de produção concluído com sucesso.
+  - Criado o componente de simulaÃ§Ã£o de provas `src/components/espanhol/EspanholSimulacao.tsx`. Ele gerencia a configuraÃ§Ã£o do simulado (modos RÃ¡pido de 10 questÃµes e 30 minutos, e Completo de 20 questÃµes e 60 minutos), coleta de questÃµes de nÃ­vel "avanÃ§ado" de todos os mÃ³dulos disponÃ­veis do edital de espanhol com embaralhamento automÃ¡tico, cronÃ´metro regressivo na tela, gravaÃ§Ã£o de histÃ³ricos no `localStorage` e gabarito final comentado.
+  - Atualizado o hook `useEspanholData.ts` adicionando a funÃ§Ã£o `registrarSimulado` para compatibilidade com o salvamento de resultados de simulaÃ§Ã£o de espanhol.
+- **ValidaÃ§Ã£o:**
+  - `npx tsc --noEmit` âœ… compilado sem erros no TypeScript.
+  - `npm run build` âœ… build de produÃ§Ã£o concluÃ­do com sucesso.
 - **Arquivos modificados:**
-  - `src/lib/useEspanholData.ts` **[MODIFICADO]** (adicionada função registrarSimulado para compatibilidade)
+  - `src/lib/useEspanholData.ts` **[MODIFICADO]** (adicionada funÃ§Ã£o registrarSimulado para compatibilidade)
   - `src/components/espanhol/EspanholSimulacao.tsx` **[NOVO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 45 — Integração da Aba Espanhol no Layout Principal
-- **Data e hora:** 15/06/2026 às 10:01 (Horário Local)
+### Parte 45 â€” IntegraÃ§Ã£o da Aba Espanhol no Layout Principal
+- **Data e hora:** 15/06/2026 Ã s 10:01 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Criado o componente shell principal da aba de espanhol: `src/components/espanhol/EstudoEspanhol.tsx` para gerenciar a alternância de sub-visualizações (Início/Dashboard, Teoria, Questões, Simulado) e resolver a navegação a partir do Dashboard localizando os objetos de assunto por ID a partir de `areasEspanhol`.
-  - Editado cirurgicamente o arquivo `src/App.tsx` para importar `EstudoEspanhol`, registrar a nova aba "Espanhol" com o ícone `Languages` no array `TABS`, e adicioná-la ao renderizador dinâmico de abas `CurrentView`.
-- **Validação:**
-  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript (após a importação explícita de `React` no shell principal).
-  - `npm run build` ✅ build de produção concluído com sucesso.
+  - Criado o componente shell principal da aba de espanhol: `src/components/espanhol/EstudoEspanhol.tsx` para gerenciar a alternÃ¢ncia de sub-visualizaÃ§Ãµes (InÃ­cio/Dashboard, Teoria, QuestÃµes, Simulado) e resolver a navegaÃ§Ã£o a partir do Dashboard localizando os objetos de assunto por ID a partir de `areasEspanhol`.
+  - Editado cirurgicamente o arquivo `src/App.tsx` para importar `EstudoEspanhol`, registrar a nova aba "Espanhol" com o Ã­cone `Languages` no array `TABS`, e adicionÃ¡-la ao renderizador dinÃ¢mico de abas `CurrentView`.
+- **ValidaÃ§Ã£o:**
+  - `npx tsc --noEmit` âœ… compilado sem erros no TypeScript (apÃ³s a importaÃ§Ã£o explÃ­cita de `React` no shell principal).
+  - `npm run build` âœ… build de produÃ§Ã£o concluÃ­do com sucesso.
 - **Arquivos modificados:**
   - `src/components/espanhol/EstudoEspanhol.tsx` **[NOVO]**
-  - `src/App.tsx` **[MODIFICADO]** (integração da nova aba e seu renderizador)
+  - `src/App.tsx` **[MODIFICADO]** (integraÃ§Ã£o da nova aba e seu renderizador)
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 46 — Refatoração do EstudoEspanhol para layout idêntico ao RM2
-- **Data e hora:** 15/06/2026 às 10:27 (Horário Local)
+### Parte 46 â€” RefatoraÃ§Ã£o do EstudoEspanhol para layout idÃªntico ao RM2
+- **Data e hora:** 15/06/2026 Ã s 10:27 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Reescrito completamente o arquivo `src/components/espanhol/EstudoEspanhol.tsx` com o novo layout visual idêntico ao `EstudoRM2.tsx`. O componente agora exibe: cabeçalho com ícone `Languages` e breadcrumb da aba ativa; barra de sub-navegação com botões estilizados (azul sólido para ativo, texto cinza para inativo); seletor de módulo em grid (exibido quando nenhum assunto está selecionado nas abas Teoria e Questões); e separador horizontal entre header e conteúdo.
-  - Adaptações necessárias em relação ao prompt original: corrigido nome do export (`areasEspanhol` ao invés de `espanholAreas`) e campo de exibição (`titulo` ao invés de `nome`); removidos props inexistentes nos sub-componentes (`onIrParaQuestoes`, `onFinalizou`, `modo`, `onFinalizar`) mantendo apenas as interfaces reais. Nenhum outro arquivo foi alterado.
-- **Validação:**
-  - `npx tsc --noEmit` ✅ compilado sem erros no TypeScript.
-  - `npm run build` ✅ build de produção concluído com sucesso (Exit code: 0).
+  - Reescrito completamente o arquivo `src/components/espanhol/EstudoEspanhol.tsx` com o novo layout visual idÃªntico ao `EstudoRM2.tsx`. O componente agora exibe: cabeÃ§alho com Ã­cone `Languages` e breadcrumb da aba ativa; barra de sub-navegaÃ§Ã£o com botÃµes estilizados (azul sÃ³lido para ativo, texto cinza para inativo); seletor de mÃ³dulo em grid (exibido quando nenhum assunto estÃ¡ selecionado nas abas Teoria e QuestÃµes); e separador horizontal entre header e conteÃºdo.
+  - AdaptaÃ§Ãµes necessÃ¡rias em relaÃ§Ã£o ao prompt original: corrigido nome do export (`areasEspanhol` ao invÃ©s de `espanholAreas`) e campo de exibiÃ§Ã£o (`titulo` ao invÃ©s de `nome`); removidos props inexistentes nos sub-componentes (`onIrParaQuestoes`, `onFinalizou`, `modo`, `onFinalizar`) mantendo apenas as interfaces reais. Nenhum outro arquivo foi alterado.
+- **ValidaÃ§Ã£o:**
+  - `npx tsc --noEmit` âœ… compilado sem erros no TypeScript.
+  - `npm run build` âœ… build de produÃ§Ã£o concluÃ­do com sucesso (Exit code: 0).
 - **Arquivos modificados:**
   - `src/components/espanhol/EstudoEspanhol.tsx` **[MODIFICADO]** (reescrita completa do layout)
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 47 — Execução do Script de Auditoria de Conteúdos
-- **Data e hora:** 15/06/2026 às 18:46 (Horário Local)
+### Parte 47 â€” ExecuÃ§Ã£o do Script de Auditoria de ConteÃºdos
+- **Data e hora:** 15/06/2026 Ã s 18:46 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Executada a auditoria automatizada através do script `audita_conteudo.py` na pasta `src/data/conteudo/` para mapear os 28 arquivos JSON estáticos de Língua Portuguesa.
-  - A auditoria gerou a listagem detalhada mostrando identificadores internos, títulos, áreas de estudo, resumos e quantidades de questões, simulados e desafios de cada módulo.
+  - Executada a auditoria automatizada atravÃ©s do script `audita_conteudo.py` na pasta `src/data/conteudo/` para mapear os 28 arquivos JSON estÃ¡ticos de LÃ­ngua Portuguesa.
+  - A auditoria gerou a listagem detalhada mostrando identificadores internos, tÃ­tulos, Ã¡reas de estudo, resumos e quantidades de questÃµes, simulados e desafios de cada mÃ³dulo.
 - **Arquivos modificados:**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 48 — Correção Cirúrgica Definitiva do Deslocamento de Conteúdo RM2 (v2)
-- **Data e hora:** 15/06/2026 às 22:02 (Horário Local)
+### Parte 48 â€” CorreÃ§Ã£o CirÃºrgica Definitiva do Deslocamento de ConteÃºdo RM2 (v2)
+- **Data e hora:** 15/06/2026 Ã s 22:02 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Diagnosticado que o deslocamento de conteúdos nos 28 arquivos JSON não era um passo cíclico uniforme de +2, mas um mapa irregular causado por 3 fusões de pares de tópicos durante a geração original (Flexão Nom+Verbal, Concordância Nom+Verbal, Coesão+Coerência) e 2 conteúdos extras sem tópico correspondente (Paralelismo Sintático e Propósitos do Autor).
-  - Criado e executado o script `corrige_deslocamento_v2.py` com mapa 1:1 manual cirúrgico, usando as seguintes estratégias acordadas:
-    - **Pares fundidos** (gram-05, gram-09, comp-10 originais): conteúdo duplicado nos dois destinos correspondentes — cada arquivo recebe teoria+questões+simulado+desafio completos. Ex: `gram-06` (Flexão Nominal) e `gram-07` (Flexão Verbal) ambos recebem o conteúdo de `gram-05` original.
-    - **Conteúdo extra** (Paralelismo Sintático de gram-14 original, Propósitos do Autor de comp-02 original): incorporados como **blocos de teoria complementares** nos tópicos mais próximos (`comp-10` Reescritura e `comp-01` Leitura, respectivamente), marcados com prefixo `[Conteúdo complementar — ...]` para rastreabilidade.
-    - **Arquivos já corretos** (comp-05 a comp-09): mantidos intocados.
-  - Executado dry-run (geração de `.json.new`) e validação manual de 2 arquivos críticos (`gram-14.json.new` e `comp-10.json.new`) antes da aplicação.
-  - Aplicado com `--apply`: todos os 28 `.json` sobrescritos com o conteúdo corrigido; backups `.json.bak` criados automaticamente.
-  - Auditoria final (`audita_conteudo.py`) confirmou: **28/28 arquivos com `[OK]`**, IDs e títulos alinhados.
-  - `npx tsc --noEmit` ✅ sem erros.
-  - `npm run build` ✅ Exit code: 0 (3119 módulos transformados, built in 10.37s).
+  - Diagnosticado que o deslocamento de conteÃºdos nos 28 arquivos JSON nÃ£o era um passo cÃ­clico uniforme de +2, mas um mapa irregular causado por 3 fusÃµes de pares de tÃ³picos durante a geraÃ§Ã£o original (FlexÃ£o Nom+Verbal, ConcordÃ¢ncia Nom+Verbal, CoesÃ£o+CoerÃªncia) e 2 conteÃºdos extras sem tÃ³pico correspondente (Paralelismo SintÃ¡tico e PropÃ³sitos do Autor).
+  - Criado e executado o script `corrige_deslocamento_v2.py` com mapa 1:1 manual cirÃºrgico, usando as seguintes estratÃ©gias acordadas:
+    - **Pares fundidos** (gram-05, gram-09, comp-10 originais): conteÃºdo duplicado nos dois destinos correspondentes â€” cada arquivo recebe teoria+questÃµes+simulado+desafio completos. Ex: `gram-06` (FlexÃ£o Nominal) e `gram-07` (FlexÃ£o Verbal) ambos recebem o conteÃºdo de `gram-05` original.
+    - **ConteÃºdo extra** (Paralelismo SintÃ¡tico de gram-14 original, PropÃ³sitos do Autor de comp-02 original): incorporados como **blocos de teoria complementares** nos tÃ³picos mais prÃ³ximos (`comp-10` Reescritura e `comp-01` Leitura, respectivamente), marcados com prefixo `[ConteÃºdo complementar â€” ...]` para rastreabilidade.
+    - **Arquivos jÃ¡ corretos** (comp-05 a comp-09): mantidos intocados.
+  - Executado dry-run (geraÃ§Ã£o de `.json.new`) e validaÃ§Ã£o manual de 2 arquivos crÃ­ticos (`gram-14.json.new` e `comp-10.json.new`) antes da aplicaÃ§Ã£o.
+  - Aplicado com `--apply`: todos os 28 `.json` sobrescritos com o conteÃºdo corrigido; backups `.json.bak` criados automaticamente.
+  - Auditoria final (`audita_conteudo.py`) confirmou: **28/28 arquivos com `[OK]`**, IDs e tÃ­tulos alinhados.
+  - `npx tsc --noEmit` âœ… sem erros.
+  - `npm run build` âœ… Exit code: 0 (3119 mÃ³dulos transformados, built in 10.37s).
   - Limpeza: removidos arquivos `.json.bak`, `antes.txt`, `antes_utf8.txt`, `depois.txt` e `scratch_read.py`.
-- **Débito técnico registrado:**
-  - Os tópicos `gram-06` (Flexão Nominal) e `gram-07` (Flexão Verbal) têm conteúdo idêntico (duplicado de `gram-05` original). Futuramente, gerar conteúdo exclusivo para Flexão Verbal e substituir `gram-07.json`.
-  - Mesmo para `gram-11`/`gram-12` (Concordância Nominal/Verbal) duplicados de `gram-09` original.
-  - `comp-11` (Coesão Textual) e `comp-12` (Coerência e Textualidade) têm o mesmo conteúdo principal, mas `comp-12` recebe adicionalmente os blocos extras de `comp-11` e `comp-12` originais como complemento.
+- **DÃ©bito tÃ©cnico registrado:**
+  - Os tÃ³picos `gram-06` (FlexÃ£o Nominal) e `gram-07` (FlexÃ£o Verbal) tÃªm conteÃºdo idÃªntico (duplicado de `gram-05` original). Futuramente, gerar conteÃºdo exclusivo para FlexÃ£o Verbal e substituir `gram-07.json`.
+  - Mesmo para `gram-11`/`gram-12` (ConcordÃ¢ncia Nominal/Verbal) duplicados de `gram-09` original.
+  - `comp-11` (CoesÃ£o Textual) e `comp-12` (CoerÃªncia e Textualidade) tÃªm o mesmo conteÃºdo principal, mas `comp-12` recebe adicionalmente os blocos extras de `comp-11` e `comp-12` originais como complemento.
 - **Arquivos modificados:**
-  - `src/data/conteudo/gram-01.json` a `gram-14.json` **[CORRIGIDOS]** (conteúdo realinhado ao tópico oficial)
+  - `src/data/conteudo/gram-01.json` a `gram-14.json` **[CORRIGIDOS]** (conteÃºdo realinhado ao tÃ³pico oficial)
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 49 — Cronograma com Status de Conclusão e Nível de Estudo
-- **Data e hora:** 16/06/2026 às 10:05 (Horário Local)
+### Parte 49 â€” Cronograma com Status de ConclusÃ£o e NÃ­vel de Estudo
+- **Data e hora:** 16/06/2026 Ã s 10:05 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Adicionado o campo `nivelPorTopico` nas tarefas diárias geradas no `useMemo` das `SEMANAS`.
-  - Mapeado o nível de estudo pedagógico por fase: primeira semana de cada tópico (Fase 1) = Básico, segunda passagem (Fase 2) = Intermediário, fase de revisão (Fase 3) = Avançado. Outras fases/atividades sem nível específico foram definidas como `null`.
-  - Exibida uma badge do nível ao lado da badge de atividade no card de tópicos recomendados (ex: "NÍVEL: BÁSICO", "NÍVEL: INTERMEDIÁRIO", "NÍVEL: AVANÇADO") quando disponível.
-  - Implementado botão de status diário cíclico à direita do card com três estados clicáveis: `⚪ Pendente` ➔ `🟡 Em Andamento` ➔ `✅ Concluído` ➔ volta para `⚪ Pendente`.
-  - Persistido o status de cada tarefa diária no `localStorage` sob a chave exclusiva `rm2_cronograma_status_diario` usando identificadores compostos: `semana{N}_{diaNome}_{topicoId}`.
+  - Adicionado o campo `nivelPorTopico` nas tarefas diÃ¡rias geradas no `useMemo` das `SEMANAS`.
+  - Mapeado o nÃ­vel de estudo pedagÃ³gico por fase: primeira semana de cada tÃ³pico (Fase 1) = BÃ¡sico, segunda passagem (Fase 2) = IntermediÃ¡rio, fase de revisÃ£o (Fase 3) = AvanÃ§ado. Outras fases/atividades sem nÃ­vel especÃ­fico foram definidas como `null`.
+  - Exibida uma badge do nÃ­vel ao lado da badge de atividade no card de tÃ³picos recomendados (ex: "NÃ�VEL: BÃ�SICO", "NÃ�VEL: INTERMEDIÃ�RIO", "NÃ�VEL: AVANÃ‡ADO") quando disponÃ­vel.
+  - Implementado botÃ£o de status diÃ¡rio cÃ­clico Ã  direita do card com trÃªs estados clicÃ¡veis: `âšª Pendente` âž” `ðŸŸ¡ Em Andamento` âž” `âœ… ConcluÃ­do` âž” volta para `âšª Pendente`.
+  - Persistido o status de cada tarefa diÃ¡ria no `localStorage` sob a chave exclusiva `rm2_cronograma_status_diario` usando identificadores compostos: `semana{N}_{diaNome}_{topicoId}`.
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
 
 ---
 
-### Parte 50 — Checklist de Tópico com Nível Intermediário
-- **Data e hora:** 16/06/2026 às 10:10 (Horário Local)
+### Parte 50 â€” Checklist de TÃ³pico com NÃ­vel IntermediÃ¡rio
+- **Data e hora:** 16/06/2026 Ã s 10:10 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Adicionada a quinta coluna de checkbox "INTERMEDIÁRIO (≥65%)" posicionada entre "BÁSICO (≥60%)" e "AVANÇADO (≥70%)" na aba "Checklist de Tópicos".
-  - O estado do checkbox "INTERMEDIÁRIO" foi integrado à persistência do `localStorage` sob a chave `rm2_cronograma_v2`, tratando a ausência do campo em dados antigos como `false` por padrão.
-  - Ajustado o cálculo da barra de progresso por área (Gramática e Compreensão de Texto) no topo da tela do Checklist para passar a considerar 5 checkpoints por assunto (Teoria, Básico, Intermediário, Avançado, Revisão) em vez de 4.
+  - Adicionada a quinta coluna de checkbox "INTERMEDIÃ�RIO (â‰¥65%)" posicionada entre "BÃ�SICO (â‰¥60%)" e "AVANÃ‡ADO (â‰¥70%)" na aba "Checklist de TÃ³picos".
+  - O estado do checkbox "INTERMEDIÃ�RIO" foi integrado Ã  persistÃªncia do `localStorage` sob a chave `rm2_cronograma_v2`, tratando a ausÃªncia do campo em dados antigos como `false` por padrÃ£o.
+  - Ajustado o cÃ¡lculo da barra de progresso por Ã¡rea (GramÃ¡tica e CompreensÃ£o de Texto) no topo da tela do Checklist para passar a considerar 5 checkpoints por assunto (Teoria, BÃ¡sico, IntermediÃ¡rio, AvanÃ§ado, RevisÃ£o) em vez de 4.
   - Validado o build com `npx tsc --noEmit` (zero erros TypeScript) e `npm run build` (sucesso com Exit code: 0).
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
@@ -1184,23 +1184,23 @@ docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
 
 ---
 
-### Parte 51 — Corrigir estado inicial do seletor de nível em RM2Questoes
-- **Data e hora:** 20/06/2026 às 09:25 (Horário Local)
+### Parte 51 â€” Corrigir estado inicial do seletor de nÃ­vel em RM2Questoes
+- **Data e hora:** 20/06/2026 Ã s 09:25 (HorÃ¡rio Local)
 - **O que foi feito:**
   - Alterado o valor inicial do estado `nivel` de `'intermediario'` para `'basico'` no componente `RM2Questoes.tsx`.
-  - Executada a verificação de compilação com `tsc --noEmit` e o build com `npm run build` confirmando sucesso na alteração e ausência de erros (Exit code: 0).
+  - Executada a verificaÃ§Ã£o de compilaÃ§Ã£o com `tsc --noEmit` e o build com `npm run build` confirmando sucesso na alteraÃ§Ã£o e ausÃªncia de erros (Exit code: 0).
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Questoes.tsx` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 52 — Registrar gram-00 no conteudoIndex.ts e em rm2Conteudo.ts
-- **Data e hora:** 20/06/2026 às 09:31 (Horário Local)
+### Parte 52 â€” Registrar gram-00 no conteudoIndex.ts e em rm2Conteudo.ts
+- **Data e hora:** 20/06/2026 Ã s 09:31 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - `src/data/conteudoIndex.ts`: Adicionada a importação de `gram-00` no topo da área de gramática.
-  - `src/data/rm2Conteudo.ts`: Adicionado o objeto completo para o assunto `gram-00` ("Fonética e Fonologia") na seção de Gramática, imediatamente antes de `gram-04`.
-  - Compilação do TypeScript validada via `npx tsc --noEmit` e o build com `npm run build` confirmando sucesso absoluto e ausência de erros (Exit code: 0).
+  - `src/data/conteudoIndex.ts`: Adicionada a importaÃ§Ã£o de `gram-00` no topo da Ã¡rea de gramÃ¡tica.
+  - `src/data/rm2Conteudo.ts`: Adicionado o objeto completo para o assunto `gram-00` ("FonÃ©tica e Fonologia") na seÃ§Ã£o de GramÃ¡tica, imediatamente antes de `gram-04`.
+  - CompilaÃ§Ã£o do TypeScript validada via `npx tsc --noEmit` e o build com `npm run build` confirmando sucesso absoluto e ausÃªncia de erros (Exit code: 0).
 - **Arquivos modificados:**
   - `src/data/conteudoIndex.ts` **[MODIFICADO]**
   - `src/data/rm2Conteudo.ts` **[MODIFICADO]**
@@ -1208,14 +1208,14 @@ docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
 
 ---
 
-### Parte 53 — Substituição de gram-02 e Correção de Bug de Níveis no Módulo RM2
-- **Data e hora:** 20/06/2026 às 10:09 (Horário Local)
+### Parte 53 â€” SubstituiÃ§Ã£o de gram-02 e CorreÃ§Ã£o de Bug de NÃ­veis no MÃ³dulo RM2
+- **Data e hora:** 20/06/2026 Ã s 10:09 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - `src/data/conteudo/gram-02.json`: Substituído integralmente pelo conteúdo exclusivo de "Acentuação Gráfica".
-  - Auditoria dos níveis das questões: Script em Python varreu os 29 arquivos JSON para garantir que `questoes`, `simulado` e `desafio.questoes` estivessem com a propriedade `nivel` perfeitamente ajustada. Nenhuma inconsistência foi encontrada nas questões.
-  - Inserção estrutural de níveis: Inserida a propriedade `nivel` em todos os arrays `pegadinhas` e `cascas_de_banana` em 29 arquivos JSON. As classificações seguiram a distribuição de fatiamento original.
-  - `src/components/rm2/RM2Teoria.tsx`: A lógica de renderização foi atualizada. O `slice()` baseado em posições numéricas foi removido e trocado por um `filter()` fundamentado no nível selecionado, conferindo controle exato ao que o aluno estuda sem o risco de avançar precipitadamente a temas difíceis.
-  - Compilação do TypeScript validada via `npx tsc --noEmit` e build via `npm run build`, concluindo com sucesso (Exit code: 0).
+  - `src/data/conteudo/gram-02.json`: SubstituÃ­do integralmente pelo conteÃºdo exclusivo de "AcentuaÃ§Ã£o GrÃ¡fica".
+  - Auditoria dos nÃ­veis das questÃµes: Script em Python varreu os 29 arquivos JSON para garantir que `questoes`, `simulado` e `desafio.questoes` estivessem com a propriedade `nivel` perfeitamente ajustada. Nenhuma inconsistÃ£ncia foi encontrada nas questÃµes.
+  - InserÃ§Ã£o estrutural de nÃ­veis: Inserida a propriedade `nivel` em todos os arrays `pegadinhas` e `cascas_de_banana` em 29 arquivos JSON. As classificaÃ§Ãµes seguiram a distribuiÃ§Ã£o de fatiamento original.
+  - `src/components/rm2/RM2Teoria.tsx`: A lÃ³gica de renderizaÃ§Ã£o foi atualizada. O `slice()` baseado em posiÃ§Ãµes numÃ©ricas foi removido e trocado por um `filter()` fundamentado no nÃ­vel selecionado, conferindo controle exato ao que o aluno estuda sem o risco de avanÃ§ar precipitadamente a temas difÃ­ceis.
+  - CompilaÃ§Ã£o do TypeScript validada via `npx tsc --noEmit` e build via `npm run build`, concluindo com sucesso (Exit code: 0).
 - **Arquivos modificados:**
   - `src/data/conteudo/gram-02.json` **[MODIFICADO]**
   - Todos os 29 arquivos JSON em `src/data/conteudo/` **[MODIFICADO]**
@@ -1224,30 +1224,30 @@ docs: atualiza controle de conteúdo RM2 no RESUMO_MESTRE
 
 ---
 
-### Parte 54 — Atualização do Cronograma RM2 para 22 Semanas
-- **Data e hora:** 20/06/2026 às 10:18 (Horário Local)
+### Parte 54 â€” AtualizaÃ§Ã£o do Cronograma RM2 para 22 Semanas
+- **Data e hora:** 20/06/2026 Ã s 10:18 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - O período do cronograma foi reduzido de 33 semanas para 22 semanas (22/06/2026 a 16/11/2026) devido à previsão do novo edital.
-  - A proporção de duração das 5 Fases Pedagógicas originais foi recalculada: Fase 1 (10s), Fase 2 (5s), Fase 3 (3s), Fase 4 (2s) e Fase 5 (2s).
-  - Redistribuímos todos os 29 tópicos, incluindo a inserção de `gram-00` no início, preservando estritamente a ordem de ensino entre Gramática e Compreensão.
+  - O perÃ­odo do cronograma foi reduzido de 33 semanas para 22 semanas (22/06/2026 a 16/11/2026) devido Ã  previsÃ£o do novo edital.
+  - A proporÃ§Ã£o de duraÃ§Ã£o das 5 Fases PedagÃ³gicas originais foi recalculada: Fase 1 (10s), Fase 2 (5s), Fase 3 (3s), Fase 4 (2s) e Fase 5 (2s).
+  - RedistribuÃ­mos todos os 29 tÃ³picos, incluindo a inserÃ§Ã£o de `gram-00` no inÃ­cio, preservando estritamente a ordem de ensino entre GramÃ¡tica e CompreensÃ£o.
   - As constantes `INICIO_ESTUDOS` e `PROVA_PREVISTA` foram alteradas em `RM2Cronograma.tsx`.
-  - A lógica do `SEMANAS` foi readaptada para iterar até 3 tópicos semanais na Fase 1.
-  - Compilação validada com Exit code 0 via `npx tsc --noEmit` e `npm run build`.
+  - A lÃ³gica do `SEMANAS` foi readaptada para iterar atÃ© 3 tÃ³picos semanais na Fase 1.
+  - CompilaÃ§Ã£o validada com Exit code 0 via `npx tsc --noEmit` e `npm run build`.
 - **Arquivos modificados:**
   - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
 ---
 
-### Parte 55 - Auditoria de Gabaritos e Corre��o de Ambiguidade
-- **Data e hora:** 20/06/2026 �s 11:08 (Hor�rio Local)
+### Parte 55 - Auditoria de Gabaritos e Correção de Ambiguidade
+- **Data e hora:** 20/06/2026 às 11:08 (Horário Local)
 - **O que foi feito:**
-  - Executada auditoria de 1.250 quest�es (quest�es, simulados e desafios) em 25 arquivos JSON do RM2 para identificar inconsist�ncias entre o gabarito oficial e a explica��o fornecida.
-  - Foram corrigidos 4 casos �bvios automaticamente nos arquivos gram-01.json e gram-03.json.
-  - Foi corrigido 1 caso amb�guo no gram-01.json (quest�o d09): gabarito alterado de E para B, e explica��o reescrita mantendo o padr�o did�tico e corrigindo a an�lise do uso do h�fen em "contraordem".
-  - Valida��o via 
+  - Executada auditoria de 1.250 questões (questões, simulados e desafios) em 25 arquivos JSON do RM2 para identificar inconsistências entre o gabarito oficial e a explicação fornecida.
+  - Foram corrigidos 4 casos óbvios automaticamente nos arquivos gram-01.json e gram-03.json.
+  - Foi corrigido 1 caso ambíguo no gram-01.json (questão d09): gabarito alterado de E para B, e explicação reescrita mantendo o padrão didático e corrigindo a análise do uso do hífen em "contraordem".
+  - Validação via 
 px tsc --noEmit e 
-pm run build conclu�da com sucesso (Exit code: 0).
+pm run build concluída com sucesso (Exit code: 0).
 - **Arquivos modificados:**
   - src/data/conteudo/gram-01.json **[MODIFICADO]**
   - src/data/conteudo/gram-03.json **[MODIFICADO]**
@@ -1255,15 +1255,15 @@ pm run build conclu�da com sucesso (Exit code: 0).
 
 ---
 
-### Parte 56 - Substituição de Conteúdos Duplicados no Módulo RM2 (gram-07, gram-12, comp-12)
-- **Data e hora:** 20/06/2026 às 11:33 (Horário Local)
+### Parte 56 - SubstituiÃ§Ã£o de ConteÃºdos Duplicados no MÃ³dulo RM2 (gram-07, gram-12, comp-12)
+- **Data e hora:** 20/06/2026 Ã s 11:33 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Substituição integral dos arquivos gram-07.json (Flexão Verbal), gram-12.json (Concordância Verbal) e comp-12.json (Coerência e Textualidade) com os novos dados de conteúdo pedagógico.
-  - Correção na estrutura de gram-12.json (remoção da chave incorreta explicacode da questão q18).
-  - Todos os arquivos substituídos mantiveram a adesão estrita ao padrão de tipagem do projeto.
+  - SubstituiÃ§Ã£o integral dos arquivos gram-07.json (FlexÃ£o Verbal), gram-12.json (ConcordÃ¢ncia Verbal) e comp-12.json (CoerÃªncia e Textualidade) com os novos dados de conteÃºdo pedagÃ³gico.
+  - CorreÃ§Ã£o na estrutura de gram-12.json (remoÃ§Ã£o da chave incorreta explicacode da questÃ£o q18).
+  - Todos os arquivos substituÃ­dos mantiveram a adesÃ£o estrita ao padrÃ£o de tipagem do projeto.
   - Testes realizados com 
 px tsc --noEmit e 
-pm run build após cada etapa, todos finalizados com sucesso (Exit code 0).
+pm run build apÃ³s cada etapa, todos finalizados com sucesso (Exit code 0).
 - **Arquivos modificados:**
   - src/data/conteudo/gram-07.json **[MODIFICADO]**
   - src/data/conteudo/gram-12.json **[MODIFICADO]**
@@ -1273,12 +1273,12 @@ pm run build após cada etapa, todos finalizados com sucesso (Exit code 0).
 ---
 
 ### Parte 57 - Auditoria de Similaridade e Ajuste em gram-02
-- **Data e hora:** 20/06/2026 às 11:42 (Horário Local)
+- **Data e hora:** 20/06/2026 Ã s 11:42 (HorÃ¡rio Local)
 - **O que foi feito:**
-  - Correção pontual em gram-02.json (Questão q04): gabarito ajustado de A para B e explicação reescrita, eliminando "raciocínio em voz alta" e reforçando a justificativa de concordância temporal.
-  - Auditoria de Similaridade Cruzada (Jaccard) concluída com sucesso entre os pares de arquivos recentemente substituídos e seus originais correspondentes (gram-02 vs gram-01, gram-07 vs gram-06, gram-12 vs gram-11 e comp-12 vs comp-11).
-  - Verificou-se que não há sobreposição de conteúdo (0 questões similares acima de 85% e similaridade média teórica de ~15%).
-  - Validação final via 
+  - CorreÃ§Ã£o pontual em gram-02.json (QuestÃ£o q04): gabarito ajustado de A para B e explicaÃ§Ã£o reescrita, eliminando "raciocÃ­nio em voz alta" e reforÃ§ando a justificativa de concordÃ¢ncia temporal.
+  - Auditoria de Similaridade Cruzada (Jaccard) concluÃ­da com sucesso entre os pares de arquivos recentemente substituÃ­dos e seus originais correspondentes (gram-02 vs gram-01, gram-07 vs gram-06, gram-12 vs gram-11 e comp-12 vs comp-11).
+  - Verificou-se que nÃ£o hÃ¡ sobreposiÃ§Ã£o de conteÃºdo (0 questÃµes similares acima de 85% e similaridade mÃ©dia teÃ³rica de ~15%).
+  - ValidaÃ§Ã£o final via 
 px tsc --noEmit e 
 pm run build confirmada com Exit code 0.
 - **Arquivos modificados:**
@@ -1327,7 +1327,7 @@ pm run build confirmada com Exit code 0.
 - **Data e hora:** 22/06/2026 15:32
 - **O que foi feito:**
   - Corrigido gabarito da questao q09: alterado de "D" para "C" (UNIVERSIDADE = u-ni-ver-si-da-de = 6 silabas). Removido raciocinio em voz alta da explicacao, deixando apenas: "A divisao correta e u-ni-ver-si-da-de = 6 silabas."
-  - Corrigida explicacao da questao d14: removido raciocinio em voz alta exposto no campo explicacao. Novo texto: "O correto e 'A PAISANA' com crase (locucao adverbial feminina formada por preposicao A + artigo A implicito: 'a moda paisana'). CASA, CAFE e SERIE estao corretas. O gabarito desta questao deve ser revisado para E � 'a paisana' COM crase e a forma correta, portanto a frase da alternativa E esta correta, nao incorreta. Questao anulavel por ambiguidade."
+  - Corrigida explicacao da questao d14: removido raciocinio em voz alta exposto no campo explicacao. Novo texto: "O correto e 'A PAISANA' com crase (locucao adverbial feminina formada por preposicao A + artigo A implicito: 'a moda paisana'). CASA, CAFE e SERIE estao corretas. O gabarito desta questao deve ser revisado para E — 'a paisana' COM crase e a forma correta, portanto a frase da alternativa E esta correta, nao incorreta. Questao anulavel por ambiguidade."
   - Validacao: npx tsc --noEmit (Exit code 0) e npm run build (Exit code 0) executados com sucesso, sem erros de compilacao.
 - **Arquivos modificados:**
   - src/data/conteudo/gram-00.json **[MODIFICADO]**
@@ -1336,17 +1336,17 @@ pm run build confirmada com Exit code 0.
 
 ---
 
-### Parte 61-A � Reescrita das quest�es duplicadas em gram-12.json
+### Parte 61-A — Reescrita das questões duplicadas em gram-12.json
 - **Data e hora:** 22/06/2026 15:44
 - **O que foi feito:**
-  - Substitui��o de 4 quest�es no arquivo gram-12.json para eliminar duplica��es e garantir diversidade de temas.
-  - **q10:** Trocada para quest�o sobre concord�ncia com pronome relativo "que".
-  - **q18:** Trocada para quest�o sobre concord�ncia com sujeitos ligados por "ou" (exclus�o).
-  - **q22:** Trocada para quest�o sobre verbo "ser" com predicativo no plural.
-  - **q27:** Trocada para quest�o sobre concord�ncia com "existir" e "haver" (impessoais).
-  - Valida��o: 
+  - Substituição de 4 questões no arquivo gram-12.json para eliminar duplicações e garantir diversidade de temas.
+  - **q10:** Trocada para questão sobre concordância com pronome relativo "que".
+  - **q18:** Trocada para questão sobre concordância com sujeitos ligados por "ou" (exclusão).
+  - **q22:** Trocada para questão sobre verbo "ser" com predicativo no plural.
+  - **q27:** Trocada para questão sobre concordância com "existir" e "haver" (impessoais).
+  - Validação: 
 px tsc --noEmit (Exit code 0) e 
-pm run build (Exit code 0) executados com sucesso, sem erros de compila��o.
+pm run build (Exit code 0) executados com sucesso, sem erros de compilação.
 - **Arquivos modificados:**
   - src/data/conteudo/gram-12.json **[MODIFICADO]**
   - RESUMO_MESTRE.md **[ATUALIZADO]**
@@ -1354,14 +1354,14 @@ pm run build (Exit code 0) executados com sucesso, sem erros de compila��o.
 
 ---
 
-### Parte 61-B � Redistribui��o de gabaritos em comp-02.json e comp-10.json
+### Parte 61-B — Redistribuição de gabaritos em comp-02.json e comp-10.json
 - **Data e hora:** 22/06/2026 15:47
 - **O que foi feito:**
-  - Em \src/data/conteudo/comp-02.json\: As quest�es b�sicas (q01 a q10), que antes tinham gabarito concentrado na letra "A", tiveram as posi��es da alternativa correta redistribu�das para outras letras (C, B, D, C, B, E, D, B) usando um script que embaralhou as posi��es e atualizou a chave \gabarito\, sem perder o conte�do.
-  - Em \src/data/conteudo/comp-10.json\: Houve redistribui��o semelhante de gabaritos para diversas quest�es b�sicas (q02 a q09) e avan�adas (q22 a q30), mitigando a concentra��o na letra "A" (gabaritos ajustados para B, C, D, etc).
-  - Valida��o: \
+  - Em \src/data/conteudo/comp-02.json\: As questões básicas (q01 a q10), que antes tinham gabarito concentrado na letra "A", tiveram as posições da alternativa correta redistribuídas para outras letras (C, B, D, C, B, E, D, B) usando um script que embaralhou as posições e atualizou a chave \gabarito\, sem perder o conteúdo.
+  - Em \src/data/conteudo/comp-10.json\: Houve redistribuição semelhante de gabaritos para diversas questões básicas (q02 a q09) e avançadas (q22 a q30), mitigando a concentração na letra "A" (gabaritos ajustados para B, C, D, etc).
+  - Validação: \
 px tsc --noEmit\ (Exit code 0) e \
-pm run build\ (Exit code 0) executados com sucesso, sem erros de compila��o.
+pm run build\ (Exit code 0) executados com sucesso, sem erros de compilação.
 - **Arquivos modificados:**
   - \src/data/conteudo/comp-02.json\ **[MODIFICADO]**
   - \src/data/conteudo/comp-10.json\ **[MODIFICADO]**
@@ -1370,18 +1370,18 @@ pm run build\ (Exit code 0) executados com sucesso, sem erros de compila��o.
 
 ---
 
-### Parte 61-C � Corre��es pontuais de duplicatas em 6 arquivos
+### Parte 61-C — Correções pontuais de duplicatas em 6 arquivos
 - **Data e hora:** 22/06/2026 15:48
 - **O que foi feito:**
-  - Substitu�da a quest�o \q10\ em \gram-01.json\ por uma in�dita sobre uso de X com som de Z.
-  - Substitu�da a quest�o \q11\ em \gram-02.json\ por uma in�dita sobre perda de acento pelo Acordo Ortogr�fico de 1990.
-  - Substitu�da a quest�o \q22\ em \comp-09.json\ por uma in�dita abordando o discurso indireto livre.
-  - Atualizada a explica��o da quest�o \d14\ em \gram-11.json\ eliminando a c�pia da \d04\.
-  - Atualizadas as explica��es das quest�es \d05\ e \d10\ em \gram-14.json\ eliminando trechos iniciais id�nticos.
-  - Atualizada a explica��o da quest�o \d10\ em \comp-13.json\ eliminando o trecho inicial id�ntico � \d07\.
-  - Valida��o: \
+  - Substituída a questão \q10\ em \gram-01.json\ por uma inédita sobre uso de X com som de Z.
+  - Substituída a questão \q11\ em \gram-02.json\ por uma inédita sobre perda de acento pelo Acordo Ortográfico de 1990.
+  - Substituída a questão \q22\ em \comp-09.json\ por uma inédita abordando o discurso indireto livre.
+  - Atualizada a explicação da questão \d14\ em \gram-11.json\ eliminando a cópia da \d04\.
+  - Atualizadas as explicações das questões \d05\ e \d10\ em \gram-14.json\ eliminando trechos iniciais idênticos.
+  - Atualizada a explicação da questão \d10\ em \comp-13.json\ eliminando o trecho inicial idêntico à \d07\.
+  - Validação: \
 px tsc --noEmit\ e \
-pm run build\ conclu�dos com �xito (Exit code 0).
+pm run build\ concluídos com êxito (Exit code 0).
 - **Arquivos modificados:**
   - \src/data/conteudo/gram-01.json\ **[MODIFICADO]**
   - \src/data/conteudo/gram-02.json\ **[MODIFICADO]**
@@ -1394,10 +1394,10 @@ pm run build\ conclu�dos com �xito (Exit code 0).
 
 ---
 
-### Parte 62 � Redistribui��o posicional de gabaritos em comp-10.json (intermedi�rio)
+### Parte 62 — Redistribuição posicional de gabaritos em comp-10.json (intermediário)
 - **Data e hora:** 22/06/2026 15:54
 - **O que foi feito:**
-  - Reposicionamento das alternativas corretas (que estavam todas na posi��o "A") para mitigar vi�s posicional nas quest�es de n�vel intermedi�rio no arquivo \comp-10.json\.
+  - Reposicionamento das alternativas corretas (que estavam todas na posição "A") para mitigar viés posicional nas questões de nível intermediário no arquivo \comp-10.json\.
   - As alternativas foram preservadas integralmente, apenas suas chaves foram permutadas para posicionar a correta na letra designada.
   - \q11\: Gabarito movido para "C".
   - \q12\: Gabarito movido para "B".
@@ -1406,9 +1406,9 @@ pm run build\ conclu�dos com �xito (Exit code 0).
   - \q15\: Gabarito movido para "B".
   - \q16\: Gabarito movido para "D".
   - \q18\: Gabarito movido para "C".
-  - Valida��o: \
+  - Validação: \
 px tsc --noEmit\ e \
-pm run build\ conclu�dos com �xito (Exit code 0).
+pm run build\ concluídos com êxito (Exit code 0).
 - **Arquivos modificados:**
   - \src/data/conteudo/comp-10.json\ **[MODIFICADO]**
   - \RESUMO_MESTRE.md\ **[ATUALIZADO]**
@@ -1418,24 +1418,33 @@ pm run build\ conclu�dos com �xito (Exit code 0).
 - **Data e hora da alteracao**: 22/06/2026 16:11:38
 - **Arquivos modificados**: src/data/conteudo/gram-11.json
 ---
-### Parte 63 - Cria��o do Simulado 01
+### Parte 63 - Criação do Simulado 01
 - **Data e hora:** 22/06/2026 17:25
 - **O que foi feito:**
-  - Cria��o do arquivo \src/data/simulados/simulado-01.json\ com os textos e quest�es do simulado fornecido.
-  - Valida��o via build do TypeScript (\
+  - Criação do arquivo \src/data/simulados/simulado-01.json\ com os textos e questões do simulado fornecido.
+  - Validação via build do TypeScript (\
 px tsc --noEmit\) e VITE (\
 pm run build\), os quais rodaram e passaram sem erros com o Exit Code 0.
 - **Arquivos modificados:**
   - \src/data/simulados/simulado-01.json\ **[NOVO]**
   - \RESUMO_MESTRE.md\ **[ATUALIZADO]**
 ---
-### Parte 64 - Cria��o do Simulado 02
+### Parte 64 - Criação do Simulado 02
 - **Data e hora:** 22/06/2026 17:35
 - **O que foi feito:**
-  - Cria��o do arquivo \src/data/simulados/simulado-02.json\ contendo os textos, quest�es e o gabarito do Simulado 02.
-  - Valida��o de integridade do projeto via TypeScript (\
+  - Criação do arquivo \src/data/simulados/simulado-02.json\ contendo os textos, questões e o gabarito do Simulado 02.
+  - Validação de integridade do projeto via TypeScript (\
 px tsc --noEmit\) e VITE (\
-pm run build\). Exit Code 0 retornado, confirmando que as inser��es n�o geraram erros ou quebras no build de produ��o.
+pm run build\). Exit Code 0 retornado, confirmando que as inserções não geraram erros ou quebras no build de produção.
 - **Arquivos modificados:**
   - \src/data/simulados/simulado-02.json\ **[NOVO]**
+  - \RESUMO_MESTRE.md\ **[ATUALIZADO]**
+---
+### Parte 65 - Commit e Push: Simulados 01 e 02
+- **Data e hora:** 22/06/2026 17:38
+- **O que foi feito:**
+  - Realizado o commit das alterações contendo os arquivos \simulado-01.json\ e \simulado-02.json\, juntamente com as atualizações anteriores do \RESUMO_MESTRE.md\.
+  - Executado o \git push\ enviando os commits para o repositório remoto na branch principal.
+- **Arquivos modificados:**
+  - Nenhum arquivo local de código foi modificado nesta etapa além deste próprio resumo.
   - \RESUMO_MESTRE.md\ **[ATUALIZADO]**
