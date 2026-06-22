@@ -1332,3 +1332,61 @@ pm run build confirmada com Exit code 0.
 - **Arquivos modificados:**
   - src/data/conteudo/gram-00.json **[MODIFICADO]**
   - RESUMO_MESTRE.md **[ATUALIZADO]**
+
+
+---
+
+### Parte 61-A — Reescrita das questões duplicadas em gram-12.json
+- **Data e hora:** 22/06/2026 15:44
+- **O que foi feito:**
+  - Substituição de 4 questões no arquivo gram-12.json para eliminar duplicações e garantir diversidade de temas.
+  - **q10:** Trocada para questão sobre concordância com pronome relativo "que".
+  - **q18:** Trocada para questão sobre concordância com sujeitos ligados por "ou" (exclusão).
+  - **q22:** Trocada para questão sobre verbo "ser" com predicativo no plural.
+  - **q27:** Trocada para questão sobre concordância com "existir" e "haver" (impessoais).
+  - Validação: 
+px tsc --noEmit (Exit code 0) e 
+pm run build (Exit code 0) executados com sucesso, sem erros de compilação.
+- **Arquivos modificados:**
+  - src/data/conteudo/gram-12.json **[MODIFICADO]**
+  - RESUMO_MESTRE.md **[ATUALIZADO]**
+
+
+---
+
+### Parte 61-B — Redistribuição de gabaritos em comp-02.json e comp-10.json
+- **Data e hora:** 22/06/2026 15:47
+- **O que foi feito:**
+  - Em \src/data/conteudo/comp-02.json\: As questões básicas (q01 a q10), que antes tinham gabarito concentrado na letra "A", tiveram as posições da alternativa correta redistribuídas para outras letras (C, B, D, C, B, E, D, B) usando um script que embaralhou as posições e atualizou a chave \gabarito\, sem perder o conteúdo.
+  - Em \src/data/conteudo/comp-10.json\: Houve redistribuição semelhante de gabaritos para diversas questões básicas (q02 a q09) e avançadas (q22 a q30), mitigando a concentração na letra "A" (gabaritos ajustados para B, C, D, etc).
+  - Validação: \
+px tsc --noEmit\ (Exit code 0) e \
+pm run build\ (Exit code 0) executados com sucesso, sem erros de compilação.
+- **Arquivos modificados:**
+  - \src/data/conteudo/comp-02.json\ **[MODIFICADO]**
+  - \src/data/conteudo/comp-10.json\ **[MODIFICADO]**
+  - \RESUMO_MESTRE.md\ **[ATUALIZADO]**
+
+
+---
+
+### Parte 61-C — Correções pontuais de duplicatas em 6 arquivos
+- **Data e hora:** 22/06/2026 15:48
+- **O que foi feito:**
+  - Substituída a questão \q10\ em \gram-01.json\ por uma inédita sobre uso de X com som de Z.
+  - Substituída a questão \q11\ em \gram-02.json\ por uma inédita sobre perda de acento pelo Acordo Ortográfico de 1990.
+  - Substituída a questão \q22\ em \comp-09.json\ por uma inédita abordando o discurso indireto livre.
+  - Atualizada a explicação da questão \d14\ em \gram-11.json\ eliminando a cópia da \d04\.
+  - Atualizadas as explicações das questões \d05\ e \d10\ em \gram-14.json\ eliminando trechos iniciais idênticos.
+  - Atualizada a explicação da questão \d10\ em \comp-13.json\ eliminando o trecho inicial idêntico à \d07\.
+  - Validação: \
+px tsc --noEmit\ e \
+pm run build\ concluídos com êxito (Exit code 0).
+- **Arquivos modificados:**
+  - \src/data/conteudo/gram-01.json\ **[MODIFICADO]**
+  - \src/data/conteudo/gram-02.json\ **[MODIFICADO]**
+  - \src/data/conteudo/comp-09.json\ **[MODIFICADO]**
+  - \src/data/conteudo/gram-11.json\ **[MODIFICADO]**
+  - \src/data/conteudo/gram-14.json\ **[MODIFICADO]**
+  - \src/data/conteudo/comp-13.json\ **[MODIFICADO]**
+  - \RESUMO_MESTRE.md\ **[ATUALIZADO]**

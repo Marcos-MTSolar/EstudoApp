@@ -131,13 +131,13 @@
       "nivel": "basico",
       "enunciado": "Considere o enunciado: 'Todos os candidatos que obtiverem nota inferior a 40 pontos serão eliminados.' Qual informação está explícita nesse trecho?",
       "alternativas": {
-        "A": "A nota mínima para aprovação é 40 pontos.",
+        "A": "A maioria dos candidatos costuma ser eliminada.",
         "B": "Candidatos com 40 pontos ou mais serão aprovados.",
-        "C": "A maioria dos candidatos costuma ser eliminada.",
+        "C": "A nota mínima para aprovação é 40 pontos.",
         "D": "A prova possui questões de múltipla escolha.",
         "E": "Somente candidatos com mais de 40 pontos são aprovados."
       },
-      "gabarito": "A",
+      "gabarito": "C",
       "explicacao": "A alternativa A está explícita: quem tiver nota abaixo de 40 é eliminado, o que equivale a dizer que a nota mínima é 40. B é uma inferência lógica (quem não é eliminado passou), mas atenção: 'aprovados' pode não ser a palavra certa — podem ser apenas não eliminados nessa fase. C é inferência abusiva — frequência não foi mencionada. D é informação não presente no trecho. E modifica o critério: o texto fala em 'inferior a 40' (abaixo), logo quem tem exatamente 40 não é eliminado — a alternativa E, ao dizer 'mais de 40', exclui quem tem exatamente 40, distorcendo o critério."
     },
     {
@@ -145,13 +145,13 @@
       "nivel": "basico",
       "enunciado": "Leia: 'O candidato entregou o requerimento fora do prazo.' Qual pressuposto está contido nessa frase?",
       "alternativas": {
-        "A": "Havia um prazo estabelecido para a entrega do requerimento.",
-        "B": "O candidato foi desclassificado por entrar fora do prazo.",
+        "A": "O candidato foi desclassificado por entrar fora do prazo.",
+        "B": "Havia um prazo estabelecido para a entrega do requerimento.",
         "C": "O requerimento foi recusado pela banca examinadora.",
         "D": "O candidato não sabia do prazo.",
         "E": "O prazo foi insuficiente para os candidatos."
       },
-      "gabarito": "A",
+      "gabarito": "B",
       "explicacao": "A frase pressupõe que havia um prazo: só se pode entregar 'fora do prazo' se um prazo existia. Esse é o pressuposto necessário. B, C, D e E são inferências sobre consequências, intenções ou avaliações que não estão no texto e constituem inferências abusivas — o trecho não menciona desclassificação, recusa, conhecimento do prazo nem sua suficiência."
     },
     {
@@ -159,13 +159,13 @@
       "nivel": "basico",
       "enunciado": "O trecho 'A oficial ainda não recebeu sua promoção' pressupõe que:",
       "alternativas": {
-        "A": "Era esperado que a oficial recebesse sua promoção.",
+        "A": "A promoção foi cancelada definitivamente.",
         "B": "A oficial foi preterida injustamente.",
         "C": "A oficial não tem qualificações para ser promovida.",
-        "D": "A promoção foi cancelada definitivamente.",
+        "D": "Era esperado que a oficial recebesse sua promoção.",
         "E": "A oficial pediu sua promoção recentemente."
       },
-      "gabarito": "A",
+      "gabarito": "D",
       "explicacao": "O advérbio 'ainda' é marcador de pressuposto: indica que havia uma expectativa de que o evento ocorresse. A frase pressupõe, portanto, que havia expectativa de promoção para a oficial. B, C, D e E são julgamentos ou conclusões que vão além do pressuposto ativado — o texto não fala em injustiça, falta de qualificação, cancelamento definitivo nem em pedido recente."
     },
     {
@@ -187,13 +187,13 @@
       "nivel": "basico",
       "enunciado": "Considere: 'Mesmo o comandante votou a favor da proposta.' Qual informação está implícita nesse trecho?",
       "alternativas": {
-        "A": "Outros membros também votaram a favor da proposta.",
+        "A": "A proposta foi aprovada por unanimidade.",
         "B": "O comandante raramente concorda com propostas.",
-        "C": "A proposta foi aprovada por unanimidade.",
+        "C": "Outros membros também votaram a favor da proposta.",
         "D": "O comandante votou contrariando sua vontade.",
         "E": "A proposta beneficiava apenas o comandante."
       },
-      "gabarito": "A",
+      "gabarito": "C",
       "explicacao": "A palavra 'mesmo' funciona como marcador de inclusão — pressupõe que outros votaram a favor e o comandante foi incluído. A alternativa A capta esse pressuposto corretamente. B é inferência sobre hábito do comandante — não autorizada pelo texto. C afirma unanimidade — o texto não garante isso. D sobre contrariedade e E sobre benefício exclusivo são ambas inferências abusivas."
     },
     {
@@ -201,13 +201,13 @@
       "nivel": "basico",
       "enunciado": "Leia o fragmento: 'O relatório foi elaborado com base em dados coletados entre janeiro e março.' O que está explicitamente dito nesse fragmento?",
       "alternativas": {
-        "A": "O relatório utilizou dados do primeiro trimestre do ano.",
-        "B": "Os dados foram coletados por uma equipe especializada.",
+        "A": "Os dados foram coletados por uma equipe especializada.",
+        "B": "O relatório utilizou dados do primeiro trimestre do ano.",
         "C": "O relatório foi aprovado pela chefia em março.",
         "D": "A coleta de dados durou exatamente três meses.",
         "E": "O relatório é o mais completo já elaborado."
       },
-      "gabarito": "A",
+      "gabarito": "B",
       "explicacao": "Janeiro a março corresponde ao primeiro trimestre, portanto A é uma paráfrase válida da informação explícita. B acrescenta 'equipe especializada' — não mencionado. C afirma aprovação em março — inventado. D diz 'exatamente três meses' — o texto diz 'entre janeiro e março', o que pode não incluir os meses completos. E é juízo de valor sem respaldo."
     },
     {
@@ -215,13 +215,13 @@
       "nivel": "basico",
       "enunciado": "Texto: 'O edital determina que os candidatos devem apresentar diploma de graduação.' Qual das opções abaixo apresenta uma inferência lógica válida com base no trecho?",
       "alternativas": {
-        "A": "Candidatos sem diploma de graduação não atendem a esse requisito do edital.",
+        "A": "O diploma pode ser substituído por comprovante de matrícula.",
         "B": "O diploma de graduação deve ser de universidade pública.",
         "C": "Candidatos com pós-graduação estão automaticamente dispensados.",
         "D": "O edital exige exclusivamente diploma de Engenharia.",
-        "E": "O diploma pode ser substituído por comprovante de matrícula."
+        "E": "Candidatos sem diploma de graduação não atendem a esse requisito do edital."
       },
-      "gabarito": "A",
+      "gabarito": "E",
       "explicacao": "Se o edital exige diploma de graduação, quem não tem diploma não atende ao requisito — essa é uma inferência lógica necessária e direta. B restringe ao tipo de universidade, não mencionado. C fala em dispensa para pós-graduados — não previsto no texto. D limita a Engenharia sem base no trecho. E sugere substituição — contrária à exigência do edital."
     },
     {
@@ -229,13 +229,13 @@
       "nivel": "basico",
       "enunciado": "Leia: 'A embarcação partiu sem que todos os tripulantes estivessem a bordo.' Qual pressuposto está presente na frase?",
       "alternativas": {
-        "A": "Havia tripulantes que não embarcaram antes da partida.",
+        "A": "Os tripulantes ausentes foram punidos.",
         "B": "A embarcação partiu com destino desconhecido.",
         "C": "O comandante ordenou a partida precipitadamente.",
-        "D": "Os tripulantes ausentes foram punidos.",
+        "D": "Havia tripulantes que não embarcaram antes da partida.",
         "E": "A embarcação costuma partir com todos a bordo."
       },
-      "gabarito": "A",
+      "gabarito": "D",
       "explicacao": "A frase afirma explicitamente que 'nem todos os tripulantes estavam a bordo', pressupondo portanto que havia tripulantes ausentes (A). B sobre destino desconhecido não tem base. C sobre ordem precipitada é inferência sobre intenção não autorizada. D sobre punição é consequência inventada. E afirma um hábito — o texto menciona um evento específico, não um padrão."
     },
     {
@@ -243,13 +243,13 @@
       "nivel": "basico",
       "enunciado": "Considere o enunciado: 'Apenas os candidatos da lista geral foram convocados para a segunda fase.' Qual das alternativas apresenta uma informação IMPLÍCITA que pode ser inferida desse trecho?",
       "alternativas": {
-        "A": "Os candidatos de outras listas não foram convocados para a segunda fase.",
-        "B": "Os candidatos da lista geral são mais qualificados.",
+        "A": "Os candidatos da lista geral são mais qualificados.",
+        "B": "Os candidatos de outras listas não foram convocados para a segunda fase.",
         "C": "A segunda fase é a etapa mais difícil do processo.",
         "D": "Os candidatos não convocados foram desclassificados definitivamente.",
         "E": "A primeira fase foi realizada antes da convocação."
       },
-      "gabarito": "A",
+      "gabarito": "B",
       "explicacao": "Se apenas os da lista geral foram convocados, infere-se necessariamente que candidatos de outras listas não foram — A é uma inferência lógica direta e necessária. B compara qualificação sem base no texto. C avalia a dificuldade das fases — não mencionado. D afirma desclassificação definitiva — não podemos concluir isso (podem ser convocados depois ou por outra via). E pressupõe ordem cronológica razoável, mas o texto não menciona primeira fase."
     },
     {
