@@ -1417,3 +1417,25 @@ pm run build\ concluídos com êxito (Exit code 0).
 - **O que foi feito**: Substituicao integral do conteudo do arquivo gram-11.json.
 - **Data e hora da alteracao**: 22/06/2026 16:11:38
 - **Arquivos modificados**: src/data/conteudo/gram-11.json
+---
+### Parte 63 - Criação do Simulado 01
+- **Data e hora:** 22/06/2026 17:25
+- **O que foi feito:**
+  - Criação do arquivo \src/data/simulados/simulado-01.json\ com os textos e questões do simulado fornecido.
+  - Validação via build do TypeScript (\
+px tsc --noEmit\) e VITE (\
+pm run build\), os quais rodaram e passaram sem erros com o Exit Code 0.
+- **Arquivos modificados:**
+  - \src/data/simulados/simulado-01.json\ **[NOVO]**
+  - \RESUMO_MESTRE.md\ **[ATUALIZADO]**
+---
+### Parte 64 - Criação do Simulado 02
+- **Data e hora:** 22/06/2026 17:35
+- **O que foi feito:**
+  - Criação do arquivo \src/data/simulados/simulado-02.json\ contendo os textos, questões e o gabarito do Simulado 02.
+  - Validação de integridade do projeto via TypeScript (\
+px tsc --noEmit\) e VITE (\
+pm run build\). Exit Code 0 retornado, confirmando que as inserções não geraram erros ou quebras no build de produção.
+- **Arquivos modificados:**
+  - \src/data/simulados/simulado-02.json\ **[NOVO]**
+  - \RESUMO_MESTRE.md\ **[ATUALIZADO]**
