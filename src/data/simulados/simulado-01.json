@@ -28,6 +28,26 @@
       "conteudo": "Conheci um homem que caminhava devagar não por preguiça, mas por princípio. Dizia ele que os lentos veem mais: as calçadas quebradas, as flores nos muros, os gatos nos telhados, as inscrições apagadas nas fachadas antigas. Os rápidos, esses chegam mais cedo — mas onde?\n\nO homem lento era contador de profissão e chegava pontualmente ao escritório todos os dias, o que é uma espécie de paradoxo que ele próprio apreciava. Fora do trabalho, porém, conduzia-se com uma morosidade olímpica. Demorava a escolher o pão na padaria. Demorava a responder às perguntas — não por ignorância, mas porque achava que toda resposta merecia ao menos dez segundos de silêncio antes de ser pronunciada.\n\nAs pessoas ao seu redor se irritavam. A mulher principalmente, que era do tipo acelerado e vivia na convicção de que o tempo é escasso. Não convencia a ninguém, mas também não pedia para ser convencido.\n\nCerta manhã, descendo a ladeira do bairro, o homem lento parou para observar uma formiga que carregava um grão de arroz três vezes maior do que ela. Ficou ali cinco minutos, talvez dez. Quando a formiga desapareceu num buraco da calçada, o homem retomou o caminho com aquela expressão de quem acabou de assistir a algo importante.\n\nEu o encontrei nessa manhã e perguntei o que havia visto. Ele demorou os seus dez segundos antes de responder.\n\n— Vi alguém que sabia muito bem para onde ia — disse ele.\n\nE continuou descendo a ladeira, devagar, sem pressa de chegar.\nO homem lento tinha também o hábito de parar em frente às fachadas antigas da cidade para ler as inscrições quase apagadas pelo tempo. Sabia que naquelas letras desbotadas havia nomes de farmácias extintas, de alfaiatarias que fecharam antes de ele nascer, de cartórios que mudaram três vezes de endereço. Dizia que ler esses vestígios era uma forma de conversar com pessoas que não podiam mais responder — o que era, a seu ver, o tipo mais honesto de conversa. Eu não sabia bem como discordar disso. Ainda não sei."
     }
   ],
+  "textos_base": [
+    {
+      "id": "texto-1",
+      "titulo": "O relógio da praça",
+      "fonte": "Texto adaptado para fins avaliativos",
+      "conteudo": "No centro da praça havia um relógio que ninguém consultava mais. As pessoas carregavam o tempo no pulso, no bolso, na tela do celular — em toda parte, menos nos ponteiros de ferro que giravam sozinhos sobre a torre de pedra. O relógio servia à cidade de outra maneira: era o ponto de encontro, a referência que resistia à pressa do cotidiano. À tarde, quando o sol inclinava e a sombra da torre alongava pelo calçamento, era comum ver velhos sentados à sombra das árvores, sem relógio no pulso e sem pressa nenhuma. Não precisavam do tempo. Já tinham vivido o suficiente para saber que ele passa de qualquer jeito."
+    },
+    {
+      "id": "texto-2",
+      "titulo": "O homem lento",
+      "fonte": "Texto adaptado para fins avaliativos",
+      "conteudo": "O homem lento dedicava-se à observação do cotidiano com a seriedade de quem faz ciência. Era indiferente à pressa dos outros, resistia às influências da modernidade e às exigências de produtividade que a cidade impunha. Caminhava devagar não por preguiça, mas por método: acreditava que só se enxerga o que existe quando se desacelera o suficiente para olhar. Colhia detalhes que os apressados perdiam — a fresta de luz entre dois prédios ao entardecer, o padrão das sombras no calçamento de pedra, o ritmo das conversas entre desconhecidos. Registrava tudo em cadernos de capa preta que guardava em ordem cronológica numa estante de madeira. Ninguém jamais leu esses cadernos. Talvez fossem o único monumento que o homem lento havia construído para si mesmo."
+    },
+    {
+      "id": "texto-3",
+      "titulo": "A memória das coisas",
+      "fonte": "Texto adaptado para fins avaliativos",
+      "conteudo": "Existe uma memória que não está nos livros nem nas fotografias, mas nas coisas — no peso de uma chave antiga, no cheiro de gaveta fechada, na textura de uma tecido que as mãos reconhecem antes que a mente nomeie. Quem não tem memória não tem raiz, e quem não tem raiz carrega-se de vento. Essa frase foi dita por uma mulher que viveu em sete cidades antes dos quarenta anos e chegou à conclusão de que pertencer a um lugar não depende do tempo que se passa nele, mas da atenção com que se olha para ele. Cada lugar guardou algo dela — um costume, uma expressão, um jeito de dobrar a roupa pela manhã. E ela guardou algo de cada lugar: não objetos, não fotografias, mas a memória do cheiro do café que invadia os quartos em certas manhãs de inverno, ou o som dos pombos no telhado ao amanhecer."
+    }
+  ],
   "questoes": [
     {
       "id": "q01",
@@ -482,20 +502,18 @@
     {
       "id": "q26",
       "texto_ref": "texto-3",
-      "paragrafo_ref": "2°§",
-      "trecho_ref": "(...) Demorava a escolher o pão na padaria. Demorava a responder às perguntas — não por ignorância, mas porque achava que toda resposta merecia ao menos dez segundos de silêncio antes de ser pronunciada (...)",
-      "enunciado": "Atentando ao correto uso do acento indicativo de crase, assinale a opção que preenche corretamente as lacunas abaixo: \"O homem lento dedicava-se __ observação do cotidiano; era indiferente __ pressa alheia, resistia __ influências externas e respondia __ perguntas com calma, diferente __ maioria das pessoas.\"",
+      "enunciado": "Assinale a opção em que o uso da crase está INCORRETO:",
       "alternativas": {
-        "A": "à — à — às — às — da",
-        "B": "à — à — a — às — da",
-        "C": "a — à — às — às — da",
-        "D": "à — a — às — às — da",
-        "E": "à — à — às — a — da"
+        "A": "Chegamos à conclusão de que o projeto era inviável.",
+        "B": "Ela se referiu à proposta apresentada na reunião.",
+        "C": "O documento foi encaminhado à diretoria competente.",
+        "D": "Fomos à pé até a sede do batalhão.",
+        "E": "A oficial prestou homenagem à bandeira nacional."
       },
-      "gabarito": "A",
+      "gabarito": "D",
       "topico": "gram-03",
       "area": "Crase",
-      "explicacao": "Análise: 1) 'dedicava-se à observação' — verbo pronominal 'dedicar-se a' + 'a observação' (fem.) = crase: À. 2) 'indiferente à pressa' — adjetivo 'indiferente a' + 'a pressa' (fem.) = crase: À. 3) 'resistia às influências' — verbo 'resistir a' + 'as influências' (fem. plural) = crase: ÀS. 4) 'respondia às perguntas' — verbo 'responder a' + 'as perguntas' (fem. plural) = crase: ÀS. 5) 'diferente da maioria' — 'diferente de' + 'a maioria' = contração 'da', não crase. Resultado: à — à — às — às — da. A resposta é A."
+      "explicacao": "A crase é proibida antes de substantivos masculinos. Em D, 'a pé' é locução adverbial com substantivo masculino ('pé') — não há crase: 'a pé', nunca 'à pé'. Nas demais opções a crase é obrigatória: 'à conclusão' (prep. a + art. a), 'à proposta', 'à diretoria', 'à bandeira' — todas femininas com artigo definido."
     },
     {
       "id": "q27",
@@ -579,13 +597,13 @@
         "A": "O menino ficou olhando para o relógio por muito tempo.",
         "B": "A criança fez uma pergunta que ninguém soube responder.",
         "C": "O pombo pousou no topo do relógio com seriedade.",
-        "D": "A mulher chamou o filho pela mão.",
+        "D": "O artista foi aplaudido de pé.",
         "E": "Os casais passeavam pela praça à noite."
       },
-      "gabarito": "B",
+      "gabarito": "D",
       "topico": "gram-06",
       "area": "Flexão Nominal",
-      "explicacao": "Palavras de gênero comum de dois gêneros são aquelas em que a mesma forma serve para o masculino e o feminino, variando apenas o artigo (o/a). A) 'menino' — substantivo masculino comum (só masculino). B) 'criança' — substantivo de gênero comum de dois gêneros: 'a criança' (fem.) e 'o criança' (masc., raro mas possível) — GABARITO. C) 'pombo' — masculino comum. D) 'mulher' — feminino comum. E) 'casais' — masculino plural. 'Criança' é o clássico exemplo de substantivo comum de dois gêneros (a criança / o criança). A resposta é B."
+      "explicacao": "Palavras de gênero comum de dois gêneros são aquelas que admitem 'o' ou 'a' sem mudança de forma: 'o artista' / 'a artista'. D) 'artista' é comum de dois gêneros — GABARITO. A) 'menino' é masculino comum (forma única masculina). B) 'criança' é epiceno — sempre feminino gramaticalmente, mesmo referindo-se a um menino ('a criança'). C) 'pombo' é masculino comum. E) 'casais' é masculino plural (par misto usa masculino)."
     },
     {
       "id": "q32",
@@ -776,12 +794,12 @@
     "q23": "B",
     "q24": "D",
     "q25": "C",
-    "q26": "A",
+    "q26": "D",
     "q27": "B",
     "q28": "D",
     "q29": "E",
     "q30": "D",
-    "q31": "B",
+    "q31": "D",
     "q32": "C",
     "q33": "B",
     "q34": "B",

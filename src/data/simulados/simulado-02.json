@@ -28,6 +28,26 @@
       "conteudo": "O doutor Arnaldo Figueiras tinha o hábito de guardar bilhetes. Não os bilhetes importantes — esses ele perdia com a desinvoltura de quem não liga para burocracia. O que ele guardava eram os outros: o bilhete de ônibus de uma viagem que lhe parecera memorável, o pedaço de papel em que alguém anotara um endereço que nunca chegou a visitar, o guardanapo dobrado onde uma mulher escrevera o número de telefone que ele nunca teve coragem de discar.\n\nA coleção ficava numa caixinha de charutos que ele mantinha sobre a escrivaninha, entre o tinteiro e o porta-retratos com a foto da filha. De vez em quando, geralmente nas noites de domingo, ele abria a caixinha e ia folheando os bilhetes como quem folheia um álbum de fotografias — com aquela mistura de ternura e melancolia que os álbuns de fotografias costumam provocar.\n\nCerta feita, um colega de trabalho descobriu o hábito e o interpelou com a crueldade involuntária dos práticos: \"Para que guardar essas coisas que não valem nada?\" O doutor Arnaldo ficou um momento em silêncio, como quem busca na memória uma resposta que sabe existir mas não tem certeza de onde guardou.\n\n— Valem — disse ele por fim. — Só não sei ainda quanto.\n\nO colega não entendeu, evidentemente. Os práticos nunca entendem essas coisas — e é por isso que os práticos, em geral, não têm nada para guardar numa caixinha de charutos.\n\nO doutor Arnaldo morreu aos setenta e oito anos, deixando a filha, uma aposentadoria módica e a caixinha sobre a escrivaninha. A filha, que herdara algo do pai sem saber ao certo o quê, não jogou a caixinha fora. Deixou-a sobre a própria escrivaninha. E nas noites de domingo começa a entender."
     }
   ],
+  "textos_base": [
+    {
+      "id": "texto-1",
+      "titulo": "O caracol e a casa",
+      "fonte": "Texto adaptado para fins avaliativos",
+      "conteudo": "O caracol não conhece o drama da partida nem o da chegada. Carrega a casa consigo e, por isso, está sempre em casa — em qualquer pedra, em qualquer folha, em qualquer jardim molhado de orvalho. Não há nostalgia no caracol, nem antecipação: apenas o presente lento e contínuo da caminhada. O pássaro, ao contrário, carrega a inquietação do ninho abandonado, a memória do galho frio, o peso invisível de tudo o que ficou para trás. A liberdade tem um custo que os pássaros conhecem bem. O caracol caminha com toda a sua arquitetura — cada espiral é um ano, uma cidade, uma manhã de luz diferente. A concha não é um fardo: é a prova de que é possível pertencer a si mesmo independentemente do lugar."
+    },
+    {
+      "id": "texto-2",
+      "titulo": "A mulher que montava a mesma prateleira",
+      "fonte": "Texto adaptado para fins avaliativos",
+      "conteudo": "Havia uma mulher que havia morado em sete cidades diferentes antes dos quarenta anos. Em cada cidade nova, fazia a mesma coisa: montava a mesma prateleira de livros na mesma parede, pendurava o mesmo quadro acima da escrivaninha e preparava o mesmo chá às seis da tarde. Não era falta de imaginação. Era método. Ela havia descoberto que o lar não é um lugar, mas um conjunto de gestos repetidos com atenção. A prateleira, o quadro, o chá — não eram objetos, eram rituais. E os rituais são portáteis: cabem em qualquer mala, atravessam qualquer fronteira, resistem a qualquer mudança de endereço. A cidade muda, a língua muda, o clima muda — mas o chá das seis continua, e com ele a sensação de estar em casa."
+    },
+    {
+      "id": "texto-3",
+      "titulo": "O doutor Arnaldo e a caixinha de bilhetes",
+      "fonte": "Texto adaptado para fins avaliativos",
+      "conteudo": "O doutor Arnaldo dedicava-se à coleção de bilhetes com a ternura de quem cuida de algo vivo. Guardava numa caixinha de madeira clara, sobre a escrivaninha, entre outros objetos igualmente inúteis e igualmente preciosos: um pedaço de papel em que alguém anotara um endereço que nunca chegou a visitar, um ingresso de cinema de uma sessão que não assistiu, uma lista de compras escrita com letra que não reconhecia. Abria a caixinha nas noites de domingo com o mesmo cuidado de quem abre uma ferida antiga — devagar, com dois dedos, sem pressa. Um colega o interpelou certa vez com crueldade involuntária: 'Por que guardar isso?' O doutor Arnaldo foi sensível à beleza da pergunta e não respondeu. Ficou olhando para a caixinha por um longo momento. Depois a fechou com cuidado e foi dormir. O doutor Arnaldo morreu deixando apenas a aposentadoria módica e a caixinha. A filha deixou a caixinha sobre a própria escrivaninha. Nunca a abriu."
+    }
+  ],
   "questoes": [
     {
       "id": "q01",
@@ -175,21 +195,18 @@
     },
     {
       "id": "q09",
+      "area": "Pontuação",
       "texto_ref": "texto-2",
-      "paragrafo_ref": "1°§",
-      "trecho_ref": "(...) o caracol não conhece o drama da partida nem o da chegada: ele está sempre em casa, seja onde estiver (...)",
-      "enunciado": "Assinale a opção em que o vocábulo sublinhado possui a mesma função sintática que o termo destacado no trecho: \"(...) o caracol não conhece o drama da partida nem o da chegada (...)\"-1°§",
+      "enunciado": "Assinale a opção em que a vírgula está empregada de acordo com a norma culta da língua portuguesa:",
       "alternativas": {
-        "A": "A mulher preparava o mesmo chá às seis da tarde.",
-        "B": "O caracol caminha com toda a sua arquitetura.",
-        "C": "Conheço uma mulher que morou em sete cidades.",
-        "D": "Cada espiral é um ano, uma cidade, uma manhã.",
-        "E": "O pássaro carrega a inquietação do ninho abandonado."
+        "A": "O caracol, avança lentamente pela folha úmida.",
+        "B": "Carrega a casa, e não sente o peso dela.",
+        "C": "Quem não tem raiz, carrega-se de vento.",
+        "D": "A concha, símbolo de permanência, acompanha o caracol por toda a vida.",
+        "E": "O pássaro voa, e o caracol rasteja."
       },
-      "gabarito": "A",
-      "topico": "gram-09",
-      "area": "Sintaxe",
-      "explicacao": "O termo 'o drama da partida' é objeto direto do verbo 'conhece' (conhece o quê? = o drama da partida). A) 'o mesmo chá' é objeto direto de 'preparava' — mesma função sintática — GABARITO. B) 'com toda a sua arquitetura' é adjunto adverbial de modo. C) 'que morou em sete cidades' é oração adjetiva restritiva. D) 'um ano' e demais elementos são predicativos/apostos. E) 'a inquietação do ninho abandonado' é objeto direto de 'carrega' — também seria candidato. Entre A e E, ambos são OD. A é a opção do gabarito planejado. A resposta é A."
+      "gabarito": "D",
+      "explicacao": "A vírgula é obrigatória para isolar o aposto explicativo. Em D, 'símbolo de permanência' é aposto de 'A concha' — deve ser isolado por vírgulas: 'A concha, símbolo de permanência, acompanha...'. Nas demais: A — vírgula separa sujeito do predicado (proibido); B — vírgula antes de 'e' ligando orações com sujeitos iguais (desnecessária); C — vírgula separa sujeito do predicado (proibido); E — vírgula antes de 'e' com sujeitos iguais (desnecessária)."
     },
     {
       "id": "q10",
@@ -247,21 +264,18 @@
     },
     {
       "id": "q13",
+      "area": "Acentuação",
       "texto_ref": "texto-2",
-      "paragrafo_ref": "5°§",
-      "trecho_ref": "(...) Talvez a pergunta não seja onde moramos, mas o que levamos conosco (...)",
-      "enunciado": "Atentando ao correto uso do acento indicativo de crase, assinale a opção que preenche corretamente as lacunas abaixo: \"O caracol é indiferente __ distância percorrida; adapta-se __ qualquer ambiente e resiste __ tentações da velocidade, sendo fiel __ sua natureza e alheio __ pressões externas.\"",
+      "enunciado": "Assinale a opção em que TODAS as palavras estão acentuadas de acordo com o Acordo Ortográfico de 1990:",
       "alternativas": {
-        "A": "à — a — às — à — às",
-        "B": "a — a — às — à — às",
-        "C": "à — a — às — à — a",
-        "D": "à — a — à — à — às",
-        "E": "a — à — às — à — às"
+        "A": "caráter, critério, líquido, nível",
+        "B": "carater, critério, líquido, nível",
+        "C": "caráter, criterio, líquido, nível",
+        "D": "caráter, critério, liquido, nível",
+        "E": "caráter, critério, líquido, nivel"
       },
       "gabarito": "A",
-      "topico": "gram-03",
-      "area": "Crase",
-      "explicacao": "Análise lacuna a lacuna: 1) 'indiferente à distância' — adjetivo 'indiferente a' + 'a distância' (fem. com artigo) = crase: À. 2) 'adapta-se a qualquer ambiente' — 'qualquer' é pronome indefinido que não admite artigo definido antes dele = SEM crase: A. 3) 'resiste às tentações' — verbo 'resistir a' + 'as tentações' (fem. plural com artigo) = crase: ÀS. 4) 'fiel à sua natureza' — adjetivo 'fiel a' + 'a sua natureza': quando o possessivo 'sua' vem após preposição 'a', a crase é facultativa. No entanto, a norma culta aceita e muitas bancas aplicam a crase: À (facultativa aqui, mas aceita). 5) 'alheio às pressões' — adjetivo 'alheio a' + 'as pressões' (fem. plural) = crase: ÀS. Resultado: à — a — às — à — às. A resposta é A."
+      "explicacao": "Pelo AO/1990: 'caráter' (paroxítona com 'e' aberto antes de 'r' — mantém acento); 'critério' (paroxítona com ditongo 'ério' — mantém acento); 'líquido' (proparoxítona — sempre acentuada); 'nível' (paroxítona terminada em 'l' — acentuada). Todas as quatro formas da alternativa A estão corretas. As demais suprimem ao menos um acento obrigatório."
     },
     {
       "id": "q14",
@@ -283,21 +297,18 @@
     },
     {
       "id": "q15",
+      "area": "Coesão Textual",
       "texto_ref": "texto-2",
-      "paragrafo_ref": "2°§",
-      "trecho_ref": "(...) Mas o pássaro carrega a inquietação do ninho abandonado, a memória do galho frio, o peso do vento contra as asas (...)",
-      "enunciado": "Com base no texto 2, assinale a opção INCORRETA.",
+      "enunciado": "No trecho do Texto 2, o conectivo que estabelece a relação de sentido adequada entre os segmentos é:",
       "alternativas": {
-        "A": "A autora usa o caracol como símbolo de quem carrega consigo a própria identidade independentemente do lugar.",
-        "B": "A mulher descrita no terceiro parágrafo serve como exemplo humano da filosofia do caracol.",
-        "C": "A liberdade dos pássaros é apresentada no texto como ideal absoluto a ser seguido.",
-        "D": "O texto encerra com uma metáfora que identifica cada espiral da concha com a passagem do tempo e de experiências.",
-        "E": "O texto pertence ao gênero crônica e apresenta reflexão filosófica a partir de uma observação da natureza."
+        "A": "'O caracol não conhece o drama da partida NEM o da chegada' — valor de adição negativa.",
+        "B": "'Carrega a casa PORQUE não sente o peso dela' — valor de causa.",
+        "C": "'O caracol avança lentamente, PORTANTO sua concha o acompanha' — valor de conclusão.",
+        "D": "'Não conhece a partida EMBORA conheça a chegada' — valor de concessão.",
+        "E": "'Carrega a casa, MAS não sente o peso dela' — valor de adversidade."
       },
-      "gabarito": "C",
-      "topico": "comp-01",
-      "area": "Interpretação",
-      "explicacao": "A alternativa C é INCORRETA porque o texto não apresenta a liberdade dos pássaros como ideal a ser seguido — ao contrário, o 2°§ questiona esse ideal ao afirmar que 'o pássaro carrega a inquietação do ninho abandonado, a memória do galho frio, o peso do vento contra as asas'. A liberdade dos pássaros é problematizada, não idealizada. A) Correta: o caracol funciona como símbolo central do texto. B) Correta: a mulher do 3°§ é o exemplo humano concreto da filosofia do caracol. D) Correta: o último parágrafo confirma 'Cada espiral é um ano, uma cidade, uma manhã'. E) Correta: o texto tem todos os elementos da crônica. A resposta é C."
+      "gabarito": "A",
+      "explicacao": "No original, 'nem' tem valor de adição negativa: 'não conhece o drama da partida NEM o da chegada' equivale a 'não conhece o drama da partida E TAMBÉM NÃO o da chegada'. A alternativa A descreve corretamente esse valor. As demais atribuem valores semânticos (causa, conclusão, concessão, adversidade) que distorcem a relação original do texto."
     },
     {
       "id": "q16",
@@ -759,13 +770,13 @@
     "q06": "B",
     "q07": "C",
     "q08": "D",
-    "q09": "A",
+    "q09": "D",
     "q10": "B",
     "q11": "C",
     "q12": "D",
     "q13": "A",
     "q14": "B",
-    "q15": "C",
+    "q15": "A",
     "q16": "D",
     "q17": "A",
     "q18": "B",
