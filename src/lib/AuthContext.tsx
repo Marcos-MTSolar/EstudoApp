@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
-import { GoogleAuthProvider, signOut, signInWithRedirect, getRedirectResult } from 'firebase/auth';
+import { GoogleAuthProvider, signOut, signInWithPopup, getRedirectResult } from 'firebase/auth';
 import { auth, db } from './firebase';
 import { doc, setDoc, getDoc } from 'firebase/firestore';
 
@@ -101,8 +101,8 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     }
     localStorage.removeItem('enem_offline_mode');
     const provider = new GoogleAuthProvider();
-    // signInWithRedirect redireciona a página e retorna ao app autenticado
-    await signInWithRedirect(auth, provider);
+    // signInWithPopup abre uma janela de login sem redirecionar a página
+    await signInWithPopup(auth, provider);
   };
 
   const signInOffline = () => {
