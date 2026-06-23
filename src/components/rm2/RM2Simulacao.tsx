@@ -3,6 +3,7 @@ import { Loader2, ArrowLeft, Clock, ShieldCheck, Award, CheckCircle2, XCircle, C
 import { RM2_CONTEUDO } from '../../data/rm2Conteudo';
 import { getConteudo, getIdsDisponiveis } from '../../data/conteudoIndex';
 import { getSimuladosDisponiveis, getSimulado, getMetadadosSimulados } from '../../data/simuladosIndex';
+import { useAuth } from '../../lib/AuthContext';
 
 interface RM2SimulacaoProps {
   modo: "rapido" | "completo" | "simulado_real";
@@ -12,6 +13,9 @@ interface RM2SimulacaoProps {
 }
 
 export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2SimulacaoProps) {
+  const { user } = useAuth();
+  const uid = user?.uid ?? 'local';
+
   // Controle de estados
   const [started, setStarted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -161,7 +165,7 @@ export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2Sim
       };
 
       // Salva resultado no localStorage para histórico
-      const historico = JSON.parse(localStorage.getItem('rm2_simulados_historico') || '[]');
+      const historico = JSON.parse(localStorage.getItem(`rm2_simulados_historico_${uid}`) || '[]');
       historico.push({
         id: `sim_${modo}_${Date.now()}`,
         modo,
@@ -171,7 +175,7 @@ export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2Sim
         percentualAcerto,
         duracaoSegundos
       });
-      localStorage.setItem('rm2_simulados_historico', JSON.stringify(historico));
+      localStorage.setItem(`rm2_simulados_historico_${uid}`, JSON.stringify(historico));
 
       setResultadoFinal(data);
       setShowResult(true);

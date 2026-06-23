@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
+import { useAuth } from './AuthContext';
 
 export interface ProgressoAssuntoEspanhol {
   id: string;
@@ -18,10 +19,13 @@ export interface ResultadoSimuladoEspanhol {
   percentual: number;
 }
 
-const STORAGE_KEY_PROGRESSO = 'espanhol_progresso';
-const STORAGE_KEY_SIMULADOS = 'espanhol_simulados_historico';
-
 export function useEspanholData() {
+  const { user } = useAuth();
+  const uid = user?.uid ?? 'local';
+
+  const STORAGE_KEY_PROGRESSO = `espanhol_progresso_${uid}`;
+  const STORAGE_KEY_SIMULADOS = `espanhol_simulados_historico_${uid}`;
+
   const [progresso, setProgresso] = useState<Record<string, ProgressoAssuntoEspanhol>>({});
   const [historico, setHistorico] = useState<ResultadoSimuladoEspanhol[]>([]);
 
@@ -35,12 +39,12 @@ export function useEspanholData() {
       const raw = localStorage.getItem(STORAGE_KEY_SIMULADOS);
       if (raw) setHistorico(JSON.parse(raw));
     } catch { /* ignora erro de parse */ }
-  }, []);
+  }, [STORAGE_KEY_PROGRESSO, STORAGE_KEY_SIMULADOS]);
 
   const salvarProgresso = useCallback((novo: Record<string, ProgressoAssuntoEspanhol>) => {
     setProgresso(novo);
     localStorage.setItem(STORAGE_KEY_PROGRESSO, JSON.stringify(novo));
-  }, []);
+  }, [STORAGE_KEY_PROGRESSO]);
 
   const getProgressoAssunto = useCallback((id: string): ProgressoAssuntoEspanhol => {
     return progresso[id] ?? {
@@ -77,7 +81,7 @@ export function useEspanholData() {
     const atualizado = [novo, ...historico].slice(0, 50);
     setHistorico(atualizado);
     localStorage.setItem(STORAGE_KEY_SIMULADOS, JSON.stringify(atualizado));
-  }, [historico]);
+  }, [historico, STORAGE_KEY_SIMULADOS]);
 
   const registrarQuestoes = useCallback((id: string, total: number, acertos: number, percentual?: number) => {
     registrarResultadoQuestoes(id, acertos, total);

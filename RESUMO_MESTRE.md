@@ -1593,3 +1593,36 @@ pm run build\). Exit Code 0 retornado, confirmando que as inserções não gerar
   - `src/data/conteudo/comp-11.json` **[AUDITADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
+---
+
+### Parte 72 — Troca de signInWithRedirect por signInWithPopup no AuthContext
+- **Data e hora:** 23/06/2026 às 15:13 (Horário Local)
+- **Problema resolvido:**
+  - O método `signInWithRedirect` causava erro HTTP 400 no fluxo de login com Google, possivelmente por restrições de COOP/COEP na Vercel ou por configuração incompleta de domínios autorizados no Firebase Console.
+- **Alterações efetuadas em `src/lib/AuthContext.tsx`:**
+  1. Import: `signInWithRedirect` substituído por `signInWithPopup` na linha 2.
+  2. Chamada na função `signIn`: `await signInWithRedirect(auth, provider)` substituído por `await signInWithPopup(auth, provider)`.
+  3. Comentário interno atualizado para refletir o novo comportamento (popup sem redirecionamento de página).
+  4. Nenhuma outra lógica foi alterada.
+- **Validação:**
+  - `npx tsc --noEmit` ✅ zero erros TypeScript
+  - `npm run build` ✅ 3126 módulos transformados, Exit code: 0
+- **Arquivos modificados:**
+  - `src/lib/AuthContext.tsx` **[MODIFICADO — signInWithRedirect → signInWithPopup]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 73 — Isolamento de Progresso e Dados por UID (Contas Independentes)
+- **Data e hora:** 23/06/2026 às 15:25 (Horário Local)
+- **Problema resolvido:**
+  - Os dados de progresso e simulações do usuário, salvos via `localStorage`, usavam chaves estáticas. Com a implementação do Firebase Auth, isso permitia que o progresso vazasse de uma conta Google para outra se feitas no mesmo dispositivo.
+- **O que foi feito:**
+  - Prefixadas dinamicamente com o `uid` da sessão ativa (`_${uid}`) as chaves do `localStorage` nos principais arquivos de estado e hooks, garantindo isolamento total.
+- **Arquivos modificados:**
+  - `src/lib/useEspanholData.ts` **[MODIFICADO — chaves de espanhol]**
+  - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO — checklist e status diário]**
+  - `src/components/rm2/RM2Saude.tsx` **[MODIFICADO — rotinas e registros diários]**
+  - `src/components/rm2/RM2Simulacao.tsx` **[MODIFICADO — histórico de simulados]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+

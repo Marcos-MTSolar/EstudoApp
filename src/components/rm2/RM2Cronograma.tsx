@@ -91,6 +91,7 @@ const FASES_INFO = [
 
 export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
   const { user } = useAuth();
+  const uid = user?.uid ?? 'local';
   const { progresso } = useRM2Data(user?.uid || 'offline_user');
   
   const [abaAtiva, setAbaAtiva] = useState<'visao' | 'semana' | 'revisoes' | 'checklist'>('visao');
@@ -114,7 +115,7 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
 
   // Carrega checklist do localStorage
   useEffect(() => {
-    const saved = localStorage.getItem('rm2_cronograma_v2');
+    const saved = localStorage.getItem(`rm2_cronograma_v2_${uid}`);
     if (saved) {
       try {
         setChecklist(JSON.parse(saved));
@@ -126,7 +127,7 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
 
   // Carrega status diário do localStorage (chave separada)
   useEffect(() => {
-    const saved = localStorage.getItem('rm2_cronograma_status_diario');
+    const saved = localStorage.getItem(`rm2_cronograma_status_diario_${uid}`);
     if (saved) {
       try {
         setStatusDiario(JSON.parse(saved));
@@ -146,7 +147,7 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
         concluido: 'pendente'
       };
       const novo = { ...prev, [chave]: proximo[atual] };
-      localStorage.setItem('rm2_cronograma_status_diario', JSON.stringify(novo));
+      localStorage.setItem(`rm2_cronograma_status_diario_${uid}`, JSON.stringify(novo));
       return novo;
     });
   };
@@ -160,7 +161,7 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
           [fase]: !(prev[topicoId]?.[fase])
         }
       };
-      localStorage.setItem('rm2_cronograma_v2', JSON.stringify(novo));
+      localStorage.setItem(`rm2_cronograma_v2_${uid}`, JSON.stringify(novo));
       return novo;
     });
   };
@@ -439,7 +440,7 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
   const handleResetChecklist = () => {
     if (window.confirm("Deseja realmente limpar todo o checklist de atividades do cronograma?")) {
       setChecklist({});
-      localStorage.removeItem('rm2_cronograma_v2');
+      localStorage.removeItem(`rm2_cronograma_v2_${uid}`);
     }
   };
 

@@ -10,6 +10,7 @@ import {
   ResponsiveContainer, LineChart, Line, XAxis, YAxis, 
   CartesianGrid, Tooltip, BarChart, Bar, Legend 
 } from 'recharts';
+import { useAuth } from '../../lib/AuthContext';
 
 // Tipos
 interface RegistroDiario {
@@ -119,6 +120,9 @@ const DEMO_REGISTROS: RegistroDiario[] = [
 ];
 
 export function RM2Saude() {
+  const { user } = useAuth();
+  const uid = user?.uid ?? 'local';
+
   const [activeTab, setActiveTab] = useState<'registro' | 'evolucao' | 'exercicios' | 'motivacao'>('registro');
   
   // Estados de dados
@@ -145,7 +149,7 @@ export function RM2Saude() {
 
   // Carrega dados do localStorage ao iniciar
   useEffect(() => {
-    const savedRegs = localStorage.getItem('rm2_saude_diarios');
+    const savedRegs = localStorage.getItem(`rm2_saude_diarios_${uid}`);
     if (savedRegs) {
       try {
         setRegistros(JSON.parse(savedRegs));
@@ -155,15 +159,15 @@ export function RM2Saude() {
     } else {
       // Inicia com dados de demonstração para os gráficos ficarem cheios no início
       setRegistros(DEMO_REGISTROS);
-      localStorage.setItem('rm2_saude_diarios', JSON.stringify(DEMO_REGISTROS));
+      localStorage.setItem(`rm2_saude_diarios_${uid}`, JSON.stringify(DEMO_REGISTROS));
     }
 
-    const savedExs = localStorage.getItem('rm2_saude_exercicios_concluidos');
+    const savedExs = localStorage.getItem(`rm2_saude_exercicios_concluidos_${uid}`);
     if (savedExs) {
       try { setExerciciosConcluidos(JSON.parse(savedExs)); } catch (e) { console.error(e); }
     }
 
-    const savedHabits = localStorage.getItem('rm2_saude_habitos_diarios');
+    const savedHabits = localStorage.getItem(`rm2_saude_habitos_diarios_${uid}`);
     if (savedHabits) {
       try { setHabitosDiarios(JSON.parse(savedHabits)); } catch (e) { console.error(e); }
     }
@@ -214,7 +218,7 @@ export function RM2Saude() {
     novosRegistros.sort((a, b) => a.data.localeCompare(b.data));
 
     setRegistros(novosRegistros);
-    localStorage.setItem('rm2_saude_diarios', JSON.stringify(novosRegistros));
+    localStorage.setItem(`rm2_saude_diarios_${uid}`, JSON.stringify(novosRegistros));
 
     setTimeout(() => setSavingMessage(''), 3000);
   };
@@ -233,7 +237,7 @@ export function RM2Saude() {
 
     const novoEstado = { ...exerciciosConcluidos, [hojeStr]: novosConcluidos };
     setExerciciosConcluidos(novoEstado);
-    localStorage.setItem('rm2_saude_exercicios_concluidos', JSON.stringify(novoEstado));
+    localStorage.setItem(`rm2_saude_exercicios_concluidos_${uid}`, JSON.stringify(novoEstado));
   };
 
   // Toggle Hábito Diário na aba Motivação
@@ -250,7 +254,7 @@ export function RM2Saude() {
     const novoHabitosHoje = { ...habitosHoje, [key]: !habitosHoje[key] };
     const novoEstado = { ...habitosDiarios, [hojeStr]: novoHabitosHoje };
     setHabitosDiarios(novoEstado);
-    localStorage.setItem('rm2_saude_habitos_diarios', JSON.stringify(novoEstado));
+    localStorage.setItem(`rm2_saude_habitos_diarios_${uid}`, JSON.stringify(novoEstado));
   };
 
   // Cálculos de Streak de registros consecutivos
@@ -366,7 +370,7 @@ export function RM2Saude() {
   // Semana do cronograma
   const [semanaCronograma, setSemanaCronograma] = useState<string>('');
   useEffect(() => {
-    const savedSemana = localStorage.getItem('rm2_semana_atual');
+    const savedSemana = localStorage.getItem(`rm2_semana_atual_${uid}`);
     if (savedSemana) {
       setSemanaCronograma(savedSemana);
     } else {
