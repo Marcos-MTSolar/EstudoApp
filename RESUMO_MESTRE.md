@@ -1541,3 +1541,55 @@ pm run build\). Exit Code 0 retornado, confirmando que as inserções não gerar
   - `src/components/EstudoRM2.tsx` **[ATUALIZADO]**
   - `src/components/rm2/RM2Cronograma.tsx` **[ATUALIZADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 71 — Auditoria Completa de Questões com Múltiplas Respostas Corretas (28 arquivos JSON)
+- **Data e hora:** 23/06/2026 14:27
+- **O que foi feito:**
+  Revisão sistemática de todos os **28 arquivos JSON** de conteúdo programático (`gram-00` a `gram-14` e `comp-01` a `comp-14`), eliminando questões com ambiguidade que permitiam mais de uma alternativa correta. Processamento feito em **6 lotes de 5 arquivos** (exceto o último com 4). Padrão de correção acordado: introdução de erro sutil e preciso nas alternativas incorretas (alteração de classe gramatical, tempo verbal, número gramatical, processo de formação errado ou sentido factualmente incorreto conforme Cunha e Cintra), **sem alterar nenhum gabarito oficial**.
+
+  **Questões corrigidas por lote:**
+
+  | Arquivo | Questão | Correção aplicada |
+  |---|---|---|
+  | gram-04 | q12 | Alt. C substituída por "anti-social" (grafado incorreto) — elimina colisão com gabarito A |
+  | gram-04 | q15 | Alts. B e D substituídas por pares de processos diferentes (justaposição e prefixal) |
+  | gram-04 | d14 | Alt. A recebeu classificação errônea ("derivação prefixal") — elimina colisão com E |
+  | gram-01 | q12 | Alt. D substituída por "contraataque e contraalmirante" — elimina dupla correta |
+  | gram-01 | q28 | Explicação reescrita sem linguagem de incerteza |
+  | gram-01 | d05 | Alt. D alterada para "Os oficiais têm" → erro de concordância claro |
+  | gram-02 | d08 | Alt. D reformulada como afirmação exclusiva errada |
+  | gram-03 | q20 | Alt. D substituída por "a toda análise" — sem crase nem erro |
+  | gram-03 | q22 | Explicação reescrita sem auto-dubiedade |
+  | gram-03 | d02 | Alt. B alterada para "crase facultativa" — tornou-se claramente errada |
+  | gram-06 | q25 | Alt. E corrigida de "O coma" para "A coma" — inconsistência de gênero que a tornava a resposta |
+  | gram-13 | d12 | Alt. C alterada para concordância singular ("desobedeceu") — elimina colisão com A |
+  | gram-14 | q21 | Explicação reescrita sem linguagem de incerteza |
+  | gram-14 | q28 | Alts. B e C reformuladas com próclise no início de oração (erro claro) |
+  | gram-14 | d02 | Alts. A e C reformuladas com erros de crase e de atrativo respectivamente |
+  | gram-14 | d04 | Alt. C reformulada com "esqueceu-SE" após "jamais" (erro claro) |
+  | comp-03 | q25 | Alts. B e C substituídas por exemplos genuinamente conotativos |
+  | comp-06 | q05 | Alt. B substituída por "ato linguístico" — eliminado falso hiperônimo |
+  | comp-06 | q15 | Alt. A substituída por "veículo blindado" — elimina colisão com B |
+  | comp-08 | d01 | Explicação reescrita sem linguagem que admite B como correto |
+  | comp-09 | q14 | Explicação reescrita sem mencionar ambiguidade de "seu/dele" |
+  | comp-09 | q23 | Explicação reescrita afirmando claramente que C é a única incorreta |
+  | comp-11 | d05 | Explicação reescrita sem linguagem que admite múltiplas corretas |
+
+- **Validação final:** `npx tsc --noEmit` ✅ zero erros TypeScript em todos os lotes.
+- **Arquivos modificados:**
+  - `src/data/conteudo/gram-01.json` **[AUDITADO]**
+  - `src/data/conteudo/gram-02.json` **[AUDITADO]**
+  - `src/data/conteudo/gram-03.json` **[AUDITADO]**
+  - `src/data/conteudo/gram-04.json` **[AUDITADO]**
+  - `src/data/conteudo/gram-06.json` **[AUDITADO]**
+  - `src/data/conteudo/gram-13.json` **[AUDITADO]**
+  - `src/data/conteudo/gram-14.json` **[AUDITADO]**
+  - `src/data/conteudo/comp-03.json` **[AUDITADO]**
+  - `src/data/conteudo/comp-06.json` **[AUDITADO]**
+  - `src/data/conteudo/comp-08.json` **[AUDITADO]**
+  - `src/data/conteudo/comp-09.json` **[AUDITADO]**
+  - `src/data/conteudo/comp-11.json` **[AUDITADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
