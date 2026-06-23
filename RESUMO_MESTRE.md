@@ -312,9 +312,9 @@ O sistema funciona de duas maneiras:
      - DistribuiÃ§Ã£o: Sem 1â€“2 InterpretaÃ§Ã£o, Sem 3â€“4 Ortografia+Morfologia, Sem 5â€“7 Sintaxe, Sem 8 SemÃ¢ntica, Sem 9 PontuaÃ§Ã£o, Sem 10 RedaÃ§Ã£o Oficial, Sem 11â€“12 RevisÃ£o+Simulados, Sem 13 Simulado Final
   3. **`.env.example`** â€” Sanitizado: removida chave Groq real exposta (`gsk_Xw7J...`). SubstituÃ­da por placeholder `your_groq_api_key_here`. Adicionado campo `FIREBASE_SERVICE_ACCOUNT`.
   4. **Build de validaÃ§Ã£o:** `tsc --noEmit` âœ… zero erros | `npm run build` âœ… 2930 mÃ³dulos, zero erros.
-- **âš ï¸� PENDENTE:** Receber ApÃªndice V do Edital 2026 para ajuste fino do conteÃºdo programÃ¡tico (Parte 3-B).
+- **âš ï¸ PENDENTE:** Receber ApÃªndice V do Edital 2026 para ajuste fino do conteÃºdo programÃ¡tico (Parte 3-B).
 - **Arquivos modificados:**
-  - `src/data/rm2Conteudo.ts` **[SUBSTITUÃ�DO â€” 30 tÃ³picos, 7 Ã¡reas, padrÃ£o histÃ³rico RM2]**
+  - `src/data/rm2Conteudo.ts` **[SUBSTITUÃDO â€” 30 tÃ³picos, 7 Ã¡reas, padrÃ£o histÃ³rico RM2]**
   - `src/components/rm2/RM2Cronograma.tsx` **[REESCRITO â€” 13 semanas + banner informativo]**
   - `.env.example` **[SANITIZADO â€” chave real removida]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
@@ -1448,3 +1448,96 @@ pm run build\). Exit Code 0 retornado, confirmando que as inserções não gerar
 - **Arquivos modificados:**
   - Nenhum arquivo local de código foi modificado nesta etapa além deste próprio resumo.
   - \RESUMO_MESTRE.md\ **[ATUALIZADO]**
+
+---
+### Parte 66 — Adição do campo "banca" nos 5 arquivos de simulado
+- **Data e hora:** 23/06/2026 10:56
+- **O que foi feito:**
+  - Adicionado o campo `"banca": "CEBRASPE/CESPE"` imediatamente após o campo `"data"` nos cinco arquivos JSON de simulados (simulado-01 a simulado-05), localizados em `src/data/simulados/`.
+  - Nenhum outro campo foi alterado ou removido.
+  - Validação: `npx tsc --noEmit` ✅ zero erros TypeScript | `npm run build` ✅ 3120 módulos transformados, Exit code: 0.
+- **Arquivos modificados:**
+  - `src/data/simulados/simulado-01.json` **[MODIFICADO — campo "banca" adicionado]**
+  - `src/data/simulados/simulado-02.json` **[MODIFICADO — campo "banca" adicionado]**
+  - `src/data/simulados/simulado-03.json` **[MODIFICADO — campo "banca" adicionado]**
+  - `src/data/simulados/simulado-04.json` **[MODIFICADO — campo "banca" adicionado]**
+  - `src/data/simulados/simulado-05.json` **[MODIFICADO — campo "banca" adicionado]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+### Parte 67 — Criação do indexador de simulados (simuladosIndex.ts)
+- **Data e hora:** 23/06/2026 10:58
+- **O que foi feito:**
+  - Criado o arquivo `src/data/simuladosIndex.ts` com o indexador de carregamento dinâmico dos 5 simulados.
+  - Exporta três funções: `getSimulado(id)` (carrega JSON por ID via import dinâmico), `getSimuladosDisponiveis()` (lista de IDs) e `getMetadadosSimulados()` (array estático com título, data, banca e total de questões).
+  - `resolveJsonModule: true` já estava presente no `tsconfig.json` (linha 24) — nenhuma alteração necessária.
+  - Validação: `npx tsc --noEmit` ✅ zero erros TypeScript | `npm run build` ✅ 3120 módulos transformados, Exit code: 0.
+- **Arquivos modificados:**
+  - `src/data/simuladosIndex.ts` **[NOVO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+### Parte 68 — Integração dos Simulados Reais ao RM2Simulacao
+- **Data e hora:** 23/06/2026 11:01
+- **O que foi feito:**
+  - `src/components/rm2/RM2Simulacao.tsx` atualizado para suportar o novo modo `simulado_real`.
+  - Corrigido o texto do botão de loading de "Gerando Simulado pela IA..." para "Carregando Simulado...".
+  - Adicionado import do indexador de simulados e expandida a interface `RM2SimulacaoProps` para suportar `simuladoId`.
+  - Adicionado o carregamento do JSON completo do simulado e os respectivos metadados (banca, data).
+  - Incluída a renderização dos textos-base na TELA 2 (prova ativa) com formatação apropriada.
+  - O texto_ref da questão agora é exibido nos cards para fácil associação.
+  - Validação: `npx tsc --noEmit` ✅ zero erros TypeScript | `npm run build` ✅ 3126 módulos transformados, Exit code: 0.
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Simulacao.tsx` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+### Parte 69 — Tela de seleção de simulados reais em EstudoRM2
+- **Data e hora:** 23/06/2026 11:22
+- **O que foi feito:**
+  - Adicionado suporte em `src/components/EstudoRM2.tsx` para listar e selecionar simulados reais carregados via `getMetadadosSimulados`.
+  - Adicionado o estado `simuladoSelecionado` que controla o fluxo quando um simulado agendado é clicado.
+  - O componente `RM2Simulacao` teve sua passagem de props ajustada para enviar `modo="simulado_real"` e o `simuladoId` correspondente quando um simulado agendado for selecionado.
+  - Implementada uma interface limpa que lista "Simulados Agendados" abaixo das opções "Rápido" e "Completo", bloqueando visualmente simulados cujas datas ainda não chegaram.
+  - Validação: `npx tsc --noEmit` ✅ zero erros TypeScript | `npm run build` ✅ 3126 módulos transformados, Exit code: 0.
+- **Arquivos modificados:**
+  - `src/components/EstudoRM2.tsx` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+### Parte 70 — Encaixe dos simulados no cronograma (RM2Cronograma.tsx)
+- **Data e hora:** 23/06/2026 11:25
+- **O que foi feito:**
+  - Adicionada a constante `SIMULADOS_AGENDADOS` detalhando os 5 simulados previstos (26/07, 30/08, 27/09, 25/10 e 29/11).
+  - Atualizadas as descrições da propriedade "d" das semanas 5, 10, 14, 18 e 22 dentro de `SEMANAS_RAW` para refletir os avisos explícitos das datas e presença dos simulados no domingo de encerramento daquelas semanas.
+  - Implementada uma seção dedicada "Simulados Agendados" no final da aba "Visão Geral", listando todos os simulados.
+  - A interface lista os simulados com feedback visual dinâmico (tags de status como "Realizado", "Esta semana" e "Agendado") baseado na data atual.
+  - Validação: `npx tsc --noEmit` ✅ zero erros TypeScript | `npm run build` ✅ 3126 módulos transformados, Exit code: 0.
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 66 — Verificação, Integração e Encaixe dos Simulados Reais no App
+
+- **Data e hora:** 23/06/2026
+- **O que foi feito:**
+  1. **Auditoria dos 5 simulados (simulado-01 a simulado-05):** Todos possuem 40 questões, 3 textos-base, 180 minutos, gabaritos individuais consistentes com gabarito_geral. Campo `banca` estava ausente — adicionado "CEBRASPE/CESPE" em todos.
+  2. **src/data/simuladosIndex.ts [NOVO]:** Criado indexador de simulados com funções `getSimulado`, `getSimuladosDisponiveis` e `getMetadadosSimulados`.
+  3. **src/components/rm2/RM2Simulacao.tsx [ATUALIZADO]:** Texto "Gerando Simulado pela IA..." corrigido para "Carregando Simulado...". Adicionado suporte ao modo `simulado_real` com prop `simuladoId`. Exibição dos textos-base e identificação do texto por questão. Metadados de banca e data exibidos no cabeçalho.
+  4. **src/components/EstudoRM2.tsx [ATUALIZADO]:** Adicionada seção "Simulados Agendados" na tela de seleção, com botões que ficam desbloqueados conforme a data de cada simulado chega.
+  5. **src/components/rm2/RM2Cronograma.tsx [ATUALIZADO]:** Adicionada constante SIMULADOS_AGENDADOS. Descrições das semanas 5, 10, 14, 18 e 22 atualizadas com o marcador do simulado correspondente. Bloco visual de simulados agendados adicionado na aba Visão Geral.
+  6. **Encaixe dos simulados no cronograma:**
+     - Simulado 1 (26/07/2026) → fim da Semana 5 (Concordância II, Regência e Pontuação)
+     - Simulado 2 (30/08/2026) → fim da Semana 10 (Reescritura e Intertextualidade)
+     - Simulado 3 (27/09/2026) → fim da Semana 14 (Revisão Figuras, Leitura e Tipologia)
+     - Simulado 4 (25/10/2026) → fim da Semana 18 (Revisão Avançada: Textualidade e Tipologia)
+     - Simulado 5 (29/11/2026) → após a Semana 22 (pós-prova ou extensão futura do cronograma)
+- **Arquivos modificados:**
+  - `src/data/simulados/simulado-01.json` a `simulado-05.json` **[ATUALIZADO — campo banca adicionado]**
+  - `src/data/simuladosIndex.ts` **[NOVO]**
+  - `src/components/rm2/RM2Simulacao.tsx` **[ATUALIZADO]**
+  - `src/components/EstudoRM2.tsx` **[ATUALIZADO]**
+  - `src/components/rm2/RM2Cronograma.tsx` **[ATUALIZADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**

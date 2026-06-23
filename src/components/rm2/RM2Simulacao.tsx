@@ -2,14 +2,16 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Loader2, ArrowLeft, Clock, ShieldCheck, Award, CheckCircle2, XCircle, ChevronDown, ChevronUp } from 'lucide-react';
 import { RM2_CONTEUDO } from '../../data/rm2Conteudo';
 import { getConteudo, getIdsDisponiveis } from '../../data/conteudoIndex';
+import { getSimuladosDisponiveis, getSimulado, getMetadadosSimulados } from '../../data/simuladosIndex';
 
 interface RM2SimulacaoProps {
-  modo: "rapido" | "completo";
+  modo: "rapido" | "completo" | "simulado_real";
+  simuladoId?: string;
   onVoltar: () => void;
   onFinalizar: (resultado: any) => void;
 }
 
-export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps) {
+export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2SimulacaoProps) {
   // Controle de estados
   const [started, setStarted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -20,6 +22,8 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
   const [secondsLeft, setSecondsLeft] = useState(modo === "completo" ? 180 * 60 : 45 * 60);
   const [showResult, setShowResult] = useState(false);
   const [resultadoFinal, setResultadoFinal] = useState<any>(null);
+  const [textos, setTextos] = useState<any[]>([]);
+  const [simuladoMeta, setSimuladoMeta] = useState<any>(null);
 
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const initialSeconds = modo === "completo" ? 180 * 60 : 45 * 60;
@@ -55,6 +59,28 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
   const iniciarSimulado = async () => {
     setLoading(true);
     setError('');
+
+    // Modo simulado real: carrega JSON completo do simulado agendado
+    if (modo === 'simulado_real' && simuladoId) {
+      try {
+        const dados = await getSimulado(simuladoId);
+        if (!dados || !dados.questoes || dados.questoes.length === 0) {
+          setError('Simulado não encontrado ou sem questões.');
+          setLoading(false);
+          return;
+        }
+        setTextos(dados.textos || []);
+        setSimuladoMeta({ titulo: dados.titulo, banca: dados.banca, data: dados.data });
+        setQuestoes(dados.questoes);
+        setStarted(true);
+        setLoading(false);
+        return;
+      } catch (err: any) {
+        setError('Erro ao carregar o simulado.');
+        setLoading(false);
+        return;
+      }
+    }
 
     try {
       const ids = getIdsDisponiveis();
@@ -190,7 +216,9 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
               <h2 className="text-xl font-heading font-black text-white">
                 Simulado {modo === "completo" ? "Completo" : "Rápido"}
               </h2>
-              <p className="text-xs text-gray-400">Marinha do Brasil • RM2 Oficiais</p>
+              <p className="text-xs text-gray-400">
+                {simuladoMeta ? `${simuladoMeta.banca} • ${simuladoMeta.data}` : 'Marinha do Brasil • RM2 Oficiais'}
+              </p>
             </div>
           </div>
 
@@ -225,7 +253,7 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
             {loading ? (
               <>
                 <Loader2 className="w-4.5 h-4.5 animate-spin" />
-                <span>Gerando Simulado pela IA...</span>
+                <span>Carregando Simulado...</span>
               </>
             ) : (
               <span>Iniciar Prova</span>
@@ -276,6 +304,23 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
           </div>
         </div>
 
+        {/* Textos-base do simulado real */}
+        {textos.length > 0 && (
+          <div className="space-y-4">
+            {textos.map((texto: any) => (
+              <div key={texto.id} className="bg-surface border border-border rounded-3xl p-6 space-y-2">
+                <div className="flex items-center gap-2">
+                  <span className="text-[10px] uppercase font-black tracking-wider text-blue-400">{texto.id?.replace('texto-', 'Texto ')}</span>
+                  {texto.autor && <span className="text-[10px] text-gray-500">— {texto.autor}</span>}
+                </div>
+                {texto.titulo && <h3 className="font-bold text-white text-sm">{texto.titulo}</h3>}
+                <p className="text-xs text-gray-300 leading-relaxed whitespace-pre-wrap font-serif">{texto.conteudo}</p>
+                {texto.fonte && <p className="text-[10px] text-gray-500 italic">{texto.fonte}</p>}
+              </div>
+            ))}
+          </div>
+        )}
+
         {/* Lista de Questões */}
         <div className="space-y-8">
           {questoes.map((q, qIndex) => {
@@ -289,7 +334,9 @@ export function RM2Simulacao({ modo, onVoltar, onFinalizar }: RM2SimulacaoProps)
                     <span className="w-6 h-6 rounded-full bg-blue-500/10 border border-blue-500/35 text-blue-400 font-bold text-xs flex items-center justify-center shrink-0">
                       {qIndex + 1}
                     </span>
-                    <span className="text-[10px] uppercase font-black tracking-wider text-gray-500">{q.assunto}</span>
+                    <span className="text-[10px] uppercase font-black tracking-wider text-gray-500">
+                      {q.area || q.assunto}{q.texto_ref ? ` • ${q.texto_ref.replace('texto-', 'Texto ')}` : ''}
+                    </span>
                   </div>
 
                   {q.textoBase && (

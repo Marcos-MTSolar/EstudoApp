@@ -39,30 +39,38 @@ const INICIO_ESTUDOS = new Date('2026-06-22T00:00:00'); // Segunda-feira ✅
 const PROVA_PREVISTA = new Date('2026-11-16T00:00:00'); // Previsão: Nov/2026
 const TOTAL_SEMANAS = 22;
 
+const SIMULADOS_AGENDADOS = [
+  { id: 'simulado-01', titulo: 'Simulado 1', data: '2026-07-26', semanaApos: 5 },
+  { id: 'simulado-02', titulo: 'Simulado 2', data: '2026-08-30', semanaApos: 10 },
+  { id: 'simulado-03', titulo: 'Simulado 3', data: '2026-09-27', semanaApos: 14 },
+  { id: 'simulado-04', titulo: 'Simulado 4', data: '2026-10-25', semanaApos: 18 },
+  { id: 'simulado-05', titulo: 'Simulado 5', data: '2026-11-29', semanaApos: 22 },
+];
+
 const SEMANAS_RAW = [
   // FASE 1 — ESTUDO INICIAL (Semanas 1–10)
   { n: 1, f: 1, fn: "Estudo Inicial", i: "2026-06-22", t: ["gram-00", "gram-04", "gram-05"], tp: "estudo", tit: "Fonética e Morfologia I", d: "Fonética e Fonologia (gram-00) + Estrutura e Formação (gram-04) + Classes de Palavras (gram-05)" },
   { n: 2, f: 1, fn: "Estudo Inicial", i: "2026-06-29", t: ["gram-06", "gram-07", "gram-01"], tp: "estudo", tit: "Morfologia II e Ortografia", d: "Flexão Nominal (gram-06) + Flexão Verbal (gram-07) + Sistema Ortográfico (gram-01)" },
   { n: 3, f: 1, fn: "Estudo Inicial", i: "2026-07-06", t: ["gram-02", "gram-03", "gram-08"], tp: "estudo", tit: "Acentuação, Crase e Frase", d: "Acentuação Gráfica (gram-02) + Sinal de Crase (gram-03) + Frase, Oração e Período (gram-08)" },
   { n: 4, f: 1, fn: "Estudo Inicial", i: "2026-07-13", t: ["gram-09", "gram-10", "gram-11"], tp: "estudo", tit: "Sintaxe e Concordância I", d: "Termos da Oração (gram-09) + Coordenação e Subordinação (gram-10) + Concordância Nominal (gram-11)" },
-  { n: 5, f: 1, fn: "Estudo Inicial", i: "2026-07-20", t: ["gram-12", "gram-13", "gram-14"], tp: "estudo", tit: "Concordância II, Regência e Pontuação", d: "Concordância Verbal (gram-12) + Regência (gram-13) + Colocação e Pontuação (gram-14)" },
+  { n: 5, f: 1, fn: "Estudo Inicial", i: "2026-07-20", t: ["gram-12", "gram-13", "gram-14"], tp: "estudo", tit: "Concordância II, Regência e Pontuação", d: "Concordância Verbal (gram-12) + Regência (gram-13) + Colocação e Pontuação (gram-14) | 📋 SIMULADO 1 no domingo (26/07)" },
   { n: 6, f: 1, fn: "Estudo Inicial", i: "2026-07-27", t: ["comp-03", "comp-06", "comp-05"], tp: "estudo", tit: "Semântica I", d: "Linguagem Denotativa (comp-03) + Relações Lexicais (comp-06) + Ambiguidade e Polissemia (comp-05)" },
   { n: 7, f: 1, fn: "Estudo Inicial", i: "2026-08-03", t: ["comp-07", "comp-14", "comp-01"], tp: "estudo", tit: "Figuras, Variação e Leitura", d: "Figuras de Linguagem (comp-07) + Variação Linguística (comp-14) + Leitura de Textos (comp-01)" },
   { n: 8, f: 1, fn: "Estudo Inicial", i: "2026-08-10", t: ["comp-02", "comp-04", "comp-08"], tp: "estudo", tit: "Implícitos e Tipologia", d: "Informações Implícitas (comp-02) + Elementos Ficcionais (comp-04) + Tipos e Gêneros Textuais (comp-08)" },
   { n: 9, f: 1, fn: "Estudo Inicial", i: "2026-08-17", t: ["comp-09", "comp-11", "comp-12"], tp: "estudo", tit: "Discurso e Textualidade", d: "Tipos de Discurso (comp-09) + Coesão Textual (comp-11) + Coerência (comp-12)" },
-  { n: 10, f: 1, fn: "Estudo Inicial", i: "2026-08-24", t: ["comp-10", "comp-13"], tp: "estudo", tit: "Reescritura e Intertextualidade", d: "Reescritura de Frases (comp-10) + Intertextualidade (comp-13)" },
+  { n: 10, f: 1, fn: "Estudo Inicial", i: "2026-08-24", t: ["comp-10", "comp-13"], tp: "estudo", tit: "Reescritura e Intertextualidade", d: "Reescritura de Frases (comp-10) + Intertextualidade (comp-13) | 📋 SIMULADO 2 no domingo (30/08)" },
 
   // FASE 2 — 1ª REVISÃO ESPAÇADA (Semanas 11–15)
   { n: 11, f: 2, fn: "1ª Revisão Espaçada", i: "2026-08-31", t: ["gram-00", "gram-04", "gram-05", "gram-06", "gram-07", "gram-01"], tp: "revisao1", tit: "Revisão Fonética, Morfologia e Ortografia", d: "Revisão dos tópicos gram-00 a gram-07 e gram-01" },
   { n: 12, f: 2, fn: "1ª Revisão Espaçada", i: "2026-09-07", t: ["gram-02", "gram-03", "gram-08", "gram-09", "gram-10", "gram-11"], tp: "revisao1", tit: "Revisão Acentuação, Crase e Sintaxe", d: "Revisão dos tópicos gram-02, gram-03 e gram-08 a gram-11" },
   { n: 13, f: 2, fn: "1ª Revisão Espaçada", i: "2026-09-14", t: ["gram-12", "gram-13", "gram-14", "comp-03", "comp-06", "comp-05"], tp: "revisao1", tit: "Revisão Concordância, Regência e Semântica", d: "Revisão dos tópicos gram-12 a gram-14 e comp-03 a comp-05" },
-  { n: 14, f: 2, fn: "1ª Revisão Espaçada", i: "2026-09-21", t: ["comp-07", "comp-14", "comp-01", "comp-02", "comp-04", "comp-08"], tp: "revisao1", tit: "Revisão Figuras, Leitura e Tipologia", d: "Revisão dos tópicos comp-07, comp-14, comp-01, comp-02, comp-04 e comp-08" },
+  { n: 14, f: 2, fn: "1ª Revisão Espaçada", i: "2026-09-21", t: ["comp-07", "comp-14", "comp-01", "comp-02", "comp-04", "comp-08"], tp: "revisao1", tit: "Revisão Figuras, Leitura e Tipologia", d: "Revisão dos tópicos comp-07, comp-14, comp-01, comp-02, comp-04 e comp-08 | 📋 SIMULADO 3 no domingo (27/09)" },
   { n: 15, f: 2, fn: "1ª Revisão Espaçada", i: "2026-09-28", t: ["comp-09", "comp-11", "comp-12", "comp-10", "comp-13"], tp: "revisao1", tit: "Revisão Discurso, Coesão e Intertextualidade", d: "Revisão dos tópicos comp-09 a comp-13" },
 
   // FASE 3 — 2ª REVISÃO ESPAÇADA (Semanas 16–18)
   { n: 16, f: 3, fn: "2ª Revisão Espaçada", i: "2026-10-05", t: ["gram-00", "gram-04", "gram-05", "gram-06", "gram-07", "gram-01", "gram-02", "gram-03", "gram-08", "gram-09"], tp: "revisao2", tit: "Revisão Avançada: Gramática Básica e Morfologia", d: "Revisão focada nos tópicos gram-00 a gram-09 + simulado parcial" },
   { n: 17, f: 3, fn: "2ª Revisão Espaçada", i: "2026-10-12", t: ["gram-10", "gram-11", "gram-12", "gram-13", "gram-14", "comp-03", "comp-06", "comp-05", "comp-07", "comp-14"], tp: "revisao2", tit: "Revisão Avançada: Sintaxe e Semântica", d: "Revisão focada nos tópicos gram-10 a comp-14 + simulado parcial" },
-  { n: 18, f: 3, fn: "2ª Revisão Espaçada", i: "2026-10-19", t: ["comp-01", "comp-02", "comp-04", "comp-08", "comp-09", "comp-11", "comp-12", "comp-10", "comp-13"], tp: "revisao2", tit: "Revisão Avançada: Textualidade e Tipologia", d: "Revisão focada nos tópicos comp-01 a comp-13 + simulado parcial" },
+  { n: 18, f: 3, fn: "2ª Revisão Espaçada", i: "2026-10-19", t: ["comp-01", "comp-02", "comp-04", "comp-08", "comp-09", "comp-11", "comp-12", "comp-10", "comp-13"], tp: "revisao2", tit: "Revisão Avançada: Textualidade e Tipologia", d: "Revisão focada nos tópicos comp-01 a comp-13 + simulado parcial | 📋 SIMULADO 4 no domingo (25/10)" },
 
   // FASE 4 — SIMULADOS INTENSIVOS (Semanas 19–20)
   { n: 19, f: 4, fn: "Simulados Intensivos", i: "2026-10-26", t: [], tp: "simulado", tit: "Simulados Completos Bloco A", d: "3 simulados completos (40 questões, 3h) + revisão imediata de erros" },
@@ -70,7 +78,7 @@ const SEMANAS_RAW = [
 
   // FASE 5 — 3ª REVISÃO FINAL (Semanas 21–22)
   { n: 21, f: 5, fn: "3ª Revisão Final", i: "2026-11-09", t: ["gram-01", "gram-02", "gram-03", "gram-04", "gram-05", "gram-06", "gram-07", "gram-08", "gram-09", "gram-10", "gram-11", "gram-12", "gram-13", "gram-14", "gram-00", "comp-01", "comp-02", "comp-03", "comp-04", "comp-05", "comp-06", "comp-07", "comp-08", "comp-09", "comp-10", "comp-11", "comp-12", "comp-13", "comp-14"], tp: "revisao3", tit: "Revisão Final Completa", d: "Revisão final de todos os tópicos de gramática e compreensão" },
-  { n: 22, f: 5, fn: "3ª Revisão Final", i: "2026-11-16", t: [], tp: "revisao3", tit: "Simulado Final e Descanso", d: "Simulado final no início da semana + descanso pré-prova" }
+  { n: 22, f: 5, fn: "3ª Revisão Final", i: "2026-11-16", t: [], tp: "revisao3", tit: "Simulado Final e Descanso", d: "Simulado final no início da semana + descanso pré-prova | 📋 SIMULADO 5 no domingo (29/11)" }
 ];
 
 const FASES_INFO = [
@@ -604,6 +612,39 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
                     </div>
                   );
                 })}
+              </div>
+
+              <div className="mt-6 space-y-3">
+                <h3 className="text-[10px] uppercase font-black tracking-wider text-gray-500 flex items-center gap-2">
+                  <span>📋</span> Simulados Agendados
+                </h3>
+                <div className="space-y-2">
+                  {SIMULADOS_AGENDADOS.map((sim) => {
+                    const dataSim = new Date(sim.data + 'T12:00:00');
+                    const hoje = new Date();
+                    const feito = dataSim < hoje;
+                    const proximo = !feito && (dataSim.getTime() - hoje.getTime()) < 14 * 24 * 60 * 60 * 1000;
+                    return (
+                      <div key={sim.id} className={`flex items-center justify-between p-3 rounded-xl border text-xs ${
+                        feito ? 'border-emerald-500/20 bg-emerald-500/5' :
+                        proximo ? 'border-amber-500/20 bg-amber-500/5' :
+                        'border-border/40 bg-black/10'
+                      }`}>
+                        <div>
+                          <span className="font-bold text-white">{sim.titulo}</span>
+                          <span className="text-gray-500 ml-2">{new Date(sim.data + 'T12:00:00').toLocaleDateString('pt-BR')}</span>
+                        </div>
+                        <span className={`text-[9px] font-black uppercase tracking-wider px-2 py-1 rounded-full border ${
+                          feito ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20' :
+                          proximo ? 'bg-amber-500/10 text-amber-400 border-amber-500/20' :
+                          'bg-gray-500/10 text-gray-500 border-gray-500/20'
+                        }`}>
+                          {feito ? 'Realizado' : proximo ? 'Esta semana' : 'Agendado'}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             </div>
           </div>

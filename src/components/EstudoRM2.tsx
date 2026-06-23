@@ -13,6 +13,7 @@ import { RM2Configuracoes } from './rm2/RM2Configuracoes';
 import { RM2Cronograma } from './rm2/RM2Cronograma';
 import { RM2Saude } from './rm2/RM2Saude';
 import { RM2_CONTEUDO } from '../data/rm2Conteudo';
+import { getMetadadosSimulados } from '../data/simuladosIndex';
 
 type RM2Tab = 'dashboard' | 'teoria' | 'questoes' | 'simulado' | 'progresso' | 'configuracoes' | 'cronograma' | 'saude';
 
@@ -40,6 +41,8 @@ export function EstudoRM2() {
   const [selectedAssuntoTeoria, setSelectedAssuntoTeoria] = useState<any>(null);
   const [selectedAssuntoQuestoes, setSelectedAssuntoQuestoes] = useState<any>(null);
   const [simuladoModo, setSimuladoModo] = useState<'rapido' | 'completo' | null>(null);
+  const [simuladoSelecionado, setSimuladoSelecionado] = useState<string | null>(null);
+  const metadadosSimulados = getMetadadosSimulados();
 
   const activeTabDef = RM2_TABS.find(t => t.id === activeTab);
 
@@ -137,7 +140,7 @@ export function EstudoRM2() {
         );
 
       case 'simulado':
-        if (!simuladoModo) {
+        if (!simuladoModo && !simuladoSelecionado) {
           return (
             <div className="w-full space-y-6 animate-in fade-in duration-300">
               <div className="space-y-2">
@@ -168,14 +171,54 @@ export function EstudoRM2() {
                   </div>
                 </button>
               </div>
+
+              <div className="mt-6 space-y-3">
+                <h3 className="text-[10px] uppercase font-black tracking-wider text-gray-500">Simulados Agendados</h3>
+                <div className="space-y-2">
+                  {metadadosSimulados.map((sim) => {
+                    const dataSimulado = new Date(sim.data + 'T12:00:00');
+                    const hoje = new Date();
+                    const disponivel = dataSimulado <= hoje;
+                    const passado = dataSimulado < hoje;
+                    return (
+                      <button
+                        key={sim.id}
+                        onClick={() => disponivel && setSimuladoSelecionado(sim.id)}
+                        disabled={!disponivel}
+                        className={`w-full text-left p-4 rounded-2xl border transition-all flex items-center justify-between gap-4 ${
+                          disponivel
+                            ? 'border-blue-500/30 bg-blue-500/5 hover:bg-blue-500/10 cursor-pointer'
+                            : 'border-border/40 bg-black/10 opacity-50 cursor-not-allowed'
+                        }`}
+                      >
+                        <div className="space-y-0.5">
+                          <p className="text-sm font-bold text-white">{sim.titulo}</p>
+                          <p className="text-[10px] text-gray-500">{sim.banca} • {sim.total_questoes} questões • 3h</p>
+                        </div>
+                        <span className={`text-[9px] font-black uppercase tracking-wider px-2 py-1 rounded-full border ${
+                          passado
+                            ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20'
+                            : disponivel
+                            ? 'bg-blue-500/10 text-blue-400 border-blue-500/20'
+                            : 'bg-gray-500/10 text-gray-500 border-gray-500/20'
+                        }`}>
+                          {passado ? 'Disponível' : disponivel ? 'Hoje' : 'Em breve'}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
             </div>
           );
         }
         return (
           <RM2Simulacao 
-            modo={simuladoModo} 
-            onVoltar={() => setSimuladoModo(null)} 
+            modo={simuladoSelecionado ? 'simulado_real' : simuladoModo!} 
+            simuladoId={simuladoSelecionado ?? undefined}
+            onVoltar={() => { setSimuladoSelecionado(null); setSimuladoModo(null); }} 
             onFinalizar={() => {
+              setSimuladoSelecionado(null);
               setSimuladoModo(null);
               setActiveTab('progresso');
             }}
@@ -246,7 +289,10 @@ export function EstudoRM2() {
                   // Reseta seleções ao alternar abas
                   if (tab.id !== 'teoria') setSelectedAssuntoTeoria(null);
                   if (tab.id !== 'questoes') setSelectedAssuntoQuestoes(null);
-                  if (tab.id !== 'simulado') setSimuladoModo(null);
+                  if (tab.id !== 'simulado') {
+                    setSimuladoModo(null);
+                    setSimuladoSelecionado(null);
+                  }
                 }}
                 className={`
                   flex items-center gap-2 px-4 py-2.5 rounded-2xl text-xs font-black 
