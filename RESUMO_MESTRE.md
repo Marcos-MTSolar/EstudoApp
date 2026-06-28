@@ -1626,3 +1626,15 @@ pm run build\). Exit Code 0 retornado, confirmando que as inserções não gerar
   - `src/components/rm2/RM2Simulacao.tsx` **[MODIFICADO — histórico de simulados]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
+
+---
+
+### Parte 74 - Atualização de RM2Teoria.tsx com suporte a anotações
+- **Data e hora:** 28/06/2026 às 11:46 (Horário Local)
+- **O que foi feito:**
+  - Substituído o arquivo `src/components/rm2/RM2Teoria.tsx` por uma nova versão contendo um novo formato de anotações (destaques no texto base).
+  - Corrigida a tipagem do componente `ExemploAnotado` para `React.FC` para evitar erro de TS na propriedade `key`.
+  - Executados os comandos de compilação (tsc e vite build) com sucesso.
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Teoria.tsx` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
