@@ -2,128 +2,192 @@
   "id": "gram-04",
   "titulo": "Estrutura e Formação de Palavras",
   "area": "Gramática",
-  "resumo": "Estudo dos elementos mórficos que compõem as palavras portuguesas (radical, afixos, vogal temática, desinências) e dos processos pelos quais novas palavras são criadas na língua — derivação e composição —, com atenção especial às regras do Acordo Ortográfico de 1990 (em vigor desde 2016) quanto ao uso do hífen em palavras compostas.",
+  "resumo": "Toda palavra do português tem uma estrutura interna: um pedaço que carrega o significado principal (a raiz) e pedaços que se encaixam antes ou depois para mudar ou ajustar esse significado (prefixos, sufixos, vogais de ligação). Entender essa estrutura ajuda a decifrar o sentido de palavras desconhecidas só observando suas peças, e é a base para entender como o português cria palavras novas — por derivação (acrescentando pedaços) ou por composição (juntando duas palavras inteiras). Quem domina isso resolve questões de CEBRASPE sobre sentido de prefixos e sufixos, e também entende melhor concordância e ortografia, porque várias regras dependem de reconhecer essas peças.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Morfemas e estrutura da palavra",
-        "conteudo": "Toda palavra pode ser decomposta em unidades mínimas de significado chamadas morfemas. Os principais são: (a) Radical — elemento que carrega o significado básico e permanece relativamente estável nas diversas formas da palavra: 'mar-', 'nav-', 'estud-'; (b) Prefixo — morfema preso que antecede o radical, alterando ou nuançando seu significado: 'des-', 're-', 'in-', 'contra-', 'sub-'; (c) Sufixo — morfema preso que se pospõe ao radical, geralmente alterando a classe gramatical: '-eiro' (substantivo/adjetivo), '-mento' (substantivo), '-mente' (advérbio), '-ção' (substantivo), '-vel' (adjetivo); (d) Vogal temática (VT) — vogal que une o radical ao conjunto de desinências, classificando o verbo em 1.ª (-a-), 2.ª (-e-) ou 3.ª (-i-) conjugação: 'am-a-r', 'beb-e-r', 'part-i-r'; para substantivos e adjetivos, as VTs '-a' e '-o' indicam, em regra, feminino e masculino; (e) Desinências — morfemas que indicam as flexões: nominais (gênero e número) e verbais (modo-tempo e número-pessoa); (f) Vogal de ligação e consoante de ligação — elementos eufônicos que facilitam a pronúncia em palavras compostas ou derivadas: 'gas-ô-metro', 'chal-ei-ra'; (g) Afixo = prefixo ou sufixo; (h) Infixo = elemento inserido no interior do radical (raro em português). Segundo Cunha e Cintra (2017), a identificação correta dos morfemas exige o cotejo com formas da mesma família lexical ('mar → mar-eiro → mar-ítimo → mar-inheiro').",
+        "subtitulo": "1. A palavra como um quebra-cabeça: raiz e afixos",
+        "conteudo": "Pense numa palavra como uma construção feita de peças de encaixar, tipo um trem de vagões. Existe sempre um vagão principal, que carrega a carga (o sentido central da palavra), e vagões extras que podem ser presos na frente ou atrás dele.\n\nEsse vagão principal se chama radical (ou raiz). É a parte que se repete em palavras da mesma família, como \"naval\", \"navio\", \"navegar\" — todas trazem a ideia de navio. Os vagões extras se chamam afixos: se vêm antes do radical, são prefixos; se vêm depois, são sufixos.\n\nO prefixo muda ou reforça o sentido da palavra sem trocar a classe gramatical dela. Por exemplo, em \"desembarcar\", o prefixo \"des-\" inverte a ideia de \"embarcar\". Já o sufixo, além de mudar o sentido, pode até trocar a classe da palavra: \"naval\" (adjetivo) vira \"navalmente\" (advérbio) com o sufixo \"-mente\".\n\nA regra geral é: identifique primeiro o radical, que é o núcleo de sentido. Depois observe o que foi colado antes (prefixo) e o que foi colado depois (sufixo). Cada peça tem sua função e juntas formam o sentido final da palavra.\n\nO erro mais comum é confundir o radical com o prefixo, achando que a primeira sílaba sempre é prefixo — quando na verdade ela pode já fazer parte do radical, como em \"recruta\", em que \"re\" não é prefixo separável.",
+        "regra": "Radical = núcleo de sentido · Prefixo = antes do radical · Sufixo = depois do radical",
         "exemplos": [
-          "Decomposição de 'marinheiro': radical 'marin-' + sufixo '-heiro'",
-          "Decomposição de 'desembarcar': prefixo 'des-' + prefixo 'em-' + radical 'barc-' + VT '-a-' + desinência modo-temporal '-r'",
-          "Vogal de ligação em 'gasômetro': 'gas' + vogal de ligação '-ô-' + 'metro'",
-          "Desinências verbais: 'amáv-a-mos' → radical 'am-' + VT '-a-' + sufixo modo-temporal '-v-' + desinência 'a' (1.ª sing.) e desinência 'mos' (1.ª pl.)"
-        ],
-        "regra": "Para identificar o radical, compare formas da mesma família: a parte que se mantém constante é o radical. Prefixos e sufixos somam-se ao radical e alteram sentido ou classe gramatical."
+          {
+            "texto_base": "O recruta foi reincorporado à base naval após o desembarque, e recebeu uma nova designação militarmente relevante.",
+            "anotacoes": [
+              {
+                "trecho": "reincorporado",
+                "destaque": "prefixo RE-",
+                "motivo": "RE- é prefixo que indica repetição, colado antes do radical 'incorporar'"
+              },
+              {
+                "trecho": "desembarque",
+                "destaque": "prefixo DES-",
+                "motivo": "DES- inverte o sentido de 'embarque', mostrando ação contrária"
+              },
+              {
+                "trecho": "militarmente",
+                "destaque": "sufixo -MENTE",
+                "motivo": "Sufixo -MENTE transforma o adjetivo 'militar' em advérbio de modo"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "2. Derivação: tipos e características",
-        "conteudo": "A derivação é o processo de formação de palavras por acréscimo de afixos a uma palavra primitiva (base) ou por alteração de sua forma sem acréscimo de afixos. Tipos principais: (a) Derivação prefixal — acréscimo de prefixo ao radical: 'feliz → in-feliz', 'opor → contra-por', 'ver → re-ver'. O significado do prefixo é determinante: 'des-' (negação/reversão), 'in-/im-/i-' (negação), 're-' (repetição/retorno), 'sub-' (inferioridade/posição inferior), 'super-/sobre-' (superioridade); (b) Derivação sufixal — acréscimo de sufixo: 'lealdade ← leal + -dade', 'corajoso ← coragem + -oso', 'envelhecer ← velh-+(-ecer)'; (c) Derivação prefixal e sufixal simultânea (parassíntese) — prefixo e sufixo são acrescentados ao mesmo tempo, sem que exista a forma intermediária: 'anoitecer' (não existe *'noitecer' nem *'anoite'), 'emudecer' (não existe *'mudecer' nem *'emudo'), 'encardido' (não existe *'cardido'); (d) Derivação regressiva — a palavra derivada é menor que a primitiva, geralmente substantivo de ação formado a partir de verbo: 'comprar → compra', 'atacar → ataque', 'ajudar → ajuda'; (e) Derivação imprópria (conversão) — mudança de classe gramatical sem alteração formal: adjetivo 'belo' → substantivo 'o belo'; verbo 'caminhar' → substantivo 'o caminhar'.",
+        "subtitulo": "2. Derivação: criando palavras a partir de outra",
+        "conteudo": "Imagine que você tem uma palavra-base, como uma massa de modelar, e vai esticando ou colando pedaços nela para criar palavras novas, sempre relacionadas à original. Isso é derivação: pegar uma palavra e, acrescentando prefixo, sufixo, ou os dois, formar uma palavra nova.\n\nExistem alguns tipos principais. Derivação prefixal: só acrescenta prefixo, como em \"in-feliz\" (de \"feliz\"). Derivação sufixal: só acrescenta sufixo, como em \"feliz-mente\" (de \"feliz\"). Derivação parassintética: acrescenta prefixo E sufixo ao mesmo tempo, de forma que, se você tirar só um dos dois, a palavra não existe sozinha — por exemplo, \"em-pobre-cer\": não existe \"empobre\" nem \"pobrecer\" isoladamente, só a palavra completa.\n\nHá também a derivação regressiva, que funciona ao contrário: em vez de acrescentar, a palavra perde uma parte. É o que acontece quando um verbo vira substantivo ficando mais curto: de \"trabalhar\" vem \"trabalho\"; de \"comprar\" vem \"compra\". E existe a derivação imprópria, em que a palavra muda de classe gramatical sem mudar de forma, como quando um adjetivo \"jovem\" passa a funcionar como substantivo em \"os jovens da tripulação\".\n\nA regra prática para identificar o tipo: veja o que foi acrescentado ou retirado, e se prefixo e sufixo dependem um do outro para a palavra existir.\n\nO erro mais comum é confundir derivação parassintética com a simples soma de prefixo e sufixo separados — a diferença é que, na parassintética, nenhuma das partes funciona isoladamente.",
+        "regra": "Prefixal = só prefixo · Sufixal = só sufixo · Parassintética = prefixo+sufixo juntos e inseparáveis · Regressiva = perde parte",
         "exemplos": [
-          "Derivação prefixal: 'desonrar', 'rever', 'sobrepor', 'contrapor'",
-          "Derivação sufixal: 'marinheiro' (mar + -inheiro), 'lealdade' (leal + -dade)",
-          "Parassíntese: 'entristecer' — não existe *'tristecer' nem *'entriste'",
-          "Derivação regressiva: 'embarcar → embarque', 'pescar → pesca'"
-        ],
-        "regra": "Para confirmar parassíntese, tente retirar o prefixo OU o sufixo isoladamente — se a palavra resultante não existir com o mesmo sentido base, é parassíntese. Se existir, pode ser derivação prefixal sobre forma já derivada ou vice-versa."
+          {
+            "texto_base": "Após o enriquecimento do treinamento, o jovem recruta sentiu um amplo entristecimento ao saber da mudança de embarque.",
+            "anotacoes": [
+              {
+                "trecho": "enriquecimento",
+                "destaque": "parassintética",
+                "motivo": "Vem de 'rico' com EN- e -ECER ao mesmo tempo; nem 'enrico' nem 'riquecer' existem sozinhos"
+              },
+              {
+                "trecho": "jovem",
+                "destaque": "derivação imprópria",
+                "motivo": "Adjetivo funcionando como substantivo, sem mudar de forma, só de função na frase"
+              },
+              {
+                "trecho": "entristecimento",
+                "destaque": "parassintética",
+                "motivo": "Vem de 'triste' com EN- e -ECER juntos; nenhuma das partes existe separada"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "3. Composição: justaposição e aglutinação",
-        "conteudo": "A composição forma palavras pela união de dois ou mais radicais ou palavras independentes. Divide-se em: (a) Justaposição — os elementos se unem mantendo sua forma original e são grafados com hífen ou em dois vocábulos: 'porta-aviões', 'navio-escola', 'guarda-chuva', 'verde-oliva', 'segunda-feira'. Os elementos justapostos conservam sua pronúncia e tonicidade individuais; (b) Aglutinação — os elementos se fundem com perda fonética de um ou mais sons, formando uma única palavra: 'fidalgo' (filho + de + algo), 'embora' (em + boa + hora), 'planalto' (plano + alto), 'aguardente' (água + ardente), 'vinagre' (vinho + acre), 'pernilongo' (perna + longa). Segundo Cunha e Cintra (2017), a distinção entre justaposição e aglutinação baseia-se na conservação ou não da integridade fonética dos elementos. Compostos híbridos misturam elementos de línguas diferentes: 'automóvel' (grego + latim), 'televisão' (grego + latim). Compostos eruditos são formados por radicais gregos ou latinos: 'psicologia' (psyche + logos), 'hidrografia' (hydro + graphia), 'eletricidade' (ēlectrum + -cidade).",
+        "subtitulo": "3. Composição: juntando duas palavras inteiras",
+        "conteudo": "Diferente da derivação, em que se colam pedacinhos numa palavra-base, a composição junta duas palavras que já existem por si só e formam uma palavra nova com sentido próprio. É como juntar dois objetos completos para criar um terceiro objeto diferente dos dois originais.\n\nExistem dois tipos principais. Composição por justaposição: as palavras se juntam sem perder nenhum pedaço de som, mantendo sua forma original, como em \"guarda-marinha\" (guarda + marinha) ou \"girassol\" (gira + sol). Composição por aglutinação: as palavras se fundem e perdem parte de seu som original, como em \"planalto\" (plano + alto, perdendo o \"o\" e o \"a\") ou \"pernalta\" (perna + alta).\n\nA pista para diferenciar os dois tipos é simples: na justaposição, se você separar as duas palavras, ainda reconhece os sons completos de cada uma. Na aglutinação, ao separar, percebe que algum som foi cortado ou fundido — a palavra ficou mais curta do que a soma das duas originais.\n\nVale lembrar que, em muitos casos de justaposição, usa-se hífen (como em \"guarda-marinha\" ou \"porta-aviões\"), mas isso depende da palavra específica e de regras ortográficas próprias, não é automático.\n\nO erro mais comum é achar que toda palavra composta tem hífen — várias composições por aglutinação, como \"planalto\", nunca tiveram e nunca terão hífen, pois a fusão sonora já uniu tudo numa palavra só.",
+        "regra": "Justaposição = junta sem perder som · Aglutinação = junta perdendo som · Hífen depende da palavra, não é regra geral",
         "exemplos": [
-          "Justaposição com hífen: 'porta-voz', 'bem-estar', 'ex-marido', 'vice-almirante'",
-          "Justaposição sem hífen (grafia conjunta ou separada): 'girassol', 'passatempo'",
-          "Aglutinação: 'embaixo' (em + baixo), 'debaixo' (de + baixo), 'tampouco' (tão + pouco)",
-          "Composto erudito: 'eletrônica', 'hidrografia', 'aeronáutica'"
-        ],
-        "regra": "Na aglutinação há fusão e perda fonética. Na justaposição, os elementos permanecem reconhecíveis. Para identificar, pergunte: as duas palavras originais ainda são reconhecíveis na forma final? Se sim, justaposição; se houve fusão com perda de sons, aglutinação."
+          {
+            "texto_base": "O porta-aviões seguiu rumo ao planalto costeiro, escoltado pelo guarda-marinha responsável pela embarcação.",
+            "anotacoes": [
+              {
+                "trecho": "porta-aviões",
+                "destaque": "justaposição",
+                "motivo": "Junta 'porta' e 'aviões' sem perder nenhum som das duas palavras"
+              },
+              {
+                "trecho": "planalto",
+                "destaque": "aglutinação",
+                "motivo": "Vem de 'plano' + 'alto', mas perdeu sons na fusão das duas palavras"
+              },
+              {
+                "trecho": "guarda-marinha",
+                "destaque": "justaposição",
+                "motivo": "Junta 'guarda' e 'marinha' mantendo a forma sonora completa de cada uma"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "4. Hífen no Acordo Ortográfico de 1990 (em vigor desde 2016)",
-        "conteudo": "O Acordo Ortográfico de 1990, em vigor desde 2016, alterou substancialmente o uso do hífen em palavras compostas e derivadas. Regras fundamentais: (1) Prefixos terminados em vogal + palavra iniciada pela MESMA vogal: usa hífen — 'anti-inflamatório', 'contra-atacar', 'semi-interno', 'auto-observação'; (2) Prefixos terminados em vogal + palavra iniciada por vogal DIFERENTE: sem hífen — 'autoestima', 'aeroespacial', 'antiaéreo', 'semiaberto'; (3) Prefixos terminados em vogal + palavra iniciada por 'h': usa hífen — 'anti-higiênico', 'semi-hospitalar', 'pré-história', 'sobre-humano'; (4) Prefixos terminados em consoante + palavra iniciada por consoante DIFERENTE: sem hífen — 'submarino', 'transportar', 'interplanetário'; (5) Prefixos terminados em consoante + palavra iniciada pela MESMA consoante: usa hífen — 'sub-bibliotecário', 'hiper-requintado'; (6) Prefixos 'ex-', 'vice-', 'soto-', 'sem-', 'além-', 'aquém-', 'recém-', 'pós-', 'pré-', 'pró-' (quando tônicos e autônomos): SEMPRE com hífen — 'ex-marido', 'vice-almirante', 'recém-chegado', 'pós-graduação'; (7) Elementos 'bem' e 'mal': com hífen se a palavra seguinte começa por vogal ou h — 'bem-estar', 'bem-humorado', 'mal-educado'; sem hífen antes de consoante — 'bem-sucedido' (exceção consolidada) / 'malcriado', 'maldisposto'. PALAVRAS RELEVANTES: 'coautor' (sem hífen — co- + vogal diferente); 'sub-reptício' (sub- + r = hífen); 'antepor' (ante- + consoante = sem hífen).",
+        "subtitulo": "4. Vogal de ligação e outros processos de formação",
+        "conteudo": "Às vezes, ao juntar um radical a um sufixo, o encontro das letras fica difícil de pronunciar — soa estranho ou trava na fala. Para resolver isso, o português usa uma pequena vogal de \"encaixe\", chamada vogal de ligação, que não tem significado próprio, só serve para suavizar a junção.\n\nUm exemplo clássico é \"cafeicultor\": o radical \"café\" se junta ao sufixo \"-cultor\", mas entre eles aparece um \"i\" que não significa nada — só está ali para a palavra fluir melhor na pronúncia. Outro exemplo é \"gasômetro\", em que aparece um \"o\" de ligação entre \"gás\" e \"metro\".\n\nAlém da derivação e da composição, o português ainda forma palavras por outros processos menores, mas que aparecem em prova: a abreviação (corta-se um pedaço da palavra, como \"moto\" de \"motocicleta\"), a sigla (usa-se as letras iniciais de várias palavras, como \"PSU\" de Prova de Seleção... — junta as iniciais), e o estrangeirismo incorporado (palavras de outras línguas que passam a ser usadas no português, como \"internet\").\n\nA regra prática: se você encontrar uma letra solta entre o radical e o sufixo que não muda o sentido nem é prefixo nem sufixo reconhecível, ela é vogal de ligação. Se a palavra é claramente um pedaço cortado de outra maior, é abreviação.\n\nO erro mais comum é tentar dar significado a essa vogal de ligação, como se ela fosse um sufixo — ela não tem função de sentido, só função sonora.",
+        "regra": "Vogal de ligação = só facilita a pronúncia, sem sentido próprio · Abreviação = corta a palavra · Sigla = junta iniciais",
         "exemplos": [
-          "Anti + inflamatório (mesma vogal i-i): anti-inflamatório (com hífen)",
-          "Auto + estima (vogais diferentes a-e): autoestima (sem hífen)",
-          "Pré + história (prefixo tônico autônomo pré-): pré-história (com hífen)",
-          "Co + autor (vogais diferentes o-a): coautor (sem hífen)"
-        ],
-        "regra": "O teste mais rápido: prefixo termina em vogal e a próxima palavra começa com a MESMA vogal ou com 'h'? Coloca hífen. Prefixo 'ex-', 'vice-', 'recém-', 'pós-', 'pré-', 'pró-'? Sempre hífen. Nos demais casos com vogal, sem hífen."
+          {
+            "texto_base": "O cafeicultor da região doou recursos à base, e o boletim foi divulgado pela PSU após o uso do novo gasômetro.",
+            "anotacoes": [
+              {
+                "trecho": "cafeicultor",
+                "destaque": "vogal de ligação I",
+                "motivo": "O 'i' entre 'café' e 'cultor' só facilita a pronúncia, não tem sentido próprio"
+              },
+              {
+                "trecho": "PSU",
+                "destaque": "sigla",
+                "motivo": "Formada pelas letras iniciais de várias palavras, representando uma expressão maior"
+              },
+              {
+                "trecho": "gasômetro",
+                "destaque": "vogal de ligação O",
+                "motivo": "O 'o' entre 'gás' e 'metro' serve só para suavizar a pronúncia da palavra composta"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "5. Outros processos de formação: hibridismo, onomatopeia, abreviação e neologismo",
-        "conteudo": "Além da derivação e da composição, a língua utiliza outros processos: (a) Hibridismo — formação a partir de elementos de línguas diferentes: 'televisão' (grego tele + latim visione), 'automóvel' (grego autos + latim mobilis), 'burocracia' (francês bureau + grego kratos), 'sambódromo' (africano/tupi samba + grego dromos); (b) Onomatopeia — palavras que imitam sons da natureza ou de seres: 'miau', 'cocoricó', 'zunzum', 'plim', 'tique-taque'; (c) Abreviação (ou truncação) — redução da forma da palavra: 'cinematógrafo → cinema → cine', 'fotografia → foto', 'metrô (metropolitano)'; (d) Sigla — formação por iniciais: 'OTAN', 'Marinha/MB', 'RM2'; (e) Acrônimo — sigla que se pronuncia como palavra: 'RADAR' (Radio Detection And Ranging), 'UNESCO'; (f) Neologismo — criação de novas palavras por necessidade comunicativa: 'googlar', 'deletar', 'tweetar'; (g) Empréstimo linguístico — adoção de palavras estrangeiras: 'abordagem' (do francês abordage), 'marujo' (do espanhol marinero / castelhano), 'arsenal' (do árabe). Fiorin e Savioli (2007) destacam que o domínio da formação de palavras facilita a inferência lexical na leitura de textos técnicos e literários.",
+        "subtitulo": "5. Radicais gregos e latinos: as peças eruditas",
+        "conteudo": "Muitas palavras técnicas e formais do português, principalmente em textos jornalísticos e oficiais, não usam prefixos e sufixos do português comum, mas sim radicais de origem grega ou latina, chamados de radicais eruditos. Pense neles como peças importadas de fora, que vieram prontas e se encaixam em vários lugares diferentes formando palavras técnicas.\n\nPor exemplo, o radical grego \"naus\" ou \"nau-\" está ligado à ideia de navio, e aparece em palavras como \"náutico\" e \"nauseabundo\" (que originalmente remetia ao mal-estar sentido em embarcações). O radical latino \"bell-\" está ligado à ideia de guerra, presente em \"belicoso\" e \"rebelião\". Esses radicais eruditos costumam se combinar com sufixos do tipo \"-ico\", \"-oso\", \"-ismo\", formando palavras de registro mais formal.\n\nA regra prática para identificar é: se a palavra tem um \"ar\" técnico, formal, muitas vezes usado em textos científicos, jurídicos ou militares, é bem provável que tenha um radical erudito grego ou latino por trás, mesmo que a forma já pareça naturalmente portuguesa.\n\nIsso é importante porque o CEBRASPE gosta de testar o reconhecimento do sentido de palavras formais a partir da raiz erudita, pedindo para o candidato relacionar palavras da mesma família (\"naval\", \"náutico\", \"nau\" — todas remetem a navio) mesmo quando a grafia parece bem diferente.\n\nO erro mais comum é achar que palavras com aparência muito diferente não podem ser da mesma família — quando, na verdade, o radical erudito pode estar disfarçado dentro de uma forma que parece bem distante da palavra comum.",
+        "regra": "Radical erudito = peça importada do grego/latim · Aparece em palavras técnicas/formais · Mesma família mesmo com grafia diferente",
         "exemplos": [
-          "Hibridismo: 'burocracia' (fr. bureau + gr. kratos), 'paleoantropologia' (gr. palaios + gr. anthropos + logos)",
-          "Onomatopeia como substantivo: 'o zunzum das balas', 'o tique-taque do relógio'",
-          "Abreviação: 'moto' (de motocicleta), 'pneu' (de pneumático)",
-          "Acrônimo: EMBRAER (Empresa Brasileira de Aeronáutica)"
-        ],
-        "regra": "Hibridismo ≠ composição erudita: composição erudita usa dois radicais da mesma língua (ambos gregos ou ambos latinos); hibridismo mistura línguas. Sigla ≠ acrônimo: o acrônimo é lido como palavra ('radar', 'unesco'), a sigla é soletrada ('IPCA', 'CPF')."
-      },
-      {
-        "subtitulo": "6. Famílias lexicais, cognatos e prefixos/sufixos mais cobrados",
-        "conteudo": "A família lexical reúne palavras que compartilham o mesmo radical e pertencem a campos semânticos próximos: 'mar → marinho, marítimo, marinheiro, marinhar, marear, marujo'. O conhecimento das famílias lexicais é fundamental para inferir o significado de palavras desconhecidas em textos. Cognatos são palavras de línguas diferentes com o mesmo radical de origem: 'marine' (inglês) e 'marítimo' (português). Radicais gregos mais cobrados: 'bio-' (vida), 'geo-' (terra), 'hidro-' (água), 'tele-' (distância), 'demo-' (povo), 'logo-/logia' (estudo/razão), 'psico-' (mente), 'auto-' (si mesmo), 'neo-' (novo), 'micro-' (pequeno), 'macro-' (grande). Radicais latinos mais cobrados: 'aqu-' (água), 'bel-/bell-' (guerra), 'corp-' (corpo), 'jur-/jus-' (direito), 'liber-' (livre), 'mort-' (morte), 'nav-' (navio), 'terr-' (terra). Sufixos nominalizadores: '-agem' (conjunto/ação), '-ança' (qualidade/ação), '-ção/-são' (ação/resultado), '-dade/-idade' (qualidade abstrata), '-ência/-ância' (qualidade/estado), '-ismo' (doutrina/tendência), '-ista' (seguidor/profissão). Sufixos verbalizadores: '-izar' (tornar), '-ificar' (tornar/fazer), '-ecer' (tornar-se/começar a).",
-        "exemplos": [
-          "Família de 'nav-': navio, naval, navegação, navegador, nave, navegar",
-          "Radical grego 'hidro-': hidrografia, hidroelétrica, hidroavião, hidrômetro",
-          "Sufixo '-ecer' (incoativo): amanhecer, anoitecer, envelhecer, entristecer",
-          "Sufixo '-dade': lealdade, fidelidade, serenidade, capacidade"
-        ],
-        "regra": "Ao encontrar palavra desconhecida, decomponha em radical + afixos conhecidos. 'Insubordinação' = in- (negação) + sub- (abaixo) + ordin- (ordem) + -ação (processo) = processo de não se submeter à ordem hierárquica."
+          {
+            "texto_base": "O relatório náutico classificou a operação como belicosa, exigindo conduta especial da tripulação naval.",
+            "anotacoes": [
+              {
+                "trecho": "náutico",
+                "destaque": "radical erudito NAU-",
+                "motivo": "Vem do radical grego ligado a navio, da mesma família de 'naval' e 'nau'"
+              },
+              {
+                "trecho": "belicosa",
+                "destaque": "radical BELL-",
+                "motivo": "Vem do radical latino ligado a guerra, presente também em 'rebelião'"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Parassíntese confundida com derivação prefixal + sufixal",
-      "errado": "A palavra 'entristecer' é formada por derivação prefixal ('en-') sobre 'tristecer', que já existe no português.",
-      "correto": "A palavra 'entristecer' é formada por parassíntese: prefixo 'en-' e sufixo '-ecer' são acrescentados simultaneamente ao radical 'trist-', pois *'tristecer' e *'entriste' não existem.",
-      "explicacao": "O critério da parassíntese exige que as formas intermediárias (sem o prefixo OU sem o sufixo) não existam na língua com o mesmo sentido derivacional. Como 'tristecer' não existe e 'entriste' não existe, o processo é necessariamente parassintético. Provas militares frequentemente apresentam exemplos como 'anoitecer', 'emudecer', 'encarcerar' e pedem identificação do processo.",
+      "titulo": "Confundir prefixo com início do radical",
+      "errado": "Em 'recruta', o 'RE' é prefixo de repetição, então a palavra significa 'recrutar de novo'.",
+      "correto": "Em 'recruta', o 'RE' faz parte do próprio radical, não é prefixo separável; a palavra não tem ideia de repetição.",
+      "explicacao": "Nem toda sílaba inicial parecida com um prefixo conhecido é, de fato, um prefixo. É preciso checar se, retirando aquele pedaço, sobra uma palavra com sentido próprio em português. Como 'cruta' não existe isoladamente, 'recruta' é uma palavra primitiva, sem prefixo destacável.",
       "nivel": "basico"
     },
     {
-      "titulo": "Hífen em 'coautor'",
-      "errado": "co-autor",
-      "correto": "coautor",
-      "explicacao": "Pelo Acordo Ortográfico de 1990 (em vigor desde 2016), o prefixo 'co-' terminado em vogal 'o' seguido de palavra começada por vogal diferente ('a' de 'autor') não usa hífen: 'coautor', 'coeditor', 'coexistir', 'coabitação'. O erro clássico é usar hífen por analogia com o antigo acordo. Apenas quando a palavra seguinte começar com 'o' (mesma vogal) é que se usa hífen: 'co-óptico' — situação hipotética.",
+      "titulo": "Achar que toda palavra composta tem hífen",
+      "errado": "Planalto deveria ser escrito 'plan-alto', já que é formada por duas palavras.",
+      "correto": "Planalto se escreve sem hífen, numa palavra só, porque é formada por aglutinação.",
+      "explicacao": "O uso do hífen depende do tipo de composição. Quando há aglutinação (fusão de sons, perdendo parte da pronúncia original), a palavra vira uma unidade só, sem hífen. Hífen aparece tipicamente em casos de justaposição consagrada pelo uso, como 'guarda-marinha', e não é regra automática para toda palavra composta.",
       "nivel": "basico"
     },
     {
-      "titulo": "Derivação regressiva vs. derivação sufixal",
-      "errado": "'Pesca' é derivada de 'pescador' por derivação sufixal.",
-      "correto": "'Pesca' é derivada de 'pescar' por derivação regressiva — a palavra derivada é menor que a primitiva.",
-      "explicacao": "Na derivação regressiva, a palavra resultante é menor que a primitiva: 'pescar (verbo) → pesca (substantivo de ação)'. Não há sufixo acrescentado — ao contrário, há redução. Candidatos confundem porque 'pesca' parece derivar de 'pescador', mas a direção da derivação é pescar → pesca (regressiva), e depois pesca+dor (sufixal para formar o agente). Outros exemplos: 'comprar → compra', 'atacar → ataque', 'pousar → pouso'.",
+      "titulo": "Dar sentido à vogal de ligação",
+      "errado": "Em 'cafeicultor', o 'i' indica intensidade, reforçando que o produtor cultiva muito café.",
+      "correto": "Em 'cafeicultor', o 'i' é apenas vogal de ligação, sem nenhum valor de sentido.",
+      "explicacao": "A vogal de ligação existe só para evitar um encontro de sons difícil de pronunciar entre o radical e o sufixo. Ela nunca carrega significado próprio, diferente de um prefixo ou sufixo. Tentar interpretá-la como portadora de sentido é um erro comum de quem ainda não enxerga a estrutura interna da palavra.",
       "nivel": "intermediario"
     },
     {
-      "titulo": "'Anti-inflamatório' vs. 'antiaéreo'",
-      "errado": "antinflamatório / anti-aéreo",
-      "correto": "anti-inflamatório / antiaéreo",
-      "explicacao": "O prefixo 'anti-' termina em 'i'. Quando a palavra seguinte começa pela mesma vogal 'i' ('inflamatório'), usa-se hífen: 'anti-inflamatório'. Quando começa por vogal diferente ('aéreo' começa por 'a'), sem hífen: 'antiaéreo'. O erro mais frequente é inverter: usar hífen em 'anti-aéreo' e suprimir o hífen em 'antiinflamatório' (que fica com dois 'i' sem hífen, o que é incorreto).",
-      "nivel": "avancado"
+      "titulo": "Confundir derivação parassintética com soma comum de afixos",
+      "errado": "'Empobrecer' é formado por derivação prefixal e depois sufixal, em duas etapas separadas: primeiro 'empobre', depois 'empobrecer'.",
+      "correto": "'Empobrecer' é formado por derivação parassintética, com prefixo e sufixo adicionados ao mesmo tempo, de forma inseparável.",
+      "explicacao": "O teste decisivo é verificar se cada parte funciona isoladamente como palavra da língua. Como nem 'empobre' nem 'pobrecer' existem sozinhos, não houve duas etapas sucessivas: prefixo e sufixo foram anexados simultaneamente ao radical 'pobre', caracterizando a derivação parassintética.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Aglutinação vs. justaposição em 'embora' e 'girassol'",
-      "errado": "'Embora' é formada por justaposição porque se pode reconhecer 'em' e 'bora' separadamente.",
-      "correto": "'Embora' é formada por aglutinação de 'em + boa + hora', com fusão fonética e perda de elementos originais.",
-      "explicacao": "Aglutinação implica fusão com perda fonética de elementos. 'Embora' origina-se de 'em boa hora': houve redução de 'boa hora' para 'bora' com a fusão, perdendo-se a distinção clara dos três elementos. Já 'girassol' é justaposição (gira + sol): os dois elementos são plenamente reconhecíveis. 'Planalto' (plano + alto) é aglutinação pois 'plano' perdeu o '-o' final. 'Aguardente' (água + ardente) é aglutinação com apócope do '-a' final de 'água'.",
+      "titulo": "Não reconhecer radical erudito disfarçado",
+      "errado": "'Náutico' e 'naval' não pertencem à mesma família de palavras, pois têm grafias muito diferentes.",
+      "correto": "'Náutico' e 'naval' pertencem à mesma família semântica, ambos relacionados à ideia de navio, mesmo vindo de radicais distintos (um grego, outro latino).",
+      "explicacao": "A semelhança de família de palavras nem sempre aparece na grafia superficial. Radicais eruditos gregos e latinos podem gerar palavras com aparência bem diferente, mas que carregam o mesmo núcleo de sentido. Reconhecer esse parentesco semântico, e não apenas o visual, é essencial para questões de vocabulário técnico do CEBRASPE.",
       "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "A questão pede para identificar o processo de formação de uma palavra como 'desumano'. O candidato marca 'parassíntese' porque vê prefixo 'des-' e sufixo '-o' (marca de masculino), mas o sufixo de gênero não conta como afixo derivacional.",
-      "dica": "Para parassíntese, o sufixo precisa ser derivacional (formador de nova palavra: -ecer, -izar, -ado etc.), não flexional (marca de gênero/número). 'Desumano' = prefixo 'des-' + base 'humano' (que já existe) → derivação prefixal simples. Se existir a base sem o prefixo, não é parassíntese.",
+      "situacao": "Classificar como prefixo qualquer sílaba inicial que se pareça com um prefixo conhecido, sem testar se o restante da palavra existe sozinho.",
+      "dica": "Sempre retire a suposta peça e veja se o que resta é uma palavra de sentido próprio em português. Se não restar nada reconhecível, a sílaba provavelmente faz parte do radical, não é prefixo separável.",
       "nivel": "basico"
     },
     {
-      "situacao": "O enunciado cita a palavra 'sub-bibliotecário' e pergunta por que se usa hífen. O candidato responde que é porque 'sub-' é prefixo tônico e autônomo (como 'ex-', 'vice-'), confundindo as regras.",
-      "dica": "'Sub-' não é prefixo da lista dos sempre-hifenizados (ex-, vice-, recém-, pós-, pré-, pró-). O hífen em 'sub-bibliotecário' ocorre porque o prefixo 'sub-' termina em consoante 'b' e a palavra seguinte começa pela mesma consoante 'b' (sub + bibliotecário). A regra é: consoante final do prefixo = consoante inicial da palavra → hífen.",
+      "situacao": "Aplicar a regra de hífen de derivação (prefixo + radical) também aos casos de composição por justaposição, achando que é a mesma lógica.",
+      "dica": "Composição e derivação seguem critérios diferentes para o hífen. Em composição, o uso do hífen geralmente é consagrado pelo dicionário e pelo uso consolidado da palavra; não dá para aplicar mecanicamente a regra de vogal igual/diferente usada com prefixos como 'anti-' ou 'co-'.",
       "nivel": "intermediario"
     },
     {
-      "situacao": "A questão apresenta um trecho com a palavra 'bem-sucedido' e pede a justificativa do hífen. O candidato nega o hífen porque a palavra seguinte ('sucedido') começa por consoante, aplicando a regra 'bem + consoante = sem hífen'.",
-      "dica": "'Bem-sucedido' é uma das exceções consolidadas no uso do hífen: embora 'sucedido' comece por consoante, o hífen é mantido por tradição lexicográfica e está dicionarizado assim. Do mesmo modo: 'bem-vindo', 'bem-visto'. Sempre verifique as formas lexicalizadas antes de aplicar a regra geral mecanicamente.",
+      "situacao": "Tentar identificar todos os processos de formação de uma palavra olhando só a forma final, sem considerar a etimologia e a história da palavra.",
+      "dica": "Em questões avançadas, a banca explora palavras cuja formação não é óbvia pela grafia atual. Antes de classificar, pense na palavra de origem e nos radicais eruditos envolvidos; muitas vezes a estrutura morfológica de hoje esconde uma composição ou derivação antiga já consolidada pelo uso.",
       "nivel": "avancado"
     }
   ],
@@ -131,740 +195,733 @@
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que a palavra foi formada por DERIVAÇÃO PREFIXAL.",
+      "enunciado": "Na palavra 'desembarque', o elemento 'des-' classifica-se como:",
       "alternativas": {
-        "A": "marinheiro",
-        "B": "lealdade",
-        "C": "desembarcar",
-        "D": "pesca",
-        "E": "planalto"
+        "A": "Prefixo",
+        "B": "Sufixo",
+        "C": "Radical",
+        "D": "Vogal de ligação",
+        "E": "Desinência"
       },
-      "gabarito": "C",
-      "explicacao": "'Desembarcar' é formada pelo prefixo 'des-' acrescentado à base 'embarcar' (derivação prefixal). A: 'marinheiro' = derivação sufixal (mar + -inheiro). B: 'lealdade' = derivação sufixal (leal + -dade). D: 'pesca' = derivação regressiva de 'pescar'. E: 'planalto' = composição por aglutinação (plano + alto)."
+      "gabarito": "A",
+      "explicacao": "O elemento 'des-' está colado antes do radical 'embarcar', o que o caracteriza como prefixo, responsável por inverter o sentido da palavra-base. Não é sufixo porque sufixo vem depois do radical, não antes. Não é radical porque não carrega o núcleo de sentido principal da palavra, que continua sendo a ideia de 'embarcar'. Também não é desinência, pois desinências marcam flexões de gênero, número ou tempo verbal, e não é o caso aqui."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Em qual das alternativas a palavra é formada por COMPOSIÇÃO POR AGLUTINAÇÃO?",
+      "enunciado": "O radical é a parte da palavra que:",
       "alternativas": {
-        "A": "porta-aviões",
-        "B": "vice-almirante",
-        "C": "aguardente",
-        "D": "bem-estar",
-        "E": "navio-escola"
+        "A": "Sempre aparece no início da palavra",
+        "B": "Carrega o núcleo de significado, repetindo-se em palavras da mesma família",
+        "C": "Indica apenas o tempo verbal",
+        "D": "Só existe em palavras compostas",
+        "E": "É obrigatoriamente separado por hífen"
       },
-      "gabarito": "C",
-      "explicacao": "'Aguardente' é formada por aglutinação de 'água' + 'ardente', com fusão fonética (apócope do '-a' de 'água'). As demais são justaposição: A ('porta-aviões'), B ('vice-almirante'), D ('bem-estar') e E ('navio-escola') mantêm os elementos reconhecíveis e, em geral, usam hífen."
+      "gabarito": "B",
+      "explicacao": "O radical é o elemento que mantém o sentido básico comum entre palavras de uma mesma família, como 'naval', 'navio' e 'navegar', todas ligadas à ideia de navio. A alternativa A está errada porque o radical pode vir precedido de prefixo. A B está errada porque tempo verbal é marcado por desinências, não pelo radical. A D está errada porque radical existe em qualquer palavra, composta ou não. A E está errada porque o uso de hífen depende de regras específicas, não do radical em si."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "O processo de formação da palavra 'anoitecer' é:",
+      "enunciado": "Assinale a alternativa em que a palavra é formada por composição por justaposição.",
       "alternativas": {
-        "A": "Derivação prefixal, pois apenas o prefixo 'a-' foi acrescentado.",
-        "B": "Derivação sufixal, pois apenas o sufixo '-ecer' foi acrescentado.",
-        "C": "Parassíntese, pois prefixo e sufixo foram acrescentados simultaneamente ao radical.",
-        "D": "Composição por justaposição de 'a' e 'noitecer'.",
-        "E": "Derivação regressiva, pois a palavra é menor que sua base."
+        "A": "Planalto",
+        "B": "Pernalta",
+        "C": "Guarda-marinha",
+        "D": "Empobrecer",
+        "E": "Felizmente"
       },
       "gabarito": "C",
-      "explicacao": "'Anoitecer' é parassíntese: acréscimo simultâneo do prefixo 'a-' e do sufixo '-ecer' ao radical 'noite'. Comprova-se porque *'noitecer' e *'anoite' não existem como formas independentes com esse sentido. Não é derivação prefixal (o sufixo também é indispensável), nem sufixal (o prefixo também é indispensável), nem justaposição (não são dois vocábulos independentes), nem regressiva (a palavra não é menor que a base)."
+      "explicacao": "Em 'guarda-marinha', as duas palavras ('guarda' e 'marinha') mantêm seus sons completos ao se juntarem, o que caracteriza a justaposição. 'Planalto' e 'pernalta' são exemplos de aglutinação, pois perdem sons na fusão. 'Empobrecer' é derivação parassintética, não composição. 'Felizmente' é derivação sufixal, formada por radical mais sufixo, e não pela junção de duas palavras inteiras."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Qual é o radical presente em todas as palavras da família lexical: 'naval, navegação, nave, navio'?",
+      "enunciado": "Em 'cafeicultor', a letra 'i' entre 'café' e 'cultor' é classificada como:",
       "alternativas": {
-        "A": "nav-",
-        "B": "nave-",
-        "C": "navi-",
-        "D": "na-",
-        "E": "navig-"
+        "A": "Prefixo",
+        "B": "Sufixo",
+        "C": "Radical",
+        "D": "Vogal de ligação",
+        "E": "Desinência verbal"
       },
-      "gabarito": "A",
-      "explicacao": "O radical comum a 'naval', 'navegação', 'nave' e 'navio' é 'nav-', elemento que carrega o significado básico ligado à ideia de embarcação/navegação. 'Nave-' inclui a vogal temática que nem sempre aparece. 'Navi-' é uma forma que aparece apenas em 'navio'. 'Na-' é pequeno demais para ser o radical. 'Navig-' é a forma latina (navigare), não o radical português isolado."
+      "gabarito": "D",
+      "explicacao": "Essa letra não acrescenta significado algum à palavra; ela existe apenas para facilitar a pronúncia entre o radical 'café' e o sufixo 'cultor', caracterizando uma vogal de ligação. Não é prefixo nem sufixo porque não carrega nenhum sentido próprio, requisito básico para essas classificações. Também não é radical, pois não é o núcleo de significado da palavra, e não é desinência, já que a palavra é um substantivo sem flexão verbal envolvida nesse ponto."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que a palavra é formada por DERIVAÇÃO SUFIXAL.",
+      "enunciado": "A sigla 'PSU', usada para se referir à Prova de Seleção, é um exemplo de formação de palavra por:",
       "alternativas": {
-        "A": "infeliz",
-        "B": "coragem → corajoso",
-        "C": "embarcar → desembarcar",
-        "D": "atacar → ataque",
-        "E": "fidalgo"
+        "A": "Composição por aglutinação",
+        "B": "Derivação regressiva",
+        "C": "Onomatopeia",
+        "D": "Derivação imprópria",
+        "E": "Sigla"
       },
-      "gabarito": "B",
-      "explicacao": "'Corajoso' é formado pela adição do sufixo '-oso' à base 'coragem' (com ajuste fonético) — derivação sufixal. A: 'infeliz' = prefixal (in- + feliz). C: 'desembarcar' = prefixal (des- + embarcar). D: 'ataque' é derivação regressiva de 'atacar'. E: 'fidalgo' é aglutinação ('filho de algo' → 'filh-d-algo' → 'fidalgo')."
+      "gabarito": "E",
+      "explicacao": "Siglas são formadas a partir das letras iniciais de uma expressão mais longa, exatamente o caso de 'PSU'. Não é aglutinação porque não há fusão de palavras com perda de som dentro de uma única palavra contínua. Não é derivação regressiva, processo em que se retira parte de uma palavra para formar outra com sentido relacionado, nem derivação imprópria, em que a classe gramatical muda sem alteração de forma. Também não é onomatopeia, que reproduz sons da natureza ou de ações."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "De acordo com o Acordo Ortográfico de 1990 (em vigor desde 2016), qual das seguintes palavras está grafada CORRETAMENTE?",
+      "enunciado": "Na frase 'O comandante elogiou o trabalho da tripulação', a palavra 'trabalho' é formada a partir do verbo 'trabalhar' por:",
       "alternativas": {
-        "A": "co-autor",
-        "B": "anti-aéreo",
-        "C": "auto-estima",
-        "D": "coautor",
-        "E": "sub-marino"
+        "A": "Derivação regressiva",
+        "B": "Derivação sufixal",
+        "C": "Derivação parassintética",
+        "D": "Derivação prefixal",
+        "E": "Composição por justaposição"
       },
-      "gabarito": "D",
-      "explicacao": "'Coautor' está correto: prefixo 'co-' (termina em 'o') + 'autor' (começa por 'a') — vogais diferentes, sem hífen. A: 'co-autor' está errado (deveria ser 'coautor'). B: 'anti-aéreo' está errado ('anti-' + 'aéreo' começa por 'a' — vogais diferentes, sem hífen: 'antiaéreo'). C: 'auto-estima' está errado (vogais diferentes, sem hífen: 'autoestima'). E: 'sub-marino' está errado (prefixo 'sub-' termina em 'b', 'marino' começa por 'm' — consoantes diferentes, sem hífen: 'submarino')."
+      "gabarito": "A",
+      "explicacao": "O substantivo 'trabalho' surge a partir do verbo 'trabalhar' por meio de uma redução, perdendo a terminação verbal, o que caracteriza a derivação regressiva. Não é derivação prefixal nem sufixal, pois nesses casos a palavra ganha elementos, e não perde. Não é parassintética, já que esse processo exige acréscimo simultâneo de prefixo e sufixo. Também não é composição, pois não há junção de duas palavras distintas."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "A palavra 'pré-história' usa hífen porque:",
+      "enunciado": "Em 'navalmente', o sufixo '-mente' tem a função de:",
       "alternativas": {
-        "A": "O prefixo 'pré-' termina em vogal e 'história' começa por consoante.",
-        "B": "O prefixo 'pré-' pertence ao grupo dos prefixos que sempre exigem hífen por serem tônicos e autônomos.",
-        "C": "Há encontro de vogais iguais entre o prefixo e a base.",
-        "D": "A palavra 'história' começa por 'h', o que por si só elimina o hífen.",
-        "E": "O Acordo Ortográfico exige hífen em todos os compostos com prefixo latino."
+        "A": "Formar um substantivo a partir de um verbo",
+        "B": "Formar um advérbio a partir de um adjetivo",
+        "C": "Indicar plural",
+        "D": "Indicar tempo verbal passado",
+        "E": "Formar um diminutivo"
       },
       "gabarito": "B",
-      "explicacao": "O prefixo 'pré-' (assim como 'pós-', 'pró-', 'ex-', 'vice-', 'recém-', 'soto-', 'sem-', 'além-', 'aquém-') é considerado autônomo e tônico — grupo que sempre usa hífen, independentemente da letra inicial da palavra seguinte. Não é porque termina em vogal antes de consoante (regra A seria incorreta), nem por vogais iguais (não é o caso), nem porque 'h' elimina hífen (ao contrário, 'h' tende a manter o hífen com prefixos terminados em vogal)."
+      "explicacao": "O sufixo '-mente' transforma o adjetivo 'naval' em advérbio de modo, indicando a maneira como algo ocorre. Não forma substantivo a partir de verbo, pois a palavra-base já é um adjetivo. Não indica plural, já que essa marca seria feita por desinência nominal, não por esse sufixo. Não indica tempo verbal, pois 'navalmente' não é um verbo. E não forma diminutivo, função que pertence a sufixos como '-inho' ou '-zinho'."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Qual é o processo de formação de 'televisão'?",
+      "enunciado": "Assinale a alternativa que apresenta corretamente a definição de afixo.",
       "alternativas": {
-        "A": "Derivação sufixal, pois '-são' é sufixo nominal.",
-        "B": "Composição por aglutinação de dois radicais portugueses.",
-        "C": "Hibridismo, pois une o radical grego 'tele-' ao radical latino 'visione'.",
-        "D": "Parassíntese, pois prefixo e sufixo foram acrescentados ao mesmo tempo.",
-        "E": "Derivação prefixal, pois 'tele-' é prefixo acrescentado a 'visão'."
+        "A": "É o núcleo de significado da palavra",
+        "B": "É a vogal que liga radical e sufixo sem valor de sentido",
+        "C": "É qualquer elemento que se junta ao radical, antes ou depois, para alterar ou complementar seu sentido",
+        "D": "É exclusivo de palavras compostas",
+        "E": "É a marca de plural dos substantivos"
       },
       "gabarito": "C",
-      "explicacao": "'Televisão' é formada por hibridismo: o radical grego 'tele-' (distância) + radical latino 'visione' (de visão). Hibridismo é a formação a partir de elementos de línguas diferentes, diferente da composição erudita (dois radicais da mesma língua). Não é derivação sufixal simples nem parassíntese; 'tele-' não é prefixo da mesma língua de 'visão'."
+      "explicacao": "Afixo é o termo genérico que abrange prefixos e sufixos, elementos anexados ao radical para modificar ou complementar seu significado. A alternativa A descreve o radical, não o afixo. A C descreve a vogal de ligação, que é diferente de afixo justamente por não ter valor semântico. A D está errada porque afixos ocorrem tanto em palavras derivadas quanto, eventualmente, dentro de composições. A E descreve uma desinência nominal de número, conceito distinto."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "A palavra 'compra' é formada a partir de 'comprar' por qual processo?",
+      "enunciado": "Em 'porta-aviões', há um exemplo de composição porque:",
       "alternativas": {
-        "A": "Derivação sufixal — acréscimo do sufixo '-a'.",
-        "B": "Derivação regressiva — a palavra resultante é menor que a primitiva.",
-        "C": "Derivação prefixal — acréscimo do prefixo 'com-'.",
-        "D": "Composição por aglutinação.",
-        "E": "Parassíntese — acréscimo simultâneo de prefixo e sufixo."
+        "A": "A palavra tem apenas um radical",
+        "B": "Há um prefixo seguido de um sufixo",
+        "C": "A palavra perdeu sons na junção",
+        "D": "Duas palavras independentes, 'porta' e 'aviões', se uniram formando um novo sentido",
+        "E": "Trata-se de uma sigla"
       },
-      "gabarito": "B",
-      "explicacao": "'Compra' (substantivo) deriva de 'comprar' (verbo) por derivação regressiva: a palavra derivada é morfologicamente menor que a primitiva. O substantivo 'compra' é obtido eliminando-se a desinência verbal '-r' e mantendo a vogal temática como marca da palavra. Não é sufixal (não há sufixo acrescentado — há redução). Não é prefixal (nenhum prefixo foi adicionado). Não é aglutinação nem parassíntese."
+      "gabarito": "D",
+      "explicacao": "Composição ocorre quando duas palavras que já existem de forma independente se juntam para formar uma nova, com sentido próprio, como em 'porta-aviões'. A alternativa A está errada porque há, na verdade, dois núcleos de sentido envolvidos. A B descreve derivação, não composição. A D descreveria aglutinação, mas em 'porta-aviões' ocorre justaposição, sem perda de som. A E está errada porque não se trata de iniciais de outras palavras."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Qual das alternativas apresenta uma palavra formada por COMPOSIÇÃO POR JUSTAPOSIÇÃO?",
+      "enunciado": "Qual das palavras abaixo é formada por derivação prefixal?",
       "alternativas": {
-        "A": "aguardente",
-        "B": "embora",
-        "C": "planalto",
-        "D": "porta-voz",
-        "E": "fidalgo"
+        "A": "Felizmente",
+        "B": "Cafeicultor",
+        "C": "Empobrecer",
+        "D": "Planalto",
+        "E": "Infeliz"
       },
-      "gabarito": "D",
-      "explicacao": "'Porta-voz' é composição por justaposição: os dois elementos ('porta' + 'voz') são plenamente reconhecíveis e mantêm sua forma original, unidos por hífen. As demais são aglutinação: A: 'aguardente' (água + ardente, com fusão); B: 'embora' (em + boa + hora, com fusão intensa); C: 'planalto' (plano + alto, com apócope do '-o' de plano); E: 'fidalgo' (filho de algo, com fusão total)."
+      "gabarito": "E",
+      "explicacao": "'Infeliz' surge da palavra 'feliz' com o acréscimo apenas do prefixo 'in-', sem mudança de sufixo, caracterizando derivação prefixal pura. 'Felizmente' é derivação sufixal, pois recebe apenas o sufixo '-mente'. 'Empobrecer' é parassintética, com prefixo e sufixo simultâneos e inseparáveis. 'Planalto' é composição por aglutinação. 'Cafeicultor' envolve vogal de ligação e sufixo, não apenas prefixo."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Analise as palavras e assinale aquela em que o processo de formação identificado está INCORRETO.",
+      "textoBase": "O processo de empobrecimento de certas tradições navais preocupa os historiadores da corporação.",
+      "enunciado": "Com base no texto, a palavra 'empobrecimento' resulta de qual processo de formação, considerando que nem 'empobre' nem 'pobrecimento' existem isoladamente?",
       "alternativas": {
-        "A": "'entristecer' — parassíntese",
-        "B": "'submarino' — derivação prefixal",
-        "C": "'beleza' — derivação sufixal",
-        "D": "'corte' — derivação regressiva de 'cortar'",
-        "E": "'passatempo' — composição por justaposição"
+        "A": "Derivação sufixal",
+        "B": "Derivação parassintética",
+        "C": "Derivação prefixal",
+        "D": "Composição por justaposição",
+        "E": "Derivação regressiva"
       },
-      "gabarito": "E",
-      "explicacao": "'Passatempo' é formado por composição, mas por AGLUTINAÇÃO, não por justaposição: os elementos 'passa' + 'tempo' se fundiram numa única palavra sem hífen, com leve ajuste fonético. Há perda da identidade gráfica separada dos elementos. Nas demais: A correto (entristecer = parassíntese); B correto ('submarino' = prefixo 'sub-' + marino, sem hífen pois consoantes diferentes); C correto ('beleza' = 'belo' + sufixo '-eza'); D correto ('corte' é deverbativo regressivo de 'cortar')."
+      "gabarito": "B",
+      "explicacao": "Como as partes 'em-' e '-imento' (associada ao radical 'pobre') não funcionam isoladamente como palavras independentes, e foram anexadas simultaneamente ao radical, trata-se de derivação parassintética. Não é sufixal nem prefixal isoladamente, pois ambos os processos ocorreram juntos e de forma interdependente. Não é composição, pois não há junção de duas palavras completas. Também não é regressiva, processo que envolve redução, e não acréscimo de elementos."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Observe as formas abaixo e assinale aquela grafada CORRETAMENTE de acordo com o Acordo Ortográfico de 1990 (em vigor desde 2016).",
+      "enunciado": "Considerando as palavras 'naval', 'náutico' e 'navio', é correto afirmar que:",
       "alternativas": {
-        "A": "anti-inflamatório",
-        "B": "antiinflamatório",
-        "C": "anti-social",
-        "D": "anti-aéreo",
-        "E": "anti-biótico"
+        "A": "Pertencem a famílias de radicais diferentes e sem relação semântica",
+        "B": "Apenas 'naval' e 'navio' compartilham radical; 'náutico' não tem relação",
+        "C": "Todas remetem à mesma ideia central de navio, mesmo vindo de radicais de origens distintas",
+        "D": "São todas formadas por composição",
+        "E": "São todas formadas pelo mesmo sufixo '-al'"
       },
-      "gabarito": "A",
-      "explicacao": "'Anti-inflamatório' está correto: prefixo 'anti-' termina em 'i' e 'inflamatório' começa por 'i' (mesma vogal → hífen obrigatório). B: 'antiinflamatório' (sem hífen) está errado. C: 'anti-social' está errado (o correto seria antissocial). D: 'anti-aéreo' está errado (vogais diferentes, sem hífen). E: 'anti-biótico' está errado (anti- + biótico, vogais diferentes i-o → sem hífen: 'antibiótico')."
+      "gabarito": "C",
+      "explicacao": "Mesmo vindo de raízes latinas e gregas diferentes, as três palavras compartilham o núcleo semântico relacionado a navio, o que evidencia uma família de sentido, não necessariamente de forma idêntica. A alternativa A está errada porque há, sim, relação semântica entre elas. A B está errada porque 'náutico' também integra essa família de sentido. A D está errada porque nenhuma delas resulta de junção de duas palavras independentes. A E está errada porque 'náutico' não apresenta o sufixo '-al'."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Em 'O recruta foi encarcerado por indisciplina', a palavra 'encarcerado' é formada por qual processo?",
+      "enunciado": "No boletim 'O comando determinou a desmilitarização da área após o conflito', a palavra 'desmilitarização' apresenta, em sua formação, simultaneamente:",
       "alternativas": {
-        "A": "Derivação prefixal: prefixo 'en-' acrescentado a 'carcerado'.",
-        "B": "Derivação sufixal: sufixo '-ado' acrescentado a 'encarcerar'.",
-        "C": "Parassíntese: prefixo 'en-' e sufixo '-ar' acrescentados simultaneamente ao radical 'cárcere'.",
-        "D": "Composição por justaposição de 'en' e 'carcerado'.",
-        "E": "Derivação regressiva a partir de 'encarceramento'."
+        "A": "Apenas um prefixo",
+        "B": "Apenas um sufixo",
+        "C": "Apenas composição por aglutinação",
+        "D": "Prefixo, radical e sufixo combinados numa derivação complexa",
+        "E": "Apenas vogal de ligação"
       },
-      "gabarito": "C",
-      "explicacao": "'Encarcerar' (base de 'encarcerado') é formada por parassíntese: prefixo 'en-' + radical 'cárcer-' (de 'cárcere') + sufixo '-ar' (verbalizador) foram acrescentados simultaneamente. *'Carcerar' não existe; *'encárcere' não existe como verbo — confirmando a simultaneidade do acréscimo. 'Encarcerado' é então o particípio passado de 'encarcerar'. A está errada: *'carcerado' como base não existe. B descreve corretamente a formação do particípio, mas não explica a formação do verbo original, que é o que a questão pede."
+      "gabarito": "D",
+      "explicacao": "A palavra 'desmilitarização' reúne o prefixo 'des-', o radical ligado a 'militar' e o sufixo '-ização', formando uma palavra derivada com múltiplos elementos combinados. Não se trata de apenas prefixo ou apenas sufixo isoladamente, pois ambos estão presentes e combinados ao radical. Não é composição, pois não há junção de duas palavras independentes. E não se reduz a uma simples vogal de ligação, que sozinha não explicaria toda a estrutura da palavra."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Considerando os radicais gregos e latinos, assinale a alternativa que apresenta o significado CORRETO do radical destacado.",
+      "enunciado": "Assinale a alternativa correta sobre a diferença entre justaposição e aglutinação na composição de palavras.",
       "alternativas": {
-        "A": "'Hidrografia': 'hidro-' significa 'terra'.",
-        "B": "'Biopsia': 'bio-' significa 'vida'.",
-        "C": "'Geopolítica': 'geo-' significa 'governo'.",
-        "D": "'Democracia': 'demo-' significa 'direito'.",
-        "E": "'Psicologia': 'logo-' significa 'alma'."
+        "A": "Na aglutinação, as palavras mantêm seus sons completos; na justaposição, há perda de som",
+        "B": "Justaposição exige sempre o uso de hífen",
+        "C": "Justaposição e aglutinação são sinônimos e podem ser usados indistintamente",
+        "D": "Aglutinação só ocorre em siglas",
+        "E": "Na justaposição, as palavras mantêm seus sons completos; na aglutinação, há perda de som na fusão"
       },
-      "gabarito": "B",
-      "explicacao": "'Bio-' (do grego bios) significa 'vida': 'biopsia' = exame do (tecido em) vida. As demais estão incorretas: A: 'hidro-' (gr. hydor) = água, não terra (terra = geo-); C: 'geo-' = terra, não governo (governo = cracia/kratos); D: 'demo-' (gr. demos) = povo, não direito (direito = jur-/jus-); E: 'logo-/-logia' = razão/estudo, não alma (alma = psico-, gr. psyche)."
+      "gabarito": "E",
+      "explicacao": "A diferença central está na preservação ou perda de sons: na justaposição as duas palavras mantêm sua forma sonora completa, como em 'guarda-marinha'; na aglutinação ocorre fusão com perda de sons, como em 'planalto'. As alternativas A e C invertem ou anulam essa diferença essencial. A D está errada porque aglutinação não tem relação com siglas. A E está errada porque o uso de hífen na justaposição depende da palavra específica, não é regra absoluta."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Qual das alternativas apresenta par de palavras em que AMBAS são formadas pelo mesmo processo morfológico?",
+      "enunciado": "Na palavra 'gasômetro', o elemento 'o' entre 'gás' e 'metro' tem a mesma função estrutural que o 'i' em 'cafeicultor' porque ambos são:",
       "alternativas": {
-        "A": "'desonra' e 'entristecer'",
-        "B": "'aguardente' e 'porta-voz'",
-        "C": "'marinheiro' e 'corajoso'",
-        "D": "'pesca' e 'desembarcar'",
-        "E": "'vice-almirante' e 'embelezar'"
+        "A": "Vogais de ligação, sem valor semântico próprio",
+        "B": "Sufixos de profissão",
+        "C": "Prefixos de negação",
+        "D": "Radicais eruditos de origem grega",
+        "E": "Desinências de plural"
       },
-      "gabarito": "C",
-      "explicacao": "Ambas são formadas por derivação sufixal: 'marinheiro' (mar + sufixo -inheiro) e 'corajoso' (coragem/corag- + sufixo -oso). A: 'desonra' = prefixal; 'entristecer' = parassíntese — processos diferentes. B: 'aguardente' (aglutinação) e 'porta-voz' (justaposição) — processos diferentes. D: 'pesca' = regressiva; 'desembarcar' = prefixal — processos diferentes. E: 'vice-almirante' = justaposição; 'embelezar' = parassíntese."
+      "gabarito": "A",
+      "explicacao": "Em ambos os casos, a vogal aparece apenas para facilitar a pronúncia entre o radical e o elemento seguinte, sem acrescentar nenhum significado à palavra, o que as caracteriza como vogais de ligação. Não são prefixos de negação, pois não invertem sentido algum. Não são sufixos de profissão, papel que cabe a outros elementos como '-cultor'. Também não são radicais eruditos nem desinências de plural, categorias com funções totalmente diferentes."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "A palavra 'bem-sucedido' usa hífen porque:",
+      "enunciado": "A palavra 'pernalta' (ave de pernas longas) ilustra qual processo de formação de palavras?",
       "alternativas": {
-        "A": "'bem' é prefixo do grupo dos sempre-hifenizados (como 'ex-', 'vice-').",
-        "B": "'bem' termina em consoante 'm' e 'sucedido' começa por consoante 's', e a regra exige hífen entre consoantes iguais.",
-        "C": "É uma forma lexicalizada e dicionarizada com hífen, constituindo exceção à regra geral de 'bem' + consoante.",
-        "D": "'sucedido' começa por vogal, e a regra determina hífen quando 'bem' precede vogal.",
-        "E": "O Acordo Ortográfico de 1990 exige hífen em todos os compostos com 'bem'."
+        "A": "Derivação prefixal",
+        "B": "Composição por aglutinação",
+        "C": "Composição por justaposição",
+        "D": "Derivação sufixal",
+        "E": "Derivação parassintética"
       },
-      "gabarito": "C",
-      "explicacao": "'Bem-sucedido' mantém o hífen como exceção lexicalizada: a regra geral diz que 'bem' + consoante dispensa hífen (malcriado, malfeito), mas 'bem-sucedido' e 'bem-vindo', 'bem-visto' são formas consagradas na escrita que mantêm o hífen. Não é porque 'bem' pertence ao grupo dos prefixos fixos (A errada), nem porque 'sucedido' começa por consoante 's' ≠ 'm' (B errada — consoantes diferentes não justificam hífen nessa regra), nem porque 'sucedido' começa por vogal (D errada — começa por 's')."
+      "gabarito": "B",
+      "explicacao": "'Pernalta' resulta da fusão de 'perna' e 'alta', com perda de sons na junção das duas palavras, o que caracteriza a composição por aglutinação. Não é derivação, pois envolve duas palavras independentes, e não apenas radical mais afixo. Não é justaposição, já que nesse caso as palavras manteriam seus sons completos, o que não ocorre aqui. Também não é parassintética, processo exclusivo da derivação, não da composição."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Considere a palavra 'desumano'. Ela é formada por:",
+      "enunciado": "Em um relatório oficial que usa a expressão 'conduta belicosa da tripulação', o radical de 'belicosa' está etimologicamente relacionado a qual ideia central?",
       "alternativas": {
-        "A": "Parassíntese, pois há prefixo 'des-' e sufixo '-o' acrescentados simultaneamente.",
-        "B": "Derivação prefixal, pois o prefixo 'des-' foi acrescentado à base 'humano', que já existe.",
-        "C": "Derivação sufixal, pois o sufixo '-ano' foi acrescentado à base 'desuma'.",
-        "D": "Composição por justaposição de 'des' e 'humano'.",
-        "E": "Derivação regressiva a partir de 'desumanizar'."
+        "A": "Mar e navegação",
+        "B": "Comércio e troca",
+        "C": "Guerra e conflito",
+        "D": "Saúde e doença",
+        "E": "Tempo e duração"
       },
-      "gabarito": "B",
-      "explicacao": "'Desumano' = prefixo 'des-' + base 'humano' (que existe com plena independência). É derivação prefixal simples: 'humano' já existe, portanto não há necessidade de adicionar prefixo e sufixo simultaneamente. O '-o' final não é sufixo derivacional — é a terminação do adjetivo já presente em 'humano'. A é incorreta: parassíntese exige que a base sem o prefixo OU sem o sufixo não exista — 'humano' existe perfeitamente."
+      "gabarito": "C",
+      "explicacao": "O radical latino presente em 'belicosa' está ligado à ideia de guerra, mesma família de sentido de palavras como 'rebelião' e 'beligerante'. Não há relação com mar e navegação, ideia associada a radicais como 'naus-' ou 'náut-'. Também não remete a comércio, saúde ou tempo, campos semânticos completamente distintos do núcleo de sentido bélico presente nesse radical."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Em relação ao processo de formação de palavras, 'fidalgo' e 'embora' têm em comum o fato de serem formadas por:",
+      "enunciado": "Sobre a derivação imprópria, é correto afirmar que:",
       "alternativas": {
-        "A": "Composição por justaposição, com elementos unidos por hífen.",
-        "B": "Hibridismo, pois misturam radicais de línguas diferentes.",
-        "C": "Composição por aglutinação, com fusão fonética dos elementos.",
-        "D": "Derivação prefixal com prefixos de origem latina.",
-        "E": "Parassíntese, pois nenhuma das formas intermediárias existe."
+        "A": "Sempre envolve acréscimo de prefixo e sufixo",
+        "B": "Depende sempre de hífen",
+        "C": "É exclusiva de substantivos abstratos",
+        "D": "Ocorre quando a palavra muda de classe gramatical sem alterar sua forma",
+        "E": "É sinônimo de composição por aglutinação"
       },
-      "gabarito": "C",
-      "explicacao": "Ambas são composição por aglutinação. 'Fidalgo' = 'filho de algo' (filh + d + algo, com fusão intensa). 'Embora' = 'em boa hora' (em + boa + hora, com redução para 'embora'). Em ambos os casos houve fusão fonética com perda de elementos originais, caracterizando aglutinação. Não são justaposição (os elementos não são mais claramente reconhecíveis), nem hibridismo (são formações do próprio português), nem derivação prefixal, nem parassíntese."
+      "gabarito": "D",
+      "explicacao": "Na derivação imprópria, a palavra passa a exercer outra função gramatical sem que sua forma seja alterada, como ocorre quando um adjetivo passa a funcionar como substantivo. A alternativa A descreve a derivação parassintética, processo diferente. A C está errada porque o fenômeno não se restringe a substantivos abstratos. A D está errada porque não há relação obrigatória com hífen. A E está errada porque composição por aglutinação é um processo morfológico distinto, sem relação com mudança de classe gramatical."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "A decomposição morfológica de 'desembarcar' em 'des- + em- + barc- + -a- + -r' identifica corretamente:",
+      "enunciado": "Em 'os jovens da tripulação receberam instruções', a palavra 'jovens' exemplifica a derivação imprópria porque:",
       "alternativas": {
-        "A": "Dois sufixos ('des-' e 'em-'), uma vogal temática ('-a-') e a desinência de infinitivo ('-r').",
-        "B": "Dois prefixos ('des-' e 'em-'), o radical 'barc-', a vogal temática '-a-' e a desinência de infinitivo '-r'.",
-        "C": "Um prefixo ('des-'), um infixo ('em-'), o radical 'barc-' e um sufixo ('-ar').",
-        "D": "Um radical composto ('des-em-'), a base 'barc-' e o sufixo verbal '-ar'.",
-        "E": "Prefixo 'des-', base 'embarcar' e desinência '-o' apagada."
+        "A": "Ganhou um sufixo de plural exclusivo de substantivos",
+        "B": "Perdeu parte de sua forma original",
+        "C": "Recebeu um prefixo de negação",
+        "D": "Foi formada pela junção de duas palavras",
+        "E": "Passou de adjetivo a substantivo sem alteração morfológica relevante além da flexão regular de número"
       },
-      "gabarito": "B",
-      "explicacao": "'Desembarcar' tem dois prefixos: 'des-' (reversão) + 'em-' (direção/movimento para dentro) — ambos são morfemas presos que antecedem o radical; o radical é 'barc-' (de barca/barco); a vogal temática '-a-' classifica o verbo na 1.ª conjugação; '-r' é a desinência modo-temporal de infinitivo. A confunde prefixo com sufixo; C usa o termo 'infixo' incorretamente (em português, infixos são raros e de natureza diferente); D e E são decomposições incorretas."
+      "gabarito": "E",
+      "explicacao": "'Jovem' é originalmente um adjetivo, mas nessa frase funciona como substantivo, designando as pessoas em si, sem que isso exija uma forma nova além da flexão normal de número, o que caracteriza a derivação imprópria. Não há sufixo exclusivo de substantivo envolvido nesse processo. Não houve perda de forma, o que descartaria a hipótese de derivação regressiva. Também não há junção de palavras nem prefixo de negação presente nessa construção."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Qual das alternativas apresenta par em que uma palavra é formada por HIBRIDISMO e a outra por COMPOSIÇÃO ERUDITA (dois radicais da mesma língua)?",
+      "enunciado": "Considere as palavras 'reincorporado' e 'recruta'. Sobre o elemento 'RE' em cada uma, é correto afirmar que:",
       "alternativas": {
-        "A": "'televisão' e 'psicologia'",
-        "B": "'automóvel' e 'burocracia'",
-        "C": "'hidrografia' e 'aeronáutica'",
-        "D": "'burocracia' e 'geopolítica'",
-        "E": "'telepatia' e 'fidalgo'"
+        "A": "Em 'reincorporado', 'RE' é prefixo de repetição; em 'recruta', é parte do radical, sem função de prefixo",
+        "B": "Em ambas, 'RE' é prefixo de repetição",
+        "C": "Em ambas, 'RE' é apenas vogal de ligação",
+        "D": "Em 'recruta', 'RE' é sufixo; em 'reincorporado', é prefixo",
+        "E": "Em ambas, 'RE' não tem nenhuma função morfológica"
       },
       "gabarito": "A",
-      "explicacao": "'Televisão' é hibridismo (grego 'tele-' + latim 'visione'). 'Psicologia' é composição erudita de dois radicais gregos ('psyche' + 'logos'). Portanto, A apresenta um hibridismo e uma composição erudita. B: 'automóvel' é hibridismo (gr. autos + lat. mobilis); 'burocracia' também é hibridismo (fr. bureau + gr. kratos) — dois hibridismos. C: 'hidrografia' (gr. hydro + gr. graphia) e 'aeronáutica' (gr. aero + gr. nautike) são ambas composição erudita grega. D: idem. E: 'telepatia' é composição erudita grega; 'fidalgo' é aglutinação do português."
+      "explicacao": "Em 'reincorporado', retirando o 'RE', sobra 'incorporado', palavra com sentido próprio, confirmando o prefixo de repetição. Já em 'recruta', retirando o 'RE' não sobra nenhuma palavra reconhecível em português, o que mostra que esse 'RE' já faz parte do radical, sem função de prefixo separável. As demais alternativas ignoram essa diferença fundamental entre os dois casos, tratando-os de forma equivocadamente idêntica."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Analise o trecho: 'O vice-almirante, recém-promovido, discursou sobre a necessidade de bem-estar nos quartéis e pró-atividade nos exercícios.' Considerando o Acordo Ortográfico de 1990 (em vigor desde 2016), identifique as formas hifenizadas INCORRETAS.",
+      "textoBase": "O Comando do 4º Distrito Naval divulgou boletim informando que a desmilitarização parcial da antiga base seria seguida pela reincorporação dos recrutas a uma nova unidade, num processo que o relatório classificou como 'naturalmente reorganizativo e cafeicultoramente irrelevante para a economia local'.",
+      "enunciado": "Considerando o texto, assinale a alternativa que classifica corretamente, quanto ao processo de formação, os elementos destacados em 'desmilitarização', 'reincorporação' e 'cafeicultoramente'.",
       "alternativas": {
-        "A": "Todas as formas estão corretas.",
-        "B": "Apenas 'pró-atividade' está incorreta — deveria ser 'proatividade'.",
-        "C": "Apenas 'bem-estar' está incorreta — deveria ser 'bemestar'.",
-        "D": "Apenas 'recém-promovido' está incorreta — deveria ser 'recémpromovido'.",
-        "E": "'Vice-almirante' e 'recém-promovido' estão corretas, mas 'pró-atividade' deveria ser 'proatividade' e 'bem-estar' deveria ser 'bemestar'."
+        "A": "Todas são formadas exclusivamente por composição",
+        "B": "Todas apresentam apenas vogal de ligação, sem afixos",
+        "C": "'Desmilitarização' é derivação prefixal e sufixal combinadas; 'reincorporação' é derivação prefixal; 'cafeicultoramente' combina vogal de ligação com derivação sufixal",
+        "D": "'Desmilitarização' é composição por aglutinação; 'reincorporação' é justaposição; 'cafeicultoramente' é sigla",
+        "E": "Nenhuma das três apresenta prefixo"
       },
-      "gabarito": "A",
-      "explicacao": "Todas as formas estão corretas. 'Vice-almirante': 'vice-' é prefixo do grupo dos sempre-hifenizados. 'Recém-promovido': 'recém-' pertence ao mesmo grupo. 'Bem-estar': 'bem' + 'estar' (começa por vogal 'e') → com hífen (regra: bem + vogal = hífen). 'Pró-atividade': 'pró-' é prefixo tônico autônomo (como 'pré-', 'pós-') → sempre com hífen. Nenhuma das formas está incorreta."
+      "gabarito": "C",
+      "explicacao": "Em 'desmilitarização', há o prefixo 'des-' e o sufixo '-ização' anexados ao radical ligado a 'militar', configurando uma derivação combinada de prefixo e sufixo. Em 'reincorporação', o prefixo 're-' se soma ao radical 'incorporar', mantendo a ideia de repetição. Já em 'cafeicultoramente', há a vogal de ligação 'i' entre 'café' e 'cultor', seguida do sufixo '-mente'. Nenhuma das três é composição, pois não há junção de duas palavras independentes; logo, as alternativas A e D estão incorretas, assim como a C, que ignora a presença evidente de afixos, e a E, que nega prefixos claramente identificáveis no texto."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Em 'O oficial insubordinado foi submetido a conselho disciplinar', as palavras 'insubordinado' e 'submetido' têm processos de formação que se distinguem porque:",
+      "enunciado": "Analise as palavras 'empobrecimento', 'planalto' e 'náutico' quanto à formação, e assinale a alternativa correta.",
       "alternativas": {
-        "A": "Ambas são parassíntese: 'in-' e 'sub-' com sufixos simultâneos.",
-        "B": "'Insubordinado' tem dois prefixos ('in-' e 'sub-') e sufixo '-ado'; 'submetido' tem um prefixo ('sub-') e sufixo '-ido'.",
-        "C": "'Insubordinado' é parassíntese; 'submetido' é derivação prefixal simples.",
-        "D": "Ambas são derivação prefixal simples com os mesmos prefixos.",
-        "E": "'Insubordinado' é composição; 'submetido' é derivação sufixal."
+        "A": "Todas são formadas por derivação parassintética",
+        "B": "Todas derivam do mesmo radical latino",
+        "C": "'Planalto' é justaposição; as demais são compostas por sufixação simples",
+        "D": "'Empobrecimento' é parassintética; 'planalto' é aglutinação; 'náutico' deriva de radical erudito grego ligado a navio",
+        "E": "'Náutico' é formada por composição com 'náu' e 'tico'"
       },
-      "gabarito": "B",
-      "explicacao": "'Insubordinado': o adjetivo resulta de 'in-' (negação) + 'sub-' (hierarquia inferior) + radical 'ordin-' + sufixo '-ado' — dois prefixos e um sufixo. 'Submetido': 'sub-' (posição inferior/sujeição) + radical 'met-' (de 'meter') + sufixo '-ido' (particípio) — um prefixo. São processos distintos em quantidade de prefixos. A é incorreta: não há parassíntese em nenhuma das duas (as formas intermediárias existem). C é incorreta: 'insubordinado' não é parassíntese (existe 'subordinado'). D é incorreta: têm prefixos diferentes em quantidade."
+      "gabarito": "D",
+      "explicacao": "'Empobrecimento' resulta de prefixo e sufixo simultâneos e inseparáveis sobre o radical 'pobre', caracterizando parassíntese. 'Planalto' funde 'plano' e 'alto' com perda de sons, sendo exemplo de aglutinação. 'Náutico' deriva de um radical de origem grega relacionado à ideia de navio, presente também em 'nau' e 'naval'. A alternativa A erra ao generalizar todas como parassintéticas. A C erra ao tratar as demais como simples sufixação, ignorando os processos reais envolvidos. A D erra ao unificar radicais de origens distintas, e a E erra ao tratar 'náutico' como composição de duas palavras autônomas, o que não procede."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Leia: 'O coautor do manual de navegação publicou também pesquisas sobre hidrografia e aeronavegação.' Assinale a alternativa que apresenta a análise morfológica e ortográfica COMPLETAMENTE CORRETA das palavras em destaque.",
+      "enunciado": "Em um relatório técnico, lê-se: 'A operação revelou-se belicosamente desproporcional, exigindo desembarque imediato da tripulação'. Sobre 'belicosamente' e 'desembarque', assinale a afirmativa correta.",
       "alternativas": {
-        "A": "'Coautor': grafia correta (sem hífen); 'hidrografia': composição erudita grega; 'aeronavegação': composição por aglutinação.",
-        "B": "'Coautor': grafia correta; 'hidrografia': hibridismo (grego + latim); 'aeronavegação': composição erudita.",
-        "C": "'Coautor': deveria ser 'co-autor' (com hífen); 'hidrografia': composição erudita grega; 'aeronavegação': composição erudita.",
-        "D": "'Coautor': grafia correta (sem hífen); 'hidrografia': composição erudita grega; 'aeronavegação': hibridismo.",
-        "E": "'Coautor': grafia correta; 'hidrografia': composição por justaposição; 'aeronavegação': derivação prefixal."
+        "A": "Ambas são formadas por composição por justaposição",
+        "B": "'Desembarque' é composição por aglutinação com 'des' e 'embarque'",
+        "C": "'Belicosamente' é derivação regressiva; 'desembarque' é derivação imprópria",
+        "D": "Ambas apresentam apenas vogal de ligação, sem afixos reais",
+        "E": "'Belicosamente' combina radical erudito latino com sufixo '-mente'; 'desembarque' tem prefixo 'des-' sobre o radical 'embarcar'"
       },
-      "gabarito": "A",
-      "explicacao": "'Coautor' sem hífen está correto: co- (termina em 'o') + autor (começa por 'a') — vogais diferentes, sem hífen (Acordo de 1990, em vigor desde 2016). 'Hidrografia': radical grego 'hydro-' + radical grego 'graphia' — composição erudita de dois radicais gregos. 'Aeronavegação': radical grego 'aero-' + palavra portuguesa 'navegação' — poderia ser hibridismo, mas é mais precisamente classificada como composição por justaposição ou como derivação de 'aeronavegar'. A alternativa A está correta na análise das três formas conforme os processos descritos na gramática. B e D erram na classificação de 'hidrografia' e 'aeronavegação'."
+      "gabarito": "E",
+      "explicacao": "'Belicosamente' parte do radical latino ligado a guerra (presente em 'belicoso'), recebendo o sufixo '-mente' que forma o advérbio. 'Desembarque' tem o prefixo 'des-' anexado ao radical relacionado a 'embarcar', invertendo a ideia original. Não há composição em nenhum dos dois casos, pois ambos partem de um único radical com acréscimo de afixos, e não da junção de duas palavras independentes; isso invalida as alternativas A e E. Também não se trata de derivação regressiva ou imprópria, processos que não se aplicam à formação dessas palavras, eliminando a C. A D ignora a presença clara de prefixo e sufixo com valor semântico definido."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a palavra NÃO é formada por parassíntese.",
+      "textoBase": "Durante a incorporação dos novos recrutas, o boletim naval classificou o processo de readaptação como 'parcialmente empobrecedor para a rotina antiga, porém navalmente necessário'.",
+      "enunciado": "No texto, a relação entre 'incorporação', 'readaptação' e 'empobrecedor' quanto à presença ou ausência de prefixo é corretamente descrita em:",
       "alternativas": {
-        "A": "entristecer",
-        "B": "emudecer",
-        "C": "encarecer",
-        "D": "empobrecer",
-        "E": "endurecer"
+        "A": "'Readaptação' apresenta o prefixo 're-'; 'empobrecedor' apresenta prefixo e sufixo simultâneos (parassíntese); 'incorporação' não apresenta prefixo destacável, pois 'in-' já integra o radical consolidado",
+        "B": "Apenas 'incorporação' apresenta prefixo",
+        "C": "Nenhuma das três apresenta prefixo",
+        "D": "Todas apresentam o mesmo prefixo 'in-'",
+        "E": "'Incorporação' e 'readaptação' são parassintéticas; 'empobrecedor' é simples"
       },
-      "gabarito": "C",
-      "explicacao": "'Encarecer' NÃO é parassíntese: existe o verbo 'carecer' (= necessitar, ser carente de), portanto é possível acrescentar apenas o prefixo 'en-' sobre a base existente 'carecer' — derivação prefixal simples. As demais são parassíntese: 'entristecer' (*tristecer, *entriste não existem), 'emudecer' (*mudecer, *emude não existem), 'empobrecer' (*pobrecer existe marginalmente, mas *empobre não), 'endurecer' (*durecer não existe com esse sentido, *endure não existe). A questão é de alto nível pois exige verificação das formas intermediárias."
+      "gabarito": "A",
+      "explicacao": "Em 'readaptação', o prefixo 're-' é claramente destacável, pois 'adaptação' existe como palavra independente. Em 'empobrecedor', prefixo 'em-' e sufixo '-edor' (sobre o radical 'pobre') aparecem de forma simultânea e inseparável, caracterizando parassíntese. Já em 'incorporação', o 'in-' já está fundido ao radical de forma consolidada na língua, sem funcionar como prefixo produtivo isolável nesse contexto, distinto do 're-' de 'readaptação'. As demais alternativas generalizam incorretamente os três casos, ignorando essas diferenças estruturais específicas."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "A palavra 'malcriado' está grafada de acordo com o Acordo Ortográfico de 1990 (em vigor desde 2016)? Assinale a alternativa com a análise CORRETA.",
+      "enunciado": "Assinale a alternativa que distingue corretamente derivação regressiva de derivação imprópria.",
       "alternativas": {
-        "A": "Não — deveria ser 'mal-criado', pois 'mal' é prefixo do grupo dos sempre-hifenizados.",
-        "B": "Sim — 'mal' + consoante ('c' de 'criado') → sem hífen.",
-        "C": "Não — deveria ser 'mal criado' (sem hífen e sem junção), pois 'mal' é advérbio.",
-        "D": "Sim — 'mal' + vogal → com hífen é a regra, mas como 'criado' começa por consoante, a fusão está correta.",
-        "E": "Não — a forma correta é 'mau-criado', pois 'mau' é o adjetivo correspondente a 'mal'."
+        "A": "Ambas envolvem acréscimo de sufixo",
+        "B": "Derivação regressiva envolve redução de forma (verbo para substantivo); derivação imprópria envolve mudança de classe gramatical sem alteração de forma",
+        "C": "Derivação regressiva é exclusiva de adjetivos",
+        "D": "Derivação imprópria sempre exige hífen",
+        "E": "São processos idênticos, apenas com nomes diferentes"
       },
       "gabarito": "B",
-      "explicacao": "'Malcriado' está grafia correta: 'mal' + 'criado' (começa por consoante 'c') → sem hífen, formando uma única palavra: 'malcriado'. A regra: 'bem/mal' + consoante = sem hífen (malcriado, malfeito, maldisposto). 'Bem/mal' + vogal ou h = com hífen (mal-educado, mal-humorado, bem-estar, bem-humorado). A é incorreta: 'mal' não pertence ao grupo fixo (ex-, vice-). C é incorreta: não se escreve separado. E confunde 'mal' (advérbio/prefixo) com 'mau' (adjetivo)."
+      "explicacao": "A derivação regressiva reduz a forma de uma palavra, como na passagem de verbo para substantivo ('comprar' para 'compra'), enquanto a derivação imprópria mantém a forma da palavra, mudando apenas sua classe gramatical e função na frase, como um adjetivo que passa a substantivo. A alternativa A erra ao atribuir acréscimo de sufixo a ambas, quando a regressiva, na verdade, reduz a palavra. A C restringe indevidamente o processo a adjetivos. A D não tem fundamento, pois o uso de hífen não está vinculado a esse processo. A E ignora diferenças estruturais claras entre os dois fenômenos."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Considere as seguintes afirmações sobre morfologia e assinale a CORRETA.",
+      "enunciado": "Em 'O gasômetro da unidade naval precisou de manutenção após o incidente', a estrutura de 'gasômetro' permite afirmar corretamente que:",
       "alternativas": {
-        "A": "O radical é sempre invariável em todas as formas de uma família lexical.",
-        "B": "A vogal temática verbal indica a conjugação do verbo e nunca recebe acento tônico.",
-        "C": "Desinências modo-temporais e número-pessoais podem estar ausentes em determinadas formas verbais.",
-        "D": "Prefixos nunca alteram a classe gramatical da palavra derivada.",
-        "E": "Sufixos nunca se combinam com outros sufixos na mesma palavra."
+        "A": "É um exemplo de derivação parassintética",
+        "B": "É formada por prefixo 'gas-' e sufixo '-ômetro'",
+        "C": "É formada por dois radicais eruditos ('gás' e 'metro') unidos por vogal de ligação, sem prefixo ou sufixo envolvidos",
+        "D": "É formada por composição com hífen obrigatório",
+        "E": "É uma sigla disfarçada de palavra comum"
       },
       "gabarito": "C",
-      "explicacao": "Desinências modo-temporais e número-pessoais podem estar ausentes (morfema zero): no infinitivo impessoal ('amar'), há desinência modo-temporal '-r' mas a desinência número-pessoal é zero; na 3.ª pessoa do singular do presente ('ama'), há morfema zero para número-pessoa. A é incorreta: radicais podem ter alomorfes (variações): 'ser → é → foi'. B é incorreta: a VT pode receber acento em formas específicas. D é incorreta: prefixos podem alterar a classe (ex.: 'a-' verbalizador em 'amanhecer' — 'noite' substantivo → verbo). E é incorreta: sufixos se combinam: 'feliz → feliz-mente', 'bel-ez-a → bel-ez-inha'."
+      "explicacao": "'Gasômetro' combina os radicais 'gás' e 'metro' (ligado à ideia de medida), unidos por uma vogal de ligação que apenas facilita a pronúncia, sem que haja prefixo ou sufixo no sentido tradicional envolvidos nessa formação específica. Não há prefixo 'gas-' nem sufixo '-ômetro' como unidades morfológicas isoladas reconhecidas dessa forma. Não se trata de parassíntese, processo que exigiria prefixo e sufixo simultâneos sobre um único radical. Também não exige hífen, já que se escreve numa palavra só, e não é sigla, pois não resulta de iniciais de outras palavras."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "O processo de formação da palavra 'radar' (Radio Detection And Ranging) é:",
+      "enunciado": "Sobre o radical erudito presente em 'rebelião' e 'belicoso', é correto afirmar que:",
       "alternativas": {
-        "A": "Hibridismo, pois une elementos do inglês e do português.",
-        "B": "Abreviação, pois é a redução de uma expressão longa para uma forma mais curta.",
-        "C": "Acrônimo, pois é uma sigla que se pronuncia como palavra.",
-        "D": "Composição por aglutinação de radicais latinos.",
-        "E": "Derivação prefixal com o prefixo 'ra-' de origem latina."
+        "A": "Não há relação semântica entre as duas palavras",
+        "B": "O radical comum está ligado à ideia de mar",
+        "C": "São formadas por composição uma com a outra",
+        "D": "Ambas compartilham radical latino ligado à ideia de guerra, embora 'rebelião' tenha sofrido maior alteração fonética ao longo do tempo",
+        "E": "Apenas 'belicoso' tem origem latina; 'rebelião' é de origem grega"
       },
-      "gabarito": "C",
-      "explicacao": "'Radar' é acrônimo: formado pelas iniciais de 'Radio Detection And Ranging' e pronunciado como uma palavra comum. Diferencia-se de sigla (pronunciada letra a letra: 'FBI' = 'efe-bê-í') por ser lido como vocábulo. Não é hibridismo (não une radicais de línguas diferentes numa composição morfológica), nem abreviação simples (não é truncação de uma palavra única), nem aglutinação latina, nem derivação prefixal."
+      "gabarito": "D",
+      "explicacao": "Tanto 'rebelião' quanto 'belicoso' remontam a um radical latino vinculado à ideia de guerra e conflito, ainda que a forma de 'rebelião' tenha se distanciado mais foneticamente ao longo da evolução da língua. A alternativa A erra ao negar essa relação semântica de fundo. A C está errada porque não há junção de duas palavras autônomas formando uma terceira. A D associa erroneamente o radical à ideia de mar, quando o campo semântico correto é guerra. A E inverte as origens, atribuindo erroneamente proveniência grega a 'rebelião', quando ambas vêm de raiz latina."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que TODAS as palavras estão com hífen correto segundo o Acordo Ortográfico de 1990 (em vigor desde 2016).",
+      "enunciado": "Considerando uma questão estilo CEBRASPE que afirma: 'A palavra anti-higiênico é formada por composição, pois resulta da junção de duas palavras autônomas, anti e higiênico', o julgamento correto dessa afirmação é:",
       "alternativas": {
-        "A": "sub-oficial, super-homem, anti-inflamatório, vice-almirante",
-        "B": "sub-oficial, superhomem, antiinflamatório, vice-almirante",
-        "C": "suboficial, super-homem, anti-inflamatório, vice-almirante",
-        "D": "sub-oficial, super-homem, antinflamatório, vice-almirante",
-        "E": "suboficial, superhomem, antiinflamatório, vicealmirante"
+        "A": "Certo, pois há hífen unindo duas unidades",
+        "B": "Certo, pois toda palavra com hífen é composta",
+        "C": "Certo, pois 'anti' e 'higiênico' são ambas palavras independentes em português",
+        "D": "Errado, pois se trata de derivação regressiva",
+        "E": "Errado, pois 'anti-' é prefixo, e a palavra resulta de derivação prefixal, não de composição, já que 'anti' não é uma palavra autônoma do português"
       },
-      "gabarito": "C",
-      "explicacao": "Análise de C: 'suboficial' — 'sub-' termina em 'b' (consoante) + 'oficial' começa por 'o' (vogal diferente) → sem hífen: 'suboficial' ✓; 'super-homem' — 'super-' termina em 'r' + 'homem' começa por 'h' → com hífen ✓; 'anti-inflamatório' — 'anti-' termina em 'i' + 'inflamatório' começa por 'i' (mesma vogal) → com hífen ✓; 'vice-almirante' — prefixo 'vice-' do grupo fixo → sempre com hífen ✓. A: 'sub-oficial' está incorreto (deveria ser 'suboficial'). B: 'antiinflamatório' está incorreto (deveria ter hífen). D: 'antinflamatório' está incorreto (falta hífen e vogal). E: todo incorreto."
+      "gabarito": "E",
+      "explicacao": "A presença de hífen não define, por si só, o processo de formação como composição; é preciso verificar se os elementos unidos são palavras autônomas. 'Anti-' é um prefixo, sem uso isolado como palavra independente em português, o que caracteriza a derivação prefixal sobre o radical 'higiênico', não composição. A alternativa A e a E cometem o erro comum de associar hífen automaticamente a composição. A C erra ao afirmar que 'anti' é palavra autônoma, o que não procede. A D está errada porque não há nenhuma redução de forma envolvida, requisito da derivação regressiva."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Em relação à derivação regressiva, assinale a alternativa que apresenta par INCORRETAMENTE classificado como tal.",
+      "textoBase": "O relatório descreveu a tripulação como 'navalmente disciplinada, mas cafeicultoramente desinformada sobre as novas diretrizes econômicas da base'.",
+      "enunciado": "A respeito da estrutura morfológica de 'navalmente' e 'cafeicultoramente' no texto, é correto afirmar que:",
       "alternativas": {
-        "A": "pescar → pesca",
-        "B": "embarcar → embarque",
-        "C": "pousar → pouso",
-        "D": "atacar → ataque",
-        "E": "navegar → navegação"
+        "A": "'Navalmente' resulta de radical + sufixo '-mente'; 'cafeicultoramente' combina radical, vogal de ligação, sufixo de agente e o sufixo '-mente', numa derivação sufixal múltipla",
+        "B": "Ambas são formadas apenas por composição",
+        "C": "Ambas não apresentam nenhum sufixo",
+        "D": "'Cafeicultoramente' é uma sigla incorporada ao texto",
+        "E": "'Navalmente' é derivação regressiva"
       },
-      "gabarito": "E",
-      "explicacao": "'Navegação' NÃO é derivação regressiva de 'navegar' — é derivação sufixal progressiva: 'navegar' + sufixo '-ção' (com ajuste: naveg-a-ção) = 'navegação', que é maior que a base 'navegar'. A derivação regressiva produz uma forma menor. As demais são regressivas: 'pesca' < 'pescar' (menor), 'embarque' < 'embarcar' (menor), 'pouso' < 'pousar' (menor), 'ataque' < 'atacar' (menor). Em todos esses, o substantivo deverbativo é obtido por redução da forma verbal."
+      "gabarito": "A",
+      "explicacao": "'Navalmente' parte do radical 'naval' com acréscimo do sufixo '-mente', formando o advérbio de modo. 'Cafeicultoramente' é mais complexa: tem o radical 'café', a vogal de ligação 'i', o sufixo de agente '-cultor' e, por fim, o sufixo '-mente', evidenciando uma derivação sufixal em camadas sucessivas. Não há composição em nenhuma das duas, pois ambas partem de um único radical com acréscimos sucessivos, o que invalida a alternativa A. A C ignora os sufixos claramente presentes. A D está errada porque não há nenhuma sigla envolvida, e a E não se aplica, pois não há redução de forma, e sim acréscimo de elementos."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Leia: 'O autor buscou desvendar os meandros da insubordinação mediante análise sócio-histórica dos conflitos navais.' Assinale a alternativa que identifica CORRETAMENTE o processo de formação e a análise morfológica de 'desvendar' e 'insubordinação'.",
+      "enunciado": "Em uma análise comparativa entre 'porta-aviões', 'planalto' e 'guarda-marinha' quanto ao processo de composição, assinale a alternativa correta.",
       "alternativas": {
-        "A": "'Desvendar': parassíntese (des- + vend- + -ar); 'insubordinação': derivação prefixal dupla sobre 'ordenação'.",
-        "B": "'Desvendar': derivação prefixal (des- + vendar); 'insubordinação': cadeia derivacional (in- + sub- + ordin- + -ação).",
-        "C": "'Desvendar': derivação sufixal (-ar sobre 'desvenda'); 'insubordinação': parassíntese.",
-        "D": "'Desvendar': composição por justaposição; 'insubordinação': derivação regressiva.",
-        "E": "'Desvendar': aglutinação de 'des' e 'vendar'; 'insubordinação': hibridismo latino-grego."
+        "A": "As três palavras seguem o mesmo processo, a aglutinação",
+        "B": "'Porta-aviões' e 'guarda-marinha' são justaposições, mantendo os sons completos das palavras-base; 'planalto' é aglutinação, com fusão e perda de som",
+        "C": "Todas exigem hífen obrigatoriamente, por serem compostas",
+        "D": "'Planalto' é justaposição, e as outras duas são aglutinações",
+        "E": "Nenhuma delas é exemplo de composição, mas de derivação"
       },
       "gabarito": "B",
-      "explicacao": "'Desvendar' = prefixo 'des-' + base 'vendar' (que existe: 'vendar os olhos') — derivação prefixal. 'Insubordinação': cadeia derivacional = prefixo 'in-' (negação) + prefixo 'sub-' (posição inferior) + radical 'ordin-' (ordem) + sufixo '-ação' (processo/resultado). Não é parassíntese (existem 'subordinação', 'subordinar'). A é incorreta: 'desvendar' não é parassíntese pois 'vendar' existe. C inverte o processo. D e E são completamente incorretos."
+      "explicacao": "'Porta-aviões' e 'guarda-marinha' preservam integralmente os sons das palavras que as formam, sendo exemplos de justaposição, geralmente grafados com hífen por consagração de uso. 'Planalto', por sua vez, funde 'plano' e 'alto' com perda de sons na junção, caracterizando aglutinação, sem hífen. A alternativa A generaliza incorretamente todas como aglutinação. A C erra ao afirmar obrigatoriedade universal de hífen, já que 'planalto' não o utiliza. A D inverte as classificações corretas. A E está errada porque as três palavras resultam, sim, da junção de duas palavras independentes, processo típico de composição, e não de derivação."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o seguinte trecho adaptado de um relatório naval:\n\n'A Marinha do Brasil, reconhecida internacionalmente pela excelência de sua formação, promove anualmente exercícios de aeronavegação e operações antisubmarinas em parceria com forças aliadas. O coautor do manual de procedimentos enfatizou a necessidade de treinamento constante e pró-atividade dos tripulantes.'\n\nConsiderando o Acordo Ortográfico de 1990 (em vigor desde 2016), assinale a alternativa que identifica CORRETAMENTE as palavras grafadas de acordo com a norma vigente.",
+      "textoBase": "O Comando do 4º Distrito Naval informou, em boletim interno, que a reincorporação dos recrutas desembarcados seria acompanhada por um processo de readaptação descrito como 'navalmente rigoroso, porém cafeicultoramente alheio às questões econômicas da região, e absolutamente isento de qualquer empobrecimento institucional'.",
+      "enunciado": "Considerando o boletim, assinale a alternativa que analisa corretamente a estrutura morfológica das palavras 'reincorporação', 'desembarcados' e 'empobrecimento'.",
       "alternativas": {
-        "A": "Todas as palavras do trecho estão grafadas corretamente.",
-        "B": "'antisubmarinas' está errada — deveria ser 'anti-submarinas'; 'coautor' está errado — deveria ser 'co-autor'.",
-        "C": "'coautor' está errado — deveria ser 'co-autor'; 'pró-atividade' está errado — deveria ser 'proatividade'.",
-        "D": "'antisubmarinas' está errada — deveria ser 'anti-submarinas'; 'pró-atividade' está correto.",
-        "E": "Apenas 'aeronavegação' está errada — deveria ser 'aero-navegação'."
+        "A": "'Reincorporação' tem prefixo 're-' sobre 'incorporação'; 'desembarcados' tem prefixo 'des-' sobre 'embarcar'; 'empobrecimento' é parassintética, com prefixo e sufixo inseparáveis sobre 'pobre'",
+        "B": "Todas resultam de composição por aglutinação",
+        "C": "Todas são formadas por derivação regressiva",
+        "D": "'Empobrecimento' é composição por justaposição",
+        "E": "Nenhuma das três apresenta prefixo identificável"
       },
       "gabarito": "A",
-      "explicacao": "Todas as grafias estão corretas. 'Aeronavegação': 'aero-' + 'navegação' (vogais diferentes a-n) → sem hífen ✓. 'Antisubmarinas': 'anti-' + 'submarinas' (vogais diferentes i-s... 'sub' começa por consoante) → prefixo 'anti-' termina em vogal 'i' + palavra que começa por consoante 's' → sem hífen ✓. 'Coautor': 'co-' + 'autor' (vogais diferentes o-a) → sem hífen ✓. 'Pró-atividade': 'pró-' é prefixo tônico autônomo → sempre com hífen ✓. B e C erram ao questionar 'coautor' e 'antisubmarinas'. D erra ao questionar 'antisubmarinas'."
+      "explicacao": "Em 'reincorporação', o prefixo 're-' soma-se a 'incorporação', palavra que existe de forma independente, confirmando a derivação prefixal. Em 'desembarcados', o prefixo 'des-' inverte o sentido do radical ligado a 'embarcar'. Já em 'empobrecimento', prefixo 'em-' e sufixo '-imento' (sobre o radical 'pobre') aparecem de forma simultânea e inseparável, configurando parassíntese. Nenhuma envolve composição ou redução regressiva, o que invalida as demais alternativas, que ignoram a presença clara e identificável dos prefixos em todos os três casos."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Analise o seguinte conjunto de palavras e suas classificações morfológicas:\n\nI. 'anoitecer' — parassíntese\nII. 'aguardente' — composição por aglutinação\nIII. 'televisão' — composição erudita (dois radicais gregos)\nIV. 'pesca' — derivação sufixal de 'pescar'\nV. 'malcriado' — correto sem hífen (mal + consoante)\n\nEstão CORRETAS apenas:",
+      "enunciado": "Em um relatório técnico, encontra-se a expressão 'conduta belicosamente desproporcional e navalmente condenável'. Sobre a formação de 'belicosamente' e 'navalmente', é correto afirmar que:",
       "alternativas": {
-        "A": "I, II e V",
-        "B": "I, III e IV",
-        "C": "II, III e V",
-        "D": "I, II, IV e V",
-        "E": "Todas estão corretas."
+        "A": "Ambas resultam de composição por justaposição entre dois radicais eruditos",
+        "B": "'Belicosamente' parte de radical erudito latino ligado a guerra mais sufixo '-mente'; 'navalmente' parte do radical 'naval' mais o mesmo sufixo, ambas por derivação sufixal",
+        "C": "Apenas 'navalmente' apresenta sufixo; 'belicosamente' é formada por prefixação",
+        "D": "Ambas são exemplos de derivação regressiva",
+        "E": "'Belicosamente' é uma sigla incorporada ao vocabulário técnico"
       },
-      "gabarito": "A",
-      "explicacao": "I: 'anoitecer' = parassíntese ✓ (*noitecer e *anoite não existem). II: 'aguardente' = aglutinação ✓ (água + ardente, fusão fonética). V: 'malcriado' sem hífen ✓ (mal + consoante = sem hífen). III: INCORRETA — 'televisão' é HIBRIDISMO (grego 'tele-' + latim 'visione'), não composição erudita de dois radicais gregos. IV: INCORRETA — 'pesca' é derivação REGRESSIVA de 'pescar' (não sufixal; a palavra derivada é menor que a primitiva). Portanto, corretas: I, II e V → alternativa A."
+      "gabarito": "B",
+      "explicacao": "As duas palavras seguem o mesmo padrão estrutural: um radical (um de origem erudita ligado a guerra, outro o radical 'naval') recebendo o sufixo '-mente', que forma advérbios de modo a partir de adjetivos. Não há composição envolvida, pois cada palavra parte de um único radical com acréscimo de sufixo, e não da junção de duas palavras autônomas, o que invalida a alternativa A. A C erra ao negar sufixo em 'belicosamente', que claramente o possui. A D não se aplica, pois não há redução de forma. A E está errada, pois não se trata de sigla."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Um candidato ao concurso RM2 encontrou no edital a expressão 'pré-requisitos eliminatórios'. Analise as afirmações:\n\nI. 'Pré-requisitos' usa hífen porque 'pré-' é prefixo tônico autônomo do grupo dos sempre-hifenizados.\nII. 'Eliminatórios' é formado por derivação sufixal: radical 'elimin-' + sufixo '-atórios'.\nIII. O radical de 'requisitos' e de 'requisitar' é 'requis-' (do latim requisitum).\nIV. 'Pré-' pertence ao mesmo grupo que 'ex-', 'vice-', 'recém-', 'pós-', sendo todos grafados com hífen.\n\nAssinale a alternativa que indica as afirmações CORRETAS.",
+      "textoBase": "A base naval anunciou a desmilitarização de parte do terreno, processo classificado pelo relatório como 'planaltinamente inadequado' para os planos de expansão da futura guarda-marinha local.",
+      "enunciado": "A palavra inventada 'planaltinamente', criada no texto para fins de análise, seria formada, em uma hipótese coerente com os processos morfológicos do português, por:",
       "alternativas": {
-        "A": "Apenas I e IV",
-        "B": "I, II e IV",
-        "C": "I, III e IV",
-        "D": "II, III e IV",
-        "E": "Todas estão corretas."
+        "A": "Composição por justaposição entre 'planalto' e 'mente'",
+        "B": "Derivação regressiva a partir de 'planalto'",
+        "C": "Derivação sufixal aplicada sobre a palavra já composta 'planalto' (ela mesma formada por aglutinação), recebendo o sufixo '-mente' com vogal de ligação 'i'",
+        "D": "Sigla formada pelas iniciais de uma expressão maior",
+        "E": "Derivação prefixal pura, sem qualquer sufixo"
       },
-      "gabarito": "B",
-      "explicacao": "I: Correta — 'pré-' é prefixo tônico do grupo fixo, sempre com hífen. II: Correta — 'eliminatórios' = radical 'elimin-' + vogal temática '-a-' + sufixo '-tório' (adjetivo deverbativo) + desinência de gênero/número '-s' — derivação sufixal. IV: Correta — 'pré-', 'pós-', 'pró-', 'ex-', 'vice-', 'recém-', 'soto-', 'além-', 'aquém-' são todos do grupo dos sempre-hifenizados. III: INCORRETA — o radical de 'requisito' é mais precisamente 'requis-' ou 'requist-', mas 'requisitar' deriva do substantivo 'requisito', não o contrário. A afirmação sobre o radical ser do latim não está errada per se, mas a identificação 'requis-' como radical de ambas é imprecisa para o nível exigido. Portanto: I, II e IV corretas → B."
+      "gabarito": "C",
+      "explicacao": "A hipótese mais coerente é que, sobre a palavra já composta por aglutinação 'planalto' (de 'plano' + 'alto'), aplica-se uma derivação sufixal, acrescentando o sufixo '-mente' com o auxílio de uma vogal de ligação para suavizar a pronúncia, formando um advérbio. Isso mostra que derivação e composição podem se combinar em camadas sucessivas. Não é justaposição pura, pois 'mente' não se junta como palavra autônoma da mesma forma que em composições típicas. Não é regressiva, pois há acréscimo, não redução. Não é sigla, pois não há iniciais de palavras envolvidas, e não é prefixação pura, pois o sufixo está claramente presente."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'O oficial bem-humorado, apesar de recém-chegado ao quartel, demonstrou autoconfiança e antipatia pelos procedimentos ultrapassados.'\n\nSobre a formação e a grafia das palavras destacadas, assinale a alternativa CORRETA.",
+      "enunciado": "Avalie a seguinte afirmação, no estilo de julgamento CEBRASPE: 'A palavra recruta apresenta o prefixo re-, indicando repetição na ação de recrutar, do mesmo modo que ocorre em reincorporado'. O julgamento correto é:",
       "alternativas": {
-        "A": "'bem-humorado': correto (bem + h → hífen); 'recém-chegado': correto (recém- do grupo fixo); 'autoconfiança': correto (auto- + vogal diferente, sem hífen); 'antipatia': correto (anti- + consoante, sem hífen).",
-        "B": "'bem-humorado': incorreto (deveria ser 'bemhumorado'); os demais estão corretos.",
-        "C": "'autoconfiança': incorreto (deveria ser 'auto-confiança'); os demais estão corretos.",
-        "D": "'antipatia': incorreto (deveria ser 'anti-patia'); os demais estão corretos.",
-        "E": "'recém-chegado': incorreto (deveria ser 'recémchegado'); os demais estão corretos."
+        "A": "Certo, pois ambas seguem exatamente o mesmo padrão morfológico",
+        "B": "Errado, pois nenhuma das duas palavras tem prefixo",
+        "C": "Certo, pois toda sílaba 're' inicial é sempre prefixo",
+        "D": "Errado, pois em 'recruta' o 're' integra o radical, sem função de prefixo, diferente de 'reincorporado', em que 're-' é prefixo de repetição sobre a palavra autônoma 'incorporado'",
+        "E": "Certo, pois 'recruta' deriva de 'cruta', palavra que existe isoladamente"
       },
-      "gabarito": "A",
-      "explicacao": "Todas as grafias estão corretas. 'Bem-humorado': 'bem' + 'humorado' (começa por 'h') → com hífen ✓. 'Recém-chegado': 'recém-' é prefixo do grupo fixo → sempre com hífen ✓. 'Autoconfiança': 'auto-' termina em 'o' + 'confiança' começa por 'c' (consoante) → sem hífen ✓. 'Antipatia': 'anti-' termina em 'i' + 'patia' começa por 'p' (consoante) → sem hífen ✓. B erra ao questionar 'bem-humorado'; C erra ao questionar 'autoconfiança'; D erra ao questionar 'antipatia'; E erra ao questionar 'recém-chegado'."
+      "gabarito": "D",
+      "explicacao": "O teste decisivo para identificar prefixo é verificar se, ao retirá-lo, sobra uma palavra com sentido próprio. Em 'reincorporado', retirando 're-' sobra 'incorporado', confirmando o prefixo. Em 'recruta', retirando 're' não sobra nenhuma palavra reconhecível em português, mostrando que ali o 're' já é parte do radical. A alternativa A generaliza incorretamente os dois casos como idênticos. A C assume uma regra falsa de que toda sílaba inicial igual a um prefixo é sempre prefixo. A D nega a existência de prefixo onde ele claramente existe, em 'reincorporado'. A E inventa uma palavra, 'cruta', que não existe na língua portuguesa."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Considere o seguinte parágrafo de um texto técnico naval:\n\n'A eletrônica embarcada nos navios modernos resulta de décadas de pesquisas interdisciplinares. A hidrografia e a geopolítica influenciam diretamente as decisões estratégicas, enquanto a burocracia, muitas vezes, retarda a inovação. O empréstimo de tecnologias estrangeiras foi imprescindível para o desenvolvimento da aeronavegação.'\n\nSobre os processos de formação das palavras 'interdisciplinares', 'hidrografia', 'burocracia', 'eletrônica' e 'aeronavegação', assinale a alternativa CORRETA.",
+      "textoBase": "O boletim da base classificou a operação como 'belicosamente intensa, navalmente coordenada e administrativamente empobrecida pela falta de recursos, exigindo desembarque e reincorporação imediatos da tripulação ao quartel cafeicultoramente isolado da região'.",
+      "enunciado": "Considerando o conjunto de palavras destacadas no boletim, assinale a alternativa que apresenta uma classificação morfológica integralmente correta.",
       "alternativas": {
-        "A": "Todas são compostas por radicais exclusivamente gregos.",
-        "B": "'Interdisciplinares': derivação prefixal (inter- + disciplinares); 'hidrografia': composição erudita grega; 'burocracia': hibridismo (fr. bureau + gr. kratos); 'eletrônica': derivação sufixal do radical grego 'ēlectrum'; 'aeronavegação': composição de radical grego + vocábulo português.",
-        "C": "'Burocracia' é composição erudita de dois radicais latinos.",
-        "D": "'Hidrografia' é hibridismo (latim + grego); 'eletrônica' é composição erudita grega.",
-        "E": "'Interdisciplinares' é parassíntese; 'aeronavegação' é aglutinação."
+        "A": "Todas as palavras destacadas são formadas por composição",
+        "B": "Todas são siglas incorporadas ao vocabulário técnico-naval",
+        "C": "Todas as palavras são formadas por derivação regressiva, pois derivam de verbos",
+        "D": "Apenas 'desembarque' apresenta prefixo; as demais são compostas",
+        "E": "'Belicosamente', 'navalmente' e 'administrativamente' seguem o padrão radical + sufixo '-mente'; 'empobrecida' envolve parassíntese sobre 'pobre'; 'desembarque' tem prefixo 'des-'; 'reincorporação' tem prefixo 're-'; 'cafeicultoramente' combina vogal de ligação, sufixo de agente e sufixo '-mente'"
       },
-      "gabarito": "B",
-      "explicacao": "B apresenta análise correta de cada palavra. 'Interdisciplinares': prefixo latino 'inter-' + base 'disciplinar' (já existente) + sufixo '-es' (plural) = derivação prefixal. 'Hidrografia': radical grego 'hydro-' (água) + radical grego 'graphia' (escrita) = composição erudita grega. 'Burocracia': francês 'bureau' + grego 'kratos' = hibridismo. 'Eletrônica': radical grego 'ēlectrum' + sufixo '-ônica/-ica' = derivação sufixal erudita. 'Aeronavegação': radical grego 'aero-' + vocábulo português 'navegação' = composição híbrida. A é incorreta (burocracia e interdisciplinares não são só gregos). C é incorreta (burocracia tem elemento francês). D e E são incorretos."
+      "gabarito": "E",
+      "explicacao": "Cada palavra do boletim segue um processo específico e identificável: os advérbios em '-mente' partem de um radical ou palavra já formada, recebendo esse sufixo; 'empobrecida' mantém o padrão parassintético sobre o radical 'pobre', com prefixo e sufixo inseparáveis; 'desembarque' e 'reincorporação' apresentam prefixos claramente destacáveis ('des-' e 're-') sobre palavras autônomas; e 'cafeicultoramente' acumula vogal de ligação, sufixo de agente e sufixo de modo em camadas sucessivas. Nenhuma delas resulta de composição entre duas palavras independentes, o que invalida a alternativa A, nem de derivação regressiva, que exigiria redução de forma, eliminando a C. A D ignora os demais prefixos presentes no boletim, e a E está errada porque não há, em nenhum caso, formação por iniciais de palavras."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
-      "gram-01",
-      "gram-03",
-      "gram-11",
-      "gram-13",
-      "gram-14",
-      "comp-02",
-      "comp-06",
-      "comp-07",
-      "gram-10",
-      "comp-11",
-      "gram-12",
-      "gram-05",
-      "gram-06",
-      "comp-03",
-      "comp-08",
+      "gram-00",
       "gram-04"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-01",
-        "enunciado": "Assinale a alternativa em que a formação da palavra E a grafia estão ambas CORRETAS segundo o Acordo Ortográfico de 1990 (em vigor desde 2016).",
+        "topico_referencia": "gram-04",
+        "enunciado": "Em 'desembarque', o prefixo 'des-' tem a função de:",
         "alternativas": {
-          "A": "'co-autor': derivação prefixal de 'co-' sobre 'autor', com hífen por serem vogais iguais.",
-          "B": "'coautor': derivação prefixal de 'co-' sobre 'autor', sem hífen por serem vogais distintas.",
-          "C": "'pré-história': parassíntese de 'pré-' e '-história', pois nenhuma forma intermediária existe.",
-          "D": "'anti-aéreo': derivação prefixal correta pois 'anti-' sempre usa hífen antes de vogal.",
-          "E": "'autoestima': composição erudita grega, sem hífen por ser composto aglutinado."
+          "A": "Inverter o sentido do radical relacionado a 'embarcar'",
+          "B": "Indicar repetição",
+          "C": "Formar um advérbio",
+          "D": "Indicar plural",
+          "E": "Suavizar a pronúncia"
         },
-        "gabarito": "B",
-        "explicacao": "Integra gram-03 (derivação prefixal) e gram-01 (ortografia/hífen). 'Coautor': prefixo 'co-' (termina em 'o') + 'autor' (começa por 'a') — vogais diferentes → sem hífen. Grafia e processo corretos. A: a grafia 'co-autor' está errada (vogais diferentes, sem hífen). C: 'pré-história' não é parassíntese — é derivação prefixal simples com 'história' existente; e o hífen em 'pré-' é por ser prefixo tônico autônomo, não por parassíntese. D: 'anti-aéreo' está errado — vogais diferentes (i ≠ a), sem hífen: 'antiaéreo'. E: 'autoestima' está correto na grafia, mas a classificação 'composição erudita grega' está errada — é derivação prefixal ('auto-' + 'estima')."
+        "gabarito": "A",
+        "explicacao": "O prefixo 'des-' nessa palavra inverte a ideia presente no radical, transformando a noção de 'embarcar' em sua ação contrária. Não indica repetição, função associada a prefixos como 're-'. Não forma advérbio, pois essa função pertence a sufixos como '-mente'. Não indica plural, marca própria de desinências nominais, nem tem função de suavizar pronúncia, papel exclusivo das vogais de ligação."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-11",
-        "enunciado": "Leia: 'As análises sócio-históricas e os estudos político-militares revelaram dados preocupantes.' Sobre a concordância nominal dos adjetivos compostos (gram-09) e a formação desses compostos (gram-03), assinale a alternativa CORRETA.",
+        "topico_referencia": "gram-00",
+        "enunciado": "Na palavra 'caixa', o dígrafo 'x' representa, nesse contexto, qual fonema?",
         "alternativas": {
-          "A": "'Sócio-históricas' e 'político-militares': ambos os elementos de cada composto concordam com o substantivo — correto pela regra geral.",
-          "B": "Apenas o último elemento de cada adjetivo composto concorda com o substantivo: 'históricas' concorda com 'análises' (fem. pl.) e 'militares' concorda com 'estudos' (masc. pl.) — correto.",
-          "C": "Ambos os adjetivos compostos deveriam ser invariáveis, pois são compostos de cor.",
-          "D": "'Sócio-históricas' deveria ser 'sócio-histórica' (singular) por concordar com o núcleo implícito 'análise' no singular.",
-          "E": "O hífen em 'sócio-históricas' e 'político-militares' está incorreto — o Acordo de 1990 eliminou o hífen em adjetivos compostos."
+          "A": "/s/",
+          "B": "/ʃ/",
+          "C": "/z/",
+          "D": "/ks/",
+          "E": "/g/"
         },
         "gabarito": "B",
-        "explicacao": "Integra gram-03 (composição de adjetivos) e gram-09 (concordância nominal). Em adjetivos compostos, somente o último elemento concorda em gênero e número com o substantivo: 'sócio-' é invariável; 'históricas' concorda com 'análises' (feminino plural) ✓. 'Político-' é invariável; 'militares' concorda com 'estudos' (masculino plural) ✓. A está errada (não são todos os elementos que concordam). C está errada (não são adjetivos de cor, os quais sim são invariáveis). D está errada (concordância é com 'análises' no plural, correto). E está errada (o Acordo não eliminou o hífen em adjetivos compostos — apenas reformulou as regras)."
+        "explicacao": "Em 'caixa', a letra 'x' representa o fonema /ʃ/, som equivalente ao 'ch' em outras palavras, evidenciando que uma mesma letra pode representar sons diferentes dependendo do contexto. Não representa /s/, som que o 'x' assume em outras palavras como 'auxílio'. Não representa /z/, presente em palavras como 'exato'. Também não representa /ks/, som de 'táxi', nem /g/, que não corresponde a nenhum valor usual do 'x' no português."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-13",
-        "enunciado": "Leia: 'O recruta aspirava _____ carreira naval e se habituou _____ disciplina rígida desde o primeiro dia.' Com base na regência verbal (gram-10) e no conhecimento das classes e formação de palavras (gram-03/04), assinale a alternativa que preenche corretamente as lacunas E identifica o processo de formação de 'disciplina'.",
+        "topico_referencia": "gram-04",
+        "enunciado": "A palavra 'planalto' não leva hífen porque:",
         "alternativas": {
-          "A": "à / à — 'disciplina' é derivação regressiva de 'disciplinar'.",
-          "B": "à / à — 'disciplina' é um substantivo primitivo de base latina.",
-          "C": "a / a — 'disciplina' é composição por aglutinação.",
-          "D": "à / a — 'disciplina' é derivação sufixal.",
-          "E": "a / à — 'disciplina' é derivação prefixal."
+          "A": "É formada por derivação sufixal",
+          "B": "É uma sigla consolidada pelo uso",
+          "C": "Resulta de composição por aglutinação, com fusão e perda de sons entre 'plano' e 'alto'",
+          "D": "Não é uma palavra composta",
+          "E": "O hífen é proibido em todas as palavras com mais de três sílabas"
         },
-        "gabarito": "B",
-        "explicacao": "Integra gram-10 (regência: aspirar a + habituou-se a) e gram-03 (formação de palavras). 'Aspirar' no sentido de 'desejar' é TI: exige 'a' — 'à carreira' (prep. a + art. a = crase: 'à'). 'Habituar-se' é TI: exige 'a' — 'à disciplina' (prep. a + art. a = crase: 'à'). 'Disciplina' vem do latim 'disciplina' — é uma palavra de base latina que entrou no português como substantivo primitivo (não deriva de outro vocábulo português por derivação). Não é regressiva (não há verbo anterior no português do qual ela derive por redução), nem composta, nem derivada por sufixo ou prefixo português."
+        "gabarito": "C",
+        "explicacao": "Na aglutinação, as palavras se fundem com perda de sons, formando uma unidade gráfica única, sem hífen, diferente da justaposição, que costuma preservar a separação visual em muitos casos consagrados. Não se trata de derivação sufixal, pois há junção de duas palavras autônomas, não apenas acréscimo de sufixo a um radical. Não é sigla, pois não deriva de iniciais. É, sim, uma palavra composta, o que invalida a alternativa D, e a regra sobre número de sílabas mencionada na E não existe na língua portuguesa."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-14",
-        "enunciado": "Leia: 'O manual recomenda que _____ os procedimentos antes de qualquer operação.' Considerando que a frase exige a colocação do pronome oblíquo 'se' (reflexivo/indeterminador) e que 'recomenda que' é fator de próclise, assinale a alternativa CORRETA quanto à colocação e à identificação do processo de formação de 'procedimentos'.",
+        "topico_referencia": "gram-00",
+        "enunciado": "Os fonemas, diferentemente das letras, são definidos como:",
         "alternativas": {
-          "A": "revisem-se; 'procedimentos' = derivação regressiva de 'procedimentar'.",
-          "B": "se revisem; 'procedimentos' = derivação sufixal (proceder + -imentos).",
-          "C": "revisem-se; 'procedimentos' = composição por justaposição.",
-          "D": "se revisem; 'procedimentos' = cadeia derivacional: pro- + ceder + -mento + -s.",
-          "E": "revisem-se; 'procedimentos' = derivação prefixal de 'pro-' sobre 'cedimento'."
+          "A": "Sinais gráficos usados para representar sons",
+          "B": "Marcas de acentuação gráfica",
+          "C": "Apenas as vogais da língua",
+          "D": "Unidades sonoras mínimas capazes de diferenciar significados entre palavras",
+          "E": "Sinônimos de sílabas"
         },
         "gabarito": "D",
-        "explicacao": "Integra gram-11 (colocação pronominal) e gram-03 (formação de palavras). A conjunção 'que' (subordinativa) é fator de próclise obrigatória: 'recomenda que se revisem' — o pronome 'se' fica antes do verbo. 'Procedimentos': prefixo 'pro-' (= antes, em frente) + radical 'ced-' (do latim cedere, mover-se) + sufixo nominalizador '-mento' + desinência de plural '-s' — cadeia derivacional com prefixo + sufixo + desinência. Não é regressiva (a palavra é maior que qualquer base), não é justaposição, não é derivação prefixal simples (pois há sufixo derivacional '-mento')."
+        "explicacao": "Fonemas são unidades sonoras mínimas que, ao serem trocadas, podem mudar o significado de uma palavra, como em 'pata' e 'bata', diferenciados pelo fonema inicial. A alternativa A descreve letras, elemento gráfico, não sonoro. A C restringe indevidamente o conceito apenas às vogais, quando consoantes também são fonemas. A D confunde fonema com acentuação, conceitos distintos. A E iguala fonema a sílaba, mas a sílaba é uma unidade maior, formada por um ou mais fonemas organizados em torno de uma vogal."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + comp-06",
-        "enunciado": "Considere as palavras 'desembarcar', 'embarcar' e 'barco'. Assinale a alternativa que descreve CORRETAMENTE a relação lexical entre elas (comp-06) e o processo de formação de cada uma (gram-03).",
+        "topico_referencia": "gram-04",
+        "enunciado": "Em 'guarda-marinha', o uso do hífen se justifica porque a palavra é formada por:",
         "alternativas": {
-          "A": "São sinônimas; 'barco' é primitiva, 'embarcar' = parassíntese, 'desembarcar' = derivação prefixal.",
-          "B": "Formam família lexical com o mesmo radical 'barc-'; 'barco' é primitiva, 'embarcar' = parassíntese (en- + barc- + -ar), 'desembarcar' = derivação prefixal (des- + embarcar).",
-          "C": "São antônimas duas a duas; 'barco' é primitiva, 'embarcar' = derivação sufixal, 'desembarcar' = composição.",
-          "D": "Formam família lexical; 'barco' é primitiva, 'embarcar' = derivação prefixal (em- + barcar), 'desembarcar' = derivação prefixal dupla (des- + em- + barcar).",
-          "E": "São parônimas; todas derivam por sufixação do radical latino 'barcus'."
+          "A": "Aglutinação consolidada pelo uso",
+          "B": "Sigla com pontuação própria",
+          "C": "Derivação parassintética",
+          "D": "Vogal de ligação obrigatória",
+          "E": "Justaposição de duas palavras que mantêm seus sons completos"
         },
-        "gabarito": "B",
-        "explicacao": "Integra comp-06 (relações lexicais: família lexical) e gram-03 (formação de palavras). As três palavras compartilham o radical 'barc-' — formam uma família lexical (não são sinônimas nem antônimas). 'Barco' é a palavra primitiva. 'Embarcar': prefixo 'em-' + radical 'barc-' + sufixo verbalizador '-ar' acrescentados simultaneamente ao radical nominal 'barc-' (*'barcar' existe? Como forma isolada é muito rara; considera-se parassíntese). 'Desembarcar': prefixo 'des-' + base 'embarcar' (já existente) = derivação prefixal. D está quase correto mas chama 'embarcar' de derivação prefixal, o que é impreciso se não existe 'barcar' consolidado."
+        "gabarito": "E",
+        "explicacao": "Em 'guarda-marinha', as duas palavras mantêm integralmente seus sons ao se unirem, o que caracteriza a justaposição, processo em que o hífen costuma aparecer por convenção de uso consolidada para esse tipo de composto. Não é aglutinação, pois não há perda de sons. Não é derivação parassintética, processo que envolve prefixo e sufixo sobre um radical, não duas palavras independentes. Também não há vogal de ligação obrigatória envolvida nem se trata de sigla, já que não há formação a partir de iniciais."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + comp-07",
-        "enunciado": "Leia: 'A pátria é o porto seguro de todos os navegantes da vida.' Identifique a figura de linguagem (comp-07) e o processo de formação de 'navegantes' (gram-03), assinando a alternativa CORRETA.",
+        "topico_referencia": "gram-00",
+        "enunciado": "A diferença entre 'fonema' e 'letra' fica evidente quando se observa que:",
         "alternativas": {
-          "A": "Metáfora (pátria = porto seguro da vida); 'navegantes' = derivação sufixal (naveg- + -antes).",
-          "B": "Metonímia (porto por pátria); 'navegantes' = composição por aglutinação.",
-          "C": "Hipérbole (exagero sobre a segurança da pátria); 'navegantes' = parassíntese.",
-          "D": "Antítese (pátria ≠ porto); 'navegantes' = derivação regressiva.",
-          "E": "Personificação (a pátria age como um porto); 'navegantes' = derivação prefixal."
+          "A": "Um mesmo fonema pode ser representado por letras diferentes, e uma mesma letra pode representar fonemas diferentes",
+          "B": "Toda letra corresponde sempre a um único fonema fixo",
+          "C": "Fonemas só existem na escrita",
+          "D": "Letras são unidades sonoras e fonemas são unidades gráficas",
+          "E": "Não há nenhuma relação entre fonemas e letras"
         },
         "gabarito": "A",
-        "explicacao": "Integra comp-07 (figuras de linguagem) e gram-03 (formação de palavras). A frase atribui à 'pátria' a característica de 'porto seguro' e ao povo a condição de 'navegantes da vida' — uso metafórico (comparação implícita sem 'como'): metáfora. 'Navegantes': radical 'naveg-' + sufixo '-ante' (agente) + '-s' (plural) — derivação sufixal. Não é metonímia (não há substituição por contiguidade real), nem hipérbole, nem antítese (não há oposição de contrários), nem personificação (não são atribuídas ações humanas a seres inanimados aqui — é comparação de humanos a navegantes)."
+        "explicacao": "A relação entre fonema e letra não é fixa: o fonema /s/, por exemplo, pode ser grafado com 's', 'ss', 'ç' ou 'x', dependendo da palavra, e uma mesma letra, como o 'x', pode representar diferentes fonemas em contextos distintos. A alternativa A erra ao afirmar uma correspondência fixa que não existe na língua. A C inverte os conceitos, já que fonemas pertencem à fala, não à escrita. A D troca as definições de letra e fonema. A E nega uma relação que, embora não seja de correspondência exata, claramente existe entre os dois conceitos."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-10",
-        "enunciado": "Leia: 'O candidato estudou, portanto passou; embora exausto, não desanimou.' Sobre as conjunções 'portanto' e 'embora' (gram-08) e os processos de formação de 'portanto' e 'embora' (gram-03), assinale a CORRETA.",
+        "topico_referencia": "gram-04",
+        "enunciado": "A palavra 'empobrecer' não pode ser segmentada em 'em' + 'pobrecer' nem em 'empobre' + 'cer' isoladamente porque:",
         "alternativas": {
-          "A": "'Portanto': conjunção coordenativa conclusiva; formada por composição (por + tanto, aglutinação). 'Embora': conjunção subordinativa concessiva; formada por composição (em + boa + hora, aglutinação).",
-          "B": "'Portanto': conjunção subordinativa causal; composição por justaposição. 'Embora': coordenativa adversativa; derivação prefixal.",
-          "C": "'Portanto': coordenativa adversativa; derivação sufixal. 'Embora': subordinativa temporal; composição por justaposição.",
-          "D": "Ambas são conjunções coordenativas conclusivas; ambas formadas por parassíntese.",
-          "E": "'Portanto': coordenativa conclusiva; derivação prefixal ('por-'). 'Embora': coordenativa adversativa; aglutinação."
+          "A": "É uma palavra primitiva, sem nenhum afixo",
+          "B": "É formada por derivação parassintética, em que prefixo e sufixo só existem em conjunto sobre o radical 'pobre'",
+          "C": "É uma sigla disfarçada",
+          "D": "Resulta de composição por justaposição",
+          "E": "O radical da palavra é 'em', não 'pobre'"
         },
-        "gabarito": "A",
-        "explicacao": "Integra gram-08 (coordenação e subordinação) e gram-03 (formação de palavras). 'Portanto' é conjunção coordenativa conclusiva (introduz consequência lógica). 'Portanto' = 'por' + 'tanto' → composição por aglutinação (fusão de dois elementos com leve perda fonética). 'Embora' é conjunção subordinativa concessiva ('embora exausto' = oração subordinada adverbial concessiva). 'Embora' = 'em' + 'boa' + 'hora' → aglutinação com perda de elementos ('boa hora' → 'bora'). B, C e D erram na classificação das conjunções. E erra ao chamar 'embora' de adversativa."
+        "gabarito": "B",
+        "explicacao": "Na derivação parassintética, prefixo e sufixo são anexados ao radical de forma simultânea e interdependente, de modo que nenhuma das partes isoladas ('empobre' ou 'pobrecer') existe como palavra válida em português, apenas a forma completa 'empobrecer'. A alternativa A está errada porque há, sim, afixos identificáveis. A C não tem fundamento, pois não há iniciais de palavras envolvidas. A D está errada porque não há junção de duas palavras autônomas. A E erra ao apontar 'em' como radical, quando o núcleo de sentido da palavra é, na verdade, 'pobre'."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + comp-11",
-        "enunciado": "Leia: 'O oficial desembarcou. Logo, ele foi ao quartel. Então, ele se reportou ao comandante.' Reescreva usando mecanismos de coesão que incluam um derivado de 'embarcar' (gram-03) e uma conjunção adequada (gram-08/comp-10), sem alterar o sentido. Assinale a versão MELHOR.",
+        "topico_referencia": "gram-00",
+        "enunciado": "Em relação ao encontro consonantal e ao dígrafo, é correto afirmar que:",
         "alternativas": {
-          "A": "O oficial desembarcou e, após o desembarque, dirigiu-se ao quartel para se reportar ao comandante.",
-          "B": "O oficial desembarcou; porque foi ao quartel; então se reportou ao comandante.",
-          "C": "Embora o oficial desembarcasse, foi ao quartel e se reportou ao comandante.",
-          "D": "O oficial desembarcou, portanto foi ao quartel, porém se reportou ao comandante.",
-          "E": "O oficial desembarcou, mas foi ao quartel para se reportar ao comandante."
+          "A": "Encontro consonantal é a junção de duas vogais na mesma sílaba",
+          "B": "Encontro consonantal sempre forma um único fonema",
+          "C": "Dígrafo é a junção de duas letras representando um único fonema, como em 'chave'",
+          "D": "Dígrafo é sinônimo de hiato",
+          "E": "Não existe diferença entre os dois conceitos"
         },
-        "gabarito": "A",
-        "explicacao": "Integra gram-03 (derivação regressiva: 'desembarque' de 'desembarcar') e comp-10 (coesão textual). A alternativa A usa 'desembarque' (substantivo deverbativo regressivo de 'desembarcar' — gram-03) como elemento de coesão referencial (retoma 'desembarcou' sem repetição). A conjunção 'e' (coordenativa aditiva) mantém a sequência lógica. A preposição 'após' indica posterioridade. A frase resultante é coesa e coerente. B usa 'porque' incorretamente (causalidade inexistente). C introduz concessão ('embora') que distorce o sentido. D usa 'portanto' e 'porém' com relações semânticas incorretas. E introduz 'mas' (adversativa) sem sentido de oposição real."
+        "gabarito": "C",
+        "explicacao": "O dígrafo ocorre quando duas letras se juntam para representar um único fonema, como o 'ch' em 'chave', que representa o som /ʃ/. A alternativa A descreve incorretamente o encontro consonantal, que envolve consoantes, não vogais. A C está errada porque no encontro consonantal cada consoante geralmente mantém seu próprio som, diferente do dígrafo. A D confunde dígrafo com hiato, conceito relativo a vogais em sílabas diferentes. A E ignora a distinção clara e bem definida entre os dois fenômenos fonológicos."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-12",
-        "enunciado": "Leia: 'O vice-almirante — recém-promovido — recebeu, em cerimônia solene, a comenda pós-serviço.' Sobre a pontuação (gram-12) e a formação/grafia dos compostos destacados (gram-03), assinale a CORRETA.",
+        "topico_referencia": "gram-04",
+        "enunciado": "A respeito do radical erudito presente em 'náutico', é correto dizer que:",
         "alternativas": {
-          "A": "Os travessões isolam o aposto 'recém-promovido' — uso correto; 'vice-almirante', 'recém-promovido' e 'pós-serviço' estão todos grafados corretamente.",
-          "B": "Os travessões deveriam ser substituídos por vírgulas; 'pós-serviço' deveria ser 'posserviço' (sem hífen).",
-          "C": "Os travessões estão corretos, mas 'vice-almirante' deveria ser 'vicealmirante'.",
-          "D": "Os travessões estão corretos; 'recém-promovido' deveria ser 'recém promovido' (separado).",
-          "E": "Os travessões isolam adjunto adverbial — uso correto; 'pós-serviço' deveria ser 'pós serviço'."
+          "A": "Não tem relação com nenhuma outra palavra do português",
+          "B": "É uma vogal de ligação sem valor semântico",
+          "C": "É um sufixo de origem latina",
+          "D": "Está relacionado à mesma ideia de navio presente em 'naval' e 'nau', ainda que com origem etimológica grega",
+          "E": "Forma-se por composição com 'náu' e 'tico'"
         },
-        "gabarito": "A",
-        "explicacao": "Integra gram-12 (pontuação: travessão) e gram-03/gram-01 (formação e ortografia). Travessões em pares isolam aposto explicativo ou intercalação — uso correto para 'recém-promovido' (aposto de 'vice-almirante'). Grafias: 'vice-almirante' — 'vice-' é prefixo do grupo fixo → sempre com hífen ✓; 'recém-promovido' — 'recém-' é prefixo fixo → sempre com hífen ✓; 'pós-serviço' — 'pós-' é prefixo tônico autônomo → sempre com hífen ✓. B erra ao questionar o hífen em 'pós-serviço'. C erra ao questionar 'vice-almirante'. D erra ao questionar 'recém-promovido'. E classifica incorretamente o aposto como adjunto adverbial."
+        "gabarito": "D",
+        "explicacao": "O radical presente em 'náutico' remonta ao grego e está ligado à ideia central de navio, compartilhada com 'naval' e 'nau', ainda que estas tenham origem latina; trata-se de uma relação de sentido, não de identidade morfológica exata. A alternativa A nega uma relação semântica claramente existente. A C erra ao classificar o radical como sufixo, quando na verdade é a base de sentido da palavra. A D está errada porque o radical carrega significado pleno, diferente da vogal de ligação. A E trata incorretamente a palavra como composição de duas unidades autônomas, o que não corresponde ao processo real de formação."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + comp-03",
-        "enunciado": "Leia: 'O recém-chegado foi bem recebido pelos veteranos.' e 'O recém-chegado sentiu que estava em terra estranha.' Sobre a linguagem denotativa/conotativa (comp-04) e a formação de 'recém-chegado' (gram-03), assinale a CORRETA.",
+        "topico_referencia": "gram-00",
+        "enunciado": "Sobre sílaba tônica e sílaba átona, assinale a alternativa correta.",
         "alternativas": {
-          "A": "Em ambas as frases, 'recém-chegado' tem sentido denotativo; é formado por composição por justaposição.",
-          "B": "Na primeira, 'recém-chegado' tem sentido denotativo (recém = há pouco tempo); na segunda, pode ter sentido conotativo (recém-chegado = novato, inexperiente). É formado por composição: 'recém-' (prefixo fixo) + particípio 'chegado' — derivação prefixal sobre particípio.",
-          "C": "'Recém-chegado' é sempre conotativo; formado por parassíntese.",
-          "D": "Nas duas frases o sentido é conotativo; é formado por aglutinação.",
-          "E": "Na segunda frase, 'terra estranha' é denotativo e 'recém-chegado' é metonímia."
+          "A": "Toda palavra tem mais de uma sílaba tônica",
+          "B": "A sílaba tônica é sempre marcada por acento gráfico",
+          "C": "Sílaba átona é sempre a primeira da palavra",
+          "D": "Não existe diferença de intensidade entre as sílabas de uma palavra",
+          "E": "A sílaba tônica é pronunciada com mais intensidade do que as demais sílabas da palavra"
         },
-        "gabarito": "B",
-        "explicacao": "Integra comp-04 (denotação/conotação) e gram-03 (formação de palavras). Na primeira frase, 'recém-chegado' tem sentido literal/denotativo: chegou há pouco tempo. Na segunda, 'terra estranha' e o contexto sugerem sentido conotativo/figurado: recém-chegado pode significar 'estranho ao ambiente', 'novato', 'não integrado' — uso conotativo. Quanto à formação: 'recém-' é prefixo do grupo dos sempre-hifenizados, acrescentado ao particípio 'chegado' — derivação prefixal sobre particípio passado (com hífen obrigatório por ser 'recém-' fixo). Não é parassíntese nem aglutinação."
+        "gabarito": "E",
+        "explicacao": "A sílaba tônica recebe maior intensidade de voz em relação às demais sílabas da palavra, que são chamadas átonas. A alternativa A está errada porque cada palavra tem, em regra, apenas uma sílaba tônica. A C generaliza incorretamente a posição da sílaba átona, que pode variar conforme a palavra. A D nega uma diferença de intensidade que é justamente a base da distinção entre tônica e átona. A E também está errada, pois muitas palavras têm sílaba tônica sem nenhum acento gráfico, como em 'casa', cuja tonicidade não é marcada visualmente."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + comp-02",
-        "enunciado": "Leia o trecho: 'O insubordinado foi sumariamente afastado.' A palavra 'insubordinado' contém, em sua formação, informação implícita (comp-03) sobre a hierarquia militar. Assinale a alternativa que identifica CORRETAMENTE o processo de formação E a informação implícita veiculada pelos morfemas.",
+        "topico_referencia": "gram-04",
+        "enunciado": "Em 'cafeicultor', a sequência de elementos morfológicos, do início ao fim, é corretamente descrita como:",
         "alternativas": {
-          "A": "Derivação prefixal simples (in- + subordinado); implica apenas negação genérica.",
-          "B": "Cadeia derivacional (in- + sub- + ordin- + -ado): o prefixo 'sub-' implica hierarquia inferior; 'in-' implica negação; o conjunto transmite implicitamente que o indivíduo recusou se submeter à ordem de quem está acima dele.",
-          "C": "Parassíntese (in- e -ado acrescentados simultaneamente a 'subordin-'): implica apenas desobediência.",
-          "D": "Composição erudita latina: implica que o sujeito veio de fora da organização.",
-          "E": "Derivação regressiva de 'insubordinação': implica que o ato já ocorreu anteriormente."
+          "A": "Radical ('café') + vogal de ligação ('i') + sufixo de agente ('-cultor')",
+          "B": "Prefixo + radical + sufixo",
+          "C": "Apenas dois radicais justapostos",
+          "D": "Sufixo + radical + prefixo",
+          "E": "Vogal de ligação + radical + vogal de ligação"
         },
-        "gabarito": "B",
-        "explicacao": "Integra gram-03 (formação: cadeia derivacional) e comp-03 (informação implícita). A análise morfológica de 'insubordinado': 'in-' (negação/privação) + 'sub-' (abaixo, em posição inferior na hierarquia) + radical 'ordin-' (do latim 'ordo, ordinis' = ordem, hierarquia) + sufixo '-ado' (particípio/adjetivo). A informação implícita nos morfemas é que o indivíduo NEGOU se SUBMETER à ORDEM HIERÁRQUICA — isso comunica sem dizer explicitamente que se trata de recusa de obedecer a superior. A está errada: ignora o prefixo 'sub-'. C está errada: 'subordinado' existe, portanto não é parassíntese. D e E são incorretos."
+        "gabarito": "A",
+        "explicacao": "A palavra 'cafeicultor' organiza-se a partir do radical 'café', seguido pela vogal de ligação 'i', que apenas facilita a pronúncia, e finalizada pelo sufixo de agente '-cultor', que indica quem realiza a ação de cultivar. Não há prefixo nessa palavra, o que invalida a alternativa A. Não se trata de dois radicais justapostos, pois 'cultor' funciona aqui como sufixo, não como palavra autônoma nesse contexto morfológico. As demais alternativas invertem ou distorcem a ordem e a função real dos elementos presentes."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-06",
-        "enunciado": "Considere as formas verbais 'embarquemos' e 'embarcávamos'. Sobre a estrutura morfológica (gram-03) e a flexão verbal (gram-05), assinale a CORRETA.",
+        "topico_referencia": "gram-00",
+        "enunciado": "O hiato ocorre quando:",
         "alternativas": {
-          "A": "Ambas têm o mesmo radical 'embarc-'; a alternância entre 'embarc-' e 'embarqu-' é alomorfia do radical antes de vogal posterior.",
-          "B": "Ambas têm radicais diferentes: 'embarque-' e 'embarca-' — são formas de verbos distintos.",
-          "C": "'Embarquemos' tem radical 'embarqu-', VT '-e-', desinências '-mo-s'; 'embarcávamos' tem radical 'embarc-', VT '-a-', sufixo modo-temporal '-va-', desinências '-mo-s'.",
-          "D": "A alternância 'embarc-/embarqu-' indica que o verbo 'embarcar' é irregular.",
-          "E": "'Embarquemos' é derivado de 'embarque' (substantivo) por conversão; 'embarcávamos' é forma regular do imperfeito."
+          "A": "Duas consoantes se encontram na mesma sílaba",
+          "B": "Duas vogais se encontram em sílabas diferentes, sem formar ditongo",
+          "C": "Uma vogal e uma consoante formam um dígrafo",
+          "D": "Há apenas uma vogal na palavra",
+          "E": "Duas vogais formam uma única sílaba"
         },
-        "gabarito": "C",
-        "explicacao": "Integra gram-03 (morfemas: radical, VT, desinências) e gram-05 (flexão verbal). 'Embarquemos': radical 'embarqu-' (alomorfe antes de '-e-' para manter o fonema /k/) + VT '-e-' (presente do subjuntivo) + DNP '-mos' (1.ª pl.). 'Embarcávamos': radical 'embarc-' + VT '-a-' + STM '-va-' (imperfeito do indicativo) + DNP '-mos'. A alternância 'embarc-/embarqu-' é ortográfica (não fonológica), mantendo o fonema /k/ antes de vogal anterior 'e'. D está errada: essa alternância ortográfica não torna o verbo irregular — é regular. A está incompleta. B está errada. E confunde processos distintos."
+        "gabarito": "B",
+        "explicacao": "O hiato é o encontro de duas vogais que pertencem a sílabas diferentes dentro da palavra, como em 'sa-í-da'. A alternativa A descreve o encontro consonantal, fenômeno distinto. A C confunde hiato com dígrafo, que envolve duas letras representando um único som. A D não descreve hiato algum, pois é necessário haver duas vogais em sílabas separadas. A E descreve, na verdade, o ditongo, em que as vogais formam uma só sílaba, justamente o oposto do hiato."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + comp-08",
-        "enunciado": "Leia o texto: 'Aos aspirantes a oficial: em caso de dúvida sobre procedimentos, consultem o manual. Qualquer infração será apurada.' Considerando o gênero textual (comp-08) e a formação das palavras 'aspirantes', 'procedimentos' e 'infração' (gram-03), assinale a CORRETA.",
+        "topico_referencia": "gram-04",
+        "enunciado": "A palavra 'trabalho', formada a partir do verbo 'trabalhar', exemplifica a derivação regressiva porque:",
         "alternativas": {
-          "A": "É um texto narrativo; 'aspirantes' = derivação regressiva; 'procedimentos' = composição; 'infração' = parassíntese.",
-          "B": "É um aviso/comunicado (texto injuntivo); 'aspirantes' = derivação sufixal (aspir- + -antes); 'procedimentos' = cadeia derivacional (pro- + ced- + -mento + -s); 'infração' = derivação sufixal (infring- + -ção, com apagamento).",
-          "C": "É um texto dissertativo; 'aspirantes' = composição; 'procedimentos' = derivação prefixal; 'infração' = aglutinação.",
-          "D": "É um edital (texto normativo); 'aspirantes' = parassíntese; 'procedimentos' = derivação regressiva; 'infração' = híbrido.",
-          "E": "É um texto lírico-poético; todas as palavras são formadas por parassíntese."
+          "A": "Recebeu um novo prefixo",
+          "B": "Ganhou um sufixo de agente",
+          "C": "Perdeu a terminação verbal, tornando-se um substantivo mais curto do que a forma verbal original",
+          "D": "Resultou da junção com outra palavra independente",
+          "E": "Manteve exatamente a mesma forma do verbo"
         },
-        "gabarito": "B",
-        "explicacao": "Integra comp-08 (tipos e gêneros textuais) e gram-03 (formação de palavras). O texto é um aviso ou comunicado de caráter injuntivo/normativo: usa vocativo ('Aos aspirantes'), imperativo ('consultem'), tom prescritivo. Não é narrativo, dissertativo nem lírico. 'Aspirantes': radical 'aspir-' + sufixo de agente '-ante' + '-s' = derivação sufixal. 'Procedimentos': prefixo 'pro-' + radical 'ced-' + sufixo '-mento' + '-s' = cadeia derivacional. 'Infração': do latim 'infractio' — em português, formada por derivação sufixal do radical 'infring-'/'infrac-' + sufixo '-ção' (com apagamento de parte do radical). B está correto em todas as análises."
+        "gabarito": "C",
+        "explicacao": "Na derivação regressiva, a palavra nova surge por redução da forma original, como ocorre na passagem do verbo 'trabalhar' para o substantivo 'trabalho', que perde a terminação verbal típica do infinitivo. Não há acréscimo de prefixo, o que invalida a alternativa A. Também não há sufixo de agente envolvido, descartando a C. Não houve junção com outra palavra, eliminando a D, e a forma não se manteve idêntica à do verbo, o que descarta a E, já que houve, sim, uma redução perceptível na estrutura da palavra."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-03",
-        "enunciado": "Analise: 'O especialista referiu-se _____ desembarque e _____ aeronavegação no mesmo relatório.' Com base na regência do verbo 'referir-se' (exige prep. 'a'), na crase (gram-02) e na formação das palavras 'desembarque' e 'aeronavegação' (gram-03), assinale a CORRETA.",
+        "topico_referencia": "gram-00",
+        "enunciado": "Em relação à classificação das vogais quanto à intensidade dentro da sílaba, a vogal que recebe maior força de pronúncia é chamada de:",
         "alternativas": {
-          "A": "ao / à — 'desembarque' = derivação prefixal (masc.); 'aeronavegação' = composição (fem.).",
-          "B": "à / a — 'desembarque' = derivação sufixal (fem.); 'aeronavegação' = aglutinação (masc.).",
-          "C": "ao / a — 'desembarque' = derivação regressiva (masc.) + prep. a + art. o = 'ao'; 'aeronavegação' é feminino mas sem artigo definido pois é abstrato.",
-          "D": "a / à — 'desembarque' é masculino mas não usa artigo definido; 'aeronavegação' é feminino com artigo = crase.",
-          "E": "ao / à — 'desembarque' = masculino (prep. a + art. o = ao); 'aeronavegação' = feminino (prep. a + art. a = à); identificação de regência e gênero corretas."
+          "A": "Vogal átona",
+          "B": "Semivogal",
+          "C": "Vogal nasal",
+          "D": "Vogal tônica",
+          "E": "Vogal de ligação"
         },
-        "gabarito": "E",
-        "explicacao": "Integra gram-02 (crase), gram-03 (formação) e gram-10 (regência: referir-se a). 'Referir-se' exige prep. 'a'. 'Desembarque' é substantivo masculino (derivação regressiva de 'desembarcar'): prep. 'a' + art. 'o' = 'ao desembarque'. 'Aeronavegação' é substantivo feminino (formado por radical 'aero-' + 'navegação'): prep. 'a' + art. 'a' = crase 'à aeronavegação'. A alternativa E está correta: 'ao / à' com as justificativas de gênero corretamente aplicadas. A alternativa A está errada pois classifica 'desembarque' como derivação prefixal (é regressiva)."
+        "gabarito": "D",
+        "explicacao": "A vogal tônica é aquela pronunciada com maior intensidade dentro da sílaba que recebe o acento de voz da palavra. A vogal átona, ao contrário, é pronunciada com menor força, o que torna a alternativa A incorreta. A semivogal é um som vocálico mais fraco que acompanha a vogal principal dentro de um ditongo, não sendo a de maior intensidade. A vogal nasal refere-se à nasalização do som, característica diferente de intensidade. A vogal de ligação, por sua vez, é elemento morfológico sem relação direta com a tonicidade fonética da sílaba."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "gram-04 + gram-11 + gram-13 + gram-03",
-        "enunciado": "Leia: 'As operações antisubmarinas e os exercícios pré-operacionais foram submetidos _____ avaliação do vice-almirante, que aspirava _____ excelência absoluta em todos os procedimentos.' Assinale a alternativa que preenche as lacunas CORRETAMENTE (gram-02/10) E identifica processos de formação das palavras destacadas (gram-03), com concordância correta dos adjetivos compostos (gram-09).",
+        "topico_referencia": "gram-04",
+        "enunciado": "Sobre a relação entre 'jovem' (adjetivo) e 'os jovens' (substantivo), é correto afirmar que esse fenômeno é chamado de:",
         "alternativas": {
-          "A": "à / à — 'antisubmarinas': prefixal, só último elemento concorda; 'pré-operacionais': prefixo fixo + sufixal; 'vice-almirante': prefixo fixo — todas corretas.",
-          "B": "a / a — 'antisubmarinas': parassíntese; 'pré-operacionais': aglutinação; 'vice-almirante': justaposição.",
-          "C": "à / a — 'antisubmarinas': adjetivo composto invariável; 'pré-operacionais': adjetivo derivado; 'vice-almirante': título invariável.",
-          "D": "ao / à — 'antisubmarinas': sufixal; 'pré-operacionais': prefixal; 'vice-almirante': composto.",
-          "E": "à / à — 'antisubmarinas': sufixal; 'pré-operacionais': derivação regressiva; 'vice-almirante': aglutinação."
+          "A": "Derivação regressiva",
+          "B": "Sigla incorporada ao vocabulário comum",
+          "C": "Composição por aglutinação",
+          "D": "Derivação parassintética",
+          "E": "Derivação imprópria, pois a palavra muda de classe gramatical sem alteração morfológica significativa"
         },
-        "gabarito": "A",
-        "explicacao": "Integra gram-02 (crase), gram-10 (regência), gram-03 (formação) e gram-09 (concordância). Regência: 'submeter-se a' + 'avaliação' (fem., com artigo) = 'à avaliação' (crase); 'aspirar a' + 'excelência' (fem., com artigo) = 'à excelência' (crase) → 'à / à'. Formações: 'antisubmarinas' = derivação prefixal (anti- + submarinas); adjetivo derivado que concorda com 'operações' (fem. pl.) — apenas o adjetivo simples concorda. 'Pré-operacionais': prefixo fixo 'pré-' (sempre com hífen) + derivação sufixal '-ais' concordando com 'exercícios' (masc. pl.). 'Vice-almirante': prefixo fixo 'vice-' — sempre com hífen. A está correta em tudo."
+        "gabarito": "E",
+        "explicacao": "Quando uma palavra muda de classe gramatical, passando de adjetivo a substantivo, sem sofrer alteração relevante em sua forma além da flexão regular de número, ocorre a derivação imprópria. Não é derivação regressiva, pois não há redução de forma envolvida. Não é composição, já que não há junção de duas palavras autônomas. Não é parassintética, pois esse processo exige prefixo e sufixo simultâneos, o que não ocorre aqui. Também não se trata de sigla, conceito completamente alheio a esse fenômeno gramatical."
       }
     ]
   }

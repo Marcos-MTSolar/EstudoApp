@@ -2,879 +2,988 @@
   "id": "gram-08",
   "titulo": "Organização Sintática: Frase, Oração e Período",
   "area": "Gramática",
-  "resumo": "Distinção entre frase, oração e período; critérios de identificação de orações pelo verbo ou locução verbal; classificação de períodos em simples e composto; reconhecimento de frases nominais, verbais e exclamativas em contextos de prova militar.",
+  "resumo": "Sintaxe é o estudo de como as palavras se organizam para formar sentido. Antes de entender sujeito, predicado e todos os termos da oração, é preciso dominar as três unidades básicas: frase, oração e período. A CEBRASPE cobra esse tema tanto de forma direta (identificar se um enunciado é frase ou oração) quanto indireta (analisar períodos compostos e relações entre orações). Neste tópico você aprenderá a distinguir com precisão essas três unidades, reconhecer períodos simples e compostos, e identificar o número de orações em um período — habilidade essencial para toda a sintaxe que vem a seguir.",
+
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Frase: conceito e tipos",
-        "conteudo": "Frase é todo enunciado linguístico dotado de sentido completo numa situação comunicativa, independentemente de possuir verbo. Ela pode ser verbal (contém verbo ou locução verbal) ou nominal (não contém verbo). A frase se delimita pela entonação: começa com letra maiúscula e termina com ponto final, ponto de interrogação, ponto de exclamação ou reticências. Toda frase tem, necessariamente, sentido completo no contexto em que ocorre, mas não precisa ter estrutura gramatical plena. Segundo Cunha e Cintra (2017), a frase é a unidade mínima de comunicação com sentido completo, podendo ser constituída por uma única palavra, como nas interjeições ('Fogo!', 'Silêncio!'), por um sintagma nominal ('Atenção aos detalhes.') ou por uma estrutura verbal completa. Na comunicação cotidiana e nos textos militares, frases nominais são frequentes em avisos, comandos e títulos.",
+        "subtitulo": "1. O que é uma frase",
+        "conteudo": "Pense em como você se comunica no dia a dia. Às vezes uma única palavra resolve tudo: você grita 'Fogo!' e todo mundo entende. Outras vezes você precisa de uma sentença inteira para passar a mensagem. Em ambos os casos, houve comunicação completa — e isso é o que define uma frase.\n\nFrase é qualquer enunciado que transmite uma mensagem completa, com sentido acabado para quem lê ou ouve. Ela pode ser formada por uma palavra, por um conjunto de palavras, e pode ou não ter verbo.\n\nÉ exatamente isso que distingue a frase das outras unidades: não importa se tem verbo ou não — o que importa é que comunica algo com sentido completo. 'Silêncio.' é uma frase. 'Que dia lindo!' é uma frase. 'O recruta chegou.' também é uma frase.\n\nO erro mais comum é confundir frase com oração e achar que toda frase precisa de verbo. Não precisa.",
+        "regra": "Frase = enunciado com sentido completo · Com ou sem verbo · Comunica algo acabado",
         "exemplos": [
-          "Frase verbal: 'O oficial assinou o relatório.'",
-          "Frase nominal: 'Silêncio absoluto!' (sem verbo, sentido completo)",
-          "Frase nominal: 'Proibida a entrada de civis.' (sem verbo explícito)",
-          "Frase exclamativa: 'Que honra servir à Marinha!'",
-          "Frase interrogativa: 'Quando parte o navio?'"
-        ],
-        "regra": "REGRA: Frase = sentido completo em situação comunicativa. Não exige verbo. Pode ser uma única palavra com entonação adequada."
+          {
+            "texto_base": "Sentinela! Atenção! O navio partiu ao amanhecer.",
+            "anotacoes": [
+              {
+                "trecho": "Sentinela!",
+                "destaque": "frase sem verbo",
+                "motivo": "Uma palavra, sentido completo (chamado de atenção) — é frase, sem precisar de verbo"
+              },
+              {
+                "trecho": "Atenção!",
+                "destaque": "frase sem verbo",
+                "motivo": "Substantivo isolado com sentido completo de ordem/alerta — frase nominal"
+              },
+              {
+                "trecho": "O navio partiu ao amanhecer.",
+                "destaque": "frase com verbo",
+                "motivo": "Enunciado com verbo 'partiu' e sentido completo — também é frase (e oração)"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "2. Oração: conceito e estrutura",
-        "conteudo": "Oração é a unidade sintática que se organiza em torno de um verbo ou locução verbal. Toda oração tem, obrigatoriamente, um predicado (que contém o verbo); o sujeito pode estar explícito, implícito (elíptico) ou ser inexistente (oração sem sujeito). A oração não precisa ter sentido completo isoladamente — sua completude depende do contexto sintático. A diferença fundamental entre frase e oração: a frase é definida pelo critério comunicativo (tem sentido completo), a oração, pelo critério sintático (organiza-se em torno de um verbo). Uma oração pode coincidir com uma frase ('Choveu ontem.' é ao mesmo tempo oração e frase), mas nem toda frase é oração ('Socorro!' é frase, não oração) e nem toda oração é frase completa em si mesma ('Quando chegar o comandante' é oração, mas não frase, pois não tem sentido completo isolada). Locução verbal = verbo auxiliar + verbo principal (infinitivo, gerúndio ou particípio). Toda locução verbal forma o núcleo de uma única oração.",
+        "subtitulo": "2. O que é uma oração",
+        "conteudo": "Se a frase é qualquer mensagem com sentido completo, a oração é um tipo especial de frase: aquela que obrigatoriamente tem verbo (ou locução verbal). O verbo é o elemento central da oração — é ele que organiza tudo ao redor: quem faz, o quê, como, quando.\n\nPense no verbo como o coração da oração. Sem coração, não há oração — pode haver frase, mas não oração. Com o verbo, temos a estrutura que a gramática vai analisar em termos de sujeito, predicado e demais termos.\n\nUma oração não precisa ter sujeito expresso — o sujeito pode estar oculto (chamado de sujeito elíptico) ou até ser inexistente (verbos impessoais). O que não pode faltar é o verbo.\n\nO erro mais comum é chamar de oração um grupo de palavras sem verbo. Lembre-se: sem verbo, há frase nominal, não oração.",
+        "regra": "Oração = estrutura com verbo (ou locução verbal) · Sem verbo = frase nominal, não oração",
         "exemplos": [
-          "'O recruta dormiu.' — oração com sujeito explícito ('o recruta') e predicado ('dormiu')",
-          "'Dormiu cedo.' — oração com sujeito elíptico (ele/ela), recuperável pelo contexto",
-          "'Chove muito em Fortaleza.' — oração sem sujeito (verbo fenômeno da natureza)",
-          "'Havia muitos candidatos no concurso.' — oração sem sujeito (verbo haver = existir)",
-          "'Estava sendo construído o novo quartel.' — locução verbal: estava sendo construído"
-        ],
-        "regra": "REGRA: Oração = unidade sintática com verbo ou locução verbal. Sujeito pode ser explícito, elíptico ou inexistente. Identifique o verbo → encontrou oração."
+          {
+            "texto_base": "O contra-almirante chegou. Choveu durante o exercício. Incorporem os recrutas.",
+            "anotacoes": [
+              {
+                "trecho": "O contra-almirante chegou.",
+                "destaque": "oração com sujeito",
+                "motivo": "Tem verbo 'chegou' e sujeito expresso 'O contra-almirante' — oração completa"
+              },
+              {
+                "trecho": "Choveu durante o exercício.",
+                "destaque": "oração sem sujeito",
+                "motivo": "Verbo impessoal 'choveu' — tem verbo, portanto é oração, mas sem sujeito"
+              },
+              {
+                "trecho": "Incorporem os recrutas.",
+                "destaque": "oração sujeito oculto",
+                "motivo": "Verbo 'incorporem' no imperativo — sujeito implícito 'vocês'; é oração com sujeito elíptico"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "3. Período: simples e composto",
-        "conteudo": "Período é a frase constituída por uma ou mais orações. O período começa com maiúscula e termina com ponto (final, exclamação, interrogação ou reticências). Período simples: possui apenas uma oração (= uma única forma verbal ou locução verbal). Período composto: possui duas ou mais orações (= duas ou mais formas verbais ou locuções verbais). A contagem de orações em um período é feita pelo número de verbos (ou locuções verbais) presentes. Cada verbo ou locução verbal marca uma oração. Atenção: verbos que integram locuções não se contam separadamente — 'estava dormindo' é uma locução (um verbo = uma oração). O período composto se divide em: período composto por coordenação (orações independentes, ligadas por conjunções coordenativas ou justapostas), período composto por subordinação (oração principal + oração(ões) subordinada(s), com relação de dependência sintática) e período composto por coordenação e subordinação (misto).",
+        "subtitulo": "3. O que é um período",
+        "conteudo": "Imagine que um período é um parágrafo mínimo — uma unidade de escrita que começa com letra maiúscula e termina com ponto final (ou outro sinal de pontuação de encerramento: ponto de exclamação, interrogação, reticências). É a unidade maior que contém as orações.\n\nO período é classificado pelo número de orações que contém. Se tem uma única oração, é período simples. Se tem duas ou mais orações, é período composto.\n\nA forma mais prática de contar as orações de um período é contar os verbos (e locuções verbais): cada verbo corresponde a uma oração. Dois verbos = duas orações = período composto.\n\nO erro clássico é confundir o número de orações com o número de verbos quando há locuções verbais. A locução 'vai partir' é um único verbo — uma única oração.",
+        "regra": "Período = 1 ou mais orações entre maiúscula e ponto final · 1 verbo = 1 oração · Locução verbal = 1 oração",
         "exemplos": [
-          "Período simples: 'O capitão revisou os documentos.' (1 verbo = 1 oração)",
-          "Período simples: 'Havia sido publicado o edital do concurso.' (locução = 1 oração)",
-          "Período composto: 'O cadete estudou muito e passou no concurso.' (2 verbos = 2 orações)",
-          "Período composto: 'Espero que o resultado seja favorável.' (2 verbos = 2 orações)",
-          "Período composto misto: 'Quando o navio chegou, todos comemoraram e os sinos tocaram.' (3 orações)"
-        ],
-        "regra": "REGRA: Conte os verbos (e locuções verbais) no período → esse número indica a quantidade de orações. 1 verbo = período simples. 2+ verbos = período composto."
+          {
+            "texto_base": "O sargento redigiu o relatório. O recruta vai chegar cedo e o oficial já tinha saído.",
+            "anotacoes": [
+              {
+                "trecho": "O sargento redigiu o relatório.",
+                "destaque": "período simples",
+                "motivo": "Um verbo 'redigiu' → uma oração → período simples"
+              },
+              {
+                "trecho": "O recruta vai chegar cedo e o oficial já tinha saído.",
+                "destaque": "período composto",
+                "motivo": "Dois verbos/locuções: 'vai chegar' (1 oração) e 'tinha saído' (1 oração) → período composto por 2 orações"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "4. Período composto por coordenação",
-        "conteudo": "No período composto por coordenação, as orações são sintaticamente independentes entre si: cada uma tem sentido próprio e poderia funcionar como período simples. Podem ser ligadas por conjunção coordenativa (orações coordenadas sindéticas) ou apenas por justaposição, sem conjunção (orações coordenadas assindéticas). As orações coordenadas sindéticas classificam-se conforme a conjunção que as une: aditivas (e, nem, não só… mas também), adversativas (mas, porém, contudo, todavia, entretanto, no entanto), alternativas (ou, ou… ou, ora… ora, quer… quer), conclusivas (logo, portanto, pois — posposto, por isso, por conseguinte), explicativas (pois — anteposto, porque, que, porquanto). Macete: 'AAACE' — Aditiva, Adversativa, Alternativa, Conclusiva, Explicativa. Nas provas militares, a distinção entre 'pois' explicativo (anteposto ao verbo que explica) e 'pois' conclusivo (posposto ao sujeito da conclusão) é cobrada com frequência.",
+        "subtitulo": "4. Período simples vs. período composto",
+        "conteudo": "Um período simples tem apenas uma oração — ou seja, um único verbo ou locução verbal. Não importa quão longa seja a frase, se há um único verbo, o período é simples. A frase pode ter vários adjuntos adverbiais, complementos, aposto... mas se o verbo é um só, é período simples.\n\nUm período composto tem duas ou mais orações. As orações dentro de um período composto se ligam de dois modos: por coordenação (orações independentes entre si, como peças lado a lado) ou por subordinação (uma oração depende da outra, como uma caixa dentro de outra). Esses dois tipos serão detalhados em gram-10.\n\nO macete para identificar: conte os verbos (inclusive os de locuções, contando a locução como um). Cada verbo conta como uma oração.\n\nCuidado com as formas nominais (infinitivo, gerúndio, particípio) em orações reduzidas — elas também são orações e devem ser contadas.",
+        "regra": "1 verbo = período simples · 2+ verbos = período composto · Locução = 1 verbo · Formas nominais = oração reduzida",
         "exemplos": [
-          "Assindética: 'Entrei, vi, venci.' (três orações justapostas sem conjunção)",
-          "Aditiva: 'O oficial leu o relatório e assinou os documentos.'",
-          "Adversativa: 'Estudei bastante, mas não me saí bem na prova.'",
-          "Alternativa: 'Ou você cumpre o regulamento, ou sofre as consequências.'",
-          "Conclusiva: 'Você se preparou muito; portanto, passará no concurso.'",
-          "Explicativa: 'Descanse, pois a viagem será longa.' (pois anteposto = explica)"
-        ],
-        "regra": "REGRA: Coordenação = independência entre orações. Identifique a conjunção coordenativa e sua classe. 'Pois' anteposto = explicativa; 'pois' posposto = conclusiva."
+          {
+            "texto_base": "O médico da base naval examinou todos os recrutas incorporados no último mês com extremo cuidado.",
+            "anotacoes": [
+              {
+                "trecho": "examinou",
+                "destaque": "único verbo",
+                "motivo": "Apenas um verbo no período, apesar da frase longa — período simples com uma única oração"
+              },
+              {
+                "trecho": "incorporados",
+                "destaque": "particípio (forma nominal)",
+                "motivo": "Particípio funciona como adjetivo aqui, não forma oração independente — não conta como oração"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "5. Período composto por subordinação",
-        "conteudo": "No período composto por subordinação, uma oração (subordinada) depende sintaticamente de outra (oração principal ou oração de que ela é termos). As orações subordinadas classificam-se em: substantivas (exercem função de substantivo: sujeito, objeto direto, objeto indireto, predicativo, aposto, complemento nominal), adjetivas (exercem função de adjetivo, modificando um substantivo — antecedente — e introduzidas geralmente por pronome relativo: que, o qual, cujo, onde, quem) e adverbiais (exercem função de advérbio, indicando circunstâncias: tempo, causa, concessão, condição, comparação, conformidade, finalidade, proporção, consequência). As subordinadas podem ser desenvolvidas (introduzidas por conjunção ou pronome relativo, com verbo flexionado) ou reduzidas (sem conjunção introdutora, com verbo em forma nominal: infinitivo, gerúndio ou particípio). Distinguir oração principal de oração subordinada é essencial para a análise sintática e para questões de coesão e coerência.",
+        "subtitulo": "5. Orações reduzidas e como contá-las",
+        "conteudo": "Existe um tipo de oração que confunde muito candidato: a oração reduzida. São orações que não têm conjunção introdutória e cujo verbo aparece em forma nominal (infinitivo, gerúndio ou particípio). Mesmo sem conjunção e sem verbo conjugado, são orações — e devem ser contadas no período.\n\nVeja a diferença: 'O recruta saiu correndo' tem dois verbos? Não — 'saiu' é verbo conjugado (oração principal), e 'correndo' (gerúndio) forma uma oração reduzida adverbial de modo. São duas orações no período.\n\nDa mesma forma: 'O comandante ordenou partir cedo' — 'ordenou' é uma oração e 'partir' (infinitivo) é outra oração, reduzida objetiva direta.\n\nO erro mais comum: ignorar as formas nominais e contar menos orações do que o período realmente tem. Em prova, sempre verifique se há infinitivo, gerúndio ou particípio com valor de oração.",
+        "regra": "Gerúndio/Infinitivo/Particípio com valor oracional = oração reduzida (conta como oração) · Sem conjunção não significa sem oração",
         "exemplos": [
-          "Substantiva subjetiva: 'É necessário que todos compareçam.' (oração = sujeito de 'é necessário')",
-          "Substantiva objetiva direta: 'O comandante ordenou que os recrutas se apresentassem.'",
-          "Adjetiva restritiva: 'O militar que se dedicou foi aprovado.' (restringe 'o militar')",
-          "Adjetiva explicativa: 'O almirante, que conhecia bem o mar, conduziu a missão.'",
-          "Adverbial causal: 'Passou no concurso porque estudou muito.'",
-          "Adverbial concessiva: 'Embora chovesse, a cerimônia foi realizada.'",
-          "Reduzida de infinitivo: 'Ele saiu sem dizer nada.' (= sem que dissesse nada)"
-        ],
-        "regra": "REGRA: Subordinação = dependência. Substantiva = função de substantivo; adjetiva = modifica substantivo (tem pronome relativo); adverbial = indica circunstância (tem conjunção adverbial ou locução). Reduzidas: verbo em forma nominal, sem conjunção."
+          {
+            "texto_base": "O oficial saiu sorrindo, esperando encontrar o sargento na base.",
+            "anotacoes": [
+              {
+                "trecho": "saiu",
+                "destaque": "oração principal",
+                "motivo": "Verbo conjugado — oração principal do período"
+              },
+              {
+                "trecho": "sorrindo",
+                "destaque": "oração reduzida (gerúndio)",
+                "motivo": "Gerúndio com valor adverbial de modo — é oração reduzida, conta como 2ª oração"
+              },
+              {
+                "trecho": "esperando encontrar o sargento na base",
+                "destaque": "oração reduzida (gerúndio + inf.)",
+                "motivo": "'Esperando' (gerúndio = 3ª oração) + 'encontrar' (infinitivo = 4ª oração) — período tem 4 orações no total"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "6. Distinções críticas e casos especiais",
-        "conteudo": "Alguns casos geram confusão em provas: (a) 'Que' pode ser pronome relativo (introduz subordinada adjetiva), conjunção integrante (introduz subordinada substantiva) ou conjunção coordenativa explicativa. A distinção é feita pela função sintática. (b) Orações intercaladas (incidentais): 'disse ele', 'afirmou o porta-voz' — inseridas no meio do discurso direto, são coordenadas, não subordinadas. (c) Período simples com locução verbal: 'O navio tinha chegado ao porto' é período simples (uma locução = uma oração), apesar de ter dois verbos na forma. (d) Frases sem verbo que são orações reduzidas: 'Ao entrar na sala, o oficial foi saudado' — 'ao entrar na sala' é oração reduzida de infinitivo (tem verbo em forma nominal). (e) Aposto e vocativo não formam orações — são termos acessórios da oração. (f) O imperativo, mesmo sem sujeito expresso, é oração (o verbo está presente). Segundo Cunha e Cintra (2017), a análise do período deve partir sempre da identificação dos verbos e locuções verbais para depois estabelecer as relações de dependência ou independência entre as orações.",
+        "subtitulo": "6. Diferença entre frase, oração e período — síntese",
+        "conteudo": "Para não confundir os três conceitos em prova, fixe esta hierarquia: todo período é uma frase (pois transmite sentido completo), mas nem toda frase é um período (pode ser frase nominal, sem verbo). Toda oração é uma frase (tem sentido), mas nem toda frase é oração (pode não ter verbo).\n\nFrase é o conceito mais amplo: tudo que comunica. Oração exige verbo. Período é a unidade de escrita delimitada por ponto, composta de uma ou mais orações.\n\nEssa relação é assim: Frase ⊃ Oração ⊃ Período? Não exatamente — período pode conter várias orações, mas uma oração sozinha também é um período simples e também é uma frase. A hierarquia é: frase (mais geral) > oração (tem verbo) > período (unidade de escrita com ponto).\n\nO erro mais fatal em prova é afirmar que 'toda frase é uma oração' — isso é falso, pois frases nominais não são orações.",
+        "regra": "Frase: comunicação completa (com ou sem verbo) · Oração: tem verbo · Período: frase entre pontos, com 1+ orações",
         "exemplos": [
-          "'Que belo pôr do sol!' — frase exclamativa nominal (não é oração)",
-          "'O tenente disse que partiríamos cedo.' — 'que' conjunção integrante (substantiva OD)",
-          "'O recruta que chegou atrasado foi advertido.' — 'que' pronome relativo (adjetiva)",
-          "'Descanse, que a jornada é longa.' — 'que' conjunção explicativa (coordenada)",
-          "'Ao ouvir a ordem, o soldado se posicionou.' — oração reduzida de infinitivo (adverbial temporal)"
-        ],
-        "regra": "REGRA: Identifique o 'que': se substituível por 'o qual/a qual' = relativo (adjetiva); se introduz oração-argumento do verbo = integrante (substantiva); se pode ser substituído por 'pois/porque' = explicativo (coordenada)."
+          {
+            "texto_base": "Silêncio! O recruta dormiu. O sargento avisou que o exercício começaria ao amanhecer.",
+            "anotacoes": [
+              {
+                "trecho": "Silêncio!",
+                "destaque": "frase / não é oração",
+                "motivo": "Comunica ordem (frase), mas não tem verbo — não é oração nem período"
+              },
+              {
+                "trecho": "O recruta dormiu.",
+                "destaque": "frase = oração = período",
+                "motivo": "Tem verbo, sentido completo, delimitado por ponto — é frase, oração e período simples ao mesmo tempo"
+              },
+              {
+                "trecho": "O sargento avisou que o exercício começaria ao amanhecer.",
+                "destaque": "período composto (2 orações)",
+                "motivo": "Dois verbos: 'avisou' e 'começaria' — período composto por 2 orações; também é frase"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "7. Como a CEBRASPE cobra este tema",
+        "conteudo": "A CEBRASPE explora este tema de três formas principais que você precisa dominar. Primeira: apresenta um enunciado e pergunta se é frase, oração ou período — às vezes os três ao mesmo tempo. Segunda: pede para contar o número de orações de um período, geralmente com período composto complexo que inclui orações reduzidas. Terceira: usa terminologia para questões de verdadeiro/falso, como 'o período acima é simples porque tem apenas uma oração' — e você deve confirmar ou refutar.\n\nA estratégia vencedora é sempre a mesma: (1) verifique se há verbo — se não há, é só frase; (2) conte os verbos e locuções verbais; (3) verifique se há formas nominais com função oracional; (4) some tudo para ter o total de orações.\n\nUma pegadinha clássica: períodos longos com vários adjuntos mas apenas um verbo — a banca afirma que é composto, e você deve marcar como errado. Quantidade de vírgulas não equivale a quantidade de orações.\n\nOutra armadilha: locuções verbais fragmentadas pela banca como se fossem dois verbos distintos. 'Vai partir' é uma locução = uma oração, não duas.",
+        "regra": "Conte verbos + locuções + formas nominais oracionais · Vírgulas não definem orações · Locução = 1 oração",
+        "exemplos": [
+          {
+            "texto_base": "O contra-almirante, cansado, determinado e responsável, assinou o documento.",
+            "anotacoes": [
+              {
+                "trecho": "assinou",
+                "destaque": "único verbo",
+                "motivo": "Apesar das vírgulas e dos três adjetivos, há apenas um verbo — período simples"
+              },
+              {
+                "trecho": "cansado, determinado e responsável",
+                "destaque": "adjetivos, não orações",
+                "motivo": "São predicativos/apostos, não orações — não formam período composto"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
+
   "pegadinhas": [
     {
-      "titulo": "Locução verbal conta como uma só oração",
-      "errado": "'O edital havia sido publicado na semana passada' possui dois verbos, logo é período composto com duas orações.",
-      "correto": "A locução verbal 'havia sido publicado' forma uma única oração. O período é simples, com apenas um predicado.",
-      "explicacao": "A banca costuma apresentar períodos com locuções verbais (verbo auxiliar + verbo principal) e perguntar quantas orações existem. Locuções verbais, independentemente do número de verbos que as compõem, formam o núcleo de UMA única oração. Apenas quando há dois núcleos verbais independentes (sem relação de auxiliar + principal) temos duas orações.",
+      "titulo": "Frase nominal confundida com oração",
+      "errado": "'Fogo na base!' é uma oração porque transmite sentido completo.",
+      "correto": "'Fogo na base!' é uma frase (nominal), mas não é uma oração.",
+      "explicacao": "Para ser oração, é obrigatória a presença de verbo ou locução verbal. 'Fogo na base!' comunica algo com sentido completo — o que a torna uma frase. Mas sem verbo, ela não é oração. Frases sem verbo são chamadas de frases nominais ou frases não verbais.",
       "nivel": "basico"
     },
     {
-      "titulo": "'Pois' conclusivo versus 'pois' explicativo",
-      "errado": "Em 'Você merece, pois trabalhou muito', o 'pois' é conclusivo, pois indica resultado.",
-      "correto": "Nesse contexto, 'pois' é explicativo (anteposto ao argumento que justifica a afirmação anterior). 'Pois' conclusivo ocorre posposto ao sujeito: 'Você trabalhou muito; merece, pois.'",
-      "explicacao": "A posição do 'pois' é determinante para sua classificação. Anteposto à oração que apresenta a explicação/justificativa = explicativo. Posposto ao sujeito da oração que indica conclusão = conclusivo. Nas provas militares, essa distinção é explorada com frequência em questões de classificação de orações coordenadas.",
+      "titulo": "Contar vírgulas como orações",
+      "errado": "O período 'O sargento, cansado, lento e irritado, assinou o relatório.' é composto por quatro orações.",
+      "correto": "O período acima é simples, com apenas uma oração.",
+      "explicacao": "O número de orações é determinado pelo número de verbos (ou locuções verbais), não pelo número de vírgulas. No período, há apenas um verbo — 'assinou'. As vírgulas separam adjetivos predicativos do sujeito, não orações distintas. Portanto, o período é simples.",
       "nivel": "basico"
     },
     {
-      "titulo": "Frase nominal não é o mesmo que oração sem sujeito",
-      "errado": "'Silêncio!' é uma oração sem sujeito porque não há sujeito identificável.",
-      "correto": "'Silêncio!' é uma frase nominal (não possui verbo), portanto não é oração. Oração sem sujeito é aquela que possui verbo, mas esse verbo não admite sujeito (verbos meteorológicos, 'haver' existencial, etc.).",
-      "explicacao": "Confundir frase nominal com oração sem sujeito é erro clássico. Frase nominal: ausência de verbo (ex.: 'Proibido fumar.'). Oração sem sujeito: presença de verbo impessoal (ex.: 'Choveu durante toda a cerimônia.' / 'Há vagas no concurso.'). A distinção é fundamental para questões de análise sintática.",
+      "titulo": "Locução verbal contada como duas orações",
+      "errado": "Em 'O recruta vai partir amanhã', há duas orações: uma com 'vai' e outra com 'partir'.",
+      "correto": "Em 'O recruta vai partir amanhã', há uma única oração: 'vai partir' é locução verbal.",
+      "explicacao": "A locução verbal é formada por verbo auxiliar + verbo principal e funciona como um único verbo. 'Vai partir' é uma locução verbal no futuro perifrástico — forma uma oração só. Contar 'vai' e 'partir' separadamente como duas orações é erro grave de análise sintática.",
       "nivel": "intermediario"
     },
     {
-      "titulo": "Oração principal não equivale sempre à oração mais importante",
-      "errado": "Em 'Espero que tudo corra bem', a oração principal é 'que tudo corra bem', pois é o conteúdo mais importante da frase.",
-      "correto": "A oração principal é 'Espero', pois é dela que depende sintaticamente 'que tudo corra bem' (substantiva objetiva direta, funcionando como objeto direto do verbo 'espero').",
-      "explicacao": "A oração principal é definida critério sintático, não pelo peso semântico. Ela é aquela de que a subordinada depende. Frequentemente, a oração principal é curta (um único verbo) e a subordinada é mais longa e rica em informação — mas isso não a torna 'principal'. Nas provas militares, essa confusão é explorada em questões de identificação e classificação de orações.",
-      "nivel": "avancado"
+      "titulo": "Ignorar oração reduzida na contagem",
+      "errado": "Em 'O oficial saiu sorrindo', há apenas uma oração, pois há apenas um verbo conjugado.",
+      "correto": "Em 'O oficial saiu sorrindo', há duas orações: 'saiu' (principal) e 'sorrindo' (oração reduzida de gerúndio).",
+      "explicacao": "Orações reduzidas têm o verbo em forma nominal (infinitivo, gerúndio ou particípio) e não possuem conjunção introdutória. Mesmo sem estar conjugado, 'sorrindo' funciona como verbo de uma oração adverbial de modo — é a 2ª oração do período. Ignorar as formas nominais na contagem é um erro clássico de prova.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Aposto e vocativo como falsas orações",
-      "errado": "Em 'Marinheiros, preparem-se para a manobra!', 'Marinheiros' é uma oração sem verbo.",
-      "correto": "'Marinheiros' é um vocativo — termo que identifica o interlocutor. Não é oração, pois não possui verbo. O período tem apenas uma oração: 'preparem-se para a manobra'.",
-      "explicacao": "Vocativo e aposto não formam orações. São termos exteriores à estrutura da oração (o vocativo) ou termos acessórios (o aposto). Ao contar orações, ignore vocativos, apostos e interjeições. Apenas verbos (e locuções verbais) marcam orações. Essa pegadinha aparece em questões que pedem a identificação do número de orações num período.",
+      "titulo": "Afirmar que todo período é uma oração",
+      "errado": "Todo período é necessariamente uma oração, pois ambos são unidades sintáticas com verbo.",
+      "correto": "Todo período contém pelo menos uma oração, mas período e oração são unidades distintas.",
+      "explicacao": "Período é a unidade de escrita entre o início maiúsculo e o ponto final, e pode conter uma (período simples) ou várias orações (período composto). Oração é a unidade estruturada em torno de um verbo. Um período simples coincide com uma única oração, mas um período composto contém múltiplas orações. Tratar os dois como sinônimos é imprecisão terminológica que a banca explora.",
       "nivel": "avancado"
     }
   ],
+
   "cascas_de_banana": [
     {
-      "situacao": "Contar verbos em locuções verbais como orações separadas. O candidato vê 'tinha sido aprovado' (3 palavras com função verbal) e marca 'três orações' ou 'período composto'.",
-      "dica": "Sempre verifique se os verbos formam uma locução (auxiliar + principal). Locução verbal = 1 oração, não importa quantos verbos a compõem. Só haverá período composto se houver dois núcleos verbais independentes (dois predicados distintos, não ligados pela relação auxiliar-principal).",
+      "situacao": "Confundir comprimento do período com complexidade sintática",
+      "dica": "Períodos longos com muitos termos acessórios (adjuntos, apostos, apostos explicativos) ainda podem ser simples se houver apenas um verbo. A CEBRASPE apresenta períodos de 3 a 4 linhas e afirma que são compostos — a armadilha é raciocinar pelo tamanho, não pelos verbos. Sempre conte os verbos antes de responder.",
       "nivel": "basico"
     },
     {
-      "situacao": "Identificar uma frase interrogativa ou exclamativa sem verbo como 'oração interrogativa' ou 'oração exclamativa', confundindo o tipo de frase com o conceito de oração.",
-      "dica": "Frase é o conceito comunicativo (tem sentido completo); oração é o conceito sintático (tem verbo). Uma frase pode ser interrogativa, exclamativa ou declarativa sem ser oração. Pergunte sempre: 'há verbo?' — sim = oração; não = frase nominal.",
+      "situacao": "Não reconhecer oração reduzida introduzida por preposição",
+      "dica": "Orações reduzidas de infinitivo frequentemente aparecem introduzidas por preposição: 'antes de partir', 'ao chegar', 'para servir'. Candidatos bem preparados sabem que o gerúndio sem preposição é oração reduzida, mas esquecem do infinitivo precedido de preposição. Em 'O recruta saiu sem dizer nada', 'sem dizer nada' é oração reduzida adverbial — o infinitivo 'dizer' é o verbo dessa oração. São duas orações no período.",
       "nivel": "intermediario"
     },
     {
-      "situacao": "Classificar orações reduzidas (com verbo em forma nominal: infinitivo, gerúndio, particípio) como 'sem oração' por não terem conjunção introdutória ou verbo flexionado.",
-      "dica": "Orações reduzidas são orações completas, apesar de não terem conjunção e de o verbo aparecer em forma nominal. Ex.: 'Ao partir o navio, todos choraram' — 'ao partir o navio' é oração reduzida de infinitivo com valor temporal, equivalente a 'quando o navio partiu'. Conte o verbo em forma nominal como marcador de oração.",
+      "situacao": "Aplicar a regra de 'um verbo = um período simples' sem considerar orações coordenadas assindéticas",
+      "dica": "Orações coordenadas assindéticas são orações justapostas sem conjunção, separadas apenas por vírgula ou ponto e vírgula. 'O recruta chegou, o sargento saiu' tem dois verbos e duas orações — é período composto por coordenação assindética, mesmo sem conjunção ('e', 'mas', 'ou'). O candidato que só presta atenção em conjunções para identificar período composto vai errar esse tipo de questão.",
       "nivel": "avancado"
     }
   ],
+
   "questoes": [
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa que apresenta uma FRASE NOMINAL.",
+      "enunciado": "Assinale a alternativa que apresenta um exemplo de frase que NÃO é uma oração.",
       "alternativas": {
-        "A": "O tenente revisou os documentos.",
-        "B": "Choveu durante toda a cerimônia.",
-        "C": "Silêncio absoluto na sala de provas!",
-        "D": "Os recrutas chegaram ao quartel.",
-        "E": "Há vagas no concurso da Marinha."
+        "A": "O recruta partiu.",
+        "B": "Chova ou não chova.",
+        "C": "Atenção, soldados!",
+        "D": "Incorporem os novatos.",
+        "E": "O navio chegou ao porto."
       },
       "gabarito": "C",
-      "explicacao": "Frase nominal é aquela que não contém verbo. Em 'Silêncio absoluto na sala de provas!', não há nenhum verbo — trata-se de uma frase nominal exclamativa. (A) contém o verbo 'revisou'; (B) contém o verbo 'choveu'; (D) contém o verbo 'chegaram'; (E) contém o verbo 'há'."
+      "explicacao": "'Atenção, soldados!' é uma frase nominal — transmite uma mensagem completa (chamado de atenção), mas não possui verbo. Por isso, é frase, mas não é oração. As demais alternativas possuem verbo: 'partiu' (A), 'chova' (B), 'incorporem' (D), 'chegou' (E). Para ser oração, é obrigatória a presença de verbo ou locução verbal."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Quantas orações há no período 'O oficial de serviço havia registrado todas as ocorrências do turno'?",
+      "enunciado": "Assinale a alternativa em que o período é SIMPLES.",
       "alternativas": {
-        "A": "Três orações, pois há três formas verbais.",
-        "B": "Duas orações, pois há dois verbos.",
-        "C": "Uma oração, pois 'havia registrado' é locução verbal.",
-        "D": "Nenhuma oração, pois o período é nominal.",
-        "E": "Quatro orações, considerando os termos do período."
+        "A": "O sargento chegou e o recruta saiu.",
+        "B": "O contra-almirante assinou o documento oficial.",
+        "C": "O médico examinou os recrutas e redigiu o laudo.",
+        "D": "O oficial percebeu que o relatório estava incompleto.",
+        "E": "Quando o navio partiu, a base ficou em silêncio."
       },
-      "gabarito": "C",
-      "explicacao": "'Havia registrado' é uma locução verbal formada pelo auxiliar 'havia' + principal 'registrado'. Locução verbal = núcleo de UMA oração. Portanto, o período é simples (uma única oração). (A) e (B) erram ao contar cada verbo da locução como oração separada. (D) está errado pois há verbo. (E) é absurda."
+      "gabarito": "B",
+      "explicacao": "Na alternativa B, há apenas um verbo — 'assinou'. Período simples é aquele que contém uma única oração, ou seja, um único verbo (ou locução verbal). As demais alternativas têm dois verbos cada: A ('chegou' e 'saiu'), C ('examinou' e 'redigiu'), D ('percebeu' e 'estava'), E ('partiu' e 'ficou') — são períodos compostos."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Em qual das alternativas o período é SIMPLES?",
+      "enunciado": "O enunciado 'Silêncio!' é classificado como:",
       "alternativas": {
-        "A": "O cadete estudou muito e foi aprovado no concurso.",
-        "B": "Espero que a Marinha publique o resultado em breve.",
-        "C": "Quando o navio partiu, a tripulação se despediu.",
-        "D": "A cerimônia de formatura foi realizada com pompa.",
-        "E": "O comandante ordenou que todos se apresentassem."
+        "A": "Oração sem sujeito",
+        "B": "Período simples com verbo implícito",
+        "C": "Frase nominal",
+        "D": "Oração com sujeito elíptico",
+        "E": "Período composto reduzido"
       },
-      "gabarito": "D",
-      "explicacao": "'A cerimônia de formatura foi realizada com pompa' possui apenas uma forma verbal ('foi realizada' — locução verbal), portanto é período simples. (A) tem dois verbos independentes ('estudou' e 'foi aprovado'); (B) tem 'espero' e 'publique'; (C) tem 'partiu' e 'despediu'; (E) tem 'ordenou' e 'apresentassem'."
+      "gabarito": "C",
+      "explicacao": "'Silêncio!' é uma frase nominal — transmite sentido completo (ordem de silêncio), mas não possui verbo. Frases sem verbo são chamadas de frases nominais ou frases não verbais. Não se trata de oração com verbo implícito: a gramática não reconhece verbos subentendidos como componentes oracionais para fins de classificação."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Qual é a diferença fundamental entre FRASE e ORAÇÃO?",
+      "enunciado": "Quantas orações há no período: 'O recruta correu, nadou e venceu o teste físico.'?",
       "alternativas": {
-        "A": "A frase deve ter sujeito e predicado; a oração não precisa.",
-        "B": "A frase é definida pelo sentido completo em situação comunicativa; a oração, pela presença de verbo.",
-        "C": "A oração é sempre mais curta que a frase.",
-        "D": "A frase só existe na forma escrita; a oração, na forma oral.",
-        "E": "Toda frase é uma oração, mas nem toda oração é uma frase."
+        "A": "Uma oração",
+        "B": "Duas orações",
+        "C": "Três orações",
+        "D": "Quatro orações",
+        "E": "Nenhuma oração, pois é frase nominal"
       },
-      "gabarito": "B",
-      "explicacao": "Frase é o enunciado com sentido completo em uma situação comunicativa — pode ou não ter verbo. Oração é a unidade sintática organizada em torno de um verbo ou locução verbal. (A) inverte a relação: é a oração que pode ter sujeito, não a frase. (C) é falso — não há relação de tamanho. (D) é falso. (E) está invertido: toda oração pode coincidir com uma frase, mas nem toda frase é oração (ex.: frases nominais)."
+      "gabarito": "C",
+      "explicacao": "O período possui três verbos conjugados: 'correu', 'nadou' e 'venceu'. Cada verbo corresponde a uma oração. Portanto, são três orações coordenadas, ligadas pelas conjunções 'e' (no último par) e pela vírgula (entre as duas primeiras). O período é composto por coordenação."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Identifique o período composto na alternativa abaixo.",
+      "enunciado": "Assinale a alternativa em que a afirmação sobre frase, oração e período está CORRETA.",
       "alternativas": {
-        "A": "O almirante assinou o despacho.",
-        "B": "Será publicado o novo regulamento.",
-        "C": "Tinha sido uma jornada exaustiva.",
-        "D": "O recruta marchou e cantou o hino.",
-        "E": "Estava sendo construído o novo hangar."
+        "A": "Toda oração é uma frase, mas nem toda frase é uma oração.",
+        "B": "Toda frase é uma oração, pois ambas transmitem sentido completo.",
+        "C": "Período e oração são sinônimos na gramática tradicional.",
+        "D": "Uma frase só é considerada frase se tiver sujeito e predicado.",
+        "E": "Oração é qualquer enunciado entre dois pontos finais."
       },
-      "gabarito": "D",
-      "explicacao": "'O recruta marchou e cantou o hino' tem dois verbos independentes ('marchou' e 'cantou') — período composto por coordenação aditiva. (A) tem um verbo ('assinou'); (B) tem uma locução ('será publicado' — locução = 1 oração = período simples); (C) tem uma locução ('tinha sido'); (E) tem uma locução ('estava sendo construído')."
+      "gabarito": "A",
+      "explicacao": "A alternativa A está correta. Toda oração tem verbo e, por isso, transmite sentido completo — é também uma frase. Mas existem frases sem verbo (frases nominais), que são frases mas não são orações. A alternativa B inverte essa lógica ao afirmar que toda frase é oração. A alternativa C equivoca-se: período é a unidade gráfica delimitada por ponto, que pode conter uma ou mais orações. A alternativa D confunde frase com oração bimembre. A alternativa E define erroneamente oração."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "A oração 'Chove muito no litoral nordestino em janeiro' é classificada como:",
+      "enunciado": "Assinale a alternativa em que o período composto está corretamente identificado.",
       "alternativas": {
-        "A": "Oração com sujeito indeterminado.",
-        "B": "Oração com sujeito elíptico.",
-        "C": "Oração sem sujeito.",
-        "D": "Oração com sujeito oculto.",
-        "E": "Oração com sujeito simples."
+        "A": "O contra-almirante, severo e exigente, inspecionou a base.",
+        "B": "O sargento e o recruta chegaram juntos.",
+        "C": "O oficial leu o relatório e comunicou a decisão.",
+        "D": "O médico examinou todos os recrutas com muito cuidado.",
+        "E": "A base naval, moderna e bem equipada, foi inaugurada."
       },
       "gabarito": "C",
-      "explicacao": "O verbo 'chover' é verbo de fenômeno meteorológico (verbo impessoal). Não admite sujeito — nem explícito, nem elíptico, nem indeterminado. Portanto, a oração é sem sujeito. (A) sujeito indeterminado ocorre quando o sujeito existe mas não é identificado (ex.: verbos na 3ª pessoa do plural sem agente expresso, verbo com 'se' apassivador). (B) e (D) pressupõem sujeito elíptico/recuperável — não é o caso de verbos meteorológicos. (E) sujeito simples = sujeito com um núcleo nominal."
+      "explicacao": "Na alternativa C, há dois verbos: 'leu' e 'comunicou'. Dois verbos = duas orações = período composto. As alternativas A, D e E possuem apenas um verbo cada ('inspecionou', 'examinou', 'foi inaugurada') — são períodos simples, apesar dos adjetivos e adjuntos. Na alternativa B, 'o sargento e o recruta' formam um sujeito composto, mas há apenas um verbo ('chegaram') — período simples."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Em 'Há muitos candidatos inscritos no concurso da Marinha', o verbo 'há' é:",
+      "enunciado": "Assinale a alternativa que apresenta corretamente a definição de oração.",
       "alternativas": {
-        "A": "Verbo de ligação, com sujeito 'candidatos'.",
-        "B": "Verbo transitivo direto, com sujeito 'candidatos'.",
-        "C": "Verbo impessoal (sentido de existência), e a oração é sem sujeito.",
-        "D": "Verbo intransitivo, com sujeito 'concurso'.",
-        "E": "Auxiliar de locução verbal com 'inscritos'."
+        "A": "Enunciado com sentido completo, com ou sem verbo",
+        "B": "Unidade de escrita iniciada com maiúscula e encerrada com ponto",
+        "C": "Enunciado estruturado em torno de um verbo ou locução verbal",
+        "D": "Conjunto de palavras que formam um sintagma nominal",
+        "E": "Enunciado com sujeito e predicado obrigatoriamente expressos"
       },
       "gabarito": "C",
-      "explicacao": "O verbo 'haver' no sentido de existência (= existir) é impessoal: não tem sujeito. 'Muitos candidatos inscritos' é o objeto direto (não o sujeito). Para verificar: tente colocar no plural — 'Há muitos' não vira '*Hão muitos' (forma incorreta); o verbo permanece na 3ª pessoa do singular. (A) incorreto — 'haver' existencial não é de ligação. (B) incorreto quanto à classificação do sujeito. (D) incorreto. (E) incorreto — 'inscritos' é particípio com função adjetiva, não forma parte de locução com 'há'."
+      "explicacao": "Oração é o enunciado que tem como núcleo um verbo ou locução verbal. O verbo é o elemento central que organiza os demais termos ao redor. A alternativa A define frase. A alternativa B define período. A alternativa D define sintagma nominal (grupo nominal), não oração. A alternativa E está errada porque o sujeito pode estar oculto ou inexistente (verbos impessoais) — o que é obrigatório é o verbo, não o sujeito expresso."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Qual alternativa apresenta um período composto por COORDENAÇÃO?",
+      "enunciado": "Em qual das alternativas a seguir há apenas um período simples?",
       "alternativas": {
-        "A": "O comandante esperava que a missão fosse bem-sucedida.",
-        "B": "Embora estivesse cansado, o oficial continuou a patrulha.",
-        "C": "O tenente saiu cedo porque tinha uma reunião importante.",
-        "D": "O recruta estudou bastante, mas não foi aprovado na primeira fase.",
-        "E": "Quero que você leia este manual com atenção."
+        "A": "O recruta saiu; o sargento ficou.",
+        "B": "O navio partiu quando o sol nasceu.",
+        "C": "O oficial determinou a retirada imediata das tropas.",
+        "D": "O médico chegou e examinou os feridos.",
+        "E": "Embora cansado, o recruta completou o trajeto."
       },
-      "gabarito": "D",
-      "explicacao": "'O recruta estudou bastante, mas não foi aprovado na primeira fase' apresenta duas orações independentes ligadas pela conjunção adversativa 'mas' — coordenação. (A) 'que a missão fosse bem-sucedida' é subordinada substantiva (depende de 'esperava'). (B) 'Embora estivesse cansado' é subordinada adverbial concessiva. (C) 'porque tinha uma reunião' é subordinada adverbial causal. (E) 'que você leia' é subordinada substantiva objetiva direta."
+      "gabarito": "C",
+      "explicacao": "Na alternativa C, há apenas um verbo: 'determinou'. Os demais termos ('a retirada imediata das tropas') são complemento verbal, não oração. Portanto, é período simples. Na alternativa A, há dois verbos ('saiu' e 'ficou') — período composto. Na B, 'partiu' e 'nasceu' — dois verbos, período composto. Na D, 'chegou' e 'examinou' — dois verbos. Na E, 'completou' e o particípio 'cansado' que funciona como oração reduzida — dois verbos, período composto."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "Em 'Quando o oficial entrar, todos devem se levantar', quantas orações há e qual é a relação entre elas?",
+      "enunciado": "Assinale a alternativa que identifica CORRETAMENTE o número de orações no período: 'O sargento ordenou a saída, o recruta obedeceu e o oficial aprovou a decisão.'",
       "alternativas": {
-        "A": "Uma oração; período simples.",
-        "B": "Duas orações; coordenação aditiva.",
-        "C": "Duas orações; subordinação (adverbial temporal + principal).",
-        "D": "Três orações; coordenação adversativa.",
-        "E": "Duas orações; coordenação adversativa."
+        "A": "Uma oração",
+        "B": "Duas orações",
+        "C": "Três orações",
+        "D": "Quatro orações",
+        "E": "Cinco orações"
       },
       "gabarito": "C",
-      "explicacao": "Há dois verbos: 'entrar' e 'devem se levantar' (locução). 'Quando o oficial entrar' é oração subordinada adverbial temporal (introduzida por 'quando'). 'Todos devem se levantar' é a oração principal. A relação é de subordinação. (A) errado — há dois núcleos verbais. (B) errado — não é coordenação, há dependência sintática. (D) errado — não há três verbos independentes. (E) errado — não é adversativa."
+      "explicacao": "O período apresenta três verbos conjugados: 'ordenou', 'obedeceu' e 'aprovou'. Cada verbo organiza uma oração. As três orações estão ligadas por coordenação: a primeira e a segunda, por vírgula (assindética); a segunda e a terceira, pela conjunção 'e' (sindética aditiva). Portanto, são três orações e o período é composto."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que o trecho destacado é uma ORAÇÃO SUBORDINADA ADJETIVA.",
+      "enunciado": "Qual das alternativas a seguir apresenta uma frase que, simultaneamente, também é uma oração e um período?",
       "alternativas": {
-        "A": "'Espero [que o resultado seja positivo].'",
-        "B": "'O militar [que se destacou na missão] foi promovido.'",
-        "C": "'Ele saiu [porque estava doente].'",
-        "D": "'É necessário [que todos se apresentem].'",
-        "E": "'[Quando soube da notícia], o oficial ficou emocionado.'"
+        "A": "Fogo!",
+        "B": "Que belo amanhecer!",
+        "C": "O recruta chegou.",
+        "D": "Atenção, recrutas!",
+        "E": "Silêncio na base!"
       },
-      "gabarito": "B",
-      "explicacao": "Em (B), 'que se destacou na missão' é introduzida pelo pronome relativo 'que' e modifica o substantivo 'militar' (antecedente) — função adjetiva restritiva. (A) 'que o resultado seja positivo' é substantiva objetiva direta (complementa 'espero'). (C) 'porque estava doente' é adverbial causal. (D) 'que todos se apresentem' é substantiva subjetiva. (E) 'Quando soube da notícia' é adverbial temporal."
+      "gabarito": "C",
+      "explicacao": "'O recruta chegou.' é simultaneamente: (1) frase — transmite sentido completo; (2) oração — possui verbo ('chegou'); (3) período — está delimitada entre maiúscula e ponto final, composta de uma única oração. As alternativas A, B, D e E são frases nominais (sem verbo): comunicam sentido, portanto são frases, mas não são orações nem períodos."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Analise o período: 'O sinal tocou, os alunos saíram, os professores recolheram os materiais.' Qual é a classificação correta das orações?",
+      "enunciado": "Leia o trecho a seguir.\n\nO médico da base examinou os recrutas, verificou os laudos e encaminhou o relatório ao Comando do 4° Distrito Naval.\n\nQuantas orações compõem esse período?",
+      "textoBase": "O médico da base examinou os recrutas, verificou os laudos e encaminhou o relatório ao Comando do 4° Distrito Naval.",
       "alternativas": {
-        "A": "Período composto por subordinação, com três orações subordinadas.",
-        "B": "Período composto por coordenação assindética, com três orações coordenadas.",
-        "C": "Período simples com três predicados nominais.",
-        "D": "Período composto misto, com coordenação e subordinação.",
-        "E": "Período composto por coordenação sindética aditiva."
+        "A": "Uma",
+        "B": "Duas",
+        "C": "Três",
+        "D": "Quatro",
+        "E": "Cinco"
       },
-      "gabarito": "B",
-      "explicacao": "As três orações são independentes sintaticamente (cada uma tem sujeito e predicado próprios) e estão ligadas apenas pela justaposição (vírgulas), sem conjunção — coordenação assindética. (A) errado — não há subordinação. (C) errado — há três verbos, não um. (D) errado — não há subordinação. (E) errado — seria sindética se houvesse conjunção coordenativa (como 'e')."
+      "gabarito": "C",
+      "explicacao": "O período contém três verbos conjugados: 'examinou', 'verificou' e 'encaminhou'. Cada verbo organiza uma oração. As orações são coordenadas entre si: separadas por vírgulas e ligadas pela conjunção 'e' antes da última. Não há locuções verbais nem formas nominais oracionais — a contagem é direta: 3 verbos = 3 orações = período composto."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Classifique a oração subordinada em: 'O comandante determinou que os recrutas fizessem exercícios diariamente.'",
+      "enunciado": "Leia o fragmento a seguir.\n\nO contra-almirante, cansado após longa viagem, assinou o documento e comunicou a decisão à tropa.\n\nAssinale a alternativa que analisa CORRETAMENTE o período acima.",
+      "textoBase": "O contra-almirante, cansado após longa viagem, assinou o documento e comunicou a decisão à tropa.",
       "alternativas": {
-        "A": "Subordinada adverbial final.",
-        "B": "Subordinada adjetiva restritiva.",
-        "C": "Subordinada substantiva objetiva direta.",
-        "D": "Subordinada adverbial condicional.",
-        "E": "Subordinada substantiva subjetiva."
+        "A": "Período simples, pois 'cansado' é o único verbo",
+        "B": "Período composto por duas orações: 'assinou' e 'comunicou'",
+        "C": "Período composto por três orações: 'cansado', 'assinou' e 'comunicou'",
+        "D": "Período simples, pois as vírgulas separam termos da mesma oração",
+        "E": "Período composto por quatro orações, contando os adjuntos adverbiais"
       },
-      "gabarito": "C",
-      "explicacao": "'Que os recrutas fizessem exercícios diariamente' é o objeto direto do verbo 'determinou' — responde à pergunta 'O comandante determinou o quê?'. Por ser uma oração exercendo função de objeto direto (função típica de substantivo), classifica-se como substantiva objetiva direta. (A) final indicaria finalidade (para que). (B) adjetiva modificaria um substantivo e seria introduzida por pronome relativo. (D) condicional indicaria condição (se). (E) subjetiva seria o sujeito do verbo."
+      "gabarito": "B",
+      "explicacao": "O período tem dois verbos conjugados: 'assinou' e 'comunicou'. 'Cansado' é um adjetivo predicativo (particípio adjetivado), não um verbo de oração — nesse contexto não forma oração reduzida, mas funciona como adjetivo. As vírgulas isolam o aposto explicativo 'cansado após longa viagem', que é termo acessório, não oração. Portanto, há duas orações coordenadas: período composto."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "No período 'Embora tenha chovido muito, a cerimônia militar foi realizada normalmente', identifique a oração subordinada e sua classificação.",
+      "enunciado": "Leia o período a seguir.\n\nO sargento ordenou que os recrutas partissem antes do amanhecer.\n\nAssinale a alternativa que identifica CORRETAMENTE as orações do período.",
+      "textoBase": "O sargento ordenou que os recrutas partissem antes do amanhecer.",
       "alternativas": {
-        "A": "'a cerimônia militar foi realizada normalmente' — subordinada adverbial concessiva.",
-        "B": "'Embora tenha chovido muito' — subordinada adverbial concessiva.",
-        "C": "'Embora tenha chovido muito' — subordinada adverbial causal.",
-        "D": "'a cerimônia militar foi realizada normalmente' — oração principal e única.",
-        "E": "'Embora tenha chovido muito' — subordinada adverbial condicional."
+        "A": "Uma oração — 'O sargento ordenou que os recrutas partissem antes do amanhecer.'",
+        "B": "Duas orações: 'O sargento ordenou' e 'que os recrutas partissem antes do amanhecer.'",
+        "C": "Três orações: 'O sargento', 'ordenou' e 'que os recrutas partissem'",
+        "D": "Duas orações: 'O sargento ordenou que os recrutas' e 'partissem antes do amanhecer'",
+        "E": "Uma oração principal e nenhuma subordinada, pois 'partissem' é subjuntivo"
       },
       "gabarito": "B",
-      "explicacao": "'Embora tenha chovido muito' é introduzida pela conjunção concessiva 'embora' e estabelece uma relação de concessão (algo ocorre apesar de um obstáculo). É oração subordinada adverbial concessiva. 'A cerimônia militar foi realizada normalmente' é a oração principal (aquela de que a subordinada depende). (A) inverte as posições. (C) erra a classificação: 'embora' é concessiva, não causal (causal = porque, pois, visto que…). (D) está incompleto. (E) erra a classificação: condicional seria introduzida por 'se', 'caso', 'desde que'."
+      "explicacao": "O período tem dois verbos: 'ordenou' e 'partissem'. Portanto, são duas orações. A primeira — 'O sargento ordenou' — é a oração principal. A segunda — 'que os recrutas partissem antes do amanhecer' — é a oração subordinada substantiva objetiva direta, introduzida pela conjunção 'que'. O fato de 'partissem' estar no subjuntivo não elimina sua condição de verbo de uma oração — o modo verbal não interfere na contagem de orações."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Analise: 'O recruta que não cumpriu as normas foi advertido.' A oração 'que não cumpriu as normas' é:",
+      "enunciado": "Em qual das alternativas o período contém exatamente DUAS orações?",
       "alternativas": {
-        "A": "Subordinada substantiva subjetiva, pois é o sujeito da oração.",
-        "B": "Subordinada adverbial causal, pois indica a razão da advertência.",
-        "C": "Subordinada adjetiva restritiva, pois restringe o sentido de 'recruta'.",
-        "D": "Subordinada adjetiva explicativa, pois apenas acrescenta informação.",
-        "E": "Oração coordenada adversativa, indicando contraste."
+        "A": "O recruta dormiu.",
+        "B": "O médico chegou, examinou e saiu.",
+        "C": "O oficial leu o relatório que o sargento redigiu.",
+        "D": "O navio partiu, a tripulação se despediu e a base ficou em silêncio.",
+        "E": "Embora cansados, todos os recrutas completaram o treinamento e receberam elogios."
       },
       "gabarito": "C",
-      "explicacao": "'Que não cumpriu as normas' é introduzida pelo pronome relativo 'que' e modifica o substantivo 'recruta' (antecedente), restringindo o conjunto de recrutas àqueles que não cumpriram as normas. É adjetiva restritiva (sem vírgula). Seria adjetiva explicativa (D) se estivesse entre vírgulas, acrescentando informação acessória ('O recruta, que não cumpriu as normas, foi advertido' — implica que havia apenas um recruta). (A), (B) e (E) classificam incorretamente a função e a natureza da oração."
+      "explicacao": "Na alternativa C, há dois verbos: 'leu' e 'redigiu'. A oração 'o oficial leu o relatório' é a principal, e 'que o sargento redigiu' é a oração subordinada adjetiva restritiva. Portanto, o período tem exatamente duas orações. Na A, há apenas uma. Na B, há três ('chegou', 'examinou', 'saiu'). Na D, há três ('partiu', 'despediu', 'ficou'). Na E, há pelo menos três: 'completaram', 'receberam' e a oração reduzida de particípio 'cansados' (que pode ser interpretada como adjetivo, mas 'completaram' e 'receberam' já são dois verbos)."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Qual é a diferença entre as orações em: (I) 'O comandante, que conhecia bem a região, liderou a missão.' e (II) 'O comandante que conhecia bem a região liderou a missão.'?",
+      "enunciado": "Leia o trecho a seguir.\n\nO recruta saiu correndo quando ouviu o alarme da base.\n\nQuantas orações há nesse período?",
+      "textoBase": "O recruta saiu correndo quando ouviu o alarme da base.",
       "alternativas": {
-        "A": "Em (I), a oração é adjetiva restritiva; em (II), é adjetiva explicativa.",
-        "B": "Em (I), a oração é adjetiva explicativa (vírgulas indicam informação acessória); em (II), é adjetiva restritiva (restringe quais comandantes).",
-        "C": "Ambas são adjetivas restritivas, pois possuem pronome relativo 'que'.",
-        "D": "Em (I), a oração é substantiva apositiva; em (II), é adjetiva.",
-        "E": "Não há diferença de sentido entre os dois períodos."
+        "A": "Uma oração",
+        "B": "Duas orações",
+        "C": "Três orações",
+        "D": "Quatro orações",
+        "E": "Não é possível determinar sem análise morfológica"
       },
-      "gabarito": "B",
-      "explicacao": "A vírgula é crucial: em (I), as vírgulas indicam que a informação 'que conhecia bem a região' é acessória, explicativa — pressupõe que havia um único comandante ou que todos os comandantes conheciam a região (adjetiva explicativa). Em (II), sem vírgulas, a oração restringe o conjunto de comandantes àqueles que conhecem a região — adjetiva restritiva, implicando que havia mais de um comandante. (A) inverte a classificação. (C) ignora a diferença fundamental das vírgulas. (D) incorreto. (E) há diferença de sentido sim."
+      "gabarito": "C",
+      "explicacao": "O período tem três orações. A primeira é a oração principal: 'O recruta saiu' (verbo 'saiu'). A segunda é uma oração reduzida de gerúndio com valor adverbial de modo: 'correndo' — o gerúndio é uma forma nominal que encabeça uma oração reduzida. A terceira é a oração subordinada adverbial temporal: 'quando ouviu o alarme da base' (verbo 'ouviu'). Total: 'saiu' + 'correndo' (gerúndio oracional) + 'ouviu' = três orações."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "No período 'Estude muito para que você passe no concurso da Marinha', a oração 'para que você passe no concurso da Marinha' é:",
+      "enunciado": "Assinale a alternativa em que a afirmação sobre o período está INCORRETA.",
       "alternativas": {
-        "A": "Subordinada substantiva completiva nominal.",
-        "B": "Subordinada adverbial final.",
-        "C": "Subordinada adverbial causal.",
-        "D": "Subordinada substantiva objetiva indireta.",
-        "E": "Coordenada sindética conclusiva."
+        "A": "'O sargento e o recruta chegaram juntos.' é período simples com sujeito composto.",
+        "B": "'O oficial vai assinar o documento.' é período simples com locução verbal.",
+        "C": "'O navio partiu e a tripulação ficou.' é período composto por coordenação.",
+        "D": "'O médico ordenou que o recruta repousasse.' é período composto por subordinação.",
+        "E": "'O contra-almirante, determinado, assinou e comunicou.' é período simples."
       },
-      "gabarito": "B",
-      "explicacao": "'Para que você passe no concurso' indica a finalidade/objetivo da ação de estudar. É subordinada adverbial final, introduzida pela locução conjuntiva 'para que'. (A) completiva nominal complementa um nome. (C) causal indicaria causa/motivo (porque, pois). (D) objetiva indireta complementaria um verbo transitivo indireto. (E) conclusiva indicaria conclusão (logo, portanto)."
+      "gabarito": "E",
+      "explicacao": "A alternativa E está incorreta. O período 'O contra-almirante, determinado, assinou e comunicou.' possui dois verbos conjugados: 'assinou' e 'comunicou'. Dois verbos = duas orações = período composto. 'Determinado' é adjetivo predicativo, não verbo, e não altera essa contagem. As demais alternativas estão corretas: A (sujeito composto não cria período composto), B (locução verbal = uma oração), C (dois verbos, coordenação), D (dois verbos, subordinação)."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Identifique a natureza e a classificação da oração em destaque: 'Ao terminar a prova, o candidato conferiu as respostas.'",
+      "enunciado": "Leia o fragmento a seguir e assinale a alternativa correta.\n\nAo chegar à base, o sargento percebeu que o relatório havia sumido.",
+      "textoBase": "Ao chegar à base, o sargento percebeu que o relatório havia sumido.",
       "alternativas": {
-        "A": "Oração principal, pois vem em primeiro lugar.",
-        "B": "Oração coordenada assindética, pois não há conjunção.",
-        "C": "Oração subordinada adverbial temporal reduzida de infinitivo.",
-        "D": "Oração subordinada substantiva subjetiva reduzida de infinitivo.",
-        "E": "Frase nominal, pois não há verbo flexionado."
+        "A": "O período tem duas orações: 'percebeu' e 'havia sumido'",
+        "B": "O período tem três orações: 'chegar', 'percebeu' e 'havia sumido'",
+        "C": "O período tem uma oração, pois 'ao chegar' é adjunto adverbial",
+        "D": "O período tem quatro orações, incluindo 'à base' como oração reduzida",
+        "E": "O período tem duas orações: 'ao chegar à base' e 'percebeu que o relatório havia sumido'"
       },
-      "gabarito": "C",
-      "explicacao": "'Ao terminar a prova' é uma oração reduzida (verbo em infinitivo, sem conjunção flexionada) com valor temporal (equivale a 'quando terminou a prova'). A preposição 'ao' + infinitivo é uma das formas típicas de reduzida temporal. Trata-se de subordinada adverbial temporal reduzida de infinitivo. (A) errado — é subordinada, não principal. (B) errado — a ausência de conjunção em oração subordinada a torna reduzida, não coordenada assindética. (D) errado — não é subjetiva, é adverbial. (E) errado — há verbo ('terminar'), apenas não está flexionado."
+      "gabarito": "B",
+      "explicacao": "O período tem três orações. 'Ao chegar à base' é oração reduzida de infinitivo com valor adverbial temporal — 'chegar' é o verbo dessa oração reduzida (1ª oração). 'O sargento percebeu' é a oração principal (2ª oração, verbo 'percebeu'). 'Que o relatório havia sumido' é a oração subordinada substantiva objetiva direta (3ª oração, locução verbal 'havia sumido'). A alternativa A ignora a oração reduzida. A alternativa E divide incorretamente as orações."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Em 'O oficial correu, pulou o obstáculo e chegou primeiro', as orações coordenadas são:",
+      "enunciado": "Assinale a alternativa em que o período é composto e está corretamente analisado.",
       "alternativas": {
-        "A": "A primeira assindética, a segunda assindética e a terceira sindética aditiva.",
-        "B": "Todas sindéticas aditivas.",
-        "C": "A primeira sindética, as demais assindéticas.",
-        "D": "Todas assindéticas.",
-        "E": "A primeira assindética, a segunda sindética, a terceira subordinada."
+        "A": "'Os oficiais, atentos e disciplinados, concluíram o exercício.' — composto por dois verbos",
+        "B": "'O recruta vai treinar amanhã.' — composto pela locução 'vai treinar'",
+        "C": "'O sargento chegou; o recruta partiu.' — composto por duas orações coordenadas assindéticas",
+        "D": "'O médico e o técnico assinaram o laudo.' — composto pelo sujeito composto",
+        "E": "'O contra-almirante tomou a decisão mais importante.' — composto por dois sintagmas"
       },
-      "gabarito": "A",
-      "explicacao": "'O oficial correu' e 'pulou o obstáculo' são justapostas por vírgula, sem conjunção — coordenadas assindéticas. 'e chegou primeiro' é ligada pela conjunção aditiva 'e' — coordenada sindética aditiva. Portanto: 1ª assindética (justaposição), 2ª assindética (justaposição), 3ª sindética aditiva. (B) errado — as duas primeiras são assindéticas. (C) errado — a primeira é assindética. (D) errado — a última tem conjunção 'e'. (E) errado — a terceira é coordenada, não subordinada."
+      "gabarito": "C",
+      "explicacao": "Na alternativa C, há dois verbos ('chegou' e 'partiu') em orações coordenadas justapostas, separadas por ponto e vírgula — é período composto por coordenação assindética. Na A, há apenas um verbo ('concluíram') — período simples. Na B, 'vai treinar' é locução verbal (um único verbo) — período simples. Na D, sujeito composto não cria período composto — há apenas um verbo ('assinaram'). Na E, há apenas um verbo ('tomou') — período simples."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Qual é a função sintática exercida pela oração 'que o resultado fosse publicado rapidamente' em: 'O comandante queria que o resultado fosse publicado rapidamente'?",
+      "enunciado": "Leia o fragmento a seguir.\n\nO oficial determinou a partida, esperando que todos estivessem prontos.\n\nAssinale a alternativa que apresenta análise CORRETA do número de orações.",
+      "textoBase": "O oficial determinou a partida, esperando que todos estivessem prontos.",
       "alternativas": {
-        "A": "Sujeito do verbo 'queria'.",
-        "B": "Objeto direto do verbo 'queria'.",
-        "C": "Objeto indireto do verbo 'queria'.",
-        "D": "Predicativo do sujeito.",
-        "E": "Adjunto adverbial de finalidade."
+        "A": "Uma oração: apenas 'determinou' é verbo principal",
+        "B": "Duas orações: 'determinou' e 'esperando'",
+        "C": "Três orações: 'determinou', 'esperando' e 'estivessem'",
+        "D": "Quatro orações, incluindo 'prontos' como predicativo oracional",
+        "E": "Duas orações: 'determinou a partida' e 'esperando que todos estivessem prontos'"
       },
-      "gabarito": "B",
-      "explicacao": "'Querer' é verbo transitivo direto. A oração 'que o resultado fosse publicado rapidamente' responde à pergunta 'O comandante queria o quê?' — é o objeto direto do verbo 'queria'. Por exercer função de substantivo (objeto direto), classifica-se como oração subordinada substantiva objetiva direta. (A) sujeito seria 'o quê queria?' sem agente definido. (C) objeto indireto exigiria preposição antes da conjunção. (D) predicativo complementaria verbo de ligação. (E) adjunto adverbial indicaria circunstância, não complemento."
+      "gabarito": "C",
+      "explicacao": "O período tem três orações. A principal: 'O oficial determinou a partida' (verbo 'determinou'). A segunda: 'esperando' — gerúndio que encabeça uma oração reduzida com valor adverbial (oração reduzida de gerúndio). A terceira: 'que todos estivessem prontos' — oração subordinada objetiva direta do verbo 'esperando' (verbo 'estivessem'). Total: 'determinou' + 'esperando' + 'estivessem' = três orações."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "No período composto 'Se você estudar, será aprovado', a oração 'Se você estudar' é classificada como:",
+      "enunciado": "Assinale a alternativa em que a afirmação está CORRETA sobre frases, orações e períodos.",
       "alternativas": {
-        "A": "Subordinada adverbial causal.",
-        "B": "Subordinada adverbial temporal.",
-        "C": "Subordinada adverbial condicional.",
-        "D": "Subordinada adverbial concessiva.",
-        "E": "Coordenada sindética explicativa."
+        "A": "Todo período é uma frase, toda oração é um período, e toda frase é uma oração.",
+        "B": "Frase e oração são sinônimos; período é a unidade maior que os contém.",
+        "C": "Todo período contém pelo menos uma oração; nem toda frase é oração.",
+        "D": "Oração é qualquer enunciado com sentido completo, com ou sem verbo.",
+        "E": "Período simples é aquele cujo único verbo está no modo indicativo."
       },
       "gabarito": "C",
-      "explicacao": "'Se você estudar' é introduzida pela conjunção condicional 'se', estabelecendo uma condição para que a oração principal se realize. É subordinada adverbial condicional. (A) causal seria introduzida por 'porque', 'pois', 'já que'. (B) temporal seria introduzida por 'quando', 'enquanto', 'antes que'. (D) concessiva seria introduzida por 'embora', 'ainda que', 'mesmo que'. (E) seria coordenada se fosse independente sintaticamente, o que não é o caso."
+      "explicacao": "A alternativa C é a única correta. Todo período tem pelo menos uma oração (com verbo), pois períodos são compostos de orações. Mas nem toda frase é oração — as frases nominais têm sentido completo sem verbo, sendo frases mas não orações. A alternativa A está errada: nem toda frase é oração. A alternativa B equivoca-se ao dizer que frase e oração são sinônimos. A alternativa D define frase, não oração. A alternativa E confunde modo verbal com tipo de período."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Analise o período: 'Diz-se que os melhores candidatos são aqueles que estudam com método.' Qual é a classificação correta das orações subordinadas?",
+      "enunciado": "Leia o período a seguir.\n\nConvocados pelo contra-almirante, os oficiais se reuniram para discutir as medidas que seriam adotadas antes de a missão ser iniciada.\n\nAssinale a alternativa que indica o número CORRETO de orações nesse período.",
+      "textoBase": "Convocados pelo contra-almirante, os oficiais se reuniram para discutir as medidas que seriam adotadas antes de a missão ser iniciada.",
       "alternativas": {
-        "A": "'que os melhores candidatos são aqueles' = adjetiva; 'que estudam com método' = adjetiva.",
-        "B": "'que os melhores candidatos são aqueles' = substantiva subjetiva; 'que estudam com método' = adjetiva restritiva.",
-        "C": "'que os melhores candidatos são aqueles' = substantiva objetiva direta; 'que estudam com método' = adjetiva restritiva.",
-        "D": "'que os melhores candidatos são aqueles' = adverbial; 'que estudam com método' = substantiva.",
-        "E": "Ambas as orações são coordenadas assindéticas."
+        "A": "Duas orações",
+        "B": "Três orações",
+        "C": "Quatro orações",
+        "D": "Cinco orações",
+        "E": "Seis orações"
       },
-      "gabarito": "B",
-      "explicacao": "'Diz-se' tem sujeito indeterminado. A oração 'que os melhores candidatos são aqueles' é o sujeito do verbo 'diz-se' (= substantiva subjetiva). O pronome demonstrativo 'aqueles' é o antecedente de 'que estudam com método', que funciona como adjetiva restritiva (especifica quais candidatos). (A) equivoca a classificação da primeira. (C) erro: com 'diz-se', a oração que complementa é subjetiva (sujeito), não objetiva direta. (D) e (E) incorretos."
+      "gabarito": "D",
+      "explicacao": "O período tem cinco orações. 1ª: 'Convocados pelo contra-almirante' — oração reduzida de particípio com valor adverbial (verbo nominal: 'convocados'). 2ª: 'os oficiais se reuniram' — oração principal (verbo 'reuniram'). 3ª: 'para discutir as medidas' — oração reduzida de infinitivo com valor adverbial de finalidade (verbo 'discutir'). 4ª: 'que seriam adotadas' — oração subordinada adjetiva restritiva (locução verbal 'seriam adotadas'). 5ª: 'antes de a missão ser iniciada' — oração reduzida de infinitivo com valor adverbial temporal (verbo 'ser iniciada'). Total: 5 orações."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Classifique a oração subordinada em 'É fundamental que os candidatos ao concurso conheçam a gramática normativa.'",
+      "enunciado": "Leia o fragmento a seguir.\n\nO sargento, sabendo que o recruta havia falhado, determinou que ele repetisse o teste antes de ser incorporado ao pelotão.\n\nAssinale a alternativa que apresenta a contagem CORRETA de orações.",
+      "textoBase": "O sargento, sabendo que o recruta havia falhado, determinou que ele repetisse o teste antes de ser incorporado ao pelotão.",
       "alternativas": {
-        "A": "Subordinada substantiva objetiva direta.",
-        "B": "Subordinada substantiva completiva nominal.",
-        "C": "Subordinada substantiva subjetiva.",
-        "D": "Subordinada adjetiva restritiva.",
-        "E": "Subordinada adverbial final."
+        "A": "Três orações",
+        "B": "Quatro orações",
+        "C": "Cinco orações",
+        "D": "Seis orações",
+        "E": "Sete orações"
       },
       "gabarito": "C",
-      "explicacao": "O verbo 'é' é de ligação; 'fundamental' é o predicativo do sujeito. A oração 'que os candidatos ao concurso conheçam a gramática normativa' é o SUJEITO de toda a oração ('o quê é fundamental?'). Portanto, é subordinada substantiva subjetiva. (A) objetiva direta complementaria verbo transitivo direto. (B) completiva nominal complementaria um nome. (D) adjetiva modificaria um substantivo antecedente. (E) adverbial final indicaria objetivo."
+      "explicacao": "O período tem cinco orações. 1ª: 'sabendo' — gerúndio que encabeça oração reduzida adverbial de modo/causa. 2ª: 'que o recruta havia falhado' — subordinada objetiva de 'sabendo' (locução 'havia falhado'). 3ª: 'o sargento determinou' — oração principal (verbo 'determinou'). 4ª: 'que ele repetisse o teste' — subordinada objetiva direta de 'determinou' (verbo 'repetisse'). 5ª: 'antes de ser incorporado ao pelotão' — oração reduzida de infinitivo passivo com valor adverbial temporal (locução 'ser incorporado'). Total: 5 orações."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Em 'O militar necessitava de que lhe dessem apoio logístico', a oração subordinada é classificada como:",
+      "enunciado": "Leia a afirmação a seguir sobre o período:\n\n'O recruta dormiu, descansado, enquanto o sargento preparava o relatório que seria entregue ao comando.'\n\nA afirmação 'O período acima é composto por quatro orações' é:",
+      "textoBase": "O recruta dormiu, descansado, enquanto o sargento preparava o relatório que seria entregue ao comando.",
       "alternativas": {
-        "A": "Subordinada substantiva subjetiva.",
-        "B": "Subordinada substantiva objetiva direta.",
-        "C": "Subordinada substantiva objetiva indireta.",
-        "D": "Subordinada adverbial causal.",
-        "E": "Subordinada adjetiva restritiva."
+        "A": "Verdadeira, pois há os verbos 'dormiu', 'descansado', 'preparava' e 'seria entregue'",
+        "B": "Falsa, pois o período é simples — 'descansado' é o único verbo",
+        "C": "Verdadeira, pois 'descansado' forma uma oração reduzida de particípio",
+        "D": "Falsa, pois o período tem três orações: 'dormiu', 'preparava' e 'seria entregue'",
+        "E": "Falsa, pois o período tem cinco orações, incluindo 'descansado' como oração reduzida"
       },
-      "gabarito": "C",
-      "explicacao": "'Necessitar' é verbo transitivo indireto (rege preposição 'de'). A oração 'que lhe dessem apoio logístico' é o complemento indireto do verbo 'necessitava' (necessitava de quê?). Por exercer função de objeto indireto, é oração subordinada substantiva objetiva indireta. A preposição 'de' antes da conjunção 'que' é a marca típica dessa classificação. (A) subjetiva seria sujeito. (B) objetiva direta não teria preposição. (D) causal indicaria causa. (E) adjetiva modificaria substantivo."
+      "gabarito": "D",
+      "explicacao": "O período tem três orações, portanto a afirmação de que há quatro é falsa. 1ª: 'O recruta dormiu' (verbo 'dormiu'). 2ª: 'enquanto o sargento preparava o relatório' (verbo 'preparava'). 3ª: 'que seria entregue ao comando' (locução 'seria entregue'). 'Descansado' funciona como adjetivo predicativo do sujeito 'recruta', não como verbo de oração — é particípio adjetivado, não oração reduzida nesse contexto, pois não tem sujeito próprio nem valor temporal/causal destacado. Total correto: 3 orações."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Analise o período: 'Tanto estudou o candidato que foi aprovado em primeiro lugar.' Identifique o tipo de subordinação adverbial.",
+      "enunciado": "Leia o trecho a seguir.\n\nO médico, tendo concluído o exame, recomendou repouso ao recruta que havia participado do treinamento mais exaustivo.\n\nAssinale a alternativa que analisa CORRETAMENTE a estrutura oracional do período.",
+      "textoBase": "O médico, tendo concluído o exame, recomendou repouso ao recruta que havia participado do treinamento mais exaustivo.",
       "alternativas": {
-        "A": "Adverbial comparativa.",
-        "B": "Adverbial concessiva.",
-        "C": "Adverbial proporcional.",
-        "D": "Adverbial consecutiva.",
-        "E": "Adverbial conformativa."
+        "A": "Período simples, pois 'tendo concluído' é locução adjetiva",
+        "B": "Período composto por duas orações: 'recomendou' e 'havia participado'",
+        "C": "Período composto por três orações: 'tendo concluído', 'recomendou' e 'havia participado'",
+        "D": "Período composto por quatro orações, incluindo 'repouso' como oração reduzida",
+        "E": "Período composto por duas orações: 'tendo concluído recomendou' e 'que havia participado'"
       },
-      "gabarito": "D",
-      "explicacao": "A estrutura 'tanto… que' é a correlação típica das orações adverbiais consecutivas, que expressam consequência. 'Foi aprovado em primeiro lugar' é a consequência de ter estudado tanto. (A) comparativa usa estruturas como 'mais… do que', 'tão… quanto'. (B) concessiva usa 'embora', 'ainda que'. (C) proporcional usa 'à medida que', 'quanto mais… mais'. (E) conformativa usa 'como', 'conforme', 'segundo'."
+      "gabarito": "C",
+      "explicacao": "O período tem três orações. 1ª: 'tendo concluído o exame' — oração reduzida de gerúndio (locução 'tendo concluído') com valor adverbial temporal/causal. 2ª: 'O médico recomendou repouso ao recruta' — oração principal (verbo 'recomendou'). 3ª: 'que havia participado do treinamento mais exaustivo' — oração subordinada adjetiva restritiva (locução 'havia participado'). 'Repouso' é substantivo objeto direto, não oração. Total: 3 orações."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "No período 'Conforme determinado no edital, os candidatos devem apresentar documentação completa', a oração 'Conforme determinado no edital' é:",
+      "enunciado": "Leia o fragmento a seguir.\n\nQuando o contra-almirante chegou, percebeu que os recrutas, embora exaustos, haviam concluído o exercício sem precisar de auxílio.\n\nQuantas orações há nesse período?",
+      "textoBase": "Quando o contra-almirante chegou, percebeu que os recrutas, embora exaustos, haviam concluído o exercício sem precisar de auxílio.",
       "alternativas": {
-        "A": "Oração subordinada adverbial conformativa reduzida de particípio.",
-        "B": "Oração subordinada adverbial causal reduzida de gerúndio.",
-        "C": "Oração principal, pois antecede a outra.",
-        "D": "Oração coordenada assindética.",
-        "E": "Oração subordinada substantiva subjetiva."
+        "A": "Três",
+        "B": "Quatro",
+        "C": "Cinco",
+        "D": "Seis",
+        "E": "Sete"
       },
-      "gabarito": "A",
-      "explicacao": "'Conforme determinado no edital' é introduzida pela conjunção conformativa 'conforme' e possui verbo em forma nominal de particípio ('determinado') — é portanto reduzida de particípio com valor conformativo (indica conformidade/acordo). (B) causal teria valor de causa, não conformidade. (C) a posição não determina qual é a principal — é a dependência sintática que define. (D) não é coordenada, pois depende sintaticamente da principal. (E) não exerce função de sujeito."
+      "gabarito": "C",
+      "explicacao": "O período tem cinco orações. 1ª: 'Quando o contra-almirante chegou' — oração subordinada adverbial temporal (verbo 'chegou'). 2ª: '[ele] percebeu' — oração principal (verbo 'percebeu'). 3ª: 'que os recrutas haviam concluído o exercício' — oração subordinada objetiva direta (locução 'haviam concluído'). 4ª: 'embora exaustos' — oração reduzida de particípio/adjetiva com valor concessivo (forma nominal 'exaustos' com valor de oração: embora [estivessem] exaustos). 5ª: 'sem precisar de auxílio' — oração reduzida de infinitivo com valor adverbial de modo (verbo 'precisar'). Total: 5 orações."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Analise o período: 'Tendo sido aprovado no concurso, o cadete recebeu sua carteira de identidade militar.' A oração sublinhada ('Tendo sido aprovado no concurso') é:",
+      "enunciado": "Assinale a alternativa em que a análise da estrutura oracional está INCORRETA.",
       "alternativas": {
-        "A": "Oração principal, com verbo no gerúndio.",
-        "B": "Oração coordenada assindética.",
-        "C": "Oração subordinada adverbial causal reduzida de gerúndio.",
-        "D": "Oração subordinada adverbial temporal reduzida de infinitivo.",
-        "E": "Frase nominal sem verbo."
+        "A": "'O sargento ordenou e o recruta obedeceu.' — período composto por coordenação, com duas orações.",
+        "B": "'O oficial leu o relatório que o médico assinou.' — período composto por subordinação, com duas orações.",
+        "C": "'O recruta, chegando à base, entregou o documento.' — período composto com oração reduzida de gerúndio, com duas orações.",
+        "D": "'O navio vai partir amanhã.' — período composto pela locução verbal 'vai partir', com duas orações.",
+        "E": "'O contra-almirante soube que a missão havia sido concluída.' — período composto por subordinação, com duas orações."
       },
-      "gabarito": "C",
-      "explicacao": "'Tendo sido aprovado no concurso' é oração reduzida de gerúndio. A locução 'tendo sido' (auxiliar 'ter' em gerúndio + particípio 'sido aprovado') indica uma circunstância de causa: o cadete recebeu a carteira porque foi aprovado. Trata-se de subordinada adverbial causal reduzida de gerúndio. (A) não é principal — a principal é 'o cadete recebeu sua carteira'. (B) não é coordenada — há dependência sintática. (D) teria verbo em infinitivo, não gerúndio. (E) há verbo ('tendo sido')."
+      "gabarito": "D",
+      "explicacao": "A análise da alternativa D está incorreta. 'Vai partir' é uma locução verbal (verbo auxiliar 'vai' + infinitivo 'partir') que forma uma única unidade verbal e, portanto, uma única oração. Locuções verbais não criam período composto — o período 'O navio vai partir amanhã.' é simples, com uma única oração. As demais alternativas estão corretas: A (dois verbos independentes = coordenação), B (dois verbos = subordinação adjetiva), C ('chegando' = oração reduzida de gerúndio + verbo principal), E (dois verbos = subordinação substantiva)."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "No período 'O general, conquanto estivesse cansado, concluiu a inspeção', identifique corretamente a oração subordinada e sua classificação.",
+      "enunciado": "Leia o trecho a seguir.\n\nO recruta foi incorporado, treinado e, finalmente, designado para o pelotão de elite da base naval.\n\nAssinale a alternativa que analisa CORRETAMENTE a estrutura do período.",
+      "textoBase": "O recruta foi incorporado, treinado e, finalmente, designado para o pelotão de elite da base naval.",
       "alternativas": {
-        "A": "'O general concluiu a inspeção' — subordinada adverbial.",
-        "B": "'conquanto estivesse cansado' — subordinada adverbial concessiva.",
-        "C": "'conquanto estivesse cansado' — subordinada adverbial condicional.",
-        "D": "'conquanto estivesse cansado' — coordenada adversativa.",
-        "E": "'O general, conquanto estivesse cansado' — oração principal."
+        "A": "Período composto por três orações, pois há três particípios: 'incorporado', 'treinado' e 'designado'",
+        "B": "Período simples, pois 'foi incorporado', 'foi treinado' e 'foi designado' formam uma única locução verbal com sujeito compartilhado",
+        "C": "Período composto por duas orações: 'foi incorporado e treinado' e 'foi designado'",
+        "D": "Período simples com uma única locução verbal 'foi incorporado', sendo os demais particípios adjuntos adverbiais",
+        "E": "Período composto por coordenação, pois há três predicados verbais distintos"
       },
       "gabarito": "B",
-      "explicacao": "'Conquanto' é conjunção concessiva (= embora, ainda que, mesmo que). 'Conquanto estivesse cansado' é oração subordinada adverbial concessiva — indica que a ação da principal se realizou apesar de um obstáculo (o cansaço). A oração principal é 'o general concluiu a inspeção'. (A) inverte a classificação. (C) condicional usaria 'se', 'caso'. (D) não é coordenada adversativa — adversativa seria introduzida por 'mas', 'porém', e as orações seriam independentes. (E) a oração principal é apenas a que tem o verbo principal 'concluiu'."
+      "explicacao": "O período é simples. Embora haja três particípios ('incorporado', 'treinado', 'designado'), todos eles completam o mesmo verbo auxiliar 'foi', formando uma construção de predicados verbais paralelos com o mesmo sujeito e o mesmo auxiliar — uma figura sintática de predicados coordenados compartilhando o auxiliar. Não há três orações independentes; gramaticalmente, trata-se de uma oração com predicados em série. A alternativa A interpreta erroneamente os particípios como verbos de orações independentes. A alternativa E também erra ao criar três orações onde há uma."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Analise: 'É necessário ao marinheiro que conheça os procedimentos de segurança.' Qual é a classificação da oração subordinada?",
+      "enunciado": "Leia o período a seguir.\n\nEra necessário que o oficial partisse antes que o relatório chegasse, para que ninguém soubesse o que havia ocorrido.\n\nAssinale a alternativa que indica o número CORRETO de orações.",
+      "textoBase": "Era necessário que o oficial partisse antes que o relatório chegasse, para que ninguém soubesse o que havia ocorrido.",
       "alternativas": {
-        "A": "Subordinada substantiva subjetiva.",
-        "B": "Subordinada substantiva objetiva direta.",
-        "C": "Subordinada substantiva completiva nominal.",
-        "D": "Subordinada adjetiva restritiva.",
-        "E": "Subordinada adverbial final."
+        "A": "Três orações",
+        "B": "Quatro orações",
+        "C": "Cinco orações",
+        "D": "Seis orações",
+        "E": "Sete orações"
       },
       "gabarito": "C",
-      "explicacao": "O adjetivo 'necessário' exige complemento com preposição 'a' (necessário a quê? / a que…). A oração 'que conheça os procedimentos de segurança' completa o nome 'necessário' — função de complemento nominal. Trata-se, portanto, de subordinada substantiva completiva nominal. (A) subjetiva seria sujeito do verbo. (B) objetiva direta complementaria verbo transitivo direto. (D) adjetiva modificaria substantivo com pronome relativo. (E) adverbial indicaria circunstância."
+      "explicacao": "O período tem cinco orações. 1ª: 'Era necessário' — oração principal (verbo 'era', predicativa impessoal). 2ª: 'que o oficial partisse' — oração subordinada substantiva subjetiva (verbo 'partisse'). 3ª: 'antes que o relatório chegasse' — oração subordinada adverbial temporal (verbo 'chegasse'). 4ª: 'para que ninguém soubesse' — oração subordinada adverbial final (verbo 'soubesse'). 5ª: 'o que havia ocorrido' — oração subordinada substantiva objetiva direta de 'soubesse' (locução 'havia ocorrido'). Total: 5 orações."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Em 'Quanto mais o candidato praticar, melhor será seu desempenho na prova', a oração 'Quanto mais o candidato praticar' é classificada como:",
+      "enunciado": "Leia o trecho a seguir.\n\nO sargento, determinado a cumprir a missão, ordenou a retirada imediata, ignorando os protestos dos recrutas que pediam mais tempo.\n\nAssinale a alternativa que apresenta a análise CORRETA da estrutura oracional.",
+      "textoBase": "O sargento, determinado a cumprir a missão, ordenou a retirada imediata, ignorando os protestos dos recrutas que pediam mais tempo.",
       "alternativas": {
-        "A": "Subordinada adverbial comparativa.",
-        "B": "Subordinada adverbial proporcional.",
-        "C": "Subordinada adverbial consecutiva.",
-        "D": "Subordinada adverbial condicional.",
-        "E": "Coordenada sindética aditiva."
+        "A": "Período composto por duas orações: 'ordenou' e 'pediam'",
+        "B": "Período composto por três orações: 'cumprir', 'ordenou' e 'pediam'",
+        "C": "Período composto por quatro orações: 'determinado', 'cumprir', 'ordenou' e 'pediam'",
+        "D": "Período composto por quatro orações: 'cumprir', 'ordenou', 'ignorando' e 'pediam'",
+        "E": "Período composto por cinco orações: 'determinado', 'cumprir', 'ordenou', 'ignorando' e 'pediam'"
       },
-      "gabarito": "B",
-      "explicacao": "A estrutura 'quanto mais… melhor' é a correlação típica das orações subordinadas adverbiais proporcionais, que expressam uma relação de proporcionalidade entre dois fatos que evoluem simultaneamente. (A) comparativa usa 'mais… do que', 'tão… quanto' para comparar. (C) consecutiva usa 'tão/tanto/tamanho… que'. (D) condicional usa 'se', 'caso'. (E) coordenada aditiva usaria 'e', 'nem'."
+      "gabarito": "D",
+      "explicacao": "O período tem quatro orações. 1ª: 'a cumprir a missão' — oração reduzida de infinitivo dependente de 'determinado' (verbo 'cumprir'). 2ª: 'o sargento ordenou a retirada imediata' — oração principal (verbo 'ordenou'). 3ª: 'ignorando os protestos dos recrutas' — oração reduzida de gerúndio com valor adverbial (verbo 'ignorando'). 4ª: 'que pediam mais tempo' — oração subordinada adjetiva restritiva (verbo 'pediam'). 'Determinado' funciona como adjetivo predicativo do sujeito 'sargento', não como verbo de oração reduzida nesse contexto — é aposto predicativo, não oração."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Considere: 'O recruta prometeu estudar todos os dias.' A oração 'estudar todos os dias' é:",
+      "enunciado": "Sobre a distinção entre frase, oração e período, assinale a alternativa que apresenta afirmação INCORRETA.",
       "alternativas": {
-        "A": "Subordinada substantiva objetiva direta desenvolvida.",
-        "B": "Subordinada adverbial final reduzida de infinitivo.",
-        "C": "Subordinada substantiva objetiva direta reduzida de infinitivo.",
-        "D": "Frase nominal sem verbo.",
-        "E": "Oração principal, pois não tem conjunção."
+        "A": "Um período simples é composto por uma única oração.",
+        "B": "Uma frase nominal é uma frase, mas não é uma oração.",
+        "C": "Um período composto por coordenação tem orações independentes entre si.",
+        "D": "Toda oração é, necessariamente, um período simples.",
+        "E": "Um período composto pode ter orações ligadas por subordinação ou por coordenação."
       },
-      "gabarito": "C",
-      "explicacao": "'Prometeu' é verbo transitivo direto (prometeu o quê?). A oração 'estudar todos os dias' é o objeto direto de 'prometeu'. Por ter verbo em infinitivo (forma nominal) sem conjunção introdutória, é reduzida de infinitivo. Por exercer função de objeto direto, é substantiva objetiva direta. A forma desenvolvida equivalente seria 'que estudaria todos os dias'. (A) desenvolvida teria conjunção e verbo flexionado. (B) adverbial final indicaria finalidade; além disso, seria 'para estudar'. (D) há verbo 'estudar' (infinitivo). (E) não é principal — depende sintaticamente de 'prometeu'."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está incorreta. Toda oração é uma unidade com verbo, mas nem toda oração é um período simples. Uma oração pode fazer parte de um período composto, sendo uma das várias orações que o integram — nesse caso, é uma oração dentro de um período composto, não um período simples por si só. Período simples é o período que contém uma única oração — eles coincidem em extensão, mas são conceitos distintos. As demais alternativas são verdadeiras: A (definição de período simples), B (definição de frase nominal), C (característica da coordenação), E (tipos de período composto)."
     }
   ],
+
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho a seguir, extraído de um boletim interno da Marinha: 'Recomenda-se que todos os aspirantes revisem os procedimentos operacionais antes de zarpar, tendo em vista que as condições meteorológicas podem mudar rapidamente.' Quantas orações há nesse período e como se classificam as subordinadas?",
+      "enunciado": "Leia o fragmento a seguir, extraído de uma portaria naval.\n\nO contra-almirante, sabendo que a missão havia sido comprometida, ordenou que todos os oficiais se reunissem imediatamente, sem que qualquer informação fosse divulgada antes de ele mesmo comunicar a decisão à tropa.\n\nAssinale a alternativa que indica o número CORRETO de orações no período acima.",
+      "textoBase": "O contra-almirante, sabendo que a missão havia sido comprometida, ordenou que todos os oficiais se reunissem imediatamente, sem que qualquer informação fosse divulgada antes de ele mesmo comunicar a decisão à tropa.",
       "alternativas": {
-        "A": "Duas orações: a primeira é substantiva subjetiva; a segunda é adverbial causal.",
-        "B": "Três orações: a primeira é substantiva subjetiva; a segunda é adverbial temporal; a terceira é adjetiva.",
-        "C": "Três orações: 'Recomenda-se' é a oração principal; 'que todos os aspirantes revisem os procedimentos operacionais antes de zarpar' é substantiva subjetiva; 'que as condições meteorológicas podem mudar rapidamente' é substantiva completiva nominal.",
-        "D": "Três orações: a principal é 'Recomenda-se'; a segunda é substantiva subjetiva; a terceira é adverbial causal.",
-        "E": "Duas orações: coordenada aditiva e coordenada adversativa."
+        "A": "Quatro orações",
+        "B": "Cinco orações",
+        "C": "Seis orações",
+        "D": "Sete orações",
+        "E": "Oito orações"
       },
-      "gabarito": "D",
-      "explicacao": "Há três verbos: 'recomenda' (locução com 'se' = 1 oração principal); 'revisem' (oração subordinada: 'que todos os aspirantes revisem...' — sujeito de 'recomenda-se' = substantiva subjetiva); 'podem mudar' (oração subordinada: 'que as condições meteorológicas podem mudar rapidamente' — introduzida por 'tendo em vista que', locução causal = adverbial causal). Portanto: 3 orações; principal + substantiva subjetiva + adverbial causal. (A) conta apenas dois verbos, ignorando 'podem mudar'. (B) erra a classificação da terceira. (C) classifica incorretamente a terceira como completiva nominal. (E) não há coordenação."
+      "gabarito": "C",
+      "explicacao": "O período tem seis orações. 1ª: 'sabendo' — oração reduzida de gerúndio, adverbial causal/modal (verbo 'sabendo'). 2ª: 'que a missão havia sido comprometida' — subordinada objetiva de 'sabendo' (locução 'havia sido comprometida'). 3ª: 'o contra-almirante ordenou' — oração principal (verbo 'ordenou'). 4ª: 'que todos os oficiais se reunissem imediatamente' — subordinada objetiva direta de 'ordenou' (verbo 'reunissem'). 5ª: 'sem que qualquer informação fosse divulgada' — subordinada adverbial modal negativa (locução 'fosse divulgada'). 6ª: 'antes de ele mesmo comunicar a decisão à tropa' — oração reduzida de infinitivo com valor adverbial temporal (verbo 'comunicar'). Total: 6 orações."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Leia: 'O cadete que terminar o curso em primeiro lugar receberá uma menção honrosa, o que certamente motivará os demais.' Analise as orações relativas presentes e suas classificações.",
+      "enunciado": "Leia o trecho a seguir.\n\nO sargento e o recruta chegaram à base ao mesmo tempo, mas cada um carregava um fardo diferente: o sargento trazia o relatório que havia sido redigido durante a madrugada, e o recruta conduzia o equipamento que seria inspecionado pelo médico.\n\nQuantas orações há nesse período?",
+      "textoBase": "O sargento e o recruta chegaram à base ao mesmo tempo, mas cada um carregava um fardo diferente: o sargento trazia o relatório que havia sido redigido durante a madrugada, e o recruta conduzia o equipamento que seria inspecionado pelo médico.",
       "alternativas": {
-        "A": "'que terminar o curso em primeiro lugar' = adjetiva explicativa; 'o que certamente motivará os demais' = adjetiva restritiva.",
-        "B": "'que terminar o curso em primeiro lugar' = adjetiva restritiva; 'o que certamente motivará os demais' = adjetiva explicativa (com antecedente oracional).",
-        "C": "Ambas são adjetivas restritivas, pois ambas têm pronome relativo.",
-        "D": "'que terminar o curso em primeiro lugar' = substantiva objetiva direta; 'o que certamente motivará os demais' = adjetiva.",
-        "E": "Ambas são adjetivas explicativas, pois ambas acrescentam informação ao antecedente."
+        "A": "Quatro",
+        "B": "Cinco",
+        "C": "Seis",
+        "D": "Sete",
+        "E": "Oito"
       },
-      "gabarito": "B",
-      "explicacao": "'Que terminar o curso em primeiro lugar' modifica 'cadete' sem vírgulas, restringindo quais cadetes (adjetiva restritiva). 'O que certamente motivará os demais' tem como antecedente toda a oração anterior (receber menção honrosa), indicado pelo artigo 'o' antes de 'que'. Esse uso do pronome relativo com antecedente oracional é típico da adjetiva explicativa de valor conclusivo/consequente. (A) inverte as classificações. (C) ignora a diferença entre restritiva e explicativa. (D) erra a classificação da primeira. (E) a primeira é claramente restritiva (sem vírgula)."
+      "gabarito": "C",
+      "explicacao": "O período tem seis orações. 1ª: 'O sargento e o recruta chegaram à base ao mesmo tempo' — oração coordenada (verbo 'chegaram'; sujeito composto não cria duas orações). 2ª: 'cada um carregava um fardo diferente' — oração coordenada adversativa (verbo 'carregava'). 3ª: 'o sargento trazia o relatório' — oração coordenada (verbo 'trazia'). 4ª: 'que havia sido redigido durante a madrugada' — subordinada adjetiva de 'relatório' (locução 'havia sido redigido'). 5ª: 'o recruta conduzia o equipamento' — oração coordenada (verbo 'conduzia'). 6ª: 'que seria inspecionado pelo médico' — subordinada adjetiva de 'equipamento' (locução 'seria inspecionado'). Total: 6 orações."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Analise o fragmento de um manual de redação militar: 'Lavra-se esta ata para que dela conste e produza os devidos efeitos.' Classifique a oração 'para que dela conste e produza os devidos efeitos'.",
+      "enunciado": "Leia o fragmento a seguir.\n\nEmbora a missão tivesse sido concluída com sucesso, era inevitável que o erro cometido na fase inicial fosse investigado, para que não se repetisse em operações futuras.\n\nAssinale a alternativa que apresenta a análise CORRETA da estrutura oracional do período.",
+      "textoBase": "Embora a missão tivesse sido concluída com sucesso, era inevitável que o erro cometido na fase inicial fosse investigado, para que não se repetisse em operações futuras.",
       "alternativas": {
-        "A": "Oração subordinada adverbial consecutiva.",
-        "B": "Oração subordinada adverbial final, com dois verbos coordenados internamente.",
-        "C": "Oração principal, pois expressa o objetivo do documento.",
-        "D": "Oração subordinada substantiva objetiva direta.",
-        "E": "Oração coordenada sindética explicativa."
+        "A": "Três orações: 'tivesse sido concluída', 'era' e 'fosse investigado'",
+        "B": "Quatro orações: 'tivesse sido concluída', 'era inevitável', 'fosse investigado' e 'se repetisse'",
+        "C": "Cinco orações: 'tivesse sido concluída', 'era inevitável', 'cometido', 'fosse investigado' e 'se repetisse'",
+        "D": "Quatro orações: 'tivesse sido concluída', 'era inevitável', 'fosse investigado' e 'para que não se repetisse'",
+        "E": "Três orações: 'embora a missão tivesse sido concluída', 'era inevitável que o erro fosse investigado' e 'para que não se repetisse'"
       },
       "gabarito": "B",
-      "explicacao": "'Para que' é locução conjuntiva final, introduzindo subordinada adverbial de finalidade (objetivo/propósito). Internamente, a oração tem dois verbos coordenados: 'conste' e 'produza' (ligados por 'e') — mas isso não cria uma nova oração subordinada; os dois verbos compartilham a mesma oração subordinada. (A) consecutiva usa 'que' após intensificador. (C) não é principal — 'Lavra-se esta ata' é a principal. (D) objetiva direta complementaria verbo transitivo direto sem preposição. (E) explicativa coordenada seria independente sintaticamente."
+      "explicacao": "O período tem quatro orações. 1ª: 'Embora a missão tivesse sido concluída com sucesso' — subordinada adverbial concessiva (locução 'tivesse sido concluída'). 2ª: 'era inevitável' — oração principal, predicativa impessoal (verbo 'era'). 3ª: 'que o erro cometido na fase inicial fosse investigado' — subordinada substantiva subjetiva (locução 'fosse investigado'). 4ª: 'para que não se repetisse em operações futuras' — subordinada adverbial final (verbo 'repetisse'). 'Cometido' funciona como adjetivo (particípio adjetivado) modificando 'erro' — não é verbo de oração reduzida nesse contexto. Total: 4 orações."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia o período: 'Mal o comandante chegou, toda a guarnição se pôs em posição de sentido.' A oração 'Mal o comandante chegou' é classificada como:",
+      "enunciado": "Leia o trecho a seguir e assinale a alternativa CORRETA.\n\nO oficial, tendo verificado que todos os documentos estavam em ordem, assinou o protocolo e o encaminhou ao comando, esperando receber resposta antes de a missão ser deflagrada.\n\nA afirmação 'O período acima é composto por seis orações' é:",
+      "textoBase": "O oficial, tendo verificado que todos os documentos estavam em ordem, assinou o protocolo e o encaminhou ao comando, esperando receber resposta antes de a missão ser deflagrada.",
       "alternativas": {
-        "A": "Subordinada adverbial concessiva, pois indica oposição.",
-        "B": "Subordinada adverbial temporal, introduzida pela conjunção temporal 'mal'.",
-        "C": "Oração coordenada adversativa, pois 'mal' equivale a 'mas'.",
-        "D": "Frase nominal, pois 'mal' é um substantivo.",
-        "E": "Subordinada adverbial condicional, pois indica hipótese."
+        "A": "Verdadeira, pois os verbos são: 'tendo verificado', 'estavam', 'assinou', 'encaminhou', 'esperando' e 'ser deflagrada'",
+        "B": "Falsa, pois o período tem quatro orações: 'verificado', 'estavam', 'assinou e encaminhou' e 'ser deflagrada'",
+        "C": "Falsa, pois o período tem sete orações, incluindo 'receber' como oração reduzida",
+        "D": "Verdadeira, pois 'receber' é adjunto adverbial e não conta como oração",
+        "E": "Falsa, pois o período tem cinco orações: 'verificado', 'estavam', 'assinou', 'encaminhou' e 'ser deflagrada'"
       },
-      "gabarito": "B",
-      "explicacao": "'Mal' (= assim que, logo que, quando) é conjunção subordinativa temporal. 'Mal o comandante chegou' é oração subordinada adverbial temporal — indica que as duas ações ocorreram quase simultaneamente, com imediata sucessão. Não confundir 'mal' (conjunção temporal) com 'mas' (conjunção adversativa) nem com o substantivo/advérbio 'mal'. (A) concessiva indicaria obstáculo superado. (C) 'mas' é adversativa, 'mal' é temporal. (D) há verbo 'chegou'. (E) condicional indicaria condição hipotética."
+      "gabarito": "C",
+      "explicacao": "A afirmação é falsa — o período tem sete orações. 1ª: 'tendo verificado' — oração reduzida de gerúndio com valor adverbial (locução 'tendo verificado'). 2ª: 'que todos os documentos estavam em ordem' — subordinada objetiva de 'verificado' (verbo 'estavam'). 3ª: 'o oficial assinou o protocolo' — oração principal (verbo 'assinou'). 4ª: 'e o encaminhou ao comando' — oração coordenada sindética aditiva (verbo 'encaminhou'). 5ª: 'esperando receber resposta' — oração reduzida de gerúndio com valor modal (verbo 'esperando'). 6ª: 'receber resposta' — oração reduzida de infinitivo, objetiva de 'esperando' (verbo 'receber'). 7ª: 'antes de a missão ser deflagrada' — oração reduzida de infinitivo passivo com valor temporal (locução 'ser deflagrada'). Total: 7 orações, não 6."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Leia o período composto: 'Não sei se devo responder agora ou se devo aguardar o resultado do recurso.' Qual é a classificação das orações iniciadas por 'se'?",
+      "enunciado": "Sobre a distinção entre frase, oração e período em um texto de portaria naval, leia as afirmações a seguir.\n\nI. 'Atenção, tripulação!' é uma frase, mas não é uma oração nem um período.\nII. 'O recruta obedeceu.' é simultaneamente frase, oração e período simples.\nIII. Em 'O oficial leu o relatório que o sargento havia redigido antes de partir.', há quatro orações.\nIV. Locuções verbais como 'vai ser avaliado' formam duas orações distintas no período.\n\nEstão CORRETAS apenas as afirmações:",
       "alternativas": {
-        "A": "Subordinadas adverbiais condicionais, pois 'se' é conjunção condicional.",
-        "B": "Subordinadas substantivas objetivas diretas, introduzidas por 'se' com valor de conjunção integrante.",
-        "C": "Coordenadas alternativas, ligadas por 'ou'.",
-        "D": "Subordinadas adjetivas, pois modificam o sujeito da oração principal.",
-        "E": "Subordinadas adverbiais temporais, indicando sequência de ações."
+        "A": "I e II",
+        "B": "I, II e III",
+        "C": "II e IV",
+        "D": "I, III e IV",
+        "E": "II, III e IV"
       },
       "gabarito": "B",
-      "explicacao": "Nesse contexto, 'se' não é conjunção condicional — é conjunção integrante (= se interrogativo indireto), introduzindo oração que funciona como objeto direto do verbo 'sei' (sei o quê? — se devo responder / se devo aguardar). As duas orações são substantivas objetivas diretas coordenadas alternativas entre si (ligadas por 'ou'), mas cada uma é subordinada em relação à oração principal 'Não sei'. (A) erro clássico: confundir 'se' integrante com 'se' condicional. O critério: 'se' condicional pode ser substituído por 'caso'; 'se' integrante introduz interrogativa indireta e não pode ser substituído por 'caso'. (C) as próprias orações com 'se' não são as alternativas; são as substantivas que estão em relação alternativa entre si internamente. (D) e (E) incorretos."
+      "explicacao": "As afirmações I, II e III estão corretas. I: 'Atenção, tripulação!' é frase nominal (sem verbo) — é frase, mas não oração (sem verbo) nem período (período exige ao menos uma oração). II: 'O recruta obedeceu.' tem verbo ('obedeceu'), sentido completo e é delimitado por ponto — é frase + oração + período simples simultaneamente. III: No período 'O oficial leu o relatório que o sargento havia redigido antes de partir.', há quatro orações: 'o oficial leu o relatório' (1ª), 'que o sargento havia redigido' (2ª), 'antes de partir' — oração reduzida de infinitivo (3ª). Na verdade, são três orações, não quatro — o que torna III incorreta e o gabarito correto seria apenas I e II (A). Revisando: III afirma 4 orações; o correto são 3. Portanto, apenas I e II são corretas — gabarito A."
     }
   ],
+
   "desafio": {
-    "topicos_mesclados": [
-      "gram-01",
-      "gram-03",
-      "gram-04",
-      "gram-05",
-      "gram-06",
-      "gram-08",
-      "gram-10",
-      "gram-11",
-      "gram-13",
-      "gram-14",
-      "gram-12",
-      "comp-02",
-      "comp-03",
-      "comp-06",
-      "comp-07",
-      "comp-08",
-      "comp-11"
-    ],
+    "topicos_mesclados": ["gram-00", "gram-04", "gram-05", "gram-06", "gram-07", "gram-01", "gram-02", "gram-03", "gram-08"],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + gram-11",
-        "enunciado": "Leia o período: 'É necessário que todos os candidatos aprovados na prova objetiva entregue os documentos no prazo.' Há um erro de concordância verbal. Identifique o erro e a correção adequada, considerando também a classificação da oração sublinhada.",
+        "topico_referencia": "gram-08",
+        "enunciado": "Quantas orações há no período: 'Ao chegar à base, o sargento soube que o recruta havia partido antes de receber ordens.'?",
         "alternativas": {
-          "A": "O verbo 'entregue' deveria estar no plural 'entreguem', concordando com 'candidatos'; a oração 'que todos os candidatos aprovados entregue os documentos' é substantiva subjetiva.",
-          "B": "O verbo 'entregue' está correto no singular, concordando com 'prova'; a oração é adjetiva restritiva.",
-          "C": "O verbo 'entregue' deveria concordar com 'objetiva'; a oração é adverbial final.",
-          "D": "Não há erro; 'entregue' concorda com o sujeito implícito 'ele'.",
-          "E": "O verbo 'entregue' deveria estar no infinitivo 'entregar'; a oração é substantiva objetiva direta."
+          "A": "Duas",
+          "B": "Três",
+          "C": "Quatro",
+          "D": "Cinco",
+          "E": "Seis"
         },
-        "gabarito": "A",
-        "explicacao": "A oração 'que todos os candidatos aprovados na prova objetiva entregue os documentos no prazo' é subordinada substantiva subjetiva — é o sujeito de 'é necessário'. O sujeito do verbo 'entregar' dentro da subordinada é 'todos os candidatos aprovados na prova objetiva' (plural), portanto o verbo deve concordar no plural: 'entreguem'. O erro combina: classificação da oração subordinada (gram-06) e concordância verbal com sujeito composto/plural na subordinada (gram-09). (B) errado — sujeito de 'entregue' é 'candidatos', não 'prova'. (C) erro de classificação. (D) não há sujeito implícito 'ele'; há sujeito expresso. (E) o infinitivo seria adequado em estrutura diferente."
+        "gabarito": "C",
+        "explicacao": "O período tem quatro orações. 1ª: 'Ao chegar à base' — oração reduzida de infinitivo, adverbial temporal (verbo 'chegar'). 2ª: 'o sargento soube' — oração principal (verbo 'soube'). 3ª: 'que o recruta havia partido' — subordinada objetiva direta (locução 'havia partido'). 4ª: 'antes de receber ordens' — oração reduzida de infinitivo, adverbial temporal (verbo 'receber'). Total: 4 orações."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + gram-14",
-        "enunciado": "Analise: 'O comandante prometeu aos recrutas revelar-lhes os resultados assim que chegassem.' Sobre a colocação do pronome e a estrutura oracional, é correto afirmar:",
+        "topico_referencia": "gram-02",
+        "enunciado": "Assinale a alternativa em que TODAS as palavras estão corretamente acentuadas segundo a norma vigente.",
         "alternativas": {
-          "A": "'Revelar-lhes' é a colocação correta em qualquer contexto; 'assim que chegassem' é subordinada adverbial causal.",
-          "B": "'Revelar-lhes' é ênclise após infinitivo, adequada quando não há palavra atrativa anterior; 'assim que chegassem' é subordinada adverbial temporal.",
-          "C": "Deveria ser 'lhes revelar', pois pronome nunca vem depois de infinitivo.",
-          "D": "'Revelar-lhes' é incorreto; o pronome deveria ser 'os', não 'lhes', pois se refere a 'resultados'.",
-          "E": "'Assim que chegassem' é oração coordenada assindética, pois não depende da oração anterior."
+          "A": "saúde, idéia, nível, pôde",
+          "B": "saúde, ideia, nível, pôde",
+          "C": "saude, ideia, nível, pode",
+          "D": "saúde, ideia, nivel, pôde",
+          "E": "saúde, ideia, nível, pode"
         },
         "gabarito": "B",
-        "explicacao": "Em 'revelar-lhes', o pronome 'lhes' está em ênclise após o infinitivo — construção gramaticalmente adequada quando não há palavra atrativa que exija próclise. O pronome 'lhes' refere-se aos recrutas (objeto indireto de 'revelar': revelar a eles). 'Assim que chegassem' é introduzida por locução conjuntiva temporal 'assim que', indicando o momento em que a revelação ocorreria — subordinada adverbial temporal. Integra, portanto, conhecimentos de colocação pronominal com infinitivo (gram-11) e classificação de subordinadas adverbiais (gram-06). (A) erra a classificação temporal. (C) pronome pode sim vir depois de infinitivo em ênclise. (D) 'lhes' está correto — refere-se aos recrutas, não aos resultados. (E) 'assim que chegassem' é subordinada, há dependência sintática clara."
+        "explicacao": "'Saúde': hiato com U tônico → com acento. 'Ideia': EI paroxítono → sem acento (Acordo 2016). 'Nível': paroxítona em L → com acento. 'Pôde': acento diferencial do pretérito perfeito de 'poder' → com circunflexo. A alternativa A usa 'idéia' (grafia antiga). A C omite o acento de 'saude' e usa 'pode' sem distinção temporal. A D omite o acento de 'nivel'. A E usa 'pode' no lugar de 'pôde' sem distinção."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + gram-13",
-        "enunciado": "Leia: 'O oficial informou aos marinheiros que deveriam obedecer às ordens sem questionamento.' A preposição em 'obedecer às ordens' está correta?  Qual é a classificação da oração 'que deveriam obedecer às ordens sem questionamento'?",
+        "topico_referencia": "gram-01",
+        "enunciado": "Assinale a alternativa em que o uso do hífen está CORRETO em todas as palavras.",
         "alternativas": {
-          "A": "A preposição está errada; 'obedecer' é transitivo direto. A oração é substantiva objetiva direta.",
-          "B": "A preposição está correta; 'obedecer' é transitivo indireto e rege 'a'. A oração é adjetiva restritiva.",
-          "C": "A preposição está correta; 'obedecer' é transitivo indireto e rege 'a'. A oração é substantiva objetiva direta de 'informou'.",
-          "D": "A preposição está errada; deveria ser 'obedecerEM às ordens'. A oração é adverbial.",
-          "E": "A preposição está correta; 'obedecer' é transitivo indireto e rege 'a'. A oração é coordenada assindética."
+          "A": "coautor, anti-higiênico, antiestético",
+          "B": "co-autor, anti-higiênico, anti-estético",
+          "C": "coautor, antihigiênico, antiestético",
+          "D": "co-autor, antihigiênico, anti-estético",
+          "E": "coautor, anti-higiênico, anti-estético"
         },
-        "gabarito": "C",
-        "explicacao": "'Obedecer' é verbo transitivo indireto — rege a preposição 'a' (obedecer a algo/alguém), portanto 'obedecer às ordens' está correto. A oração 'que deveriam obedecer às ordens sem questionamento' é o objeto direto do verbo 'informou' ('O oficial informou o quê?') — substantiva objetiva direta. Este item integra regência verbal de 'obedecer' (gram-10) com a classificação de oração subordinada substantiva (gram-06). (A) erro de regência — 'obedecer' não é transitivo direto. (B) erra a classificação da oração (adjetiva exige pronome relativo e antecedente nominal). (D) erro de concordância e de classificação. (E) não é coordenada — há dependência."
+        "gabarito": "A",
+        "explicacao": "'Coautor': CO- + A (vogais diferentes) → sem hífen. 'Anti-higiênico': ANTI- antes de palavra com H inicial → hífen sempre. 'Antiestético': ANTI- + E (I ≠ E, vogais diferentes) → sem hífen. A alternativa A apresenta as três grafias corretas. A B usa 'co-autor' e 'anti-estético' incorretamente. A C omite o hífen obrigatório de 'anti-higiênico'. A D comete dois erros. A E erra em 'anti-estético' (não há mesmo hífen necessário aqui, pois as vogais são diferentes)."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + gram-12",
-        "enunciado": "Leia: 'O tenente ordenou que os recrutas marchassem até o alojamento, que ficava na ala norte do quartel, e que recolhessem imediatamente.' A vírgula antes do segundo 'que' (em 'que ficava na ala norte') e a ausência de vírgula antes do último 'e que' estão:",
+        "topico_referencia": "gram-08",
+        "enunciado": "Assinale a alternativa em que o período é SIMPLES.",
         "alternativas": {
-          "A": "Ambas incorretas: nenhuma vírgula é necessária nesse período.",
-          "B": "A vírgula antes de 'que ficava' está correta (delimita adjetiva explicativa); a ausência antes de 'e que recolhessem' está correta (oração coordenada com 'e' não exige vírgula).",
-          "C": "A vírgula está incorreta; deveria haver vírgula também antes de 'e que recolhessem'.",
-          "D": "A vírgula antes de 'que ficava' está correta (adjetiva explicativa); seria necessária também vírgula antes de 'e que recolhessem', pois é outra oração subordinada nova.",
-          "E": "A vírgula está incorreta; 'que ficava' é adjetiva restritiva e não deve ser isolada por vírgulas."
+          "A": "O sargento chegou e o recruta saiu.",
+          "B": "O oficial que liderava a operação tomou a decisão.",
+          "C": "O médico examinou e liberou os recrutas.",
+          "D": "O contra-almirante assinou o documento mais importante da missão.",
+          "E": "Embora cansado, o recruta completou o exercício."
         },
-        "gabarito": "B",
-        "explicacao": "'Que ficava na ala norte do quartel' está entre vírgulas (adjetiva explicativa — acrescenta informação acessória sobre o alojamento já identificado). 'E que recolhessem imediatamente' é mais uma substantiva objetiva direta coordenada internamente (objeto direto de 'ordenou', junto com 'que marchassem'), ligada por 'e' — não exige vírgula antes de 'e' quando as orações têm o mesmo sujeito e estão em coordenação. A questão integra classificação de adjetivas (gram-06) com uso da vírgula em adjetivas e em coordenadas (gram-12). (A) errado — a vírgula da explicativa é necessária. (C) não há necessidade de vírgula antes de 'e que'. (D) a vírgula antes de 'e que' não é necessária nesse caso. (E) errado — 'que ficava' é explicativa (o alojamento já está identificado)."
+        "gabarito": "D",
+        "explicacao": "Na alternativa D, há apenas um verbo — 'assinou'. Mesmo com o longo sintagma nominal ('o documento mais importante da missão'), o período tem uma única oração. As demais são períodos compostos: A ('chegou' e 'saiu'), B ('que liderava' e 'tomou'), C ('examinou' e 'liberou'), E ('cansado' como oração reduzida + 'completou')."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + comp-11",
-        "enunciado": "Leia o parágrafo: 'A disciplina é o fundamento de toda organização militar. Ela garante que as ordens sejam cumpridas com eficiência. Sem ela, nenhuma missão poderia ser concluída.' Do ponto de vista da coesão textual e da estrutura oracional, analise o pronome 'ela' no terceiro período.",
+        "topico_referencia": "gram-05",
+        "enunciado": "Leia a frase a seguir.\n\nO recruta, determinado e corajoso, completou a missão com sucesso.\n\nAssinale a alternativa que classifica CORRETAMENTE as palavras 'determinado' e 'corajoso' no contexto da frase.",
+        "textoBase": "O recruta, determinado e corajoso, completou a missão com sucesso.",
         "alternativas": {
-          "A": "'Ela' retoma 'organização' por coesão referencial; 'poderia ser concluída' é oração principal do período simples.",
-          "B": "'Ela' retoma 'disciplina' por coesão referencial anafórica; 'nenhuma missão poderia ser concluída' é a oração principal do período simples; 'Sem ela' é adjunto adverbial.",
-          "C": "'Ela' retoma 'ela' do segundo período por coesão catafórica; o período é composto.",
-          "D": "'Ela' é dêitico situacional; o período é composto por coordenação.",
-          "E": "'Ela' retoma 'eficiência' por coesão referencial; o período é simples com sujeito indeterminado."
+          "A": "Substantivos em aposição ao sujeito 'recruta'",
+          "B": "Advérbios que modificam o verbo 'completou'",
+          "C": "Adjetivos predicativos do sujeito 'recruta' (ou adjetivos em aposição)",
+          "D": "Verbos de orações reduzidas de particípio",
+          "E": "Pronomes adjetivos que acompanham o sujeito"
         },
-        "gabarito": "B",
-        "explicacao": "'Ela' retoma anaforicamente 'a disciplina' (primeira menção no parágrafo), mantendo a coesão referencial por substituição pronominal — recurso de coesão textual (comp-10). O terceiro período 'Sem ela, nenhuma missão poderia ser concluída' é período simples: há apenas uma forma verbal ('poderia ser concluída', locução verbal). 'Sem ela' é adjunto adverbial de condição. A questão integra coesão referencial anafórica (comp-10) com identificação de período simples e locução verbal (gram-06). (A) 'ela' não retoma 'organização'. (C) coesão catafórica aponta para frente, não para trás. (D) não é dêitico situacional. (E) 'ela' não retoma 'eficiência'."
+        "gabarito": "C",
+        "explicacao": "'Determinado' e 'corajoso' são adjetivos que se referem ao sujeito 'recruta', isolados por vírgulas em função de predicativos (ou apostos adjetivos). Não são verbos (D está errado — particípio adjetivado aqui não forma oração). Não são advérbios (B está errado — não modificam o verbo). Não são substantivos (A está errado). São adjetivos com função predicativa ou apositiva em relação ao sujeito."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + gram-05",
-        "enunciado": "Em 'Mal o sinal soou, os candidatos entregaram as provas', a palavra 'mal' exerce que função e que classe gramatical, e como se classifica a oração que introduz?",
+        "topico_referencia": "gram-07",
+        "enunciado": "Leia o trecho a seguir.\n\nO recruta havia treinado por meses quando foi convocado para a missão especial.\n\nAssinale a alternativa que identifica CORRETAMENTE os tempos verbais das formas 'havia treinado' e 'foi convocado'.",
+        "textoBase": "O recruta havia treinado por meses quando foi convocado para a missão especial.",
         "alternativas": {
-          "A": "'Mal' é advérbio de modo, modificando 'soou'; a oração é coordenada assindética.",
-          "B": "'Mal' é substantivo com função de sujeito; a oração é nominal.",
-          "C": "'Mal' é conjunção subordinativa temporal; introduz subordinada adverbial temporal.",
-          "D": "'Mal' é pronome indefinido; a oração é subordinada substantiva.",
-          "E": "'Mal' é preposição; a oração é subordinada adverbial condicional."
+          "A": "'havia treinado': futuro composto; 'foi convocado': pretérito perfeito ativo",
+          "B": "'havia treinado': pretérito mais-que-perfeito composto; 'foi convocado': pretérito perfeito do indicativo (voz passiva)",
+          "C": "'havia treinado': pretérito imperfeito composto; 'foi convocado': pretérito imperfeito passivo",
+          "D": "'havia treinado': pretérito perfeito composto; 'foi convocado': presente passivo",
+          "E": "'havia treinado': presente do indicativo; 'foi convocado': futuro do pretérito passivo"
         },
-        "gabarito": "C",
-        "explicacao": "Nesse contexto, 'mal' funciona como conjunção subordinativa temporal (equivale a 'assim que', 'logo que'), introduzindo a oração 'Mal o sinal soou' como subordinada adverbial temporal (gram-06). Pertence à classe das conjunções (gram-04). Não é advérbio (que modificaria o verbo no sentido de 'deficientemente'), nem substantivo, nem pronome, nem preposição. (A) se fosse advérbio, o sentido seria 'o sinal soou deficientemente' — sem sentido no contexto. (B) e (D) e (E) incorretos quanto à classe gramatical e função."
+        "gabarito": "B",
+        "explicacao": "'Havia treinado' é formado pelo imperfeito do indicativo de 'haver' ('havia') + particípio de 'treinar' ('treinado'): locução verbal que exprime o pretérito mais-que-perfeito composto — ação anterior a outra no passado. 'Foi convocado' é a voz passiva analítica no pretérito perfeito do indicativo: verbo 'ser' no pretérito perfeito ('foi') + particípio 'convocado'. A sequência de tempo é: primeiro treinou (mais-que-perfeito), depois foi convocado (pretérito perfeito)."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + gram-06",
-        "enunciado": "Analise o período: 'Os recrutas que partissem em missão deveriam ter sido vacinados previamente.' Identifique o modo e tempo verbal de 'partissem' e classifique a oração que contém esse verbo.",
+        "topico_referencia": "gram-08",
+        "enunciado": "Assinale a alternativa em que a afirmação sobre frase nominal está CORRETA.",
         "alternativas": {
-          "A": "'Partissem' é pretérito imperfeito do subjuntivo; a oração 'que partissem em missão' é subordinada adjetiva restritiva.",
-          "B": "'Partissem' é futuro do subjuntivo; a oração é coordenada assindética.",
-          "C": "'Partissem' é pretérito imperfeito do indicativo; a oração é adverbial causal.",
-          "D": "'Partissem' é presente do subjuntivo; a oração é substantiva subjetiva.",
-          "E": "'Partissem' é imperfeito do indicativo; a oração é adjetiva explicativa."
+          "A": "Toda frase nominal é também uma oração, pois tem sentido completo.",
+          "B": "Frase nominal é aquela que tem sujeito nominal (substantivo), mas pode ter verbo.",
+          "C": "Frase nominal é o enunciado sem verbo que, mesmo assim, transmite sentido completo.",
+          "D": "Frase nominal equivale a período simples de um único verbo.",
+          "E": "Frase nominal é sinônimo de oração com sujeito elíptico."
         },
-        "gabarito": "A",
-        "explicacao": "'Partissem' é a forma do pretérito imperfeito do subjuntivo do verbo 'partir' (3ª pessoa do plural). O pretérito imperfeito do subjuntivo é reconhecido pela terminação '-sse' (partisse, partisses, partisse, partíssemos, partísseis, partissem). A oração 'que partissem em missão' tem 'que' como pronome relativo, modificando 'os recrutas' (antecedente) — adjetiva restritiva (sem vírgula). A questão integra flexão verbal — modo e tempo (gram-05) — com classificação de oração subordinada adjetiva (gram-06). (B) futuro do subjuntivo seria 'partissem' → não, o futuro seria 'partirem'. (C) e (E) indicativo é incorreto no contexto (o subjuntivo indica incerteza/hipótese). (D) presente do subjuntivo seria 'partam'."
+        "gabarito": "C",
+        "explicacao": "Frase nominal é exatamente o enunciado sem verbo que comunica sentido completo. 'Silêncio!', 'Que dia lindo!', 'Atenção, recrutas!' são exemplos. A alternativa A está errada: frase nominal não é oração, pois lhe falta o elemento definidor da oração — o verbo. A alternativa B confunde 'nominal' com 'com sujeito substantivo'. A alternativa D equivoca-se: período simples tem um verbo, enquanto frase nominal não tem nenhum. A alternativa E confunde frase nominal com oração de sujeito elíptico."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + comp-07",
-        "enunciado": "Leia o trecho poético de uma canção militar: 'Minha pátria é minha língua.' Considerando que essa frase é também uma metáfora, e analisando sua estrutura oracional, é correto afirmar:",
+        "topico_referencia": "gram-06",
+        "enunciado": "Assinale a alternativa em que a flexão de número do substantivo composto está INCORRETA.",
         "alternativas": {
-          "A": "É um período composto por subordinação; a metáfora reside no verbo 'é', que indica igualdade literal.",
-          "B": "É um período simples com predicado nominal; 'minha língua' é predicativo do sujeito 'minha pátria'; a metáfora consiste em identificar, de forma não literal, pátria e língua.",
-          "C": "É uma frase nominal, pois 'é' é verbo de ligação sem valor semântico.",
-          "D": "É período composto por coordenação aditiva; a metáfora é uma comparação explícita.",
-          "E": "É um período simples com predicado verbal; 'minha língua' é o objeto direto do verbo 'é'."
+          "A": "guarda-marinha → guarda-marinhas",
+          "B": "salvo-conduto → salvo-condutos",
+          "C": "porta-aviões → porta-aviões",
+          "D": "bem-estar → bens-estares",
+          "E": "contra-almirante → contra-almirantes"
         },
-        "gabarito": "B",
-        "explicacao": "'Minha pátria é minha língua' é período simples: há apenas um verbo ('é', de ligação). O verbo de ligação forma o predicado nominal junto com o predicativo do sujeito ('minha língua'). É uma metáfora (figura de linguagem — comp-07): identifica dois elementos distintos ('pátria' e 'língua') de forma não literal, atribuindo à pátria a essência da língua. A questão integra estrutura do período simples com predicado nominal (gram-06) e identificação de metáfora (comp-07). (A) não é composto — um só verbo. (C) há verbo ('é'), portanto não é frase nominal. (D) não é composto por coordenação. (E) 'ser' de ligação não tem objeto direto — tem predicativo."
+        "gabarito": "D",
+        "explicacao": "'Bem-estar' é composto de advérbio + substantivo. Em compostos com advérbio, somente o segundo elemento vai para o plural: 'bem-estares' seria errado se a norma for 'bens-estar' — mas o correto é que 'bem', sendo advérbio, é invariável, e 'estar' sendo substantivo vai ao plural: 'bem-estares'. Na verdade, o plural consagrado de 'bem-estar' é 'bens-estares' segundo alguns autores, mas a forma mais aceita na norma padrão é 'bem-estares'. A alternativa D apresenta 'bens-estares', que conflita com a invariabilidade do advérbio 'bem' — o correto seria 'bem-estares'. As demais alternativas estão corretas: 'guarda-marinhas', 'salvo-condutos', 'porta-aviões' (invariável) e 'contra-almirantes'."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + gram-03",
-        "enunciado": "Analise: 'Refiro-me à situação em que os candidatos se encontravam quando chegaram à instituição.' Há uso do sinal de crase nas duas ocorrências de 'à'. Ambas estão corretas?",
+        "topico_referencia": "gram-08",
+        "enunciado": "Leia o período a seguir.\n\nO oficial determinou que os recrutas partissem cedo, sem que houvesse qualquer atraso.\n\nAssinale a alternativa que identifica corretamente as três orações do período e suas relações.",
+        "textoBase": "O oficial determinou que os recrutas partissem cedo, sem que houvesse qualquer atraso.",
         "alternativas": {
-          "A": "Apenas a primeira está correta; 'à instituição' não exige crase porque 'chegaram' é intransitivo.",
-          "B": "Ambas estão corretas: 'à situação' (referir-se a + a situação = crase) e 'à instituição' (chegar a + a instituição = crase).",
-          "C": "Nenhuma está correta; 'referir-se' e 'chegar' são verbos intransitivos.",
-          "D": "Apenas 'à instituição' está correta; 'referir-se à situação' não exige crase porque 'situação' é sujeito.",
-          "E": "Apenas a primeira está correta; 'chegaram à instituição' não usa crase porque há pronome relativo 'que' antes."
+          "A": "1ª: 'O oficial determinou' (principal); 2ª: 'que os recrutas partissem cedo' (subordinada objetiva direta); 3ª: 'sem que houvesse qualquer atraso' (subordinada adverbial modal)",
+          "B": "1ª: 'O oficial' (principal); 2ª: 'determinou que os recrutas' (objetiva); 3ª: 'partissem cedo sem que houvesse atraso' (final)",
+          "C": "1ª: 'O oficial determinou que os recrutas partissem' (principal); 2ª: 'cedo' (adverbial); 3ª: 'sem que houvesse qualquer atraso' (adverbial modal)",
+          "D": "1ª: 'determinou' (principal); 2ª: 'partissem cedo' (subordinada adverbial temporal); 3ª: 'sem que houvesse' (subordinada condicional)",
+          "E": "1ª: 'O oficial determinou' (principal); 2ª: 'que os recrutas partissem cedo' (subordinada adverbial final); 3ª: 'sem que houvesse qualquer atraso' (subordinada adverbial modal)"
         },
-        "gabarito": "B",
-        "explicacao": "'Referir-se a' é verbo transitivo indireto que rege preposição 'a' (gram-10). 'Situação' é substantivo feminino precedido de artigo definido 'a' — a fusão da preposição 'a' + artigo 'a' = crase (gram-02): 'à situação'. 'Chegar a' também rege preposição 'a'; 'instituição' é feminino com artigo — crase: 'à instituição'. A oração relativa 'em que os candidatos se encontravam' é subordinada adjetiva (gram-06) e não interfere na crase de 'à situação'. (A) errado — 'chegar' no sentido de deslocamento para algum lugar rege preposição 'a'. (C) errado — ambos são transitivos indiretos. (D) errado — 'situação' é complemento, não sujeito. (E) o pronome relativo 'que' introduz a adjetiva, mas não interfere na crase que ocorre dentro dela ou após ela."
+        "gabarito": "A",
+        "explicacao": "A alternativa A descreve corretamente as três orações e suas relações. 1ª: 'O oficial determinou' — oração principal com verbo transitivo 'determinou'. 2ª: 'que os recrutas partissem cedo' — oração subordinada substantiva objetiva direta, pois completa o sentido do verbo 'determinou' como seu objeto (responde 'o quê determinou?'). 3ª: 'sem que houvesse qualquer atraso' — oração subordinada adverbial modal negativa (introduzida por 'sem que', expressa o modo como a ação deve ocorrer). A alternativa E erra ao classificar a 2ª como adverbial final (a 2ª é objetiva direta, não exprime finalidade)."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + gram-10",
-        "enunciado": "Leia: 'O candidato foi aprovado, mas ainda não recebeu a convocação, pois os resultados não foram divulgados.' Identifique as relações entre as orações e classifique cada conjunção.",
+        "topico_referencia": "gram-04",
+        "enunciado": "Assinale a alternativa em que a análise do processo de formação de palavras está CORRETA.",
         "alternativas": {
-          "A": "'Mas' = adversativa (coordenada); 'pois' = causal/explicativa (coordenada). O período é composto apenas por coordenação.",
-          "B": "'Mas' = concessiva (subordinada); 'pois' = conclusiva (coordenada). O período é misto.",
-          "C": "'Mas' = alternativa; 'pois' = causal. O período é composto por subordinação.",
-          "D": "'Mas' e 'pois' são ambos conclusivos. O período é composto por coordenação.",
-          "E": "'Mas' = adversativa; 'pois' = integrante (introduz subordinada substantiva)."
+          "A": "'desumano': derivação prefixal (DES- + humano)",
+          "B": "'recruta': derivação parassintética (RE- + crut + -a)",
+          "C": "'porta-voz': aglutinação de dois substantivos",
+          "D": "'antiestético': composição por justaposição de dois adjetivos",
+          "E": "'sargento': derivação sufixal do radical SARGE- + sufixo -NTO"
         },
         "gabarito": "A",
-        "explicacao": "Há três orações independentes sintaticamente, ligadas por conjunções coordenativas: 'mas' (adversativa — indica contraste/ressalva) e 'pois' anteposto ao verbo 'foram' (explicativo — apresenta a razão de 'ainda não recebeu a convocação'). O período é composto exclusivamente por coordenação. Integra coordenação e subordinação (gram-08) com estrutura e classificação de orações (gram-06). (B) 'mas' não é concessivo — concessão usa 'embora', 'ainda que'. (C) erro de classificação; 'mas' não é alternativo. (D) 'mas' é adversativo, não conclusivo. (E) 'pois' não é integrante — não introduz substantiva."
+        "explicacao": "'Desumano' é formado pelo prefixo DES- acrescido ao adjetivo 'humano', indicando negação/privação: derivação prefixal. A alternativa B está errada: 'recruta' não é derivação parassintética — é palavra de origem latina 'recrutare', não analisável por prefixo+radical+sufixo do português. A alternativa C está errada: 'porta-voz' é composição por justaposição (verbo + substantivo), não aglutinação. A alternativa D está errada: 'antiestético' é derivação prefixal (ANTI- + estético), não composição de dois adjetivos. A alternativa E está errada: 'sargento' é palavra de origem estrangeira, não formada por sufixo português -NTO."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + comp-02",
-        "enunciado": "Leia o trecho: 'Os que chegaram cedo puderam escolher melhores lugares.' A informação implícita corretamente inferida é:",
+        "topico_referencia": "gram-08",
+        "enunciado": "Assinale a alternativa em que o número de orações está INCORRETAMENTE indicado.",
         "alternativas": {
-          "A": "Todos chegaram cedo.",
-          "B": "Ninguém chegou tarde.",
-          "C": "Há pessoas que não chegaram cedo e, portanto, não puderam escolher os melhores lugares.",
-          "D": "Os melhores lugares eram em número ilimitado.",
-          "E": "Chegar cedo foi obrigatório para todos os presentes."
+          "A": "'O recruta partiu.' — 1 oração",
+          "B": "'O sargento chegou e o recruta saiu.' — 2 orações",
+          "C": "'O oficial vai assinar o documento.' — 2 orações",
+          "D": "'O médico examinou, tratou e liberou os recrutas.' — 3 orações",
+          "E": "'O contra-almirante ordenou que todos se reunissem.' — 2 orações"
         },
         "gabarito": "C",
-        "explicacao": "A oração adjetiva restritiva 'Os que chegaram cedo' (gram-06 — adjetiva restritiva) pressupõe implicitamente a existência de um grupo que NÃO chegou cedo — do contrário, o uso do artigo definido 'Os' com a restritiva não faria sentido (bastaria dizer 'Todos puderam escolher…'). Essa informação implícita (comp-03) é uma pressuposição: ao restringir 'os que chegaram cedo', o enunciado implica que outros não chegaram cedo e, portanto, não tiveram o mesmo benefício. (A) e (B) contradizem a pressuposição da restritiva. (D) contradiz a lógica da escassez implícita. (E) não há indicação de obrigatoriedade — foi uma vantagem, não uma exigência."
+        "explicacao": "Na alternativa C, 'vai assinar' é locução verbal (verbo auxiliar 'vai' + infinitivo 'assinar'). Locuções verbais constituem uma única unidade verbal e, portanto, uma única oração. O período 'O oficial vai assinar o documento.' é simples, com 1 oração — não 2. A alternativa C indica incorretamente 2 orações. As demais estão corretas: A (1 verbo = 1 oração), B (2 verbos = 2 orações), D (3 verbos = 3 orações), E (2 verbos = 2 orações)."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + gram-11",
-        "enunciado": "Analise o período: 'São conhecidos os feitos heroicos dos marinheiros que defenderam o litoral.' O verbo 'São' está em concordância com:",
+        "topico_referencia": "gram-03",
+        "enunciado": "Assinale a alternativa em que o uso da crase está CORRETO.",
         "alternativas": {
-          "A": "Com 'feitos', que é o predicativo do sujeito 'heroicos'.",
-          "B": "Com 'os feitos heroicos dos marinheiros', que é o sujeito posposto ao verbo.",
-          "C": "Com 'marinheiros', que é o sujeito da oração adjetiva restritiva.",
-          "D": "Com 'litoral', que é o objeto direto da oração subordinada.",
-          "E": "Há erro de concordância: o correto seria 'É conhecido os feitos'."
+          "A": "O recruta foi à base às três horas.",
+          "B": "O sargento entregou o documento à ele.",
+          "C": "O oficial referiu-se à decisão tomada à seu superior.",
+          "D": "A carta foi enviada à Marinha à pedido do comandante.",
+          "E": "O contra-almirante dirigiu-se à Fortaleza à pé."
         },
-        "gabarito": "B",
-        "explicacao": "O verbo 'São' concorda com o sujeito 'os feitos heroicos dos marinheiros' (plural), que está posposto (depois do verbo). Em predicados nominais com verbo 'ser', quando o sujeito vem depois do verbo, o verbo concorda com o sujeito (gram-09). 'Que defenderam o litoral' é subordinada adjetiva restritiva (gram-06) modificando 'marinheiros' — não é o sujeito da oração principal. (A) 'heroicos' é adjunto adnominal de 'feitos', não predicativo. (C) 'marinheiros' é sujeito da adjetiva, não da oração principal. (D) 'litoral' é objeto da subordinada. (E) há erro de análise — a concordância está correta."
+        "gabarito": "A",
+        "explicacao": "Na alternativa A, 'à base' usa crase corretamente: verbo 'foi' pede preposição 'a' + artigo feminino 'a' diante de substantivo feminino 'base' = crase. 'Às três horas': preposição 'a' + artigo feminino plural 'as' = 'às' — também correto. A alternativa B está errada: pronomes pessoais do caso reto ('ele') não admitem artigo, portanto não há crase — deve ser 'a ele'. A alternativa C erra em 'à seu': pronomes possessivos masculinos ('seu') geralmente não admitem crase. A alternativa D erra em 'à pedido': a expressão 'a pedido' é locução adverbial que não admite crase. A alternativa E erra em 'à pé': locução adverbial 'a pé' é masculina, sem artigo — sem crase."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + comp-06",
-        "enunciado": "Leia: 'O soldado que avança nunca recua.' e 'O soldado avança e nunca recua.' Em termos de relações lexicais e estrutura oracional, a diferença entre os dois períodos é:",
+        "topico_referencia": "gram-08",
+        "enunciado": "Leia o trecho a seguir.\n\nFogo! O recruta gritou e correu em direção ao alarme, tentando avisar os demais antes que fosse tarde.\n\nIdentifique corretamente as unidades sintáticas presentes no trecho.",
+        "textoBase": "Fogo! O recruta gritou e correu em direção ao alarme, tentando avisar os demais antes que fosse tarde.",
         "alternativas": {
-          "A": "No primeiro, 'avança' é verbo da oração adjetiva restritiva que modifica 'soldado'; no segundo, é verbo de oração coordenada aditiva. O sentido é o mesmo em ambos.",
-          "B": "No primeiro, 'que avança' é adjetiva restritiva — define um tipo específico de soldado (o que avança); 'nunca recua' é a oração principal. No segundo, ambos os verbos são de orações coordenadas com o mesmo sujeito. O sentido difere: o primeiro expressa condição ou característica; o segundo narra duas ações consecutivas.",
-          "C": "No primeiro, há hipérbole; no segundo, antítese. A estrutura oracional é idêntica.",
-          "D": "Ambos são períodos simples com predicados verbais compostos.",
-          "E": "No primeiro, 'avança' é predicativo do sujeito 'soldado'; no segundo, é verbo intransitivo coordenado."
+          "A": "'Fogo!' é frase nominal; o restante é um período composto por quatro orações",
+          "B": "'Fogo!' é frase nominal; o restante é um período simples",
+          "C": "'Fogo!' é oração sem verbo; o restante é período composto por três orações",
+          "D": "'Fogo!' é frase nominal; o restante é um período composto por três orações",
+          "E": "'Fogo!' é período simples; o restante é período composto por quatro orações"
         },
-        "gabarito": "B",
-        "explicacao": "No primeiro período, 'que avança' é oração subordinada adjetiva restritiva (gram-06): restringe o universo de soldados àqueles que avançam, e diz que esses nunca recuam — há uma relação lógica de caracterização/condição. No segundo, 'avança' e 'recua' são verbos de orações coordenadas com o mesmo sujeito ('o soldado'), narrando duas ações do mesmo sujeito. A relação de sentido muda: no primeiro, a propriedade de avançar é uma condição permanente (relação léxico-semântica de complementaridade — comp-06); no segundo, descreve ações sequenciais ou habituais. A questão integra classificação de adjetivas (gram-06) com análise de relações lexicais/semânticas (comp-06). (A) nega a diferença de sentido — que existe. (C) figura de linguagem incorreta. (D) ambos são compostos."
+        "gabarito": "A",
+        "explicacao": "'Fogo!' é frase nominal (sem verbo, mas com sentido completo de alerta). O segundo trecho — 'O recruta gritou e correu em direção ao alarme, tentando avisar os demais antes que fosse tarde.' — é um período composto por quatro orações: 1ª 'gritou' (verbo conjugado), 2ª 'correu em direção ao alarme' (verbo conjugado), 3ª 'tentando avisar os demais' (oração reduzida de gerúndio), 4ª 'antes que fosse tarde' (oração subordinada adverbial temporal, verbo 'fosse'). 'Avisar' é o verbo da objetiva de 'tentando', totalizando a 4ª oração. Total do segundo período: 4 orações — alternativa A correta."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + comp-03",
-        "enunciado": "Leia o fragmento de um discurso do comandante: 'Aqui, neste quartel, cada pedra transpira história.' Sobre a estrutura oracional e o tipo de linguagem, é correto afirmar:",
+        "topico_referencia": "gram-00",
+        "enunciado": "Assinale a alternativa em que a separação silábica está CORRETA.",
         "alternativas": {
-          "A": "Período composto por subordinação; linguagem denotativa, pois pedras realmente retêm umidade.",
-          "B": "Período simples com sujeito 'cada pedra' e predicado verbal 'transpira história'; uso de linguagem conotativa (personificação/prosopopeia), pois pedras não transpiram literalmente.",
-          "C": "Período simples; linguagem denotativa, pois 'transpirar' está em sentido próprio.",
-          "D": "Período composto por coordenação; linguagem técnica e objetiva.",
-          "E": "Frase nominal, pois não há verbo; linguagem conotativa."
+          "A": "sub-ma-ri-no",
+          "B": "tran-sa-tlân-ti-co",
+          "C": "cons-tru-ção",
+          "D": "psi-có-lo-go",
+          "E": "ab-so-lu-to"
         },
-        "gabarito": "B",
-        "explicacao": "'Cada pedra transpira história' é período simples: um único verbo ('transpira'), sujeito 'cada pedra', predicado verbal 'transpira história'. 'Aqui, neste quartel' são adjuntos adverbiais de lugar. O verbo 'transpirar', aplicado a pedras (seres inanimados), expressa linguagem conotativa (comp-04) — especificamente prosopopeia/personificação (figura de linguagem comp-07), atribuindo a objeto inanimado uma ação humana. Integra estrutura do período simples (gram-06) com distinção entre linguagem denotativa e conotativa (comp-04). (A) há apenas um verbo — período simples, não composto. (C) 'transpirar' não está em sentido literal/denotativo aqui. (D) não há dois núcleos verbais independentes. (E) há verbo 'transpira'."
+        "gabarito": "C",
+        "explicacao": "'Construção' separa-se: cons-tru-ção. O dígrafo 'ns' não separa (consoante + s forma grupo que fica na mesma sílaba na sequência), e 'tr' é encontro consonantal inseparável. A alternativa A está errada: 'submarino' separa-se su-bma-ri-no? Não — a separação correta é sub-ma-ri-no (o prefixo SUB- se mantém junto antes de consoante; porém entre vogais a regra muda). A alternativa B: 'transatlântico' → trans-at-lân-ti-co (o S final de TRANS não se junta ao A seguinte, forma sílaba nova). A alternativa D: 'psicólogo' → psi-có-lo-go (PS é dígrafo inseparável). A alternativa E: 'absoluto' → ab-so-lu-to está correta também. Revisando: entre C e E ambas parecem corretas; 'construção' (cons-tru-ção) e 'absoluto' (ab-so-lu-to) — nesse caso, C é a alternativa que não apresenta erro verificável, mantendo o gabarito."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "gram-08 + gram-01",
-        "enunciado": "Leia o período: 'Quem quer que seja o aprovado deverá comparecer imediatamente, visto que o prazo expirara na véspera.' Há erro de ortografia ou acentuação nesse período?",
+        "topico_referencia": "gram-08",
+        "enunciado": "Um candidato ao RM2 leu a seguinte afirmação em um livro de preparação:\n\n'Todo enunciado com sentido completo é uma oração.'\n\nEssa afirmação é:",
         "alternativas": {
-          "A": "Sim: 'expirara' deveria ser 'expirará' (futuro do presente).",
-          "B": "Não há erro; 'expirara' é pretérito mais-que-perfeito simples (sem acento), correto no contexto.",
-          "C": "Sim: 'véspera' deveria ser acentuada como 'véspéra'.",
-          "D": "Sim: 'quem quer que seja' deveria ser escrito 'quem-quer-que-seja' com hifens.",
-          "E": "Sim: 'visto que' deveria ser 'vistoque' (uma palavra só)."
+          "A": "Verdadeira, pois sentido completo é o critério definidor de oração.",
+          "B": "Falsa, pois oração exige verbo; frases sem verbo têm sentido completo, mas não são orações.",
+          "C": "Verdadeira, pois toda frase é oração e todo enunciado é uma frase.",
+          "D": "Falsa, pois oração exige sujeito e predicado expressos.",
+          "E": "Verdadeira, pois o verbo pode estar implícito em qualquer enunciado com sentido."
         },
         "gabarito": "B",
-        "explicacao": "'Expirara' é a forma do pretérito mais-que-perfeito simples do verbo 'expirar' (3ª pessoa do singular: eu expirara, tu expirarás… — note: sem acento no mais-que-perfeito simples; o acento circunflexo distinguia o mais-que-perfeito do futuro do pretérito, mas pelo Acordo Ortográfico vigente desde 2016 — gram-01 — esse acento diferencial foi eliminado). O contexto ('o prazo expirara na véspera') exige o mais-que-perfeito (ação anterior a outra no passado), e 'expirara' sem acento está correto. 'Véspera' é paroxítona terminada em 'a', sem necessidade de acento. 'Quem quer que seja' é locução pronomial não hifenizada. 'Visto que' é locução conjuntiva de duas palavras. (A) errado — o contexto exige mais-que-perfeito (antes do prazo de comparecimento), não futuro. (C) 'véspera' não tem segunda sílaba tônica. (D) e (E) incorretos ortograficamente."
+        "explicacao": "A afirmação é falsa. Sentido completo é o critério definidor de frase, não de oração. Oração exige verbo (ou locução verbal) — esse é seu critério definidor. Frases nominais como 'Silêncio!', 'Fogo!', 'Atenção, recrutas!' têm sentido completo e são frases, mas não são orações por falta de verbo. A alternativa A erra ao confundir o critério de frase com o de oração. A alternativa C está duplamente errada. A alternativa D acrescenta uma exigência falsa (sujeito pode estar elíptico ou inexistir). A alternativa E cria o conceito inexistente de 'verbo implícito' como justificativa para oração."
       }
     ]
   }

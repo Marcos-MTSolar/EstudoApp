@@ -2,122 +2,184 @@
   "id": "comp-05",
   "titulo": "Ambiguidade e Polissemia",
   "area": "Compreensão e Interpretação de Texto",
-  "resumo": "Ambiguidade é a propriedade de um enunciado admitir mais de uma interpretação, gerando imprecisão comunicativa indesejada ou, em certos contextos, efeito estético intencional. Polissemia é a propriedade de uma palavra possuir múltiplos sentidos relacionados por extensão semântica, sendo fenômeno lexical que enriquece a língua. Distinguir os dois fenômenos, identificar as causas da ambiguidade, reconhecer seus usos intencionais e indesejados, e compreender a polissemia como recurso expressivo são competências essenciais para a prova RM2.",
+  "resumo": "Ambiguidade e polissemia são dois fenômenos que envolvem a multiplicidade de sentidos nas palavras e frases. A polissemia é natural da língua: uma mesma palavra carrega vários sentidos que o contexto ajuda a distinguir. Já a ambiguidade é um problema de construção: a frase admite mais de uma leitura porque algo na estrutura ficou mal resolvido. No CEBRASPE, as bancas exploram os dois fenômenos para testar se o candidato compreende o texto com precisão — e se sabe identificar quando uma frase está mal construída. Dominar esse conteúdo garante pontos em questões de interpretação e de reescritura.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Ambiguidade: conceito e natureza",
-        "conteudo": "A ambiguidade — também chamada de anfibologia — é o fenômeno pelo qual um enunciado, palavra ou construção sintática admite duas ou mais interpretações simultaneamente possíveis, sem que o contexto imediato permita determinar com segurança qual delas é a pretendida. Koch e Elias (2008) distinguem a ambiguidade como fenômeno não intencional, decorrente de falhas na construção do texto, do uso intencional da ambiguidade como recurso retórico ou estético. Fiorin e Savioli (2007) classificam a ambiguidade em dois grandes tipos: (a) Ambiguidade lexical — quando uma palavra isolada comporta dois ou mais sentidos possíveis no contexto dado, sem que se possa determinar qual prevalece; (b) Ambiguidade sintática (ou estrutural) — quando a organização das palavras na frase permite duas leituras gramaticalmente válidas. A ambiguidade é frequentemente considerada um defeito de redação, pois compromete a clareza e a precisão da comunicação. O Manual de Redação e Estilo da Marinha (2024) orienta que textos oficiais devem ser redigidos de forma inequívoca, evitando construções ambíguas que possam gerar interpretações divergentes e comprometer a eficácia das ordens ou comunicações institucionais. Contudo, em textos literários, publicitários e humorísticos, a ambiguidade pode ser um recurso expressivo deliberado.",
+        "subtitulo": "1. O que é polissemia?",
+        "conteudo": "Pense na palavra 'cabo'. Dependendo do contexto, ela pode significar uma corda, um cabo elétrico, uma ponta de terra que avança para o mar, ou até uma patente militar. A palavra é a mesma, mas os sentidos são diferentes. Isso é polissemia.\n\nPolissemia é a propriedade que uma única palavra tem de acumular vários sentidos ao longo do tempo. Esses sentidos se desenvolvem a partir de uma ideia central que foi se expandindo. O contexto — as palavras ao redor — resolve a polissemia: se estamos numa conversa naval sobre hierarquia, 'cabo' é patente; se estamos falando de um navio encalhado, pode ser a ponta de terra.\n\nIsso é completamente normal na língua. Toda língua viva tem polissemia. O problema surge quando o contexto não resolve a dúvida — aí entramos na ambiguidade.\n\nO erro mais comum é confundir polissemia com ambiguidade. Polissemia é uma característica da palavra isolada; ambiguidade é um defeito da frase construída.",
+        "regra": "Polissemia = palavra com vários sentidos (normal) · Contexto resolve · Ambiguidade = frase com sentidos que coexistem (problema)",
         "exemplos": [
-          "Ambiguidade lexical: 'Ele encontrou o banco na praça.' (banco = assento ou instituição financeira?)",
-          "Ambiguidade sintática: 'Vi o homem com o binóculo.' (Quem tem o binóculo — eu ou o homem?)",
-          "Ambiguidade intencional (publicidade): 'Nossas ofertas não têm fundo.' (sem fundo = ilimitadas / sem fundamento = absurdas — duplo sentido proposital)"
-        ],
-        "regra": "Identifique a ambiguidade perguntando: 'Esta construção admite duas leituras igualmente plausíveis no contexto?' Se sim, há ambiguidade. Classifique-a como lexical (palavra de duplo sentido) ou sintática (estrutura de dupla leitura)."
+          {
+            "texto_base": "O cabo responsável pela manobra confirmou que o cabo de aço estava íntegro antes da operação.",
+            "anotacoes": [
+              {
+                "trecho": "cabo responsável pela manobra",
+                "destaque": "polissemia: patente",
+                "motivo": "Aqui 'cabo' significa a patente militar — o contexto 'manobra' e 'responsável' indicam pessoa"
+              },
+              {
+                "trecho": "cabo de aço",
+                "destaque": "polissemia: corda/fio",
+                "motivo": "Aqui 'cabo' significa fio ou corda metálica — o contexto 'aço' e 'íntegro' indicam objeto material"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "2. Tipos de ambiguidade: lexical e sintática",
-        "conteudo": "A ambiguidade lexical ocorre quando uma palavra admite dois sentidos distintos no mesmo contexto sem que o texto forneça elementos suficientes para determinar qual prevalece. Isso ocorre por: (a) homonímia — palavras de grafia/pronúncia iguais mas origem e sentidos diferentes (ex: 'são' = são/estão vs. são = sadio); (b) polissemia contextual — quando os múltiplos sentidos de uma palavra polissêmica ficam igualmente plausíveis no contexto (ex: 'cabo' em texto militar: posto hierárquico ou extremidade geográfica?). A ambiguidade sintática decorre da organização da frase e subdivide-se em: (a) Ambiguidade por adjunção — quando um adjunto adnominal ou adverbial pode ser relacionado a mais de um elemento da oração ('Ela pintou a menina feliz' — quem é feliz, ela ou a menina?); (b) Ambiguidade por referência pronominal — quando um pronome pode retomar mais de um antecedente ('O capitão falou com o sargento quando ele chegou' — quem chegou?); (c) Ambiguidade por escopo de negação — quando não fica claro o que está sendo negado ('Não o repreendeu com dureza' — não o repreendeu / o repreendeu sem dureza?); (d) Ambiguidade por pontuação deficiente — quando a ausência ou o uso inadequado de vírgulas cria duas leituras ('Os alunos que estudaram passaram' vs. 'Os alunos, que estudaram, passaram'). Fiorin e Savioli (2007) acrescentam a ambiguidade por relação inadequada entre termos: orações adjetivas ou adverbiais mal posicionadas que podem ser associadas a diferentes partes da frase.",
+        "subtitulo": "2. O que é ambiguidade?",
+        "conteudo": "Imagine que você lê numa ordem de serviço: 'O sargento informou o recruta que ele seria promovido.' Quem vai ser promovido — o sargento ou o recruta? A frase não diz. Esse duplo sentido que não se resolve é ambiguidade.\n\nAmbiguidade é quando uma frase admite duas ou mais interpretações e o contexto não é suficiente para escolher uma. Diferente da polissemia (que envolve a palavra), a ambiguidade é um problema de construção da frase — de sintaxe, de pronome mal colocado, de adjunto mal posicionado.\n\nA ambiguidade pode ser de três tipos principais: (1) lexical — uma palavra com dois sentidos igualmente possíveis no contexto; (2) sintática — a estrutura da frase permite duas leituras; (3) referencial — um pronome que pode se referir a dois elementos diferentes.\n\nNo cotidiano passamos pela ambiguidade sem perceber porque usamos entonação, gesto e contexto amplo. No texto escrito, ela é um defeito que a banca CEBRASPE usa para testar o candidato.",
+        "regra": "Ambiguidade = frase com 2+ leituras sem resolução · Tipos: lexical / sintática / referencial · Contexto NÃO resolve",
         "exemplos": [
-          "Referência pronominal: 'O comandante ordenou ao oficial que apresentasse seu relatório.' (o relatório é do comandante ou do oficial?)",
-          "Adjunção: 'O militar recebeu o prêmio contente.' (o militar ou o prêmio é contente?)",
-          "Escopo de negação: 'Todos os candidatos não foram aprovados.' (nenhum foi aprovado / nem todos foram aprovados?)"
-        ],
-        "regra": "Para identificar o tipo de ambiguidade: se a palavra em si tem dois sentidos → lexical; se a estrutura da frase permite dois arranjos de relações entre os termos → sintática. A maioria das questões de prova cobra ambiguidade sintática por referência pronominal."
+          {
+            "texto_base": "O oficial repreendeu o soldado porque ele havia chegado atrasado ao quartel.",
+            "anotacoes": [
+              {
+                "trecho": "ele havia chegado atrasado",
+                "destaque": "ambig. referencial",
+                "motivo": "'Ele' pode se referir ao oficial ou ao soldado — a frase não resolve quem chegou atrasado"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "3. Polissemia: conceito, mecanismos e distinção de homonímia",
-        "conteudo": "A polissemia é o fenômeno pelo qual uma única palavra — com uma única origem etimológica — desenvolve, ao longo do uso histórico da língua, múltiplos sentidos relacionados entre si por extensão semântica, metáfora, metonímia ou especialização de uso. Cunha e Cintra (2017) definem polissemia como a multiplicidade de significados que uma palavra pode apresentar, conservando uma relação semântica entre eles. Fiorin e Savioli (2007) distinguem polissemia de homonímia: na polissemia, os sentidos têm origem comum e guardam relação semântica ('pé' de mesa / 'pé' humano / 'pé' de alface — todos derivam da ideia de base, suporte inferior); na homonímia, as palavras têm origens distintas e sentidos sem relação semântica ('banco' = assento, do germânico 'bank'; 'banco' = instituição financeira, do italiano 'banco' de câmbio — coincidência de forma, não de origem). Mecanismos de extensão polissêmica: (a) Metáfora: extensão por semelhança ('dente' de engrenagem — semelhança de forma com dente humano); (b) Metonímia: extensão por contiguidade ('beber um copo' — o copo pelo conteúdo); (c) Especialização: sentido geral restringido a domínio específico ('operação' em medicina vs. linguagem comum); (d) Generalização: sentido específico ampliado ('aparelho' = dispositivo mecânico → dispositivo qualquer → aparelho digestivo). Koch e Elias (2008) ressaltam que a polissemia é fundamental para a economia linguística e para a criatividade: o mesmo vocábulo circula por múltiplos domínios sem necessidade de criar palavras novas a cada novo sentido.",
+        "subtitulo": "3. Tipos de ambiguidade com exemplos",
+        "conteudo": "Para identificar a ambiguidade na prova, você precisa reconhecer os três tipos. Pense assim: a origem do problema muda, mas o resultado é sempre o mesmo — a frase diz duas coisas ao mesmo tempo.\n\nAmbiguidade lexical: ocorre quando uma palavra tem dois sentidos igualmente possíveis naquele contexto. Exemplo: 'O militar usava uma arma carregada.' A palavra 'carregada' pode significar 'com munição' ou 'pesada demais para carregar'. O contexto não fecha uma leitura.\n\nAmbiguidade sintática: ocorre quando a posição de um elemento na frase permite que ele se ligue a duas partes diferentes. Exemplo: 'Vi o tenente com o binóculo.' Quem estava com o binóculo — eu ou o tenente? A posição do adjunto cria as duas leituras.\n\nAmbiguidade referencial: ocorre quando um pronome (ele, ela, seu, lhe) pode se referir a dois elementos diferentes na frase. É a mais comum nas questões CEBRASPE e também a mais sutil.\n\nO erro mais comum é ignorar a ambiguidade referencial porque 'o contexto' parece óbvio — na prova, o contexto é intencional para enganar.",
+        "regra": "Lexical = palavra com 2 sentidos · Sintática = posição do adjunto · Referencial = pronome com 2 antecedentes",
         "exemplos": [
-          "Polissemia de 'cabeça': cabeça humana / cabeça de gado / cabeça de alho / cabeça de lista — todos relacionados à ideia de parte superior, principal ou contável.",
-          "Polissemia de 'linha': linha de costura / linha telefônica / linha de raciocínio / linha de produção — extensão a partir da ideia de fio/traço contínuo.",
-          "Homonímia (não polissemia): 'manga' (fruta, origem tupi) ≠ 'manga' (parte da camisa, do latim 'manica') — origens e sentidos sem relação."
-        ],
-        "regra": "Para distinguir polissemia de homonímia: os sentidos têm relação semântica entre si? → polissemia. Os sentidos são completamente independentes, de origens distintas? → homonímia. Na prova, se a questão perguntar sobre 'polissemia', verifique sempre se há relação semântica entre os sentidos apresentados."
+          {
+            "texto_base": "O comandante avistou o recruta com o binóculo e determinou que seu relatório fosse entregue até o anoitecer.",
+            "anotacoes": [
+              {
+                "trecho": "avistou o recruta com o binóculo",
+                "destaque": "ambig. sintática",
+                "motivo": "'Com o binóculo' pode indicar quem usava o binóculo: o comandante ou o recruta — duas leituras válidas"
+              },
+              {
+                "trecho": "seu relatório",
+                "destaque": "ambig. referencial",
+                "motivo": "'Seu' pode se referir ao comandante ou ao recruta — não é possível saber de quem é o relatório"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "4. Ambiguidade intencional versus indesejada: usos na língua",
-        "conteudo": "A ambiguidade pode ser fenômeno indesejado ou recurso deliberado, dependendo do contexto comunicativo e do propósito do autor (comp-02). Koch e Elias (2008) classificam os usos da ambiguidade em: (a) Ambiguidade indesejada (defeito de redação): ocorre em textos informativos, oficiais, técnicos e científicos, onde a clareza é imperativa. Compromete a eficácia comunicativa, gera mal-entendidos e, em contextos militares e jurídicos, pode ter consequências graves. (b) Ambiguidade intencional (recurso expressivo): ocorre em textos literários, publicitários, humorísticos e poéticos, onde o duplo sentido produz efeito estético, cômico, crítico ou reflexivo. Fiorin e Savioli (2007) apontam que trocadilhos, jogos de palavras e ironias muitas vezes dependem da ambiguidade para funcionar. A ambiguidade intencional em textos literários é chamada de plurissignificação ou polissignificação — propriedade do texto literário de concentrar múltiplos sentidos sem que um deles cancele os outros. No contexto das provas militares, o candidato deve: (1) Identificar ambiguidades indesejadas em textos e apontar sua causa; (2) Reconhecer ambiguidades intencionais em textos literários ou publicitários e interpretar seus efeitos; (3) Corrigir ambiguidades em exercícios de reescritura (ver gram-13). O Manual de Redação e Estilo da Marinha (2024) é taxativo: a anfibologia é um dos vícios de linguagem que o redator militar deve eliminar sistematicamente dos documentos oficiais.",
+        "subtitulo": "4. Como eliminar a ambiguidade",
+        "conteudo": "Saber identificar a ambiguidade é metade do caminho; a outra metade é saber corrigi-la. O CEBRASPE frequentemente pede que o candidato aponte a versão reescrita que elimina o duplo sentido.\n\nPara eliminar a ambiguidade referencial, o recurso mais simples é substituir o pronome pelo nome do referente. Em vez de 'O oficial informou o sargento que ele seria transferido', escreva 'O oficial informou o sargento que este seria transferido' (ou 'que o sargento seria transferido').\n\nPara eliminar a ambiguidade sintática, reposicione o adjunto adverbial ou transforme a oração. Em vez de 'Vi o tenente com o binóculo', escreva 'Com o binóculo, vi o tenente' (se fui eu quem usou) ou 'Vi o tenente que usava o binóculo' (se foi ele).\n\nPara eliminar a ambiguidade lexical, troque a palavra por uma de sentido único no contexto ou acrescente um adjunto que feche a leitura.\n\nO erro mais comum nas questões de reescritura é 'eliminar' a ambiguidade criando outro problema — verifique se a frase corrigida é de fato clara.",
+        "regra": "Referencial → substitua o pronome pelo nome · Sintática → reposicione o adjunto · Lexical → troque ou especifique a palavra",
         "exemplos": [
-          "Ambiguidade indesejada (a corrigir): 'O oficial informou ao soldado que havia errado.' → correto: 'O oficial informou ao soldado que ele (o soldado) havia errado.'",
-          "Ambiguidade intencional (trocadilho): 'Dentista de confiança: sempre tira sarro.' (sarro = tártaro dental / sarro = gozação)",
-          "Ambiguidade intencional (literatura): 'Amor é fogo que arde sem se ver' (Camões) — joga com a impossibilidade de ver o fogo do amor e a impossibilidade de ver o amado."
-        ],
-        "regra": "Ao encontrar uma ambiguidade na prova: (1) identifique o gênero do texto; (2) se for texto oficial/técnico → ambiguidade indesejada (defeito); (3) se for texto literário/publicitário/humorístico → pode ser recurso intencional; (4) a questão geralmente pede qual das alternativas ELIMINA a ambiguidade (reescritura) ou qual IDENTIFICA o efeito de sentido do duplo sentido intencional."
+          {
+            "texto_base": "O sargento comunicou ao recruta que ele precisaria refazer o exercício. Reescrevendo: O sargento comunicou ao recruta que este precisaria refazer o exercício.",
+            "anotacoes": [
+              {
+                "trecho": "ele precisaria refazer",
+                "destaque": "ambig. original",
+                "motivo": "'Ele' admitia duas leituras: o sargento ou o recruta — pronome ambíguo"
+              },
+              {
+                "trecho": "este precisaria refazer",
+                "destaque": "ambig. eliminada",
+                "motivo": "'Este' retoma o elemento mais próximo — o recruta — eliminando a dupla leitura"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "5. Polissemia como recurso expressivo e sua relação com figuras de linguagem",
-        "conteudo": "A polissemia está na base de diversas figuras de linguagem (comp-07). Fiorin e Savioli (2007) demonstram que a maioria das figuras semânticas exploram a multiplicidade de sentidos das palavras: (a) Metáfora: utiliza um sentido polissêmico por semelhança para criar imagem — 'O atleta é uma locomotiva' explora o sentido de força/velocidade de 'locomotiva'; (b) Metonímia: utiliza relação de contiguidade entre sentidos — 'Ler Machado de Assis' (nome do autor pelo conjunto da obra); (c) Antonomásia/perífrases: substituição do nome por uma de suas qualidades polissêmicas — 'O Poeta dos Escravos' por Castro Alves; (d) Trocadilho/paronomásia: exploração de semelhanças sonoras associadas à polissemia. Koch e Elias (2008) afirmam que a compreensão proficiente do texto literário exige que o leitor ative os múltiplos sentidos polissêmicos das palavras, sem reduzir o texto a um único sentido literal. A polissemia também é responsável pela ampliação semântica de termos técnicos: em linguagem militar, 'operação' tem sentido técnico-especializado diferente do uso comum; em Engenharia Elétrica (área do concurso RM2), 'carga', 'circuito', 'campo' e 'tensão' são exemplos de termos polissêmicos com sentido especializado distinto do cotidiano. Cunha e Cintra (2017) lembram que o contexto é o principal desambiguador: na comunicação eficiente, o contexto seleciona o sentido relevante da palavra polissêmica, eliminando os sentidos irrelevantes.",
+        "subtitulo": "5. Polissemia e metáfora no texto militar",
+        "conteudo": "Em textos formais, inclusive militares, as palavras polissêmicas aparecem com frequência — e o candidato precisa identificar o sentido correto no contexto. Além disso, a linguagem militar usa metáforas cristalizadas que também são expressões polissêmicas: 'campo minado', 'linha de frente', 'terreno inimigo' podem aparecer em sentido literal ou figurado.\n\nA distinção entre sentido denotativo (literal) e conotativo (figurado) está diretamente ligada à polissemia. Quando um texto diz que 'a negociação estava num terreno minado', usa polissemia com valor metafórico — 'terreno minado' não se refere a explosivos reais, mas a uma situação perigosa.\n\nPara a prova, a habilidade pedida é sempre a mesma: identifique o sentido que o contexto autoriza. Nunca leia a palavra no vácuo — sempre no conjunto da frase e do parágrafo.\n\nO erro mais comum é interpretar uma metáfora cristalizada ao pé da letra, marcando como sentido denotativo o que na frase é claramente conotativo.",
+        "regra": "Polissemia no texto = contexto autoriza o sentido · Metáfora cristalizada = sentido conotativo · Leia sempre no conjunto",
         "exemplos": [
-          "Polissemia em figura de linguagem: 'Ele carregava o peso do mundo.' — 'peso' é polissêmico; aqui usado em sentido figurado (responsabilidade) pelo mecanismo da metáfora.",
-          "Polissemia técnica vs. comum: 'tensão' — tensão muscular (biológico) / tensão nervosa (psicológico) / tensão elétrica em volts (engenharia) / tensão narrativa (literatura).",
-          "Desambiguação pelo contexto: 'O banco estava cheio de pessoas' → contexto de rua → assento público; 'O banco estava cheio de clientes' → contexto financeiro → instituição bancária."
-        ],
-        "regra": "Ao analisar polissemia em questão de prova: identifique a palavra polissêmica → liste os sentidos possíveis → use o contexto para selecionar o sentido ativo → verifique se há intenção expressiva (figura de linguagem) no uso do sentido não literal."
+          {
+            "texto_base": "O almirante alertou que as negociações com a força rival estavam num terreno minado, exigindo cautela redobrada dos negociadores.",
+            "anotacoes": [
+              {
+                "trecho": "terreno minado",
+                "destaque": "polissemia conotativa",
+                "motivo": "No contexto de negociações diplomáticas, 'terreno minado' significa situação perigosa — sentido figurado, não literal"
+              },
+              {
+                "trecho": "força rival",
+                "destaque": "polissemia contextual",
+                "motivo": "'Força' aqui significa poder ou entidade adversária — não força física; o contexto político fecha o sentido"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "6. Estratégias para identificar e eliminar ambiguidade na prova",
-        "conteudo": "Questões de ambiguidade no concurso RM2 geralmente seguem um dos seguintes formatos: (a) Identificação: 'O trecho é ambíguo porque...'; (b) Reescritura: 'Assinale a alternativa que elimina a ambiguidade do trecho'; (c) Efeito de sentido: 'O duplo sentido do título produz o efeito de...'; (d) Classificação: 'A ambiguidade do trecho é de natureza lexical/sintática porque...'. Estratégias para eliminar ambiguidades: (1) Substituição pronominal: trocar o pronome ambíguo por um substantivo específico; (2) Reorganização sintática: reposicionar o adjunto ou oração para que fique junto ao termo ao qual se refere; (3) Pontuação: usar vírgulas para delimitar o escopo do modificador; (4) Explicitação: acrescentar um elemento que torne a referência inequívoca; (5) Substituição lexical: trocar a palavra polissêmica por sinônimo de sentido único no contexto. Koch e Elias (2008) alertam que a correção da ambiguidade não deve alterar o sentido original da frase, apenas torná-lo inequívoco. O Manual de Redação e Estilo da Marinha (2024) prescreve o uso de frases curtas e sujeito, verbo e complemento próximos entre si como estratégia preventiva contra ambiguidades sintáticas. Fiorin e Savioli (2007) acrescentam que a clareza é condição de adequação comunicativa: um texto claro não apenas informa — ele impede interpretações alternativas que possam desviar o leitor do propósito do autor.",
+        "subtitulo": "6. Ambiguidade nas questões CEBRASPE",
+        "conteudo": "O CEBRASPE tem uma forma característica de explorar ambiguidade e polissemia. Nas questões de interpretação, a banca apresenta um texto e pede que o candidato julgue se determinada paráfrase 'mantém o sentido original'. Quando a paráfrase troca uma palavra polissêmica por outra de sentido diferente, ela altera o sentido — e a afirmação está errada.\n\nNas questões de gramática, a banca pode apresentar uma frase ambígua e pedir que o candidato identifique qual reescritura elimina a ambiguidade sem alterar o sentido. A pegadinha clássica é a alternativa que elimina a ambiguidade mas muda o significado da frase.\n\nOutra forma clássica: a banca apresenta uma frase e afirma que ela 'admite apenas uma leitura'. Se a frase for ambígua, a afirmação está errada — o candidato deve marcar ERRADO.\n\nO erro mais comum é não reler a frase tentando encontrar a segunda leitura. Sempre pergunte: 'Existe outro jeito de interpretar isso?'",
+        "regra": "Paráfrase com polissemia = verifique se o sentido foi mantido · Frase ambígua ≠ 'admite só uma leitura' · Sempre busque a 2ª leitura",
         "exemplos": [
-          "Ambíguo: 'O sargento prendeu o suspeito com sua arma.' → Sem ambiguidade: 'O sargento, usando sua arma, prendeu o suspeito.' ou 'O sargento prendeu o suspeito que estava armado.'",
-          "Ambíguo: 'Visitei o museu com meu primo que é enorme.' → Sem ambiguidade: 'Visitei o enorme museu com meu primo.'",
-          "Ambíguo (referência pronominal): 'Ana falou com Maria quando ela chegou.' → Sem ambiguidade: 'Ana falou com Maria quando Ana chegou.' ou 'Ana falou com Maria quando Maria chegou.'"
-        ],
-        "regra": "Sequência para resolver questões de eliminação de ambiguidade: (1) identifique a causa da ambiguidade (pronome, adjunto, escopo de negação, palavra polissêmica); (2) determine os dois sentidos possíveis; (3) avalie qual alternativa elimina um dos sentidos mantendo o outro e sem alterar o sentido essencial; (4) verifique se a alternativa não introduz um novo erro gramatical."
+          {
+            "texto_base": "O relatório do tenente sobre o incidente foi encaminhado ao Comando. Paráfrase: O tenente encaminhou o relatório acerca do incidente ao Comando.",
+            "anotacoes": [
+              {
+                "trecho": "relatório do tenente sobre o incidente",
+                "destaque": "polissemia: posse ou autoria?",
+                "motivo": "'Do tenente' pode indicar que o tenente é o autor do relatório ou que o relatório fala sobre o tenente — a paráfrase escolhe uma leitura, podendo alterar o sentido original"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Confundir polissemia com homonímia",
-      "errado": "As palavras 'banco' (assento) e 'banco' (instituição financeira) são exemplos de polissemia, pois têm a mesma grafia.",
-      "correto": "'Banco' (assento) e 'banco' (instituição financeira) são exemplos de homonímia, pois têm origens etimológicas distintas e sentidos sem relação semântica entre si.",
-      "explicacao": "A distinção entre polissemia e homonímia não está na grafia, mas na origem e na relação semântica. Polissemia: uma palavra com origem única e sentidos relacionados por extensão. Homonímia: palavras de origens distintas que coincidem em forma. 'Banco' (assento) vem do germânico; 'banco' (financeiro) vem do italiano — homonímia. Já 'cabeça' (do corpo), 'cabeça' (de alho), 'cabeça' (de lista) vêm todos do latim 'caput' e compartilham a ideia de 'parte superior/principal' — polissemia.",
+      "titulo": "Polissemia não é ambiguidade",
+      "errado": "A palavra 'banco' é ambígua na frase 'Fui ao banco ontem'.",
+      "correto": "A palavra 'banco' é polissêmica, mas, nessa frase, o contexto resolve o sentido (instituição financeira ou assento).",
+      "explicacao": "Dizer que a palavra é 'ambígua' implica que a frase admite dois sentidos sem resolução. Mas polissemia não é ambiguidade: a polissemia é uma propriedade da palavra, e o contexto normalmente resolve. Se 'fui ao banco ontem' aparece num texto sobre finanças, o sentido de instituição financeira é o autorizado. Só haveria ambiguidade se o contexto não fechasse nenhuma leitura.",
       "nivel": "basico"
     },
     {
-      "titulo": "Classificar toda ambiguidade como lexical",
-      "errado": "Em 'Vi o comandante na janela com o binóculo', a ambiguidade é lexical porque 'binóculo' pode ter dois sentidos.",
-      "correto": "A ambiguidade é sintática (estrutural): 'com o binóculo' é adjunto que pode ser relacionado tanto a 'vi' (eu observei com binóculo) quanto a 'comandante' (o comandante estava com binóculo). 'Binóculo' não é ambíguo; a estrutura da frase é.",
-      "explicacao": "Ambiguidade lexical ocorre quando a palavra em si tem dois sentidos. Ambiguidade sintática ocorre quando a posição ou relação entre os termos da oração permite duas leituras gramaticais distintas. Neste exemplo, 'com o binóculo' (adjunto adverbial de instrumento ou adjunto adnominal de 'comandante') é o elemento que cria a dupla leitura pela sua posição intermediária na frase.",
+      "titulo": "Pronome ambíguo x pronome claro",
+      "errado": "Na frase 'O oficial elogiou o soldado porque ele foi corajoso', fica claro que 'ele' se refere ao soldado.",
+      "correto": "Na frase 'O oficial elogiou o soldado porque ele foi corajoso', 'ele' é ambíguo — pode retomar tanto o oficial quanto o soldado.",
+      "explicacao": "Mesmo parecendo 'óbvio' pelo senso comum que foi o soldado quem foi corajoso, a gramática não autoriza essa leitura única. O pronome 'ele' tem dois antecedentes possíveis na frase (o oficial e o soldado), o que caracteriza ambiguidade referencial. A banca CEBRASPE vai afirmar que a referência é clara — e a resposta correta é ERRADO.",
       "nivel": "basico"
     },
     {
-      "titulo": "Marcar como ambígua uma frase com palavra polissêmica contextualmente determinada",
-      "errado": "'O cirurgião realizou uma operação delicada ontem.' — Este trecho é ambíguo porque 'operação' é palavra polissêmica.",
-      "correto": "O trecho NÃO é ambíguo. Embora 'operação' seja polissêmica (cirúrgica, militar, matemática, financeira), o contexto ('cirurgião', 'delicada') determina inequivocamente o sentido cirúrgico. Polissemia não implica automaticamente ambiguidade.",
-      "explicacao": "Polissemia é uma propriedade do léxico (a palavra tem múltiplos sentidos); ambiguidade é uma propriedade do enunciado (o contexto não resolve qual sentido é o correto). Uma palavra polissêmica gera ambiguidade apenas quando o contexto não é suficiente para selecionar o sentido pretendido. O contexto é o desambiguador natural da polissemia.",
+      "titulo": "Adjunto ambíguo como eliminação de ambiguidade",
+      "errado": "A reescritura 'O sargento viu o recruta usando o binóculo' elimina a ambiguidade de 'O sargento viu o recruta com o binóculo'.",
+      "correto": "A reescritura 'O sargento, usando o binóculo, viu o recruta' elimina a ambiguidade ao deixar claro quem usava o binóculo.",
+      "explicacao": "A frase 'O sargento viu o recruta usando o binóculo' ainda é ambígua: o particípio 'usando' pode se referir tanto ao sargento quanto ao recruta. A reescritura correta deve posicionar o adjunto de modo inequívoco — aproximando-o do sujeito que realmente o usa. A alternativa errada é uma armadilha clássica do CEBRASPE: parece resolver, mas não resolve.",
       "nivel": "intermediario"
     },
     {
-      "titulo": "Considerar que a ambiguidade sempre é um defeito",
-      "errado": "O título de jornal 'Polícia prende ladrões com armas' é um exemplo de redação deficiente que deve ser corrigida eliminando a ambiguidade.",
-      "correto": "Embora a frase seja estruturalmente ambígua (a polícia ou os ladrões têm as armas?), em contextos literários, publicitários ou humorísticos a ambiguidade pode ser recurso intencional. Em título jornalístico, contudo, configura defeito de redação a ser corrigido: 'Polícia, armada, prende ladrões' ou 'Polícia prende ladrões armados'.",
-      "explicacao": "A avaliação da ambiguidade depende do contexto: em textos oficiais, técnicos e jornalísticos → defeito. Em textos literários, publicitários, humorísticos → pode ser recurso expressivo. A prova pode apresentar os dois casos; o candidato deve identificar o contexto antes de classificar.",
-      "nivel": "avancado"
+      "titulo": "Sentido polissêmico em paráfrase",
+      "errado": "A paráfrase de 'O projeto foi engavetado pelo Comando' por 'O projeto foi aprovado pelo Comando' mantém o sentido do original.",
+      "correto": "A paráfrase correta seria 'O projeto foi arquivado (ou descartado) pelo Comando', pois 'engavetar' significa guardar sem dar andamento.",
+      "explicacao": "O verbo 'engavetar' é polissêmico no português coloquial, mas no contexto burocrático tem sentido estabilizado: deixar numa gaveta sem dar andamento, ou seja, arquivar, abandonar. A paráfrase por 'aprovado' inverte completamente o sentido. Nas questões de interpretação, sempre verifique se a palavra polissêmica foi parafraseada com o sentido correto para o contexto.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Confundir ambiguidade com vagueza",
-      "errado": "A frase 'Ele chegou tarde' é ambígua porque não se sabe quem é 'ele' nem quão tarde chegou.",
-      "correto": "A frase apresenta vagueza (imprecisão quanto ao referente 'ele' e ao grau de 'tarde'), não ambiguidade. Ambiguidade exige duas interpretações igualmente plausíveis e distintas; vagueza é imprecisão que não gera leituras múltiplas definidas.",
-      "explicacao": "Vagueza é imprecisão semântica: a frase tem um sentido, mas ele é indefinido ou impreciso. Ambiguidade é bidimensionalidade interpretativa: a frase tem dois sentidos distintos e igualmente possíveis. 'Ele chegou tarde' é vaga (quem? quão tarde?), mas não dá origem a dois sentidos diferentes — o sentido é único, apenas impreciso. Já 'Ele viu o policial com binóculos' é ambígua: dois sentidos distintos e completos.",
+      "titulo": "Ambiguidade semântica por modificador de escopo",
+      "errado": "A frase 'Quase todos os oficiais foram promovidos' significa que nenhum oficial foi promovido.",
+      "correto": "A frase 'Quase todos os oficiais foram promovidos' significa que a maioria dos oficiais foi promovida, mas não todos.",
+      "explicacao": "O advérbio 'quase' modifica o quantificador 'todos', e não o verbo 'foram promovidos'. Isso é ambiguidade de escopo: o candidato pode ler 'quase todos' como aproximação positiva (quase a totalidade) ou tentar ler 'quase promovidos' (ninguém foi). A leitura correta é que o 'quase' recai sobre 'todos' — ou seja, a maioria foi promovida. Esse tipo de questão testa o conhecimento do escopo dos advérbios.",
       "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "A questão pede para identificar a ambiguidade de um trecho e o candidato confunde a causa da ambiguidade com o conteúdo da frase. Por exemplo: 'O médico tratou o paciente com cuidado especial' — o candidato identifica 'cuidado especial' como ambíguo, quando a frase não é ambígua; o adjetivo 'especial' qualifica 'cuidado' de forma inequívoca.",
-      "dica": "Antes de marcar uma frase como ambígua, formule mentalmente as duas leituras completas e distintas. Se conseguir formular duas interpretações igualmente plausíveis e claramente diferentes, há ambiguidade. Se apenas uma leitura faz sentido no contexto, a frase é inequívoca — mesmo que contenha palavras polissêmicas.",
+      "situacao": "Confundir homonímia com polissemia ao analisar palavras em contexto.",
+      "dica": "Homonímia e polissemia são fenômenos distintos. Na homonímia, duas palavras diferentes convergem para a mesma forma (como 'são' = verbo ser / 'são' = saudável / 'são' = título santo) — não há relação de sentido entre elas. Na polissemia, a mesma palavra acumula sentidos ligados entre si por extensão metafórica ou metonímica. Para a prova, o que importa é identificar que a palavra tem mais de um sentido e que o contexto define qual vale. Não se perca tentando classificar se é homonímia ou polissemia — foque em qual sentido o texto autoriza.",
       "nivel": "basico"
     },
     {
-      "situacao": "A questão apresenta quatro alternativas de reescritura de uma frase ambígua e o candidato marca aquela que elimina a ambiguidade mas introduz um novo erro gramatical (concordância, regência, crase) ou altera o sentido original da frase.",
-      "dica": "Ao avaliar alternativas de reescritura: (1) verifique se a ambiguidade foi eliminada; (2) verifique se o sentido original foi preservado; (3) verifique se não há novo erro gramatical. Só a alternativa que satisfaz os três critérios simultaneamente é a correta. Uma frase sem ambiguidade, mas com erro de concordância, é errada.",
+      "situacao": "Aceitar que a 'leitura mais lógica' elimina a ambiguidade de uma frase.",
+      "dica": "O CEBRASPE frequentemente afirma que determinada leitura é 'a única possível' para uma frase ambígua. Não aceite isso sem verificar. Mesmo que uma leitura pareça mais natural, se a gramática permite outra, a frase é ambígua e a afirmação está errada. Treine o hábito de sempre procurar a segunda leitura de qualquer frase — pergunte: 'quem fez o quê? a quem? com quê?' para cada elemento da oração.",
       "nivel": "intermediario"
     },
     {
-      "situacao": "A questão apresenta um texto literário ou publicitário com duplo sentido e pergunta 'qual alternativa melhor descreve o efeito de sentido produzido pela ambiguidade'. O candidato, por considerar que a ambiguidade é sempre defeito, marca a alternativa que diz 'o texto é mal redigido' em vez de identificar o efeito expressivo intencional.",
-      "dica": "Em textos literários, publicitários e humorísticos, a ambiguidade é recurso expressivo. Quando a questão perguntar sobre o 'efeito' ou o 'sentido' da ambiguidade nesses contextos, procure a alternativa que descreve o efeito criativo: humor, ironia, crítica velada, dupla interpretação enriquecedora. Nunca classifique a ambiguidade intencional como 'defeito de redação'.",
+      "situacao": "Identificar como eliminação de ambiguidade uma reescritura que muda o sentido.",
+      "dica": "Nas questões de reescritura, a armadilha mais perigosa é a alternativa que elimina a ambiguidade mas altera o sentido original. Por exemplo, se a frase é 'O general cumprimentou o coronel quando ele chegou', uma reescritura válida deve manter o mesmo sentido e apenas fechar quem chegou. Se a reescritura diz 'O general, ao chegar, cumprimentou o coronel', ela elimina a ambiguidade — mas escolheu o sentido de que foi o general quem chegou. Se o texto original não autoriza essa leitura, a reescritura está errada. Sempre compare o sentido final, não apenas a clareza estrutural.",
       "nivel": "avancado"
     }
   ],
@@ -125,745 +187,641 @@
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "A frase 'Comprei um livro de João.' é ambígua porque:",
+      "enunciado": "Polissemia é o fenômeno pelo qual uma única palavra acumula vários sentidos que se desenvolvem a partir de uma ideia central, sendo o contexto o principal recurso para determinar qual sentido está em uso.",
       "alternativas": {
-        "A": "A palavra 'livro' tem mais de um sentido.",
-        "B": "A preposição 'de' pode indicar tanto autoria (livro escrito por João) quanto posse (livro pertencente a João).",
-        "C": "O verbo 'comprei' admite dois sujeitos diferentes.",
-        "D": "A frase não tem objeto direto.",
-        "E": "O nome 'João' é polissêmico."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B é correta. A ambiguidade é lexical, causada pela preposição 'de', que pode indicar: (1) autoria — 'livro de João' = livro escrito por João; (2) posse — 'livro de João' = livro que pertence a João. A — incorreta: 'livro' não é ambíguo neste contexto. C — incorreta: o sujeito é claramente 'eu' (implícito em 'comprei'). D — incorreta: 'um livro de João' é o objeto direto. E — incorreta: nomes próprios geralmente não são polissêmicos."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta e define com precisão o conceito de polissemia. Polissemia é exatamente a propriedade de uma mesma palavra de carregar múltiplos sentidos relacionados entre si, desenvolvidos ao longo do tempo por extensão metafórica, metonímica ou por analogia. O contexto — as palavras ao redor e a situação comunicativa — é o recurso que o leitor usa para identificar qual dos sentidos está sendo ativado em determinado uso. Trata-se de fenômeno natural e presente em todas as línguas vivas."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Identifique a frase que apresenta ambiguidade sintática por referência pronominal:",
+      "enunciado": "A frase 'Fui ao banco hoje cedo' é ambígua porque a palavra 'banco' tem dois sentidos possíveis e o contexto não é suficiente para determinar qual deles está em uso.",
       "alternativas": {
-        "A": "O capitão e o sargento discutiram sobre a missão.",
-        "B": "A palavra 'vela' pode significar vela de barco ou vela de cera.",
-        "C": "O comandante chamou o oficial quando ele chegou à base.",
-        "D": "Todos os soldados foram convocados para o treinamento.",
-        "E": "O relatório foi entregue no prazo estabelecido."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. O pronome 'ele' é ambíguo: pode retomar tanto 'o comandante' quanto 'o oficial' — não se sabe quem chegou à base. Esta é ambiguidade sintática por referência pronominal. A — sem ambiguidade; a frase é clara. B — descreve polissemia/homonímia, não ambiguidade sintática. D e E — frases inequívocas."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. A palavra 'banco' é polissêmica (pode significar instituição financeira ou assento), e, nessa frase isolada, o contexto não fornece pistas suficientes para fechar uma das leituras. Sem informações adicionais, a frase admite as duas interpretações simultaneamente — o que caracteriza ambiguidade lexical. Se o contexto anterior ou posterior esclarecesse do que se trata (por exemplo, 'Fui ao banco hoje cedo para sacar dinheiro'), a ambiguidade seria desfeita."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "A palavra 'manga' em 'manga de camisa' e 'manga (fruta)' é exemplo de:",
+      "enunciado": "Ambiguidade e polissemia sao fenomenos equivalentes, pois em ambos os casos o texto admite mais de uma interpretacao sem que o contexto resolva a duvida.",
       "alternativas": {
-        "A": "Polissemia, pois ambas as palavras têm a mesma origem etimológica.",
-        "B": "Ambiguidade, pois a frase admite duas interpretações.",
-        "C": "Homonímia, pois as duas palavras têm origens distintas e sentidos sem relação.",
-        "D": "Sinonímia, pois as palavras têm sentidos semelhantes.",
-        "E": "Antonímia, pois os sentidos são opostos."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. 'Manga' (fruta) vem do tâmil 'mankay' via português; 'manga' (parte da roupa) vem do latim 'manica'. São origens distintas e sentidos sem qualquer relação semântica — homonímia perfeita. A — incorreta: polissemia exige origem comum e sentidos relacionados; aqui as origens são distintas. B — ambiguidade é fenômeno do enunciado, não da palavra isolada. D e E — incorretas."
+      "gabarito": "B",
+      "explicacao": "A afirmacao esta errada. Ambiguidade e polissemia nao sao fenomenos equivalentes. Polissemia e uma propriedade natural da palavra: o fato de ela acumular varios sentidos ao longo do tempo, e o contexto normalmente resolve qual sentido esta em uso. Ja a ambiguidade e um defeito de construcao textual: ocorre quando uma frase admite duas ou mais interpretacoes e o contexto nao e suficiente para escolher uma. Confundir os dois conceitos e erro comum, especialmente porque ambos envolvem multiplicidade de sentidos, mas os mecanismos e as consequencias sao completamente diferentes."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "A palavra 'cabeça' em 'cabeça humana', 'cabeça de alho' e 'cabeça de lista' é exemplo de:",
+      "enunciado": "Na frase 'O militar viu o oficial com o telescópio', a expressão 'com o telescópio' pode estar ligada tanto ao sujeito ('o militar') quanto ao objeto ('o oficial'), o que caracteriza ambiguidade sintática.",
       "alternativas": {
-        "A": "Homonímia, pois são palavras com grafia idêntica.",
-        "B": "Polissemia, pois a mesma palavra desenvolveu múltiplos sentidos relacionados pela ideia de 'parte superior/principal/unidade contável'.",
-        "C": "Sinonímia, pois os três sentidos são equivalentes.",
-        "D": "Ambiguidade, pois a frase pode ser interpretada de três formas.",
-        "E": "Antonímia, pois os sentidos se opõem."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B é correta. 'Cabeça' em todos os usos deriva do latim 'caput' e os sentidos mantêm relação semântica: parte superior do corpo / unidade de um bulbo (parte destacável) / primeiro da lista (posição principal). Há extensão metafórica e metonímica a partir de um núcleo semântico comum — polissemia. A — grafia idêntica não define homonímia; o critério é a origem e a relação semântica. C, D, E — incorretas."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. O adjunto 'com o telescópio' está posicionado de forma que pode se ligar a dois elementos diferentes da frase: indica que foi o militar que usou o telescópio para ver o oficial, ou que o oficial estava portando o telescópio quando o militar o avistou. Esse tipo de dupla leitura causada pela posição de um elemento na estrutura frasal é chamado de ambiguidade sintática — e é um dos tipos mais frequentes nas questões de reescritura do CEBRASPE."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Qual das frases abaixo apresenta ambiguidade por adjunto mal posicionado?",
+      "enunciado": "Polissemia e homonímia são o mesmo fenômeno, pois em ambos os casos uma forma sonora se associa a mais de um sentido.",
       "alternativas": {
-        "A": "O militar estava de prontidão durante toda a semana.",
-        "B": "Ela viu o soldado correndo com alegria.",
-        "C": "O relatório foi enviado ontem ao superior.",
-        "D": "Todos os oficiais compareceram à cerimônia.",
-        "E": "O treinamento começará às oito horas da manhã."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "A alternativa B é correta. 'Com alegria' é adjunto adverbial que pode ser associado a: (1) 'ela viu' — ela viu com alegria; ou (2) 'o soldado correndo' — o soldado corria com alegria. Esta é ambiguidade sintática por adjunto mal posicionado. A — 'durante toda a semana' é inequivocamente adjunto de 'estava de prontidão'. C — 'ontem' e 'ao superior' têm referências claras. D e E — frases inequívocas."
+      "explicacao": "A afirmação está errada. Embora tanto a polissemia quanto a homonímia envolvam uma forma associada a mais de um sentido, os fenômenos têm naturezas diferentes. Na polissemia, os sentidos de uma mesma palavra estão relacionados entre si por extensão metafórica ou por analogia — compartilham uma origem comum. Na homonímia, são palavras distintas que, por acidente histórico, convergiram para a mesma forma sonora ou gráfica, sem qualquer relação semântica entre si (como 'são' = verbo ser, 'são' = saudável, 'são' = título de santo)."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "Em qual contexto a ambiguidade é considerada um RECURSO EXPRESSIVO, e não um defeito?",
+      "enunciado": "Na frase 'O cabo levou o relatório ao tenente porque ele estava com pressa', o pronome 'ele' é ambíguo porque pode retomar tanto 'o cabo' quanto 'o tenente'.",
       "alternativas": {
-        "A": "Em relatórios oficiais militares.",
-        "B": "Em portarias e instruções normativas.",
-        "C": "Em textos literários, publicitários e humorísticos.",
-        "D": "Em editais de concurso.",
-        "E": "Em memorandos e ofícios."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. Em textos literários, publicitários e humorísticos, o duplo sentido é explorado intencionalmente para criar efeitos estéticos, cômicos ou críticos. A, B, D e E — em documentos oficiais, normativos, técnicos e institucionais, a ambiguidade é sempre defeito de redação a ser evitado."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. O pronome 'ele' aparece depois de dois elementos masculinos na frase ('o cabo' e 'o tenente'), e a gramática não autoriza nenhuma das leituras com exclusividade. Ambos podem logicamente estar com pressa. Isso é ambiguidade referencial — o pronome tem dois antecedentes possíveis e o contexto não resolve qual é o correto. Para eliminar a ambiguidade, bastaria substituir o pronome pelo substantivo correspondente: 'porque o tenente estava com pressa' ou 'porque o cabo estava com pressa'."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "A frase 'Não quero ver ninguém aqui.' pode ser interpretada como: (1) Não quero que ninguém esteja aqui. (2) Não quero ser o responsável por ver ninguém aqui. Esse fenômeno é chamado de:",
+      "enunciado": "A palavra 'missao' nao e polissemica porque todos os seus usos derivam da mesma ideia central de ser enviado para cumprir algo, o que elimina a multiplicidade de sentidos.",
       "alternativas": {
-        "A": "Polissemia da palavra 'ninguém'.",
-        "B": "Ambiguidade sintática por escopo da negação.",
-        "C": "Homonímia do verbo 'ver'.",
-        "D": "Vagueza semântica.",
-        "E": "Sinonímia contextual."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "A alternativa B é correta. A ambiguidade decorre do escopo da negação 'não': (1) 'não' nega toda a situação — quero que não haja ninguém; (2) 'não quero' é apenas a vontade do falante — não assumo a responsabilidade de ver. Este é caso de ambiguidade sintática por escopo da negação: não está claro o que exatamente está sendo negado. A — 'ninguém' não é polissêmico. C — 'ver' não é homônimo; tem apenas um sentido no contexto. D — vagueza é imprecisão sem duplo sentido definido."
+      "explicacao": "A afirmacao esta errada. Derivar de uma ideia central comum e exatamente o que caracteriza a polissemia, nao o que a elimina. A polissemia e precisamente o fenomeno pelo qual uma palavra acumula varios sentidos relacionados a uma base semantica compartilhada. 'Missao' e polissemica porque seus sentidos (tarefa geral, expedicao militar, representacao diplomatica, chamado espiritual) sao distintos entre si, embora derivem da raiz latina missio. O fato de compartilharem uma origem comum confirma a polissemia, nao a nega."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "De acordo com Cunha e Cintra (2017), o principal mecanismo que DESFAZ a ambiguidade de uma palavra polissêmica em uso é:",
+      "enunciado": "Para eliminar a ambiguidade referencial de uma frase, o recurso mais indicado é substituir o pronome ambíguo pelo substantivo a que ele deve se referir.",
       "alternativas": {
-        "A": "A etimologia da palavra.",
-        "B": "O número de sílabas da palavra.",
-        "C": "O contexto em que a palavra é empregada.",
-        "D": "A posição da palavra na frase (início, meio ou fim).",
-        "E": "O uso de maiúscula ou minúscula na escrita da palavra."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. O contexto é o principal desambiguador da polissemia: os outros elementos da frase, o gênero textual e a situação comunicativa selecionam o sentido relevante da palavra polissêmica, tornando os demais sentidos inativos. A — a etimologia explica a origem dos sentidos, mas não resolve a ambiguidade em uso. B e D — critérios formais irrelevantes para a semântica. E — apenas nomes próprios e início de frase usam maiúsculas, critério ortográfico sem relação com ambiguidade."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. Quando um pronome tem mais de um antecedente possível na frase, a solução mais direta é substituí-lo pelo nome do referente desejado. Isso elimina a dupla leitura sem alterar o sentido da frase. Por exemplo, 'O general orientou o major porque ele seria promovido' se torna inequívoca com 'O general orientou o major porque este (ou 'o major') seria promovido'. Outras soluções incluem reorganizar a frase ou usar pronomes demonstrativos com referência clara ('este' para o elemento mais próximo, 'aquele' para o mais distante)."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "Qual é a diferença entre ambiguidade e vagueza?",
+      "enunciado": "Uma frase nunca pode ser simultaneamente polissemica e ambigua, pois a polissemia se resolve no nivel da palavra e a ambiguidade se resolve no nivel da frase.",
       "alternativas": {
-        "A": "Ambiguidade é exclusiva da linguagem escrita; vagueza, da linguagem oral.",
-        "B": "Ambiguidade é um fenômeno intencional; vagueza é sempre acidental.",
-        "C": "Ambiguidade produz duas interpretações distintas e igualmente plausíveis; vagueza produz imprecisão sem alternativas definidas.",
-        "D": "Ambiguidade ocorre apenas com palavras polissêmicas; vagueza, apenas com pronomes.",
-        "E": "Ambiguidade e vagueza são sinônimos no estudo da semântica."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. Ambiguidade: o enunciado admite duas (ou mais) interpretações completas e distintas ('Vi o homem com o telescópio' — duas leituras claras). Vagueza: o enunciado tem um único sentido, mas é impreciso, indefinido ('Ele chegou cedo' — cedo quando? É impreciso, mas não há dois sentidos distintos). A — incorreta: ambos ocorrem em linguagem oral e escrita. B — incorreta: a ambiguidade pode ser tanto intencional quanto acidental. D — incorreta: ambas podem ocorrer com diferentes classes de palavras. E — incorreta: são fenômenos distintos."
+      "gabarito": "B",
+      "explicacao": "A afirmacao esta errada. Polissemia e ambiguidade podem coexistir na mesma frase. A polissemia e uma propriedade da palavra, e a ambiguidade e uma propriedade da construcao frasal, mas isso nao impede que ambas ocorram ao mesmo tempo. Uma frase pode conter uma palavra com multiplos sentidos e, ao mesmo tempo, apresentar uma construcao sintatica ou um pronome ambiguo que impeca a leitura univoca. Os fenomenos atuam em niveis diferentes da lingua, mas nao sao mutuamente excludentes."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "A polissemia é diferente da sinonímia porque:",
+      "enunciado": "Ambiguidade lexical ocorre quando a estrutura sintática da frase permite que um adjunto seja associado a dois elementos diferentes.",
       "alternativas": {
-        "A": "Na polissemia, uma palavra tem muitos sentidos; na sinonímia, muitas palavras têm sentidos semelhantes.",
-        "B": "A polissemia é fenômeno exclusivo da língua escrita; a sinonímia, da língua oral.",
-        "C": "Na polissemia, os sentidos são opostos; na sinonímia, são idênticos.",
-        "D": "A polissemia desapareceu do português moderno; a sinonímia permanece.",
-        "E": "Polissemia e sinonímia são termos equivalentes para o mesmo fenômeno."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "A",
-      "explicacao": "A alternativa A é correta. Polissemia é fenômeno de uma palavra com múltiplos sentidos relacionados (foco: expansão semântica de um único signo). Sinonímia é fenômeno de várias palavras com sentidos semelhantes ou equivalentes (foco: relação entre diferentes signos). São fenômenos opostos em direção: polissemia vai de um signo para muitos sentidos; sinonímia vai de muitos signos para um sentido. B, C, D, E — todas incorretas e factualmente erradas."
+      "gabarito": "B",
+      "explicacao": "A afirmação está errada. O que é descrito na questão é a definição de ambiguidade sintática, não lexical. A ambiguidade lexical ocorre quando uma palavra isolada tem dois sentidos igualmente possíveis no contexto da frase. Já a ambiguidade sintática é causada pela posição de um elemento na estrutura da frase — como um adjunto que pode se ligar a dois núcleos diferentes. São tipos diferentes de ambiguidade: a lexical é da palavra; a sintática é da estrutura."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Leia o trecho: 'O juiz condenou o réu que todos esperavam.' A ambiguidade deste trecho é de natureza:",
+      "textoBase": "O tenente determinou ao sargento que ele apresentasse o relatório até as 18h.",
+      "enunciado": "Considerando a frase acima, é correto afirmar que ela é ambígua porque o pronome 'ele' pode retomar tanto 'o tenente' quanto 'o sargento'.",
       "alternativas": {
-        "A": "Lexical, causada pela polissemia de 'condenou'.",
-        "B": "Sintática, causada pela oração adjetiva 'que todos esperavam', que pode referir-se tanto ao juiz quanto ao réu.",
-        "C": "Sintática, causada pela referência ambígua do pronome 'que', que pode ter como antecedente tanto 'juiz' quanto 'réu', gerando dois sentidos: (1) o juiz que todos esperavam condenou o réu; (2) o juiz condenou o réu que todos esperavam.",
-        "D": "Lexical, causada pela palavra 'todos', que pode incluir ou excluir o juiz.",
-        "E": "Inexistente; a frase tem apenas uma interpretação possível."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. A oração adjetiva 'que todos esperavam' é introduzida pelo pronome relativo 'que', cujo antecedente pode ser tanto 'o juiz' (leitura 1: o juiz esperado por todos condenou o réu) quanto 'o réu' (leitura 2: o juiz condenou o réu que todos aguardavam ser condenado). Trata-se de ambiguidade sintática por posição ambígua da oração adjetiva. A — 'condenou' não é polissêmico neste contexto. B — está parcialmente certa na descrição, mas a alternativa C é mais precisa e completa ao explicar os dois sentidos. D — 'todos' não é ambíguo. E — incorreta."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. O pronome 'ele' aparece após dois substantivos do gênero masculino ('o tenente' e 'o sargento'), e a gramática não impõe nenhuma restrição que elimine um dos antecedentes. Embora seja contextualmente mais provável que o sargento deva apresentar o relatório (por questão de hierarquia), essa inferência extralinguística não basta para dizer que a frase é gramaticalmente inequívoca. A banca CEBRASPE consideraria a frase ambígua e uma afirmação de que 'fica claro que o pronome retoma o sargento' estaria errada."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Em qual das alternativas a ambiguidade é ELIMINADA de forma eficaz sem alterar o sentido original do trecho 'O oficial informou ao subordinado que havia errado'?",
+      "textoBase": "A instrução naval foi suspensa porque eles não compareceram.",
+      "enunciado": "Na frase acima, o pronome 'eles' é ambíguo porque não há, no contexto apresentado, nenhum antecedente explícito que determine a quem se refere.",
       "alternativas": {
-        "A": "'O oficial informou ao subordinado que errou.'",
-        "B": "'O oficial, que havia errado, informou ao subordinado.'",
-        "C": "'O oficial informou ao subordinado que o subordinado havia errado.'",
-        "D": "'O oficial e o subordinado erraram juntos.'",
-        "E": "'O oficial informou que havia errado ao subordinado.'"
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. A ambiguidade original está no pronome 'que': pode retomar 'o oficial' (o oficial havia errado) ou 'o subordinado' (o subordinado havia errado). A alternativa C substitui o pronome 'que' pela especificação explícita 'o subordinado havia errado', eliminando a ambiguidade e mantendo a interpretação de que foi o subordinado quem errou. A — mantém a ambiguidade (a flexão verbal 'errou' no presente não especifica o sujeito). B — muda o sentido: agora é o oficial que havia errado. D — altera completamente o sentido. E — 'ao subordinado' fica ambiguamente associado a 'havia errado' ou a 'informou'."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. Quando o pronome pessoal do caso reto ('eles') é usado sem que haja um antecedente explícito na frase ou no contexto imediato, ele fica indefinido — o leitor não sabe a quem se refere. Isso é ambiguidade referencial por ausência de antecedente. Em redação formal ou em prova CEBRASPE, essa construção é considerada falha: o texto deve ser autossuficiente e o referente do pronome precisa estar claro."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "A palavra 'linha' nos seguintes contextos apresenta fenômeno de polissemia ou homonímia? 'linha de costura', 'linha de raciocínio', 'linha de ônibus', 'linha de frente (militar)'.",
+      "textoBase": "Visitei o almirante no hospital onde ele trabalha.",
+      "enunciado": "A frase acima é ambígua porque o pronome relativo 'onde' admite dois antecedentes — o almirante ou o hospital.",
       "alternativas": {
-        "A": "Homonímia, pois as quatro palavras têm origens diferentes.",
-        "B": "Sinonímia, pois os quatro usos têm o mesmo sentido.",
-        "C": "Polissemia, pois todos os sentidos derivam de uma única origem (latim 'linea' = fio, traço) e mantêm relação semântica de continuidade/sequência/traçado.",
-        "D": "Ambiguidade, pois o leitor não consegue distinguir os sentidos.",
-        "E": "Antonímia, pois os sentidos são opostos entre si."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. Todos os usos de 'linha' derivam do latim 'linea' (fio) e mantêm relação semântica pelo traço de 'continuidade', 'sequência' ou 'traçado': linha de costura (fio concreto) / linha de raciocínio (sequência lógica de pensamentos) / linha de ônibus (rota, traçado) / linha de frente (posição contínua no campo de batalha). São extensões polissêmicas de um núcleo semântico comum. A — incorreta: há uma única origem. B — incorreta: os sentidos são distintos. D — incorreta: o contexto desfaz qualquer dúvida; não há ambiguidade em uso."
+      "gabarito": "B",
+      "explicacao": "A afirmação está errada. O pronome relativo 'onde' refere-se, por definição gramatical, a lugar — e o único elemento com traço semântico de lugar na frase é 'hospital'. O almirante não é um lugar, portanto não pode ser o antecedente de 'onde'. Não há, nesse caso, ambiguidade: a oração relativa 'onde ele trabalha' modifica inequivocamente 'hospital'. A frase é gramaticalmente clara. Confundir o traço semântico dos antecedentes de pronomes relativos é um erro comum que a banca explora."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Leia o título de jornal: 'Ministro defende saúde pública no Congresso.' Qual é a fonte da ambiguidade e quais são as duas leituras possíveis?",
+      "textoBase": "O comandante elogiou o recruta que realizou a manobra com precisão, o que agradou a toda a guarnição.",
+      "enunciado": "Nesse texto, a expressão 'o que' introduz uma oração subordinada adjetiva cujo antecedente é 'a manobra', e não 'o comandante ter elogiado o recruta'.",
       "alternativas": {
-        "A": "Ambiguidade lexical em 'saúde': a palavra pode significar brinde ou sistema público de saúde.",
-        "B": "Ambiguidade sintática: 'no Congresso' pode ser adjunto de lugar de 'defende' (o ministro defende lá) ou adjunto adnominal de 'saúde pública' (a saúde pública que está no Congresso).",
-        "C": "Ambiguidade lexical em 'ministro': pode ser ministro de Estado ou ministro de religião.",
-        "D": "Ambiguidade sintática: 'público' pode qualificar 'saúde' ou 'ministro'.",
-        "E": "Não há ambiguidade; o título é claro."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "A alternativa B é correta. O adjunto 'no Congresso' pode ser: (1) adjunto adverbial de lugar de 'defende' — o ministro defende a saúde pública, e o faz no Congresso; (2) adjunto adnominal de 'saúde pública' — o ministro defende a saúde pública que está (sendo discutida) no Congresso. As duas leituras são igualmente plausíveis e constituem ambiguidade sintática por posição do adjunto. A — 'saúde' pode ter esse sentido coloquial, mas no contexto político jornalístico o sentido de sistema de saúde é dominante; não há real ambiguidade lexical. C — 'ministro' é inequívoco no contexto. D — 'público' qualifica inequivocamente 'saúde'."
+      "explicacao": "A afirmação está errada. Na frase em questão, 'o que' é um pronome relativo de referência vaga que retoma toda a ideia expressa anteriormente — o elogio do comandante ao recruta —, e não apenas o substantivo 'a manobra'. Quando o pronome relativo 'o que' retoma uma oração inteira (e não um substantivo específico), ele funciona como pronome relativo de referência ampla. Afirmar que o antecedente é apenas 'a manobra' é incorreto e redutor."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Fiorin e Savioli (2007) afirmam que a polissemia é fundamental para a economia linguística. Isso significa que:",
+      "textoBase": "O oficial ordenou ao sargento que revisasse o armamento antes da missão, pois ela seria de alto risco.",
+      "enunciado": "O pronome 'ela' na frase acima é ambíguo porque pode retomar tanto 'a missão' quanto 'a ordem'.",
       "alternativas": {
-        "A": "A polissemia reduz os custos de produção dos dicionários.",
-        "B": "A polissemia permite que um número limitado de palavras cubra uma quantidade ilimitada de conceitos e domínios, evitando a criação de novas palavras para cada novo sentido.",
-        "C": "A polissemia faz com que o léxico da língua seja mais barato de aprender.",
-        "D": "A polissemia é exclusiva das línguas economicamente desenvolvidas.",
-        "E": "A polissemia elimina a necessidade de dicionários especializados."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "A alternativa B é correta. 'Economia linguística' refere-se à capacidade da língua de fazer mais com menos — um vocabulário finito que cobre domínios infinitos. A polissemia é o principal mecanismo: em vez de criar palavras novas para cada novo sentido (o que tornaria o léxico inviável de aprender), a língua estende os sentidos das palavras existentes por metáfora, metonímia e outros mecanismos. 'Rato' (animal) → 'rato' (dispositivo de computador); 'janela' (abertura em parede) → 'janela' (elemento de interface gráfica). A, C, D, E — incorretas; confundem 'economia linguística' com sentidos financeiros ou práticos irrelevantes."
+      "explicacao": "A afirmação está errada. Na frase, o único substantivo feminino singular explícito é 'missão'. Embora o substantivo 'ordem' seja semanticamente possível no contexto, ele não aparece na frase — portanto, não pode ser antecedente do pronome 'ela'. O pronome retoma inequivocamente 'missão', que é o único candidato gramatical disponível. Para haver ambiguidade referencial, é necessário que dois ou mais antecedentes compatíveis estejam presentes na frase ou no contexto imediato."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "O slogan 'Nossa empresa cresce junto com você.' apresenta polissemia ou ambiguidade? Analise:",
+      "textoBase": "As negociações com o grupo rival estavam, segundo o relatório, num campo minado.",
+      "enunciado": "No texto acima, a expressão 'campo minado' é usada em sentido denotativo, referindo-se a uma área militar com explosivos enterrados.",
       "alternativas": {
-        "A": "Polissemia de 'cresce': a palavra tem múltiplos sentidos registrados no dicionário.",
-        "B": "Ambiguidade sintática: 'junto com você' pode referir-se a crescimento concomitante (ao mesmo tempo que você) ou a crescimento solidário (tendo você como parceiro).",
-        "C": "Ambiguidade lexical de 'empresa': pode ser empresa comercial ou empreendimento.",
-        "D": "Sem ambiguidade ou polissemia; o slogan é completamente claro.",
-        "E": "Homonímia de 'junto': pode significar 'perto' ou 'unido'."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "A alternativa B é correta. A ambiguidade é sintática e intencional (recurso publicitário): 'junto com você' pode significar (1) concomitantemente com seu crescimento pessoal/profissional — a empresa cresce ao mesmo tempo que o cliente; (2) em parceria com você — a empresa cresce tendo o cliente como parceiro indispensável. As duas leituras são intencionalmente preservadas para criar identificação mais ampla com diferentes perfis de clientes — uso deliberado da ambiguidade como recurso persuasivo. A — 'cresce' tem sentido suficientemente determinado pelo contexto. C — 'empresa' é inequívoca. D — há ambiguidade intencional. E — 'junto' não é homônimo aqui."
+      "explicacao": "A afirmação está errada. No contexto apresentado — 'negociações com o grupo rival' —, a expressão 'campo minado' é usada em sentido conotativo (figurado), significando uma situação perigosa, cheia de armadilhas e riscos, na qual qualquer passo errado pode ter consequências graves. Essa é uma metáfora cristalizada da língua portuguesa, muito comum em textos jornalísticos e políticos. O sentido denotativo seria utilizado apenas em contexto militar literal, o que claramente não é o caso da frase sobre negociações."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Leia o trecho: 'O general visitou as tropas cansado.' A ambiguidade sintática é causada por qual fenômeno e como pode ser eliminada?",
+      "textoBase": "O novo regulamento foi engavetado pela diretoria após a reunião extraordinária.",
+      "enunciado": "No texto acima, o verbo 'engavetar' está empregado em sentido figurado, indicando que o regulamento foi arquivado ou abandonado sem andamento.",
       "alternativas": {
-        "A": "Polissemia de 'cansado'; eliminada substituindo-se por 'fatigado'.",
-        "B": "Predicativo solto ambíguo: 'cansado' pode referir-se ao general ou às tropas; eliminada por: 'O general, cansado, visitou as tropas.' (cansado é o general) ou 'O general visitou as tropas cansadas.' (cansadas são as tropas).",
-        "C": "Referência pronominal ambígua; eliminada adicionando-se um pronome antes de 'cansado'.",
-        "D": "Escopo de negação; eliminada por negação explícita.",
-        "E": "Não há ambiguidade; 'cansado' refere-se inequivocamente ao general."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B é correta. 'Cansado' é predicativo solto (ou adjunto predicativo), que pode ser associado tanto ao sujeito 'o general' quanto ao objeto 'as tropas'. Esta é ambiguidade sintática por adjunto predicativo mal posicionado. Para eliminar: (1) se o general estava cansado → 'O general, cansado, visitou as tropas' (predicativo do sujeito, isolado por vírgulas junto ao sujeito); (2) se as tropas estavam cansadas → 'O general visitou as tropas cansadas' (predicativo do objeto, adjacente a 'tropas'). A — 'fatigado' não resolve a ambiguidade sintática. C — pronome não resolveria o problema de referência do adjetivo. E — incorreta: há ambiguidade real."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. O verbo 'engavetar' é um exemplo de polissemia com sentido figurado cristalizado no português: em contextos burocráticos e jornalísticos, significa guardar algo numa gaveta sem dar continuidade, ou seja, arquivar, paralisar, abandonar. Não se refere ao ato literal de colocar um documento numa gaveta física. O contexto ('regulamento', 'diretoria', 'reunião') reforça o sentido figurado de arquivamento sem encaminhamento. A banca frequentemente testa se o candidato reconhece esse sentido metafórico em contextos formais."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Koch e Elias (2008) afirmam que o contexto é o principal desambiguador. Com base nisso, em qual das frases abaixo o contexto NÃO resolve a ambiguidade?",
+      "textoBase": "O capitão bateu com o punho na mesa e disse que não aceitaria a decisão.",
+      "enunciado": "A palavra 'punho' no texto acima é polissêmica, e seu sentido correto — a parte da mão — é determinado pelo contexto da ação descrita.",
       "alternativas": {
-        "A": "'O banco estava lotado.' (em contexto de agência bancária movimentada)",
-        "B": "'Ela tomou um copo.' (em contexto de uma festa)",
-        "C": "'O artilheiro defendeu a posição.' (em contexto claramente militar)",
-        "D": "'O sargento viu o capitão com o relatório.' (sem contexto adicional)",
-        "E": "'A operação foi bem-sucedida.' (em contexto de sala de cirurgia)"
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "D",
-      "explicacao": "A alternativa D é correta. 'O sargento viu o capitão com o relatório' permanece ambígua mesmo sem contexto adicional: 'com o relatório' pode referir-se ao sargento (que tinha o relatório ao ver o capitão) ou ao capitão (que estava com o relatório quando foi visto). O contexto textual apresentado não fornece elementos suficientes para resolver. A — contexto 'agência bancária' elimina a leitura 'banco = assento'. B — contexto 'festa' e 'tomou' (bebeu) elimina ambiguidade. C — contexto 'militar' define 'artilheiro' e 'posição' sem ambiguidade. E — contexto 'sala de cirurgia' define 'operação' como cirúrgica."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. 'Punho' é polissêmico: pode significar a parte da mão (o punho da mão), a boca do punho (extremidade da manga), o cabo de uma arma branca, ou até uma quantidade de algo que cabe na mão fechada. No contexto 'bateu com o punho na mesa', o sentido ativado é o da mão fechada — ação típica de alguém que bate na mesa em sinal de firmeza ou irritação. O contexto resolve com clareza, sem ambiguidade."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "A frase 'Todos os alunos não passaram na prova.' é problemática porque:",
+      "textoBase": "O recruta foi instruído pelo sargento de forma bastante rigorosa.",
+      "enunciado": "A frase apresentada é ambígua porque não fica claro se foi o sargento ou o recruta quem agiu de forma rigorosa.",
       "alternativas": {
-        "A": "Usa 'todos' com sujeito plural, o que viola a concordância.",
-        "B": "Apresenta ambiguidade por escopo da negação: pode significar 'nenhum aluno passou' (negação total) ou 'nem todos os alunos passaram' (negação parcial/quantificada).",
-        "C": "A palavra 'prova' é polissêmica e causa ambiguidade lexical.",
-        "D": "O verbo 'passaram' está no plural incorretamente.",
-        "E": "A frase não tem ambiguidade; significa claramente que nenhum aluno passou."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "A alternativa B é correta. Esta é uma ambiguidade clássica por escopo da negação combinada com quantificador universal ('todos'): (1) 'Todos os alunos não passaram' = nenhum aluno passou (negação tem escopo sobre 'todos' — leitura mais natural em português do Brasil); (2) 'Todos os alunos não passaram' = nem todos passaram = alguns passaram e outros não (negação tem escopo sobre 'passaram', não sobre 'todos'). A frase é genuinamente ambígua e deve ser reescrita: 'Nenhum aluno passou' ou 'Nem todos os alunos passaram'. A — concordância está correta. C — 'prova' é inequívoca no contexto. D — concordância verbal correta. E — a frase é ambígua."
+      "explicacao": "A afirmação está errada. A frase não é ambígua. O adjunto adverbial de modo 'de forma bastante rigorosa' modifica o verbo 'foi instruído', que tem como sujeito paciente 'o recruta' e como agente da passiva 'o sargento'. Portanto, quem agiu rigorosamente foi o sargento — ele instruiu de forma rigorosa. A estrutura da voz passiva torna clara a relação: o agente (sargento) pratica a ação com rigor; o paciente (recruta) recebe a instrução. Não há dupla leitura legítima."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Em qual das alternativas o duplo sentido é usado de forma INTENCIONAL como recurso humorístico?",
+      "textoBase": "O almirante discutiu a operação com o general, que havia chegado ontem.",
+      "enunciado": "No texto acima, o pronome relativo 'que' é ambíguo porque pode retomar tanto 'o almirante' quanto 'o general'.",
       "alternativas": {
-        "A": "O comandante informou ao soldado que havia desobedecido a ordem.",
-        "B": "Vi o oficial entrar na sala com documentos sigilosos.",
-        "C": "Placa de academia: 'Entre em forma — ou entre em forma.' (primeira 'forma' = boa forma física; segunda 'forma' = entre pela porta)",
-        "D": "O general visitou as tropas feridas.",
-        "E": "A portaria foi enviada para todos os departamentos."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. O trocadilho 'Entre em forma' explora intencionalmente a polissemia de 'forma': (1) entrar em forma = alcançar boa forma física (objetivo de uma academia); (2) entrar em forma = entre pela porta (imperativo de 'entrar' com complemento 'em forma' = literalmente). O humor decorre da colisão entre os dois sentidos, criando surpresa e ironia bem-humorada. A — ambiguidade indesejada por referência pronominal. B — ambiguidade sintática indesejada. D — sem ambiguidade. E — sem ambiguidade."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. O pronome relativo 'que' está imediatamente após 'general', o que pela regra de proximidade sugere que retoma 'o general'. No entanto, sintaticamente, o pronome relativo pode retomar qualquer um dos dois antecedentes masculinos presentes na frase ('o almirante' e 'o general'). A construção admite duas leituras: foi o general quem havia chegado ontem, ou foi o almirante. Essa é uma ambiguidade referencial causada por pronome relativo com dois antecedentes possíveis — tipo frequente nas provas CEBRASPE."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'O candidato foi aprovado com louvor pelo comandante que realizou a entrevista final.' Analise as afirmações: (I) A ambiguidade é lexical, causada pela polissemia de 'aprovado'. (II) A ambiguidade é sintática: 'com louvor' pode ser adjunto adverbial de 'foi aprovado' ou adjunto adnominal de 'comandante'. (III) A ambiguidade é sintática: a oração adjetiva 'que realizou a entrevista final' pode ter como antecedente tanto 'comandante' quanto 'candidato'.",
+      "textoBase": "O capitão informou o tenente que seu pedido de transferência havia sido indeferido pelo Comando do Distrito Naval.",
+      "enunciado": "A frase acima apresenta ambiguidade referencial, e a reescritura que a elimina sem alterar o sentido mais provável é: 'O capitão informou ao tenente que o pedido de transferência deste havia sido indeferido pelo Comando do Distrito Naval.'",
       "alternativas": {
-        "A": "Apenas I é correta.",
-        "B": "Apenas II é correta.",
-        "C": "Apenas III é correta.",
-        "D": "Apenas II e III são corretas.",
-        "E": "I, II e III são corretas."
+        "A": "A reescritura está correta: elimina a ambiguidade de 'seu' ao substituí-lo por 'deste', que retoma o elemento mais próximo ('o tenente'), e não altera o sentido.",
+        "B": "A reescritura está incorreta porque 'deste' retoma o elemento mais distante, ou seja, 'o capitão', e não 'o tenente'.",
+        "C": "A frase original não é ambígua porque 'seu pedido' se refere claramente ao tenente, que é o beneficiário direto da ação.",
+        "D": "A reescritura cria nova ambiguidade ao substituir 'seu' por 'deste', pois 'deste' tem referência imprecisa na frase.",
+        "E": "A frase original é ambígua apenas quanto ao destinatário da informação, não quanto ao dono do pedido de transferência."
       },
-      "gabarito": "D",
-      "explicacao": "A alternativa D é correta. Análise: (I) — INCORRETA: 'aprovado' não é polissêmico de forma que gere ambiguidade neste contexto. (II) — CORRETA: 'com louvor' pode modificar o verbo 'foi aprovado' (foi aprovado com distinção) ou qualificar o substantivo 'comandante' (o comandante que é digno de louvor); posição intermediária na frase gera ambiguidade por adjunto. (III) — CORRETA: a oração adjetiva 'que realizou a entrevista final' pode retomar 'o comandante' (leitura natural e mais plausível) ou 'o candidato' (o candidato que realizou a entrevista foi aprovado pelo comandante). Há portanto duas ambiguidades sintáticas coexistentes."
+      "gabarito": "A",
+      "explicacao": "A alternativa A está correta. A frase original é ambígua porque o pronome possessivo 'seu' pode retomar tanto 'o capitão' quanto 'o tenente' — ambos são antecedentes masculinos plausíveis para um pedido de transferência. A reescritura usa 'deste', que, pela gramática normativa, retoma o elemento mais próximo — 'o tenente' — desfazendo a ambiguidade. O sentido mais provável no contexto (o tenente fez o pedido) é preservado. A alternativa B está errada: 'deste' retoma o mais próximo, não o mais distante (que seria retomado por 'daquele'). A C está errada: a frase é sim ambígua, pois não é o papel sintático de 'destinatário' que resolve o dono do pedido. A D está errada: 'deste' tem referência clara pela regra do elemento mais próximo. A E está errada: a ambiguidade recai especificamente sobre 'seu pedido', não sobre o destinatário."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho do Manual de Redação e Estilo da Marinha (2024): os documentos oficiais devem ser redigidos de forma inequívoca. Com base neste princípio, qual das alternativas seguintes apresenta CORRETAMENTE a reescritura sem ambiguidade do trecho: 'O sargento comunicou ao tenente que sua missão havia sido comprometida.'?",
+      "textoBase": "Quase nenhum dos recrutas que participaram do treinamento intensivo foi reprovado na avaliação final.",
+      "enunciado": "A frase acima significa que a quase totalidade dos recrutas que participaram do treinamento foi aprovada na avaliação final.",
       "alternativas": {
-        "A": "'O sargento comunicou ao tenente que a missão havia sido comprometida.'",
-        "B": "'O sargento comunicou ao tenente que a missão do tenente havia sido comprometida.' ou 'O sargento comunicou ao tenente que a própria missão do sargento havia sido comprometida.'",
-        "C": "'O sargento e o tenente comunicaram que a missão havia sido comprometida.'",
-        "D": "'O sargento comunicou sua missão comprometida ao tenente.'",
-        "E": "'O sargento informou o tenente sobre os problemas da missão.'"
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B é correta. A ambiguidade original está em 'sua missão': o possessivo 'sua' pode retomar 'o sargento' (missão do sargento) ou 'o tenente' (missão do tenente). Para eliminar a ambiguidade sem alterar o sentido, é necessário especificar explicitamente o referente do possessivo. A alternativa B apresenta as duas reescrituras possíveis, correspondentes às duas interpretações, permitindo ao redator escolher a correta conforme a situação. A — 'a missão' sem especificação ainda pode gerar dúvida sobre de quem é a missão. C — altera o sujeito da comunicação. D — 'sua missão' permanece ambígua. E — paráfrase que altera a estrutura sem resolver a ambiguidade de forma precisa."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. A expressão 'quase nenhum' é uma negação atenuada: significa que um número muito pequeno (próximo de zero, mas não zero) foi reprovado. Se quase nenhum foi reprovado, então quase todos foram aprovados — ou seja, a quase totalidade passou na avaliação. Essa é uma questão de escopo do advérbio 'quase': ele modifica 'nenhum', transformando a negação total em negação parcial mínima. Candidatos que leem rapidamente podem interpretar 'quase nenhum foi reprovado' como 'quase todos foram reprovados' — mas é o oposto."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Leia o título: 'Engenheiros aprovam projeto de lei sobre energia limpa.' A ambiguidade deste título está em:",
+      "textoBase": "O comandante da base comunicou aos oficiais de plantão que eles deveriam verificar imediatamente as instalações do setor norte, pois havia relatos de infiltração não autorizada.",
+      "enunciado": "O pronome 'eles' na frase acima é ambíguo porque pode retomar tanto 'o comandante' quanto 'os oficiais de plantão'.",
       "alternativas": {
-        "A": "'Energia limpa' é polissêmica: pode significar energia renovável ou energia sem impurezas técnicas.",
-        "B": "O verbo 'aprovam' é ambíguo: pode significar aprovar legislativamente ou aprovar no sentido de considerar bom.",
-        "C": "'Projeto de lei' é ambíguo: pode ser um projeto legislativo ou um projeto de engenharia com objetivos legais.",
-        "D": "A frase não apresenta ambiguidade.",
-        "E": "'Engenheiros' é ambíguo: pode referir-se a engenheiros-parlamentares ou a engenheiros-cidadãos que defendem publicamente a medida."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "A alternativa B é correta. 'Aprovar' é polissêmico com dois sentidos contextualmente plausíveis: (1) aprovar legislativamente — os engenheiros-parlamentares votaram e aprovaram o projeto de lei (sentido institucional); (2) aprovar no sentido de avaliar positivamente — engenheiros (como categoria profissional) manifestaram aprovação pública ao projeto (sentido opinativo). O contexto do título não resolve qual interpretação prevalece — ambiguidade lexical. A — 'energia limpa' tem sentido técnico dominante (energia renovável). C — 'projeto de lei' é expressão fixa do vocabulário legislativo. D — há ambiguidade real. E — 'engenheiros' não é ambíguo; o que é ambíguo é o verbo 'aprovam'."
+      "explicacao": "A afirmação está errada. Embora 'eles' seja um pronome pessoal plural que, em princípio, poderia ter dois antecedentes, a análise sintática e semântica fecha a referência. O sujeito da oração principal é singular ('o comandante'), e 'eles' está em plural — portanto, não pode retomar 'o comandante'. O único antecedente plural disponível é 'os oficiais de plantão'. A concordância de número (plural) elimina a ambiguidade: 'eles' retoma inequivocamente 'os oficiais de plantão'. Nesse caso, diferente de quando os dois antecedentes têm o mesmo número, a gramática resolve por si só."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Um texto literário contém o verso: 'Sua voz cortou o silêncio como uma faca.' Analise as afirmações sobre polissemia e figuras de linguagem: (I) 'Cortou' é usado em sentido polissêmico: o sentido literal (cortar com objeto afiado) é ativado simultaneamente com o sentido figurado (romper, interromper abruptamente). (II) A frase apresenta uma metáfora (ou símile), pois compara a voz a uma faca por meio de 'como'. (III) O efeito expressivo depende da polissemia de 'cortou', que ativa simultaneamente a ideia de precisão, nitidez e violência da interrupção.",
+      "textoBase": "O relatório foi elaborado pelo sargento com muita eficiência.",
+      "enunciado": "A frase acima seria ambígua se reescrita como: 'O sargento elaborou o relatório com muita eficiência', pois o adjunto 'com muita eficiência' passaria a admitir dois antecedentes.",
       "alternativas": {
-        "A": "Apenas I é correta.",
-        "B": "Apenas II é correta.",
-        "C": "I e II são corretas, mas III é incorreta.",
-        "D": "I, II e III são corretas.",
-        "E": "Apenas III é correta."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "D",
-      "explicacao": "A alternativa D é correta. Análise: (I) — CORRETA: 'cortou' em 'cortou o silêncio' usa o sentido polissêmico de 'romper/interromper', derivado por metáfora do sentido literal de cortar com instrumento afiado. Os dois sentidos coexistem e se ativam mutuamente. (II) — CORRETA: 'como uma faca' é o elemento comparativo que caracteriza a figura como símile (comparação explícita). Se 'como' fosse omitido ('Sua voz cortou o silêncio, uma faca'), seria metáfora pura. (III) — CORRETA: o efeito expressivo é precisamente a ativação simultânea dos sentidos polissêmicos — a velocidade e precisão do corte de uma faca transferem-se para a voz, criando imagem de interrupção abrupta, nítida e impactante. Fiorin e Savioli (2007) analisam exatamente este mecanismo de criação de imagem pela polissemia."
+      "gabarito": "B",
+      "explicacao": "A afirmação está errada. Tanto na frase original quanto na reescrita, o adjunto adverbial de modo 'com muita eficiência' modifica o verbo da oração — 'foi elaborado' na original e 'elaborou' na reescrita. Em ambos os casos, o adjunto qualifica a ação de elaborar o relatório, e não o sujeito em si. A reescrita não cria ambiguidade porque o sujeito ('o sargento') é o único agente do verbo, e o adjunto claramente se refere ao modo como a ação foi realizada. A inversão de voz passiva para ativa não introduz nenhuma dupla leitura nessa construção específica."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Compare as frases: (A) 'Ela pintou o quadro feliz.' e (B) 'Ela, feliz, pintou o quadro.' A diferença entre as duas frases quanto à ambiguidade é:",
+      "textoBase": "A Portaria nº 12, de março de 2024, determinou que os oficiais temporários apresentassem seus relatórios de avaliação ao Comando do Distrito Naval até o último dia útil do mês seguinte à sua expedição.",
+      "enunciado": "No trecho acima, o pronome possessivo 'sua' é ambíguo porque pode se referir tanto à expedição dos relatórios quanto à expedição da portaria.",
       "alternativas": {
-        "A": "A frase A é inequívoca; a frase B é ambígua por causa das vírgulas.",
-        "B": "A frase A é ambígua: 'feliz' pode referir-se a 'ela' (predicativo do sujeito) ou a 'o quadro' (predicativo do objeto); a frase B é inequívoca: 'feliz', isolado por vírgulas junto ao sujeito, refere-se unicamente a 'ela'.",
-        "C": "Ambas as frases são igualmente ambíguas.",
-        "D": "A frase A é ambígua; a frase B também é ambígua porque 'feliz' pode referir-se a 'ela' ou ao 'quadro' mencionado depois.",
-        "E": "A diferença é apenas estilística; ambas têm o mesmo grau de clareza."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B é correta. Na frase A, 'feliz' é adjunto predicativo solto, posposto ao verbo e ao objeto, gerando ambiguidade: 'Ela pintou o quadro feliz' — quem é feliz? Ela (ao pintar) ou o quadro (que foi pintado feliz/de forma alegre)? Na frase B, 'feliz' está isolado por vírgulas e imediatamente adjacente ao sujeito 'ela', caracterizando inequivocamente predicativo do sujeito — apenas ela é feliz. A pontuação e a posição do adjunto predicativo são recursos de desambiguação sintática. A — está invertido. C, D, E — incorretas."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. O possessivo 'sua' ao final da frase pode retomar 'a portaria' (a data de expedição do ato normativo) ou 'os relatórios' (a data em que os relatórios foram expedidos). Ambas as leituras são gramaticalmente possíveis e semanticamente plausíveis em contexto normativo. Essa é uma ambiguidade referencial em texto formal — exatamente o tipo que o CEBRASPE apresenta em questões sobre redação oficial. Para eliminar a ambiguidade, seria necessário substituir 'sua' por 'desta portaria' ou 'de sua expedição' com referente explícito."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "O Manual de Redação e Estilo da Marinha (2024) orienta que frases longas com múltiplos adjuntos devem ser evitadas em documentos oficiais. Qual é a relação direta entre este princípio e o fenômeno da ambiguidade?",
+      "textoBase": "Encontrei o general operando o sistema com o técnico.",
+      "enunciado": "A reescritura 'Encontrei o general e o técnico operando o sistema juntos' elimina a ambiguidade da frase original sem alterar nenhum dos sentidos possíveis.",
       "alternativas": {
-        "A": "Frases longas são gramaticalmente incorretas no português padrão.",
-        "B": "Frases curtas são mais formais, o que é exigido pelo protocolo militar.",
-        "C": "Frases longas com múltiplos adjuntos aumentam a probabilidade de ambiguidade sintática, pois multiplicam as possibilidades de associação entre modificadores e seus referentes, tornando mais difícil para o leitor determinar quais termos se relacionam.",
-        "D": "Frases longas consomem mais papel, o que é economicamente indesejável.",
-        "E": "A relação não existe; o Manual se refere apenas à estética do texto."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. A prescrição do Manual de Redação tem fundamentação linguística direta: quanto mais adjuntos (adverbiais, adnominais, orações adjetivas, predicativos) uma frase acumula, mais pontos de ambiguidade potencial se criam, pois cada adjunto pode ser associado a diferentes elementos da frase. Uma frase como 'O oficial entregou o relatório ao capitão com a proposta revisada que havia solicitado anteriormente' apresenta pelo menos dois pontos de ambiguidade. A solução prescrita pelo Manual — frases curtas, sujeito-verbo-complemento próximos — minimiza essas possibilidades. A, B, D, E — incorretas; ignoram a fundamentação semântico-sintática do princípio."
+      "gabarito": "B",
+      "explicacao": "A afirmação está errada. A frase original 'Encontrei o general operando o sistema com o técnico' é ambígua sintaticamente: 'com o técnico' pode indicar que o general operava o sistema junto com o técnico, ou que o general estava sendo operado pelo técnico (no sentido de receber assistência técnica no sistema). A reescritura proposta escolhe apenas um dos sentidos — a operação conjunta — e o expande. Portanto, ela não 'preserva ambos os sentidos': ela elimina a ambiguidade escolhendo uma leitura e descartando a outra. Uma reescritura que 'não altera nenhum dos sentidos possíveis' é logicamente impossível quando há dois sentidos excludentes."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Leia o seguinte enunciado de lei: 'Fica proibida a venda de bebidas alcoólicas para menores de 18 anos não acompanhados.' Qual ambiguidade este enunciado apresenta e como deve ser corrigido para aplicação jurídica?",
+      "textoBase": "O subordinado que não cumprir as normas será responsabilizado pelo superior que o designou.",
+      "enunciado": "No trecho acima, o pronome 'o' na expressão 'que o designou' é ambíguo porque pode retomar tanto 'o subordinado' quanto 'as normas'.",
       "alternativas": {
-        "A": "Não há ambiguidade; 'menores de 18 anos não acompanhados' é expressão clara.",
-        "B": "Ambiguidade lexical em 'bebidas alcoólicas': podem ser cervejas, vinhos ou destilados.",
-        "C": "Ambiguidade sintática: 'não acompanhados' pode modificar 'menores' (é proibido vender a menores que não estejam acompanhados, mas permitido se estiverem) ou pode modificar a proibição (a proibição não é acompanhada de exceções = proibição total). Correção: 'Fica proibida, sem exceção, a venda de bebidas alcoólicas para menores de 18 anos.' ou 'Fica proibida a venda de bebidas alcoólicas para menores de 18 anos, independentemente de acompanhamento.'",
-        "D": "Ambiguidade lexical em 'menores': pode referir-se a idade ou a hierarquia.",
-        "E": "Ambiguidade por pontuação: a vírgula ausente cria a ambiguidade."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. Esta é uma ambiguidade sintática de relevância jurídica real: 'não acompanhados' pode ser (1) adjunto adnominal de 'menores' — a proibição vale apenas para menores desacompanhados (menores acompanhados poderiam ser servidos, leitura perigosa e provavelmente não intencional); (2) parte da negação global do ato — a proibição é absoluta e não tem ressalvas. A correção adequada explicita a proibição absoluta. Este exemplo ilustra como ambiguidades sintáticas em textos normativos podem ter consequências práticas graves — exatamente por isso o Manual de Redação e Estilo da Marinha exige inequivocidade em documentos oficiais. A — há ambiguidade real. B — não é ambiguidade contextualmente relevante aqui."
+      "gabarito": "B",
+      "explicacao": "A afirmação está errada. O pronome oblíquo 'o' é de terceira pessoa do singular masculino, e o único substantivo masculino singular disponível como antecedente na frase é 'o subordinado'. O substantivo 'normas' é feminino e plural, portanto gramaticalmente incompatível com o pronome 'o'. Não há ambiguidade: 'o' retoma inequivocamente 'o subordinado'. A armadilha da questão é induzir o candidato a considerar 'as normas' como antecedente possível, ignorando a concordância de gênero e número."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "A palavra 'operação' no contexto da Marinha do Brasil pode ter os seguintes sentidos: (1) operação militar (manobra tática); (2) operação de manutenção (serviço técnico); (3) operação contábil (transação financeira); (4) operação cirúrgica (procedimento médico no serviço de saúde naval). Este fenômeno é melhor caracterizado como:",
+      "textoBase": "O oficial pediu ao recruta que revisasse o equipamento e que ele próprio conferisse o resultado.",
+      "enunciado": "A frase acima é ambígua porque o pronome 'ele próprio' pode retomar tanto o oficial quanto o recruta.",
       "alternativas": {
-        "A": "Homonímia, pois os quatro sentidos não têm relação entre si.",
-        "B": "Polissemia com especialização técnica: todos os sentidos derivam do latim 'operatio' (ação de operar, trabalho) e mantêm a relação semântica de 'ação sistematizada com objetivo definido', especializados em diferentes domínios profissionais.",
-        "C": "Ambiguidade lexical, pois a palavra causa confusão comunicativa em qualquer contexto.",
-        "D": "Sinonímia contextual, pois os quatro sentidos são equivalentes em contextos militares.",
-        "E": "Antonímia parcial, pois alguns sentidos são opostos entre si."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B é correta. Todos os sentidos de 'operação' derivam do latim 'operatio' (de 'operari' = trabalhar, agir) e mantêm o núcleo semântico de 'ação organizada e sistematizada para um fim específico': operação militar (ação tática organizada), manutenção (serviço técnico organizado), contábil (ação financeira registrada) e cirúrgica (procedimento médico sistematizado). São especializações polissêmicas em diferentes domínios, não palavras de origens distintas (o que seria homonímia). A — os sentidos têm relação semântica, portanto não é homonímia. C — em contexto determinado, não há confusão comunicativa; o contexto desfaz qualquer dúvida. D, E — incorretas."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. A expressão reforçativa 'ele próprio' retoma um pronome de terceira pessoa masculino, e na frase há dois referentes masculinos: 'o oficial' e 'o recruta'. A partícula 'próprio' apenas intensifica a referência, mas não a define. As duas leituras são plausíveis: o oficial pediu que o recruta revisasse e que ele próprio (o oficial) conferisse, ou pediu que o recruta revisasse e que ele próprio (o recruta) conferisse. O contexto não fecha nenhuma das duas. Essa é uma ambiguidade referencial com reforço pronominal, que o CEBRASPE usa para testar atenção à estrutura."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Leia o seguinte texto publicitário: 'Banco do Futuro: onde seu dinheiro sempre cresce.' Identifique todos os fenômenos linguísticos presentes e assinale a alternativa que os descreve corretamente:",
+      "textoBase": "O Comando determinou que todos os documentos sigilosos fossem destruídos após o prazo de validade, salvo os que tiverem autorização especial.",
+      "enunciado": "No trecho acima, a expressão 'salvo os que tiverem autorização especial' é ambígua porque não fica claro se a autorização se refere aos documentos ou aos responsáveis por destruí-los.",
       "alternativas": {
-        "A": "Apenas polissemia de 'banco': assento ou instituição financeira.",
-        "B": "Ambiguidade intencional explorada pelo nome 'Banco do Futuro' (o banco que é do futuro = moderno / o banco cujo destino é o futuro = seu dinheiro crescerá) combinada com a polissemia de 'cresce' (crescimento financeiro / crescimento literal, como planta) — uso deliberado de duplos sentidos para criar identidade de marca positiva e abrangente.",
-        "C": "Apenas metáfora: 'cresce' está em sentido figurado.",
-        "D": "Apenas homonímia de 'banco' e vagueza de 'futuro'.",
-        "E": "Sem fenômenos especiais; o texto é puramente informativo."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B é correta. O texto publicitário explora intencionalmente múltiplos fenômenos linguísticos: (1) 'Banco do Futuro' — ambiguidade intencional: banco moderno/tecnológico (que pertence ao futuro) vs. banco que garante seu futuro financeiro; (2) 'cresce' — polissemia com sentido financeiro (capitalização) e sentido literal orgânico (crescer como algo vivo, saudável), criando imagem de dinheiro como entidade viva e em expansão. A combinação de ambiguidade e polissemia em slogans publicitários é estratégia retórica documentada por Koch e Elias (2008). A — reduz o fenômeno a apenas um aspecto. C — identifica apenas a metáfora. D — 'banco' aqui não é homonímia contextual; o contexto financeiro é dominante. E — incorreta."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. A oração 'salvo os que tiverem autorização especial' admite duas leituras: (1) os documentos que tiverem autorização especial para não serem destruídos ficam preservados; (2) os responsáveis que tiverem autorização especial ficam isentos de destruir certos documentos. Ambas as leituras são gramaticalmente possíveis e contextualmente plausíveis num texto normativo. O pronome relativo 'os' pode retomar 'documentos' (sentido 1) ou estar se referindo a pessoas implícitas no contexto (sentido 2). A ambiguidade só seria eliminada com explicitação: 'salvo os documentos que' ou 'salvo os servidores que'."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Considere a seguinte afirmação: 'Em textos literários, a ambiguidade é sempre intencional e sempre produz efeito positivo; em textos não literários, a ambiguidade é sempre indesejada e sempre deve ser eliminada.' Esta afirmação é:",
+      "textoBase": "O general recusou a proposta do coronel que havia chegado na manhã do dia anterior.",
+      "enunciado": "A oração relativa 'que havia chegado na manhã do dia anterior' é ambígua porque pode qualificar tanto 'a proposta' quanto 'o coronel', e a reescritura que elimina essa ambiguidade sem alterar o sentido de que foi o coronel quem chegou é: 'O general recusou a proposta do coronel, o qual havia chegado na manhã do dia anterior.'",
       "alternativas": {
-        "A": "Completamente correta, pois reflete a distinção fundamental entre linguagem literária e não literária.",
-        "B": "Parcialmente correta apenas na segunda parte: em textos não literários, a ambiguidade é geralmente indesejada; mas a primeira parte é incorreta: nem toda ambiguidade em textos literários é intencional ou produz efeito positivo — pode haver ambiguidades acidentais e prejudiciais mesmo na literatura.",
-        "C": "Completamente incorreta: ambiguidade é sempre indesejada em qualquer texto.",
-        "D": "Completamente incorreta: ambiguidade é sempre intencional em qualquer texto.",
-        "E": "Correta na primeira parte e incorreta na segunda: textos não literários podem usar ambiguidade intencionalmente."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B é correta e exige raciocínio crítico apurado. A afirmação da questão é parcialmente correta: a segunda parte (textos não literários tendem a exigir clareza) é geralmente verdadeira — com ressalva de que textos publicitários, que são não literários mas persuasivos, frequentemente usam ambiguidade intencionalmente. A primeira parte é excessivamente categórica: nem toda ambiguidade em literatura é intencional (autores também cometem erros redacionais) e nem toda ambiguidade produce efeito positivo (pode gerar confusão interpretativa indesejada). A — afirmação é categórica demais. C — ignora o uso intencional em literatura e publicidade. D — ambiguidade acidental existe e é indesejada. E — correta nesta observação sobre publicidade, mas a segunda parte da afirmação original já é problemática."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta em ambas as partes. A frase original é ambígua: 'que havia chegado na manhã do dia anterior' pode se referir ao coronel (pessoa) ou à proposta (documento que chegou). Ambas as leituras são gramaticalmente possíveis. A reescritura proposta usa 'o qual' em vez de 'que' — e esse é um recurso da gramática normativa: o pronome relativo composto ('o qual', 'a qual', 'os quais', 'as quais') retoma preferencialmente o antecedente mais distante, ou seja, 'o coronel'. Portanto, 'o qual havia chegado na manhã do dia anterior' refere-se inequivocamente ao coronel, eliminando a ambiguidade e preservando o sentido desejado."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o seguinte trecho de um ofício militar e responda:\n\n'Em resposta ao Ofício n.º 23/2026, informo que o Tenente Rodrigues e o Capitão Ferreira concluíram o relatório de inspeção com recomendações que deverão ser implementadas até o final do trimestre, conforme orientação do Comandante que os designou para a tarefa.'\n\nIdentifique todas as ambiguidades presentes neste trecho e assinale a alternativa que as descreve corretamente:",
+      "textoBase": "O Diretor de Ensino comunicou ao Chefe de Instrução que seu relatório semestral seria encaminhado à Secretaria do Comando antes do prazo estabelecido pela portaria interna, a fim de evitar que ela fosse cancelada.",
+      "enunciado": "O texto acima apresenta duas ocorrências de ambiguidade referencial. Assinale a opção que identifica corretamente ambas.",
       "alternativas": {
-        "A": "Há apenas uma ambiguidade: 'que os designou' pode retomar 'Comandante' ou 'orientação'.",
-        "B": "Não há ambiguidade; o trecho é claro e formal.",
-        "C": "Há duas ambiguidades: (1) 'com recomendações que deverão ser implementadas' — 'que' pode retomar 'recomendações' (as recomendações serão implementadas) ou 'relatório' (o relatório com recomendações deverá ser implementado); (2) 'que os designou para a tarefa' — 'que' retoma 'Comandante' (o Comandante designou os tenentes) ou 'orientação' (a orientação que os designou, sentido menos plausível mas possível). O trecho viola o princípio de inequivocidade do Manual de Redação e Estilo da Marinha.",
-        "D": "Há ambiguidade apenas no pronome 'os' em 'que os designou', que pode referir-se ao Tenente Rodrigues, ao Capitão Ferreira ou a ambos.",
-        "E": "A ambiguidade está em 'final do trimestre': pode ser o final do trimestre corrente ou de qualquer trimestre futuro."
+        "A": "O pronome 'seu' pode retomar 'o Diretor de Ensino' ou 'o Chefe de Instrução'; e o pronome 'ela' pode retomar 'a Secretaria' ou 'a portaria interna'.",
+        "B": "O pronome 'seu' pode retomar 'o Diretor de Ensino' ou 'o Chefe de Instrução'; e o pronome 'ela' pode retomar 'a portaria interna' ou 'a comunicação'.",
+        "C": "O pronome 'seu' retoma inequivocamente 'o Chefe de Instrução', pois é o destinatário da comunicação; e o pronome 'ela' retoma inequivocamente 'a portaria interna'.",
+        "D": "Não há ambiguidade no texto, pois o contexto hierárquico define claramente os referentes de 'seu' e 'ela'.",
+        "E": "O pronome 'seu' retoma apenas 'o Diretor de Ensino', e o pronome 'ela' retoma apenas 'a Secretaria do Comando'."
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. O trecho apresenta múltiplas ambiguidades sintáticas que violam os princípios do Manual de Redação e Estilo da Marinha (2024): (1) Ambiguidade 1 — 'com recomendações que deverão ser implementadas': o pronome relativo 'que' pode retomar 'recomendações' (as recomendações é que serão implementadas — leitura mais plausível) ou 'relatório' (o relatório que deverá ser implementado — menos provável mas sintaticamente possível). (2) Ambiguidade 2 — 'conforme orientação do Comandante que os designou': 'que os designou' pode modificar 'Comandante' (o Comandante que os designou — natural) ou 'orientação' (a orientação que os designou — possível gramaticalmente, embora semanticamente estranha). D — 'os' em 'que os designou' é pronome pessoal acusativo referindo-se a ambos os oficiais ('o Tenente Rodrigues e o Capitão Ferreira'), não há ambiguidade real aqui. E — 'final do trimestre' é vago, não genuinamente ambíguo."
+      "gabarito": "A",
+      "explicacao": "A alternativa A está correta. Há de fato duas ambiguidades referenciais no texto. A primeira: o pronome possessivo 'seu' pode retomar 'o Diretor de Ensino' (o relatório é do diretor) ou 'o Chefe de Instrução' (o relatório é do chefe, e o diretor está comunicando sobre ele). Ambos os antecedentes são gramaticalmente compatíveis. A segunda: o pronome 'ela' pode retomar 'a portaria interna' (que seria cancelada por descumprimento de prazo) ou 'a Secretaria do Comando' (que seria cancelada num sentido burocrático). A alternativa B está errada porque inclui 'a comunicação' como possível antecedente de 'ela', mas 'comunicação' não é substantivo feminino explícito no trecho. A alternativa C está errada porque afirma que não há ambiguidade, o que é incorreto — o contexto hierárquico não é suficiente para resolver a referência gramatical. A D e a E estão erradas pelos mesmos motivos."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Leia o seguinte poema e responda:\n\n'A vela arde.\nA vela anda.\nO mar não sabe\nse espera ou manda.'\n\nConsiderando os fenômenos de polissemia e ambiguidade, assinale a alternativa que melhor analisa os recursos linguísticos do poema:",
+      "textoBase": "Durante a vistoria, o inspetor verificou as instalações com o engenheiro naval responsável pelo setor. Ao final, o comandante foi informado de que o laudo técnico seria elaborado pelo inspetor com o apoio do engenheiro, o que satisfez a todos os presentes.",
+      "enunciado": "Considerando o texto acima, julgue as seguintes afirmações: I. Na primeira frase, 'com o engenheiro naval responsável pelo setor' é um adjunto que pode se ligar tanto ao verbo 'verificou' quanto ao substantivo 'instalações', gerando ambiguidade sintática. II. Na segunda frase, 'o que satisfez a todos os presentes' retoma apenas 'o laudo técnico', e não a ideia completa de que o inspetor elaboraria o laudo com apoio. III. A expressão 'com o apoio do engenheiro' elimina a ambiguidade que existia na primeira frase sobre o papel do engenheiro. Está correto apenas o que se afirma em:",
       "alternativas": {
-        "A": "O poema usa homonímia de 'vela' (vela de barco / vela de cera) para criar imagem visual dupla; 'arde' e 'anda' são usados em sentido denotativo.",
-        "B": "O poema não apresenta ambiguidade; cada verso tem sentido único e claro.",
-        "C": "O poema explora a polissemia de 'vela' (vela náutica = navegar; vela de cera = arder) para fundir duas imagens: a navegação marítima e a chama que arde; 'arde' e 'anda' reforçam polissemicamente essa fusão (arde = queima / arde = sofre/anseia; anda = move-se / anda = funciona). Os dois últimos versos ampliam a ambiguidade ao personificar o mar com dúvida entre esperar (aguardar) e mandar (ordenar / ser o elemento dominante).",
-        "D": "O poema usa apenas metáforas convencionais sem polissemia ou ambiguidade.",
-        "E": "A ambiguidade está apenas em 'manda': pode significar dar ordens ou enviar algo."
+        "A": "I apenas.",
+        "B": "II apenas.",
+        "C": "I e III apenas.",
+        "D": "II e III apenas.",
+        "E": "I, II e III."
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. O poema explora ricamente a polissemia como recurso poético: 'vela' é o eixo polissêmico central — vela de navio (que anda, que navega) e vela de cera (que arde, que queima), criando a imagem paradoxal de algo que ao mesmo tempo arde e anda, fundindo dois domínios. 'Arde' e 'anda' participam da polissemia: 'arde' (consome fisicamente / sofre emocionalmente); 'anda' (move-se literalmente / funciona, prospera). Os dois últimos versos criam ambiguidade intencional na personificação do mar: 'espera' (aguarda passivamente) vs. 'manda' (domina ativamente, é soberano / envia, manda algo). A dúvida do mar entre esperar e mandar é a tensão central do poema, poeticamente irresolvida. A — não é homonímia; há relação semântica entre os usos de 'vela'. B — o poema é rico em ambiguidade intencional. D, E — análises parciais e insuficientes."
+      "gabarito": "A",
+      "explicacao": "Apenas a afirmação I está correta. Na primeira frase, 'com o engenheiro naval responsável pelo setor' é de fato um adjunto de posicionamento ambíguo: pode indicar que o inspetor usou o engenheiro como instrumento ou acompanhante durante a verificação, ou que as instalações verificadas eram as que estavam sob a responsabilidade do engenheiro. Essa é ambiguidade sintática clássica. A afirmação II está errada: 'o que' é um pronome relativo de referência vaga que retoma toda a ideia anterior — o conjunto formado pela notícia de que o laudo seria elaborado daquela forma —, e não apenas 'o laudo técnico'. A afirmação III está errada: a segunda frase esclarece a função do engenheiro (apoio na elaboração), mas não elimina retroativamente a ambiguidade da primeira frase, que permanece sobre a presença do engenheiro durante a vistoria."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Um candidato ao concurso RM2 encontrou o seguinte parágrafo em uma questão de interpretação:\n\n'O engenheiro projetou o sistema elétrico da embarcação com precisão admirável, utilizando componentes de alta tensão que garantiram a segurança da tripulação e o desempenho ideal dos equipamentos durante toda a missão.'\n\nO candidato foi perguntado se a palavra 'tensão' é polissêmica neste contexto. A resposta correta é:",
+      "textoBase": "A ordem do dia estabeleceu que os sargentos de serviço fiscalizassem os recrutas nas dependências do quartel, o que deveria ser feito com discrição e eficiência, evitando qualquer situação que pudesse comprometer a operação.",
+      "enunciado": "No texto acima, o pronome relativo 'que' em 'qualquer situação que pudesse comprometer a operação' é ambíguo porque pode retomar tanto 'situação' quanto 'discrição e eficiência'.",
       "alternativas": {
-        "A": "Sim, 'tensão' é polissêmica e o contexto não resolve a ambiguidade; pode significar tensão elétrica ou tensão emocional.",
-        "B": "Não, porque 'tensão' só tem um sentido no português.",
-        "C": "Sim, 'tensão' é palavra polissêmica (tensão elétrica, tensão emocional, tensão muscular, tensão narrativa), mas neste contexto o campo semântico ('engenheiro', 'sistema elétrico', 'componentes', 'embarcação') determina inequivocamente o sentido técnico de tensão elétrica. A polissemia existe como propriedade lexical, mas não gera ambiguidade no enunciado.",
-        "D": "Não, porque 'tensão' em contexto de engenharia é homônimo de 'tensão' emocional.",
-        "E": "Sim, e a frase deve ser reescrita para eliminar a ambiguidade, substituindo 'tensão' por 'voltagem'."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta e distingue com precisão os fenômenos: 'tensão' é palavra polissêmica — tem múltiplos sentidos relacionados pela ideia de 'estiramento', 'força oposta', 'estado de pressão': tensão elétrica (diferença de potencial em volts), tensão emocional (estado psicológico de pressão), tensão muscular (estado de contração), tensão narrativa (suspense). Contudo, no enunciado dado, o contexto (engenheiro, sistema elétrico, componentes de alta tensão, embarcação) seleciona inequivocamente o sentido técnico de tensão elétrica — não há ambiguidade. Koch e Elias (2008) afirmam: polissemia é propriedade lexical; ambiguidade é propriedade do enunciado quando o contexto não resolve. A — incorreta: o contexto resolve. B — incorreta: 'tensão' é polissêmica. D — não é homonímia; os sentidos têm relação semântica. E — desnecessário; sem ambiguidade real."
+      "gabarito": "B",
+      "explicacao": "A afirmação está errada. O pronome relativo 'que' introduz uma oração adjetiva que funciona como adjunto do substantivo 'situação' — ou seja, caracteriza qual tipo de situação deve ser evitada: aquela que pudesse comprometer a operação. Gramaticalmente, o pronome relativo 'que' está imediatamente vinculado ao substantivo 'situação', que é o núcleo do sintagma nominal mais próximo. 'Discrição e eficiência' são substantivos que aparecem antes e não são o antecedente do relativo — eles integram outra parte da frase. Não há ambiguidade: 'que pudesse comprometer a operação' modifica 'situação'."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia o seguinte anúncio e analise:\n\n'CONCURSO RM2 DA MARINHA — Prepare-se! Nosso curso tem a fórmula certa para você entrar na Marinha com segurança.'\n\nIdentifique os fenômenos de polissemia e ambiguidade e seu papel no propósito comunicativo do texto:",
+      "textoBase": "O almirante determinou que os documentos fossem reclassificados como sigilosos, que os servidores fossem notificados pessoalmente e que nenhuma cópia fosse mantida nos arquivos provisórios. Essa determinação foi registrada em ata.",
+      "enunciado": "A palavra 'determinação' no segundo período do texto é polissêmica, e seu sentido nesse contexto — o ato formal de ordenar — é diferente do sentido usado na expressão 'determinação de caráter', em que significa firmeza de propósito.",
       "alternativas": {
-        "A": "Sem polissemia ou ambiguidade; o texto é puramente informativo.",
-        "B": "Polissemia de 'fórmula' (receita / expressão matemática) cria ambiguidade indesejada que compromete o anúncio.",
-        "C": "Polissemia de 'entrar na Marinha' (ser aprovado no concurso / entrar fisicamente numa embarcação) e polissemia de 'segurança' (aprovação garantida / segurança física) são exploradas intencionalmente: o anúncio usa 'com segurança' para evocar tanto a certeza de aprovação (propósito persuasivo: o curso garante seu ingresso) quanto a ideia de segurança nacional (propósito de identificação institucional: a Marinha é sinônimo de segurança). A polissemia serve ao propósito persuasivo do anúncio.",
-        "D": "A ambiguidade está em 'fórmula certa': pode ser uma fórmula única ou uma fórmula acertada.",
-        "E": "Polissemia de 'curso' (curso de preparação / curso de um rio) cria duplo sentido náutico intencional."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. O anúncio usa polissemia de forma estratégica: (1) 'entrar na Marinha' — polissemia entre sentido técnico-burocrático (ser aprovado no concurso e ingressar na instituição) e sentido literal náutico (entrar em embarcação, pertencer ao universo do mar); o sentido técnico é dominante, mas o literal cria associação de prestígio. (2) 'com segurança' — polissemia persuasiva: segurança de aprovação (o curso garante o resultado) e segurança nacional (a Marinha é a guardiã da segurança marítima do país). A combinação explora a polissemia para criar um texto publicitário que ao mesmo tempo promete resultado ao candidato e associa o curso ao prestígio institucional da Marinha. A — incorreta. B — 'fórmula' no contexto pedagógico (método/conjunto de técnicas de ensino) é suficientemente determinado. D — análise superficial. E — 'curso' de preparação é inequívoco no contexto."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. 'Determinação' é um substantivo polissêmico em português. No texto, retoma os atos ordenados pelo almirante — reclassificação, notificação e restrição de cópias —, usando-se 'determinação' no sentido de decisão formal, ordem, ato normativo. Já na expressão 'determinação de caráter', o substantivo assume o sentido de firmeza, resolução, força de vontade. São dois sentidos distintos do mesmo vocábulo, desenvolvidos a partir de um núcleo semântico comum ligado à ideia de 'definir com força'. O contexto, em cada caso, define com clareza qual sentido está em uso."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Leia o seguinte trecho e responda:\n\n'Os dados apresentados pelo oficial responsável pela operação confirmam que os resultados obtidos superaram as expectativas iniciais, o que deve ser considerado ao avaliar o desempenho da equipe que coordenou as atividades de campo.'\n\nO candidato deve identificar:\n(1) Se há ambiguidade;\n(2) Se houver, qual é sua natureza;\n(3) Como deve ser corrigida para adequação ao padrão do Manual de Redação e Estilo da Marinha.\n\nAssinale a alternativa com a análise COMPLETA e CORRETA:",
+      "textoBase": "O Boletim Interno nº 47 informou que os militares designados para a missão de apoio receberiam instruções específicas de seus superiores hierárquicos antes do embarque. No entanto, aqueles que ainda não tivessem concluído o treinamento obrigatório deveriam aguardar nova convocação.",
+      "enunciado": "No texto acima, o pronome demonstrativo 'aqueles' retoma inequivocamente 'os militares designados para a missão de apoio', e não 'os superiores hierárquicos', porque o contexto semântico e a estrutura do texto fecham essa referência.",
       "alternativas": {
-        "A": "Não há ambiguidade; o trecho está redigido corretamente.",
-        "B": "Há ambiguidade lexical em 'operação': pode ser operação militar ou operação matemática.",
-        "C": "Há ambiguidade sintática: (1) 'o que deve ser considerado ao avaliar o desempenho' — o pronome relativo 'o que' pode retomar todo o período anterior (o fato de terem superado as expectativas deve ser considerado) ou apenas 'resultados' (os resultados devem ser considerados); (2) 'que coordenou as atividades de campo' — 'que' pode retomar 'equipe' (a equipe que coordenou) ou ambiguamente 'desempenho' (o desempenho que coordenou — semanticamente improvável mas estruturalmente possível). Correção sugerida: desmembrar o período em frases curtas, especificando os referentes explicitamente.",
-        "D": "Há apenas vagueza em 'expectativas iniciais': não se sabe quais eram as expectativas.",
-        "E": "Há ambiguidade apenas em 'responsável pela operação': pode ser o oficial que executou ou o que autorizou a operação."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é correta. O período é longo e apresenta múltiplos pontos de referência pronominal ambígua — exatamente o tipo de construção que o Manual de Redação e Estilo da Marinha (2024) prescreve evitar. (1) 'o que deve ser considerado' — 'o que' (pronome relativo anafórico) tem escopo impreciso: pode retomar toda a proposição anterior ('os resultados superaram as expectativas') ou apenas 'os resultados'. Nas duas leituras o sentido é próximo, mas a ambiguidade existe. (2) 'que coordenou as atividades de campo' — 'que' retoma 'equipe' naturalmente, mas a distância entre 'equipe' e a oração adjetiva (separados por 'desempenho da') cria potencial ambiguidade de referência. A correção adequada envolve desmembramento: 'Os dados confirmam que os resultados superaram as expectativas. Essa superação deve ser considerada ao avaliar o desempenho. A equipe que coordenou as atividades de campo demonstrou...' A — incorreta: há ambiguidades reais. B — 'operação' em contexto militar é inequívoco. D — vagueza e ambiguidade são fenômenos distintos."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. O pronome demonstrativo 'aqueles' retoma, no segundo período, 'os militares designados para a missão de apoio', e não os superiores hierárquicos. A lógica semântica do texto apoia essa leitura: são os militares designados que precisam de treinamento obrigatório antes do embarque; faz sentido que entre eles haja aqueles que ainda não concluíram o treinamento. Os superiores hierárquicos são mencionados como os que darão as instruções, não como os que recebem convocação. Além disso, o pronome 'aqueles' retoma, por convenção, um antecedente mais distante — e 'os militares designados' é o antecedente logicamente mais distante (está no início do período anterior), enquanto 'superiores' é mais próximo. Nesse caso, semântica e estrutura convergem para uma leitura inequívoca."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
-      "gram-01",
-      "gram-03",
-      "gram-11",
-      "gram-13",
-      "gram-14",
-      "comp-02",
-      "comp-06",
-      "comp-07",
-      "gram-10",
-      "comp-11",
-      "gram-12",
+      "gram-00",
+      "gram-04",
       "gram-05",
       "gram-06",
-      "comp-03",
-      "comp-08",
-      "gram-04",
+      "gram-07",
+      "gram-01",
+      "gram-02",
+      "gram-03",
       "gram-08",
       "gram-09",
-      "comp-02",
-      "comp-09",
+      "gram-10",
+      "gram-11",
+      "gram-12",
+      "gram-13",
+      "gram-14",
+      "comp-03",
+      "comp-06",
       "comp-05"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + gram-09",
-        "enunciado": "Analise o período: 'O capitão ordenou ao sargento que trouxesse o mapa que havia perdido.' Para identificar simultaneamente a ambiguidade sintática e a função sintática das orações subordinadas, assinale a alternativa CORRETA:",
+        "topico_referencia": "comp-05",
+        "textoBase": "O recruta comunicou ao sargento que ele havia esquecido o equipamento no alojamento.",
+        "enunciado": "A frase acima é ambígua porque o pronome 'ele' pode retomar tanto 'o recruta' quanto 'o sargento', e a melhor reescritura que elimina a ambiguidade sem alterar o sentido mais provável (o recruta esqueceu) é: 'O recruta comunicou ao sargento ter esquecido o equipamento no alojamento.'",
         "alternativas": {
-          "A": "Ambiguidade lexical em 'mapa'; as orações são duas coordenadas.",
-          "B": "Sem ambiguidade; as orações são subordinadas adverbiais.",
-          "C": "Ambiguidade sintática: 'que havia perdido' pode retomar 'sargento' (o sargento havia perdido o mapa) ou 'capitão' (o capitão havia perdido o mapa). Sintaticamente: 'que trouxesse o mapa' é oração subordinada substantiva objetiva direta (objeto direto de 'ordenou'); 'que havia perdido' é oração subordinada adjetiva restritiva que qualifica 'mapa' — mas seu sujeito pode ser tanto 'o sargento' quanto 'o capitão', gerando ambiguidade de referência.",
-          "D": "Ambiguidade sintática de 'ordenou'; as orações são coordenadas assindéticas.",
-          "E": "Sem ambiguidade; 'que havia perdido' refere-se inequivocamente ao sargento por proximidade."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "A alternativa C é correta. A análise integra comp-05 (ambiguidade sintática) e gram-07 (análise sintática). 'Que trouxesse o mapa que havia perdido' é oração subordinada substantiva objetiva direta (completa o verbo 'ordenou': o capitão ordenou o quê? — que trouxesse o mapa). Dentro dessa subordinada, 'que havia perdido' é oração subordinada adjetiva restritiva que qualifica 'o mapa'. O sujeito elíptico de 'havia perdido' é ambíguo: pode ser 'o sargento' (a quem foi ordenado trazer) ou 'o capitão' (quem emitiu a ordem). A proximidade gramatical favorece 'sargento', mas semanticamente ambas as leituras são plausíveis. A — 'mapa' não é polissêmico; as orações não são coordenadas. B — orações substantivas e adjetivas, não adverbiais. E — a proximidade favorece mas não determina definitivamente."
+        "gabarito": "A",
+        "explicacao": "A afirmação está correta. A frase original contém ambiguidade referencial: 'ele' pode retomar qualquer um dos dois substantivos masculinos ('o recruta' e 'o sargento'). A reescritura proposta usa a oração reduzida de infinitivo ('ter esquecido'), que elimina o pronome e vincula a ação diretamente ao sujeito da oração principal (o recruta), resolvendo a ambiguidade sem alterar o sentido de que foi o recruta quem esqueceu o equipamento."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + comp-07",
-        "enunciado": "Leia o verso: 'O mar engole os navios e as promessas dos homens.' Para identificar a polissemia que fundamenta a figura de linguagem e o efeito de sentido produzido, assinale a alternativa CORRETA:",
+        "topico_referencia": "comp-06",
+        "textoBase": "A operação de resgate foi exitosa. Os militares retornaram sãos e salvos à base.",
+        "enunciado": "No segundo período, a expressão 'sãos e salvos' é um pleonasmo vicioso, pois ambas as palavras têm o mesmo sentido de integridade física.",
         "alternativas": {
-          "A": "Há metáfora sem polissemia; 'engole' está apenas em sentido figurado.",
-          "B": "Há polissemia de 'navios': pode ser navio de guerra ou navio comercial.",
-          "C": "Há personificação (o mar como ser que engole) fundada na polissemia de 'engole': sentido literal (ingere, submerge fisicamente os navios) e sentido figurado (destrói, faz desaparecer as promessas — algo imaterial). A polissemia de 'engole' cria a equiparação surpreendente entre o concreto (navios) e o abstrato (promessas), ampliando o sentido do verso: o mar é poder que destrói tanto o material quanto o simbólico.",
-          "D": "Há antítese entre 'navios' (concreto) e 'promessas' (abstrato), sem polissemia.",
-          "E": "Há hipérbole em 'engole os navios'; sem polissemia relevante."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "A alternativa C é correta, integrando comp-05 (polissemia) e comp-07 (figuras de linguagem). A figura principal é a personificação: o mar é apresentado como entidade que 'engole', ação tipicamente humana/animal. O fundamento semântico é a polissemia de 'engole': (1) sentido físico — submergir, fazer desaparecer fisicamente (navios); (2) sentido metafórico-abstrato — destruir, fazer desaparecer simbolicamente (promessas). A polissemia permite que o verbo único seja aplicado a dois complementos de natureza radicalmente distinta (concreto + abstrato), criando o efeito poético de equiparação: o mar é tão poderoso que devora tanto o físico quanto o espiritual/simbólico. Fiorin e Savioli (2007) analisam exatamente este mecanismo de criação de sentido pela extensão polissêmica. A — subestima o papel da polissemia. D — antítese é uma das marcas, mas a polissemia é o fenômeno mais relevante. E — não é hipérbole no sentido técnico."
+        "gabarito": "B",
+        "explicacao": "A afirmação está errada. 'Sãos e salvos' é uma expressão cristalizada da língua portuguesa que funciona como unidade de sentido — não é pleonasmo vicioso, mas uma locução adjetiva com uso consagrado pelo uso. Além disso, 'são' (saudável, sem lesões) e 'salvo' (preservado de perigo, ileso de situação de risco) têm matizes de sentido distintos, mesmo que próximos. Pleonasmo vicioso seria a redundância desnecessária e sem valor estilístico; aqui, trata-se de expressão idiomática. Em relações lexicais, expressões cristalizadas devem ser analisadas como um bloco, não morfema por morfema."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + gram-11",
-        "enunciado": "Leia: 'Os dados e a análise que o oficial apresentou ao comandante foi convincente.' Identifique o erro de concordância e explique se ele está relacionado a algum fenômeno de ambiguidade:",
+        "topico_referencia": "comp-03",
+        "textoBase": "O coronel estava com o coração pesado ao assinar a dispensa do subordinado que havia servido por quinze anos.",
+        "enunciado": "A expressão 'coração pesado' no texto está empregada em sentido denotativo, descrevendo o estado físico do coronel.",
         "alternativas": {
-          "A": "Não há erro de concordância; 'foi' concorda com 'análise' (sujeito mais próximo).",
-          "B": "Erro de concordância: sujeito composto 'os dados e a análise' exige verbo no plural 'foram convincentes'. A posição da oração adjetiva 'que o oficial apresentou' interposta entre o sujeito e o verbo pode induzir ao erro de concordância com o elemento mais próximo ('análise'), que é o mesmo mecanismo de ambiguidade referencial: a oração adjetiva cria uma pausa que obscurece a relação sujeito-verbo, funcionando como fator de distração sintática.",
-          "C": "Erro em 'convincente': deveria ser 'convincentes' (plural), mas o verbo 'foi' está correto concordando com 'análise'.",
-          "D": "Não há erro; 'foi convincente' pode concordar com 'análise' por silepse.",
-          "E": "O erro está em 'que o oficial apresentou'; deveria ser 'quem o oficial apresentou'."
+          "A": "Certo",
+          "B": "Errado"
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B é correta, integrando comp-05 (ambiguidade/fenômenos de confusão referencial) e gram-09 (concordância). O sujeito composto 'os dados e a análise' tem dois núcleos ligados por 'e', exigindo o verbo no plural: 'foram convincentes'. O erro 'foi convincente' ocorre porque a oração adjetiva intercalada 'que o oficial apresentou ao comandante' afasta o verbo do sujeito composto e aproxima o verbo da palavra mais recente ('análise'), criando atração equivocada pelo elemento mais próximo. Este fenômeno é análogo ao da ambiguidade referencial: assim como pronomes relativos distantes de seu antecedente geram ambiguidade, a distância entre sujeito composto e verbo gera erro de concordância. A — a regra da concordância com o mais próximo só se aplica quando o sujeito é posposto ao verbo. C — o erro primário é no verbo, não apenas no predicativo. D — silepse tem requisitos específicos que não se aplicam aqui."
+        "explicacao": "A afirmação está errada. 'Coração pesado' é uma expressão metafórica cristalizada que indica tristeza, pesar emocional — sentido conotativo. O coronel não está com o órgão cardíaco fisicamente mais pesado; está emocionalmente abalado pela necessidade de dispensar um subordinado de longa data. O contexto ('assinar a dispensa', 'havia servido por quinze anos') reforça a leitura emocional. Isso exemplifica o uso da linguagem conotativa para expressar estados internos, fenômeno tratado em linguagem denotativa e conotativa."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + gram-03",
-        "enunciado": "Leia o trecho: 'Em referência à proposta do oficial, o comandante deu atenção à mesma, resolvendo encaminhá-la à diretoria para análise.' Identifique o fenômeno de ambiguidade relacionado ao uso pronominal e verifique o emprego da crase:",
+        "topico_referencia": "gram-12",
+        "textoBase": "A maioria dos oficiais presentes na reunião votaram a favor da proposta de reformulação do regulamento interno.",
+        "enunciado": "Na frase acima, o verbo 'votaram' está em desacordo com a norma culta de concordância verbal, pois o sujeito é a expressão nominal 'a maioria dos oficiais', cujo núcleo é o substantivo singular 'maioria'.",
         "alternativas": {
-          "A": "'À mesma' é uso correto e sem ambiguidade; todas as crases estão corretas.",
-          "B": "'À mesma' é pronome anafórico que retoma 'proposta do oficial' — uso técnico possível mas rejeitado pela norma culta como vício de linguagem ('mesma' como pronome anafórico). Além disso, cria potencial ambiguidade: 'à mesma' pode retomar 'proposta' ou 'oficial' (do sintagma 'do oficial'). As crases: 'à proposta' — correta (preposição 'a' + artigo 'a'); 'à mesma' — correta formalmente; 'à diretoria' — correta.",
-          "C": "Não há ambiguidade; 'à mesma' retoma inequivocamente 'proposta'. As crases estão todas incorretas.",
-          "D": "'À mesma' não tem crase; deveria ser 'a mesma' porque pronomes não admitem artigo.",
-          "E": "Há ambiguidade em 'à diretoria': pode ser a diretoria da Marinha ou outra diretoria."
+          "A": "Certo",
+          "B": "Errado"
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B é correta, integrando comp-05 (ambiguidade pronominal) e gram-02 (crase). Análise: (1) 'À mesma' — o uso de 'mesmo/mesma' como pronome anafórico (em vez de pronome pessoal ou demonstrativo) é considerado vício de linguagem na norma culta; cria ambiguidade de referência pois 'mesma' pode retomar 'proposta' (feminino singular) ou poderia retomar outros referentes femininos. A norma culta prefere: 'deu atenção a ela' ou 'deu atenção à proposta'. (2) Análise das crases: 'à proposta' = preposição 'a' + artigo definido 'a' feminino → crase correta; 'à mesma' = preposição 'a' + artigo 'a' implícito antes de 'mesma' → formalmente aceitável; 'à diretoria' = preposição 'a' + artigo 'a' feminino → crase correta. C — as crases estão corretas. D — pronomes femininos admitem artigo e, portanto, crase. E — 'diretoria' é inequívoca no contexto institucional."
+        "explicacao": "A afirmação está errada. O caso descrito é o da concordância com expressões partitivas como 'a maioria de', 'a maior parte de', 'uma porção de'. Pela gramática normativa, quando o núcleo do sujeito é um coletivo partitivo seguido de um complemento no plural, o verbo pode concordar tanto com o núcleo (singular: 'votou') quanto com o complemento (plural: 'votaram'). Portanto, 'votaram' não está em desacordo com a norma culta — a concordância com o elemento mais próximo no plural é aceita pela gramática. Afirmar que está errado é incorreto."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + comp-02",
-        "enunciado": "Leia o trecho: 'O relatório não foi aprovado pelo comandante por razões óbvias.' Analise a informação implícita e a possível ambiguidade:",
+        "topico_referencia": "gram-03",
+        "textoBase": "O almirante assistiu à cerimônia de formatura em respeito à tradição da Marinha.",
+        "enunciado": "O emprego da crase antes de 'cerimônia' e antes de 'tradição' está correto em ambos os casos, pois os verbos que regem essas expressões exigem a preposição 'a'.",
         "alternativas": {
-          "A": "Sem ambiguidade; as razões são sempre explícitas em documentos oficiais.",
-          "B": "Sem ambiguidade e sem informação implícita relevante.",
-          "C": "A expressão 'por razões óbvias' contém informação implícita (pressupõe que tanto o emissor quanto o receptor do texto conhecem as razões — o que pode não ser verdade para um terceiro leitor) e cria ambiguidade referencial: não está claro se 'razões óbvias' se refere a razões óbvias para o comandante (que reprovou), para o autor do relatório (que sabe suas deficiências) ou para ambos. Em contexto militar, esta construção viola o princípio de clareza e explicitação necessária em documentos oficiais.",
-          "D": "A ambiguidade está em 'aprovado': pode significar aprovado administrativamente ou aprovado moralmente.",
-          "E": "A informação implícita é que o comandante é rigoroso; sem ambiguidade."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "A alternativa C é correta, integrando comp-05 (ambiguidade) e comp-03 (informações implícitas). 'Por razões óbvias' é uma expressão que remete a uma informação pressuposta: o autor pressupõe que o receptor conhece as razões sem necessidade de explicitação. Koch e Elias (2008) classificam este recurso como pressuposto pragmático — informação implícita que o falante assume ser compartilhada. O problema comunicativo é duplo: (1) informação implícita que pode não ser compartilhada por todos os leitores do documento (violando o princípio de explicitação necessária); (2) ambiguidade de referência: 'razões óbvias' para quem? O comandante pode ter reprovado por razões diferentes das que o autor do relatório imagina serem óbvias. Em documentos militares, o Manual de Redação e Estilo da Marinha (2024) exige que as razões de decisões sejam explicitadas, nunca pressupostas."
+        "gabarito": "A",
+        "explicacao": "A afirmação está correta. Em 'assistiu à cerimônia', o verbo 'assistir' é transitivo indireto com regência de preposição 'a' (assistir a algo), e o substantivo 'cerimônia' é feminino — logo, ocorre a fusão da preposição 'a' com o artigo 'a', formando a crase (à). Em 'em respeito à tradição', a expressão 'em respeito a' exige preposição 'a', e 'tradição' é substantivo feminino — mesmas condições, mesma crase. Ambos os usos estão gramaticalmente corretos."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + comp-06",
-        "enunciado": "No texto: 'A missão foi um sucesso estrondoso. Os soldados voltaram exaustos mas orgulhosos. O comandante ficou boquiaberto.' A palavra 'boquiaberto' é polissêmica neste contexto? Qual relação lexical ela mantém com 'sucesso estrondoso' e 'orgulhosos'?",
+        "topico_referencia": "gram-13",
+        "textoBase": "O Comando aspirava a que todos os oficiais concluíssem o curso de atualização antes do início das operações.",
+        "enunciado": "O emprego da preposição 'a' após o verbo 'aspirar' está correto, pois esse verbo, no sentido de desejar ou almejar, é transitivo indireto e exige tal preposição.",
         "alternativas": {
-          "A": "'Boquiaberto' é sinônimo de 'orgulhoso' no contexto; sem polissemia.",
-          "B": "'Boquiaberto' apresenta polissemia relevante: pode significar admiração positiva (o comandante ficou surpreso e orgulhoso com o sucesso) ou espanto/incredulidade (ficou surpreso porque não esperava o sucesso). O campo semântico construído por 'sucesso estrondoso' e 'orgulhosos' favorece a leitura positiva, mas não a determina definitivamente — mantendo leve ambiguidade de sentido emocional. Lexicalmente, 'boquiaberto', 'estrondoso' e 'orgulhosos' pertencem ao mesmo campo semântico de intensidade e espanto positivo.",
-          "C": "Não há polissemia; 'boquiaberto' sempre significa incredulidade negativa.",
-          "D": "'Boquiaberto' é antônimo de 'orgulhoso': um ficou boquiaberto (mal) enquanto os outros ficaram orgulhosos (bem).",
-          "E": "'Boquiaberto' é hipônimo de 'admiração' sem qualquer polissemia."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "B",
-        "explicacao": "A alternativa B é correta, integrando comp-05 (polissemia e ambiguidade) e comp-06 (relações lexicais). 'Boquiaberto' é adjetivo polissêmico: pode indicar (1) admiração entusiasmada positiva (ficou encantado, maravilhado com o sucesso); (2) espanto/incredulidade (ficou surpreso porque o sucesso era inesperado ou inacreditável — podendo ter conotação ligeiramente ambígua: admiração ou descrença). O contexto ('sucesso estrondoso', 'orgulhosos') orienta para a leitura positiva, mas 'boquiaberto' preserva uma dimensão de surpresa que pode ser lida como incredulidade. Quanto às relações lexicais: 'sucesso estrondoso', 'orgulhosos' e 'boquiaberto' compartilham o campo semântico de 'reação intensa positiva' — são cohipônimos do conceito de resposta emocional diante de feito notável. C — incorreto: 'boquiaberto' é neutro quanto à valência (positivo ou negativo), dependendo do contexto. D — não são antônimos. E — hipônimo exigiria relação de espécie/gênero formal."
+        "gabarito": "A",
+        "explicacao": "A afirmação está correta. O verbo 'aspirar' é polissêmico e tem duas regências distintas conforme o sentido. Quando significa 'sorver', 'inalar' (sentido físico), é transitivo direto: 'aspirar o pó'. Quando significa 'desejar', 'almejar', é transitivo indireto e exige a preposição 'a': 'aspirar a algo'. No texto, 'aspirava a que todos os oficiais concluíssem' usa o verbo no sentido de desejar, com a preposição correta. O uso está de acordo com a norma culta e com a regência padrão do verbo nesse sentido."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + gram-14",
-        "enunciado": "Leia: 'O general pediu ao tenente que se apresentasse imediatamente. Ele obedeceu-lhe prontamente.' Identifique a ambiguidade pronominal e analise a colocação pronominal:",
+        "topico_referencia": "comp-05",
+        "textoBase": "Após a instrução, o tenente informou ao recruta que seu desempenho havia sido satisfatório.",
+        "enunciado": "A frase acima não é ambígua porque, pelo contexto de avaliação, fica claro que 'seu desempenho' se refere ao desempenho do recruta, e não do tenente.",
         "alternativas": {
-          "A": "Sem ambiguidade; 'ele' retoma 'tenente' por proximidade. 'Obedeceu-lhe' — ênclise correta.",
-          "B": "Ambiguidade em 'ele': pode retomar 'o general' (o próprio general obedeceu a alguém?) ou 'o tenente' (o tenente obedeceu ao general). Leitura mais plausível: 'ele' = tenente. 'Obedeceu-lhe' — ênclise em início de oração principal, sem atratores de próclise: correta pela norma culta; 'lhe' retoma 'ao general' (objeto indireto de 'obedeceu'). Colocação correta.",
-          "C": "Sem ambiguidade. 'Obedeceu-lhe' deveria ser 'lhe obedeceu' (próclise obrigatória).",
-          "D": "Ambiguidade em 'lhe': pode retomar 'general' ou 'tenente'. Ênclise incorreta.",
-          "E": "Ambiguidade em 'prontamente': pode referir-se ao general ou ao tenente."
+          "A": "Certo",
+          "B": "Errado"
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B é correta, integrando comp-05 (ambiguidade pronominal) e gram-11 (colocação pronominal). (1) Ambiguidade: 'ele' tem dois antecedentes masculinos no texto — 'general' e 'tenente'. Semanticamente, a leitura mais plausível é 'ele = tenente' (foi o tenente que obedeceu ao general — coerência narrativa), mas gramaticalmente o pronome é ambíguo. (2) Colocação: 'Ele obedeceu-lhe prontamente' — oração principal declarativa iniciada por pronome sujeito ('ele'). Pronome sujeito não é atrator de próclise. Sem fatores de próclise obrigatória (não há negação, conjunção subordinativa, advérbio antes do verbo), a ênclise 'obedeceu-lhe' é a forma padrão prescrita pela norma culta. 'Lhe' é pronome oblíquo que substitui 'ao general' (complemento indireto de 'obedecer', que é transitivo indireto). C — a próclise não é obrigatória aqui. D — 'lhe' retoma inequivocamente o general (destinatário da obediência)."
+        "explicacao": "A afirmação está errada. A frase é ambígua. O pronome possessivo 'seu' tem dois antecedentes masculinos possíveis: 'o tenente' e 'o recruta'. Embora o senso comum sugira que é o desempenho do recruta que está sendo avaliado, essa inferência é extralinguística e não elimina a ambiguidade gramatical. O CEBRASPE não aceita justificativas contextuais subjetivas para determinar que uma frase não é ambígua — a banca exige que a própria estrutura da frase elimine a dúvida. Portanto, a frase é ambígua e a afirmação está errada."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + comp-08",
-        "enunciado": "Leia o seguinte texto: 'AVISO: O acesso ao hangar é restrito a militares autorizados. Visitantes devem aguardar na recepção. Qualquer violação será punida.' Identifique o gênero textual e analise se há alguma ambiguidade relevante:",
+        "topico_referencia": "gram-11",
+        "textoBase": "As novas medidas de segurança foram consideradas necessárias e urgentes pelo Comando do Distrito Naval.",
+        "enunciado": "A concordância dos adjetivos 'necessárias' e 'urgentes' com o substantivo 'medidas' está correta, pois ambos concordam em gênero (feminino) e número (plural) com o núcleo do sujeito.",
         "alternativas": {
-          "A": "Gênero: artigo de opinião; sem ambiguidade.",
-          "B": "Gênero: aviso/comunicado institucional (gênero normativo-informativo). Há ambiguidade em 'restrito a militares autorizados': pode significar (1) apenas militares já autorizados por lista ou credencial prévia (restrição mais severa) ou (2) militares que estiverem devidamente autorizados no momento do acesso (restrição mais flexível). Em contexto de segurança militar, esta ambiguidade tem implicação operacional: o Manual de Redação e Estilo da Marinha recomendaria especificar 'militares portadores de credencial de acesso' ou 'militares com autorização prévia do responsável pela instalação'.",
-          "C": "Gênero: relatório técnico; há ambiguidade em 'violação': pode ser violação física ou violação de dados.",
-          "D": "Sem ambiguidade; avisos militares são sempre inequívocos por natureza.",
-          "E": "Gênero: portaria; há ambiguidade apenas em 'punida': não especifica o tipo de punição."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "B",
-        "explicacao": "A alternativa B é correta, integrando comp-05 (ambiguidade) e comp-08 (gêneros textuais). O texto é um aviso/comunicado de segurança institucional — gênero normativo-informativo com linguagem prescritiva e objetiva, típico de instalações militares. A ambiguidade identificada em 'militares autorizados' é de natureza referencial-processual: 'autorizados' é adjetivo que pressupõe um processo de autorização, mas não especifica o tipo ou o momento da autorização. Esta imprecisão pode ter consequências práticas em ambiente de segurança: um militar pode alegar que estava 'autorizado' de forma genérica. Em contextos normativos de segurança, o Manual de Redação e Estilo da Marinha (2024) exige especificidade: quem autoriza, como e quando. D — avisos militares também podem ter ambiguidades, especialmente quando redigidos de forma apressada. E — 'violação' no contexto físico de acesso a hangar é suficientemente determinada."
+        "gabarito": "A",
+        "explicacao": "A afirmação está correta. Os adjetivos predicativos 'necessárias' e 'urgentes' estão ligados ao sujeito 'as novas medidas de segurança' pelo verbo de ligação 'foram consideradas'. O núcleo do sujeito é 'medidas', substantivo feminino plural. Ambos os adjetivos concordam corretamente em gênero feminino e número plural com esse núcleo. A concordância está em plena conformidade com a norma culta."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + gram-10",
-        "enunciado": "Leia o período: 'O sargento desarmou o suspeito e o rendeu sem resistência.' A ambiguidade sintática decorre de qual fenômeno de coordenação e como ela pode ser eliminada?",
+        "topico_referencia": "gram-14",
+        "textoBase": "Pediu-se-lhe que fosse discreto. Entregou-se-lhe o documento sigiloso sem demora.",
+        "enunciado": "A colocação dos pronomes oblíquos 'se' e 'lhe' nas duas frases obedece às regras de mesóclise, que impõe a posição do pronome no interior do verbo.",
         "alternativas": {
-          "A": "Sem ambiguidade; 'sem resistência' refere-se claramente ao suspeito.",
-          "B": "A ambiguidade decorre da estrutura de coordenação com sujeito elíptico: 'sem resistência' pode ser adjunto do verbo 'rendeu' com sujeito 'o sargento' (o sargento rendeu o suspeito sem resistência da sua parte) ou adjunto adverbial que descreve a condição do suspeito (o suspeito foi rendido sem oferecer resistência). As orações coordenadas assindéticas compartilham sujeito ('o sargento'), mas o adjunto final gera ambiguidade sobre a quem se aplica 'sem resistência'. Eliminação: 'O sargento desarmou e rendeu o suspeito, que não ofereceu resistência.' ou 'O sargento desarmou e rendeu o suspeito sem precisar usar força.'",
-          "C": "A ambiguidade está na polissemia de 'rendeu': entregar / vencer / produzir resultado.",
-          "D": "A ambiguidade está em 'desarmou': pode ser literal (tirar a arma) ou figurado (tirar o ânimo combativo).",
-          "E": "Sem ambiguidade; a coordenação assindética sempre elimina ambiguidades por clareza estrutural."
+          "A": "Certo",
+          "B": "Errado"
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B é correta, integrando comp-05 (ambiguidade sintática) e gram-08 (coordenação). A estrutura coordenada 'O sargento desarmou o suspeito E o rendeu' tem o mesmo sujeito ('o sargento') para os dois verbos. O adjunto adverbial 'sem resistência', posposto ao segundo verbo, é estruturalmente ambíguo: (1) adjunto de modo do sargento — o sargento rendeu o suspeito sem que o sargento precisasse usar força (sem resistência da parte do sargento); (2) adjunto de modo do suspeito — o suspeito foi rendido sem oferecer resistência (sem resistência da parte do suspeito). As duas leituras são plausíveis em contexto policial/militar. Para eliminar: especificar a quem se aplica 'sem resistência'. A — há ambiguidade real. C — 'rendeu' no contexto policial (vencer/capturar) é suficientemente determinado. D — 'desarmou' também tem ambiguidade potencial, mas secundária. E — a coordenação não elimina ambiguidades de adjuntos."
+        "explicacao": "A afirmação está errada. Nas duas frases, os pronomes 'se' e 'lhe' estão em ênclise — posicionados após o verbo. Mesóclise é a colocação do pronome no interior do verbo, utilizada exclusivamente com verbos no futuro do presente ou no futuro do pretérito (ex.: 'entregar-lhe-ia', 'pedir-se-á'). As formas 'pediu' e 'entregou' estão no pretérito perfeito — tempo que não comporta mesóclise. Portanto, a afirmação usa o termo 'mesóclise' de forma incorreta para descrever o que é ênclise."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + comp-02",
-        "enunciado": "Leia o título: 'Marinha lança nova campanha de recrutamento: 'O Brasil está no mar — e o mar está em você'.' Identifique a polissemia, a ambiguidade intencional e o propósito comunicativo do slogan:",
+        "topico_referencia": "comp-06",
+        "textoBase": "O sargento demonstrou grande habilidade durante o exercício. Seu colega, porém, foi medíocre na mesma atividade.",
+        "enunciado": "As palavras 'habilidade' e 'medíocre' estabelecem entre si uma relação de antonímia porque expressam ideias opostas na comparação do desempenho dos dois militares.",
         "alternativas": {
-          "A": "Sem polissemia; propósito informativo sobre a campanha.",
-          "B": "Polissemia de 'está no mar' (localização geográfica) sem propósito persuasivo claro.",
-          "C": "A polissemia é tripla: 'mar' (massa d'água / símbolo da Marinha / dimensão simbólica de liberdade e desafio); 'está no mar' (o Brasil tem saída para o mar / o Brasil depende do mar economicamente e estrategicamente); 'o mar está em você' (você nasceu para o mar / você tem espírito marinheiro / a Marinha precisa de você). A ambiguidade entre os sentidos concreto e simbólico é intencional. O propósito é persuasivo-vocacional: recrutar jovens apelando simultaneamente à identidade nacional (o Brasil é uma nação marítima) e à identidade individual (você tem vocação para o mar / para a Marinha).",
-          "D": "Há apenas antítese entre 'Brasil no mar' e 'mar em você'; sem polissemia.",
-          "E": "O propósito é exclusivamente informativo sobre as fronteiras marítimas do Brasil."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "A alternativa C é correta, integrando comp-05 (polissemia e ambiguidade) e comp-02 (propósito comunicativo). O slogan explora polissemia em cadeia: (1) 'mar' é polissêmico — massa d'água concreta, símbolo da instituição Marinha, metáfora de liberdade/aventura/desafio; (2) 'O Brasil está no mar' — polissemia proposicional: localização geográfica (o Brasil tem costa marítima) vs. identidade nacional (o destino do Brasil está no mar, sua vocação é marítima); (3) 'o mar está em você' — polissemia proposicional: o mar (como espírito/vocação) está em você, ou a Marinha (como instituição) precisa de você. A ambiguidade entre concreto e simbólico é deliberada: o slogan funciona em dois planos simultaneamente, criando identificação com diferentes tipos de leitores. O propósito é persuasivo-vocacional: Koch e Elias (2008) classificariam este como texto multifuncional com propósito persuasivo dominante."
+        "gabarito": "B",
+        "explicacao": "A afirmação está errada. Para haver antonímia, as palavras precisam pertencer à mesma classe gramatical e expressar oposição direta de sentido. 'Habilidade' é um substantivo e 'medíocre' é um adjetivo — classes gramaticais diferentes. Não há antonímia entre elas, pois a antonímia exige comparabilidade categorial. O antônimo de 'habilidade' (substantivo) seria 'inabilidade' ou 'incompetência'; o antônimo de 'medíocre' (adjetivo) seria 'excelente' ou 'hábil'. A relação entre as palavras no texto é de contraste semântico contextual, não de antonímia propriamente dita."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + gram-01",
-        "enunciado": "Leia: 'A sessão da comissão foi interrompida por causa de um incidente inusitado: um acesso de raiva do presidente.' Identifique eventual ambiguidade e verifique a grafia das palavras sublinhadas (sessão, acesso, inusitado):",
+        "topico_referencia": "gram-02",
+        "textoBase": "O contra-almirante presidiu a reunião de forma sóbria e objetiva, sem que houvesse qualquer incidente.",
+        "enunciado": "A palavra 'sóbria' recebe acento gráfico por ser paroxítona terminada em ditongo crescente, conforme as regras do Acordo Ortográfico em vigor desde 2016.",
         "alternativas": {
-          "A": "Sem ambiguidade. 'Seção' seria o correto para reunião de comissão; 'acesso' e 'inusitado' estão corretos.",
-          "B": "Ambiguidade em 'presidente': pode ser o presidente da comissão ou o Presidente da República. 'Sessão' — correta para reunião (sessão legislativa, sessão de julgamento); 'seção' seria divisão/departamento; 'acesso' — correto (acesso de raiva = crise, ataque); 'inusitado' — correto (= incomum, não usual).",
-          "C": "Sem ambiguidade. Todas as palavras têm erro ortográfico: 'cession', 'excesso', 'inusitato'.",
-          "D": "'Acesso' deveria ser 'excesso'; 'inusitado' deveria ser 'inusual'; 'sessão' deveria ser 'seção'.",
-          "E": "Ambiguidade em 'acesso de raiva': pode ser raiva do presidente (ele que ficou com raiva) ou raiva em relação ao presidente (raiva da comissão contra ele)."
+          "A": "Certo",
+          "B": "Errado"
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B é correta, integrando comp-05 (ambiguidade) e gram-01 (ortografia). (1) Ambiguidade: 'presidente' em contexto de 'sessão da comissão' pode referir-se ao presidente da comissão (mais provável pelo contexto) ou ao Presidente da República (se a comissão for presidencial). O contexto não especifica. (2) Ortografia: 'sessão' — correto para reunião formal (sessão do tribunal, sessão da câmara, sessão da comissão); 'seção' seria para divisão/departamento. 'Acesso' — correto: 'acesso de raiva/fúria/tosse' é expressão consagrada (significando crise súbita). 'Excesso' seria quantidade exagerada — diferente. 'Inusitado' — correto: deriva de 'usitado' (de 'usus', costume) com prefixo negativo 'in-'; significa incomum, fora do usual. D — 'acesso de raiva' é correto (não 'excesso'); 'inusitado' é correto (não 'inusual'); 'sessão' é correto no contexto. E — 'acesso de raiva do presidente' indica inequivocamente raiva DO presidente (genitivo de posse/agente)."
+        "explicacao": "A afirmação está errada em sua justificativa. A palavra 'sóbria' é de fato paroxítona, mas a terminação '-ia' não é considerada ditongo crescente para fins de acentuação na gramática — é uma sequência de vogais em que cada uma pertence a sílabas distintas (só-bri-a). 'Sóbria' recebe acento porque é paroxítona terminada em 'a', e paroxítonas terminadas em vogais 'a', 'e', 'o' (e seus plurais, além de 'em', 'ens') são acentuadas. A regra correta não é 'ditongo crescente', mas simplesmente a terminação em vogal com tonicidade na penúltima sílaba."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + comp-11",
-        "enunciado": "Leia o parágrafo: 'O oficial preparou o relatório. Ele estava incompleto. O comandante ficou insatisfeito com ele.' Identifique os problemas de coesão e ambiguidade e assinale a alternativa que os descreve corretamente:",
+        "topico_referencia": "comp-05",
+        "textoBase": "O general visitou a base acompanhado do coronel, que havia sido designado para o setor leste.",
+        "enunciado": "No texto acima, a oração relativa 'que havia sido designado para o setor leste' é ambígua porque pode qualificar tanto 'o general' quanto 'o coronel'.",
         "alternativas": {
-          "A": "Sem problemas; os pronomes retomam claramente seus antecedentes.",
-          "B": "O parágrafo apresenta problemas de coesão referencial que geram ambiguidade: (1) 'Ele estava incompleto' — 'ele' pode retomar 'o oficial' (o oficial estava incompleto em sua tarefa?) ou 'o relatório' (o relatório estava incompleto — leitura mais plausível). (2) 'insatisfeito com ele' — 'ele' pode retomar 'o oficial' (insatisfeito com o oficial) ou 'o relatório' (insatisfeito com o relatório). A cadeia referencial 'ele / ele' com múltiplos antecedentes masculinos viola a coesão textual e gera ambiguidade acumulada.",
-          "C": "O único problema é a repetição de 'ele'; os pronomes são inequívocos.",
-          "D": "O problema é a polissemia de 'insatisfeito': pode ser insatisfeito profissional ou pessoal.",
-          "E": "O parágrafo é bem construído; 'ele' retoma sempre o antecedente mais recente."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "B",
-        "explicacao": "A alternativa B é correta, integrando comp-05 (ambiguidade pronominal) e comp-10 (coesão textual). Koch e Elias (2008) analisam a coesão referencial como mecanismo textual fundamental: pronomes devem retomar antecedentes de forma inequívoca. O parágrafo viola este princípio: (1) 'Ele estava incompleto' — pronome 'ele' com dois antecedentes masculinos no período anterior ('o oficial' e 'o relatório'); embora semanticamente 'o relatório estava incompleto' seja mais plausível, gramaticalmente há ambiguidade; (2) 'insatisfeito com ele' — nova ocorrência de 'ele' ambíguo: o comandante ficou insatisfeito com o relatório (produto) ou com o oficial (responsável)? As duas leituras têm implicações práticas diferentes (avaliar o produto vs. avaliar o responsável). O parágrafo deve ser reescrito com especificação explícita dos referentes. A — há problemas reais de coesão. C — a ambiguidade vai além da repetição. E — a regra do antecedente mais recente não se aplica quando há múltiplos antecedentes do mesmo gênero e número."
+        "gabarito": "A",
+        "explicacao": "A afirmação está correta. O pronome relativo 'que' está posicionado após 'do coronel', o que pela regra de proximidade sugere que retoma 'o coronel'. No entanto, o pronome relativo 'que' é invariável e pode, sintaticamente, retomar tanto 'o general' quanto 'o coronel' — ambos são masculinos singulares e igualmente compatíveis com 'havia sido designado'. Embora a leitura de proximidade favoreça 'o coronel', a gramática não impede a outra leitura, o que mantém a ambiguidade. Para desfazê-la, seria necessário usar 'o qual' (que retoma preferencialmente o antecedente mais distante) ou 'este' (que retoma o mais próximo)."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + gram-05",
-        "enunciado": "Na frase 'O militar foi visitar o capitão doente', a palavra 'doente' é um adjetivo ambíguo. Para identificar as duas leituras e as classes de palavras envolvidas, assinale a alternativa CORRETA:",
+        "topico_referencia": "gram-10",
+        "textoBase": "O sargento concluiu o treinamento e o recruta abandonou o curso.",
+        "enunciado": "Na frase acima, a conjunção 'e' estabelece uma relação de adição simples entre as duas orações, sem qualquer nuance de contraste ou consequência.",
         "alternativas": {
-          "A": "'Doente' é substantivo; sem ambiguidade.",
-          "B": "'Doente' é advérbio que modifica 'visitar'; sem ambiguidade.",
-          "C": "'Doente' é adjetivo que, pela sua posição final na frase, pode ser predicativo do sujeito 'o militar' (o militar, que estava doente, foi visitar o capitão) ou predicativo do objeto 'o capitão' (o militar foi visitar o capitão que estava doente). A classe gramatical é adjetivo (função predicativa) em ambos os casos, mas a referência muda conforme a interpretação — gerando ambiguidade sintática de predicativo.",
-          "D": "'Doente' é predicativo do objeto exclusivamente; sem ambiguidade.",
-          "E": "'Doente' é um particípio do verbo 'doer'; funciona como verbo na frase."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "A alternativa C é correta, integrando comp-05 (ambiguidade sintática) e gram-04 (classes de palavras). 'Doente' é adjetivo de relação qualificativa. Em 'O militar foi visitar o capitão doente', o adjetivo 'doente' pode exercer duas funções sintáticas diferentes: (1) predicativo do sujeito ('o militar') — o militar estava doente e, apesar disso (ou por isso), foi visitar o capitão; (2) adjunto adnominal ou predicativo do objeto 'o capitão' — o militar foi visitar o capitão que estava doente. A posição final posposta ao objeto direto favorece a leitura (2), mas a leitura (1) permanece possível. Esta é ambiguidade sintática por predicativo solto ou adjunto adjetivo mal posicionado — fenômeno da classe adjetivo, não de outras classes. A — 'doente' pode ser substantivo em outros contextos ('o doente'), mas aqui é adjetivo. B e E — classificações incorretas."
+        "gabarito": "B",
+        "explicacao": "A afirmação está errada. A conjunção 'e' é, em termos prototípicos, aditiva — mas seu uso pode veicular sentidos diferentes conforme o contexto. Na frase em questão, as duas orações expressam ideias contrastivas (um concluiu, o outro abandonou), e o 'e' opera com valor adversativo implícito, semelhante ao que seria expresso por 'mas' ou 'enquanto'. A gramática reconhece que a conjunção 'e' pode ter valor adversativo quando as orações coordenadas se contrapõem semanticamente. Dizer que há 'adição simples sem qualquer nuance' é uma leitura simplificada e incorreta para esse contexto."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + gram-06",
-        "enunciado": "Leia: 'As tropas partiram para a missão às três horas. Chegaram ao destino descansadas.' Analise a flexão do adjetivo 'descansadas' e a eventual ambiguidade:",
+        "topico_referencia": "gram-01",
+        "textoBase": "O suboficial foi encarregado de supervisionar o antiaderente utilizado nos equipamentos da cozinha da base.",
+        "enunciado": "A forma 'antiaderente' está grafada corretamente, pois o prefixo 'anti-' seguido de palavra iniciada por consoante não exige hífen.",
         "alternativas": {
-          "A": "'Descansadas' está em discordância com 'tropas'; deveria ser 'descansados'.",
-          "B": "'Descansadas' concorda corretamente com 'tropas' (substantivo feminino plural) e é predicativo do sujeito na segunda oração. Não há ambiguidade: 'descansadas' refere-se inequivocamente a 'as tropas' (único sujeito feminino plural do contexto).",
-          "C": "'Descansadas' deveria ser 'descansados' para concordar com a maioria dos soldados (masculino).",
-          "D": "Há ambiguidade: 'descansadas' pode referir-se às tropas ou ao destino (substantivo masculino, portanto impossível).",
-          "E": "'Descansadas' está incorreto; predicativos do sujeito sempre ficam no masculino singular."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "B",
-        "explicacao": "A alternativa B é correta, integrando comp-05 (ambiguidade / ausência de ambiguidade) e gram-05 (flexão nominal e concordância do adjetivo). 'Descansadas' é adjetivo predicativo do sujeito (predicativo do sujeito na segunda oração: 'Chegaram [ao destino] descansadas'). A flexão está correta: adjetivos predicativos concordam em gênero e número com o sujeito que qualificam. 'As tropas' é substantivo feminino plural → 'descansadas' (feminino plural) — concordância perfeita. Não há ambiguidade: 'tropas' é o único referente feminino plural em todo o contexto, e o predicativo claramente se liga ao sujeito da oração em que aparece. A e C — a flexão feminina 'descansadas' é obrigatória para concordar com 'as tropas' (feminino). D — 'ao destino' é masculino singular, impossível de concordar com 'descansadas'. E — completamente incorreto: predicativos concordam com o substantivo a que se referem."
+        "gabarito": "A",
+        "explicacao": "A afirmação está correta. Pelo Acordo Ortográfico em vigor desde 2016, o prefixo 'anti-' seguido de palavra iniciada por consoante (que não seja 'h' nem a mesma vogal do final do prefixo) não leva hífen. 'Aderente' começa com a vogal 'a', e 'anti-' termina com a vogal 'i' — vogais diferentes, sem hífen: 'antiaderente'. Se a palavra começasse com 'i' (mesma vogal) ou com 'h', o hífen seria obrigatório. A grafia 'antiaderente' está, portanto, correta."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "comp-05 + comp-09",
-        "enunciado": "Leia o trecho: 'O comandante declarou que os resultados foram satisfatórios. Confessou também que algumas decisões poderiam ter sido melhores.' Em discurso indireto, identifique a eventual ambiguidade e o tipo de discurso:",
+        "topico_referencia": "comp-03",
+        "textoBase": "O relatório final da inspeção foi uma bomba para o comando da base, revelando irregularidades graves em três setores.",
+        "enunciado": "A palavra 'bomba' no texto está empregada em sentido conotativo, indicando que o relatório causou grande impacto ou perturbação, e não que era um artefato explosivo.",
         "alternativas": {
-          "A": "Discurso direto; ambiguidade em 'algumas decisões': quais são?",
-          "B": "Discurso indireto livre; sem ambiguidade.",
-          "C": "Discurso indireto: as declarações do comandante são reproduzidas pelo narrador com verbos introdutores ('declarou', 'confessou') e orações subordinadas substantivas. Há ambiguidade referencial em 'algumas decisões poderiam ter sido melhores': as decisões são do próprio comandante (autocrítica), de sua equipe (crítica indireta) ou de superiores hierárquicos (crítica ascendente)? O discurso indireto transfere a voz ao narrador, mas preserva a ambiguidade sobre quem tomou as 'decisões' criticadas — o que pode ser intencional (o comandante critica sem responsabilizar explicitamente).",
-          "D": "Discurso direto com aspas implícitas; sem ambiguidade.",
-          "E": "Discurso indireto livre; ambiguidade total em todas as palavras."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "A alternativa C é correta, integrando comp-05 (ambiguidade) e comp-09 (tipos de discurso). Análise do tipo de discurso: 'O comandante declarou que...' e 'Confessou também que...' são estruturas de discurso indireto — a fala do comandante é reproduzida pelo narrador por meio de verbos dicendi ('declarou', 'confessou') seguidos de orações subordinadas substantivas objetivas diretas. As marcas linguísticas são claras: verbos introdutores + conjunção 'que' + subordinada com verbo em terceira pessoa. Quanto à ambiguidade: 'algumas decisões poderiam ter sido melhores' não especifica o sujeito das decisões — o comandante? a equipe? outros? Esta ambiguidade referencial pode ser: (1) acidental (redação descuidada do narrador); (2) intencional (o comandante, ao usar o discurso indireto como mediação, preserva deliberadamente a ambiguidade sobre de quem são as decisões criticadas — estratégia discursiva de crítica velada). Koch e Elias (2008) analisam como o discurso indireto pode mascarar responsabilidades discursivas."
+        "gabarito": "A",
+        "explicacao": "A afirmação está correta. No contexto apresentado, 'bomba' não se refere a um artefato explosivo (sentido denotativo), mas a algo que causou grande impacto, choque ou perturbação — sentido conotativo e figurado, bastante comum em textos jornalísticos e coloquiais. A expressão 'foi uma bomba para o comando' significa que o relatório teve um efeito devastador ou muito surpreendente, especialmente por revelar irregularidades graves. O contexto ('relatório final da inspeção', 'revelando irregularidades') confirma a leitura conotativa."
       }
     ]
   }

@@ -2,875 +2,868 @@
   "id": "comp-04",
   "titulo": "Elementos Ficcionais e Não Ficcionais",
   "area": "Compreensão e Interpretação de Texto",
-  "resumo": "Distinção entre textos ficcionais — aqueles que constroem mundos imaginários, personagens e eventos inventados — e textos não ficcionais — aqueles ancorados na realidade verificável, com compromisso com a verdade dos fatos. A análise desses elementos é fundamental para compreender pactos de leitura, intenções autorais, estratégias narrativas e a fronteira tênue entre realidade e invenção, especialmente em gêneros híbridos.",
+  "resumo": "Nem todo texto conta a realidade — e nem todo texto que parece real é ficção. Saber distinguir o que é ficcional do que é não ficcional é uma habilidade essencial para interpretar textos com precisão. Textos ficcionais criam mundos imaginados, personagens inventados e situações que não necessariamente aconteceram. Textos não ficcionais relatam, argumentam ou descrevem a realidade com compromisso com a verdade. Neste tópico, você vai aprender a identificar os elementos que marcam cada tipo, entender como eles coexistem em alguns textos e aplicar essa distinção nas questões estilo CEBRASPE, que frequentemente testam se o candidato sabe reconhecer o modo de existência do que está sendo narrado.",
+
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Definição de Texto Ficcional",
-        "conteudo": "Um texto ficcional é aquele cujo conteúdo — personagens, eventos, lugares e situações — é criado pela imaginação do autor, sem correspondência obrigatória com a realidade empírica. O pacto ficcional (ou pacto de leitura) é o acordo implícito entre autor e leitor pelo qual este aceita a existência do mundo narrado como uma realidade interna ao texto, suspendendo temporariamente a exigência de verdade factual. Esse conceito remete à 'suspensão da descrença', formulada pelo poeta inglês Coleridge e amplamente utilizada na teoria literária. Para Fiorin e Savioli (Para entender o texto, Ática 2007), a narrativa ficcional constrói sua própria lógica interna, que deve ser coerente consigo mesma, independentemente de sua correspondência com o mundo exterior. Exemplos canônicos: romances, contos, fábulas, poemas épicos, novelas. Mesmo quando uma obra ficcional se inspira em fatos reais — como um romance histórico —, os eventos são reconfigurados, os diálogos são inventados e os personagens são ficcionalizados, ainda que baseados em figuras históricas reais.",
+        "subtitulo": "1. Ficcional e não ficcional — a diferença fundamental",
+        "conteudo": "Pense em dois relatos sobre um naufrágio: um é o boletim oficial da Marinha descrevendo o acidente com datas, coordenadas e número de vítimas. O outro é um romance que usa um naufrágio imaginado para explorar o medo humano diante da morte. Os dois falam de naufrágio — mas um se compromete com o que aconteceu de verdade, o outro cria uma realidade própria. Essa diferença é o coração da distinção entre ficção e não ficção.\n\nO texto não ficcional tem pacto com a realidade: o autor se compromete a relatar, argumentar ou descrever fatos que existem ou existiram fora do texto. O leitor espera que as informações sejam verificáveis — que uma data seja correta, que um nome seja real, que um dado seja preciso.\n\nO texto ficcional tem pacto com a imaginação: o autor cria personagens, situações e mundos que não precisam ter existido fora do texto. O leitor aceita esse pacto — sabe que está diante de uma construção artística e não cobra verificabilidade dos fatos narrados.\n\nO erro mais comum é confundir 'baseado em fatos reais' com 'não ficcional'. Um romance pode ser inspirado em eventos reais e ainda ser ficcional — o que importa é o pacto com o leitor e o grau de liberdade criativa do autor.",
+        "regra": "Não ficcional = pacto com a realidade · Ficcional = pacto com a imaginação",
         "exemplos": [
-          "O romance 'Dom Casmurro', de Machado de Assis: Bentinho, Capitu e Escobar são personagens ficcionais, ainda que o Rio de Janeiro do século XIX seja cenário histórico real.",
-          "A fábula 'A Lebre e a Tartaruga': animais fictícios agem como humanos para transmitir uma lição moral.",
-          "O conto 'A Cartomante', de Machado de Assis: enredo e personagens inventados, mas com crítica à realidade social brasileira."
-        ],
-        "regra": "Texto ficcional = mundo inventado + pacto de leitura implícito + coerência interna própria. O critério não é 'verdadeiro ou falso', mas 'real ou imaginado'."
+          {
+            "texto_base": "Boletim Interno n° 032/2025 — Base Naval de Natal: No dia 14 de março de 2025, a corveta 'Barroso' concluiu com êxito a Operação Sentinela III, conforme planejado pelo Estado-Maior.",
+            "anotacoes": [
+              {
+                "trecho": "Boletim Interno n° 032/2025",
+                "destaque": "Não ficcional: doc. oficial",
+                "motivo": "Documento oficial com numeração e data — compromete-se com a realidade verificável, característico do texto não ficcional."
+              },
+              {
+                "trecho": "14 de março de 2025",
+                "destaque": "Não ficcional: data real",
+                "motivo": "A data específica é um marcador de realidade — em ficção, datas costumam ser vagas ou claramente inventadas."
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "2. Definição de Texto Não Ficcional",
-        "conteudo": "O texto não ficcional tem compromisso com a realidade verificável: seus enunciados pretendem ser verdadeiros, seus dados são verificáveis e seu autor responde pela veracidade do que afirma. Segundo Koch e Elias (Ler e compreender os sentidos do texto, Contexto 2008), nos textos não ficcionais há um pacto de verdade entre enunciador e leitor: o texto se propõe a informar, argumentar, instruir ou registrar com base em fatos reais, dados comprováveis ou raciocínios lógicos. Incluem-se nessa categoria: notícias jornalísticas, artigos científicos, relatórios, manuais técnicos, biografias documentadas, textos históricos, leis, contratos e o próprio Manual de Redação e Estilo da Marinha (Letras Marítimas 2024). No contexto militar, a precisão factual é imperativa: ordens, relatórios e documentos oficiais pertencem rigorosamente ao domínio não ficcional, pois qualquer distorção pode gerar consequências reais e responsabilização do autor.",
+        "subtitulo": "2. Elementos do texto ficcional",
+        "conteudo": "Imagine que você está lendo um conto sobre um marinheiro que encontra uma sereia durante uma tempestade no Atlântico Sul. Você não para para checar se isso aconteceu de verdade — porque reconhece os elementos ficcionais que sinalizam: estamos no campo da imaginação.\n\nOs principais elementos do texto ficcional são o narrador, o personagem e o enredo. O narrador é a voz que conta a história — pode ser um personagem dentro da história (narrador em primeira pessoa) ou uma voz externa que vê tudo (narrador onisciente). Não confunda narrador com o autor: o autor é a pessoa real que escreveu; o narrador é uma criação.\n\nO personagem é o ser de papel — existe apenas dentro do texto, mesmo que seja inspirado em alguém real. O enredo é a sequência de acontecimentos narrados, com começo, desenvolvimento e desfecho — mesmo que não siga essa ordem na narrativa.\n\nO tempo e o espaço ficcionais também funcionam de forma diferente: podem ser indeterminados ('Era uma vez...'), simbólicos ou completamente inventados.\n\nO erro mais comum é identificar um texto como não ficcional apenas porque ele usa nomes reais de lugares ou períodos históricos. Um romance pode se passar em Recife em 1945 e ainda ser ficcional — o espaço real não transforma a ficção em não ficção.",
+        "regra": "Ficcional: narrador + personagem + enredo · Narrador ≠ autor · Espaço real ≠ não ficcional",
         "exemplos": [
-          "Notícia de jornal: 'A fragata da Marinha do Brasil partiu do Porto de Fortaleza nesta terça-feira.' — enunciado verificável, com compromisso de veracidade.",
-          "Artigo científico sobre resistência de materiais em engenharia naval — dados, experimentos e conclusões verificáveis.",
-          "Relatório militar de inspeção técnica — documento não ficcional por excelência, com responsabilidade legal pelo conteúdo."
-        ],
-        "regra": "Texto não ficcional = pacto de verdade + dados verificáveis + responsabilidade do autor pela veracidade das afirmações."
+          {
+            "texto_base": "O recruta Davi olhou para o horizonte pela última vez antes de embarcar. Sabia que o mar não perdoava hesitações — aprendera isso com o velho sargento que nunca mais voltara de sua última missão.",
+            "anotacoes": [
+              {
+                "trecho": "O recruta Davi",
+                "destaque": "Personagem ficcional",
+                "motivo": "Nome próprio sem referência verificável — é um ser de papel, criado para habitar a narrativa ficcional."
+              },
+              {
+                "trecho": "o velho sargento que nunca mais voltara",
+                "destaque": "Ficcional: personagem ausente",
+                "motivo": "Personagem referido mas nunca apresentado formalmente — recurso narrativo ficcional para criar profundidade emocional."
+              },
+              {
+                "trecho": "o mar não perdoava hesitações",
+                "destaque": "Ficcional: voz narrativa",
+                "motivo": "Afirmação do narrador com tom reflexivo — característica da voz narrativa ficcional, não de documento oficial."
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "3. Elementos Constitutivos do Texto Ficcional",
-        "conteudo": "Os elementos ficcionais podem ser analisados em categorias específicas que compõem a arquitetura do texto literário. Segundo Fiorin e Savioli, os principais são: (a) Narrador — instância textual que conduz a narrativa; não deve ser confundido com o autor real. O narrador pode ser onisciente (sabe tudo sobre os personagens), observador (relata apenas o que vê externamente) ou personagem (participa da história em primeira pessoa). (b) Personagem — ser de papel, construído pela linguagem, com psicologia, motivações e trajetória próprias. (c) Enredo — sequência de eventos organizados segundo uma lógica narrativa (situação inicial, conflito, clímax, desfecho). (d) Espaço — ambiente onde a ação se desenvolve, podendo ser físico, psicológico ou social. (e) Tempo — pode ser cronológico (sequência linear de datas e horas) ou psicológico (tempo da memória, da consciência, dos flashbacks). (f) Foco narrativo — perspectiva a partir da qual a história é contada (1ª ou 3ª pessoa). O domínio desses elementos é exigido em provas de Língua Portuguesa para identificar estratégias narrativas e responder questões sobre interpretação de textos literários.",
+        "subtitulo": "3. Elementos do texto não ficcional",
+        "conteudo": "Agora pense num relatório de operação naval: ele tem data, local, nomes de militares, resultados mensuráveis e assinatura de responsável. Cada um desses elementos existe para ancorar o texto na realidade — para que o leitor saiba que está diante de um compromisso com o que aconteceu.\n\nOs textos não ficcionais incluem uma variedade enorme de gêneros: reportagens, artigos científicos, portarias, relatórios, memórias, biografias, dissertações, textos jornalísticos, bulas de remédio, editais. O que os une é o pacto com a realidade: o autor se responsabiliza pela verdade do que afirma.\n\nOs principais marcadores do não ficcional são: referências temporais precisas (datas, horas), identificação de pessoas reais (nomes completos, cargos), dados verificáveis (números, estatísticas, fontes citadas), linguagem objetiva e impessoal, e a presença de um enunciador real — não um narrador inventado.\n\nAlguns textos não ficcionais podem conter elementos literários, como metáforas e figuras de linguagem. Isso não os transforma em ficção — um editorial jornalístico pode ser poético e ainda não ser ficcional.\n\nO erro mais comum é confundir a presença de linguagem literária com ficcionalidade. A linguagem figurada é um recurso expressivo que aparece em qualquer tipo de texto.",
+        "regra": "Não ficcional: enunciador real + dados verificáveis + pacto com a verdade · Linguagem literária ≠ ficcionalidade",
         "exemplos": [
-          "Narrador onisciente: 'Ele não sabia, mas aquela seria sua última viagem.' — o narrador sabe o que o personagem ignora.",
-          "Narrador-personagem: 'Eu a vi partir e nunca mais soube seu destino.' — narra em 1ª pessoa, com visão limitada.",
-          "Tempo psicológico: 'De repente, sem avisar, os anos voltaram — ele estava de novo na escola, ouvindo a voz da professora.' — flashback como recurso narrativo."
-        ],
-        "regra": "Elementos ficcionais = narrador + personagem + enredo + espaço + tempo + foco narrativo. Identificar esses elementos é identificar a arquitetura da ficção."
+          {
+            "texto_base": "Relatório de Operação n° 17/2025 — Em 22 de abril de 2025, a Força de Superfície da 2ª Esquadra concluiu o patrulhamento da Zona Econômica Exclusiva, registrando zero ocorrências de pesca ilegal. Responsável: CF Marques.",
+            "anotacoes": [
+              {
+                "trecho": "Relatório de Operação n° 17/2025",
+                "destaque": "Não ficcional: gênero documental",
+                "motivo": "Relatório oficial numerado — gênero não ficcional por natureza, com função informativa e responsabilização do emissor."
+              },
+              {
+                "trecho": "CF Marques",
+                "destaque": "Não ficcional: enunciador real",
+                "motivo": "A identificação do responsável pelo documento é um marcador de não ficção — há uma pessoa real respondendo pelo conteúdo."
+              },
+              {
+                "trecho": "zero ocorrências de pesca ilegal",
+                "destaque": "Não ficcional: dado verificável",
+                "motivo": "Dado numérico objetivo e verificável — característica do texto não ficcional comprometido com a precisão factual."
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "4. Gêneros Híbridos: A Fronteira entre Ficção e Não Ficção",
-        "conteudo": "Nem todo texto se encaixa perfeitamente em uma das duas categorias. Existem gêneros híbridos que mesclam elementos ficcionais e não ficcionais, criando tensões interpretativas importantes para provas. (a) Autoficção: narrativa em que o autor usa seu próprio nome e dados biográficos reais, mas inventa ou distorce eventos. O 'eu' narrador coincide nominalmente com o autor, mas os fatos são ficcionalizados. (b) Romance histórico: baseia-se em eventos e personagens históricos reais, mas os reconstrói ficcionalmente. A batalha de Trafalgar, por exemplo, pode ser cenário de um romance onde almirantes reais convivem com marinheiros inventados. (c) Crônica literária: parte de fatos cotidianos reais, mas os transforma por meio da subjetividade do autor e de recursos estilísticos literários. (d) Biografia romanceada: conta a vida de uma pessoa real, mas com diálogos reconstituídos e cenas imaginárias. (e) Docuficção ou faction: mescla documentos reais com elementos narrativos inventados. Para Koch e Elias, nesses gêneros o leitor deve ativar diferentes competências leitoras, oscilando entre o pacto de verdade e o pacto ficcional conforme as marcas textuais.",
+        "subtitulo": "4. Textos híbridos — quando ficção e realidade se misturam",
+        "conteudo": "Alguns textos desafiam a classificação simples. Pense num romance histórico que reconstrói batalhas reais com personagens inventados, ou numa autobiografia em que o autor reinterpreta sua própria vida com elementos claramente romanceados. Esses textos são híbridos — combinam elementos ficcionais e não ficcionais.\n\nO romance histórico usa eventos, datas e personagens reais como pano de fundo, mas cria diálogos, motivações e situações internas que nunca poderiam ser verificadas. A história serve de moldura; a ficção preenche o interior.\n\nO relato memorialístico (memórias, autobiografias) tem um pacto ambíguo: o autor se compromete com o que viveu, mas a memória é seletiva e subjetiva — frequentemente, o autor reconstrói o passado com liberdade literária. Por isso, memórias são classificadas como 'não ficção criativa' ou 'literatura de não ficção'.\n\nA crônica é outro caso interessante: pode ser baseada em fato real observado pelo cronista, mas recebê-lo com recursos ficcionais (personagens, diálogos, narração). Muitas crônicas oscilam entre o jornalístico e o literário.\n\nO erro mais comum ao lidar com textos híbridos é tentar classificá-los numa categoria pura. O CEBRASPE pode cobrar a identificação de qual elemento é ficcional e qual é não ficcional dentro de um mesmo texto — a habilidade está em separar os planos.",
+        "regra": "Híbrido: ficção + realidade no mesmo texto · Romance histórico, crônica, memórias · Separe os planos, não force uma categoria",
         "exemplos": [
-          "Crônica de Rubem Braga: parte de um fato cotidiano (um pássaro na janela) e o transforma em reflexão poética — híbrido entre jornalismo e literatura.",
-          "Romance histórico 'O Tempo e o Vento', de Érico Veríssimo: personagens fictícios convivem com o contexto histórico gaúcho real.",
-          "Autoficção em 'Leite Derramado', de Chico Buarque: narrador tem traços do autor, mas eventos são manifestamente ficcionais."
-        ],
-        "regra": "Gênero híbrido = mistura controlada de pacto ficcional e pacto de verdade. Identificar as marcas textuais que sinalizam qual pacto está em vigor é a chave para a interpretação correta."
+          {
+            "texto_base": "Era 1917, e o velho faroleiro de Maceió acendia sua lanterna todas as noites pensando nos navios de guerra que cruzavam o Atlântico. Não sabia que seu próprio filho estava a bordo de um deles.",
+            "anotacoes": [
+              {
+                "trecho": "Era 1917",
+                "destaque": "Híbrido: data histórica real",
+                "motivo": "Ano real da Primeira Guerra Mundial — ancora o texto na história, mas o faroleiro e o filho são personagens ficcionais."
+              },
+              {
+                "trecho": "o velho faroleiro de Maceió",
+                "destaque": "Híbrido: personagem ficcional",
+                "motivo": "Personagem inventado inserido num contexto histórico real — característica do romance histórico e textos híbridos."
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "5. Recursos Ficcionais em Textos Não Ficcionais e Vice-Versa",
-        "conteudo": "Um fenômeno textual relevante para provas é o emprego de recursos tipicamente ficcionais em textos não ficcionais, e vice-versa. (a) Recursos ficcionais em textos não ficcionais: jornalismo literário e reportagem narrativa utilizam técnicas como descrição de cenas, diálogos reconstituídos, construção de suspense e foco narrativo — sem abrir mão do compromisso com a veracidade dos fatos. O Manual de Redação e Estilo da Marinha (Letras Marítimas 2024) admite, em comunicações institucionais, o uso de exemplos narrativos para tornar instruções mais claras, mas mantém o compromisso com a precisão factual. (b) Referências ao real em textos ficcionais: obras literárias frequentemente incorporam dados históricos, geográficos e científicos reais para conferir verossimilhança — a capacidade de parecer verdadeiro dentro da lógica do texto, mesmo sendo ficção. Verossimilhança não é veracidade: um conto pode descrever com precisão cirúrgica o funcionamento de um submarino nuclear sem que a história seja verdadeira. (c) Metalinguagem ficcional: quando um texto ficcional discute sua própria condição de ficção, rompendo a ilusão do pacto ficcional. Segundo Fiorin e Savioli, esse recurso — comum no romance moderno e pós-moderno — revela ao leitor os mecanismos de construção da narrativa, questionando a própria fronteira entre real e inventado.",
+        "subtitulo": "5. Autor, narrador e enunciador — não confunda",
+        "conteudo": "Esta distinção parece simples, mas é das mais cobradas em prova. Imagine que você lê um conto em que o narrador diz: 'Eu nunca tive medo de nada.' Isso significa que o autor do conto é corajoso? Não necessariamente — o narrador é uma criação, não um porta-voz automático do autor.\n\nO autor é a pessoa real, de carne e osso, que escreveu o texto. Tem uma biografia, uma visão de mundo, um contexto histórico.\n\nO narrador é uma figura construída dentro do texto ficcional para contar a história. Pode ser um personagem ou uma voz externa. O narrador não tem existência fora do texto.\n\nO enunciador é o sujeito que fala nos textos não ficcionais — o jornalista que assina a reportagem, o oficial que assina o relatório, o candidato que redige o e-mail. O enunciador tem identidade real e responsabilidade sobre o que diz.\n\nO CEBRASPE frequentemente cria afirmações do tipo: 'No texto, o autor defende que...' — quando na verdade quem defende é o narrador ou um personagem. Saber essa diferença evita armadilhas clássicas.\n\nO erro mais comum é atribuir ao autor as opiniões e atitudes do narrador ou dos personagens em textos ficcionais.",
+        "regra": "Autor = pessoa real · Narrador = voz ficcional criada · Enunciador = sujeito real do texto não ficcional",
         "exemplos": [
-          "Jornalismo literário: 'A Sangue Frio', de Truman Capote — relato de um crime real narrado com técnicas do romance, sem ficção nos fatos.",
-          "Verossimilhança: Em '20.000 Léguas Submarinas', de Júlio Verne, os detalhes técnicos do Nautilus são inventados, mas descritos com precisão científica que os torna plausíveis.",
-          "Metalinguagem: Em 'Dom Quixote', Cervantes insere capítulos onde os personagens discutem o livro que estão protagonizando, rompendo o pacto ficcional para comentá-lo."
-        ],
-        "regra": "Verossimilhança ≠ veracidade. Um texto pode ser ficção e soar verdadeiro (verossímil), ou ser não ficcional e parecer incrível. O critério é sempre o pacto estabelecido, não a aparência do conteúdo."
+          {
+            "texto_base": "O capitão ergueu os olhos para o céu encoberto e murmurou: 'Deus protege os loucos e os marinheiros.' O narrador acrescentou que nenhum dos dois estava presente naquela noite.",
+            "anotacoes": [
+              {
+                "trecho": "O capitão ergueu os olhos",
+                "destaque": "Personagem ficcional",
+                "motivo": "O capitão é um personagem — suas ações e falas existem apenas dentro da narrativa, não representam o autor."
+              },
+              {
+                "trecho": "O narrador acrescentou",
+                "destaque": "Narrador explícito",
+                "motivo": "Referência explícita ao narrador como voz da narrativa — distinto do autor e dos personagens."
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "6. Identificação de Elementos Ficcionais e Não Ficcionais em Provas",
-        "conteudo": "Em provas militares, as questões sobre ficção e não ficção testam a capacidade do candidato de identificar marcas textuais que sinalizam o tipo de pacto em vigor. As principais marcas do texto ficcional são: uso de personagens sem referência a pessoas reais existentes; verbos no pretérito imperfeito ou perfeito com valor de 'era uma vez'; narrador claramente distinto do autor; diálogos entre personagens fictícios; espaço e tempo indeterminados ou claramente inventados; presença de elementos fantásticos ou improváveis sem questionamento pelo narrador. As principais marcas do texto não ficcional são: referência a fatos, datas e lugares verificáveis; citação de fontes, dados estatísticos ou referências bibliográficas; uso de terminologia técnica ou científica; presença de um enunciador que se responsabiliza pelo que afirma; ausência de narrador ficcional (o 'eu' é o próprio autor). Para Cunha e Cintra (Nova Gramática do Português Contemporâneo, Lexikon 2017), a distinção entre discurso direto (fala de personagem) e discurso indireto contribui para identificar a natureza ficcional de um texto narrativo, pois o discurso direto implica a construção de vozes fictícias.",
+        "subtitulo": "6. Como o CEBRASPE testa esse conteúdo",
+        "conteudo": "O CEBRASPE raramente pede que você defina 'texto ficcional' na prova de Língua Portuguesa do RM2. O que ele faz é apresentar um texto e perguntar coisas como: 'O texto pertence ao domínio ficcional porque...' ou 'O narrador do texto é identificado como...' ou 'A afirmação X foi feita pelo autor, pelo narrador ou pelo personagem?'\n\nPara responder com segurança, aplique este protocolo de três perguntas ao texto: Há um pacto com a realidade ou com a imaginação? Se há personagens inventados, narrador construído e enredo imaginado, é ficcional. Se há dados verificáveis, enunciador identificável e compromisso com a verdade, é não ficcional.\n\nDe quem é a voz? Não atribua ao autor o que é do narrador ou do personagem. Procure marcas textuais: verbos de elocução ('disse', 'afirmou', 'pensou'), travessões de fala, vozes explícitas.\n\nO texto tem marcas híbridas? Se sim, identifique qual elemento é ficcional e qual não é — e responda à pergunta específica da questão sem forçar uma classificação global.\n\nO erro mais comum em prova é responder pela impressão geral ('parece um texto real') sem analisar os elementos textuais que o definem.",
+        "regra": "Três perguntas: pacto (realidade ou imaginação?) · voz (autor, narrador ou personagem?) · híbrido? (separe os planos)",
         "exemplos": [
-          "Marca ficcional: 'Havia uma vez um capitão que jamais havia perdido uma batalha...' — indefinição temporal ('havia uma vez') sinaliza ficção.",
-          "Marca não ficcional: 'Segundo o relatório da Diretoria de Engenharia Naval, publicado em março de 2024...' — referência verificável, fonte citada.",
-          "Marca híbrida: 'O almirante Nelson, ao ver a frota inimiga aproximar-se, teria dito a seus oficiais...' — fato histórico + diálogo reconstituído = gênero híbrido."
-        ],
-        "regra": "Para identificar o tipo de texto: procure o pacto (ficcional ou de verdade), as marcas textuais (narrador, fontes, dados, tempo/espaço) e a função comunicativa (entreter/emocionar × informar/convencer/instruir)."
+          {
+            "texto_base": "Em seu discurso de formatura, o capitão-de-fragata disse: 'A Marinha nos forma para servir, não para nos servir.' Anos depois, esse mesmo oficial seria o personagem central de um romance sobre a Guerra das Malvinas.",
+            "anotacoes": [
+              {
+                "trecho": "Em seu discurso de formatura",
+                "destaque": "Não ficcional: evento real",
+                "motivo": "Discurso de formatura é evento real e público — o trecho relata um fato, com compromisso de realidade."
+              },
+              {
+                "trecho": "o personagem central de um romance",
+                "destaque": "Ficcional: menção à ficção",
+                "motivo": "O romance transforma o oficial real em personagem ficcional — a pessoa real inspira a ficção, mas não a habita diretamente."
+              }
+            ]
+          }
+        ]
       }
     ]
   },
+
   "pegadinhas": [
     {
-      "titulo": "Narrador ≠ Autor",
-      "errado": "Em um conto narrado em primeira pessoa, o narrador expressa as opiniões do autor.",
-      "correto": "O narrador é uma instância textual criada pelo autor; suas opiniões pertencem ao personagem-narrador, não necessariamente ao autor real.",
-      "explicacao": "Esta é uma das confusões mais frequentes em provas. Mesmo quando o narrador usa a primeira pessoa e parece confessar intimidades, trata-se de uma voz ficcional construída. Machado de Assis não é Brás Cubas, embora ambos compartilhem ironia. Em provas, questões que perguntam 'o que o autor quis dizer' exigem cuidado: se o texto é ficcional, a resposta deve considerar a perspectiva do narrador ou do personagem, não a biografia do autor.",
+      "titulo": "Espaço real não garante texto não ficcional",
+      "errado": "Como o conto se passa no Rio de Janeiro e menciona a Baía de Guanabara, trata-se de um texto não ficcional.",
+      "correto": "Mesmo mencionando lugares reais como o Rio de Janeiro e a Baía de Guanabara, o conto continua sendo um texto ficcional.",
+      "explicacao": "O critério de ficcionalidade não é o espaço geográfico, mas o pacto com o leitor e a existência verificável dos fatos narrados. Um romance pode se passar em qualquer cidade real e ainda ser ficção. O que define a ficção é a criação de personagens e eventos que não precisam ter ocorrido, não a realidade dos cenários usados.",
       "nivel": "basico"
     },
     {
-      "titulo": "Verossimilhança confundida com Veracidade",
-      "errado": "O texto é não ficcional porque descreve com precisão técnica o funcionamento de um submarino nuclear.",
-      "correto": "A precisão técnica cria verossimilhança, não veracidade. O texto pode ser ficcional e soar completamente plausível.",
-      "explicacao": "Verossimilhança é a qualidade de parecer verdadeiro dentro da lógica do texto. Um romance de ficção científica pode descrever tecnologias com rigor científico sem deixar de ser ficção. Candidatos erram ao confundir o grau de realismo de um texto com sua natureza ficcional ou não ficcional. O critério é sempre o pacto estabelecido entre autor e leitor, não a aparência do conteúdo.",
+      "titulo": "Confundir autor com narrador",
+      "errado": "No conto, o narrador afirma que 'nunca acreditou em heróis de farda'. Portanto, o autor do texto é contrário ao militarismo.",
+      "correto": "O narrador afirma que 'nunca acreditou em heróis de farda', mas essa é uma posição da voz narrativa criada, não necessariamente uma opinião do autor.",
+      "explicacao": "O narrador é uma figura construída dentro do texto ficcional — não é o porta-voz automático do autor. O autor pode criar narradores com visões de mundo completamente opostas às suas. Atribuir ao autor as opiniões do narrador é um erro clássico de interpretação ficcional, muito explorado pelo CEBRASPE.",
       "nivel": "basico"
     },
     {
-      "titulo": "Romance Histórico como Texto Não Ficcional",
-      "errado": "Por retratar eventos históricos reais, o romance histórico é classificado como texto não ficcional.",
-      "correto": "O romance histórico é ficcional: mesmo usando cenários e personagens históricos, reconstrói eventos por meio da imaginação e inventa diálogos, motivações e cenas.",
-      "explicacao": "A presença de elementos históricos reais não transforma um texto em não ficcional. No romance histórico, os fatos reais funcionam como pano de fundo para uma narrativa inventada. A confusão ocorre porque o leitor reconhece os nomes e eventos reais, mas o tratamento que lhes é dado — diálogos imaginados, pensamentos reconstituídos, cenas inventadas — é essencialmente ficcional. O pacto com o leitor é de ficção, não de verdade.",
+      "titulo": "Memórias tratadas como ficção pura",
+      "errado": "Por conter elementos subjetivos e literários, o texto memorialístico do almirante é classificado como ficcional.",
+      "correto": "O texto memorialístico do almirante é não ficcional, mesmo contendo elementos subjetivos e literários — o autor se compromete com eventos que viveu.",
+      "explicacao": "Memórias e autobiografias pertencem ao campo da não ficção (ou 'não ficção criativa'), pois o autor relata sua própria experiência e assume responsabilidade pela veracidade dos fatos. A presença de linguagem literária e subjetividade não transforma o texto em ficcional — o pacto com a realidade vivida permanece.",
       "nivel": "intermediario"
     },
     {
-      "titulo": "Crônica como Texto Puramente Jornalístico",
-      "errado": "A crônica, por aparecer em jornais e revistas, é um texto não ficcional.",
-      "correto": "A crônica é um gênero híbrido: parte de fatos cotidianos reais, mas os transforma por meio de recursos literários (metáfora, ironia, subjetividade), sendo classificada como texto literário de fronteira.",
-      "explicacao": "O suporte (jornal, revista) não determina a natureza ficcional ou não ficcional de um texto. A crônica literária — produzida por autores como Rubem Braga, Clarice Lispector e Carlos Drummond de Andrade — pertence ao domínio da literatura, não do jornalismo informativo puro, embora parta de situações reais. Confundir suporte com gênero é um erro clássico em provas.",
-      "nivel": "avancado"
+      "titulo": "Romance histórico tratado como não ficcional",
+      "errado": "O romance descreve com precisão a Batalha Naval do Riachuelo, com datas e personagens históricos. Logo, é um texto não ficcional.",
+      "correto": "Mesmo descrevendo com precisão eventos históricos, o romance continua sendo ficcional — os diálogos, as motivações internas dos personagens e os eventos não documentados são criações do autor.",
+      "explicacao": "O romance histórico usa a história como cenário, mas preenche esse cenário com elementos ficcionais: diálogos imaginados, conflitos internos dos personagens, cenas não documentadas. A precisão histórica de alguns elementos não transforma o gênero — o texto continua operando sob o pacto ficcional.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Primeira Pessoa como Garantia de Texto Não Ficcional",
-      "errado": "Todo texto narrado em primeira pessoa é autobiográfico e, portanto, não ficcional.",
-      "correto": "A narração em primeira pessoa pode ser recurso ficcional. O narrador-personagem é uma criação do autor, não o próprio autor.",
-      "explicacao": "A autoficção e o romance em primeira pessoa exploram exatamente essa ambiguidade. Em 'Memórias Póstumas de Brás Cubas', o narrador fala em primeira pessoa, mas é um personagem fictício. A questão que distingue autobiografia (não ficcional) de romance em primeira pessoa (ficcional) é o pacto estabelecido pelo autor: na autobiografia, há compromisso explícito com a veracidade dos fatos narrados; no romance, esse compromisso é suspenso pelo pacto ficcional.",
+      "titulo": "Crônica classificada erroneamente como puramente ficcional ou jornalística",
+      "errado": "A crônica, por ser publicada em jornal, é necessariamente um texto não ficcional, sem elementos ficcionais.",
+      "correto": "A crônica é um gênero híbrido: pode ser baseada em fato real observado pelo cronista, mas tratá-lo com personagens, diálogos e recursos narrativos ficcionais.",
+      "explicacao": "A crônica ocupa uma posição intermediária entre o jornalismo e a literatura. Ela pode partir de um fato real — o que a aproxima do não ficcional — mas transforma esse fato com liberdade literária: inventa personagens, constrói cenas, usa voz narrativa. Sua publicação em jornal não a torna automaticamente jornalística — muitos cronistas são primeiramente escritores.",
       "nivel": "avancado"
     }
   ],
+
   "cascas_de_banana": [
     {
-      "situacao": "A questão apresenta um texto com narrador em primeira pessoa que usa o nome do autor e descreve situações aparentemente autobiográficas, perguntando se é ficcional ou não ficcional.",
-      "dica": "Leia as marcas textuais com atenção: se houver elementos claramente impossíveis ou improváveis, diálogos entre o 'eu' e personagens inventados, ou se o texto for apresentado em coletânea literária, trata-se provavelmente de autoficção — gênero híbrido predominantemente ficcional. O uso do nome do autor não garante que o texto seja não ficcional.",
+      "situacao": "Julgar a ficcionalidade de um texto pela linguagem, não pelo pacto com o leitor.",
+      "dica": "Um texto pode usar metáforas, ritmo e imagens poéticas e ainda ser não ficcional — pense nos discursos de formatura, nos editoriais literários ou nas crônicas jornalísticas. Da mesma forma, um texto pode ser seco e técnico e ainda ser ficção científica especulativa. O critério é o pacto: o autor se compromete com a realidade ou com a imaginação? Procure marcadores concretos: há personagens identificáveis como inventados? Há dados verificáveis? Há enunciador real responsável pelo conteúdo?",
       "nivel": "basico"
     },
     {
-      "situacao": "A prova pede para identificar o 'elemento não ficcional' em um trecho de romance histórico, e uma das alternativas menciona os nomes de personagens históricos reais presentes no texto.",
-      "dica": "Personagens históricos reais inseridos em um romance são ficcionalizados: seus diálogos, pensamentos e ações são inventados pelo autor. O elemento 'não ficcional' em um romance histórico é o cenário e o contexto histórico verificável (datas, batalhas, regimes políticos), não a presença de nomes históricos, pois estes são tratados ficcionalmente no texto.",
+      "situacao": "Atribuir ao autor do texto ficcional as ideias expressas pelo narrador ou pelos personagens.",
+      "dica": "Em provas CEBRASPE, fique atento a afirmações do tipo 'o autor defende que...' ou 'segundo o autor...' quando o texto é claramente ficcional. Nesse caso, a afirmação só é válida se estiver se referindo ao narrador ou ao personagem, não ao autor real. Se a questão diz 'o narrador afirma', cheque se a voz é mesmo do narrador ou de um personagem dentro da narrativa — são instâncias diferentes.",
       "nivel": "intermediario"
     },
     {
-      "situacao": "A questão afirma que um texto é ficcional porque contém elementos fantásticos (como um personagem que voa), mas outra alternativa sugere que pode ser não ficcional se o contexto for mítico ou religioso.",
-      "dica": "Elementos sobrenaturais ou fantásticos são marcas fortes de ficção, mas textos míticos, religiosos e lendários ocupam uma categoria especial — nem sempre são tratados como ficção pelos grupos que os professam. Em provas de Língua Portuguesa, o critério é textual e funcional: qual é o pacto estabelecido pelo texto e qual é a função comunicativa predominante? Mitos e lendas são geralmente classificados como textos ficcionais na tradição literária, embora possam ter função cultural não ficcional para determinadas comunidades.",
+      "situacao": "Forçar classificação pura em textos deliberadamente híbridos.",
+      "dica": "Quando o CEBRASPE apresenta uma crônica, um romance histórico ou um texto memorialístico, ele pode perguntar sobre um elemento específico — 'qual parte é ficcional?' ou 'o episódio X é relatado como factual ou como construção narrativa?'. Responder que o texto inteiro é ficcional ou inteiro não ficcional pode estar errado. Treine identificar os planos dentro de um único texto: o cenário histórico pode ser real enquanto os personagens são inventados, ou vice-versa.",
       "nivel": "avancado"
     }
   ],
+
   "questoes": [
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa que apresenta a definição correta de texto ficcional.",
+      "enunciado": "O texto ficcional se caracteriza pelo pacto com a imaginação, enquanto o texto não ficcional se caracteriza pelo pacto com a realidade.",
       "alternativas": {
-        "A": "Texto cujo conteúdo é necessariamente falso e sem nenhuma relação com a realidade.",
-        "B": "Texto cujo conteúdo é criado pela imaginação do autor, com um pacto implícito de que o mundo narrado é inventado.",
-        "C": "Texto escrito por um autor desconhecido, sem referências biográficas verificáveis.",
-        "D": "Texto que utiliza linguagem conotativa e figuras de linguagem para expressar emoções.",
-        "E": "Texto produzido exclusivamente em suportes literários, como livros e revistas especializadas."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "B é a definição correta: texto ficcional é aquele cujo conteúdo é construído pela imaginação do autor, com um pacto implícito (acordo entre autor e leitor) de que o mundo narrado é inventado — não é necessariamente falso (A), pois pode conter verdades históricas ou científicas; não depende do anonimato do autor (C); o uso de linguagem conotativa (D) é um recurso estilístico que pode aparecer tanto em textos ficcionais quanto não ficcionais; e o suporte (E) não determina a natureza ficcional de um texto."
+      "gabarito": "A",
+      "explicacao": "A afirmativa está correta e sintetiza a distinção fundamental entre os dois tipos de texto. O texto ficcional cria mundos, personagens e situações que não precisam existir fora do texto — o autor opera sob liberdade criativa. O texto não ficcional assume responsabilidade pela veracidade do que afirma — o autor se compromete com a realidade verificável."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "O 'pacto de verdade', conceito central para Koch e Elias, caracteriza os textos:",
+      "enunciado": "Um texto que narra fatos reais com precisão de datas e nomes é necessariamente não ficcional.",
       "alternativas": {
-        "A": "Ficcionais, pois o leitor aceita como verdadeiro o mundo inventado pelo autor.",
-        "B": "Híbridos, pois mesclam elementos reais e inventados numa mesma narrativa.",
-        "C": "Não ficcionais, pois neles o autor se compromete com a veracidade e verificabilidade do que afirma.",
-        "D": "Poéticos, pois a poesia sempre expressa verdades subjetivas sobre o mundo.",
-        "E": "Técnicos, pois apenas documentos técnicos e científicos possuem compromisso com a verdade."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "O pacto de verdade é o acordo implícito nos textos não ficcionais (C) pelo qual o autor se compromete a relatar fatos verificáveis e o leitor espera que o conteúdo corresponda à realidade. O pacto ficcional (A) é o oposto — nele o leitor aceita o mundo inventado sem exigir correspondência com a realidade. Textos híbridos (B) transitam entre os dois pactos. Poesia (D) pode ser ficcional ou não ficcional. Textos técnicos (E) são não ficcionais, mas o pacto de verdade não se limita a eles — inclui jornalismo, história, biografia documentada, etc."
+      "gabarito": "B",
+      "explicacao": "A afirmativa está errada. Um texto ficcional pode conter datas e nomes reais — como acontece no romance histórico — e ainda assim ser ficção. O critério não é a presença de elementos reais, mas o pacto com o leitor e a natureza do compromisso do autor com a verdade. Precisão de datas e nomes pode aparecer tanto em ficção histórica quanto em documentos oficiais."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Em um conto, o narrador afirma: 'Eu, capitão dos ventos, comandei tempestades que afundaram cem navios.' Que elemento ficcional está sendo empregado?",
+      "enunciado": "Personagem, narrador e enredo são elementos típicos do texto ficcional.",
       "alternativas": {
-        "A": "Narrador onisciente neutro, que relata fatos históricos verificáveis.",
-        "B": "Narrador-personagem, que participa da ação como sujeito do relato fictício.",
-        "C": "Narrador observador, que descreve cenas de fora sem participar da ação.",
-        "D": "Autor implícito, que revela sua identidade real por meio da narrativa.",
-        "E": "Voz lírica, característica exclusiva da poesia e ausente na prosa narrativa."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "A frase usa a primeira pessoa ('Eu... comandei') e o narrador se apresenta como participante da ação ('capitão dos ventos') — caracteriza o narrador-personagem (B), que participa da história como sujeito do relato. O narrador onisciente (A) usa a terceira pessoa e sabe tudo sobre os personagens; o narrador observador (C) relata de fora sem participar; o autor implícito (D) é uma construção crítica que não se confunde com o narrador; a voz lírica (E) pertence à poesia, não é um tipo de narrador em prosa narrativa."
+      "gabarito": "A",
+      "explicacao": "A afirmativa está correta. Personagem, narrador e enredo são os elementos centrais da narrativa ficcional. O personagem é um ser de papel — existe apenas dentro do texto. O narrador é a voz criada para contar a história. O enredo é a sequência de acontecimentos narrados. Esses três elementos juntos caracterizam textos como contos, romances, novelas e outros gêneros ficcionais."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Qual dos seguintes textos é um exemplo de texto NÃO ficcional?",
+      "textoBase": "Portaria n° 78/2025 — COMB: Fica designado o capitão-de-fragata Fonseca para assumir o comando interino da Base Naval de Aratu a partir de 1° de maio de 2025.",
+      "enunciado": "O trecho acima é um exemplo de texto não ficcional.",
       "alternativas": {
-        "A": "Um conto sobre um submarino que viaja ao centro da Terra.",
-        "B": "Uma fábula em que animais marinhos deliberam sobre leis do oceano.",
-        "C": "Um relatório técnico de inspeção de equipamentos navais com dados verificáveis.",
-        "D": "Um romance histórico ambientado na Batalha de Trafalgar.",
-        "E": "Uma crônica literária sobre o cotidiano de um marinheiro imaginário."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "O relatório técnico (C) é um texto não ficcional: seu conteúdo é verificável, o autor se responsabiliza pela veracidade dos dados e não há invenção de fatos. O conto (A) e a fábula (B) são ficcionais por definição. O romance histórico (D) é ficcional mesmo usando cenário histórico real. A crônica sobre 'marinheiro imaginário' (E) indica explicitamente elemento ficcional."
+      "gabarito": "A",
+      "explicacao": "A portaria é um documento oficial não ficcional: tem numeração, data, identificação de pessoa real (capitão-de-fragata Fonseca), local verificável (Base Naval de Aratu) e efeito jurídico no mundo real. O enunciador é identificável e responsável pelo conteúdo. Todos esses elementos caracterizam o texto não ficcional comprometido com a realidade."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "O enredo é um dos elementos constitutivos do texto ficcional narrativo. Qual das definições abaixo descreve corretamente o enredo?",
+      "enunciado": "O autor de um texto ficcional e o narrador desse mesmo texto são a mesma pessoa.",
       "alternativas": {
-        "A": "O ambiente físico onde a narrativa se desenvolve, podendo ser real ou imaginário.",
-        "B": "A sequência de eventos organizados segundo uma lógica narrativa, com situação inicial, conflito, clímax e desfecho.",
-        "C": "A perspectiva a partir da qual a história é contada, em primeira ou terceira pessoa.",
-        "D": "O conjunto de características psicológicas e físicas que definem os personagens.",
-        "E": "O tempo cronológico em que os eventos da narrativa estão situados."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "O enredo (B) é a sequência de eventos narrativos organizados com lógica própria — situação inicial, conflito, desenvolvimento, clímax e desfecho. O ambiente (A) é o espaço narrativo. O foco narrativo (C) refere-se à perspectiva do narrador. O conjunto de características dos personagens (D) diz respeito à caracterização dos personagens. O tempo cronológico (E) é um dos tipos de tempo narrativo, não o enredo."
+      "explicacao": "A afirmativa está errada. O autor é a pessoa real que escreveu o texto — tem biografia, visão de mundo e contexto histórico. O narrador é uma criação literária que existe apenas dentro do texto ficcional para contar a história. Um mesmo autor pode criar narradores com personalidades, opiniões e visões de mundo completamente diferentes das suas. Confundir os dois é um erro clássico de interpretação."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "A verossimilhança, conceito central para a ficção, significa que um texto ficcional:",
+      "textoBase": "Davi, o jovem recruta, olhou para o mar pela primeira vez e sentiu que sua vida nunca mais seria a mesma. Era agosto, e o vento sul soprava com indiferença sobre os sonhos que ele trouxera na bagagem.",
+      "enunciado": "O trecho acima apresenta características de texto ficcional.",
       "alternativas": {
-        "A": "Deve ser necessariamente verdadeiro em todos os seus detalhes.",
-        "B": "Deve parecer verdadeiro dentro de sua própria lógica interna, mesmo sendo inventado.",
-        "C": "Deve ser baseado em fatos históricos documentados para ter valor literário.",
-        "D": "Deve evitar qualquer referência a elementos reais para preservar o pacto ficcional.",
-        "E": "Deve ser verificado por historiadores ou cientistas antes de ser publicado."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "Verossimilhança (B) é a qualidade de parecer verdadeiro dentro da lógica interna do texto, não de ser factualmente verdadeiro — um conto fantástico pode ser verossímil se respeitar suas próprias regras internas. Veracidade (A) é característica do texto não ficcional. Fatos históricos (C) não são requisito para valor literário — a ficção pura tem igual valor. Textos ficcionais frequentemente incorporam elementos reais para criar verossimilhança (D). Verificação científica (E) não é critério para ficção."
+      "gabarito": "A",
+      "explicacao": "O trecho apresenta os elementos típicos da ficção: personagem sem identificação real (Davi, o jovem recruta), narrador que acessa o interior do personagem ('sentiu que sua vida nunca mais seria a mesma'), linguagem poética e subjetiva ('o vento sul soprava com indiferença sobre os sonhos'). Não há dados verificáveis, enunciador identificável ou compromisso com a precisão factual — todos os elementos apontam para o texto ficcional."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Um texto narrado em primeira pessoa e publicado em uma coletânea de contos é:",
+      "enunciado": "Relatórios, portarias e boletins internos militares são exemplos de textos ficcionais.",
       "alternativas": {
-        "A": "Necessariamente autobiográfico, pois usa a primeira pessoa.",
-        "B": "Necessariamente não ficcional, pois o narrador fala de si mesmo.",
-        "C": "Possivelmente ficcional, pois o uso da primeira pessoa pode ser recurso narrativo inventado pelo autor.",
-        "D": "Necessariamente híbrido, pois mistura a voz do autor com elementos ficcionais.",
-        "E": "Necessariamente verdadeiro, pois coletâneas de contos só publicam relatos reais."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A primeira pessoa é um recurso narrativo que pode ser empregado tanto em textos ficcionais quanto não ficcionais (C). Em uma coletânea de contos — gênero ficcional por excelência —, o uso da primeira pessoa cria um narrador-personagem inventado, não autobiografia. A primeira pessoa não garante autobiografia (A) nem texto não ficcional (B). O texto pode ser ficcional puro, sem necessidade de ser híbrido (D). Coletâneas de contos publicam ficção, não relatos reais (E)."
+      "gabarito": "B",
+      "explicacao": "A afirmativa está errada. Relatórios, portarias e boletins internos são textos não ficcionais por natureza: pertencem ao domínio da comunicação oficial, têm enunciadores identificáveis, produzem efeitos no mundo real e se comprometem com a precisão dos fatos. São gêneros textuais não ficcionais usados para informar, regulamentar e documentar a realidade."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Qual das características abaixo é uma marca típica do texto NÃO ficcional?",
+      "enunciado": "A presença de linguagem literária e figuras de linguagem em um texto é indicativo suficiente para classificá-lo como ficcional.",
       "alternativas": {
-        "A": "Presença de personagens com nomes inventados e psicologia elaborada.",
-        "B": "Narrador claramente distinto do autor, com perspectiva própria.",
-        "C": "Espaço e tempo indeterminados ou deliberadamente imprecisos.",
-        "D": "Referência a fatos, datas e lugares verificáveis, com citação de fontes.",
-        "E": "Presença de elementos fantásticos aceitos sem questionamento pelo narrador."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "D",
-      "explicacao": "Referência a fatos, datas e lugares verificáveis, com citação de fontes (D), é marca característica do texto não ficcional — evidencia o pacto de verdade entre autor e leitor. Personagens com nomes inventados (A), narrador distinto do autor (B) e espaço/tempo imprecisos (C) são marcas ficcionais. Elementos fantásticos aceitos sem questionamento (E) caracterizam o realismo mágico e outros gêneros ficcionais."
+      "gabarito": "B",
+      "explicacao": "A afirmativa está errada. Figuras de linguagem e linguagem literária aparecem em textos de qualquer tipo — ficcionais e não ficcionais. Um discurso oficial pode usar metáforas; um editorial jornalístico pode ter ritmo e poesia; uma crônica pode ser lírica e ainda não ser ficção pura. O critério de ficcionalidade é o pacto com o leitor, não o estilo da linguagem."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "O romance histórico é classificado como texto ficcional porque:",
+      "enunciado": "Assinale a alternativa que apresenta exclusivamente exemplos de textos não ficcionais.",
       "alternativas": {
-        "A": "Não menciona nenhum fato ou personagem histórico real.",
-        "B": "É publicado exclusivamente em formatos não jornalísticos.",
-        "C": "Reconstrói eventos históricos ficcionalmente, inventando diálogos, motivações e cenas.",
-        "D": "Seus autores são romancistas sem formação em história.",
-        "E": "Utiliza linguagem arcaica que o distancia da realidade contemporânea."
+        "A": "Conto, romance, novela.",
+        "B": "Reportagem, portaria, relatório.",
+        "C": "Fábula, crônica, biografia.",
+        "D": "Romance histórico, memórias, editorial.",
+        "E": "Conto, biografia, artigo científico."
       },
-      "gabarito": "C",
-      "explicacao": "O romance histórico é ficcional (C) porque, mesmo usando cenários e personagens históricos reais, os reconstrói por meio da imaginação — inventando diálogos, pensamentos, motivações e cenas que não têm base documental verificável. O pacto com o leitor é de ficção. A ausência de fatos históricos (A) não é característica do gênero. O suporte (B) e a formação do autor (D) são irrelevantes para a classificação. A linguagem (E) não é critério de ficcionalidade."
+      "gabarito": "B",
+      "explicacao": "A alternativa B apresenta exclusivamente textos não ficcionais: a reportagem relata fatos reais verificáveis; a portaria é documento oficial com efeito jurídico; o relatório descreve acontecimentos com precisão e responsabilização do emissor. A alternativa A contém apenas ficção. C mistura fábula (ficção) com crônica (híbrida) e biografia (não ficcional). D mistura romance histórico (ficção) com memórias (não ficção). E mistura conto (ficção) com textos não ficcionais."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "No Manual de Redação e Estilo da Marinha (Letras Marítimas 2024), documentos como ordens, relatórios e ofícios são classificados como textos não ficcionais porque:",
+      "enunciado": "O narrador de um texto ficcional é sempre identificado como uma pessoa real que testemunhou os fatos narrados.",
       "alternativas": {
-        "A": "São escritos por militares, que têm obrigação legal de dizer a verdade.",
-        "B": "Têm compromisso com a veracidade dos fatos, dados verificáveis e responsabilidade do autor pelo conteúdo.",
-        "C": "Não utilizam figuras de linguagem nem recursos estilísticos literários.",
-        "D": "São sempre redigidos na terceira pessoa do plural.",
-        "E": "Pertencem ao domínio técnico-científico, que é inerentemente não ficcional."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "Documentos militares são não ficcionais (B) porque têm compromisso com a veracidade dos fatos, seus dados são verificáveis e o autor responde pela veracidade do conteúdo — características do pacto de verdade. A obrigação legal (A) é consequência, não a causa da natureza não ficcional. O uso de figuras de linguagem (C) não descaracteriza um texto como não ficcional. A pessoa gramatical (D) varia conforme o tipo de documento. O domínio técnico (E) é majoritariamente não ficcional, mas isso é consequência do pacto de verdade, não sua definição."
+      "explicacao": "A afirmativa está errada. O narrador de um texto ficcional é uma criação literária — não precisa ser uma pessoa real nem ter testemunhado os fatos. O narrador pode ser onisciente (sabe tudo sobre todos os personagens, inclusive seus pensamentos), pode ser personagem da história, pode ser não confiável ou até pode ser um elemento abstrato. O que define o narrador ficcional é sua natureza de construção textual, não de testemunha real."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Leia o trecho: 'Era uma vez um almirante que, cansado das guerras do mar, decidiu plantar um jardim no convés de seu navio. Cada flor que nascia era uma batalha que ele esquecia.' Que elemento indica que se trata de texto ficcional?",
+      "textoBase": "Em 1865, durante a Guerra do Paraguai, o marinheiro Antônio cruzou o Rio Paraguai sob fogo inimigo para entregar mensagens ao acampamento aliado. Ninguém soube seu nome completo; diziam apenas que era de Fortaleza e que nunca mais voltou.",
+      "enunciado": "O trecho acima pode ser caracterizado como texto híbrido por conter elementos ficcionais inseridos em contexto histórico verificável.",
       "alternativas": {
-        "A": "A menção a um almirante, que é uma patente naval real.",
-        "B": "A referência ao convés do navio, elemento náutico verificável.",
-        "C": "A fórmula 'era uma vez', marca temporal indefinida que sinaliza narrativa ficcional.",
-        "D": "O uso de verbos no pretérito imperfeito, exclusivo da ficção.",
-        "E": "A presença de metáfora, recurso estilístico que torna qualquer texto ficcional."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A fórmula 'era uma vez' (C) é uma marca temporal indefinida que, nas culturas ocidentais, sinaliza convencionalmente o início de uma narrativa ficcional — especialmente contos de fada e fábulas. Ela estabelece o pacto ficcional de imediato. A menção ao almirante (A) e ao convés (B) são elementos reais incorporados ficcionalmente. O pretérito imperfeito (D) não é exclusivo da ficção — textos históricos também o usam. A metáfora (E) pode aparecer em textos não ficcionais sem torná-los ficcionais."
+      "gabarito": "A",
+      "explicacao": "O trecho é híbrido: contém um elemento histórico real verificável (a Guerra do Paraguai, 1865) que ancora o texto na realidade histórica, mas o personagem central (o marinheiro Antônio, sem nome completo, cuja identidade é vaga) é claramente ficcional ou ao menos não verificável. A construção narrativa — com detalhes subjetivos e o desfecho aberto ('nunca mais voltou') — é própria da ficção. Esse hibridismo é característico do conto histórico e do romance histórico."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Um candidato lê o seguinte trecho em uma prova: 'O engenheiro naval Rodrigo Matos, em entrevista à Revista Brasileira de Engenharia, afirmou que os novos sistemas de propulsão reduzem em 23% o consumo de combustível.' Qual característica indica que este é um texto NÃO ficcional?",
+      "textoBase": "O capitão-de-corveta registrou em seu diário de bordo: 'Dia 7 de setembro. Mar calmo. Nenhuma ocorrência. À noite, pensei nos filhos que deixei em terra e me perguntei se voltaria a tempo para o aniversário do mais velho.'",
+      "enunciado": "O trecho do diário de bordo é classificado como ficcional porque contém reflexões subjetivas e sentimentais do capitão.",
       "alternativas": {
-        "A": "O uso do discurso indireto, que indica que o engenheiro é um personagem fictício.",
-        "B": "A menção a um percentual específico, que só pode aparecer em textos técnicos.",
-        "C": "A identificação do enunciador (nome, profissão), da fonte (revista) e de dado verificável (percentual), estabelecendo o pacto de verdade.",
-        "D": "A ausência de elementos narrativos, como enredo e personagens.",
-        "E": "O vocabulário técnico, que é exclusivo de textos não ficcionais."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A identificação do enunciador com nome e profissão, a citação de uma fonte verificável (revista especializada) e a apresentação de um dado quantificável (23%) (C) são marcas do pacto de verdade. O discurso indireto (A) pode aparecer em textos ficcionais e não ficcionais. Percentuais (B) podem aparecer em ficção científica. A ausência de elementos narrativos (D) não é o critério central. Vocabulário técnico (E) pode aparecer em ficção científica sem torná-la não ficcional."
+      "gabarito": "B",
+      "explicacao": "A afirmativa está errada. O diário de bordo é um texto não ficcional: tem data específica, registro de ocorrência operacional e é escrito por um enunciador real (o capitão-de-corveta). A presença de reflexões subjetivas e sentimentais não transforma o texto em ficcional — documentos pessoais como diários pertencem ao domínio da não ficção, mesmo quando expressam emoções. O critério de ficcionalidade não é a presença de subjetividade, mas a natureza do pacto com o leitor."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "A crônica literária é considerada um gênero híbrido porque:",
+      "textoBase": "A sargento Joana acordou antes do toque de alvorada, como sempre fazia. Sabia que o dia seria longo — a inspeção estava marcada e o comandante não perdoava impontualidade. Ela olhou para o uniforme dobrado na cadeira e pensou: 'Mais um dia de servir ao que acredito.'",
+      "enunciado": "No trecho, a expressão 'Mais um dia de servir ao que acredito' é atribuída à autora do texto, revelando sua visão sobre o serviço militar.",
       "alternativas": {
-        "A": "É publicada tanto em jornais quanto em livros, dois suportes diferentes.",
-        "B": "Parte de fatos cotidianos reais, mas os transforma por meio de subjetividade e recursos literários, transitando entre o jornalismo e a literatura.",
-        "C": "Pode ser escrita por jornalistas ou por escritores literários, independentemente de sua formação.",
-        "D": "Mistura dados estatísticos com narrativas ficcionais sem distinção clara.",
-        "E": "Apresenta sempre um narrador-personagem que é simultaneamente o autor e um personagem inventado."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "A crônica é híbrida (B) porque parte de situações reais (pacto de verdade parcial) e as transforma com recursos literários — subjetividade, ironia, metáfora, construção poética —, transitando entre o jornalismo informativo e a literatura. O suporte (A) não define o hibridismo do gênero. A formação do autor (C) é irrelevante. A mistura de dados e ficção sem distinção (D) seria característica de texto desonesto, não de crônica. O narrador da crônica (E) não é necessariamente um personagem inventado."
+      "explicacao": "A afirmativa está errada. A expressão é atribuída à personagem Joana — indicada pelo verbo 'pensou' e pelos dois-pontos antes do discurso indireto livre. Em textos ficcionais, falas e pensamentos de personagens não representam necessariamente a visão do autor. Atribuir ao autor a fala de um personagem é um erro de interpretação que o CEBRASPE explora com frequência."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "No jornalismo literário, recursos ficcionais são empregados em textos sobre fatos reais. Esse fenômeno demonstra que:",
+      "textoBase": "Crônica do dia — por J. Lima: Ontem, no terminal de embarque do Arsenal de Marinha, vi um recruta despedir-se da mãe com um abraço que durou mais do que qualquer ordem de serviço poderia durar. Pensei: há coisas que nenhum manual cobre.",
+      "enunciado": "A crônica acima pode ser classificada como texto não ficcional, uma vez que relata um evento real observado pelo cronista.",
       "alternativas": {
-        "A": "O jornalismo literário é um texto ficcional disfarçado de não ficcional.",
-        "B": "Recursos ficcionais e pacto de verdade são incompatíveis, o que torna o jornalismo literário contraditório.",
-        "C": "Técnicas narrativas ficcionais podem ser usadas em textos não ficcionais sem comprometer o compromisso com a veracidade dos fatos.",
-        "D": "Todo texto que usa técnicas narrativas é automaticamente classificado como ficcional.",
-        "E": "O jornalismo literário pertence ao domínio da autoficção, gênero híbrido por definição."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "O jornalismo literário (C) demonstra que técnicas narrativas — construção de cenas, diálogos reconstituídos, foco narrativo — podem ser empregadas em textos comprometidos com a veracidade dos fatos, sem torná-los ficcionais. Não é ficção disfarçada (A). As técnicas narrativas e o pacto de verdade são compatíveis (B). Técnicas narrativas não tornam automaticamente um texto ficcional (D). A autoficção (E) usa o nome do autor em narrativa ficcionalmente construída — é diferente do jornalismo literário."
+      "gabarito": "A",
+      "explicacao": "A afirmativa está correta. Crônicas, mesmo com recursos literários (linguagem poética, reflexão subjetiva), pertencem ao domínio da não ficção quando relatam observações reais do cronista — que neste caso assina o texto (J. Lima) e usa a primeira pessoa para narrar algo que afirma ter visto ('vi'). O pacto com a realidade está presente: há um enunciador identificável relatando uma experiência vivida. A crônica pode ser híbrida, mas este exemplo está mais próximo do não ficcional."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Em qual das seguintes situações a metalinguagem ficcional está sendo empregada?",
+      "textoBase": "O almirante Tamandaré, patrono da Marinha do Brasil, nasceu em 1807 em São José do Norte, no Rio Grande do Sul. Ao longo de sua carreira, participou de campanhas navais decisivas para a história do país.",
+      "enunciado": "O trecho acima é um exemplo de texto não ficcional, pois relata fatos sobre uma pessoa real com compromisso com a precisão histórica.",
       "alternativas": {
-        "A": "Um narrador descreve detalhadamente o processo de construção de um submarino nuclear.",
-        "B": "Um personagem de romance encontra o autor do livro dentro da própria narrativa e discute com ele os rumos da história.",
-        "C": "Um jornalista usa recursos literários para narrar um fato real.",
-        "D": "Um poema descreve metaforicamente o processo de criação poética.",
-        "E": "Um autor escreve a nota introdutória de seu romance explicando as fontes históricas utilizadas."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "A metalinguagem ficcional (B) ocorre quando um texto ficcional discute sua própria condição de ficção, rompendo o pacto ficcional para revelar os mecanismos de construção narrativa — como um personagem encontrando o autor dentro do romance, recurso típico do pós-modernismo. A descrição técnica (A) é verossimilhança, não metalinguagem. O jornalismo literário (C) não rompe nenhum pacto ficcional. Um poema sobre poesia (D) é metalinguagem lírica, não ficcional narrativa. A nota introdutória (E) está fora do texto ficcional propriamente dito."
+      "gabarito": "A",
+      "explicacao": "A afirmativa está correta. O trecho relata informações sobre o almirante Tamandaré — pessoa histórica real, patrono da Marinha. Os dados fornecidos (data de nascimento, local, trajetória) são verificáveis e o texto assume compromisso com a precisão factual. Trata-se de texto não ficcional de natureza biográfica ou enciclopédica."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Qual a diferença entre tempo cronológico e tempo psicológico na narrativa ficcional?",
+      "textoBase": "O romance 'Águas de Novembro', ambientado na Batalha Naval do Riachuelo de 1865, segue o tenente fictício Rodrigo enquanto tenta salvar seus homens durante o confronto. O autor consultou dezenas de documentos históricos para reconstituir com fidelidade o contexto da batalha.",
+      "enunciado": "Com base no trecho, o romance 'Águas de Novembro' é classificado como não ficcional por se basear em pesquisa histórica rigorosa.",
       "alternativas": {
-        "A": "O tempo cronológico é exclusivo da ficção científica; o tempo psicológico, das obras realistas.",
-        "B": "O tempo cronológico segue a sequência linear de datas e eventos; o tempo psicológico é o tempo da consciência, da memória e dos flashbacks.",
-        "C": "O tempo cronológico refere-se ao período em que o autor escreveu a obra; o tempo psicológico, ao período em que a obra foi lida.",
-        "D": "O tempo cronológico é real e verificável; o tempo psicológico é fictício e inventado.",
-        "E": "O tempo cronológico aparece apenas em textos não ficcionais; o tempo psicológico, apenas em ficção."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "O tempo cronológico (B) organiza os eventos em sequência linear, como em um diário ou relato histórico. O tempo psicológico é a dimensão subjetiva do tempo na consciência dos personagens — memórias, flashbacks, fluxo de consciência —, recurso central do romance modernista. Nenhum dos dois é exclusivo de um gênero (A). A diferença não é entre autor e leitor (C). Ambos podem ser usados em ficção (D). O tempo cronológico aparece tanto em ficção quanto em não ficção (E)."
+      "explicacao": "A afirmativa está errada. O rigor da pesquisa histórica não transforma um romance em texto não ficcional. 'Águas de Novembro' é ficcional porque seu protagonista (tenente Rodrigo) é explicitamente 'fictício' e o texto opera no modo romanesco, com enredo inventado. O contexto histórico serve de cenário, mas a narrativa é uma criação — característica do romance histórico, que é um gênero ficcional."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "O narrador onisciente se distingue do narrador observador principalmente porque:",
+      "textoBase": "Em suas memórias, o ex-comandante da Esquadra escreve: 'Talvez eu tenha exagerado na dureza com que tratei meus subordinados. Com o distanciamento do tempo, vejo que nem sempre fui justo.' O livro foi publicado dez anos após sua aposentadoria.",
+      "enunciado": "O trecho de memórias é não ficcional, mesmo contendo reflexão subjetiva e autocrítica.",
       "alternativas": {
-        "A": "O narrador onisciente usa a primeira pessoa; o observador, a terceira.",
-        "B": "O narrador onisciente tem acesso aos pensamentos e sentimentos internos dos personagens; o observador relata apenas o que pode ser externamente percebido.",
-        "C": "O narrador onisciente participa da ação como personagem; o observador apenas assiste.",
-        "D": "O narrador onisciente está presente em textos não ficcionais; o observador, em textos ficcionais.",
-        "E": "O narrador onisciente sabe apenas o que acontece no presente da narrativa; o observador conhece o passado e o futuro."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "O narrador onisciente (B) tem acesso privilegiado e ilimitado ao interior dos personagens — sabe o que pensam, sentem e motivam suas ações, mesmo que não o manifestem externamente. O narrador observador descreve apenas o que pode ser visto de fora, como uma câmera cinematográfica. A pessoa gramatical (A) não é o critério. O narrador-personagem (C) é um terceiro tipo. Ambos os tipos estão em textos ficcionais (D). A relação com o tempo (E) não é o critério de distinção entre esses tipos."
+      "gabarito": "A",
+      "explicacao": "As memórias são um gênero não ficcional (ou 'não ficção criativa'): o autor relata sua própria experiência e assume responsabilidade pela veracidade do que afirma, mesmo que com perspectiva pessoal e subjetiva. A autocrítica e a reflexão são marcas do gênero memorialístico, não de ficcionalidade. O enunciador é real e identificável — o ex-comandante da Esquadra — e o texto se refere a eventos que viveu."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "A biografia de um almirante que inclui diálogos reconstituídos entre o biografado e seus oficiais, sem base documental comprovada, deve ser classificada como:",
+      "textoBase": "A reportagem publicada na Revista Naval informava: 'A Marinha do Brasil realizou, entre janeiro e junho de 2025, 312 operações de patrulha na Amazônia Azul, superando em 18% o total do mesmo período em 2024.'",
+      "enunciado": "O trecho de reportagem é ficcional porque utiliza dados numéricos que podem ter sido elaborados pelo repórter.",
       "alternativas": {
-        "A": "Texto completamente não ficcional, pois relata a vida de uma pessoa real.",
-        "B": "Texto completamente ficcional, pois inclui diálogos inventados.",
-        "C": "Gênero híbrido — biografia romanceada —, que mescla fatos documentados com elementos ficcionalizados.",
-        "D": "Texto jornalístico, pois trata de personagem histórico de relevância pública.",
-        "E": "Autoficção, pois o biografado participa da narração de sua própria história."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A biografia com diálogos inventados é uma biografia romanceada (C), gênero híbrido: a vida do personagem real é o elemento não ficcional, mas os diálogos reconstituídos sem base documental introduzem elementos ficcionais. Não é completamente não ficcional (A) porque os diálogos são inventados. Não é completamente ficcional (B) porque os fatos biográficos são reais. Não é necessariamente jornalístico (D). Autoficção (E) exige que o próprio autor seja o protagonista."
+      "gabarito": "B",
+      "explicacao": "A afirmativa está errada. A reportagem é um gênero não ficcional: o jornalista se compromete com a veracidade das informações que publica e pode ser responsabilizado por dados falsos. A presença de números não indica fabricação — ao contrário, dados verificáveis são um marcador do texto não ficcional. A possibilidade teórica de erro não transforma o gênero — o que define o texto jornalístico é o pacto com a realidade, não a infabilidade do autor."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Segundo Fiorin e Savioli, a coerência interna da narrativa ficcional significa que:",
+      "textoBase": "O narrador do romance observou: 'O subtenente Araújo era o tipo de homem que nunca pedia desculpas, mesmo quando sabia que estava errado. Seus soldados o temiam por isso — mas também o respeitavam.'",
+      "enunciado": "A caracterização do subtenente Araújo no trecho é fornecida pelo autor do romance, revelando sua visão sobre a liderança militar.",
       "alternativas": {
-        "A": "O texto ficcional deve ser coerente com os fatos históricos reais para ter valor literário.",
-        "B": "O texto ficcional deve obedecer à sua própria lógica interna, independentemente de sua correspondência com o mundo exterior.",
-        "C": "A narrativa ficcional deve ser verificada por especialistas antes de ser publicada.",
-        "D": "A coerência ficcional exige que os personagens se comportem sempre de forma lógica e previsível.",
-        "E": "O texto ficcional é coerente apenas quando o narrador onisciente controla todos os elementos da narrativa."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "Para Fiorin e Savioli (B), a narrativa ficcional constrói sua própria lógica interna — suas regras podem ser diferentes das do mundo real, mas devem ser consistentes consigo mesmas. Correspondência com fatos históricos (A) não é requisito. Verificação por especialistas (C) não é aplicável à ficção. Comportamento previsível dos personagens (D) seria literariamente empobrecedor. O tipo de narrador (E) não determina a coerência interna."
+      "explicacao": "A afirmativa está errada. A caracterização do personagem é fornecida pelo narrador, não pelo autor. O texto indica explicitamente que se trata da voz do 'narrador do romance' — uma instância criada pelo autor, mas distinta dele. Atribuir ao autor as caracterizações feitas pelo narrador é um equívoco de interpretação. O autor criou o narrador; o narrador caracteriza os personagens."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Qual das alternativas abaixo apresenta um exemplo de elemento ficcional presente em um texto NÃO ficcional, sem comprometer sua natureza não ficcional?",
+      "textoBase": "Fábula da Sentinela: Uma vez, uma coruja montava guarda na proa de uma fragata. Ela avistava tudo — os inimigos ao longe, os aliados distraídos, as tempestades que vinham pelo horizonte. Mas ninguém a ouvia.",
+      "enunciado": "O texto acima é ficcional, pois narra acontecimentos que não existem no mundo real, incluindo a atribuição de comportamento humano a um animal.",
       "alternativas": {
-        "A": "Um relatório militar que inventa dados para tornar o texto mais interessante.",
-        "B": "Um artigo científico que descreve um experimento que nunca foi realizado.",
-        "C": "Uma reportagem que usa técnicas narrativas literárias para relatar um fato real verificável.",
-        "D": "Um manual técnico que inclui personagens fictícios para explicar procedimentos, sem indicar que são exemplos.",
-        "E": "Um documento histórico que omite fatos inconvenientes para criar uma narrativa favorável."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A reportagem (C) que usa técnicas narrativas literárias para relatar fatos reais verificáveis é o exemplo correto: incorpora recursos ficcionais (estilo narrativo) sem abrir mão do compromisso com a veracidade — é o jornalismo literário. O relatório que inventa dados (A) e o artigo com experimento inexistente (B) violam o pacto de verdade. O manual com personagens fictícios sem indicação de que são exemplos (D) pode induzir o leitor em erro. O documento que omite fatos (E) é manipulação, não uso legítimo de elemento ficcional."
+      "gabarito": "A",
+      "explicacao": "A afirmativa está correta. O texto é uma fábula — gênero ficcional por excelência. A coruja montando guarda e sendo ignorada é uma situação alegórica que não ocorre no mundo real; o animal tem comportamento humano (montava guarda, avistava, não era ouvida), o que é um recurso ficcional típico. Não há compromisso com a realidade factual — o texto opera inteiramente no domínio da imaginação e da alegoria."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'Nelson Mandela entrou na cela e, depois de um longo silêncio, disse ao carcereiro: — Você vai me impedir de sorrir? — Não, senhor — respondeu o jovem, sem entender. — Então você não me impede de nada.' O trecho pertence a uma biografia romanceada. Qual afirmação sobre sua natureza textual está CORRETA?",
+      "textoBase": "Em suas memórias, o almirante-de-esquadra Rodrigues escreveu: 'Quando assumi o Comando da Esquadra em 2001, o país vivia uma transição delicada. Talvez eu devesse ter sido mais cauteloso nas declarações públicas que fiz naquele ano. Mas a juventude tem seus preços.' O livro foi objeto de análise em três teses universitárias sobre liderança militar.",
+      "enunciado": "Com base no trecho, julgue as afirmações:\nI. O texto pertence ao gênero memorialístico, classificado como não ficcional.\nII. A autocrítica do almirante revela que o texto é ficcional, pois nenhum militar admitiria erros em documento oficial.\nIII. O trecho permite inferir que o almirante assumiu o Comando da Esquadra antes de 2001.\n\nEstão corretas apenas:",
       "alternativas": {
-        "A": "É um texto não ficcional porque Nelson Mandela é uma pessoa histórica real.",
-        "B": "É um texto ficcional porque os diálogos são visivelmente inventados e não têm base documental.",
-        "C": "É um texto híbrido: o personagem histórico real é o elemento não ficcional; o diálogo reconstituído sem base documental é o elemento ficcional.",
-        "D": "É um texto não ficcional porque o diálogo expressa valores reais de Mandela, verificáveis em suas declarações públicas.",
-        "E": "É um texto de autoficção porque o autor se projeta na figura de Mandela para expressar seus próprios valores."
+        "A": "I e II.",
+        "B": "I apenas.",
+        "C": "II e III.",
+        "D": "I e III.",
+        "E": "I, II e III."
       },
-      "gabarito": "C",
-      "explicacao": "O trecho é híbrido (C): Nelson Mandela é personagem histórico real — elemento não ficcional; mas o diálogo específico com o carcereiro é uma reconstituição sem base documental verificável — elemento ficcional. Não é puramente não ficcional (A) porque o diálogo é inventado. Não é puramente ficcional (B) porque o personagem é real e o contexto histórico é verificável. Valores 'verificáveis' de Mandela (D) não transformam um diálogo inventado em não ficcional. Autoficção (E) exige que o autor use seu próprio nome e dados autobiográficos como personagem."
+      "gabarito": "B",
+      "explicacao": "Afirmação I está correta: memórias são gênero não ficcional (ou não ficção criativa), pois o autor relata experiências próprias com compromisso com a verdade vivida. Afirmação II está errada: autocrítica não é marcador de ficcionalidade — textos não ficcionais podem e frequentemente contêm reflexões autocríticas; além disso, memórias não são documentos oficiais. Afirmação III está errada: o trecho diz que ele 'assumiu o Comando em 2001' — isso é um dado explícito, não um pressuposto que implique assunção anterior. Apenas I está correta."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Em 'A Sangue Frio', de Truman Capote, o autor reconstruiu cenas e diálogos com base em entrevistas e documentos, sem inventar fatos. O livro é classificado como 'romance de não ficção'. Qual das afirmações abaixo melhor caracteriza essa classificação?",
+      "textoBase": "O conto 'A última vigília' narra a história do marinheiro Pedro, que serve numa fragata fictícia durante a Segunda Guerra Mundial. O autor, historiador naval, baseou-se em diários reais de marinheiros brasileiros do período para criar os pensamentos e dilemas do personagem.",
+      "enunciado": "Assinale a alternativa que melhor descreve o texto 'A última vigília'.",
       "alternativas": {
-        "A": "É uma contradição terminológica: qualquer obra que use técnicas do romance é, por definição, ficcional.",
-        "B": "A classificação indica que o livro usa técnicas narrativas do romance ficcional aplicadas a fatos rigorosamente verificados, mantendo o pacto de verdade.",
-        "C": "É uma estratégia de marketing: chamar de 'romance' aumenta as vendas sem alterar o conteúdo.",
-        "D": "O livro é ficcional porque Capote não pode ter verificado todos os detalhes narrados, havendo necessariamente invenção.",
-        "E": "A classificação indica que o pacto ficcional prevalece, pois o leitor lê o livro como se fosse um romance inventado."
+        "A": "Texto não ficcional, pois se baseia em documentos históricos reais.",
+        "B": "Texto ficcional com base histórica, pois cria personagem e situações inventadas num contexto de época real.",
+        "C": "Texto híbrido sem elementos ficcionais, pois o autor é um historiador comprometido com a verdade.",
+        "D": "Texto memorialístico, pois relata experiências vividas pelo autor durante a guerra.",
+        "E": "Texto jornalístico, pois relata fatos do período da Segunda Guerra Mundial."
       },
       "gabarito": "B",
-      "explicacao": "A classificação 'romance de não ficção' (B) indica a fusão de duas dimensões: técnicas narrativas do romance ficcional (construção dramática de cenas, diálogos reconstituídos com base em depoimentos, ritmo narrativo com suspense) aplicadas a eventos verificáveis. O pacto de verdade é mantido. A classificação não é contraditória (A) — técnicas formais e natureza do conteúdo são dimensões independentes. Estratégia de marketing (C) é especulação irrelevante. A impossibilidade de verificação absoluta (D) não transforma automaticamente um texto em ficcional. O pacto de verdade não é substituído pelo pacto ficcional (E)."
+      "explicacao": "A alternativa B é a mais precisa: o texto é ficcional (personagem inventado, fragata fictícia, situações criadas) com base histórica (Segunda Guerra Mundial, diários reais como fonte de inspiração). Isso caracteriza o romance ou conto histórico — gênero ficcional que usa a história como contexto. A alternativa A erra ao concluir que a base documental transforma o texto em não ficcional. C distorce: há elementos ficcionais evidentes. D é falsa: o autor não viveu a guerra — é um historiador que criou personagem. E é falsa: não é jornalismo."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "O realismo fantástico de García Márquez, em 'Cem Anos de Solidão', narra eventos impossíveis com o mesmo tom com que narra eventos cotidianos. Qual a implicação dessa estratégia para a análise da natureza ficcional do texto?",
+      "textoBase": "Trecho de crônica — 'Às Cinco da Tarde na Base': Entrei pelo portão da base naquela quinta-feira e encontrei o cabo Souza varrendo o pátio com a expressão de quem varre o universo inteiro. Perguntei-lhe se estava tudo bem. Ele respondeu: 'Tá bom, senhor. Só pensando.' Pensei: há mais filosofia nesse cabo do que em muitos livros que já li.",
+      "enunciado": "O texto acima é puramente ficcional, uma vez que apresenta narrador em primeira pessoa e personagem identificado por nome.",
       "alternativas": {
-        "A": "Transforma o texto em não ficcional, pois o narrador não questiona os eventos impossíveis, tratando-os como reais.",
-        "B": "Cria um efeito de verossimilhança dentro do pacto ficcional: o impossível é apresentado como natural dentro da lógica interna do universo narrativo, sem comprometer a natureza ficcional do texto.",
-        "C": "Indica que o autor acredita genuinamente nos eventos narrados, tornando o texto uma espécie de texto mítico não ficcional.",
-        "D": "Demonstra que o pacto ficcional pode ser rompido sem aviso, tornando o texto simultaneamente ficcional e não ficcional.",
-        "E": "É uma estratégia metalinguística que transforma o romance em um texto sobre a natureza da ficção."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "A estratégia do realismo fantástico (B) cria verossimilhança interna ao pacto ficcional: dentro da lógica do universo de Macondo, o impossível é natural — as próprias regras do mundo ficcional permitem o que seria impossível no mundo real. Isso não transforma o texto em não ficcional (A) — o pacto ficcional permanece ativo. A crença pessoal do autor (C) é irrelevante — o critério é textual. O pacto ficcional não é 'rompido' (D) — é expandido para incluir o impossível como naturalmente possível. A metalinguagem (E) exigiria que o texto discutisse explicitamente sua condição de ficção."
+      "explicacao": "A afirmativa está errada. O texto é uma crônica — gênero híbrido que frequentemente relata experiências reais do autor com recursos narrativos literários. O narrador em primeira pessoa e o personagem com nome (cabo Souza) não transformam automaticamente o texto em ficção pura: o cronista pode ter observado e narrado um episódio real usando sua voz pessoal. A crônica opera no limite entre o não ficcional (fato observado, enunciador real) e o ficcional (recursos narrativos, subjetividade). Classificá-la como 'puramente ficcional' é inadequado."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Em uma prova, apresenta-se o trecho: 'O almirante Tamandaré, ao perceber a aproximação da frota inimiga, chamou seus oficiais e disse: — Hoje ou vencemos ou morreremos como homens de honra.' O candidato deve identificar se é ficcional ou não ficcional. Qual raciocínio está CORRETO?",
+      "textoBase": "Dizia-se que o sargento Alcântara nunca dormia. Quem passava pelo corredor às três da manhã invariavelmente o encontrava acordado, lendo regulamentos ou polindo as insígnias. Alguns recrutas chegaram a acreditar que ele não era humano. Talvez não fosse — talvez fosse apenas a personificação do dever.",
+      "enunciado": "No trecho, a afirmação 'Talvez não fosse — talvez fosse apenas a personificação do dever' revela uma informação factual sobre o sargento Alcântara, segundo o autor do texto.",
       "alternativas": {
-        "A": "É não ficcional porque o almirante Tamandaré foi uma figura histórica real da Marinha do Brasil.",
-        "B": "É ficcional porque almirantes históricos não faziam discursos dramáticos antes das batalhas.",
-        "C": "Não é possível determinar a natureza do trecho sem saber se o diálogo tem base documental verificável — pode ser historiografia, ficção histórica ou biografia romanceada.",
-        "D": "É não ficcional porque o diálogo usa linguagem formal e digna de um oficial naval.",
-        "E": "É ficcional porque usa discurso direto, recurso exclusivo de textos ficcionais."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "O raciocínio correto (C) é que a natureza do trecho depende da verificabilidade do diálogo específico: se houver registro histórico documentado, é não ficcional; se for reconstituição sem base documental, é ficcional ou híbrido. A presença de figura histórica real (A) não garante que o diálogo seja verificável. A afirmação sobre comportamento de almirantes (B) é especulação sem valor analítico. A linguagem formal (D) não é critério de ficcionalidade. O discurso direto (E) não é exclusivo de textos ficcionais — aparece em entrevistas, reportagens e historiografia."
+      "gabarito": "B",
+      "explicacao": "A afirmativa está errada por duas razões. Primeiro, a afirmação é do narrador — não do autor — dentro de um texto ficcional. Segundo, a frase é claramente metafórica e hiperbólica: 'personificação do dever' não é uma informação factual sobre o sargento, mas uma imagem literária criada pelo narrador para caracterizar o personagem de forma expressiva. Tratar essa afirmação como factual e atribuí-la ao autor são dois erros de interpretação simultâneos."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "A autoficção se distingue da autobiografia principalmente porque:",
+      "textoBase": "Relatório de Gestão — Exercício 2024 — Base Naval de Val-de-Cães: O presente relatório consolida os dados operacionais e administrativos do exercício de 2024, em cumprimento ao disposto na Instrução Normativa n° 14/2023. Os índices de prontidão operacional das embarcações mantiveram-se acima da meta em todos os trimestres, com destaque para o quarto trimestre, quando atingiram 94,7%.",
+      "enunciado": "Com base no trecho, assinale a alternativa correta.",
       "alternativas": {
-        "A": "A autobiografia é escrita pelo próprio sujeito; a autoficção, por um biógrafo que assume a identidade do biografado.",
-        "B": "Na autobiografia, o pacto é de verdade — o autor se compromete com a veracidade dos fatos; na autoficção, o autor usa seu próprio nome em narrativa onde os eventos são deliberadamente ficcionalizados, criando ambiguidade entre real e inventado.",
-        "C": "A autobiografia é sempre mais curta que a autoficção, pois se limita a fatos verificáveis.",
-        "D": "A autoficção é uma autobiografia escrita em terceira pessoa, enquanto a autobiografia tradicional usa primeira pessoa.",
-        "E": "Não há distinção relevante: ambas são textos híbridos com o mesmo pacto de leitura."
+        "A": "O texto é ficcional por usar linguagem técnica e impessoal.",
+        "B": "O texto é ficcional porque menciona uma instrução normativa que pode ter sido inventada.",
+        "C": "O texto é não ficcional: é um relatório oficial com dados verificáveis, enunciador identificável e compromisso com a precisão factual.",
+        "D": "O texto é híbrido porque combina dados quantitativos com linguagem administrativa.",
+        "E": "O texto é não ficcional apenas se os dados de prontidão forem confirmados por auditoria externa."
       },
-      "gabarito": "B",
-      "explicacao": "A distinção central (B) está no pacto de leitura: a autobiografia estabelece o pacto de verdade — o autor se compromete a relatar fatos que realmente viveu. A autoficção usa o nome do autor e dados autobiográficos, mas deliberadamente ficcionaliza eventos — o leitor não sabe onde termina o real e começa o inventado. A autoficção é escrita pelo próprio sujeito, não por um biógrafo (A). O tamanho (C) é irrelevante. A pessoa gramatical (D) não é o critério. As distinções são relevantes e os pactos são diferentes (E)."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. O texto é um relatório de gestão — gênero não ficcional por natureza: tem identificação da unidade (Base Naval de Val-de-Cães), período (2024), referência normativa (IN n° 14/2023), dados quantitativos verificáveis (94,7% no quarto trimestre) e serve a uma finalidade institucional real. A alternativa A inverte a lógica: linguagem técnica e impessoal é característica do não ficcional, não de ficção. B especula sobre falsificação, o que não é critério de classificação genérica. D confunde hibridismo com combinação de modalidades dentro do mesmo gênero. E coloca uma condição externa que não determina a classificação genérica do texto."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Considere um texto com as seguintes características: (1) narrado em primeira pessoa; (2) o narrador tem o mesmo nome do autor; (3) os eventos narrados são vividamente improváveis (o narrador afirma ter voado ao longo da costa brasileira sem auxílio de aeronave); (4) o texto foi publicado em coletânea de contos. Qual classificação e justificativa estão CORRETAS?",
+      "textoBase": "Em 1942, o submarino alemão U-507 afundou cinco navios brasileiros no litoral nordestino, precipitando a entrada do Brasil na Segunda Guerra Mundial. No romance 'O Mar e o Fogo', esse episódio é o ponto de partida para a história de dois irmãos — um pescador e um marinheiro — cujas vidas são separadas pelo conflito.",
+      "enunciado": "O primeiro período do trecho é não ficcional, pois relata fato histórico documentado, enquanto o segundo período apresenta elementos ficcionais inseridos nesse contexto.",
       "alternativas": {
-        "A": "Texto não ficcional, porque o narrador tem o mesmo nome do autor e usa a primeira pessoa.",
-        "B": "Texto de autoficção, porque combina identidade nominal do autor com eventos ficcionalizados.",
-        "C": "Texto autobiográfico, porque relata experiências em primeira pessoa com nome real.",
-        "D": "Texto mítico, porque relata eventos impossíveis com naturalidade narrativa.",
-        "E": "Texto não ficcional híbrido, porque mistura nome real com eventos improváveis."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "O texto reúne as marcas características da autoficção (B): narrador com nome do autor (traço autobiográfico), mas eventos manifestamente impossíveis no mundo real (voo sem aeronave) e publicação em coletânea de contos (contexto ficcional). Não é autobiografia nem texto não ficcional (A, C) porque os eventos são visivelmente impossíveis — há ruptura do pacto de verdade. Texto mítico (D) tem função cultural e religiosa específica, diferente da autoficção literária. 'Não ficcional híbrido' (E) é contraditório: a impossibilidade factual dos eventos impede a manutenção do pacto de verdade."
+      "gabarito": "A",
+      "explicacao": "A análise está correta. O primeiro período narra um fato histórico real e verificável — os afundamentos pelo U-507 em 1942 e sua consequência para a entrada do Brasil na guerra — com linguagem enciclopédica e compromisso com a realidade. O segundo período descreve um romance ficcional que usa esse fato como ponto de partida para uma narrativa inventada (os dois irmãos como personagens ficcionais). O trecho demonstra exatamente a distinção entre o plano histórico não ficcional e o plano romanesco ficcional."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Um oficial redige um relatório técnico e, para torná-lo mais claro, inclui um parágrafo: 'Imagine que o sistema de propulsão falhe durante uma manobra de atracação: o navio perderia o controle direcional e...' Esse recurso:",
+      "textoBase": "O comandante encerrou sua fala com uma citação que sempre repetia: 'Navegar é preciso; viver não é preciso.' Depois, em silêncio, dobrou o papel e o guardou no bolso do uniforme, como se estivesse guardando também as palavras.",
+      "enunciado": "No trecho, a frase 'como se estivesse guardando também as palavras' é um exemplo de comparação com função expressiva típica do texto ficcional ou literário.",
       "alternativas": {
-        "A": "Transforma o relatório em texto ficcional, pois introduz uma situação imaginária.",
-        "B": "É inaceitável em documentos militares, pois viola o princípio da precisão factual.",
-        "C": "É um recurso pedagógico legítimo que usa elemento hipotético-ilustrativo sem comprometer a natureza não ficcional do documento, desde que fique clara a função exemplificativa.",
-        "D": "Cria um gênero híbrido permanente: o relatório deixa de ser não ficcional ao incorporar o trecho narrativo.",
-        "E": "Caracteriza o texto como autoficção, pois o autor projeta sua experiência em um cenário imaginário."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "O uso de hipóteses ou cenários exemplificativos em documentos técnicos (C) é um recurso pedagógico legítimo — o parágrafo hipotético serve para ilustrar um princípio real. O documento mantém sua natureza não ficcional porque o contexto deixa clara a função ilustrativa ('imagine que') e o conteúdo técnico principal é verificável. Um único parágrafo hipotético não transforma o relatório em ficcional (A). O recurso hipotético é amplamente aceito em redação técnica (B). A natureza não ficcional do documento não é permanentemente alterada por um recurso ilustrativo pontual (D). Autoficção (E) exige uso do nome do autor como personagem de narrativa fictícia."
+      "gabarito": "A",
+      "explicacao": "A afirmativa está correta. A construção 'como se estivesse guardando também as palavras' é uma comparação (introduzida por 'como se') com clara função expressiva e poética: atribui ao gesto físico de guardar o papel um significado simbólico — o silêncio e a interiorização do discurso. Esse tipo de construção metafórica e simbólica é característico dos textos ficcionais e literários, onde a linguagem vai além da mera informação para criar efeitos estéticos e emocionais."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Em um texto, o narrador diz ao leitor: 'Você percebe, caro leitor, que eu poderia ter matado este personagem há dez páginas, mas decidi poupá-lo para revelar um segredo maior.' Esse recurso é denominado:",
+      "textoBase": "A bula do medicamento Cloridrato de Ciprofloxacino 500 mg informa: 'Não utilize este medicamento se você tiver hipersensibilidade (alergia) à ciprofloxacina, a outras quinolonas ou a qualquer dos componentes da fórmula.' Leia as contraindicações antes de usar.",
+      "enunciado": "Assinale a alternativa correta sobre o texto da bula.",
       "alternativas": {
-        "A": "Narrador observador, pois o narrador se coloca em posição de distância em relação à narrativa.",
-        "B": "Metalinguagem ficcional, pois o texto ficcional discute explicitamente sua própria condição de texto construído.",
-        "C": "Jornalismo literário, pois o narrador revela os bastidores da produção do texto.",
-        "D": "Autoficção, pois o narrador revela sua identidade como o autor real.",
-        "E": "Intertextualidade, pois o narrador faz referência a outras narrativas ao mencionar decisões sobre personagens."
+        "A": "A bula é um texto ficcional porque usa linguagem técnica e científica inacessível ao leitor comum.",
+        "B": "A bula é um texto híbrido porque combina informações científicas com linguagem imperativa.",
+        "C": "A bula é um texto não ficcional: tem enunciador identificável, dados verificáveis e compromisso direto com a saúde e segurança do leitor.",
+        "D": "A bula é ficcional porque os efeitos do medicamento variam de pessoa para pessoa e não podem ser garantidos.",
+        "E": "A bula é não ficcional apenas quando as informações são confirmadas pelo médico do paciente."
       },
-      "gabarito": "B",
-      "explicacao": "O recurso de 'quebrar a quarta parede' — o narrador se dirigir ao leitor revelando que controla os destinos dos personagens — é um exemplo clássico de metalinguagem ficcional (B): o texto ficcional discute sua própria condição de artefato construído, revelando os mecanismos da ficção. O narrador observador (A) descreve ações externas sem acesso aos pensamentos dos personagens. Jornalismo literário (C) é texto não ficcional com técnicas literárias. Autoficção (D) exige que o narrador use o nome real do autor como personagem. Intertextualidade (E) refere-se a relações entre textos diferentes."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. A bula é um texto não ficcional informativo-instrucional: tem enunciador identificável (laboratório fabricante), informações verificáveis (composição química, contraindicações baseadas em estudos clínicos) e compromisso direto com a realidade — as informações têm efeito no mundo real, podendo afetar a saúde do leitor. A linguagem técnica (A) não define ficcionalidade. A combinação de estilos (B) não cria hibridismo genérico. A variação individual de efeitos (D) não afeta a natureza do gênero. A confirmação médica (E) é condição de uso, não de classificação textual."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Segundo Koch e Elias, em textos não ficcionais o leitor ativa estratégias de leitura diferentes das que usa em textos ficcionais. Em qual das situações abaixo o leitor estaria usando estratégia INADEQUADA ao tipo de texto?",
+      "textoBase": "O marinheiro olhou para o céu sem estrelas e pensou: esta noite o mar e o céu são a mesma coisa — uma escuridão sem fim que engole tudo. Só a bússola ainda diferenciava cima de baixo.",
+      "enunciado": "O trecho apresenta um narrador onisciente que acessa os pensamentos do personagem, recurso típico da narrativa ficcional.",
       "alternativas": {
-        "A": "Ao ler um romance, o leitor suspende a exigência de verdade factual e aceita o mundo fictício como internamente coerente.",
-        "B": "Ao ler uma notícia, o leitor verifica a fonte, busca confirmação dos dados e avalia a credibilidade do veículo.",
-        "C": "Ao ler um conto fantástico, o leitor exige que os eventos sejam factualmente verificáveis antes de aceitar a narrativa.",
-        "D": "Ao ler um relatório técnico naval, o leitor identifica os dados verificáveis e os distingue de inferências e recomendações.",
-        "E": "Ao ler uma crônica literária, o leitor reconhece a subjetividade do autor e não trata o texto como relato factual objetivo."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A estratégia inadequada (C) é exigir verificabilidade factual ao ler um conto fantástico — texto ficcional por excelência. O pacto ficcional exige exatamente o oposto: a suspensão da exigência de verdade factual. Aplicar o pacto de verdade ao texto ficcional é uma leitura equivocada. As demais alternativas descrevem estratégias adequadas: suspensão da descrença para o romance (A), verificação de fontes para a notícia (B), análise de dados no relatório técnico (D) e reconhecimento da subjetividade na crônica literária (E)."
+      "gabarito": "A",
+      "explicacao": "A afirmativa está correta. O narrador do trecho acessa e reproduz o pensamento interior do marinheiro ('pensou: esta noite o mar e o céu são a mesma coisa'), o que é característica do narrador onisciente — aquele que conhece a interioridade dos personagens. Esse recurso é exclusivo da narrativa ficcional: em textos não ficcionais, o enunciador não tem acesso aos pensamentos de pessoas reais e, se os reproduzir, estaria especulando ou inventando."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Um candidato analisa um conto de Clarice Lispector com duas afirmações: (I) 'O texto é ficcional porque os personagens e eventos são inventados.' (II) 'O texto possui elementos não ficcionais porque reflete verdades psicológicas e existenciais sobre a condição humana.' Sobre essas afirmações:",
+      "textoBase": "Tanto o romance 'Ventos do Sul' quanto o relatório de operação da corveta tratam do mesmo episódio: o resgate de náufragos em outubro de 2023. O romance constrói os personagens, imagina seus medos e cria diálogos que nunca foram gravados. O relatório registra o número de resgatados, o tempo de operação e os recursos utilizados.",
+      "enunciado": "Com base no trecho, assinale a alternativa correta.",
       "alternativas": {
-        "A": "Ambas estão corretas e são mutuamente excludentes: o texto não pode ser simultaneamente ficcional e portador de verdades.",
-        "B": "A afirmação I está correta; a afirmação II confunde 'verdades universais expressas pela ficção' com 'elementos não ficcionais', sendo imprecisa.",
-        "C": "A afirmação II está correta; a afirmação I está errada porque personagens inventados não tornam um texto ficcional se o tema é real.",
-        "D": "Ambas estão incorretas: Clarice Lispector é conhecida pelo realismo, não pela ficção.",
-        "E": "Ambas estão corretas e são complementares: todo texto ficcional de qualidade contém elementos não ficcionais."
+        "A": "Os dois textos são ficcionais, pois tratam do mesmo episódio.",
+        "B": "Os dois textos são não ficcionais, pois se referem a um evento real.",
+        "C": "O romance é ficcional e o relatório é não ficcional, pois diferem no pacto com o leitor e no tipo de compromisso com os fatos.",
+        "D": "O romance é não ficcional por usar o evento real como base; o relatório é ficcional por omitir detalhes humanos.",
+        "E": "Ambos são híbridos, pois tratam de um evento real com abordagens diferentes."
       },
-      "gabarito": "B",
-      "explicacao": "A afirmação I está correta (B): personagens e eventos inventados definem o texto como ficcional — é o critério central do pacto ficcional. A afirmação II é imprecisa: 'verdades psicológicas e existenciais' expressas por um texto ficcional são verdades que a ficção evoca ou ilumina — não tornam o texto não ficcional. Confundir 'a ficção revela verdades' com 'a ficção contém elementos não ficcionais' é um erro de categoria. Não são mutuamente excludentes no sentido de que a afirmação I seja errada (A). O tema real não determina a natureza ficcional (C). Clarice Lispector é autora de ficção (D). 'Todo texto ficcional de qualidade' (E) é generalizante e impreciso."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta e sintetiza a distinção fundamental: o romance é ficcional porque cria personagens, imagina sentimentos e inventa diálogos — opera sob pacto com a imaginação. O relatório é não ficcional porque registra dados objetivos e verificáveis (número de resgatados, tempo, recursos) — opera sob pacto com a realidade. O mesmo evento real pode ser abordado por textos de naturezas completamente distintas, dependendo do pacto estabelecido com o leitor. A alternativa A é falsa: o relatório é claramente não ficcional. B é falsa: o romance é claramente ficcional. D inverte a classificação. E aplica erroneamente o conceito de híbrido."
     }
   ],
+
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho a seguir e responda à questão:\n\n'Fortaleza, 12 de setembro de 1942. O submarino alemão U-507 havia torpedeado o Baependy horas antes. O tenente Alcides dos Santos, sobrevivente, chegou ao porto com olhos que não conseguiam mais chorar. Ele não disse nada quando o oficial de plantão o abordou. Apenas abriu a mão e mostrou um cordão de ouro — tudo que restara de sua filha de seis anos.'\n\nO trecho acima apresenta características típicas de:",
+      "textoBase": "Em seu romance de estreia, o autor — um ex-oficial da Marinha — narra a história de um capitão-tenente fictício que enfrenta uma crise de consciência durante uma operação de patrulha. O próprio autor declarou em entrevista: 'Usei minha experiência real para criar situações verossímeis, mas os personagens são inteiramente inventados. O capitão-tenente da história não sou eu — é o que eu poderia ter sido.'",
+      "enunciado": "Com base no trecho, julgue as afirmações:\nI. O romance é ficcional porque os personagens são declaradamente inventados pelo autor.\nII. A experiência real do autor transforma o romance em texto não ficcional.\nIII. A frase 'o capitão-tenente da história não sou eu' distingue o autor do narrador/personagem.\nIV. O texto do romance pode ser classificado como híbrido por combinar experiência real e personagens inventados.\n\nEstão corretas:",
       "alternativas": {
-        "A": "Texto ficcional puro, pois utiliza técnicas narrativas literárias como o detalhe simbólico do cordão de ouro.",
-        "B": "Texto não ficcional com técnicas do jornalismo literário: o evento histórico (afundamento do Baependy em 1942) é verificável, e o estilo narrativo é recurso para ampliar o impacto, sem comprometer o compromisso com a veracidade.",
-        "C": "Romance histórico, pois o personagem Tenente Alcides dos Santos é fictício inserido em contexto histórico real.",
-        "D": "Autoficção, pois o autor usa um alter ego (o tenente) para expressar sua própria experiência de perda.",
-        "E": "Crônica literária, pois o texto parte de um evento jornalístico e o transforma por meio de recursos literários subjetivos."
+        "A": "Apenas I e III.",
+        "B": "Apenas I, III e IV.",
+        "C": "Apenas II e IV.",
+        "D": "Apenas I e II.",
+        "E": "I, II, III e IV."
       },
       "gabarito": "B",
-      "explicacao": "O trecho apresenta características do jornalismo literário (B): o afundamento do Baependy pelo U-507 em setembro de 1942 é evento histórico verificável — o navio foi efetivamente torpedeado durante a Segunda Guerra Mundial. As técnicas narrativas (o detalhe do cordão de ouro, o silêncio do sobrevivente, a focalização emocional) são recursos estilísticos para ampliar o impacto humano sem inventar fatos. Não é ficção pura (A) porque os fatos são verificáveis. Para classificar como romance histórico (C), precisaríamos confirmar se o Tenente Alcides dos Santos é personagem inventado. A autoficção (D) exige uso do nome do autor. A crônica (E) tem formato diferente — costuma ser mais curta, mais subjetiva e centrada na voz do cronista."
+      "explicacao": "Afirmação I está correta: o autor declara explicitamente que os personagens são inventados — marca definitiva de ficcionalidade. Afirmação II está errada: a experiência real serve de inspiração, mas não transforma o gênero. O romance continua ficcional — o que define o gênero é o pacto, não a fonte de inspiração. Afirmação III está correta: a declaração do autor distingue sua identidade real da figura ficcional do personagem — reconhece a separação entre autor e personagem. Afirmação IV está correta: a combinação de experiência real (base biográfica) com personagens inventados é característica do texto híbrido — no caso, de um romance autobiográfico ficcionalizado. Portanto, estão corretas I, III e IV."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Leia os dois trechos abaixo e responda:\n\nTrecho 1: 'A corveta deslizava sobre o mar como uma faca sobre seda. O imediato, de olhos fechados, ouvia o motor como se ouvisse a respiração de um ser vivo — rítmica, constante, confiável.'\n\nTrecho 2: 'A Corveta Barroso (V34) deslocou-se a 22 nós durante o exercício de 14 a 16 de março de 2024, registrando consumo médio de 3,2 toneladas de combustível por hora.'\n\nQual afirmação sobre os dois trechos está CORRETA?",
+      "textoBase": "Texto I — Edital do Concurso RM2/2025: 'São requisitos para inscrição: ser brasileiro nato ou naturalizado; ter entre 18 e 36 anos completos na data da matrícula; possuir diploma de curso superior reconhecido pelo MEC na área de Engenharia.'\n\nTexto II — Fragmento de conto: 'Marcos tinha 35 anos e um diploma de Engenharia que nunca usara. Quando viu o edital da Marinha, sentiu pela primeira vez em anos que havia um lugar para ele no mundo.'",
+      "enunciado": "Sobre os dois textos, assinale a alternativa correta.",
       "alternativas": {
-        "A": "Ambos são ficcionais porque tratam de navios de guerra e usam vocabulário náutico técnico.",
-        "B": "O Trecho 1 é ficcional (linguagem metafórica, personagem anônimo, ausência de dados verificáveis); o Trecho 2 é não ficcional (dado verificável, identificação precisa da embarcação, data documentável).",
-        "C": "O Trecho 1 é não ficcional porque a comparação da corveta com uma faca revela conhecimento técnico real sobre a hidrodinâmica naval.",
-        "D": "Ambos são não ficcionais porque tratam de embarcações reais da Marinha do Brasil.",
-        "E": "O Trecho 2 é ficcional porque apresenta dados numéricos precisos, que só podem ser inventados para criar verossimilhança."
+        "A": "Ambos são ficcionais, pois o Texto I pode ter sido inventado para contextualizar o Texto II.",
+        "B": "O Texto I é não ficcional e o Texto II é ficcional; ambos mencionam o edital, mas com pactos distintos com o leitor.",
+        "C": "O Texto II é não ficcional porque se baseia nos requisitos reais do Texto I.",
+        "D": "Ambos são não ficcionais, pois os requisitos do edital são informações verificáveis presentes nos dois textos.",
+        "E": "O Texto I é híbrido porque combina linguagem jurídica com conteúdo informativo."
       },
       "gabarito": "B",
-      "explicacao": "A análise correta (B) identifica as marcas de cada tipo: o Trecho 1 usa linguagem metafórica ('como uma faca sobre seda', 'respiração de um ser vivo'), personagem anônimo ('o imediato'), sem dados verificáveis — marcas do texto ficcional; o Trecho 2 identifica precisamente o navio (Corveta Barroso V34), apresenta dados numéricos (22 nós, 3,2 t/h), data verificável — marcas do pacto de verdade. Vocabulário náutico (A) pode aparecer em ambos os tipos. A metáfora (C) é recurso estilístico que não converte um texto em não ficcional. A embarcação real (D) pode ser ficionalizada. Dados numéricos (E) são marcas de não ficcionalidade, não de ficção."
+      "explicacao": "A alternativa B está correta. O Texto I é um edital — gênero não ficcional por excelência: tem efeito jurídico real, enunciador institucional identificável, dados verificáveis e produz obrigações no mundo real. O Texto II é ficcional: apresenta personagem inventado (Marcos), narrador que acessa sua interioridade ('sentiu pela primeira vez') e enredo construído. O fato de o Texto II mencionar o edital (elemento real) não o transforma em não ficcional — a ficção pode referenciar a realidade sem deixar de ser ficção. A alternativa A especula sem base. C inverte a lógica: basear-se em fato real não elimina a ficcionalidade. D trata o Texto II como não ficcional sem justificativa. E aplica erroneamente o conceito de híbrido ao Texto I."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "O gênero 'docuficção' (ou 'faction') caracteriza-se por:\n\nI. Mesclar documentos históricos reais com elementos ficcionais, criando narrativas que transitam entre o arquivo e a invenção.\nII. Exigir do leitor a ativação simultânea do pacto de verdade (para os documentos reais) e do pacto ficcional (para os elementos inventados).\nIII. Ser classificado sempre como texto não ficcional, pois os documentos reais prevalecem sobre os elementos ficcionais.\n\nEstão CORRETAS:",
+      "textoBase": "O livro 'Almirante do Sertão' é descrito pelo próprio autor como 'um romance biográfico'. Baseado na vida real do almirante Saldanha da Gama, o livro reconstrói cenas de sua infância, imagina conversas com familiares não documentadas e atribui ao almirante pensamentos e sentimentos que nunca foram registrados. O prefácio adverte: 'Onde a história calou, a ficção falou.'",
+      "enunciado": "Com base na descrição do livro, assinale a alternativa que melhor o classifica.",
       "alternativas": {
-        "A": "Apenas I.",
-        "B": "Apenas I e II.",
-        "C": "Apenas II e III.",
-        "D": "I, II e III.",
-        "E": "Apenas III."
+        "A": "Texto não ficcional, pois é baseado na vida de uma pessoa real.",
+        "B": "Texto estritamente ficcional, sem qualquer elemento não ficcional.",
+        "C": "Texto híbrido: combina base biográfica não ficcional (vida real do almirante) com elementos ficcionais (cenas imaginadas, diálogos inventados, pensamentos atribuídos).",
+        "D": "Texto memorialístico, pois relata experiências do próprio autor com o almirante.",
+        "E": "Texto jornalístico investigativo, pois reconstrói uma vida real com base em pesquisa."
       },
-      "gabarito": "B",
-      "explicacao": "I está correta: a docuficção mescla documentos reais com invenção — é sua característica definitória. II está correta: segundo Koch e Elias, gêneros híbridos exigem que o leitor oscile entre dois pactos conforme as marcas textuais. III está INCORRETA: a docuficção não é classificada como não ficcional apenas porque contém documentos reais; os elementos ficcionais são tão constitutivos do gênero quanto os documentos — a classificação é de gênero híbrido. A presença de documentos reais não cancela a natureza ficcional dos elementos inventados. Logo, apenas I e II estão corretas (B)."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. O 'romance biográfico' é um gênero deliberadamente híbrido: usa como base a vida real de uma pessoa histórica (almirante Saldanha da Gama) — elemento não ficcional — mas preenche lacunas documentais com criação literária (cenas imaginadas, diálogos não documentados, pensamentos atribuídos) — elementos ficcionais. O próprio prefácio reconhece essa hibridez: 'Onde a história calou, a ficção falou.' A alternativa A ignora os elementos ficcionais. B ignora a base biográfica real. D inverte: quem viveu foi o almirante, não o autor. E classifica incorretamente o gênero como jornalístico."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia a passagem: 'O engenheiro naval passou a mão nos planos do submarino como quem acaricia um filho que está prestes a zarpar. Sabia que aquelas linhas, aquelas curvas calculadas ao milímetro, eram a diferença entre a vida e a morte de quarenta homens.'\n\nEsse trecho aparece em um manual técnico de engenharia naval publicado pela Diretoria de Engenharia da Marinha. Qual a análise CORRETA sobre sua natureza?",
+      "textoBase": "Crônica — 'O Recruta e o Mar': Na última semana, assisti à formatura de uma turma de recrutas na Base Naval de Fortaleza. Um deles — magro, olhos arregalados, uniforme dois números maior — olhou para o mar durante toda a cerimônia como se nunca o tivesse visto de verdade. Saí de lá pensando que talvez o mar seja mesmo o melhor espelho para quem está começando a se descobrir.",
+      "enunciado": "Sobre o texto, julgue as afirmações:\nI. O texto é uma crônica que combina observação de fato real com reflexão subjetiva do cronista.\nII. O texto é puramente ficcional porque o recruta descrito pode ser um personagem inventado.\nIII. A reflexão final ('o mar seja mesmo o melhor espelho') representa uma informação factual sobre o mar.\nIV. O cronista ocupa a posição de enunciador real, não de narrador ficcional.\n\nEstão corretas apenas:",
       "alternativas": {
-        "A": "O trecho torna o manual um texto ficcional, pois usa metáfora ('como quem acaricia um filho') e linguagem emotiva.",
-        "B": "O trecho é um elemento ficcional que entra em contradição com a natureza não ficcional do manual, tornando-o um gênero híbrido.",
-        "C": "O uso de recursos estilísticos literários em um texto cujo pacto principal é de verdade e precisão técnica não descaracteriza o manual como não ficcional — é um recurso retórico para engajamento do leitor.",
-        "D": "O trecho é inaceitável em documentos militares, pois viola o Manual de Redação e Estilo da Marinha.",
-        "E": "O trecho demonstra que todo texto técnico contém, necessariamente, elementos ficcionais em sua estrutura."
+        "A": "I e IV.",
+        "B": "I, II e IV.",
+        "C": "II e III.",
+        "D": "I, III e IV.",
+        "E": "Apenas II."
       },
-      "gabarito": "C",
-      "explicacao": "O uso pontual de recursos estilísticos literários (C) em um documento técnico não descaracteriza sua natureza não ficcional. O pacto principal do manual é de verdade e precisão técnica — o conteúdo é verificável e o autor responde pela veracidade das informações de engenharia. A metáfora serve como recurso retórico para engajamento, não como elemento que instaura o pacto ficcional. Um único trecho metafórico não transforma um manual técnico em texto ficcional (A). Textos técnicos frequentemente usam recursos literários sem se tornarem híbridos (B). O Manual de Redação da Marinha admite clareza e adequação estilística (D). Nem todo texto técnico contém elementos ficcionais (E)."
+      "gabarito": "A",
+      "explicacao": "Afirmação I está correta: a crônica é um gênero que parte de observação real ('assisti à formatura') e a transforma com subjetividade e reflexão literária — características do gênero híbrido. Afirmação II está errada: a possibilidade de o recruta ser inventado não transforma automaticamente o texto em ficção pura; a crônica pode usar recursos ficcionais sem ser ficção. Afirmação III está errada: 'o mar seja o melhor espelho' é uma reflexão metafórica e subjetiva — não é uma afirmação factual sobre o mar, mas uma imagem poética. Afirmação IV está correta: o cronista usa a primeira pessoa ('assisti', 'saí') e se identifica como observador real — ocupa a posição de enunciador real, não de narrador ficcional criado. Portanto, estão corretas I e IV."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Considere as seguintes afirmações sobre a distinção entre ficção e não ficção:\n\nI. A distinção fundamental entre texto ficcional e não ficcional está no pacto estabelecido entre autor e leitor, não na aparência do conteúdo ou nos recursos linguísticos empregados.\nII. Um texto pode ser verossímil (parecer verdadeiro) e ser ficcional, assim como pode parecer inverossímil (improvável) e ser não ficcional.\nIII. O suporte de publicação (jornal, livro, revista técnica) determina definitivamente a natureza ficcional ou não ficcional do texto.\nIV. Gêneros híbridos como a autoficção e a crônica literária demonstram que a fronteira entre ficção e não ficção pode ser tênue e negociada textualmente.\n\nEstão CORRETAS apenas:",
+      "textoBase": "O romance 'Águas Turvas' apresenta, em seu capítulo final, um documento que imita perfeitamente uma portaria oficial da Marinha, com numeração, data, assinatura e linguagem burocrática, para comunicar a transferência de um personagem fictício. O autor afirmou que o documento foi 'criado por inteiro' para servir à narrativa.",
+      "enunciado": "Com base no trecho, assinale a alternativa correta.",
       "alternativas": {
-        "A": "I e III.",
-        "B": "II e IV.",
-        "C": "I, II e IV.",
-        "D": "I, III e IV.",
-        "E": "I, II, III e IV."
+        "A": "O documento inserido no romance é não ficcional porque imita o formato de uma portaria real.",
+        "B": "O documento é ficcional: mesmo com formato de portaria oficial, foi criado pelo autor para integrar uma narrativa ficcional e não produz efeitos jurídicos reais.",
+        "C": "O romance torna-se híbrido porque contém um documento com formato não ficcional.",
+        "D": "O uso de linguagem burocrática torna o documento automaticamente não ficcional.",
+        "E": "O documento é considerado não ficcional caso o leitor acredite em sua autenticidade."
       },
-      "gabarito": "C",
-      "explicacao": "I está correta: o pacto de leitura é o critério fundamental — não a aparência do conteúdo nem os recursos linguísticos. II está correta: verossimilhança ≠ veracidade; ficção pode ser verossímil, e não ficção pode relatar fatos que parecem incríveis mas são verificáveis. III está INCORRETA: o suporte não determina a natureza do texto — uma crônica literária publicada em jornal pode ser ficcional; o contexto e o pacto estabelecido é que importam. IV está correta: gêneros híbridos demonstram que a fronteira é negociada — o texto pode flutuar entre os dois pactos conforme suas marcas internas. Logo, I, II e IV estão corretas (C)."
+      "gabarito": "B",
+      "explicacao": "A alternativa B está correta. O documento inserido no romance é ficcional, apesar de imitar o formato de uma portaria real. O que define a ficcionalidade não é o formato, mas o pacto e o efeito: o documento foi criado pelo autor (declaradamente), integra uma narrativa ficcional e não produz efeitos jurídicos no mundo real. A forma pode imitar o não ficcional — isso é um recurso literário chamado verossimilhança documental — mas a natureza permanece ficcional. A alternativa A confunde forma com natureza. C aplica o conceito de híbrido de forma imprecisa: o documento é parte da ficção, não uma inserção não ficcional. D inverte a lógica: linguagem burocrática é um recurso estilístico, não um marcador ontológico de não ficção. E coloca a subjetividade do leitor como critério — a classificação genérica não depende da crença do leitor."
     }
   ],
+
   "desafio": {
     "topicos_mesclados": [
-      "gram-01",
-      "gram-03",
-      "gram-11",
-      "gram-13",
-      "gram-14",
-      "comp-02",
-      "comp-06",
-      "comp-07",
-      "gram-10",
-      "comp-11",
-      "gram-12",
-      "gram-05",
-      "gram-06",
-      "comp-03",
-      "comp-08",
-      "gram-04",
-      "gram-08",
-      "gram-09",
-      "comp-02",
-      "comp-09",
-      "comp-05",
-      "comp-14",
-      "comp-10",
-      "gram-14",
-      "comp-01",
-      "comp-13",
-      "comp-12",
-      "comp-04"
+      "gram-00", "gram-04", "gram-05", "gram-06", "gram-07",
+      "gram-01", "gram-02", "gram-03", "gram-08", "gram-09",
+      "gram-10", "gram-11", "gram-12", "gram-13", "gram-14",
+      "comp-03", "comp-06", "comp-05", "comp-07", "comp-14",
+      "comp-01", "comp-02", "comp-04"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + comp-07",
-        "enunciado": "Leia o trecho: 'O navio era uma catedral flutuante: seus mastros, as torres; seu convés, a nave central onde os homens rezavam ao ritmo das ondas.' Sobre esse trecho, é CORRETO afirmar que:",
+        "topico_referencia": "comp-04",
+        "textoBase": "O sargento Teles escreveu em seu diário: 'Hoje completei vinte anos de serviço. Não me arrependo de nada — mas se pudesse voltar, teria aprendido a dizer adeus melhor.'",
+        "enunciado": "O trecho do diário do sargento Teles é classificado como texto ficcional porque contém reflexão subjetiva e pessoal.",
         "alternativas": {
-          "A": "É um texto não ficcional porque descreve com precisão técnica a estrutura de um navio.",
-          "B": "A metáfora 'catedral flutuante' é um elemento ficcional que transforma o texto em romance histórico.",
-          "C": "O trecho é ficcional e emprega a metáfora continuada (alegoria): o navio é comparado a uma catedral e os elementos da comparação são desenvolvidos ao longo de todo o trecho.",
-          "D": "O trecho é híbrido porque mescla linguagem técnica naval com linguagem religiosa.",
-          "E": "A figura de linguagem empregada é a metonímia, pois substitui o navio (todo) pelos seus componentes (parte)."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "O trecho (C) é ficcional — não há dados verificáveis, o objetivo é literário — e emprega a metáfora continuada ou alegoria: o navio é identificado como 'catedral flutuante' e a comparação é sistematicamente desenvolvida (mastros = torres, convés = nave central, marinheiros = fiéis). A descrição técnica (A) não está presente — os elementos náuticos são reconfigurados ficcionalmente. A metáfora não transforma o texto em romance histórico (B) — seria necessário contexto narrativo com personagens e enredo histórico. A mistura de linguagens (D) por si só não cria hibridismo no sentido técnico. A figura é metáfora/alegoria, não metonímia (E) — metonímia substitui um termo por outro com relação de contiguidade real, não de comparação imaginativa."
+        "gabarito": "B",
+        "explicacao": "O diário é um texto não ficcional: tem enunciador real identificável (sargento Teles), relata experiência pessoal vivida e assume compromisso com a veracidade dos fatos narrados. A presença de subjetividade e reflexão pessoal não transforma um diário em ficção — esse é um marcador de gênero (texto íntimo), não de ficcionalidade."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + comp-09",
-        "enunciado": "Leia o trecho de um conto: 'O engenheiro parou diante do painel e pensou: \"Se o sistema falhar agora, acabou tudo.\" Virou-se para o assistente e disse em voz alta: — Prepare o protocolo de emergência. E o assistente obedeceu, sem perguntar por quê.' Sobre o uso do discurso nesse trecho ficcional, é CORRETO afirmar que:",
+        "topico_referencia": "comp-04",
+        "textoBase": "No romance naval 'A Última Esquadra', o narrador descreve o almirante-personagem: 'Era o tipo de homem que preferia o mar à terra, o dever ao conforto, o silêncio às palavras. Seus oficiais não sabiam se o amavam ou o temiam — provavelmente as duas coisas.'",
+        "enunciado": "A caracterização do almirante no trecho é atribuída ao autor do romance, revelando sua visão sobre o perfil ideal de liderança naval.",
         "alternativas": {
-          "A": "O pensamento do engenheiro é reproduzido em discurso direto livre, sem verbo dicendi e sem travessão.",
-          "B": "O pensamento do engenheiro é discurso indireto; a fala ao assistente é discurso direto; ambos caracterizam texto não ficcional.",
-          "C": "O pensamento do engenheiro está em discurso direto (marcado por aspas); a fala ao assistente está em discurso direto (marcado por travessão); o narrador usa narração em terceira pessoa para a ação do assistente ('E o assistente obedeceu').",
-          "D": "Toda a passagem é discurso indireto livre, pois mistura a voz do narrador com a do personagem sem demarcação clara.",
-          "E": "O texto deixa de ser ficcional quando reproduz pensamentos de engenheiros em situações de emergência."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "A análise dos tipos de discurso (C) está correta: 'Se o sistema falhar agora, acabou tudo' está entre aspas — discurso direto do pensamento do personagem. '— Prepare o protocolo de emergência' usa travessão — discurso direto da fala ao assistente. 'E o assistente obedeceu, sem perguntar por quê' é narração em terceira pessoa pelo narrador. O pensamento com aspas não é discurso indireto (A, B). A passagem não é toda discurso indireto livre (D) — há marcadores claros de discurso direto (aspas e travessão). Pensamentos de engenheiros em ficção não tornam o texto não ficcional (E) — o critério é o pacto, não o conteúdo profissional evocado."
+        "gabarito": "B",
+        "explicacao": "A caracterização é do narrador do romance — uma instância ficcional criada pelo autor, mas distinta dele. Em textos ficcionais, não se atribui ao autor as afirmações do narrador sem evidência textual explícita. O narrador é quem caracteriza os personagens dentro da narrativa; o autor é a pessoa real que criou o narrador e o romance."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + gram-11",
-        "enunciado": "Leia o trecho de um relatório técnico (texto não ficcional): 'Os engenheiros navais responsáveis pelo projeto, bem como o coordenador geral, ___ confirmado que os testes de resistência estrutural ___ concluído com êxito.' Assinale a alternativa que preenche corretamente as lacunas, de acordo com a concordância verbal exigida pelo registro formal:",
+        "topico_referencia": "comp-02",
+        "textoBase": "O boletim informava que o tenente foi 'convidado a se retirar' da solenidade após incidente não especificado.",
+        "enunciado": "A expressão 'convidado a se retirar' permite inferir que o tenente saiu da solenidade de forma voluntária e amistosa.",
         "alternativas": {
-          "A": "tem / foi — concordância com o núcleo mais próximo ('coordenador geral'), prática aceita em registros ficcionais.",
-          "B": "têm / foram — concordância com o sujeito composto pré-verbal ('engenheiros navais... bem como o coordenador'), exigida pelo registro formal de documentos militares.",
-          "C": "tem / foram — concordância atraída pelo sujeito exposto ('coordenador geral') no primeiro caso e pelo objeto direto no segundo.",
-          "D": "têm / foi — concordância com o sujeito composto no primeiro caso e com o núcleo isolado no segundo.",
-          "E": "tem / foi — única forma aceita pelo Manual de Redação e Estilo da Marinha em todos os contextos."
+          "A": "Certo",
+          "B": "Errado"
         },
         "gabarito": "B",
-        "explicacao": "Em textos formais não ficcionais como relatórios militares (B), a concordância verbal com sujeito composto pré-verbal exige o plural: 'Os engenheiros navais... bem como o coordenador geral' é sujeito composto com mais de um núcleo — o verbo deve ir para o plural ('têm'). Da mesma forma, 'os testes de resistência estrutural' é sujeito plural — o verbo deve ser plural ('foram'). A alternativa A invoca erroneamente uma regra de 'registros ficcionais' — a concordância com o núcleo mais próximo é uma possibilidade estilística, não uma regra exclusiva de texto ficcional. C confunde concordância com o objeto direto. D erra o segundo verbo. E afirma incorretamente que 'tem / foi' é a única forma aceita."
+        "explicacao": "'Convidado a se retirar' é um eufemismo que implica expulsão ou solicitação de saída de forma coercitiva — o uso do eufemismo suaviza uma situação constrangedora. Interpretar como saída 'voluntária e amistosa' contradiz o subentendido da expressão e ignora o contexto de 'incidente não especificado'. A inferência legítima é que a retirada foi imposta, não voluntária."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + gram-03",
-        "enunciado": "Em um conto (texto ficcional), encontra-se a frase: 'Ele aspirava ___ liberdade como ___ ar do mar; ___ medida que os anos passavam, sua saudade crescia ___ proporção de sua ausência.' Assinale a alternativa com o uso correto da crase nas quatro lacunas:",
+        "topico_referencia": "comp-07",
+        "textoBase": "O comandante era uma rocha: impassível diante das tempestades, firme quando todos ao redor vacilavam.",
+        "enunciado": "Na frase acima, a expressão 'era uma rocha' constitui uma metáfora que atribui ao comandante características de solidez e impassibilidade.",
         "alternativas": {
-          "A": "à / ao / À / à",
-          "B": "a / o / A / a",
-          "C": "à / o / À / à",
-          "D": "a / ao / Às / a",
-          "E": "à / ao / À / à"
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "Analisando cada lacuna: (1) 'aspirava ___ liberdade' — 'aspirar a algo' exige preposição 'a'; 'liberdade' é feminino singular — crase: 'à'. (2) '___ ar do mar' — 'ar' é masculino; a frase pede apenas o artigo definido 'o' sem preposição anterior (não há regência com 'a' antes de 'ar'): 'o'. (3) '___ medida que' — locução adverbial proporcional 'à medida que' exige crase (preposição 'a' + artigo 'a' do núcleo feminino 'medida'): 'À'. (4) '___ proporção de sua ausência' — locução prepositiva 'à proporção de' exige crase: 'à'. Logo: 'à / o / À / à' = alternativa C. A alternativa E apresenta 'à / ao / À / à', onde o segundo elemento seria 'ao' — o que incorreria em crase indevida antes de masculino (não existe crase antes de substantivo masculino sem preposição antecedente)."
+        "gabarito": "A",
+        "explicacao": "'Era uma rocha' é uma metáfora: compara o comandante a uma rocha sem usar o elemento comparativo explícito ('como', 'parece'). A metáfora transfere as qualidades da rocha — solidez, dureza, impassibilidade — para o comandante. O restante da frase ('impassível... firme quando todos vacilavam') funciona como expansão explicativa da metáfora, confirmando sua função expressiva."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + comp-11",
-        "enunciado": "Leia o parágrafo de uma crônica: 'O mar estava calmo. Calmo como a consciência de quem não deve nada a ninguém. O velho pescador lançou a rede pela última vez — ele sabia, embora não dissesse. A rede voltou vazia. O mar estava calmo.' A repetição da frase 'O mar estava calmo' no início e no final do parágrafo é um recurso de:",
+        "topico_referencia": "comp-03",
+        "textoBase": "A ordem do dia dizia: 'A disciplina é a espinha dorsal das Forças Armadas.'",
+        "enunciado": "No trecho, a expressão 'espinha dorsal' está empregada em sentido denotativo.",
         "alternativas": {
-          "A": "Incoerência textual, pois a mesma informação não deveria ser repetida em um texto bem construído.",
-          "B": "Coesão lexical por reiteração, com função expressiva: a repetição cria moldura textual e amplifica o silêncio e a melancolia do trecho, contribuindo para a coerência temática do texto ficcional.",
-          "C": "Coesão gramatical por substituição pronominal, pois 'O mar estava calmo' substitui a ideia de vazio exposta no trecho.",
-          "D": "Intertextualidade, pois a repetição remete a outros textos literários que usam o mesmo recurso.",
-          "E": "Ambiguidade não intencional, pois o leitor não sabe se o mar calmo do início é o mesmo do final."
+          "A": "Certo",
+          "B": "Errado"
         },
         "gabarito": "B",
-        "explicacao": "A repetição (B) é recurso de coesão lexical por reiteração com clara função expressiva: a moldura (início e fim com a mesma frase) cria unidade textual, e o sentido da frase se transforma — o 'calmo' do início é literal; o 'calmo' do final, após a rede vazia e o saber não dito do pescador, carrega melancolia e resignação. Isso contribui para a coerência temática sobre perda e silêncio. Repetição intencional com função expressiva não é incoerência (A). Não é substituição pronominal (C) — a reiteração usa a frase exata. Intertextualidade (D) exige relação com outro texto específico. A 'ambiguidade' (E) é intencional e constitutiva do sentido — não é um erro."
+        "explicacao": "'Espinha dorsal' em sentido denotativo designa a coluna vertebral do corpo humano. No contexto da ordem do dia, a expressão é usada conotativamente: representa o elemento central, estruturante e fundamental das Forças Armadas — assim como a coluna vertebral sustenta o corpo. O uso é figurado e conotativo, não literal."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + gram-13",
-        "enunciado": "Em um romance, o narrador descreve: 'O capitão olhava ___ o horizonte como se agarrar-se ___ àquele ponto fixo pudesse deter o tempo. Ele precisava ___ uma resposta, mas a vida resiste ___ respostas definitivas.' Assinale a alternativa com as regências verbais corretas para as lacunas:",
+        "topico_referencia": "gram-12",
+        "textoBase": "Fazem três anos que o sargento não tem notícias da família.",
+        "enunciado": "O verbo 'fazem' está corretamente flexionado no plural na frase acima.",
         "alternativas": {
-          "A": "em / de / por / com",
-          "B": "para / — / de / a",
-          "C": "em / a / com / de",
-          "D": "de / — / em / para",
-          "E": "por / com / de / sobre"
+          "A": "Certo",
+          "B": "Errado"
         },
         "gabarito": "B",
-        "explicacao": "As regências corretas (B): 'olhar para' — verbo intransitivo com complemento precedido de 'para'; 'agarrar-se a' — verbo pronominal com regência 'a', já satisfeita pela crase 'àquele' (preposição 'a' + demonstrativo 'aquele'), portanto a lacuna antes de 'àquele' não exige nova preposição; 'precisar de' — verbo transitivo indireto ('precisar de algo'); 'resistir a' — verbo transitivo indireto ('resistir a algo'). As demais alternativas contêm pelo menos uma regência incorreta: 'olhar em' (A, C) e 'olhar de' (D) e 'olhar por' (E) violam a regência padrão de 'olhar para'; 'precisar por' (A), 'precisar com' (C) e 'precisar em' (D) violam 'precisar de'; 'resistir com' (A, C) e 'resistir para' (D) e 'resistir sobre' (E) violam 'resistir a'."
+        "explicacao": "O verbo 'fazer' no sentido de 'decorrer tempo' é impessoal — não tem sujeito — e deve ser conjugado na terceira pessoa do singular: 'Faz três anos'. A flexão no plural ('fazem') é um erro de concordância verbal clássico: o candidato equivocadamente faz o verbo concordar com 'três anos', mas verbos impessoais de tempo são invariáveis. A forma correta é 'Faz três anos'."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + gram-14",
-        "enunciado": "Em um conto literário (texto ficcional), encontra-se o trecho: 'O comandante disse que não ___ enganasse: conhecia ___ melhor do que ___ julgava. Quando ___ encontrasse de novo, pediria que ___ explicasse tudo.' Assinale a alternativa que preenche corretamente as lacunas com os pronomes e a colocação pronominal adequados ao registro literário formal:",
+        "topico_referencia": "gram-03",
+        "textoBase": "O capitão dirigiu-se à praça para inspecionar os recrutas.",
+        "enunciado": "O emprego da crase em 'à praça' está correto.",
         "alternativas": {
-          "A": "se / o / ele / o / lhe",
-          "B": "te / te / você / te / te",
-          "C": "se / -o / ele mesmo / o / lhe",
-          "D": "lhe / o / ele / lhe / lhe",
-          "E": "se / o / se / o / se"
+          "A": "Certo",
+          "B": "Errado"
         },
         "gabarito": "A",
-        "explicacao": "Analisando o contexto (discurso indireto — o comandante disse que): (1) 'não ___ enganasse' — oração subordinada com negação 'não', que atrai o pronome para próclise; reflexivo da terceira pessoa referente ao sujeito implícito (o interlocutor): 'se'. (2) 'conhecia ___' — objeto direto referente à pessoa com quem o comandante falava (terceira pessoa): 'o'. (3) 'do que ___ julgava' — sujeito da comparativa, referente à mesma pessoa: 'ele'. (4) 'quando ___ encontrasse' — objeto direto na oração subordinada temporal (próclise obrigatória após 'quando'): 'o'. (5) 'pediria que ___ explicasse' — objeto indireto da oração subordinada (próclise obrigatória após 'que'): 'lhe'. A alternativa A ('se / o / ele / o / lhe') corresponde à análise correta das referências e da colocação pronominal no registro formal."
+        "explicacao": "A crase está correta. O verbo 'dirigir-se' rege a preposição 'a' (dirigir-se a algum lugar). O substantivo 'praça' é feminino e admite artigo definido feminino ('a praça'). A fusão da preposição 'a' com o artigo 'a' resulta em 'à'. Todos os requisitos para o emprego da crase estão satisfeitos: preposição 'a' + artigo definido feminino diante de substantivo feminino."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + comp-03",
-        "enunciado": "Leia os dois trechos sobre o mesmo navio:\n\nTrecho A: 'A fragata dormia no porto como um animal esgotado, suas ferragens rangendo suavemente ao compasso da maré, como gemidos de quem sonha.'\n\nTrecho B: 'A Fragata União está atracada no cais leste do Porto de Fortaleza para manutenção programada de sua propulsão diesel-elétrica, com previsão de conclusão para 15 de julho de 2024.'\n\nQual afirmação sobre o uso da linguagem nesses trechos está CORRETA?",
+        "topico_referencia": "comp-06",
+        "textoBase": "O recruta era inexperiente; o cabo, veterano. Ambos, porém, cumpriam as ordens com a mesma dedicação.",
+        "enunciado": "As palavras 'inexperiente' e 'veterano', no contexto do trecho, estabelecem uma relação de antonímia.",
         "alternativas": {
-          "A": "O Trecho A usa linguagem denotativa; o Trecho B usa linguagem conotativa.",
-          "B": "Ambos usam linguagem denotativa, pois tratam do mesmo objeto real (um navio).",
-          "C": "O Trecho A usa linguagem conotativa e figuras de linguagem (personificação: 'a fragata dormia'; comparação: 'como um animal esgotado; como gemidos de quem sonha'), caracterizando o texto ficcional; o Trecho B usa linguagem denotativa e técnica, caracterizando o texto não ficcional.",
-          "D": "O Trecho B é ficcional porque atribui à fragata uma 'propulsão diesel-elétrica', que é um recurso tecnológico inexistente em fragatas.",
-          "E": "A diferença entre os trechos é apenas estilística: ambos expressam o mesmo conteúdo informacional de formas distintas."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "O Trecho A (C) usa linguagem conotativa e múltiplas figuras: personificação ('a fragata dormia', 'gemidos de quem sonha') e comparação ('como um animal esgotado'). Esses recursos são próprios do texto ficcional literário. O Trecho B usa linguagem denotativa e técnica: identificação precisa do objeto, localização verificável, dado técnico, data documentável — marcas do pacto de verdade. O Trecho A não usa linguagem denotativa (A). Ambos não usam linguagem denotativa (B) — o Trecho A é explicitamente conotativo. A propulsão diesel-elétrica existe em fragatas modernas (D) — é tecnologia real. Os trechos têm conteúdo informacional completamente diferente (E)."
+        "gabarito": "A",
+        "explicacao": "'Inexperiente' e 'veterano' são antônimos no contexto: um indica falta de experiência e o outro, longa experiência. A oposição entre os dois é reforçada pela própria estrutura do trecho — 'recruta era inexperiente; o cabo, veterano' — que coloca os termos em posição contrastiva. A relação de antonímia é tanto semântica (sentidos opostos) quanto contextual (usados para contrastar dois personagens)."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + gram-10",
-        "enunciado": "Leia o período de um conto: 'O oficial fechou os olhos, pois o cansaço era insuportável, mas a missão ainda não havia terminado, portanto ele precisava resistir, embora soubesse que as forças o abandonavam.' Sobre a estrutura sintática desse período, é CORRETO afirmar que:",
+        "topico_referencia": "gram-11",
+        "textoBase": "Os documentos e o relatório foram entregues ao almirante.",
+        "enunciado": "Na frase acima, o artigo 'os' refere-se apenas a 'documentos', pois o substantivo 'relatório' é masculino singular e não precisa de artigo plural.",
         "alternativas": {
-          "A": "O período é simples, pois todas as orações têm o mesmo sujeito ('o oficial').",
-          "B": "O período é composto apenas por coordenação: 'pois', 'mas' e 'portanto' são conjunções coordenativas.",
-          "C": "O período é composto por coordenação e subordinação: 'pois' (causal coordenada), 'mas' (adversativa coordenada), 'portanto' (conclusiva coordenada) e 'embora soubesse' (concessiva subordinada adverbial) coexistem.",
-          "D": "O período é composto apenas por subordinação: todas as conjunções ('pois', 'mas', 'portanto', 'embora') introduzem orações subordinadas.",
-          "E": "A conjunção 'embora' introduz uma oração coordenada sindética adversativa, sinônima de 'mas'."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "O período (C) é composto por coordenação e subordinação: 'pois o cansaço era insuportável' — oração coordenada sindética causal; 'mas a missão ainda não havia terminado' — coordenada adversativa; 'portanto ele precisava resistir' — coordenada conclusiva; 'embora soubesse que as forças o abandonavam' — subordinada adverbial concessiva + subordinada substantiva objetiva indireta. O período não é simples (A) — tem múltiplas orações. Nem apenas coordenação (B) — 'embora' introduz subordinação. Nem apenas subordinação (D) — 'pois', 'mas' e 'portanto' são coordenativas. 'Embora' é conjunção concessiva subordinativa, não adversativa (E)."
+        "gabarito": "B",
+        "explicacao": "A afirmativa está errada. O artigo 'os' refere-se a 'documentos' — plural masculino — e 'relatório' não é alcançado pelo mesmo artigo, pois está no singular e ligado por 'e'. Na concordância nominal, quando há substantivos de gêneros ou números diferentes unidos por conjunção, o artigo se refere ao termo imediatamente seguinte. Aqui, 'Os documentos' está no plural com artigo e 'o relatório' está no singular sem artigo expresso — ambos concordam corretamente com seus respectivos artigos. A frase está gramaticalmente correta, mas a afirmativa da questão está errada ao descrever a estrutura."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + comp-02",
-        "enunciado": "Leia o trecho de um conto: 'O engenheiro assentiu com a cabeça. Não havia nada mais a dizer. O relatório estava sobre a mesa, imaculado, como uma acusação silenciosa.' Que informação IMPLÍCITA o leitor pode inferir desse trecho ficcional?",
+        "topico_referencia": "comp-05",
+        "textoBase": "O oficial viu o recruta treinando com o fuzil enferrujado.",
+        "enunciado": "A frase acima apresenta ambiguidade porque não é possível determinar se é o oficial ou o recruta quem está com o fuzil enferrujado.",
         "alternativas": {
-          "A": "O engenheiro é culpado de um crime e o relatório é a prova material apresentada contra ele.",
-          "B": "O relatório foi elaborado por um terceiro e entregue ao engenheiro sem seu conhecimento prévio.",
-          "C": "A situação é de tensão ou constrangimento: o silêncio do engenheiro, o relatório 'imaculado' e a metáfora 'acusação silenciosa' sugerem que o documento registra algo desfavorável ao engenheiro, que aceita ou reconhece a situação sem contestar.",
-          "D": "O engenheiro é o autor do relatório e está satisfeito com o resultado do trabalho.",
-          "E": "O trecho não contém informações implícitas — todo o conteúdo está explicitamente declarado."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "As informações implícitas (C) são inferidas pelas marcas textuais: 'assentiu com a cabeça' — concordância passiva ou resignação; 'Não havia nada mais a dizer' — o silêncio substitui qualquer defesa; 'imaculado' — limpo, formal, sem marcas de contestação; 'como uma acusação silenciosa' — a metáfora é a chave: o relatório acusa sem palavras. A inferência mais coerente é que o documento registra algo desfavorável ao engenheiro, que o aceita. A culpa por crime (A) é uma inferência excessivamente específica. A elaboração por terceiro (B) não tem base textual suficiente. A satisfação do engenheiro (D) contradiz o clima de tensão e o silêncio. Todo texto literário elaborado contém informações implícitas (E)."
+        "gabarito": "A",
+        "explicacao": "A frase é ambígua: o sintagma 'com o fuzil enferrujado' pode estar ligado a 'recruta' (o recruta estava treinando com o fuzil) ou a 'oficial' (o oficial viu com o fuzil enferrujado — improvávelmente, mas gramaticalmente possível). A ambiguidade é de natureza sintática: a posição do adjunto adverbial permite duas leituras distintas sobre a quem pertence o fuzil enferrujado."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + comp-02",
-        "enunciado": "Um autor escreve um conto ficcional sobre um engenheiro naval que descobre que a empresa para a qual trabalha falsifica laudos de segurança de embarcações. O propósito principal do autor ao escrever esse conto é provavelmente:",
+        "topico_referencia": "gram-14",
+        "textoBase": "Jamais se esqueceu o comandante dos deveres que lhe foram confiados.",
+        "enunciado": "A colocação pronominal na frase acima está correta conforme a norma culta escrita.",
         "alternativas": {
-          "A": "Documentar casos reais de fraude na engenharia naval brasileira para subsidiar investigações.",
-          "B": "Instruir o leitor sobre os procedimentos corretos de elaboração de laudos técnicos navais.",
-          "C": "Entreter o leitor por meio de uma narrativa ficcional e, simultaneamente, provocar reflexão crítica sobre ética profissional e responsabilidade institucional — propósito estético-crítico típico da literatura.",
-          "D": "Denunciar empresas específicas da indústria naval, usando a ficção como proteção legal.",
-          "E": "Produzir um manual de conduta ética para engenheiros navais em formato narrativo."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "O propósito do autor em um conto ficcional (C) é, primariamente, estético-literário: criar uma narrativa que envolva o leitor emocionalmente e intelectualmente. O tema serve como pretexto narrativo para explorar conflitos éticos e morais — propósito crítico e reflexivo sobre a condição humana, típico da literatura segundo Fiorin e Savioli e Koch e Elias. Documentar casos reais (A) seria propósito jornalístico. Instruir sobre procedimentos técnicos (B) seria propósito didático. Denunciar empresas específicas (D) seria propósito jornalístico-investigativo. Produzir manual de conduta (E) seria propósito prescritivo. O conto pode ter efeito reflexivo sobre ética, mas seu propósito central é literário."
+        "gabarito": "A",
+        "explicacao": "A colocação está correta. O advérbio 'jamais' é uma palavra atrativa que exige próclise — o pronome 'se' deve vir antes do verbo. Na frase, 'Jamais se esqueceu' respeita essa regra: o advérbio 'jamais' precede o verbo 'esqueceu' e atrai o pronome 'se' para antes dele. A colocação é próclise obrigatória em contexto de norma culta escrita."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + comp-14",
-        "enunciado": "Em um romance que retrata a vida de marinheiros do século XIX, o autor usa expressões como 'içar as velas do coração' e diálogos em linguagem coloquial da época. Sobre a relação entre elementos ficcionais e variação linguística nesse romance, é CORRETO afirmar que:",
+        "topico_referencia": "comp-14",
+        "textoBase": "O oficial redigiu o relatório usando gírias e expressões informais, como 'foi tranquilo' e 'deu pra resolver'.",
+        "enunciado": "O uso de gírias e expressões informais em um relatório oficial constitui inadequação de registro linguístico.",
         "alternativas": {
-          "A": "O uso de linguagem coloquial nos diálogos torna o texto não ficcional, pois demonstra registro linguístico real.",
-          "B": "A variação linguística (linguagem coloquial dos personagens vs. linguagem formal do narrador) é recurso ficcional que cria verossimilhança histórica e diferencia as vozes narrativas, sem comprometer a natureza ficcional do texto.",
-          "C": "Expressões coloquiais em textos ficcionais são erros gramaticais que devem ser corrigidos na revisão.",
-          "D": "A variação diacrônica (linguagem do século XIX) transforma o romance em texto histórico não ficcional.",
-          "E": "O uso de metáforas ('içar as velas do coração') em diálogos de personagens é incompatível com a variação coloquial."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "B",
-        "explicacao": "A variação linguística em textos ficcionais (B) é um recurso deliberado de verossimilhança: o autor usa a linguagem coloquial dos personagens para criar a ilusão de realidade histórica e social, diferenciando a voz culta e onisciente do narrador das vozes populares dos marinheiros. Isso não transforma o texto em não ficcional (A) — a linguagem coloquial é recurso de caracterização ficcional. Expressões coloquiais em personagens ficcionais não são erros (C) — são recursos de caracterização. A variação diacrônica (D) cria verossimilhança histórica dentro do pacto ficcional, não o rompe. Metáforas e linguagem coloquial coexistem perfeitamente (E)."
+        "gabarito": "A",
+        "explicacao": "A afirmativa está correta. O relatório oficial exige linguagem formal, técnica e impessoal — o registro adequado ao contexto institucional e burocrático. O uso de gírias e expressões informais ('foi tranquilo', 'deu pra resolver') constitui inadequação vocabular: o registro utilizado não corresponde ao exigido pelo gênero e pelo contexto comunicativo. Adequação vocabular é selecionar o registro apropriado para cada situação de comunicação."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + gram-12",
-        "enunciado": "Em um conto, o narrador escreve: 'Ele sabia — ou julgava saber — que o mar, diferente dos homens, nunca mente; por isso, confiou: ao mar, a rota; a si mesmo, o silêncio.' Sobre o uso da pontuação e sua função nesse trecho ficcional, é CORRETO afirmar que:",
+        "topico_referencia": "comp-04",
+        "textoBase": "A história do Brasil é repleta de heróis esquecidos. O almirante Tamandaré foi um deles — mas a Marinha nunca o esqueceu.",
+        "enunciado": "O trecho acima é um exemplo de texto ficcional por apresentar julgamento de valor ('heróis esquecidos') e afirmação subjetiva.",
         "alternativas": {
-          "A": "Os travessões em '— ou julgava saber —' são desnecessários e poderiam ser substituídos por vírgulas sem alteração de sentido.",
-          "B": "O ponto e vírgula após 'nunca mente' separa duas orações coordenadas de mesmo valor e não tem função expressiva específica.",
-          "C": "Os travessões inserem uma correção ou atenuação da certeza ('sabia' → 'julgava saber'), com função expressiva de dúvida; o ponto e vírgula organiza a conclusão causal; os dois-pontos introduzem enumeração explicativa paralela ('ao mar, a rota; a si mesmo, o silêncio'), criando paralelismo sintático e expressivo.",
-          "D": "O uso de dois-pontos após 'confiou' é erro de pontuação, pois dois-pontos só devem aparecer antes de discurso direto.",
-          "E": "A vírgula após 'diferente dos homens' é dispensável pois o adjunto adnominal não requer isolamento."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "A análise completa da pontuação (C): os travessões isolam 'ou julgava saber' como inserção parentética que atenua a certeza — recurso expressivo de dúvida e autoconsciência do narrador. O ponto e vírgula organiza a argumentação causal. Os dois-pontos após 'confiou' introduzem a enumeração explicativa do objeto da confiança, criando paralelismo entre 'ao mar, a rota' e 'a si mesmo, o silêncio'. Os travessões têm clara função expressiva distinta das vírgulas (A). O ponto e vírgula tem função expressiva de organização rítmica (B). Os dois-pontos não se limitam ao discurso direto (D) — introduzem também enumerações e explicações. A vírgula após 'diferente dos homens' isola o adjunto adnominal deslocado, sendo necessária para clareza (E)."
+        "gabarito": "B",
+        "explicacao": "A presença de julgamento de valor ou afirmação subjetiva não transforma um texto em ficcional. O trecho trata de personagem histórico real (almirante Tamandaré), faz afirmação sobre a história do Brasil e menciona a relação da Marinha com esse personagem — tudo dentro de um pacto com a realidade. Pode ser texto histórico, jornalístico ou enciclopédico — todos não ficcionais. Subjetividade e julgamento de valor existem em textos não ficcionais (editoriais, crônicas, ensaios)."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + gram-06",
-        "enunciado": "Em um romance histórico ambientado no século XIX, o narrador usa formas verbais arcaicas: 'Se ele fora mais prudente, não se houvera perdido naquelas águas.' Em um relatório técnico contemporâneo (texto não ficcional), a mesma ideia hipotética seria expressa corretamente como:",
+        "topico_referencia": "gram-13",
+        "textoBase": "O tenente aspirava ao posto de capitão antes dos trinta anos.",
+        "enunciado": "A regência do verbo 'aspirar' na frase está correta conforme a norma culta.",
         "alternativas": {
-          "A": "Se ele fora mais prudente, não se houvera perdido naquelas águas.",
-          "B": "Se ele fosse mais prudente, não teria se perdido naquelas águas.",
-          "C": "Se ele seria mais prudente, teria evitado perder-se.",
-          "D": "Se ele fosse mais prudente, não haveria se perdido naquelas águas.",
-          "E": "Se ele foi mais prudente, não se houve perdido naquelas águas."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "B",
-        "explicacao": "No português contemporâneo padrão (B), a oração condicional hipotética com referência ao passado usa: oração subordinada condicional no pretérito imperfeito do subjuntivo ('Se ele fosse') + oração principal no futuro do pretérito composto ('não teria se perdido'). O texto ficcional histórico usava formas do pretérito mais-que-perfeito simples do indicativo com valor de subjuntivo ('fora', 'houvera') — arcaísmo hoje inadequado no texto não ficcional formal (A). A forma 'seria' na condicional (C) é erro clássico — condicional não usa futuro do pretérito na subordinada. 'Fosse / haveria' (D) mistura o imperfeito do subjuntivo correto com o futuro do pretérito simples que exigiria 'ter' para expressar ação anterior. 'Foi / houve' (E) usa indicativo na condicional, inadequado para hipótese."
+        "gabarito": "A",
+        "explicacao": "O verbo 'aspirar' no sentido de 'desejar' ou 'almejar' é transitivo indireto e rege a preposição 'a': 'aspirar a algo'. Na frase, 'aspirava ao posto' está correto — 'ao' é a contração da preposição 'a' com o artigo 'o'. A regência está adequada à norma culta. O erro comum é usar 'aspirar' como transitivo direto ('aspirava o posto'), omitindo a preposição exigida."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "comp-04 + comp-13",
-        "enunciado": "Um conto cujo narrador descreve um navio que tem cada peça substituída ao longo dos anos até não restar nenhum componente original dialoga com o Paradoxo do Navio de Teseu (filosofia grega) e com o poema 'Navio Negreiro', de Castro Alves, ao tratar do sofrimento humano nas viagens marítimas. Esse conto demonstra:",
+        "topico_referencia": "comp-04",
+        "textoBase": "O texto instrucional 'Manual de Navegação Costeira' apresenta diagramas, tabelas de maré e instruções passo a passo para manobras em águas rasas. Destina-se a marinheiros em formação.",
+        "enunciado": "Assinale a alternativa que melhor classifica o 'Manual de Navegação Costeira'.",
         "alternativas": {
-          "A": "Que textos ficcionais não podem fazer referências a outros textos, pois isso compromete sua originalidade.",
-          "B": "Intencionalidade e intertextualidade: o autor cria intencionalmente um texto que dialoga com o paradoxo filosófico (intertextualidade com a tradição filosófica) e com o poema de Castro Alves (intertextualidade literária), enriquecendo a leitura ficcional com camadas de sentido que transcendem o texto isolado.",
-          "C": "Que o conto é um texto híbrido entre ficção e filosofia, perdendo sua natureza ficcional por incorporar um paradoxo real.",
-          "D": "Que toda ficção que faz referência a textos reais deve ser classificada como não ficcional.",
-          "E": "Variação linguística diacrônica: ao referenciar Castro Alves (século XIX) e a filosofia grega, o conto usa registros linguísticos de épocas diferentes."
+          "A": "Texto ficcional, por usar linguagem técnica e especializada.",
+          "B": "Texto híbrido, porque combina linguagem verbal (instruções) com elementos não verbais (diagramas e tabelas).",
+          "C": "Texto não ficcional instrucional: tem enunciador identificável, conteúdo verificável e função pragmática real de orientar o leitor.",
+          "D": "Texto ficcional porque foi criado por especialistas e não necessariamente relata eventos vividos.",
+          "E": "Texto híbrido porque pode ser lido tanto por especialistas quanto por leigos."
         },
-        "gabarito": "B",
-        "explicacao": "O conto demonstra (B) a coexistência de intencionalidade autoral e intertextualidade: o autor constrói intencionalmente um texto que estabelece diálogo com outras obras e tradições — o paradoxo filosófico do Navio de Teseu (questionando identidade e continuidade) e o poema de Castro Alves (evocando sofrimento e navios). Esses diálogos enriquecem a leitura ficcional com camadas de sentido. Textos ficcionais frequentemente fazem referências a outros textos — isso é intertextualidade, não falta de originalidade (A). A referência ao paradoxo filosófico não torna o conto híbrido nem não ficcional (C, D) — ficção pode dialogar com filosofia sem deixar de ser ficção. A variação linguística diacrônica (E) não é o fenômeno central descrito — o diálogo intertextual não exige que o conto use a linguagem das obras referenciadas."
+        "gabarito": "C",
+        "explicacao": "A alternativa C está correta. O manual é um texto não ficcional instrucional: tem enunciador identificável (autores especialistas), conteúdo verificável (instruções técnicas baseadas em princípios reais de navegação) e função pragmática real — orientar marinheiros em formação para situações reais. A alternativa A confunde linguagem técnica com ficcionalidade. B confunde hibridismo modal (verbal + não verbal) com hibridismo ficcional/não ficcional — um texto pode combinar modos sem ser híbrido em termos de pacto com o leitor. D usa critério inválido: não relatar eventos vividos não é marcador de ficção. E usa critério irrelevante: o perfil do leitor não determina o gênero do texto."
       }
     ]
   }

@@ -2,134 +2,219 @@
   "id": "gram-09",
   "titulo": "Termos da Oração",
   "area": "Gramática",
-  "resumo": "Estudo dos termos que compõem a oração: termos essenciais (sujeito e predicado), integrantes (objeto direto, objeto indireto, complemento nominal e agente da passiva) e acessórios (adjunto adnominal, adjunto adverbial e aposto). Domínio indispensável para provas de concurso militar, pois sustenta concordância, regência e pontuação.",
+  "resumo": "Toda oração é como um time com jogadores em posições diferentes: alguns são essenciais (sem eles, o jogo não acontece), outros são importantes mas não obrigatórios, e há ainda os que dão informações extras. Neste tópico, você vai aprender a identificar cada termo da oração — sujeito, predicado, objeto, complemento nominal, adjunto e aposto —, entender o papel que cada um exerce na frase e reconhecer as armadilhas que a CEBRASPE monta para confundir candidatos. Dominar os termos da oração é pré-requisito para acertar questões de concordância, regência e reescritura.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Termos Essenciais da Oração: Sujeito",
-        "conteudo": "O sujeito é o termo sobre o qual o predicado declara algo. Pode ser simples (um núcleo nominal), composto (dois ou mais núcleos), oculto/elíptico (identificável pela desinência verbal), indeterminado (não identificável ou irrelevante) ou inexistente (orações sem sujeito, com verbos impessoais). O núcleo do sujeito é sempre um substantivo ou palavra substantivada. Sujeito simples: 'O cadete apresentou o relatório.' Sujeito composto: 'O capitão e o imediato assinaram o documento.' Sujeito oculto: 'Partimos ao amanhecer.' (nós). Sujeito indeterminado: 'Precisam de mais voluntários.' Oração sem sujeito: 'Choveu durante a manobra.' — o verbo 'chover' é impessoal.",
+        "subtitulo": "1. Sujeito — quem manda na frase",
+        "conteudo": "Pense numa portaria naval: todo documento começa identificando quem emitiu a ordem. Na gramática, o sujeito faz exatamente isso — ele indica de quem ou do que o predicado fala.\n\nO sujeito é o termo da oração com o qual o verbo concorda. Para encontrá-lo, pergunte ao verbo 'quem?' ou 'o quê?' antes da ação. Na frase 'O contra-almirante assinou o relatório', pergunte: 'Quem assinou?' — 'O contra-almirante'. Esse é o sujeito.\n\nO sujeito pode ser simples (um núcleo), composto (dois ou mais núcleos) ou oculto (não aparece na frase, mas está implícito na desinência verbal). Há também o sujeito indeterminado (não se sabe quem pratica a ação) e as orações sem sujeito (verbos impessoais como 'haver' no sentido de existir e verbos de fenômeno natural).\n\nO erro mais comum é confundir o sujeito com o objeto direto, especialmente em frases na voz passiva: 'O relatório foi assinado' — 'o relatório' é sujeito paciente, não objeto.",
+        "regra": "Sujeito = responde 'quem?' ou 'o quê?' ao verbo · Concorda com o verbo · Pode ser oculto, indeterminado ou inexistente",
         "exemplos": [
-          "Sujeito simples: 'A fragata atracou no porto de Fortaleza.'",
-          "Sujeito composto: 'O piloto e o navegador calibraram os instrumentos.'",
-          "Sujeito oculto: 'Recebi as instruções na véspera.' (eu)",
-          "Sujeito indeterminado: 'Dizem que a missa foi bonita.'",
-          "Oração sem sujeito: 'Havia muitos candidatos no pátio.' (verbo haver existencial)"
-        ],
-        "regra": "Identifique o sujeito perguntando ao verbo 'Quem?' ou 'O quê?'. Se a pergunta não tiver resposta na oração, o sujeito é indeterminado ou inexistente."
+          {
+            "texto_base": "O sargento redigiu o boletim interno. Os recrutas foram convocados pelo comandante. Havia muitos documentos pendentes na base.",
+            "anotacoes": [
+              {
+                "trecho": "O sargento",
+                "destaque": "Sujeito simples",
+                "motivo": "Responde 'quem redigiu?' — um único núcleo, concorda com o verbo no singular"
+              },
+              {
+                "trecho": "Os recrutas",
+                "destaque": "Sujeito paciente",
+                "motivo": "Voz passiva: 'os recrutas' praticam passivamente a ação de ser convocados"
+              },
+              {
+                "trecho": "Havia muitos documentos",
+                "destaque": "Oração sem sujeito",
+                "motivo": "'Haver' no sentido de existir é impessoal — não tem sujeito, fica sempre no singular"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "2. Termos Essenciais: Predicado e seus Tipos",
-        "conteudo": "O predicado é tudo o que se declara sobre o sujeito. Divide-se em três tipos. Predicado verbal: tem como núcleo um verbo significativo (intransitivo ou transitivo); não há predicativo. 'O recruta correu dez quilômetros.' Predicado nominal: núcleo é um nome (predicativo do sujeito), ligado ao sujeito por verbo de ligação (ser, estar, parecer, ficar, continuar, permanecer, tornar-se, etc.). 'O oficial é competente.' Predicado verbo-nominal: possui dois núcleos — um verbo significativo e um predicativo (do sujeito ou do objeto). 'Os alunos chegaram cansados.' (chegaram = núcleo verbal; cansados = predicativo do sujeito). 'A banca considerou a prova difícil.' (considerou = núcleo verbal; difícil = predicativo do objeto). O predicativo do objeto se refere ao objeto direto.",
+        "subtitulo": "2. Predicado — o que se diz do sujeito",
+        "conteudo": "Se o sujeito é o comandante que emite a ordem, o predicado é a própria ordem — tudo o que se diz sobre o sujeito. Em termos práticos: o predicado é tudo que sobra na frase depois de identificar o sujeito.\n\nExistem três tipos de predicado. O verbal tem como núcleo um verbo significativo (que exprime ação ou estado transitório): 'O recruta correu cinco quilômetros.' O nominal tem como núcleo um nome (substantivo ou adjetivo) ligado ao sujeito por um verbo de ligação: 'O oficial estava exausto.' O verbo-nominal tem ao mesmo tempo um verbo significativo e um predicativo: 'O recruta voltou cansado' — 'voltou' é verbo de ação, 'cansado' é predicativo do sujeito.\n\nO verbo de ligação (ser, estar, ficar, parecer, permanecer, tornar-se, continuar) conecta o sujeito ao predicativo. Ele não exprime ação — apenas liga.\n\nO erro mais comum é classificar 'estava' em 'O oficial estava no quartel' como verbo de ligação. Não é: aqui 'estava' indica lugar, não estado do sujeito. Só é ligação quando seguido de um adjetivo ou expressão que qualifica o sujeito.",
+        "regra": "Predicado verbal = verbo de ação · Predicado nominal = verbo de ligação + predicativo · Verbo-nominal = os dois juntos",
         "exemplos": [
-          "Predicado verbal: 'O navio zarpou às seis horas.'",
-          "Predicado nominal: 'A manobra foi precisa.'",
-          "Predicado verbo-nominal (pred. do sujeito): 'Os fuzileiros retornaram exaustos.'",
-          "Predicado verbo-nominal (pred. do objeto): 'Elegeram o sargento porta-voz da tropa.'",
-          "Verbo de ligação: 'O comandante ficou satisfeito com o resultado.'"
-        ],
-        "regra": "Verbo de ligação + nome = predicado nominal. Verbo significativo + nome referente ao sujeito ou objeto = predicado verbo-nominal. Verbo significativo sem predicativo = predicado verbal."
+          {
+            "texto_base": "O tenente transmitiu as ordens com firmeza. O comandante permaneceu inflexível durante a inspeção. O recruta voltou ferido da operação.",
+            "anotacoes": [
+              {
+                "trecho": "transmitiu as ordens com firmeza",
+                "destaque": "Predicado verbal",
+                "motivo": "'Transmitiu' é verbo de ação — núcleo do predicado é o verbo significativo"
+              },
+              {
+                "trecho": "permaneceu inflexível",
+                "destaque": "Predicado nominal",
+                "motivo": "'Permaneceu' é verbo de ligação; 'inflexível' é predicativo do sujeito — núcleo é o adjetivo"
+              },
+              {
+                "trecho": "voltou ferido",
+                "destaque": "Pred. verbo-nominal",
+                "motivo": "'Voltou' é verbo de ação E 'ferido' é predicativo — dois núcleos simultâneos"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "3. Termos Integrantes: Objetos e Complemento Nominal",
-        "conteudo": "Os termos integrantes completam o sentido de verbos transitivos ou de nomes. Objeto direto: complementa verbo transitivo direto sem preposição obrigatória. 'O piloto acionou o alarme.' (acionou o quê? o alarme). Objeto indireto: complementa verbo transitivo indireto com preposição obrigatória. 'Os recrutas obedeceram às ordens.' (obedeceram a quê? às ordens). Objeto direto preposicionado: objeto direto que excepcionalmente admite preposição por eufonia, ênfase ou tradição. 'Não vi a ninguém no corredor.' Complemento nominal: completa o sentido de um nome (substantivo, adjetivo ou advérbio) com preposição. 'Tinha orgulho de seu batalhão.' (orgulho de quê? — complemento do substantivo orgulho). 'Era fiel ao regulamento.' (fiel a quê? — complemento do adjetivo fiel). Distingue-se do adjunto adnominal porque o complemento nominal tem relação passiva com o nome (o nome recebe ou sofre a ação) e o adjunto adnominal tem relação ativa ou apenas caracterizante.",
+        "subtitulo": "3. Objeto direto e indireto — completando o verbo",
+        "conteudo": "Imagine um verbo transitivo como uma encomenda que precisa de destinatário para fazer sentido. Verbos como 'entregar', 'enviar', 'solicitar' ficam incompletos sem um complemento. Esse complemento é o objeto — direto ou indireto.\n\nO objeto direto completa um verbo transitivo direto sem preposição obrigatória. Pergunta: 'o quê?' ou 'quem?'. 'O oficial entregou o relatório' — 'o relatório' é objeto direto (o quê entregou?).\n\nO objeto indireto completa um verbo transitivo indireto com preposição obrigatória. Pergunta: 'a quem?', 'de quê?', 'em quê?'. 'O sargento obedeceu ao comandante' — 'ao comandante' é objeto indireto (obedeceu a quem?). A preposição faz parte do objeto.\n\nAlguns verbos são transitivos diretos e indiretos ao mesmo tempo: 'O recruta entregou o documento ao sargento' — 'o documento' é OD, 'ao sargento' é OI.\n\nO erro mais comum é confundir objeto indireto com adjunto adverbial. A diferença: o OI completa o sentido do verbo (é exigido por ele), o adjunto apenas acrescenta uma circunstância (pode ser retirado sem prejudicar o sentido).",
+        "regra": "OD = sem preposição obrigatória · OI = com preposição obrigatória exigida pelo verbo · Retirar OD/OI = frase incompleta",
         "exemplos": [
-          "OD: 'O oficial assinou o requerimento.'",
-          "OI: 'O candidato respondeu à pergunta da banca.'",
-          "OD preposicionado: 'Cumprimentei a todos os presentes.'",
-          "Complemento nominal: 'A obediência às normas é fundamental.' (obediência de quê/a quê?)",
-          "Complemento nominal de adjetivo: 'O oficial é favorável à reforma do regulamento.'"
-        ],
-        "regra": "Objeto direto: sem preposição obrigatória. Objeto indireto: com preposição obrigatória regida pelo verbo. Complemento nominal: com preposição regida por um nome (substantivo, adjetivo ou advérbio)."
+          {
+            "texto_base": "O comandante entregou o alvará ao responsável pela administração. A tripulação necessitava de reforços urgentes.",
+            "anotacoes": [
+              {
+                "trecho": "o alvará",
+                "destaque": "Objeto direto",
+                "motivo": "Completa 'entregou' sem preposição — responde 'entregou o quê?'"
+              },
+              {
+                "trecho": "ao responsável pela administração",
+                "destaque": "Objeto indireto",
+                "motivo": "Completa 'entregou' com preposição 'a' — responde 'entregou a quem?'"
+              },
+              {
+                "trecho": "de reforços urgentes",
+                "destaque": "Objeto indireto",
+                "motivo": "'Necessitar' exige preposição 'de' — sem ela, a frase fica incompleta"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "4. Termos Integrantes: Agente da Passiva — e Termos Acessórios: Adjunto Adnominal e Adjunto Adverbial",
-        "conteudo": "Agente da passiva: na voz passiva analítica, é o termo que pratica a ação verbal, introduzido pelas preposições 'por' (mais comum), 'de' ou 'pelo/pela'. 'O relatório foi redigido pelo capitão.' (pelo capitão = agente da passiva). Adjunto adnominal: termo que modifica ou determina um substantivo, sem preposição obrigatória — artigos, pronomes adjetivos, numerais adjetivos, adjetivos e locuções adjetivas. 'O valente cadete do quarto batalhão recebeu a medalha.' (valente = adjunto adnominal de cadete; do quarto batalhão = adjunto adnominal de cadete). Não confundir com complemento nominal: o adjunto adnominal tem relação ativa ('amor de mãe' = a mãe ama; 'amor do filho' como adjunto = o filho é amado — análise contextual). Adjunto adverbial: modifica o verbo, o adjetivo ou o advérbio, indicando circunstância (tempo, lugar, modo, causa, finalidade, condição, etc.). 'Partiram cedo para o exercício.' (cedo = adjunto adverbial de tempo; para o exercício = adjunto adverbial de finalidade).",
+        "subtitulo": "4. Adjunto adnominal e complemento nominal",
+        "conteudo": "Esses dois termos têm uma aparência parecida — ambos acompanham um nome e usam preposição — mas têm funções completamente diferentes. Pense assim: o adjunto adnominal é como uma etiqueta que caracteriza um substantivo. O complemento nominal é como o destinatário de uma ação expressa por um nome.\n\nO adjunto adnominal modifica um substantivo, pronome, adjetivo ou advérbio, restringindo ou qualificando seu sentido. Pode ser: artigo ('o', 'a'), pronome ('meu', 'este'), numeral ('três'), adjetivo ('competente') ou locução adjetiva ('da Marinha'). 'O oficial da Marinha chegou' — 'da Marinha' é adjunto adnominal de 'oficial'.\n\nO complemento nominal completa o sentido de um nome (substantivo, adjetivo ou advérbio) que, por si só, é incompleto. Geralmente o nome deriva de um verbo ou adjetivo que exige complemento: 'necessidade de pessoal', 'orgulhoso do batalhão', 'favorável ao plano'. Pergunte: o nome exige aquela complementação para ter sentido completo?\n\nO erro mais comum: 'amor à pátria' — 'à pátria' é complemento nominal de 'amor' (que deriva do verbo 'amar', transitivo direto). Já 'soldado da pátria' — 'da pátria' é adjunto adnominal, pois apenas qualifica 'soldado'.",
+        "regra": "Adj. adnominal = caracteriza o substantivo (pode ser retirado) · Comp. nominal = completa nome derivado de verbo/adjetivo (exigido pelo sentido)",
         "exemplos": [
-          "Agente da passiva: 'A ordem foi dada pelo almirante.'",
-          "Adjunto adnominal: 'Aquele jovem oficial de fragata merece respeito.'",
-          "Adjunto adverbial de lugar: 'O exercício ocorreu no litoral do Ceará.'",
-          "Adjunto adverbial de modo: 'O cadete respondeu com segurança.'",
-          "Adjunto adverbial de causa: 'Por descuido, o aluno perdeu o prazo."
-        ],
-        "regra": "Adjunto adnominal se refere a substantivo. Adjunto adverbial se refere a verbo, adjetivo ou advérbio. Agente da passiva: introduzido por 'por/de' em voz passiva analítica."
+          {
+            "texto_base": "O tenente-comandante demonstrou profundo respeito às normas do regimento interno e mostrou-se favorável à nova proposta.",
+            "anotacoes": [
+              {
+                "trecho": "profundo",
+                "destaque": "Adj. adnominal",
+                "motivo": "Adjetivo que qualifica 'respeito' — pode ser retirado sem quebrar o sentido essencial"
+              },
+              {
+                "trecho": "às normas do regimento interno",
+                "destaque": "Comp. nominal",
+                "motivo": "'Respeito' deriva de 'respeitar' (verbo transitivo) — exige complemento para ter sentido pleno"
+              },
+              {
+                "trecho": "à nova proposta",
+                "destaque": "Comp. nominal",
+                "motivo": "'Favorável' exige 'a' para completar sentido — 'favorável' sem objeto fica incompleto"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "5. Termos Acessórios: Aposto e Vocativo",
-        "conteudo": "Aposto: termo que explica, resume, enumera, especifica ou desenvolve outro termo da oração (substantivo ou pronome). Pode ser explicativo (entre vírgulas, travessões ou parênteses), especificativo (sem pontuação, restritivo), enumerativo (resume ou desenvolve em lista) ou resumitivo (resume termos anteriores com pronomes 'tudo', 'nada', 'todos', etc.). 'O sargento Alves, instrutor de mergulho, foi elogiado.' (instrutor de mergulho = aposto explicativo de 'o sargento Alves'). 'A cidade de Fortaleza sediará o concurso.' (de Fortaleza = aposto especificativo de 'a cidade'). Não confundir aposto com predicativo: o predicativo é ligado por verbo de ligação; o aposto é termo independente, geralmente separado por vírgula ou dois-pontos. Vocativo: termo que chama ou interpela o interlocutor, completamente independente da estrutura sintática da oração. Sempre separado por vírgula(s). Não é sujeito nem se integra ao predicado. 'Candidatos, prestem atenção às instruções.' 'Atenção, cadetes!'",
+        "subtitulo": "5. Adjunto adverbial — circunstâncias da ação",
+        "conteudo": "O adjunto adverbial é como a ficha de missão de um soldado: registra as circunstâncias da ação — quando, onde, como, por que, com quem. Ele modifica o verbo, o adjetivo ou o advérbio, indicando uma circunstância.\n\nAs principais circunstâncias que aparecem em prova são: tempo ('na madrugada'), lugar ('no porto'), modo ('com disciplina'), causa ('por negligência'), finalidade ('para proteger a base'), instrumento ('com o rádio'), companhia ('com a tripulação'), concessão ('apesar das dificuldades'), condição ('se houver autorização').\n\nO adjunto adverbial é facultativo — pode ser retirado sem tornar a frase agramatical. Isso o diferencia do objeto indireto. Compare: 'O recruta treinou na base' (pode tirar 'na base') versus 'O recruta necessitava de treinamento' (não pode tirar 'de treinamento').\n\nO erro mais comum é classificar como adjunto adverbial um objeto indireto com preposição. O teste é: o verbo exige aquele complemento? Se sim, é OI. Se é apenas uma circunstância extra, é adjunto adverbial.",
+        "regra": "Adj. adverbial = circunstância (tempo, lugar, modo, causa...) · É sempre facultativo · Modifica verbo, adjetivo ou advérbio",
         "exemplos": [
-          "Aposto explicativo: 'O concurso RM2, prova de Língua Portuguesa, exige preparo.'",
-          "Aposto especificativo: 'O oficial Rodrigues assumiu o comando.'",
-          "Aposto resumitivo: 'Disciplina, hierarquia, dedicação — tudo isso faz um bom militar.'",
-          "Vocativo no início: 'Senhoras e senhores, o concurso está encerrado.'",
-          "Vocativo no meio: 'Esperamos, candidatos, que todos tenham estudado.'"
-        ],
-        "regra": "Aposto explica ou especifica outro termo da oração. Vocativo chama o interlocutor e é sintaticamente independente. Ambos são separados por vírgula, travessão ou parênteses quando explicativos."
+          {
+            "texto_base": "Durante a madrugada, o patrulhamento foi realizado com extrema eficiência pelos fuzileiros navais da 3ª Divisão.",
+            "anotacoes": [
+              {
+                "trecho": "Durante a madrugada",
+                "destaque": "Adj. adv. de tempo",
+                "motivo": "Indica quando a ação ocorreu — pode ser retirado sem prejudicar a estrutura da frase"
+              },
+              {
+                "trecho": "com extrema eficiência",
+                "destaque": "Adj. adv. de modo",
+                "motivo": "Indica como foi realizado — circunstância facultativa que detalha a maneira"
+              },
+              {
+                "trecho": "pelos fuzileiros navais da 3ª Divisão",
+                "destaque": "Adj. adv. de agente",
+                "motivo": "Agente da passiva — indica quem realizou a ação na voz passiva analítica"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "6. Distinções Críticas: Complemento Nominal × Adjunto Adnominal e Objeto Direto × Objeto Indireto",
-        "conteudo": "Complemento nominal × adjunto adnominal: ambos seguem preposição e se ligam a nomes, mas diferem na relação semântica. No complemento nominal, o nome tem sentido passivo ou de processo, equivalendo a um objeto verbal. 'O respeito às normas é imprescindível.' (respeito = substantivo deverbativo de 'respeitar'; às normas é complemento nominal — as normas são respeitadas). No adjunto adnominal, a locução adjetiva apenas caracteriza, sem implicar ação sofrida. 'O uniforme da Marinha é azul.' (da Marinha = adjunto adnominal — apenas identifica/caracteriza o uniforme, não há noção de processo). Critério prático: se o substantivo derivar de verbo transitivo e a locução representar o objeto lógico dessa ação, é complemento nominal. Objeto direto × objeto indireto: a distinção principal é a preposição — o OI sempre requer preposição regida pelo verbo, enquanto o OD é direto. Atenção: alguns verbos admitem dupla transitividade. 'Ensinar algo a alguém': 'algo' = OD; 'a alguém' = OI.",
+        "subtitulo": "6. Aposto e vocativo — termos isolados",
+        "conteudo": "Imagine que você está num comunicado oficial e, após mencionar o nome do oficial, acrescenta entre vírgulas o cargo dele: 'O contra-almirante Silva, comandante do 4° Distrito Naval, assinou a portaria.' Esse trecho entre vírgulas é o aposto — ele explica, resume ou especifica um termo anterior.\n\nO aposto pode ser explicativo (o mais comum em prova), especificativo, enumerativo, recapitulativo ou oracional. Na CEBRASPE, o aposto explicativo (separado por vírgulas, travessão ou parênteses) é o que mais cai.\n\nO vocativo é o termo usado para chamar, invocar ou interpelar alguém diretamente. Ele é sempre separado por vírgula e não tem relação sintática com os demais termos: 'Soldado, apresente-se ao capitão.' 'Soldado' é vocativo — está fora da estrutura sujeito-predicado.\n\nO erro mais comum é confundir vocativo com sujeito. Teste: o vocativo nunca é sujeito do verbo. Se o verbo está no imperativo ou na 2ª pessoa, o vocativo é quem está sendo chamado, mas o sujeito é oculto (subentendido).",
+        "regra": "Aposto = explica ou especifica um termo anterior (entre vírgulas/travessão) · Vocativo = chama alguém, separado por vírgula, fora da estrutura",
         "exemplos": [
-          "Complemento nominal: 'A entrega dos documentos foi concluída.' (dos documentos: documentos são entregues — passivo)",
-          "Adjunto adnominal: 'A sala dos oficiais foi reformada.' (dos oficiais: apenas identifica a sala)",
-          "OD + OI: 'O instrutor ensinou estratégia aos cadetes.' (estratégia = OD; aos cadetes = OI)",
-          "OD preposicionado: 'Não prejudiquei a ninguém.' (a ninguém = OD preposicionado)",
-          "Distinção: 'Saudade da família' (da família = CN de saudade, pois 'ter saudade de' ~ sentir a família)."
-        ],
-        "regra": "Se o nome for deverbativo e a locução representar o 'paciente' da ação nominada, é complemento nominal. Se a locução apenas caracteriza o substantivo sem relação de ação, é adjunto adnominal."
+          {
+            "texto_base": "O capitão-tenente Rodrigues, chefe de operações da base, entregou o relatório. Recruta, compareça imediatamente ao alojamento.",
+            "anotacoes": [
+              {
+                "trecho": "chefe de operações da base",
+                "destaque": "Aposto explicativo",
+                "motivo": "Explica quem é 'o capitão-tenente Rodrigues' — separado por vírgulas, pode ser retirado"
+              },
+              {
+                "trecho": "Recruta",
+                "destaque": "Vocativo",
+                "motivo": "Interpela diretamente quem deve comparecer — não é sujeito, está fora da oração"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Predicativo do objeto confundido com adjunto adverbial",
-      "errado": "Em 'Achei o texto confuso', 'confuso' é adjunto adverbial de modo.",
-      "correto": "'Confuso' é predicativo do objeto direto 'o texto' — classifica o objeto direto por meio do verbo 'achar' (transitivo direto com predicativo).",
-      "explicacao": "O verbo 'achar' no sentido de 'considerar' é verbo transitivo direto que admite predicativo do objeto. 'Confuso' refere-se ao objeto 'o texto', não ao verbo, portanto não pode ser adjunto adverbial. Adjunto adverbial modifica o verbo ou o adjetivo e indica circunstância.",
+      "titulo": "Sujeito oculto não é ausência de sujeito",
+      "errado": "Na frase 'Chegamos cedo ao porto', a oração não tem sujeito.",
+      "correto": "Na frase 'Chegamos cedo ao porto', o sujeito é oculto: 'nós'.",
+      "explicacao": "O sujeito oculto (ou elíptico) está subentendido na desinência verbal — 'chegamos' é 1ª pessoa do plural, portanto o sujeito é 'nós'. Oração sem sujeito é algo completamente diferente: ocorre com verbos impessoais como 'haver' (existir), 'chover', 'amanhecer'. Confundir os dois é um erro clássico de prova.",
       "nivel": "basico"
     },
     {
-      "titulo": "Adjunto adnominal confundido com complemento nominal",
-      "errado": "Em 'O amor de Deus é infinito', 'de Deus' é complemento nominal.",
-      "correto": "A análise depende do sentido: se Deus ama (sujeito da ação), 'de Deus' é adjunto adnominal (genitivo subjetivo); se Deus é amado (objeto da ação), é complemento nominal (genitivo objetivo). No contexto 'o amor que Deus tem', é adjunto adnominal.",
-      "explicacao": "Locuções com 'de' ligadas a substantivos deverbativos são ambíguas. O genitivo subjetivo (quem pratica a ação nominada) funciona como adjunto adnominal; o genitivo objetivo (quem sofre a ação nominada) funciona como complemento nominal. A banca de concurso geralmente fornece contexto ou pede a distinção explícita.",
+      "titulo": "Predicativo do sujeito x adjunto adnominal",
+      "errado": "Em 'O recruta voltou cansado', 'cansado' é adjunto adnominal de 'recruta'.",
+      "correto": "Em 'O recruta voltou cansado', 'cansado' é predicativo do sujeito.",
+      "explicacao": "O adjunto adnominal acompanha diretamente o substantivo e não depende do verbo para se ligar a ele. Já o predicativo do sujeito se liga ao sujeito por meio de um verbo — aqui, 'voltou' faz essa ligação entre 'recruta' e 'cansado'. Se você puder substituir por 'estar cansado', é predicativo.",
       "nivel": "basico"
     },
     {
-      "titulo": "Sujeito inexistente confundido com sujeito indeterminado",
-      "errado": "Em 'Choveu muito durante a viagem', 'muito' é o sujeito da oração.",
-      "correto": "A oração não tem sujeito. 'Chover' é verbo impessoal — fenômeno meteorológico — e não admite sujeito. 'Muito' é adjunto adverbial de intensidade.",
-      "explicacao": "Verbos impessoais (chover, nevar, ventar, anoitecer, amanhecer) formam orações sem sujeito, não com sujeito indeterminado. Sujeito indeterminado existe quando a ação é praticada por alguém não identificado: 'Precisam de mais militares aqui.' A distinção é fundamental para concordância e classificação morfossintática.",
+      "titulo": "Objeto indireto x adjunto adverbial",
+      "errado": "Em 'O sargento confiou no superior', 'no superior' é adjunto adverbial de lugar.",
+      "correto": "Em 'O sargento confiou no superior', 'no superior' é objeto indireto.",
+      "explicacao": "O verbo 'confiar' exige a preposição 'em' para completar seu sentido — sem o complemento, a frase fica incompleta ('O sargento confiou...' em quem?). Isso caracteriza objeto indireto. O adjunto adverbial, ao contrário, acrescenta circunstância e pode ser retirado sem prejuízo ao sentido essencial da frase.",
       "nivel": "intermediario"
     },
     {
-      "titulo": "Aposto confundido com predicativo",
-      "errado": "Em 'O general, nosso comandante, chegou', 'nosso comandante' é predicativo do sujeito.",
-      "correto": "'Nosso comandante' é aposto explicativo do sujeito 'o general'. Não há verbo de ligação ligando esse termo ao sujeito — está entre vírgulas como explicação.",
-      "explicacao": "Predicativo do sujeito exige verbo de ligação ('O general é nosso comandante'). Aposto aparece sem verbo de ligação, entre vírgulas, travessões ou parênteses, e tem função explicativa, especificativa ou enumerativa em relação ao termo a que se refere.",
-      "nivel": "avancado"
+      "titulo": "Complemento nominal x adjunto adnominal com preposição",
+      "errado": "Em 'O amor à Marinha do tenente era evidente', 'à Marinha' é adjunto adnominal.",
+      "correto": "Em 'O amor à Marinha do tenente era evidente', 'à Marinha' é complemento nominal.",
+      "explicacao": "'Amor' deriva do verbo 'amar', que é transitivo direto. Quando substantivado, 'amor' herda a necessidade de complementação — 'amor a quê?' exige resposta para ter sentido pleno. Por isso, 'à Marinha' é complemento nominal. Se fosse adjunto adnominal, seria apenas uma qualificação dispensável, o que não é o caso aqui.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Agente da passiva confundido com objeto indireto",
-      "errado": "Em 'A medalha foi entregue pelo comandante', 'pelo comandante' é objeto indireto.",
-      "correto": "'Pelo comandante' é o agente da passiva — o praticante da ação na voz passiva analítica. A estrutura é: sujeito paciente (a medalha) + verbo ser + particípio + agente da passiva (pelo comandante).",
-      "explicacao": "O agente da passiva corresponde ao sujeito da voz ativa equivalente: 'O comandante entregou a medalha.' Na voz passiva, ele aparece introduzido por 'por/pelo/pela/pelos/pelas' (raramente 'de'). Não é objeto indireto porque não complementa o sentido do verbo — apenas indica o executor da ação passiva.",
+      "titulo": "Vocativo nunca é sujeito",
+      "errado": "Na frase 'Marinheiro, execute a manobra', 'Marinheiro' é o sujeito do verbo 'execute'.",
+      "correto": "Na frase 'Marinheiro, execute a manobra', 'Marinheiro' é vocativo; o sujeito de 'execute' é oculto: 'você'.",
+      "explicacao": "O vocativo serve para chamar ou interpelar alguém e é sempre isolado por vírgula. Ele não exerce função sintática dentro da oração. O verbo 'execute' está no imperativo afirmativo de 2ª pessoa (você), portanto seu sujeito é 'você', subentendido. Atribuir função de sujeito ao vocativo é um erro grave e recorrente em provas CEBRASPE.",
       "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "Ao analisar 'Os soldados partiram cansados', o candidato classifica 'cansados' como adjunto adverbial de modo por estar próximo ao verbo.",
-      "dica": "Pergunte: 'cansados' se refere ao verbo (como?) ou ao sujeito (como estavam os soldados)? Se se refere ao sujeito, é predicativo do sujeito em predicado verbo-nominal. Adjunto adverbial de modo responde 'de que modo a ação ocorreu', não 'como o sujeito se encontrava'.",
+      "situacao": "Confundir 'não tem sujeito' com 'sujeito oculto' ao ver verbo na 3ª pessoa do plural",
+      "dica": "Quando o verbo está na 3ª pessoa do plural sem sujeito expresso, pode ser sujeito indeterminado ('Disseram que a operação foi cancelada') — não oração sem sujeito. Oração sem sujeito só ocorre com verbos impessoais específicos: 'haver' (existir), fenômenos da natureza ('choveu', 'amanheceu') e o verbo 'fazer' indicando tempo ('Faz dois anos'). Se o verbo tiver qualquer pessoa identificável, não é 'sem sujeito'.",
       "nivel": "basico"
     },
     {
-      "situacao": "O candidato confunde 'haver' existencial (impessoal, sem sujeito) com 'ter' coloquial no mesmo sentido e aplica concordância incorreta.",
-      "dica": "Nos concursos militares, siga a norma culta: 'haver' no sentido de 'existir' é impessoal — não varia em número ('Havia muitos candidatos', nunca 'Haviam muitos candidatos'). 'Ter' existencial, embora aceito na fala, deve ser evitado na prova. Oração com 'haver' existencial não tem sujeito.",
+      "situacao": "Aplicar a regra do OD e OI sem verificar se o verbo muda de sentido com a preposição",
+      "dica": "Alguns verbos mudam de sentido conforme a transitividade. 'Assistir a um filme' (OI, sentido de 'ver') é diferente de 'O médico assistiu o paciente' (OD, sentido de 'atender'). Da mesma forma, 'querer bem' (OI) é diferente de 'querer silêncio' (OD). Antes de classificar, identifique o sentido exato do verbo na frase — não aplique a regra do verbo no infinitivo sem checar o contexto.",
       "nivel": "intermediario"
     },
     {
-      "situacao": "Na análise do vocativo, o candidato o classifica como sujeito por estar na posição inicial da frase — ex: 'Cadetes, prestem atenção!'",
-      "dica": "O vocativo nunca é sujeito: ele chama o interlocutor e é sintaticamente independente da oração. O sujeito oculto de 'prestem atenção' é 'vocês' (os cadetes). Identifique o vocativo pela vírgula obrigatória que o separa e pelo fato de não exercer nenhuma função dentro do núcleo oracional.",
+      "situacao": "Identificar como predicado nominal toda frase com verbo 'ser' ou 'estar'",
+      "dica": "Nem todo 'ser' ou 'estar' é verbo de ligação. 'O oficial estava no quartel' — 'estava' indica lugar, funcionando como verbo significativo, e o predicado é verbal. Para ser predicado nominal, o verbo de ligação precisa conectar o sujeito a um predicativo que expresse qualidade, estado ou aparência: 'O oficial estava abatido'. Sempre pergunte: o que vem depois qualifica o sujeito (predicativo) ou indica circunstância (adjunto adverbial)?",
       "nivel": "avancado"
     }
   ],
@@ -137,743 +222,775 @@
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Em 'O oficial redigiu o relatório', o termo 'o relatório' exerce a função sintática de:",
+      "enunciado": "Assinale a alternativa em que o sujeito da oração está corretamente identificado.",
       "alternativas": {
-        "A": "Sujeito simples",
-        "B": "Objeto direto",
-        "C": "Objeto indireto",
-        "D": "Complemento nominal",
-        "E": "Adjunto adnominal"
+        "A": "'Choveu muito durante a manobra naval.' — Sujeito: 'a manobra naval'.",
+        "B": "'O recruta obedeceu ao sargento.' — Sujeito: 'ao sargento'.",
+        "C": "'Os fuzileiros navais partiram ao amanhecer.' — Sujeito: 'Os fuzileiros navais'.",
+        "D": "'Havia três embarcações no porto.' — Sujeito: 'três embarcações'.",
+        "E": "'Convocaram os reservistas para a operação.' — Sujeito: 'para a operação'."
       },
-      "gabarito": "B",
-      "explicacao": "'O relatório' é o complemento do verbo transitivo direto 'redigir', respondendo à pergunta 'redigiu o quê?', sem preposição obrigatória. Portanto, é objeto direto (B). Sujeito (A) seria 'o oficial'. Objeto indireto (C) exigiria preposição. Complemento nominal (D) completa nome, não verbo. Adjunto adnominal (E) modifica substantivo."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta: 'Os fuzileiros navais' é sujeito simples de 'partiram' — responde à pergunta 'quem partiu?' e concorda com o verbo no plural. A alternativa A está errada porque 'choveu' é verbo impessoal (fenômeno natural), portanto a oração não tem sujeito. A alternativa B confunde sujeito com objeto indireto — 'ao sargento' é OI de 'obedeceu'; o sujeito é 'O recruta'. A alternativa D está errada porque 'haver' no sentido de existir é impessoal e não tem sujeito; 'três embarcações' é objeto direto. A alternativa E tem sujeito indeterminado (verbo na 3ª pessoa do plural sem agente identificado); 'para a operação' é adjunto adverbial de finalidade."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Identifique a oração que possui sujeito indeterminado:",
+      "enunciado": "Em 'O comandante permaneceu firme durante o interrogatório', o predicado é classificado como:",
       "alternativas": {
-        "A": "Choveu forte durante o exercício militar.",
-        "B": "Amanheceu cedo na base naval.",
-        "C": "Precisam de mais voluntários para a missão.",
-        "D": "O recruta correu dez quilômetros.",
-        "E": "Havia muitos candidatos inscritos."
+        "A": "Verbal, pois 'permaneceu' indica movimento.",
+        "B": "Nominal, pois 'permaneceu' é verbo de ligação e 'firme' é predicativo do sujeito.",
+        "C": "Verbo-nominal, pois há verbo de ação e predicativo simultaneamente.",
+        "D": "Verbal, pois 'firme' é adjunto adnominal de 'comandante'.",
+        "E": "Nominal, pois 'durante o interrogatório' é predicativo do sujeito."
       },
-      "gabarito": "C",
-      "explicacao": "Em 'Precisam de mais voluntários para a missão' (C), não é possível identificar quem precisa — a ação recai sobre um agente não determinado, caracterizando sujeito indeterminado. Em (A) e (B), 'chover' e 'amanhecer' são impessoais — orações sem sujeito. Em (D), sujeito simples 'o recruta'. Em (E), 'haver' existencial é impessoal — sem sujeito."
+      "gabarito": "B",
+      "explicacao": "A alternativa B está correta. 'Permaneceu' é verbo de ligação (indica estado permanente do sujeito) e 'firme' é predicativo do sujeito, pois expressa uma qualidade de 'o comandante'. O predicado nominal tem como núcleo um nome (adjetivo ou substantivo), não o verbo. A alternativa A está errada porque 'permanecer' não indica movimento — é verbo de ligação. A alternativa C está errada porque não há verbo de ação simultaneamente. A alternativa D está errada: 'firme' não acompanha o substantivo diretamente como adjunto adnominal; está ligado a ele pelo verbo. A alternativa E está errada: 'durante o interrogatório' é adjunto adverbial de tempo."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Em 'A prova foi considerada difícil pela banca', qual é a função de 'difícil'?",
+      "enunciado": "Na frase 'Recruta, apresente-se ao oficial de dia', o termo 'Recruta' exerce a função sintática de:",
       "alternativas": {
-        "A": "Adjunto adverbial de modo",
-        "B": "Predicativo do sujeito",
-        "C": "Predicativo do objeto",
-        "D": "Complemento nominal",
-        "E": "Aposto explicativo"
+        "A": "Sujeito simples de 'apresente-se'.",
+        "B": "Aposto especificativo do sujeito oculto.",
+        "C": "Vocativo, sem função sintática na oração.",
+        "D": "Objeto direto do verbo 'apresentar'.",
+        "E": "Adjunto adnominal do sujeito oculto 'você'."
       },
       "gabarito": "C",
-      "explicacao": "'Difícil' é predicativo do objeto: na voz ativa equivalente ('A banca considerou a prova difícil'), 'difícil' se refere ao objeto direto 'a prova', por meio do verbo 'considerar'. Na passiva, o objeto torna-se sujeito paciente, mas 'difícil' permanece como predicativo do antigo objeto (agora sujeito). (A) é incorreto — não indica circunstância do verbo. (B) seria correto se 'difícil' referisse ao sujeito pela voz passiva; porém, estruturalmente funciona como predicativo do objeto na ativa. (D) e (E) não se aplicam."
+      "explicacao": "A alternativa C está correta. 'Recruta' é vocativo — termo que interpela o interlocutor diretamente, separado por vírgula, sem exercer função sintática dentro da estrutura sujeito-predicado. O sujeito de 'apresente-se' é 'você', oculto (subentendido pelo imperativo afirmativo de 2ª pessoa). Vocativo nunca é sujeito — essa confusão é um dos erros mais explorados pela CEBRASPE."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Em 'O cadete obedeceu às ordens do comandante', o termo 'às ordens' é:",
+      "enunciado": "Assinale a alternativa em que o objeto direto está corretamente identificado.",
       "alternativas": {
-        "A": "Objeto direto",
-        "B": "Objeto indireto",
-        "C": "Complemento nominal",
-        "D": "Adjunto adverbial",
-        "E": "Agente da passiva"
+        "A": "'O oficial entregou o relatório ao almirante.' — OD: 'ao almirante'.",
+        "B": "'A tripulação necessitava de suprimentos.' — OD: 'de suprimentos'.",
+        "C": "'O recruta obedeceu às ordens.' — OD: 'às ordens'.",
+        "D": "'O sargento leu o comunicado em voz alta.' — OD: 'o comunicado'.",
+        "E": "'O comandante gostou da manobra.' — OD: 'da manobra'."
       },
-      "gabarito": "B",
-      "explicacao": "O verbo 'obedecer' é transitivo indireto e exige a preposição 'a': 'obedecer a quê/a quem?'. 'Às ordens' (a + as ordens) é, portanto, objeto indireto (B). (A) é errado pois há preposição obrigatória. (C) complemento nominal completa nome, não verbo. (D) adjunto adverbial indica circunstância; 'às ordens' é essencial para o sentido do verbo. (E) agente da passiva requer voz passiva."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta: 'o comunicado' completa 'leu' sem preposição obrigatória — é objeto direto. A alternativa A confunde os complementos: 'o relatório' é OD e 'ao almirante' é OI. A alternativa B está errada: 'de suprimentos' é objeto indireto, pois 'necessitar' exige preposição 'de'. As alternativas D e E também apresentam objetos indiretos: 'obedecer' exige 'a' e 'gostar' exige 'de' — ambas com preposição obrigatória ditada pelo verbo."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa que apresenta uma oração sem sujeito:",
+      "enunciado": "Em qual das alternativas abaixo há uma oração SEM SUJEITO?",
       "alternativas": {
-        "A": "Partiram cedo os navios da esquadra.",
-        "B": "Vendem combustível naquele porto.",
-        "C": "Era noite quando chegamos à base.",
-        "D": "Os oficiais saíram em formação.",
-        "E": "Ninguém soube da decisão."
+        "A": "'Partiram ao amanhecer.' ",
+        "B": "'Disseram que a operação foi suspensa.'",
+        "C": "'Saímos antes do alerta.'",
+        "D": "'Todos chegaram a tempo.'",
+        "E": "'Chove muito no litoral nordestino em dezembro.'"
       },
-      "gabarito": "C",
-      "explicacao": "Em (C), 'era noite' tem o verbo 'ser' em sentido impessoal de indicação de tempo/fenômeno, sem sujeito. (A) sujeito posposto 'os navios da esquadra'. (B) sujeito indeterminado — não identificável. (D) sujeito simples 'os oficiais'. (E) sujeito simples 'ninguém' (pronome indefinido)."
+      "gabarito": "E",
+      "explicacao": "A alternativa E está correta: 'chove' é verbo que expressa fenômeno da natureza e, por isso, é impessoal — a oração não tem sujeito. A alternativa A tem sujeito indeterminado (verbo na 3ª pessoa do plural sem agente identificável, mas não impessoal). A alternativa C tem sujeito oculto 'nós'. A alternativa D tem sujeito expresso 'Todos'. A alternativa E tem sujeito indeterminado, já que 'disseram' está na 3ª pessoa do plural sem referência."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "Em 'O sargento Alves, instrutor de mergulho, foi elogiado', o termo 'instrutor de mergulho' é:",
+      "enunciado": "Assinale a alternativa que apresenta corretamente um adjunto adverbial.",
       "alternativas": {
-        "A": "Vocativo",
-        "B": "Predicativo do sujeito",
-        "C": "Aposto explicativo",
-        "D": "Adjunto adnominal",
-        "E": "Complemento nominal"
+        "A": "'O recruta confiou no sargento.' — 'no sargento' é adjunto adverbial de lugar.",
+        "B": "'O patrulhamento ocorreu durante a noite.' — 'durante a noite' é adjunto adverbial de tempo.",
+        "C": "'O tenente gostou do plano.' — 'do plano' é adjunto adverbial de modo.",
+        "D": "'A missão necessitava de apoio aéreo.' — 'de apoio aéreo' é adjunto adverbial de finalidade.",
+        "E": "'O recruta obedeceu às instruções.' — 'às instruções' é adjunto adverbial de modo."
       },
-      "gabarito": "C",
-      "explicacao": "'Instrutor de mergulho' explica e especifica 'o sargento Alves', sendo separado por vírgulas e funcionando como aposto explicativo (C). (A) Vocativo interpela o interlocutor — não é o caso. (B) Predicativo exigiria verbo de ligação. (D) Adjunto adnominal não é separado por vírgulas e não equivale a uma explicação do substantivo. (E) Complemento nominal complementa nome, com preposição."
+      "gabarito": "B",
+      "explicacao": "A alternativa B está correta: 'durante a noite' indica quando o patrulhamento ocorreu — é circunstância de tempo, adjunto adverbial facultativo. A alternativa A está errada: 'no sargento' é objeto indireto de 'confiar', pois o verbo exige essa preposição. As alternativas C, D e E também apresentam objetos indiretos disfarçados: 'gostar de', 'necessitar de' e 'obedecer a' são verbos que exigem preposição."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Em 'A ordem foi dada pelo almirante', o termo 'pelo almirante' exerce a função de:",
+      "enunciado": "Na frase 'O capitão-de-mar-e-guerra, comandante da esquadra, inspecionou as embarcações', o trecho 'comandante da esquadra' exerce a função de:",
       "alternativas": {
-        "A": "Objeto indireto",
-        "B": "Adjunto adverbial de causa",
-        "C": "Agente da passiva",
-        "D": "Complemento nominal",
-        "E": "Sujeito simples"
+        "A": "Aposto explicativo de 'O capitão-de-mar-e-guerra'.",
+        "B": "Adjunto adnominal de 'capitão-de-mar-e-guerra'.",
+        "C": "Sujeito composto.",
+        "D": "Predicativo do sujeito.",
+        "E": "Objeto direto de 'inspecionou'."
       },
-      "gabarito": "C",
-      "explicacao": "Na voz passiva analítica ('foi dada'), o executor da ação — introduzido por 'pelo' (por + o) — é o agente da passiva (C). Na voz ativa equivalente: 'O almirante deu a ordem' — 'o almirante' é sujeito. (A) OI exigiria preposição regida pelo verbo, mas aqui o termo não completa o verbo, apenas indica o agente. (B) Não indica causa. (D) Não complementa nome. (E) Sujeito da passiva é 'a ordem'."
+      "gabarito": "A",
+      "explicacao": "A alternativa A está correta. 'Comandante da esquadra' é um aposto explicativo — vem entre vírgulas, esclarece e especifica quem é 'O capitão-de-mar-e-guerra', podendo ser retirado sem prejudicar a estrutura básica da frase. Não é adjunto adnominal porque não é um artigo, pronome, adjetivo ou locução adjetiva simples; é uma expressão que retoma e explica o termo anterior."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Qual alternativa exemplifica corretamente um predicado nominal?",
+      "enunciado": "Em 'O recruta era disciplinado', o predicado é:",
       "alternativas": {
-        "A": "'O recruta correu muito durante o treinamento.'",
-        "B": "'Os cadetes chegaram cansados ao alojamento.'",
-        "C": "'A manobra foi precisa e eficiente.'",
-        "D": "'O navio atracou no porto de Fortaleza.'",
-        "E": "'O comandante distribuiu as funções aos oficiais.'"
+        "A": "Verbal, pois 'era' é verbo de ação no passado.",
+        "B": "Verbo-nominal, pois há verbo de ligação e predicativo simultaneamente.",
+        "C": "Nominal, tendo 'era' como verbo de ligação e 'disciplinado' como predicativo do sujeito.",
+        "D": "Verbal, tendo 'disciplinado' como objeto direto de 'era'.",
+        "E": "Nominal, tendo 'disciplinado' como adjunto adnominal de 'recruta'."
       },
       "gabarito": "C",
-      "explicacao": "Em (C), o verbo 'foi' é de ligação e 'precisa e eficiente' é o predicativo do sujeito — predicado nominal. (A) verbo intransitivo 'correu' = predicado verbal. (B) 'chegaram cansados' = predicado verbo-nominal (verbo significativo + predicativo do sujeito). (D) verbo intransitivo 'atracou' = predicado verbal. (E) 'distribuiu' é verbo transitivo = predicado verbal."
+      "explicacao": "A alternativa C está correta. 'Era' é forma do verbo 'ser', que é verbo de ligação — conecta o sujeito 'O recruta' ao predicativo 'disciplinado', que exprime uma qualidade. O predicado nominal tem como núcleo o nome (adjetivo 'disciplinado'), não o verbo. Não é verbo-nominal porque não há simultaneamente um verbo de ação — 'ser' não expressa ação."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "Em 'Candidatos, prestem atenção às instruções!', o termo 'Candidatos' é:",
+      "enunciado": "Qual das frases abaixo apresenta sujeito composto?",
       "alternativas": {
-        "A": "Sujeito simples da oração",
-        "B": "Sujeito elíptico",
-        "C": "Aposto do sujeito",
-        "D": "Vocativo",
-        "E": "Adjunto adnominal"
+        "A": "'O sargento e o recruta chegaram juntos ao quartel.'",
+        "B": "'Chegaram ao quartel antes do amanhecer.'",
+        "C": "'O sargento chegou ao quartel.'",
+        "D": "'Choveu durante toda a operação.'",
+        "E": "'Chegou a determinação do comando superior.'"
       },
-      "gabarito": "D",
-      "explicacao": "'Candidatos' é vocativo (D): chama/interpela os ouvintes, é sintaticamente independente da oração e separado por vírgula. O sujeito oculto de 'prestem' é 'vocês' (os candidatos). (A) e (B) são incorretos pois o sujeito de 'prestem' é 'vocês'. (C) Aposto explica outro termo da oração — não é o caso. (E) Adjunto adnominal modifica substantivo no interior da oração."
+      "gabarito": "A",
+      "explicacao": "A alternativa A está correta: 'O sargento e o recruta' é sujeito composto — dois núcleos unidos pela conjunção 'e', ambos relacionados ao mesmo verbo 'chegaram'. A alternativa B tem sujeito indeterminado. A alternativa C tem sujeito simples ('O sargento'). A alternativa D tem oração sem sujeito (verbo de fenômeno natural). A alternativa E tem sujeito simples ('a determinação do comando superior')."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Em 'Tinham esperança de vencer o concurso', o termo 'de vencer o concurso' é:",
+      "enunciado": "Na frase 'Havia muitos recrutas na base', o verbo 'havia' é impessoal. A função de 'muitos recrutas' na oração é de:",
       "alternativas": {
-        "A": "Objeto direto",
-        "B": "Objeto indireto",
-        "C": "Adjunto adverbial de finalidade",
-        "D": "Complemento nominal",
-        "E": "Adjunto adnominal"
+        "A": "Sujeito simples.",
+        "B": "Sujeito indeterminado.",
+        "C": "Objeto indireto.",
+        "D": "Objeto direto.",
+        "E": "Adjunto adverbial de quantidade."
       },
       "gabarito": "D",
-      "explicacao": "'De vencer o concurso' é complemento nominal (D): completa o sentido do substantivo 'esperança' ('esperança de quê?'), introduzido pela preposição 'de'. (A) OD completa verbo sem preposição. (B) OI completa verbo com preposição — aqui o complemento está ligado ao nome 'esperança', não ao verbo. (C) Adjunto adverbial modifica o verbo ou adjetivo, indicando circunstância. (E) Adjunto adnominal modifica substantivo sem relação de ação passiva."
+      "explicacao": "A alternativa D está correta. O verbo 'haver' no sentido de existir é impessoal — não tem sujeito. O termo que o segue ('muitos recrutas') funciona como objeto direto, pois responde à pergunta 'havia o quê?' sem preposição. Esse é um ponto clássico de prova: quando 'haver' é impessoal, o que parece ser sujeito é na verdade objeto direto, e o verbo fica obrigatoriamente no singular."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Analise: 'O amor da pátria move o soldado.' A expressão 'da pátria' exerce, em relação a 'amor', a função de:",
+      "textoBase": "O contra-almirante, chefe do Estado-Maior da Esquadra, determinou que os exercícios de combate fossem iniciados imediatamente. Os oficiais obedeceram à determinação com disciplina exemplar.",
+      "enunciado": "Com base no texto acima, assinale a alternativa que identifica corretamente os termos sublinhados.",
       "alternativas": {
-        "A": "Complemento nominal, pois a pátria é amada (genitivo objetivo)",
-        "B": "Adjunto adnominal, pois a pátria ama (genitivo subjetivo)",
-        "C": "Objeto indireto do substantivo 'amor'",
-        "D": "Predicativo do sujeito por elipse do verbo 'ser'",
-        "E": "Agente da passiva nominalizada"
+        "A": "'chefe do Estado-Maior da Esquadra' é predicativo do sujeito; 'à determinação' é objeto direto.",
+        "B": "'chefe do Estado-Maior da Esquadra' é aposto explicativo; 'à determinação' é objeto indireto.",
+        "C": "'chefe do Estado-Maior da Esquadra' é adjunto adnominal; 'com disciplina exemplar' é objeto indireto.",
+        "D": "'chefe do Estado-Maior da Esquadra' é aposto explicativo; 'com disciplina exemplar' é objeto indireto.",
+        "E": "'chefe do Estado-Maior da Esquadra' é vocativo; 'à determinação' é adjunto adverbial de modo."
       },
-      "gabarito": "A",
-      "explicacao": "O substantivo 'amor' é deverbativo de 'amar'. Em 'o amor da pátria', a pátria é o objeto da ação de amar (a pátria é amada), configurando genitivo objetivo — portanto, complemento nominal (A). Se fosse 'a pátria que ama' (genitivo subjetivo), seria adjunto adnominal, mas o contexto ('move o soldado') indica que é o soldado quem ama a pátria. (B) incorreto pelo mesmo raciocínio. (C) Objetos integram predicado verbal, não nome. (D) e (E) são inadequados à análise."
+      "gabarito": "B",
+      "explicacao": "A alternativa B está correta. 'Chefe do Estado-Maior da Esquadra' é aposto explicativo de 'O contra-almirante' — vem entre vírgulas, explica quem é o sujeito e pode ser retirado. 'À determinação' é objeto indireto do verbo 'obedecer', que exige a preposição 'a' ('obedeceram a quê?'). A alternativa A está errada em ambas as identificações: o aposto não é predicativo (não há verbo de ligação conectando-os), e 'à determinação' não é OD (há preposição). A alternativa C está errada: a expressão entre vírgulas é aposto, não adjunto adnominal. As alternativas D e E confundem as funções do adjunto adverbial e do objeto indireto."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Em qual das opções o termo sublinhado é objeto direto?",
+      "textoBase": "Por negligência do responsável pelo almoxarifado, os suprimentos foram distribuídos incorretamente entre as embarcações. Urge corrigir a situação antes da próxima inspeção.",
+      "enunciado": "Na primeira frase do texto, o termo 'Por negligência do responsável pelo almoxarifado' exerce a função de:",
       "alternativas": {
-        "A": "'O instrutor respondeu [às dúvidas] dos alunos.'",
-        "B": "'Os cadetes assistiram [ao desfile] da esquadra.'",
-        "C": "'O comandante informou [o resultado] à tropa.'",
-        "D": "'Precisamos [de candidatos] comprometidos.'",
-        "E": "'Ele obedeceu [às normas] do regulamento.'"
+        "A": "Objeto indireto de 'foram distribuídos'.",
+        "B": "Complemento nominal de 'suprimentos'.",
+        "C": "Adjunto adverbial de causa.",
+        "D": "Adjunto adnominal de 'os suprimentos'.",
+        "E": "Sujeito da oração passiva."
       },
       "gabarito": "C",
-      "explicacao": "Em (C), 'o resultado' complementa o verbo 'informar' sem preposição obrigatória — objeto direto. 'À tropa' é objeto indireto. (A) 'às dúvidas': 'responder a' é verbo transitivo indireto — OI. (B) 'ao desfile': 'assistir' no sentido de 'presenciar' é transitivo indireto — OI. (D) 'de candidatos': 'precisar de' é transitivo indireto — OI. (E) 'às normas': 'obedecer a' é transitivo indireto — OI."
+      "explicacao": "A alternativa C está correta. 'Por negligência do responsável pelo almoxarifado' indica a causa da distribuição incorreta — responde à pergunta 'por que foram distribuídos incorretamente?'. É um adjunto adverbial de causa, introduzido pela preposição 'por'. Pode ser retirado sem tornar a frase agramatical. A alternativa A está errada: 'foram distribuídos' está na voz passiva e não admite objeto indireto nessa posição. A alternativa B está errada: 'suprimentos' não é um nome que exige complementação. As alternativas D e E estão claramente equivocadas quanto à função e à estrutura sintática."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Considere: 'Os recrutas partiram animados para o campo de treinamento.' Classifique corretamente os termos destacados:",
+      "textoBase": "O almirante mostrou-se satisfeito com o desempenho dos recrutas durante os exercícios de adestramento. A confiança na tropa era visível.",
+      "enunciado": "Na segunda frase do texto — 'A confiança na tropa era visível' —, o termo 'na tropa' exerce a função de:",
       "alternativas": {
-        "A": "'Animados' = adjunto adverbial de modo; 'para o campo de treinamento' = objeto indireto",
-        "B": "'Animados' = predicativo do sujeito; 'para o campo de treinamento' = adjunto adverbial de lugar",
-        "C": "'Animados' = adjunto adnominal de 'recrutas'; 'para o campo de treinamento' = adjunto adverbial de finalidade",
-        "D": "'Animados' = predicativo do objeto; 'para o campo de treinamento' = complemento nominal",
-        "E": "'Animados' = aposto do sujeito; 'para o campo de treinamento' = adjunto adverbial de modo"
+        "A": "Complemento nominal de 'confiança'.",
+        "B": "Adjunto adverbial de lugar.",
+        "C": "Objeto indireto de 'era'.",
+        "D": "Adjunto adnominal de 'visível'.",
+        "E": "Predicativo do sujeito."
       },
-      "gabarito": "B",
-      "explicacao": "'Animados' refere-se ao sujeito 'os recrutas' por meio do verbo de movimento 'partiram', que aqui funciona como verbo significativo em predicado verbo-nominal. 'Animados' = predicativo do sujeito. 'Para o campo de treinamento' indica destino/lugar = adjunto adverbial de lugar (B). (A) 'animados' não é advérbio de modo (não modifica o verbo isoladamente). (C) adjunto adnominal não é separável como está na sentença. (D) não há objeto a ser predicado. (E) aposto explicaria um termo nominal específico."
+      "gabarito": "A",
+      "explicacao": "A alternativa A está correta. 'Confiança' deriva do verbo 'confiar', que é transitivo indireto (confiar em). Ao ser substantivado, herda a necessidade de complementação: 'confiança em quê?' — 'na tropa'. Portanto, 'na tropa' é complemento nominal de 'confiança'. A alternativa B está errada: 'na tropa' não indica lugar de forma circunstancial e opcional — é exigido pelo sentido do nome. A alternativa D está errada: 'visível' é adjetivo predicativo, não substantivo que precisaria de adjunto adnominal nessa posição. As alternativas A e E não se aplicam à estrutura da frase."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Em 'Dedicação, esforço e disciplina — tudo isso garantiu a aprovação', a expressão 'tudo isso' é:",
+      "textoBase": "O Comando do 4° Distrito Naval publicou portaria determinando a incorporação dos voluntários. Os candidatos aprovados foram convocados para reconhecimento médico.",
+      "enunciado": "Na segunda frase, 'Os candidatos aprovados' é o sujeito da oração. A função de 'aprovados' nesse contexto é de:",
       "alternativas": {
-        "A": "Sujeito composto",
-        "B": "Aposto resumitivo dos termos anteriores",
-        "C": "Adjunto adverbial de modo",
-        "D": "Complemento nominal de 'aprovação'",
-        "E": "Predicativo do sujeito"
+        "A": "Predicativo do sujeito, ligado por verbo de ligação oculto.",
+        "B": "Adjunto adnominal de 'candidatos'.",
+        "C": "Objeto direto de 'aprovados'.",
+        "D": "Aposto explicativo de 'Os candidatos'.",
+        "E": "Complemento nominal de 'candidatos'."
       },
       "gabarito": "B",
-      "explicacao": "'Tudo isso' é aposto resumitivo (B): retoma e condensa os três termos anteriores ('dedicação, esforço e disciplina'), sendo o verdadeiro núcleo do sujeito de 'garantiu'. O aposto resumitivo geralmente é introduzido por pronomes como 'tudo', 'nada', 'todos', 'nenhum' e é separado por travessão, dois-pontos ou vírgula. (A) sujeito composto teria os três termos sem aposto resumitivo. (C) não indica circunstância. (D) não complementa nome. (E) não há verbo de ligação."
+      "explicacao": "A alternativa B está correta. 'Aprovados' é adjetivo que acompanha e qualifica diretamente o substantivo 'candidatos', restringindo seu sentido (não todos os candidatos, apenas os aprovados). Essa é a função típica do adjunto adnominal. A alternativa A está errada: para ser predicativo do sujeito, precisaria haver um verbo de ligação conectando o adjetivo ao sujeito — aqui, 'aprovados' está no interior do sujeito, não no predicado. A alternativa D está errada: o aposto explicativo é separado por vírgulas ou travessão e poderia ser retirado; 'aprovados' está integrado ao grupo nominal sem separação."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Qual alternativa apresenta objeto direto preposicionado?",
+      "textoBase": "Após a operação, o tenente entregou o relatório ao comandante da base. Este agradeceu ao oficial pela presteza com que o documento foi redigido.",
+      "enunciado": "Na segunda frase, 'ao oficial' e 'pela presteza' exercem, respectivamente, as funções de:",
       "alternativas": {
-        "A": "'Ele aspirava à carreira militar desde jovem.'",
-        "B": "'Não vi a ninguém no corredor da base.'",
-        "C": "'O candidato obedeceu ao edital.'",
-        "D": "'Todos precisavam de atenção especial.'",
-        "E": "'O oficial respondeu às perguntas da comissão.'"
+        "A": "Objeto direto e adjunto adverbial de causa.",
+        "B": "Objeto indireto e adjunto adverbial de causa.",
+        "C": "Objeto indireto e complemento nominal de 'agradeceu'.",
+        "D": "Adjunto adverbial de finalidade e objeto indireto.",
+        "E": "Complemento nominal e adjunto adverbial de modo."
       },
       "gabarito": "B",
-      "explicacao": "Em (B), 'a ninguém' é objeto direto preposicionado: o verbo 'ver' é transitivo direto, mas por eufonia/tradição usa a preposição 'a' antes de pronomes indefinidos como 'ninguém', 'alguém'. A preposição não é semanticamente necessária — é facultativa. (A) 'à carreira': 'aspirar a' = OI. (C) 'ao edital': 'obedecer a' = OI. (D) 'de atenção': 'precisar de' = OI. (E) 'às perguntas': 'responder a' = OI."
+      "explicacao": "A alternativa B está correta. 'Agradeceu ao oficial' — 'ao oficial' é objeto indireto de 'agradecer', verbo que exige a preposição 'a' ('agradeceu a quem?'). 'Pela presteza' é adjunto adverbial de causa — indica o motivo do agradecimento e pode ser retirado sem tornar a frase agramatical. A alternativa A está errada porque 'ao oficial' carrega preposição exigida pelo verbo, sendo OI, não OD. A alternativa C está errada: 'agradecer' não é um nome, portanto não tem complemento nominal."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Em 'A cidade de Fortaleza sediará as provas do concurso', o termo 'de Fortaleza' é:",
+      "textoBase": "Faz dois anos que o navio permanece atracado no estaleiro para manutenção. A tripulação aguarda ansiosamente o retorno às atividades.",
+      "enunciado": "Na primeira frase, o verbo 'Faz' está empregado para indicar tempo decorrido. Quanto à sua estrutura sintática, a oração 'Faz dois anos' apresenta:",
       "alternativas": {
-        "A": "Complemento nominal, pois Fortaleza é sediar",
-        "B": "Adjunto adverbial de lugar",
-        "C": "Aposto especificativo de 'a cidade'",
-        "D": "Objeto indireto do verbo 'sediar'",
-        "E": "Adjunto adnominal de 'a cidade'"
+        "A": "Sujeito simples 'dois anos' e predicado verbal.",
+        "B": "Sujeito indeterminado, pois o agente é desconhecido.",
+        "C": "Sujeito oculto 'o tempo' e predicado nominal.",
+        "D": "Ausência de sujeito, pois 'fazer' é impessoal nesse contexto.",
+        "E": "Sujeito composto formado por 'dois anos' e a oração subsequente."
       },
-      "gabarito": "C",
-      "explicacao": "'De Fortaleza' é aposto especificativo (C): restringe e especifica o substantivo 'a cidade', identificando qual cidade é essa. O aposto especificativo não é separado por vírgulas e tem função restritiva. (A) Complemento nominal completaria o sentido do nome quanto a uma ação sofrida. (B) Adjunto adverbial modifica verbo — 'de Fortaleza' não modifica 'sediará'. (D) OI complementa verbo com preposição obrigatória. (E) Adjunto adnominal é possível, mas a gramática normativa classifica esse tipo de especificação de nome genérico (cidade, ilha, rio, etc.) como aposto especificativo."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta. O verbo 'fazer' quando indica tempo decorrido é impessoal — não tem sujeito. 'Dois anos' é objeto direto (o quê faz? dois anos). Esse uso é idêntico ao de 'haver' no sentido temporal ('Há dois anos...'). A alternativa A está errada: se 'dois anos' fosse sujeito, o verbo deveria concordar com ele ('Fazem dois anos'), mas a norma culta exige singular justamente porque é impessoal. A alternativa C está errada: não há sujeito oculto — o verbo não tem sujeito algum."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Analise a oração: 'Os oficiais elegeram o sargento representante da tropa.' A função de 'representante da tropa' é:",
+      "textoBase": "O orgulho dos veteranos pela conquista do prêmio de eficiência operacional foi notório durante a cerimônia realizada no Comando Naval.",
+      "enunciado": "No texto acima, 'pela conquista do prêmio de eficiência operacional' exerce a função de:",
       "alternativas": {
-        "A": "Objeto direto",
-        "B": "Objeto indireto",
-        "C": "Predicativo do objeto",
-        "D": "Aposto do objeto",
-        "E": "Adjunto adnominal do objeto"
+        "A": "Objeto indireto de 'foi'.",
+        "B": "Adjunto adverbial de causa.",
+        "C": "Predicativo do sujeito.",
+        "D": "Adjunto adnominal de 'veteranos'.",
+        "E": "Complemento nominal de 'orgulho'."
       },
-      "gabarito": "C",
-      "explicacao": "O verbo 'eleger' é transitivo direto com predicativo do objeto: 'elegeram o sargento [como] representante da tropa'. O objeto direto é 'o sargento' e 'representante da tropa' é o predicativo do objeto, pois classifica o objeto diretamente. (A) 'o sargento' já é o OD. (B) sem preposição obrigatória = não é OI. (D) Aposto explicaria 'o sargento' com vírgula. (E) adjunto adnominal modifica um nome sem relação predicativa."
+      "gabarito": "E",
+      "explicacao": "A alternativa E está correta. 'Orgulho' deriva do adjetivo 'orgulhoso', que exige complemento com preposição 'de/por' ('orgulhoso de/por algo'). Ao substantivar-se, herda essa exigência: 'orgulho de/por quê?' — 'pela conquista do prêmio'. Por isso, 'pela conquista...' é complemento nominal de 'orgulho'. A alternativa B está errada: 'pela conquista' não é uma circunstância opcional — é exigida pelo sentido do nome 'orgulho'. A alternativa D está errada: 'pela conquista' não qualifica 'veteranos', mas sim 'orgulho'."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Em qual sentença o predicado é verbo-nominal com predicativo do objeto?",
+      "textoBase": "Os marinheiros voltaram exaustos da missão de patrulhamento costeiro realizada no litoral nordestino.",
+      "enunciado": "Na frase acima, o predicado 'voltaram exaustos' é classificado como verbo-nominal. Isso ocorre porque:",
       "alternativas": {
-        "A": "'Os cadetes retornaram exaustos da marcha.'",
-        "B": "'A banca julgou o candidato inapto para o serviço.'",
-        "C": "'O resultado foi surpreendente para todos.'",
-        "D": "'O navio permaneceu ancorado por dois dias.'",
-        "E": "'Os recrutas correram rapidamente ao alojamento.'"
+        "A": "'voltaram' é verbo de ligação e 'exaustos' é o núcleo do predicado.",
+        "B": "'voltaram' expressa ação e 'exaustos' é predicativo do sujeito simultaneamente.",
+        "C": "'exaustos' é objeto direto de 'voltaram', que é verbo transitivo.",
+        "D": "'exaustos' é adjunto adnominal de 'marinheiros' no predicado.",
+        "E": "'voltaram' e 'exaustos' formam uma locução verbal de sentido único."
       },
       "gabarito": "B",
-      "explicacao": "Em (B), 'julgou' é verbo transitivo direto; 'o candidato' é o OD; 'inapto para o serviço' é o predicativo do objeto — refere-se ao objeto, não ao sujeito. Predicado verbo-nominal com predicativo do objeto. (A) 'exaustos' é predicativo do sujeito. (C) 'foi' é verbo de ligação → predicado nominal. (D) 'permaneceu' é verbo de ligação → predicado nominal. (E) 'rapidamente' é adjunto adverbial → predicado verbal."
+      "explicacao": "A alternativa B está correta. O predicado verbo-nominal ocorre quando, ao mesmo tempo, há um verbo significativo (que indica ação ou fenômeno) e um predicativo (do sujeito ou do objeto). Em 'voltaram exaustos': 'voltaram' é verbo de ação (predicado verbal) e 'exaustos' é predicativo do sujeito 'os marinheiros' — os dois núcleos coexistem. A alternativa A está errada: 'voltaram' não é verbo de ligação, pois indica ação de retorno. A alternativa C está errada: 'voltar' é intransitivo nesse contexto; 'exaustos' não é objeto."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Na frase 'Há muitos problemas nessa decisão', o verbo 'há' é impessoal porque:",
+      "textoBase": "Distribuíram os uniformes aos recrutas antes do início das atividades. Não se identificou o responsável pela distribuição.",
+      "enunciado": "Na primeira frase, o verbo 'Distribuíram' está na 3ª pessoa do plural sem sujeito expresso. Essa construção indica:",
       "alternativas": {
-        "A": "Está na terceira pessoa do singular por convenção ortográfica",
-        "B": "Funciona no sentido de 'existir', tornando a oração sem sujeito",
-        "C": "O sujeito 'muitos problemas' foi omitido por elipse",
-        "D": "O sujeito está indeterminado, pois não se sabe quem tem os problemas",
-        "E": "Concorda com o predicativo 'nessa decisão' em vez de com o sujeito"
+        "A": "Oração sem sujeito, pois 'distribuir' é verbo impessoal.",
+        "B": "Sujeito oculto 'eles', referente a um grupo mencionado anteriormente.",
+        "C": "Sujeito indeterminado, pois o agente não é identificado nem identificável no contexto.",
+        "D": "Sujeito composto formado por 'os uniformes' e 'aos recrutas'.",
+        "E": "Sujeito simples 'os recrutas', pois são os mais relevantes na ação."
       },
-      "gabarito": "B",
-      "explicacao": "O verbo 'haver' no sentido de 'existir' é impessoal: não tem sujeito, ficando invariável no singular (B). 'Muitos problemas' é objeto direto do verbo haver existencial, não sujeito. (A) A explicação é incompleta e não aborda a impessoalidade. (C) Não há elipse; a ausência de sujeito é permanente, não situacional. (D) Sujeito indeterminado é diferente: existe um agente, porém não identificado. (E) Verbos impessoais não concordam com predicativo."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. O verbo na 3ª pessoa do plural sem sujeito expresso nem contexto que permita identificá-lo é um recurso para indeterminar o sujeito — não se sabe quem distribuiu. Isso é sujeito indeterminado, não ausência de sujeito (que ocorre só com verbos impessoais). A alternativa B está errada: não há referente anterior identificável no texto que permita recuperar 'eles'. A alternativa A está errada: 'distribuir' não é verbo impessoal. As alternativas D e E confundem complementos com sujeito."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Em 'O candidato estava ansioso pelo resultado da prova', qual é a classificação sintática de 'pelo resultado da prova'?",
+      "textoBase": "O general determinou a suspensão imediata dos exercícios. A necessidade de revisão dos equipamentos justificou a decisão.",
+      "enunciado": "Na segunda frase, 'de revisão dos equipamentos' é complemento nominal de 'necessidade'. Assinale a alternativa que justifica corretamente essa classificação.",
       "alternativas": {
-        "A": "Objeto indireto do verbo 'estar'",
-        "B": "Complemento nominal do adjetivo 'ansioso'",
-        "C": "Adjunto adverbial de causa",
-        "D": "Agente da passiva",
-        "E": "Adjunto adnominal de 'resultado'"
+        "A": "Porque 'necessidade' é um adjetivo que exige preposição para completar seu sentido.",
+        "B": "Porque 'revisão dos equipamentos' indica uma circunstância de finalidade.",
+        "C": "Porque 'necessidade' é um substantivo abstrato derivado de adjetivo/verbo que exige complementação preposicionada.",
+        "D": "Porque qualquer substantivo seguido de preposição tem complemento nominal.",
+        "E": "Porque 'de revisão' pode ser retirado sem alterar o sentido essencial da frase."
       },
-      "gabarito": "B",
-      "explicacao": "'Pelo resultado da prova' é complemento nominal (B): completa o sentido do adjetivo 'ansioso' ('ansioso por quê?'). O adjetivo 'ansioso' rege a preposição 'por' e exige complemento. (A) 'Estar' como verbo de ligação não exige objeto indireto. (C) Adjunto adverbial de causa responderia a 'por que razão o candidato estava ansioso?' — mas aqui a preposição é regida pelo adjetivo. (D) Não há voz passiva. (E) 'da prova' é adjunto adnominal de 'resultado', não a locução toda."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. 'Necessidade' deriva do adjetivo 'necessário' e do verbo 'necessitar', que exige a preposição 'de'. Ao ser substantivado, herda essa necessidade de complementação: 'necessidade de quê?' — 'de revisão dos equipamentos'. O complemento nominal completa o sentido de nomes (substantivos, adjetivos, advérbios) que, por si sós, ficam semanticamente incompletos. A alternativa A está errada: 'necessidade' é substantivo, não adjetivo. A alternativa D está errada: nem todo substantivo seguido de preposição tem complemento nominal — 'soldado da pátria' tem adjunto adnominal. A alternativa E está errada: retirar 'de revisão' tornaria 'A necessidade justificou a decisão' vaga demais no contexto."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Leia o texto: 'A confiança dos soldados no sucesso da operação foi determinante para o resultado final.' Analise corretamente a função de 'dos soldados' em relação ao substantivo 'confiança':",
+      "textoBase": "Ao oficial incumbe zelar pela integridade dos equipamentos sob sua responsabilidade. Negligenciar essa obrigação equivale a descumprir o dever funcional.",
+      "enunciado": "Na primeira frase do texto, analise as funções sintáticas dos termos 'Ao oficial' e 'pela integridade dos equipamentos'. Assinale a alternativa correta.",
       "alternativas": {
-        "A": "Complemento nominal (genitivo objetivo): os soldados são o objeto da confiança",
-        "B": "Adjunto adnominal (genitivo subjetivo): os soldados confiam — praticam a ação nominada",
-        "C": "Objeto indireto da forma nominalizada do verbo confiar",
-        "D": "Aposto especificativo de 'confiança', restringindo seu sentido",
-        "E": "Agente da passiva na estrutura nominalizada"
+        "A": "'Ao oficial' é sujeito; 'pela integridade dos equipamentos' é objeto direto.",
+        "B": "'Ao oficial' é objeto indireto; 'pela integridade dos equipamentos' é adjunto adverbial de causa.",
+        "C": "'Ao oficial' é objeto indireto; 'pela integridade dos equipamentos' é objeto indireto de 'zelar'.",
+        "D": "'Ao oficial' é adjunto adverbial de finalidade; 'pela integridade' é complemento nominal.",
+        "E": "'Ao oficial' é sujeito indeterminado; 'pela integridade' é predicativo do sujeito."
       },
-      "gabarito": "B",
-      "explicacao": "'Confiança' é deverbativo de 'confiar'. Em 'a confiança dos soldados', os soldados praticam a ação de confiar (genitivo subjetivo): são eles que confiam, não quem é confiado. Portanto, 'dos soldados' é adjunto adnominal (B). Se fosse 'a confiança no soldado' (alguém confia no soldado), 'no soldado' seria complemento nominal (genitivo objetivo). (A) inverte a relação semântica. (C) Objeto integra estrutura verbal, não nominal. (D) aposto não é introduzido por 'de' com sentido possessivo. (E) agente da passiva acompanha voz passiva analítica."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. O verbo 'incumbir' é impessoal quando significa 'caber a alguém' — portanto a oração não tem sujeito. 'Ao oficial' é objeto indireto de 'incumbe' (incumbe a quem?). 'Zelar pela integridade dos equipamentos' é a oração objeto direto de 'incumbe' (o que incumbe?); dentro desta, 'pela integridade' é objeto indireto de 'zelar', pois o verbo 'zelar' exige 'por' ('zelar por quê?'). A alternativa A está errada: 'incumbir' no sentido de 'caber' é impessoal e não tem sujeito; 'ao oficial' não pode ser sujeito pois está precedido de preposição. A alternativa B está errada: 'pela integridade' é complemento exigido pelo verbo 'zelar', não circunstância de causa."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Em 'Consideram-se aptos ao serviço apenas os candidatos aprovados em todas as etapas', identifique corretamente sujeito e predicativo:",
+      "textoBase": "Cumpre aos comandantes de navio assegurar que as normas de segurança sejam rigorosamente observadas pela tripulação.",
+      "enunciado": "Na frase acima, identifique a estrutura sintática correta.",
       "alternativas": {
-        "A": "Sujeito: 'os candidatos aprovados em todas as etapas'; predicativo do sujeito: 'aptos ao serviço'",
-        "B": "Sujeito indeterminado; predicativo do objeto: 'aptos ao serviço'",
-        "C": "Sujeito: 'aptos ao serviço'; predicativo: 'os candidatos aprovados'",
-        "D": "Sujeito oculto (eles); objeto direto: 'os candidatos aprovados'; predicativo do objeto: 'aptos ao serviço'",
-        "E": "Oração sem sujeito; 'aptos ao serviço' como complemento nominal"
+        "A": "Sujeito: 'aos comandantes de navio'; predicado verbal: 'Cumpre'.",
+        "B": "Oração sem sujeito; 'aos comandantes de navio' é objeto indireto; a oração 'que as normas...' é sujeito oracional de 'Cumpre'.",
+        "C": "Sujeito: 'que as normas de segurança sejam rigorosamente observadas'; 'aos comandantes' é aposto.",
+        "D": "Sujeito indeterminado; 'aos comandantes' é vocativo; 'que as normas...' é objeto direto.",
+        "E": "Sujeito composto: 'aos comandantes' e 'que as normas'; predicado nominal."
       },
-      "gabarito": "A",
-      "explicacao": "A oração é passiva pronominal com 'se' apassivador: 'Consideram-se aptos ao serviço os candidatos...' equivale a 'Os candidatos aprovados em todas as etapas são considerados aptos ao serviço.' O sujeito paciente é 'os candidatos aprovados em todas as etapas' (A), e 'aptos ao serviço' é o predicativo do sujeito. (B) com 'se' apassivador, não há sujeito indeterminado. (C) inverte os termos. (D) 'se' apassivador não forma voz ativa com sujeito oculto. (E) há sujeito paciente."
+      "gabarito": "B",
+      "explicacao": "A alternativa B está correta. O verbo 'cumprir' no sentido de 'ser necessário, convir' é impessoal — não tem sujeito. 'Aos comandantes de navio' é objeto indireto (cumpre a quem?). A oração 'que as normas de segurança sejam rigorosamente observadas pela tripulação' funciona como sujeito oracional de 'Cumpre' — quando o sujeito é uma oração subordinada substantiva, o verbo principal permanece no singular. A alternativa A está errada: 'aos comandantes' está precedido de preposição 'a', portanto não pode ser sujeito. A alternativa C está errada ao chamar 'aos comandantes' de aposto — ele é complemento do verbo."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Analise: 'Ao candidato foi entregue o resultado da seleção pelo chefe de recrutamento.' Quais são o sujeito e o agente da passiva?",
+      "textoBase": "A tripulação do navio-escola, composta por cadetes e graduados, partiu satisfeita após a cerimônia de encerramento do curso de formação.",
+      "enunciado": "Na frase acima, identifique corretamente as funções dos termos destacados: 'composta por cadetes e graduados' e 'satisfeita'.",
       "alternativas": {
-        "A": "Sujeito: 'ao candidato'; agente da passiva: 'o resultado da seleção'",
-        "B": "Sujeito: 'o resultado da seleção'; agente da passiva: 'pelo chefe de recrutamento'",
-        "C": "Sujeito: 'o chefe de recrutamento'; agente da passiva: 'ao candidato'",
-        "D": "Sujeito indeterminado; agente da passiva: 'pelo chefe de recrutamento'",
-        "E": "Sujeito: 'ao candidato'; agente da passiva: 'pelo chefe de recrutamento'"
+        "A": "Aposto explicativo e predicativo do sujeito, respectivamente.",
+        "B": "Adjunto adnominal e objeto direto, respectivamente.",
+        "C": "Aposto especificativo e adjunto adnominal, respectivamente.",
+        "D": "Complemento nominal e predicativo do objeto, respectivamente.",
+        "E": "Adjunto adnominal e adjunto adverbial de modo, respectivamente."
       },
-      "gabarito": "B",
-      "explicacao": "A voz ativa equivalente é 'O chefe de recrutamento entregou o resultado da seleção ao candidato.' Na passiva: sujeito paciente = 'o resultado da seleção' (sofre a ação); agente da passiva = 'pelo chefe de recrutamento' (pratica a ação); 'ao candidato' = objeto indireto de 'entregar'. (A) 'ao candidato' é OI. (C) inverte os papéis. (D) há sujeito paciente identificado. (E) confunde OI com sujeito."
+      "gabarito": "A",
+      "explicacao": "A alternativa A está correta. 'Composta por cadetes e graduados' é aposto explicativo de 'A tripulação do navio-escola' — vem entre vírgulas, acrescenta informação sobre o sujeito e pode ser retirado. 'Satisfeita' é predicativo do sujeito no predicado verbo-nominal: 'partiu' é verbo de ação e 'satisfeita' atribui uma qualidade ao sujeito 'A tripulação' no momento da partida. A alternativa E está errada: 'satisfeita' não indica circunstância de modo — indica estado do sujeito, característica do predicativo. A alternativa C está errada: o aposto entre vírgulas é explicativo, não especificativo."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Em 'Faz dez anos que o oficial se aposentou', a forma verbal 'Faz' caracteriza:",
+      "textoBase": "Importa ressaltar que a disponibilidade dos recursos para a manutenção da esquadra depende de autorização superior. Sem ela, nada se faz.",
+      "enunciado": "Na primeira frase, 'que a disponibilidade dos recursos para a manutenção da esquadra depende de autorização superior' exerce a função de:",
       "alternativas": {
-        "A": "Verbo transitivo direto com sujeito oculto 'ele'",
-        "B": "Verbo impessoal indicando tempo decorrido — oração sem sujeito",
-        "C": "Verbo de ligação com predicativo 'dez anos'",
-        "D": "Verbo com sujeito indeterminado 'dez anos'",
-        "E": "Verbo transitivo indireto com objeto indireto 'dez anos'"
+        "A": "Objeto direto de 'Importa'.",
+        "B": "Objeto indireto de 'ressaltar'.",
+        "C": "Adjunto adverbial de causa de 'ressaltar'.",
+        "D": "Sujeito oracional de 'Importa'.",
+        "E": "Aposto explicativo de 'ressaltar'."
       },
-      "gabarito": "B",
-      "explicacao": "Nas locuções de tempo decorrido ('faz X tempo que...', 'há X tempo que...'), o verbo 'fazer' é impessoal — fica invariável no singular e não tem sujeito. A oração é sem sujeito (B). 'Dez anos' não é sujeito, objeto ou predicativo, mas complemento adverbial de tempo. (A) não há sujeito oculto. (C) verbo de ligação exige predicativo do sujeito. (D) sujeito indeterminado pressupõe agente humano não identificado. (E) não é transitivo indireto."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta. O verbo 'importar' no sentido de 'ser importante, ser necessário' é impessoal. A oração 'que a disponibilidade... depende de autorização superior' é o sujeito oracional de 'Importa' — ela diz o que importa. Quando o sujeito é oracional, o verbo principal fica no singular (sem concordância com a oração). 'Ressaltar' funciona como redução de oração infinitiva subordinada dentro da estrutura ('importa [ressaltar] que...'). A alternativa A está errada: 'importar' impessoal não aceita objeto direto no sentido usado. A alternativa B está errada: a oração não complementa 'ressaltar', mas sim 'importa'."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Qual das opções apresenta erro na classificação sintática?",
+      "textoBase": "O desrespeito às normas de segurança constitui falta grave e pode resultar em punição disciplinar. A advertência ao responsável foi emitida pelo comandante.",
+      "enunciado": "Na segunda frase, 'ao responsável' e 'pelo comandante' exercem, respectivamente, as funções de:",
       "alternativas": {
-        "A": "'Lembrou-se do ocorrido': 'do ocorrido' = objeto indireto",
-        "B": "'Aspirava ao cargo de capitão': 'ao cargo de capitão' = objeto indireto",
-        "C": "'Tornou-se oficial efetivo': 'oficial efetivo' = predicativo do sujeito",
-        "D": "'Precisava de apoio logístico': 'de apoio logístico' = objeto direto",
-        "E": "'Confiava nos recrutas': 'nos recrutas' = objeto indireto"
+        "A": "Objeto indireto e agente da passiva.",
+        "B": "Complemento nominal e adjunto adverbial de causa.",
+        "C": "Adjunto adnominal e agente da passiva.",
+        "D": "Objeto indireto e objeto direto.",
+        "E": "Complemento nominal e objeto indireto."
       },
-      "gabarito": "D",
-      "explicacao": "Em (D), 'precisar de' é verbo transitivo indireto: exige preposição 'de'. Portanto, 'de apoio logístico' é objeto indireto, não objeto direto — a classificação como OD está errada. (A) 'lembrar-se de' = transitivo indireto — OI correto. (B) 'aspirar a' = transitivo indireto — OI correto. (C) 'tornar-se' = verbo de ligação; 'oficial efetivo' = predicativo do sujeito — correto. (E) 'confiar em' = transitivo indireto — OI correto."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. 'Ao responsável' é adjunto adnominal de 'A advertência' — especifica a quem a advertência se destina, qualificando o substantivo. 'Pelo comandante' é o agente da passiva — indica quem praticou a ação de emitir, na voz passiva analítica ('foi emitida pelo comandante'). A alternativa A está errada: 'ao responsável' não é objeto indireto de 'foi emitida' — o verbo na voz passiva analítica não admite objeto indireto nessa posição. A alternativa B está errada: 'ao responsável' não é complemento nominal, pois 'advertência' aqui apenas tem um destinatário qualificador, não um complemento exigido por derivação verbal."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Nomearam o capitão comandante do batalhão.' Identifique corretamente OD e predicativo do objeto:",
+      "textoBase": "Aos recrutas que demonstrarem excelência nos exercícios de adestramento serão concedidos elogios formais pelo Comando do Distrito.",
+      "enunciado": "Na frase acima, identifique o sujeito e justifique sua posição na oração.",
       "alternativas": {
-        "A": "OD: 'comandante do batalhão'; predicativo: 'o capitão'",
-        "B": "OD: 'o capitão'; predicativo do objeto: 'comandante do batalhão'",
-        "C": "OD: 'o capitão'; objeto indireto: 'comandante do batalhão'",
-        "D": "OD: 'o capitão comandante'; complemento nominal: 'do batalhão'",
-        "E": "Sujeito indeterminado; OI: 'o capitão'; predicativo do sujeito: 'comandante do batalhão'"
+        "A": "Sujeito: 'Aos recrutas que demonstrarem excelência nos exercícios de adestramento' — sujeito indireto com preposição.",
+        "B": "Sujeito: 'elogios formais' — sujeito simples posposto ao verbo na voz passiva analítica.",
+        "C": "Oração sem sujeito, pois 'conceder' é impessoal nesse contexto.",
+        "D": "Sujeito: 'pelo Comando do Distrito' — sujeito agente da voz passiva.",
+        "E": "Sujeito indeterminado, pois o agente real da concessão não é identificável."
       },
       "gabarito": "B",
-      "explicacao": "O verbo 'nomear' é transitivo direto com predicativo do objeto: 'nomearam quem? o capitão' (OD) + 'nomearam para quê / como quê? comandante do batalhão' (predicativo do OD). (A) inverte os termos. (C) 'comandante do batalhão' não é OI — não há preposição obrigatória entre o verbo e esse termo. (D) 'o capitão comandante' não constitui uma unidade — 'comandante do batalhão' é predicativo do OD. (E) o sujeito é indeterminado, mas os demais elementos estão errados."
+      "explicacao": "A alternativa B está correta. A frase está na voz passiva analítica: 'serão concedidos' é a locução verbal passiva. O sujeito paciente é 'elogios formais' — é quem recebe a ação de conceder. O sujeito está posposto ao verbo (ordem invertida), o que é comum em construções passivas. 'Aos recrutas que demonstrarem excelência' é objeto indireto — indica a quem serão concedidos os elogios. 'Pelo Comando do Distrito' é agente da passiva. A alternativa A está errada: termos com preposição não podem ser sujeito em português. A alternativa D está errada: o agente da passiva não é sujeito — é um adjunto."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Em 'O regulamento da Marinha, redigido em linguagem clara e direta, facilita a compreensão das normas', o termo 'redigido em linguagem clara e direta' é:",
+      "textoBase": "Consta do relatório que o oficial agiu com deslealdade ao superior hierárquico. Tal procedimento é inaceitável nos quadros da Marinha.",
+      "enunciado": "Na primeira frase, o verbo 'Consta' tem como sujeito:",
       "alternativas": {
-        "A": "Adjunto adverbial de modo referente ao verbo 'facilita'",
-        "B": "Predicativo do sujeito do verbo 'facilita'",
-        "C": "Aposto explicativo do sujeito 'O regulamento da Marinha'",
-        "D": "Oração subordinada adverbial causal",
-        "E": "Complemento nominal de 'linguagem'"
+        "A": "'do relatório' — objeto indireto com função de sujeito.",
+        "B": "Sujeito oculto 'ele', referente ao oficial.",
+        "C": "A oração 'que o oficial agiu com deslealdade ao superior hierárquico' — sujeito oracional.",
+        "D": "Sujeito indeterminado — o agente é desconhecido.",
+        "E": "Não há sujeito — 'constar' é verbo impessoal."
       },
       "gabarito": "C",
-      "explicacao": "'Redigido em linguagem clara e direta' é um aposto explicativo (C): está entre vírgulas, refere-se ao sujeito 'O regulamento da Marinha' e o explica/caracteriza. Tecnicamente, trata-se de uma construção com particípio em função apositiva. (A) não modifica o verbo 'facilita'. (B) predicativo do sujeito exige verbo de ligação. (D) não é oração subordinada — é uma construção participial. (E) não completa o sentido de 'linguagem'."
+      "explicacao": "A alternativa C está correta. 'Constar' no sentido de 'estar registrado, figurar' admite sujeito oracional. A oração 'que o oficial agiu com deslealdade ao superior hierárquico' é o sujeito de 'Consta' — responde à pergunta 'o que consta?'. O verbo fica no singular porque o sujeito é uma oração. 'Do relatório' é adjunto adverbial de lugar (ou objeto indireto) — indica onde consta. A alternativa E está errada: 'constar' não é verbo impessoal; ele pode ter sujeito, especialmente oracional. A alternativa D está errada: sujeito indeterminado ocorre quando o agente é desconhecido, não quando o sujeito é uma oração."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Analise: 'Quanto ao resultado, o comandante disse que os candidatos seriam informados em breve.' Em relação à função sintática do segmento 'Quanto ao resultado':",
+      "textoBase": "Nomearam o capitão-de-fragata Silva para o cargo de adido naval em Lisboa. O nome do novo adido foi publicado no Diário Oficial da União.",
+      "enunciado": "Na primeira frase, 'o capitão-de-fragata Silva' exerce a função de objeto direto. Na segunda, 'O nome do novo adido' exerce a função de sujeito paciente. Assinale a alternativa que analisa corretamente a transformação da voz ativa para a passiva.",
       "alternativas": {
-        "A": "Sujeito da oração principal",
-        "B": "Objeto direto do verbo 'disse'",
-        "C": "Adjunto adverbial de assunto (tópico frasal), sintaticamente deslocado",
-        "D": "Complemento nominal de 'comandante'",
-        "E": "Aposto resumitivo da oração seguinte"
+        "A": "O sujeito ativo vira objeto indireto na passiva; o OD ativo vira sujeito paciente com nova concordância verbal.",
+        "B": "Na voz ativa, o OD vira predicativo do sujeito na passiva; o sujeito vira objeto direto.",
+        "C": "Na transformação, apenas a posição dos termos muda; as funções sintáticas permanecem idênticas.",
+        "D": "Na voz passiva, o agente da passiva exerce a mesma função do sujeito ativo e concorda com o verbo.",
+        "E": "Na voz ativa, o OD vira sujeito paciente na passiva; o sujeito original vira agente da passiva, introduzido por 'por'."
       },
-      "gabarito": "C",
-      "explicacao": "'Quanto ao resultado' é um adjunto adverbial de assunto/referência (C), funcionando como tópico frasal: situa o tema sobre o qual se faz a declaração. Está sintaticamente deslocado para o início da oração, separado por vírgula. (A) o sujeito de 'disse' é 'o comandante'. (B) OD de 'disse' é a oração substantiva 'que os candidatos seriam informados'. (D) não complementa o nome 'comandante'. (E) aposto resumitivo retoma termos enumerados anteriormente."
+      "gabarito": "E",
+      "explicacao": "A alternativa E está correta e descreve a regra clássica de transformação de voz. Na voz ativa: 'Nomearam [sujeito indeterminado] o capitão-de-fragata Silva [OD] para o cargo [OI]'. Na voz passiva: 'O capitão-de-fragata Silva [sujeito paciente] foi nomeado [locução passiva] para o cargo [OI mantido] por [agente]'. O objeto direto da ativa torna-se sujeito paciente da passiva, e o verbo concorda com ele. A alternativa B está errada: o OD não vira predicativo. A alternativa D está errada: o agente da passiva não concorda com o verbo — quem concorda é o sujeito paciente."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Em 'Tornou-se necessário aumentar o efetivo da base', a forma verbal 'Tornou-se' indica que:",
+      "textoBase": "É sabido que as avaliações psicológicas dos candidatos ao oficialato têm caráter eliminatório. Não basta ao candidato obter nota suficiente nas provas escritas.",
+      "enunciado": "Na segunda frase, 'ao candidato' e 'obter nota suficiente nas provas escritas' exercem, respectivamente, as funções de:",
       "alternativas": {
-        "A": "É voz reflexiva; sujeito: pronome oculto 'ele'",
-        "B": "É verbo de ligação pronominal; sujeito: 'aumentar o efetivo da base'; predicativo: 'necessário'",
-        "C": "É verbo impessoal com sujeito indeterminado e 'necessário' como predicativo do objeto",
-        "D": "É voz passiva pronominal; 'necessário' = agente da passiva",
-        "E": "É verbo transitivo direto com objeto direto 'necessário'"
+        "A": "Sujeito e objeto direto de 'basta'.",
+        "B": "Objeto indireto e sujeito oracional de 'basta'.",
+        "C": "Vocativo e sujeito de 'basta'.",
+        "D": "Complemento nominal e adjunto adverbial de finalidade.",
+        "E": "Objeto indireto e predicativo do sujeito de 'basta'."
       },
       "gabarito": "B",
-      "explicacao": "O verbo 'tornar-se' é de ligação pronominal. O sujeito da oração é a oração infinitiva 'aumentar o efetivo da base' (sujeito oracional) e 'necessário' é o predicativo do sujeito (B). A concordância desse predicativo com o sujeito oracional fica no singular neutro/masculino. (A) não é reflexiva — 'se' integra o verbo de ligação. (C) não é impessoal: há sujeito oracional. (D) não é passiva pronominal — não há particípio. (E) não é transitivo direto."
+      "explicacao": "A alternativa B está correta. O verbo 'bastar' no sentido de 'ser suficiente' admite o esquema: [algo] basta [a alguém]. 'Ao candidato' é objeto indireto (basta a quem?). A oração reduzida de infinitivo 'obter nota suficiente nas provas escritas' funciona como sujeito oracional de 'basta' (o que não basta?). O verbo fica no singular porque o sujeito é oracional. A alternativa A está errada: 'ao candidato' tem preposição e não pode ser sujeito. A alternativa C está errada: 'ao candidato' não é vocativo — o vocativo interpela diretamente sem vínculo sintático com o verbo."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Leia: 'São louváveis a dedicação dos candidatos e o empenho de toda a equipe.' O sujeito do verbo 'São' é:",
+      "textoBase": "Tratou-se, naquela sessão, de assunto de extrema relevância para os rumos da instituição. Os presentes mostraram-se favoráveis ao encaminhamento proposto.",
+      "enunciado": "Na primeira frase, 'de assunto de extrema relevância para os rumos da instituição' exerce a função de:",
       "alternativas": {
-        "A": "Sujeito simples: 'a dedicação dos candidatos'",
-        "B": "Sujeito composto: 'a dedicação dos candidatos e o empenho de toda a equipe'",
-        "C": "Sujeito oculto (eles), referindo-se a candidatos e equipe",
-        "D": "Sujeito indeterminado, pois o verbo 'ser' é impessoal",
-        "E": "Oração sem sujeito, pois 'ser' indica existência"
-      },
-      "gabarito": "B",
-      "explicacao": "O sujeito é composto posposto (B): 'a dedicação dos candidatos e o empenho de toda a equipe'. O verbo 'ser' aqui é de ligação, não impessoal. 'Louváveis' é o predicativo do sujeito — concorda no plural com o sujeito composto. (A) sujeito simples só incluiria 'a dedicação', mas o verbo está no plural. (C) não há sujeito oculto de pessoa. (D) 'ser' é impessoal apenas em indicações de tempo ('São três horas') — não é o caso. (E) 'ser' existencial seria raro nessa construção."
-    }
-  ],
-  "simulado": [
-    {
-      "id": "s01",
-      "nivel": "avancado",
-      "enunciado": "Leia o texto: 'A organização do concurso, realizada com rigor e transparência pela Diretoria de Pessoal da Marinha, conferiu legitimidade ao processo seletivo. Muitos candidatos elogiaram o procedimento.' Com base no texto, é INCORRETO afirmar que:",
-      "alternativas": {
-        "A": "Em 'A organização do concurso', 'do concurso' é adjunto adnominal do substantivo 'organização'",
-        "B": "Em 'realizada com rigor e transparência pela Diretoria', 'com rigor e transparência' é adjunto adverbial de modo",
-        "C": "Em 'realizada com rigor e transparência pela Diretoria', 'pela Diretoria de Pessoal da Marinha' é agente da passiva",
-        "D": "Em 'conferiu legitimidade ao processo seletivo', 'legitimidade' é objeto direto e 'ao processo seletivo' é objeto indireto",
-        "E": "Em 'Muitos candidatos elogiaram o procedimento', 'o procedimento' é objeto indireto do verbo 'elogiar'"
-      },
-      "gabarito": "E",
-      "explicacao": "A afirmação incorreta é (E): 'o procedimento' é objeto direto, não indireto, pois o verbo 'elogiar' é transitivo direto (elogiar o quê? o procedimento — sem preposição obrigatória). (A) correto: 'do concurso' apenas identifica/qualifica 'organização' — adjunto adnominal. (B) correto: 'com rigor e transparência' indica de que modo foi realizada — adj. adv. de modo. (C) correto: 'pela Diretoria...' pratica a ação na passiva — agente da passiva. (D) correto: 'conferir algo a alguém' — 'legitimidade' = OD; 'ao processo seletivo' = OI."
-    },
-    {
-      "id": "s02",
-      "nivel": "avancado",
-      "enunciado": "Analise o período: 'Resta saber se os aprovados na primeira fase serão convocados ainda este mês.' Com base na análise sintática, assinale a alternativa correta:",
-      "alternativas": {
-        "A": "O verbo 'Resta' tem como sujeito simples 'os aprovados na primeira fase'",
-        "B": "O verbo 'Resta' é impessoal de existência e a oração não tem sujeito",
-        "C": "O sujeito de 'Resta' é a oração 'saber se os aprovados na primeira fase serão convocados ainda este mês'",
-        "D": "'Se os aprovados na primeira fase serão convocados' é objeto direto de 'saber'",
-        "E": "'ainda este mês' é complemento nominal de 'aprovados'"
+        "A": "Objeto direto de 'Tratou-se'.",
+        "B": "Sujeito indeterminado da oração.",
+        "C": "Objeto indireto de 'Tratou-se', pois 'tratar de' exige preposição.",
+        "D": "Complemento nominal de 'relevância'.",
+        "E": "Adjunto adverbial de assunto, introduzido pela preposição 'de'."
       },
       "gabarito": "C",
-      "explicacao": "'Resta' é verbo de ligação pronominal com sujeito oracional: 'saber se os aprovados serão convocados' — toda essa oração infinitiva é o sujeito (C). O verbo concorda com sujeito oracional no singular. (A) 'os aprovados' está dentro da oração sujeito, não é o sujeito do verbo 'resta'. (B) 'restar' aqui não é impessoal de existência: tem sujeito oracional. (D) 'saber' é o infinitivo que integra o sujeito; a oração 'se os aprovados...' é objeto direto de 'saber' — afirmativa parcialmente correta, mas a questão pede a análise de 'Resta'. (E) 'ainda este mês' é adjunto adverbial de tempo."
-    },
-    {
-      "id": "s03",
-      "nivel": "avancado",
-      "enunciado": "No trecho 'Atribuíram ao oficial a responsabilidade pelo fracasso da operação', é correto afirmar que:",
-      "alternativas": {
-        "A": "O sujeito da oração é 'ao oficial', que está na posição de objeto indireto por inversão",
-        "B": "O sujeito é indeterminado; 'a responsabilidade' é objeto direto; 'ao oficial' é objeto indireto",
-        "C": "O sujeito é 'a responsabilidade'; 'ao oficial' é o agente da passiva; 'pelo fracasso' é adjunto adverbial",
-        "D": "O sujeito é 'ao oficial'; 'a responsabilidade' é predicativo do objeto; 'pelo fracasso' é complemento nominal",
-        "E": "O sujeito é 'a responsabilidade'; 'ao oficial' é objeto indireto; 'pelo fracasso' é adjunto adverbial de causa"
-      },
-      "gabarito": "B",
-      "explicacao": "O verbo 'atribuir' é transitivo direto e indireto: 'atribuíram o quê? a responsabilidade' (OD) + 'a quem? ao oficial' (OI). O sujeito é indeterminado — não se identifica quem atribuiu (B). (A) 'ao oficial' é OI, não sujeito. (C) e (E) o sujeito seria de voz passiva, mas o verbo está na ativa ('atribuíram'). (D) predicativo do objeto classificaria 'a responsabilidade' em função do OD 'ao oficial', o que não se aplica."
-    },
-    {
-      "id": "s04",
-      "nivel": "avancado",
-      "enunciado": "Leia: 'Disciplina e hierarquia são os pilares fundamentais da instituição; sem elas, nada funciona.' Sobre a análise sintática, assinale a alternativa INCORRETA:",
-      "alternativas": {
-        "A": "'Disciplina e hierarquia' formam o sujeito composto do verbo 'são'",
-        "B": "'os pilares fundamentais da instituição' é o predicativo do sujeito",
-        "C": "'sem elas' é adjunto adverbial de condição no segundo período",
-        "D": "'nada' é sujeito simples do verbo 'funciona' no segundo período",
-        "E": "'da instituição' é objeto indireto de 'pilares', pois 'pilar' exige complemento preposicionado"
-      },
-      "gabarito": "E",
-      "explicacao": "A alternativa incorreta é (E): 'da instituição' é adjunto adnominal do substantivo 'pilares' — apenas identifica/qualifica de que instituição são os pilares. Substantivos como 'pilar' não são deverbativos e não exigem complemento nominal no sentido sintático estrito. (A) correto: dois núcleos nominais = sujeito composto. (B) correto: 'são' é verbo de ligação; 'os pilares fundamentais...' = predicativo. (C) correto: 'sem elas' indica condição necessária para o funcionamento. (D) correto: 'nada' é pronome indefinido substantivado funcionando como sujeito simples."
-    },
-    {
-      "id": "s05",
-      "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'Tornaram-se evidentes as falhas no planejamento da operação, o que levou a Marinha a revisar seus protocolos de segurança.' Qual análise está CORRETA?",
-      "alternativas": {
-        "A": "'Tornaram-se evidentes' é predicado verbal; 'as falhas no planejamento da operação' é objeto direto",
-        "B": "'Tornaram-se' é verbo de ligação; 'as falhas no planejamento da operação' é sujeito; 'evidentes' é predicativo do sujeito",
-        "C": "'o que levou a Marinha a revisar seus protocolos' é aposto explicativo de 'as falhas'",
-        "D": "'a revisar seus protocolos de segurança' é objeto direto do verbo 'levou'",
-        "E": "'no planejamento da operação' é complemento nominal de 'falhas' com sentido passivo"
-      },
-      "gabarito": "B",
-      "explicacao": "'Tornar-se' é verbo de ligação pronominal; o sujeito posposto é 'as falhas no planejamento da operação' (com o qual o verbo concorda no plural: 'tornaram-se'); 'evidentes' é o predicativo do sujeito (B). (A) não é predicado verbal — há predicativo. (C) 'o que levou...' é oração subordinada adjetiva explicativa, não aposto. (D) 'a revisar seus protocolos de segurança' é objeto direto de 'levou' apenas no sentido de que 'levar a fazer algo' — mas nesse caso 'a revisar' é complemento do verbo 'levar' com preposição 'a', sendo objeto indireto. (E) 'no planejamento' tem relação ativa com 'falhas' (as falhas ocorrem no planejamento = adjunto adnominal ou adverbial, não genitivo objetivo)."
+      "explicacao": "A alternativa C está correta. O verbo 'tratar' no sentido de 'versar sobre, ocupar-se de' é transitivo indireto — exige a preposição 'de'. 'De assunto de extrema relevância...' é o objeto indireto. A partícula 'se' aqui tem função de índice de indeterminação do sujeito (não é voz passiva, pois o verbo exige preposição). A alternativa A está errada: objeto direto não admite preposição obrigatória. A alternativa D está errada: 'para os rumos da instituição' é que poderia ser analisado como complemento nominal de 'relevância' — 'de assunto' é OI do verbo principal. A alternativa E está errada: não existe a função 'adjunto adverbial de assunto' na gramática normativa."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
-      "gram-01",
-      "gram-03",
+      "gram-00",
       "gram-04",
       "gram-05",
       "gram-06",
+      "gram-07",
+      "gram-01",
+      "gram-02",
+      "gram-03",
       "gram-08",
-      "gram-09",
-      "gram-10",
-      "gram-11",
-      "gram-13",
-      "gram-14",
-      "gram-12",
-      "comp-02",
-      "comp-03",
-      "comp-06",
-      "comp-07",
-      "comp-08",
-      "comp-11"
+      "gram-09"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + gram-11",
-        "enunciado": "Leia: 'A dedicação e o esforço do candidato foram reconhecidos pela banca.' Para que a concordância verbal esteja correta e o sujeito esteja corretamente identificado, é necessário reconhecer que:",
+        "topico_referencia": "gram-09",
+        "textoBase": "Cumpre a todos os integrantes do Corpo de Fuzileiros Navais observar rigorosamente as normas de conduta estabelecidas pelo Comando.",
+        "enunciado": "Na frase acima, 'a todos os integrantes do Corpo de Fuzileiros Navais' e 'observar rigorosamente as normas de conduta estabelecidas pelo Comando' exercem, respectivamente, as funções de:",
         "alternativas": {
-          "A": "Sujeito simples 'a dedicação'; 'foram' concorda com o predicativo 'reconhecidos'",
-          "B": "Sujeito composto 'a dedicação e o esforço do candidato'; o verbo no plural está correto",
-          "C": "Sujeito simples 'o esforço do candidato' por estar mais próximo do verbo; 'foram' é erro de concordância",
-          "D": "Sujeito indeterminado; 'foram' no plural é uso coloquial impreciso",
-          "E": "Sujeito 'pela banca'; o verbo deveria estar no singular 'foi'"
+          "A": "Sujeito composto e objeto direto.",
+          "B": "Objeto indireto e sujeito oracional.",
+          "C": "Adjunto adverbial de finalidade e objeto direto.",
+          "D": "Complemento nominal e sujeito simples.",
+          "E": "Vocativo e sujeito indeterminado."
         },
         "gabarito": "B",
-        "explicacao": "O sujeito é composto ('a dedicação e o esforço do candidato'), formado por dois núcleos nominais ligados pela conjunção 'e'. Pela regra de concordância verbal com sujeito composto anteposto ao verbo, o verbo vai para o plural — 'foram' está correto (B). (A) sujeito simples em sujeito composto = erro. (C) a proximidade não determina concordância com sujeito composto — só em casos de sujeito composto posposto é que há opção de concordância com o núcleo mais próximo. (D) não é indeterminado — há sujeito identificado. (E) 'pela banca' é agente da passiva."
+        "explicacao": "'Cumprir' no sentido de 'ser dever/obrigação de' é impessoal. 'A todos os integrantes' é objeto indireto (cumpre a quem?). A oração infinitiva 'observar rigorosamente as normas...' é o sujeito oracional de 'Cumpre' (o que cumpre?). A alternativa A está errada porque termos com preposição obrigatória não podem ser sujeito."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + gram-13",
-        "enunciado": "Analise: 'Os candidatos aspiravam às vagas de engenharia.' O verbo 'aspirar' nessa frase exige preposição porque seu objeto é:",
+        "topico_referencia": "gram-08",
+        "textoBase": "A embarcação partiu. O mar estava agitado naquela madrugada.",
+        "enunciado": "Em relação aos períodos acima, assinale a alternativa correta.",
         "alternativas": {
-          "A": "Objeto direto — 'aspirar' é transitivo direto quando significa 'desejar'",
-          "B": "Objeto indireto — 'aspirar' no sentido de 'almejar/pretender' é transitivo indireto, regendo a preposição 'a'",
-          "C": "Complemento nominal — 'vagas' é substantivo que exige completamento",
-          "D": "Adjunto adverbial de finalidade — 'às vagas' indica o objetivo da ação",
-          "E": "Agente da passiva — 'às vagas' é o praticante da aspiração"
+          "A": "Ambos são períodos compostos, pois cada um expressa dois eventos.",
+          "B": "O primeiro é um período simples (uma oração); o segundo também é um período simples.",
+          "C": "O primeiro é uma frase nominal; o segundo é um período composto.",
+          "D": "Ambos são frases verbais com predicado verbo-nominal.",
+          "E": "O primeiro é uma oração sem sujeito; o segundo tem predicado nominal composto."
         },
         "gabarito": "B",
-        "explicacao": "O verbo 'aspirar' tem duas regências distintas: transitivo direto quando significa 'inalar' ('aspirar o ar') e transitivo indireto quando significa 'almejar/pretender', regendo obrigatoriamente a preposição 'a' ('aspirar a algo'). Logo, 'às vagas' (a + as vagas) é objeto indireto (B). (A) 'aspirar' no sentido de desejar é transitivo indireto — regência obrigatória. (C) Complemento nominal completa um nome, não verbo. (D) adjunto adverbial de finalidade indicaria propósito da ação e poderia ser suprimido sem prejuízo do sentido do verbo. (E) não há voz passiva."
+        "explicacao": "Período simples é aquele formado por uma única oração. 'A embarcação partiu' tem um verbo ('partiu') — período simples. 'O mar estava agitado naquela madrugada' tem um verbo ('estava') — também período simples. Período composto exige pelo menos dois verbos formando duas orações. A alternativa D está errada: 'partiu' forma predicado verbal, não verbo-nominal."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + gram-14",
-        "enunciado": "Em 'Entregaram-lhe os documentos necessários à posse', o pronome 'lhe' exerce a função de:",
+        "topico_referencia": "gram-07",
+        "textoBase": "Se os recrutas tivessem sido devidamente instruídos, teriam concluído o exercício sem dificuldades.",
+        "enunciado": "Os verbos 'tivessem sido instruídos' e 'teriam concluído' estão, respectivamente, nos modos e tempos:",
         "alternativas": {
-          "A": "Objeto direto do verbo 'entregaram'",
-          "B": "Objeto indireto do verbo 'entregaram'",
-          "C": "Sujeito oculto da oração",
-          "D": "Adjunto adnominal de 'documentos'",
-          "E": "Complemento nominal de 'necessários'"
+          "A": "Indicativo pretérito perfeito e condicional futuro do pretérito.",
+          "B": "Subjuntivo pretérito mais-que-perfeito composto e condicional composto.",
+          "C": "Imperativo negativo e futuro do pretérito simples.",
+          "D": "Subjuntivo imperfeito e futuro do pretérito simples.",
+          "E": "Indicativo pretérito imperfeito composto e futuro do presente."
         },
         "gabarito": "B",
-        "explicacao": "O verbo 'entregar' é transitivo direto e indireto: 'entregaram o quê? os documentos necessários' (OD) + 'a quem? lhe' (OI = a ele/a ela). O pronome oblíquo 'lhe' funciona como objeto indireto (B), sendo a forma correta para OI de 3.ª pessoa. (A) 'lhe' nunca é objeto direto no português culto — para OD usa-se 'o/a'. (C) o sujeito é indeterminado. (D) pronome oblíquo não funciona como adjunto adnominal. (E) o complemento nominal de 'necessários' é 'à posse'."
+        "explicacao": "'Tivessem sido instruídos' é o pretérito mais-que-perfeito composto do subjuntivo — formado por 'tivessem' (pretérito imperfeito do subjuntivo de 'ter') + 'sido instruídos' (particípio passivo). 'Teriam concluído' é o futuro do pretérito composto (condicional composto) — formado por 'teriam' (futuro do pretérito de 'ter') + 'concluído' (particípio). Essa estrutura é típica de período hipotético no passado."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + gram-12",
-        "enunciado": "Leia: 'O candidato, que havia estudado durante meses, sentiu-se seguro.' A vírgula após 'candidato' e antes de 'que' indica que a oração subordinada adjetiva 'que havia estudado durante meses' é:",
+        "topico_referencia": "gram-05",
+        "textoBase": "O oficial responsável pelo setor comunicou que tudo estava sob controle. Aquele comunicado tranquilizou a tripulação.",
+        "enunciado": "Na segunda frase, 'Aquele' exerce a função de que classe de palavras e qual sua função sintática?",
         "alternativas": {
-          "A": "Restritiva — limita o sentido de 'candidato' a apenas os que estudaram",
-          "B": "Explicativa — acrescenta informação sobre o candidato já identificado, sem restringir",
-          "C": "Aposto explicativo do sujeito 'o candidato'",
-          "D": "Adjunto adverbial de causa deslocado para depois do sujeito",
-          "E": "Oração coordenada sindética aditiva introduzida por 'que'"
+          "A": "Pronome demonstrativo; sujeito de 'tranquilizou'.",
+          "B": "Adjunto adnominal de 'comunicado'.",
+          "C": "Pronome demonstrativo; adjunto adnominal de 'comunicado'.",
+          "D": "Artigo definido; adjunto adnominal.",
+          "E": "Numeral; sujeito simples."
         },
-        "gabarito": "B",
-        "explicacao": "A vírgula que isola a oração relativa indica oração subordinada adjetiva explicativa (B): não restringe o universo de referência de 'o candidato', mas acrescenta informação acessória. Se fosse restritiva, não haveria vírgulas e indicaria que apenas os candidatos que estudaram sentiram-se seguros (subconjunto). (A) restritiva não leva vírgula. (C) aposto é um termo nominal, não uma oração. (D) seria marcada como oração adverbial causal se introduzida por 'porque/pois'. (E) oração coordenada não se insere entre vírgulas dentro do sujeito."
+        "gabarito": "C",
+        "explicacao": "'Aquele' é pronome demonstrativo — indica algo já mencionado no contexto (o comunicado do parágrafo anterior). Em termos sintáticos, exerce a função de adjunto adnominal do substantivo 'comunicado', determinando-o. A alternativa B está correta quanto à função mas omite a classe gramatical, tornando-a incompleta. A alternativa D está errada: 'aquele' não é artigo — artigos são 'o', 'a', 'um', 'uma'."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + gram-03",
-        "enunciado": "Em 'O oficial referiu-se à competência dos recrutas', o emprego do acento grave em 'à' indica:",
+        "topico_referencia": "gram-03",
+        "textoBase": "O tenente foi à base naval às oito horas da manhã. Ele precisava entregar o relatório à secretaria do comando.",
+        "enunciado": "Assinale a alternativa que justifica corretamente o uso da crase nos dois casos destacados no texto.",
         "alternativas": {
-          "A": "Uso de crase facultativa antes de nome feminino comum",
-          "B": "Contração obrigatória da preposição 'a' (exigida pela regência do verbo 'referir-se a') com o artigo definido feminino 'a' que antecede 'competência'",
-          "C": "Próclise em que 'à' é pronome relativo anteposto ao verbo",
-          "D": "Fusão da preposição 'a' com o pronome demonstrativo 'a', equivalente a 'aquela competência'",
-          "E": "Uso facultativo, pois 'referir-se' admite complemento sem preposição"
+          "A": "'à base naval': preposição 'a' + artigo 'a'; 'às oito horas': preposição 'a' + artigo 'as' (plural).",
+          "B": "'à base naval': índice de crase obrigatório antes de pronome feminino; 'às oito horas': plural de artigo.",
+          "C": "'à base naval': fusão de duas vogais iguais; 'às oito horas': sinal diacrítico sem preposição.",
+          "D": "'à base naval': crase facultativa antes de substantivo feminino; 'às oito horas': preposição + pronome.",
+          "E": "Ambos os casos são crases facultativas, podendo ser suprimidas sem erro."
         },
-        "gabarito": "B",
-        "explicacao": "O verbo 'referir-se' é transitivo indireto e rege a preposição 'a': 'referiu-se a quê? à competência dos recrutas'. Ocorre crase obrigatória porque a preposição 'a' (exigida pela regência) se encontra com o artigo definido feminino 'a' que determina 'competência' (B). (A) não é facultativa — a crase é obrigatória porque o verbo exige preposição 'a' e o substantivo admite artigo definido feminino. (C) 'à' não é pronome relativo. (D) não há demonstrativo envolvido. (E) 'referir-se' não admite supressão da preposição."
+        "gabarito": "A",
+        "explicacao": "A alternativa A está correta. Em 'à base naval': o verbo 'ir' exige a preposição 'a' + o artigo definido 'a' que acompanha 'base' (substantivo feminino comum precedido de artigo) — fusão resulta em 'à'. Em 'às oito horas': a preposição 'a' + o artigo 'as' (plural feminino que acompanha 'horas') — fusão resulta em 'às'. Antes de indicações de horas, a crase é obrigatória quando há artigo implícito ('às oito' = 'às [horas] oito')."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + comp-07",
-        "enunciado": "Leia: 'A prova foi uma batalha para os candidatos.' A análise sintática e a identificação da figura de linguagem revelam que:",
+        "topico_referencia": "gram-02",
+        "textoBase": "O nível de prontidão operacional da esquadra foi considerado ótimo pela comissão avaliadora. Os índices alcançados superaram as expectativas do Comando Naval.",
+        "enunciado": "Assinale a alternativa que justifica corretamente a acentuação das palavras 'nível', 'ótimo' e 'índices'.",
         "alternativas": {
-          "A": "'uma batalha' é predicativo do sujeito em predicado nominal, e a comparação implícita com algo difícil configura uma metáfora",
-          "B": "'uma batalha' é objeto direto do verbo 'foi', e o uso figurado configura uma metonímia",
-          "C": "'uma batalha' é aposto explicativo e o uso figurado é uma hipérbole",
-          "D": "'uma batalha' é adjunto adverbial de modo e o uso figurado é uma comparação (símile)",
-          "E": "'uma batalha' é complemento nominal de 'prova' e o uso figurado é uma personificação"
+          "A": "São paroxítonas terminadas em vogal — recebem acento por exceção.",
+          "B": "São proparoxítonas — recebem acento circunflexo obrigatório.",
+          "C": "'Nível' e 'índices' são paroxítonas terminadas em 'el' e 'es' com ditongo; 'ótimo' é proparoxítona.",
+          "D": "São todas oxítonas — recebem acento agudo obrigatório.",
+          "E": "'Nível' é paroxítona terminada em 'el'; 'ótimo' é proparoxítona; 'índices' é paroxítona terminada em 'es'."
         },
-        "gabarito": "A",
-        "explicacao": "O verbo 'foi' é de ligação, formando predicado nominal. 'Uma batalha' é predicativo do sujeito 'a prova'. A figura de linguagem é metáfora: não há termo comparativo explícito ('como'), e 'batalha' é transferida para designar 'prova difícil' (A). (B) 'foi' como verbo de ligação não tem objeto direto. (C) aposto exigiria isolamento por vírgulas e não há substituição metafórica. (D) adjunto adverbial modifica o verbo, não o sujeito. (E) complemento nominal completa um nome com relação de processo — não é o caso aqui."
+        "gabarito": "E",
+        "explicacao": "A alternativa E está correta. 'Nível' (ní-vel) é paroxítona terminada em 'l' — acentuada porque paroxítonas terminadas em 'l' recebem acento. 'Ótimo' (ó-ti-mo) é proparoxítona — todas as proparoxítonas são acentuadas, sem exceção. 'Índices' (ín-di-ces) é paroxítona terminada em 'es' — mas o acento se deve ao fato de ser paroxítona com 'i' tônico antes de ditongo ('í-di-ces'), configurando hiato. A alternativa C está equivocada ao mencionar 'ditongo' em 'índices' — o que há é hiato ('ín-di-ces')."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + gram-10",
-        "enunciado": "Analise: 'Estudei muito, porém não obtive a nota mínima.' A conjunção 'porém' coordena duas orações e o segundo período tem como sujeito:",
+        "topico_referencia": "gram-01",
+        "textoBase": "O suboficial apresentou proposta antiaérea para a defesa do território. A medida anti-higiênica identificada durante a inspeção foi imediatamente corrigida.",
+        "enunciado": "Assinale a alternativa que justifica corretamente a grafia de 'antiaérea' (sem hífen) e 'anti-higiênica' (com hífen).",
         "alternativas": {
-          "A": "Sujeito oculto (eu), identificado pela desinência verbal de 'obtive'",
-          "B": "Sujeito simples 'a nota mínima', posposto ao verbo",
-          "C": "Sujeito indeterminado, pois o contexto não permite identificação",
-          "D": "Sujeito composto 'eu' e 'a nota mínima'",
-          "E": "Oração sem sujeito, pois 'obtive' é verbo de processo"
+          "A": "Ambas deveriam ter hífen; 'antiaérea' sem hífen é erro ortográfico.",
+          "B": "'Antiaérea': prefixo ANTI- termina em I, palavra começa com A — vogais diferentes, sem hífen. 'Anti-higiênica': palavra começa com H — hífen obrigatório.",
+          "C": "'Antiaérea': a palavra começa com vogal tônica, dispensando o hífen. 'Anti-higiênica': o H é mudo, portanto exige hífen por convenção.",
+          "D": "'Antiaérea': prefixo termina em vogal, palavra começa com consoante — sem hífen. 'Anti-higiênica': prefixo termina em consoante — com hífen.",
+          "E": "Ambas as grafias seguem a mesma regra: prefixo terminado em vogal antes de palavra com acento gráfico exige hífen."
         },
-        "gabarito": "A",
-        "explicacao": "A desinência verbal '-i' em 'obtive' é de primeira pessoa do singular, identificando o sujeito oculto (elíptico) 'eu' (A). A conjunção 'porém' é coordenativa adversativa — coordena duas orações independentes. (B) 'a nota mínima' é objeto direto de 'obtive'. (C) sujeito indeterminado não é identificável pela morfologia verbal — aqui é perfeitamente identificável como 'eu'. (D) sujeito composto teria dois núcleos. (E) 'obter' é verbo transitivo com sujeito."
+        "gabarito": "B",
+        "explicacao": "A alternativa B está correta. A regra do hífen com prefixos considera a última letra do prefixo e a primeira da palavra. ANTI- termina em 'i'. Em 'antiaérea': 'i' do prefixo ≠ 'a' da palavra — vogais diferentes, sem hífen. Em 'anti-higiênica': a palavra começa com 'H' — independentemente das vogais, palavra iniciada com H sempre recebe hífen após prefixo. A alternativa C está errada: a regra não menciona 'vogal tônica' — o critério é a igualdade de vogais ou a presença de H."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + comp-11",
-        "enunciado": "Leia o parágrafo: 'A seleção foi rigorosa. Os candidatos aprovados demonstraram excelente preparo. Eles serão incorporados ao corpo de oficiais.' A coesão do texto depende de que os pronomes estejam corretamente analisados como:",
+        "topico_referencia": "gram-06",
+        "textoBase": "Os contra-almirantes reuniram-se na sede do Comando para discutir os planos operacionais. As guardas-marinhas foram convocadas para a cerimônia.",
+        "enunciado": "Quanto à flexão de número das palavras compostas 'contra-almirantes' e 'guardas-marinhas', assinale a alternativa correta.",
         "alternativas": {
-          "A": "'Os candidatos aprovados' = sujeito da 2.ª frase; 'Eles' = sujeito da 3.ª frase, referindo-se anaforicamente a 'os candidatos aprovados'",
-          "B": "'Os candidatos aprovados' = objeto indireto da 2.ª frase; 'Eles' = sujeito indeterminado da 3.ª",
-          "C": "'Os candidatos aprovados' = aposto explicativo de 'A seleção'; 'Eles' = vocativo da 3.ª frase",
-          "D": "'Os candidatos aprovados' = predicativo do sujeito 'a seleção'; 'Eles' = sujeito de 'serão incorporados' com referência catafórica",
-          "E": "'Os candidatos aprovados' = sujeito composto com 'a seleção'; 'Eles' = sujeito elíptico sem referente explícito"
+          "A": "Ambas flexionam apenas o segundo elemento.",
+          "B": "'Contra-almirantes' flexiona apenas o primeiro; 'guardas-marinhas' flexiona apenas o segundo.",
+          "C": "Ambas flexionam apenas o primeiro elemento.",
+          "D": "'Contra-almirantes' flexiona ambos os elementos; 'guardas-marinhas' flexiona apenas o primeiro.",
+          "E": "Ambas flexionam os dois elementos."
         },
-        "gabarito": "A",
-        "explicacao": "Na segunda frase, 'Os candidatos aprovados' é sujeito simples do verbo 'demonstraram'. Na terceira, 'Eles' é pronome pessoal sujeito que retoma anaforicamente (coesão referencial anafórica) 'os candidatos aprovados' (A). Essa relação coesiva é fundamental para a coerência textual. (B) sujeito, não objeto indireto. (C) aposto explicaria 'a seleção', não seria o sujeito. (D) predicativo exigiria verbo de ligação. (E) sujeito composto exigiria ligação entre os dois termos."
+        "gabarito": "E",
+        "explicacao": "A alternativa E está correta. Palavras compostas formadas por dois substantivos (ou substantivo + adjetivo) em que os elementos conservam sua força semântica individual geralmente flexionam ambos os elementos. 'Contra-almirante' é composto de dois substantivos (ambos com sentido próprio) — pluraliza os dois: 'contra-almirantes'. 'Guarda-marinha' também é formado por dois substantivos com sentido próprio — pluraliza os dois: 'guardas-marinhas'. A alternativa B está errada quanto à segunda palavra."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + gram-05",
-        "enunciado": "Em 'O estudo diário é o único caminho para o sucesso', identifique a função sintática e a classe gramatical de 'único':",
+        "topico_referencia": "gram-04",
+        "textoBase": "A incorporação dos novos recrutas ocorreu sem intercorrências. O recrutamento anual foi concluído dentro do prazo estabelecido.",
+        "enunciado": "As palavras 'incorporação' e 'recrutamento' são formadas, respectivamente, por:",
         "alternativas": {
-          "A": "Adjunto adnominal do núcleo 'caminho'; classe: adjetivo",
-          "B": "Predicativo do sujeito 'o estudo diário'; classe: adjetivo",
-          "C": "Adjunto adverbial de modo do verbo 'é'; classe: advérbio",
-          "D": "Complemento nominal de 'caminho'; classe: numeral",
-          "E": "Núcleo do predicado nominal; classe: substantivo"
+          "A": "Derivação prefixal; derivação sufixal.",
+          "B": "Derivação parassintética; derivação sufixal.",
+          "C": "Composição por justaposição; derivação prefixal.",
+          "D": "Derivação sufixal; composição por aglutinação.",
+          "E": "Derivação prefixal e sufixal; derivação regressiva."
         },
-        "gabarito": "A",
-        "explicacao": "'Único' modifica o substantivo 'caminho', funcionando como adjunto adnominal (A). Sua classe gramatical é adjetivo, pois caracteriza o substantivo. O predicativo do sujeito seria todo o sintagma 'o único caminho para o sucesso', não apenas 'único'. (B) predicativo seria 'o único caminho para o sucesso', não só o adjetivo isolado. (C) 'único' não modifica o verbo. (D) complemento nominal completa o sentido de um nome por meio de preposição. (E) núcleo do predicado nominal seria o substantivo 'caminho'."
+        "gabarito": "B",
+        "explicacao": "'Incorporação' é formada por derivação parassintética: o prefixo IN- e o sufixo -AÇÃO são adicionados simultaneamente à base 'corpo' (não existe *incorpo nem *corporação no mesmo sentido). 'Recrutamento' é formado por derivação sufixal: 'recruta' + sufixo '-mento' (que indica processo ou resultado de ação). A alternativa A está errada para 'incorporação': não é apenas prefixal — os dois afixos foram acrescentados ao mesmo tempo à base."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + gram-06",
-        "enunciado": "Em 'Os documentos foram analisados pela comissão julgadora', o particípio 'analisados' apresenta flexão de gênero e número concordando com:",
+        "topico_referencia": "gram-00",
+        "textoBase": "O almirante proferiu seu discurso com voz firme e articulada. Cada fonema foi distintamente pronunciado diante dos recrutas.",
+        "enunciado": "Na palavra 'fonema', a sílaba tônica é 'ne'. Quanto à tonicidade e ao número de fonemas da palavra 'firme', assinale a alternativa correta.",
         "alternativas": {
-          "A": "O agente da passiva 'pela comissão julgadora' (feminino singular)",
-          "B": "O sujeito paciente 'os documentos' (masculino plural)",
-          "C": "O predicativo do objeto, que tem sentido neutro",
-          "D": "O verbo auxiliar 'foram', que determina a flexão do particípio",
-          "E": "O adjunto adnominal 'julgadora', por proximidade"
+          "A": "Paroxítona; 5 fonemas (/f/, /i/, /r/, /m/, /e/).",
+          "B": "Oxítona; 4 fonemas (/f/, /i/, /r/, /m/).",
+          "C": "Paroxítona; 4 fonemas (/f/, /i/, /R/, /m/).",
+          "D": "Proparoxítona; 6 fonemas.",
+          "E": "Paroxítona; 5 letras e 5 fonemas."
         },
-        "gabarito": "B",
-        "explicacao": "Na voz passiva analítica, o particípio concorda em gênero e número com o sujeito paciente (B): 'os documentos' é masculino plural, portanto 'analisados' está no masculino plural. (A) o agente da passiva não determina a concordância do particípio — 'comissão' é feminino singular, o que descartaria 'analisados'. (C) o particípio não concorda com predicativo — é o predicativo. (D) o verbo auxiliar não determina a flexão de gênero. (E) proximidade não é critério de concordância do particípio passivo."
+        "gabarito": "A",
+        "explicacao": "'Firme' é paroxítona — a sílaba tônica é 'fir' (fír-me). Quanto aos fonemas: /f/ + /i/ + /r/ + /m/ + /e/ = 5 fonemas. O 'e' final é pronunciado (diferente de palavras como 'grande' em algumas variedades), e o 'r' intervocálico é o tepe /r/. A alternativa C apresenta apenas 4 fonemas, omitindo o /e/ final — erro, pois o 'e' átono final é uma vogal realizada foneticamente em português brasileiro padrão. A alternativa E confunde letras com fonemas: 'firme' tem 5 letras e 5 fonemas — a afirmação em si é verdadeira, mas não informa a tonicidade."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + gram-04",
-        "enunciado": "Em 'A insubordinação do oficial causou problemas sérios', o substantivo 'insubordinação' é formado por:",
+        "topico_referencia": "gram-09",
+        "textoBase": "Restou ao comandante uma única alternativa: reorganizar o efetivo imediatamente.",
+        "enunciado": "Na frase acima, 'reorganizar o efetivo imediatamente' exerce a função de:",
         "alternativas": {
-          "A": "Prefixo 'in-' + radical 'subordin-' + sufixo '-ação': derivação prefixal e sufixal simultânea (parassíntese)",
-          "B": "Composição por justaposição de 'in' e 'subordinação'",
-          "C": "Derivação sufixal de 'insubordinar', com sufixo '-ação' indicando substantivo de ação",
-          "D": "Derivação regressiva do verbo 'insubordinar-se'",
-          "E": "Composição por aglutinação de 'insub' e 'ordinação'"
+          "A": "Objeto direto de 'Restou'.",
+          "B": "Aposto de 'uma única alternativa'.",
+          "C": "Sujeito de 'Restou', posposto ao verbo.",
+          "D": "Predicativo do sujeito 'uma única alternativa'.",
+          "E": "Adjunto adverbial de finalidade."
         },
-        "gabarito": "C",
-        "explicacao": "'Insubordinação' deriva do verbo 'insubordinar' (ou 'insubordinar-se') pelo acréscimo do sufixo nominalizador '-ação', que forma substantivos de ação ou processo a partir de verbos. É derivação sufixal (C). (A) parassíntese ocorre quando prefixo e sufixo são acrescentados simultaneamente e nenhum dos dois isoladamente forma palavra existente — não é o caso, pois 'subordinação' já existe. (B) composição por justaposição uniria dois vocábulos completos com hífen ou sem. (D) derivação regressiva forma verbo a partir de substantivo, não o contrário. (E) não há aglutinação — os elementos são distintos morfologicamente."
+        "gabarito": "B",
+        "explicacao": "'Reorganizar o efetivo imediatamente' é aposto de 'uma única alternativa' — ele explica, retoma e especifica qual era essa alternativa. O aposto vem separado por dois-pontos nesse caso, que é uma das formas de introduzi-lo. O sujeito de 'Restou' é 'uma única alternativa' (o que restou?). A alternativa C está errada: 'uma única alternativa' é o sujeito, não a oração infinitiva."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + comp-02",
-        "enunciado": "Leia: 'O comandante não informou os motivos da transferência.' Com base na análise sintática e nas informações explícitas e implícitas do texto, é correto afirmar que:",
+        "topico_referencia": "gram-09",
+        "textoBase": "O orgulho do tenente pelo desempenho da tropa era visível a todos os presentes na cerimônia.",
+        "enunciado": "Na frase acima, identifique corretamente as funções de 'pelo desempenho da tropa' e 'a todos os presentes na cerimônia'.",
         "alternativas": {
-          "A": "O objeto direto 'os motivos da transferência' torna explícito que houve uma transferência; o sujeito 'o comandante' implica que a decisão era dele",
-          "B": "O objeto direto 'os motivos' é informação implícita, pois não está literalmente dito que existem motivos",
-          "C": "A transferência é informação implícita, pois o texto não afirma diretamente que ela ocorreu — apenas que não foram informados os motivos",
-          "D": "O verbo 'não informou' torna tudo implícito — nenhuma informação é explícita na frase",
-          "E": "O sujeito 'o comandante' é informação implícita que requer inferência do leitor"
+          "A": "Ambos são complementos nominais.",
+          "B": "Complemento nominal de 'orgulho' e adjunto adverbial de modo.",
+          "C": "Complemento nominal de 'orgulho' e complemento nominal de 'visível'.",
+          "D": "Adjunto adnominal de 'orgulho' e objeto indireto de 'era'.",
+          "E": "Objeto indireto de 'era' e adjunto adverbial de finalidade."
         },
         "gabarito": "C",
-        "explicacao": "A transferência é informação implícita (C): a frase afirma explicitamente que o comandante não informou os motivos, mas não afirma diretamente que houve uma transferência — isso é uma pressuposição (informação implícita). O objeto direto explícito é 'os motivos da transferência'. (A) parcialmente correto na análise sintática, mas afirma que a transferência é explícita — erro. (B) 'os motivos' está explicitado como objeto direto. (D) a negação não torna tudo implícito — o sujeito e o objeto são explícitos. (E) o sujeito 'o comandante' está explícito na frase."
+        "explicacao": "'Pelo desempenho da tropa' é complemento nominal de 'orgulho' — derivado de 'orgulhar-se por', exige preposição 'por'. 'A todos os presentes na cerimônia' é complemento nominal de 'visível' — o adjetivo 'visível' exige a preposição 'a' para completar seu sentido ('visível a quem?'). Ambos completam nomes que exigem complementação, distinguindo-os dos adjuntos adnominais (que são facultativos)."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + comp-06",
-        "enunciado": "Analise: 'O militar que vence o concurso ingressa na Marinha; o que não obtém êxito pode retentar.' As palavras 'vence' e 'obtém êxito' apresentam entre si relação de:",
+        "topico_referencia": "gram-08",
+        "textoBase": "Quando o navio atracou, a tripulação desembarcou rapidamente. Os familiares que esperavam no cais emocionaram-se.",
+        "enunciado": "Quanto à classificação dos períodos acima, assinale a alternativa correta.",
         "alternativas": {
-          "A": "Antonímia — têm sentidos opostos no contexto",
-          "B": "Polissemia — são o mesmo vocábulo com sentidos diferentes",
-          "C": "Sinonímia — expressam o mesmo sentido de 'ser bem-sucedido' no contexto",
-          "D": "Hiponímia — 'êxito' é hiperônimo de 'vencer'",
-          "E": "Paronímia — são palavras de grafia parecida e sentido distinto"
+          "A": "Ambos são períodos simples com predicados verbais.",
+          "B": "O primeiro é composto por subordinação; o segundo é composto por coordenação.",
+          "C": "Ambos são períodos compostos por subordinação.",
+          "D": "O primeiro é composto por subordinação (oração adverbial temporal); o segundo é composto por subordinação (oração adjetiva restritiva).",
+          "E": "O primeiro é período simples; o segundo é composto por justaposição."
         },
-        "gabarito": "C",
-        "explicacao": "No contexto do período, 'vence o concurso' e 'obtém êxito' são expressões de sentido equivalente — sinonímia contextual (C): ambas indicam sucesso na seleção. (A) anônimos teriam sentidos opostos — aqui são equivalentes. (B) polissemia é fenômeno de um mesmo vocábulo com sentidos múltiplos. (D) hiponímia/hiperonímia envolve relação de inclusão semântica — 'êxito' não inclui 'vencer'. (E) paronímia envolve semelhança formal (grafia/pronúncia) entre palavras diferentes — não é o caso."
+        "gabarito": "D",
+        "explicacao": "A alternativa D está correta. Primeiro período: 'Quando o navio atracou' é oração subordinada adverbial temporal; 'a tripulação desembarcou rapidamente' é a oração principal — período composto por subordinação. Segundo período: 'Os familiares emocionaram-se' é a oração principal; 'que esperavam no cais' é oração subordinada adjetiva restritiva (sem vírgula, restringe 'familiares') — período composto por subordinação. A alternativa B está errada: o segundo período não tem coordenação."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + gram-08",
-        "enunciado": "Em 'Que todos passem no concurso!', a oração apresenta:",
+        "topico_referencia": "gram-05",
+        "textoBase": "Cada oficial deve cumprir rigorosamente suas atribuições. Ninguém está isento de responsabilidade perante o Regulamento Disciplinar.",
+        "enunciado": "As palavras 'Cada', 'rigorosamente' e 'Ninguém' pertencem, respectivamente, às seguintes classes gramaticais:",
         "alternativas": {
-          "A": "Período composto por subordinação; sujeito: 'todos'; predicado: 'passem no concurso'; oração principal ausente",
-          "B": "Oração absoluta optativa; sujeito: 'todos'; predicado verbal: 'passem no concurso'",
-          "C": "Frase nominal, pois não há verbo principal com sentido pleno",
-          "D": "Período simples com sujeito indeterminado e predicado verbo-nominal",
-          "E": "Oração subordinada substantiva subjetiva sem oração principal expressa"
+          "A": "Numeral; adjetivo; pronome substantivo.",
+          "B": "Pronome indefinido; advérbio; pronome indefinido.",
+          "C": "Artigo indefinido; adjetivo; pronome demonstrativo.",
+          "D": "Pronome indefinido; adjetivo; substantivo comum.",
+          "E": "Numeral; advérbio; pronome relativo."
         },
         "gabarito": "B",
-        "explicacao": "'Que todos passem no concurso!' é uma oração absoluta optativa: expressa um desejo, tem verbo ('passem' no subjuntivo), sujeito ('todos') e predicado verbal ('passem no concurso'). O 'que' inicial é expletivo/introdutor de oração desiderativa, não conjunção subordinativa — não há oração principal expressa no período (B). (A) período composto exigiria duas orações independentes ou uma principal + subordinada. (C) há verbo 'passem'. (D) sujeito é 'todos', identificado; e o predicado é verbal, não verbo-nominal. (E) oração substantiva subjetiva exigiria oração principal com verbo que reclama sujeito oracional."
+        "explicacao": "'Cada' é pronome indefinido — indica uma distribuição individual sem especificar quantidade precisa. 'Rigorosamente' é advérbio de modo — modifica o verbo 'cumprir', indicando como deve ser cumprido. 'Ninguém' é pronome indefinido substantivo — substitui um nome, referindo-se a pessoa alguma. A alternativa A está errada: 'Cada' não é numeral (numerais indicam quantidade precisa ou ordem); 'rigorosamente' não é adjetivo (não qualifica substantivo)."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "gram-09 + gram-01",
-        "enunciado": "Em 'Aquela análise foi impecável: nenhum erro sintático, nenhuma impropriedade lexical.', as palavras 'impecável' e 'sintático' estão grafadas corretamente. Com base nisso e na análise sintática do segmento após os dois-pontos, é correto afirmar que:",
+        "topico_referencia": "gram-09",
+        "textoBase": "Parece que o efetivo disponível para a operação é insuficiente. Conviria ao Comando reavaliar o planejamento antes do início das atividades.",
+        "enunciado": "Na segunda frase, identifique o sujeito do verbo 'Conviria' e a função de 'ao Comando'.",
         "alternativas": {
-          "A": "'Nenhum erro sintático, nenhuma impropriedade lexical' forma um período com sujeito composto e verbo elíptico 'havia'",
-          "B": "'Nenhum erro sintático, nenhuma impropriedade lexical' é aposto enumerativo de 'análise', detalhando o que a tornava impecável",
-          "C": "'Nenhum erro sintático' é oração subordinada adjetiva explicativa de 'análise'",
-          "D": "'Nenhum erro sintático, nenhuma impropriedade lexical' é objeto direto de 'foi'",
-          "E": "'Sintático' deveria ser grafado 'sintáxico' por derivar do grego 'syntaxis'"
+          "A": "Sujeito: 'ao Comando'; função: sujeito indireto.",
+          "B": "Sujeito: oração infinitiva 'reavaliar o planejamento antes do início das atividades'; 'ao Comando': objeto indireto.",
+          "C": "Sujeito indeterminado; 'ao Comando': adjunto adverbial de lugar.",
+          "D": "Oração sem sujeito; 'ao Comando': vocativo.",
+          "E": "Sujeito: 'o planejamento'; 'ao Comando': complemento nominal."
         },
         "gabarito": "B",
-        "explicacao": "Após os dois-pontos, 'nenhum erro sintático, nenhuma impropriedade lexical' é aposto enumerativo/explicativo de 'análise' (ou de 'impecável') — detalha em que consiste a impecabilidade da análise. É uma construção nominal sem verbo explícito, típica de aposto elíptico (B). (A) haveria uma oração com verbo elíptico ('havia'), mas sintaticamente a função é de aposto, não de oração independente coordenada. (C) oração adjetiva explicativa teria verbo e seria introduzida por pronome relativo. (D) 'foi' é verbo de ligação — não tem objeto direto. (E) 'sintático' está correta: deriva de 'sintaxe', com sufixo '-ico' — a grafia 'sintáxico' seria incorreta."
+        "explicacao": "O verbo 'convir' no sentido de 'ser conveniente, ser adequado' admite sujeito oracional. A oração infinitiva 'reavaliar o planejamento antes do início das atividades' é o sujeito de 'Conviria' (o que conviria?). 'Ao Comando' é objeto indireto (conviria a quem?). O verbo fica no singular (conviria) porque o sujeito é oracional. A alternativa A está errada: termos com preposição 'a' não podem ser sujeito. A alternativa C está errada: sujeito indeterminado ocorre quando o agente é desconhecido, não quando há sujeito oracional identificável."
       }
     ]
-  }
+  },
+  "simulado": [
+    {
+      "id": "s01",
+      "nivel": "avancado",
+      "textoBase": "Ao Chefe do Estado-Maior da Armada incumbe coordenar as atividades operacionais e administrativas da Marinha. Os oficiais subordinados a ele comprometem-se a respeitar as diretrizes emanadas do Comando Superior. Consta do boletim interno que procedimentos irregulares foram detectados durante a última inspeção.",
+      "enunciado": "Assinale a alternativa que analisa corretamente as funções sintáticas dos termos grifados no texto: 'Ao Chefe do Estado-Maior da Armada', 'As atividades operacionais e administrativas', 'que procedimentos irregulares foram detectados durante a última inspeção'.",
+      "alternativas": {
+        "A": "Sujeito; objeto direto; objeto direto de 'consta'.",
+        "B": "Objeto indireto; objeto direto; sujeito oracional de 'consta'.",
+        "C": "Objeto indireto; sujeito; complemento nominal de 'boletim'.",
+        "D": "Adjunto adverbial de finalidade; objeto direto; adjunto adverbial de causa.",
+        "E": "Sujeito composto; predicativo do sujeito; objeto indireto de 'consta'."
+      },
+      "gabarito": "B",
+      "explicacao": "A alternativa B está correta. 'Incumbir' no sentido de 'caber a alguém' é impessoal; 'Ao Chefe do Estado-Maior da Armada' é objeto indireto (incumbe a quem?). 'As atividades operacionais e administrativas' é objeto direto de 'coordenar' (coordenar o quê?). A oração 'que procedimentos irregulares foram detectados durante a última inspeção' é sujeito oracional de 'Consta' — o que consta? — ficando o verbo no singular. A alternativa A está errada: termos com preposição obrigatória não podem ser sujeito. A alternativa C está errada: 'As atividades' é OD, não sujeito de 'incumbe' (que é impessoal)."
+    },
+    {
+      "id": "s02",
+      "nivel": "avancado",
+      "textoBase": "O contra-almirante, comandante do 3° Distrito Naval, retornou confiante após a reunião com os representantes do Ministério da Defesa. A confiança dos oficiais no sucesso da negociação era evidente.",
+      "enunciado": "Com base no texto, assinale a alternativa que analisa corretamente as funções dos termos 'comandante do 3° Distrito Naval', 'confiante' e 'no sucesso da negociação'.",
+      "alternativas": {
+        "A": "Aposto explicativo; predicativo do sujeito; complemento nominal de 'confiança'.",
+        "B": "Adjunto adnominal; adjunto adverbial de modo; objeto indireto de 'era'.",
+        "C": "Aposto especificativo; objeto direto; adjunto adnominal de 'oficiais'.",
+        "D": "Predicativo do sujeito; predicativo do sujeito; adjunto adverbial de causa.",
+        "E": "Aposto explicativo; adjunto adnominal de 'contra-almirante'; complemento nominal de 'era'."
+      },
+      "gabarito": "A",
+      "explicacao": "A alternativa A está correta em todas as três identificações. 'Comandante do 3° Distrito Naval' é aposto explicativo de 'O contra-almirante' — entre vírgulas, esclarece quem é o sujeito. 'Confiante' é predicativo do sujeito no predicado verbo-nominal: 'retornou' é verbo de ação e 'confiante' atribui estado ao sujeito. 'No sucesso da negociação' é complemento nominal de 'confiança' — derivado de 'confiar em', exige a preposição 'em' para ter sentido pleno. A alternativa B está errada: 'confiante' não é adjunto adverbial de modo, pois não indica como o contra-almirante retornou, mas como estava ao retornar."
+    },
+    {
+      "id": "s03",
+      "nivel": "avancado",
+      "textoBase": "Disseram que a operação seria cancelada por falta de recursos. Importava aos oficiais saber exatamente quais procedimentos deveriam ser adotados. Nomeou-se um grupo-tarefa para resolver a situação.",
+      "enunciado": "Assinale a alternativa que analisa corretamente o sujeito das três orações em destaque: 'Disseram', 'Importava' e 'Nomeou-se'.",
+      "alternativas": {
+        "A": "Sujeito indeterminado; sujeito indeterminado; voz passiva com sujeito paciente 'um grupo-tarefa'.",
+        "B": "Sujeito oculto 'eles'; oração sem sujeito; sujeito indeterminado.",
+        "C": "Sujeito indeterminado; sujeito oracional 'saber exatamente quais procedimentos...'; voz passiva com sujeito paciente 'um grupo-tarefa'.",
+        "D": "Oração sem sujeito; sujeito indeterminado; sujeito composto.",
+        "E": "Sujeito indeterminado; sujeito oracional; sujeito indeterminado com 'se' apassivador."
+      },
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. 'Disseram': verbo na 3ª pessoa do plural sem referente identificável — sujeito indeterminado. 'Importava': o verbo 'importar' aqui tem como sujeito a oração infinitiva 'saber exatamente quais procedimentos deveriam ser adotados' (o que importava?). 'Nomeou-se um grupo-tarefa': o 'se' é apassivador (o verbo é transitivo direto), portanto é voz passiva sintética; 'um grupo-tarefa' é o sujeito paciente. A alternativa E está errada ao classificar 'Nomeou-se' com sujeito indeterminado — quando 'se' é apassivador (verbo transitivo direto), temos voz passiva e há sujeito paciente."
+    },
+    {
+      "id": "s04",
+      "nivel": "avancado",
+      "textoBase": "O tenente-coronel determinou ao sargento que os recrutas fossem encaminhados ao setor médico. A necessidade de exames periódicos para a manutenção da capacidade operacional dos efetivos justifica o procedimento.",
+      "enunciado": "Na segunda frase do texto, identifique as funções de 'de exames periódicos', 'para a manutenção da capacidade operacional dos efetivos' e 'o procedimento'.",
+      "alternativas": {
+        "A": "Adjunto adnominal de 'necessidade'; adjunto adverbial de finalidade; objeto direto de 'justifica'.",
+        "B": "Complemento nominal de 'necessidade'; adjunto adverbial de finalidade; objeto direto de 'justifica'.",
+        "C": "Complemento nominal de 'necessidade'; complemento nominal de 'manutenção'; predicativo do sujeito.",
+        "D": "Objeto indireto de 'necessidade'; adjunto adverbial de finalidade; objeto indireto de 'justifica'.",
+        "E": "Adjunto adnominal de 'necessidade'; complemento nominal de 'manutenção'; objeto direto de 'justifica'."
+      },
+      "gabarito": "B",
+      "explicacao": "A alternativa B está correta. 'De exames periódicos' é complemento nominal de 'necessidade' — que deriva de 'necessitar de', exigindo a preposição 'de'. 'Para a manutenção da capacidade operacional dos efetivos' é adjunto adverbial de finalidade — indica para que serve a necessidade, sendo uma circunstância que pode ser retirada. 'O procedimento' é objeto direto de 'justifica' — completa o verbo transitivo direto sem preposição. A alternativa E está parcialmente errada: 'de exames periódicos' é complemento nominal (exigido), não adjunto adnominal (facultativo). A alternativa C está errada ao identificar 'o procedimento' como predicativo."
+    },
+    {
+      "id": "s05",
+      "nivel": "avancado",
+      "textoBase": "Urge que o Comando Naval adote medidas eficazes para conter o avanço do problema. Cabe aos gestores responsáveis elaborar um plano de ação detalhado. Convém ressaltar que tais medidas deverão ser implementadas ainda este exercício.",
+      "enunciado": "Os verbos 'Urge', 'Cabe' e 'Convém', no texto, são utilizados de forma impessoal. Assinale a alternativa que identifica corretamente o sujeito de cada uma das três orações.",
+      "alternativas": {
+        "A": "Oração sem sujeito; 'aos gestores responsáveis'; oração sem sujeito.",
+        "B": "Sujeito oracional ('que o Comando Naval adote...'); objeto indireto 'aos gestores'; sujeito oracional ('que tais medidas...').",
+        "C": "Sujeito indeterminado; sujeito indeterminado; sujeito indeterminado.",
+        "D": "Sujeito oracional ('que o Comando Naval adote...'); sujeito oracional ('elaborar um plano...'); sujeito oracional ('que tais medidas...').",
+        "E": "Oração sem sujeito; sujeito oracional ('elaborar um plano...'); sujeito indeterminado."
+      },
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta. 'Urge que o Comando Naval adote medidas eficazes...' — a oração 'que o Comando...' é o sujeito oracional de 'urge' (o que urge?). 'Cabe aos gestores responsáveis elaborar um plano de ação detalhado' — 'elaborar um plano de ação detalhado' é o sujeito oracional de 'cabe' (o que cabe?); 'aos gestores' é objeto indireto. 'Convém ressaltar que tais medidas...' — a oração 'que tais medidas deverão ser implementadas...' é o sujeito oracional de 'convém'. A alternativa A está errada: os verbos 'urgir', 'caber' e 'convir' admitem sujeito oracional, portanto não são impessoais absolutos. A alternativa B está errada ao classificar 'aos gestores' como sujeito, já que o termo tem preposição 'a'."
+    }
+  ]
 }

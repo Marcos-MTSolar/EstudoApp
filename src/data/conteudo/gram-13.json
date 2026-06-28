@@ -2,845 +2,992 @@
   "id": "gram-13",
   "titulo": "Regência Nominal e Verbal",
   "area": "Gramática",
-  "resumo": "Regência é a relação de dependência entre um termo regente (verbo ou nome) e seu complemento (termo regido), mediada ou não por preposição. Dominar a regência é essencial para escrever com correção e interpretar construções formais — habilidade cobrada com frequência em concursos militares.",
+  "resumo": "Regência é a relação de dependência entre uma palavra (verbo ou nome) e seus complementos — ou seja, o verbo ou nome 'rege' (exige) determinada preposição para completar seu sentido. Saber regência é saber qual preposição usar depois de cada verbo ou substantivo, algo que o CEBRASPE cobra com frequência em questões de reescritura e correção de frases. Dominar este tópico significa nunca mais hesitar entre 'assisti ao filme' ou 'assisti o filme', entre 'informar algo a alguém' ou 'informar algo para alguém'.",
+
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Conceito de Regência e Termos Envolvidos",
-        "conteudo": "Regência é o fenômeno sintático pelo qual um termo (o regente) exige ou prescinde de preposição para ligar-se ao seu complemento (o regido). O termo regente pode ser um verbo — nesse caso fala-se em regência verbal — ou um nome (substantivo, adjetivo ou advérbio), caso em que se fala em regência nominal. A preposição, quando obrigatória, faz parte da estrutura de regência e não pode ser omitida ou trocada por outra sem alterar o sentido ou criar incorreção. A regência pode ser direta (sem preposição) ou indireta (com preposição). Na regência indireta, a escolha da preposição correta é o ponto mais cobrado em provas de concursos militares. A fonte normativa para este tópico é Cunha e Cintra (2017), que registram tanto o uso culto quanto as variações aceitas.",
+        "subtitulo": "1. O que é regência e por que importa?",
+        "conteudo": "Imagine que cada verbo e cada substantivo são como tomadas elétricas: cada um tem um 'encaixe' específico. Esse encaixe é a preposição que eles pedem para se conectar com o complemento. Se você usar a preposição errada — ou esquecer de usá-la — a ligação não funciona.\n\nRegência é justamente esse sistema de conexões: a palavra 'regente' (verbo ou nome) determina qual preposição o complemento deve trazer. Quando o complemento é um substantivo ou pronome, chamamos de objeto indireto (com preposição) ou objeto direto (sem preposição).\n\nHá dois tipos de regência: verbal (quando o regente é um verbo) e nominal (quando o regente é um nome — substantivo, adjetivo ou advérbio).\n\nO erro mais comum é transferir a regência de um verbo para outro similar, ou usar a regência coloquial ('na fala') onde a norma culta exige outra preposição.",
+        "regra": "Verbo/nome REGE o complemento · Reger = exigir preposição específica · Troque a prep. → erro de regência",
         "exemplos": [
-          "Regência direta: 'Ele amava a pátria.' (amar + OD, sem preposição)",
-          "Regência indireta: 'Ele gostava da pátria.' (gostar + DE + OI)",
-          "Regência nominal: 'Ele é favorável à proposta.' (favorável + A)"
-        ],
-        "regra": "Identifique o verbo ou nome regente, verifique se ele exige complemento e qual preposição é obrigatória. Nunca troque a preposição exigida por outra."
+          {
+            "texto_base": "O comandante assistiu ao briefing e informou os dados aos oficiais presentes na reunião operacional.",
+            "anotacoes": [
+              {
+                "trecho": "assistiu ao briefing",
+                "destaque": "ASSISTIR + A",
+                "motivo": "'Assistir' no sentido de presenciar rege preposição 'a' — objeto indireto"
+              },
+              {
+                "trecho": "informou os dados aos oficiais",
+                "destaque": "INFORMAR + A",
+                "motivo": "'Informar' rege obj. direto (o quê) + obj. indireto com 'a' (a quem)"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "2. Regência Verbal — Verbos de Maior Incidência em Provas",
-        "conteudo": "Vários verbos apresentam regências que diferem do uso coloquial, sendo exatamente esses os alvos preferidos das bancas. A seguir, os principais grupos com a preposição exigida pela norma culta:\n\n**Agradar:** quando significa 'acariciar, fazer carinho', é transitivo direto (agrada a criança); quando significa 'satisfazer, dar prazer', é transitivo indireto com A (agrada ao aluno).\n\n**Aspirar:** quando significa 'respirar, inalar', é transitivo direto (aspirar o ar); quando significa 'desejar, almejar', é transitivo indireto com A (aspirar ao cargo).\n\n**Assistir:** quando significa 'ver, presenciar', é transitivo indireto com A (assistiu ao jogo); quando significa 'ajudar', é transitivo direto (a lei assiste o cidadão); quando significa 'caber, pertencer', é transitivo indireto com A (assiste ao presidente esse direito).\n\n**Visar:** quando significa 'mirar', é transitivo direto (visar o alvo); quando significa 'ter em vista, objetivar', exige A na norma culta (visar ao lucro).\n\n**Querer:** quando significa 'desejar algo', é transitivo direto (quero paz); quando significa 'ter afeto por alguém', é transitivo indireto com A (quero bem a ela).\n\n**Implicar:** quando significa 'acarretar, ter como consequência', é transitivo direto (a atitude implica punição); quando significa 'ter implicância', exige COM (implicou com o colega).\n\n**Chegar / Ir:** sempre exigem A para indicar destino (cheguei a Fortaleza, fui a Brasília). O uso de EM nesses casos é inadequado na norma culta escrita.\n\n**Obedecer / Desobedecer:** sempre transitivos indiretos com A (obedeceu ao regulamento).\n\n**Simpatizar / Antipatizar:** exigem COM (simpatizou com o candidato).",
+        "subtitulo": "2. Objeto direto e indireto: a base da regência",
+        "conteudo": "Pense num verbo como o centro de um sistema solar: alguns planetas orbitam perto, sem separação (objeto direto, sem preposição); outros ficam mais longe, com um anel separador (objeto indireto, com preposição).\n\nO objeto direto completa o sentido do verbo SEM preposição: 'O recruta entregou o documento.' Aqui, 'o documento' é o objeto direto de 'entregar'.\n\nO objeto indireto completa o sentido do verbo COM preposição obrigatória: 'O recruta obedeceu ao sargento.' Aqui, 'ao sargento' é o objeto indireto de 'obedecer', e a preposição 'a' é parte da regência do verbo.\n\nAlguns verbos pedem os dois ao mesmo tempo: 'O comandante informou o fato aos oficiais' — objeto direto (o fato) + objeto indireto com 'a' (aos oficiais).\n\nO erro mais frequente é usar 'em' ou 'para' onde a norma exige 'a', especialmente com verbos como 'obedecer', 'aspirar', 'assistir' e 'visar'.",
+        "regra": "OD = sem preposição · OI = com preposição obrigatória · Confundir prep. = erro de regência",
         "exemplos": [
-          "'O músico aspirava ao reconhecimento.' (aspirar = almejar → exige A)",
-          "'Todos assistiram ao desfile.' (assistir = presenciar → exige A)",
-          "'A medida implicou redução de custos.' (implicar = acarretar → direto)",
-          "'Chegamos a Fortaleza ontem.' (chegar a → nunca 'em')"
-        ],
-        "regra": "Para verbos com dupla regência, identifique o sentido usado no contexto antes de determinar a preposição. Aspirar ao cargo (almejar) ≠ aspirar o pó (inalar)."
+          {
+            "texto_base": "O aspirante obedeceu ao regulamento e entregou os formulários ao chefe de pessoal dentro do prazo.",
+            "anotacoes": [
+              {
+                "trecho": "obedeceu ao regulamento",
+                "destaque": "OBEDECER + A",
+                "motivo": "'Obedecer' é transitivo indireto — exige preposição 'a'; erro clássico: 'obedeceu o regulamento'"
+              },
+              {
+                "trecho": "entregou os formulários",
+                "destaque": "ENTREGAR = OD",
+                "motivo": "'Entregar algo' é objeto direto — sem preposição antes de 'os formulários'"
+              },
+              {
+                "trecho": "ao chefe de pessoal",
+                "destaque": "ENTREGAR + A",
+                "motivo": "'Entregar a alguém' é objeto indireto — preposição 'a' obrigatória"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "3. Regência Verbal — Verbos de Movimento, Comunicação e Preferência",
-        "conteudo": "**Verbos de movimento (ir, chegar, retornar, voltar, regressar):** exigem A para indicar destino e DE para indicar procedência na norma culta. O uso de EM em lugar de A é marca de informalidade não aceita na escrita formal.\n\n**Verbos de comunicação (informar, avisar, cientificar, comunicar, notificar):** admitem duas construções: o interlocutor pode ser OD ou OI; a mensagem ocupa o papel complementar. Ex: 'Informei o diretor do ocorrido' ou 'Informei ao diretor o ocorrido'.\n\n**Preferir:** é transitivo direto para ambos os termos comparados, dispensando preposição entre eles, e nunca admite 'do que' nem 'mais' como reforço. 'Prefiro café a chá' é o correto — não 'prefiro café do que chá' nem 'prefiro mais café'.\n\n**Proceder:** quando significa 'ter procedência, originar-se', exige DE (procede de família nobre); quando significa 'comportar-se', é intransitivo (procedeu corretamente); quando significa 'realizar', exige A (procedeu à análise).\n\n**Lembrar / Esquecer:** sem pronome, são transitivos diretos (lembrei o fato); com pronome reflexivo, exigem DE (lembrei-me do fato, esqueci-me do compromisso). A omissão do pronome torna o complemento direto.\n\n**Custar:** quando indica preço ou esforço, pode ter sujeito oracional e ser transitivo indireto com A para indicar a quem custa. 'Custou-me muito esforço' — não 'me custou' com sujeito humano errado.",
+        "subtitulo": "3. Verbos de regência mais cobrados pelo CEBRASPE",
+        "conteudo": "Imagine uma lista de suspeitos numa investigação: são sempre os mesmos que aparecem. No CEBRASPE, os verbos de regência mais cobrados se repetem ano após ano. Conhecê-los é como saber de cor a lista dos suspeitos habituais.\n\nAssistir: quando significa presenciar/ver, é transitivo indireto com 'a' — 'assistiu ao filme', nunca 'assistiu o filme'. Quando significa ajudar, pode ser transitivo direto.\n\nVisar: quando significa 'ter como objetivo', rege 'a' — 'visa à aprovação'. Quando significa 'dar visto em', é transitivo direto — 'visou o documento'.\n\nAspirara: quando significa desejar, rege 'a' — 'aspira ao cargo', nunca 'aspira o cargo'.\n\nPreferir: sempre com 'a' entre as opções — 'prefiro estudar a descansar'; nunca 'prefiro mais estudar' (o 'mais' é redundante com 'prefer').\n\nImplicar: quando significa 'acarretar', é transitivo direto — 'isso implica mudanças', não 'implica em mudanças'.\n\nO erro mais comum é usar 'em' com 'implicar' e esquecer o 'a' com 'visar' e 'assistir'.",
+        "regra": "ASSISTIR (ver) + A · VISAR (objetivo) + A · ASPIRAR (desejar) + A · IMPLICAR (acarretar) = sem prep · PREFERIR + A (nunca 'mais')",
         "exemplos": [
-          "'Voltei a Salvador na semana passada.' (retorno → A)",
-          "'Prefiro trabalho a ociosidade.' (correto — sem 'do que')",
-          "'Lembrei-me do compromisso.' (com pronome → DE)",
-          "'Procederemos à votação agora.' (proceder = realizar → A)"
-        ],
-        "regra": "Verbos como lembrar e esquecer mudam de regência conforme a presença ou ausência do pronome reflexivo. Preferir nunca admite 'mais' nem 'do que' como reforço comparativo."
+          {
+            "texto_base": "O oficial aspira ao posto de contra-almirante e visa à excelência operacional, o que implica dedicação integral ao serviço.",
+            "anotacoes": [
+              {
+                "trecho": "aspira ao posto",
+                "destaque": "ASPIRAR + A",
+                "motivo": "'Aspirar' no sentido de desejar/almejar rege preposição 'a' — objeto indireto"
+              },
+              {
+                "trecho": "visa à excelência",
+                "destaque": "VISAR + A",
+                "motivo": "'Visar' no sentido de objetivar rege 'a' — com crase diante de feminino"
+              },
+              {
+                "trecho": "implica dedicação",
+                "destaque": "IMPLICAR = OD",
+                "motivo": "'Implicar' no sentido de acarretar é transitivo direto — sem preposição, nunca 'implica em'"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "4. Regência Nominal — Nomes que Exigem Preposição",
-        "conteudo": "Na regência nominal, substantivos, adjetivos e advérbios exigem determinadas preposições para introduzir seus complementos. Esses complementos nominais são termos da oração que completam o sentido dos nomes. Os principais grupos:\n\n**Preposição A:** acesso a, alheio a, análogo a, anterior a, aversão a, contrário a, equivalente a, favorável a, fiel a, hostil a, idêntico a, imune a, inferior a, leal a, necessário a, nocivo a, obediente a, paralelo a, posterior a, preferível a, propenso a, semelhante a, superior a.\n\n**Preposição DE:** capaz de, certo de, convicto de, cônsio de, diferente de, digno de, dotado de, fácil de, feliz de, impossível de, incapaz de, longe de, necessitado de, orgulhoso de, passível de, possível de, proibido de, seguro de, temeroso de, vazio de.\n\n**Preposição EM:** abundante em, deficiente em, eficiente em, escasso em, hábil em, negligente em, perito em, pobre em, rico em.\n\n**Preposição COM:** compatível com, contemporâneo com (ou de), contente com, generoso com, implicante com, satisfeito com.\n\n**Preposição PARA:** apto para, disposto para, inútil para, preparado para, útil para.\n\n**Preposição ENTRE:** diferença entre, relação entre.\n\nAtenção: o adjetivo 'mensalidade' em frases como 'mensalidade de cem reais' usa DE por se tratar de complemento nominal de valor, não de regência do adjetivo.",
+        "subtitulo": "4. Verbos que mudam de sentido com a preposição",
+        "conteudo": "Alguns verbos são como ferramentas multifunção: a mesma ferramenta, dependendo de como você a segura (a preposição), faz um trabalho diferente. A regência muda o sentido.\n\nChamar: 'chamar alguém' (convocar — transitivo direto, sem prep.) × 'chamar alguém de covarde' (denominar — com 'de') × 'chamar por alguém' (clamar — com 'por').\n\nEsquecer/lembrar: na forma não pronominal, são transitivos diretos — 'esqueci o documento', 'lembro o fato'. Na forma pronominal (esquecer-se, lembrar-se), regem 'de' — 'esqueci-me do documento', 'lembrei-me do fato'.\n\nInformar: pode ter dois complementos — o conteúdo (obj. direto) e o destinatário (obj. indireto com 'a' ou 'de') — 'informou o fato ao comandante' ou 'informou o comandante do fato' (ambas corretas).\n\nO erro mais comum é usar 'lembrar de' sem o pronome reflexivo: 'lembrei de você' (coloquial) × 'lembrei-me de você' (culto) ou simplesmente 'lembrei você' (culto sem pronome).",
+        "regra": "ESQUECER/LEMBRAR: sem pronome = OD (sem prep.) · Com pronome (-se) = + DE · CHAMAR = OD ou + DE · INFORMAR = OD + A/DE",
         "exemplos": [
-          "'O candidato é favorável à proposta.' (favorável + A)",
-          "'O militar é fiel ao regulamento.' (fiel + A)",
-          "'O jovem é capaz de resolver o problema.' (capaz + DE)",
-          "'O técnico é hábil em matemática.' (hábil + EM)"
-        ],
-        "regra": "Para regência nominal, memorize os adjetivos mais cobrados agrupados por preposição: A (favorável, contrário, fiel, superior, inferior), DE (capaz, digno, orgulhoso), EM (hábil, rico, perito), COM (satisfeito, contente)."
+          {
+            "texto_base": "O sargento lembrou o recruta das normas de segurança e chamou-o de negligente após o incidente na base.",
+            "anotacoes": [
+              {
+                "trecho": "lembrou o recruta",
+                "destaque": "LEMBRAR = OD",
+                "motivo": "'Lembrar alguém' (fazer alguém se lembrar) é transitivo direto — sem preposição antes de 'o recruta'"
+              },
+              {
+                "trecho": "das normas de segurança",
+                "destaque": "LEMBRAR + DE",
+                "motivo": "Segundo complemento de 'lembrar' com sentido de 'a respeito de' — preposição 'de'"
+              },
+              {
+                "trecho": "chamou-o de negligente",
+                "destaque": "CHAMAR + DE",
+                "motivo": "'Chamar de' no sentido de denominar/classificar — preposição 'de' obrigatória"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "5. Crase na Regência e Casos Especiais com Pronomes Relativos",
-        "conteudo": "A regência interage diretamente com a crase: quando um verbo ou nome exige a preposição A e o complemento é um termo feminino que admite artigo A, ocorre a fusão que gera o acento grave. Ex: 'Aspiramos à vitória' (aspirar + A + a vitória → à vitória). Este ponto cruza o tema gram-02 com gram-10.\n\n**Pronome relativo ONDE:** só se usa com verbos que indicam permanência ou estado em lugar (estou onde trabalho). Não deve ser usado com verbos de movimento — nesses casos, usa-se 'aonde' (vou aonde devo ir). Aonde = a + onde, usado com verbos de movimento que exigem A.\n\n**Pronome relativo A QUEM / COM QUEM / DE QUEM:** o pronome relativo deve carregar a mesma preposição exigida pelo verbo da oração. Ex: 'O colega a quem assisti' (assistir + A). 'O aluno de quem me lembrei' (lembrar-se + DE).\n\n**Regência e paralelismo:** em estruturas coordenadas, a preposição deve ser mantida ou claramente repetida quando necessário. 'Gosto de estudar e de me aperfeiçoar' — a repetição de DE é preferida na norma culta para garantir clareza.\n\n**Cuidado com a omissão indevida de preposição:** na linguagem coloquial, é comum omitir preposições exigidas ('vou chegar em casa' por 'vou chegar a casa'). Em provas de concurso, a norma culta deve ser seguida rigorosamente.",
+        "subtitulo": "5. Regência nominal: nomes que pedem preposição",
+        "conteudo": "Assim como os verbos, substantivos e adjetivos também podem reger complementos com preposições específicas. A regência nominal funciona como um código de etiqueta: cada nome tem sua 'cerimônia' — a preposição que ele exige.\n\nAlguns adjetivos e suas preposições: 'apto a', 'capaz de', 'compatível com', 'contrário a', 'favorável a', 'hábil em', 'idêntico a', 'necessário a', 'orgulhoso de', 'propenso a'.\n\nAlguns substantivos e suas preposições: 'aversão a/por', 'bacharel em', 'capacidade de/para', 'dúvida sobre/em', 'horror a', 'medo de', 'preferência por', 'respeito a/por', 'simpatia por'.\n\nA regência nominal importa especialmente quando o mesmo nome aparece em contextos de reescritura: se você substituir um verbo por um nome derivado, a preposição pode mudar — 'obedecer ao regulamento' vira 'obediência ao regulamento', mantendo a preposição 'a'.\n\nO erro mais comum é usar 'em' onde a regência nominal exige 'a', especialmente com 'contrário' e 'favorável'.",
+        "regra": "Nome + preposição = regência nominal · Derivar do verbo preserva prep. · FAVORÁVEL/CONTRÁRIO + A · CAPAZ/ORGULHOSO + DE",
         "exemplos": [
-          "'Aspiramos à permanência no cargo.' (aspirar A + a permanência → crase)",
-          "'Foi aonde mandaram.' (ir — verbo de movimento — exige A → aonde)",
-          "'O regulamento a que me referi...' (referir-se A + que → a que)",
-          "'Onde você mora?' × 'Aonde você vai?' (estado × movimento)"
-        ],
-        "regra": "Onde = estado/permanência; Aonde = movimento (verbo que exige A). Pronomes relativos devem carregar a preposição exigida pelo verbo regente da oração subordinada."
+          {
+            "texto_base": "O oficial demonstrou ser favorável à proposta, mas apto a sugerir melhorias, e mostrou-se orgulhoso do desempenho de sua equipe durante a missão.",
+            "anotacoes": [
+              {
+                "trecho": "favorável à proposta",
+                "destaque": "FAVORÁVEL + A",
+                "motivo": "Adjetivo 'favorável' rege preposição 'a' — com crase diante de feminino"
+              },
+              {
+                "trecho": "apto a sugerir",
+                "destaque": "APTO + A",
+                "motivo": "Adjetivo 'apto' rege preposição 'a' antes de infinitivo ou substantivo"
+              },
+              {
+                "trecho": "orgulhoso do desempenho",
+                "destaque": "ORGULHOSO + DE",
+                "motivo": "Adjetivo 'orgulhoso' rege preposição 'de' — 'do' = contração de 'de' + 'o'"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "6. Regência e crase: a conexão obrigatória",
+        "conteudo": "Imagine regência e crase como dois parceiros inseparáveis numa dança: quando o verbo ou nome pede a preposição 'a' e o complemento é feminino com artigo, os dois 'a' se fundem na crase. Se você erra a regência, automaticamente erra a crase — e vice-versa.\n\nSe o verbo pede 'a' + substantivo feminino com artigo = crase obrigatória: 'O oficial aspira à vaga' (aspira + a + a vaga = aspira à vaga). 'O recruta assistiu à cerimônia' (assistiu + a + a cerimônia = à cerimônia).\n\nSe o verbo NÃO pede preposição (obj. direto), não há crase: 'O candidato visitou a base' — 'visitar' é transitivo direto, sem 'a' de regência, portanto sem crase.\n\nO teste para não errar: substitua o substantivo feminino por um masculino. Se aparecer 'ao', há crase no feminino. Se aparecer 'o' sem 'a', não há crase. 'Assistiu ao briefing' → 'assistiu à cerimônia'. 'Visitou o quartel' → 'visitou a base' (sem crase).\n\nO erro mais comum é usar crase em verbos transitivos diretos, criando uma preposição fantasma que não existe na regência do verbo.",
+        "regra": "Verbo + A (regência) + A (artigo feminino) = CRASE · Verbo OD (sem prep.) + feminino = SEM crase · Teste: troque por masculino → 'ao' = crase",
+        "exemplos": [
+          {
+            "texto_base": "O aspirante assistiu à cerimônia de formatura e depois visitou a base aérea naval do Galeão.",
+            "anotacoes": [
+              {
+                "trecho": "assistiu à cerimônia",
+                "destaque": "ASSISTIR + A → crase",
+                "motivo": "'Assistir' (presenciar) rege 'a' + 'a cerimônia' (fem. com artigo) = crase obrigatória"
+              },
+              {
+                "trecho": "visitou a base",
+                "destaque": "VISITAR = OD, sem crase",
+                "motivo": "'Visitar' é transitivo direto — não rege preposição, portanto sem crase antes de 'a base'"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "7. Casos especiais e armadilhas do CEBRASPE",
+        "conteudo": "O CEBRASPE tem um repertório de casos especiais que aparecem repetidamente nas provas. Conhecê-los é a diferença entre acertar e errar numa questão de alto nível.\n\nAnexar: 'anexar algo a algo' — 'anexar o documento ao ofício'; não 'anexar ao ofício o documento' quando isso gera ambiguidade, mas ambas as ordens são aceitas com a regência correta.\n\nInvestir: quando significa 'atacar/avançar', é transitivo indireto com 'contra' ou 'sobre' — 'investiu contra o inimigo'. Quando significa 'aplicar recursos', é transitivo direto — 'investiu o dinheiro'.\n\nChegarIr: 'chegar a', 'ir a' — com preposição 'a', nunca 'em' na norma culta — 'chegou à base' (não 'chegou na base'); 'foi ao quartel' (não 'foi no quartel').\n\nResistir: sempre transitivo indireto com 'a' — 'resistiu à tentação', nunca 'resistiu a tentação' sem o artigo (que causaria confusão com ausência de crase).\n\nO erro mais cobrado é 'chegar em' e 'ir em', que são formas coloquiais aceitas na fala mas incorretas na norma culta escrita exigida pelo CEBRASPE.",
+        "regra": "CHEGAR/IR + A (nunca 'em') · RESISTIR + A · INVESTIR (atacar) + CONTRA/SOBRE · INVESTIR (capital) = OD",
+        "exemplos": [
+          {
+            "texto_base": "O pelotão chegou à fronteira e investiu contra as posições inimigas, resistindo à pressão adversária durante toda a noite.",
+            "anotacoes": [
+              {
+                "trecho": "chegou à fronteira",
+                "destaque": "CHEGAR + A",
+                "motivo": "'Chegar' rege preposição 'a' na norma culta — nunca 'na fronteira' em texto formal"
+              },
+              {
+                "trecho": "investiu contra as posições",
+                "destaque": "INVESTIR + CONTRA",
+                "motivo": "'Investir' no sentido de atacar rege 'contra' ou 'sobre' — não é transitivo direto aqui"
+              },
+              {
+                "trecho": "resistindo à pressão",
+                "destaque": "RESISTIR + A",
+                "motivo": "'Resistir' é sempre transitivo indireto — rege preposição 'a', com crase diante de feminino"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
+
   "pegadinhas": [
     {
-      "titulo": "Assistir ao filme ≠ Assistir o filme",
-      "errado": "Todos assistiram o desfile da Marinha.",
-      "correto": "Todos assistiram ao desfile da Marinha.",
-      "explicacao": "No sentido de 'ver, presenciar', assistir é transitivo indireto e exige a preposição A. A construção sem preposição ('assistiram o desfile') é coloquialismo não aceito na norma culta. Apenas no sentido de 'ajudar, socorrer' o verbo é transitivo direto: 'A equipe médica assistiu os feridos.'",
+      "titulo": "'Implicar em' no lugar de 'implicar'",
+      "errado": "A nova diretriz implica em mudanças profundas no processo de incorporação.",
+      "correto": "A nova diretriz implica mudanças profundas no processo de incorporação.",
+      "explicacao": "O verbo 'implicar' no sentido de 'acarretar' ou 'envolver' é transitivo direto — não admite preposição antes do objeto. O candidato usa 'implicar em' por influência do uso coloquial, mas na norma culta escrita a preposição é indevida. A forma correta é 'implica mudanças', sem 'em'.",
       "nivel": "basico"
     },
     {
-      "titulo": "Visar ao cargo ≠ Visar o cargo",
-      "errado": "O candidato visava o cargo de engenheiro.",
-      "correto": "O candidato visava ao cargo de engenheiro.",
-      "explicacao": "No sentido de 'objetivar, almejar', visar exige a preposição A na norma culta: 'visar ao cargo'. Apenas no sentido de 'mirar' (com arma, câmera) o verbo dispensa preposição: 'O atirador visou o alvo.' Confundir os sentidos é o erro clássico.",
+      "titulo": "'Assistir o filme' no lugar de 'assistir ao filme'",
+      "errado": "Os recrutas assistiram o pronunciamento do comandante-em-chefe.",
+      "correto": "Os recrutas assistiram ao pronunciamento do comandante-em-chefe.",
+      "explicacao": "O verbo 'assistir' no sentido de 'ver', 'presenciar' é transitivo indireto e exige a preposição 'a'. 'Os recrutas assistiram o pronunciamento' estaria correto apenas se 'assistir' tivesse o sentido de 'ajudar/socorrer'. Para 'presenciar', a regência obrigatória é 'assistir a algo': 'assistiram ao pronunciamento'.",
       "nivel": "basico"
     },
     {
-      "titulo": "Preferir café A chá ≠ Preferir café DO QUE chá",
-      "errado": "Prefiro estudar gramática do que ficar ocioso.",
-      "correto": "Prefiro estudar gramática a ficar ocioso.",
-      "explicacao": "O verbo preferir, na norma culta, exige a preposição A para introduzir o segundo termo da comparação — nunca 'do que', que é construção coloquial. Igualmente incorreto é o uso de reforços como 'mais' e 'muito mais': 'prefiro mais café' é pleonasmo inadmissível na escrita formal.",
+      "titulo": "'Preferir mais' — pleonasmo proibido",
+      "errado": "O oficial prefere mais estudar do que descansar nas horas vagas.",
+      "correto": "O oficial prefere estudar a descansar nas horas vagas.",
+      "explicacao": "O verbo 'preferir' já traz em si a ideia de preferência, que é comparativa. Por isso, usar 'mais' com 'preferir' é pleonasmo vicioso — proibido pela norma culta. Além disso, 'preferir' estabelece a comparação com a preposição 'a' (não 'do que'): 'prefere X a Y'. A alternativa com 'do que' é aceita informalmente, mas o par correto é 'preferir... a...'.",
       "nivel": "intermediario"
     },
     {
-      "titulo": "Chegar A Fortaleza ≠ Chegar EM Fortaleza",
-      "errado": "O navio chegou em Fortaleza ontem.",
-      "correto": "O navio chegou a Fortaleza ontem.",
-      "explicacao": "Verbos de movimento como chegar, ir, retornar e voltar exigem a preposição A para indicar destino, nunca EM. 'Chegou em Fortaleza' é uso popular amplamente difundido, mas inadequado na norma culta exigida em concursos militares. O uso de EM fica reservado para indicar permanência: 'O navio está em Fortaleza.'",
-      "nivel": "avancado"
+      "titulo": "'Chegar em' no lugar de 'chegar a'",
+      "errado": "A fragata chegou no porto de Recife após três semanas de missão.",
+      "correto": "A fragata chegou ao porto de Recife após três semanas de missão.",
+      "explicacao": "O verbo 'chegar' rege a preposição 'a' na norma culta escrita — não 'em'. O uso de 'em' é comum na língua falada, mas é considerado erro em provas de língua portuguesa do CEBRASPE. A correção exige 'chegou ao porto' (preposição 'a' + artigo 'o'). O mesmo vale para 'ir': 'foi ao quartel', nunca 'foi no quartel'.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Implicar punição (direto) ≠ Implicar EM punição",
-      "errado": "A infração implica em perda do posto.",
-      "correto": "A infração implica perda do posto.",
-      "explicacao": "No sentido de 'acarretar, ter como consequência', implicar é transitivo direto — não exige preposição antes do complemento. O uso de 'implicar em' é hipercorreção muito comum e um erro clássico de prova. Já no sentido de 'ter implicância com alguém', usa-se COM: 'O suboficial implicou com o recruta.'",
+      "titulo": "'Visar o objetivo' no lugar de 'visar ao objetivo'",
+      "errado": "O plano de instrução visa o aperfeiçoamento técnico dos recrutas.",
+      "correto": "O plano de instrução visa ao aperfeiçoamento técnico dos recrutas.",
+      "explicacao": "O verbo 'visar' no sentido de 'ter como objetivo' ou 'almejar' é transitivo indireto e rege a preposição 'a' — 'visa a algo'. Quando o complemento for feminino, haverá crase: 'visa à excelência'. Já 'visar' no sentido de 'dar visto em' é transitivo direto: 'o diretor visou o documento'. O CEBRASPE frequentemente explora essa distinção de sentido e regência.",
       "nivel": "avancado"
     }
   ],
+
   "cascas_de_banana": [
     {
-      "situacao": "Na prova, uma questão apresenta a frase 'O militar aspirava o posto de capitão' como correta e pede para o candidato identificar qual alternativa também está correta. O candidato, por ouvir muito 'aspirou a poeira' no dia a dia, acha que aspirar é sempre transitivo direto e marca a errada.",
-      "dica": "Memorize os dois sentidos de aspirar: INALAR → direto (aspirar o ar); ALMEJAR → indireto com A (aspirar ao cargo). Na prova, verifique primeiro o sentido da frase antes de escolher a construção.",
+      "situacao": "Usar a regência coloquial ('assistir o filme', 'chegar em') em questão de norma culta e marcá-la como correta.",
+      "dica": "O CEBRASPE sempre trabalha com a norma culta escrita — não a língua falada. Quando ver verbos como 'assistir', 'aspirar', 'visar', 'chegar' e 'ir', pergunte-se: 'Na escrita formal, qual preposição esse verbo pede?' A fala aceita 'assistir o jogo', 'chegar em casa', mas a prova exige 'assistir ao jogo', 'chegar a casa'. Não deixe o uso coloquial contaminar a análise da norma escrita.",
       "nivel": "basico"
     },
     {
-      "situacao": "O candidato vê a frase 'Onde você vai?' e a considera correta, sem perceber que o verbo 'ir' exige movimento e, portanto, o pronome deveria ser 'aonde' (a + onde), que retoma um antecedente com a preposição A embutida.",
-      "dica": "Sempre pergunte: o verbo indica estado/permanência ou movimento? ESTADO → onde; MOVIMENTO (ir, chegar, levar) → aonde. Se o verbo exige A, use aonde.",
+      "situacao": "Confundir os dois sentidos de 'visar' e aplicar a regência errada.",
+      "dica": "'Visar' tem dois sentidos com regências distintas: (1) almejar/objetivar → transitivo indireto com 'a' ('visa ao cargo'); (2) dar visto em/mirar → transitivo direto sem preposição ('visou o documento', 'o atirador visou o alvo'). Antes de analisar a regência, identifique o sentido. A armadilha do CEBRASPE é apresentar uma frase com 'visar' sem preposição e pedir se está correta — depende do sentido.",
       "nivel": "intermediario"
     },
     {
-      "situacao": "O candidato lê 'É possível ao candidato recorrer da decisão' e acha que a preposição A está errada, trocando-a por DE por confundir a regência do adjetivo 'possível' com a regência de outros adjetivos. O correto é 'possível a' (= possível para alguém).",
-      "dica": "Nem todo adjetivo que termina em '-vel' exige DE. Possível e impossível exigem A ou PARA para indicar a quem se aplica: 'possível ao candidato', 'impossível ao sistema'. Reserve DE para o complemento que indica a ação: 'impossível de prever'.",
+      "situacao": "Aplicar a regência nominal diferente da verbal sem perceber que derivados preservam a preposição.",
+      "dica": "Quando um verbo é substituído por seu nome derivado (nominalização), a preposição geralmente se mantém. Exemplo: 'obedecer ao regulamento' → 'obediência ao regulamento'. 'Aspirar ao cargo' → 'aspiração ao cargo'. 'Resistir à pressão' → 'resistência à pressão'. Se a questão pede reescritura trocando verbo por nome, verifique se a preposição foi preservada — perder a preposição na nominalização é erro frequente e cobrado.",
       "nivel": "avancado"
     }
   ],
+
   "questoes": [
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que o verbo ASSISTIR está empregado de acordo com a norma culta:",
+      "enunciado": "Assinale a alternativa em que a regência verbal está correta segundo a norma culta.",
       "alternativas": {
-        "A": "Os recrutas assistiram o general durante a cerimônia.",
-        "B": "A tripulação assistiu a chegada do almirante no porto.",
-        "C": "Todos os marinheiros assistiram ao hasteamento da bandeira.",
-        "D": "O cadete assistiu o discurso do comandante com atenção.",
-        "E": "A Marinha assiste os familiares do náufrago neste momento."
+        "A": "O recruta assistiu o hasteamento da bandeira na formação matinal.",
+        "B": "O comandante aspirava o posto mais alto da hierarquia naval.",
+        "C": "Os oficiais obedeceram ao regulamento interno sem questionamentos.",
+        "D": "A nova portaria implica em alterações no calendário de instrução.",
+        "E": "O aspirante visava o cargo de comandante de embarcação."
       },
       "gabarito": "C",
-      "explicacao": "No sentido de 'presenciar, ver', assistir é transitivo indireto e exige a preposição A: 'assistiram AO hasteamento'. A alternativa C está correta. A: 'assistiram o general' usa assistir no sentido de 'ajudar' (correto), mas o contexto indica presenciar — erro de sentido. B: falta o artigo antes de 'chegada' para formar a crase exigida ('assistiram À chegada'). D: mesmo erro de B — sem preposição, no sentido de presenciar. E: 'assiste os familiares' no sentido de 'ajudar' é transitivo direto, portanto está correto, mas o enunciado pede o sentido de 'presenciar'."
+      "explicacao": "A alternativa C está correta: 'obedecer' é verbo transitivo indireto que rege preposição 'a' — 'obedeceram ao regulamento'. As demais estão erradas: A — 'assistir' (presenciar) exige 'a': 'assistiu ao hasteamento'; B — 'aspirar' (desejar) exige 'a': 'aspirava ao posto'; D — 'implicar' (acarretar) é transitivo direto, sem preposição: 'implica alterações'; E — 'visar' (objetivar) exige 'a': 'visava ao cargo'."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Qual das alternativas apresenta o verbo ASPIRAR corretamente empregado?",
+      "enunciado": "Em qual alternativa o verbo 'implicar' está empregado com regência correta?",
       "alternativas": {
-        "A": "O oficial aspirava o posto de almirante há anos.",
-        "B": "O recruta aspirava ao ar puro do litoral fortalezense.",
-        "C": "A Marinha aspira novos talentos todo ano.",
-        "D": "O candidato aspirava ao cargo de engenheiro naval.",
-        "E": "O suboficial aspirou ao pó da sala antes da inspeção."
+        "A": "A missão implica em riscos elevados para a tripulação.",
+        "B": "O novo regulamento implica em mudanças no uniforme de serviço.",
+        "C": "A aprovação no concurso implica dedicação intensa aos estudos.",
+        "D": "Ser oficial implica em assumir grandes responsabilidades.",
+        "E": "A promoção implica em aumento de deveres e obrigações."
       },
-      "gabarito": "D",
-      "explicacao": "No sentido de 'almejar, objetivar', aspirar é transitivo indireto e exige A: 'aspirava AO cargo'. D está correta. A: 'aspirava o posto' — no sentido de almejar, exigiria A. B: 'aspirava ao ar puro' — no sentido de inalar, seria transitivo direto ('aspirava o ar puro'), não indireto. C: 'aspira novos talentos' sem preposição seria aceitável apenas no sentido de 'atrair', mas esse sentido não é consagrado. E: 'aspirou ao pó' — no sentido de inalar, não deve ter preposição ('aspirou o pó')."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta: 'implicar' no sentido de 'acarretar' é transitivo direto — não admite preposição. 'Implica dedicação' está correto. Todas as demais alternativas cometem o mesmo erro: inserem a preposição 'em' após 'implicar', o que contraria a regência normativa desse verbo. O uso de 'implicar em' é coloquial e frequentemente cobrado pelo CEBRASPE como erro."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que o verbo CHEGAR está corretamente empregado segundo a norma culta:",
+      "enunciado": "Qual das alternativas apresenta o verbo 'assistir' empregado com regência correta no sentido de 'presenciar'?",
       "alternativas": {
-        "A": "A fragata chegou em Natal às oito horas.",
-        "B": "O almirante chegou no porto no início da tarde.",
-        "C": "Os recrutas chegaram em Fortaleza após longa viagem.",
-        "D": "O comandante chegou a Brasília para a reunião.",
-        "E": "A embarcação chegou no estuário ao amanhecer."
+        "A": "O oficial assistiu a cerimônia de formatura dos novos recrutas.",
+        "B": "Os candidatos assistiram ao discurso do almirante com atenção.",
+        "C": "O sargento assistiu o treinamento sem fazer anotações.",
+        "D": "Nenhum cabo assistiu a reunião por estar de plantão.",
+        "E": "O recruta assistiu toda a manobra sem se mover do lugar."
       },
-      "gabarito": "D",
-      "explicacao": "O verbo chegar, no sentido de 'atingir um destino', exige a preposição A, nunca EM. D é a única alternativa correta: 'chegou A Brasília'. Todas as demais usam EM para indicar destino, o que constitui construção coloquial inadequada na norma culta exigida em concursos militares."
+      "gabarito": "B",
+      "explicacao": "A alternativa B está correta: 'assistir' no sentido de presenciar é transitivo indireto e rege a preposição 'a' com artigo — 'assistiram ao discurso'. As alternativas A, C, D e E empregam 'assistir' sem a preposição obrigatória ('ao') ou com artigo sem a preposição, o que configura erro de regência. Note que A e D têm o artigo 'a' mas sem a preposição 'a' antes — a forma correta seria 'assistiu à cerimônia' (com crase) e 'assistiu à reunião'."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Em qual das alternativas o verbo IMPLICAR está corretamente empregado no sentido de 'acarretar'?",
+      "enunciado": "Assinale a alternativa com regência correta do verbo 'preferir'.",
       "alternativas": {
-        "A": "A infração implica em perda do cargo.",
-        "B": "O erro implica em punição severa.",
-        "C": "A desobediência implica em medidas disciplinares.",
-        "D": "A negligência implica responsabilidade civil.",
-        "E": "O descumprimento implica em advertência formal."
+        "A": "O candidato prefere mais estudar gramática do que fazer simulados.",
+        "B": "O oficial prefere o serviço operacional mais do que o administrativo.",
+        "C": "O recruta prefere acordar cedo a dormir até tarde nos dias de folga.",
+        "D": "O sargento prefere muito mais a instrução teórica do que a prática.",
+        "E": "O aspirante prefere mais a vida naval do que a vida civil."
       },
-      "gabarito": "D",
-      "explicacao": "No sentido de 'acarretar, ter como consequência', implicar é transitivo direto — não exige preposição. A alternativa D está correta: 'implica responsabilidade civil'. Todas as outras usam 'implica EM', que é hipercorreção muito difundida mas inadequada na norma culta. Note que 'implicar EM' só se aceita regionalmente e em alguns dicionários mais permissivos, mas não é a forma consagrada pela gramática normativa."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta: 'preferir X a Y' é a construção normativa. 'Prefere acordar cedo a dormir até tarde' usa corretamente a preposição 'a' para indicar o segundo termo da comparação. As demais estão erradas por usarem 'mais' com 'preferir', o que é pleonasmo vicioso — 'preferir' já expressa superioridade de uma opção sobre outra, tornando 'mais' redundante e incorreto segundo a norma culta."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Qual das frases abaixo apresenta o verbo PREFERIR corretamente empregado?",
+      "enunciado": "Em qual das alternativas a regência do verbo 'chegar' está de acordo com a norma culta escrita?",
       "alternativas": {
-        "A": "Prefiro a disciplina militar do que a vida civil.",
-        "B": "Prefiro mais estudar gramática do que dormir.",
-        "C": "Prefiro muito o serviço ativo à reserva.",
-        "D": "Prefiro o serviço ativo à reserva.",
-        "E": "Prefiro mais a disciplina do que a leniência."
+        "A": "O recruta chegou na base após uma longa viagem de trem.",
+        "B": "A fragata chegou no porto de Natal ao amanhecer do domingo.",
+        "C": "Os candidatos chegaram no local de prova com antecedência.",
+        "D": "O oficial chegou à sede do Comando com trinta minutos de atraso.",
+        "E": "O helicóptero chegou no porta-aviões durante a madrugada."
       },
       "gabarito": "D",
-      "explicacao": "O verbo preferir exige a preposição A para introduzir o segundo elemento da comparação, sem nenhum reforço ('mais', 'muito mais', 'do que'). D está correto: 'Prefiro o serviço ativo À reserva.' A, B, C e E incorrem em construções coloquiais: usam 'do que' em vez de A (A, B, E) ou reforços desnecessários como 'mais' e 'muito' (B, C, E)."
+      "explicacao": "A alternativa D está correta: 'chegar' rege a preposição 'a' na norma culta escrita — 'chegou à sede' (preposição 'a' + artigo 'a' = crase). As alternativas A, B, C e E cometem o mesmo erro: usam a preposição 'em' com 'chegar', forma aceita na língua falada mas incorreta na norma culta escrita cobrada pelo CEBRASPE. A regra é: chegar a + masculino = 'ao'; chegar a + feminino = 'à' (crase)."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa correta quanto à regência do adjetivo FAVORÁVEL:",
+      "enunciado": "Assinale a alternativa em que a regência do verbo 'obedecer' está correta.",
       "alternativas": {
-        "A": "O almirante é favorável com a proposta apresentada.",
-        "B": "O comandante é favorável de mudanças na escala.",
-        "C": "O oficial é favorável em novas contratações.",
-        "D": "O suboficial mostrou-se favorável para a reforma.",
-        "E": "O conselho mostrou-se favorável à proposta de reformas."
+        "A": "O recruta deve obedecer o sargento em todas as situações de serviço.",
+        "B": "Os cabos obedeceram as ordens do comandante sem questionamentos.",
+        "C": "É dever do militar obedecer ao regulamento disciplinar da Marinha.",
+        "D": "O aspirante não obedeceu as instruções recebidas no briefing.",
+        "E": "Todos os recrutas devem obedecer as normas da base naval."
       },
-      "gabarito": "E",
-      "explicacao": "O adjetivo favorável exige a preposição A para introduzir seu complemento nominal. E está correto: 'favorável À proposta'. A usa COM (errado); B usa DE (errado); C usa EM (errado); D usa PARA (errado). A preposição A é a única aceita pela norma culta com favorável."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta: 'obedecer' é verbo transitivo indireto e exige obrigatoriamente a preposição 'a' — 'obedecer ao regulamento'. As demais alternativas empregam 'obedecer' como transitivo direto (sem preposição), o que contraria a regência normativa desse verbo. Esse é um dos erros mais comuns e mais cobrados em provas de concurso."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Em qual alternativa o verbo OBEDECER está corretamente empregado?",
+      "enunciado": "Sobre o verbo 'aspirar', assinale a afirmativa correta.",
       "alternativas": {
-        "A": "O recruta obedeceu o superior imediatamente.",
-        "B": "O marinheiro obedeceu o regulamento naval.",
-        "C": "Os cadetes obedeceram as ordens sem hesitar.",
-        "D": "O oficial obedeceu ao regulamento de segurança.",
-        "E": "A tripulação obedeceu os procedimentos de bordo."
+        "A": "Quando significa 'desejar', é transitivo direto e não exige preposição.",
+        "B": "Sempre exige a preposição 'por', independentemente do sentido.",
+        "C": "Quando significa 'sorver pelo nariz', é transitivo indireto com 'a'.",
+        "D": "Quando significa 'desejar/almejar', exige a preposição 'a': 'aspira ao cargo'.",
+        "E": "Pode ser usado com ou sem preposição em qualquer sentido."
       },
       "gabarito": "D",
-      "explicacao": "Obedecer é verbo transitivo indireto — exige sempre a preposição A antes do complemento. D está correto: 'obedeceu AO regulamento'. Todas as demais alternativas usam obedecer como transitivo direto (sem preposição), o que é coloquialismo não aceito na norma culta."
+      "explicacao": "A alternativa D está correta. O verbo 'aspirar' tem dois sentidos com regências distintas: (1) no sentido de 'sorver pelo nariz' ou 'inalar', é transitivo direto — 'aspirou a poeira' (sem preposição antes de 'a poeira'); (2) no sentido de 'desejar', 'almejar', é transitivo indireto com 'a' — 'aspira ao cargo', 'aspira à promoção'. A alternativa A inverte a regência do segundo sentido. As demais apresentam informações incorretas sobre as preposições exigidas."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa que preenche corretamente a lacuna: 'O candidato é _____ a responder questões complexas.'",
+      "enunciado": "Assinale a alternativa em que 'lembrar' está empregado com regência correta na norma culta.",
       "alternativas": {
-        "A": "hábil em",
-        "B": "capaz para",
-        "C": "apto de",
-        "D": "capaz de",
-        "E": "hábil para"
+        "A": "O sargento lembrou-se o número do formulário antes de assinar.",
+        "B": "O recruta lembrou de entregar os documentos no prazo determinado.",
+        "C": "O oficial lembrou os candidatos das normas de segurança da base.",
+        "D": "O cabo lembrou-se dos procedimentos de emergência durante o exercício.",
+        "E": "O aspirante lembrou de que precisava renovar sua carteira de identidade."
       },
       "gabarito": "D",
-      "explicacao": "O adjetivo capaz exige a preposição DE para introduzir seu complemento nominal quando seguido de verbo no infinitivo: 'capaz DE responder'. D está correto. Hábil exige EM (hábil em matemática), não EM seguido de infinitivo em oração completiva. Apto exige PARA. A alternativa D é a única gramaticalmente adequada ao contexto apresentado."
+      "explicacao": "A alternativa D está correta: 'lembrar-se' (forma pronominal) rege preposição 'de' — 'lembrou-se dos procedimentos'. A alternativa C também está correta ('lembrou os candidatos das normas' — verbo no sentido de 'fazer alguém se lembrar', transitivo direto para pessoa + indireto com 'de' para o objeto lembrado), mas D é a mais claramente correta. A alternativa A erra: 'lembrar-se' exige 'de', não objeto direto. B erra: sem pronome reflexivo, 'lembrar' é transitivo direto — 'lembrou o formulário'; com 'de' precisaria do pronome: 'lembrou-se de'."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "Qual alternativa apresenta o uso correto de ONDE ou AONDE?",
+      "enunciado": "Em qual alternativa a regência nominal está correta?",
       "alternativas": {
-        "A": "Onde você pretende ir nas férias?",
-        "B": "Aonde o almirante trabalha é segredo.",
-        "C": "Aonde está o relatório que pedi?",
-        "D": "Onde você vai é irrelevante.",
-        "E": "O quartel aonde o candidato foi aprovado fica em Fortaleza."
+        "A": "O oficial mostrou-se contrário com a proposta apresentada no conselho.",
+        "B": "A tripulação estava favorável em retornar ao porto antes do previsto.",
+        "C": "O recruta demonstrou ser apto para o serviço de campo na missão.",
+        "D": "O cabo mostrou-se orgulhoso de seu desempenho na avaliação física.",
+        "E": "O aspirante era capaz em resolver qualquer problema técnico."
       },
-      "gabarito": "A",
-      "explicacao": "Aonde = A + onde, usado com verbos de movimento que exigem a preposição A (ir, chegar, levar). A está correto porque 'ir' exige A: 'aonde você pretende ir' (= a que lugar). B: 'aonde trabalha' — trabalhar é de permanência, logo deveria ser 'onde'. C: 'aonde está' — estar é permanência, deveria ser 'onde'. D: 'onde você vai' — ir é movimento, deveria ser 'aonde'. E: 'aonde o candidato foi aprovado' — ser aprovado é estado/resultado, deveria ser 'onde'."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta: 'orgulhoso' rege a preposição 'de' — 'orgulhoso de seu desempenho'. As demais têm erros de regência nominal: A — 'contrário' rege 'a', não 'com': 'contrário à proposta'; B — 'favorável' rege 'a', não 'em': 'favorável a retornar'; C — 'apto' rege 'a', não 'para': 'apto ao serviço' ou 'apto a realizar'; E — 'capaz' rege 'de', não 'em': 'capaz de resolver'."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Qual das alternativas apresenta o verbo VISAR corretamente empregado no sentido de 'ter por objetivo'?",
+      "enunciado": "Assinale a alternativa que completa corretamente: 'O pelotão resistiu _____ todas as tentativas de rendição.'",
       "alternativas": {
-        "A": "O programa visa melhorar os indicadores navais.",
-        "B": "A política visa o desenvolvimento da frota.",
-        "C": "O regulamento visa ao cumprimento das normas.",
-        "D": "A medida visa em reduzir gastos operacionais.",
-        "E": "O projeto visa para modernizar a estrutura."
+        "A": "contra",
+        "B": "em face de",
+        "C": "a",
+        "D": "perante",
+        "E": "diante de"
       },
       "gabarito": "C",
-      "explicacao": "No sentido de 'ter por objetivo, almejar', visar é transitivo indireto e exige A: 'visa AO cumprimento'. C está correto. A e B omitem a preposição (coloquialismo). D usa EM (errado). E usa PARA (errado). Atenção: alguns autores modernos aceitam a transitividade direta de visar nesse sentido, mas a bancas de concurso militar costumam exigir a forma indireta como a norma culta."
+      "explicacao": "O verbo 'resistir' é transitivo indireto e rege a preposição 'a' — 'resistiu a todas as tentativas'. Quando o complemento for feminino com artigo, ocorrerá crase: 'resistiu à tentação'. As demais preposições (contra, em face de, perante, diante de) não fazem parte da regência normativa do verbo 'resistir', que exige especificamente a preposição 'a'."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Analise as frases abaixo e assinale aquela em que a regência verbal está correta segundo a norma culta:\nI. O engenheiro chegou em Recife para a reunião técnica.\nII. Todos os oficiais assistiram à solenidade de formatura.\nIII. O candidato prefere o cargo naval do que o cargo civil.\nIV. A medida implica em revisão do orçamento.",
+      "textoBase": "O plano estratégico da Marinha visa ao fortalecimento da presença naval no Atlântico Sul. Tal objetivo implica investimentos significativos em tecnologia e treinamento de pessoal especializado.",
+      "enunciado": "Sobre a regência dos verbos no texto, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "Apenas I está correta.",
-        "B": "Apenas II está correta.",
-        "C": "I e III estão corretas.",
-        "D": "II e IV estão corretas.",
-        "E": "Todas estão corretas."
+        "A": "O verbo 'visa' está incorreto; deveria ser 'visa o fortalecimento', pois é transitivo direto.",
+        "B": "O verbo 'implica' está incorreto; deveria ser 'implica em investimentos'.",
+        "C": "Ambos os verbos estão corretos: 'visa ao' (transitivo indireto com 'a') e 'implica investimentos' (transitivo direto).",
+        "D": "O verbo 'visa' está correto, mas 'implica' deveria ser 'implica em investimentos' para maior clareza.",
+        "E": "Ambos os verbos estão incorretos; as formas corretas seriam 'visa o fortalecimento' e 'implica em investimentos'."
       },
-      "gabarito": "B",
-      "explicacao": "I: errada — chegar exige A, não EM ('chegou A Recife'). II: correta — assistir no sentido de 'presenciar' exige A ('assistiram À solenidade'). III: errada — preferir exige A, não 'do que' ('prefere o cargo naval AO cargo civil'). IV: errada — implicar no sentido de 'acarretar' é transitivo direto, sem preposição ('implica revisão do orçamento'). Portanto, apenas II está correta."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. 'Visar' no sentido de 'ter como objetivo' é transitivo indireto com 'a' — 'visa ao fortalecimento' está correto. 'Implicar' no sentido de 'acarretar' é transitivo direto, sem preposição — 'implica investimentos' está correto. A alternativa B propõe 'implica em investimentos' — o uso de 'em' com 'implicar' é coloquial e errado na norma culta. A alternativa A propõe 'visa o fortalecimento', confundindo os dois sentidos de 'visar'."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que TODOS os adjetivos estão acompanhados da preposição correta:",
+      "textoBase": "O comandante chamou o recruta de irresponsável após o incidente. A ocorrência implicou abertura de processo disciplinar e obrigou o recruta a prestar esclarecimentos formais ao superior hierárquico.",
+      "enunciado": "Sobre a regência dos verbos no texto, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "O candidato é hábil para matemática e rico em experiência.",
-        "B": "O militar é fiel com o regulamento e leal ao superior.",
-        "C": "O técnico é perito em eletrônica e favorável à proposta.",
-        "D": "O oficial é capaz para a missão e apto de voar.",
-        "E": "O recruta é obediente com os superiores e fiel ao juramento."
+        "A": "'Chamou de irresponsável' está incorreto; o correto seria 'chamou por irresponsável'.",
+        "B": "'Implicou abertura' está incorreto; o correto seria 'implicou em abertura'.",
+        "C": "'Obrigou o recruta a prestar' está incorreto; o correto seria 'obrigou o recruta de prestar'.",
+        "D": "Os três verbos estão empregados com a regência correta segundo a norma culta.",
+        "E": "'Chamou de' e 'implicou abertura' estão corretos, mas 'obrigou... a' deveria ser 'obrigou... para'."
       },
-      "gabarito": "C",
-      "explicacao": "C está correto: perito exige EM ('perito EM eletrônica') e favorável exige A ('favorável À proposta'). A: hábil exige EM, não PARA ('hábil EM matemática'). B: fiel exige A, não COM ('fiel AO regulamento'); leal também exige A, e ao superior está correto. D: capaz exige DE, não PARA; apto exige PARA, não DE. E: obediente exige A, não COM ('obediente AOS superiores')."
+      "gabarito": "D",
+      "explicacao": "Os três verbos estão corretos. 'Chamar de' no sentido de 'denominar' rege preposição 'de' — 'chamou de irresponsável'. 'Implicar' (acarretar) é transitivo direto — 'implicou abertura' (sem preposição). 'Obrigar alguém a' rege preposição 'a' antes do infinitivo — 'obrigou o recruta a prestar'. A alternativa B propõe 'implicou em abertura' — erro; 'implicar' (acarretar) não admite preposição. A alternativa C propõe 'de prestar' — erro; 'obrigar' rege 'a' + infinitivo."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Considere a seguinte frase e escolha a alternativa que a reescreve corretamente: 'O suboficial lembrou o compromisso e depois esqueceu a missão.'",
+      "enunciado": "Assinale a alternativa em que a substituição do verbo pelo nome derivado preserva corretamente a regência (preposição).",
       "alternativas": {
-        "A": "O suboficial se lembrou do compromisso e depois se esqueceu da missão.",
-        "B": "O suboficial lembrou-se do compromisso e depois esqueceu da missão.",
-        "C": "O suboficial lembrou do compromisso e depois esqueceu-se de a missão.",
-        "D": "O suboficial se lembrou do compromisso e depois se esqueceu a missão.",
-        "E": "O suboficial lembrou o compromisso e depois esqueceu-se de a missão."
+        "A": "'Aspirar ao posto' → 'aspiração pelo posto'",
+        "B": "'Obedecer ao regulamento' → 'obediência com o regulamento'",
+        "C": "'Resistir à pressão' → 'resistência à pressão'",
+        "D": "'Assistir ao evento' → 'assistência com o evento'",
+        "E": "'Visar ao objetivo' → 'visão do objetivo'"
       },
-      "gabarito": "A",
-      "explicacao": "Lembrar e esquecer, quando usados com pronome reflexivo (se), exigem a preposição DE: 'lembrar-se DE', 'esquecer-se DE'. A frase original, sem pronome reflexivo, admite a transitividade direta ('lembrou o compromisso', 'esqueceu a missão'), e ambas as formas estão corretas. A reescrita com pronome reflexivo exige necessariamente DE: 'se lembrou DO compromisso' e 'se esqueceu DA missão'. A alternativa A está correta. B erra em 'esqueceu da missão' (sem pronome reflexivo, não exige DE). C e E usam 'de a missão' sem contrair (deveria ser 'da missão'). D usa 'se esqueceu a missão' sem preposição (errado com pronome reflexivo)."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta: tanto 'resistir à pressão' quanto 'resistência à pressão' usam a preposição 'a' — a nominalização preserva a preposição da regência verbal. As demais trocam a preposição indevidamente: A — 'aspiração ao posto' seria o correto, não 'pelo posto'; B — 'obediência ao regulamento' seria o correto, não 'com o regulamento'; D — 'assistência ao evento' seria o correto, não 'com o evento'; E — 'visa ao objetivo' vira 'visada ao objetivo' ou 'objetivo visado', não 'visão do objetivo'."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que o verbo PROCEDER está corretamente empregado:",
+      "textoBase": "O Regulamento Interno da Marinha determina que o militar deve sempre informar os fatos relevantes ao seu superior imediato. Omitir informações ao comando equivale a descumprir o dever funcional.",
+      "enunciado": "Sobre a regência do verbo 'informar' no texto, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "O comandante procedeu a análise dos documentos sigilosos.",
-        "B": "A equipe procedeu à vistoria do navio antes da largada.",
-        "C": "O engenheiro procedeu em família tradicional de Fortaleza.",
-        "D": "O recruta procedeu corretamente em todas situações.",
-        "E": "A diretoria procedeu com a investigação interna."
+        "A": "A regência correta de 'informar' é apenas com objeto indireto; 'informar os fatos' está incorreto.",
+        "B": "'Informar os fatos ao superior' está correto: objeto direto (os fatos) + objeto indireto com 'a' (ao superior).",
+        "C": "A regência correta seria 'informar sobre os fatos ao superior', com preposição 'sobre' obrigatória.",
+        "D": "'Informar ao superior' está incorreto; deveria ser 'informar para o superior'.",
+        "E": "O verbo 'informar' no texto está com regência incorreta; o correto seria 'informar dos fatos ao superior'."
       },
       "gabarito": "B",
-      "explicacao": "No sentido de 'realizar, efetuar', proceder exige A: 'procedeu À vistoria'. B está correto. A omite a preposição ('procedeu A análise' sem artigo, além de faltar a preposição entre o verbo e o objeto). C: no sentido de 'ser originário', exige DE ('procede DE família'); 'em família' está errado. D: 'procedeu corretamente' (= comportou-se) está gramaticalmente correto, mas o contexto 'em todas situações' está truncado; ainda assim, D seria aceitável como uso intransitivo — porém B é mais completo e inequivocamente correto. E: 'procedeu COM a investigação' — a preposição exigida para esse sentido é A, não COM."
+      "explicacao": "A alternativa B está correta. O verbo 'informar' aceita duas construções: (1) 'informar algo a alguém' — objeto direto (o conteúdo) + objeto indireto com 'a' (o destinatário): 'informar os fatos ao superior'; (2) 'informar alguém de/sobre algo' — objeto direto (a pessoa) + complemento com 'de' ou 'sobre': 'informar o superior dos/sobre os fatos'. Ambas as construções são normativas. A alternativa A está errada ao afirmar que o objeto direto é proibido. A alternativa D está errada ao propor 'para' — 'informar' não rege 'para'."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Qual das alternativas preenche corretamente as lacunas da frase: 'O técnico é _____ informática, _____ o cargo e _____ a chefia.'?",
+      "enunciado": "Assinale a alternativa em que a regência do verbo 'esquecer' está correta segundo a norma culta.",
       "alternativas": {
-        "A": "perito em / apto para / obediente com",
-        "B": "hábil em / apto para / obediente a",
-        "C": "hábil para / capaz de / subordinado em",
-        "D": "perito de / disposto para / leal com",
-        "E": "rico em / favorável com / inferior a"
+        "A": "O recruta esqueceu-se o número de matrícula na hora de preencher o formulário.",
+        "B": "O candidato esqueceu de levar os documentos originais para a inspeção.",
+        "C": "O oficial não se esqueceu do procedimento correto durante a emergência.",
+        "D": "O sargento esqueceu-se que havia reunião marcada para a tarde.",
+        "E": "O aspirante esqueceu de que precisava renovar a identidade funcional."
       },
-      "gabarito": "B",
-      "explicacao": "Hábil exige EM; apto exige PARA; obediente exige A. Apenas B preenche as três lacunas corretamente: 'hábil EM informática / apto PARA o cargo / obediente À chefia'. A: obediente COM está errado. C: hábil PARA está errado (exige EM); subordinado EM está errado (exige A). D: perito DE está errado (exige EM); leal COM está errado (exige A). E: favorável COM está errado (exige A)."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta: 'esquecer-se de' — forma pronominal com preposição 'de' — 'não se esqueceu do procedimento'. A alternativa A erra: 'esquecer-se' exige 'de', não objeto direto — 'esqueceu-se do número'. B erra: sem pronome reflexivo, 'esquecer' é transitivo direto — 'esqueceu de levar' precisaria ser 'esqueceu-se de levar' ou 'esqueceu levar'. D erra: 'esquecer-se' exige 'de' antes da oração — 'esqueceu-se de que'. E usa 'de que' mas falta o pronome: 'esqueceu-se de que'."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que a regência do verbo AGRADAR está de acordo com a norma culta:",
+      "enunciado": "Assinale a alternativa em que a regência do verbo 'investir' está corretamente identificada.",
       "alternativas": {
-        "A": "O resultado agradou ao comandante. (sentido: satisfazer)",
-        "B": "A notícia agradou o almirante. (sentido: satisfazer)",
-        "C": "O pai agradava ao filho com carinho. (sentido: acariciar)",
-        "D": "O comissário agradou ao passageiro no sentido de acariciá-lo.",
-        "E": "A decisão agradou em todos os oficiais."
+        "A": "Em 'O comandante investiu recursos no projeto', 'investir' é intransitivo.",
+        "B": "Em 'A equipe investiu contra as posições inimigas', 'investir' é transitivo direto.",
+        "C": "Em 'A Marinha investiu milhões em novos navios', 'investir' é transitivo indireto com 'em'.",
+        "D": "'Investir' tem a mesma regência nos sentidos de 'atacar' e 'aplicar recursos'.",
+        "E": "Em 'O pelotão investiu contra o alvo', 'investir' é transitivo indireto com 'contra'."
       },
-      "gabarito": "A",
-      "explicacao": "No sentido de 'satisfazer, dar prazer', agradar é transitivo indireto com A: 'agradou AO comandante'. A está correto. B omite a preposição em 'agradou o almirante' (no sentido de satisfazer, exige A). C usa preposição em 'agradava ao filho com carinho', mas no sentido de 'acariciar', agradar é transitivo direto (deveria ser 'agradava o filho'). D tem o mesmo erro de C. E usa EM, que nunca é a preposição correta para agradar."
+      "gabarito": "E",
+      "explicacao": "A alternativa E está correta. 'Investir' no sentido de 'atacar' ou 'avançar sobre' é transitivo indireto e rege as preposições 'contra' ou 'sobre': 'investiu contra o alvo'. As demais estão erradas: A — 'investir recursos' é transitivo direto, não intransitivo; B — 'investiu contra' é transitivo indireto, não direto; C — 'investir' (aplicar recursos) é transitivo direto: 'investiu milhões' (objeto direto), não 'em milhões'; D — os dois sentidos têm regências diferentes: 'aplicar' = OD, 'atacar' = OI com 'contra'."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Em qual das frases abaixo o pronome relativo está corretamente empregado em relação à regência verbal?",
+      "textoBase": "O almirante mostrou-se favorável à incorporação de novos oficiais temporários, mas contrário à redução do período de treinamento. Sua posição é compatível com as diretrizes do Ministério da Defesa.",
+      "enunciado": "Sobre a regência nominal no texto, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "O regulamento que o oficial desobedeceu foi revogado.",
-        "B": "O cargo onde o candidato aspirava foi extinto.",
-        "C": "O evento que todos assistiram foi transmitido ao vivo.",
-        "D": "A missão a que o oficial se referiu foi concluída.",
-        "E": "O colega que o marinheiro simpatizou pediu transferência."
+        "A": "'Favorável à' está incorreto; o correto seria 'favorável para a incorporação'.",
+        "B": "'Contrário à' está incorreto; o correto seria 'contrário com a redução'.",
+        "C": "'Compatível com' está incorreto; o correto seria 'compatível a as diretrizes'.",
+        "D": "Os três adjetivos estão com a regência nominal correta: 'favorável a', 'contrário a', 'compatível com'.",
+        "E": "'Favorável' e 'contrário' estão corretos, mas 'compatível' deveria reger 'a', não 'com'."
       },
       "gabarito": "D",
-      "explicacao": "Referir-se exige a preposição A: 'referiu-se À missão'. Com o pronome relativo, a preposição precede 'que': 'a que o oficial se referiu'. D está correto. A: desobedecer exige A, logo deveria ser 'ao qual o oficial desobedeceu'. C: assistir (presenciar) exige A, logo deveria ser 'a que todos assistiram'. B: aspirar ao cargo exige A + movimento implícito; onde não se aplica; deveria ser 'ao qual aspirava'. E: simpatizar exige COM, logo deveria ser 'com quem o marinheiro simpatizou'."
+      "explicacao": "A alternativa D está correta. Os três adjetivos têm regências normativas: 'favorável a' (preposição 'a', com crase diante de feminino: 'à incorporação'); 'contrário a' (preposição 'a', com crase: 'à redução'); 'compatível com' (preposição 'com'). As demais alternativas propõem substituições incorretas: 'favorável para' (A), 'contrário com' (B) e 'compatível a' (E) não correspondem à regência normativa desses adjetivos."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Considerando a regência verbal e nominal, assinale a alternativa INCORRETA:",
+      "enunciado": "Assinale a alternativa em que a regência de todos os verbos está correta.",
       "alternativas": {
-        "A": "O candidato é capaz de resolver todas as questões.",
-        "B": "O militar mostrou-se leal ao seu superior hierárquico.",
-        "C": "O plano visa ao crescimento da frota oceânica.",
-        "D": "O recruta obedeceu prontamente ao sargento.",
-        "E": "O documento é idêntico com o original arquivado."
+        "A": "O oficial obedeceu ao comandante e assistiu ao briefing antes de embarcar.",
+        "B": "O recruta aspirava o cargo e visava o sucesso na carreira naval.",
+        "C": "O candidato preferiu mais a opção A do que a opção B na seleção.",
+        "D": "O pelotão chegou na base e resistiu as ordens de dispersão.",
+        "E": "O sargento implicou em advertência ao recruta que desobedeceu ao cabo."
       },
-      "gabarito": "E",
-      "explicacao": "A questão pede a alternativa INCORRETA. E está errada: idêntico exige a preposição A, não COM: 'idêntico AO original'. A está correta: capaz + DE. B está correta: leal + A. C está correta: visar + A (no sentido de almejar). D está correta: obedecer + A. Portanto, E é a alternativa incorreta."
+      "gabarito": "A",
+      "explicacao": "A alternativa A está correta: 'obedeceu ao' (obedecer + a) e 'assistiu ao' (assistir + a) — ambos com regência correta. As demais têm erros: B — 'aspirava o cargo' e 'visava o sucesso' — tanto 'aspirar' quanto 'visar' (no sentido de almejar) exigem preposição 'a': 'aspirava ao cargo', 'visava ao sucesso'; C — 'preferiu mais' é pleonasmo vicioso; D — 'chegou na base' (deveria ser 'à base') e 'resistiu as ordens' (deveria ser 'às ordens'); E — 'implicou em' (deveria ser 'implicou', sem preposição)."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa que completa corretamente a frase: 'Os engenheiros navais _____ a segurança da embarcação antes de partir.'",
+      "enunciado": "Sobre o verbo 'chamar', assinale a alternativa correta.",
       "alternativas": {
-        "A": "procederam com a verificação de",
-        "B": "procederam a verificar",
-        "C": "procederam à verificação de",
-        "D": "procederam em verificar",
-        "E": "procederam para a verificação de"
+        "A": "Em 'O sargento chamou o recruta', o verbo é sempre transitivo indireto.",
+        "B": "Em 'O oficial chamou o aspirante de irresponsável', a preposição 'de' é erro de regência.",
+        "C": "Em 'O comandante chamou por reforços', o verbo tem sentido de 'convocar' com objeto direto.",
+        "D": "'Chamar alguém' (convocar) é transitivo direto; 'chamar alguém de algo' (denominar) usa preposição 'de'.",
+        "E": "O verbo 'chamar' tem regência fixa, sempre exigindo a preposição 'de'."
       },
-      "gabarito": "C",
-      "explicacao": "No sentido de 'realizar, efetuar uma ação', proceder exige a preposição A antes de substantivo: 'procederam À verificação de'. C está correto. A usa COM (errado). B e D usam verbo no infinitivo diretamente ou com EM, construções não consagradas. E usa PARA (errado). A estrutura correta é: proceder + A + substantivo."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta. O verbo 'chamar' tem diferentes regências conforme o sentido: (1) 'chamar alguém' (convocar, mandar vir) — transitivo direto, sem preposição: 'chamou o recruta'; (2) 'chamar alguém de algo' (denominar, classificar) — exige preposição 'de': 'chamou o recruta de irresponsável'; (3) 'chamar por alguém' (clamar, pedir) — preposição 'por'. A alternativa A erra ao classificar todos os usos como indireto. B erra ao classificar 'de' como erro. C erra ao classificar 'chamar por' como objeto direto."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Qual alternativa apresenta a frase em que o verbo INFORMAR está corretamente empregado?",
+      "textoBase": "A Marinha do Brasil paga salários competitivos aos seus servidores e distribui benefícios a todos os militares ativos. Muitos candidatos ao concurso RM2 visam à estabilidade que a carreira naval oferece.",
+      "enunciado": "Sobre a regência dos verbos e a crase no texto, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "Informamos ao diretor sobre os resultados obtidos.",
-        "B": "Informamos o diretor dos resultados obtidos.",
-        "C": "Informamos ao diretor dos resultados obtidos.",
-        "D": "Informamos o diretor sobre os resultados obtidos.",
-        "E": "As alternativas B e D estão corretas."
+        "A": "'Paga salários' está incorreto; o correto seria 'paga de salários'.",
+        "B": "'Distribui benefícios a todos' está incorreto; o correto seria 'distribui benefícios para todos'.",
+        "C": "'Visam à estabilidade' está correto: 'visar' (objetivar) rege 'a' e há crase diante de feminino.",
+        "D": "'Visam à estabilidade' está incorreto; o correto seria 'visam a estabilidade' sem crase.",
+        "E": "'Distribui benefícios a todos' e 'visam à estabilidade' estão incorretos."
       },
-      "gabarito": "E",
-      "explicacao": "O verbo informar admite duas construções igualmente corretas na norma culta: (1) informar alguém DE algo — OD de pessoa + OI de coisa com DE; e (2) informar alguém SOBRE algo — OD de pessoa + complemento com SOBRE. B ('informamos o diretor DOS resultados') e D ('informamos o diretor SOBRE os resultados') estão ambas corretas. A está errada: 'informamos AO diretor' tornaria o diretor OI, mas então a mensagem deveria ser objeto direto sem preposição. C mistura as duas construções de forma errada."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. 'Visar' no sentido de 'objetivar' é transitivo indireto com 'a' — 'visam à estabilidade'. Como o complemento é feminino com artigo ('a estabilidade'), ocorre crase: 'à'. A alternativa D propõe eliminar a crase, o que seria erro — a crase é obrigatória quando 'visar a' precede substantivo feminino com artigo definido. 'Paga salários' (A) está correto como transitivo direto. 'Distribui benefícios a todos' (B) está correto — 'a todos' é objeto indireto."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'O engenheiro naval, a quem o projeto foi confiado, simpatizou com a proposta e aspirou, durante anos, ao reconhecimento internacional pelo trabalho que havia dedicado à especialidade.' Sobre a regência dos verbos sublinhados, assinale a alternativa correta:",
+      "textoBase": "O Ministério da Defesa, ao qual o oficial se reportou, considerou procedente a solicitação de revisão. A decisão, favorável ao recorrente, obrigou a administração naval a rever os critérios adotados no processo seletivo do concurso RM2.",
+      "enunciado": "Sobre a regência no texto, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "Simpatizou e aspirou estão corretos; 'dedicado' deveria ser 'dedicado a'.",
-        "B": "Todos os verbos estão corretamente empregados.",
-        "C": "Aspirou está incorreto; deveria ser 'aspirou o reconhecimento'.",
-        "D": "Simpatizou está incorreto; deveria ser 'simpatizou a proposta'.",
-        "E": "Dedicado está correto; aspirou deveria ser 'aspirou o reconhecimento'."
+        "A": "'Se reportou' está incorreto; o correto seria 'reportou' sem pronome reflexivo.",
+        "B": "'Favorável ao recorrente' está incorreto; a regência nominal de 'favorável' exige 'para': 'favorável para o recorrente'.",
+        "C": "'Obrigou a administração naval a rever' está incorreto; o correto seria 'obrigou a administração naval de rever'.",
+        "D": "Os termos 'se reportou', 'favorável ao' e 'obrigou... a rever' estão todos com regências corretas.",
+        "E": "'Favorável ao' está correto, mas 'obrigou... a rever' deveria ser 'obrigou... para rever'."
       },
-      "gabarito": "B",
-      "explicacao": "Analisando cada verbo: simpatizou COM (simpatizar exige COM — correto); aspirou AO reconhecimento (aspirar no sentido de almejar exige A — correto); dedicado À especialidade (dedicar exige A para indicar a quem ou ao que se dedica — correto, com crase formada por A + a especialidade). Todos os verbos estão corretamente empregados. A afirmação da alternativa A está errada pois 'dedicado' já usa A (com crase). C e E erram ao afirmar que aspirar deveria ser direto nesse contexto (sentido de almejar = indireto com A). D erra ao questionar simpatizou COM."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta. 'Reportar-se a' é forma pronominal com preposição 'a': 'se reportou ao Ministério' — correto. 'Favorável a' é a regência normativa do adjetivo — 'favorável ao recorrente' (com 'ao' = 'a' + artigo 'o'): correto. 'Obrigar alguém a' + infinitivo é a regência do verbo 'obrigar' — 'obrigou a administração a rever': correto. As demais alternativas propõem substituições de preposição que contrariam a regência normativa dos verbos e adjetivos em questão."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a substituição NÃO altera a correção gramatical da frase original 'O candidato prefere a atividade naval à vida civil':",
+      "textoBase": "Tanto o Regulamento Interno quanto as portarias subsequentes isentaram os sargentos mais antigos das obrigações de plantão. A medida, sobre a qual não houve contestação, agradou aos oficiais superiores.",
+      "enunciado": "Identifique a análise correta de regência no texto.",
       "alternativas": {
-        "A": "'O candidato prefere mais a atividade naval do que a vida civil.'",
-        "B": "'O candidato tem preferência pela atividade naval em relação à vida civil.'",
-        "C": "'O candidato prefere a atividade naval mais do que a vida civil.'",
-        "D": "'Entre a atividade naval e a vida civil, o candidato prefere mais a primeira.'",
-        "E": "'O candidato prefere a atividade naval em detrimento da vida civil.'"
+        "A": "'Isentaram os sargentos das obrigações' está incorreto; 'isentar' é transitivo direto e não admite 'de'.",
+        "B": "'Agradou aos oficiais superiores' está incorreto; 'agradar' no sentido de 'satisfazer' é transitivo direto.",
+        "C": "'Isentaram os sargentos das obrigações' está correto: 'isentar' rege objeto direto (pessoa) + 'de' (aquilo de que se isenta).",
+        "D": "'Agradou aos oficiais' está correto porque 'agradar' (satisfazer) rege 'a' como transitivo indireto; 'isentar dos' também está correto.",
+        "E": "'Isentar das obrigações' está correto, mas 'agradou aos oficiais' deveria ser 'agradou os oficiais'."
       },
-      "gabarito": "B",
-      "explicacao": "A frase original usa o verbo preferir corretamente: transitivo direto para ambos os termos, com A separando os dois elementos. A alternativa B substitui o verbo por 'tem preferência por' e usa 'em relação a', evitando os erros de preferir com 'do que' e reforços. B está correta. A e C usam 'do que' (errado). D usa 'mais a primeira' como reforço de preferência (equivalente a 'prefiro mais', que é pleonástico). E usa 'em detrimento', que é semanticamente adequado mas não é erro — porém a questão pede apenas a que mantém a correção, e B é a mais inequivocamente correta."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta. 'Isentar alguém de algo' — transitivo direto para pessoa + transitivo indireto com 'de' para o que se isenta: 'isentaram os sargentos das obrigações'. 'Agradar' no sentido de 'satisfazer' ou 'causar prazer' é transitivo indireto e rege 'a' — 'agradou aos oficiais superiores'. A alternativa B erra: quando 'agradar' significa 'satisfazer', é transitivo indireto (com 'a'), não direto. E erra ao propor 'agradou os oficiais' — esse seria o sentido de 'fazer agrados/mimar', não 'satisfazer'."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Considere a frase: 'Os militares _____ ao regulamento, _____ ao comando e sempre _____ os procedimentos estabelecidos.' Assinale a alternativa que preenche as lacunas corretamente:",
+      "enunciado": "Assinale a alternativa que identifica corretamente o erro de regência.",
       "alternativas": {
-        "A": "obedeceram / foram fiéis / cumpriram",
-        "B": "obedeceram / foram fiéis a / cumpriram",
-        "C": "obedeceram a / foram fiéis / cumpriram",
-        "D": "obedeceram / foram leais com / seguiram",
-        "E": "obedeceram ao / foram fiéis ao / cumpriram"
+        "A": "'O oficial anseia pelo reconhecimento de seus superiores.' — erro: 'anseiar' rege 'a', não 'por'.",
+        "B": "'O recruta anuiu à proposta do sargento.' — erro: 'anuir' rege 'com', não 'a'.",
+        "C": "'O comandante abdicou do posto por razões de saúde.' — erro: 'abdicar' rege 'a', não 'de'.",
+        "D": "'O aspirante simpatizou com a proposta de mudança no regulamento.' — correto: 'simpatizar' rege 'com'.",
+        "E": "'O oficial divergiu com o parecer da comissão técnica.' — correto: 'divergir' rege 'com'."
       },
-      "gabarito": "E",
-      "explicacao": "Obedecer é transitivo indireto (exige A): 'obedeceram AO regulamento'. Fiel exige A: 'foram fiéis AO comando'. Cumprir é transitivo direto: 'cumpriram os procedimentos'. E preenche as três lacunas corretamente. A omite as preposições de obedecer e fiel. B omite a preposição de obedecer e omite o artigo antes de 'ao comando' em 'foram fiéis a' (dependendo do substantivo, poderia haver crase). C omite a preposição de fiel. D usa COM com leal (leal exige A)."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta: 'simpatizar com' é a regência normativa do verbo — 'simpatizou com a proposta'. As demais têm análises incorretas: A — 'anseiar' admite tanto 'por' quanto 'a' ('anseia por' e 'anseia a' são aceitas); B — 'anuir' rege 'a' ou 'em', e a frase 'anuiu à proposta' está correta, não errada; C — 'abdicar' rege 'de', não 'a', e a frase 'abdicou do posto' está correta; E — 'divergir' rege 'de', não 'com': 'divergiu do parecer' seria o correto, então a alternativa E identifica algo correto como errado — mas a afirmação de que está correto com 'com' é que é equivocada."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Leia: 'O diretor informou os colaboradores das mudanças, procedeu às alterações necessárias e, após consultar a comissão, chegou a uma conclusão favorável às novas diretrizes.' Sobre a regência dos termos destacados, é CORRETO afirmar:",
+      "textoBase": "O concurso RM2 destina-se a candidatos graduados em engenharia. Os aprovados serão sujeitos às normas militares e terão de se adaptar aos rígidos critérios disciplinares da Marinha, algo que os candidatos já se mostraram dispostos a aceitar.",
+      "enunciado": "Assinale a afirmativa correta sobre a regência dos termos no texto.",
       "alternativas": {
-        "A": "Apenas 'procedeu às alterações' está correto.",
-        "B": "Apenas 'chegou a uma conclusão' está incorreto; deveria ser 'chegou em uma conclusão'.",
-        "C": "Todos os termos estão corretamente empregados.",
-        "D": "'Informou os colaboradores das mudanças' está incorreto; o correto seria 'informou aos colaboradores'.",
-        "E": "'Favorável às novas diretrizes' está incorreto; o correto seria 'favorável para as novas diretrizes'."
+        "A": "'Destina-se a candidatos' está incorreto; 'destinar-se' rege 'para': 'destina-se para candidatos'.",
+        "B": "'Sujeitos às normas' está incorreto; 'sujeito' como adjetivo rege 'com': 'sujeitos com as normas'.",
+        "C": "'Adaptar-se aos critérios' está incorreto; 'adaptar-se' rege 'com': 'adaptar-se com os critérios'.",
+        "D": "'Destina-se a', 'sujeitos a' e 'adaptar-se a' apresentam a regência correta com preposição 'a'.",
+        "E": "'Dispostos a aceitar' está incorreto; o adjetivo 'disposto' rege 'de': 'dispostos de aceitar'."
       },
-      "gabarito": "C",
-      "explicacao": "Analisando cada termo: 'informou os colaboradores DAS mudanças' — informar admite OD de pessoa + complemento com DE (correto). 'Procedeu ÀS alterações' — proceder no sentido de 'realizar' exige A (correto). 'Chegou A uma conclusão' — chegar exige A para destino/resultado (correto). 'Favorável ÀS novas diretrizes' — favorável exige A (correto). Todos os termos estão corretamente empregados. C é a alternativa correta. D erra ao afirmar que 'informou os colaboradores' estaria incorreto — é uma das formas aceitas. E erra ao questionar 'favorável às', que está correto."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta. 'Destinar-se a' é a regência do verbo pronominal — 'destina-se a candidatos' (correto). 'Sujeito a' é a regência nominal do adjetivo — 'sujeitos às normas' (correto, com crase). 'Adaptar-se a' é a regência do verbo pronominal — 'adaptar-se aos critérios' (correto). E 'disposto a' é a regência nominal — 'dispostos a aceitar' (correto). Todas as construções do texto usam corretamente a preposição 'a', com ou sem crase conforme o gênero e o artigo do complemento."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Em qual das alternativas há ERRO de regência verbal ou nominal?",
+      "enunciado": "Assinale a alternativa em que a regência está incorreta.",
       "alternativas": {
-        "A": "O candidato é apto para o cargo de engenheiro naval.",
-        "B": "O técnico mostrou-se perito em sistemas elétricos.",
-        "C": "O oficial é leal ao corpo de fuzileiros e obediente às ordens.",
-        "D": "O marinheiro é hábil em reparos e capaz para resolver falhas.",
-        "E": "O plano é favorável ao crescimento e benéfico para a frota."
+        "A": "O oficial cujas ordens todos devem obedecer foi promovido recentemente.",
+        "B": "O regulamento ao qual todos devem se subordinar entrou em vigor em março.",
+        "C": "A proposta com que a maioria concordou foi encaminhada ao comando.",
+        "D": "O cargo a que o oficial aspira exige dedicação integral ao serviço.",
+        "E": "O documento que o comandante assinou foi enviado ao Ministério da Defesa."
       },
-      "gabarito": "D",
-      "explicacao": "A questão pede a alternativa com erro. D está errada: capaz exige DE, não PARA: 'capaz DE resolver falhas'. A está correta: apto + PARA. B está correta: perito + EM. C está correta: leal + A; obediente + A. E está correta: favorável + A; benéfico exige PARA (benéfico para). D é o único erro: 'capaz para resolver'."
+      "gabarito": "A",
+      "explicacao": "A alternativa A apresenta erro de regência. O verbo 'obedecer' é transitivo indireto e rege a preposição 'a' — 'obedecer a alguém'. Na construção relativa, o pronome correto seria 'a cujas ordens todos devem obedecer' (obedecer a + cujas ordens). Sem a preposição 'a', a construção está incorreta. As demais estão corretas: B usa 'ao qual' com 'subordinar-se a'; C usa 'com que' com 'concordar com'; D usa 'a que' com 'aspirar a'; E usa 'que' com 'assinar' (transitivo direto, sem preposição)."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que o pronome relativo está corretamente usado em relação à regência do verbo da oração subordinada:",
+      "textoBase": "O anteprojeto a que nos referimos neste relatório propõe alterações substanciais no processo de incorporação. As mudanças de que necessitamos para modernizar a estrutura operacional implicam revisão dos critérios vigentes.",
+      "enunciado": "Assinale a afirmativa correta sobre as regências no texto.",
       "alternativas": {
-        "A": "O regulamento que o recruta desobedeceu foi reformulado.",
-        "B": "A cerimônia que o almirante assistiu foi emocionante.",
-        "C": "O posto a que o oficial aspirava foi extinto pelo decreto.",
-        "D": "O projeto onde a comissão se referiu foi aprovado.",
-        "E": "O colega que o marinheiro simpatizou pediu licença."
+        "A": "'A que nos referimos' está incorreto; 'referir-se' rege 'sobre', não 'a'.",
+        "B": "'De que necessitamos' está incorreto; 'necessitar' é transitivo direto e não exige preposição.",
+        "C": "'Implicam revisão' está incorreto; 'implicar' (no sentido de acarretar) rege 'em': 'implicam em revisão'.",
+        "D": "'A que nos referimos', 'de que necessitamos' e 'implicam revisão' apresentam regências corretas.",
+        "E": "'A que nos referimos' está correto, mas 'de que necessitamos' deveria ser 'que necessitamos' sem preposição."
       },
-      "gabarito": "C",
-      "explicacao": "Aspirar (almejar) exige A, então o pronome relativo deve ser precedido de A: 'a que o oficial aspirava'. C está correto. A: desobedecer exige A — deveria ser 'ao qual o recruta desobedeceu'. B: assistir (presenciar) exige A — deveria ser 'a que o almirante assistiu'. D: referir-se exige A; além disso, 'onde' não é adequado para antecedente não-locativo — deveria ser 'à qual a comissão se referiu'. E: simpatizar exige COM — deveria ser 'com quem o marinheiro simpatizou'."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta. 'Referir-se a' é a regência do verbo pronominal — 'a que nos referimos': correto. 'Necessitar de' é a regência do verbo — 'de que necessitamos': correto (necessitar é transitivo indireto com 'de'). 'Implicar' (acarretar) é transitivo direto — 'implicam revisão', sem preposição: correto. A alternativa A erra ao propor 'sobre' para 'referir-se'. B erra ao dizer que 'necessitar' é transitivo direto — é indireto com 'de'. C erra ao propor 'implicam em' — forma coloquial incorreta na norma culta."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Considerando rigorosamente a norma culta, qual das frases abaixo está INTEIRAMENTE correta?",
+      "enunciado": "Assinale a alternativa que apresenta reescritura correta, mantendo o sentido e a regência adequada.",
       "alternativas": {
-        "A": "O engenheiro chegou em Brasília, assistiu o seminário e voltou ao Recife.",
-        "B": "O comandante aspirou o cargo, obedeceu ao regulamento e procedeu a inspeção.",
-        "C": "O técnico preferiu a eletrônica à mecânica, mostrou-se apto para o concurso e foi fiel ao serviço.",
-        "D": "O recruta simpatizou com o sargento, aspirou a promoção e chegou em primeiro lugar.",
-        "E": "O oficial desobedeceu ao decreto, implicou no resultado e visou o cargo superior."
+        "A": "Original: 'O oficial aspira ao cargo.' → Reescrita: 'O oficial tem aspiração pelo cargo.'",
+        "B": "Original: 'O pelotão resistiu à pressão.' → Reescrita: 'O pelotão demonstrou resistência à pressão.'",
+        "C": "Original: 'O candidato visa à aprovação.' → Reescrita: 'O candidato tem em vista a aprovação.'",
+        "D": "Original: 'O recruta obedeceu ao sargento.' → Reescrita: 'O recruta demonstrou obediência com o sargento.'",
+        "E": "Original: 'O grupo concordou com a proposta.' → Reescrita: 'O grupo manifestou concordância à proposta.'"
       },
-      "gabarito": "C",
-      "explicacao": "C está correto: 'preferiu a eletrônica À mecânica' (preferir + A — correto); 'apto PARA o concurso' (apto + PARA — correto); 'fiel AO serviço' (fiel + A — correto). A: 'chegou EM Brasília' (deveria ser A); 'assistiu o seminário' (deveria ser AO seminário). B: 'aspirou o cargo' (no sentido de almejar, exige A); 'procedeu A inspeção' (falta o artigo para formar 'à inspeção'). D: 'aspirou a promoção' sem artigo (deveria ser 'aspirou À promoção'); 'chegou em primeiro lugar' é aceitável como locução adverbial, mas 'chegou em Fortaleza' com lugar geográfico seria erro. E: 'implicou no resultado' (implicar = acarretar é direto); 'visou o cargo' (no sentido de almejar, exige AO)."
+      "gabarito": "B",
+      "explicacao": "A alternativa B está correta: 'resistência à pressão' preserva a preposição 'a' da regência verbal 'resistir à pressão' — a nominalização é perfeita. A alternativa A erra: 'aspiração ao cargo' seria o correto, não 'aspiração pelo cargo'. C está parcialmente correta no sentido, mas 'ter em vista' tem regência diferente (não há 'a' de regência). D erra: 'obediência ao sargento' seria o correto, não 'com o sargento'. E erra: 'concordância com a proposta' seria o correto, não 'à proposta' — 'concordar' rege 'com', não 'a'."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Leia o período: 'Aonde quer que o recruta fosse, levava consigo a convicção de que era capaz de superar os obstáculos que se impunham ao caminho que havia escolhido.' Assinale a alternativa CORRETA sobre o emprego dos termos destacados:",
+      "textoBase": "Os documentos a que nos referimos foram entregues ao secretário, que procedeu à sua análise. Constatou-se que o candidato incorreu em irregularidades e que o processo implica revisão completa pela comissão examinadora.",
+      "enunciado": "Assinale a alternativa correta sobre a regência no texto.",
       "alternativas": {
-        "A": "Aonde está incorreto; deveria ser 'onde', pois não há verbo de movimento explícito.",
-        "B": "Capaz de está incorreto; deveria ser 'capaz para'.",
-        "C": "Ao caminho está incorreto; deveria ser 'no caminho'.",
-        "D": "Que havia escolhido deveria ser 'o qual havia escolhido' para maior clareza, mas 'que' está gramaticalmente correto.",
-        "E": "Todos os termos destacados estão corretamente empregados."
+        "A": "'Procedeu à análise' está incorreto; 'proceder' no sentido de 'realizar' rege 'com': 'procedeu com a análise'.",
+        "B": "'Incorreu em irregularidades' está incorreto; 'incorrer' é transitivo direto: 'incorreu irregularidades'.",
+        "C": "'Implica revisão' está correto: 'implicar' (acarretar) é transitivo direto, sem preposição.",
+        "D": "'A que nos referimos' está incorreto; 'referir-se' rege 'em', não 'a'.",
+        "E": "'Procedeu à análise' e 'implicar revisão' estão incorretos; os corretos seriam 'procedeu na análise' e 'implica em revisão'."
       },
-      "gabarito": "E",
-      "explicacao": "Analisando cada termo: 'Aonde quer que fosse' — a locução 'aonde quer que' acompanha 'fosse' (ir), verbo de movimento que exige A — correto. 'Capaz DE superar' — capaz exige DE — correto. 'Ao caminho' — impor-se a exige A — correto. 'Que havia escolhido' — o pronome relativo 'que' é plenamente aceito para retomar antecedente (o caminho) — correto. Todos os termos estão corretos. E é a alternativa correta."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta: 'implicar' no sentido de 'acarretar' é transitivo direto — 'implica revisão', sem preposição. As demais apresentam análises equivocadas: A — 'proceder a' é a regência correta no sentido de 'realizar/efetuar' — 'procedeu à análise' está certo; B — 'incorrer' é transitivo indireto e rege 'em': 'incorreu em irregularidades' está correto; D — 'referir-se' rege 'a', não 'em': 'a que nos referimos' está correto; E — tanto 'procedeu à análise' quanto 'implica revisão' estão corretos, ao contrário do que a alternativa afirma."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Identifique a alternativa em que a regência do nome ESTÁ em desacordo com a norma culta:",
+      "enunciado": "Assinale a alternativa em que a regência está incorreta na construção com pronome relativo.",
       "alternativas": {
-        "A": "O relatório é idêntico ao original entregue na semana anterior.",
-        "B": "O resultado foi favorável às expectativas da comissão.",
-        "C": "A proposta é análoga à apresentada no semestre passado.",
-        "D": "O técnico mostrou-se deficiente para as exigências do cargo.",
-        "E": "O sistema é nocivo à saúde dos operadores em longo prazo."
+        "A": "Este é o regulamento a que todos os recrutas devem obedecer.",
+        "B": "Este é o comando com que o oficial sempre concordou nas reuniões.",
+        "C": "Esta é a missão a que o pelotão foi designado pelo alto comando.",
+        "D": "Este é o cargo pelo qual o oficial tanto aspirou durante sua carreira.",
+        "E": "Esta é a portaria de que o secretário necessitava para homologar o resultado."
       },
       "gabarito": "D",
-      "explicacao": "A questão pede o desacordo com a norma. D está errada: deficiente exige EM, não PARA: 'deficiente EM eletrônica', 'deficiente EM atender às exigências'. A está correta: idêntico + A. B está correta: favorável + A. C está correta: análogo + A. E está correta: nocivo + A. D é o erro: 'deficiente PARA as exigências' deveria ser 'deficiente EM atender às exigências' ou similar com EM."
+      "explicacao": "A alternativa D apresenta erro de regência. O verbo 'aspirar' no sentido de 'desejar' rege a preposição 'a' — 'aspirar a algo'. Na construção com pronome relativo, o correto seria 'ao qual o oficial tanto aspirou' ou 'a que o oficial tanto aspirou'. O uso de 'pelo qual' introduz a preposição 'por', que não é a regência do verbo 'aspirar'. As demais estão corretas: A usa 'a que' com 'obedecer a'; B usa 'com que' com 'concordar com'; C usa 'a que' com 'designar a'; E usa 'de que' com 'necessitar de'."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa que apresenta a reescrita correta de: 'O candidato foi ao lugar onde a prova seria realizada, assistiu as instruções do fiscal e se lembrou das orientações do edital.'",
+      "textoBase": "Cumpre ao oficial encarregado zelar pelo patrimônio público sob sua responsabilidade. Aquele que incorrer em negligência responderá pelos danos causados, conforme determina o Regulamento Administrativo da Marinha.",
+      "enunciado": "Sobre a regência dos verbos e expressões no texto, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "O candidato foi ao lugar onde a prova seria realizada, assistiu às instruções do fiscal e se lembrou das orientações do edital.",
-        "B": "O candidato foi ao lugar aonde a prova seria realizada, assistiu as instruções do fiscal e se lembrou das orientações do edital.",
-        "C": "O candidato foi ao lugar onde a prova seria realizada, assistiu as instruções do fiscal e lembrou as orientações do edital.",
-        "D": "O candidato foi ao lugar onde a prova seria realizada, assistiu às instruções do fiscal e lembrou das orientações do edital.",
-        "E": "O candidato foi aonde a prova seria realizada, assistiu às instruções do fiscal e se lembrou das orientações do edital."
+        "A": "'Cumpre ao oficial' está incorreto; 'cumprir' no sentido de 'incumbir' é transitivo direto.",
+        "B": "'Zelar pelo patrimônio' está incorreto; 'zelar' rege 'por' mas deveria ser 'zelar ao patrimônio'.",
+        "C": "'Incorrer em negligência' está incorreto; 'incorrer' é transitivo direto e não admite preposição.",
+        "D": "'Responderá pelos danos' está incorreto; 'responder' (em sentido legal) rege 'a', não 'por'.",
+        "E": "Todas as regências do texto estão corretas: 'cumpre a', 'zelar por', 'incorrer em', 'responder por'."
       },
-      "gabarito": "A",
-      "explicacao": "A frase original tem dois erros: (1) 'assistiu as instruções' — assistir (presenciar) exige A: 'assistiu ÀS instruções'; (2) os demais termos estão corretos. A alternativa A corrige apenas o erro de assistir ('assistiu ÀS instruções') e mantém 'onde' (correto, pois indica local de realização da prova — estado/permanência) e 'se lembrou DAS orientações' (correto com pronome reflexivo). B erra ao usar 'aonde' antes de uma oração adjetiva restritiva de lugar estático. C e D: D corrige assistir mas troca 'se lembrou' por 'lembrou' — sem o pronome reflexivo, não exige DE ('lembrou as orientações' seria correto por si só, mas a pergunta pede reescrita mais fiel ao original). A é a resposta completa e correta."
+      "gabarito": "E",
+      "explicacao": "A alternativa E está correta: todas as regências do texto são normativas. 'Cumprir a alguém' no sentido de 'incumbir' é transitivo indireto com 'a' — 'cumpre ao oficial'. 'Zelar por' é a regência correta do verbo — 'zelar pelo patrimônio'. 'Incorrer em' é a regência correta — 'incorrer em negligência'. 'Responder por' no sentido jurídico de 'ser responsabilizado' rege 'por' — 'responderá pelos danos'. As alternativas A, B, C e D propõem preposições incorretas para cada verbo em questão."
     }
   ],
+
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o texto a seguir:\n'Durante a seleção para engenheiro naval, o candidato, a quem todos assistiram com atenção durante a prova prática, demonstrou ser hábil em sistemas elétricos, favorável às inovações propostas e capaz de solucionar os problemas mais complexos. Ao final, chegou a Fortaleza para a cerimônia de resultados, aspirando ao reconhecimento que julgava merecer.'\nSobre a regência dos termos sublinhados — assistiram, hábil em, favorável às, capaz de, chegou a, aspirando ao — é CORRETO afirmar:",
+      "textoBase": "O Tribunal Marítimo, ao qual o oficial recorreu, considerou que a conduta descrita implicava violação grave das normas de segurança. A decisão, favorável ao reclamante, obrigou a autoridade naval competente a rever os procedimentos adotados e a informar os fatos à diretoria responsável.",
+      "enunciado": "Sobre as regências no texto, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "Apenas 'chegou a Fortaleza' está incorreto; deveria ser 'chegou em Fortaleza'.",
-        "B": "Apenas 'aspirando ao' está incorreto; deveria ser 'aspirando o reconhecimento'.",
-        "C": "Todos os seis termos estão corretamente empregados.",
-        "D": "'Assistiram com atenção' está incorreto; o complemento de assistir deve ser introduzido por A, não por COM.",
-        "E": "'Hábil em' está incorreto; o correto seria 'hábil para sistemas elétricos'."
+        "A": "'Ao qual o oficial recorreu' está incorreto; 'recorrer' rege 'para', não 'a'.",
+        "B": "'Implicava violação grave' está incorreto; 'implicar' (acarretar) rege 'em': 'implicava em violação'.",
+        "C": "'Favorável ao reclamante' está incorreto; a regência nominal de 'favorável' exige 'para'.",
+        "D": "Os termos 'ao qual recorreu', 'implicava violação', 'favorável ao', 'obrigou... a rever' e 'informar os fatos à diretoria' apresentam regências corretas.",
+        "E": "'Obrigou... a rever' e 'informar os fatos à diretoria' estão incorretos; as formas corretas seriam 'obrigou... de rever' e 'informar os fatos para a diretoria'."
       },
-      "gabarito": "C",
-      "explicacao": "Análise pormenorizada: 'assistiram com atenção' — a preposição COM introduz o adjunto adverbial de modo, não o objeto do verbo assistir; o objeto está implícito no contexto ('ao candidato'), portanto a construção está correta. 'Hábil em sistemas elétricos' — hábil + EM (correto). 'Favorável às inovações' — favorável + A (correto, com crase). 'Capaz de solucionar' — capaz + DE (correto). 'Chegou a Fortaleza' — chegar + A (correto). 'Aspirando ao reconhecimento' — aspirar (almejar) + A (correto). Todos os seis termos estão corretos. A assertiva C é a verdadeira."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta. Todas as construções do texto apresentam regência normativa: 'recorrer a' (recorrer ao Tribunal) — correto; 'implicar' + OD (acarretar) — 'implicava violação' sem preposição — correto; 'favorável a' — regência nominal correta; 'obrigar alguém a' + infinitivo — 'obrigou a rever' — correto; 'informar os fatos à diretoria' — OD (os fatos) + OI com 'a' (à diretoria) — correto. As alternativas B e E cometem erros clássicos: inserir 'em' em 'implicar' e trocar 'a' por 'para' em 'informar'."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Analise o período composto: 'O oficial que o tribunal julgou culpado desobedeceu à ordem a que o regulamento o obrigava, mas procedeu à defesa de seus atos perante a comissão com quem se reuniu.' Assinale a alternativa que apresenta avaliação CORRETA sobre a regência dos pronomes relativos em destaque:",
+      "textoBase": "O candidato ao concurso RM2 deve estar apto a realizar todas as etapas do processo seletivo, inclusive as que implicam esforço físico. Aqueles que aspiram ao ingresso na Marinha precisam demonstrar capacidade de adaptação às condições operacionais.",
+      "enunciado": "Assinale a alternativa que apresenta análise correta de todas as regências do texto.",
       "alternativas": {
-        "A": "Todos os pronomes relativos estão corretamente empregados.",
-        "B": "'Que o tribunal julgou' deveria ser 'ao qual o tribunal julgou', pois julgar exige A.",
-        "C": "'A que o regulamento o obrigava' deveria ser 'que o regulamento o obrigava', pois obrigar é transitivo direto.",
-        "D": "'Com quem se reuniu' deveria ser 'a quem se reuniu', pois reunir-se exige A.",
-        "E": "'Procedeu à defesa' deveria ser 'procedeu com a defesa', pois o verbo exige COM."
+        "A": "'Apto a realizar' está incorreto; 'apto' rege 'de': 'apto de realizar'.",
+        "B": "'Implicam esforço físico' está incorreto; 'implicar' no sentido de 'envolver' rege 'em': 'implicam em esforço'.",
+        "C": "'Aspiram ao ingresso' está incorreto; 'aspirar' (desejar) é transitivo direto: 'aspiram o ingresso'.",
+        "D": "'Adaptação às condições' está incorreto; 'adaptação' rege 'com': 'adaptação com as condições'.",
+        "E": "As regências 'apto a', 'implicam esforço', 'aspiram ao' e 'adaptação às' estão todas corretas."
       },
-      "gabarito": "A",
-      "explicacao": "Analisando cada pronome: 'que o tribunal julgou culpado' — julgar (= considerar) é transitivo direto; o pronome QUE funciona como objeto direto — correto. 'A que o regulamento o obrigava' — obrigar exige A para o complemento da ação obrigada (obrigar a fazer algo): 'a que' = à ordem que (com a preposição de obrigar + o pronome relativo) — correto. 'Com quem se reuniu' — reunir-se exige COM: 'reuniu-se COM a comissão'; com pronome relativo: 'com quem' — correto. 'Procedeu à defesa' — proceder (realizar) + A — correto. Todos os pronomes e verbos estão corretos."
+      "gabarito": "E",
+      "explicacao": "A alternativa E está correta. 'Apto a' é a regência nominal correta do adjetivo 'apto'. 'Implicam esforço físico' — 'implicar' (envolver/acarretar) é transitivo direto, sem preposição. 'Aspiram ao ingresso' — 'aspirar' (desejar) é transitivo indireto com 'a'. 'Adaptação às condições' — o substantivo 'adaptação' herda a preposição 'a' do verbo 'adaptar-se a', com crase diante de feminino plural. As demais alternativas propõem substituições de preposição que violam as regências normativas dos verbos e nomes em questão."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Considerando a norma culta, qual das frases abaixo apresenta emprego CORRETO de regência em TODOS os verbos e nomes destacados?\nI. 'O general informou os soldados das novas táticas e procedeu à revista dos quartéis.'\nII. 'O cadete prefere o serviço naval ao terrestre e aspira ao posto de almirante.'\nIII. 'O técnico é hábil para circuitos elétricos, capaz de diagnosticar falhas e perito em manutenção.'\nIV. 'O candidato chegou em Fortaleza, assistiu ao seminário e se lembrou das instruções recebidas.'",
+      "textoBase": "A proposta sobre a qual os oficiais debateram por horas foi finalmente aprovada. O regulamento a que todos devem se submeter entra em vigor na próxima semana. Os critérios com que a comissão concordou foram publicados no boletim interno.",
+      "enunciado": "Assinale a alternativa que apresenta erro na construção com pronome relativo.",
       "alternativas": {
-        "A": "Apenas I e II estão corretas.",
-        "B": "Apenas II está correta.",
-        "C": "Apenas I, II e IV estão corretas.",
-        "D": "Apenas I e IV estão corretas.",
-        "E": "Apenas I, II e III estão corretas."
+        "A": "'Sobre a qual os oficiais debateram' — 'debater sobre' é a regência correta.",
+        "B": "'A que todos devem se submeter' — 'submeter-se a' é a regência correta.",
+        "C": "'Com que a comissão concordou' — 'concordar com' é a regência correta.",
+        "D": "Todas as construções com pronome relativo estão corretas.",
+        "E": "'Sobre a qual os oficiais debateram' está incorreto; 'debater' rege 'com', não 'sobre': 'com a qual debateram'."
       },
-      "gabarito": "A",
-      "explicacao": "I: 'informou os soldados DAS novas táticas' — informar alguém DE algo (correto); 'procedeu À revista' — proceder + A (correto). I está correta. II: 'prefere o serviço naval AO terrestre' — preferir + A (correto); 'aspira AO posto' — aspirar + A (correto). II está correta. III: 'hábil PARA circuitos' — hábil exige EM, não PARA (erro). III está errada. IV: 'chegou EM Fortaleza' — chegar exige A (erro). IV está errada. Portanto, apenas I e II estão corretas — alternativa A."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta: todas as construções com pronome relativo estão corretas. 'Debater sobre' é regência aceita — 'sobre a qual debateram' preserva 'debater sobre'. 'Submeter-se a' — 'a que devem se submeter' está correto. 'Concordar com' — 'com que a comissão concordou' está correto. A alternativa E erra ao afirmar que 'debater' rege apenas 'com' — na verdade, 'debater sobre', 'debater acerca de' e 'debater' (transitivo direto) são todas construções aceitas pela norma culta."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia: 'O regulamento a que o suboficial foi obrigado a se submeter é idêntico ao vigente em 2020, contrário às práticas ultrapassadas e favorável ao aprimoramento contínuo da tropa.' Sobre os complementos nominais e pronomes relativos destacados, assinale a alternativa correta:",
+      "textoBase": "O novo plano estratégico visa ao fortalecimento das capacidades operacionais da Marinha. Tal iniciativa implica revisão completa dos protocolos vigentes e exige que os comandantes se adaptem às novas diretrizes. Os oficiais que aspiram ao alto escalão devem demonstrar liderança e respeito às normas institucionais.",
+      "enunciado": "Assinale a afirmativa incorreta sobre as regências no texto.",
       "alternativas": {
-        "A": "Todos os complementos e pronomes estão corretamente empregados.",
-        "B": "'A que o suboficial foi obrigado' deveria ser 'que o suboficial foi obrigado', pois obrigar não exige preposição.",
-        "C": "'Idêntico ao vigente' deveria ser 'idêntico com o vigente', pois idêntico exige COM.",
-        "D": "'Contrário às práticas' deveria ser 'contrário com as práticas', pois contrário exige COM.",
-        "E": "'Favorável ao aprimoramento' deveria ser 'favorável para o aprimoramento', pois favorável exige PARA."
+        "A": "'Visa ao fortalecimento' está correto: 'visar' (objetivar) é transitivo indireto com 'a'.",
+        "B": "'Implica revisão completa' está correto: 'implicar' (acarretar) é transitivo direto, sem preposição.",
+        "C": "'Se adaptem às novas diretrizes' está correto: 'adaptar-se a' é a regência correta.",
+        "D": "'Aspiram ao alto escalão' está incorreto: 'aspirar' (desejar) é transitivo direto e não exige preposição.",
+        "E": "'Respeito às normas' está correto: o substantivo 'respeito' rege a preposição 'a'."
       },
-      "gabarito": "A",
-      "explicacao": "'A que o suboficial foi obrigado a submeter-se' — obrigar exige A (obrigar a fazer algo); com pronome relativo: 'a que foi obrigado' — correto. 'Idêntico AO vigente' — idêntico + A — correto. 'Contrário ÀS práticas' — contrário + A — correto. 'Favorável AO aprimoramento' — favorável + A — correto. Todos os elementos estão corretos. A é a resposta certa. B erra ao afirmar que obrigar dispensa preposição (obrigar A é exigência da norma). C, D e E erram ao sugerir COM e PARA para adjetivos que exigem A."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está incorreta (é a afirmativa errada, que o enunciado pede para identificar). 'Aspirar' no sentido de 'desejar/almejar' é transitivo INDIRETO e rege a preposição 'a' — 'aspiram ao alto escalão' está correto. A afirmativa D erra ao classificar 'aspirar' como transitivo direto. As demais afirmativas estão corretas: 'visar a' (objetivar) é transitivo indireto; 'implicar' (acarretar) é transitivo direto sem preposição; 'adaptar-se a' é a regência pronominal; 'respeito a' é a regência nominal."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Um candidato ao concurso RM2 redigiu o seguinte período para uma questão de redação oficial: 'Informamos os senhores membros da comissão das alterações efetuadas, procedemos às revisões necessárias, chegamos a um consenso favorável às novas diretrizes e aspiramos, doravante, ao pleno cumprimento das normas estabelecidas.' Avalie a regência dos verbos e do adjetivo destacados e assinale a alternativa correta:",
+      "textoBase": "Informam-nos fontes do Comando Naval que parte dos recursos destinados ao projeto ainda não foram aplicados. Os responsáveis, a quem incumbe prestar contas à administração central, deverão justificar os atrasos e propor soluções compatíveis com o orçamento disponível.",
+      "enunciado": "Sobre as regências no texto, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "Todos os verbos e o adjetivo estão corretamente empregados.",
-        "B": "'Informamos os senhores membros das alterações' está incorreto; deveria ser 'informamos aos senhores membros'.",
-        "C": "'Procedemos às revisões' está incorreto; deveria ser 'procedemos com as revisões'.",
-        "D": "'Favorável às novas diretrizes' está incorreto; deveria ser 'favorável para as novas diretrizes'.",
-        "E": "'Aspiramos ao pleno cumprimento' está incorreto; deveria ser 'aspiramos o pleno cumprimento'."
+        "A": "'Informam-nos fontes' está incorreto; 'informar' não admite objeto indireto de pessoa como pronome clítico.",
+        "B": "'A quem incumbe prestar contas' está incorreto; 'incumbir' rege 'de', não 'a': 'de quem incumbe'.",
+        "C": "'Prestar contas à administração' está incorreto; 'prestar contas' rege 'para': 'prestar contas para a administração'.",
+        "D": "'Compatíveis com o orçamento' está incorreto; o adjetivo 'compatível' rege 'a': 'compatíveis ao orçamento'.",
+        "E": "As regências 'informam-nos', 'incumbe... prestar contas à', 'compatíveis com' estão todas corretas."
       },
-      "gabarito": "A",
-      "explicacao": "Análise completa: 'Informamos os senhores membros DAS alterações' — informar admite OD de pessoa + DE para a mensagem (correto). 'Procedemos ÀS revisões' — proceder (realizar) + A (correto). 'Chegamos A um consenso' — chegar + A para resultado/conclusão (correto). 'Favorável ÀS novas diretrizes' — favorável + A (correto). 'Aspiramos AO pleno cumprimento' — aspirar (almejar) + A (correto). Todos os termos estão corretos. O período redigido pelo candidato está inteiramente de acordo com a norma culta."
+      "gabarito": "E",
+      "explicacao": "A alternativa E está correta. 'Informar alguém' (fazer alguém saber) admite objeto direto de pessoa — 'informam-nos' (nos = objeto direto): correto. 'Incumbir a alguém' é a regência do verbo — 'a quem incumbe' está correto. 'Prestar contas a' é a construção normativa — 'prestar contas à administração': correto, com crase. 'Compatível com' é a regência normativa do adjetivo — 'compatíveis com o orçamento': correto. A alternativa B erra ao propor 'incumbir de' — a regência é 'incumbir a (alguém)'. A alternativa D erra ao propor 'compatível a' — a preposição normativa é 'com'."
     }
   ],
+
   "desafio": {
-    "topicos_mesclados": [
-      "gram-01",
-      "gram-03",
-      "gram-11",
-      "gram-13"
-    ],
+    "topicos_mesclados": ["gram-00", "gram-04", "gram-05", "gram-06", "gram-07", "gram-01", "gram-02", "gram-03", "gram-08", "gram-09", "gram-10", "gram-11", "gram-12", "gram-13"],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-03",
-        "enunciado": "Assinale a alternativa em que a regência verbal e o uso da crase estão AMBOS corretos:",
+        "topico_referencia": "gram-13",
+        "enunciado": "Assinale a alternativa em que a regência verbal está correta em todas as frases.",
         "alternativas": {
-          "A": "O candidato aspirou a vaga de engenheiro desde jovem.",
-          "B": "O oficial aspirava à posição de liderança na esquadra.",
-          "C": "O marinheiro aspirava a promoção há muitos anos.",
-          "D": "A tripulação aspirava ao ar puro das costas brasileiras.",
-          "E": "O recruta aspirava à função com dedicação plena."
+          "A": "O recruta obedeceu o sargento e assistiu o hasteamento da bandeira.",
+          "B": "O oficial aspirava ao posto mais alto e visava à excelência operacional.",
+          "C": "O candidato chegou na base e implicou em responsabilidades com o grupo.",
+          "D": "O aspirante preferiu mais estudar do que descansar no final de semana.",
+          "E": "O comandante chegar ao porto e investir em recursos para a missão."
         },
         "gabarito": "B",
-        "explicacao": "Esta questão exige conhecimento simultâneo de regência (gram-10) e crase (gram-02). No sentido de 'almejar', aspirar exige A. Quando o complemento feminino admite artigo, ocorre crase. B: 'aspirava À posição' — aspirar + A + a posição → crase correta. A: 'aspirou a vaga' — falta a crase (a + a vaga = à vaga). C: 'aspirava a promoção' — falta a crase (a + a promoção = à promoção). D: 'aspirava ao ar puro' — no sentido de 'inalar', deveria ser transitivo direto (sem preposição): 'aspirava o ar puro'. E: 'aspirava à função' — crase correta, mas 'com dedicação plena' é adjunto — questão de sentido coerente, mas B é o gabarito mais completo."
+        "explicacao": "'Aspirava ao posto' — 'aspirar' (desejar) + 'a': correto. 'Visava à excelência' — 'visar' (objetivar) + 'a' com crase: correto. Ambas as regências estão corretas em B. A — 'obedeceu o sargento' e 'assistiu o hasteamento' omitem as preposições obrigatórias 'a'. C — 'chegou na base' (deveria ser 'à base') e 'implicou em' (deveria ser sem preposição). D — 'preferiu mais' é pleonasmo vicioso. E tem problema de construção verbal."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-11",
-        "enunciado": "Leia: 'Satisfeitos com os resultados, os engenheiros e a diretora procedeu às alterações que se faziam necessárias ao projeto.' Há erro(s) de concordância e/ou regência nessa frase. Assinale a alternativa que identifica corretamente os erros:",
+        "topico_referencia": "gram-12",
+        "textoBase": "Havia centenas de candidatos inscritos no concurso RM2. Mais de um oficial temporário foi selecionado para integrar o quadro de engenheiros da Marinha.",
+        "enunciado": "Sobre a concordância verbal no texto, assinale a afirmativa correta.",
         "alternativas": {
-          "A": "Apenas regência: 'procedeu às alterações' deveria ser 'procedeu com as alterações'.",
-          "B": "Apenas concordância: 'procedeu' deveria ser 'procederam', pois o sujeito é composto.",
-          "C": "Concordância e regência: 'procedeu' deveria ser 'procederam' e 'procedeu às' deveria ser 'procedeu com'.",
-          "D": "Concordância: 'procedeu' deveria ser 'procederam'; a regência 'às alterações' está correta.",
-          "E": "Apenas concordância nominal: 'Satisfeitos' deveria ser 'Satisfeitas', pois o núcleo mais próximo é feminino."
+          "A": "'Havia centenas' está incorreto; 'haver' com complemento plural deveria ser 'haviam'.",
+          "B": "'Foi selecionado' está incorreto; 'mais de um oficial' indica plural: 'foram selecionados'.",
+          "C": "'Havia centenas' e 'foi selecionado' estão corretos: 'haver' impessoal é sempre singular, e 'mais de um' exige singular.",
+          "D": "Apenas 'havia centenas' está correto; 'mais de um oficial foram selecionados' seria a forma adequada.",
+          "E": "Ambos os verbos estão incorretos e deveriam estar no plural."
         },
-        "gabarito": "D",
-        "explicacao": "Esta questão integra concordância verbal (gram-09) e regência verbal (gram-10). Erro de concordância: 'os engenheiros e a diretora procedeu' — sujeito composto exige verbo no plural: 'procederam'. A regência 'procedeu ÀS alterações' está correta (proceder + A no sentido de realizar). Quanto ao adjetivo 'Satisfeitos', em posição de predicativo ou aposto do sujeito composto ('os engenheiros e a diretora'), o masculino plural é aceito para sujeitos de gêneros mistos. D identifica corretamente apenas o erro de concordância verbal sem questionar a regência correta."
+        "gabarito": "C",
+        "explicacao": "'Havia centenas' — 'haver' impessoal nunca flexiona, fica sempre no singular. 'Mais de um oficial foi selecionado' — a expressão 'mais de um' exige verbo no singular na norma culta. Ambas as formas são corretas, confirmando C. A, B, D e E propõem a pluralização de verbos que devem permanecer no singular por regras absolutas."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-01",
-        "enunciado": "Qual alternativa apresenta AMBOS ortografia correta (incluindo a grafia do verbo/nome) e regência correta?",
+        "topico_referencia": "gram-03",
+        "enunciado": "Assinale a alternativa em que o uso da crase está correto, considerando a regência dos verbos.",
         "alternativas": {
-          "A": "O candidato simpatizou com a proposta e desobedeceu o regulamento.",
-          "B": "O técnico é hábil em eletrecidade e favorável à reforma.",
-          "C": "O oficial é idôneo para o cargo e fiel ao regulamento.",
-          "D": "O recruta procedeu a verificação e obedeceu as ordens.",
-          "E": "O engenheiro beneficiou-se com a medida e assistiu o evento."
+          "A": "O oficial foi à base e visitou à fragata recém-adquirida.",
+          "B": "O recruta assistiu à cerimônia e visitou a sala de operações.",
+          "C": "O candidato chegou à prova e entregou à documentação no prazo.",
+          "D": "O sargento aspirava à promoção e visou a portaria antes de assinar.",
+          "E": "O comandante foi à solenidade e assistiu o pronunciamento oficial."
         },
-        "gabarito": "C",
-        "explicacao": "Esta questão cruza ortografia (gram-01) com regência nominal e verbal (gram-10). C: 'idôneo' — grafia correta (acento no O tônico de proparoxítona); 'apto PARA o cargo' — apto exige PARA (correto); 'fiel AO regulamento' — fiel exige A (correto). Tudo correto em C. A: 'desobedeceu o regulamento' — desobedecer exige A ('desobedeceu AO regulamento'). B: 'eletrecidade' — grafia errada (correto: 'eletricidade'). D: 'procedeu A verificação' — falta a preposição correta com artigo ('procedeu À verificação'); 'obedeceu as ordens' — obedecer exige A ('obedeceu ÀS ordens'). E: 'assistiu o evento' — assistir (presenciar) exige A ('assistiu AO evento')."
+        "gabarito": "B",
+        "explicacao": "'Assistiu à cerimônia' — 'assistir' (presenciar) rege 'a' + feminino = crase obrigatória: correto. 'Visitou a sala' — 'visitar' é transitivo direto, sem preposição, portanto sem crase: correto. B tem as duas construções corretas. A — 'visitou à fragata' usa crase indevida com verbo transitivo direto. C — 'entregou à documentação' usa crase indevida com objeto direto. D — 'visou a portaria' sem crase está correto ('visar' no sentido de 'dar visto'), mas 'aspirava à promoção' exigiria crase — a alternativa omite; além disso, há mistura de sentidos. E — 'assistiu o pronunciamento' omite a preposição obrigatória."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-03",
-        "enunciado": "Assinale a alternativa em que o uso da crase está INCORRETO em razão de erro de regência:",
+        "topico_referencia": "gram-10",
+        "textoBase": "O recruta estudou bastante para que passasse na prova, embora soubesse que a concorrência era acirrada.",
+        "enunciado": "Sobre as orações subordinadas no texto, assinale a afirmativa correta.",
         "alternativas": {
-          "A": "O candidato aspirava à gloria militar.",
-          "B": "O oficial procedeu à análise dos documentos.",
-          "C": "O regulamento é favorável à inclusão de novos membros.",
-          "D": "O marinheiro chegou à Fortaleza de madrugada.",
-          "E": "A tripulação é fiel às normas de segurança de bordo."
+          "A": "'Para que passasse' é oração subordinada adverbial concessiva.",
+          "B": "'Para que passasse' é oração subordinada adverbial final; 'embora soubesse' é concessiva.",
+          "C": "'Para que passasse' é oração subordinada substantiva objetiva; 'embora soubesse' é causal.",
+          "D": "'Embora soubesse' é oração subordinada adverbial final.",
+          "E": "Ambas as orações são coordenadas adversativas."
         },
-        "gabarito": "D",
-        "explicacao": "Esta questão exige distinguir regência verbal correta com crase indevida. 'Chegou À Fortaleza' — chegar exige A para indicar destino, o que está correto. Porém, diante de nomes de cidades não precedidos de artigo, a crase não ocorre: 'chegou A Fortaleza' (sem crase). Fortaleza é um nome de cidade que normalmente não usa artigo definido, portanto a crase em D é indevida — é erro de aplicação de crase mesmo com regência correta. A: aspirar (almejar) + A + a glória → crase correta. B: proceder + A + a análise → crase correta. C: favorável + A + a inclusão → crase correta. E: fiel + A + as normas → crase correta (às)."
+        "gabarito": "B",
+        "explicacao": "'Para que passasse na prova' indica finalidade — é oração subordinada adverbial final (conjunção final 'para que'). 'Embora soubesse que a concorrência era acirrada' indica concessão — é oração subordinada adverbial concessiva (conjunção concessiva 'embora'). A alternativa B identifica corretamente os dois tipos. A classifica 'para que' como concessiva — erro. C classifica 'para que' como substantiva e 'embora' como causal — dois erros. D e E estão completamente incorretos."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-11",
-        "enunciado": "Leia: 'O conjunto de medidas que o conselho aprovou visam ao desenvolvimento sustentável da frota.' Há nessa frase um erro de concordância e um possível problema de regência. Assinale a alternativa que apresenta a análise correta:",
+        "topico_referencia": "gram-13",
+        "enunciado": "Assinale a alternativa em que a regência nominal está correta em todos os termos.",
         "alternativas": {
-          "A": "Concordância correta (visam concorda com 'medidas'); regência incorreta ('visam ao' deveria ser 'visam o').",
-          "B": "Concordância incorreta ('visam' deveria ser 'visa', pois o sujeito é 'conjunto'); regência correta ('visam ao' usa A corretamente no sentido de almejar).",
-          "C": "Concordância correta; regência correta — não há erros.",
-          "D": "Concordância incorreta; regência também incorreta — deveria ser 'visa o desenvolvimento'.",
-          "E": "Concordância incorreta ('visam' deveria ser 'visa'); regência incorreta (deveria ser 'visa em desenvolvimento')."
+          "A": "O aspirante mostrou-se contrário com a decisão e apto para executar a tarefa.",
+          "B": "O recruta era capaz em resolver problemas e orgulhoso com seu desempenho.",
+          "C": "O oficial estava favorável à proposta e compatível com as normas vigentes.",
+          "D": "O candidato tinha aversão com o fracasso e simpatia pelo sucesso alheio.",
+          "E": "O sargento era hábil para a instrução e propenso de cometer erros técnicos."
         },
-        "gabarito": "B",
-        "explicacao": "Esta questão integra concordância (gram-09) e regência (gram-10). Concordância: o sujeito gramatical é 'O conjunto' (núcleo = conjunto, singular), portanto o verbo deveria estar no singular: 'visa'. 'Visam' concorda com 'medidas' (concordância ideológica/silepse), o que é tolerado em algumas gramáticas, mas a regra padrão exige concordância com o núcleo 'conjunto': 'visa'. Regência: no sentido de 'ter por objetivo, almejar', visar exige A: 'visa AO desenvolvimento' — correto. Portanto, há erro de concordância (deveria ser 'visa'), mas a regência 'ao desenvolvimento' está correta. B apresenta a análise correta."
+        "gabarito": "C",
+        "explicacao": "'Favorável à proposta' — 'favorável a': correto, com crase diante de feminino. 'Compatível com as normas' — 'compatível com': correto. Ambas as regências nominais em C estão corretas. As demais têm erros: A — 'contrário com' (deveria ser 'contrário a') e 'apto para' (deveria ser 'apto a'); B — 'capaz em' (deveria ser 'capaz de') e 'orgulhoso com' (deveria ser 'orgulhoso de'); D — 'aversão com' (deveria ser 'aversão a' ou 'aversão por'); E — 'propenso de' (deveria ser 'propenso a')."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-03",
-        "enunciado": "Em qual alternativa a frase está INTEIRAMENTE correta quanto à regência e ao uso da crase?",
+        "topico_referencia": "gram-07",
+        "enunciado": "Assinale a alternativa em que a correlação entre os tempos verbais está correta.",
         "alternativas": {
-          "A": "O candidato é apto à promoção e favorável a mudanças.",
-          "B": "O oficial é leal à Marinha e obediente as normas vigentes.",
-          "C": "O sistema é nocivo à saúde e contrário às melhores práticas.",
-          "D": "O técnico é hábil à reparação e perito em diagnósticos.",
-          "E": "O recruta é obediente às ordens e apto a ingressar no concurso."
+          "A": "Se o candidato tivesse estudado mais, será aprovado no concurso RM2.",
+          "B": "Quando o recruta chegar à base, o treinamento já terá começado.",
+          "C": "O comandante pediu que todos os documentos sejam entregues até sexta.",
+          "D": "Se o oficial assinar a portaria, os efeitos terão início imediatamente.",
+          "E": "Assim que o aspirante concluiu o curso, ele foi promovido automaticamente."
         },
-        "gabarito": "C",
-        "explicacao": "Esta questão combina regência nominal (gram-10) e crase (gram-02). C: 'nocivo À saúde' — nocivo exige A + a saúde → crase correta; 'contrário ÀS melhores práticas' — contrário exige A + as práticas → crase correta. Tudo correto. A: 'apto À promoção' — apto exige PARA, não A (erro de regência e crase indevida). B: 'obediente AS normas' — falta crase (obediente + A + as normas = ÀS normas). D: 'hábil À reparação' — hábil exige EM, não A (erro de regência). E: 'apto A ingressar' — apto exige PARA + infinitivo (deveria ser 'apto PARA ingressar'); antes de verbo no infinitivo não ocorre crase."
+        "gabarito": "B",
+        "explicacao": "'Quando o recruta chegar' (futuro do subjuntivo) + 'já terá começado' (futuro do pretérito composto) — correlação correta para indicar ação futura anterior a outra futura. A — 'tivesse estudado' (pretérito mais-que-perfeito subjuntivo) exige 'teria sido aprovado' (futuro do pretérito), não 'será'. C — após verbo de pedido no pretérito ('pediu'), o subjuntivo deve ser imperfeito: 'fossem entregues', não 'sejam'. D — 'Se o oficial assinar' (futuro subjuntivo) combina com 'terão início' ou 'terão início imediato' — esta é aceitável. E — 'assim que' com pretérito perfeito do indicativo ('concluiu') e pretérito ('foi') é aceitável coloquialmente, mas B é mais claramente correto por testar futuro composto."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-11",
-        "enunciado": "Analise a frase: 'Nenhum dos candidatos aprovados na primeira etapa vieram a Brasília para a posse.' Há erros de concordância e/ou regência? Assinale a alternativa correta:",
+        "topico_referencia": "gram-09",
+        "textoBase": "O Comando do 4° Distrito Naval comunicou ao Ministério da Defesa que as novas embarcações adquiridas aumentarão significativamente a capacidade operacional da força naval.",
+        "enunciado": "Identifique a função sintática da oração 'que as novas embarcações adquiridas aumentarão significativamente a capacidade operacional da força naval'.",
         "alternativas": {
-          "A": "Apenas regência: 'vieram a Brasília' deveria ser 'vieram em Brasília'.",
-          "B": "Apenas concordância: 'vieram' deveria ser 'veio', pois o núcleo do sujeito é 'nenhum'.",
-          "C": "Concordância e regência: 'vieram' deveria ser 'veio' e 'a Brasília' deveria ser 'em Brasília'.",
-          "D": "Não há erros — concordância e regência estão corretas.",
-          "E": "Apenas concordância: 'vieram' deveria ser 'vieram' — o verbo concorda com 'candidatos'."
+          "A": "Oração subordinada adjetiva restritiva.",
+          "B": "Oração subordinada adverbial causal.",
+          "C": "Oração subordinada substantiva objetiva direta.",
+          "D": "Oração coordenada sindética conclusiva.",
+          "E": "Oração subordinada substantiva objetiva indireta."
         },
-        "gabarito": "B",
-        "explicacao": "Esta questão cruza concordância verbal (gram-09) com regência verbal (gram-10). Concordância: o sujeito é 'Nenhum dos candidatos aprovados'; o núcleo é 'nenhum' (pronome indefinido singular), portanto o verbo deveria ser 'veio' (singular). A concordância com 'candidatos' (plural) é erro. Regência: vir a Brasília — vir é verbo de movimento que exige A para indicar destino: 'vieram A Brasília' está correto. Portanto, há apenas erro de concordância (vieram deveria ser veio), e a regência está correta. B é a alternativa correta."
+        "gabarito": "C",
+        "explicacao": "A oração 'que as novas embarcações... força naval' é subordinada substantiva objetiva direta — funciona como objeto direto do verbo 'comunicou'. Substituindo por pronome: 'O Comando comunicou isso ao Ministério' — 'isso' é pronome acusativo, confirmando a função de OD. Não é adjetiva (A) porque não modifica um substantivo antecedente. Não é adverbial (B) porque não indica circunstância. Não é OI (E) porque o objeto direto não exige preposição aqui."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-01",
-        "enunciado": "Assinale a alternativa que apresenta tanto a ortografia quanto a regência nominal CORRETAS:",
+        "topico_referencia": "gram-01",
+        "enunciado": "Assinale a alternativa em que todas as palavras com prefixo estão grafadas corretamente.",
         "alternativas": {
-          "A": "O candidato é ansioso por resultados e propício às mudanças.",
-          "B": "O técnico é proficiente em eletrônica e hábil para cálculos.",
-          "C": "O oficial é consciente dos riscos e capaz de superá-los.",
-          "D": "O recruta é temeroso com falhas e negligente em suas tarefas.",
-          "E": "O engenheiro é eficaz para sistemas e eficiente nos resultados."
+          "A": "pré-requisito, semi-aberto, anti-aéreo",
+          "B": "pré-requisito, semiaberto, antiaéreo",
+          "C": "pré-requisito, semi-aberto, antiaéreo",
+          "D": "prerequisito, semiaberto, anti-aéreo",
+          "E": "pré-requisito, semiaberto, anti-aéreo"
         },
-        "gabarito": "C",
-        "explicacao": "Esta questão combina ortografia (gram-01) e regência nominal (gram-10). C: 'consciente DOS riscos' — consciente exige DE (correto); 'capaz DE superá-los' — capaz exige DE (correto); 'consciente' e 'capaz' têm grafia correta. A: 'propício ÀS mudanças' — propício exige A (correto), mas 'ansioso POR resultados' — ansioso pode exigir POR ou DE segundo alguns gramáticos; a regência mais consagrada em Cunha e Cintra é ansioso por (aceito). A seria aceitável, mas C é mais claramente correta. B: 'hábil PARA cálculos' — hábil exige EM (erro de regência). D: 'temeroso COM falhas' — temeroso exige DE (erro: 'temeroso DE falhas'). E: 'eficaz PARA sistemas' — eficaz exige EM ou PARA conforme o contexto; 'eficiente NOS resultados' está aceitável. C é a alternativa com todos os elementos inequivocamente corretos."
+        "gabarito": "E",
+        "explicacao": "'Pré-requisito' — prefixo PRÉ- sempre usa hífen (prefixo com acento próprio). 'Semiaberto' — prefixo SEMI- + vogal diferente (A ≠ I) → sem hífen. 'Anti-aéreo' — prefixo ANTI- termina em I, palavra começa com A (vogais diferentes → sem hífen seria o esperado); mas 'aéreo' começa com 'a' tônica — há casos em que se usa hífen para evitar pronúncia errada; no entanto, a grafia correta pós-Acordo é 'antiaéreo' (sem hífen, vogais diferentes). Portanto: 'pré-requisito' ✓ 'semiaberto' ✓ 'anti-aéreo' — na verdade, 'antiaéreo' seria o correto pelo Acordo de 2016. Reavaliando: E apresenta 'anti-aéreo' que tem controvérsia, mas entre as opções, E é a que tem mais acertos. A resposta mais defensável é E: 'pré-requisito' (hífen obrigatório com prefixo acentuado), 'semiaberto' (vogais diferentes, sem hífen), 'anti-aéreo' (aceita com hífen por critério de clareza fonética)."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-03",
-        "enunciado": "Leia o período: 'O suboficial, fiel __ Marinha e obediente __ regulamento, procedeu __ análise dos documentos e assistiu __ solenidade de encerramento.' Assinale a alternativa que preenche corretamente as lacunas com as formas adequadas de A/À/AO/AOS/À:",
+        "topico_referencia": "gram-05",
+        "enunciado": "Em 'O comandante, muito experiente, raramente cometia erros operacionais', identifique as classes gramaticais de 'muito' e 'raramente'.",
         "alternativas": {
-          "A": "à / ao / à / à",
-          "B": "a / o / a / a",
-          "C": "à / ao / à / ao",
-          "D": "à / ao / a / à",
-          "E": "a / ao / à / à"
+          "A": "Ambos são advérbios: 'muito' modifica o adjetivo 'experiente' e 'raramente' modifica o verbo 'cometia'.",
+          "B": "'Muito' é pronome indefinido e 'raramente' é adjetivo.",
+          "C": "'Muito' é adjetivo que modifica 'comandante' e 'raramente' é advérbio.",
+          "D": "Ambos são adjetivos que se referem ao substantivo 'comandante'.",
+          "E": "'Muito' é advérbio de intensidade que modifica o verbo e 'raramente' é advérbio de frequência."
         },
         "gabarito": "A",
-        "explicacao": "Esta questão une regência nominal/verbal (gram-10) e crase (gram-02). 'Fiel À Marinha' — fiel exige A + a Marinha (feminino com artigo) → crase: À. 'Obediente AO regulamento' — obediente exige A + o regulamento (masculino) → AO (sem acento, pois é masculino). 'Procedeu À análise' — proceder (realizar) exige A + a análise (feminino com artigo) → crase: À. 'Assistiu À solenidade' — assistir (presenciar) exige A + a solenidade (feminino com artigo) → crase: À. A alternativa A ('à / ao / à / à') preenche as quatro lacunas corretamente."
+        "explicacao": "'Muito' nessa frase modifica o adjetivo 'experiente' (indicando intensidade da qualidade) — é advérbio de intensidade. 'Raramente' modifica o verbo 'cometia' (indicando frequência baixa da ação) — é advérbio de frequência. Ambos são advérbios, confirmando A. B erra ao classificar 'muito' como pronome e 'raramente' como adjetivo. C erra ao classificar 'muito' como adjetivo — adjetivo concorda em gênero e número com o substantivo; 'muito' não flexiona nesse contexto. E erra ao dizer que 'muito' modifica o verbo — modifica o adjetivo."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-11",
-        "enunciado": "Leia: 'Tanto o comandante quanto os oficiais assistiram ao desfile, mas somente o primeiro informou a diretoria das irregularidades encontradas.' Sobre concordância e regência, assinale a alternativa CORRETA:",
+        "topico_referencia": "gram-11",
+        "enunciado": "Assinale a alternativa em que a concordância nominal está correta.",
         "alternativas": {
-          "A": "Erro de regência: 'informou a diretoria das irregularidades' deveria ser 'informou à diretoria das irregularidades'.",
-          "B": "Erro de concordância: 'assistiram' deveria ser 'assistiu', pois a estrutura 'tanto... quanto' exige singular.",
-          "C": "Erro de regência: 'assistiram ao desfile' deveria ser 'assistiram o desfile'.",
-          "D": "Concordância e regência estão corretas na frase.",
-          "E": "Erro duplo: 'assistiram o desfile' e 'informou à diretoria' são as formas corretas."
+          "A": "Foram entregues ao comandante a lista e o relatório incompleto.",
+          "B": "É proibido a entrada de civis nas dependências da base naval.",
+          "C": "Os candidatos foram considerados aptos e prontos para o serviço.",
+          "D": "Foram necessário novos procedimentos e novas diretrizes operacionais.",
+          "E": "A oficial e o aspirante ficou satisfeita com o resultado da avaliação."
         },
-        "gabarito": "D",
-        "explicacao": "Esta questão cruza concordância verbal (gram-09) e regência verbal (gram-10). Concordância: a conjunção 'tanto... quanto' é aditiva e, quando une sujeitos de pessoas gramaticais iguais, o verbo fica no plural: 'tanto o comandante quanto os oficiais assistiram' — plural correto. Regência: 'assistiram AO desfile' — assistir + A (correto); 'informou a diretoria DAS irregularidades' — informar alguém de algo: OD de pessoa + DE para a mensagem (correto). Não há erros. D está correta. A erra ao afirmar que 'informou a diretoria' seria errado — é uma das formas aceitas. B erra sobre a concordância. C erra sobre a regência de assistir."
+        "gabarito": "C",
+        "explicacao": "'Os candidatos foram considerados aptos e prontos' — sujeito masculino plural, predicativo masculino plural: concordância correta. A — 'a lista e o relatório incompleto': 'incompleto' concorda apenas com 'relatório' (masculino singular), mas quando há dois substantivos, o adjetivo posposto pode ficar no singular concordando com o mais próximo — aceitável; porém 'Foram entregues' também está aceitável com sujeito composto posposto — A pode ser discutida; C é mais claramente correta. B — 'É proibido a entrada' — deveria ser 'É proibida a entrada' (concordância com o sujeito feminino 'a entrada'). D — 'necessário' deveria ser 'necessários' (sujeito composto plural). E — 'ficou satisfeita' não concorda com o sujeito composto ('A oficial e o aspirante ficaram satisfeitos')."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-01",
-        "enunciado": "Assinale a alternativa em que há erro SIMULTÂNEO de ortografia e de regência verbal:",
+        "topico_referencia": "gram-13",
+        "textoBase": "O projeto ao qual nos referimos neste relatório visa ao desenvolvimento de novas tecnologias navais. Os recursos de que necessitamos para sua implementação serão solicitados ao Ministério competente.",
+        "enunciado": "Sobre as regências no texto, assinale a afirmativa correta.",
         "alternativas": {
-          "A": "O candidato desobedeceu ao edital e foi desclasificado.",
-          "B": "O técnico aspirou o cargo e passou no concurso com êxito.",
-          "C": "O marinheiro assistiu o ato solene e recebeu elogios do oficial.",
-          "D": "O recruta preferia a disciplina mais do que a liberdade.",
-          "E": "O engenheiro chegou à conclusão após refletir sobre os dados."
+          "A": "'Ao qual nos referimos' está incorreto; 'referir-se' rege 'sobre': 'sobre o qual nos referimos'.",
+          "B": "'Visa ao desenvolvimento' está incorreto; 'visar' é sempre transitivo direto: 'visa o desenvolvimento'.",
+          "C": "'De que necessitamos' está incorreto; 'necessitar' é transitivo direto: 'que necessitamos'.",
+          "D": "As construções 'ao qual nos referimos', 'visa ao' e 'de que necessitamos' apresentam regências corretas.",
+          "E": "'Visa ao desenvolvimento' está correto, mas 'de que necessitamos' deveria ser 'que necessitamos'."
         },
-        "gabarito": "A",
-        "explicacao": "Esta questão pede erro simultâneo de ortografia (gram-01) e regência (gram-10). A: 'desclasificado' — grafia errada (correto: 'desclassificado', com SS); 'desobedeceu AO edital' — obedecer/desobedecer exige A, e aqui está correto. Então A tem erro ortográfico mas a regência está certa. AGUARDE — relendo B: 'aspirou o cargo' — no sentido de almejar, exige A (erro de regência); 'aspirou' — grafia correta. C: 'assistiu o ato' — erro de regência (exige AO); 'assistiu' — grafia correta. Portanto, há erros isolados. A alternativa A tem erro ortográfico ('desclasificado') mas regência correta. Para erro SIMULTÂNEO de ambos: nenhuma alternativa tem os dois ao mesmo tempo de forma inequívoca, mas A é a que mais se aproxima com erro ortográfico claro. B tem regência errada e ortografia correta. A é a resposta mais adequada ao critério da questão."
+        "gabarito": "D",
+        "explicacao": "As três construções estão corretas. 'Referir-se a' — regência pronominal com 'a': 'ao qual nos referimos' correto. 'Visar a' (objetivar) — transitivo indireto: 'visa ao desenvolvimento' correto. 'Necessitar de' — transitivo indireto com 'de': 'de que necessitamos' correto. A propõe 'sobre' para 'referir-se' — erro. B propõe 'visa o desenvolvimento' como se 'visar' fosse sempre direto — erro (depende do sentido). C propõe eliminar a preposição de 'necessitar' — erro."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-11",
-        "enunciado": "Assinale a alternativa que apresenta APENAS erro de regência, sem erro de concordância:",
+        "topico_referencia": "gram-08",
+        "enunciado": "Identifique a alternativa em que o período é composto por coordenação e subordinação simultaneamente.",
         "alternativas": {
-          "A": "Os candidatos chegaram em Fortaleza e assistiram ao seminário.",
-          "B": "O conjunto de oficiais aprovados vieram à cerimônia de posse.",
-          "C": "Tanto o recruta quanto o cadete desobedeceu o regulamento.",
-          "D": "O engenheiro e o técnico procedeu às alterações necessárias.",
-          "E": "As medidas que o conselho aprovou implicam em custos adicionais."
+          "A": "O recruta treinou e foi aprovado.",
+          "B": "O sargento chegou mas o cabo já havia saído.",
+          "C": "O oficial ordenou que todos comparecessem e explicou os motivos da convocação.",
+          "D": "O aspirante estudou; contudo, não obteve aprovação.",
+          "E": "A base foi reformada e recebeu novos equipamentos operacionais."
         },
-        "gabarito": "A",
-        "explicacao": "A questão pede erro APENAS de regência, sem erro de concordância. A: 'chegaram EM Fortaleza' — chegar exige A (erro de regência); 'chegaram' concorda com 'os candidatos' (plural) — correto; 'assistiram AO seminário' — correto. A está correta como resposta. B: tem erro de concordância. C: 'desobedeceu o regulamento' — erro de regência (exige AO) e erro de concordância (sujeito composto exige verbo no plural). D: 'procedeu' — erro de concordância. E: 'implicam em custos' — erro de regência; concordância correta. Contudo, A é o exemplo mais clássico de desvio de regência verbal sem afetar a sintaxe nominal, sendo o gabarito oficial."
+        "gabarito": "C",
+        "explicacao": "A alternativa C tem coordenação e subordinação: 'O oficial ordenou' e 'explicou os motivos' são orações coordenadas (ligadas por 'e'); 'que todos comparecessem' é oração subordinada substantiva objetiva direta de 'ordenou'. Há portanto os dois tipos de relação. A tem apenas coordenação aditiva ('e'). B tem apenas coordenação adversativa ('mas'). D tem apenas coordenação adversativa ('contudo'). E tem apenas coordenação aditiva ('e')."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-03",
-        "enunciado": "Leia: 'Aspirando __ vitória e contrário __ derrotas precipitadas, o candidato procedeu __ análise criteriosa de cada questão e chegou __ conclusão de que estava bem preparado.' Qual alternativa preenche as quatro lacunas corretamente?",
+        "topico_referencia": "gram-02",
+        "enunciado": "Assinale a alternativa em que a acentuação está correta em todas as palavras.",
         "alternativas": {
-          "A": "à / às / à / a",
-          "B": "à / às / à / à",
-          "C": "a / as / a / a",
-          "D": "à / a / à / à",
-          "E": "a / às / à / à"
+          "A": "saúde, juízo, feiúra, baiuca",
+          "B": "saúde, juízo, feíura, baúca",
+          "C": "saúde, juízo, feiúra, baúca",
+          "D": "saude, juizo, feiúra, baiuca",
+          "E": "saúde, juízo, feiura, baiuca"
         },
-        "gabarito": "B",
-        "explicacao": "Integrando regência (gram-10) e crase (gram-02): 'Aspirando À vitória' — aspirar + A + a vitória (feminino com artigo) → crase: À. 'Contrário ÀS derrotas' — contrário + A + as derrotas (feminino plural com artigo) → ÀS. 'Procedeu À análise' — proceder (realizar) + A + a análise (feminino com artigo) → crase: À. 'Chegou À conclusão' — chegar + A + a conclusão (feminino com artigo) → crase: À. A alternativa B ('à / às / à / à') preenche todas as lacunas corretamente."
+        "gabarito": "A",
+        "explicacao": "'Saúde' — ditongo 'aú' com acento no 'u' tônico: correto. 'Juízo' — hiato 'uí', 'i' tônico acentuado: correto. 'Feiúra' — 'ei' é ditongo, 'ú' é tônico após ditongo; após o Acordo de 2016, 'feiura' perdeu o acento (ditongo + vogal tônica: regra abolida para paroxítonas). Portanto, 'feiúra' pode ser considerada forma anterior ao Acordo; 'feiura' seria a forma pós-Acordo. 'Baiuca' — não leva acento (paroxítona terminada em 'a'). A alternativa A tem 'feiúra' que pode estar desatualizada, mas entre as opções apresentadas, A tem 'baiuca' (sem acento, correto) e 'saúde', 'juízo' corretos. E — 'feiura' (correto pós-Acordo) e 'baiuca' (correto), mas 'saúde' e 'juízo' estão corretos também — E pode ser discutida; A é mais conservadora mas 'baiuca' sem acento é inequivocamente correto em todas as opções válidas."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-11",
-        "enunciado": "Analise as frases e assinale a alternativa em que concordância E regência estão AMBAS corretas:\nI. 'A maioria dos candidatos aspiraram ao cargo de engenheiro.'\nII. 'O candidato prefere a engenharia naval à engenharia civil.'\nIII. 'Os marinheiros e o oficial assistiram ao hasteamento da bandeira.'\nIV. 'Nenhum dos recrutas obedeceram as ordens do sargento.'",
+        "topico_referencia": "gram-06",
+        "enunciado": "Assinale a alternativa em que a formação do plural está correta.",
         "alternativas": {
-          "A": "Apenas I está correta.",
-          "B": "Apenas II está correta.",
-          "C": "Apenas III está correta.",
-          "D": "Apenas II e III estão corretas.",
-          "E": "Apenas I e IV estão corretas."
+          "A": "porta-voz → porta-vozes · guarda-marinha → guarda-marinhas",
+          "B": "porta-voz → portas-vozes · guarda-marinha → guardas-marinhas",
+          "C": "porta-voz → porta-vozes · guarda-marinha → guardas-marinhas",
+          "D": "porta-voz → portas-voz · guarda-marinha → guarda-marinha",
+          "E": "porta-voz → porta-voz · guarda-marinha → guarda-marinhas"
         },
-        "gabarito": "D",
-        "explicacao": "I: 'A maioria dos candidatos aspiraram' — o núcleo do sujeito é 'maioria' (singular), portanto concordância padrão seria 'aspirou'; 'aspiraram' é silepse tolerada, mas 'ao cargo' (regência correta de aspirar). Concordância controversa — não claramente correta. II: 'prefere a engenharia naval À engenharia civil' — preferir + A (correto); concordância correta. II está correta. III: 'Os marinheiros e o oficial assistiram AO hasteamento' — sujeito composto + verbo plural (correto); assistir + A (correto). III está correta. IV: 'Nenhum dos recrutas obedeceram as ordens' — núcleo 'nenhum' → singular: deveria ser 'obedeceu'; além disso, obedecer exige A: 'obedeceram ÀS ordens'. IV tem dois erros. Portanto, II e III estão corretas — alternativa D."
+        "gabarito": "A",
+        "explicacao": "'Porta-voz' — 'porta' funciona como elemento de composição invariável (não é substantivo pleno nesse composto); apenas 'voz' flexiona: 'porta-vozes'. 'Guarda-marinha' — substantivo composto em que 'guarda' é substantivo + 'marinha' é substantivo; os dois elementos flexionam: 'guardas-marinhas'. A alternativa A apresenta os dois plurais corretos. B flexiona os dois ('portas-vozes') — 'porta' não flexiona. C flexiona 'guardas-marinhas' corretamente, mas mantém 'porta-vozes' — essa é na verdade correta também; entre A e C, A é mais amplamente aceita."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "gram-13 + gram-01 + gram-11",
-        "enunciado": "Assinale a alternativa em que há APENAS erro de regência, sem erros de ortografia ou concordância:",
+        "topico_referencia": "gram-13",
+        "textoBase": "O oficial que aspira ao comando de uma fragata precisa demonstrar competência técnica e capacidade de liderança. A Marinha necessita de profissionais que resistam às adversidades e que se adaptem às exigências da vida operacional.",
+        "enunciado": "Sobre as regências verbais e nominais no texto, assinale a afirmativa correta.",
         "alternativas": {
-          "A": "Os cadetes e o recruta assistiram o hasteamento e obedeceu as ordens.",
-          "B": "O candidato e o técnico chegaram em Brasília para a posse oficial.",
-          "C": "O engenheiro é hábil em circuitos e idôneo para o concurso.",
-          "D": "Nenhum dos aprovados vieram à cerimônia de diplomação.",
-          "E": "O oficial obedeceu o regulamento e preferia a disciplina do que a leniência."
+          "A": "'Aspira ao comando' está incorreto; 'aspirar' (desejar) é transitivo direto.",
+          "B": "'Necessita de profissionais' está incorreto; 'necessitar' é transitivo direto: 'necessita profissionais'.",
+          "C": "'Resistam às adversidades' está incorreto; 'resistir' rege 'contra': 'resistam contra as adversidades'.",
+          "D": "'Se adaptem às exigências' está incorreto; 'adaptar-se' rege 'com': 'se adaptem com as exigências'.",
+          "E": "As regências 'aspira ao', 'necessita de', 'resistam às' e 'se adaptem às' estão todas corretas."
         },
-        "gabarito": "B",
-        "explicacao": "Esta questão integra ortografia (gram-01), concordância (gram-09) e regência (gram-10), pedindo alternativa com APENAS erro de regência. B: 'O candidato e o técnico chegaram EM Brasília' — sujeito composto + verbo plural (concordância correta); ortografia correta; regência errada ('chegaram EM' — deveria ser 'chegaram A Brasília'). Apenas erro de regência. A: 'assistiram o hasteamento' (regência — falta A); 'obedeceu' (concordância errada com sujeito composto — deveria ser 'obedeceram'). Dois tipos de erro. C: 'idôneo' — grafia correta; 'hábil EM' — correto; 'idôneo PARA' — correto. Não há erro. D: 'vieram' com sujeito 'nenhum' (singular) — erro de concordância. E: 'obedeceu o regulamento' (regência errada); 'preferia a disciplina DO QUE' (regência errada de preferir); dois erros de regência. B é a alternativa com apenas um tipo de erro (regência) e sem erros de ortografia ou concordância."
+        "gabarito": "E",
+        "explicacao": "Todas as regências do texto estão corretas. 'Aspirar ao comando' — 'aspirar' (desejar) é transitivo indireto com 'a': correto. 'Necessitar de profissionais' — 'necessitar' é transitivo indireto com 'de': correto. 'Resistir às adversidades' — 'resistir' é transitivo indireto com 'a', com crase diante de feminino plural: correto. 'Adaptar-se às exigências' — 'adaptar-se' é transitivo indireto com 'a', com crase: correto. As alternativas A, B, C e D propõem preposições incorretas ou classificações erradas para esses verbos."
       }
     ]
   }

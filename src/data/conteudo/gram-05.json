@@ -2,128 +2,234 @@
   "id": "gram-05",
   "titulo": "Classes de Palavras",
   "area": "Gramática",
-  "resumo": "Estudo das dez classes gramaticais do português — substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição — com foco em suas funções, subclassificações e comportamento em provas de concurso militar.",
+  "resumo": "As classes de palavras são as categorias em que dividimos todas as palavras da língua portuguesa de acordo com a função que exercem na frase e as características que compartilham. São dez ao todo: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição. Dominar esse assunto é fundamental para entender concordância, regência e pontuação — temas recorrentes nas provas do CEBRASPE. Neste tópico você vai aprender a identificar cada classe, entender suas funções e evitar as armadilhas que a banca adora explorar.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Substantivo: conceito, classificação e flexão",
-        "conteudo": "O substantivo é a classe de palavras que nomeia seres, objetos, lugares, sentimentos, ações e ideias abstratas. Segundo Cunha e Cintra (2017), classifica-se em: (a) próprio — nomeia um ser específico da espécie ('Fortaleza', 'Marinha'); (b) comum — designa qualquer ser da mesma espécie ('cidade', 'oficial'); (c) concreto — refere-se a seres com existência independente, real ou imaginária ('mesa', 'fada'); (d) abstrato — nomeia ações, qualidades ou estados percebidos pelo intelecto, dependentes de outro ser ('coragem', 'rapidez'); (e) coletivo — no singular, designa conjunto de seres da mesma espécie ('frota' = conjunto de navios, 'armada' = conjunto de forças navais, 'alcateia' = conjunto de lobos). Quanto à formação, divide-se em simples (um único radical: 'mar'), composto (dois ou mais radicais: 'porta-voz'), primitivo (não deriva de outro: 'pedra') e derivado ('pedreira'). O gênero dos substantivos pode ser masculino ou feminino; o número, singular ou plural; o grau, normal, aumentativo ou diminutivo (analítico ou sintético).",
+        "subtitulo": "1. O que são classes de palavras?",
+        "conteudo": "Imagine que uma equipe naval é formada por diferentes especialistas: o comandante dá ordens, o timoneiro dirige o navio, o mecânico mantém os motores, o sinaleiro transmite mensagens. Cada um tem uma função específica. Com as palavras é a mesma coisa: cada palavra tem um papel na frase, e esse papel define a que classe ela pertence.\n\nAs dez classes de palavras são: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição. Elas se dividem em dois grandes grupos: as palavras variáveis (que mudam de forma conforme gênero, número ou pessoa) e as invariáveis (que nunca mudam de forma).\n\nVariáveis: substantivo, adjetivo, artigo, numeral, pronome e verbo. Invariáveis: advérbio, preposição, conjunção e interjeição.\n\nO erro mais comum é achar que uma palavra pertence sempre à mesma classe. Na verdade, a classe depende do uso na frase, não da palavra em si. 'Guarda' pode ser substantivo ('O guarda chegou') ou verbo ('Ele guarda segredos').",
+        "regra": "10 classes = 6 variáveis + 4 invariáveis · Classe = função na frase, não a palavra em si",
         "exemplos": [
-          "Substantivo próprio: Marinha, Brasil, Fortaleza",
-          "Substantivo abstrato: lealdade, disciplina, esforço",
-          "Coletivo náutico: frota (navios), tripulação (membros de um navio), esquadra (navios de guerra)",
-          "Derivado sufixal: mar → marinheiro, maritime → marítimo"
-        ],
-        "regra": "Substantivo abstrato depende de outro ser para existir conceptualmente; concreto existe por si mesmo, mesmo que imaginariamente. Fada é concreto; beleza é abstrato."
+          {
+            "texto_base": "O recruta valente guarda o armamento com muita disciplina.",
+            "anotacoes": [
+              {
+                "trecho": "recruta",
+                "destaque": "Substantivo",
+                "motivo": "Nomeia um ser (pessoa). É o núcleo do sujeito da frase."
+              },
+              {
+                "trecho": "valente",
+                "destaque": "Adjetivo",
+                "motivo": "Caracteriza o substantivo 'recruta', indicando qualidade."
+              },
+              {
+                "trecho": "guarda",
+                "destaque": "Verbo",
+                "motivo": "Indica uma ação praticada pelo sujeito. Aqui funciona como verbo, não como substantivo."
+              },
+              {
+                "trecho": "muita",
+                "destaque": "Pron. Indef.",
+                "motivo": "Indica quantidade de forma imprecisa; acompanha o substantivo 'disciplina'."
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "2. Adjetivo, Artigo e Numeral",
-        "conteudo": "O adjetivo qualifica ou caracteriza o substantivo, podendo indicar estado, forma, origem, material ou classificação. Varia em gênero, número e grau (comparativo e superlativo). O adjetivo composto une dois ou mais radicais e, em regra, só o último elemento concorda com o substantivo: 'relações luso-brasileiras', 'análise técnico-científica'. Adjetivos de cor derivados de substantivos são invariáveis: 'blusas vinho', 'fardamentos bege'. O artigo define ou indefine o substantivo: definidos ('o', 'a', 'os', 'as') indicam ser já conhecido; indefinidos ('um', 'uma', 'uns', 'umas') introduzem ser ainda não identificado. O artigo 'o/a' pode determinar o gênero de substantivos epicenos e sobrecomuns: 'o cônjuge' (masc.), 'a cônjuge' (fem.). O numeral quantifica ou ordena seres, dividindo-se em cardinal ('dois'), ordinal ('segundo'), multiplicativo ('duplo'), fracionário ('metade') e coletivo ('dúzia', 'dezena'). Ordinais até décimo são obrigatórios em linguagem formal; a partir de 11.º, o cardinal posposto é admitido: 'artigo 12' ou 'artigo décimo segundo'.",
+        "subtitulo": "2. Substantivo, adjetivo, artigo e numeral",
+        "conteudo": "Pense num documento oficial da Marinha: 'O terceiro sargento eficiente recebeu a medalha.' Cada palavra dessa frase pertence a uma classe diferente e tem uma função clara.\n\nO substantivo nomeia seres, objetos, lugares, sentimentos e ideias. Pode ser concreto ('sargento', 'medalha') ou abstrato ('eficiência', 'coragem'). Pode ser próprio ('Marinha', 'Brasil') ou comum ('oficial', 'navio').\n\nO adjetivo caracteriza o substantivo, dizendo como ele é: 'eficiente', 'valente', 'naval'. Sempre concorda em gênero e número com o substantivo que acompanha.\n\nO artigo determina o substantivo e indica se ele é conhecido (artigo definido: o, a, os, as) ou desconhecido (artigo indefinido: um, uma, uns, umas).\n\nO numeral indica quantidade ('três navios'), ordem ('o terceiro sargento'), fração ('um terço da tripulação') ou multiplicação ('dupla missão').\n\nO erro mais comum é confundir adjetivo com advérbio. Lembre-se: adjetivo modifica substantivo; advérbio modifica verbo, adjetivo ou outro advérbio.",
+        "regra": "Substantivo = nomeia · Adjetivo = caracteriza · Artigo = determina · Numeral = quantifica/ordena",
         "exemplos": [
-          "Adjetivo pátrio composto: norte-americano, sul-coreano",
-          "Cor invariável: uniformes creme, sapatos vinho, paredes gelo",
-          "Artigo com nome próprio: 'O Pedro chegou' (informalidade) vs. 'Pedro chegou' (norma culta)",
-          "Numeral ordinal em documentos oficiais: 'ao 1.º Oficial' ou 'ao Primeiro Oficial'"
-        ],
-        "regra": "Adjetivos compostos: só o segundo elemento concorda. Exceção: adjetivos compostos de cor formados por dois adjetivos de cor são invariáveis: 'camisas verde-oliva'."
+          {
+            "texto_base": "O segundo oficial recebeu três condecorações pela missão brilhante no Atlântico Sul.",
+            "anotacoes": [
+              {
+                "trecho": "segundo",
+                "destaque": "Numeral ordinal",
+                "motivo": "Indica a posição/ordem do oficial na hierarquia, não uma quantidade cardinal."
+              },
+              {
+                "trecho": "três",
+                "destaque": "Numeral cardinal",
+                "motivo": "Indica quantidade exata de condecorações recebidas."
+              },
+              {
+                "trecho": "brilhante",
+                "destaque": "Adjetivo",
+                "motivo": "Caracteriza o substantivo 'missão', indicando como ela foi."
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "3. Pronome: tipos, funções e emprego",
-        "conteudo": "O pronome substitui ou acompanha o substantivo, referindo-se a pessoas ou coisas no discurso. Classifica-se em: (a) pessoais do caso reto (eu, tu, ele/ela, nós, vós, eles/elas) — exercem função de sujeito; (b) pessoais do caso oblíquo (me, te, se, lhe, nos, vos, lhes, o, a, os, as) — exercem função de objeto; (c) possessivos (meu, teu, seu, nosso, vosso, seu) — indicam posse; (d) demonstrativos (este/esse/aquele e formas) — indicam posição no espaço, no tempo ou no texto; (e) relativos (que, quem, cujo, onde, o qual) — retomam antecedente e introduzem oração adjetiva; (f) indefinidos (alguém, ninguém, algum, nenhum, todo, qualquer) — referem-se de modo vago; (g) interrogativos (quem?, que?, qual?, quanto?) — introduzem perguntas diretas ou indiretas; (h) tratamento (Vossa Excelência, Vossa Senhoria, o senhor) — fundamentais na linguagem militar. Na Marinha, 'Vossa Excelência' (V.Exa.) usa-se para Almirantes e autoridades; 'Vossa Senhoria' (V.Sa.) para Oficiais intermediários; 'o senhor/a senhora' no trato respeitoso. O pronome 'cujo' indica posse e concorda com o ser possuído, não com o possuidor: 'O navio cujos reparos foram concluídos...'",
+        "subtitulo": "3. Pronome e verbo — os mais cobrados",
+        "conteudo": "Imagine que um oficial redige um relatório e usa 'ele' no lugar de 'o comandante' para não repetir o nome. Essa substituição é exatamente a função do pronome: substituir ou acompanhar o substantivo.\n\nOs pronomes se dividem em: pessoais (eu, tu, ele, nós, vós, eles — e os oblíquos: me, te, se, nos, vos, lhe, o, a), possessivos (meu, teu, seu, nosso), demonstrativos (este, esse, aquele), indefinidos (alguém, ninguém, todo), relativos (que, quem, cujo, onde), interrogativos (quem?, qual?, quanto?) e tratamento (Vossa Excelência, senhor).\n\nO verbo indica ação ('navegar', 'incorporar'), estado ('ser', 'estar', 'ficar') ou fenômeno natural ('chover', 'amanhecer'). É a classe mais complexa porque varia em pessoa, número, tempo, modo e voz.\n\nO erro mais comum com pronomes é confundir 'ele' (pronome pessoal reto, sujeito) com 'o' (pronome oblíquo, objeto). 'Eu o vi' — o 'o' substitui a pessoa vista, não quem viu.",
+        "regra": "Pronome = substitui/acompanha o substantivo · Verbo = ação, estado ou fenômeno · Varia em 5 categorias",
         "exemplos": [
-          "Caso reto como sujeito: Eu entreguei o relatório.",
-          "Oblíquo átono como objeto: O comandante me chamou. / Chamou-me o comandante.",
-          "Relativo 'cujo': O oficial cujo mérito foi reconhecido recebeu a comenda.",
-          "Pronome de tratamento: Vossa Excelência assinou o despacho? (pergunta dirigida ao superior)"
-        ],
-        "regra": "Pronomes de tratamento são gramaticalmente de terceira pessoa: 'Vossa Excelência sabe...' (sabe, não saber). O verbo vai para a 3.ª pessoa do singular ou plural conforme o pronome."
+          {
+            "texto_base": "O comandante apresentou seu relatório e o entregou ao almirante, que o aprovou imediatamente.",
+            "anotacoes": [
+              {
+                "trecho": "seu",
+                "destaque": "Pron. possessivo",
+                "motivo": "Indica posse: o relatório pertence ao comandante."
+              },
+              {
+                "trecho": "o entregou",
+                "destaque": "Pron. oblíquo",
+                "motivo": "'O' substitui 'o relatório' para evitar repetição — pronome oblíquo acusativo."
+              },
+              {
+                "trecho": "que",
+                "destaque": "Pron. relativo",
+                "motivo": "Retoma o antecedente 'almirante' e introduz a oração subordinada."
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "4. Verbo e Advérbio",
-        "conteudo": "O verbo é a classe de palavras que exprime ação, estado, fenômeno da natureza ou mudança de estado, variando em pessoa, número, tempo, modo e voz. Classifica-se em: transitivo direto (TD — exige objeto direto sem preposição: 'cumpriu a missão'), transitivo indireto (TI — exige objeto indireto com preposição: 'obedeceu às ordens'), bitransitivo (TD+TI: 'enviou o relatório ao comandante'), intransitivo (não exige complemento: 'O navio zarpou') e de ligação (VL — liga sujeito ao predicativo: 'O mar está agitado'). Quanto à conjugação, os verbos regulares mantêm o radical invariável; os irregulares alteram-no. Verbos defectivos têm conjugação incompleta ('falir', 'colorir', 'abolir' — usados apenas nas formas em que o radical terminado em i não causaria encontro vocálico estranhável). Verbos abundantes têm duas formas para um mesmo tempo, especialmente no particípio: 'imprimido/impresso', 'aceitado/aceito', 'entregado/entregue'. O advérbio modifica o verbo, o adjetivo ou outro advérbio, exprimindo circunstância (lugar, tempo, modo, intensidade, negação, afirmação, dúvida). É invariável em gênero e número; o grau comparativo e superlativo são possíveis: 'mais longe', 'longe demais', 'longissimamente'. Locuções adverbiais: 'às vezes', 'de repente', 'em vão', 'por acaso'.",
+        "subtitulo": "4. Advérbio, preposição e conjunção",
+        "conteudo": "Pense nas palavras que conectam ideias e modificam o significado das outras como os cabos e roldanas de um navio: você não os vê tanto quanto a carga, mas sem eles nada se move nem se conecta.\n\nO advérbio modifica o verbo, o adjetivo ou outro advérbio, indicando circunstâncias: tempo ('ontem', 'logo'), lugar ('aqui', 'lá'), modo ('rapidamente', 'bem'), intensidade ('muito', 'pouco'), negação ('não', 'jamais'), dúvida ('talvez'), afirmação ('sim', 'certamente'). É sempre invariável — nunca muda de forma.\n\nA preposição é uma palavra de ligação: conecta dois termos da frase estabelecendo uma relação entre eles. As principais são: a, ante, após, até, com, contra, de, desde, em, entre, para, perante, por, sem, sob, sobre, trás. Lembre-se: preposição nunca é núcleo de nada — ela só liga.\n\nA conjunção também liga, mas une orações inteiras ou palavras de mesma função. Pode ser coordenativa (une orações independentes: 'e', 'mas', 'ou', 'porém', 'pois') ou subordinativa (une oração principal à subordinada: 'porque', 'quando', 'se', 'embora', 'para que').\n\nO erro mais comum é confundir 'que' conjunção com 'que' pronome relativo. Dica: se puder substituir por 'o qual / a qual', é pronome relativo. Se não der, é conjunção.",
+        "regra": "Advérbio = modifica verbo/adj/adv (invariável) · Preposição = só liga termos · Conjunção = liga orações ou palavras",
         "exemplos": [
-          "Verbo abundante no particípio: O formulário foi impresso / tinha sido imprimido.",
-          "Advérbio de modo com sufixo -mente: 'O oficial respondeu prontamente.'",
-          "Verbo de ligação: O aspirante ficou ansioso com o resultado.",
-          "Advérbio intensificando adjetivo: 'muito cansativo', 'bastante complexo'"
-        ],
-        "regra": "Com verbos ter e haver (auxiliares), usa-se particípio regular (-ado/-ido): 'tinha imprimido', 'havia aceitado'. Com ser e estar (voz passiva e predicado nominal), usa-se o irregular (ou forma curta): 'foi impresso', 'está aceito'."
+          {
+            "texto_base": "A embarcação partiu rapidamente para o porto, mas retornou logo porque o tempo piorou muito.",
+            "anotacoes": [
+              {
+                "trecho": "rapidamente",
+                "destaque": "Adv. de modo",
+                "motivo": "Modifica o verbo 'partiu', indicando como a ação ocorreu."
+              },
+              {
+                "trecho": "para",
+                "destaque": "Preposição",
+                "motivo": "Liga o verbo 'partiu' ao complemento 'o porto', indicando direção."
+              },
+              {
+                "trecho": "mas",
+                "destaque": "Conj. coord. advers.",
+                "motivo": "Une duas orações independentes expressando oposição/contraste."
+              },
+              {
+                "trecho": "porque",
+                "destaque": "Conj. sub. causal",
+                "motivo": "Introduz oração subordinada que indica a causa do retorno."
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "5. Preposição, Conjunção e Interjeição",
-        "conteudo": "A preposição é palavra invariável que liga termos da oração, estabelecendo relação de dependência entre eles. Preposições essenciais: a, ante, após, até, com, contra, de, desde, em, entre, para, perante, por, sem, sob, sobre, trás. Preposições acidentais: palavras de outra classe que, no contexto, exercem função prepositiva: 'conforme as normas', 'mediante autorização', 'salvo exceções'. A contração é obrigatória em certos contextos: 'de + o = do', 'em + um = num', 'a + a = à' (crase). A conjunção liga orações ou termos de mesma função sintática. Coordenativas: aditivas (e, nem, não só...mas também), adversativas (mas, porém, contudo, todavia, entretanto, no entanto), alternativas (ou...ou, ora...ora, quer...quer), conclusivas (logo, portanto, por conseguinte, assim, pois — posposto ao verbo), explicativas (porque, que, pois — anteposto ao verbo). Subordinativas: causais, concessivas, condicionais, comparativas, conformativas, consecutivas, finais, proporcionais, temporais, integrantes. A interjeição exprime emoção, estado de espírito ou apelo, sendo invariável e funcionando como enunciado autônomo: 'Atenção!', 'Firme!', 'Viva a Marinha!'.",
+        "subtitulo": "5. Interjeição e transposição de classe",
+        "conteudo": "A interjeição é o grito da língua: expressa emoção, sentimento ou apelo de forma isolada. 'Atenção!', 'Bravo!', 'Silêncio!', 'Ai!', 'Ora!' são exemplos. Ela não tem relação sintática com o resto da frase — funciona como um bloco independente, sempre separada por exclamação ou vírgula.\n\nO ponto mais difícil das classes de palavras — e o que o CEBRASPE mais cobra — é que muitas palavras mudam de classe conforme o contexto. Isso se chama transposição ou conversão.\n\nExemplos clássicos de transposição: 'O saber é uma virtude' — 'saber' é um verbo no infinitivo, mas aqui funciona como substantivo (sujeito da frase). 'Trabalho incessante' — 'trabalho' é verbo em outras frases, mas aqui é substantivo. 'Fale alto' — 'alto' seria adjetivo, mas modifica o verbo 'fale', logo é advérbio de modo.\n\nSempre pergunte: qual é a função desta palavra nesta frase? A resposta define a classe — não a forma da palavra.",
+        "regra": "Interjeição = emoção isolada · Transposição = palavra muda de classe conforme a função na frase",
         "exemplos": [
-          "Preposição essencial: 'Partiu para o mar.' / 'Dependia de autorização.'",
-          "Conjunção conclusiva 'pois' posposta: 'Estudei muito; passei, pois.'",
-          "Conjunção explicativa 'pois' anteposta: 'Adie a saída, pois o tempo está fechado.'",
-          "Interjeição de ordem militar: 'Sentido! Descansar! Volver!'"
-        ],
-        "regra": "A posição de 'pois' determina sua classificação: anteposto ao verbo = explicativa (equivale a 'porque'); posposto = conclusiva (equivale a 'portanto'). Essa distinção é clássica em provas de concurso."
+          {
+            "texto_base": "Silêncio! O recruta aprendeu o dever cedo e hoje fala alto nos briefings.",
+            "anotacoes": [
+              {
+                "trecho": "Silêncio",
+                "destaque": "Interjeição",
+                "motivo": "Expressa ordem/apelo de forma isolada — não se liga sintaticamente ao resto."
+              },
+              {
+                "trecho": "dever",
+                "destaque": "Subst. (transposição)",
+                "motivo": "'Dever' é verbo, mas aqui é precedido de artigo 'o' e funciona como substantivo."
+              },
+              {
+                "trecho": "alto",
+                "destaque": "Adv. (transposição)",
+                "motivo": "'Alto' seria adjetivo, mas modifica o verbo 'fala' — funciona como advérbio de modo."
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "6. Transposição de classes (derivação imprópria) e palavras de múltipla classe",
-        "conteudo": "A mesma forma pode pertencer a diferentes classes conforme o contexto sintático — fenômeno chamado de derivação imprópria ou conversão por Cunha e Cintra (2017). Principais casos: (a) substantivação de adjetivos, verbos, advérbios e outras classes — determinados por artigo: 'O não foi sua resposta.'; 'O belo nos eleva.'; (b) adjetivação de substantivos — sem artigo próprio, em função adjetiva: 'Homem-bomba'; (c) uso adverbial de adjetivos — sem concordância: 'Falou alto.'; 'Custou caro.'; 'Chegou rápido.'; (d) conjunção 'que' como pronome relativo, pronome interrogativo, partícula expletiva ou integrante; (e) 'como' pode ser advérbio, conjunção comparativa, conjunção conformativa ou preposição. Identificar a classe da palavra exige análise do contexto: a mesma palavra 'mesmo' pode ser adjetivo ('o mesmo oficial'), pronome ('Ele mesmo assinou'), advérbio de intensidade ('Mesmo assim, prosseguiu') ou conjunção concessiva ('Mesmo cansado, concluiu').",
+        "subtitulo": "6. Como o CEBRASPE cobra esse assunto",
+        "conteudo": "O CEBRASPE tem um padrão claro ao cobrar classes de palavras: ele apresenta um trecho e pede para o candidato identificar a classe de uma palavra específica — geralmente uma que pode mudar de classe conforme o contexto.\n\nAs pegadas favoritas da banca: (1) pedir a classe de 'que' numa frase — pode ser pronome relativo, conjunção integrante ou conjunção coordenativa; (2) pedir a classe de 'se' — pode ser pronome reflexivo, índice de indeterminação do sujeito, partícula apassivadora ou conjunção condicional; (3) apresentar um adjetivo funcionando como advérbio ('As tropas marcharam rápido') e perguntar a classe; (4) apresentar um substantivo abstrato e chamar de adjetivo.\n\nA estratégia vencedora é simples: identifique o que a palavra modifica ou qual função exerce na frase — não olhe só para a palavra isolada. Se modifica substantivo = adjetivo. Se modifica verbo = advérbio. Se substitui substantivo = pronome. Se nomeia = substantivo.\n\nO erro mais comum nas provas avançadas é não perceber que 'mesmo', 'bastante', 'meio', 'certo' e 'só' podem ser adjetivos ou advérbios conforme o uso.",
+        "regra": "'Que', 'se', 'como', 'quando' = analise o contexto · Modifica subst. = adj. · Modifica verbo = adv.",
         "exemplos": [
-          "Substantivação de infinitivo: 'O caminhar do patrulheiro era firme.' (caminhar = substantivo)",
-          "Adjetivo como advérbio: 'Os recrutas falaram alto.' (alto não varia — advérbio)",
-          "Pronome relativo 'que': 'O documento que assinei...' (substitui 'documento')",
-          "'Mesmo' como pronome: 'O comandante mesmo conferiu a lista.'"
-        ],
-        "regra": "Para identificar a classe, pergunte: a palavra varia em gênero/número? Está modificando substantivo (adjetivo) ou verbo/adjetivo/advérbio (advérbio)? Está ligando termos (conjunção/preposição) ou os nomeando (substantivo)?"
+          {
+            "texto_base": "O comandante mesmo conferiu os documentos, pois certo oficial os havia arquivado errado.",
+            "anotacoes": [
+              {
+                "trecho": "mesmo",
+                "destaque": "Pron. adj. enf.",
+                "motivo": "Acompanha 'comandante' com valor de ênfase — pronome adjetivo, não advérbio."
+              },
+              {
+                "trecho": "certo",
+                "destaque": "Adjetivo",
+                "motivo": "Antes do substantivo 'oficial' — sentido de 'determinado', funcionando como adjetivo."
+              },
+              {
+                "trecho": "errado",
+                "destaque": "Adv. (transposição)",
+                "motivo": "Modifica o verbo 'havia arquivado' indicando modo — funciona como advérbio, não adjetivo."
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Advérbio invariável vs. adjetivo variável",
-      "errado": "As recrutas chegaram rapidAs ao quartel.",
-      "correto": "As recrutas chegaram rápido ao quartel.",
-      "explicacao": "Quando 'rápido' modifica o verbo 'chegaram', funciona como advérbio e é invariável. A concordância de gênero ('rapidAs') seria correta apenas se 'rápido' fosse adjetivo modificando o sujeito ('As recrutas rápidas chegaram'), o que alteraria o sentido. Provas militares frequentemente testam esse uso.",
+      "titulo": "'Bastante' — adjetivo ou advérbio?",
+      "errado": "Os oficiais estavam bastantes cansados após o exercício naval.",
+      "correto": "Os oficiais estavam bastante cansados após o exercício naval.",
+      "explicacao": "Quando 'bastante' modifica um adjetivo ('cansados'), ele é advérbio e, portanto, invariável — não concorda com o substantivo. O erro está em flexioná-lo no plural ('bastantes'). Apenas quando 'bastante' funciona como adjetivo (modificando substantivo diretamente) ele concorda: 'Havia bastantes recrutas na formação.'",
       "nivel": "basico"
     },
     {
-      "titulo": "Particípio com auxiliar ter/haver vs. ser/estar",
-      "errado": "O relatório tinha sido impresso corretamente. / O relatório tinha impresso corretamente.",
-      "correto": "O relatório tinha sido impresso corretamente. / O relatório tinha sido imprimido corretamente.",
-      "explicacao": "Com auxiliares ter e haver, usa-se o particípio regular: 'tinha imprimido'. Com auxiliares ser e estar (voz passiva), usa-se o irregular: 'foi impresso', 'está impresso'. Misturar as formas é o erro clássico: 'tinha impresso' com ter é incorreto na norma culta.",
+      "titulo": "Interjeição com ponto final no lugar de exclamação",
+      "errado": "Atenção. Todos os marinheiros devem se apresentar às 06h.",
+      "correto": "Atenção! Todos os marinheiros devem se apresentar às 06h.",
+      "explicacao": "Interjeições que expressam ordem ou apelo exigem ponto de exclamação, não ponto final. 'Atenção' aqui é uma interjeição que expressa chamamento urgente. O ponto final apaga essa carga emotiva e torna a frase gramaticalmente inadequada no registro formal exigido.",
       "nivel": "basico"
     },
     {
-      "titulo": "'Cujo' concordando com o possuidor",
-      "errado": "O oficial cujo mérito reconhecemos recebeu elogios.",
-      "correto": "O oficial cujo mérito reconhecemos recebeu elogios. (correto) / A oficial cuja dedicação foi elogiada recebeu medalha.",
-      "explicacao": "'Cujo/cuja/cujos/cujas' concorda em gênero e número com o ser possuído (a coisa possuída), não com o possuidor. Em 'cuja dedicação', 'cuja' concorda com 'dedicação' (feminino), não com 'oficial'. O erro típico é fazer 'cujo' concordar com o sujeito da oração principal.",
+      "titulo": "'Que' — pronome relativo ou conjunção?",
+      "errado": "O navio que aportou ontem, que era esperado há dias, foi recebido com honras.",
+      "correto": "O navio que aportou ontem, o qual era esperado há dias, foi recebido com honras.",
+      "explicacao": "Usar dois 'que' em sequência próxima cria ambiguidade e é considerado inadequado em textos formais. O segundo 'que' retoma o antecedente 'navio' — pode e deve ser substituído por 'o qual' para evitar a repetição e dar maior clareza. O CEBRASPE cobra a consciência de que 'que' pode ser pronome relativo (substituível por 'o qual') ou conjunção (não substituível).",
       "nivel": "intermediario"
     },
     {
-      "titulo": "Pronome de tratamento com verbo na 2.ª pessoa",
-      "errado": "Vossa Excelência precisa de mais informações sobre o assunto?",
-      "correto": "Vossa Excelência precisa de mais informações sobre o assunto?",
-      "explicacao": "Embora 'Vossa Excelência' se refira à segunda pessoa do discurso (o interlocutor), é gramaticalmente tratado como terceira pessoa: o verbo vai para a 3.ª pessoa ('precisa', não 'precisas'). O erro clássico é usar 2.ª pessoa: 'Vossa Excelência precisas...' Este exemplo mostra o correto, mas a pegadinha surge quando a alternativa errada apresenta o verbo na 2.ª pessoa.",
-      "nivel": "avancado"
+      "titulo": "'Se' — pronome reflexivo ou conjunção?",
+      "errado": "Não se sabe se o sargento se apresentará no quartel amanhã. (analisar o primeiro 'se' como pronome reflexivo)",
+      "correto": "O primeiro 'se' é índice de indeterminação do sujeito; o segundo 'se' é conjunção condicional/integrante; o terceiro 'se' é pronome reflexivo.",
+      "explicacao": "A palavra 'se' tem quatro funções diferentes: pronome reflexivo (ação recai sobre o sujeito), índice de indeterminação do sujeito (com verbos intransitivos ou transitivos indiretos), partícula apassivadora (com verbos transitivos diretos) e conjunção condicional/integrante. Confundi-las leva a erro na análise da voz verbal e na colocação pronominal.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Conjunção 'pois': conclusiva ou explicativa?",
-      "errado": "Não compareceu à formação, pois será punido. (querendo expressar conclusão)",
-      "correto": "Não compareceu à formação; será punido, pois. (conclusiva, posposta) / Não compareceu à formação, pois estava de licença médica. (explicativa, anteposta)",
-      "explicacao": "Quando 'pois' vem anteposto ao verbo (início do segundo segmento), é conjunção explicativa (= porque). Quando vem posposto ao verbo (no meio ou fim do segundo segmento), é conclusiva (= portanto). A sentença 'Não compareceu, pois será punido' usa 'pois' anteposto como se fosse conclusivo, o que está incorreto: a punição seria a consequência, não a explicação.",
+      "titulo": "Substantivo abstrato classificado como adjetivo",
+      "errado": "A palavra 'lealdade' na frase 'A lealdade do oficial foi reconhecida' é um adjetivo, pois qualifica o comportamento do oficial.",
+      "correto": "A palavra 'lealdade' na frase citada é um substantivo abstrato, pois nomeia uma qualidade como se fosse um ser.",
+      "explicacao": "Substantivos abstratos nomeiam qualidades, sentimentos e estados como se fossem entidades (lealdade, coragem, disciplina, eficiência). O adjetivo qualifica — vem junto ao substantivo e concorda com ele. 'Lealdade' é núcleo do sujeito da oração, não acompanha nenhum substantivo — logo, é substantivo. O CEBRASPE gosta de apresentar essa confusão em questões de identificação de classe.",
       "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "A questão apresenta um adjetivo após verbo de ligação e pede a classificação morfológica da palavra destacada. Candidatos marcam 'advérbio' porque a palavra está depois do verbo.",
-      "dica": "Após verbo de ligação (ser, estar, ficar, parecer, permanecer, tornar-se), a palavra que se refere ao sujeito e concorda com ele é predicativo do sujeito — função de adjetivo, não de advérbio. Só é advérbio se modifica o verbo diretamente e não varia em gênero/número.",
+      "situacao": "Classificar a palavra pelo seu significado em vez de pela sua função na frase",
+      "dica": "A classe de uma palavra nunca é determinada pelo que ela 'parece' significar, mas pelo papel que ela exerce na frase. 'Direito' pode ser substantivo ('Ele estudou direito'), adjetivo ('O poste está direito') ou advérbio ('Fale direito'). Sempre pergunte: o que essa palavra está modificando ou nomeando nessa frase específica?",
       "nivel": "basico"
     },
     {
-      "situacao": "A questão destaca a palavra 'que' em diferentes frases e pede que o candidato identifique em qual delas ela funciona como conjunção integrante (e não como pronome relativo ou expletivo).",
-      "dica": "Pronome relativo 'que' pode ser substituído por 'o qual/a qual' e tem antecedente nominal claro. Conjunção integrante 'que' introduz oração substantiva (pode ser substituída por 'isso'): 'Sei que ele chegou' = 'Sei isso'. Expletiva/realce: pode ser retirada sem prejuízo sintático: 'Ele que foi o culpado' → 'Ele foi o culpado'.",
+      "situacao": "Confundir advérbio de intensidade com pronome indefinido ao analisar 'muito'",
+      "dica": "'Muito' muda de classe conforme o uso. Quando acompanha e modifica um substantivo concordando com ele, é pronome indefinido: 'Muitos oficiais chegaram' (concorda: muitos/oficiais). Quando modifica verbo ou adjetivo e é invariável, é advérbio: 'Ele trabalhou muito' / 'Estava muito cansado'. O sinal de alerta é a concordância: se 'muito' estiver no plural ou feminino junto a um substantivo, é pronome; se estiver fixo, é advérbio.",
       "nivel": "intermediario"
     },
     {
-      "situacao": "Questões sobre numeral apresentam a palavra 'primeiro/segundo' e pedem classificação, mas a palavra está sendo usada em contexto adverbial ou predicativo que confunde o candidato.",
-      "dica": "Numeral ordinal funciona como adjetivo quando modifica substantivo ('o primeiro colocado'). Mas 'primeiro' pode ser advérbio de ordem em frases como 'Primeiro, verifique o equipamento' (= em primeiro lugar). Identifique sempre o termo que a palavra está modificando e a função sintática antes de classificar morfologicamente.",
+      "situacao": "Aplicar a regra de transposição sem verificar o contexto completo da frase",
+      "dica": "Palavras que mudam de classe (transposição) exigem análise do contexto inteiro, não apenas do trecho imediato. Em 'O jantar estava pronto', 'jantar' é substantivo (precedido de artigo 'O'). Em 'Vamos jantar agora', 'jantar' é verbo. Em questões avançadas do CEBRASPE, o contexto é deliberadamente construído para enganar o candidato que analisa a palavra isoladamente. Leia a frase inteira antes de classificar.",
       "nivel": "avancado"
     }
   ],
@@ -131,736 +237,767 @@
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que TODAS as palavras são substantivos.",
+      "enunciado": "Em 'O recruta disciplinado cumpriu a ordem', a palavra 'disciplinado' pertence à classe dos",
       "alternativas": {
-        "A": "coragem, beleza, esforço",
-        "B": "corajoso, belo, esforçado",
-        "C": "corajosamente, belamente, esforçadamente",
-        "D": "encorajar, embelezar, esforçar",
-        "E": "muito, bastante, deveras"
+        "A": "substantivos, pois nomeia uma característica do recruta.",
+        "B": "advérbios, pois modifica o verbo 'cumpriu'.",
+        "C": "adjetivos, pois caracteriza o substantivo 'recruta'.",
+        "D": "numerais, pois indica a quantidade de recrutas.",
+        "E": "pronomes, pois substitui o substantivo 'recruta'."
       },
-      "gabarito": "A",
-      "explicacao": "A alternativa A contém três substantivos abstratos que nomeiam qualidades: 'coragem', 'beleza' e 'esforço'. B apresenta adjetivos; C, advérbios de modo com sufixo -mente; D, verbos no infinitivo; E, advérbios de intensidade."
+      "gabarito": "C",
+      "explicacao": "A palavra 'disciplinado' caracteriza o substantivo 'recruta', indicando uma qualidade — essa é exatamente a função do adjetivo. A alternativa A está errada porque substantivo nomeia seres, não qualifica. A alternativa B está errada porque 'disciplinado' não modifica o verbo 'cumpriu' — está antes do sujeito 'recruta'. As demais alternativas (D e E) descrevem classes que não se aplicam aqui."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Em 'A frota zarpou ao amanhecer', a palavra 'frota' é um substantivo:",
+      "enunciado": "Na frase 'Três oficiais receberam a medalha', a palavra 'Três' é classificada como",
       "alternativas": {
-        "A": "próprio, concreto e simples",
-        "B": "comum, concreto e coletivo",
-        "C": "comum, abstrato e simples",
-        "D": "próprio, abstrato e coletivo",
-        "E": "comum, concreto e derivado"
+        "A": "pronome indefinido, pois indica quantidade imprecisa.",
+        "B": "numeral cardinal, pois indica quantidade exata de pessoas.",
+        "C": "adjetivo numeral, pois qualifica os oficiais.",
+        "D": "artigo definido, pois determina o substantivo 'oficiais'.",
+        "E": "advérbio de quantidade, pois modifica o substantivo."
       },
       "gabarito": "B",
-      "explicacao": "'Frota' é substantivo comum (não nomeia ser específico), concreto (designa seres com existência independente — os navios que compõem o conjunto) e coletivo (no singular, designa um conjunto de navios). Não é próprio (faltaria letra maiúscula e individualização), não é abstrato (não depende de outro ser para existir conceptualmente) e não é derivado (é primitivo)."
+      "explicacao": "A palavra 'Três' indica quantidade exata e precisa de seres — essa é a definição de numeral cardinal. A alternativa A está errada porque pronome indefinido indica quantidade imprecisa ('alguns', 'muitos'). A alternativa C usa nomenclatura antiga. A alternativa D está errada porque artigo acompanha o substantivo indicando se é conhecido ou não. A alternativa E está errada porque advérbio modifica verbo, adjetivo ou outro advérbio — nunca substantivo diretamente."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Identifique o adjetivo na frase: 'O jovem oficial apresentou um relatório técnico ao comando naval.'",
+      "enunciado": "A palavra que pertence à classe dos substantivos na frase 'A coragem do sargento impressionou a tropa' é",
       "alternativas": {
-        "A": "jovem e naval",
-        "B": "oficial e comando",
-        "C": "relatório e técnico",
-        "D": "apresentou e naval",
-        "E": "ao e naval"
+        "A": "coragem",
+        "B": "A",
+        "C": "do",
+        "D": "impressionou",
+        "E": "a"
       },
       "gabarito": "A",
-      "explicacao": "'Jovem' qualifica 'oficial' (substantivo) e 'naval' qualifica 'comando' — ambos são adjetivos. 'Oficial' e 'comando' são substantivos; 'relatório' é substantivo e 'técnico' é adjetivo (só técnico seria adjetivo, mas a alternativa mistura substantivo com adjetivo); 'apresentou' é verbo; 'ao' é contração de preposição + artigo."
+      "explicacao": "'Coragem' nomeia um sentimento abstrato — é substantivo abstrato. As palavras 'A' e 'a' são artigos definidos. 'do' é contração de preposição 'de' + artigo 'o'. 'impressionou' é verbo. Apenas 'coragem' exerce a função de nomear — portanto, é substantivo."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Qual das alternativas contém exclusivamente pronomes pessoais do caso oblíquo?",
+      "enunciado": "As palavras invariáveis — aquelas que nunca mudam de forma — pertencem às classes de",
       "alternativas": {
-        "A": "eu, tu, ele",
-        "B": "me, te, se",
-        "C": "meu, teu, seu",
-        "D": "este, esse, aquele",
-        "E": "nós, vós, eles"
+        "A": "substantivo, adjetivo, verbo e pronome.",
+        "B": "advérbio, preposição, conjunção e interjeição.",
+        "C": "artigo, numeral, adjetivo e conjunção.",
+        "D": "pronome, advérbio, interjeição e substantivo.",
+        "E": "verbo, preposição, numeral e artigo."
       },
       "gabarito": "B",
-      "explicacao": "Os pronomes pessoais do caso oblíquo (átonos) são: me, te, se, lhe, nos, vos, lhes, o, a, os, as. A alternativa B apresenta exatamente três formas oblíquas átonas. A: pronomes do caso reto (sujeito); C: pronomes possessivos; D: pronomes demonstrativos; E: pronomes do caso reto (sujeito)."
+      "explicacao": "As classes invariáveis são exatamente quatro: advérbio, preposição, conjunção e interjeição. Elas nunca sofrem flexão de gênero, número ou pessoa. As demais classes (substantivo, adjetivo, artigo, numeral, pronome e verbo) são variáveis — mudam de forma para expressar gênero, número, grau ou pessoa."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Em 'Ele chegou tarde demais ao porto', a palavra 'tarde' exerce a função de:",
+      "enunciado": "Em 'O marinheiro partiu ontem para a base naval', a palavra 'ontem' pertence à classe",
       "alternativas": {
-        "A": "substantivo, pois indica um período do dia",
-        "B": "adjetivo, pois qualifica o sujeito 'ele'",
-        "C": "advérbio de tempo, pois modifica o verbo 'chegou'",
-        "D": "preposição, pois liga 'ele' ao restante",
-        "E": "numeral, pois quantifica o tempo de chegada"
+        "A": "dos substantivos, pois nomeia um período de tempo.",
+        "B": "dos adjetivos, pois qualifica o marinheiro.",
+        "C": "das preposições, pois liga 'partiu' a 'base'.",
+        "D": "dos advérbios, pois indica a circunstância de tempo da ação.",
+        "E": "das conjunções, pois une duas orações da frase."
       },
-      "gabarito": "C",
-      "explicacao": "Na frase, 'tarde' modifica o verbo 'chegou', indicando circunstância de tempo — é, portanto, advérbio de tempo. Não é substantivo (não há artigo antes; seria: 'A tarde estava nublada'); não é adjetivo (não se refere ao sujeito com concordância); não é preposição (não liga termos em relação de dependência); não é numeral."
+      "gabarito": "D",
+      "explicacao": "'Ontem' modifica o verbo 'partiu', indicando quando a ação ocorreu — circunstância de tempo. Essa é a função do advérbio. A alternativa A está errada: 'ontem' não nomeia nada, apenas situa a ação no tempo. A alternativa C está errada porque a preposição que liga 'partiu' a 'base' é 'para', não 'ontem'. Advérbios de tempo mais comuns: hoje, ontem, amanhã, cedo, tarde, logo, já, sempre, nunca."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que o numeral está corretamente classificado como ORDINAL.",
+      "enunciado": "Assinale a alternativa em que a palavra destacada é uma PREPOSIÇÃO.",
       "alternativas": {
-        "A": "'Dois' na frase 'Dois navios atracaram.'",
-        "B": "'Triplo' na frase 'O esforço foi triplo.'",
-        "C": "'Terceiro' na frase 'O terceiro colocado será convocado.'",
-        "D": "'Metade' na frase 'Concluiu metade da prova.'",
-        "E": "'Dúzia' na frase 'Comprou uma dúzia de ovos.'"
+        "A": "O navio ERA veloz e resistente.",
+        "B": "Os recrutas LOGO entenderão as normas.",
+        "C": "A MARINHA protege as fronteiras marítimas do Brasil.",
+        "D": "ELE recebeu a patente merecida.",
+        "E": "O sargento falou COM firmeza durante a instrução."
       },
-      "gabarito": "C",
-      "explicacao": "'Terceiro' indica posição em uma ordem ou sequência — é numeral ordinal. A: 'dois' é cardinal (indica quantidade); B: 'triplo' é multiplicativo (indica quantas vezes algo se multiplica); D: 'metade' é fracionário (indica fração); E: 'dúzia' é numeral coletivo (indica conjunto de 12)."
+      "gabarito": "E",
+      "explicacao": "Em 'falou COM firmeza', a palavra 'com' é uma preposição que liga o verbo 'falou' ao complemento 'firmeza', indicando modo. A alternativa A: 'ERA' é verbo de ligação. A alternativa B: 'LOGO' é advérbio de tempo. A alternativa C: 'MARINHA' é substantivo próprio (sujeito da oração). A alternativa D: 'ELE' é pronome pessoal reto."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Qual classe gramatical é representada pela palavra 'mas' na frase 'O recruta estava cansado, mas não desistiu da prova'?",
+      "enunciado": "Na frase 'Atenção! Os militares devem se apresentar uniformizados', a palavra 'Atenção' é classificada como",
       "alternativas": {
-        "A": "Preposição",
-        "B": "Advérbio de negação",
-        "C": "Conjunção coordenativa adversativa",
-        "D": "Pronome indefinido",
-        "E": "Interjeição"
+        "A": "substantivo abstrato, pois nomeia um estado mental.",
+        "B": "adjetivo, pois qualifica os militares.",
+        "C": "interjeição, pois expressa apelo de forma isolada.",
+        "D": "verbo no imperativo, pois expressa uma ordem.",
+        "E": "advérbio de modo, pois indica como os militares devem agir."
       },
       "gabarito": "C",
-      "explicacao": "'Mas' é conjunção coordenativa adversativa: liga as duas orações ('estava cansado' e 'não desistiu') que são independentes sintaticamente, expressando oposição ou contraste. Não é preposição (não estabelece relação de dependência entre termos), nem advérbio (não modifica verbo, adjetivo ou advérbio), nem pronome, nem interjeição."
+      "explicacao": "'Atenção!' está isolada da frase seguinte (separada pelo ponto de exclamação), não mantém relação sintática com os outros termos e expressa um apelo/chamamento — função típica da interjeição. A alternativa A está errada porque, embora 'atenção' possa ser substantivo em outros contextos, aqui o uso isolado com exclamação a caracteriza como interjeição. A alternativa D está errada porque não há flexão verbal."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Em 'O comandante nomeou-o para a missão', o pronome oblíquo 'o' exerce a função sintática de:",
+      "enunciado": "A alternativa que apresenta exclusivamente substantivos é",
       "alternativas": {
-        "A": "sujeito",
-        "B": "objeto direto",
-        "C": "objeto indireto",
-        "D": "adjunto adverbial",
-        "E": "predicativo do objeto"
+        "A": "oficial, disciplina, Marinha",
+        "B": "navio, partir, coragem",
+        "C": "valente, recruta, honra",
+        "D": "cedo, missão, lealdade",
+        "E": "para, combate, rígido"
       },
-      "gabarito": "B",
-      "explicacao": "'Nomeou-o' = 'nomeou + o': o verbo 'nomear' é transitivo direto (exige complemento sem preposição). O pronome oblíquo átono 'o' funciona como objeto direto, completando o sentido do verbo sem preposição. Não é sujeito (seria caso reto: 'ele'); não é objeto indireto (exigiria preposição: 'lhe'); não é adjunto adverbial nem predicativo."
+      "gabarito": "A",
+      "explicacao": "Em A: 'oficial' (nomeia cargo/pessoa), 'disciplina' (nomeia qualidade abstrata) e 'Marinha' (substantivo próprio que nomeia a instituição) — todos são substantivos. Em B: 'partir' é verbo no infinitivo. Em C: 'valente' é adjetivo. Em D: 'cedo' é advérbio de tempo. Em E: 'para' é preposição e 'rígido' é adjetivo."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "A palavra 'perante' na frase 'O oficial prestou contas perante o tribunal' é classificada como:",
+      "enunciado": "A conjunção 'mas' em 'A missão era difícil, mas os recrutas a cumpriram' indica relação de",
       "alternativas": {
-        "A": "conjunção subordinativa",
-        "B": "advérbio de lugar",
-        "C": "preposição essencial",
-        "D": "adjetivo relacional",
-        "E": "pronome relativo"
+        "A": "causa, pois apresenta o motivo do cumprimento da missão.",
+        "B": "conclusão, pois conclui o raciocínio iniciado na primeira oração.",
+        "C": "adição, pois acrescenta informação à primeira oração.",
+        "D": "adversidade, pois expressa oposição entre as duas orações.",
+        "E": "condição, pois estabelece condição para o cumprimento da missão."
       },
-      "gabarito": "C",
-      "explicacao": "'Perante' é uma das preposições essenciais da língua portuguesa — palavra invariável que liga termos da oração, neste caso relacionando 'prestou contas' ao sintagma nominal 'o tribunal'. Não é conjunção (não liga orações), não é advérbio (não modifica verbo/adjetivo/advérbio), não é adjetivo e não é pronome."
+      "gabarito": "D",
+      "explicacao": "A conjunção 'mas' é coordenativa adversativa — une duas orações independentes expressando oposição, contraste ou restrição. A primeira oração ('A missão era difícil') e a segunda ('os recrutas a cumpriram') se opõem em sentido. As demais alternativas descrevem outros tipos de conjunção: causa = porque/pois; conclusão = portanto/logo; adição = e/nem; condição = se/caso."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que a palavra destacada é uma INTERJEIÇÃO.",
+      "enunciado": "Na frase 'Ele entregou o relatório ao almirante', o pronome 'Ele' exerce a função de",
       "alternativas": {
-        "A": "'Bravo!' — O aspirante bravo recusou a ordem injusta.",
-        "B": "'Atenção!' — Os soldados marcharam em atenção perfeita.",
-        "C": "'Atenção!' — Atenção! Todos os militares devem se apresentar.",
-        "D": "'Firme' — Ele se manteve firme diante das dificuldades.",
-        "E": "'Ordem' — A ordem do dia foi publicada no boletim."
+        "A": "objeto direto, pois recebe a ação do verbo.",
+        "B": "objeto indireto, pois complementa o verbo com preposição.",
+        "C": "sujeito, pois indica quem praticou a ação de entregar.",
+        "D": "adjunto adverbial, pois indica circunstância da ação.",
+        "E": "predicativo, pois caracteriza o sujeito da oração."
       },
       "gabarito": "C",
-      "explicacao": "Em C, 'Atenção!' funciona como interjeição: é um enunciado autônomo que expressa apelo ou comando, sem se integrar sintaticamente às outras palavras da frase. Em A, 'bravo' é adjetivo qualificando 'aspirante'. Em B, 'atenção' é substantivo (objeto de 'em'). Em D, 'firme' é adjetivo predicativo. Em E, 'ordem' é substantivo sujeito."
+      "explicacao": "'Ele' é pronome pessoal reto — sua função típica é ser sujeito da oração, indicando quem pratica a ação. Na frase, 'Ele' é quem praticou a ação de entregar. A alternativa A está errada porque o objeto direto é 'o relatório'. A alternativa B está errada porque o objeto indireto é 'ao almirante'. Pronomes retos (eu, tu, ele, nós, vós, eles) exercem função de sujeito; pronomes oblíquos exercem função de objeto."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Observe as frases a seguir e assinale aquela em que o adjetivo composto está flexionado de forma INCORRETA segundo a norma culta.",
+      "textoBase": "O sargento apresentou, com muita calma, o plano operacional que havia sido elaborado pelo Estado-Maior.",
+      "enunciado": "Com base no texto acima, a palavra 'que' é classificada como",
       "alternativas": {
-        "A": "Foram adotadas medidas técnico-científicas para o projeto.",
-        "B": "Estabeleceram-se relações luso-brasileiras profícuas.",
-        "C": "O acordo prevê intercâmbios culturais sul-americanos.",
-        "D": "Foram confeccionados uniformes verde-olivas para a cerimônia.",
-        "E": "As análises histórico-críticas foram publicadas."
+        "A": "conjunção coordenativa aditiva, pois une as duas orações da frase.",
+        "B": "pronome relativo, pois retoma o antecedente 'plano operacional'.",
+        "C": "conjunção subordinativa integrante, pois introduz oração objetiva direta.",
+        "D": "advérbio de modo, pois indica como o plano foi elaborado.",
+        "E": "pronome interrogativo, pois questiona o conteúdo do plano."
       },
-      "gabarito": "D",
-      "explicacao": "Adjetivos compostos formados por dois adjetivos de cor são invariáveis: 'verde-oliva' não flexiona em nenhuma circunstância. O correto seria 'uniformes verde-oliva'. Nas demais alternativas: A: 'técnico-científicas' — só o segundo elemento concorda (correto); B: 'luso-brasileiras' — correto; C: 'sul-americanos' — adjetivo composto com o segundo elemento concordando (correto); E: 'histórico-críticas' — correto."
+      "gabarito": "B",
+      "explicacao": "O 'que' em 'o plano operacional que havia sido elaborado' pode ser substituído por 'o qual' — sinal inequívoco de pronome relativo. Ele retoma o antecedente 'plano operacional' e introduz uma oração adjetiva restritiva. A alternativa A está errada porque conjunção coordenativa aditiva seria 'e' ou 'nem'. A alternativa C está errada porque conjunção integrante introduz oração completiva ('Disseram que o sargento veio'). O teste prático: troque por 'o qual' — se funcionar, é pronome relativo."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Em qual das alternativas a palavra destacada NÃO pertence à classe indicada entre parênteses?",
+      "textoBase": "As tropas marcharam rápido pela avenida central durante o desfile cívico-militar.",
+      "enunciado": "No texto, a palavra 'rápido' pertence à classe dos",
       "alternativas": {
-        "A": "'O belo' nos inspira. (substantivo)",
-        "B": "Chegou RÁPIDO ao quartel. (advérbio)",
-        "C": "Isso tudo custou CARO. (adjetivo)",
-        "D": "O CAMINHAR do patrulheiro era firme. (substantivo)",
-        "E": "O NÃO foi sua única resposta. (substantivo)"
+        "A": "adjetivos, pois concorda com o substantivo 'tropas' no plural.",
+        "B": "advérbios, pois modifica o verbo 'marcharam', indicando modo.",
+        "C": "numerais, pois quantifica a velocidade das tropas.",
+        "D": "pronomes indefinidos, pois substitui 'as tropas' na frase.",
+        "E": "substantivos, pois nomeia a característica das tropas."
       },
-      "gabarito": "C",
-      "explicacao": "Em 'Isso tudo custou caro', o adjetivo 'caro' modifica o verbo 'custou', funcionando como advérbio de modo (equivale a 'muito' ou 'por alto preço'). É advérbio, não adjetivo — por isso não varia. Se fosse adjetivo, concordaria com um substantivo. As demais: A: 'o belo' — adjetivo substantivado pelo artigo 'o'; B: 'rápido' modifica o verbo, é advérbio (correto); D: 'o caminhar' — infinitivo substantivado; E: 'o não' — advérbio de negação substantivado."
+      "gabarito": "B",
+      "explicacao": "Embora 'rápido' tenha forma de adjetivo, nessa frase ele modifica o verbo 'marcharam', indicando o modo como a ação foi realizada — funcionando, portanto, como advérbio de modo. O sinal é a invariabilidade: 'marcharam rápido', não 'rápidas'. Se fosse adjetivo concordaria com 'tropas' (feminino plural). Essa transposição é uma das armadilhas favoritas do CEBRASPE."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Analise as ocorrências do pronome 'que' abaixo e assinale a alternativa em que ele é CONJUNÇÃO INTEGRANTE (e não pronome relativo ou expletivo).",
+      "textoBase": "O Comando do 4° Distrito Naval emitiu uma portaria. Ela entrará em vigor na próxima semana.",
+      "enunciado": "No segundo período, a palavra 'Ela' é um pronome que exerce a função de",
       "alternativas": {
-        "A": "O navio que zarpou hoje pertencia à 2.ª Esquadra.",
-        "B": "O documento que assinei contém informações sigilosas.",
-        "C": "O comandante informou que a manobra seria adiada.",
-        "D": "Ele que sempre foi pontual chegou atrasado.",
-        "E": "A missão que nos foi designada é de alto risco."
+        "A": "objeto direto, retomando a ideia de 'portaria'.",
+        "B": "sujeito, retomando o antecedente 'portaria' do período anterior.",
+        "C": "objeto indireto, complementando o verbo 'entrará'.",
+        "D": "adjunto adnominal, qualificando o substantivo 'portaria'.",
+        "E": "predicativo do sujeito, caracterizando a portaria."
       },
-      "gabarito": "C",
-      "explicacao": "Em C, 'que' é conjunção integrante: introduz uma oração substantiva objetiva direta ('que a manobra seria adiada') que funciona como objeto direto de 'informou'. Não há antecedente nominal ao qual 'que' se refira. Em A, B e E, 'que' é pronome relativo (pode ser substituído por 'o qual/a qual'). Em D, 'que' é expletivo ou de realce (pode ser suprimido: 'Ele sempre foi pontual')."
+      "gabarito": "B",
+      "explicacao": "'Ela' é pronome pessoal reto de terceira pessoa do singular, que retoma o antecedente 'portaria' do período anterior — essa é a função anafórica do pronome. Na frase, 'Ela' é quem 'entrará em vigor', exercendo a função de sujeito. Pronomes pessoais retos (eu, tu, ele/ela, nós, vós, eles/elas) exercem principalmente função de sujeito."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Quanto ao emprego dos verbos no particípio, assinale a alternativa CORRETA de acordo com a norma culta.",
+      "textoBase": "O recruta estudou bastante e demonstrou enorme capacidade de aprendizado durante o curso de formação.",
+      "enunciado": "Na frase acima, as palavras 'bastante' e 'enorme' exercem, respectivamente, as funções de",
       "alternativas": {
-        "A": "O requerimento tinha sido aceito pela comissão.",
-        "B": "O requerimento tinha aceito pela comissão.",
-        "C": "O requerimento havia sido aceitado pela comissão.",
-        "D": "O requerimento foi aceitado pela comissão.",
-        "E": "O requerimento havia aceitado pela comissão."
+        "A": "advérbio e adjetivo.",
+        "B": "adjetivo e advérbio.",
+        "C": "pronome indefinido e numeral.",
+        "D": "advérbio e advérbio.",
+        "E": "adjetivo e adjetivo."
       },
       "gabarito": "A",
-      "explicacao": "'Aceito' é o particípio irregular de 'aceitar'; 'aceitado' é o regular. Com auxiliar ter/haver, usa-se o regular: 'havia aceitado' (C seria correto). Com auxiliar ser/estar, usa-se o irregular: 'foi aceito' ou 'tinha sido aceito' (A). A alternativa A está correta: 'tinha sido aceito' — auxiliar 'ser' conjugado ('sido') + particípio irregular 'aceito'. C estaria correto se dissesse 'havia aceitado'. B e E omitem o auxiliar 'ser', tornando a frase agramatical na voz passiva."
+      "explicacao": "'Bastante' modifica o verbo 'estudou', indicando intensidade da ação — é advérbio (invariável). 'Enorme' acompanha e qualifica o substantivo 'capacidade' — é adjetivo (concorda: 'enorme capacidade'). O critério é o que cada palavra modifica: verbo → advérbio; substantivo → adjetivo. A alternativa B inverte as funções. As alternativas C, D e E estão incorretas na classificação de 'enorme'."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "A conjunção 'pois' tem valor semântico diferente nas frases a seguir. Assinale a alternativa em que ela tem valor CONCLUSIVO.",
+      "textoBase": "Ou o comandante assina o documento hoje, ou o processo será arquivado.",
+      "enunciado": "A conjunção 'ou...ou' no período acima estabelece relação de",
       "alternativas": {
-        "A": "Retire-se, pois está atrapalhando a formação.",
-        "B": "Não compareça ao rancho, pois a refeição foi cancelada.",
-        "C": "Adie o embarque, pois há indícios de mau tempo.",
-        "D": "Estudou com afinco; passou no concurso, pois.",
-        "E": "Descanse, pois o exercício foi longo e extenuante."
+        "A": "adversidade, pois contrapõe as duas opções apresentadas.",
+        "B": "alternância, pois apresenta duas possibilidades excludentes.",
+        "C": "conclusão, pois a segunda oração conclui a ideia da primeira.",
+        "D": "explicação, pois a segunda oração justifica a primeira.",
+        "E": "adição, pois acrescenta informação equivalente à primeira."
       },
-      "gabarito": "D",
-      "explicacao": "Em D, 'pois' está posposto ao verbo ('passou, pois'), indicando conclusão — equivale a 'portanto': 'Estudou com afinco; passou no concurso, portanto.' Nas demais alternativas, 'pois' está anteposto ao verbo no segundo segmento, exercendo função explicativa (equivale a 'porque'): A = 'porque está atrapalhando'; B = 'porque a refeição foi cancelada'; C = 'porque há indícios'; E = 'porque o exercício foi longo'."
+      "gabarito": "B",
+      "explicacao": "A conjunção coordenativa alternativa 'ou...ou' (assim como 'ora...ora', 'quer...quer') apresenta alternância ou exclusão — uma coisa ou outra, não as duas ao mesmo tempo. A alternativa A confunde com adversativas ('mas', 'porém', 'contudo'). A alternativa C confunde com conclusivas ('portanto', 'logo', 'assim'). A alternativa D confunde com explicativas ('pois', 'porque' após imperativo)."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Qual das seguintes frases contém um verbo DEFECTIVO empregado INCORRETAMENTE?",
+      "textoBase": "Nenhum oficial ignorou as normas estabelecidas pelo regimento interno da base.",
+      "enunciado": "A palavra 'Nenhum' na frase acima pertence à classe dos",
       "alternativas": {
-        "A": "As cores desse uniforme não abolem a tradição.",
-        "B": "Nós abolimos o antigo regulamento.",
-        "C": "Ele abole qualquer discriminação em seu setor.",
-        "D": "Tu aboles as regras desnecessárias.",
-        "E": "Eu abolo os procedimentos ultrapassados."
+        "A": "artigos, pois acompanha o substantivo 'oficial'.",
+        "B": "numerais, pois indica a quantidade zero de oficiais.",
+        "C": "pronomes indefinidos, pois acompanha o substantivo expressando ideia imprecisa de quantidade.",
+        "D": "adjetivos, pois qualifica o oficial como desobediente.",
+        "E": "advérbios de negação, pois nega a ação do verbo."
       },
-      "gabarito": "E",
-      "explicacao": "O verbo 'abolir' é defectivo: não se conjuga nas pessoas em que o radical terminado em 'i' ficaria em hiato com a vogal temática de forma estranha ao sistema fonológico — especialmente na 1.ª pessoa do singular do presente do indicativo e nas formas do presente do subjuntivo. 'Eu abolo' é uma forma inexistente na norma culta. As demais formas são corretas: A (eles/elas — abolem), B (nós — abolimos), C (ele — abole), D (tu — aboles)."
+      "gabarito": "C",
+      "explicacao": "'Nenhum' é pronome indefinido que acompanha o substantivo 'oficial', expressando ausência total (quantidade indefinida/nula). Os pronomes indefinidos mais comuns: algum, nenhum, todo, qualquer, certo, muito, pouco. A alternativa B é tentadora, mas numeral indica quantidade exata e determinada — 'nenhum' é uma quantidade imprecisa/indefinida por natureza. A alternativa E confunde com advérbio de negação: 'não' nega o verbo; 'nenhum' determina o substantivo."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Leia a frase: 'O oficial cuja patente foi reconhecida internacionalmente recebeu a comenda.' O pronome relativo 'cuja' concorda em gênero com:",
+      "textoBase": "O almirante, após a cerimônia, cumprimentou pessoalmente cada integrante da esquadra.",
+      "enunciado": "Na frase, a palavra 'pessoalmente' pertence à classe dos advérbios. Assinale a alternativa que apresenta corretamente a circunstância que ela indica.",
       "alternativas": {
-        "A": "o sujeito da oração principal ('comenda')",
-        "B": "o antecedente 'oficial' (masculino)",
-        "C": "o ser possuído, isto é, 'patente' (feminino)",
-        "D": "o verbo 'recebeu' da oração principal",
-        "E": "o pronome implícito de terceira pessoa"
+        "A": "Tempo, pois indica quando o cumprimento ocorreu.",
+        "B": "Lugar, pois indica onde o cumprimento ocorreu.",
+        "C": "Modo, pois indica como a ação de cumprimentar foi realizada.",
+        "D": "Negação, pois nega a possibilidade de ausência do almirante.",
+        "E": "Intensidade, pois intensifica a ação do almirante."
       },
       "gabarito": "C",
-      "explicacao": "O pronome relativo 'cujo/cuja/cujos/cujas' concorda em gênero e número com o ser possuído (aquilo que é de alguém), não com o possuidor. Em 'cuja patente', 'cuja' está no feminino porque 'patente' é feminino — independentemente de 'oficial' ser masculino. Essa é uma das regras mais cobradas em concursos: 'cujo' jamais é precedido de artigo e concorda com o que vem depois dele."
+      "explicacao": "'Pessoalmente' indica o modo como o almirante cumprimentou — de forma pessoal, direta, sem intermediários. Advérbios de modo respondem à pergunta 'como?': Como ele cumprimentou? Pessoalmente. Advérbios de tempo respondem a 'quando?'. Advérbios de lugar respondem a 'onde?'. Advérbios terminados em -mente são predominantemente de modo."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa que apresenta corretamente a classe gramatical da palavra destacada em cada frase.",
+      "textoBase": "O saber adquirido durante o curso de formação é o maior patrimônio do oficial.",
+      "enunciado": "Na frase acima, a palavra 'saber' está empregada como",
       "alternativas": {
-        "A": "'Mesmo' em 'Ele mesmo assinou o documento' — pronome adjetivo de reforço",
-        "B": "'Mesmo' em 'Mesmo cansado, concluiu a missão' — conjunção adversativa",
-        "C": "'Mesmo' em 'Ele chegou, mesmo assim não entrou' — pronome demonstrativo",
-        "D": "'Mesmo' em 'Comprei o mesmo livro que você' — advérbio de intensidade",
-        "E": "'Mesmo' em 'Ela agiu mesmo sem autorização' — pronome indefinido"
+        "A": "verbo no infinitivo, pois indica uma ação a ser realizada.",
+        "B": "adjetivo, pois qualifica o 'patrimônio do oficial'.",
+        "C": "substantivo, pois é o núcleo do sujeito da oração e está precedido de artigo.",
+        "D": "advérbio, pois modifica o adjetivo 'maior'.",
+        "E": "pronome, pois substitui o substantivo 'patrimônio'."
       },
-      "gabarito": "A",
-      "explicacao": "Em 'Ele mesmo assinou', 'mesmo' funciona como pronome adjetivo de reforço ou identidade, referindo-se ao sujeito 'ele' para enfatizar que foi ele pessoalmente. Em B, 'mesmo' é conjunção concessiva (= 'embora'). Em C, 'mesmo assim' — 'mesmo' é advérbio ou partícula aditiva-concessiva. Em D, 'mesmo' é pronome adjetivo de identidade (= idêntico). Em E, 'mesmo sem' — 'mesmo' é advérbio de inclusão/reforço."
+      "gabarito": "C",
+      "explicacao": "'O saber' está precedido pelo artigo definido 'O', que transforma o verbo 'saber' em substantivo — fenômeno chamado de transposição ou nominalização. É o núcleo do sujeito da oração. Essa transposição é frequente em textos formais e muito cobrada pelo CEBRASPE. Verbos no infinitivo podem ser substantivados quando precedidos de artigo."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Sobre as preposições, assinale a alternativa que apresenta uma preposição ACIDENTAL (e não essencial) em destaque.",
+      "textoBase": "Se o recruta estudar com dedicação, certamente alcançará os melhores resultados no exame.",
+      "enunciado": "A conjunção 'Se' no início da frase é classificada como conjunção subordinativa",
       "alternativas": {
-        "A": "'de' em 'O oficial saiu de serviço.'",
-        "B": "'com' em 'Partiu com a esquadra.'",
-        "C": "'conforme' em 'Agiu conforme as normas.'",
-        "D": "'por' em 'Foi reconhecido por todos.'",
-        "E": "'entre' em 'Ficou entre os melhores.'"
+        "A": "causal, pois apresenta a causa do sucesso do recruta.",
+        "B": "concessiva, pois admite uma condição contrária ao esperado.",
+        "C": "condicional, pois estabelece uma condição para que a ação ocorra.",
+        "D": "consecutiva, pois apresenta a consequência do estudo.",
+        "E": "comparativa, pois compara o desempenho do recruta."
       },
       "gabarito": "C",
-      "explicacao": "'Conforme' é uma preposição acidental: palavra que, em sua origem, pertence a outra classe (aqui, de valor conformativo), mas que, neste contexto, funciona como preposição ligando 'agiu' ao complemento 'as normas'. Outras preposições acidentais: durante, mediante, salvo, exceto, segundo, visto, feito. As demais — de, com, por, entre — são preposições essenciais por natureza."
+      "explicacao": "A conjunção 'se' é subordinativa condicional — introduz uma oração que estabelece condição necessária para que o fato da oração principal ocorra. 'Se estudar' é a condição; 'alcançará' é a consequência condicionada. Conjunções condicionais: se, caso, contanto que, desde que, a menos que. Não confundir com 'se' pronome reflexivo ou índice de indeterminação do sujeito — aqui é claramente conjunção."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Em qual das alternativas há substantivo coletivo náutico empregado de forma INCORRETA?",
+      "textoBase": "Os próprios soldados reconheceram que o treinamento havia sido rigoroso demais.",
+      "enunciado": "A palavra 'próprios' na frase acima é classificada como pronome adjetivo de natureza",
       "alternativas": {
-        "A": "A frota de guerra estava fundeada na baía.",
-        "B": "A tripulação do navio-escola realizou exercícios.",
-        "C": "A armada nacional recebeu novos equipamentos.",
-        "D": "A alcateia de navios patrulhou o litoral.",
-        "E": "A esquadra foi mobilizada para a operação."
+        "A": "possessivo, pois indica posse dos soldados sobre algo.",
+        "B": "reflexivo, pois indica que a ação recai sobre o próprio sujeito.",
+        "C": "indefinido, pois indica quantidade imprecisa de soldados.",
+        "D": "demonstrativo, pois enfatiza e especifica os soldados mencionados.",
+        "E": "relativo, pois retoma antecedente expresso anteriormente."
       },
       "gabarito": "D",
-      "explicacao": "'Alcateia' é o coletivo de lobos (ou de malfeitores, no sentido figurado), não de navios. Usar 'alcateia de navios' é incorreto. Os coletivos navais corretos são: 'frota' (conjunto de navios mercantes ou de guerra), 'armada' (conjunto de forças navais de um país), 'esquadra' (conjunto de navios de guerra), 'tripulação' (conjunto de membros de uma embarcação)."
+      "explicacao": "'Próprios' aqui acompanha o substantivo 'soldados' com valor de ênfase e especificação — funciona como pronome demonstrativo/enfático, destacando que foram exatamente esses soldados que reconheceram. O CEBRASPE cobra muito o uso de 'mesmo', 'próprio' e 'tal' como pronomes demonstrativos enfáticos. Não confundir com possessivo (indica posse: 'meu, teu, seu') nem com reflexivo (indica que a ação recai sobre o sujeito do verbo)."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Analise o trecho: 'O contra-almirante, que há décadas servia à Marinha, dela se despediu com a nobreza que lhe era característica.' Assinale a alternativa que identifica CORRETAMENTE a classe e a função das palavras destacadas 'que' (primeira ocorrência) e 'que' (segunda ocorrência).",
+      "textoBase": "Embora a manobra parecesse arriscada, o contra-almirante a aprovou sem hesitar, certo de que a esquadra sairia vitoriosa.",
+      "enunciado": "No período acima, as palavras 'Embora', o segundo 'a' e 'certo' são classificadas, respectivamente, como",
       "alternativas": {
-        "A": "Ambos são pronomes relativos com função de sujeito em suas respectivas orações.",
-        "B": "O primeiro é conjunção integrante; o segundo é pronome relativo com função de sujeito.",
-        "C": "O primeiro é pronome relativo com função de sujeito; o segundo é pronome relativo com função de objeto direto.",
-        "D": "Ambos são conjunções integrantes introduzindo orações substantivas.",
-        "E": "O primeiro é pronome relativo com função de sujeito; o segundo é conjunção comparativa."
+        "A": "conjunção concessiva, pronome oblíquo acusativo e adjetivo.",
+        "B": "conjunção causal, artigo definido e advérbio de modo.",
+        "C": "conjunção adversativa, pronome demonstrativo e substantivo.",
+        "D": "conjunção condicional, pronome reto e adjetivo.",
+        "E": "conjunção concessiva, artigo indefinido e pronome indefinido."
       },
       "gabarito": "A",
-      "explicacao": "Primeiro 'que': 'o contra-almirante que há décadas servia à Marinha' — pronome relativo, retoma 'contra-almirante' e exerce a função de sujeito da oração adjetiva ('que servia à Marinha'). Segundo 'que': 'a nobreza que lhe era característica' — pronome relativo, retoma 'nobreza' e é sujeito da oração adjetiva ('que era característica'). Ambos são pronomes relativos com função de sujeito. C está errado porque o segundo 'que' também é sujeito, não objeto."
+      "explicacao": "'Embora' é conjunção subordinativa concessiva — introduz oração que admite uma circunstância contrária à esperada. O segundo 'a' ('o contra-almirante a aprovou') é pronome oblíquo acusativo de terceira pessoa, substituindo 'a manobra' como objeto direto. 'Certo' acompanha e qualifica o contra-almirante ('certo de que'), exercendo função de adjetivo predicativo. Nota: 'a' antes de 'aprovou' não é artigo porque não acompanha substantivo — é pronome oblíquo."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Considere a frase: 'Vossa Excelência estará presente à cerimônia de comissionamento?' Qual das alternativas apresenta a análise morfossintática CORRETA do pronome de tratamento destacado?",
+      "textoBase": "Quanto mais o sargento se dedicava, tanto mais eficiente se tornava.",
+      "enunciado": "A construção 'Quanto mais... tanto mais' constitui uma correlação que estabelece relação de",
       "alternativas": {
-        "A": "Pronome pessoal de 2.ª pessoa — sujeito da oração, concordando com verbo na 2.ª pessoa.",
-        "B": "Pronome de tratamento — sujeito da oração, concordando com verbo na 3.ª pessoa do singular.",
-        "C": "Pronome demonstrativo — adjunto adnominal de 'cerimônia'.",
-        "D": "Pronome indefinido — predicativo do sujeito implícito.",
-        "E": "Pronome relativo — introduzindo oração adjetiva implícita."
+        "A": "alternância entre duas ações do sargento.",
+        "B": "proporcionalidade entre o esforço e a eficiência.",
+        "C": "concessão, admitindo o esforço apesar da eficiência.",
+        "D": "oposição entre dedicação e eficiência.",
+        "E": "condição necessária para que a eficiência ocorra."
       },
       "gabarito": "B",
-      "explicacao": "'Vossa Excelência' é pronome de tratamento, exerce a função sintática de sujeito da oração. Embora semanticamente se refira à segunda pessoa do discurso (o interlocutor), é gramaticalmente tratado como terceira pessoa: o verbo concorda na 3.ª pessoa do singular ('estará', não 'estarás'). Isso é fundamental na linguagem militar. A é incorreta porque a concordância é na 3.ª pessoa, não na 2.ª."
+      "explicacao": "A correlação 'quanto mais... tanto mais' é uma construção proporcional — quanto maior a dedicação, maior a eficiência, numa progressão direta e simultânea. Esse tipo de correlação proporcional é frequentemente cobrado pelo CEBRASPE. Outras correlações proporcionais: 'à medida que... mais', 'na proporção em que'. Não confundir com concessão ('embora'), que admite fato contrário ao esperado."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Os relatórios tinham sido impressos, mas ainda não tinham sido entregues ao departamento.' Sobre os particípios 'impressos' e 'entregues', assinale a alternativa CORRETA.",
+      "textoBase": "O relatório foi encaminhado ontem ao Comando Naval. Hoje, porém, chegaram novos documentos que o invalidam.",
+      "enunciado": "A palavra 'porém' no segundo período é uma conjunção coordenativa. Assinale a alternativa que apresenta corretamente sua classificação e o efeito de sentido que produz.",
       "alternativas": {
-        "A": "'Impressos' é regular; 'entregues' é irregular — ambos usados corretamente com o auxiliar 'ter'.",
-        "B": "'Impressos' é irregular de 'imprimir'; 'entregues' é irregular de 'entregar' — ambos corretos com o auxiliar 'ser'.",
-        "C": "Ambos são irregulares e estão incorretamente usados, pois com 'ter' deveriam ser as formas regulares.",
-        "D": "'Impressos' está incorreto (deveria ser 'imprimidos'); 'entregues' está correto, pois é a única forma de particípio de 'entregar'.",
-        "E": "Ambos os particípios estão incorretos; deveriam ser 'imprimidos' e 'entregados'."
+        "A": "Aditiva — acrescenta a informação sobre os novos documentos.",
+        "B": "Explicativa — apresenta a razão pelo qual o relatório foi encaminhado.",
+        "C": "Adversativa — opõe a chegada dos novos documentos ao que foi narrado antes.",
+        "D": "Conclusiva — conclui que o relatório foi encaminhado corretamente.",
+        "E": "Alternativa — apresenta duas possibilidades para o Comando Naval."
       },
-      "gabarito": "B",
-      "explicacao": "Na voz passiva com auxiliar 'ser' (aqui: 'tinham sido' = ter + sido = auxiliar ser no particípio), usa-se o particípio irregular (ou forma curta): 'impressos' (de 'imprimir') e 'entregues' (de 'entregar'). A estrutura 'tinham sido impressos' = ter (auxiliar) + sido (particípio de ser) + impressos (particípio de imprimir na voz passiva). Portanto, B está correto. A regra: com auxiliar ter/haver sozinho, usa-se o regular; com auxiliar ser/estar, usa-se o irregular."
+      "gabarito": "C",
+      "explicacao": "'Porém' é conjunção coordenativa adversativa — indica oposição ou restrição entre as ideias das duas orações coordenadas. O primeiro período narra o encaminhamento do relatório; o segundo introduz um fato que contradiz ou restringe a validade desse ato. Conjunções adversativas: mas, porém, contudo, todavia, entretanto, no entanto. Difere de aditiva (e, nem), explicativa (pois), conclusiva (logo, portanto) e alternativa (ou, ora)."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Na frase 'Não há dados suficientes; logo, a conclusão é precipitada', a conjunção 'logo' tem valor semântico de:",
+      "textoBase": "Tudo que o oficial propôs foi aceito. Nada restou sem análise. Alguém, contudo, questionou os prazos.",
+      "enunciado": "As palavras 'Tudo', 'Nada' e 'Alguém' nos três períodos pertencem à mesma classe. Assinale a alternativa que a identifica corretamente e explica sua função.",
       "alternativas": {
-        "A": "Concessão — introduz ideia contrária à esperada",
-        "B": "Conclusão — apresenta consequência lógica da premissa anterior",
-        "C": "Adição — acrescenta informação nova ao que foi dito",
-        "D": "Explicação — justifica a afirmação anterior",
-        "E": "Alternância — apresenta possibilidade em oposição"
+        "A": "Substantivos abstratos, pois nomeiam conceitos gerais.",
+        "B": "Advérbios de quantidade, pois indicam grau de completude das ações.",
+        "C": "Adjetivos substantivados, pois qualificam o oficial e os documentos.",
+        "D": "Pronomes indefinidos, pois se referem a seres ou coisas de modo vago e impreciso.",
+        "E": "Numerais indefinidos, pois indicam quantidade aproximada."
       },
-      "gabarito": "B",
-      "explicacao": "'Logo' é conjunção coordenativa conclusiva: introduz uma oração que apresenta a conclusão ou consequência lógica derivada do que foi afirmado antes. Equivale a 'portanto', 'por conseguinte', 'assim'. Na frase, a inexistência de dados suficientes conduz à conclusão de que... a conclusão (inferência) é precipitada. Não é concessiva (ausência de contraste do tipo 'embora'), aditiva, explicativa nem alternativa."
+      "gabarito": "D",
+      "explicacao": "'Tudo', 'nada' e 'alguém' são pronomes indefinidos — referem-se a seres, coisas ou quantidades de modo vago, sem precisão. Funcionam como sujeito em cada um dos períodos, mas sem determinar com exatidão quem ou o quê. O CEBRASPE frequentemente apresenta pronomes indefinidos no papel de sujeito para testar se o candidato os classifica como substantivos. A diferença: pronome substitui o substantivo sem nomeá-lo; substantivo nomeia."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a identificação da classe gramatical da palavra em destaque está INCORRETA.",
+      "textoBase": "Era tal a determinação dos recrutas que o instrutor interrompeu o treinamento para elogiá-los.",
+      "enunciado": "Na frase, o vocábulo 'tal' funciona como",
       "alternativas": {
-        "A": "'Ele partiu ANTES do previsto.' — 'antes': advérbio de tempo",
-        "B": "'Chegou ANTES que o sinal fosse dado.' — 'antes': conjunção temporal",
-        "C": "'Feito o relatório, partiu.' — 'feito': preposição acidental (= após, depois de)",
-        "D": "'Durante a manobra, todos estavam atentos.' — 'durante': preposição acidental",
-        "E": "'Salvo os oficiais de plantão, todos foram dispensados.' — 'salvo': conjunção adversativa"
+        "A": "advérbio de intensidade, pois modifica o adjetivo 'determinação'.",
+        "B": "conjunção consecutiva, pois introduz a consequência do treinamento.",
+        "C": "pronome demonstrativo, pois determina e intensifica o substantivo 'determinação'.",
+        "D": "numeral, pois quantifica a determinação dos recrutas.",
+        "E": "substantivo, pois é o núcleo do sujeito da oração."
       },
-      "gabarito": "E",
-      "explicacao": "Em 'Salvo os oficiais de plantão, todos foram dispensados', 'salvo' não é conjunção adversativa — é preposição acidental com valor de 'exceto', 'com exceção de'. Liga o complemento 'os oficiais de plantão' ao restante da frase em sentido de exclusão. Conjunções adversativas (mas, porém, contudo) ligam orações, não termos nominais. A, B, C e D estão corretos em suas classificações."
+      "gabarito": "C",
+      "explicacao": "'Tal' acompanha o substantivo 'determinação' com valor demonstrativo/intensificador — indica a magnitude da qualidade de forma que conduz à consequência expressa na oração seguinte. É pronome demonstrativo adjetivo. A construção 'tal...que' é consecutiva em sentido, mas 'tal' em si é pronome demonstrativo, não conjunção. A conjunção consecutiva é 'que'. O CEBRASPE costuma perguntar sobre 'tal', 'mesmo', 'próprio' e 'semelhante'."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Em 'Os navios norte-americanos e luso-brasileiros participaram do exercício conjunto', as formas dos adjetivos compostos obedecem à regra de flexão porque:",
+      "textoBase": "O novo recruta, mesmo sem experiência, realizou a tarefa de forma impecável.",
+      "enunciado": "A palavra 'mesmo' na frase exerce função de",
       "alternativas": {
-        "A": "Ambos flexionam todos os elementos, pois são adjetivos gentílicos compostos.",
-        "B": "Apenas o primeiro elemento de cada adjetivo composto concorda com o substantivo.",
-        "C": "Apenas o último elemento de cada adjetivo composto concorda com o substantivo.",
-        "D": "Adjetivos compostos gentílicos são invariáveis em gênero e número.",
-        "E": "A flexão dos adjetivos compostos obedece à concordância com o verbo, não com o substantivo."
+        "A": "advérbio de afirmação, confirmando que o recruta realizou a tarefa.",
+        "B": "conjunção concessiva, introduzindo uma oração subordinada.",
+        "C": "pronome adjetivo com valor concessivo, qualificando 'recruta' e indicando que a ação ocorreu apesar da condição adversa.",
+        "D": "adjetivo qualificativo, caracterizando a qualidade do recruta.",
+        "E": "pronome demonstrativo enfático, retomando 'recruta' mencionado antes."
       },
       "gabarito": "C",
-      "explicacao": "Em adjetivos compostos, somente o último elemento concorda em gênero e número com o substantivo a que se refere. Em 'norte-americanos': 'norte' é invariável; 'americanos' concorda com 'navios' (masculino plural). Em 'luso-brasileiros': 'luso' é invariável; 'brasileiros' concorda com 'navios'. Esta é a regra geral para adjetivos compostos, com exceção dos formados por dois adjetivos de cor, que são totalmente invariáveis."
+      "explicacao": "'Mesmo' acompanha o substantivo 'recruta' (pronome adjetivo) e, junto ao sintagma 'sem experiência', introduz valor concessivo — a ação ocorreu apesar da falta de experiência. Funciona como pronome adjetivo com valor concessivo, não como conjunção (que introduziria oração com verbo: 'embora não tivesse experiência'). A alternativa B está errada porque conjunção introduz oração, não apenas sintagma nominal."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Considerando a frase 'O aspirante passou a oficial de baixa patente a alto posto em poucos anos', quantas e quais são as preposições presentes?",
+      "textoBase": "Não havia sequer um voluntário para a missão de alto risco.",
+      "enunciado": "A palavra 'sequer' na frase funciona como",
       "alternativas": {
-        "A": "Duas: 'a' (antes de 'oficial') e 'a' (antes de 'alto')",
-        "B": "Três: 'a' (antes de 'oficial'), 'de' (antes de 'baixa') e 'a' (antes de 'alto')",
-        "C": "Três: 'a' (antes de 'oficial'), 'de' (antes de 'baixa') e 'em' (antes de 'poucos')",
-        "D": "Quatro: 'a', 'de', 'a' e 'em'",
-        "E": "Cinco: 'a', 'oficial', 'de', 'a' e 'em'"
+        "A": "conjunção aditiva, acrescentando informação sobre os voluntários.",
+        "B": "pronome indefinido, substituindo os voluntários ausentes.",
+        "C": "advérbio de exclusão/negação, reforçando o sentido negativo de 'não havia'.",
+        "D": "preposição, ligando 'não havia' ao substantivo 'voluntário'.",
+        "E": "adjetivo, qualificando os possíveis voluntários como insuficientes."
       },
-      "gabarito": "D",
-      "explicacao": "Na frase, as preposições são: (1) 'a' antes de 'oficial' (passou a oficial); (2) 'de' antes de 'baixa' (de baixa patente); (3) 'a' antes de 'alto' (a alto posto); (4) 'em' antes de 'poucos' (em poucos anos). Total: quatro preposições. 'Oficial', 'baixa', 'alto', 'poucos' e 'anos' são substantivos, adjetivos e numerais, não preposições."
+      "gabarito": "C",
+      "explicacao": "'Sequer' é advérbio de exclusão — reforça e intensifica a negação, equivalendo a 'nem ao menos', 'nem mesmo'. Em 'Não havia sequer um voluntário', 'sequer' intensifica a ausência total. É sempre invariável (classe invariável). O CEBRASPE cobra 'sequer', 'inclusive', 'apenas', 'somente', 'exclusivamente' como advérbios de exclusão/inclusão. A alternativa D está incorreta porque preposição liga termos, não reforça negação."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Analise: 'Embora exaustos, os mergulhadores continuaram a operação.' e 'Os mergulhadores, porém, continuaram a operação.' As conjunções destacadas introduzem orações/termos de naturezas distintas porque:",
+      "textoBase": "Cumpra-se a ordem. Informe-se o responsável. Arquive-se o documento.",
+      "enunciado": "O pronome 'se' em cada uma das formas verbais acima ('Cumpra-se', 'Informe-se', 'Arquive-se') exerce a função de",
       "alternativas": {
-        "A": "Ambas são conjunções subordinativas, mas de tipos diferentes.",
-        "B": "'Embora' é subordinativa concessiva; 'porém' é coordenativa adversativa.",
-        "C": "Ambas são coordenativas, com valores semânticos distintos.",
-        "D": "'Embora' é coordenativa adversativa; 'porém' é subordinativa concessiva.",
-        "E": "'Embora' é preposição; 'porém' é advérbio de modo."
+        "A": "pronome reflexivo, indicando que a ação recai sobre o próprio sujeito.",
+        "B": "índice de indeterminação do sujeito, tornando o agente indefinido em todas as formas.",
+        "C": "conjunção condicional, introduzindo condição para o cumprimento das ordens.",
+        "D": "pronome recíproco, indicando ação mútua entre os agentes.",
+        "E": "partícula apassivadora, formando a voz passiva sintética com verbo transitivo direto."
       },
-      "gabarito": "B",
-      "explicacao": "'Embora' é conjunção subordinativa concessiva: introduz uma oração subordinada adverbial que expressa concessão, admitindo um fato contrário que não impede a realização do fato principal. 'Porém' é conjunção coordenativa adversativa: liga duas orações independentes com valor de oposição ou contraste. A diferença estrutural é fundamental: 'embora' cria dependência sintática (subordinação); 'porém' mantém as orações coordenadas (independentes)."
+      "gabarito": "E",
+      "explicacao": "Nas três frases, o 'se' é partícula apassivadora: forma a voz passiva sintética com verbos transitivos diretos ('cumprir a ordem', 'informar o responsável', 'arquivar o documento'). A voz passiva analítica equivalente seria: 'A ordem seja cumprida', 'O responsável seja informado', 'O documento seja arquivado'. O índice de indeterminação (alternativa B) ocorre com verbos intransitivos ou transitivos indiretos: 'Vive-se bem aqui.'"
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'Quem muito viaja, muito aprende — eis a divisa do marinheiro.' A palavra 'quem' exerce qual função morfossintática?",
+      "textoBase": "Mal o comandante saiu, já começaram os preparativos para a nova missão.",
+      "enunciado": "A palavra 'Mal' no início da frase é classificada como",
       "alternativas": {
-        "A": "Pronome interrogativo — sujeito de oração interrogativa indireta",
-        "B": "Pronome relativo sem antecedente — sujeito da oração substantiva subjetiva",
-        "C": "Pronome indefinido — sujeito da oração principal",
-        "D": "Pronome pessoal do caso reto — sujeito da oração principal",
-        "E": "Conjunção integrante — introduzindo oração subordinada substantiva"
+        "A": "advérbio de negação, pois nega a ação de sair do comandante.",
+        "B": "adjetivo, pois qualifica o comportamento do comandante.",
+        "C": "conjunção subordinativa temporal, pois indica que as duas ações ocorreram quase simultaneamente.",
+        "D": "substantivo, pois nomeia o estado de saída do comandante.",
+        "E": "advérbio de modo, pois indica como o comandante saiu."
       },
-      "gabarito": "B",
-      "explicacao": "'Quem muito viaja' é uma oração substantiva subjetiva (equivale ao sujeito de uma oração mais complexa). 'Quem' é pronome relativo sem antecedente expresso (pronome relativo indefinido, segundo Cunha e Cintra): funciona como pronome relativo que, ao mesmo tempo, é o sujeito de sua própria oração adjetiva/substantiva. Não é interrogativo (não há pergunta), não é pessoal (pronomes pessoais são eu, tu, ele...), não é conjunção (pronomes introduzem orações sem perder função sintática)."
+      "gabarito": "C",
+      "explicacao": "Nesse contexto, 'mal' equivale a 'assim que', 'logo que', 'tão logo' — introduz oração subordinada temporal que marca a quase simultaneidade entre a saída do comandante e o início dos preparativos. Funciona como conjunção subordinativa temporal. Não confundir com 'mal' advérbio de modo ('Ele saiu mal', ou seja, de forma ruim) nem com 'mal' substantivo ('O mal existe'). O contexto sintático é o que determina: aqui 'mal' introduz oração com verbo ('saiu'), logo é conjunção."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Em relação às classes de palavras, assinale a alternativa que apresenta análise morfológica COMPLETAMENTE CORRETA do segmento 'muito raramente'.",
+      "textoBase": "O oficial, ora sereno, ora exaltado, conduziu a reunião de forma imprevista, deixando a todos surpresos.",
+      "enunciado": "A expressão 'ora...ora' no período acima é uma conjunção coordenativa de natureza",
       "alternativas": {
-        "A": "'muito': adjetivo indefinido; 'raramente': advérbio de modo",
-        "B": "'muito': advérbio de intensidade; 'raramente': advérbio de modo com sufixo -mente",
-        "C": "'muito': pronome indefinido; 'raramente': adjetivo no grau superlativo",
-        "D": "'muito': numeral multiplicativo; 'raramente': advérbio de frequência",
-        "E": "'muito': adjetivo; 'raramente': advérbio de frequência"
+        "A": "adversativa, pois contrapõe dois estados opostos do oficial.",
+        "B": "alternativa, pois apresenta dois estados que se alternam no oficial.",
+        "C": "aditiva, pois soma duas características simultâneas do oficial.",
+        "D": "explicativa, pois justifica o comportamento imprevisível do oficial.",
+        "E": "conclusiva, pois conclui que o oficial estava perturbado."
       },
       "gabarito": "B",
-      "explicacao": "'Muito', quando modifica um advérbio (raramente), funciona como advérbio de intensidade — é invariável nessa função. 'Raramente' é advérbio de modo (ou de frequência, segundo alguns gramáticos) formado pelo adjetivo 'raro' + sufixo -mente, indicando que algo ocorre com raridade. Em A, 'muito' seria adjetivo se estivesse antes de substantivo com concordância. Em C, pronome indefinido seria se modificasse substantivo. Em D, numeral multiplicativo indica quantas vezes mais (duplo, triplo). Em E, 'muito' seria adjetivo apenas com concordância nominal."
+      "explicacao": "A conjunção 'ora...ora' é coordenativa alternativa — indica que dois estados ou ações se alternam, sem coexistir ao mesmo tempo. O oficial alternava entre serenidade e exaltação. Conjunções alternativas: ou...ou, ora...ora, quer...quer, já...já. Não confundir com adversativa ('mas', 'porém'), que expressa oposição fixa entre dois fatos."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o texto a seguir e responda à questão.\n\n'A tripulação do porta-aviões, composta por marinheiros veteranos e recrutas recém-chegados, enfrentou, durante as manobras noturnas, condições meteorológicas adversas que puseram à prova não apenas a competência técnica dos pilotos navais, mas também a serenidade e o espírito de corpo de todos os envolvidos.'\n\nIdentifique, entre as palavras do texto, um substantivo abstrato, um adjetivo composto e uma preposição essencial e assinale a alternativa que os apresenta na ordem CORRETA.",
+      "textoBase": "O Comando do 4° Distrito Naval, após longa deliberação, publicou normativo que regulamenta as atividades dos navios-patrulha na costa brasileira. Cada tripulante, seja oficial seja praça, deverá portar documento de identificação funcional atualizado. Nenhuma embarcação sairá do porto sem que o chefe da guarnição a autorize.",
+      "enunciado": "Considerando o texto acima, analise as afirmativas sobre a classificação das palavras destacadas.\nI. 'após' é preposição.\nII. 'que' (em 'normativo que regulamenta') é conjunção subordinativa integrante.\nIII. 'seja...seja' é conjunção coordenativa alternativa.\nIV. 'Nenhuma' é pronome indefinido.\nV. 'a' (em 'a autorize') é artigo definido.\nEstão corretas apenas as afirmativas",
       "alternativas": {
-        "A": "tripulação / noturnas / de",
-        "B": "serenidade / porta-aviões / mas",
-        "C": "serenidade / noturnas / durante",
-        "D": "competência / meteorológicas / de",
-        "E": "manobras / recém-chegados / por"
+        "A": "I, III e IV.",
+        "B": "II, IV e V.",
+        "C": "I, II e III.",
+        "D": "III, IV e V.",
+        "E": "I, II e V."
       },
-      "gabarito": "D",
-      "explicacao": "'Competência' é substantivo abstrato (nomeia uma qualidade, dependendo de outro ser para existir); 'meteorológicas' é adjetivo composto (formado por 'meteorológico' com segundo elemento concordando com 'condições', no feminino plural); 'de' é preposição essencial. Análise das demais: A — 'tripulação' é coletivo (concreto); 'noturnas' é adjetivo simples; 'de' está correto mas os dois anteriores não. B — 'serenidade' é abstrato (correto); 'porta-aviões' é substantivo composto, não adjetivo; 'mas' é conjunção, não preposição. C — 'serenidade' correto; 'noturnas' não é composto; 'durante' é preposição acidental. E — 'manobras' é concreto; 'recém-chegados' é adjetivo composto (correto), mas 'manobras' não é abstrato."
+      "gabarito": "A",
+      "explicacao": "I. CORRETA: 'após' é preposição que indica posterioridade temporal. III. CORRETA: 'seja...seja' é conjunção coordenativa alternativa, indicando alternância entre 'oficial' e 'praça'. IV. CORRETA: 'Nenhuma' é pronome indefinido que acompanha 'embarcação', expressando ausência total. II. INCORRETA: 'que' em 'normativo que regulamenta' é pronome relativo, pois retoma o antecedente 'normativo' e pode ser substituído por 'o qual'. V. INCORRETA: 'a' em 'a autorize' é pronome oblíquo acusativo de terceira pessoa, substituindo 'embarcação' — não é artigo (não acompanha substantivo diretamente)."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Leia o fragmento: 'O almirante, perante o qual o jovem oficial se curvou respeitosamente, era cuja autoridade todos reconheciam desde os tempos de academia.'\n\nEste fragmento contém um erro relacionado ao uso do pronome relativo. Assinale a alternativa que apresenta a versão CORRIGIDA do trecho em destaque.",
+      "textoBase": "Mal os oficiais terminaram o planejamento estratégico, chegou a ordem de suspensão da operação. Todavia, o contra-almirante determinou que se prosseguisse com os preparativos, certo de que a suspensão seria revertida em breve.",
+      "enunciado": "Sobre as classes e funções das palavras no texto, é CORRETO afirmar que",
       "alternativas": {
-        "A": "era cuja autoridade todos reconheciam → era aquele cuja autoridade todos reconheciam",
-        "B": "era cuja autoridade → era de cuja autoridade",
-        "C": "O trecho está correto; 'cuja' pode iniciar oração predicativa normalmente.",
-        "D": "era cuja autoridade → cuja autoridade era",
-        "E": "era cuja autoridade todos reconheciam → era aquele a quem todos reconheciam autoridade"
+        "A": "'Mal' é advérbio de modo que indica como os oficiais terminaram o planejamento.",
+        "B": "'Todavia' é conjunção coordenativa adversativa que opõe a chegada da ordem à determinação do contra-almirante.",
+        "C": "'se' em 'se prosseguisse' é pronome reflexivo, pois a ação de prosseguir recai sobre o próprio sujeito.",
+        "D": "'certo' é advérbio, pois modifica o verbo 'determinou' indicando modo.",
+        "E": "'breve' em 'em breve' é adjetivo que qualifica a suspensão."
       },
-      "gabarito": "A",
-      "explicacao": "O pronome 'cujo' é relativo possessivo que precisa de antecedente claro na oração anterior e nunca pode iniciar um predicado verbal (não se usa 'era cuja...'). A correção adequada reestrutura a frase: 'O almirante, perante o qual o jovem oficial se curvou respeitosamente, era aquele cuja autoridade todos reconheciam desde os tempos de academia.' A alternativa A insere o antecedente 'aquele' para que 'cuja' tenha referente adequado. B deturpa o sentido; D altera drasticamente a estrutura; E usa construção diferente que muda o pronome relativo empregado."
+      "gabarito": "B",
+      "explicacao": "'Todavia' é conjunção coordenativa adversativa — opõe a chegada da ordem de suspensão à determinação do contra-almirante de continuar. A alternativa A está incorreta: 'Mal' aqui é conjunção subordinativa temporal ('assim que'), não advérbio de modo. A alternativa C está incorreta: 'se' em 'se prosseguisse' é índice de indeterminação do sujeito (quem prosseguiria? — sujeito indefinido). A alternativa D está incorreta: 'certo' qualifica o contra-almirante — é adjetivo predicativo, não advérbio. A alternativa E está incorreta: 'em breve' é locução adverbial de tempo."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Analise as afirmações sobre classes de palavras e assinale a CORRETA:\n\nI. O artigo definido pode, em certos contextos, exercer função substantivadora, como em 'O belo e o útil raramente coincidem'.\nII. O numeral 'ambos' pode ser classificado como pronome indefinido na perspectiva de alguns gramáticos.\nIII. A palavra 'feito' em 'Feita a lição, o aluno descansou' é particípio passado exercendo função de preposição.\nIV. Advérbios com sufixo -mente são invariáveis em gênero e número, mas podem apresentar grau comparativo e superlativo.",
+      "textoBase": "A disciplina e o preparo técnico são, por si sós, insuficientes para garantir o êxito de uma operação naval de alta complexidade. É preciso, outrossim, que o comandante desenvolva a capacidade de adaptação e de leitura situacional rápida.",
+      "enunciado": "No texto, as palavras 'outrossim' e 'que' (em 'que o comandante desenvolva') exercem, respectivamente, as funções de",
       "alternativas": {
-        "A": "Apenas I e IV estão corretas.",
-        "B": "Apenas II e III estão corretas.",
-        "C": "I, II e IV estão corretas.",
-        "D": "Apenas III e IV estão corretas.",
-        "E": "Todas as afirmações estão corretas."
+        "A": "advérbio aditivo e pronome relativo.",
+        "B": "conjunção aditiva e conjunção subordinativa integrante.",
+        "C": "advérbio de modo e conjunção causal.",
+        "D": "conjunção adversativa e pronome demonstrativo.",
+        "E": "pronome indefinido e conjunção coordenativa."
       },
-      "gabarito": "A",
-      "explicacao": "I: Correta — o artigo definido 'o' substantiva o adjetivo 'belo' e 'útil', permitindo que funcionem como sujeito da oração. IV: Correta — advérbios em -mente são invariáveis em gênero/número, mas admitem grau: 'mais rapidamente', 'lentíssimamente'. II: Incorreta — 'ambos' é geralmente classificado como pronome indefinido (ou numeral coletivo), mas a afirmação omite que, para Cunha e Cintra, é categoricamente pronome indefinido — a imprecisão torna a afirmação aceitável, mas III inviabiliza B. III: Incorreta — 'Feita a lição' — 'feita' é particípio em oração absoluta (= ablativo absoluto); a palavra 'feito' funcionando como preposição ocorreria em 'Feito um deus, ele ordenava tudo' (= como), e mesmo assim há divergência gramatical."
+      "gabarito": "B",
+      "explicacao": "'Outrossim' é conjunção coordenativa aditiva com valor de 'além disso', 'também', 'igualmente' — une o segundo período ao primeiro acrescentando informação. Em textos formais e jurídicos, é cobrado frequentemente pelo CEBRASPE. O 'que' em 'É preciso que o comandante desenvolva' introduz oração subordinada substantiva subjetiva — é conjunção subordinativa integrante (também chamada de conjunção completiva). Não é pronome relativo porque não há antecedente a retomar."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia: 'O cadete que foi aprovado com louvor recebeu o diploma das mãos do Comandante da Escola Naval, que proferiu discurso sobre a importância do caráter ilibado para os que trilham a carreira das armas.'\n\nAssinale a alternativa que classifica CORRETAMENTE todos os pronomes relativos do texto.",
+      "textoBase": "Quem muito fala, pouco age. Tal máxima, repetida incontáveis vezes pelo instrutor, ficou gravada na memória de todos os recrutas do pelotão.",
+      "enunciado": "Analise as afirmativas sobre as palavras no texto.\nI. 'Quem' é pronome relativo sem antecedente expresso.\nII. 'Tal' é pronome demonstrativo que determina e retoma a ideia expressa no primeiro período.\nIII. 'incontáveis' é numeral, pois indica quantidade das vezes em que a máxima foi repetida.\nIV. 'todos' é pronome indefinido que determina os recrutas.\nAssinale a alternativa correta.",
       "alternativas": {
-        "A": "Todos os 'que' são pronomes relativos; o segundo 'que' e o terceiro têm antecedentes distintos.",
-        "B": "O primeiro 'que' é pronome relativo; o segundo 'que' é conjunção integrante; o terceiro 'que' é pronome indefinido.",
-        "C": "O primeiro e o segundo 'que' são pronomes relativos; o terceiro 'que' ('os que') funciona como pronome relativo sem antecedente expresso.",
-        "D": "O primeiro 'que' é conjunção; o segundo e o terceiro são pronomes relativos com antecedentes 'Comandante' e 'carreira'.",
-        "E": "Todos os 'que' são conjunções integrantes introduzindo orações substantivas."
+        "A": "Apenas I e II estão corretas.",
+        "B": "Apenas II e III estão corretas.",
+        "C": "Apenas I, II e IV estão corretas.",
+        "D": "Apenas I, III e IV estão corretas.",
+        "E": "Todas estão corretas."
       },
       "gabarito": "C",
-      "explicacao": "Primeiro 'que': retoma 'cadete' — pronome relativo, função de sujeito da oração adjetiva. Segundo 'que': retoma 'Comandante da Escola Naval' — pronome relativo, sujeito da oração adjetiva 'que proferiu discurso'. Terceiro 'que' ('os que trilham'): pronome relativo sem antecedente expresso — 'os' funciona como artigo substantivador e 'que' é relativo indefinido, formando locução pronominal. Não há conjunção integrante nem pronome indefinido autônomo entre eles."
+      "explicacao": "I. CORRETA: 'Quem' é pronome relativo sem antecedente expresso — equivale a 'aquele que'. II. CORRETA: 'Tal' é pronome demonstrativo que retoma e determina 'máxima', apontando para o que foi dito anteriormente. IV. CORRETA: 'todos' é pronome indefinido que acompanha 'os recrutas', indicando totalidade. III. INCORRETA: 'incontáveis' é adjetivo — indica uma qualidade (a impossibilidade de contar) das vezes, não uma quantidade numérica precisa. Numeral indica quantidade exata ou relativa determinada."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Em relação à derivação imprópria (transposição de classe gramatical), analise as frases e assinale a alternativa INCORRETA:",
+      "textoBase": "O efetivo do 5° Batalhão foi reduzido à metade. Mesmo assim, os militares cumpriram integralmente cada tarefa designada, o que demonstra o alto nível de preparo da unidade.",
+      "enunciado": "Sobre as classes de palavras no texto, assinale a afirmativa INCORRETA.",
       "alternativas": {
-        "A": "Em 'O sim e o não são respostas igualmente válidas', os advérbios 'sim' e 'não' foram substantivados pelo artigo.",
-        "B": "Em 'Falou grosso para o superior', 'grosso' é adjetivo funcionando como advérbio, pois modifica o verbo sem variar.",
-        "C": "Em 'O jantar estava pronto às dezoito horas', 'jantar' é verbo no infinitivo funcionando como substantivo.",
-        "D": "Em 'Chegaram os porquês de tudo que aconteceu', 'porquês' é advérbio interrogativo substantivado.",
-        "E": "Em 'Ele agiu como um herói', 'como' é preposição de comparação equivalente a 'à maneira de'."
+        "A": "'à metade' contém a preposição 'a' fundida ao artigo definido 'a', formando a contração 'à'.",
+        "B": "'Mesmo assim' é locução conjuntiva concessiva, indicando que o cumprimento das tarefas ocorreu apesar da redução do efetivo.",
+        "C": "'integralmente' é advérbio de modo que modifica o verbo 'cumpriram'.",
+        "D": "'o que' é pronome relativo que retoma a oração anterior como antecedente, introduzindo oração adjetiva.",
+        "E": "'alto' em 'alto nível' é advérbio de intensidade, pois indica o grau do nível de preparo."
       },
       "gabarito": "E",
-      "explicacao": "'Como' em 'agiu como um herói' é conjunção comparativa (ou conformativa, segundo alguns), não preposição. Preposição estabelece relação de dependência sintática entre termos; conjunção liga orações ou termos de mesma função. Aqui, 'como um herói' é uma oração comparativa reduzida (= 'como age um herói'). As demais estão corretas: A — substantivação de advérbios por artigo; B — adjetivo como advérbio (uso adverbial de adjetivo sem concordância); C — infinitivo substantivado com artigo; D — 'porquê' substantivado no plural (advérbio/conjunção 'porque' → substantivo 'porquê/porquês')."
+      "explicacao": "A afirmativa E é INCORRETA: 'alto' em 'alto nível' é adjetivo, não advérbio — acompanha e qualifica o substantivo 'nível' (alto nível = nível elevado). Para ser advérbio, 'alto' precisaria modificar verbo, adjetivo ou outro advérbio ('voar alto', 'falar alto'). As demais estão corretas: A. 'à' = preposição 'a' + artigo 'a'. B. 'mesmo assim' é locução concessiva, equivalendo a 'apesar disso'. C. 'integralmente' (-mente) é advérbio de modo. D. 'o que' é pronome relativo cujo antecedente é a oração inteira anterior."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
-      "gram-01",
-      "gram-03",
-      "gram-11",
-      "gram-13",
-      "gram-14",
-      "comp-02",
-      "comp-06",
-      "comp-07",
-      "gram-10",
-      "comp-11",
-      "gram-12",
+      "gram-00",
+      "gram-04",
       "gram-05"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + gram-11",
-        "enunciado": "Leia: 'Os dados técnico-científicos apresentados pelo perito foram contestados pelos advogados.' Assinale a alternativa que apresenta tanto a classificação morfológica do adjetivo composto 'técnico-científicos' quanto a justificativa de concordância CORRETA.",
+        "topico_referencia": "gram-05",
+        "textoBase": "O recruta, ainda que cansado, completou os exercícios.",
+        "enunciado": "A expressão 'ainda que' na frase acima é conjunção subordinativa de natureza",
         "alternativas": {
-          "A": "Adjetivo composto pátrio; ambos os elementos concordam com 'dados' no masculino plural.",
-          "B": "Adjetivo composto qualificativo; só o primeiro elemento concorda com 'dados', mantendo 'científicos' invariável.",
-          "C": "Adjetivo composto qualificativo; só o último elemento ('científicos') concorda com 'dados' em gênero e número.",
-          "D": "Adjetivo composto de cor; é invariável em gênero e número.",
-          "E": "Adjetivo composto gentílico; todos os elementos concordam com o substantivo em gênero e número."
+          "A": "causal, pois apresenta a causa do cansaço.",
+          "B": "condicional, pois estabelece condição para completar os exercícios.",
+          "C": "concessiva, pois admite circunstância adversa sem impedir a ação principal.",
+          "D": "consecutiva, pois apresenta a consequência do esforço do recruta.",
+          "E": "comparativa, pois compara o desempenho do recruta com outros."
         },
         "gabarito": "C",
-        "explicacao": "A regra de concordância nominal (gram-09) para adjetivos compostos (gram-04) estabelece que somente o último elemento varia em gênero e número, concordando com o substantivo. 'Técnico' permanece invariável; 'científicos' concorda com 'dados' (masculino plural). Não é adjetivo de cor (não designa cor), nem é gentílico (não indica origem ou nacionalidade com dois adjetivos pátrios)."
+        "explicacao": "'Ainda que' é conjunção subordinativa concessiva — introduz uma circunstância que poderia impedir a ação (o cansaço), mas não impede. Equivale a 'embora', 'mesmo que', 'apesar de que'. A concessão admite o fato adverso sem anular a conclusão. Não confundir com condicional ('se', 'caso') que estabelece condição, nem com causal ('porque', 'pois') que apresenta causa."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + gram-03",
-        "enunciado": "Considere: 'Refiro-me à análise histórico-crítica publicada pelo instituto.' A crase em 'à análise' é justificada porque:",
+        "topico_referencia": "gram-04",
+        "textoBase": "A incorporação dos novos recrutas ao pelotão fortaleceu a coesão do grupo.",
+        "enunciado": "A palavra 'incorporação' foi formada pelo processo de",
         "alternativas": {
-          "A": "O artigo definido que acompanha o substantivo feminino 'análise' se contrai com a preposição exigida pelo verbo 'referir-se'.",
-          "B": "A preposição é exigida pelo adjetivo 'histórico-crítica', que é transitivo indireto.",
-          "C": "O pronome relativo implícito exige preposição que se funde com o artigo.",
-          "D": "O numeral ordinal implícito antes de 'análise' exige artigo feminino, gerando a crase.",
-          "E": "A crase é facultativa neste contexto, pois 'análise' é substantivo abstrato."
+          "A": "composição por justaposição, pois duas palavras independentes foram unidas sem alteração.",
+          "B": "derivação prefixal, pois o prefixo 'in-' foi acrescentado à palavra 'corporação'.",
+          "C": "derivação sufixal, pois o sufixo '-ção' foi acrescentado ao radical 'incorpor-'.",
+          "D": "derivação parassintética, pois prefixo 'in-' e sufixo '-ção' foram acrescentados simultaneamente ao radical 'corpor-'.",
+          "E": "abreviação, pois 'incorporação' é forma reduzida de outra palavra."
         },
-        "gabarito": "A",
-        "explicacao": "A questão integra gram-04 (classes de palavras: verbo e substantivo) e gram-02 (crase). O verbo 'referir-se' é transitivo indireto e exige a preposição 'a' ('referir-se a algo'). 'Análise' é substantivo feminino precedido de artigo definido 'a'. A fusão de preposição 'a' + artigo definido feminino 'a' produz a crase: 'à'. Não é o adjetivo que exige preposição; pronomes relativos não geram crase per se; substantivos abstratos não impedem a crase."
+        "gabarito": "D",
+        "explicacao": "'Incorporação' foi formada pela parassíntese: o prefixo 'in-' e o sufixo '-ção' foram acrescentados simultaneamente ao radical 'corpor-'. A prova da parassíntese é que nenhum dos dois afixos funciona isoladamente: *'incorpor' e *'corporação' não existem com o mesmo sentido. A derivação prefixal (B) e a sufixal (C) são processos que atuam um afixo de cada vez."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + gram-14",
-        "enunciado": "Assinale a colocação pronominal CORRETA na frase que emprega o pronome oblíquo átono 'lhe' referente ao pronome de tratamento 'Vossa Excelência'.",
+        "topico_referencia": "gram-00",
+        "textoBase": "O submarino partiu silenciosamente na madrugada.",
+        "enunciado": "Considerando a fonologia, o dígrafo presente na palavra 'silenciosamente' é",
         "alternativas": {
-          "A": "Lhe apresento, Vossa Excelência, os resultados da operação.",
-          "B": "Apresento-lhe, Vossa Excelência, os resultados da operação.",
-          "C": "Apresento Vossa Excelência-lhe os resultados da operação.",
-          "D": "Lhe apresentamos os resultados da operação, Vossa Excelência.",
-          "E": "Os resultados da operação lhe apresento, Vossa Excelência."
+          "A": "si, pois representa um único fonema.",
+          "B": "en, pois as duas letras representam o fonema nasal vocálico.",
+          "C": "os, pois representa o fonema /o/.",
+          "D": "te, pois as letras T e E formam um único som.",
+          "E": "me, pois as letras M e E representam fonema nasal."
         },
         "gabarito": "B",
-        "explicacao": "A questão integra gram-04 (pronomes de tratamento e oblíquos — 3.ª pessoa) e gram-11 (colocação pronominal). 'Vossa Excelência' é pronome de tratamento de 3.ª pessoa gramatical; o pronome oblíquo correspondente é 'lhe'. Em início de frase sem elemento atrator de próclise, a norma culta determina ênclise: 'Apresento-lhe'. A: próclise indevida no início absoluto; C: forma agramatical; D: início de frase com pronome oblíquo (próclise em início absoluto, que é incorreta); E: próclise com inversão que geraria ambiguidade."
+        "explicacao": "Dígrafo é o conjunto de duas letras que representam um único fonema. Em 'silenciosamente', o dígrafo 'en' representa o fonema nasal vocálico — as letras E e N juntas formam apenas um fonema (vogal nasalizada), não dois fonemas separados. Os demais grupos citados não são dígrafos: 'si', 'os', 'te' e 'me' representam dois fonemas cada um (consoante + vogal)."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + gram-13",
-        "enunciado": "Leia: 'O comandante assistiu _____ cerimônia de formatura e logo _____ os recrutas com palavras de incentivo.' Assinale a alternativa que preenche as lacunas corretamente, considerando a regência dos verbos e a consequente necessidade ou não de crase.",
+        "topico_referencia": "gram-05",
+        "textoBase": "Informou-se o oficial sobre a nova missão. Partiu-se cedo para o porto.",
+        "enunciado": "O pronome 'se' nas duas frases exerce, respectivamente, as funções de",
         "alternativas": {
-          "A": "à / aconselhou",
-          "B": "a / aconselhou-a",
-          "C": "à / obedeceu",
-          "D": "a / assistiu",
-          "E": "à / elogiou"
+          "A": "partícula apassivadora e índice de indeterminação do sujeito.",
+          "B": "índice de indeterminação do sujeito e partícula apassivadora.",
+          "C": "pronome reflexivo e índice de indeterminação do sujeito.",
+          "D": "pronome reflexivo e partícula apassivadora.",
+          "E": "partícula apassivadora nas duas frases."
         },
-        "gabarito": "E",
-        "explicacao": "Integra gram-04 (classes/verbos) e gram-10 (regência verbal) e gram-02 (crase). 'Assistir' no sentido de 'ver, presenciar' é transitivo indireto: exige preposição 'a' ('assistiu à cerimônia' — crase obrigatória com substantivo feminino precedido de artigo). O segundo verbo deve ser transitivo direto (sem preposição) para completar o sentido com 'os recrutas'. 'Elogiar' é transitivo direto: 'elogiou os recrutas'. A: 'aconselhou' é TD+TI, não basta; B: 'a' sem crase é incorreto; C: 'obedeceu' é TI (obedeceu aos recrutas); D: repetição de 'assistiu' e sentido incoerente."
+        "gabarito": "A",
+        "explicacao": "Na primeira frase, 'Informou-se o oficial': o verbo 'informar' é transitivo direto, 'o oficial' é o sujeito paciente — 'se' é partícula apassivadora (voz passiva sintética). Na segunda, 'Partiu-se cedo': 'partir' é intransitivo, sem objeto direto — 'se' é índice de indeterminação do sujeito. A regra: VTD + se + sujeito paciente = apassivadora; VI ou VTI + se = índice de indeterminação."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + comp-06",
-        "enunciado": "Analise o par de frases: (I) 'O militar portava um fuzil.' (II) 'O militar portava-se com distinção.' O substantivo 'fuzil' e o pronome reflexivo 'se' em (II) mantêm entre si uma relação lexical de:",
+        "topico_referencia": "gram-04",
+        "textoBase": "O guarda-marinha recebeu sua primeira comenda.",
+        "enunciado": "A palavra 'guarda-marinha' foi formada pelo processo de",
         "alternativas": {
-          "A": "Sinonímia — ambos complementam verbos de mesma raiz.",
-          "B": "São de classes morfológicas distintas e não mantêm relação lexical entre si, mas 'portar' em (I) e 'portar-se' em (II) são parônimos.",
-          "C": "Antonímia — a presença de 'se' inverte o sentido de 'portar'.",
-          "D": "Homonímia — 'fuzil' tem dois significados idênticos nas duas frases.",
-          "E": "Hiperonímia — 'se' é hiperônimo de todos os pronomes oblíquos."
+          "A": "derivação sufixal, com adição do sufixo '-inha' à palavra 'guarda'.",
+          "B": "composição por justaposição, pois duas palavras independentes foram unidas com hífen, sem alteração fonética.",
+          "C": "composição por aglutinação, pois as palavras se fundiram com perda de elementos fonéticos.",
+          "D": "derivação parassintética, com prefixo e sufixo adicionados simultaneamente.",
+          "E": "abreviação vocabular, forma reduzida de expressão mais longa."
         },
         "gabarito": "B",
-        "explicacao": "Integra gram-04 (classes: substantivo vs. pronome oblíquo) e comp-06 (relações lexicais). 'Fuzil' (substantivo) e 'se' (pronome oblíquo reflexivo) são de classes morfológicas distintas e não possuem relação lexical direta entre si. Porém, 'portar' (= carregar algo) e 'portar-se' (= comportar-se) são parônimos: palavras de forma semelhante e significados distintos. Não são sinônimos (sentidos diferentes), não são antônimos (não se opõem simetricamente), não são homônimos (fusil/fuzil seria homonímia, mas não é o caso aqui) e 'se' não é hiperônimo de pronomes."
+        "explicacao": "'Guarda-marinha' é formada pela justaposição de 'guarda' + 'marinha' — duas palavras independentes unidas por hífen sem qualquer alteração fonética em nenhuma das duas. Na composição por justaposição, cada elemento mantém sua forma original. Na aglutinação, há fusão com perda de fonemas (ex.: 'planalto' = plano + alto). '-inha' não é sufixo aqui — 'marinha' é substantivo completo com significado próprio."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + comp-07",
-        "enunciado": "Leia: 'O silêncio gritava mais alto que qualquer discurso naquele auditório.' A figura de linguagem presente e a classe gramatical do vocábulo 'alto' nessa frase são, respectivamente:",
+        "topico_referencia": "gram-05",
+        "textoBase": "Os recrutas chegaram tarde. Muitos estavam exaustos e poucos se apresentaram no prazo.",
+        "enunciado": "As palavras 'tarde', 'Muitos' e 'poucos' pertencem, respectivamente, às classes de",
         "alternativas": {
-          "A": "Personificação (prosopopeia); 'alto' é adjetivo qualificando 'silêncio'.",
-          "B": "Hipérbole; 'alto' é advérbio de modo modificando 'gritava'.",
-          "C": "Personificação (prosopopeia); 'alto' é advérbio de modo modificando 'gritava'.",
-          "D": "Antítese; 'alto' é adjetivo em oposição ao silêncio.",
-          "E": "Ironia; 'alto' é substantivo abstrato equivalente a 'volume'."
+          "A": "substantivo, adjetivo e adjetivo.",
+          "B": "adjetivo, pronome indefinido e pronome indefinido.",
+          "C": "advérbio, pronome indefinido e pronome indefinido.",
+          "D": "advérbio, numeral e numeral.",
+          "E": "adjetivo, numeral e advérbio."
         },
         "gabarito": "C",
-        "explicacao": "Integra comp-07 (figuras de linguagem) e gram-04 (classes de palavras). A figura é personificação/prosopopeia: atribui-se ao 'silêncio' (ser inanimado/abstrato) a ação de 'gritar' (própria de seres animados). Quanto à classe gramatical: 'alto' modifica o verbo 'gritava' — é advérbio de modo, invariável nessa função (se fosse adjetivo, concordaria com o sujeito: 'O silêncio alto...'). Não é hipérbole (não há exagero quantitativo), nem antítese (não há oposição de ideias contrárias), nem ironia."
+        "explicacao": "'Tarde' modifica o verbo 'chegaram' indicando circunstância de tempo — é advérbio. 'Muitos' e 'poucos' se referem a 'recrutas' de modo vago e impreciso, exercendo função de sujeito nos períodos seguintes — são pronomes indefinidos. O sinal de que são pronomes (não adjetivos) é que funcionam como núcleo do sujeito, não como adjuntos de um substantivo expresso."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + gram-10",
-        "enunciado": "Leia: 'Ou o candidato estuda com afinco, ou jamais logrará êxito no concurso.' A conjunção 'ou...ou' classifica-se como coordenativa alternativa e o advérbio 'jamais' como advérbio de negação. Com base nessa análise, assinale a alternativa que apresenta outra frase com a MESMA estrutura (conjunção alternativa + advérbio de negação).",
+        "topico_referencia": "gram-00",
+        "textoBase": "O oficial leu o boletim em voz alta para toda a tropa.",
+        "enunciado": "Considerando a distinção entre fonema e letra, assinale a afirmativa CORRETA sobre a palavra 'tropa'.",
         "alternativas": {
-          "A": "Nem o esforço nem o talento bastam sem dedicação.",
-          "B": "Quer chova, quer faça sol, a missão prosseguirá.",
-          "C": "Ora ele cumpre, ora nunca respeita os prazos.",
-          "D": "Mas a insistência não é suficiente sem método.",
-          "E": "Portanto, o candidato nunca deve subestimar a prova."
+          "A": "Possui 5 letras e 5 fonemas, pois há correspondência direta entre letras e fonemas.",
+          "B": "Possui 5 letras e 4 fonemas, pois a letra 'o' não representa fonema nessa palavra.",
+          "C": "Possui 5 letras e 5 fonemas, mas a letra 'p' representa dois fonemas diferentes.",
+          "D": "Possui 5 letras e 4 fonemas, pois o encontro 'tr' representa um único fonema.",
+          "E": "Possui 5 letras e 5 fonemas, sendo que 't' e 'r' juntos formam um dígrafo."
         },
-        "gabarito": "C",
-        "explicacao": "Integra gram-04 (advérbio) e gram-08 (coordenação e subordinação). Em C: 'ora...ora' é conjunção coordenativa alternativa (gram-08) e 'nunca' é advérbio de negação (gram-04) — estrutura idêntica à do enunciado. A: 'nem...nem' é conjunção aditiva negativa, não alternativa. B: 'quer...quer' é alternativa, mas não há advérbio de negação. D: 'mas' é adversativa, não alternativa. E: 'portanto' é conclusiva e 'nunca' é advérbio, mas não há conjunção alternativa."
+        "gabarito": "A",
+        "explicacao": "A palavra 'tropa' possui 5 letras (t-r-o-p-a) e 5 fonemas (/t/-/R/-/o/-/p/-/a/). Cada letra representa um fonema diferente. O encontro 'tr' é um encontro consonantal (cluster), não um dígrafo: cada letra representa um fonema separado (/t/ e /R/). Dígrafo seria quando duas letras representam UM único fonema (como 'nh', 'lh', 'ss', 'rr'). As demais alternativas estão incorretas sobre a contagem de fonemas."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + comp-11",
-        "enunciado": "Analise o texto: 'O navio partiu. Ele era veloz. A missão foi cumprida.' Assinale a alternativa que reescreve o texto melhorando sua coesão textual por meio do uso adequado de pronomes (gram-04) e conjunções (gram-08/comp-10), SEM alterar o sentido original.",
+        "topico_referencia": "gram-05",
+        "textoBase": "Vossa Excelência assinou o documento que havia sido preparado pelo Estado-Maior.",
+        "enunciado": "A expressão 'Vossa Excelência' é classificada como pronome de",
         "alternativas": {
-          "A": "O navio partiu, porque ele era veloz, mas a missão foi cumprida.",
-          "B": "O navio, que era veloz, partiu e cumpriu a missão.",
-          "C": "Embora veloz, o navio partiu e a missão foi cumprida.",
-          "D": "O navio partiu. Apesar de ser veloz, a missão foi cumprida.",
-          "E": "O navio partiu; porém era veloz e a missão foi cumprida."
+          "A": "tratamento, concordando com o verbo na terceira pessoa.",
+          "B": "segunda pessoa do singular, pois se dirige diretamente ao interlocutor com 'Vossa'.",
+          "C": "primeira pessoa do plural, pois 'Vossa' remete ao grupo de excelências.",
+          "D": "terceira pessoa do plural, pois exige verbo no plural quando há mais de um interlocutor.",
+          "E": "demonstrativo, pois indica a pessoa a quem se faz referência."
         },
-        "gabarito": "B",
-        "explicacao": "Integra gram-04 (pronome relativo 'que' como mecanismo de coesão referencial) e comp-10 (coesão textual). Em B, o pronome relativo 'que' retoma 'navio', evitando a repetição e criando coesão referencial. A conjunção 'e' une as duas ações sequenciais, e o sujeito implícito 'ele' (o navio) aparece na segunda oração. As demais introduzem relações semânticas incorretas: A insere causalidade inexistente ('porque era veloz'); C e D introduzem concessão que distorce o sentido; E cria oposição indevida com 'porém'."
+        "gabarito": "A",
+        "explicacao": "'Vossa Excelência' é pronome de tratamento — categoria especial que se dirige à segunda pessoa (o interlocutor), mas concorda com o verbo na terceira pessoa do singular: 'Vossa Excelência assinou' (não 'assinastes'). Essa é a armadilha clássica do CEBRASPE: o pronome de tratamento parece segunda pessoa (pois se fala com alguém), mas exige verbo na terceira pessoa. Outros pronomes de tratamento: Vossa Senhoria, Vossa Magnificência."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + gram-01",
-        "enunciado": "Assinale a alternativa em que há ERRO de acentuação gráfica na forma do verbo ou do substantivo destacados, considerando o Acordo Ortográfico em vigor desde 2016.",
+        "topico_referencia": "gram-04",
+        "textoBase": "O narcosubmarino foi interceptado pela Marinha próximo à costa.",
+        "enunciado": "A palavra 'narcosubmarino' foi formada pelo processo de",
         "alternativas": {
-          "A": "O coautor do manual é um oficial da Marinha.",
-          "B": "O recruta foi avaliado por um júri especializado.",
-          "C": "A ele se devem os créditos pela operação.",
-          "D": "O vôo de reconhecimento foi cancelado.",
-          "E": "A análise dos dados foi concluída com êxito."
+          "A": "derivação prefixal, com o prefixo latino 'narco-' acrescentado à palavra 'submarino'.",
+          "B": "composição por justaposição, pois 'narco' e 'submarino' foram unidos com hífen.",
+          "C": "composição por aglutinação, pois os elementos 'narco' e 'submarino' se fundiram sem alteração.",
+          "D": "derivação parassintética, com prefixo e sufixo acrescentados simultaneamente.",
+          "E": "hibridismo por aglutinação, pois 'narco' (grego) e 'submarino' (latim) se fundiram sem alteração fonética."
         },
-        "gabarito": "D",
-        "explicacao": "Integra gram-04 (substantivo — classes de palavras) e gram-01 (ortografia e acentuação). Pelo Acordo Ortográfico de 1990 (em vigor desde 2016), o acento circunflexo nas palavras 'voo', 'zoo', 'enjoo' foi suprimido, pois a acentuação diferencial nessas palavras não se justifica mais pelo sistema atual. O correto é 'o voo' (sem acento). As demais estão corretas: A — 'coautor' sem hífen (regra do Acordo); B — 'júri' acentuado corretamente (oxítona com i tônico); C — 'créditos' (proparoxítona, sempre acentuada); E — 'êxito' (acento correto)."
+        "gabarito": "E",
+        "explicacao": "'Narcosubmarino' é formado pela fusão de 'narco-' (elemento de origem grega) e 'submarino' (de origem latina), sem alteração fonética — aglutinação. Por envolver elementos de línguas diferentes (grego + latim), é também chamado de hibridismo. A alternativa A está incorreta porque 'narco-' é elemento de composição, não prefixo gramatical. A alternativa C está quase correta no processo (aglutinação), mas incompleta ao não mencionar o hibridismo."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + gram-12",
-        "enunciado": "Leia: 'O comandante, cansado porém determinado, ordenou: — Todos ao posto!' Sobre a pontuação e as classes de palavras destacadas, assinale a alternativa CORRETA.",
+        "topico_referencia": "gram-05",
+        "textoBase": "Não havia ninguém apto ao cargo. Tampouco se apresentaram voluntários.",
+        "enunciado": "A palavra 'Tampouco' no segundo período é classificada como",
         "alternativas": {
-          "A": "As vírgulas em 'cansado porém determinado' são obrigatórias para isolar adjuntos adverbiais.",
-          "B": "O travessão indica discurso direto; 'porém' é conjunção coordenativa adversativa que une dois adjetivos predicativos.",
-          "C": "O ponto de exclamação após 'posto' poderia ser substituído por ponto final sem alterar o sentido.",
-          "D": "As vírgulas isolam o aposto 'cansado porém determinado'; 'porém' é conjunção conclusiva.",
-          "E": "O travessão é dispensável; 'porém' é advérbio de oposição."
+          "A": "conjunção aditiva, acrescentando a informação sobre os voluntários.",
+          "B": "advérbio de negação aditiva, equivalendo a 'também não'.",
+          "C": "pronome indefinido, substituindo 'ninguém' do período anterior.",
+          "D": "conjunção adversativa, opondo a ausência de candidatos à de voluntários.",
+          "E": "adjetivo, qualificando os possíveis voluntários como insuficientes."
         },
         "gabarito": "B",
-        "explicacao": "Integra gram-12 (pontuação) e gram-04 (classes de palavras — conjunção). O travessão introduz o discurso direto (fala do comandante), recurso correto de pontuação (gram-12). 'Porém' é conjunção coordenativa adversativa que une os dois adjetivos predicativos 'cansado' e 'determinado' (gram-04) referentes ao sujeito implícito 'o comandante'. A: as vírgulas isolam o predicativo deslocado (não adjunto adverbial). C: o ponto de exclamação reforça o caráter imperativo da ordem — substituí-lo por ponto final altera a ênfase. D: 'porém' não é conclusiva. E: o travessão é indispensável para o discurso direto."
+        "explicacao": "'Tampouco' é advérbio de negação aditiva — equivale a 'também não', 'nem mesmo', reforçando e estendendo a negação do período anterior. É palavra invariável (advérbio). Não confundir com 'tão pouco' (duas palavras: muito pouco). O CEBRASPE cobra a distinção entre 'tampouco' (advérbio negativo) e conjunções aditivas como 'outrossim' ou 'também'."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + comp-02",
-        "enunciado": "Leia o trecho: 'O silêncio do almirante ao final da reunião foi eloquente.' Com base no que está implícito e no papel da classe gramatical do adjetivo 'eloquente', assinale a alternativa que melhor interpreta a informação implícita transmitida pelo uso desse adjetivo nesse contexto.",
+        "topico_referencia": "gram-00",
+        "textoBase": "O navio-escola recebe anualmente os novos aspirantes à carreira naval.",
+        "enunciado": "Considerando a fonética, a sílaba tônica da palavra 'anualmente' é",
         "alternativas": {
-          "A": "O adjetivo indica explicitamente que o almirante fez um discurso elaborado ao final da reunião.",
-          "B": "O adjetivo atribui qualidade ao substantivo 'silêncio', sugerindo implicitamente que esse silêncio comunicou algo significativo — possivelmente discordância ou reprovação.",
-          "C": "O adjetivo é usado em sentido denotativo, indicando que o silêncio produziu sons audíveis.",
-          "D": "O adjetivo qualifica o sujeito implícito 'almirante', indicando sua habilidade oratória.",
-          "E": "O adjetivo 'eloquente' é usado como advérbio, modificando o verbo 'foi'."
+          "A": "A primeira sílaba: 'a-'",
+          "B": "A segunda sílaba: 'nu-'",
+          "C": "A terceira sílaba: 'al-'",
+          "D": "A quarta sílaba: 'men-'",
+          "E": "A quinta sílaba: '-te'"
         },
-        "gabarito": "B",
-        "explicacao": "Integra comp-03 (informações implícitas) e gram-04 (adjetivo). 'Eloquente' é adjetivo que qualifica o substantivo 'silêncio'. Sua função morfológica é de modificador nominal (gram-04). O conteúdo implícito (comp-03): atribuir 'eloquência' — qualidade de expressar-se com eficácia — ao 'silêncio' sugere que este silêncio comunicou algo sem palavras, provavelmente uma avaliação negativa ou discordância do almirante. A está errada: não houve discurso, o silêncio foi a mensagem. C é incorreto: uso conotativo, não denotativo. D: 'eloquente' qualifica 'silêncio', não 'almirante'. E: adjetivos após verbos de ligação são predicativos, não advérbios."
+        "gabarito": "D",
+        "explicacao": "A palavra 'anualmente' é separada em sílabas assim: a-nu-al-MEN-te. A sílaba tônica (a mais forte, que recebe o acento de intensidade) é 'men'. Palavras terminadas em -mente seguem o acento da palavra original com deslocamento para a penúltima sílaba do advérbio completo, que é 'men'."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + gram-11",
-        "enunciado": "Em 'Os fenômenos físico-químicos observados durante os experimentos foram devidamente registrados', a concordância nominal e a morfologia dos termos destacados são analisadas CORRETAMENTE em:",
+        "topico_referencia": "gram-05",
+        "textoBase": "O comandante falou grosso com o subordinado que havia desobedecido a ordem.",
+        "enunciado": "Na frase, a palavra 'grosso' funciona como",
         "alternativas": {
-          "A": "'Físico-químicos' concorda com 'fenômenos' em gênero e número — ambos os elementos variam.",
-          "B": "'Físico-químicos': adjetivo composto em que apenas o último elemento ('químicos') varia, concordando com 'fenômenos' (masc. pl.) — correto.",
-          "C": "'Observados' é particípio passado funcionando como substantivo, concordando com 'fenômenos'.",
-          "D": "'Devidamente' é adjetivo concordando com 'fenômenos' no plural.",
-          "E": "'Registrados' deveria estar no singular, concordando com o núcleo 'fenômenos' no sentido coletivo."
+          "A": "adjetivo, pois qualifica o substantivo 'comandante'.",
+          "B": "advérbio de modo, pois modifica o verbo 'falou', indicando como a ação ocorreu.",
+          "C": "substantivo, pois é o núcleo do predicado da oração.",
+          "D": "numeral, pois indica a quantidade de vezes que o comandante falou.",
+          "E": "pronome indefinido, pois substitui o sujeito de forma vaga."
         },
         "gabarito": "B",
-        "explicacao": "Integra gram-04 (adjetivo composto) e gram-09 (concordância nominal). Em adjetivos compostos, apenas o último elemento varia: 'físico' permanece invariável; 'químicos' concorda com 'fenômenos' (masculino plural). A está errada: os dois elementos não variam. C: 'observados' é particípio passado em função adjetiva (adjunto adnominal de 'fenômenos'), não substantivo. D: 'devidamente' é advérbio de modo (invariável). E: 'registrados' concorda com 'fenômenos' (plural), não com sentido coletivo inexistente."
+        "explicacao": "'Grosso' em 'falou grosso' modifica o verbo 'falou', indicando o modo como a fala ocorreu — funciona como advérbio de modo por transposição. O sinal é a invariabilidade: 'falou grosso' (não 'grossa'). Se fosse adjetivo, concordaria com o substantivo. Essa transposição é recorrente em expressões coloquiais e formais: 'falar baixo', 'jogar limpo', 'trabalhar duro'. O CEBRASPE adora esse tipo de questão."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + gram-13 + gram-03",
-        "enunciado": "Leia: 'O cadete aspira ___ carreira naval e já se habituou ___ disciplina rigorosa da Escola.' Assinale a alternativa que preenche CORRETAMENTE as lacunas com base na regência verbal e no uso da crase.",
+        "topico_referencia": "gram-04",
+        "textoBase": "A contraofensiva naval foi planejada pelo Estado-Maior com precisão.",
+        "enunciado": "A palavra 'contraofensiva' foi formada pelo processo de derivação prefixal. O prefixo 'contra-' indica",
         "alternativas": {
-          "A": "a / a",
-          "B": "à / a",
-          "C": "à / à",
-          "D": "a / à",
-          "E": "à / com a"
+          "A": "negação da ofensiva, tornando-a inexistente.",
+          "B": "oposição ou ação em sentido contrário à ofensiva.",
+          "C": "intensificação da ofensiva naval.",
+          "D": "anterioridade temporal em relação à ofensiva.",
+          "E": "repetição de uma ofensiva anterior."
         },
-        "gabarito": "C",
-        "explicacao": "Integra gram-10 (regência verbal), gram-02 (crase) e gram-04 (verbos). 'Aspirar' no sentido de 'desejar, almejar' é transitivo indireto: exige preposição 'a' ('aspirar à carreira' — preposição + artigo feminino = crase: 'à'). 'Habituar-se' é transitivo indireto: exige preposição 'a' ('habituou-se à disciplina' — preposição + artigo feminino = crase: 'à'). Ambas as lacunas recebem 'à'. Atenção: 'aspirar' no sentido de 'sugar' é transitivo direto, mas aqui o sentido é 'desejar'."
+        "gabarito": "B",
+        "explicacao": "O prefixo 'contra-' indica oposição, ação contrária, resistência. 'Contraofensiva' é a ação que se opõe ou responde à ofensiva do inimigo. Outros exemplos: contra-ataque, contrarreforma, contraespionagem. Note que 'contraofensiva' não leva hífen (prefixo termina em A, palavra começa com O — vogais diferentes segundo o Acordo Ortográfico)."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + comp-07 + gram-14",
-        "enunciado": "Leia o verso adaptado: 'A pátria minha a tudo sobrepõe-se.' Identifique a figura de linguagem e o erro de colocação pronominal, e assinale a alternativa que corrige o verso mantendo o mesmo sentido.",
+        "topico_referencia": "gram-05",
+        "textoBase": "Caso o relatório não seja entregue até sexta-feira, o processo ficará suspenso.",
+        "enunciado": "A conjunção 'Caso' no período acima introduz uma oração subordinada de natureza",
         "alternativas": {
-          "A": "Hipérbole; correção: 'A pátria sobrepõe-se-me a tudo.'",
-          "B": "Inversão (anástrofe); a colocação 'sobrepõe-se' está correta, pois o pronome oblíquo reflexivo deve ser enclítico após verbo em início de segmento.",
-          "C": "Hipérbato (inversão da ordem direta); a colocação pronominal 'a tudo sobrepõe-se' está incorreta — deveria ser 'sobrepõe-se a tudo', pois em início de frase deve-se evitar próclise, e a ênclise é a forma correta.",
-          "D": "Anáfora; correção: 'Se a tudo a pátria minha sobrepõe.'",
-          "E": "Não há figura de linguagem; a colocação pronominal está correta em qualquer posição."
+          "A": "causal, pois apresenta a causa da suspensão do processo.",
+          "B": "concessiva, pois admite condição adversa sem impedir a suspensão.",
+          "C": "condicional, pois estabelece condição para que a suspensão ocorra.",
+          "D": "consecutiva, pois apresenta a consequência da não entrega.",
+          "E": "temporal, pois indica o momento em que o processo será suspenso."
         },
         "gabarito": "C",
-        "explicacao": "Integra comp-07 (figuras de linguagem — hipérbato) e gram-11 (colocação pronominal). A frase apresenta hipérbato (anástrofe): inversão da ordem direta das palavras ('a tudo sobrepõe-se' em vez de 'sobrepõe-se a tudo'). Quanto à colocação pronominal (gram-11): como a frase começa com o adjunto adverbial 'A pátria minha' (não há fator de próclise como partícula de negação, advérbio ou conjunção), a ênclise é correta: 'sobrepõe-se a tudo'. Na forma invertida 'a tudo sobrepõe-se', o 'se' fica após o verbo (ênclise), o que é aceito, mas a forma mais clara na norma culta seria a ordem direta."
+        "explicacao": "'Caso' é conjunção subordinativa condicional — equivale a 'se', introduzindo oração que estabelece uma condição necessária para que o fato da oração principal ocorra. A suspensão do processo depende da condição: a não entrega do relatório. Conjunções condicionais: se, caso, contanto que, desde que, salvo se, a menos que. A alternativa D está errada porque a oração consequente é a principal ('ficará suspenso'), não a subordinada."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "gram-05 + gram-11 + gram-13 + gram-14",
-        "enunciado": "Leia: 'As informações confidenciais foram-lhe entregues pelo agente a quem o comandante as havia confiado.' Esta frase está CORRETA em relação a todas as seguintes normas: concordância nominal ('confidenciais'), colocação de 'lhe' e 'as', regência do verbo 'confiar'. Assinale a alternativa que apresenta análise INCORRETA de algum desses elementos.",
+        "topico_referencia": "gram-05",
+        "textoBase": "O instrutor, já experiente, reconheceu logo o talento inato do recruta.",
+        "enunciado": "As palavras 'já' e 'logo' na frase pertencem à mesma classe gramatical e indicam, respectivamente, circunstâncias de",
         "alternativas": {
-          "A": "'Confidenciais' concorda com 'informações' (feminino plural) — concordância nominal correta.",
-          "B": "'Foram-lhe entregues': ênclise de 'lhe' ao auxiliar 'foram' é correta na voz passiva analítica.",
-          "C": "'As havia confiado': o pronome 'as' refere-se a 'informações' e está em posição de próclise atraído pelo pronome relativo 'a quem' — correto.",
-          "D": "'Confiar' é usado como transitivo direto e indireto: 'confiado + as (OD) + a quem (OI)' — regência correta.",
-          "E": "A frase contém erro: 'foram-lhe entregues' deveria ser 'lhe foram entregues', pois o pronome relativo 'a quem' na oração anterior atrai a próclise para a oração principal."
+          "A": "modo e lugar.",
+          "B": "tempo e modo.",
+          "C": "intensidade e tempo.",
+          "D": "negação e afirmação.",
+          "E": "tempo e afirmação."
         },
-        "gabarito": "E",
-        "explicacao": "Integra gram-09, gram-11 e gram-10. A alternativa E apresenta análise incorreta: o pronome relativo 'a quem' na oração adjetiva ('a quem o comandante as havia confiado') NÃO interfere na colocação pronominal da oração principal ('as informações foram-lhe entregues'). Cada oração tem sua própria regra de colocação. Na oração principal, em início de período, sem fator de próclise, a ênclise 'foram-lhe' é correta. A, B, C e D estão corretos: A — concordância nominal correta; B — ênclise válida; C — 'a quem' atrai próclise dentro de sua própria oração subordinada; D — 'confiar algo a alguém' é TD+TI, regência correta."
+        "gabarito": "C",
+        "explicacao": "'Já' nesse contexto modifica o adjetivo 'experiente', intensificando-o — é advérbio de intensidade ('já experiente' = bastante experiente, experiente de fato). 'Logo' modifica o verbo 'reconheceu', indicando que a ação ocorreu rapidamente, em pouco tempo — é advérbio de tempo. O CEBRASPE adora cobrar 'já' — pode ser advérbio de tempo, de intensidade ou de afirmação. O contexto é determinante."
       }
     ]
   }

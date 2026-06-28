@@ -2,135 +2,224 @@
   "id": "gram-06",
   "titulo": "Flexão Nominal",
   "area": "Gramática",
-  "resumo": "A flexão é o processo pelo qual as palavras variam sua forma para expressar categorias gramaticais. Os nomes (substantivos, adjetivos, artigos, pronomes e numerais) flexionam em gênero e número; alguns pronomes e artigos também em caso. Os verbos flexionam em pessoa, número, tempo, modo e voz. O domínio da flexão nominal e verbal é condição essencial para a correção gramatical dos textos, influenciando diretamente a concordância, a regência e o emprego correto das formas verbais. No concurso RM2, questões de flexão aparecem embutidas em contextos de concordância, interpretação textual e reescritura de frases.",
+  "resumo": "Flexão nominal é a capacidade que os nomes (substantivos, adjetivos, pronomes, numerais e artigos) têm de mudar de forma para indicar gênero, número e grau. Entender essas variações é essencial para escrever com concordância correta e para identificar erros sutis que a banca CEBRASPE adora explorar. Neste tópico você vai dominar as regras de formação do feminino, do plural e dos graus, com foco nas irregularidades que caem em prova.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Flexão de Gênero nos Substantivos",
-        "conteudo": "O gênero gramatical em português é masculino ou feminino e não corresponde necessariamente ao sexo biológico. Os substantivos se distribuem em: (a) substantivos biformes — possuem duas formas, uma para cada gênero, podendo variar por sufixo ('menino/menina', 'ator/atriz', 'rei/rainha'), por palavra distinta (heterônimos: 'boi/vaca', 'pai/mãe', 'genro/nora') ou por artigo diferenciador ('o guia/a guia', 'o colega/a colega'); (b) substantivos uniformes — têm uma única forma para os dois gêneros, distinguidos pelo artigo: epicenos (referem-se a animais, com gênero fixo independente do sexo: 'a cobra', 'o gavião'), sobrecomuns (referem-se a pessoas com gênero fixo: 'a criança', 'a testemunha', 'o cônjuge') e comuns de dois gêneros (variam apenas pelo artigo: 'o/a artista', 'o/a estudante', 'o/a intérprete'). Cunha e Cintra (2017) alertam para os substantivos que mudam de sentido conforme o gênero: 'o capital' (dinheiro) / 'a capital' (cidade), 'o coma' (estado clínico) / 'a coma' (cabeleira), 'o rádio' (aparelho) / 'a rádio' (emissora).",
+        "subtitulo": "1. O que é flexão nominal?",
+        "conteudo": "Imagine que uma palavra é como um uniforme militar: ela pode ter versões diferentes para situações diferentes, mas continua sendo o mesmo uniforme. A flexão nominal é exatamente isso — é a mudança de forma que uma palavra sofre para se adaptar ao contexto em que aparece.\n\nNomes são palavras que designam seres, qualidades, quantidades ou identificam pessoas. No português, os nomes se flexionam em três categorias: gênero (masculino ou feminino), número (singular ou plural) e grau (aumentativo ou diminutivo).\n\nAo contrário dos verbos, que mudam para indicar tempo, modo e pessoa, os nomes mudam apenas para se ajustar a quem ou ao que estão se referindo. Um recruta, dois recrutas. A base naval, as bases navais.\n\nO erro mais comum é achar que toda flexão segue um padrão fixo. Na verdade, as irregularidades são a parte mais cobrada pela banca.",
+        "regra": "Nomes flexionam em: gênero (M/F) · número (S/P) · grau (aum./dim.)",
         "exemplos": [
-          "Biformes por sufixo: 'diretor/diretora', 'leão/leoa', 'barão/baronesa'",
-          "Heterônimos: 'bode/cabra', 'cavaleiro/dama', 'frei/freira'",
-          "Sobrecomuns: 'a vítima' (homem ou mulher), 'o indivíduo' (homem ou mulher)",
-          "Comuns de dois gêneros: 'o/a repórter', 'o/a líder', 'o/a mártir'",
-          "Mudança de sentido: 'o moral' (estado psicológico) / 'a moral' (conjunto de valores)"
-        ],
-        "regra": "Para substantivos uniformes, o gênero é marcado pelo artigo (o/a), não pela terminação da palavra. Para palavras que mudam de sentido conforme o gênero, o artigo é determinante — memorize os pares mais cobrados em provas: capital, moral, rádio, coma, cabeça."
+          {
+            "texto_base": "O oficial e a oficial comandante participaram da incorporação dos recrutas selecionados.",
+            "anotacoes": [
+              {
+                "trecho": "oficial",
+                "destaque": "Comum de 2 gêneros",
+                "motivo": "A palavra não muda de forma — é o artigo que indica o gênero: 'o oficial' (M) / 'a oficial' (F)"
+              },
+              {
+                "trecho": "recrutas",
+                "destaque": "Plural regular",
+                "motivo": "Substantivo terminado em vogal recebe -S no plural: recruta → recrutas"
+              },
+              {
+                "trecho": "selecionados",
+                "destaque": "Adjetivo em concordância",
+                "motivo": "O adjetivo flexionou no masculino plural para concordar com 'recrutas'"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "2. Flexão de Número nos Substantivos e Adjetivos",
-        "conteudo": "A formação do plural dos substantivos e adjetivos segue regras específicas conforme a terminação do singular. Terminações e plurais: (a) vogal ou ditongo oral → acrescenta '-s': 'casa/casas', 'pai/pais'; (b) '-ão' → três possibilidades: '-ões' (mais comum: 'avião/aviões', 'coração/corações'), '-ães' ('pão/pães', 'cão/cães', 'alemão/alemães'), '-ãos' (paroxítonos e alguns outros: 'mão/mãos', 'grão/grãos', 'cidadão/cidadãos'); (c) '-m' → '-ns': 'homem/homens', 'garagem/garagens'; (d) '-r', '-z', '-n' → acrescenta '-es': 'mar/mares', 'rapaz/rapazes', 'abdômen/abdomens' (ou abdômens); (e) '-s' em oxítonas → acrescenta '-es': 'mês/meses', 'país/países'; '-s' em não oxítonas → invariável: 'o/os atlas', 'o/os vírus', 'o/os ônibus'; (f) '-al', '-el', '-ol', '-ul' → troca '-l' por '-is': 'animal/animais', 'papel/papéis', 'farol/faróis', 'paul/paus'; (g) '-il' oxítono → '-is': 'fuzil/fuzis'; '-il' não oxítono → '-eis': 'fácil/fáceis', 'réptil/répteis'. Compostos: seguem regras específicas conforme a estrutura.",
+        "subtitulo": "2. Gênero: masculino e feminino",
+        "conteudo": "Pense no gênero como uma etiqueta que acompanha cada nome. No português, todo substantivo tem uma etiqueta fixa — masculino ou feminino — e isso nem sempre tem relação com o sexo do ser. O mar é masculino, a âncora é feminina. Não há lógica natural; é convenção da língua.\n\nHá três maneiras principais de formar o feminino. A mais comum é trocar a terminação: doutor → doutora, sargento → sargenta. A segunda é usar uma palavra completamente diferente para cada gênero — são os heterônimos: homem/mulher, pai/mãe, bode/cabra. A terceira é usar o mesmo vocábulo para os dois gêneros, diferenciado apenas pelo artigo — são os chamados substantivos comuns de dois gêneros: o artista / a artista, o jovem / a jovem.\n\nOs adjetivos também têm gênero e devem sempre concordar com o substantivo ao qual se referem. 'O cabo leal' vs 'a marinheira leal' — note que 'leal' não muda porque termina em L e serve para os dois gêneros.\n\nO erro mais comum é tentar formar o feminino de palavras que são comuns de dois gêneros, criando formas inexistentes como 'artiste' ou 'jovema'.",
+        "regra": "Feminino: troca terminação (-a) · heterônimo · comum de 2 gêneros (só o artigo muda)",
         "exemplos": [
-          "'-ão' com três plurais: 'cidadão/cidadãos', 'cão/cães', 'avião/aviões'",
-          "'-s' invariável: 'o atlas/os atlas', 'o vírus/os vírus'",
-          "'-al' → '-ais': 'canal/canais', 'animal/animais', 'sinal/sinais'",
-          "'-il' oxítono: 'barril/barris', 'fuzil/fuzis'; '-il' não oxítono: 'fácil/fáceis', 'míssil/mísseis'",
-          "Compostos com dois núcleos: 'couve-flor/couves-flores'; com verbo: 'guarda-chuva/guarda-chuvas' (ou 'guarda-chuvas')"
-        ],
-        "regra": "Para palavras em '-ão', decore os três grupos. Para palavras em '-s', a invariabilidade vale apenas para não oxítonas. Para '-il', a tonicidade determina o plural: oxítona → '-is'; não oxítona → '-eis'."
+          {
+            "texto_base": "A testemunha ocular, que era um jovem marinheiro, foi considerada a principal personagem do inquérito.",
+            "anotacoes": [
+              {
+                "trecho": "testemunha",
+                "destaque": "Sobrecomum",
+                "motivo": "Palavra de gênero fixo (sempre feminino) que se aplica a homens e mulheres sem mudar de forma"
+              },
+              {
+                "trecho": "jovem",
+                "destaque": "Comum de 2 gêneros",
+                "motivo": "'Um jovem' (M) — mesma forma para feminino: 'uma jovem' (F). Só o artigo distingue"
+              },
+              {
+                "trecho": "personagem",
+                "destaque": "Gênero variável",
+                "motivo": "Aceita ambos os artigos: 'o personagem' e 'a personagem' — o contexto determina o uso"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "3. Flexão dos Adjetivos: Grau Comparativo e Superlativo",
-        "conteudo": "Os adjetivos flexionam em gênero e número (concordando com o substantivo) e também em grau. O grau comparativo pode ser: (a) de superioridade: 'mais... do que/que'; (b) de inferioridade: 'menos... do que/que'; (c) de igualdade: 'tão... quanto/como'. O grau superlativo pode ser: (a) relativo de superioridade ('o mais... de/entre') ou de inferioridade ('o menos... de/entre'); (b) absoluto sintético — com sufixos como '-íssimo', '-érrimo', '-ílimo': 'fácil/facílimo', 'pobre/paupérrimo', 'ágil/agílimo'; absoluto analítico — com advérbios: 'muito fácil', 'extremamente ágil'. Formas especiais (irregulares) de comparativo e superlativo: 'bom/melhor/ótimo', 'mau/pior/péssimo', 'grande/maior/máximo', 'pequeno/menor/mínimo', 'alto/superior/supremo', 'baixo/inferior/ínfimo'. Cunha e Cintra (2017) advertem que 'mais melhor', 'mais pior', 'mais maior' são pleonasmos a evitar — 'melhor', 'pior' e 'maior' já são comparativos.",
+        "subtitulo": "3. Número: formação do plural",
+        "conteudo": "Fazer o plural de uma palavra é como multiplicar um item numa lista de requisição: o nome muda de forma para indicar que há mais de um. Mas nem sempre é só acrescentar um S no final.\n\nA regra geral funciona assim: palavras terminadas em vogal ou ditongo oral recebem apenas -S (navio → navios, coronel não — esse tem regra própria). Palavras terminadas em -ão formam o plural de três formas possíveis: -ões (nação → nações), -ães (capitão → capitães) ou -ãos (irmão → irmãos). Não há como deduzir qual é o plural correto de -ão sem consultar o vocabulário — é preciso memorizar os mais comuns.\n\nPalavras terminadas em consoante têm regras específicas: -L troca por -IS (animal → animais, coronel → coronis... espera, é 'coronéis'!), -R e -Z recebem -ES (amor → amores, luz → luzes), -S no singular pode manter-se ou receber -ES dependendo da tonicidade.\n\nO erro mais comum é esquecer que palavras terminadas em -ão têm três formas de plural e usar sempre -ões, que é apenas uma das possibilidades.",
+        "regra": "-ão → -ões / -ães / -ãos (memorizar) · -L → -IS · -R/-Z → +ES · vogal → +S",
         "exemplos": [
-          "Comparativo de superioridade analítico: 'O texto é mais claro do que o anterior.'",
-          "Comparativo sintético irregular: 'Esta solução é melhor que aquela.' (não: 'mais melhor')",
-          "Superlativo absoluto sintético: 'O oficial é celebérrimo.' (de 'célebre')",
-          "Superlativo absoluto sintético irregular: 'O resultado foi ótimo.' (de 'bom')",
-          "Superlativo relativo: 'É o maior porto do país.' (de 'grande'; não: 'o mais maior')"
-        ],
-        "regra": "Formas irregulares de comparativo ('melhor', 'pior', 'maior', 'menor', 'superior', 'inferior') nunca se combinam com 'mais' ou 'menos' — isso gera pleonasmo vicioso. Memorize os seis pares: bom/melhor/ótimo, mau/pior/péssimo, grande/maior/máximo, pequeno/menor/mínimo, alto/superior/supremo, baixo/inferior/ínfimo."
+          {
+            "texto_base": "Os capitães e os patrões da embarcação receberam as ordens do almirante sobre os alojamentos dos tripulantes.",
+            "anotacoes": [
+              {
+                "trecho": "capitães",
+                "destaque": "-ão → -ães",
+                "motivo": "'Capitão' forma o plural em -ães. Um dos três plurais possíveis para palavras em -ão"
+              },
+              {
+                "trecho": "patrões",
+                "destaque": "-ão → -ões",
+                "motivo": "'Patrão' forma o plural em -ões. Mesmo sendo terminado em -ão, o plural é diferente de 'capitão'"
+              },
+              {
+                "trecho": "alojamentos",
+                "destaque": "Plural regular",
+                "motivo": "Terminado em vogal + consoante nasal: segue a regra geral, acrescenta -S"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "4. Flexão Verbal: Modo, Tempo, Pessoa e Número",
-        "conteudo": "Os verbos em português flexionam em: (a) modo — indicativo (certeza), subjuntivo (dúvida, desejo, hipótese), imperativo (ordem, pedido); (b) tempo — presente, pretérito (perfeito, imperfeito, mais-que-perfeito), futuro (do presente, do pretérito); (c) pessoa — 1ª, 2ª, 3ª; (d) número — singular, plural; (e) voz — ativa, passiva, reflexiva. Os verbos se classificam em regulares (seguem o paradigma da conjugação), irregulares (têm variações no radical ou nas desinências), defectivos (não possuem algumas formas: 'falir', 'abolir', 'colorir' — sem 1ª pessoa do singular do presente do indicativo) e abundantes (possuem duas formas para a mesma flexão, especialmente no particípio: 'aceitado/aceito', 'entregado/entregue', 'matado/morto'). Cunha e Cintra (2017) destacam que verbos com dois particípios usam o particípio regular com os auxiliares 'ter' e 'haver' ('tinha aceitado', 'havia entregado') e o particípio irregular com os auxiliares 'ser' e 'estar' ('foi aceito', 'está entregue').",
+        "subtitulo": "4. Plural de palavras compostas",
+        "conteudo": "Imagine um posto de comando formado por duas seções diferentes. Quando você precisa falar de vários postos de comando, quais seções recebem o sinal de 'múltiplos'? É exatamente essa a lógica do plural de palavras compostas: apenas os elementos que funcionam como substantivo ou adjetivo são pluralizados.\n\nA regra geral é: se os dois elementos são separados por hífen e são substantivo+substantivo ou substantivo+adjetivo, ambos vão para o plural. Por exemplo: couve-flor → couves-flores, navio-escola → navios-escola... espera: 'escola' aqui funciona como classificador, então só o primeiro elemento vai ao plural.\n\nQuando o segundo elemento é um substantivo que especifica o tipo (funciona como aposto ou complemento), somente o primeiro vai ao plural: salvo-conduto → salvos-condutos (ambos adjetivo+substantivo, ambos flexionam) vs guarda-chuva → guarda-chuvas (só o segundo, pois 'guarda' é verbo).\n\nO erro mais comum é querer pluralizar os dois elementos de qualquer composto, ignorando a função sintática de cada parte.",
+        "regra": "Subst.+Adj. → ambos ao plural · Verbo+Subst. → só o substantivo · classificador fixo → só 1º",
         "exemplos": [
-          "Irregular no presente: 'eu faço' (fazer), 'eu ouço' (ouvir), 'eu perco' (perder)',",
-          "Defectivo: 'abolir' — não se usa 'eu abolo'; usa-se nas formas com 'i' no radical: 'abolimos', 'abolem'",
-          "Abundante: 'tinha entregado' (aux. ter + part. regular) / 'foi entregue' (aux. ser + part. irregular)",
-          "Modo subjuntivo presente: 'que eu faça', 'que ele venha', 'que nós saibamos'",
-          "Futuro do pretérito (condicional): 'Estudaria mais se tivesse tempo.'"
-        ],
-        "regra": "Para particípios duplos: ter/haver + particípio regular; ser/estar + particípio irregular. Para verbos defectivos, evite as formas inexistentes — em prova, a alternativa com 'eu abolo', 'eu coloro' está errada."
+          {
+            "texto_base": "Os navios-patrulha realizaram buscas com os guarda-costas do contra-almirante durante a operação nas águas territoriais.",
+            "anotacoes": [
+              {
+                "trecho": "navios-patrulha",
+                "destaque": "Subst.+classif.",
+                "motivo": "'Patrulha' classifica o tipo de navio → só o 1º elemento vai ao plural"
+              },
+              {
+                "trecho": "guarda-costas",
+                "destaque": "Verbo+Subst.",
+                "motivo": "'Guarda' é verbo → invariável. 'Costas' recebe o plural"
+              },
+              {
+                "trecho": "contra-almirante",
+                "destaque": "Prefixo+Subst.",
+                "motivo": "Nesta forma singular, o plural seria 'contra-almirantes' — só o 2º elemento flexiona"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "5. Formas Nominais do Verbo e Vozes Verbais",
-        "conteudo": "As formas nominais do verbo — infinitivo, gerúndio e particípio — são assim chamadas porque não se flexionam em pessoa e número de forma plena e podem exercer funções de nomes no período. O infinitivo pode ser impessoal ('estudar é importante') ou pessoal, quando flexionado: 'É preciso estudarmos a matéria' / 'É necessário estudarem os candidatos'. O infinitivo pessoal é obrigatório quando o sujeito do verbo no infinitivo é diferente do da oração principal e quando se quer especificar o sujeito. O gerúndio indica ação em curso simultânea ou imediatamente anterior à da oração principal e é invariável. O particípio concorda em gênero e número com o substantivo quando é adjetivo: 'a porta fechada', 'os documentos assinados'. A voz verbal indica a relação entre sujeito e ação: ativa (sujeito pratica a ação), passiva analítica (sujeito recebe a ação: ser + particípio), passiva sintética (verbo + se), reflexiva (sujeito pratica e recebe). A conversão de voz ativa em passiva mantém o sentido: 'O comandante assinou o ofício' → 'O ofício foi assinado pelo comandante'.",
+        "subtitulo": "5. Grau dos nomes",
+        "conteudo": "O grau é como um botão de volume: você pode aumentar ou diminuir a intensidade de uma qualidade ou o tamanho de um ser. Em português, isso pode ser feito de duas formas: analítica (usando palavras como 'muito', 'grande', 'pequeno') ou sintética (acrescentando sufixos diretamente à palavra).\n\nNo grau aumentativo sintético, os sufixos mais usados são -ão, -alhão, -arrão, -aço: homem → homenzarrão, navio → naviozão. No diminutivo, os mais usados são -inho, -zinho, -ito, -zito: base → basezinha, cabo → cabinho.\n\nImportante: nem todo aumentativo em -ão indica grau. 'Cartão', 'balão' e 'leão' não são aumentativos de 'carta', 'bala' ou 'lea' — são palavras independentes. Da mesma forma, 'folhinha' (calendário de parede) não é necessariamente diminutivo de 'folha'.\n\nO erro mais comum é confundir sufixo de grau com sufixo derivacional, achando que toda palavra em -ão ou -inho está no grau aumentativo ou diminutivo.",
+        "regra": "Aum. sintético: -ão/-aço/-arrão · Dim. sintético: -inho/-zinho · Analítico: muito/grande/pequeno",
         "exemplos": [
-          "Infinitivo pessoal obrigatório: 'Mandaram os recrutas marcharem.' (sujeito diferente)",
-          "Infinitivo impessoal: 'É bom estudar todos os dias.'",
-          "Gerúndio simultâneo: 'O oficial entrou na sala sorrindo.'",
-          "Particípio como adjetivo: 'Os recrutas selecionados foram convocados.'",
-          "Voz passiva analítica: 'O projeto foi aprovado pelo conselho.'",
-          "Voz passiva sintética: 'Aprovaram-se os candidatos.' / 'Vendem-se imóveis.'"
-        ],
-        "regra": "O infinitivo pessoal é obrigatório quando o sujeito do infinitivo é diferente do sujeito da oração principal, ou quando se deseja dar ênfase ao sujeito. Na conversão ativa → passiva: objeto direto vira sujeito; sujeito vira agente da passiva (precedido de 'por'); o verbo ativo vira 'ser' + particípio no mesmo tempo."
+          {
+            "texto_base": "O canhão enferrujado da fragata histórica era um pequeno monumento ao passado glorioso da armada brasileira.",
+            "anotacoes": [
+              {
+                "trecho": "canhão",
+                "destaque": "NÃO é grau",
+                "motivo": "'Canhão' não é aumentativo de 'canha' — é palavra independente, não indica grau de outro nome"
+              },
+              {
+                "trecho": "pequeno monumento",
+                "destaque": "Grau analítico",
+                "motivo": "Diminuição expressa por palavra separada ('pequeno') — este é o grau analítico diminutivo"
+              },
+              {
+                "trecho": "glorioso",
+                "destaque": "Superlativo abs.",
+                "motivo": "Adjetivo que poderia receber 'muito glorioso' (analítico) ou 'gloriosíssimo' (sintético superlativo)"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "6. Verbos Irregulares e Defectivos de Alta Incidência em Provas",
-        "conteudo": "Alguns verbos irregulares e defectivos são especialmente cobrados em concursos militares. Verbos com irregularidade no presente do indicativo e subjuntivo: 'poder' (posso, podes, pode... / que eu possa), 'querer' (quero, queres... / que eu queira), 'saber' (sei, sabes... / que eu saiba), 'perder' (perco, perdes... / que eu perca), 'caber' (caibo, cabes... / que eu caiba), 'valer' (valho, vales... / que eu valha), 'medir' (meço, medes... / que eu meça). Verbos anômalos: 'ser' e 'ir' têm paradigmas completamente distintos entre os tempos. 'Pôr' e seus derivados ('compor', 'dispor', 'repor') seguem conjugação própria: presente 'ponho, pões, põe, pomos, pondes, põem'; pretérito imperfeito 'punha'; pretérito perfeito 'pus, puseste, pôs, pusemos, pusestes, puseram'. Verbos defectivos de alta incidência: 'falir', 'abolir', 'colorir', 'reaver' (só formas com 'v': 'reavemos', 'reaveram'), 'precaver-se' (conjuga-se como 'vir': 'me precavenho', 'precavens'). Fiorin e Savioli (2007) lembram que o domínio das formas verbais irregulares é indispensável para a reescritura correta de frases e para a identificação de erros gramaticais em questões de múltipla escolha.",
+        "subtitulo": "6. Casos especiais e irregulares",
+        "conteudo": "Todo sistema tem suas exceções, e a flexão nominal não é diferente. A banca CEBRASPE adora explorar justamente esses casos que fogem da regra e surpreendem até quem estudou.\n\nAlguns adjetivos têm formas superlativas absolutas sintéticas irregulares, herdadas do latim. 'Bom' não vira 'bomíssimo' no superlativo culto — é 'ótimo'. 'Mau' → 'péssimo'. 'Grande' → 'máximo'. 'Pequeno' → 'mínimo'. Esses superlativos irregulares existem ao lado das formas regulares (boníssimo, maldíssimo), mas as formas latinas são mais formais e aparecem em textos oficiais.\n\nAlguns substantivos têm plural irregular ou duplo: cidadão → cidadãos/cidadãs; caráter → caracteres (não 'carateres'); júnior → juniores (não 'júniores'). O acento muda no plural de algumas palavras paroxítonas terminadas em -el: fácil → fáceis, útil → úteis.\n\nO erro mais comum é regularizar irregulares, escrevendo 'boníssimo' onde o contexto pede 'ótimo', ou 'carateres' onde o correto é 'caracteres'.",
+        "regra": "Superl. irr.: bom→ótimo, mau→péssimo, grande→máximo, pequeno→mínimo · caráter→caracteres",
         "exemplos": [
-          "'Pôr' no presente: 'O oficial põe o documento sobre a mesa.' (não 'põem' se sujeito singular)",
-          "'Caber': 'Eu caibo nesta definição.' / 'que eu caiba' (subjuntivo)",
-          "'Valer': 'Eu valho mais pela experiência.' / 'que eu valha'",
-          "'Reaver': 'Reavemos os documentos.' (correto) / 'reavejo' (forma inexistente)",
-          "'Precaver-se': 'Precavenho-me de situações adversas.' (presente do indicativo)"
-        ],
-        "regra": "Para 'pôr' e derivados, memorize: presente 'ponho/pões/põe/pomos/pondes/põem'; imperfeito 'punha'; perfeito 'pus/puseste/pôs'. Para verbos defectivos, nunca use as formas inexistentes — a prova os apresentará como alternativas erradas para testar seu conhecimento."
+          {
+            "texto_base": "O desempenho ótimo dos cadetes e a péssima condição do equipamento foram avaliados pelo oficial de caracteres excepcionais.",
+            "anotacoes": [
+              {
+                "trecho": "ótimo",
+                "destaque": "Superlat. irr. bom",
+                "motivo": "Superlativo absoluto sintético de 'bom' — forma latina, mais formal que 'boníssimo'"
+              },
+              {
+                "trecho": "péssima",
+                "destaque": "Superlat. irr. mau",
+                "motivo": "Superlativo absoluto sintético de 'mau/má' — forma latina, mais formal que 'maldíssima'"
+              },
+              {
+                "trecho": "caracteres",
+                "destaque": "Plural irregular",
+                "motivo": "'Caráter' tem plural 'caracteres' — o acento some e há mudança vocálica. 'Carateres' é erro"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Pegadinha 1: 'Mais melhor' e 'mais pior' — pleonasmo com comparativos irregulares",
-      "errado": "'O resultado foi mais melhor do que o esperado.' / 'A situação ficou mais pior após a decisão.'",
-      "correto": "'O resultado foi melhor do que o esperado.' / 'A situação ficou pior após a decisão.'",
-      "explicacao": "'Melhor' e 'pior' já são formas de grau comparativo de superioridade (irregulares de 'bom' e 'mau'), portanto combiná-los com 'mais' é pleonasmo vicioso. O mesmo vale para 'maior/menor' (de 'grande/pequeno'), 'superior/inferior' (de 'alto/baixo'). Em provas militares, alternativas com 'mais melhor', 'mais maior', 'menos pior' estão automaticamente erradas.",
+      "titulo": "Plural de 'cidadão': três formas?",
+      "errado": "Os cidadões brasileiros têm direito à defesa.",
+      "correto": "Os cidadãos brasileiros têm direito à defesa.",
+      "explicacao": "O plural de 'cidadão' é 'cidadãos', seguindo o modelo de palavras como 'irmão → irmãos'. A forma 'cidadões' não existe. Palavras em -ão com plural em -ões são as menos comuns: nação → nações, coração → corações — mas 'cidadão' não segue esse padrão.",
       "nivel": "basico"
     },
     {
-      "titulo": "Pegadinha 2: Particípio com auxiliares — confundir 'ter/haver' com 'ser/estar'",
-      "errado": "'O relatório foi entregado ao comandante.' / 'O projeto tinha aceito pela comissão.'",
-      "correto": "'O relatório foi entregue ao comandante.' (ser + particípio irregular) / 'O projeto tinha sido aceito pela comissão.' ou 'O projeto foi aceito pela comissão.'",
-      "explicacao": "Verbos abundantes (com dois particípios) seguem a regra: ter/haver + particípio regular ('tinha entregado', 'havia aceitado'); ser/estar + particípio irregular ('foi entregue', 'está aceito'). Usar particípio regular com 'ser' ('foi entregado') ou irregular com 'ter' ('tinha entregue') em contexto de voz passiva é o erro clássico cobrado em provas. Os pares mais importantes: entregar → entregado/entregue; aceitar → aceitado/aceito; matar → matado/morto; pagar → pagado/pago; ganhar → ganhado/ganho.",
+      "titulo": "Feminino de 'oficial': 'oficiala'?",
+      "errado": "A oficiala da Marinha recebeu a medalha de mérito.",
+      "correto": "A oficial da Marinha recebeu a medalha de mérito.",
+      "explicacao": "'Oficial' é um substantivo comum de dois gêneros — a forma não muda para indicar o sexo, apenas o artigo: 'o oficial' (masculino) e 'a oficial' (feminino). A forma 'oficiala' não existe em português. Confundir substantivos comuns de dois gêneros com substantivos que têm feminino em -a é um erro clássico.",
       "nivel": "basico"
     },
     {
-      "titulo": "Pegadinha 3: Infinitivo pessoal ou impessoal — omitir a flexão obrigatória",
-      "errado": "'É necessário os candidatos apresentar os documentos.' / 'Mandaram os recrutas marchar em fila.'",
-      "correto": "'É necessário os candidatos apresentarem os documentos.' / 'Mandaram os recrutas marcharem em fila.'",
-      "explicacao": "O infinitivo pessoal é obrigatório quando o sujeito do verbo no infinitivo é diferente do da oração principal e está expresso. Em 'É necessário os candidatos apresentarem', o sujeito do infinitivo ('os candidatos') está explícito e é diferente do sujeito da principal (oração impessoal), exigindo flexão. Omitir a desinência '-em' é erro de flexão. A questão testa se o candidato distingue os contextos de infinitivo pessoal e impessoal.",
+      "titulo": "Superlativo de 'bom': 'boníssimo' ou 'ótimo'?",
+      "errado": "O oficial apresentou o mais boníssimo desempenho da turma.",
+      "correto": "O oficial apresentou o melhor desempenho da turma.",
+      "explicacao": "O erro aqui é duplo: além de 'boníssimo' ser redundante com 'mais' (superlativo duplo), a construção é estranha. 'Boníssimo' existe como superlativo absoluto sintético regular, mas não combina com 'o mais'. O superlativo relativo de 'bom' é 'o melhor', e o absoluto sintético irregular é 'ótimo'.",
       "nivel": "intermediario"
     },
     {
-      "titulo": "Pegadinha 4: Plural de palavras em '-ão' — escolher o plural errado",
-      "errado": "'Os cidadões aprovaram a proposta.' / 'Os pães foram distribuídos.' (correto) / 'Os capitãos partiram.' (errado)",
-      "correto": "'Os cidadãos aprovaram a proposta.' / 'Os capitães partiram.'",
-      "explicacao": "'Cidadão' forma plural em '-ãos' (cidadãos), assim como 'mão/mãos', 'grão/grãos', 'bênção/bênçãos'. 'Capitão' forma plural em '-ães' (capitães), como 'cão/cães', 'alemão/alemães'. 'Pão' forma plural em '-ães' (pães). Em provas, as três terminações de '-ão' são testadas simultaneamente, e a escolha do plural errado — 'cidadões', 'capitãos', 'pãos' — é a armadilha. Memorize os grupos pelos exemplos mais comuns.",
-      "nivel": "avancado"
+      "titulo": "Plural de 'capitão': 'capitãos'?",
+      "errado": "Os capitãos das fragatas reuniram-se no Comando do Distrito Naval.",
+      "correto": "Os capitães das fragatas reuniram-se no Comando do Distrito Naval.",
+      "explicacao": "O plural de 'capitão' é 'capitães', não 'capitãos' nem 'capitões'. Cada palavra terminada em -ão tem um plural específico que precisa ser memorizado. 'Capitão' segue o modelo de -ães (como 'pão → pães', 'cão → cães'). 'Capitãos' simplesmente não existe.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Pegadinha 5: Substantivo com gênero que muda o sentido — usar o artigo errado",
-      "errado": "'A capital investido na empresa foi insuficiente.' / 'O moral da história é clara.'",
-      "correto": "'O capital investido na empresa foi insuficiente.' / 'A moral da história é clara.'",
-      "explicacao": "'Capital' no sentido de dinheiro/patrimônio é masculino ('o capital'); no sentido de cidade principal é feminino ('a capital'). 'Moral' no sentido de estado psicológico/ânimo é masculino ('o moral da tropa estava alto'); no sentido de princípio ético/lição é feminino ('a moral da fábula'). Usar o artigo errado muda completamente o sentido da frase. Outros pares: 'o rádio' (aparelho) / 'a rádio' (emissora); 'o coma' (estado clínico) / 'a coma' (cabeleira).",
+      "titulo": "Plural de 'caráter': 'carateres' com acento?",
+      "errado": "Os cadetes demonstraram carateres de liderança durante o exercício.",
+      "correto": "Os cadetes demonstraram caracteres de liderança durante o exercício.",
+      "explicacao": "O plural de 'caráter' é 'caracteres' — há mudança na tonicidade (paroxítona → proparoxítona) e o acento some porque 'caracteres' passa a ter acento tônico no 'a' do meio, que numa proparoxítona não recebe acento gráfico. 'Carateres' é um erro por analogia equivocada com palavras regulares.",
       "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "O candidato, ao identificar um verbo defectivo na questão, tenta reconhecer ou validar uma forma verbal inexistente como 'eu abolo', 'eu coloro', 'eu reavejo'. A alternativa a ser descartada apresenta exatamente essa forma, mas o candidato não a reconhece como erro porque o verbo parece seguir a conjugação regular.",
-      "dica": "Memorize os verbos defectivos mais cobrados: 'abolir', 'colorir', 'falir', 'reaver', 'precaver-se'. Nenhum deles possui 1ª pessoa do singular do presente do indicativo (exceto 'precaver-se', que tem forma irregular: 'precavenho'). Se a alternativa apresentar 'eu abolo' ou 'eu coloro', é automaticamente errada.",
+      "situacao": "Confundir 'aumentativo lexical' com 'sufixo de grau aumentativo'",
+      "dica": "Nem toda palavra terminada em -ão é aumentativo. 'Canhão', 'avião', 'leão', 'balão' são palavras independentes — não são aumentativos de 'canha', 'avia', 'lea' ou 'bala'. Antes de classificar uma palavra como grau aumentativo, verifique se existe a palavra 'base' da qual ela derivaria. Se não existir, é lexical, não grau.",
       "nivel": "basico"
     },
     {
-      "situacao": "O candidato encontra na questão uma frase com particípio e testa se está correto — mas não verifica qual auxiliar está sendo usado. Valida 'tinha entregue' ou 'foi entregado' sem perceber que a regra do auxiliar determina qual particípio usar.",
-      "dica": "Antes de avaliar o particípio, identifique o auxiliar. Se for 'ter' ou 'haver': use o particípio regular (entregado, aceitado, pagado). Se for 'ser' ou 'estar': use o particípio irregular (entregue, aceito, pago). Nunca valide o particípio sem antes checar o auxiliar — essa é a ordem de análise obrigatória.",
+      "situacao": "Aplicar a regra de plural de composto errada por não identificar a função do 2º elemento",
+      "dica": "A regra do plural de compostos depende da função sintática de cada elemento. Se o segundo elemento classifica o tipo (como em 'navio-escola'), ele não vai ao plural — só o primeiro. Se ambos são substantivos com papel equivalente (como 'couve-flor → couves-flores'), ambos vão. A armadilha é seguir uma regra única para todos os compostos: não existe.",
       "nivel": "intermediario"
     },
     {
-      "situacao": "O candidato vê a palavra 'artista', 'estudante' ou 'líder' em uma frase e automaticamente pressupõe que é masculino ou feminino, sem verificar o artigo. Em uma questão de concordância, marca a alternativa com adjetivo no gênero 'esperado' pela terminação da palavra, e não pelo gênero marcado pelo artigo.",
-      "dica": "Substantivos comuns de dois gêneros têm seu gênero determinado exclusivamente pelo artigo (ou outro determinante). 'O artista famoso' / 'A artista famosa' — a terminação '-ista' não define o gênero. Em questões de concordância com esses substantivos, localize sempre o artigo antes de escolher o gênero do adjetivo.",
+      "situacao": "Usar o superlativo irregular onde a banca espera o regular, ou vice-versa",
+      "dica": "Os superlativos irregulares (ótimo, péssimo, máximo, mínimo) coexistem com os regulares (boníssimo, maldíssimo, grandíssimo, pequeníssimo). A CEBRASPE pode apresentar ambas as formas como corretas em contextos diferentes. O erro está em afirmar que uma forma é incorreta quando na verdade ambas existem — mas em registros distintos. Fique atento ao contexto de formalidade do texto.",
       "nivel": "avancado"
     }
   ],
@@ -138,509 +227,512 @@
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa que apresenta o plural correto da palavra 'cidadão'.",
+      "enunciado": "Assinale a alternativa em que o plural do substantivo está corretamente formado.",
       "alternativas": {
-        "A": "cidadões",
-        "B": "cidadães",
-        "C": "cidadãos",
-        "D": "cidadans",
-        "E": "cidadões"
+        "A": "cidadãos → cidadões",
+        "B": "capitão → capitãos",
+        "C": "nação → nações",
+        "D": "patrão → patrães",
+        "E": "irmão → irmões"
       },
       "gabarito": "C",
-      "explicacao": "'Cidadão' forma plural em '-ãos': cidadãos. Essa é a terminação para paroxítonas em '-ão' e para algumas oxítonas do grupo com plural em '-ãos' (mão/mãos, grão/grãos, bênção/bênçãos, cristão/cristãos). 'Cidadões' (A e E) e 'cidadães' (B) são formas inexistentes. 'Cidadans' (D) é invenção sem base na língua."
+      "explicacao": "O plural de 'nação' é 'nações', com -ões, o que está correto. As demais alternativas apresentam erros: 'cidadão → cidadãos' (não cidadões), 'capitão → capitães' (não capitãos), 'patrão → patrões' (não patrães), 'irmão → irmãos' (não irmões). O plural das palavras em -ão é um dos pontos mais cobrados justamente porque cada palavra pode seguir um dos três padrões (-ões, -ães, -ãos) sem regra dedutível."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Qual é o plural correto de 'animal'?",
+      "enunciado": "Em relação ao gênero dos substantivos, assinale a alternativa correta.",
       "alternativas": {
-        "A": "animales",
-        "B": "animais",
-        "C": "animales",
-        "D": "animas",
-        "E": "animales"
+        "A": "A palavra 'artista' é um substantivo comum de dois gêneros.",
+        "B": "A palavra 'testemunha' é masculina quando se refere a homem.",
+        "C": "A palavra 'oficial' tem feminino 'oficiala'.",
+        "D": "A palavra 'cônjuge' tem feminino 'cônjuga'.",
+        "E": "A palavra 'personagem' é sempre masculina."
       },
-      "gabarito": "B",
-      "explicacao": "Palavras terminadas em '-al' formam o plural substituindo '-al' por '-ais': animal → animais, canal → canais, sinal → sinais, general → generais. As demais alternativas apresentam formas inexistentes em português."
+      "gabarito": "A",
+      "explicacao": "'Artista' é substantivo comum de dois gêneros: 'o artista' (masculino) e 'a artista' (feminino), sem mudança de forma. 'Oficial' também é comum de dois gêneros — não existe 'oficiala'. 'Testemunha' é substantivo sobrecomum de gênero feminino fixo, mesmo quando se refere a homem — usa-se sempre com artigo feminino. 'Cônjuge' é comum de dois gêneros — 'cônjuga' não existe. 'Personagem' aceita ambos os artigos, não tem gênero fixo."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Identifique a alternativa com a forma correta do superlativo absoluto sintético de 'pobre'.",
+      "enunciado": "Assinale a alternativa em que o feminino do substantivo está corretamente formado.",
       "alternativas": {
-        "A": "pobríssimo",
-        "B": "pouquíssimo",
-        "C": "paupérrimo",
-        "D": "pobérrimo",
-        "E": "pobrissimo"
+        "A": "poeta → poetisa (única forma correta)",
+        "B": "homem → homema",
+        "C": "rei → reinha",
+        "D": "ator → atriz",
+        "E": "bode → boda"
       },
-      "gabarito": "C",
-      "explicacao": "O superlativo absoluto sintético de 'pobre' é 'paupérrimo', forma latina irregular. 'Pobríssimo' (A) é forma coloquial aceita por alguns, mas a forma culta preferida é 'paupérrimo'. 'Pouquíssimo' (B) é superlativo de 'pouco'. 'Pobérrimo' (D) é forma inventada. 'Pobrissimo' (E) está sem acento (erro ortográfico). Em provas de concurso, 'paupérrimo' é a resposta esperada."
+      "gabarito": "D",
+      "explicacao": "O feminino de 'ator' é 'atriz', com mudança morfológica significativa — uma das formas irregulares de formação do feminino. 'Poetisa' é uma forma correta, mas não é a única — 'poeta' também é usada para o feminino, pois é comum de dois gêneros. O feminino de 'homem' é 'mulher' (heterônimo), não 'homema'. O feminino de 'rei' é 'rainha', não 'reinha'. O feminino de 'bode' é 'cabra' (heterônimo), não 'boda'."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Qual dos verbos abaixo é defectivo, ou seja, não possui todas as formas de conjugação?",
+      "enunciado": "Qual das alternativas a seguir apresenta corretamente o plural da palavra 'animal'?",
       "alternativas": {
-        "A": "cantar",
-        "B": "partir",
-        "C": "abolir",
-        "D": "vender",
-        "E": "correr"
+        "A": "animales",
+        "B": "animaes",
+        "C": "animais",
+        "D": "animals",
+        "E": "animas"
       },
       "gabarito": "C",
-      "explicacao": "'Abolir' é verbo defectivo: não possui 1ª pessoa do singular do presente do indicativo ('eu abolo' não existe) nem as formas do presente do subjuntivo derivadas dela. Os verbos 'cantar', 'partir', 'vender' e 'correr' são regulares e possuem todas as formas de conjugação. Outros defectivos comuns: 'colorir', 'falir', 'reaver', 'precaver-se'."
+      "explicacao": "Palavras terminadas em -L formam o plural trocando o -L por -IS: animal → animais, coronel → coronis... não, coronel → coronéis. A regra para -L é sempre -IS, e o acento pode surgir quando necessário para manter a tonicidade. As formas 'animales', 'animaes', 'animals' e 'animas' são todas incorretas e resultam de analogias equivocadas com outras línguas ou com regras inexistentes em português."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa que completa corretamente a frase: 'O documento ___ pelo secretário antes de ser arquivado.'",
+      "enunciado": "Assinale a alternativa que apresenta um substantivo sobrecomum.",
       "alternativas": {
-        "A": "foi assinado",
-        "B": "foi assinando",
-        "C": "tinha assinado",
-        "D": "há assinado",
-        "E": "estar assinado"
+        "A": "oficial",
+        "B": "artista",
+        "C": "testemunha",
+        "D": "cônjuge",
+        "E": "jovem"
       },
-      "gabarito": "A",
-      "explicacao": "A frase está na voz passiva analítica: 'foi assinado' (auxiliar 'ser' no pretérito perfeito + particípio de 'assinar'). A alternativa B usa gerúndio em lugar de particípio — erro. A alternativa C usa voz ativa com sujeito inexistente no contexto ('tinha assinado' seria ativo). A alternativa D usa 'há' incorretamente — 'há assinado' não é forma verbal do português padrão. A alternativa E usa o verbo 'estar' de forma inadequada para o contexto da frase."
+      "gabarito": "C",
+      "explicacao": "'Testemunha' é um substantivo sobrecomum — tem gênero gramatical fixo (feminino) e o mesmo artigo para homens e mulheres: 'a testemunha', seja ela do sexo masculino ou feminino. 'Oficial', 'artista', 'cônjuge' e 'jovem' são substantivos comuns de dois gêneros — a forma não muda, mas o artigo acompanha o sexo biológico: 'o artista' / 'a artista'."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "O substantivo 'artista' pertence a qual categoria quanto ao gênero?",
+      "enunciado": "Em relação ao grau dos nomes, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "Epiceno, pois se refere a animais e tem gênero fixo.",
-        "B": "Sobrecomum, pois é sempre feminino independentemente do sexo do referente.",
-        "C": "Biforme, pois possui duas formas: 'artisto' e 'artista'.",
-        "D": "Comum de dois gêneros, pois admite artigo masculino e feminino sem mudar a forma.",
-        "E": "Heterônimo, pois o masculino e o feminino são palavras completamente diferentes."
+        "A": "'Canhão' é o grau aumentativo de 'canha'.",
+        "B": "'Muito bonito' é um exemplo de grau superlativo absoluto analítico.",
+        "C": "'Cadetinho' é um exemplo de grau aumentativo sintético.",
+        "D": "'Balão' é o grau aumentativo de 'bala'.",
+        "E": "'Pequeníssimo' é o superlativo relativo de superioridade."
       },
-      "gabarito": "D",
-      "explicacao": "'Artista' é um substantivo comum de dois gêneros: a forma é única e o gênero é determinado pelo artigo ('o artista' / 'a artista'). Epicenos (A) referem-se a animais com gênero único ('a cobra macho'). Sobrecomuns (B) são substantivos de pessoas com gênero gramatical fixo ('a vítima', 'o cônjuge'). Biformes (C) têm duas formas distintas — 'artisto' não existe. Heterônimos (E) usam palavras diferentes ('boi/vaca')."
+      "gabarito": "B",
+      "explicacao": "'Muito bonito' é grau superlativo absoluto analítico — a ideia de intensidade máxima é expressa por meio de palavra auxiliar ('muito'), sem sufixo. 'Canhão' e 'balão' não são graus aumentativos — são palavras independentes. 'Cadetinho' é grau diminutivo sintético, não aumentativo. 'Pequeníssimo' é superlativo absoluto sintético, não relativo."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Assinale a frase em que o infinitivo pessoal está empregado corretamente.",
+      "enunciado": "Assinale a alternativa em que o plural está incorretamente formado.",
       "alternativas": {
-        "A": "É preciso estudar mais.",
-        "B": "É necessário os candidatos apresentarem os documentos.",
-        "C": "Para vencer, devia treinar bastante.",
-        "D": "Convém descansar antes da prova.",
-        "E": "Antes de sair, verificou tudo."
+        "A": "amor → amores",
+        "B": "luz → luzes",
+        "C": "navio → navios",
+        "D": "coronel → coroneis",
+        "E": "fácil → fáceis"
       },
-      "gabarito": "B",
-      "explicacao": "Em B, o sujeito do infinitivo ('os candidatos') está explícito e é diferente do sujeito da oração principal (impessoal), tornando obrigatório o infinitivo pessoal flexionado: 'apresentarem'. Nas demais alternativas, o infinitivo impessoal é adequado: em A, D e E não há sujeito explícito diferente; em C, o sujeito do infinitivo ('ele') coincide com o da principal."
+      "gabarito": "D",
+      "explicacao": "O plural de 'coronel' é 'coronéis', com acento agudo no E para marcar a tonicidade da sílaba, não 'coroneis' sem acento. As demais formas estão corretas: 'amor → amores' (-R recebe -ES), 'luz → luzes' (-Z recebe -ES), 'navio → navios' (vogal recebe -S), 'fácil → fáceis' (-L → -IS, com manutenção do acento)."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Qual é o particípio irregular do verbo 'entregar'?",
+      "enunciado": "Em qual alternativa está corretamente apresentado o plural de palavra composta com hífen?",
       "alternativas": {
-        "A": "entregando",
-        "B": "entregado",
-        "C": "entregue",
-        "D": "entregado e entregue (ambos regulares)",
-        "E": "entregavado"
+        "A": "guarda-chuva → guardas-chuvas",
+        "B": "navio-escola → navios-escolas",
+        "C": "guarda-chuva → guarda-chuvas",
+        "D": "couve-flor → couves-flor",
+        "E": "salvo-conduto → salvo-condutos"
       },
       "gabarito": "C",
-      "explicacao": "'Entregue' é o particípio irregular de 'entregar'. O particípio regular é 'entregado'. A regra dos verbos abundantes: com auxiliar 'ter' ou 'haver', usa-se o regular ('tinha entregado'); com auxiliar 'ser' ou 'estar', usa-se o irregular ('foi entregue'). 'Entregando' (A) é gerúndio. 'Entregavado' (E) é forma inexistente."
+      "explicacao": "'Guarda-chuva' tem o plural 'guarda-chuvas' — 'guarda' é forma verbal (invariável), portanto apenas 'chuva' vai ao plural. 'Navio-escola' tem plural 'navios-escola' (não 'navios-escolas'), pois 'escola' funciona como classificador. 'Couve-flor' tem plural 'couves-flores' (não 'couves-flor'), pois ambos são substantivos. 'Salvo-conduto' tem plural 'salvos-condutos', pois ambos os elementos flexionam (adjetivo + substantivo)."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "Em 'O moral da tropa estava elevado', a palavra 'moral' é:",
+      "enunciado": "Assinale a alternativa em que os dois termos formam corretamente o par masculino/feminino.",
       "alternativas": {
-        "A": "Feminina, pois indica um conceito abstrato.",
-        "B": "Masculina, pois 'moral' no sentido de ânimo/estado psicológico é masculino.",
-        "C": "Feminina, pois qualquer uso de 'moral' exige artigo feminino.",
-        "D": "Neutra, pois substantivos abstratos não têm gênero definido.",
-        "E": "Masculina apenas quando acompanhada de adjetivos."
+        "A": "bode / boda",
+        "B": "rei / reinha",
+        "C": "ator / atora",
+        "D": "homem / homema",
+        "E": "pai / mãe"
       },
-      "gabarito": "B",
-      "explicacao": "'Moral' no sentido de ânimo, estado psicológico, disposição da tropa é masculino: 'o moral'. No sentido de princípio ético, lição ou conjunto de valores é feminino: 'a moral da história'. O artigo 'o' na frase ('O moral') confirma o uso masculino. Não existe gênero neutro em português (D), e o gênero de 'moral' não depende do adjetivo (E)."
+      "gabarito": "E",
+      "explicacao": "'Pai' e 'mãe' são heterônimos — palavras completamente diferentes para designar o masculino e o feminino, sem relação morfológica entre si. É a forma correta de expressar esse par de gênero. 'Bode' tem feminino 'cabra' (não 'boda'), 'rei' tem feminino 'rainha' (não 'reinha'), 'ator' tem feminino 'atriz' (não 'atora', que é forma coloquial não padrão), 'homem' tem feminino 'mulher' (não 'homema')."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Qual é a forma correta da 1ª pessoa do singular do presente do indicativo do verbo 'valer'?",
+      "enunciado": "Qual é o plural correto de 'irmão'?",
       "alternativas": {
-        "A": "eu valo",
-        "B": "eu vale",
-        "C": "eu valho",
-        "D": "eu valejo",
-        "E": "eu val"
+        "A": "irmãons",
+        "B": "irmões",
+        "C": "irmães",
+        "D": "irmãos",
+        "E": "irmans"
       },
-      "gabarito": "C",
-      "explicacao": "'Valer' é verbo irregular na 1ª pessoa do singular do presente do indicativo: 'eu valho'. Do mesmo modo, o presente do subjuntivo é 'que eu valha'. As formas 'eu valo' (A), 'eu vale' (B), 'eu valejo' (D) e 'eu val' (E) são todas inexistentes no paradigma de 'valer'. Outros verbos com irregularidade similar: 'caber' (caibo), 'perder' (perco), 'medir' (meço)."
+      "gabarito": "D",
+      "explicacao": "O plural de 'irmão' é 'irmãos', com -ãos — uma das três formas possíveis para palavras em -ão. 'Irmões' (terminação -ões) e 'irmães' (terminação -ães) são formas inexistentes para esta palavra. As formas 'irmãons' e 'irmans' são absolutamente incorretas. A única forma de saber qual plural usar em palavras terminadas em -ão é memorizando os principais casos."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que o emprego do particípio está correto de acordo com a norma culta.",
+      "enunciado": "Considere o trecho a seguir para responder à questão:\n\n'Os contra-almirantes e os capitães-tenentes do 4° Distrito Naval participaram da cerimônia de incorporação dos novos recrutas.'\n\nA respeito das flexões nominais presentes no trecho, assinale a alternativa correta.",
+      "textoBase": "Os contra-almirantes e os capitães-tenentes do 4° Distrito Naval participaram da cerimônia de incorporação dos novos recrutas.",
       "alternativas": {
-        "A": "O projeto tinha sido entregue pela equipe ontem.",
-        "B": "A proposta foi entregada ao diretor na reunião.",
-        "C": "Os documentos tinham entregue antes do prazo.",
-        "D": "O resultado havia aceito pela banca examinadora.",
-        "E": "O relatório foi pagado integralmente."
+        "A": "O plural de 'contra-almirante' está incorreto — deveria ser 'contras-almirantes'.",
+        "B": "O plural de 'capitão-tenente' está incorreto — deveria ser 'capitãos-tenentes'.",
+        "C": "Ambos os plurais estão corretos conforme as regras de formação do plural de compostos.",
+        "D": "O plural de 'recruta' está incorreto — deveria ser 'recrutos'.",
+        "E": "O plural de 'capitão-tenente' deveria ser 'capitão-tenentes'."
       },
-      "gabarito": "A",
-      "explicacao": "Na alternativa A, o auxiliar é 'ter' + 'sido' + particípio irregular 'entregue' — formação de voz passiva analítica com tempo composto: correto. Na alternativa B, usa-se 'foi' (auxiliar 'ser') com particípio regular 'entregada' — erro: com 'ser', deveria ser 'entregue' (irregular). Na alternativa C, 'tinham entregue' usa auxiliar 'ter' com particípio irregular — erro: com 'ter', deveria ser 'entregado'. Na alternativa D, 'havia aceito' seria correto, mas falta o sujeito que recebe a ação e a voz passiva está incompleta. Na alternativa E, 'foi pagado' usa auxiliar 'ser' com particípio regular — erro: deveria ser 'foi pago'."
+      "gabarito": "C",
+      "explicacao": "Ambos os plurais estão corretos. 'Contra-almirante' é formado por prefixo + substantivo: o prefixo 'contra-' é invariável e apenas o substantivo 'almirante' vai ao plural: 'contra-almirantes'. 'Capitão-tenente' é formado por dois substantivos equivalentes (posto + posto), portanto ambos vão ao plural: 'capitães-tenentes'. 'Recruta' é substantivo comum de dois gêneros terminado em -a, cujo plural é 'recrutas' — correto. A alternativa A está errada pois prefixos não se pluralizam. As alternativas B e E apresentam formas incorretas de pluralizar 'capitão-tenente'."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'Embora ___ muito, não conseguiu a aprovação.' Assinale a alternativa que preenche corretamente a lacuna com a forma verbal adequada ao modo subjuntivo.",
+      "enunciado": "A respeito do gênero dos substantivos, assinale a alternativa que apresenta afirmativa incorreta.",
       "alternativas": {
-        "A": "estudou",
-        "B": "estudava",
-        "C": "estude",
-        "D": "estudasse",
-        "E": "estudaria"
+        "A": "Substantivos epicenos são os que têm uma única forma para designar animais de ambos os sexos, como 'a cobra' e 'o jacaré'.",
+        "B": "Substantivos sobrecomuns têm gênero fixo e se referem a pessoas de ambos os sexos com o mesmo artigo, como 'a vítima' e 'a testemunha'.",
+        "C": "Substantivos comuns de dois gêneros mudam de forma ao mudar de gênero, como 'artista' → 'artiste'.",
+        "D": "Substantivos heterônimos formam o par masculino/feminino com palavras distintas, como 'bode/cabra' e 'pai/mãe'.",
+        "E": "O gênero gramatical dos substantivos nem sempre corresponde ao sexo biológico do ser designado."
       },
-      "gabarito": "D",
-      "explicacao": "A conjunção 'embora' é concessiva e exige o verbo no modo subjuntivo. Como o verbo principal está no pretérito perfeito ('não conseguiu'), o subjuntivo deve estar no pretérito imperfeito: 'estudasse' (correlação temporal: pretérito perfeito do indicativo / pretérito imperfeito do subjuntivo). 'Estudou' (A) é indicativo. 'Estudava' (B) é imperfeito do indicativo. 'Estude' (C) é presente do subjuntivo — inadequado pela correlação temporal. 'Estudaria' (E) é futuro do pretérito do indicativo."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está incorreta porque os substantivos comuns de dois gêneros NÃO mudam de forma ao mudar de gênero — é exatamente por isso que recebem essa denominação. 'Artista' tem a mesma forma para masculino e feminino: 'o artista' e 'a artista'. A forma 'artiste' não existe em português. As demais alternativas são corretas: epicenos têm forma única para animais, sobrecomuns têm gênero fixo, heterônimos usam palavras diferentes, e o gênero gramatical é convenção linguística."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Qual alternativa apresenta o plural correto de 'réptil'?",
+      "enunciado": "Em relação ao superlativo dos adjetivos, assinale a alternativa correta.",
       "alternativas": {
-        "A": "réptils",
-        "B": "reptis",
-        "C": "répteis",
-        "D": "reptiles",
-        "E": "reptílis"
+        "A": "O superlativo absoluto sintético de 'bom' é 'boníssimo', e a forma 'ótimo' é considerada incorreta.",
+        "B": "O superlativo absoluto sintético irregular de 'grande' é 'grandíssimo'.",
+        "C": "'Péssimo' é o superlativo absoluto sintético irregular de 'mau/má'.",
+        "D": "O superlativo relativo de superioridade de 'bom' é 'ótimo'.",
+        "E": "Os superlativos irregulares ('ótimo', 'péssimo') substituíram completamente as formas regulares."
       },
       "gabarito": "C",
-      "explicacao": "'Réptil' é paroxítona terminada em '-il' (não oxítona), portanto o plural é formado pela troca de '-il' por '-eis': répteis. Para '-il' oxítono, o plural seria em '-is' ('fuzil/fuzis', 'barril/barris'). A alternativa B perde o acento e a sílaba. As demais são formas inexistentes no português padrão."
+      "explicacao": "'Péssimo' é de fato o superlativo absoluto sintético irregular de 'mau/má', herdado do latim 'pessimus'. A alternativa A está errada: 'boníssimo' existe como forma regular, mas 'ótimo' também é correto — são formas distintas coexistentes. A alternativa B está errada: o superlativo irregular de 'grande' é 'máximo', enquanto 'grandíssimo' é o regular. A alternativa D está errada: 'ótimo' é superlativo absoluto, não relativo — o relativo seria 'o melhor'. A alternativa E está errada: ambas as formas coexistem em registros diferentes."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Assinale a frase em que 'o/a' indica que a palavra é sobrecomum.",
+      "enunciado": "Assinale a alternativa em que todos os plurais estão corretamente formados.",
       "alternativas": {
-        "A": "'O/A estudante leu o livro.' ('estudante' é comum de dois gêneros)",
-        "B": "'A cobra estava imóvel.' ('cobra' é epiceno feminino)",
-        "C": "'A testemunha prestou depoimento.' ('testemunha' é sobrecomum — sempre feminino, independentemente do sexo)",
-        "D": "'O/A cônjuge assinou o contrato.' ('cônjuge' é sobrecomum — sempre masculino)",
-        "E": "'O gavião voou alto.' ('gavião' é epiceno masculino)"
+        "A": "juiz → juízes, nariz → narizes, rapaz → rapases",
+        "B": "caráter → carateres, júnior → juniores, álbum → álbuns",
+        "C": "caráter → caracteres, júnior → juniores, álbum → álbuns",
+        "D": "fácil → faceis, útil → uteis, civil → civis",
+        "E": "pão → pãos, mão → mões, irmão → irmãens"
       },
       "gabarito": "C",
-      "explicacao": "'Testemunha' é sobrecomum: é sempre gramaticalmente feminino ('a testemunha'), independentemente de o referente ser homem ou mulher. Não há variação de artigo. 'Estudante' (A) é comum de dois gêneros (admite 'o' e 'a'). 'Cobra' (B) e 'gavião' (E) são epicenos (gênero único referente a animais). 'Cônjuge' (D) é sobrecomum, mas o gênero gramatical é masculino ('o cônjuge') — a alternativa D erra ao apresentar a forma como variável (o/a)."
+      "explicacao": "'Caráter → caracteres' (com mudança de tonicidade e deslocamento do acento), 'júnior → juniores' (o acento da palavra base some no plural) e 'álbum → álbuns' (plural de palavras em -um é -uns) — todos corretos. A alternativa A erra 'rapaz → rapazes' (não 'rapases'). A alternativa B erra 'caráter → caracteres' (não 'carateres'). A alternativa D erra ao retirar os acentos: 'fácil → fáceis' e 'útil → úteis' mantêm o acento. A alternativa E erra todos os três plurais em -ão."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Em qual alternativa o verbo está corretamente conjugado na 2ª pessoa do singular do presente do indicativo do verbo 'pôr'?",
+      "enunciado": "Considere o seguinte trecho de portaria naval:\n\n'Os guarda-marinha e os capitães de corveta deverão apresentar os salvo-condutos devidamente assinados.'\n\nAssinale a alternativa que analisa corretamente os plurais em destaque.",
+      "textoBase": "Os guarda-marinha e os capitães de corveta deverão apresentar os salvo-condutos devidamente assinados.",
       "alternativas": {
-        "A": "tu pões",
-        "B": "tu põe",
-        "C": "tu pões-te",
-        "D": "tu pores",
-        "E": "tu pos"
+        "A": "'Guarda-marinha' no plural deveria ser 'guardas-marinhas'.",
+        "B": "'Capitães de corveta' está correto; 'salvo-condutos' está incorreto — deveria ser 'salvos-conduto'.",
+        "C": "'Guarda-marinha' está correto no plural; 'salvo-condutos' está incorreto — deveria ser 'salvos-condutos'.",
+        "D": "Todos os plurais do trecho estão incorretos.",
+        "E": "'Guarda-marinha' está correto no plural; 'salvo-condutos' está correto; 'capitães de corveta' está correto."
       },
-      "gabarito": "A",
-      "explicacao": "O verbo 'pôr' na 2ª pessoa do singular do presente do indicativo é 'tu pões'. O paradigma completo: eu ponho, tu pões, ele põe, nós pomos, vós pondes, eles põem. 'Tu põe' (B) seria a 3ª pessoa. 'Tu pões-te' (C) adiciona o pronome reflexivo sem necessidade. 'Tu pores' (D) é futuro do subjuntivo. 'Tu pos' (E) é forma inexistente."
+      "gabarito": "E",
+      "explicacao": "Todos os plurais estão corretos no trecho. 'Guarda-marinha' no plural é 'guarda-marinha' — palavra que funciona como posto militar, cujo plural é invariável ou 'guardas-marinhas' dependendo do contexto; no uso militar brasileiro convenciona-se 'guarda-marinha' para o plural. 'Capitães de corveta' usa o plural de 'capitão' (-ães), correto. 'Salvo-condutos' é o plural de 'salvo-conduto': ambos os elementos são adjetivo + substantivo, ambos flexionam — 'salvos-condutos' seria a forma mais rigorosa, mas 'salvo-condutos' também é aceita. A questão avalia a capacidade de reconhecer que o trecho não apresenta erro flagrante."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "A frase 'O candidato foi aprovado' está na voz passiva analítica. Qual é a sua equivalente na voz ativa?",
+      "enunciado": "Assinale a alternativa que apresenta um substantivo BIFORMO (que tem formas distintas para masculino e feminino).",
       "alternativas": {
-        "A": "Aprovaram o candidato.",
-        "B": "O candidato aprovou.",
-        "C": "Aprovava-se o candidato.",
-        "D": "O candidato aprova.",
-        "E": "Aprovou-se o candidato."
+        "A": "testemunha",
+        "B": "cônjuge",
+        "C": "artista",
+        "D": "sargento",
+        "E": "jovem"
       },
-      "gabarito": "A",
-      "explicacao": "Na conversão de voz passiva para ativa: o sujeito da passiva ('o candidato') torna-se o objeto direto; o agente da passiva (ausente na frase, logo indeterminado) torna-se o sujeito indeterminado. Como o agente não está expresso, o sujeito da voz ativa fica indeterminado, expresso pela 3ª pessoa do plural: 'Aprovaram o candidato'. A alternativa B torna 'o candidato' sujeito ativo, mas 'o candidato aprovou' muda o sentido (quem aprovou?). A alternativa C é voz passiva sintética. A alternativa E é voz passiva sintética no pretérito perfeito. A alternativa D usa o presente sem justificativa."
+      "gabarito": "D",
+      "explicacao": "'Sargento' é um substantivo biformo: a forma masculina é 'sargento' e a feminina é 'sargenta', com mudança na terminação. 'Testemunha' é sobrecomum (gênero fixo feminino, para os dois sexos). 'Cônjuge', 'artista' e 'jovem' são comuns de dois gêneros (mesma forma para ambos os gêneros, diferenciados pelo artigo). A alternativa correta, portanto, é a que apresenta um substantivo com duas formas distintas."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Qual alternativa apresenta emprego INCORRETO do grau dos adjetivos?",
+      "enunciado": "Em relação à formação do feminino de substantivos, assinale a alternativa incorreta.",
       "alternativas": {
-        "A": "Esta proposta é melhor que a anterior.",
-        "B": "O resultado foi ótimo para todos.",
-        "C": "A situação ficou mais pior após a decisão.",
-        "D": "O candidato obteve a menor nota da turma.",
-        "E": "A aprovação foi a melhor notícia do mês."
+        "A": "Alguns substantivos formam o feminino com mudança de sufixo: 'ator → atriz'.",
+        "B": "Heterônimos são pares como 'boi/vaca' em que as formas masculina e feminina são palavras diferentes.",
+        "C": "Substantivos terminados em -ão que formam o feminino em -oa: 'patrão → patroa'.",
+        "D": "Substantivos terminados em -or sempre formam o feminino em -ora: 'doutor → doutora', 'imperador → imperadora'.",
+        "E": "Alguns substantivos em -ês formam o feminino em -esa: 'marquês → marquesa'."
       },
-      "gabarito": "C",
-      "explicacao": "'Mais pior' é pleonasmo vicioso: 'pior' já é o comparativo de superioridade de 'mau/ruim', portanto é redundante acrescentar 'mais'. O correto é simplesmente 'pior'. As demais alternativas estão corretas: (A) 'melhor' como comparativo de 'bom'; (B) 'ótimo' como superlativo de 'bom'; (D) 'menor' como comparativo de 'pequeno'; (E) 'melhor' como superlativo relativo de 'bom'."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está incorreta porque nem todos os substantivos em -or formam o feminino em -ora. 'Imperador' tem feminino 'imperatriz', não 'imperadora'. Da mesma forma, 'ator → atriz', 'embaixador → embaixatriz' (forma rara) ou 'embaixadora'. A regra de -or → -ora é frequente, mas tem exceções importantes que a banca CEBRASPE costuma explorar. As demais alternativas estão corretas."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que o verbo defectivo está empregado CORRETAMENTE.",
+      "enunciado": "Assinale a alternativa em que o grau do adjetivo está corretamente classificado.",
       "alternativas": {
-        "A": "Eu abolo a lei injusta.",
-        "B": "Nós abolimos a penalidade prevista.",
-        "C": "Tu coloris o desenho com esmero.",
-        "D": "Eu coloro o mapa conforme a legenda.",
-        "E": "Ele reavejo os documentos perdidos."
+        "A": "'O melhor desempenho da turma' — superlativo absoluto sintético.",
+        "B": "'Um desempenho muitíssimo bom' — superlativo relativo de superioridade.",
+        "C": "'O pior resultado entre todos' — superlativo relativo de inferioridade.",
+        "D": "'Um resultado boníssimo' — superlativo absoluto sintético regular.",
+        "E": "'Muito ruim' — superlativo absoluto sintético."
       },
-      "gabarito": "B",
-      "explicacao": "'Abolimos' é a 1ª pessoa do plural do presente do indicativo de 'abolir' — forma existente e correta (o verbo possui formas com 'i' no radical). As demais alternativas apresentam formas inexistentes: 'eu abolo' (A) — 1ª pessoa do singular inexistente; 'tu coloris' (C) — forma incorreta (o verbo não possui a 2ª pessoa do singular do indicativo com essa terminação de forma padrão); 'eu coloro' (D) — 1ª pessoa do singular de 'colorir' inexistente; 'eu reavejo' (E) — 'reaver' só possui formas com 'v' no radical ('reavemos', 'reaveram')."
+      "gabarito": "D",
+      "explicacao": "'Boníssimo' é o superlativo absoluto sintético regular de 'bom' — a intensidade máxima é expressa por sufixo (-íssimo), sem referência a outros elementos. A alternativa A está errada: 'o melhor' é superlativo relativo de superioridade. A alternativa B está errada: 'muitíssimo bom' é superlativo absoluto analítico. A alternativa C está errada: 'o pior' é superlativo relativo de inferioridade (correto seria que a alternativa identificasse assim). A alternativa E está errada: 'muito ruim' é superlativo absoluto analítico."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'O comandante pediu para ___ ao relatório antes de distribuí-lo.' Qual forma verbal preenche corretamente a lacuna, considerando que o sujeito do infinitivo é diferente do da oração principal?",
+      "enunciado": "Em um boletim interno da base naval, lê-se: 'Os cidadões incorporados deverão apresentar seus documentos de identificação na portaria principal.' Assinale a alternativa que identifica e corrige adequadamente o erro de flexão nominal do trecho.",
+      "textoBase": "Os cidadões incorporados deverão apresentar seus documentos de identificação na portaria principal.",
       "alternativas": {
-        "A": "ele assinar",
-        "B": "ele assine",
-        "C": "ele assinasse",
-        "D": "ele assinou",
-        "E": "ele assinando"
+        "A": "O erro está em 'incorporados', que deveria ser 'incorporados' — sem alteração.",
+        "B": "O erro está em 'cidadões', que deveria ser 'cidadãos'.",
+        "C": "O erro está em 'documentos', que deveria ser 'documento' no singular.",
+        "D": "O erro está em 'identificação', que deveria ser 'identificações' no plural.",
+        "E": "Não há erro de flexão nominal no trecho."
       },
-      "gabarito": "A",
-      "explicacao": "Com a preposição 'para' seguida de infinitivo, e havendo sujeito explícito diferente do da oração principal, usa-se o infinitivo pessoal: 'para ele assinar'. O sujeito do infinitivo ('ele') é diferente do sujeito da oração principal ('o comandante'), exigindo o infinitivo flexionado. 'Ele assine' (B) e 'ele assinasse' (C) usam o subjuntivo, inadequado após 'para' com infinitivo. 'Ele assinou' (D) é indicativo, incompatível com a estrutura. 'Ele assinando' (E) é gerúndio, inadequado após 'para'."
+      "gabarito": "B",
+      "explicacao": "O erro está em 'cidadões', forma inexistente em português. O plural correto de 'cidadão' é 'cidadãos', seguindo o modelo de palavras em -ão que formam o plural em -ãos (como 'irmão → irmãos'). A confusão ocorre porque muitas palavras em -ão formam o plural em -ões, mas 'cidadão' não segue esse padrão. As demais palavras do trecho estão corretamente flexionadas."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Qual dos pares abaixo apresenta substantivos heterônimos?",
+      "enunciado": "Assinale a alternativa que apresenta corretamente o plural de todas as palavras da série.",
       "alternativas": {
-        "A": "leão / leoa",
-        "B": "ator / atriz",
-        "C": "boi / vaca",
-        "D": "diretor / diretora",
-        "E": "professor / professora"
+        "A": "mal, mel, sol, rol → males, meles, soles, roles",
+        "B": "mal, mel, sol, rol → males, méis, sóis, róis",
+        "C": "mal, mel, sol, rol → mals, mels, sols, rols",
+        "D": "mal, mel, sol, rol → males, mels, sóis, róis",
+        "E": "mal, mel, sol, rol → males, méis, sols, rois"
       },
-      "gabarito": "C",
-      "explicacao": "Heterônimos são pares em que masculino e feminino são expressos por palavras de radicais completamente diferentes: 'boi/vaca', 'pai/mãe', 'genro/nora', 'frei/freira', 'cavaleiro/dama'. As alternativas A ('leão/leoa') e B ('ator/atriz') são biformes com variação de sufixo a partir da mesma raiz. As alternativas D ('diretor/diretora') e E ('professor/professora') são biformes com acréscimo de '-a'."
+      "gabarito": "B",
+      "explicacao": "Palavras terminadas em -L formam o plural em -IS, com eventuais alterações vocálicas: 'mal → males' (ditongo com E), 'mel → méis' (ditongo com acento para manter a tonicidade), 'sol → sóis' (ditongo com acento), 'rol → róis' (ditongo com acento). A alternativa B é a única que apresenta todos os quatro plurais corretos. As demais alternativas erram em pelo menos um dos quatro casos, seja mantendo o -L, seja não formando o ditongo corretamente."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Os documentos ___ à chefia antes da reunião, mas o prazo ___ sem que todos ___ devidamente protocolados.' Assinale a alternativa que preenche corretamente as lacunas, na ordem, com as formas verbais adequadas.",
+      "enunciado": "Considere o seguinte trecho de um relatório oficial da Marinha:\n\n'Os contra-almirantes reuniram-se com os capitães-de-fragata para discutir as ordens do dia. As vítimas do incidente foram os cônjuges dos subalternos e a testemunha ocular, que era um jovem oficial.'\n\nAssinale a alternativa que analisa corretamente as flexões nominais do trecho.",
+      "textoBase": "Os contra-almirantes reuniram-se com os capitães-de-fragata para discutir as ordens do dia. As vítimas do incidente foram os cônjuges dos subalternos e a testemunha ocular, que era um jovem oficial.",
       "alternativas": {
-        "A": "foram entregues / expirou / fossem",
-        "B": "foram entregados / expirou / foram",
-        "C": "tinham entregue / expirou / eram",
-        "D": "foram entregues / expirava / sejam",
-        "E": "haviam entregados / expirou / fossem"
+        "A": "'Contra-almirantes' está incorreto — o correto seria 'contras-almirantes'.",
+        "B": "'Cônjuges' está incorreto — o correto seria 'cônjugas', pois as esposas são femininas.",
+        "C": "'Testemunha' deveria ser 'testemunho', pois o referente é masculino ('um jovem oficial').",
+        "D": "Todas as flexões nominais do trecho estão corretas.",
+        "E": "'Capitães-de-fragata' está incorreto — o correto seria 'capitão-de-fragatas'."
       },
-      "gabarito": "A",
-      "explicacao": "Primeira lacuna: 'foram entregues' — auxiliar 'ser' + particípio irregular 'entregues', correto para voz passiva. Segunda lacuna: 'expirou' — pretérito perfeito, coerente com o contexto narrativo. Terceira lacuna: 'fossem... devidamente protocolados' — após 'sem que', usa-se o modo subjuntivo (pretérito imperfeito: 'fossem'), pois 'sem que' é conjunção que exige subjuntivo. A alternativa B erra em 'entregados' com auxiliar 'ser'. A alternativa C erra em 'tinham entregue' (com 'ter', deveria ser 'entregado') e em 'eram' (o subjuntivo é exigido por 'sem que'). A alternativa D usa 'sejam' (presente do subjuntivo, inadequado pela correlação temporal com 'expirava'). A alternativa E usa particípio regular com 'haver' erradamente: 'entregados' deveria ser 'entregue'."
+      "gabarito": "D",
+      "explicacao": "Todas as flexões estão corretas. 'Contra-almirantes': prefixo 'contra-' invariável + 'almirante' no plural — correto. 'Capitães-de-fragata': 'capitão' vai ao plural ('capitães') e 'fragata' permanece singular por ser complemento nominal — correto. 'Cônjuges': plural regular de 'cônjuge', substantivo comum de dois gêneros — correto, independente do sexo dos referentes. 'Testemunha': substantivo sobrecomum de gênero gramatical feminino fixo — usa-se sempre com artigo feminino, mesmo referindo-se a homem. 'Jovem oficial': ambos comuns de dois gêneros, corretamente usados no masculino com artigo indefinido."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Sobre o verbo 'pôr' e seus derivados, analise as afirmações:\nI. 'Compor', 'dispor' e 'repor' conjugam-se como 'pôr' em todos os tempos.\nII. O pretérito imperfeito do indicativo de 'pôr' é 'punha, punhas, punha, púnhamos, púnheis, punham'.\nIII. O pretérito perfeito de 'pôr' na 3ª pessoa do singular é 'pôs' (com acento circunflexo para diferenciar de 'pos' — forma inexistente).\nEstão corretas:",
+      "enunciado": "Leia o trecho a seguir:\n\n'O Comando do 4° Distrito Naval emitiu circular determinando que os guarda-costas dos almirantes-de-esquadra deveriam apresentar salvo-condutos atualizados nas portarias de acesso às instalações navais.'\n\nEm relação à flexão nominal, assinale a alternativa incorreta.",
+      "textoBase": "O Comando do 4° Distrito Naval emitiu circular determinando que os guarda-costas dos almirantes-de-esquadra deveriam apresentar salvo-condutos atualizados nas portarias de acesso às instalações navais.",
       "alternativas": {
-        "A": "Apenas I.",
-        "B": "Apenas II.",
-        "C": "Apenas I e III.",
-        "D": "Apenas II e III.",
-        "E": "I, II e III."
+        "A": "'Guarda-costas' está no plural correto: 'guarda' é forma verbal invariável e 'costas' recebe o -S.",
+        "B": "'Almirantes-de-esquadra' está no plural correto: apenas o primeiro elemento substantivo flexiona.",
+        "C": "'Salvo-condutos' está no plural correto: adjetivo + substantivo, ambos flexionados.",
+        "D": "'Portarias' está no plural correto: terminada em vogal, recebe -S.",
+        "E": "'Instalações' está no plural correto: -ão → -ões."
       },
-      "gabarito": "E",
-      "explicacao": "Todas as afirmações estão corretas. I: 'compor', 'dispor', 'repor', 'impor', 'propor', 'supor' são derivados de 'pôr' e seguem seu paradigma de conjugação. II: o pretérito imperfeito de 'pôr' é 'punha' (não 'pôia' nem 'põia'), forma irregular derivada do latim. III: 'pôs' (3ª pessoa do singular do pretérito perfeito) leva acento circunflexo para diferenciar da preposição 'por' sem acento — distinção ortográfica relevante. A acentuação diferencial do tipo 'pôs/por' foi preservada pelo Acordo Ortográfico de 1990 (em vigor desde 2016)."
+      "gabarito": "C",
+      "explicacao": "A alternativa C apresenta uma afirmativa incorreta: em 'salvo-condutos', o elemento 'salvo' é adjetivo e 'conduto' é substantivo. O plural rigoroso deveria ser 'salvos-condutos' (com ambos os elementos flexionados). 'Salvo-condutos' é uma forma corrente, mas tecnicamente o adjetivo 'salvo' deveria ir ao plural também. A questão pede a alternativa INCORRETA em sua análise. As demais estão corretas: 'guarda-costas' (verbo + subst.), 'almirantes-de-esquadra' (substantivo + complemento), 'portarias' e 'instalações' seguem regras regulares."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'Os mísseis ___ lançados com precisão. O alvo ___ atingido com a potência necessária. Os resultados ___ divulgados no relatório final.' Assinale a alternativa que completa corretamente as lacunas com particípios na voz passiva analítica.",
+      "enunciado": "Um cadete apresentou a seguinte redação: 'Os caracteres de liderança dos melhores cadetes foram reconhecidos pelo contra-almirante, que os considerou ótimos para o serviço ativo.' Assinale a alternativa que analisa corretamente as formas de grau e as flexões nominais em destaque.",
+      "textoBase": "Os caracteres de liderança dos melhores cadetes foram reconhecidos pelo contra-almirante, que os considerou ótimos para o serviço ativo.",
       "alternativas": {
-        "A": "foram lançados / foi atingido / foram divulgados",
-        "B": "foram lançados / foi atingido / haviam divulgados",
-        "C": "tinham lançados / foi atingido / foram divulgados",
-        "D": "foram lançados / foi atingindo / foram divulgados",
-        "E": "foram lançado / foi atingido / foram divulgados"
+        "A": "'Caracteres' é forma incorreta — o correto seria 'carateres'.",
+        "B": "'Melhores' é superlativo absoluto sintético de 'bom'.",
+        "C": "'Ótimos' é superlativo absoluto sintético irregular de 'bom', coexistindo com 'boníssimos'.",
+        "D": "'Contra-almirante' deveria ser hifenizado como 'contralmirante' sem hífen.",
+        "E": "'Cadetes' está incorretamente flexionado — deveria ser 'cadetis'."
       },
-      "gabarito": "A",
-      "explicacao": "Em A, todos os particípios estão corretos: 'foram lançados' (auxiliar 'ser' + particípio regular de 'lançar', concordando com 'os mísseis' — masculino plural); 'foi atingido' (auxiliar 'ser' + particípio de 'atingir', concordando com 'o alvo' — masculino singular); 'foram divulgados' (auxiliar 'ser' + particípio de 'divulgar', concordando com 'os resultados' — masculino plural). Em B, 'haviam divulgados' usa 'haver' + particípio que não concorda (erro duplo). Em C, 'tinham lançados' usa auxiliar 'ter' com particípio irregular concordado — erro. Em D, 'foi atingindo' usa gerúndio em lugar de particípio. Em E, 'foram lançado' — particípio sem concordância com 'os mísseis' (deveria ser 'lançados')."
+      "gabarito": "C",
+      "explicacao": "'Ótimos' é o plural do superlativo absoluto sintético irregular 'ótimo', derivado do latim 'optimus', superlativo de 'bonus' (bom). Ele coexiste com a forma regular 'boníssimos', sendo ambas corretas em português — 'ótimo' em registros mais formais, 'boníssimo' em registros menos marcados. A alternativa A está errada: 'caracteres' é o plural correto de 'caráter'. A alternativa B está errada: 'melhores' é superlativo relativo de superioridade. A alternativa D está errada: 'contra-almirante' com hífen é a grafia correta. A alternativa E está errada: o plural de 'cadete' é 'cadetes', com -S."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Analise o período: 'Apesar de ___ muito esforço, o resultado ___ satisfatório, pois os candidatos ___ as expectativas da banca.' Assinale a alternativa que completa corretamente as lacunas.",
+      "enunciado": "Considere a seguinte reescritura proposta para um trecho de portaria:\n\nOriginal: 'Os capitães-tenentes e os guarda-marinha participarão da cerimônia.'\nReescritura: 'Os capitão-tenentes e os guardas-marinha participarão da cerimônia.'\n\nAssinale a alternativa que avalia corretamente as flexões nominais da reescritura.",
       "alternativas": {
-        "A": "ter exigido / foi / superaram",
-        "B": "exigir / foi / superava",
-        "C": "ter exigido / era / superaram",
-        "D": "exigir / seria / superaram",
-        "E": "ter exigido / foi / superassem"
+        "A": "A reescritura está completamente correta.",
+        "B": "A reescritura está completamente incorreta: ambos os plurais foram alterados equivocadamente.",
+        "C": "'Capitão-tenentes' está incorreto; 'guardas-marinha' pode ser aceito como variante.",
+        "D": "'Capitão-tenentes' está correto; 'guardas-marinha' está incorreto.",
+        "E": "Ambas as formas, original e reescritura, são aceitáveis para os dois compostos."
       },
-      "gabarito": "A",
-      "explicacao": "'Apesar de ter exigido muito esforço' — a locução 'apesar de' é prepositiva e exige o infinitivo; como a ação de exigir é anterior à da oração principal, usa-se o infinitivo composto 'ter exigido'. 'o resultado foi satisfatório' — pretérito perfeito, coerente com o contexto narrativo de evento concluído. 'os candidatos superaram as expectativas' — pretérito perfeito, concordando com o tempo principal e com a ideia de ação concluída. A alternativa B usa 'exigir' (infinitivo simples, possível, mas menos preciso temporalmente) e 'superava' (imperfeito, inadequado). A alternativa C usa 'era' (imperfeito) onde se espera 'foi' (perfeito). A alternativa D usa 'seria' (condicional, sem contexto). A alternativa E usa 'superassem' (subjuntivo, sem necessidade)."
+      "gabarito": "C",
+      "explicacao": "Na reescritura, 'capitão-tenentes' está incorreto: como ambos os elementos são substantivos com função equivalente (posto + posto), ambos devem ir ao plural: 'capitães-tenentes'. A reescritura só flexionou o segundo elemento, mantendo 'capitão' no singular — erro. Quanto a 'guardas-marinha', trata-se de uma variante que alguns gramáticos aceitam ao lado de 'guarda-marinha'. O composto 'guarda-marinha', por ser título de posto militar, tende ao plural invariável no uso convencional das Forças Armadas, mas 'guardas-marinha' pode aparecer em alguns contextos. A alternativa C é a que melhor avalia a situação."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Sobre a flexão nominal de gênero e o sentido das palavras, assinale a alternativa INCORRETA.",
+      "enunciado": "A respeito do gênero dos substantivos e sua influência na concordância, assinale a alternativa correta.",
       "alternativas": {
-        "A": "'O capital estrangeiro foi atraído pela política de incentivos.' (capital = dinheiro/patrimônio — masculino)",
-        "B": "'A capital do estado sediará o evento.' (capital = cidade principal — feminino)",
-        "C": "'O rádio transmitia as notícias para toda a frota.' (rádio = aparelho — masculino)",
-        "D": "'A rádio divulgou o comunicado oficial.' (rádio = emissora — feminino)",
-        "E": "'A coma da paciente indicava gravidade.' (coma = estado clínico — feminino)"
+        "A": "Em 'A testemunha, um jovem soldado, foi considerado confiável', a concordância está correta porque o aposto 'um jovem soldado' pode determinar o gênero do adjetivo.",
+        "B": "Em 'O cônjuge da oficial foi reconhecido na cerimônia', 'cônjuge' concorda corretamente no masculino com o artigo 'o'.",
+        "C": "Em 'A vítima, identificada como o capitão Silva, foi considerado culpado', a concordância está correta.",
+        "D": "Substantivos sobrecomuns sempre concordam no gênero com o sexo biológico do referente.",
+        "E": "Substantivos epicenos masculinos, como 'o jacaré', admitem a concordância no feminino quando o referente é fêmea: 'a jacaré fêmea foi capturada'."
       },
-      "gabarito": "E",
-      "explicacao": "'Coma' no sentido de estado clínico de inconsciência é masculino: 'o coma'. O emprego correto seria 'O coma do paciente indicava gravidade'. 'A coma' é o plural de 'coma' no sentido de cabeleira/cabelos (poético). A alternativa E erra ao usar o artigo feminino 'a' para o sentido clínico. As alternativas A, B, C e D estão corretas quanto ao gênero conforme o sentido da palavra."
+      "gabarito": "B",
+      "explicacao": "Em 'O cônjuge da oficial foi reconhecido na cerimônia', a concordância está correta: 'cônjuge' é substantivo comum de dois gêneros, e aqui está no masculino com o artigo 'o', com o adjetivo 'reconhecido' concordando corretamente. A alternativa A está errada: o aposto não altera o gênero gramatical do substantivo — 'testemunha' é sobrecomum feminino, então o adjetivo deveria ser 'confiável' (invariável) ou outros adjetivos flexionados no feminino. A alternativa C está errada: 'vítima' é sobrecomum feminino, então 'culpado' deveria ser 'culpada'. A alternativa D está errada: sobrecomuns têm gênero gramatical fixo, independente do sexo biológico. A alternativa E está errada: epicenos têm gênero fixo, não admitem mudança de concordância."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Caso ___ disponíveis, os recursos ___ imediatamente alocados; caso contrário, o projeto ___ postergado.' Assinale a alternativa que preenche corretamente as lacunas.",
+      "enunciado": "Em relação ao plural de palavras compostas formadas com hífen, assinale a alternativa que apresenta TODOS os plurais corretos.",
       "alternativas": {
-        "A": "estejam / serão / será",
-        "B": "estiverem / serão / será",
-        "C": "estão / serão / será",
-        "D": "estejam / seriam / seria",
-        "E": "estiverem / sejam / seja"
+        "A": "palavra-chave → palavras-chave; mão-de-obra → mãos-de-obra; bem-estar → bens-estares",
+        "B": "palavra-chave → palavras-chaves; mão-de-obra → mãos-de-obras; bem-estar → bens-estar",
+        "C": "palavra-chave → palavras-chave; mão-de-obra → mãos-de-obra; bem-estar → bens-estar",
+        "D": "palavra-chave → palavras-chaves; mão-de-obra → mãos-de-obra; bem-estar → bens-estares",
+        "E": "palavra-chave → palavra-chaves; mão-de-obra → mão-de-obras; bem-estar → bens-estar"
       },
-      "gabarito": "B",
-      "explicacao": "'Caso' é conjunção subordinativa condicional que exige o modo subjuntivo. Como a condição refere-se ao futuro ('estiverem disponíveis'), usa-se o futuro do subjuntivo: 'estiverem'. As consequências ('recursos alocados', 'projeto postergado') são afirmações sobre o futuro real, portanto no futuro do indicativo: 'serão alocados' e 'será postergado'. A alternativa A usa 'estejam' (presente do subjuntivo — possível em registros coloquiais, mas 'estiverem' é mais preciso para condição futura). A alternativa C usa 'estão' (indicativo — inadequado após 'caso'). A alternativa D usa condicionais ('seriam', 'seria') sem base no contexto. A alternativa E mistura 'estiverem' (correto) com 'sejam' e 'seja' (presente do subjuntivo — inadequado para as consequências)."
+      "gabarito": "C",
+      "explicacao": "'Palavras-chave': 'chave' funciona como classificador (tipo de palavra), portanto apenas o primeiro elemento vai ao plural. 'Mãos-de-obra': o primeiro elemento 'mão' vai ao plural; a preposição 'de' é invariável; 'obra' permanece singular por ser complemento nominal. 'Bens-estar': 'bem' vai ao plural ('bens'), e 'estar' é forma verbal invariável. A alternativa C é a única que apresenta todos os três plurais corretos. Nas demais alternativas, há pelo menos um erro: 'palavras-chaves' pluraliza indevidamente o classificador, 'mãos-de-obras' pluraliza o complemento nominal indevidamente, e 'bens-estares' pluraliza incorretamente a forma verbal."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Sobre o infinitivo pessoal flexionado, analise as frases:\nI. 'É importante nós estudarmos sistematicamente.' (infinitivo pessoal obrigatório — sujeito explícito 'nós')\nII. 'Mandei os recrutas marcharem em fila.' (infinitivo pessoal obrigatório — sujeito diferente do principal)\nIII. 'Para vencer, é necessário treinar muito.' (infinitivo impessoal — sujeito indeterminado)\nEstão corretas:",
+      "enunciado": "Considere o seguinte texto:\n\n'O nível mínimo de desempenho exigido dos cadetes é considerado péssimo pelos instrutores mais antigos, que defendem padrões ótimos para o ingresso no corpo de oficiais.'\n\nAssinale a alternativa que analisa incorretamente algum aspecto da flexão nominal ou do grau dos adjetivos no texto.",
+      "textoBase": "O nível mínimo de desempenho exigido dos cadetes é considerado péssimo pelos instrutores mais antigos, que defendem padrões ótimos para o ingresso no corpo de oficiais.",
       "alternativas": {
-        "A": "Apenas I.",
-        "B": "Apenas I e II.",
-        "C": "Apenas II e III.",
-        "D": "Apenas I e III.",
-        "E": "I, II e III."
+        "A": "'Mínimo' é o superlativo absoluto sintético irregular de 'pequeno'.",
+        "B": "'Péssimo' é o superlativo absoluto sintético irregular de 'mau/má'.",
+        "C": "'Ótimos' é o plural do superlativo absoluto sintético irregular de 'bom'.",
+        "D": "'Mais antigos' expressa o superlativo relativo de superioridade do adjetivo 'antigo'.",
+        "E": "'Mínimo' e 'ótimo' não podem coexistir no mesmo texto por serem antônimos complementares."
       },
       "gabarito": "E",
-      "explicacao": "Todas as frases estão corretas. I: com sujeito explícito do infinitivo ('nós') diferente do da principal (oração impessoal), o infinitivo pessoal é obrigatório: 'estudarmos'. II: com verbo de causação ('mandar') seguido de sujeito explícito diferente ('os recrutas'), o infinitivo pessoal é adequado: 'marcharem'. III: quando não há sujeito explícito do infinitivo e o contexto é de afirmação geral, usa-se o infinitivo impessoal: 'treinar'. As três frases demonstram diferentes contextos de uso correto do infinitivo."
+      "explicacao": "A alternativa E apresenta uma afirmativa incorreta: não há nenhuma regra que impeça antônimos de aparecerem no mesmo texto — pelo contrário, a oposição semântica é um recurso estilístico frequente. 'Mínimo' e 'ótimo' são de fato antônimos (embora não perfeitamente complementares — um é superlativo de 'pequeno', o outro de 'bom'), mas sua coexistência no texto é perfeitamente natural e coerente com o sentido. As demais alternativas estão corretas: 'mínimo' é superlativo de 'pequeno', 'péssimo' de 'mau', 'ótimos' é plural de 'ótimo' (superlativo de 'bom'), e 'mais antigos' é superlativo relativo de superioridade."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Leia: 'A proposta que ___ à diretoria ontem ___ aceita por unanimidade e ___ imediatamente em vigor.' Qual alternativa preenche as lacunas corretamente?",
+      "enunciado": "Sobre a flexão de gênero de substantivos compostos, assinale a alternativa correta.",
       "alternativas": {
-        "A": "foi levada / foi / entrou",
-        "B": "foi levada / foi / foi entrada",
-        "C": "levou-se / foi / entrou",
-        "D": "foi levada / estava / entrou",
-        "E": "levara / foi / entrou"
+        "A": "O feminino de 'guarda-marinha' (posto militar) é 'guarda-marinh'.",
+        "B": "O feminino de 'contra-almirante' é 'contra-almiranta'.",
+        "C": "O feminino de 'capitão-tenente' é 'capitã-tenente', pois 'capitão' tem feminino 'capitã'.",
+        "D": "Substantivos compostos que designam postos militares são invariáveis em gênero.",
+        "E": "O feminino de 'capitão-de-fragata' seria 'capitã-de-fragata', pois apenas o primeiro elemento flexiona em gênero."
       },
-      "gabarito": "A",
-      "explicacao": "Primeira lacuna: 'foi levada' — voz passiva analítica (ser + particípio), concordando com 'a proposta' (feminino singular). Segunda lacuna: 'foi aceita' — voz passiva analítica, correto (particípio irregular de 'aceitar' com auxiliar 'ser'). Terceira lacuna: 'entrou imediatamente em vigor' — voz ativa, intransitivo, pretérito perfeito. A alternativa B erra em 'foi entrada' — 'entrar' não tem particípio passivo ('entrada' como particípio de voz passiva é incorreto nesse contexto). A alternativa C usa voz passiva sintética 'levou-se' — aceitável, mas muda a estrutura. A alternativa D usa 'estava aceita' (estado permanente, inadequado). A alternativa E usa 'levara' (mais-que-perfeito simples — possível, mas descasado do tempo 'foi' nas lacunas seguintes)."
+      "gabarito": "E",
+      "explicacao": "Em compostos formados por substantivo + complemento nominal (como 'capitão-de-fragata'), apenas o primeiro elemento flexiona em gênero: 'capitã-de-fragata'. Isso ocorre porque 'de-fragata' é um complemento classificador, invariável. A alternativa B está errada: 'almirante' é comum de dois gêneros, portanto 'contra-almirante' tem a mesma forma no feminino, apenas com artigo diferente: 'a contra-almirante'. A alternativa C está parcialmente correta, mas 'capitão-tenente' teria o feminino 'capitã-tenente', o que coincide com E no raciocínio — mas a alternativa C sugere que 'capitã' é a forma feminina de 'capitão', o que é correto. A alternativa D é generalizante e falsa. A alternativa E apresenta o raciocínio mais preciso e completo."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Analise o período hipotético: 'Se os candidatos ___ mais, certamente ___ aprovados.' Assinale a alternativa que completa corretamente as lacunas para expressar uma hipótese improvável ou contrária à realidade presente.",
+      "enunciado": "Em relação à distinção entre grau e derivação sufixal, assinale a alternativa que apresenta exemplo de palavra em que o sufixo NÃO indica grau.",
       "alternativas": {
-        "A": "estudam / serão",
-        "B": "estudassem / seriam",
-        "C": "estudem / serão",
-        "D": "estudariam / seriam",
-        "E": "estudassem / foram"
+        "A": "'Naviozão' é um aumentativo de 'navio'.",
+        "B": "'Basezinha' é um diminutivo de 'base'.",
+        "C": "'Papelão' é um aumentativo de 'papel'.",
+        "D": "'Portão' é um aumentativo de 'porta'.",
+        "E": "'Fogão' não é aumentativo de 'fogo' — é palavra derivada com sentido próprio."
       },
-      "gabarito": "B",
-      "explicacao": "Para expressar hipótese improvável ou contrária à realidade presente ('se' + pretérito imperfeito do subjuntivo + futuro do pretérito do indicativo): 'Se estudassem mais, seriam aprovados.' Este é o período hipotético irreal presente. A alternativa A ('estudam/serão') expressa condição real/possível. A alternativa C ('estudem/serão') combina presente do subjuntivo (condição possível) com futuro do indicativo — mistura de estruturas. A alternativa D usa futuro do pretérito nas duas orações — incorreto (a prótase com 'se' não usa o condicional). A alternativa E combina 'estudassem' (correto para a prótase) com 'foram' (pretérito perfeito — inadequado para a apódose do período irreal)."
+      "gabarito": "E",
+      "explicacao": "'Fogão' não é o grau aumentativo de 'fogo' — é uma palavra derivada por sufixação que designa um utensílio doméstico específico, com sentido que não é simplesmente 'fogo grande'. O sufixo -ão aqui tem valor derivacional (cria nova palavra), não de grau. Da mesma forma, 'papelão' pode ser entendido como aumentativo de 'papel' OU como palavra com sentido próprio (material de embalagem). 'Portão' é genuinamente aumentativo de 'porta' — uma porta grande. 'Naviozão' e 'basezinha' são inequivocamente graus. A alternativa E apresenta o único caso em que o sufixo -ão claramente NÃO indica grau."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Sobre a voz verbal e a conversão entre vozes, analise as afirmações:\nI. 'O oficial recebeu a comenda.' (voz ativa) → 'A comenda foi recebida pelo oficial.' (voz passiva analítica) — conversão correta.\nII. 'Aprovaram os candidatos.' (voz ativa com sujeito indeterminado) → 'Os candidatos foram aprovados.' (voz passiva analítica) — conversão correta.\nIII. 'Vendem-se imóveis.' (voz passiva sintética) → 'Imóveis são vendidos.' (voz passiva analítica) — conversão correta.\nEstão corretas:",
+      "enunciado": "Considere o seguinte trecho:\n\n'Os cidadãos, as vítimas e as testemunhas dos episódios relatados pelos capitães-de-corveta foram encaminhados à Auditoria da Marinha pelos sargentos-ajudantes de plantão.'\n\nAssinale a alternativa que apresenta análise INCORRETA da flexão nominal do trecho.",
+      "textoBase": "Os cidadãos, as vítimas e as testemunhas dos episódios relatados pelos capitães-de-corveta foram encaminhados à Auditoria da Marinha pelos sargentos-ajudantes de plantão.",
       "alternativas": {
-        "A": "Apenas I.",
-        "B": "Apenas I e II.",
-        "C": "Apenas II e III.",
-        "D": "Apenas I e III.",
-        "E": "I, II e III."
+        "A": "'Cidadãos' está correto: plural de 'cidadão' em -ãos.",
+        "B": "'Vítimas' e 'testemunhas' são substantivos sobrecomuns no plural, corretamente flexionados.",
+        "C": "'Capitães-de-corveta' está correto: 'capitão' vai ao plural em -ães; 'de-corveta' é complemento invariável.",
+        "D": "'Sargentos-ajudantes' está correto: dois substantivos equivalentes, ambos ao plural.",
+        "E": "O particípio 'encaminhados' concorda incorretamente — deveria ser 'encaminhadas' para concordar com 'vítimas' e 'testemunhas'."
       },
       "gabarito": "E",
-      "explicacao": "Todas as conversões estão corretas. I: 'o oficial' (sujeito ativo) → 'pelo oficial' (agente da passiva); 'a comenda' (objeto direto) → sujeito da passiva; 'recebeu' → 'foi recebida' (particípio concordando com 'a comenda', feminino singular). II: sujeito indeterminado da ativa (3ª pessoa do plural sem pronome) → sem agente da passiva expresso; 'os candidatos' (objeto direto) → sujeito da passiva. III: voz passiva sintética com 'se' apassivador equivale à passiva analítica; 'imóveis' (objeto direto com 'se') → sujeito da passiva analítica."
+      "explicacao": "A alternativa E apresenta uma análise incorreta. Em 'cidadãos, vítimas e testemunhas... foram encaminhados', o sujeito composto inclui um elemento masculino ('cidadãos') e dois femininos ('vítimas' e 'testemunhas'). Na concordância com sujeito composto de gêneros diferentes, o verbo e os particípios concordam no masculino plural — portanto 'encaminhados' está correto, não errado. A regra é: quando há sujeitos compostos de gêneros diferentes, prevalece o masculino. As demais alternativas apresentam análises corretas: 'cidadãos' (plural em -ãos), 'vítimas/testemunhas' (sobrecomuns femininos), 'capitães-de-corveta' (forma correta) e 'sargentos-ajudantes' (dois substantivos ao plural)."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho a seguir e responda à questão:\n\n'O novo regulamento havia sido aprovado pela diretoria. Os procedimentos estabelecidos deveriam ser cumpridos por todos. Caso alguma norma fosse descumprida, o responsável seria notificado e as medidas cabíveis, adotadas.'\n\nSobre as formas verbais empregadas no trecho, analise as afirmações:\nI. 'havia sido aprovado' é um tempo composto na voz passiva: auxiliar 'haver' + particípio de 'ser' + particípio de 'aprovar' — formação correta.\nII. 'deveriam ser cumpridos' é uma locução verbal na voz passiva com modal 'dever' no futuro do pretérito — formação correta.\nIII. 'fosse descumprida' está no pretérito imperfeito do subjuntivo, adequado após 'caso' para expressar hipótese — correto.\nIV. 'seriam notificado' apresenta erro de concordância do particípio com o sujeito.\nEstão corretas:",
+      "enunciado": "Leia com atenção o seguinte fragmento de portaria naval:\n\n'Os contra-almirantes, os capitães-tenentes e os guarda-marinha do 4° Distrito Naval foram convocados pelo Estado-Maior para apresentar os salvo-condutos de acesso às instalações reservadas. As testemunhas dos incidentes relatados e os cônjuges dos oficiais envolvidos também deverão comparecer.'\n\nCom base nas regras de flexão nominal da língua portuguesa, assinale a alternativa que apresenta análise correta do trecho.",
+      "textoBase": "Os contra-almirantes, os capitães-tenentes e os guarda-marinha do 4° Distrito Naval foram convocados pelo Estado-Maior para apresentar os salvo-condutos de acesso às instalações reservadas. As testemunhas dos incidentes relatados e os cônjuges dos oficiais envolvidos também deverão comparecer.",
       "alternativas": {
-        "A": "Apenas I e II.",
-        "B": "Apenas I, II e III.",
-        "C": "Apenas II, III e IV.",
-        "D": "Apenas I e IV.",
-        "E": "I, II, III e IV."
+        "A": "'Contra-almirantes' deveria ser 'contras-almirantes', pois o prefixo 'contra-' também deve ir ao plural.",
+        "B": "'Capitães-tenentes' está incorreto — o correto seria 'capitão-tenentes', pois apenas o segundo elemento vai ao plural em compostos com dois postos.",
+        "C": "Todos os plurais do trecho estão corretos, incluindo 'guarda-marinha' como invariável no plural.",
+        "D": "'Testemunhas' deveria concordar no masculino plural com 'testemunhos' quando se refere a pessoas do sexo masculino.",
+        "E": "'Cônjuges' está incorreto — o feminino de 'cônjuge' seria 'cônjuga', portanto o plural de casais seria 'cônjuges e cônjugas'."
       },
-      "gabarito": "B",
-      "explicacao": "Afirmação I: correta. 'Havia sido aprovado' é de fato um tempo composto em voz passiva: 'havia' (auxiliar de 'haver' no imperfeito) + 'sido' (particípio de 'ser', auxiliar da passiva) + 'aprovado' (particípio de 'aprovar'). Afirmação II: correta. 'Deveriam ser cumpridos' é uma locução com modal 'dever' no futuro do pretérito ('deveriam') + passiva analítica ('ser cumpridos'), com particípio concordando com 'os procedimentos' (masculino plural). Afirmação III: correta. 'Caso' é conjunção condicional que exige subjuntivo; 'fosse descumprida' é pretérito imperfeito do subjuntivo, correlacionado com o futuro do pretérito ('seria notificado') — estrutura do período hipotético irreal. Afirmação IV: incorreta. No trecho, o texto diz 'o responsável seria notificado' — o particípio 'notificado' concorda corretamente com 'o responsável' (masculino singular). A afirmação IV inventa um erro inexistente no texto."
+      "gabarito": "C",
+      "explicacao": "Todos os plurais do trecho estão corretos. 'Contra-almirantes': prefixo invariável + substantivo no plural. 'Capitães-tenentes': dois substantivos equivalentes (posto + posto), ambos ao plural — 'capitão → capitães', 'tenente → tenentes'. 'Guarda-marinha': no uso convencional militar, o plural é invariável ('os guarda-marinha'). 'Salvo-condutos': forma corrente aceita. 'Testemunhas': substantivo sobrecomum de gênero feminino fixo — usa-se sempre no feminino, independente do sexo do referente. 'Cônjuges': plural de 'cônjuge', substantivo comum de dois gêneros — a mesma forma serve para masculino e feminino, não existe 'cônjuga'."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Leia:\n\n'Os fuzis e os mísseis foram inspecionados antes do exercício. As fragatas, por sua vez, haviam passado por revisão completa. O material, uma vez verificado, estaria apto para uso operacional.'\n\nSobre a flexão verbal e nominal no trecho, é INCORRETO afirmar que:",
+      "enunciado": "Considere o seguinte trecho de um relatório militar:\n\n'O desempenho péssimo dos cadetes recém-incorporados contrastou com os resultados ótimos dos veteranos. O nível mínimo exigido não foi atingido pela maioria, e os instrutores classificaram os resultados como os piores já registrados na história do curso.'\n\nAssinale a alternativa que classifica corretamente TODOS os termos destacados em relação ao grau dos adjetivos.",
+      "textoBase": "O desempenho péssimo dos cadetes recém-incorporados contrastou com os resultados ótimos dos veteranos. O nível mínimo exigido não foi atingido pela maioria, e os instrutores classificaram os resultados como os piores já registrados na história do curso.",
       "alternativas": {
-        "A": "'Fuzis' é o plural de 'fuzil' (oxítona em '-il'), formado pela troca de '-il' por '-is': correto.",
-        "B": "'Mísseis' é o plural de 'míssil' (paroxítona em '-il'), formado pela troca de '-il' por '-eis': correto.",
-        "C": "'Foram inspecionados' está na voz passiva analítica, com particípio concordando com 'os fuzis e os mísseis' (masculino plural): correto.",
-        "D": "'Haviam passado' é um tempo composto na voz ativa, com particípio invariável ('passado'): correto.",
-        "E": "'Verificado' concorda com 'as fragatas' (feminino plural) — deveria ser 'verificadas': INCORRETO no trecho."
+        "A": "péssimo: superlativo relativo de inferioridade; ótimos: superlativo relativo de superioridade; mínimo: superlativo absoluto; piores: comparativo de inferioridade",
+        "B": "péssimo: superlativo absoluto sintético irregular; ótimos: superlativo absoluto sintético irregular; mínimo: superlativo absoluto sintético irregular; piores: superlativo relativo de inferioridade",
+        "C": "péssimo: superlativo absoluto sintético irregular; ótimos: superlativo relativo de superioridade; mínimo: superlativo absoluto sintético irregular; piores: comparativo de inferioridade",
+        "D": "péssimo: superlativo absoluto regular; ótimos: superlativo absoluto irregular; mínimo: superlativo relativo; piores: superlativo relativo de inferioridade",
+        "E": "péssimo: comparativo de inferioridade; ótimos: comparativo de superioridade; mínimo: grau positivo; piores: superlativo relativo de inferioridade"
       },
-      "gabarito": "E",
-      "explicacao": "A afirmação E é a incorreta (que a questão pede). No trecho, 'o material, uma vez verificado' — 'verificado' concorda com 'o material' (masculino singular), não com 'as fragatas'. O particípio absoluto 'uma vez verificado' retoma 'o material', e a concordância está correta. As demais afirmativas estão corretas: (A) 'fuzil' é oxítona em '-il' → plural em '-is': 'fuzis'; (B) 'míssil' é paroxítona em '-il' → plural em '-eis': 'mísseis'; (C) voz passiva analítica com concordância correta; (D) 'haviam passado' é tempo composto ativo com particípio invariável (o particípio em locuções com 'ter/haver' é invariável)."
+      "gabarito": "B",
+      "explicacao": "'Péssimo' é superlativo absoluto sintético irregular de 'mau/má' (do latim 'pessimus') — indica intensidade máxima sem referência a outros elementos. 'Ótimos' é plural do superlativo absoluto sintético irregular 'ótimo', de 'bom' (do latim 'optimus') — mesma categoria. 'Mínimo' é superlativo absoluto sintético irregular de 'pequeno' (do latim 'minimus') — indica a menor intensidade possível. 'Piores' é superlativo relativo de inferioridade de 'mau/ruim': 'os piores já registrados' — a comparação é feita em relação a um universo ('já registrados na história'), o que caracteriza o superlativo relativo. A alternativa B é a única que classifica todos os quatro termos corretamente."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho simulado de texto oficial:\n\n'Determino que os oficiais compareçam à solenidade às 14h. Solicito, outrossim, que os documentos necessários sejam apresentados com antecedência. Caso algum impedimento ocorra, deverá ser comunicado ao Comando com a máxima brevidade possível.'\n\nSobre a flexão verbal no trecho, analise:\nI. 'compareçam' é a 3ª pessoa do plural do presente do subjuntivo de 'comparecer', exigido pelo verbo 'determino' (que governa subjuntivo): correto.\nII. 'sejam apresentados' é voz passiva no presente do subjuntivo, exigido por 'solicito': correto.\nIII. 'ocorra' é o presente do subjuntivo de 'ocorrer', exigido por 'caso': correto.\nIV. 'deverá ser comunicado' é voz passiva no futuro do indicativo, adequado para a consequência da condição: correto.\nEstão corretas:",
+      "enunciado": "Um oficial redigiu o seguinte comunicado:\n\n'Informo que os cidadões e as vítimas do incidente foram identificados pelos guarda-costas. Os capitãos de corveta e os contra-almirantes assinaram o relatório com caracteres legíveis.'\n\nIdentifique os erros de flexão nominal presentes no comunicado e assinale a alternativa que os corrige adequadamente.",
+      "textoBase": "Informo que os cidadões e as vítimas do incidente foram identificados pelos guarda-costas. Os capitãos de corveta e os contra-almirantes assinaram o relatório com caracteres legíveis.",
       "alternativas": {
-        "A": "Apenas I e II.",
-        "B": "Apenas I, II e IV.",
-        "C": "Apenas II, III e IV.",
-        "D": "Apenas III e IV.",
-        "E": "I, II, III e IV."
+        "A": "Há um erro: 'cidadões' deveria ser 'cidadãos'.",
+        "B": "Há dois erros: 'cidadões' → 'cidadãos' e 'capitãos' → 'capitães'.",
+        "C": "Há três erros: 'cidadões' → 'cidadãos', 'capitãos' → 'capitães' e 'caracteres' → 'carateres'.",
+        "D": "Há dois erros: 'cidadões' → 'cidadãos' e 'caracteres' → 'carateres'.",
+        "E": "Não há erros de flexão nominal no comunicado."
       },
-      "gabarito": "E",
-      "explicacao": "Todas as afirmações estão corretas. I: 'compareçam' — presente do subjuntivo de 'comparecer' (forma irregular: 'compareço' → 'compareça'), 3ª pessoa do plural. 'Determinar que' exige subjuntivo. II: 'sejam apresentados' — voz passiva analítica no presente do subjuntivo, exigida por 'solicitar que'. III: 'ocorra' — presente do subjuntivo de 'ocorrer', corretamente exigido por 'caso' (conjunção condicional). IV: 'deverá ser comunicado' — modal 'dever' no futuro do indicativo + passiva analítica no presente, estrutura adequada para a consequência da condição (apódose do período condicional real)."
+      "gabarito": "B",
+      "explicacao": "Há exatamente dois erros de flexão nominal. Primeiro: 'cidadões' é forma inexistente — o plural de 'cidadão' é 'cidadãos' (padrão -ãos, como 'irmão → irmãos'). Segundo: 'capitãos' é forma inexistente — o plural de 'capitão' é 'capitães' (padrão -ães, como 'cão → cães'). As demais formas estão corretas: 'vítimas' (sobrecomum feminino, plural regular), 'guarda-costas' (verbo + subst., só o segundo ao plural — correto), 'contra-almirantes' (prefixo invariável + subst. no plural — correto), e 'caracteres' (plural correto de 'caráter' — não 'carateres'). A alternativa B identifica os dois únicos erros."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia:\n\n'A capitã recebeu a comenda pelas mãos do almirante. Emocionada, ela agradeceu e comprometeu-se a honrar a distinção recebida. Os presentes a aplaudiram de pé.'\n\nSobre a flexão nominal e verbal do trecho, assinale a alternativa INCORRETA.",
+      "enunciado": "Analise as seguintes proposições sobre flexão nominal em português:\n\nI. O plural de 'caráter' é 'caracteres', com mudança na posição do acento tônico.\nII. Substantivos epicenos têm forma única, e o sexo do animal é indicado, quando necessário, pelas palavras 'macho' ou 'fêmea'.\nIII. 'Poetisa' é a única forma feminina correta de 'poeta'.\nIV. O superlativo absoluto sintético de 'pequeno' é 'pequeníssimo'; a forma 'mínimo' é o superlativo irregular.\nV. Em compostos do tipo verbo + substantivo, como 'guarda-chuva', apenas o substantivo vai ao plural.\n\nAssinale a alternativa que indica quais proposições estão corretas.",
       "alternativas": {
-        "A": "'Capitã' é o feminino de 'capitão', formado por heterogenia de sufixo: 'capitão/capitã' — par biforme por sufixo.",
-        "B": "'Emocionada' é o particípio de 'emocionar' empregado como adjetivo, concordando com 'ela' (feminino singular): correto.",
-        "C": "'Comprometeu-se' está na voz reflexiva, com o pronome 'se' indicando que o sujeito pratica e recebe a ação: correto.",
-        "D": "'A aplaudiram' apresenta o pronome 'a' como objeto direto referente à capitã: correto.",
-        "E": "'Recebida' em 'distinção recebida' é particípio passivo concordando com 'distinção' (feminino singular), funcionando como adjetivo: correto."
+        "A": "Apenas I, II e V.",
+        "B": "Apenas I, II, IV e V.",
+        "C": "Apenas II, III e IV.",
+        "D": "Apenas I, III e V.",
+        "E": "Todas as proposições estão corretas."
       },
-      "gabarito": "A",
-      "explicacao": "A alternativa A contém imprecisão: 'capitão/capitã' é par biforme, mas a variação não é por sufixo diferente — ambas as formas compartilham o mesmo radical ('capitan-') e a alternância de terminação '-ão'/'-ã' é uma variação de gênero por vogal temática, não por sufixo derivacional distinto (como '-eiro/'-eira' ou '-or'/'-riz'). A afirmação de que é 'heterogenia de sufixo' é imprecisa — seria mais correto dizer variação morfológica de terminação. As demais alternativas estão corretas: (B) adjetivo concordado; (C) voz reflexiva; (D) pronome clítico objeto direto; (E) particípio como adjetivo concordado."
+      "gabarito": "B",
+      "explicacao": "As proposições I, II, IV e V estão corretas. I: 'caráter → caracteres' — a palavra era paroxítona e passa a proparoxítona, com deslocamento do acento tônico e perda do acento gráfico. II: substantivos epicenos têm forma única para ambos os sexos do animal; o sexo é marcado com 'macho/fêmea' quando necessário: 'o jacaré macho', 'o jacaré fêmea'. IV: 'pequeníssimo' é o superlativo absoluto sintético regular de 'pequeno'; 'mínimo' é o superlativo irregular correspondente. V: em 'guarda-chuva', 'guarda' é forma verbal, portanto invariável; 'chuva' vai ao plural: 'guarda-chuvas'. A proposição III está INCORRETA: 'poeta' também é aceita como forma feminina — é substantivo comum de dois gêneros; 'poetisa' é apenas uma das formas possíveis, não a única."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Leia o período:\n\n'Convém que os recrutas ___ os procedimentos antes de ___ ao campo de treinamento; assim, ___ possível evitar incidentes.'\n\nAssinale a alternativa que preenche as lacunas corretamente, considerando as regras de flexão verbal e modo.",
+      "enunciado": "Considere o seguinte fragmento de manual de redação oficial da Marinha:\n\n'Os oficiais deverão, em suas comunicações, empregar corretamente as formas nominais previstas na norma culta. Evitar-se-ão formas como *(1)cidadões, *(2)capitãos, *(3)carateres e *(4)contra-almiranta, que constituem desvios de flexão nominal frequentes em documentos oficiais.'\n\nAssinale a alternativa que apresenta as formas corretamente substitutas das quatro formas marcadas com asterisco.",
+      "textoBase": "Os oficiais deverão, em suas comunicações, empregar corretamente as formas nominais previstas na norma culta. Evitar-se-ão formas como *(1)cidadões, *(2)capitãos, *(3)carateres e *(4)contra-almiranta, que constituem desvios de flexão nominal frequentes em documentos oficiais.",
       "alternativas": {
-        "A": "revejam / irem / será",
-        "B": "revisem / ir / seria",
-        "C": "revejam / ir / será",
-        "D": "revejam / irem / seria",
-        "E": "revisem / irem / será"
+        "A": "(1) cidadãos · (2) capitães · (3) caracteres · (4) contra-almirante",
+        "B": "(1) cidadãos · (2) capitões · (3) caracteres · (4) contra-almiranta",
+        "C": "(1) cidadãos · (2) capitães · (3) caracteres · (4) contra-almirantessa",
+        "D": "(1) cidadões · (2) capitães · (3) caracteres · (4) contra-almirante",
+        "E": "(1) cidadãos · (2) capitães · (3) carácteres · (4) contra-almirante"
       },
       "gabarito": "A",
-      "explicacao": "Primeira lacuna: 'convém que' exige subjuntivo. O verbo é 'rever' (não 'revisar' no sentido de rever/examinar novamente): presente do subjuntivo de 'rever' é 'reveja, revejas, reveja, revejamos, revejais, revejam' — 3ª pessoa do plural: 'revejam'. Segunda lacuna: 'antes de' é locução prepositiva seguida de infinitivo com sujeito expresso ('os recrutas') — infinitivo pessoal: 'irem'. Terceira lacuna: 'assim, será possível' — futuro do indicativo, consistente com o contexto de consequência real. A alternativa B usa 'revisem' (de 'revisar', sentido diferente de verificar/fiscalizar) e 'ir' sem flexão (inadequado com sujeito explícito). A alternativa C usa 'ir' sem flexão. A alternativa D usa 'seria' (condicional sem justificativa). A alternativa E usa 'revisem' (sentido inadequado)."
+      "explicacao": "As quatro formas corretas são: (1) 'cidadãos' — plural de 'cidadão' em -ãos (não -ões). (2) 'capitães' — plural de 'capitão' em -ães (não -ãos nem -ões). (3) 'caracteres' — plural de 'caráter' com mudança de tonicidade (não 'carateres', que manteria erroneamente o padrão regular). (4) 'contra-almirante' — substantivo comum de dois gêneros; a forma feminina não muda, apenas o artigo: 'o contra-almirante' / 'a contra-almirante'. A forma 'contra-almiranta' não existe. A alternativa A é a única que apresenta as quatro formas corretas. A alternativa B mantém 'capitões' (errado) e 'contra-almiranta' (errado). A alternativa C usa 'contra-almirantessa' (inexistente). A alternativa E usa 'carácteres' (acento equivocado)."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
-      "gram-01",
-      "gram-03",
-      "gram-11",
-      "gram-13",
-      "gram-14",
-      "comp-02",
-      "comp-06",
-      "comp-07",
-      "gram-10",
-      "comp-11",
-      "gram-12",
+      "gram-00",
+      "gram-04",
       "gram-05",
       "gram-06"
     ],
@@ -648,227 +740,227 @@
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-11",
-        "enunciado": "Leia: 'A coesão e a coerência **constitui** os pilares do texto bem escrito.' O período apresenta erro de:",
+        "topico_referencia": "gram-06",
+        "enunciado": "Assinale a alternativa em que todos os plurais das palavras compostas estão corretamente formados.",
         "alternativas": {
-          "A": "Flexão verbal: o verbo 'constitui' deveria ser 'constituem' para concordar com o sujeito composto 'a coesão e a coerência'.",
-          "B": "Flexão nominal: 'coesão' e 'coerência' deveriam ser pluralizadas.",
-          "C": "Regência verbal: 'constituir' não admite sujeito composto.",
-          "D": "Colocação pronominal: falta pronome antes de 'constitui'.",
-          "E": "Ortografia: 'coerência' deveria ser grafado sem acento."
+          "A": "navio-escola → navios-escolas; guarda-marinha → guardas-marinhas; salvo-conduto → salvos-conduto",
+          "B": "navio-escola → navios-escola; guarda-marinha → guarda-marinha; salvo-conduto → salvos-condutos",
+          "C": "navio-escola → navio-escolas; guarda-marinha → guarda-marinhas; salvo-conduto → salvo-condutos",
+          "D": "navio-escola → navios-escola; guarda-marinha → guardas-marinha; salvo-conduto → salvo-condutos",
+          "E": "navio-escola → navios-escolas; guarda-marinha → guarda-marinha; salvo-conduto → salvos-condutos"
         },
-        "gabarito": "A",
-        "explicacao": "O sujeito composto 'a coesão e a coerência' é plural (dois núcleos), exigindo o verbo no plural: 'constituem'. O uso de 'constitui' (singular) é erro de concordância verbal com sujeito composto — regra básica: sujeito composto de pessoas ou coisas diferentes → verbo no plural. A integração gram-05 (flexão verbal — formas do presente do indicativo) e gram-09 (concordância verbal com sujeito composto) é necessária para identificar o erro: trata-se de uma forma verbal morfologicamente existente ('constitui', 3ª singular), mas errada pela concordância exigida pelo sujeito."
+        "gabarito": "B",
+        "explicacao": "'Navio-escola → navios-escola': 'escola' classifica o tipo de navio, funciona como especificador invariável — só 'navio' vai ao plural. 'Guarda-marinha → guarda-marinha': no uso militar convencional, o plural é invariável (posto militar). 'Salvo-conduto → salvos-condutos': 'salvo' é adjetivo e 'conduto' é substantivo — ambos flexionam. A alternativa B é a única com os três plurais corretos."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-14",
-        "enunciado": "Leia: 'Os documentos **tinham-se entregue** à comissão antes do prazo.' Sobre a flexão verbal e a colocação pronominal, é correto afirmar que:",
+        "topico_referencia": "gram-05",
+        "enunciado": "Em relação às classes de palavras, assinale a alternativa em que a palavra destacada está corretamente classificada.",
         "alternativas": {
-          "A": "A colocação e o particípio estão corretos: 'tinham-se entregue' é forma padrão com auxiliar 'ter' e particípio irregular.",
-          "B": "Há dois erros: (1) com auxiliar 'ter', o particípio deveria ser regular 'entregado'; (2) o pronome 'se' não se encaixa nessa estrutura de voz passiva composta.",
-          "C": "Apenas o particípio está errado: com 'ter', deveria ser 'entregado'; a colocação do 'se' está correta.",
-          "D": "Apenas a colocação está errada: 'se tinham entregue' seria o correto.",
-          "E": "A frase está correta: 'entregue' é o único particípio existente de 'entregar'."
+          "A": "Em 'Os recrutas foram incorporados', 'incorporados' é um advérbio.",
+          "B": "Em 'Ele é um excelente oficial', 'excelente' é um substantivo.",
+          "C": "Em 'Corra rapidamente até a base', 'rapidamente' é um advérbio de modo.",
+          "D": "Em 'Todos os sargentos compareceram', 'todos' é um artigo.",
+          "E": "Em 'A cerimônia foi longa demais', 'demais' é uma conjunção."
         },
-        "gabarito": "B",
-        "explicacao": "A frase apresenta dois problemas simultâneos que exigem integração de gram-05 e gram-11. (1) Flexão verbal: com auxiliar 'ter' ou 'haver', o particípio deve ser regular — 'tinham entregado', não 'entregue'. 'Entregue' é o particípio irregular, usado com auxiliar 'ser' ou 'estar'. (2) Colocação e uso do 'se': na estrutura 'tinham-se entregue', o pronome 'se' parece introduzir voz reflexiva ou passiva sintética, mas a combinação com 'tinham' (auxiliar de tempo composto ativo) e particípio cria uma estrutura híbrida problemática. O correto seria: 'tinham entregado os documentos à comissão' (ativo) ou 'os documentos tinham sido entregues à comissão' (passiva analítica)."
+        "gabarito": "C",
+        "explicacao": "'Rapidamente' é um advérbio de modo, formado pelo adjetivo 'rápida' + sufixo '-mente', que modifica o verbo 'corra' indicando como a ação deve ser realizada. A alternativa A está errada: 'incorporados' é particípio (forma nominal do verbo). A alternativa B está errada: 'excelente' é adjetivo que qualifica 'oficial'. A alternativa D está errada: 'todos' é pronome indefinido. A alternativa E está errada: 'demais' aqui é advérbio de intensidade."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-03",
-        "enunciado": "Leia: 'Referiu-**se** **à** proposta de abolir **às** restrições e de reaver **os** documentos confiscados.' Sobre a flexão/morfologia e o uso de crase, identifique o erro:",
+        "topico_referencia": "gram-06",
+        "enunciado": "Um texto de regulamento naval contém a seguinte frase: 'Os capitãos e os contra-almirantes deverão apresentar os salvo-condutos.' Identifique e assinale a alternativa que corrige adequadamente o único erro de flexão nominal.",
         "alternativas": {
-          "A": "O pronome 'se' está incorretamente colocado após o verbo.",
-          "B": "'À proposta' está correto (crase antes de feminino); 'às restrições' está errado — 'abolir' não admite crase antes de seu objeto.",
-          "C": "Não há erros: todas as formas estão corretas.",
-          "D": "'Reaver' está incorretamente conjugado — o infinitivo correto seria 'reavê-los'.",
-          "E": "'Os documentos' deveria ser 'aos documentos', pois 'reaver' é transitivo indireto."
+          "A": "Substituir 'capitãos' por 'capitões'.",
+          "B": "Substituir 'capitãos' por 'capitães'.",
+          "C": "Substituir 'contra-almirantes' por 'contras-almirantes'.",
+          "D": "Substituir 'salvo-condutos' por 'salvos-conduto'.",
+          "E": "Não há erro de flexão nominal na frase."
         },
         "gabarito": "B",
-        "explicacao": "A integração gram-05 + gram-02 exige analisar a regência de 'abolir' e o uso de crase. 'Abolir' é transitivo direto — seu complemento não exige preposição. Portanto, 'abolir às restrições' usa crase indevida: o correto é 'abolir as restrições' (objeto direto, sem preposição, sem crase). Já 'referiu-se à proposta' está correto: 'referir-se a' é transitivo indireto com preposição 'a' antes de feminino articulado → crase obrigatória. 'Reaver os documentos' está correto: 'reaver' é transitivo direto. A integração de gram-05 (verbo defectivo 'reaver' e 'abolir'), gram-02 (crase) e gram-10 (regência de 'abolir') é essencial para detectar o erro em 'às restrições'."
+        "explicacao": "O único erro é 'capitãos', que deve ser 'capitães'. O plural de 'capitão' segue o padrão -ães (como 'cão → cães', 'pão → pães'). 'Contra-almirantes' está correto (prefixo invariável + substantivo no plural). 'Salvo-condutos' é forma aceita. A forma 'capitões' (alternativa A) também é incorreta para esta palavra."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-01",
-        "enunciado": "Leia: 'O **míssel** foi lançado com precisão. Os **fuzís** foram recolhidos após o exercício.' Sobre a flexão de número e a ortografia, assinale a alternativa correta:",
+        "topico_referencia": "gram-04",
+        "enunciado": "Em relação à formação de palavras, assinale a alternativa em que a análise morfológica está incorreta.",
         "alternativas": {
-          "A": "Ambas as formas estão corretas: 'míssel' e 'fuzís' são grafias válidas.",
-          "B": "'Míssel' está errado — o singular correto é 'míssil'; 'fuzís' está errado — o plural de 'fuzil' é 'fuzis' (sem acento).",
-          "C": "'Míssel' está correto; 'fuzís' deveria ser 'fuzeis'.",
-          "D": "'Míssel' deveria ser 'míssil'; 'fuzís' está correto pois oxítonas em '-il' levam acento no plural.",
-          "E": "Ambas estão erradas: o singular é 'míssil' e o plural é 'fuzils'."
+          "A": "'Coautor' é formado por prefixação: prefixo 'co-' + radical 'autor'.",
+          "B": "'Marinheiro' é formado por sufixação: radical 'marinh-' + sufixo '-eiro'.",
+          "C": "'Anti-higiênico' é formado por prefixação: prefixo 'anti-' + adjetivo 'higiênico'.",
+          "D": "'Suboficial' é uma palavra formada por justaposição de dois radicais independentes.",
+          "E": "'Recruta' é um vocábulo primitivo — não pode ser decomposto em morfemas derivacionais."
         },
-        "gabarito": "B",
-        "explicacao": "A integração gram-05 (flexão de número) e gram-01 (ortografia e acentuação) é fundamental. 'Míssel' está errado: o singular correto é 'míssil' (paroxítona proparoxítona terminada em '-il'). 'Fuzís' está errado por dois motivos: (1) o plural de 'fuzil' (oxítona em '-il') é 'fuzis' — sem acento, pois oxítonas terminadas em '-is' não recebem acento gráfico pelo Acordo Ortográfico em vigor desde 2016; (2) o acento em 'fuzís' seria incorreto. O correto é 'fuzis' (sem acento). Portanto, ambas as formas do trecho estão erradas."
+        "gabarito": "D",
+        "explicacao": "'Suboficial' não é formada por justaposição — é formada por prefixação: o prefixo 'sub-' (que indica hierarquia inferior) + o substantivo 'oficial'. Justaposição ocorre quando dois radicais se unem sem alteração fonética, como em 'girassol' (gira+sol). As demais análises estão corretas: 'coautor' por prefixação, 'marinheiro' por sufixação, 'anti-higiênico' por prefixação, e 'recruta' como vocábulo primitivo no contexto da morfologia derivacional."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + comp-11",
-        "enunciado": "Leia: 'Os recrutas completaram o treinamento. **Eles** foram dispensados às 18h. **Os mesmos** receberão o certificado na próxima semana.' Sobre a flexão pronominal e a coesão referencial, identifique o problema:",
+        "topico_referencia": "gram-06",
+        "enunciado": "Sobre o gênero dos substantivos, analise as afirmativas:\n\nI. 'Oficial' é substantivo comum de dois gêneros.\nII. 'Testemunha' é substantivo sobrecomum de gênero feminino.\nIII. 'Cônjuge' tem feminino 'cônjuga'.\nIV. 'Sentinela' é substantivo sobrecomum.\n\nEstão corretas apenas:",
         "alternativas": {
-          "A": "'Eles' está incorreto; deveria ser 'eles mesmos' para evitar ambiguidade.",
-          "B": "'Os mesmos' como pronome anafórico é criticado pela norma culta — deveria ser substituído por 'eles', 'os recrutas' ou 'os aprovados'; a flexão de 'eles' está correta.",
-          "C": "Não há problema: 'eles' e 'os mesmos' são pronomes anafóricos equivalentes e intercambiáveis.",
-          "D": "O problema está em 'foram dispensados': com 'ser', o particípio deveria concordar com o sujeito — 'dispensados' está correto, mas a voz passiva é inadequada.",
-          "E": "Há problema de concordância: 'os mesmos' deveria ser 'os mesmo' (invariável)."
+          "A": "I e II.",
+          "B": "I, II e IV.",
+          "C": "II e III.",
+          "D": "I, III e IV.",
+          "E": "Todas."
         },
         "gabarito": "B",
-        "explicacao": "A integração gram-05 (flexão pronominal — 'eles' como pronome pessoal do caso reto, plural masculino) e comp-10 (coesão referencial) é necessária. O pronome 'eles' está morfologicamente correto e exerce coesão anafórica adequada. O problema está em 'os mesmos': 'mesmo' é pronome de identidade ('o mesmo que') e não pronome de retomada anafórica — seu uso como substituto de 'eles' ou 'os recrutas' é considerado vício de linguagem burocrática por Cunha e Cintra (2017) e pelo Manual da Marinha (2024). A coesão referencial estaria melhor servida por 'eles' ou pela repetição de 'os recrutas'."
+        "explicacao": "As afirmativas I, II e IV estão corretas. I: 'oficial' tem mesma forma para os dois gêneros, diferenciada pelo artigo — é comum de dois gêneros. II: 'testemunha' tem gênero gramatical feminino fixo, mesmo quando se refere a homem — é sobrecomum. IV: 'sentinela' é sobrecomum feminino, assim como 'testemunha' e 'vítima'. A afirmativa III está errada: 'cônjuge' é substantivo comum de dois gêneros ('o cônjuge'/'a cônjuge') — 'cônjuga' não existe em português."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-10",
-        "enunciado": "Leia: 'O candidato estudou muito, **portanto** passou na prova, **embora** as questões **fossem** difíceis.' Sobre a flexão verbal e os conectivos, é correto afirmar que:",
+        "topico_referencia": "gram-00",
+        "enunciado": "Em relação aos fonemas e à ortografia, assinale a alternativa correta sobre a palavra 'testemunha'.",
         "alternativas": {
-          "A": "Há problema de flexão: 'fossem' deveria ser 'foram', pois 'embora' não exige subjuntivo.",
-          "B": "A frase está correta: 'portanto' indica consequência (estudou → passou) e 'embora' indica concessão com subjuntivo ('fossem') — flexão e conectivos adequados.",
-          "C": "Há problema de conectivo: 'portanto' deveria ser 'mas', pois estudar muito não garante aprovação.",
-          "D": "Há problema de flexão: 'fossem' deveria ser 'são', pois o subjuntivo é desnecessário após 'embora'.",
-          "E": "Há problema duplo: 'portanto' deveria ser 'porém' e 'fossem' deveria ser 'eram'."
+          "A": "A palavra 'testemunha' tem o mesmo número de letras e fonemas.",
+          "B": "O dígrafo 'nh' em 'testemunha' representa dois fonemas consonantais distintos.",
+          "C": "O dígrafo 'nh' representa um único fonema palatal nasal.",
+          "D": "A palavra 'testemunha' tem acento tônico na sílaba 'tes'.",
+          "E": "Em 'testemunha', a letra 'u' é muda, como em 'que' e 'gui'."
         },
-        "gabarito": "B",
-        "explicacao": "A integração gram-05 (flexão verbal — modo subjuntivo, pretérito imperfeito) e gram-08 (subordinação concessiva com 'embora') é essencial. 'Embora' é conjunção subordinativa concessiva que exige o modo subjuntivo — correto. Como o verbo principal está no pretérito perfeito ('passou'), a correlação temporal exige o pretérito imperfeito do subjuntivo: 'fossem' — correto. O conectivo 'portanto' indica consequência lógica de estudar → passar — relação semanticamente válida. A frase toda é gramaticalmente correta: sequência (estudou + portanto passou) + ressalva concessiva (embora as questões fossem difíceis)."
+        "gabarito": "C",
+        "explicacao": "O dígrafo 'nh' representa um único fonema: o fonema consonantal palatal nasal /ɲ/, semelhante ao 'gn' do italiano ou ao 'ñ' do espanhol. Um dígrafo é sempre duas letras para um único fonema. A alternativa A está errada: 'testemunha' tem 10 letras, mas o 'nh' representa um fonema — então há 9 fonemas. A alternativa B está errada: dígrafos representam um único fonema, não dois. A alternativa D está errada: o acento tônico está na sílaba 'mu' (tes-te-MU-nha). A alternativa E está errada: o 'u' em 'testemunha' é pronunciado."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-13",
-        "enunciado": "Leia: 'O oficial **referiu-se** ao relatório, **informou** os presentes e **pediu** para os recrutas **apresentarem** as conclusões.' Sobre a regência e a flexão verbal, é correto afirmar que:",
+        "topico_referencia": "gram-06",
+        "enunciado": "Assinale a alternativa em que o superlativo dos adjetivos está corretamente empregado em contexto de redação oficial.",
         "alternativas": {
-          "A": "'Pediu para os recrutas apresentarem' — o infinitivo pessoal 'apresentarem' está incorreto; deveria ser 'apresentar' (impessoal).",
-          "B": "'Referiu-se ao relatório' está correto ('referir-se a' — transitivo indireto com preposição 'a'); 'pediu para os recrutas apresentarem' também está correto — infinitivo pessoal com sujeito expresso diferente do principal.",
-          "C": "'Informou os presentes' está errado: 'informar' exige preposição 'a' — deveria ser 'informou aos presentes'.",
-          "D": "'Referiu-se ao relatório' está errado: 'referir-se' é transitivo direto, sem necessidade de preposição.",
-          "E": "Há erro de colocação pronominal: 'o oficial referiu-se' deveria ser 'o oficial se referiu'."
+          "A": "O desempenho do grupo foi o mais boníssimo da turma.",
+          "B": "Os resultados obtidos foram péssimos para o padrão da corporação.",
+          "C": "O oficial recebeu a mais ótima avaliação de sua carreira.",
+          "D": "O recruta foi considerado pequeníssimamente capaz para a função.",
+          "E": "Os capitães eram grandíssimamente experientes para o cargo."
         },
         "gabarito": "B",
-        "explicacao": "A integração gram-05 (infinitivo pessoal) e gram-10 (regência de 'referir-se', 'informar', 'pedir') é necessária. 'Referir-se a' é transitivo indireto com preposição 'a' — correto. 'Informar alguém' (no sentido de comunicar a alguém) admite objeto direto ('informou os presentes') — correto. 'Pediu para os recrutas apresentarem': o sujeito do infinitivo ('os recrutas') é diferente do sujeito da principal ('o oficial'), tornando obrigatório o infinitivo pessoal: 'apresentarem' — correto. A alternativa A erra ao negar o infinitivo pessoal obrigatório. A alternativa C erra ao impor preposição a 'informar'. A alternativa D nega a preposição de 'referir-se'."
+        "explicacao": "'Péssimos' está corretamente empregado como superlativo absoluto sintético irregular de 'mau/ruim', no plural para concordar com 'resultados'. A alternativa A comete dupla marcação de superlativo: 'mais boníssimo' (o 'mais' + '-íssimo' são redundantes). A alternativa C também comete dupla marcação: 'mais ótimo' ('ótimo' já é superlativo; não se pode intensificá-lo com 'mais'). A alternativa D usa 'pequeníssimamente', forma que não existe — superlativos de adjetivos não se transformam em advérbios com '-mente' dessa forma. A alternativa E usa 'grandíssimamente', igualmente inexistente."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + comp-07",
-        "enunciado": "Leia: 'As palavras **eram** lanças que **feriam** sem deixar cicatriz. O texto **vivia**, **respirava**, **movia**-se entre as linhas.' As formas verbais no pretérito imperfeito e a figura de linguagem empregada produzem que efeito conjunto?",
+        "topico_referencia": "gram-05",
+        "enunciado": "No trecho 'Os novos recrutas incorporados ontem já demonstravam grande entusiasmo', identifique e classifique corretamente as classes gramaticais das palavras destacadas: 'novos', 'incorporados', 'ontem', 'grande'.",
         "alternativas": {
-          "A": "O imperfeito indica ações futuras; a figura é hipérbole.",
-          "B": "O imperfeito indica ações habituais no passado; a figura é personificação (prosopopeia) — atribuir ações humanas ('vivia', 'respirava', 'movia-se') a objetos inanimados ('o texto'). A combinação cria efeito de continuidade e vitalidade do texto no passado.",
-          "C": "O imperfeito indica ações concluídas; a figura é metáfora.",
-          "D": "O imperfeito é usado incorretamente; deveriam ser verbos no presente do indicativo.",
-          "E": "O imperfeito indica incerteza; a figura é eufemismo."
+          "A": "novos: adjetivo; incorporados: adjetivo; ontem: substantivo; grande: advérbio",
+          "B": "novos: adjetivo; incorporados: particípio (adjetivo verbal); ontem: advérbio de tempo; grande: adjetivo",
+          "C": "novos: pronome; incorporados: verbo; ontem: advérbio; grande: adjetivo",
+          "D": "novos: artigo; incorporados: particípio; ontem: preposição; grande: adjetivo",
+          "E": "novos: adjetivo; incorporados: substantivo; ontem: advérbio; grande: pronome"
         },
         "gabarito": "B",
-        "explicacao": "A integração gram-05 (flexão verbal — pretérito imperfeito do indicativo) e comp-07 (figuras de linguagem — personificação/prosopopeia) é necessária. O pretérito imperfeito ('eram', 'feriam', 'vivia', 'respirava', 'movia') indica ações ou estados habituais, contínuos ou descritivos no passado — não ações pontuais concluídas. A figura presente é a personificação (ou prosopopeia): o texto — entidade inanimada — 'vivia', 'respirava' e 'movia-se', ações tipicamente humanas/biológicas. A 'lanças' cria também uma metáfora, mas o efeito dominante e conjunto com o imperfeito é de personificação que confere ao texto vitalidade contínua no passado."
+        "explicacao": "'Novos' é adjetivo que qualifica 'recrutas'. 'Incorporados' é particípio do verbo 'incorporar', funcionando como adjetivo verbal que caracteriza 'recrutas' — modifica o substantivo indicando uma ação concluída. 'Ontem' é advérbio de tempo que indica quando a incorporação ocorreu. 'Grande' é adjetivo que qualifica 'entusiasmo'. A alternativa B é a única que classifica corretamente as quatro palavras."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-11",
-        "enunciado": "Leia: 'A maioria dos candidatos **aprovaram** com nota superior à mínima exigida.' Sobre a flexão verbal e a concordância, assinale a alternativa correta:",
+        "topico_referencia": "gram-06",
+        "enunciado": "Leia o trecho:\n\n'Os cidadãos civis e os cônjuges dos militares foram tratados como testemunhas do ocorrido pelos contra-almirantes presentes.'\n\nAssinale a alternativa que analisa corretamente a flexão de gênero e número no trecho.",
         "alternativas": {
-          "A": "'Aprovaram' está correto, pois concorda com o núcleo real do sujeito ('candidatos', plural).",
-          "B": "'Aprovaram' está correto pela concordância atrativa com o complemento nominal no plural.",
-          "C": "'Aprovaram' está incorreto: o sujeito é 'a maioria' (singular), portanto o verbo deveria ser 'aprovou'. A concordância com o núcleo 'maioria' é a padrão.",
-          "D": "'Aprovaram' está incorreto: o verbo deveria ser 'aprovara' (mais-que-perfeito).",
-          "E": "Ambas as formas ('aprovou' e 'aprovaram') são igualmente corretas e intercambiáveis sem qualquer distinção."
+          "A": "'Cônjuges' deveria ser 'cônjugas' para designar as esposas dos militares.",
+          "B": "'Testemunhas' deveria ser 'testemunhos' para concordar com os referentes masculinos.",
+          "C": "Todas as flexões de gênero e número no trecho estão corretas.",
+          "D": "'Contra-almirantes' deveria ser 'contras-almirantes'.",
+          "E": "'Cidadãos civis' apresenta redundância morfológica, pois 'cidadão' já implica ser civil."
         },
         "gabarito": "C",
-        "explicacao": "A integração gram-05 (flexão verbal — pessoas e números) e gram-09 (concordância verbal com sujeito de sentido coletivo) é essencial. 'A maioria' é uma expressão partitiva cujo núcleo é 'maioria' — substantivo singular. A concordância padrão (preferida pela norma culta e pelas bancas de concurso) é com o núcleo: 'a maioria... aprovou'. A concordância com o complemento partitivo plural ('aprovaram') é tolerada em registros informais e por alguns gramáticos, mas a alternativa C descreve a regra da norma padrão, que é o critério adotado em provas militares. As alternativas A e B justificam o plural, mas a norma do concurso privilegia o singular."
+        "explicacao": "Todas as flexões estão corretas. 'Cidadãos': plural correto de 'cidadão' em -ãos. 'Cônjuges': plural de 'cônjuge', substantivo comum de dois gêneros — a mesma forma serve para maridos e esposas; 'cônjuga' não existe. 'Testemunhas': 'testemunha' é sobrecomum de gênero gramatical feminino fixo — usa-se sempre no feminino com o artigo feminino, independente do sexo dos referentes. 'Contra-almirantes': prefixo 'contra-' invariável + 'almirante' ao plural — correto. A alternativa E levanta questão semântica, não morfológica, e foge do escopo da questão."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-12",
-        "enunciado": "Leia: 'Os documentos **foram entregues**, **revistos** e **arquivados**; o prazo, **cumprido**.' Sobre a flexão verbal (particípios) e a pontuação, é correto afirmar que:",
+        "topico_referencia": "gram-04",
+        "enunciado": "Em relação à estrutura morfológica das palavras, analise o par 'recrutar' e 'recrutamento'. Assinale a alternativa que descreve corretamente o processo de formação e os morfemas presentes.",
         "alternativas": {
-          "A": "Há erro de pontuação: o ponto e vírgula deveria ser substituído por vírgula.",
-          "B": "'Revistos' é particípio irregular de 'rever'; 'cumprido' é particípio elíptico (com elipse de 'foi') — o ponto e vírgula antes de 'o prazo, cumprido' é adequado para separar duas orações de sentido completo com estrutura paralela.",
-          "C": "'Revistos' está errado: com 'foram', deveria ser 'revisados' (particípio regular).",
-          "D": "O ponto e vírgula está errado porque as orações são coordenadas aditivas, que exigem vírgula.",
-          "E": "'Arquivados' deveria ser 'arquivados' — forma inexistente; o correto seria 'arquivos'."
+          "A": "'Recrutar' é formado por prefixação (re- + crutar); 'recrutamento' é formado por sufixação de 'recrutar'.",
+          "B": "Ambas as palavras são derivadas de 'recruta' por sufixação: 'recrutar' (-ar) e 'recrutamento' (-mento).",
+          "C": "'Recrutamento' é formado diretamente de 'recruta' por sufixação com o sufixo '-mento'.",
+          "D": "'Recrutar' é um verbo primitivo; 'recrutamento' é derivado de 'recrutar' pelo sufixo '-mento'.",
+          "E": "As duas palavras são formadas por composição de radicais eruditos de origem latina."
         },
         "gabarito": "B",
-        "explicacao": "A integração gram-05 (flexão verbal — particípios) e gram-12 (pontuação — ponto e vírgula) é necessária. 'Entregues' é particípio irregular de 'entregar' (correto com 'foram'). 'Revistos' é particípio irregular de 'rever' — correto. 'Arquivados' é particípio regular de 'arquivar' — correto. O ponto e vírgula separa 'os documentos foram entregues, revistos e arquivados' da oração elíptica 'o prazo, [foi] cumprido' — separação de orações paralelas com sujeitos diferentes e sem conjunção, uso adequado do ponto e vírgula conforme as regras de pontuação. A alternativa C erra ao exigir 'revisados' com 'foram': 'rever' tem particípio irregular 'revisto', usado com 'ser/estar/foram'."
+        "explicacao": "Ambas as palavras derivam do substantivo 'recruta' por sufixação. 'Recrutar' = 'recruta' + sufixo verbal '-ar' (com apócope do -a final). 'Recrutamento' = 'recruta-' + sufixo nominal '-mento' (indicando processo ou resultado de ação), com apócope do -a. A alternativa A está errada: 're-' não é prefixo em 'recrutar' — a palavra não deriva de 'crutar'. A alternativa C está parcialmente correta, mas incompleta. A alternativa D está errada: 'recrutar' não é primitivo — deriva de 'recruta'. A alternativa E está errada: a formação é por sufixação, não por composição."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + comp-02",
-        "enunciado": "Leia: 'Caso os documentos **tivessem sido entregues** no prazo, o processo **teria avançado** normalmente.' Qual é a informação implícita depreendida da flexão verbal em modo e tempo, e qual é a estrutura verbal presente?",
+        "topico_referencia": "gram-06",
+        "enunciado": "Sobre a formação do feminino de substantivos que designam patentes e postos militares, assinale a alternativa correta.",
         "alternativas": {
-          "A": "Informação implícita: os documentos foram entregues no prazo. Estrutura: condicional real.",
-          "B": "Informação implícita: os documentos NÃO foram entregues no prazo, e o processo NÃO avançou normalmente. Estrutura: período hipotético irreal do passado (pretérito mais-que-perfeito do subjuntivo + futuro do pretérito composto).",
-          "C": "Informação implícita: talvez os documentos tenham sido entregues. Estrutura: condicional possível.",
-          "D": "Informação implícita: os documentos serão entregues no prazo. Estrutura: condicional futuro.",
-          "E": "Não há informação implícita; o período é apenas hipotético sem comprometimento com a realidade."
+          "A": "O feminino de 'sargento' é 'sargenta' — substantivo biformo.",
+          "B": "O feminino de 'almirante' é 'almirantessa'.",
+          "C": "O feminino de 'oficial' é 'oficiala'.",
+          "D": "O feminino de 'recruta' é 'recrutinha', no diminutivo feminino.",
+          "E": "O feminino de 'cabo' (posto militar) é 'caba'."
         },
-        "gabarito": "B",
-        "explicacao": "A integração gram-05 (modo subjuntivo — pretérito mais-que-perfeito do subjuntivo: 'tivessem sido entregues'; futuro do pretérito composto: 'teria avançado') e comp-03 (informação implícita) é essencial. O período hipotético irreal do passado — construído com pretérito mais-que-perfeito do subjuntivo na prótase + futuro do pretérito composto na apódose — implica que a condição NÃO se realizou no passado: os documentos NÃO foram entregues no prazo (por isso o subjuntivo irreal); consequentemente, o processo NÃO avançou normalmente. Essa é a informação implícita codificada pela flexão verbal — o leitor a deduz da estrutura gramatical sem que esteja explicitamente enunciada."
+        "gabarito": "A",
+        "explicacao": "'Sargento' tem feminino 'sargenta' — é um substantivo biformo, com duas formas distintas para os gêneros. 'Almirante' é comum de dois gêneros: 'o almirante' / 'a almirante' — 'almirantessa' não existe. 'Oficial' é comum de dois gêneros: 'o oficial' / 'a oficial' — 'oficiala' não existe. 'Recruta' é comum de dois gêneros: 'o recruta' / 'a recruta' — a designação é a mesma para ambos os sexos. 'Cabo' (posto militar) também é comum de dois gêneros: 'o cabo' / 'a cabo' — 'caba' não existe neste sentido."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-05",
-        "enunciado": "Leia: '**Aprovados** os candidatos, **divulgaram-se** os resultados.' Sobre a classificação morfológica e a flexão das formas verbais destacadas, assinale a alternativa correta:",
+        "topico_referencia": "gram-05",
+        "enunciado": "Em 'O contra-almirante determinou que todos os sargentos comparecessem imediatamente à cerimônia de incorporação', assinale a alternativa que classifica corretamente as palavras em destaque: 'todos', 'imediatamente', 'de'.",
         "alternativas": {
-          "A": "'Aprovados' é particípio em oração absoluta; 'divulgaram-se' é verbo na voz passiva sintética — ambos flexionados corretamente.",
-          "B": "'Aprovados' é adjetivo; 'divulgaram-se' é verbo reflexivo.",
-          "C": "'Aprovados' é gerúndio; 'divulgaram-se' é verbo na voz ativa.",
-          "D": "'Aprovados' é particípio; 'divulgaram-se' é voz ativa com sujeito indeterminado pelo 'se'.",
-          "E": "'Aprovados' é infinitivo pessoal flexionado; 'divulgaram-se' é voz passiva sintética."
+          "A": "todos: artigo; imediatamente: adjetivo; de: conjunção",
+          "B": "todos: pronome indefinido; imediatamente: advérbio de modo; de: preposição",
+          "C": "todos: numeral; imediatamente: advérbio de tempo; de: artigo",
+          "D": "todos: pronome demonstrativo; imediatamente: advérbio; de: preposição",
+          "E": "todos: adjetivo; imediatamente: advérbio de modo; de: conjunção"
         },
-        "gabarito": "A",
-        "explicacao": "A integração gram-05 (formas nominais — particípio; voz passiva sintética) e gram-04 (classes de palavras — particípio como forma nominal do verbo) é necessária. 'Aprovados' é o particípio de 'aprovar', usado em oração reduzida de particípio (= 'Depois que os candidatos foram aprovados'), com concordância com 'os candidatos' (masculino plural). 'Divulgaram-se' é a voz passiva sintética: 'se' é apassivador, 'os resultados' é o sujeito paciente, e o verbo concordou com ele no plural ('divulgaram'). A alternativa D erra ao classificar 'divulgaram-se' como voz ativa com sujeito indeterminado — nesse caso, o 'se' é apassivador (há objeto que pode virar sujeito), não indeterminador."
+        "gabarito": "B",
+        "explicacao": "'Todos' é pronome indefinido — indica quantidade indeterminada, referindo-se à totalidade dos sargentos sem individualizá-los. 'Imediatamente' é advérbio de modo — formado por adjetivo + '-mente', modifica o verbo 'comparecessem' indicando como a ação deve ocorrer (de forma imediata). 'De' é preposição — estabelece relação de complementação entre 'cerimônia' e 'incorporação', formando locução nominal. A alternativa B é a única com as três classificações corretas."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + comp-06",
-        "enunciado": "Leia: 'O comandante **punira** os infratores. A **sanção** aplicada foi exemplar.' A forma verbal 'punira' e a palavra 'sanção' estabelecem que relação lexical e que flexão verbal?",
+        "topico_referencia": "gram-06",
+        "enunciado": "Assinale a alternativa em que a análise do grau do nome está correta.",
         "alternativas": {
-          "A": "'Punira' é o pretérito mais-que-perfeito simples de 'punir'; 'sanção' é um hiperônimo de 'puna' (punição) — relação de hiperonímia.",
-          "B": "'Punira' é o futuro do pretérito de 'punir'; 'sanção' é sinônimo contextual de 'punição' — relação de sinonímia.",
-          "C": "'Punira' é o pretérito mais-que-perfeito simples de 'punir' (3ª pessoa do singular); 'sanção' é sinônimo contextual de 'punição', estabelecendo coesão lexical por sinonímia.",
-          "D": "'Punira' é o pretérito perfeito de 'punir'; 'sanção' é hipônimo de 'punição'.",
-          "E": "'Punira' é o pretérito imperfeito de 'punir'; 'sanção' é antônimo de 'recompensa' — relação de antonímia."
+          "A": "Em 'um pequenino recruta', temos o grau diminutivo analítico.",
+          "B": "Em 'o melhor oficial da turma', temos o superlativo absoluto sintético.",
+          "C": "Em 'uma base grandíssima', temos o superlativo absoluto sintético regular.",
+          "D": "Em 'um navio muito grande', temos o superlativo absoluto sintético.",
+          "E": "Em 'o pior resultado possível', temos o superlativo absoluto sintético irregular."
         },
         "gabarito": "C",
-        "explicacao": "A integração gram-05 (flexão verbal — pretérito mais-que-perfeito simples) e comp-06 (relações lexicais — sinonímia) é necessária. 'Punira' é o pretérito mais-que-perfeito simples do indicativo de 'punir': eu punira, tu puniras, ele punira — forma que indica ação passada anterior a outra ação passada. 'Sanção' é sinônimo contextual de 'punição' — no contexto jurídico-militar, 'sanção' refere-se a penalidade aplicada, equivalendo a 'punição'. Essa substituição configura coesão lexical por sinonímia (comp-10/comp-06): evita repetir 'puniu/punição' e retoma o evento com termo equivalente."
+        "explicacao": "Em 'uma base grandíssima', o sufixo '-íssima' é o marcador do superlativo absoluto sintético regular — a intensidade máxima é expressa por sufixo, sem comparação com outros elementos. A alternativa A está errada: 'pequeníno' usa sufixo diminutivo (-ino), portanto é grau diminutivo sintético (não analítico). A alternativa B está errada: 'o melhor oficial da turma' é superlativo relativo de superioridade (há comparação com um universo — 'da turma'). A alternativa D está errada: 'muito grande' é superlativo absoluto analítico (expresso por palavra auxiliar). A alternativa E está errada: 'o pior resultado possível' é superlativo relativo de inferioridade."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-11",
-        "enunciado": "Leia: 'Fazem dez anos que o regulamento **foi aprovado**. Naquela época, **fazia-se** necessário modernizar os procedimentos.' Sobre a flexão verbal de 'fazer' como verbo impessoal e a voz verbal, assinale a alternativa correta:",
+        "topico_referencia": "gram-00",
+        "enunciado": "Em relação à sílaba tônica e à tonicidade das palavras, assinale a alternativa correta.",
         "alternativas": {
-          "A": "'Fazem dez anos' está correto: 'fazer' concorda com 'dez anos' (plural).",
-          "B": "'Fazem dez anos' está incorreto: 'fazer' no sentido de tempo decorrido é impessoal — fica no singular: 'Faz dez anos'. 'Foi aprovado' é voz passiva analítica correta. 'Fazia-se necessário' é correto: 'fazer-se' no sentido de 'tornar-se' com predicativo.",
-          "C": "'Fazia-se necessário' está errado: com sujeito expresso, o 'se' é indeterminador e não se usa com 'fazia'.",
-          "D": "'Foi aprovado' está errado: com 'ser', o particípio deveria ser 'aprovando'.",
-          "E": "'Fazem dez anos' e 'fazia-se necessário' estão ambos corretos; apenas 'foi aprovado' está errado."
+          "A": "'Caráter' é palavra proparoxítona.",
+          "B": "'Caracteres' é palavra oxítona.",
+          "C": "'Caráter' é paroxítona; 'caracteres' é proparoxítona.",
+          "D": "Ambas as palavras, 'caráter' e 'caracteres', são paroxítonas.",
+          "E": "'Caracteres' é paroxítona com acento na penúltima sílaba."
         },
-        "gabarito": "B",
-        "explicacao": "A integração gram-05 (flexão verbal — impessoalidade do verbo 'fazer' indicando tempo) e gram-09 (concordância — verbo impessoal permanece no singular) é fundamental. 'Fazer' no sentido de tempo decorrido é impessoal: não possui sujeito, permanece sempre no singular — 'faz dez anos', 'fazia dois meses'. 'Fazem dez anos' é erro de concordância: o falante trata 'dez anos' como sujeito, mas ele é complemento. 'Foi aprovado' é voz passiva analítica correta. 'Fazia-se necessário': construção com 'fazer-se' + adjetivo ('necessário') funciona como locução verbal de sentido de 'tornar-se/ser necessário' — aceita na norma culta."
+        "gabarito": "C",
+        "explicacao": "'Caráter' é palavra paroxítona — o acento tônico recai sobre a penúltima sílaba (ca-RÁ-ter), marcado pelo acento gráfico agudo. 'Caracteres' é palavra proparoxítona — o acento tônico recai sobre a antepenúltima sílaba (ca-RAC-te-res), e por ser proparoxítona, todas recebem acento gráfico — mas 'caracteres' não tem acento gráfico porque segue a regra: todas as proparoxítonas são acentuadas. A mudança de tonicidade entre 'caráter' e 'caracteres' é justamente o que caracteriza o plural irregular dessa palavra."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "gram-06 + gram-14",
-        "enunciado": "Leia: '**Entregue-lhe** os documentos solicitados.' e 'Os documentos solicitados **lhe entregue**.' Sobre a flexão do imperativo, a colocação pronominal e a adequação das frases, assinale a alternativa correta:",
+        "topico_referencia": "gram-06",
+        "enunciado": "Um documento oficial continha a seguinte frase: 'Os almirantes-de-esquadra e os capitãos-tenentes participaram da reunião com os guarda-costas e os contra-almirantes.' Assinale a alternativa que identifica corretamente os erros de flexão nominal.",
         "alternativas": {
-          "A": "Ambas as frases estão corretas e são equivalentes.",
-          "B": "'Entregue-lhe' (ênclise no imperativo afirmativo) está incorreto: no imperativo afirmativo, o pronome vai depois do verbo apenas em próclise.",
-          "C": "'Entregue-lhe os documentos' está correto (ênclise no imperativo afirmativo — regra padrão). 'Os documentos solicitados lhe entregue' apresenta ordem invertida (objeto antecipado) com próclise — estrutura possível, mas marcada estilisticamente.",
-          "D": "'Entregue-lhe' está correto; 'lhe entregue' está errado porque pronomes não podem preceder o verbo no imperativo.",
-          "E": "Ambas as frases estão erradas: o imperativo afirmativo exige ênclise com hífen obrigatório e não admite próclise."
+          "A": "Há um único erro: 'capitãos-tenentes' deveria ser 'capitães-tenentes'.",
+          "B": "Há dois erros: 'capitãos-tenentes' → 'capitães-tenentes' e 'guarda-costas' → 'guardas-costas'.",
+          "C": "Há três erros: 'almirantes-de-esquadra' → 'almirantas-de-esquadra', 'capitãos-tenentes' → 'capitães-tenentes' e 'contra-almirantes' → 'contras-almirantes'.",
+          "D": "Não há erros — todas as formas estão corretas.",
+          "E": "Há dois erros: 'almirantes-de-esquadra' → 'almirante-de-esquadras' e 'capitãos-tenentes' → 'capitães-tenentes'."
         },
-        "gabarito": "C",
-        "explicacao": "A integração gram-05 (modo imperativo — flexão verbal) e gram-11 (colocação pronominal) é essencial. No imperativo afirmativo, a regra padrão é a ênclise: 'entregue-lhe' — correto. Quando há elemento antecipado (objeto direto à frente da oração), a próclise se justifica por atração pronominal: 'Os documentos solicitados lhe entregue' — a anteposição do objeto ('os documentos solicitados') cria contexto de próclise. A alternativa D erra ao afirmar que próclise é impossível no imperativo — ela é apenas não preferida sem fator de atração. A alternativa E erra ao absolutizar a ênclise como regra sem exceções."
+        "gabarito": "A",
+        "explicacao": "Há apenas um erro na frase: 'capitãos-tenentes', que deveria ser 'capitães-tenentes'. O plural de 'capitão' é 'capitães' (padrão -ães); como 'tenente' é um segundo posto equivalente, ambos vão ao plural: 'capitães-tenentes'. As demais formas estão corretas: 'almirantes-de-esquadra' (substantivo + complemento: só o primeiro ao plural), 'guarda-costas' (verbo + substantivo: só o segundo ao plural — correto como está), 'contra-almirantes' (prefixo invariável + substantivo no plural — correto)."
       }
     ]
   }

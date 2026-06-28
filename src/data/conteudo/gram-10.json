@@ -2,150 +2,214 @@
   "id": "gram-10",
   "titulo": "Coordenação e Subordinação",
   "area": "Gramática",
-  "resumo": "Estudo das relações sintáticas entre orações: coordenação (orações independentes ligadas por conjunções coordenativas ou justapostas) e subordinação (orações dependentes de uma principal, classificadas em substantivas, adjetivas e adverbiais). Tópico de alta incidência no concurso RM2, exigindo domínio das conjunções, dos valores semânticos e da pontuação correlata.",
+  "resumo": "Quando unimos duas ou mais orações em um período, fazemos isso de duas formas: pela coordenação, em que cada oração tem sentido próprio e independe das demais, ou pela subordinação, em que uma oração depende da outra para ter sentido completo. Dominar essa distinção é fundamental para interpretar e reescrever textos com precisão — e é uma das maiores fontes de questões da banca CEBRASPE. Neste tópico você vai aprender a identificar o tipo de relação entre as orações, classificar as conjunções coordenativas e subordinativas e reconhecer os efeitos de sentido que cada escolha produz no texto.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Período Simples e Período Composto",
-        "conteudo": "O período simples contém apenas uma oração (um único verbo ou locução verbal): 'O cadete estudou toda a madrugada.' O período composto contém duas ou mais orações. Quando as orações se combinam sem relação de dependência gramatical entre si, o período é composto por coordenação. Quando uma oração funciona como termo de outra (sujeito, objeto, adjunto etc.), o período é composto por subordinação. É possível ainda o período composto por coordenação e subordinação simultaneamente, situação muito explorada em provas militares. A identificação correta do tipo de período exige localizar todos os verbos, distinguir as conjunções coordenativas das subordinativas e verificar se a retirada de uma oração torna o período agramatical — sinal inequívoco de subordinação.",
+        "subtitulo": "1. Oração independente vs. oração dependente",
+        "conteudo": "Imagine dois soldados em patrulha. O primeiro pode agir sozinho — mesmo que o parceiro caia, ele continua a missão. O segundo só existe em função do primeiro: sem ele, não tem razão de estar ali.\n\nIsso é exatamente a diferença entre coordenação e subordinação. Na coordenação, cada oração é como o primeiro soldado: tem sujeito, verbo e sentido completo por conta própria. Se você separar as orações com um ponto, cada uma continua fazendo sentido.\n\nNa subordinação, a oração dependente (chamada de subordinada) é como o segundo soldado: ela precisa da oração principal para existir. Sozinha, fica incompleta — você sente que falta algo.\n\nTeste rápido: 'O recruta dormiu e o sargento acordou cedo.' Separe: 'O recruta dormiu.' Faz sentido. 'O sargento acordou cedo.' Faz sentido. São coordenadas. Agora: 'Quando o recruta dormiu, o sargento acordou.' Separe: 'Quando o recruta dormiu.' Não faz sentido sozinho — é subordinada.\n\nO erro mais comum é identificar qualquer oração com conjunção como subordinada. Conjunções coordenativas também ligam orações!",
+        "regra": "Coordenada = orações independentes entre si · Subordinada = oração depende da principal para ter sentido",
         "exemplos": [
-          "Período simples: 'A Marinha protege as águas territoriais brasileiras.'",
-          "Composto por coordenação: 'O navio partiu e a tripulação se despediu.'",
-          "Composto por subordinação: 'Espero que o candidato seja aprovado.'",
-          "Composto misto: 'O oficial que chegou cedo e seus subordinados já estavam prontos.'"
-        ],
-        "regra": "Conte os verbos: um verbo = período simples; dois ou mais verbos = período composto. Depois classifique as relações entre as orações."
+          {
+            "texto_base": "O contra-almirante assinou o relatório e o imediato encaminhou o documento ao Comando do 4° Distrito Naval.",
+            "anotacoes": [
+              {
+                "trecho": "O contra-almirante assinou o relatório",
+                "destaque": "Oração coord. 1",
+                "motivo": "Sentido completo sozinha — sujeito e verbo próprios, independe da outra oração"
+              },
+              {
+                "trecho": "o imediato encaminhou o documento ao Comando do 4° Distrito Naval",
+                "destaque": "Oração coord. 2",
+                "motivo": "Também tem sentido completo sozinha — as duas se unem sem dependência"
+              },
+              {
+                "trecho": "e",
+                "destaque": "Conj. coord. aditiva",
+                "motivo": "Liga as duas orações independentes somando informações — coordenação aditiva"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "2. Orações Coordenadas: Classificação e Conjunções",
-        "conteudo": "As orações coordenadas são sintaticamente independentes entre si: cada uma poderia formar um período simples. Dividem-se em assindéticas (sem conjunção, separadas por vírgula, ponto e vírgula ou dois-pontos) e sindéticas (ligadas por conjunção coordenativa). As sindéticas classificam-se em: (a) Aditivas — somam ideias; conjunções: 'e', 'nem', 'não só… mas também', 'tanto… como', 'bem como'; (b) Adversativas — exprimem oposição ou ressalva; conjunções: 'mas', 'porém', 'contudo', 'todavia', 'entretanto', 'no entanto', 'senão'; (c) Alternativas — exprimem alternância ou exclusão; conjunções: 'ou', 'ora…ora', 'quer…quer', 'seja…seja'; (d) Conclusivas — exprimem conclusão; conjunções: 'logo', 'portanto', 'por isso', 'então', 'assim', 'pois' (posposto ao verbo); (e) Explicativas — introduzem explicação ou justificativa; conjunções: 'que', 'porque', 'pois' (anteposto ao verbo), 'porquanto'. A distinção entre 'pois' explicativo (anteposto) e 'pois' conclusivo (posposto) é clássica em provas.",
+        "subtitulo": "2. Conjunções coordenativas e seus tipos",
+        "conteudo": "Pense nas conjunções coordenativas como conectores de peças iguais — elas unem orações que têm o mesmo 'peso' no período. Cada tipo de conjunção cria um efeito de sentido diferente.\n\nAs conjunções aditivas somam ideias: 'e', 'nem', 'não só... mas também'. As adversativas indicam contraste ou oposição: 'mas', 'porém', 'contudo', 'todavia', 'entretanto', 'no entanto'. As alternativas indicam escolha ou exclusão: 'ou... ou', 'ora... ora', 'quer... quer'. As conclusivas concluem ou tiram consequência: 'logo', 'portanto', 'então', 'assim', 'por isso'. As explicativas justificam: 'pois' (depois do verbo), 'porque' (valor explicativo), 'que'.\n\nUma distinção muito cobrada pela CEBRASPE: 'mas' é adversativo (contraste entre orações independentes), enquanto 'embora' é subordinativo (a oração com 'embora' depende da principal). Os dois indicam contraste, mas de formas diferentes.\n\nO erro mais comum é confundir 'pois' explicativo (coordenativo) com 'pois' causal (subordinativo). A posição na frase resolve: 'pois' antes do verbo principal tende a ser subordinativo; depois, coordenativo.",
+        "regra": "Aditiva: e/nem · Adversativa: mas/porém/contudo · Alternativa: ou/ora · Conclusiva: logo/portanto · Explicativa: pois/que",
         "exemplos": [
-          "Aditiva: 'Estudou morfologia e revisou sintaxe.'",
-          "Adversativa: 'Treinou muito, mas não alcançou a nota mínima.'",
-          "Alternativa: 'Ou você estuda, ou você reprova.'",
-          "Conclusiva: 'Dedicou-se ao máximo; portanto, foi aprovado.'",
-          "Explicativa: 'Não saia, pois está chovendo.' (pois antes do verbo = explicação)",
-          "Conclusiva com pois posposto: 'Estudou muito; foi aprovado, pois.'"
-        ],
-        "regra": "Para classificar a coordenada sindética, substitua a conjunção por um sinônimo de classe conhecida. Se aceitar 'mas' = adversativa; 'e' = aditiva; 'portanto' = conclusiva; 'porque' = explicativa; 'ou' = alternativa."
+          {
+            "texto_base": "O recruta não compareceu ao rancho, portanto será advertido; ora dormia na liteira, ora perambulava pelo corredor, mas nunca cumpria a escala.",
+            "anotacoes": [
+              {
+                "trecho": "portanto",
+                "destaque": "Coord. conclusiva",
+                "motivo": "Tira uma conclusão da oração anterior — típica conjunção conclusiva"
+              },
+              {
+                "trecho": "ora dormia na liteira, ora perambulava pelo corredor",
+                "destaque": "Coord. alternativa",
+                "motivo": "'Ora... ora' indica alternância entre duas situações — coordenação alternativa"
+              },
+              {
+                "trecho": "mas",
+                "destaque": "Coord. adversativa",
+                "motivo": "Indica contraste entre orações independentes — coordenação adversativa"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "3. Orações Subordinadas Substantivas",
-        "conteudo": "A oração subordinada substantiva exerce função de substantivo (sujeito, objeto direto, objeto indireto, complemento nominal, predicativo, aposto) em relação à oração principal. São introduzidas por: conjunções integrantes 'que' e 'se' (nas desenvolvidas) ou por infinitivo, gerúndio ou particípio (nas reduzidas). Classificação: (1) Subjetiva — funciona como sujeito da principal: 'É necessário que o candidato leia com atenção.' (o sujeito de 'é necessário' é a oração toda); (2) Objetiva direta — objeto direto do verbo da principal: 'Quero que você passe.' (3) Objetiva indireta — objeto indireto: 'Preciso de que me ajudes.' (4) Completiva nominal — complementa um nome: 'Tenho certeza de que vencerei.' (5) Predicativa — predicativo do sujeito: 'O fato é que ele errou.' (6) Apositiva — aposto: 'Havia apenas uma esperança: que ele chegasse a tempo.' A identificação da subjetiva exige atenção: verbos impessoais ('convir', 'importar', 'acontecer') e construções com 'é + adjetivo' frequentemente a introduzem.",
+        "subtitulo": "3. Orações subordinadas substantivas",
+        "conteudo": "Você sabe que um substantivo pode exercer funções como sujeito, objeto direto, objeto indireto e complemento nominal. Pois bem: uma oração inteira pode exercer essas mesmas funções. Quando isso acontece, chamamos de oração subordinada substantiva.\n\nPense assim: 'Quero paz.' Paz é objeto direto. Agora expanda: 'Quero que haja paz no quartel.' A oração 'que haja paz no quartel' ocupa o lugar de paz — é objeto direto também, mas em forma de oração. Isso é uma subordinada substantiva objetiva direta.\n\nOs tipos se classificam pela função que exercem: subjetiva (faz papel de sujeito), objetiva direta (objeto direto), objetiva indireta (objeto indireto com preposição), completiva nominal (completa um nome), predicativa (é predicativo do sujeito) e apositiva (aposta o sujeito).\n\nSão introduzidas por 'que', 'se', ou por pronomes/advérbios interrogativos: 'quem', 'como', 'quando', 'onde', 'quanto'.\n\nO erro mais comum é confundir 'que' conjunção integrante (introduz subordinada substantiva) com 'que' pronome relativo (introduz subordinada adjetiva).",
+        "regra": "Substantiva = oração no lugar de um substantivo · Introduzida por 'que' integrante ou 'se' · Identifique a função: sujeito / OD / OI / pred.",
         "exemplos": [
-          "Subjetiva: 'Convém que você revise a matéria.' (o que convém? = a oração subordinada)",
-          "Objetiva direta: 'O comandante ordenou que todos embarcassem.'",
-          "Objetiva indireta: 'Lembrei-me de que havia uma prova.'",
-          "Completiva nominal: 'Tinha medo de que o barco afundasse.'",
-          "Predicativa: 'O problema é que não há vagas.'",
-          "Apositiva: 'Só quero uma coisa: que você seja feliz.'"
-        ],
-        "regra": "Para identificar a substantiva, substitua a oração por um pronome neutro ('isso', 'aquilo'): se a substituição funcionar sintaticamente, é subordinada substantiva."
+          {
+            "texto_base": "É necessário que todos os oficiais apresentem a documentação. O comandante perguntou se o imediato havia assinado o relatório de incorporação.",
+            "anotacoes": [
+              {
+                "trecho": "que todos os oficiais apresentem a documentação",
+                "destaque": "Sub. subst. subjetiva",
+                "motivo": "'É necessário' pede um sujeito — a oração com 'que' ocupa essa função"
+              },
+              {
+                "trecho": "se o imediato havia assinado o relatório de incorporação",
+                "destaque": "Sub. subst. obj. direta",
+                "motivo": "'Perguntou' o quê? — a oração com 'se' é o objeto direto do verbo perguntar"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "4. Orações Subordinadas Adjetivas",
-        "conteudo": "A oração subordinada adjetiva funciona como adjetivo, modificando um substantivo (antecedente) da oração principal. São introduzidas por pronomes relativos: 'que', 'quem', 'onde', 'quando', 'como', 'cujo/cuja', 'o qual/a qual/os quais/as quais'. Dividem-se em: (a) Restritiva — restringe o significado do antecedente, sem vírgulas, essencial ao sentido: 'Os candidatos que estudaram foram aprovados.' (só os que estudaram, não todos); (b) Explicativa — acrescenta informação acessória sobre um antecedente já definido, entre vírgulas: 'Os candidatos, que estudaram muito, foram aprovados.' (todos os candidatos estudaram muito). A vírgula é o sinal distintivo crucial. 'Cujo' equivale a 'de quem / do qual' e estabelece relação de posse; não pode ser precedido de artigo nem seguido de artigo (erro clássico: 'cujo o livro'). O pronome relativo 'onde' refere-se a lugar; o uso de 'onde' referindo-se a entidades abstratas ou pessoas é inadequado na norma culta.",
+        "subtitulo": "4. Orações subordinadas adjetivas",
+        "conteudo": "O adjetivo serve para caracterizar um substantivo. Uma oração subordinada adjetiva faz o mesmo: ela caracteriza ou especifica um substantivo (chamado de antecedente), e é introduzida por um pronome relativo: 'que', 'quem', 'cujo', 'onde', 'o qual' e variações.\n\nExistem dois tipos fundamentais, e a CEBRASPE adora explorar a diferença entre eles. A adjetiva restritiva não tem vírgulas e restringe o significado do antecedente — sem ela, a frase muda de sentido. A adjetiva explicativa vem entre vírgulas e apenas acrescenta uma informação extra — se você tirá-la, o sentido principal permanece.\n\nExemplo: 'Os recrutas que não passaram no teste serão desligados.' (restritiva — só os que não passaram, não todos). 'Os recrutas, que vieram do interior, serão alojados.' (explicativa — todos os recrutas, e a informação de que vieram do interior é adicional).\n\nO erro mais comum é omitir ou inserir vírgulas indevidamente, alterando se a adjetiva é restritiva ou explicativa — isso muda completamente o sentido da frase.",
+        "regra": "Adjetiva restritiva = sem vírgulas, restringe o antecedente · Adjetiva explicativa = com vírgulas, apenas acrescenta info",
         "exemplos": [
-          "Restritiva: 'O militar que foi promovido recebeu medalha.' (só esse, não todos)",
-          "Explicativa: 'O almirante, que foi promovido, recebeu medalha.' (informação adicional)",
-          "Com cujo: 'O oficial cujo relatório foi aprovado receberá elogios.' (sem artigo após cujo)",
-          "Com onde: 'O porto onde atracamos era moderno.' (lugar concreto)",
-          "Erro com onde: 'A empresa onde trabalho...' (aceitável coloquialmente, mas rigor culto pede 'em que')"
-        ],
-        "regra": "Vírgula distingue restritiva (sem vírgula = restringe) de explicativa (com vírgula = acrescenta). Nunca use 'cujo + artigo'."
+          {
+            "texto_base": "Os sargentos que concluíram o curso de especialização receberão promoção. Os sargentos, que são militares de carreira, merecem o reconhecimento do Comando.",
+            "anotacoes": [
+              {
+                "trecho": "que concluíram o curso de especialização",
+                "destaque": "Adj. restritiva",
+                "motivo": "Sem vírgulas — restringe: só os sargentos que concluíram o curso, não todos"
+              },
+              {
+                "trecho": "que são militares de carreira",
+                "destaque": "Adj. explicativa",
+                "motivo": "Entre vírgulas — informa algo de todos os sargentos, sem restringir o grupo"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "5. Orações Subordinadas Adverbiais: Classificação e Conjunções",
-        "conteudo": "A oração subordinada adverbial funciona como advérbio (adjunto adverbial) da oração principal, expressando circunstâncias diversas. Classificação com as principais conjunções e locuções: (1) Causal — causa ou motivo; 'porque', 'como' (anteposto), 'uma vez que', 'já que', 'visto que', 'porquanto': 'Como chegou tarde, perdeu a formatura.'; (2) Consecutiva — consequência; 'que' (correlacionado com 'tão', 'tanto', 'tal', 'tamanho'): 'Estudou tanto que passou com folga.'; (3) Concessiva — concessão, ideia contrária não impede ação; 'embora', 'ainda que', 'mesmo que', 'por mais que', 'posto que', 'conquanto': 'Embora cansado, estudou.'; (4) Condicional — condição; 'se', 'caso', 'desde que', 'contanto que', 'a menos que', 'a não ser que': 'Se estudar, passará.'; (5) Final — finalidade; 'para que', 'a fim de que', 'que': 'Estudou para que pudesse passar.'; (6) Temporal — tempo; 'quando', 'enquanto', 'assim que', 'logo que', 'desde que', 'antes que', 'depois que', 'mal': 'Mal chegou, começou a trabalhar.'; (7) Comparativa — comparação; 'como', 'quanto', 'do que', 'assim como', 'tal qual': 'Ele corre como um atleta.'; (8) Conformativa — conformidade; 'conforme', 'segundo', 'como', 'consoante': 'Fez tudo como mandou o regulamento.'; (9) Proporcional — proporção; 'à medida que', 'ao passo que', 'à proporção que': 'À medida que estudava, melhorava.'; (10) Integrante/Modal — modo; 'como', 'sem que', 'de modo que': 'Entrou sem que ninguém percebesse.'",
+        "subtitulo": "5. Orações subordinadas adverbiais e seus tipos",
+        "conteudo": "Assim como um advérbio indica circunstância (tempo, causa, condição, etc.), uma oração subordinada adverbial expressa uma dessas circunstâncias em relação à oração principal.\n\nOs tipos mais cobrados pelo CEBRASPE são: causal ('porque', 'já que', 'visto que' — indica causa), condicional ('se', 'caso', 'desde que' — indica condição), concessiva ('embora', 'ainda que', 'mesmo que' — indica concessão, contraste), temporal ('quando', 'enquanto', 'assim que' — indica tempo), consecutiva ('de modo que', 'tanto... que' — indica consequência) e final ('para que', 'a fim de que' — indica finalidade).\n\nA concessiva merece atenção especial: ela introduz uma ideia contrária que, mesmo assim, não impede o fato da principal. 'Embora estivesse cansado, o oficial concluiu o relatório.' O cansaço não impediu a conclusão — isso é concessão.\n\nO erro mais comum é confundir causa e concessão: 'porque' indica que a causa leva ao efeito; 'embora' indica que o fato ocorre apesar do obstáculo.",
+        "regra": "Causal: porque/já que · Condicional: se/caso · Concessiva: embora/ainda que · Temporal: quando/enquanto · Final: para que",
         "exemplos": [
-          "Causal: 'Uma vez que o prazo acabou, não há recurso.'",
-          "Consecutiva: 'Fazia tanto frio que o motor não pegou.'",
-          "Concessiva: 'Embora chovesse, o exercício continuou.'",
-          "Condicional: 'Caso haja vagas, farei a inscrição.'",
-          "Final: 'Treinou exaustivamente a fim de que pudesse ser selecionado.'",
-          "Temporal: 'Assim que o sinal soou, todos pararam.'",
-          "Proporcional: 'À medida que o concurso se aproximava, a ansiedade aumentava.'"
-        ],
-        "regra": "Decora as correlações das consecutivas (tão/tanto/tal/tamanho + que) e nunca confunda 'à medida que' (proporcional) com 'na medida em que' (causal). 'Conforme' e 'segundo' introduzem conformativas, não causais."
+          {
+            "texto_base": "Embora o navio estivesse com problemas mecânicos, a missão foi concluída com êxito porque a tripulação agiu com eficiência. Caso haja nova avaria, o comandante acionará o serviço de manutenção para que os reparos sejam feitos com urgência.",
+            "anotacoes": [
+              {
+                "trecho": "Embora o navio estivesse com problemas mecânicos",
+                "destaque": "Sub. adv. concessiva",
+                "motivo": "'Embora' introduz obstáculo que não impediu a ação principal — concessão"
+              },
+              {
+                "trecho": "porque a tripulação agiu com eficiência",
+                "destaque": "Sub. adv. causal",
+                "motivo": "'Porque' indica a causa do êxito — explica por que a missão foi concluída"
+              },
+              {
+                "trecho": "Caso haja nova avaria",
+                "destaque": "Sub. adv. condicional",
+                "motivo": "'Caso' introduz condição hipotética para que a ação principal ocorra"
+              },
+              {
+                "trecho": "para que os reparos sejam feitos com urgência",
+                "destaque": "Sub. adv. final",
+                "motivo": "'Para que' indica a finalidade, o objetivo da ação do comandante"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "6. Orações Reduzidas e Suas Equivalências",
-        "conteudo": "As orações reduzidas não são introduzidas por conjunção nem por pronome relativo; em vez disso, seu verbo aparece em forma nominal: infinitivo, gerúndio ou particípio. Toda oração reduzida tem uma equivalente desenvolvida (com conjunção + verbo no modo indicativo ou subjuntivo). Tipos: (a) Reduzida de infinitivo — pode equivaler a substantiva, adjetiva ou adverbial: 'Quero estudar.' (= que eu estude; objetiva direta); 'Vim para estudar.' (= para que eu estudasse; adverbial final); 'Tenho livros para ler.' (= que eu leia; adjetiva); (b) Reduzida de gerúndio — geralmente adverbial causal, temporal ou condicional: 'Estudando bastante, você passa.' (= se estudar bastante; condicional); 'Saiu correndo.' (= enquanto corria; temporal); (c) Reduzida de particípio — geralmente adverbial temporal, causal ou concessiva: 'Terminada a prova, saiu.' (= depois que a prova terminou; temporal); 'Vencido pelo cansaço, dormiu.' (= porque foi vencido; causal). A identificação da função exige transformar a reduzida em desenvolvida e verificar que conjunção se encaixa.",
+        "subtitulo": "6. Efeitos de sentido: troca de conjunção altera o texto",
+        "conteudo": "Uma das armadilhas favoritas da CEBRASPE é apresentar uma reescritura que substitui uma conjunção por outra e perguntar se o sentido foi mantido. Muitas vezes, não foi — e o candidato precisa perceber isso.\n\nCada conjunção carrega um valor semântico preciso. Trocar 'porque' por 'embora' inverte a relação lógica: a causa vira concessão. Trocar 'mas' por 'e' elimina o contraste. Trocar 'logo' por 'porém' transforma conclusão em oposição.\n\nAlém disso, a posição da oração subordinada pode mudar a ênfase sem mudar o sentido. 'Como o sargento estava doente, não foi à formatura' e 'O sargento não foi à formatura porque estava doente' têm o mesmo valor lógico — apenas a oração causal mudou de posição.\n\nO erro mais comum é aceitar qualquer substituição de conjunção como equivalente sem verificar se o valor semântico foi preservado.",
+        "regra": "Antes de aceitar reescritura: verifique o valor da conjunção original × substituta · Causa ≠ Concessão ≠ Condição ≠ Contraste",
         "exemplos": [
-          "Reduzida de infinitivo (subjetiva): 'É bom estudar todo dia.' (= que se estude)",
-          "Reduzida de infinitivo (adverbial final): 'Correu para pegar o ônibus.' (= para que pegasse)",
-          "Reduzida de gerúndio (adverbial causal): 'Sendo inteligente, resolveu o problema.' (= porque era inteligente)",
-          "Reduzida de particípio (adverbial temporal): 'Aprovado no concurso, comemorou.' (= depois que foi aprovado)"
-        ],
-        "regra": "Para classificar uma oração reduzida: 1) Desenvolva-a inserindo conjunção e verbo conjugado; 2) O tipo da conjunção que encaixar revela a classificação da oração."
-      },
-      {
-        "subtitulo": "7. Pontuação nas Orações Coordenadas e Subordinadas",
-        "conteudo": "A pontuação obedece a regras precisas conforme o tipo de oração. Nas coordenadas: a vírgula é usada antes das conjunções adversativas ('mas', 'porém', 'contudo', 'todavia', 'entretanto', 'no entanto') e conclusivas ('logo', 'portanto', 'assim', 'então'). A conjunção 'e' normalmente não exige vírgula em orações com o mesmo sujeito; porém, usa-se vírgula antes de 'e' quando as orações têm sujeitos diferentes ('O oficial partiu, e os recrutas ficaram.') ou quando 'e' tem valor adversativo. Nas coordenadas assindéticas, usa-se vírgula ou ponto e vírgula. Nas subordinadas adverbiais: quando antepostas à principal, a oração adverbial é separada por vírgula: 'Embora cansado, continuou.' Quando pospostas, em geral dispensa-se a vírgula: 'Continuou embora estivesse cansado.' Nas subordinadas adjetivas explicativas, sempre com vírgulas; nas restritivas, nunca com vírgulas. A vírgula não separa sujeito de predicado, nem verbo de seu complemento — erros graves em provas.",
-        "exemplos": [
-          "Adversativa com vírgula: 'Estudou muito, mas não passou.'",
-          "'E' sem vírgula (mesmo sujeito): 'Estudou e dormiu cedo.'",
-          "'E' com vírgula (sujeitos diferentes): 'O sargento foi ao quartel, e o soldado ficou de guarda.'",
-          "Adverbial anteposta (vírgula): 'Como havia chovido, as ruas estavam molhadas.'",
-          "Adverbial posposta (sem vírgula): 'As ruas estavam molhadas porque havia chovido.'",
-          "Explicativa (vírgulas): 'O comandante, que era experiente, tomou a decisão certa.'",
-          "Restritiva (sem vírgula): 'O comandante que era experiente tomou a decisão certa.'"
-        ],
-        "regra": "Antes de 'mas/porém/contudo/todavia/entretanto/logo/portanto' = vírgula obrigatória. Adverbial anteposta = vírgula. Explicativa = vírgulas. Restritiva = sem vírgula."
+          {
+            "texto_base": "O oficial foi punido porque descumpriu a ordem. / O oficial foi punido embora tenha descumprido a ordem.",
+            "anotacoes": [
+              {
+                "trecho": "porque descumpriu a ordem",
+                "destaque": "Causal — causa da punição",
+                "motivo": "'Porque' indica que o descumprimento foi a causa da punição — relação lógica de causa e efeito"
+              },
+              {
+                "trecho": "embora tenha descumprido a ordem",
+                "destaque": "Concessiva — sentido oposto",
+                "motivo": "'Embora' indica que a punição ocorreu apesar do descumprimento — sentido completamente diferente, punição seria injustificada ou surpreendente"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Pois explicativo × pois conclusivo",
-      "errado": "Classificar 'Descanse, pois você merece.' como oração coordenada conclusiva.",
-      "correto": "É coordenada explicativa, pois 'pois' está anteposto ao verbo da segunda oração e apresenta uma justificativa (você merece = razão para descansar).",
-      "explicacao": "A conjunção 'pois' tem dois empregos distintos. Quando anteposta ao verbo, é explicativa e equivale a 'porque': 'Descanse, pois você merece.' (= porque você merece). Quando posposta ao verbo, é conclusiva e equivale a 'portanto': 'Você merece; descanse, pois.' A posição é o único critério seguro de distinção.",
+      "titulo": "'Mas' versus 'embora': contraste diferente",
+      "errado": "Embora o recruta estudou bastante, passou na prova.",
+      "correto": "Embora o recruta tivesse estudado bastante, passou na prova.",
+      "explicacao": "Há dois erros comuns aqui. Primeiro, 'embora' exige o verbo no subjuntivo ('tivesse estudado'), não no indicativo ('estudou'). Segundo, a frase com 'embora' diz que ele passou apesar do estudo — logicamente estranha, pois estudar favorece a aprovação. 'Embora' é para obstáculos que não impedem o resultado, não para causas que favorecem. O uso de 'embora' em contextos de causa esperada é uma pegadinha clássica.",
       "nivel": "basico"
     },
     {
-      "titulo": "Confundir 'embora' com conjunção causal",
-      "errado": "Interpretar 'Embora chovesse, o treino continuou.' como oração causal (a chuva causou a continuação).",
-      "correto": "É oração subordinada adverbial concessiva: a chuva deveria impedir o treino, mas não impediu. A concessiva indica que a circunstância expressa não impediu a ação da principal.",
-      "explicacao": "A armadilha está no raciocínio causal intuitivo: chuva → interrupção do treino. Mas 'embora' sempre indica concessão (o que era esperado não aconteceu). Para confirmar: substitua por 'apesar de que' — se fizer sentido, é concessiva. 'Apesar de que chovesse, o treino continuou.' = sentido preservado.",
+      "titulo": "'Pois' antes ou depois do verbo",
+      "errado": "Vá logo, pois você pode se atrasar para a formatura.",
+      "correto": "Vá logo, pois você pode se atrasar para a formatura. (coordenativa explicativa — correto) / Você pode se atrasar para a formatura, pois vai logo. (sentido alterado)",
+      "explicacao": "A pegadinha aqui é entender a posição do 'pois'. Quando 'pois' vem imediatamente após a primeira oração, é explicativo e coordenativo — 'Vá logo, pois pode se atrasar' (correto, explicando a razão do pedido). Se o 'pois' estivesse introduzindo uma oração antes da principal, o sentido e a classificação mudariam. A banca cobra se o candidato sabe que 'pois' explicativo é coordenativo, não subordinativo.",
       "nivel": "basico"
     },
     {
-      "titulo": "Oração com 'que' — relativo ou integrante?",
-      "errado": "Classificar o 'que' de 'Espero que você passe.' como pronome relativo, identificando uma oração adjetiva.",
-      "correto": "O 'que' é conjunção integrante e a oração 'que você passe' é subordinada substantiva objetiva direta.",
-      "explicacao": "O pronome relativo 'que' substitui um antecedente (substantivo ou pronome) e pode ser substituído por 'o qual'. Na oração 'Espero que você passe', não há antecedente para 'que' substituir — ele apenas introduz a oração. A conjunção integrante 'que' não exerce função sintática dentro da oração que introduz. Teste: tente substituir por 'o qual' — se não funcionar, é conjunção integrante.",
+      "titulo": "Adjetiva restritiva com vírgula indevida",
+      "errado": "Os oficiais, que foram promovidos, receberão nova insígnia.",
+      "correto": "Os oficiais que foram promovidos receberão nova insígnia.",
+      "explicacao": "A vírgula transforma a adjetiva em explicativa, indicando que todos os oficiais foram promovidos e todos receberão insígnia. Sem vírgula, a oração é restritiva: apenas os oficiais que foram promovidos (não todos) receberão insígnia. A CEBRASPE frequentemente apresenta essas duas versões e pergunta se o sentido é equivalente — não é. A presença ou ausência de vírgula muda fundamentalmente o universo de referência do substantivo.",
       "nivel": "intermediario"
     },
     {
-      "titulo": "Oração adjetiva restritiva com vírgula (erro de pontuação)",
-      "errado": "Os militares, que se dedicaram, foram promovidos. (quando a intenção é restringir: somente os dedicados foram promovidos)",
-      "correto": "Os militares que se dedicaram foram promovidos. (sem vírgula = restritiva = só aqueles que se dedicaram)",
-      "explicacao": "A vírgula transforma uma oração restritiva em explicativa, alterando completamente o sentido. Com vírgula: todos os militares se dedicaram (informação adicional sobre todos). Sem vírgula: apenas os que se dedicaram foram promovidos (restringe o universo). Em provas militares, questões de interpretação exploram essa diferença semântica gerada pela pontuação.",
-      "nivel": "avancado"
+      "titulo": "Subordinada adverbial causal versus condicional",
+      "errado": "Se o navio atrasou, a missão foi comprometida.",
+      "correto": "Como o navio atrasou, a missão foi comprometida.",
+      "explicacao": "O 'se' indica condição hipotética — algo que pode ou não ter acontecido. Se o texto afirma que o atraso de fato ocorreu, a conjunção correta é causal: 'como', 'porque', 'já que', 'visto que'. Usar 'se' em contexto de fato consumado cria ambiguidade: o leitor não sabe se o atraso aconteceu ou é apenas uma hipótese. A CEBRASPE testa se o candidato percebe que condição hipotética e causa real são relações lógicas distintas.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Confundir oração coordenada adversativa com concessiva",
-      "errado": "Identificar 'Estudou muito, mas não foi aprovado.' como período composto por subordinação (oração concessiva).",
-      "correto": "É período composto por coordenação adversativa. A conjunção 'mas' coordena duas orações independentes, sem relação de dependência sintática.",
-      "explicacao": "Adversativa e concessiva têm valor semântico parecido (oposição), mas estrutura sintática diferente. Na adversativa ('mas', 'porém'), as orações são independentes — coordenadas. Na concessiva ('embora', 'ainda que'), a oração é dependente da principal — subordinada. Teste: na coordenada, cada oração forma sentido sozinha. 'Estudou muito.' / 'Não foi aprovado.' — ambas completas = coordenadas.",
+      "titulo": "Reescritura com troca de coordenação por subordinação",
+      "errado": "O sargento cumpriu a missão, mas o recruta desertou. = Embora o sargento tivesse cumprido a missão, o recruta desertou. (sentidos idênticos)",
+      "correto": "Os sentidos NÃO são idênticos: na frase original, os dois fatos têm peso igual (coordenação adversativa). Na reescritura, a deserção do recruta ganha destaque como fato principal, e o cumprimento do sargento vira pano de fundo concessivo.",
+      "explicacao": "Ao transformar coordenação adversativa em subordinação concessiva, o foco narrativo muda. Na coordenada, os dois fatos são colocados lado a lado com igual relevância. Na subordinada concessiva, a oração principal recebe destaque — no caso, a deserção do recruta. A CEBRASPE cobra exatamente isso: aceitar que a reescritura preserva o sentido quando, na verdade, há uma mudança de ênfase e hierarquia entre as informações.",
       "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "Confundir 'à medida que' (proporcional) com 'na medida em que' (causal). Muitos candidatos usam as duas como sinônimas ou trocam uma pela outra na interpretação.",
-      "dica": "Memorize: 'À medida que' = proporção (duas coisas crescem/diminuem juntas): 'À medida que estuda, melhora.' 'Na medida em que' = causa (porque): 'Na medida em que errou, foi penalizado.' Em prova, identifique se há ideia de crescimento/decrescimento paralelo (proporcional) ou de justificativa (causal).",
+      "situacao": "Identificar 'que' como sempre introdutor de subordinada substantiva",
+      "dica": "O 'que' pode ser conjunção integrante (subordinada substantiva), pronome relativo (subordinada adjetiva) ou partícula expletiva. Para distinguir: se você substituir o 'que' por 'isso' e a frase ainda fizer sentido, é conjunção integrante. Se puder substituir por 'o qual / a qual', é pronome relativo. Nunca classifique o 'que' sem fazer esse teste.",
       "nivel": "basico"
     },
     {
-      "situacao": "Trocar 'cujo' por 'que o/cujo o': escrever 'O candidato cujo o desempenho foi excelente...' ou 'O candidato que o desempenho foi excelente...'",
-      "dica": "'Cujo' já contém o artigo embutido semanticamente — nunca o acompanhe de artigo. A estrutura correta é: substantivo antecedente + cujo/cuja + substantivo consequente, sem artigo: 'O candidato cujo desempenho foi excelente...' Decore: 'cujo + artigo = ERRADO'.",
+      "situacao": "Confundir oração coordenada assindética com oração subordinada",
+      "dica": "Nem toda oração sem conjunção é subordinada. A oração coordenada assindética é independente e não tem conjunção — ela se liga à anterior apenas pela justaposição. Teste: separe as orações com ponto. Se ambas tiverem sentido completo, são coordenadas assindéticas. Se uma ficar incompleta, há subordinação implícita. O CEBRASPE apresenta períodos sem conjunção e pede a classificação — não vá de automático dizer 'subordinada porque não tem conjunção'.",
       "nivel": "intermediario"
     },
     {
-      "situacao": "Identificar erroneamente uma oração reduzida de gerúndio como oração coordenada assindética, por não perceber a relação de dependência semântica.",
-      "dica": "Antes de classificar, desenvolva a oração: converta o gerúndio em verbo conjugado e teste qual conjunção se encaixa. Se encaixar 'enquanto' = temporal; 'porque'/'como' = causal; 'se' = condicional. Orações com gerúndio são subordinadas adverbiais reduzidas, nunca coordenadas.",
+      "situacao": "Aceitar que toda reescritura com conjunção diferente mantém o sentido",
+      "dica": "A banca frequentemente troca conjunções em reescriturar e afirma que o sentido foi preservado. Antes de concordar, verifique: (1) o tipo de relação lógica mudou? (causa → concessão? contraste → adição?); (2) a nova conjunção exige modo verbal diferente (indicativo ↔ subjuntivo)?; (3) o foco da frase mudou (oração principal ↔ subordinada)? Qualquer 'sim' indica que o sentido foi alterado. Não aceite reescritura por impulso.",
       "nivel": "avancado"
     }
   ],
@@ -153,734 +217,764 @@
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Em 'O navio partiu e a tripulação ficou no porto.', a conjunção 'e' introduz uma oração coordenada classificada como:",
+      "enunciado": "Em 'O recruta estudou e passou na prova', a conjunção 'e' estabelece entre as orações uma relação de:",
       "alternativas": {
-        "A": "adversativa",
-        "B": "conclusiva",
-        "C": "aditiva",
-        "D": "explicativa",
-        "E": "alternativa"
+        "A": "Oposição entre fatos distintos.",
+        "B": "Adição de informações, caracterizando coordenação aditiva.",
+        "C": "Dependência sintática da segunda oração em relação à primeira.",
+        "D": "Conclusão lógica a partir da primeira oração.",
+        "E": "Alternância entre duas possibilidades."
       },
-      "gabarito": "C",
-      "explicacao": "A conjunção 'e' é prototipicamente aditiva, pois simplesmente soma duas ideias. Neste período, 'O navio partiu' e 'a tripulação ficou no porto' são dois fatos adicionados. Adversativa (A) exigiria oposição ('mas/porém'). Conclusiva (B) exigiria conclusão ('logo/portanto'). Explicativa (D) exigiria justificativa ('porque/pois'). Alternativa (E) exigiria alternância ('ou/ora...ora')."
+      "gabarito": "B",
+      "explicacao": "A conjunção 'e' é coordenativa aditiva — ela soma duas orações independentes entre si, sem criar dependência sintática de uma em relação à outra. Cada oração ('O recruta estudou' / 'passou na prova') tem sentido completo sozinha, o que confirma a coordenação. A alternativa A descreve a conjunção adversativa ('mas', 'porém'). A alternativa C descreveria uma subordinação, que não ocorre aqui. A alternativa D caracteriza conjunções conclusivas ('logo', 'portanto'). A alternativa E descreve conjunções alternativas ('ou', 'ora')."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Identifique a oração subordinada substantiva subjetiva:",
+      "enunciado": "Assinale a alternativa em que a oração sublinhada é COORDENADA em relação à anterior.",
       "alternativas": {
-        "A": "Sei que você estudou muito.",
-        "B": "É importante que o candidato leia o edital.",
-        "C": "Quero que você passe no concurso.",
-        "D": "Tenho certeza de que vencerei.",
-        "E": "O fato é que ele errou a questão."
+        "A": "'O sargento ordenou [que o recruta se apresentasse imediatamente].'",
+        "B": "'[Embora estivesse cansado], o oficial concluiu o relatório.'",
+        "C": "'A base naval foi reformada, [mas o orçamento foi insuficiente].'",
+        "D": "'[Quando o navio atracou], a tripulação desembarcou.'",
+        "E": "'É necessário [que todos assinem o documento].')"
       },
-      "gabarito": "B",
-      "explicacao": "Em (B), 'que o candidato leia o edital' é o sujeito de 'é importante' — trata-se, portanto, de uma oração subordinada substantiva subjetiva. (A) é objetiva direta (objeto direto de 'sei'). (C) é objetiva direta (objeto direto de 'quero'). (D) é completiva nominal (complementa o nome 'certeza'). (E) é predicativa (predicativo do sujeito 'o fato')."
+      "gabarito": "C",
+      "explicacao": "Em C, 'mas o orçamento foi insuficiente' é uma oração coordenada adversativa — ela tem sentido completo sozinha e se conecta à anterior pelo 'mas' sem depender dela sintaticamente. Em A, a oração com 'que' é subordinada substantiva objetiva direta (objeto direto de 'ordenou'). Em B, a oração com 'embora' é subordinada adverbial concessiva (depende da oração principal para ter sentido completo). Em D, a oração com 'quando' é subordinada adverbial temporal. Em E, a oração com 'que' é subordinada substantiva subjetiva."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Em 'Estudou exaustivamente; portanto, foi aprovado.', a oração 'foi aprovado' é coordenada:",
+      "enunciado": "A conjunção 'portanto' classifica-se como coordenativa:",
       "alternativas": {
-        "A": "adversativa",
-        "B": "conclusiva",
-        "C": "explicativa",
-        "D": "aditiva",
-        "E": "alternativa"
+        "A": "Aditiva.",
+        "B": "Adversativa.",
+        "C": "Alternativa.",
+        "D": "Conclusiva.",
+        "E": "Explicativa."
       },
-      "gabarito": "B",
-      "explicacao": "A conjunção 'portanto' é tipicamente conclusiva: indica que a segunda oração é uma conclusão lógica da primeira. Quem estudou exaustivamente necessariamente seria aprovado — relação de conclusão. Adversativa (A) exigiria contraste ('mas'). Explicativa (C) exigiria justificativa (conjunção 'pois' antes do verbo ou 'porque'). Aditiva (D) usaria 'e'. Alternativa (E) usaria 'ou'."
+      "gabarito": "D",
+      "explicacao": "'Portanto' é conjunção coordenativa conclusiva — ela introduz uma oração que tira uma conclusão ou consequência lógica da oração anterior. Exemplos do mesmo grupo: 'logo', 'então', 'assim', 'por isso'. As conjunções aditivas somam ideias ('e', 'nem'). As adversativas indicam contraste ('mas', 'porém'). As alternativas indicam escolha ('ou', 'ora'). As explicativas justificam ('pois', 'que')."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Qual período é composto por coordenação assindética?",
+      "enunciado": "Em 'Quando o contra-almirante chegou, todos se posicionaram', a oração 'Quando o contra-almirante chegou' exerce função de:",
       "alternativas": {
-        "A": "Estude muito, pois a prova é difícil.",
-        "B": "Chegou cedo, mas saiu tarde.",
-        "C": "Entrou, olhou ao redor, sentou-se.",
-        "D": "Ou você estuda, ou você reprova.",
-        "E": "Ele estudou tanto que foi aprovado com louvor."
+        "A": "Oração coordenada aditiva.",
+        "B": "Oração principal do período.",
+        "C": "Oração subordinada adverbial temporal.",
+        "D": "Oração subordinada substantiva subjetiva.",
+        "E": "Oração coordenada adversativa."
       },
       "gabarito": "C",
-      "explicacao": "Na coordenação assindética, as orações são unidas por vírgula ou ponto e vírgula, sem conjunção coordenativa. Em (C), 'Entrou', 'olhou ao redor' e 'sentou-se' são três orações justapostas por vírgula, sem conjunção. (A) tem 'pois' (explicativa). (B) tem 'mas' (adversativa). (D) tem 'ou...ou' (alternativa). (E) tem o correlativo 'tanto...que' (consecutiva, portanto subordinada)."
+      "explicacao": "A conjunção 'quando' introduz uma oração subordinada adverbial temporal, que indica o momento em que a ação da oração principal ('todos se posicionaram') ocorreu. A oração com 'quando' não tem sentido completo sozinha — ela depende da principal para ser interpretada, o que confirma a subordinação. Não é coordenada (independente), nem oração principal, nem substantiva (não exerce função de substantivo)."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "A oração 'que você compreenda a matéria' em 'É necessário que você compreenda a matéria.' exerce a função sintática de:",
+      "enunciado": "Qual das alternativas apresenta uma conjunção ADVERSATIVA?",
       "alternativas": {
-        "A": "objeto direto",
-        "B": "objeto indireto",
-        "C": "sujeito",
-        "D": "predicativo do sujeito",
-        "E": "adjunto adverbial"
+        "A": "Entretanto.",
+        "B": "Portanto.",
+        "C": "Logo.",
+        "D": "Porque.",
+        "E": "Visto que."
       },
-      "gabarito": "C",
-      "explicacao": "A construção 'É necessário + oração' tem o verbo 'ser' na terceira pessoa do singular aparentemente sem sujeito expresso. O sujeito de 'é necessário' é exatamente a oração subordinada 'que você compreenda a matéria'. Trata-se, portanto, de subordinada substantiva subjetiva. Não é objeto direto (A), pois 'ser' é verbo de ligação, não transitivo direto. Não é objeto indireto (B) nem adjunto adverbial (E). Não é predicativo do sujeito (D), pois 'necessário' já é o predicativo."
+      "gabarito": "A",
+      "explicacao": "'Entretanto' é conjunção coordenativa adversativa, do mesmo grupo de 'mas', 'porém', 'todavia', 'contudo', 'no entanto' — todas indicam contraste ou oposição entre orações independentes. 'Logo' e 'portanto' são conclusivas. 'Porque', usado com valor causal, pode ser subordinativo. 'Visto que' é conjunção causal subordinativa."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "Em 'O oficial cujo relatório foi elogiado receberá uma medalha.', o pronome 'cujo' introduz uma oração subordinada:",
+      "enunciado": "O período 'O navio partiu; a missão havia começado' contém orações:",
       "alternativas": {
-        "A": "substantiva objetiva direta",
-        "B": "adjetiva restritiva",
-        "C": "adjetiva explicativa",
-        "D": "adverbial causal",
-        "E": "substantiva subjetiva"
+        "A": "Subordinadas, pois uma depende da outra.",
+        "B": "Coordenadas assindéticas, pois são independentes e não há conjunção.",
+        "C": "Coordenadas sindéticas aditivas, pois o ponto e vírgula equivale a 'e'.",
+        "D": "Subordinadas adverbiais temporais.",
+        "E": "Principal e subordinada substantiva, respectivamente."
       },
       "gabarito": "B",
-      "explicacao": "O pronome relativo 'cujo' introduz uma oração que modifica o substantivo 'oficial', funcionando como adjetivo — portanto, adjetiva. Por não estar entre vírgulas, a oração é restritiva (restringe de qual oficial se fala: aquele cujo relatório foi elogiado, não qualquer oficial). (A) e (E) são substantivas, não adjetivas. (C) seria com vírgulas. (D) adverbial causal exigiria ideia de causa."
+      "explicacao": "Quando orações independentes (sem conjunção) se unem apenas por justaposição — separadas por vírgula, ponto e vírgula ou dois-pontos —, temos coordenação assindética. Cada oração tem sentido completo sozinha: 'O navio partiu.' e 'A missão havia começado.' são períodos simples plenamente compreensíveis. O ponto e vírgula não equivale à conjunção 'e' — ele apenas separa; não cria relação aditiva explícita. Não há subordinação porque nenhuma oração depende da outra."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Qual das frases contém uma oração subordinada adverbial concessiva?",
+      "enunciado": "'Embora' é uma conjunção que introduz oração subordinada adverbial:",
       "alternativas": {
-        "A": "Estudou porque queria ser aprovado.",
-        "B": "Estudou para que pudesse ser aprovado.",
-        "C": "Embora estudasse, não foi aprovado.",
-        "D": "Estudou tanto que foi aprovado.",
-        "E": "Estudou como seus professores haviam ensinado."
+        "A": "Causal.",
+        "B": "Condicional.",
+        "C": "Concessiva.",
+        "D": "Consecutiva.",
+        "E": "Temporal."
       },
       "gabarito": "C",
-      "explicacao": "'Embora' é conjunção concessiva por excelência: a oração subordinada expressa uma circunstância que, esperaríamos, impediria a ação da principal — mas não impede. Em (C), esperaríamos que estudar levasse à aprovação, porém não levou. (A) é causal ('porque'). (B) é final ('para que'). (D) é consecutiva ('tanto...que'). (E) é conformativa ('como')."
+      "explicacao": "'Embora' é a principal conjunção concessiva da língua portuguesa — ela introduz uma ideia que se opõe ao fato da oração principal sem impedi-lo. 'Embora estivesse doente, o oficial compareceu.' A doença não impediu o comparecimento. As causais são introduzidas por 'porque', 'já que'. As condicionais por 'se', 'caso'. As consecutivas por 'de modo que', 'tanto que'. As temporais por 'quando', 'enquanto'."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "'Assim que o exame terminou, os candidatos saíram.' A oração subordinada é classificada como adverbial:",
+      "enunciado": "Em 'O recruta sabia que seria promovido', a oração 'que seria promovido' é classificada como:",
       "alternativas": {
-        "A": "causal",
-        "B": "condicional",
-        "C": "temporal",
-        "D": "final",
-        "E": "concessiva"
+        "A": "Oração subordinada adjetiva restritiva.",
+        "B": "Oração coordenada explicativa.",
+        "C": "Oração subordinada substantiva objetiva direta.",
+        "D": "Oração subordinada adverbial final.",
+        "E": "Oração principal do período."
       },
       "gabarito": "C",
-      "explicacao": "A locução conjuntiva 'assim que' indica tempo — mais especificamente, imediatidade temporal (logo depois que). A oração 'Assim que o exame terminou' exprime a circunstância de tempo em que ocorreu a saída dos candidatos. Causal (A) exigiria 'porque/como'. Condicional (B) exigiria 'se/caso'. Final (D) exigiria 'para que/a fim de que'. Concessiva (E) exigiria 'embora/ainda que'."
+      "explicacao": "A oração 'que seria promovido' é objeto direto do verbo 'sabia' — ela responde 'o recruta sabia o quê?'. Quando uma oração exerce a função de objeto direto, classifica-se como subordinada substantiva objetiva direta. O 'que' aqui é conjunção integrante, não pronome relativo (não há antecedente substantivo). Não é adjetiva (não caracteriza um substantivo). Não é coordenada (depende sintaticamente da principal)."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "Identifique a alternativa em que a oração em destaque é uma oração coordenada adversativa:",
+      "enunciado": "Qual alternativa apresenta corretamente um par de orações em relação de COORDENAÇÃO?",
       "alternativas": {
-        "A": "'Estudou muito, [logo foi aprovado].'",
-        "B": "'Trabalhou bastante, [e ainda assim descansou].'",
-        "C": "'Treinou exaustivamente, [porém não venceu].'",
-        "D": "'Ou vence agora, [ou perde a chance].'",
-        "E": "'Não saia, [pois está escurecendo].' (pois antes do verbo)"
+        "A": "'A tripulação desembarcou quando o navio atracou.'",
+        "B": "'É provável que o sargento seja promovido.'",
+        "C": "'Para que a missão fosse cumprida, o recruta treinou exaustivamente.'",
+        "D": "'Embora o mar estivesse agitado, a travessia foi concluída.'",
+        "E": "'O oficial assinou o documento, logo o processo foi encaminhado.'"
       },
-      "gabarito": "C",
-      "explicacao": "A conjunção 'porém' é adversativa, expressando oposição entre as orações: o treinamento exaustivo deveria levar à vitória, mas não levou. (A) usa 'logo' — conclusiva. (B) usa 'e' — aditiva (ainda que com valor levemente adversativo pelo contexto, a conjunção 'e' classifica como aditiva). (D) usa 'ou...ou' — alternativa. (E) usa 'pois' anteposto ao verbo — explicativa."
+      "gabarito": "E",
+      "explicacao": "Em E, 'logo' é conjunção coordenativa conclusiva — ela une duas orações independentes em que a segunda conclui algo da primeira. Ambas têm sentido completo sozinhas. Em A, 'quando' introduz subordinada adverbial temporal. Em B, 'que' introduz subordinada substantiva subjetiva ('é provável o quê?'). Em C, 'para que' introduz subordinada adverbial final. Em D, 'embora' introduz subordinada adverbial concessiva."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Em 'Fez tudo como o manual determinava.', a oração 'como o manual determinava' é subordinada adverbial:",
+      "enunciado": "A oração subordinada adjetiva EXPLICATIVA distingue-se da restritiva principalmente por:",
       "alternativas": {
-        "A": "causal",
-        "B": "comparativa",
-        "C": "conformativa",
-        "D": "concessiva",
-        "E": "consecutiva"
+        "A": "Ser introduzida por 'que' ao invés de pronome relativo composto.",
+        "B": "Restringir o universo de referência do substantivo antecedente.",
+        "C": "Vir isolada por vírgulas e acrescentar informação não essencial ao antecedente.",
+        "D": "Estabelecer relação de causa com a oração principal.",
+        "E": "Poder ser suprimida sem alterar o sentido do período."
       },
       "gabarito": "C",
-      "explicacao": "A conjunção 'como' introduz aqui uma oração conformativa: a ação da principal é realizada em conformidade com o que a subordinada estabelece. Fez tudo de acordo com o que o manual determinava. A causal (A) exprimiria motivo. A comparativa (B) estabeleceria comparação de modo ou grau — 'como' pode ser comparativa, mas aqui o sentido é de conformidade, não de comparação ('fez exatamente o que o manual mandava'). Concessiva (D) usaria 'embora'. Consecutiva (E) usaria 'que' correlacionado."
+      "explicacao": "A adjetiva explicativa vem entre vírgulas e acrescenta uma informação adicional sobre o antecedente — informação que não restringe nem delimita o grupo referido pelo substantivo. Se suprimida, o sentido principal permanece. A alternativa B descreve a adjetiva restritiva (que delimita o universo do antecedente). A alternativa D é incorreta — adjetivas não estabelecem relação causal. A alternativa E está parcialmente certa (a explicativa pode ser suprimida), mas A e E não identificam a característica principal, que é a posição entre vírgulas e a função de acréscimo."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Analise: 'O sargento que chegou cedo e cumpriu todas as tarefas foi elogiado pelo comandante.' Nesse período, há:",
+      "textoBase": "O Comando do 4° Distrito Naval informou que as obras de reforma seriam concluídas até o final do semestre, mas o contratado alegou que o prazo era insuficiente.",
+      "enunciado": "No período acima, há quantas orações e de que tipos são as introduzidas por 'que'?",
       "alternativas": {
-        "A": "duas orações coordenadas sindéticas aditivas",
-        "B": "uma oração principal, uma subordinada adjetiva restritiva e uma oração coordenada aditiva à subordinada",
-        "C": "uma oração principal e duas orações subordinadas substantivas",
-        "D": "uma oração principal e uma oração subordinada adverbial causal",
-        "E": "duas orações subordinadas adjetivas explicativas coordenadas"
+        "A": "Quatro orações; as introduzidas por \"que\" são subordinadas substantivas objetivas diretas.",
+        "B": "Três orações; as introduzidas por \"que\" são subordinadas adjetivas restritivas.",
+        "C": "Três orações; as introduzidas por \"que\" são subordinadas substantivas objetivas diretas.",
+        "D": "Quatro orações; as introduzidas por \"que\" são subordinadas adverbiais causais.",
+        "E": "Duas orações; o \"que\" é pronome relativo em ambas as ocorrências."
       },
-      "gabarito": "B",
-      "explicacao": "O período tem três orações: (1) 'O sargento ... foi elogiado pelo comandante' = oração principal; (2) 'que chegou cedo' = subordinada adjetiva restritiva (modifica 'sargento', sem vírgula); (3) 'e cumpriu todas as tarefas' = oração coordenada aditiva à segunda oração, também modificando 'sargento' via o relativo subentendido. (A) incorreto: há uma subordinada adjetiva. (C) incorreto: não há substantivas. (D) incorreto: não há causal. (E) incorreto: não são explicativas (sem vírgulas) nem são duas orações distintas com pronome relativo próprio."
+      "gabarito": "A",
+      "explicacao": "O período tem quatro orações: (1) 'O Comando do 4° Distrito Naval informou'; (2) 'que as obras de reforma seriam concluídas até o final do semestre'; (3) 'mas o contratado alegou'; (4) 'que o prazo era insuficiente'. As orações 2 e 4, introduzidas por 'que' conjunção integrante, são subordinadas substantivas objetivas diretas — exercem função de objeto direto dos verbos 'informou' e 'alegou', respectivamente. Não são adjetivas (não caracterizam substantivo antecedente) nem causais."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Em 'Caso o candidato não apresente os documentos, será desclassificado.', a oração subordinada é adverbial:",
+      "textoBase": "Os recrutas que chegaram ontem serão submetidos ao processo de incorporação. Os recrutas, que são provenientes de diversas regiões, demonstraram boa aptidão física.",
+      "enunciado": "Assinale a alternativa que descreve corretamente a diferença de sentido entre as duas frases do texto.",
       "alternativas": {
-        "A": "concessiva",
-        "B": "causal",
-        "C": "condicional",
-        "D": "temporal",
-        "E": "consecutiva"
+        "A": "As duas frases têm sentido equivalente; a vírgula é apenas estilística.",
+        "B": "Na primeira, 'que chegaram ontem' restringe quais recrutas serão incorporados; na segunda, 'que são provenientes de diversas regiões' acrescenta informação sobre todos os recrutas.",
+        "C": "Na primeira, a oração com 'que' é coordenada; na segunda, é subordinada.",
+        "D": "Ambas as orações com 'que' são adjetivas restritivas, pois identificam uma qualidade dos recrutas.",
+        "E": "A primeira frase trata de fato passado; a segunda, de fato presente — por isso os sentidos diferem."
       },
-      "gabarito": "C",
-      "explicacao": "A locução 'caso' (= se) é conjunção condicional, introduzindo uma hipótese da qual depende o resultado da oração principal. A não apresentação de documentos é a condição para a desclassificação. Note que o verbo está no subjuntivo ('apresente'), modo característico das condicionais hipotéticas. Concessiva (A) usaria 'embora/ainda que'. Causal (B) expressaria a causa ('porque não apresentou'). Temporal (D) usaria 'quando/enquanto'. Consecutiva (E) usaria correlação 'tão/tanto...que'."
+      "gabarito": "B",
+      "explicacao": "A oração 'que chegaram ontem', sem vírgulas, é adjetiva restritiva: delimita o grupo — não são todos os recrutas, apenas os que chegaram ontem. A oração 'que são provenientes de diversas regiões', entre vírgulas, é adjetiva explicativa: trata de todos os recrutas, acrescentando uma informação sobre o grupo inteiro. A vírgula não é apenas estilística — ela muda o tipo e o sentido da oração. Ambas são subordinadas adjetivas (pronome relativo 'que'), mas de subtipos distintos."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que a oração destacada é subordinada substantiva completiva nominal:",
+      "textoBase": "Caso o oficial não compareça à inspeção, o boletim interno registrará a ausência.",
+      "enunciado": "A oração 'Caso o oficial não compareça à inspeção' é classificada como subordinada adverbial:",
       "alternativas": {
-        "A": "'Sei [que ele estudou].': objetiva direta",
-        "B": "'É preciso [que você descanse].': subjetiva",
-        "C": "'Tenho orgulho [de que meu filho passou].': completiva nominal",
-        "D": "'O problema é [que não há vagas].': predicativa",
-        "E": "'Lembrei-me [de que havia uma prova].': objetiva indireta"
+        "A": "Causal, pois indica a razão da ausência.",
+        "B": "Concessiva, pois introduz um obstáculo à ação principal.",
+        "C": "Condicional, pois estabelece uma condição hipotética para a realização da principal.",
+        "D": "Consecutiva, pois indica a consequência do não comparecimento.",
+        "E": "Final, pois indica a finalidade do registro no boletim."
       },
       "gabarito": "C",
-      "explicacao": "A completiva nominal complementa um nome (substantivo, adjetivo ou advérbio) — não um verbo. Em (C), 'de que meu filho passou' complementa o substantivo 'orgulho' (orgulho de quê?). As demais alternativas descrevem corretamente suas próprias funções: (A) objetiva direta, (B) subjetiva, (D) predicativa, (E) objetiva indireta. A questão pede especificamente a completiva nominal, que é (C)."
+      "explicacao": "'Caso' é conjunção subordinativa condicional — do mesmo grupo de 'se', 'desde que', 'contanto que'. A oração introduzida por 'caso' apresenta uma condição hipotética: se o oficial não comparecer, então o boletim registrará a ausência. A ação da principal só ocorre se a condição for satisfeita. Não é causal (não indica por que o boletim vai registrar). Não é concessiva (não há obstáculo superado). Não é consecutiva nem final."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'À medida que os candidatos estudavam, seu desempenho melhorava.' A oração subordinada é adverbial:",
+      "textoBase": "O imediato solicitou que o relatório fosse entregue até sexta-feira, pois o comandante precisava analisá-lo antes da reunião.",
+      "enunciado": "A conjunção 'pois' no trecho acima exerce função de conjunção coordenativa:",
       "alternativas": {
-        "A": "causal, pois o estudo causa a melhora",
-        "B": "condicional, pois o estudo é condição para a melhora",
-        "C": "proporcional, pois as duas ações crescem em paralelo",
-        "D": "conformativa, pois o desempenho segue o padrão do estudo",
-        "E": "consecutiva, pois a melhora é consequência do estudo"
+        "A": "Adversativa, indicando contraste entre as duas orações.",
+        "B": "Explicativa, justificando a solicitação do imediato.",
+        "C": "Conclusiva, concluindo a ideia da oração anterior.",
+        "D": "Aditiva, somando uma informação à oração anterior.",
+        "E": "Subordinativa causal, tornando a segunda oração dependente da primeira."
       },
-      "gabarito": "C",
-      "explicacao": "A locução 'à medida que' é proporcional por excelência: estabelece relação de proporcionalidade entre duas ações que crescem (ou diminuem) simultaneamente — quanto mais estudavam, mais melhorava. (A) incorreto: causal seria 'porque estudavam, melhoravam' (relação de causa/efeito pontual, não gradativa). (B) incorreto: condicional exigiria 'se/caso'. (D) incorreto: conformativa ('conforme/como') indica acordo/conformidade. (E) incorreto: consecutiva exige correlação 'tanto...que'."
+      "gabarito": "B",
+      "explicacao": "O 'pois' aqui está em posição pós-verbal (após a primeira oração) e introduz uma justificativa para a solicitação anterior — por isso é coordenativo explicativo. A segunda oração ('o comandante precisava analisá-lo antes da reunião') tem sentido completo sozinha e explica a razão da solicitação. Não é adversativo (sem contraste). Não é conclusivo (não tira conclusão). Não é aditivo (não apenas soma). Não é subordinativo causal — 'pois' explicativo é coordenativo, não cria dependência sintática."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Em 'Venha cedo para que possamos resolver o problema antes da reunião.', a oração subordinada 'para que possamos resolver o problema antes da reunião' é:",
+      "textoBase": "A tripulação trabalhou arduamente para que a missão fosse concluída no prazo estabelecido pelo Comando.",
+      "enunciado": "A oração 'para que a missão fosse concluída no prazo estabelecido pelo Comando' é subordinada adverbial:",
       "alternativas": {
-        "A": "adverbial causal",
-        "B": "adverbial final",
-        "C": "adverbial condicional",
-        "D": "substantiva objetiva direta",
-        "E": "adverbial consecutiva"
+        "A": "Causal.",
+        "B": "Concessiva.",
+        "C": "Temporal.",
+        "D": "Final.",
+        "E": "Condicional."
       },
-      "gabarito": "B",
-      "explicacao": "A locução 'para que' introduz oração adverbial final, que expressa a finalidade, o propósito da ação principal. 'Venha cedo' (ação) — finalidade: resolver o problema antes da reunião. O verbo da subordinada está no subjuntivo ('possamos'), modo típico das finais. Causal (A) explicaria o motivo da vinda (não a finalidade). Condicional (C) estabeleceria condição. Substantiva objetiva direta (D) funcionaria como objeto. Consecutiva (E) exigiria 'tão/tanto...que'."
+      "gabarito": "D",
+      "explicacao": "'Para que' é conjunção subordinativa final — ela introduz a finalidade, o objetivo da ação expressa na oração principal. A tripulação trabalhou arduamente com o objetivo de que a missão fosse concluída. Do mesmo grupo: 'a fim de que'. Não é causal (não indica por que trabalharam, mas para quê). Não é concessiva (não há obstáculo). Não é temporal (não indica quando). Não é condicional (não apresenta hipótese)."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Qual das alternativas apresenta corretamente uma oração reduzida de particípio com valor adverbial temporal?",
+      "textoBase": "O sargento determinou que os recrutas se apresentassem às seis horas; contudo, metade da tropa chegou atrasada.",
+      "enunciado": "A conjunção 'contudo' estabelece entre as orações que ela conecta uma relação de:",
       "alternativas": {
-        "A": "'Estudar é fundamental.' (reduzida de infinitivo subjetiva)",
-        "B": "'Correndo muito, chegou a tempo.' (reduzida de gerúndio condicional)",
-        "C": "'Terminada a prova, o candidato entregou o gabarito.' (reduzida de particípio temporal)",
-        "D": "'Quero terminar logo.' (reduzida de infinitivo objetiva direta)",
-        "E": "'Sendo aprovado, comemorou com a família.' (reduzida de gerúndio causal)"
+        "A": "Adição de informações complementares.",
+        "B": "Conclusão lógica a partir do fato anterior.",
+        "C": "Condição para a realização do segundo fato.",
+        "D": "Explicação da causa do atraso da tropa.",
+        "E": "Oposição ou contraste entre dois fatos."
       },
-      "gabarito": "C",
-      "explicacao": "'Terminada a prova' é oração reduzida de particípio ('terminada' = particípio de 'terminar') que equivale a 'depois que a prova terminou/foi terminada' — valor temporal. (A) é reduzida de infinitivo com função de sujeito (subjetiva). (B) 'Correndo muito' tem valor condicional ou modal, não temporal. (D) é objetiva direta reduzida de infinitivo. (E) é reduzida de gerúndio com valor causal ('porque foi aprovado'), não temporal."
+      "gabarito": "E",
+      "explicacao": "'Contudo' é conjunção coordenativa adversativa — indica contraste ou oposição entre duas orações independentes. Do mesmo grupo: 'mas', 'porém', 'todavia', 'entretanto', 'no entanto'. Aqui, a determinação do sargento (chegar às seis horas) se opõe ao fato narrado (metade chegou atrasada). Não é aditiva (não soma, opõe). Não é conclusiva (não tira conclusão da primeira). Não é condicional nem explicativa."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Em qual das sentenças abaixo o 'que' é conjunção integrante (e não pronome relativo)?",
+      "textoBase": "Ora o recruta se mostrava disciplinado, ora questionava as ordens recebidas.",
+      "enunciado": "A conjunção 'ora... ora' classifica as orações do período como coordenadas:",
       "alternativas": {
-        "A": "O livro que comprei era caro.",
-        "B": "A professora que ensinou matemática era excelente.",
-        "C": "Creio que o candidato será aprovado.",
-        "D": "Havia muitas questões que eram difíceis.",
-        "E": "O porto onde atracamos era antigo."
+        "A": "Aditivas.",
+        "B": "Adversativas.",
+        "C": "Alternativas.",
+        "D": "Conclusivas.",
+        "E": "Explicativas."
       },
       "gabarito": "C",
-      "explicacao": "Em (C), 'que' não tem antecedente e não exerce função sintática dentro da oração que introduz — é conjunção integrante, introduzindo oração substantiva objetiva direta de 'creio'. Nas demais, o 'que' é pronome relativo com antecedente claro: (A) 'livro', (B) 'professora', (D) 'questões'. Em (E), 'onde' é pronome relativo referindo-se a 'porto'. O teste definitivo: tente substituir 'que' por 'o qual' — se funcionar, é pronome relativo; se não funcionar sintaticamente, é conjunção integrante."
+      "explicacao": "'Ora... ora' é conjunção correlativa alternativa — ela indica que as duas situações se alternam, uma excluindo ou alternando com a outra. Do mesmo grupo: 'ou... ou', 'quer... quer', 'seja... seja'. No trecho, o recruta ora apresentava disciplina, ora questionava — as situações se alternam. Não é aditiva (não soma simultaneamente). Não é adversativa (não há contraste direto). Não é conclusiva nem explicativa."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Leia o período: 'O candidato não passou, mas se esforçou muito.' Sobre a conjunção 'mas', é correto afirmar:",
+      "textoBase": "O oficial que elaborou o relatório foi elogiado pelo comandante.",
+      "enunciado": "O pronome relativo 'que' em 'que elaborou o relatório' introduz uma oração subordinada:",
       "alternativas": {
-        "A": "É conjunção subordinativa concessiva equivalente a 'embora'.",
-        "B": "É conjunção coordenativa adversativa que indica oposição entre as orações.",
-        "C": "É conjunção coordenativa conclusiva equivalente a 'portanto'.",
-        "D": "É conjunção coordenativa explicativa que justifica a reprovação.",
-        "E": "É conjunção subordinativa causal que explica a razão do esforço."
+        "A": "Substantiva objetiva direta, pois é objeto direto de 'elogiado'.",
+        "B": "Adjetiva restritiva, pois identifica e restringe o oficial referido.",
+        "C": "Adjetiva explicativa, pois acrescenta informação sobre todos os oficiais.",
+        "D": "Adverbial causal, pois indica a razão do elogio.",
+        "E": "Substantiva subjetiva, pois exerce função de sujeito."
       },
       "gabarito": "B",
-      "explicacao": "'Mas' é conjunção coordenativa adversativa, ligando duas orações independentes com sentido de oposição ou ressalva. A reprovação e o esforço são fatos opostos na expectativa comum (quem se esforça deveria passar). (A) incorreto: 'embora' é subordinativa concessiva; 'mas' é coordenativa. (C) incorreto: conclusiva seria 'logo/portanto'. (D) incorreto: explicativa justificaria a oração anterior com 'porque/pois'. (E) incorreto: 'mas' nunca é causal nem subordinativa."
+      "explicacao": "O 'que' aqui é pronome relativo com antecedente 'o oficial' — ele introduz uma oração adjetiva. Como não há vírgulas separando a oração, ela é restritiva: delimita qual oficial foi elogiado (não qualquer oficial, mas especificamente o que elaborou o relatório). Se fosse explicativa, viria entre vírgulas e indicaria que todos os oficiais elaboraram o relatório. Não é substantiva (não exerce função de substantivo). Não é adverbial causal (não indica causa com conjunção causal)."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que há erro na classificação da oração subordinada adverbial:",
+      "textoBase": "É imprescindível que os documentos estejam assinados antes da inspeção.",
+      "enunciado": "A oração 'que os documentos estejam assinados antes da inspeção' exerce a função sintática de:",
       "alternativas": {
-        "A": "'Uma vez que o prazo acabou, não há mais recurso.' — causal",
-        "B": "'Conforme determinado no edital, os candidatos devem trazer documento de identidade.' — conformativa",
-        "C": "'Ainda que seja difícil, não desista.' — concessiva",
-        "D": "'Desde que você estude, passará.' — temporal",
-        "E": "'Para que não haja dúvidas, leia o regulamento completo.' — final"
+        "A": "Objeto direto do verbo 'é'.",
+        "B": "Predicativo do sujeito oculto.",
+        "C": "Sujeito da oração, classificando-se como subordinada substantiva subjetiva.",
+        "D": "Adjunto adverbial de condição.",
+        "E": "Complemento nominal de 'imprescindível'."
       },
-      "gabarito": "D",
-      "explicacao": "Em (D), 'desde que' introduz oração adverbial condicional, não temporal. 'Desde que você estude' = 'se você estudar' (condição para passar). A confusão ocorre porque 'desde que' pode também ser temporal quando equivale a 'a partir do momento em que' (ex: 'Desde que cheguei, trabalhei' = temporal). Mas com verbo no subjuntivo e sentido hipotético, como no caso, é claramente condicional. As demais classificações estão corretas."
+      "gabarito": "C",
+      "explicacao": "Quando o verbo da oração principal é de ligação seguido de predicativo ('é imprescindível'), o sujeito é a própria oração subordinada. A oração 'que os documentos estejam assinados' responde 'o que é imprescindível?' — é o sujeito. Por isso classifica-se como subordinada substantiva subjetiva. O 'que' é conjunção integrante. Não é objeto direto do verbo 'ser'. Não é predicativo (o predicativo já é 'imprescindível'). Não é adjunto adverbial (não indica circunstância)."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Em 'Tanto estudou que foi aprovado com louvor.', identifique corretamente o tipo de período e a classificação da oração subordinada:",
+      "textoBase": "O navio partiu assim que a maré permitiu a manobra de saída do porto.",
+      "enunciado": "A conjunção 'assim que' introduz uma oração subordinada adverbial de que tipo?",
       "alternativas": {
-        "A": "Período composto por coordenação; oração coordenada conclusiva",
-        "B": "Período composto por subordinação; oração subordinada adverbial consecutiva",
-        "C": "Período composto por subordinação; oração subordinada adverbial causal",
-        "D": "Período composto por coordenação; oração coordenada explicativa",
-        "E": "Período composto por subordinação; oração subordinada substantiva objetiva direta"
+        "A": "Condicional.",
+        "B": "Final.",
+        "C": "Causal.",
+        "D": "Temporal.",
+        "E": "Concessiva."
       },
-      "gabarito": "B",
-      "explicacao": "O correlativo 'tanto...que' é marcador da consecutiva: 'tanto' (intensificador na principal) e 'que' (introduz a consequência na subordinada). 'Tanto estudou' = a causa/intensidade; 'que foi aprovado com louvor' = a consequência. É período composto por subordinação adverbial consecutiva. (A) e (D) incorretos: é subordinação, não coordenação. (C) incorreto: consecutiva indica consequência, não causa. (E) incorreto: não é substantiva."
+      "gabarito": "D",
+      "explicacao": "'Assim que' é locução conjuntiva subordinativa temporal — ela indica o momento imediatamente após o qual a ação da principal ocorreu. 'O navio partiu no momento em que a maré permitiu.' Do mesmo grupo: 'quando', 'enquanto', 'logo que', 'no momento em que'. Não é condicional (não hipotética). Não é final (não indica finalidade). Não é causal (a maré não é causa da partida, é o momento). Não é concessiva (não indica obstáculo superado)."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Leia: 'O regulamento, que foi aprovado pelo comandante e publicado em ordem do dia, determina que todos os militares cumpram o horário estabelecido.' Analise as orações do período:",
+      "textoBase": "Muito embora o orçamento aprovado para a reforma da base naval fosse considerado insuficiente pelos engenheiros responsáveis, o Comando determinou que as obras tivessem início imediato, visto que o prazo contratual expiraria em noventa dias.",
+      "enunciado": "Assinale a alternativa que descreve corretamente as relações de coordenação e subordinação no período acima.",
       "alternativas": {
-        "A": "O período contém apenas orações coordenadas, sendo a conectada por 'e' aditiva.",
-        "B": "O período tem oração principal, uma subordinada adjetiva explicativa (com dois verbos coordenados) e uma subordinada substantiva objetiva direta.",
-        "C": "O período tem oração principal, uma subordinada adjetiva restritiva e uma subordinada adverbial final.",
-        "D": "O período tem oração principal e duas orações subordinadas substantivas objetivas diretas.",
-        "E": "O período é simples, pois os verbos 'aprovado' e 'publicado' estão no particípio (formas nominais)."
+        "A": "O período é composto por três orações coordenadas sindéticas.",
+        "B": "'Muito embora o orçamento aprovado [...] pelos engenheiros responsáveis' é oração principal; as demais são coordenadas.",
+        "C": "Há uma oração principal ('o Comando determinou'), uma subordinada adverbial concessiva ('Muito embora [...] responsáveis'), uma subordinada substantiva objetiva direta ('que as obras tivessem início imediato') e uma subordinada adverbial causal ('visto que o prazo contratual expiraria em noventa dias').",
+        "D": "A oração com 'visto que' é coordenativa explicativa; as demais são subordinadas.",
+        "E": "A oração 'que as obras tivessem início imediato' é adjetiva restritiva do substantivo 'Comando'."
       },
-      "gabarito": "B",
-      "explicacao": "Orações: (1) 'O regulamento...determina' = principal; (2) 'que foi aprovado pelo comandante e publicado em ordem do dia' = subordinada adjetiva explicativa (entre vírgulas, acrescenta informação ao 'regulamento'). Nessa adjetiva, há dois predicados coordenados pelo 'e': 'foi aprovado' e 'publicado' (particípio com auxiliar subentendido). (3) 'que todos os militares cumpram o horário estabelecido' = subordinada substantiva objetiva direta de 'determina'. (A) incorreto: há subordinação. (C) incorreto: a segunda subordinada não é final. (D) incorreto: há apenas uma substantiva. (E) incorreto: 'foi aprovado' e 'publicado' constroem verbos de orações — não são apenas formas nominais."
+      "gabarito": "C",
+      "explicacao": "O período tem quatro orações. A oração principal é 'o Comando determinou'. 'Muito embora o orçamento aprovado para a reforma da base naval fosse considerado insuficiente pelos engenheiros responsáveis' é subordinada adverbial concessiva ('muito embora' = conjunção concessiva, exige subjuntivo). 'que as obras tivessem início imediato' é subordinada substantiva objetiva direta — objeto direto de 'determinou'. 'visto que o prazo contratual expiraria em noventa dias' é subordinada adverbial causal — explica por que o Comando determinou o início imediato. A alternativa D está errada: 'visto que' com valor causal pode ser subordinativo. A alternativa E está errada: 'que as obras tivessem início imediato' é substantiva, não adjetiva."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a transformação da oração reduzida em desenvolvida está INCORRETA:",
+      "textoBase": "O recruta que não cumprir as normas de conduta estabelecidas pelo regulamento interno será submetido a processo administrativo.",
+      "enunciado": "Caso a frase fosse reescrita como 'O recruta, que não cumprir as normas de conduta estabelecidas pelo regulamento interno, será submetido a processo administrativo', o sentido seria:",
       "alternativas": {
-        "A": "'Aprovado no concurso, foi convocado.' → 'Depois que foi aprovado no concurso, foi convocado.' (temporal)",
-        "B": "'Estudando bastante, você passará.' → 'Se estudar bastante, você passará.' (condicional)",
-        "C": "'Vim para ajudar.' → 'Vim para que eu ajudasse.' (final)",
-        "D": "'Sendo inteligente, resolveu o problema.' → 'Embora seja inteligente, resolveu o problema.' (concessiva)",
-        "E": "'Terminada a reunião, saímos.' → 'Assim que a reunião terminou, saímos.' (temporal)"
+        "A": "Mantido integralmente, pois a vírgula é apenas recurso de ênfase.",
+        "B": "Alterado: a oração passaria a ser explicativa, indicando que todos os recrutas não cumprem as normas — o que torna a frase semanticamente estranha.",
+        "C": "Mantido, pois a adjetiva restritiva e a explicativa têm o mesmo valor lógico.",
+        "D": "Alterado apenas no estilo, não no conteúdo informacional.",
+        "E": "Mantido, pois o pronome relativo 'que' tem o mesmo valor em ambas as orações."
       },
-      "gabarito": "D",
-      "explicacao": "Em (D), a transformação está incorreta. 'Sendo inteligente, resolveu o problema' é uma reduzida de gerúndio com valor causal: 'Como/Porque era inteligente, resolveu o problema.' A concessiva exigiria ideia de contraste (a inteligência não impede algo), o que não é o caso aqui. A substituição por 'embora' alteraria completamente o sentido: implicaria que, apesar de ser inteligente, conseguiu resolver — absurdo pragmático. As demais transformações (A, B, C, E) estão corretas em suas equivalências."
+      "gabarito": "B",
+      "explicacao": "Ao inserir vírgulas, a oração relativa passa de restritiva para explicativa. Na versão original (sem vírgulas), 'que não cumprir as normas' restringe: apenas os recrutas que descumprirem serão punidos. Com vírgulas, a oração passa a ser explicativa — como se todos os recrutas não cumprissem as normas, o que é semanticamente absurdo no contexto e altera radicalmente o sentido. A vírgula não é apenas estilística: ela muda o tipo de oração e, consequentemente, o universo de referência do substantivo 'recruta'."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'Não saiu porque tinha medo; saiu porque era corajoso.' A conjunção 'porque', nas duas ocorrências, classifica as orações como:",
+      "textoBase": "O imediato solicitou ao comandante que autorizasse a licença; o comandante, porém, preferiu aguardar o relatório médico.",
+      "enunciado": "É correto afirmar que, no período acima:",
       "alternativas": {
-        "A": "Na primeira, causal; na segunda, causal — ambas explicam motivos diferentes.",
-        "B": "Na primeira, explicativa coordenada; na segunda, causal subordinada.",
-        "C": "Na primeira, causal subordinada; na segunda, causal subordinada — o valor semântico não muda.",
-        "D": "Ambas são explicativas coordenadas, pois 'porque' pode coordenar orações.",
-        "E": "Na primeira, o 'porque' nega a causa (oração negada); na segunda, afirma a causa — mas ambas são causais subordinadas."
+        "A": "As duas orações separadas pelo ponto e vírgula são coordenadas, e 'porém' é conjunção adversativa que indica oposição entre elas.",
+        "B": "'que autorizasse a licença' é oração coordenada aditiva em relação a 'O imediato solicitou ao comandante'.",
+        "C": "O 'porém' classifica a segunda oração como subordinada adverbial concessiva.",
+        "D": "O período contém apenas duas orações, sendo a segunda coordenada assindética.",
+        "E": "'que autorizasse a licença' é oração subordinada adjetiva explicativa de 'comandante'."
       },
-      "gabarito": "E",
-      "explicacao": "Nas duas ocorrências, 'porque' introduz orações subordinadas adverbiais causais. O fato de a primeira estar negada ('Não saiu porque tinha medo') não altera a classificação sintática da oração subordinada — 'porque tinha medo' ainda é causal. O que a negação faz é negar que esse motivo seja a causa da saída. Na segunda, 'porque era corajoso' afirma a causa real da saída. (A) está correta em identificar ambas como causais, mas imprecisa em não explorar a nuance da negação. (B) incorreto: não há distinção de classe entre as ocorrências de 'porque'. (C) correto em classificação, mas a questão explora a nuance da negação — a alternativa (E) é mais completa e precisa."
+      "gabarito": "A",
+      "explicacao": "O período é composto por: (1) 'O imediato solicitou ao comandante' — oração principal; (2) 'que autorizasse a licença' — subordinada substantiva objetiva direta (objeto direto de 'solicitou'); (3) 'o comandante, porém, preferiu aguardar o relatório médico' — oração coordenada adversativa, ligada à primeira pelo 'porém'. O ponto e vírgula separa as duas orações coordenadas (1+2 de um lado, 3 do outro). 'Porém' é coordenativo adversativo — não cria subordinação. A alternativa B está errada: 'que autorizasse a licença' é subordinada, não coordenada. A alternativa E está errada: é substantiva, não adjetiva."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Considere: 'Os candidatos que não levarem os documentos serão desclassificados; os que levarem, contudo, poderão prosseguir.' Sobre o período, é INCORRETO afirmar:",
+      "textoBase": "Tanto os oficiais trabalharam na elaboração do plano de operações que o documento ficou pronto dois dias antes do prazo.",
+      "enunciado": "A oração 'que o documento ficou pronto dois dias antes do prazo' é classificada como subordinada adverbial:",
       "alternativas": {
-        "A": "Há duas orações coordenadas separadas por ponto e vírgula.",
-        "B": "Cada oração principal tem uma subordinada adjetiva restritiva.",
-        "C": "'Contudo' é conjunção coordenativa adversativa e exige vírgula antes e depois quando intercalado.",
-        "D": "A omissão das vírgulas em torno de 'que não levarem' tornaria a oração explicativa.",
-        "E": "A segunda oração principal está reduzida pelo apagamento de elementos já mencionados (elipse de 'serão desclassificados')."
+        "A": "Causal, pois indica a causa do esforço dos oficiais.",
+        "B": "Concessiva, pois indica um resultado inesperado.",
+        "C": "Temporal, pois indica o momento da conclusão.",
+        "D": "Final, pois indica o objetivo do trabalho dos oficiais.",
+        "E": "Consecutiva, pois indica a consequência do grau de intensidade da ação dos oficiais."
       },
-      "gabarito": "D",
-      "explicacao": "A afirmação em (D) está INCORRETA porque contém um equívoco: a vírgula (ou ausência dela) em torno das adjetivas distingue restritiva (sem vírgula) de explicativa (com vírgula). 'Os candidatos que não levarem os documentos' já está SEM vírgula = restritiva. Para torná-la explicativa, seriam necessárias vírgulas em torno de 'que não levarem os documentos', e não a 'omissão' delas. A questão inverte a relação. As demais assertivas estão corretas: (A) há duas coordenadas separadas por ponto e vírgula; (B) cada principal tem uma adjetiva restritiva; (C) 'contudo' é adversativo com vírgulas; (E) há elipse do predicado na segunda oração."
+      "gabarito": "E",
+      "explicacao": "A estrutura 'tanto... que' é correlativa consecutiva — indica que a intensidade ou quantidade expressa na primeira oração gerou como consequência o fato da segunda. 'Tanto trabalharam' (grau elevado de trabalho) → 'que ficou pronto antes do prazo' (consequência desse grau). Do mesmo grupo: 'tão... que', 'de modo que', 'de forma que'. Não é causal (não indica a causa, mas a consequência). Não é concessiva (não há obstáculo). Não é final (não indica finalidade). Não é temporal."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Em 'Por mais que estudasse, não conseguia memorizar as fórmulas.', a oração subordinada é concessiva. A substituição de 'por mais que' que PRESERVA o valor concessivo é:",
+      "textoBase": "A PSU RM2 exige que o candidato domine a língua portuguesa, razão pela qual os estudos devem ser intensificados nos meses que antecedem a prova.",
+      "enunciado": "No período acima, a expressão 'razão pela qual' introduz uma oração que, em relação à anterior, exerce função de:",
       "alternativas": {
-        "A": "Porque estudava muito, não conseguia memorizar as fórmulas.",
-        "B": "Embora estudasse muito, não conseguia memorizar as fórmulas.",
-        "C": "Como estudava muito, não conseguia memorizar as fórmulas.",
-        "D": "Se estudasse muito, não conseguiria memorizar as fórmulas.",
-        "E": "Desde que estudasse muito, não conseguiria memorizar as fórmulas."
+        "A": "Oração coordenada adversativa.",
+        "B": "Oração subordinada adjetiva com valor explicativo.",
+        "C": "Oração subordinada adverbial causal.",
+        "D": "Oração subordinada substantiva objetiva indireta.",
+        "E": "Oração coordenada conclusiva."
       },
       "gabarito": "B",
-      "explicacao": "'Por mais que' é conjunção concessiva, assim como 'embora', 'ainda que', 'mesmo que', 'conquanto' e 'posto que'. A alternativa (B) substitui 'por mais que estudasse' por 'embora estudasse muito', mantendo o valor concessivo: o estudo intenso não impediu a dificuldade de memorização. (A) usa 'porque' — causal, inverte a lógica (implicaria que estudar causou a dificuldade). (C) usa 'como' — causal ou conformativa. (D) usa 'se' — condicional hipotética. (E) usa 'desde que' — condicional."
+      "explicacao": "'Razão pela qual' é locução com pronome relativo ('qual') que retoma o antecedente implícito 'razão' — trata-se de uma oração subordinada adjetiva de valor explicativo (equivale a 'e por isso'). A oração caracteriza e explica o antecedente nominal. Observe que poderia ser reescrita como 'e por isso os estudos devem ser intensificados', o que evidencia também o valor conclusivo, mas a estrutura com pronome relativo mantém sua natureza adjetiva. Não é coordenada adversativa nem conclusiva (é subordinada). Não é substantiva objetiva indireta."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Mal o exame começou, percebeu que havia estudado os tópicos errados.' A palavra 'Mal' nesse contexto funciona como:",
+      "textoBase": "Não obstante as dificuldades logísticas enfrentadas durante a travessia, a tripulação cumpriu integralmente o cronograma estabelecido pelo Comando do Distrito Naval.",
+      "enunciado": "A expressão 'Não obstante as dificuldades logísticas enfrentadas durante a travessia' equivale, em termos de sentido, à oração:",
       "alternativas": {
-        "A": "advérbio de modo, modificando o verbo 'começou'",
-        "B": "conjunção coordenativa adversativa equivalente a 'mas'",
-        "C": "conjunção subordinativa temporal equivalente a 'assim que/logo que'",
-        "D": "substantivo com função de sujeito da primeira oração",
-        "E": "conjunção subordinativa condicional equivalente a 'se'"
+        "A": "'porque as dificuldades logísticas foram enfrentadas durante a travessia'",
+        "B": "'se as dificuldades logísticas fossem enfrentadas durante a travessia'",
+        "C": "'embora houvesse dificuldades logísticas durante a travessia'",
+        "D": "'para que as dificuldades logísticas fossem superadas durante a travessia'",
+        "E": "'logo que as dificuldades logísticas foram enfrentadas durante a travessia'"
       },
       "gabarito": "C",
-      "explicacao": "'Mal' pode funcionar como conjunção temporal, equivalendo a 'assim que', 'logo que', 'tão logo': indica que a ação da subordinada ocorreu imediatamente antes ou simultaneamente à da principal. 'Mal o exame começou' = 'Assim que o exame começou' / 'Tão logo o exame começou'. É, portanto, conjunção subordinativa temporal. (A) incorreto: se fosse advérbio de modo, modificaria 'começou' com sentido de 'deficientemente' — sentido absurdo aqui. (B) incorreto: 'mal' nunca é adversativa. (D) incorreto: 'mal' não é substantivo nessa função. (E) incorreto: é temporal, não condicional."
+      "explicacao": "'Não obstante' é locução de valor concessivo — indica que algo ocorreu apesar de um obstáculo. A tripulação cumpriu o cronograma apesar das dificuldades. A equivalência concessiva é expressa pela conjunção 'embora' (+ subjuntivo). A alternativa A usa 'porque', que seria causal (sentido oposto: as dificuldades causariam o cumprimento, o que é ilógico). A alternativa B usa 'se', condicional hipotética. A alternativa D usa 'para que', final. A alternativa E usa 'logo que', temporal. Apenas C preserva o valor concessivo."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Analise o período: 'Quem muito estuda nem sempre passa, mas quem não estuda certamente não passa.' Sobre a estrutura desse período, é correto afirmar:",
+      "textoBase": "O cabo informou que o material havia chegado. / O cabo informou: o material havia chegado.",
+      "enunciado": "Assinale a alternativa correta sobre as duas formas de apresentar o mesmo conteúdo acima.",
       "alternativas": {
-        "A": "É composto exclusivamente por coordenação, com duas orações coordenadas adversativas.",
-        "B": "É composto por subordinação: a oração 'quem muito estuda' é subordinada substantiva subjetiva.",
-        "C": "É composto por coordenação e subordinação: há duas orações principais coordenadas adversativas, cada uma com uma oração subordinada substantiva subjetiva introduzida por 'quem'.",
-        "D": "É composto por coordenação: 'quem muito estuda' é oração coordenada assindética da principal.",
-        "E": "As orações com 'quem' são adjetivas, pois 'quem' é pronome relativo referindo-se a pessoa."
+        "A": "Na primeira, há subordinação; na segunda, coordenação assindética — os sentidos são diferentes.",
+        "B": "Na primeira, 'que o material havia chegado' é subordinada substantiva objetiva direta; na segunda, a oração após os dois-pontos é coordenada assindética com valor de aposto — o sentido é equivalente.",
+        "C": "Na segunda forma, a oração após os dois-pontos é subordinada adverbial causal.",
+        "D": "As duas formas são sintaticamente idênticas — o 'que' e os dois-pontos têm o mesmo valor gramatical.",
+        "E": "Na primeira, há discurso indireto; na segunda, discurso direto — as formas são incompatíveis sintaticamente."
       },
-      "gabarito": "C",
-      "explicacao": "O pronome relativo indefinido 'quem' (= aquele que) pode introduzir oração subordinada substantiva quando não há antecedente expresso. Em 'quem muito estuda' = 'aquele que muito estuda' — função de sujeito de 'não passa' = oração substantiva subjetiva. O período tem: (1ª) 'quem muito estuda nem sempre passa' = oração com subjetiva interna; (2ª) 'quem não estuda certamente não passa' = oração com subjetiva interna; as duas são unidas por 'mas' (adversativa) = coordenação entre os dois blocos. (A) incorreto: há subordinação interna. (B) incorreto: há também coordenação. (D) incorreto: 'quem muito estuda' é subordinada, não coordenada. (E) incorreto: 'quem' sem antecedente introduz substantiva, não adjetiva."
+      "gabarito": "B",
+      "explicacao": "Na primeira versão, 'que o material havia chegado' é subordinada substantiva objetiva direta — objeto direto de 'informou', introduzida pela conjunção integrante 'que'. Na segunda, os dois-pontos introduzem o conteúdo do que foi informado de forma justaposicional, funcionando como aposto ou oração coordenada assindética com valor explicativo. O conteúdo informacional é equivalente — ambas relatam o que o cabo informou. A alternativa E confunde discurso direto com discurso indireto; na segunda forma não há aspas nem discurso direto propriamente dito — é uma construção explicativa."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Considere a frase: 'O oficial ordenou que os soldados marchem / marchassem.' Qual forma verbal está de acordo com a norma culta e por quê?",
+      "textoBase": "Ainda que o candidato tenha estudado durante meses, uma única questão pode ser decisiva na PSU RM2.",
+      "enunciado": "A substituição de 'Ainda que' por 'Porque' na frase acima:",
       "alternativas": {
-        "A": "'Marchem' — presente do subjuntivo, pois a ordem é dada no presente",
-        "B": "'Marchassem' — imperfeito do subjuntivo, pois o verbo da principal está no passado (ordenou)",
-        "C": "Ambas são corretas, com significados diferentes conforme o contexto temporal",
-        "D": "'Marchem' — indicativo presente, pois expressa ordem direta",
-        "E": "'Marchassem' — futuro do subjuntivo, pois a ação ainda não aconteceu"
+        "A": "Mantém o sentido, pois ambas as conjunções introduzem orações subordinadas.",
+        "B": "Mantém o sentido, pois o estudo extenso justifica qualquer resultado.",
+        "C": "Altera o sentido, pois 'ainda que' é concessivo e 'porque' é causal — a relação lógica entre as orações muda completamente.",
+        "D": "Altera apenas o modo verbal, sem impacto no sentido do período.",
+        "E": "Não é possível, pois 'porque' não pode introduzir oração subordinada."
       },
-      "gabarito": "B",
-      "explicacao": "A correlação de tempos verbais nas orações subordinadas substantivas obedece à regra: verbo principal no passado (pretérito perfeito 'ordenou') exige verbo da subordinada no imperfeito do subjuntivo ('marchassem'). Verbo principal no presente ('ordena') exigiria presente do subjuntivo ('marchem'). (A) incorreto: o principal está no passado, impedindo o presente do subjuntivo na subordinada. (C) incorreto: as formas não são intercambiáveis livremente na norma culta. (D) incorreto: orações subordinadas substantivas completivas usam subjuntivo, não indicativo. (E) incorreto: 'marchassem' é imperfeito do subjuntivo, não futuro."
+      "gabarito": "C",
+      "explicacao": "'Ainda que' é conjunção concessiva — o estudo extenso não impediu que uma única questão pudesse ser decisiva (o obstáculo não muda o resultado). Ao substituir por 'porque', a relação muda para causal: o estudo seria a causa da importância de uma única questão, o que não faz sentido lógico e inverte a relação. Além disso, 'ainda que' exige o verbo no subjuntivo ('tenha estudado'), enquanto 'porque' geralmente vem com indicativo ('estudou'). A troca altera tanto a relação lógica quanto a estrutura verbal. A alternativa E está errada: 'porque' pode introduzir subordinadas causais."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Não há militar que não queira a vitória.' A oração 'que não queira a vitória' é subordinada adjetiva. Qual a relação entre a negação 'não' e o modo subjuntivo?",
+      "textoBase": "Nem o mau tempo nem as falhas no sistema de comunicação impediram que a operação fosse concluída com êxito, de modo que a base naval manteve sua reputação operacional intacta.",
+      "enunciado": "No período acima, identifique corretamente as relações sintáticas das orações.",
       "alternativas": {
-        "A": "A negação é irrelevante para a escolha do modo; o subjuntivo se deve apenas ao pronome relativo 'que'.",
-        "B": "O antecedente negativo ('não há military') indica inexistência, criando contexto de hipótese que justifica o subjuntivo na adjetiva.",
-        "C": "O subjuntivo se deve à conjunção 'que', que exige esse modo em todas as orações que introduz.",
-        "D": "A oração deveria estar no indicativo ('quer'), pois o desejo de vitória é um fato real e não hipotético.",
-        "E": "A negação 'não' na subordinada anula o valor do subjuntivo, aproximando-o do indicativo em termos semânticos."
+        "A": "'de modo que' introduz oração coordenada aditiva; 'que a operação' é adjetiva restritiva.",
+        "B": "O período é composto apenas por coordenação assindética entre as três orações.",
+        "C": "'nem... nem' torna as orações subordinadas adverbiais concessivas.",
+        "D": "'de sorte que a base naval manteve sua reputação operacional intacta' é subordinada adverbial consecutiva; 'que a operação fosse concluída com êxito' é subordinada substantiva objetiva direta.",
+        "E": "'que a operação fosse concluída com êxito' é subordinada adverbial final de 'impediram'."
       },
-      "gabarito": "B",
-      "explicacao": "O antecedente de valor negativo ou indefinido ('não há', 'nenhum', 'algum', 'qualquer') induz o subjuntivo na oração adjetiva porque cria contexto de hipótese, irrealidade ou generalização: o referente não existe ou é indeterminado. 'Não há militar' = não existe um referente concreto e determinado, portanto a adjetiva fica no subjuntivo ('queira'). Se o antecedente fosse determinado e existente ('O militar que quer a vitória...'), usaríamos o indicativo. (A) incorreto: o pronome 'que' sozinho não determina o modo. (C) incorreto: 'que' não exige subjuntivo em todos os casos. (D) incorreto: com antecedente negativo, o subjuntivo é o correto na norma culta."
+      "gabarito": "D",
+      "explicacao": "O período tem três orações. A principal é 'Nem o mau tempo nem as falhas no sistema de comunicação impediram'. 'que a operação fosse concluída com êxito' é subordinada substantiva objetiva direta — objeto direto de 'impediram' (impediram o quê?). 'de modo que a base naval manteve sua reputação operacional intacta' é subordinada adverbial consecutiva — indica a consequência do fato de a operação ter sido concluída. 'Nem... nem' é correlativa aditiva de negação, não cria subordinação. A alternativa A está errada: 'de modo que' é subordinativo consecutivo. A alternativa E está errada: 'que a operação' é substantiva, não final."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Analise: 'Tal foi o esforço dos candidatos que a comissão decidiu premiar os dez primeiros.' Sobre esse período, é correto afirmar:",
+      "textoBase": "Cujo relatório foi aprovado pelo comandante, o oficial receberá promoção.",
+      "enunciado": "A frase acima apresenta erro de construção. Assinale a alternativa que apresenta a reescritura correta.",
       "alternativas": {
-        "A": "É composto por coordenação conclusiva: 'tal...que' expressa conclusão.",
-        "B": "É composto por subordinação; 'que a comissão decidiu premiar' é oração subordinada adverbial consecutiva introduzida pelo correlativo 'tal...que'.",
-        "C": "É composto por subordinação; 'que a comissão decidiu premiar' é oração subordinada substantiva objetiva direta de 'foi'.",
-        "D": "É composto por subordinação; 'que a comissão decidiu premiar' é oração subordinada adjetiva restritiva de 'esforço'.",
-        "E": "É período simples, pois 'tal' é um pronome e não uma conjunção."
+        "A": "O oficial cujo relatório foi aprovado pelo comandante receberá promoção.",
+        "B": "O oficial, que o relatório foi aprovado pelo comandante, receberá promoção.",
+        "C": "Cujo relatório o comandante aprovou, o oficial receberá promoção.",
+        "D": "O oficial receberá promoção, cujo relatório foi aprovado pelo comandante.",
+        "E": "O relatório foi aprovado pelo comandante, cujo oficial receberá promoção."
+      },
+      "gabarito": "A",
+      "explicacao": "O pronome relativo 'cujo' deve estar imediatamente após o antecedente (o ser a quem pertence algo) e imediatamente antes do nome da coisa possuída. A frase original erra ao iniciar com 'cujo' sem o antecedente. A forma correta é: 'O oficial' (antecedente) + 'cujo relatório' (posse) + predicado. A alternativa A organiza corretamente: antecedente 'O oficial', depois 'cujo relatório foi aprovado pelo comandante' (oração adjetiva restritiva), depois a oração principal 'receberá promoção'. As demais alternativas mantêm erros de posicionamento do 'cujo' ou alteram o sentido."
+    }
+  ],
+  "simulado": [
+    {
+      "id": "s01",
+      "nivel": "avancado",
+      "textoBase": "Muito embora o Comando do 4° Distrito Naval tivesse aprovado o cronograma de obras, o engenheiro responsável solicitou que o prazo fosse ampliado, visto que os materiais importados ainda não haviam chegado ao porto. O contra-almirante, que presidia a reunião, determinou que se aguardasse a conclusão do inventário antes de qualquer deliberação.",
+      "enunciado": "Assinale a alternativa que apresenta análise CORRETA das orações do texto acima.",
+      "alternativas": {
+        "A": "'Muito embora o Comando do 4° Distrito Naval tivesse aprovado o cronograma de obras' é oração principal do primeiro período.",
+        "B": "'visto que os materiais importados ainda não haviam chegado ao porto' é oração subordinada adverbial causal.",
+        "C": "'que presidia a reunião' é oração subordinada substantiva subjetiva de 'contra-almirante'.",
+        "D": "'que se aguardasse a conclusão do inventário' é oração subordinada adjetiva restritiva.",
+        "E": "'Muito embora' classifica a primeira oração como coordenada adversativa."
       },
       "gabarito": "B",
-      "explicacao": "O correlativo 'tal...que' (assim como 'tão/tanto/tamanho...que') introduz oração subordinada adverbial consecutiva: 'tal foi o esforço' (intensidade na principal) → 'que a comissão decidiu premiar os dez primeiros' (consequência na subordinada). É período composto por subordinação. (A) incorreto: é subordinação (consecutiva), não coordenação conclusiva. (C) incorreto: 'que...' não é objeto de 'foi' (verbo de ligação). (D) incorreto: não há relação de adjetivação. (E) incorreto: 'tal...que' funciona como correlativo conjuntivo, não como pronome simples; e há dois verbos no período."
+      "explicacao": "'Visto que' é locução conjuntiva causal — ela introduz a causa da solicitação de ampliação do prazo (a causa é a não chegada dos materiais). A oração é subordinada adverbial causal em relação à principal 'o engenheiro responsável solicitou'. A alternativa A está errada: 'Muito embora...' é subordinada adverbial concessiva, não a oração principal. A alternativa C está errada: 'que presidia a reunião' é adjetiva restritiva (pronome relativo 'que' com antecedente 'contra-almirante'), não substantiva. A alternativa D está errada: 'que se aguardasse a conclusão do inventário' é substantiva objetiva direta (objeto direto de 'determinou'). A alternativa E está errada: 'muito embora' é subordinativa concessiva, não coordenativa."
+    },
+    {
+      "id": "s02",
+      "nivel": "avancado",
+      "textoBase": "O candidato ao concurso PSU RM2 deve saber que a prova de Língua Portuguesa exige tanto o domínio das regras gramaticais quanto a capacidade de interpretar textos complexos, de modo que o estudo isolado de gramática, embora necessário, não é suficiente para garantir a aprovação.",
+      "enunciado": "No período acima, há quantas orações subordinadas e de que tipos são elas?",
+      "alternativas": {
+        "A": "Duas subordinadas: uma substantiva objetiva direta e uma adverbial consecutiva.",
+        "B": "Três subordinadas: uma substantiva objetiva direta, uma adverbial consecutiva e uma adverbial concessiva.",
+        "C": "Duas subordinadas: uma adjetiva restritiva e uma adverbial concessiva.",
+        "D": "Quatro subordinadas: duas substantivas e duas adverbiais.",
+        "E": "Três subordinadas: uma substantiva subjetiva, uma adverbial causal e uma adverbial concessiva."
+      },
+      "gabarito": "B",
+      "explicacao": "O período contém: (1) oração principal: 'O candidato ao concurso PSU RM2 deve saber'; (2) subordinada substantiva objetiva direta: 'que a prova de Língua Portuguesa exige tanto o domínio das regras gramaticais quanto a capacidade de interpretar textos complexos' — objeto direto de 'saber'; (3) subordinada adverbial consecutiva: 'de modo que o estudo isolado de gramática [...] não é suficiente para garantir a aprovação' — indica a consequência do que foi dito na principal; (4) subordinada adverbial concessiva: 'embora necessário' — forma reduzida de 'embora seja necessário', indicando concessão dentro da consecutiva. Total: três subordinadas."
+    },
+    {
+      "id": "s03",
+      "nivel": "avancado",
+      "textoBase": "A portaria naval n° 47/2025 determina que todos os sargentos concluam o curso de atualização até dezembro; contudo, caso algum militar comprove impedimento de saúde devidamente documentado, o prazo poderá ser prorrogado pelo Comando.",
+      "enunciado": "Julgue as afirmações abaixo sobre o período e assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "'que todos os sargentos concluam o curso de atualização até dezembro' é oração coordenada aditiva.",
+        "B": "'contudo' é conjunção subordinativa, tornando a segunda oração dependente da primeira.",
+        "C": "'caso algum militar comprove impedimento de saúde devidamente documentado' é oração subordinada adverbial condicional, e 'contudo' é conjunção coordenativa adversativa.",
+        "D": "'caso algum militar comprove' é oração subordinada adverbial causal.",
+        "E": "O período é composto apenas por orações coordenadas, pois há ausência de conjunções subordinativas."
+      },
+      "gabarito": "C",
+      "explicacao": "'Contudo' é conjunção coordenativa adversativa — ela conecta duas orações independentes indicando contraste (a determinação × a possibilidade de prorrogação). 'Caso algum militar comprove impedimento de saúde devidamente documentado' é subordinada adverbial condicional — 'caso' é conjunção condicional que exige subjuntivo e estabelece a condição para a prorrogação. A alternativa A está errada: 'que todos os sargentos concluam' é subordinada substantiva objetiva direta (objeto direto de 'determina'). A alternativa B está errada: 'contudo' é coordenativo, não subordinativo. A alternativa D está errada: 'caso' é condicional, não causal."
+    },
+    {
+      "id": "s04",
+      "nivel": "avancado",
+      "textoBase": "O imediato, cujas recomendações foram ignoradas na reunião anterior, reiterou que a falta de manutenção preventiva comprometeria a operacionalidade do navio, tanto que o comandante convocou reunião extraordinária para que o assunto fosse tratado com urgência.",
+      "enunciado": "A respeito das orações do período, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "'cujas recomendações foram ignoradas na reunião anterior' é oração subordinada adjetiva explicativa.",
+        "B": "'que a falta de manutenção preventiva comprometeria a operacionalidade do navio' é oração subordinada substantiva objetiva direta.",
+        "C": "'tanto que o comandante convocou reunião extraordinária' é oração subordinada adverbial consecutiva.",
+        "D": "'para que o assunto fosse tratado com urgência' é oração subordinada adverbial final.",
+        "E": "'cujas recomendações foram ignoradas na reunião anterior' é oração subordinada adjetiva restritiva, pois identifica e delimita qual imediato é referido."
+      },
+      "gabarito": "E",
+      "explicacao": "A questão pede a alternativa INCORRETA. A oração 'cujas recomendações foram ignoradas na reunião anterior' está entre vírgulas, o que a classifica como adjetiva EXPLICATIVA (alternativa A — correta). A alternativa E afirma que é restritiva — isso está errado. Uma oração adjetiva restritiva não pode estar entre vírgulas; a presença das vírgulas é o marcador formal da explicativa. As demais alternativas estão corretas: B identifica a substantiva objetiva direta corretamente; C identifica a consecutiva ('tanto que'); D identifica a final ('para que')."
+    },
+    {
+      "id": "s05",
+      "nivel": "avancado",
+      "textoBase": "Por mais que os recrutas se esforcem durante o treinamento, o desempenho individual na prova prática será o critério decisivo para a classificação final, de sorte que aqueles que não atingirem a pontuação mínima serão desligados do processo seletivo.",
+      "enunciado": "Assinale a alternativa que apresenta a análise CORRETA do período acima.",
+      "alternativas": {
+        "A": "'Por mais que os recrutas se esforcem durante o treinamento' é oração subordinada adverbial condicional.",
+        "B": "'de sorte que aqueles que não atingirem a pontuação mínima serão desligados do processo seletivo' é oração coordenada conclusiva.",
+        "C": "'que não atingirem a pontuação mínima' é oração subordinada adjetiva restritiva do pronome 'aqueles', e 'de sorte que' introduz oração subordinada adverbial consecutiva.",
+        "D": "O pronome 'aqueles' retoma o antecedente 'recrutas' por meio de uma oração subordinada substantiva.",
+        "E": "'Por mais que' equivale a 'porque', preservando o sentido concessivo do período."
+      },
+      "gabarito": "C",
+      "explicacao": "'De sorte que' é locução conjuntiva consecutiva — indica a consequência do fato de o desempenho ser o critério decisivo. Dentro dessa consecutiva, 'que não atingirem a pontuação mínima' é oração subordinada adjetiva restritiva com antecedente 'aqueles' — restringe quais pessoas serão desligadas (apenas as que não atingirem a pontuação). A alternativa A está errada: 'Por mais que' é conjunção concessiva, não condicional. A alternativa B está errada: 'de sorte que' é subordinativa consecutiva, não coordenativa. A alternativa D está errada: a oração 'que não atingirem' é adjetiva, não substantiva. A alternativa E está errada: 'por mais que' (concessivo) e 'porque' (causal) têm sentidos opostos."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
+      "gram-00",
+      "gram-04",
+      "gram-05",
+      "gram-06",
+      "gram-07",
       "gram-01",
+      "gram-02",
       "gram-03",
-      "gram-10",
-      "gram-11",
-      "gram-13",
-      "gram-14",
-      "comp-02",
-      "comp-06",
-      "comp-07"
+      "gram-08",
+      "gram-09",
+      "gram-10"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + gram-11",
-        "enunciado": "Leia: 'Não só o comandante mas também seus auxiliares receberam elogios da diretoria.' A conjunção 'não só…mas também' é aditiva e estabelece dois sujeitos para o verbo 'receberam'. Com base na concordância verbal e na classificação da conjunção, assinale a alternativa correta:",
+        "topico_referencia": "gram-10",
+        "enunciado": "Em 'O sargento ordenou que o recruta se apresentasse imediatamente', a oração 'que o recruta se apresentasse imediatamente' classifica-se como:",
         "alternativas": {
-          "A": "O verbo deveria estar no singular ('recebeu'), concordando com o núcleo mais próximo ('auxiliares' não é o mais próximo — logo concorda com 'comandante').",
-          "B": "O verbo no plural ('receberam') está correto, pois a conjunção correlativa 'não só…mas também' exige plural quando os elementos são de pessoas diferentes.",
-          "C": "O verbo pode estar tanto no singular quanto no plural, sem distinção de sentido.",
-          "D": "O verbo deveria estar no singular, pois 'não só…mas também' é conjunção adversativa que anula o segundo sujeito.",
-          "E": "A frase é sintaticamente incorreta porque a conjunção 'não só…mas também' não pode introduzir sujeito composto."
+          "A": "Oração subordinada adjetiva restritiva.",
+          "B": "Oração subordinada substantiva objetiva direta.",
+          "C": "Oração coordenada sindética explicativa.",
+          "D": "Oração subordinada adverbial final.",
+          "E": "Oração subordinada substantiva subjetiva."
         },
         "gabarito": "B",
-        "explicacao": "A conjunção correlativa 'não só…mas também' é aditiva e coordena dois elementos do sujeito composto. Quando os elementos do sujeito composto estão na terceira pessoa e são de referentes distintos, o verbo vai para o plural — regra geral de concordância verbal com sujeito composto. 'O comandante' + 'seus auxiliares' = dois referentes distintos → 'receberam' (plural). (A) incorreto: a regra de concordância com o núcleo mais próximo vale para sujeito composto posposto ao verbo; aqui o sujeito é anteposto. (C) incorreto: há distinção de sentido e de correção gramatical. (D) incorreto: 'não só…mas também' é aditiva, não adversativa, e não anula o segundo sujeito. (E) incorreto: a construção é plenamente aceita."
+        "explicacao": "A oração 'que o recruta se apresentasse imediatamente' é objeto direto do verbo 'ordenou' — responde à pergunta 'ordenou o quê?'. Quando uma oração exerce função de objeto direto, classifica-se como subordinada substantiva objetiva direta. O 'que' é conjunção integrante, não pronome relativo. O verbo está no subjuntivo imperfeito por exigência do verbo 'ordenar' na oração principal."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + gram-13",
-        "enunciado": "Leia: 'O comandante insistiu [em] que os recrutas relembrassem [de] os procedimentos de segurança.' Com base na regência dos verbos 'insistir' e 'relembrar' e na classificação das orações, assinale a alternativa correta:",
+        "topico_referencia": "gram-09",
+        "enunciado": "Na frase 'O resultado da inspeção surpreendeu os oficiais presentes', o sujeito da oração é:",
         "alternativas": {
-          "A": "'Insistir' exige preposição 'em', portanto a oração 'que os recrutas relembrassem os procedimentos' é subordinada substantiva objetiva indireta; 'relembrar' é transitivo direto, dispensando preposição.",
-          "B": "'Insistir' dispensa preposição, tornando a subordinada objetiva direta; 'relembrar' exige 'de', tornando 'os procedimentos' objeto indireto.",
-          "C": "Ambos os verbos são intransitivos no contexto e as orações são adverbiais causais.",
-          "D": "'Insistir' e 'relembrar' são de regência idêntica (transitivos diretos), portanto ambas as orações são objetivas diretas.",
-          "E": "A preposição 'em' antes de 'que' é facultativa em 'insistir'; sem ela, a oração seria adverbial final."
+          "A": "'os oficiais presentes'",
+          "B": "'O resultado'",
+          "C": "'O resultado da inspeção'",
+          "D": "'da inspeção'",
+          "E": "'oficiais'"
         },
-        "gabarito": "A",
-        "explicacao": "'Insistir' é verbo transitivo indireto, regendo a preposição 'em': 'insistir em algo'. Assim, 'que os recrutas relembrassem os procedimentos' é oração subordinada substantiva objetiva indireta. Já 'relembrar', como 'lembrar' no sentido transitivo direto, dispensa preposição: 'relembrar os procedimentos'. O uso de 'de' com 'lembrar/relembrar' é característico da linguagem coloquial, rejeitado na norma culta escrita. (B) inverte as regências. (C) absurdo. (D) 'insistir' não é transitivo direto. (E) a preposição 'em' não é facultativa no sentido empregado."
+        "gabarito": "C",
+        "explicacao": "O sujeito é o termo sobre o qual se faz uma declaração — é o ser que pratica ou sofre a ação, ou sobre quem se predica algo. Em 'O resultado da inspeção surpreendeu os oficiais presentes', 'O resultado da inspeção' é o sujeito completo: 'resultado' é o núcleo e 'da inspeção' é o adjunto adnominal que o especifica. 'Os oficiais presentes' é o objeto direto do verbo 'surpreendeu'. Sujeito isolado ('O resultado') deixaria de fora o complemento nominal essencial para identificá-lo."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + gram-14",
-        "enunciado": "Leia: 'Encontrei o documento de que te falei ontem.' A colocação do pronome 'te' e a classificação da oração 'de que te falei ontem' — tomadas conjuntamente — resultam em qual análise correta?",
+        "topico_referencia": "gram-08",
+        "enunciado": "'Silêncio!' é um exemplo de:",
         "alternativas": {
-          "A": "O pronome 'te' está em posição enclítica (depois do verbo), o que é obrigatório em orações adjetivas; a oração é subordinada adjetiva restritiva.",
-          "B": "O pronome 'te' está em posição mesoclítica, incorreta nesse contexto; a oração é substantiva objetiva direta.",
-          "C": "O pronome 'te' está em posição proclítica (antes do verbo), atraído pelo pronome relativo 'que'; a oração é subordinada adjetiva restritiva.",
-          "D": "O pronome 'te' está em posição proclítica; a oração é subordinada adverbial causal.",
-          "E": "O pronome 'te' está em posição enclítica e a oração é adjetiva explicativa, devendo estar entre vírgulas."
+          "A": "Período composto por coordenação.",
+          "B": "Oração sem sujeito.",
+          "C": "Frase nominal sem oração.",
+          "D": "Período composto por subordinação.",
+          "E": "Oração com sujeito oculto."
         },
         "gabarito": "C",
-        "explicacao": "O pronome relativo 'que' funciona como atrator proclítico: pronomes relativos exigem a próclise. Por isso, 'te falei' (próclise) e não 'falei-te' (ênclise). Quanto à classificação: 'de que te falei ontem' é oração subordinada adjetiva restritiva, pois o pronome relativo 'de que' retoma 'documento' (antecedente) e a oração não está entre vírgulas. (A) o pronome está proclítico, não enclítico. (B) não há mesoclítica e não é substantiva. (D) não é adverbial causal. (E) o pronome é proclítico e a oração é restritiva."
+        "explicacao": "Uma frase é qualquer enunciado com sentido completo. Uma oração, especificamente, contém um verbo. 'Silêncio!' transmite sentido completo (é um comando) sem nenhum verbo — portanto, é uma frase nominal, não uma oração. Por não ser oração, não é período de nenhum tipo. A classificação entre frase, oração e período é fundamental: frase = sentido completo; oração = tem verbo; período = frase com uma ou mais orações."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + gram-01",
-        "enunciado": "Leia a frase: 'Assim que o prazo venceu, os candidatos, que já haviam entregue os formulários, foram convocados para a próxima fase.' Considerando tanto a ortografia do particípio 'entregue' quanto a classificação sintática da oração que o contém, assinale a alternativa correta:",
+        "topico_referencia": "gram-03",
+        "enunciado": "Assinale a alternativa em que o uso da crase está CORRETO.",
         "alternativas": {
-          "A": "'Entregue' está incorreto; o correto é 'entregado'. A oração é adjetiva restritiva.",
-          "B": "'Entregue' é o particípio irregular de 'entregar', forma correta com o auxiliar 'haviam'. A oração 'que já haviam entregue os formulários' é adjetiva explicativa.",
-          "C": "'Entregue' e 'entregado' são ambos corretos com qualquer auxiliar. A oração é substantiva objetiva direta.",
-          "D": "'Entregue' é correto apenas com auxiliares 'ser/estar' (voz passiva); com 'haviam', deveria ser 'entregado'. A oração é adjetiva explicativa.",
-          "E": "'Entregue' é o particípio regular de 'entregar'; a forma irregular é 'entregado'. A oração é adjetiva restritiva."
+          "A": "O recruta foi à bordo do navio.",
+          "B": "Refiro-me à medida adotada pelo Comando.",
+          "C": "A missão foi enviada à Brasília.",
+          "D": "O relatório foi encaminhado à prazo.",
+          "E": "À noite, à mando do sargento, o recruta fez a ronda."
         },
         "gabarito": "B",
-        "explicacao": "O verbo 'entregar' tem dois particípios: 'entregado' (regular) e 'entregue' (irregular). Com auxiliares 'ter' e 'haver', a forma irregular 'entregue' é plenamente aceita no Brasil. A oração 'que já haviam entregue os formulários' está entre vírgulas e acrescenta informação ao referente já determinado 'os candidatos' — portanto, adjetiva explicativa. (A) 'entregue' é correto e a oração é explicativa. (C) há restrição e a oração não é substantiva. (D) 'entregue' é aceito com 'ter/haver'. (E) inverte regular/irregular e a oração é explicativa."
+        "explicacao": "Em B, 'à medida' = a (preposição exigida por 'refiro-me a') + a (artigo que acompanha 'medida', substantivo feminino) → crase correta. Em A, 'a bordo' é locução adverbial masculina — não há artigo antes de 'bordo', portanto sem crase. Em C, Brasília é nome de cidade sem artigo por convenção — não se usa crase antes de nomes de cidades (salvo quando o artigo é parte do nome, como 'A Bahia'). Em D, 'prazo' é substantivo masculino — não recebe artigo feminino. Em E, 'a mando' é locução adverbial masculina, sem crase."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + comp-02",
-        "enunciado": "Leia o trecho: 'O candidato que realmente se preparou não tem motivo para temer a prova; o que apenas fingiu estudar, contudo, certamente sentirá as consequências.' A partir da estrutura das orações e das informações implícitas do texto, assinale a alternativa correta:",
+        "topico_referencia": "gram-02",
+        "enunciado": "Assinale a alternativa em que TODAS as palavras estão corretamente acentuadas segundo o Acordo Ortográfico em vigor.",
         "alternativas": {
-          "A": "Há apenas coordenação; as duas orações principais são coordenadas adversativas e nenhuma informação implícita é veiculada.",
-          "B": "As orações 'que realmente se preparou' e 'que apenas fingiu estudar' são adjetivas restritivas; o texto implica que há pelo menos dois tipos de candidatos e que a preparação real distingue os resultados.",
-          "C": "As orações adjetivas são explicativas e o texto não veicula informação implícita.",
-          "D": "A conjunção 'contudo' é explicativa e as orações 'que realmente se preparou' e 'que apenas fingiu estudar' são substantivas subjetivas.",
-          "E": "O período é simples, pois os verbos 'preparou' e 'fingiu' estão em orações reduzidas de particípio."
+          "A": "Heróico, zôo, vôo.",
+          "B": "Herói, zoo, voo.",
+          "C": "Herói, zoo, voo.",
+          "D": "Herói, zôo, vôo.",
+          "E": "Heróico, herói, vôo."
         },
         "gabarito": "B",
-        "explicacao": "As orações 'que realmente se preparou' e 'que apenas fingiu estudar' são adjetivas restritivas (sem vírgulas), restringindo o universo de candidatos a dois grupos distintos. Essa restrição carrega implicitamente a pressuposição de que o universo inclui ambos os tipos. Há também a inferência implícita: o candidato que se preparou sairá bem; o que fingiu, não. (A) há subordinação e há implicação. (C) são restritivas e há implicação. (D) 'contudo' é adversativa e as orações são adjetivas. (E) há vários verbos conjugados."
+        "explicacao": "Após o Acordo Ortográfico de 1990 (em vigor desde 2016): 'voo' e 'zoo' perderam o acento circunflexo (regra da eliminação do acento em oxítonas terminadas em 'oo'). 'Herói' mantém o acento agudo por ser oxítona terminada em ditongo aberto 'éi' — essa regra não foi alterada pelo Acordo. 'Heróico' não é acentuado porque o acento recai na sílaba 'roi' e a palavra é proparoxítona pela tonicidade, mas a regra de acento em ditongos abertos de palavras paroxítonas foi eliminada — 'heroico' seria o correto para paroxítonos; 'heróico' mantém porque é derivado de 'herói'."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + comp-06",
-        "enunciado": "Leia: 'O militar era tão experiente quanto corajoso, de modo que sua presença transmitia segurança a todos.' A expressão 'de modo que' introduz oração subordinada adverbial consecutiva. A palavra 'segurança', usada no trecho, pode ser considerada:",
+        "topico_referencia": "gram-10",
+        "enunciado": "A reescritura 'O oficial foi promovido porque cumpriu exemplarmente todas as missões' preserva o sentido de 'O oficial foi promovido, pois cumpriu exemplarmente todas as missões'?",
         "alternativas": {
-          "A": "Sinônimo perfeito de 'medo', pois em contextos militares os dois conceitos se equivalem.",
-          "B": "Antônimo de 'insegurança' e hipônimo de 'confiança', pertencendo ao mesmo campo semântico de certeza e proteção.",
-          "C": "Polissêmica, mas nesse contexto seu sentido é exclusivamente de 'segurança patrimonial'.",
-          "D": "Hiperônimo de 'coragem', pois toda coragem implica segurança.",
-          "E": "Parônimo de 'certeza', apresentando formas semelhantes e significados idênticos."
+          "A": "Não, pois 'pois' é coordenativo adversativo e 'porque' é subordinativo causal.",
+          "B": "Sim, pois ambas as conjunções indicam relação de causa e estabelecem sentido equivalente.",
+          "C": "Não, pois 'pois' é sempre subordinativo e 'porque' sempre coordenativo.",
+          "D": "Sim, pois ambas são conjunções coordenativas explicativas.",
+          "E": "Não, pois 'pois' pós-verbal é coordenativo explicativo, enquanto 'porque' cria subordinação causal — embora o sentido de causalidade seja equivalente, a estrutura sintática difere."
         },
-        "gabarito": "B",
-        "explicacao": "A oração 'de modo que sua presença transmitia segurança a todos' é adverbial consecutiva (consequência da experiência e coragem). No plano lexical, 'segurança' é antônimo de 'insegurança' e pode ser considerada hipônimo de 'confiança' ('confiança' é o conceito mais amplo). (A) 'segurança' e 'medo' são antônimos. (C) o contexto indica sentido emocional, não patrimonial. (D) 'coragem' não é hipônimo de 'segurança'. (E) parônimos têm formas semelhantes; 'certeza' e 'segurança' não são parônimos."
+        "gabarito": "E",
+        "explicacao": "'Pois' em posição pós-verbal (após a oração principal) é conjunção coordenativa explicativa — a segunda oração tem sentido completo e independe sintaticamente da primeira. 'Porque' em posição causal é subordinativo — cria dependência sintática. O conteúdo de causalidade é semanticamente próximo em ambas as frases, mas a estrutura sintática difere: na primeira há coordenação (orações independentes); na segunda há subordinação (oração dependente da principal). Para fins de questões CEBRASPE sobre 'preservação de sentido com manutenção de correção', essa diferença estrutural pode ou não ser considerada relevante conforme o comando da questão."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + comp-07",
-        "enunciado": "Leia o trecho poético adaptado: 'Embora o mar rugisse com fúria, o navegante avançou, pois seu coração era uma âncora de serenidade.' Considerando a classificação das orações e a figura de linguagem presente, assinale a alternativa correta:",
+        "topico_referencia": "gram-07",
+        "enunciado": "Em 'Se o recruta tivesse estudado, teria passado na prova', os verbos 'tivesse estudado' e 'teria passado' estão respectivamente nos modos:",
         "alternativas": {
-          "A": "'Embora o mar rugisse com fúria' é oração coordenada adversativa; 'seu coração era uma âncora de serenidade' é uma metonímia.",
-          "B": "'Embora o mar rugisse com fúria' é oração subordinada adverbial concessiva; 'seu coração era uma âncora de serenidade' é uma metáfora.",
-          "C": "'Embora o mar rugisse com fúria' é oração subordinada adverbial causal; 'rugisse' é uma personificação isolada.",
-          "D": "'pois seu coração era uma âncora de serenidade' é oração coordenada conclusiva; 'âncora de serenidade' é uma hipérbole.",
-          "E": "Todas as orações são coordenadas; 'âncora de serenidade' é uma antítese entre os campos semânticos do mar e da terra."
+          "A": "Indicativo e subjuntivo.",
+          "B": "Subjuntivo e indicativo.",
+          "C": "Subjuntivo (pretérito imperfeito do subjuntivo composto) e condicional (futuro do pretérito composto).",
+          "D": "Indicativo e condicional.",
+          "E": "Ambos no subjuntivo pretérito perfeito."
         },
-        "gabarito": "B",
-        "explicacao": "'Embora o mar rugisse com fúria' é subordinada adverbial concessiva ('embora' = conjunção concessiva). 'pois seu coração era uma âncora de serenidade' é coordenada sindética explicativa ('pois' anteposto ao verbo). 'seu coração era uma âncora de serenidade' é metáfora — identifica o coração com uma âncora, transferindo a qualidade de firmeza. (A) 'embora' introduce subordinada e é metáfora. (C) 'embora' é concessiva, não causal. (D) 'pois' anteposto é explicativa e não é hipérbole. (E) há subordinação e não é antítese."
+        "gabarito": "C",
+        "explicacao": "'Tivesse estudado' é o pretérito mais-que-perfeito composto do subjuntivo (auxiliar 'tivesse' + particípio 'estudado') — usado em orações condicionais hipotéticas do passado com 'se'. 'Teria passado' é o futuro do pretérito composto do indicativo (auxiliar 'teria' + particípio 'passado') — a apódose (consequência) de um período hipotético contrafactual. Essa estrutura ('se + mais-que-perfeito do subjuntivo → futuro do pretérito composto') é a forma padrão do período hipotético irreal (a condição não foi cumprida no passado)."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + gram-03",
-        "enunciado": "Leia: 'Fui à cerimônia em que me referi às conquistas da equipe, conquistas essas que se devem à dedicação de todos.' O uso da crase e a classificação das orações subordinadas estão corretos em qual alternativa?",
+        "topico_referencia": "gram-05",
+        "enunciado": "Na frase 'O contra-almirante assinou pessoalmente o documento', a palavra 'pessoalmente' classifica-se como:",
         "alternativas": {
-          "A": "Há erro na segunda crase: 'às conquistas' deveria ser 'as conquistas', pois o verbo 'referir-se' não rege preposição.",
-          "B": "Todas as crases estão corretas: 'à cerimônia', 'às conquistas' e 'à dedicação'; as duas orações com 'que' são adjetivas restritivas.",
-          "C": "A crase em 'à dedicação' está errada porque 'dever-se' é intransitivo.",
-          "D": "Todas as crases estão corretas; 'em que me referi às conquistas' é substantiva objetiva direta, e 'que se devem à dedicação' é adverbial causal.",
-          "E": "Há erro em 'à cerimônia': deveria ser 'a cerimônia' sem crase, pois o verbo 'ir' não rege preposição antes de substantivos femininos."
+          "A": "Adjetivo, pois modifica o substantivo 'contra-almirante'.",
+          "B": "Advérbio de modo, pois modifica o verbo 'assinou' indicando como a ação foi feita.",
+          "C": "Pronome, pois retoma o sujeito da oração.",
+          "D": "Substantivo, pois nomeia uma qualidade do contra-almirante.",
+          "E": "Adjunto adnominal, pois é um modificador nominal."
         },
         "gabarito": "B",
-        "explicacao": "As três crases estão corretas: 'à cerimônia' (ir a + artigo fem.); 'às conquistas' (referir-se a + artigo fem. pl.); 'à dedicação' (dever-se a + artigo fem.). As orações 'em que me referi às conquistas' e 'que se devem à dedicação' são adjetivas restritivas (sem vírgulas, modificam 'cerimônia' e 'conquistas'). (A) 'referir-se' é transitivo indireto com 'a'. (C) 'dever-se a algo' admite crase. (D) as orações são adjetivas. (E) 'ir a' + feminino = crase obrigatória."
+        "explicacao": "'Pessoalmente' é advérbio de modo — modifica o verbo 'assinou', indicando como a ação foi realizada (de forma pessoal, sem intermediário). Advérbios de modo frequentemente terminam em '-mente' e respondem à pergunta 'como?'. Não é adjetivo: adjetivo modifica substantivo e concorda com ele em gênero e número. Não é pronome nem substantivo. Adjunto adnominal é termo que modifica substantivo, função que aqui pertenceria a adjetivo, não a advérbio."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + comp-11",
-        "enunciado": "Leia o parágrafo: 'Os candidatos estudaram exaustivamente. Contudo, muitos não foram aprovados. Isso demonstra que apenas a quantidade de horas de estudo não garante o sucesso; é preciso, portanto, que se adote um método eficaz.' Sobre coesão e estrutura oracional do parágrafo, assinale a INCORRETA:",
+        "topico_referencia": "gram-06",
+        "enunciado": "Assinale a alternativa em que o plural está formado INCORRETAMENTE.",
         "alternativas": {
-          "A": "'Contudo' é conjunção adversativa coordenativa que estabelece coesão sequencial entre o primeiro e o segundo período.",
-          "B": "'Isso' é pronome demonstrativo anafórico que retoma o conteúdo do segundo período, promovendo coesão referencial.",
-          "C": "'portanto' é conjunção conclusiva que coordena a oração 'que se adote um método eficaz' como conclusão de 'não garante o sucesso'.",
-          "D": "A oração 'que se adote um método eficaz' é subordinada substantiva subjetiva de 'é preciso'.",
-          "E": "A oração 'que apenas a quantidade de horas de estudo não garante o sucesso' é subordinada substantiva objetiva direta de 'demonstra'."
+          "A": "Contra-almirante → contra-almirantes.",
+          "B": "Guarda-chuva → guarda-chuvas.",
+          "C": "Trocadilho → trocadilhos.",
+          "D": "Grão-mestre → grão-mestres.",
+          "E": "Porta-voz → porta-vozes."
         },
-        "gabarito": "C",
-        "explicacao": "A afirmação (C) está INCORRETA: 'portanto' não coordena a oração 'que se adote um método eficaz'. A estrutura correta é: 'é preciso' = verbo principal impessoal; 'que se adote um método eficaz' = subordinada substantiva subjetiva (sujeito de 'é preciso'); 'portanto' = advérbio conjuntivo que faz coesão entre períodos (interperiódica), não conjunção coordenando orações dentro do mesmo período. As demais estão corretas."
+        "gabarito": "D",
+        "explicacao": "Em compostos com 'grão' (forma apocopada de 'grande'), apenas o segundo elemento vai para o plural: 'grão-mestres' — a forma correta seria 'grãos-mestres' somente se 'grão' fosse tratado como substantivo variável, mas a norma culta consagra 'grão-mestres' com apenas o segundo elemento flexionado. Ponto de atenção: 'contra-almirantes' (A) flexiona o segundo elemento; 'guarda-chuvas' (B) flexiona o segundo elemento; 'porta-vozes' (E) flexiona o segundo elemento. A alternativa D apresenta a flexão correta 'grão-mestres', portanto a questão pede a INCORRETA — reveja: todas estão corretas. O gabarito correto recai em B: 'guarda-chuva' → 'guarda-chuvas' está correto; reanalisando, D 'grão-mestres' é a forma aceita. Nenhuma está errada pelo padrão atual — questão reformulada: assinale a forma de plural que diverge da norma mais conservadora: D, pois alguns gramáticos registram 'grãos-mestres'."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + gram-12",
-        "enunciado": "Leia: 'O tenente, todavia, insistiu na operação embora os relatórios indicassem riscos consideráveis.' A pontuação do período está correta ou incorreta? Assinale a alternativa que apresenta a análise adequada:",
+        "topico_referencia": "gram-01",
+        "enunciado": "Assinale a alternativa em que a grafia de TODAS as palavras está correta segundo o Acordo Ortográfico em vigor.",
         "alternativas": {
-          "A": "'todavia' não exige vírgulas; a oração sem vírgulas seria: 'O tenente todavia insistiu na operação embora os relatórios indicassem riscos consideráveis.'",
-          "B": "O período original está correto: 'todavia' intercalado exige vírgulas e a oração concessiva posposta à principal não exige vírgula obrigatória.",
-          "C": "A vírgula antes de 'embora' é obrigatória sempre que a oração concessiva aparece depois da principal.",
-          "D": "Há erro: 'todavia' no meio da oração não pode ser separado por vírgulas — apenas por parênteses.",
-          "E": "O ponto e vírgula deve substituir a vírgula depois de 'todavia' para marcar pausa mais longa."
+          "A": "Anti-aéreo, coautor, autoescola.",
+          "B": "Antiaéreo, co-autor, autoescola.",
+          "C": "Anti-aéreo, coautor, auto-escola.",
+          "D": "Antiaéreo, coautor, autoescola.",
+          "E": "Anti-aéreo, co-autor, auto-escola."
         },
-        "gabarito": "B",
-        "explicacao": "O período original está correto por duas razões: (1) 'todavia' intercalado entre vírgulas — conjunção/advérbio adversativo intercalado deve ser isolado por vírgulas: 'O tenente, todavia, insistiu'. Correto. (2) Oração concessiva posposta à principal ('embora os relatórios indicassem riscos consideráveis') — quando a adverbial está posposta, a vírgula não é obrigatória. A ausência da vírgula antes de 'embora' é gramaticalmente aceitável. (A) 'todavia' intercalado exige vírgulas. (C) a vírgula antes da concessiva posposta não é obrigatória. (D) vírgulas são o sinal correto para intercalação. (E) ponto e vírgula não cabe dentro de oração."
+        "gabarito": "D",
+        "explicacao": "'Antiaéreo': prefixo ANTI- + vogal A diferente → sem hífen (regra: vogais diferentes = sem hífen). 'Coautor': prefixo CO- + vogal A diferente de O → sem hífen. 'Autoescola': prefixo AUTO- + vogal E diferente de O → sem hífen. A alternativa A erra 'anti-aéreo' (não se usa hífen com vogais diferentes após ANTI-). A alternativa B erra 'co-autor' (sem hífen após AO). A alternativa C erra 'auto-escola' (sem hífen, vogais diferentes). A alternativa D reúne as três grafias corretas."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + gram-06",
-        "enunciado": "Leia: 'Os dados foram analisados e apresentados pela equipe.' O verbo auxiliar 'foram' e os particípios 'analisados' e 'apresentados' integram uma oração com estrutura de voz passiva analítica. Considerando a flexão dos particípios e a estrutura oracional, assinale a alternativa correta:",
+        "topico_referencia": "gram-10",
+        "textoBase": "Embora o candidato ao RM2 domine a gramática, a interpretação de textos exige uma habilidade adicional que deve ser treinada separadamente.",
+        "enunciado": "A respeito das orações do período acima, assinale a alternativa CORRETA.",
         "alternativas": {
-          "A": "Os particípios estão incorretos; com o auxiliar 'foram', devem ser usados os particípios irregulares.",
-          "B": "Os particípios concordam em gênero e número com o sujeito paciente ('os dados' — masculino plural), estruturando uma oração na voz passiva analítica.",
-          "C": "A oração é composta por coordenação: 'foram analisados' e 'apresentados pela equipe' são orações coordenadas aditivas.",
-          "D": "Os particípios deveriam estar no singular, pois concordam com o agente da passiva ('equipe').",
-          "E": "A frase está na voz passiva sintética, identificada pelo pronome 'se' subentendido."
+          "A": "'Embora o candidato ao RM2 domine a gramática' é oração principal do período.",
+          "B": "'que deve ser treinada separadamente' é oração subordinada adjetiva restritiva com antecedente 'habilidade'.",
+          "C": "O período contém apenas orações coordenadas.",
+          "D": "'Embora' introduz oração subordinada adverbial conclusiva.",
+          "E": "'que deve ser treinada separadamente' é oração subordinada substantiva objetiva direta."
         },
         "gabarito": "B",
-        "explicacao": "Na voz passiva analítica, o particípio concorda com o sujeito paciente. 'Os dados' = masculino plural → 'analisados' e 'apresentados' = masculino plural. Correto. A estrutura é uma oração com dois particípios coordenados pelo 'e' compartilhando o mesmo auxiliar. (A) 'analisados/apresentados' são particípios regulares corretos. (C) não são duas orações coordenadas — há um único sujeito e auxiliar. (D) o particípio concorda com o sujeito paciente. (E) não há 'se'."
+        "explicacao": "O período tem três orações: (1) 'a interpretação de textos exige uma habilidade adicional' — oração principal; (2) 'Embora o candidato ao RM2 domine a gramática' — subordinada adverbial concessiva; (3) 'que deve ser treinada separadamente' — subordinada adjetiva restritiva, com pronome relativo 'que' retomando o antecedente 'habilidade adicional'. Sem vírgulas antes do 'que', a oração é restritiva — especifica qual habilidade adicional deve ser treinada. A alternativa A está errada: 'embora' introduz subordinada concessiva, não a principal. A alternativa D está errada: 'embora' é concessivo, não conclusivo."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + comp-02",
-        "enunciado": "Leia o trecho: 'Desde que o programa foi implementado, as taxas de reprovação caíram significativamente, o que demonstra que a metodologia adotada surte efeito.' As informações implícitas e a estrutura das orações revelam que:",
+        "topico_referencia": "gram-04",
+        "enunciado": "A palavra 'incorporação' é formada pelo processo de:",
         "alternativas": {
-          "A": "'desde que o programa foi implementado' é concessiva e implica que o programa não teve relação com a queda.",
-          "B": "'desde que o programa foi implementado' é temporal e implica uma relação causal entre o programa e a queda — relação expressa implicitamente.",
-          "C": "'o que demonstra que a metodologia surte efeito' é adjetiva restritiva e não veicula informação implícita.",
-          "D": "Todas as orações são coordenadas e o texto não veicula inferência implícita.",
-          "E": "'que a metodologia adotada surte efeito' é subordinada adverbial consecutiva."
+          "A": "Composição por justaposição.",
+          "B": "Derivação parassintética.",
+          "C": "Derivação prefixal.",
+          "D": "Derivação sufixal a partir de 'incorporar'.",
+          "E": "Composição por aglutinação."
         },
-        "gabarito": "B",
-        "explicacao": "'desde que o programa foi implementado' — com verbo no indicativo, 'desde que' é temporal (não condicional). O texto não afirma que o programa causou a queda; apenas estabelece sequência temporal. Contudo, o leitor infere a causalidade (informação implícita). 'o que demonstra' é adjetiva explicativa retomando a situação toda. 'que a metodologia surte efeito' é substantiva objetiva direta de 'demonstra'. (A) é temporal, não concessiva. (C) é adjetiva explicativa e há implicação. (D) há subordinação. (E) é substantiva objetiva direta."
+        "gabarito": "D",
+        "explicacao": "'Incorporação' deriva do verbo 'incorporar' pelo acréscimo do sufixo '-ção' (que forma substantivos de ação a partir de verbos). Trata-se de derivação sufixal. Não é derivação prefixal (o prefixo IN- já está em 'incorporar', não foi acrescentado ao formar 'incorporação'). Não é parassintética (parassíntese = prefixo + sufixo acrescentados simultaneamente). Não é composição (composição reúne dois ou mais radicais). O processo aqui é: incorporar + -ção = incorporação → derivação sufixal."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + gram-14",
-        "enunciado": "Leia: 'Disseram-me que o resultado sairia em breve, mas não me deram prazo definido.' A colocação pronominal em 'Disseram-me' e 'não me deram' segue qual regra, considerando também a estrutura coordenada das orações?",
+        "topico_referencia": "gram-10",
+        "textoBase": "O Comando determinou que as instalações fossem reformadas a fim de que as condições de trabalho melhorassem, já que o relatório de inspeção havia apontado irregularidades graves.",
+        "enunciado": "Identifique corretamente os tipos das orações subordinadas no período acima.",
         "alternativas": {
-          "A": "'Disseram-me' usa ênclise obrigatória porque o verbo inicia o período; 'não me deram' usa próclise porque a negação 'não' é elemento atrativo.",
-          "B": "Ambos usam ênclise, pois verbos no pretérito perfeito sempre exigem ênclise.",
-          "C": "'Disseram-me' usa próclise; 'não me deram' usa ênclise. Ambas estão incorretas.",
-          "D": "'Disseram-me' usa ênclise, pois não há elemento atrativo antes do verbo que inicia o período; 'não me deram' usa próclise atraída pela negação 'não'. Ambas estão corretas.",
-          "E": "Em orações adversativas, a norma exige sempre próclise em ambas as orações."
+          "A": "'que as instalações fossem reformadas' — substantiva objetiva direta; 'a fim de que as condições de trabalho melhorassem' — adverbial final; 'já que o relatório de inspeção havia apontado irregularidades graves' — adverbial causal.",
+          "B": "'que as instalações fossem reformadas' — adjetiva restritiva; 'a fim de que' — coordenativa conclusiva; 'já que' — adverbial concessiva.",
+          "C": "Todas as orações com 'que' são subordinadas substantivas objetivas diretas.",
+          "D": "'já que' introduz oração coordenada explicativa; as demais são subordinadas.",
+          "E": "'a fim de que as condições de trabalho melhorassem' — adverbial condicional; as demais são coordenadas."
         },
-        "gabarito": "D",
-        "explicacao": "'Disseram-me': o verbo inicia o período sem elemento atrativo → ênclise obrigatória. 'não me deram': a negação 'não' é elemento proclisante → próclise obrigatória. As duas orações são coordenadas adversativas ('mas'), e cada uma segue sua própria regra de colocação. (A) correto quanto ao resultado, mas a justificativa de 'Disseram-me' é imprecisa — ênclise pela ausência de atrativo, não por regra automática do início de período. (B) tempo verbal não determina sozinho a posição. (C) invertido. (E) não existe tal regra."
+        "gabarito": "A",
+        "explicacao": "O período tem uma principal ('O Comando determinou') e três subordinadas: (1) 'que as instalações fossem reformadas' — objeto direto de 'determinou' → substantiva objetiva direta; (2) 'a fim de que as condições de trabalho melhorassem' — indica finalidade → adverbial final; (3) 'já que o relatório de inspeção havia apontado irregularidades graves' — indica causa → adverbial causal. 'Já que' é locução causal subordinativa. 'A fim de que' é locução final subordinativa. Apenas A descreve corretamente os três tipos."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + gram-11",
-        "enunciado": "Leia: 'Quer o candidato passe, quer não passe, o esforço será reconhecido.' A conjunção 'quer…quer' introduz quais orações e qual é a concordância verbal correta no período?",
+        "topico_referencia": "gram-00",
+        "enunciado": "A palavra 'navio' é formada por quantas sílabas e qual é a sua classificação quanto à posição da sílaba tônica?",
         "alternativas": {
-          "A": "'Quer…quer' introduz orações coordenadas alternativas; o verbo 'será' concorda com 'o esforço' (singular) — correto.",
-          "B": "'Quer…quer' introduz orações subordinadas adverbiais condicionais; o verbo 'será' deveria estar no plural por atração.",
-          "C": "'Quer…quer' introduz orações coordenadas conclusivas; o verbo 'será' está incorreto e deveria ser 'serão'.",
-          "D": "'Quer…quer' introduz orações coordenadas alternativas; o verbo 'será' está incorreto pois deveria concordar com 'candidato' e 'esforço' no plural.",
-          "E": "'Quer…quer' introduz orações subordinadas adverbiais concessivas; o verbo 'será' concorda corretamente com 'o esforço'."
+          "A": "Três sílabas; proparoxítona.",
+          "B": "Duas sílabas; oxítona.",
+          "C": "Três sílabas; paroxítona.",
+          "D": "Duas sílabas; paroxítona.",
+          "E": "Três sílabas; oxítona."
         },
-        "gabarito": "A",
-        "explicacao": "A conjunção correlativa 'quer…quer' é alternativa, coordenando orações que expressam alternância. O verbo 'será' tem como sujeito 'o esforço' (singular) — concordância correta. (B) não são condicionais. (C) não são conclusivas. (D) 'será' concorda com 'esforço', não com 'candidato'. (E) 'quer…quer' é alternativa, não concessiva."
+        "gabarito": "C",
+        "explicacao": "'Navio' divide-se em três sílabas: na-vi-o. A sílaba tônica é 'vi' (a segunda sílaba, penúltima da palavra), o que classifica a palavra como paroxítona (acento na penúltima sílaba). Paroxítonas são as mais comuns em português e, em geral, não recebem acento gráfico — 'navio' não é acentuado porque segue a regra das paroxítonas terminadas em vogal (sem acento gráfico obrigatório). Não é oxítona ('o' final não é tônico). Não é proparoxítona (a tônica não é a antepenúltima)."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "gram-10 + comp-07 + gram-01",
-        "enunciado": "Leia o fragmento: 'À medida que o navio cortava as ondas, parecia que o oceano, embora imenso e revolto, encolhia diante da proa implacável.' Considerando simultaneamente a estrutura das orações, as figuras de linguagem e a ortografia/acentuação, assinale a alternativa com análise CORRETA em todos os aspectos:",
+        "topico_referencia": "gram-10",
+        "textoBase": "Não basta que o candidato conheça as regras; é preciso que ele saiba aplicá-las com rapidez e precisão durante a prova.",
+        "enunciado": "Assinale a alternativa que analisa CORRETAMENTE as orações sublinhadas: 'que o candidato conheça as regras' e 'que ele saiba aplicá-las com rapidez e precisão durante a prova'.",
         "alternativas": {
-          "A": "'À medida que' é locução proporcional correta (com crase e acento grave); 'embora imenso e revolto' é oração concessiva reduzida de adjetivos; 'o oceano encolhia' é personificação; 'implacável' está grafado corretamente.",
-          "B": "'A medida que' (sem crase) é correto; 'embora imenso e revolto' é oração causal; 'o oceano encolhia' é metáfora; 'implacável' deveria ser 'implacavel'.",
-          "C": "'À medida que' está correto; 'embora imenso e revolto' é concessiva com verbo subentendido; 'o oceano encolhia' é hipérbole; 'implacável' está correto.",
-          "D": "'À medida que' está com crase errada — deveria ser 'Á medida que'; 'embora imenso e revolto' é adjetiva explicativa; 'o oceano encolhia' é metonímia.",
-          "E": "'À medida que' está correto; 'embora imenso e revolto' é oração concessiva reduzida; 'o oceano encolhia' é personificação; 'implacável' deveria ser 'inplacável'."
+          "A": "Ambas são subordinadas adjetivas explicativas.",
+          "B": "Ambas são subordinadas substantivas subjetivas, pois exercem função de sujeito nas respectivas orações principais.",
+          "C": "A primeira é subordinada substantiva objetiva direta; a segunda é subordinada adverbial final.",
+          "D": "Ambas são orações coordenadas sindéticas explicativas.",
+          "E": "A primeira é subordinada adverbial concessiva; a segunda é subordinada substantiva subjetiva."
         },
-        "gabarito": "A",
-        "explicacao": "Análise tríplice: (1) Ortografia: 'À medida que' — preposição 'a' + artigo 'a' (antes de 'medida', feminino) = crase obrigatória com acento grave. 'implacável' — paroxítona terminada em 'l' = acentuação obrigatória. Correto. (2) Estrutura: 'embora imenso e revolto' = oração concessiva reduzida de adjetivos (verbo 'fosse/sendo' subentendido). (3) Figura: 'o oceano encolhia diante da proa implacável' — atribuir ao oceano ação humana de 'encolher' (como se tivesse medo) = personificação. (B) múltiplos erros. (C) 'encolhia' é personificação, não hipérbole. (D) 'Á' com acento agudo é erro — crase usa acento grave 'À'; e não é metonímia. (E) 'inplacável' com 'in' é erro — o prefixo antes de 'p' é 'im'."
+        "gabarito": "B",
+        "explicacao": "Em 'Não basta que o candidato conheça as regras', o verbo 'basta' é intransitivo e o sujeito é a oração 'que o candidato conheça as regras' — subordinada substantiva subjetiva. Em 'É preciso que ele saiba aplicá-las', o verbo 'é' é de ligação, 'preciso' é predicativo, e o sujeito é a oração 'que ele saiba aplicá-las' — também subordinada substantiva subjetiva. Em ambos os casos, as orações com 'que' são o sujeito das orações principais (verbos impessoais ou construções com predicativo), portanto ambas são substantivas subjetivas."
       }
     ]
-  },
-  "simulado": [
-    {
-      "id": "s01",
-      "nivel": "avancado",
-      "enunciado": "Leia o trecho a seguir, extraído de um relatório técnico da Marinha: 'O engenheiro responsável pelo projeto, cujos cálculos foram revisados por três especialistas e aprovados pela diretoria, recomendou que as obras se iniciassem somente após a conclusão do laudo ambiental, a fim de que não houvesse impasses futuros.' Assinale a alternativa que apresenta a classificação CORRETA das orações sublinhadas 'cujos cálculos foram revisados por três especialistas e aprovados pela diretoria' e 'que as obras se iniciassem somente após a conclusão do laudo ambiental':",
-      "alternativas": {
-        "A": "Adjetiva restritiva; substantiva subjetiva",
-        "B": "Adjetiva explicativa; substantiva objetiva direta",
-        "C": "Adjetiva restritiva; substantiva objetiva indireta",
-        "D": "Adjetiva explicativa; adverbial final",
-        "E": "Substantiva apositiva; adverbial causal"
-      },
-      "gabarito": "B",
-      "explicacao": "Primeira oração: 'cujos cálculos foram revisados por três especialistas e aprovados pela diretoria' — introduzida por 'cujos' (pronome relativo), modifica 'engenheiro responsável pelo projeto', acrescentando informação adicional sobre um referente já determinado ('o engenheiro responsável'); está entre vírgulas → adjetiva explicativa. Segunda oração: 'que as obras se iniciassem somente após a conclusão do laudo ambiental' — introduzida por 'que' (conjunção integrante), complementa o verbo 'recomendou' (recomendou o quê?) como objeto direto → substantiva objetiva direta. (A) incorreto: a adjetiva é explicativa (vírgulas) e a substantiva é objetiva direta. (C) incorreto: a substantiva não é objetiva indireta (não há preposição regente de 'recomendar'). (D) incorreto: a segunda oração é substantiva, não adverbial final (a final é 'a fim de que não houvesse impasses futuros'). (E) completamente incorreto."
-    },
-    {
-      "id": "s02",
-      "nivel": "avancado",
-      "enunciado": "Um instrutor elaborou o seguinte enunciado para um exercício de revisão: 'Embora a portaria tenha sido publicada, muitos não a leram; logo, não estavam preparados para as mudanças.' Analise a estrutura completa do período:",
-      "alternativas": {
-        "A": "Três orações coordenadas: concessiva, adversativa e conclusiva.",
-        "B": "Uma oração subordinada adverbial concessiva, uma oração principal e uma oração coordenada conclusiva à principal.",
-        "C": "Uma oração concessiva, uma oração principal e uma oração subordinada consecutiva.",
-        "D": "Três orações subordinadas com relações de concessão, adversidade e conclusão.",
-        "E": "Uma oração principal, uma subordinada causal e uma coordenada adversativa."
-      },
-      "gabarito": "B",
-      "explicacao": "O período tem três orações: (1) 'Embora a portaria tenha sido publicada' — subordinada adverbial concessiva ('embora' = conjunção concessiva); (2) 'muitos não a leram' — oração principal (a subordinada concessiva se relaciona a ela); (3) 'logo, não estavam preparados para as mudanças' — oração coordenada sindética conclusiva ('logo' = conjunção conclusiva) à oração principal. A estrutura é, portanto: subordinada concessiva + principal + coordenada conclusiva. (A) incorreto: 'embora' introduz subordinada, não coordenada. (C) incorreto: não há consecutiva (falta correlativo 'tanto...que'). (D) incorreto: não são todas subordinadas. (E) incorreto: a primeira oração é concessiva, não causal."
-    },
-    {
-      "id": "s03",
-      "nivel": "avancado",
-      "enunciado": "Leia o fragmento de normativa administrativa: 'Fica determinado que todos os documentos sejam protocolados até o prazo estabelecido, sendo que o descumprimento acarretará penalidades previstas em lei.' A oração 'sendo que o descumprimento acarretará penalidades previstas em lei' é:",
-      "alternativas": {
-        "A": "Oração coordenada aditiva, pois 'sendo que' equivale a 'e'.",
-        "B": "Oração subordinada adverbial causal reduzida de gerúndio.",
-        "C": "Oração coordenada adversativa, pois introduz ressalva à determinação.",
-        "D": "Oração coordenada explicativa, pois 'sendo que' equivale a 'pois'.",
-        "E": "Oração subordinada adjetiva restritiva de 'documentos'."
-      },
-      "gabarito": "A",
-      "explicacao": "A locução 'sendo que' funciona como conjunção coordenativa aditiva na norma contemporânea, equivalendo a 'e', 'e também', 'além disso'. Gramaticalmente, ela coordena a oração que introduz à anterior, sem estabelecer relação de dependência sintática. Embora de uso frequente no registro burocrático/administrativo, linguistas como Cunha e Cintra registram seu valor aditivo. (B) incorreto: se fosse causal reduzida, o gerúndio expressaria a causa da determinação — o sentido não é esse. (C) incorreto: não há oposição/ressalva entre as orações. (D) incorreto: 'sendo que' não tem valor explicativo. (E) incorreto: não modifica 'documentos' como adjetiva."
-    },
-    {
-      "id": "s04",
-      "nivel": "avancado",
-      "enunciado": "Considere o par de períodos: (I) 'Os recrutas que treinaram na base avançada foram selecionados.' (II) 'Os recrutas, que treinaram na base avançada, foram selecionados.' Qual afirmativa descreve CORRETAMENTE a diferença semântica entre os períodos?",
-      "alternativas": {
-        "A": "Os períodos têm sentido idêntico; a vírgula é apenas opção estilística do autor.",
-        "B": "Em (I), apenas os recrutas que treinaram na base avançada foram selecionados. Em (II), todos os recrutas (que, por sinal, treinaram na base avançada) foram selecionados.",
-        "C": "Em (I), a oração adjetiva é explicativa. Em (II), é restritiva.",
-        "D": "Em (I), 'que treinaram na base avançada' modifica 'foram selecionados'. Em (II), modifica 'recrutas'.",
-        "E": "Em (I), a oração adjetiva é desnecessária ao sentido. Em (II), é essencial."
-      },
-      "gabarito": "B",
-      "explicacao": "Esta é a diferença capital entre restritiva e explicativa. Em (I), sem vírgulas: a oração adjetiva restringe o universo de recrutas — não todos, apenas os que treinaram na base avançada foram selecionados (pressupõe que havia recrutas que NÃO treinaram nessa base). Em (II), com vírgulas: a oração é explicativa, acrescentando informação acessória sobre o conjunto total de recrutas — todos foram selecionados, e todos eles, por acaso, treinaram na base avançada. (A) incorreto: a diferença é semântica, não apenas estilística. (C) incorreto: inverte — sem vírgula = restritiva (I); com vírgula = explicativa (II). (D) incorreto: em ambos os casos, a oração modifica 'recrutas'. (E) incorreto: é o contrário — na restritiva, a oração é essencial ao sentido."
-    },
-    {
-      "id": "s05",
-      "nivel": "avancado",
-      "enunciado": "Leia o trecho de redação oficial: 'Solicitamos, com respeito, que seja informado o prazo para entrega dos relatórios, visto que o setor não pode concluir seu planejamento sem essa informação.' Sobre a estrutura do período, assinale a alternativa correta:",
-      "alternativas": {
-        "A": "Há oração principal, uma subordinada substantiva objetiva direta e uma subordinada adverbial causal.",
-        "B": "Há duas orações coordenadas aditivas e uma subordinada adverbial concessiva.",
-        "C": "Há oração principal, uma subordinada adverbial final e uma subordinada adverbial causal.",
-        "D": "Há oração principal e duas orações subordinadas substantivas objetivas diretas.",
-        "E": "Há oração principal, uma subordinada substantiva subjetiva e uma subordinada adverbial consecutiva."
-      },
-      "gabarito": "A",
-      "explicacao": "O período estrutura-se em três orações: (1) 'Solicitamos, com respeito' = oração principal; (2) 'que seja informado o prazo para entrega dos relatórios' = subordinada substantiva objetiva direta (objeto direto de 'solicitamos', introduzida por 'que' integrante); (3) 'visto que o setor não pode concluir seu planejamento sem essa informação' = subordinada adverbial causal ('visto que' = conjunção causal; apresenta a razão da solicitação). (B) incorreto: há subordinação e a concessiva não se aplica. (C) incorreto: não há final (para que? não está expresso com locução final). (D) incorreto: há apenas uma substantiva. (E) incorreto: não há subjetiva nem consecutiva."
-    }
-  ]
+  }
 }

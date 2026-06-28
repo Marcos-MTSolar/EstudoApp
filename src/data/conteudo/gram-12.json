@@ -2,876 +2,978 @@
   "id": "gram-12",
   "titulo": "Concordância Verbal",
   "area": "Gramática",
-  "resumo": "Estudo das regras de concordância entre o verbo e seu sujeito, abrangendo a regra geral, os casos especiais com sujeito composto, coletivos, expressões partitivas, pronomes e a concordância com o verbo 'ser', essenciais para a redação técnica e para as questões objetivas da banca CEBRASPE.",
+  "resumo": "Concordância verbal é a harmonia entre o verbo e seu sujeito em número (singular/plural) e pessoa. Parece simples, mas o CEBRASPE explora casos em que o sujeito está escondido, invertido ou composto de formas que exigem atenção redobrada. Dominar concordância verbal significa nunca mais errar por distração — significa entender a lógica por trás de cada regra e aplicá-la com segurança, mesmo em frases elaboradas no estilo de portaria naval ou texto jornalístico.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "Regra geral de concordância verbal",
-        "conteudo": "A concordância verbal é o mecanismo pelo qual o verbo se ajusta ao sujeito da oração em número (singular ou plural) e pessoa (1ª, 2ª ou 3ª). É uma das áreas mais cobradas em provas de Língua Portuguesa, pois exige do candidato a habilidade de localizar corretamente o núcleo do sujeito, especialmente em períodos longos ou com elementos intercalados entre sujeito e verbo.",
+        "subtitulo": "1. O que é concordância verbal?",
+        "conteudo": "Pense numa fila de soldados e num sargento que comanda. Quando o sargento dá uma ordem, ela muda de acordo com quantos soldados estão na fila: 'O recruta marcha' (um só) ou 'Os recrutas marcham' (vários). O verbo é o sargento — ele sempre precisa se ajustar ao número de soldados (sujeito).\n\nConcordância verbal é exatamente isso: o verbo muda de forma (singular ou plural, 1ª, 2ª ou 3ª pessoa) para combinar com o sujeito da oração. Quando há harmonia entre os dois, dizemos que há concordância.\n\nO sujeito é quem pratica ou sofre a ação. O verbo diz o que acontece. Os dois precisam 'falar a mesma língua' em número e pessoa.\n\nO erro mais comum dos candidatos é concordar o verbo com a palavra mais próxima a ele, em vez de com o sujeito real da oração — que pode estar longe ou invertido.",
+        "regra": "Verbo concorda com o SUJEITO, não com a palavra mais próxima · Sujeito = quem pratica ou sofre a ação",
         "exemplos": [
-          "O comandante autorizou a partida. (sujeito simples, singular)",
-          "Os oficiais autorizaram a partida. (sujeito simples, plural)"
-        ],
-        "regra": "O verbo concorda em número e pessoa com o núcleo do sujeito, independentemente de quantos termos ou modificadores estejam intercalados entre eles."
+          {
+            "texto_base": "O recruta e o aspirante prestaram continência ao comandante assim que este entrou na sala.",
+            "anotacoes": [
+              {
+                "trecho": "O recruta e o aspirante",
+                "destaque": "sujeito composto",
+                "motivo": "Dois sujeitos unidos por 'e' formam sujeito composto — verbo vai para o plural"
+              },
+              {
+                "trecho": "prestaram",
+                "destaque": "plural correto",
+                "motivo": "Verbo no plural concorda com o sujeito composto 'O recruta e o aspirante'"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "Concordância com sujeito composto anteposto ao verbo",
-        "conteudo": "Quando o sujeito composto vem antes do verbo, este normalmente vai para o plural, mesmo que os núcleos estejam em pessoas gramaticais diferentes — caso em que prevalece a pessoa de maior hierarquia: a 1ª pessoa prevalece sobre a 2ª e a 3ª, e a 2ª prevalece sobre a 3ª.",
+        "subtitulo": "2. Sujeito simples: a regra básica",
+        "conteudo": "Imagine uma balança: de um lado você coloca o sujeito, do outro coloca o verbo. Para a balança ficar equilibrada, os dois precisam ter o mesmo peso — singular com singular, plural com plural.\n\nQuando o sujeito é simples (uma só pessoa, coisa ou ideia), a regra não tem mistério: sujeito singular = verbo singular; sujeito plural = verbo plural.\n\nO problema começa quando o sujeito vem acompanhado de expressões intercaladas. Frases como 'O comandante, junto com seus oficiais, assinou a portaria' enganam muita gente. A expressão 'junto com seus oficiais' está entre vírgulas e NÃO faz parte do sujeito — o sujeito continua sendo 'O comandante' (singular), então o verbo fica no singular.\n\nO erro clássico aqui é deixar a expressão intercalada influenciar o verbo e escrever 'assinaram'.",
+        "regra": "Sujeito simples = verbo no mesmo número · Intercalados entre vírgulas NÃO são sujeito",
         "exemplos": [
-          "O comandante e o imediato assinaram o relatório.",
-          "Eu e os tripulantes embarcaremos ao amanhecer. (1ª pessoa prevalece: 'embarcaremos')",
-          "Tu e o aspirante zarpareis juntos. (2ª pessoa prevalece sobre 3ª)"
-        ],
-        "regra": "Sujeito composto anteposto ao verbo → verbo no plural, concordando na pessoa de maior hierarquia gramatical (1ª > 2ª > 3ª)."
+          {
+            "texto_base": "O contra-almirante, acompanhado de seus assessores, assinou o boletim interno de incorporação ontem pela manhã.",
+            "anotacoes": [
+              {
+                "trecho": "O contra-almirante",
+                "destaque": "sujeito singular",
+                "motivo": "Sujeito real da oração — está no singular, então o verbo deve ser singular"
+              },
+              {
+                "trecho": "acompanhado de seus assessores",
+                "destaque": "intercalado (vírgulas)",
+                "motivo": "Expressão entre vírgulas não integra o sujeito — não altera a concordância"
+              },
+              {
+                "trecho": "assinou",
+                "destaque": "singular correto",
+                "motivo": "Verbo no singular concorda com o sujeito 'o contra-almirante', ignorando o intercalado"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "Concordância com sujeito composto posposto ao verbo",
-        "conteudo": "Quando o sujeito composto vem depois do verbo, este pode concordar com o núcleo mais próximo (no singular) ou ir para o plural — ambas as construções são aceitas pela norma culta, mas a concordância com o termo mais próximo é mais comum na linguagem espontânea, enquanto o plural é mais valorizado em registros formais e na escrita técnica.",
+        "subtitulo": "3. Sujeito composto: as variações",
+        "conteudo": "Agora imagine duas equipes jogando juntas no mesmo time. Se o time inteiro participa, o verbo vai para o plural. Mas há situações em que o time muda de tamanho — e o verbo precisa se adaptar.\n\nQuando o sujeito composto tem núcleos no singular unidos por 'e', o verbo vai para o plural: 'O sargento e o cabo chegaram.' Isso é o caso mais simples.\n\nQuando os núcleos são sinônimos ou estão em gradação (ex: 'A coragem, a disciplina, a determinação fez o oficial vencer'), o verbo pode ficar no singular. Aqui há flexibilidade — o CEBRASPE não costuma cobrar esse caso como erro.\n\nQuando o sujeito composto vem DEPOIS do verbo, o verbo pode concordar com o núcleo mais próximo ou ir para o plural: 'Chegou o cabo e o sargento' ou 'Chegaram o cabo e o sargento' — ambas aceitas. Mas quando vem antes do verbo, obrigatoriamente plural.\n\nO erro mais comum é ignorar essa diferença entre sujeito anteposto e posposto.",
+        "regra": "Sujeito antes do verbo → plural obrigatório · Sujeito depois do verbo → singular ou plural (flexibilidade)",
         "exemplos": [
-          "Chegou o comandante e os oficiais. (concordância com o mais próximo)",
-          "Chegaram o comandante e os oficiais. (concordância com a totalidade — preferida em textos formais)"
-        ],
-        "regra": "Sujeito composto posposto ao verbo permite concordância com o núcleo mais próximo ou com a totalidade no plural; documentos oficiais costumam preferir o plural."
+          {
+            "texto_base": "Chegaram ao porto o navio-patrulha e a fragata após a missão de reconhecimento. O navio-patrulha e a fragata chegaram ao porto após a missão.",
+            "anotacoes": [
+              {
+                "trecho": "Chegaram ao porto o navio-patrulha e a fragata",
+                "destaque": "sujeito posposto",
+                "motivo": "Sujeito vem depois do verbo — plural ou singular são aceitos (aqui plural foi escolhido)"
+              },
+              {
+                "trecho": "O navio-patrulha e a fragata chegaram",
+                "destaque": "sujeito anteposto",
+                "motivo": "Sujeito composto antes do verbo — plural obrigatório, sem flexibilidade"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "Concordância com substantivos coletivos",
-        "conteudo": "Substantivos coletivos (esquadra, tripulação, equipe, batalhão, comitê) representam uma pluralidade de seres, mas são gramaticalmente singulares, exigindo verbo no singular quando estão no singular. Quando especificados por um adjunto adnominal no plural seguido de expressão partitiva, admite-se também o plural, sobretudo quando o sentido coletivo se dilui.",
+        "subtitulo": "4. Sujeito com 'quem', 'qual' e pronomes relativos",
+        "conteudo": "Pense nos pronomes relativos ('que', 'quem', 'qual') como um cartão de identidade falso: eles parecem ser o sujeito, mas estão representando outra pessoa — o antecedente.\n\nNa frase 'Fui eu que resolvi o problema', o verbo 'resolvi' está na 1ª pessoa porque o pronome 'que' retoma 'eu'. O pronome relativo concorda com o antecedente, não com a palavra 'que' em si.\n\nNo caso de 'sou eu quem resolve' e 'sou eu quem resolvo', as duas formas são aceitas pela gramática normativa. O verbo pode concordar com 'quem' (3ª pessoa singular: 'resolve') ou com o antecedente 'eu' (1ª pessoa: 'resolvo').\n\nO erro mais comum é generalizar e sempre usar a 3ª pessoa com 'quem', sem perceber que há casos em que ambas as formas são válidas — e o CEBRASPE pode cobrar isso.",
+        "regra": "'que' e 'quem' relativos = verbo concorda com o ANTECEDENTE · 'sou eu quem' admite 2ª concordância",
         "exemplos": [
-          "A tripulação embarcou ao amanhecer.",
-          "A maioria dos marinheiros embarcou cedo. / A maioria dos marinheiros embarcaram cedo. (ambas aceitas)",
-          "Um grupo de oficiais discutiu o plano. / Um grupo de oficiais discutiram o plano."
-        ],
-        "regra": "Coletivo no singular sem especificação → verbo no singular. Coletivo seguido de especificador no plural (expressão partitiva) → verbo pode ir para singular (concordância gramatical, mais formal) ou plural (concordância ideológica/atrativa, também aceita)."
+          {
+            "texto_base": "Fomos nós que redigimos o relatório final. Sou eu quem assina os documentos operacionais da base.",
+            "anotacoes": [
+              {
+                "trecho": "Fomos nós que redigimos",
+                "destaque": "pronome relativo 'que'",
+                "motivo": "'que' retoma 'nós' (antecedente) — verbo fica na 1ª pessoa do plural"
+              },
+              {
+                "trecho": "Sou eu quem assina",
+                "destaque": "'quem' = 3ª pessoa",
+                "motivo": "Verbo concorda com 'quem' na 3ª pessoa singular — forma igualmente correta"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "Concordância com expressões partitivas e percentuais",
-        "conteudo": "Expressões como 'a maioria de', 'a maior parte de', 'grande parte de', 'parte de' seguidas de substantivo plural admitem concordância tanto com o núcleo da expressão (singular) quanto com o termo especificador (plural). Já as porcentagens seguem regra própria: se o numeral percentual estiver sozinho, o verbo concorda com ele; se vier especificado por substantivo plural, pode concordar com o substantivo.",
+        "subtitulo": "5. Verbos impessoais e casos especiais",
+        "conteudo": "Alguns verbos são como eventos da natureza — eles não têm sujeito, acontecem por conta própria. São os chamados verbos impessoais, e eles ficam SEMPRE no singular, na 3ª pessoa.\n\nOs verbos climáticos (chover, trovejar, ventar, nevar) são impessoais: 'Choveu muito durante a manobra naval.' Nunca 'Choveram muitas chuvas' — esse é um erro gravíssimo.\n\nO verbo 'haver' no sentido de existir ou acontecer também é impessoal: 'Havia muitos marinheiros na formação' (não 'Haviam'). 'Houve problemas na comunicação' (não 'Houveram'). Este é um dos erros mais cobrados pelo CEBRASPE.\n\nO verbo 'fazer' indicando tempo também é impessoal: 'Faz três anos que o oficial serve nessa base.' Jamais 'Fazem três anos'.\n\nO erro mais frequente é pluralizar 'haver' e 'fazer' quando o candidato vê uma palavra no plural na oração.",
+        "regra": "HAVER (existir/ocorrer) = sempre singular · FAZER (tempo) = sempre singular · Verbos climáticos = sempre singular",
         "exemplos": [
-          "A maioria dos aspirantes passou no exame. / A maioria dos aspirantes passaram no exame.",
-          "1% dos candidatos faltou à prova.",
-          "30% dos candidatos faltaram à prova. / 30% dos candidatos faltou à prova."
-        ],
-        "regra": "Percentual sem especificador → concorda com o número. Percentual seguido de substantivo plural → concordância facultativa entre singular (com o numeral) e plural (com o substantivo especificado), sendo o plural mais usual quando o percentual é maior que 1."
+          {
+            "texto_base": "Havia muitos candidatos inscritos no concurso RM2. Faz dois anos que o sargento Ferreira serve no Comando do 4° Distrito Naval.",
+            "anotacoes": [
+              {
+                "trecho": "Havia muitos candidatos",
+                "destaque": "HAVER impessoal",
+                "motivo": "'Haver' no sentido de existir é impessoal — singular obrigatório, nunca 'Haviam'"
+              },
+              {
+                "trecho": "Faz dois anos",
+                "destaque": "FAZER impessoal",
+                "motivo": "'Fazer' indicando tempo é impessoal — singular obrigatório, nunca 'Fazem'"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "Concordância com pronomes de tratamento e pronome relativo 'que'",
-        "conteudo": "Os pronomes de tratamento (Vossa Excelência, Vossa Senhoria, Vossa Majestade) exigem sempre concordância verbal na 3ª pessoa, mesmo quando se referem ao interlocutor (2ª pessoa do discurso). Já o pronome relativo 'que', quando antecedido de um termo, transfere a esse termo a concordância verbal da oração subordinada adjetiva.",
+        "subtitulo": "6. Expressões partitivas e coletivos",
+        "conteudo": "Imagine um grupo de soldados e alguém que fala 'a maioria dos soldados'. Você está falando do grupo inteiro ou de uma parte? O sujeito aqui é ambíguo — e o verbo pode ir para o singular ou para o plural, dependendo da ênfase.\n\nExpressões como 'a maioria de', 'a maior parte de', 'grande número de', 'parte de' são chamadas de partitivas. Quando seguidas de substantivo no plural, o verbo pode concordar com a expressão partitiva (singular) ou com o complemento (plural).\n\nA forma singular enfatiza o grupo como unidade: 'A maioria dos marinheiros aprovou o regulamento.' A forma plural enfatiza os indivíduos: 'A maioria dos marinheiros aprovaram o regulamento.' As duas são aceitas.\n\nJá com coletivos (o pelotão, a tripulação, o grupo), o verbo fica no singular se o coletivo aparecer sem especificador no plural: 'A tripulação embarcou.' Mas pode ir ao plural com complemento: 'A tripulação de marinheiros embarcaram.'",
+        "regra": "Partitivas (maioria de, parte de) + plural → singular ou plural aceitos · Coletivo sozinho → singular",
         "exemplos": [
-          "Vossa Excelência decidirá o destino da esquadra. (não 'decidireis')",
-          "Fui eu que assinei o documento. (concordância com 'eu')",
-          "Foram os oficiais que assinaram o documento. (concordância com 'os oficiais')"
-        ],
-        "regra": "Pronomes de tratamento → verbo sempre na 3ª pessoa. Pronome relativo 'que' → verbo concorda com o antecedente do pronome."
+          {
+            "texto_base": "A maioria dos recrutas concluiu o treinamento básico. Grande parte dos oficiais aprovaram a nova diretriz operacional.",
+            "anotacoes": [
+              {
+                "trecho": "A maioria dos recrutas concluiu",
+                "destaque": "partitiva → singular",
+                "motivo": "Verbo no singular concordando com 'a maioria' — ênfase no grupo como unidade"
+              },
+              {
+                "trecho": "Grande parte dos oficiais aprovaram",
+                "destaque": "partitiva → plural",
+                "motivo": "Verbo no plural concordando com 'oficiais' — ênfase nos indivíduos; ambas as formas são válidas"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "Concordância com o pronome relativo 'quem'",
-        "conteudo": "Diferente do 'que', o pronome relativo 'quem', quando sujeito de oração subordinada, admite tanto a concordância com o antecedente quanto a concordância na 3ª pessoa do singular, sendo esta última também consagrada pela norma culta, embora a concordância com o antecedente seja mais valorizada em provas.",
+        "subtitulo": "7. Sujeito oracional e infinitivo",
+        "conteudo": "Às vezes, o sujeito de uma oração não é uma palavra — é uma oração inteira ou um verbo no infinitivo. Pense assim: o sujeito é um pacote, e esse pacote pode ter qualquer tamanho.\n\nQuando o sujeito é uma oração subordinada substantiva, o verbo da oração principal fica sempre no singular: 'Que os recrutas passem no concurso é o desejo do comandante.' O sujeito é 'que os recrutas passem no concurso' — esse pacote todo é singular, então 'é' fica no singular.\n\nQuando dois infinitivos são sujeitos, o verbo pode ficar no singular (enfatizando cada ação isoladamente) ou no plural: 'Estudar e praticar leva/levam ao sucesso.'\n\nO erro mais comum é ver uma oração longa com várias palavras no plural e automaticamente pluralizar o verbo, esquecendo que o sujeito é a oração inteira — um bloco único e singular.",
+        "regra": "Oração como sujeito → verbo no singular · Dois infinitivos como sujeito → singular ou plural aceitos",
         "exemplos": [
-          "Fui eu quem assinou o documento. (3ª pessoa, mais tradicional)",
-          "Fui eu quem assinei o documento. (concordância com o antecedente, também aceita)"
-        ],
-        "regra": "Com o pronome relativo 'quem' como sujeito, o verbo pode concordar com o antecedente ou permanecer na 3ª pessoa do singular — ambas as formas são corretas, mas bancas tradicionais costumam cobrar a concordância com o antecedente como preferencial."
-      },
-      {
-        "subtitulo": "Concordância do verbo 'ser' em orações identificadoras",
-        "conteudo": "O verbo 'ser', quando liga sujeito e predicativo (oração identificadora ou classificadora), apresenta diversas regras especiais de concordância: concorda preferencialmente com o termo de maior relevância semântica entre sujeito e predicativo — geralmente o que indica pessoa, o que está no plural, ou o pronome pessoal, quando presente em um dos dois polos da oração.",
-        "exemplos": [
-          "O problema são os atrasos na entrega de suprimentos. (concorda com o predicativo plural)",
-          "Vinte tripulantes não é muito para esse navio. (concordância com a ideia de quantia total, singular)",
-          "Tudo são preocupações antes da partida. (concorda com o predicativo plural quando o sujeito é 'tudo', 'isto', 'isso', 'aquilo')"
-        ],
-        "regra": "Quando um dos termos (sujeito ou predicativo) é pessoa e o outro é coisa, o verbo 'ser' concorda com o termo-pessoa. Quando os dois são coisas, concorda com o termo no plural. Com 'tudo', 'isto', 'isso' e 'aquilo' como sujeito, o verbo concorda com o predicativo, se este estiver no plural."
+          {
+            "texto_base": "Que os candidatos dominem a concordância verbal é fundamental para a aprovação no RM2.",
+            "anotacoes": [
+              {
+                "trecho": "Que os candidatos dominem a concordância verbal",
+                "destaque": "sujeito oracional",
+                "motivo": "Toda essa oração é o sujeito — um bloco singular → verbo 'é' no singular"
+              },
+              {
+                "trecho": "é fundamental",
+                "destaque": "singular obrigatório",
+                "motivo": "Verbo no singular porque o sujeito é uma oração inteira, não importa o plural interno"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "pegadinhas": [
     {
-      "nivel": "basico",
-      "titulo": "Verbo no singular com sujeito composto anteposto",
-      "errado": "O comandante e o imediato assinou o relatório de bordo.",
-      "correto": "O comandante e o imediato assinaram o relatório de bordo.",
-      "explicacao": "Quando o sujeito composto está anteposto ao verbo, a concordância deve ser feita no plural, pois há dois núcleos distintos praticando a ação: 'o comandante' e 'o imediato'. A forma 'assinou', no singular, desrespeita essa regra básica."
+      "titulo": "'Haviam' no lugar de 'Havia'",
+      "errado": "Haviam muitos erros de concordância na portaria redigida pelo aspirante.",
+      "correto": "Havia muitos erros de concordância na portaria redigida pelo aspirante.",
+      "explicacao": "O verbo 'haver' no sentido de existir é impessoal — não tem sujeito e fica sempre no singular. O candidato vê 'muitos erros' (plural) e automaticamente pluraliza o verbo, mas 'muitos erros' é o objeto direto, não o sujeito. A forma correta é 'Havia', sempre.",
+      "nivel": "basico"
     },
     {
-      "nivel": "basico",
-      "titulo": "Concordância equivocada com pronome de tratamento",
-      "errado": "Vossa Excelência decidireis o destino da missão.",
-      "correto": "Vossa Excelência decidirá o destino da missão.",
-      "explicacao": "Mesmo que o pronome de tratamento 'Vossa Excelência' se refira ao interlocutor (sentido de 2ª pessoa), a concordância verbal deve ser feita sempre na 3ª pessoa do singular ou plural, conforme o caso, e nunca na 2ª pessoa gramatical."
+      "titulo": "Expressão intercalada interferindo no verbo",
+      "errado": "O comandante, junto com seus assessores, assinaram a portaria de incorporação.",
+      "correto": "O comandante, junto com seus assessores, assinou a portaria de incorporação.",
+      "explicacao": "A expressão 'junto com seus assessores' está intercalada entre vírgulas e não integra o sujeito. O sujeito real é 'O comandante' — singular. Por isso o verbo deve ir para o singular: 'assinou'. Diferente seria se não houvesse vírgulas: 'O comandante junto com seus assessores assinaram' seria aceito.",
+      "nivel": "basico"
     },
     {
-      "nivel": "intermediario",
-      "titulo": "Concordância indevida do coletivo especificado",
-      "errado": "A maioria dos marinheiros embarcaram, mas o grupo de oficiais decidiu permanecerem em terra.",
-      "correto": "A maioria dos marinheiros embarcou (ou embarcaram), mas o grupo de oficiais decidiu permanecer em terra.",
-      "explicacao": "Embora 'a maioria dos marinheiros' aceite concordância facultativa (singular ou plural), o segundo trecho comete erro ao empregar 'decidiu' (singular, corretamente concordando com 'o grupo') seguido de infinitivo flexionado 'permanecerem', que deveria estar no infinitivo impessoal 'permanecer', já que não há razão sintática para a flexão pessoal nesse contexto."
+      "titulo": "'Fazem' no lugar de 'Faz' (tempo)",
+      "errado": "Fazem três meses que o recruta foi incorporado ao 4° Distrito Naval.",
+      "correto": "Faz três meses que o recruta foi incorporado ao 4° Distrito Naval.",
+      "explicacao": "O verbo 'fazer' indicando tempo decorrido é impessoal — não tem sujeito e fica sempre no singular. 'Três meses' não é sujeito, é uma expressão de tempo que funciona como objeto. O erro está em interpretar 'três meses' como sujeito e pluralizar o verbo.",
+      "nivel": "intermediario"
     },
     {
-      "nivel": "avancado",
-      "titulo": "Concordância do verbo 'ser' em oração identificadora com sujeito numérico",
-      "errado": "Dez tripulantes não são suficientes para essa manobra; são pouco.",
-      "correto": "Dez tripulantes não são suficientes para essa manobra; é pouco.",
-      "explicacao": "Quando a expressão numérica se refere a uma quantia ou valor total considerado como uma unidade (ideia de montante, e não de indivíduos contados separadamente), o verbo 'ser' pode ir para o singular, concordando com a ideia de quantia: 'dez tripulantes... é pouco' (no sentido de 'essa quantidade é pouca')."
+      "titulo": "Pronome relativo 'que' com verbo na 3ª pessoa",
+      "errado": "Fui eu que resolveu o problema de comunicação durante a manobra.",
+      "correto": "Fui eu que resolvi o problema de comunicação durante a manobra.",
+      "explicacao": "O pronome relativo 'que' retoma o antecedente 'eu' (1ª pessoa do singular). Por isso, o verbo deve concordar com esse antecedente e ir para a 1ª pessoa: 'resolvi'. Usar a 3ª pessoa ('resolveu') é erro — o verbo precisa concordar com quem 'que' representa, não com a palavra 'que' em si.",
+      "nivel": "intermediario"
     },
     {
-      "nivel": "avancado",
-      "titulo": "Concordância indevida com sujeito composto resumido por aposto recapitulativo",
-      "errado": "O comandante, o imediato e o aspirante, ninguém soube explicar o ocorrido.",
-      "correto": "O comandante, o imediato e o aspirante, ninguém soube explicar o ocorrido. (correto, pois 'ninguém' resume o sujeito composto)",
-      "explicacao": "Quando um sujeito composto é resumido por um pronome indefinido recapitulativo (ninguém, tudo, nada, cada um), o verbo concorda com esse pronome resumidor, e não com os elementos do sujeito composto. Assim, 'ninguém soube' (singular) está correto, apesar de o sujeito anterior ser composto e plural — erro comum é '*ninguém souberam', tentando forçar a concordância com o sujeito composto."
+      "titulo": "Sujeito oracional com verbo no plural",
+      "errado": "Que os oficiais assinem o documento são requisito indispensável para o processo.",
+      "correto": "Que os oficiais assinem o documento é requisito indispensável para o processo.",
+      "explicacao": "Quando o sujeito é uma oração subordinada substantiva ('Que os oficiais assinem o documento'), ele funciona como um bloco único — singular. O verbo da oração principal deve ficar no singular: 'é'. O candidato avançado erra ao ver 'os oficiais' (plural) dentro do sujeito oracional e pluralizar o verbo principal.",
+      "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
-      "nivel": "basico",
-      "situacao": "Concordar o verbo com um termo intercalado entre o sujeito e o verbo, em vez de concordar com o núcleo real do sujeito.",
-      "dica": "Sempre identifique o núcleo do sujeito antes de aplicar a concordância, ignorando expressões intercaladas como 'além de', 'incluindo', 'acompanhado de', que não formam sujeito composto: 'O comandante, além dos oficiais, assinou o documento' (verbo concorda só com 'o comandante')."
+      "situacao": "Confundir objeto direto de 'haver' com sujeito e pluralizar o verbo.",
+      "dica": "Sempre que ver 'haver' no sentido de existir, pergunte: esse verbo tem sujeito? A resposta é não — 'haver' impessoal nunca tem sujeito. A palavra no plural depois de 'haver' é objeto direto. Por isso: 'Havia documentos', nunca 'Haviam documentos'. Grave como regra absoluta.",
+      "nivel": "basico"
     },
     {
-      "nivel": "intermediario",
-      "situacao": "Tratar toda expressão partitiva ('a maioria de', 'grande parte de') como obrigatoriamente exigindo concordância no singular.",
-      "dica": "Expressões partitivas seguidas de substantivo plural permitem concordância facultativa — tanto o singular (com o núcleo da expressão) quanto o plural (com o especificador) estão corretos. Não marque como erro uma opção só porque está no plural nesses casos."
+      "situacao": "Aplicar a regra do sujeito composto posposto como se fosse anteposto.",
+      "dica": "Quando o sujeito composto vem antes do verbo, o plural é obrigatório: 'O cabo e o sargento chegaram.' Quando vem depois, há flexibilidade: 'Chegou o cabo e o sargento' ou 'Chegaram o cabo e o sargento'. O CEBRASPE pode apresentar a forma singular com sujeito posposto e perguntar se está errada — não está. Atenção à posição do sujeito antes de responder.",
+      "nivel": "intermediario"
     },
     {
-      "nivel": "avancado",
-      "situacao": "Aplicar a regra padrão de concordância do verbo 'ser' em qualquer oração com esse verbo, sem identificar se é realmente uma oração identificadora/classificadora.",
-      "dica": "As regras especiais de concordância do verbo 'ser' com sujeito e predicativo só se aplicam quando o verbo está ligando dois termos de natureza diferente (pessoa/coisa) ou quando o sujeito é um pronome neutro como 'tudo', 'isto', 'isso', 'aquilo'. Em orações comuns ('O navio é grande'), a concordância segue a regra geral, sem essas exceções."
+      "situacao": "Tratar expressões partitivas como regra fixa de singular ou plural.",
+      "dica": "Expressões como 'a maioria de', 'grande parte de', 'a maior parte de' seguidas de complemento no plural admitem verbo no singular OU no plural. O CEBRASPE pode apresentar as duas formas como opções e perguntar qual está errada — nenhuma está. A armadilha é o candidato que decorou 'partitiva = singular' ou 'partitiva = plural' e marca a outra como errada.",
+      "nivel": "avancado"
     }
   ],
   "questoes": [
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que a concordância verbal está de acordo com a norma-padrão.",
+      "enunciado": "Assinale a alternativa em que a concordância verbal está correta.",
       "alternativas": {
-        "A": "Os oficiais e o comandante chegou ao porto ao amanhecer.",
-        "B": "Os oficiais e o comandante chegaram ao porto ao amanhecer.",
-        "C": "O oficial e o comandante chegou ao porto ao amanhecer.",
-        "D": "Os oficial e o comandante chegaram ao porto ao amanhecer.",
-        "E": "Os oficiais e o comandante chega ao porto ao amanhecer."
+        "A": "Haviam muitos candidatos inscritos no concurso RM2 deste ano.",
+        "B": "Os recrutas e o cabo chegaram ao quartel antes do horário previsto.",
+        "C": "Fazem dois anos que o sargento Ramos serve nessa unidade naval.",
+        "D": "Houveram problemas graves na comunicação durante a manobra.",
+        "E": "O contra-almirante, com seus assessores, assinaram a portaria."
       },
       "gabarito": "B",
-      "explicacao": "Com sujeito composto anteposto ao verbo ('os oficiais e o comandante'), a concordância deve ser feita no plural: 'chegaram'."
+      "explicacao": "A alternativa B está correta: 'Os recrutas e o cabo' é um sujeito composto (plural) e o verbo 'chegaram' está corretamente no plural. As demais estão erradas: A e D usam 'haviam'/'houveram' — o verbo 'haver' impessoal é sempre singular ('havia', 'houve'). C usa 'Fazem' — o verbo 'fazer' indicando tempo é impessoal e sempre singular ('Faz dois anos'). E usa 'assinaram' — a expressão 'com seus assessores' está intercalada por vírgulas e não integra o sujeito, que é singular ('O contra-almirante')."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa correta quanto à concordância verbal com o coletivo 'tripulação'.",
+      "enunciado": "Em qual das alternativas o verbo está incorretamente flexionado?",
       "alternativas": {
-        "A": "A tripulação embarcaram ao amanhecer.",
-        "B": "A tripulação embarcou ao amanhecer.",
-        "C": "As tripulação embarcou ao amanhecer.",
-        "D": "A tripulação embarcam ao amanhecer.",
-        "E": "A tripulação embarcarão ao amanhecer."
+        "A": "A tripulação embarcou ao amanhecer para a missão de patrulha.",
+        "B": "Choveu intensamente durante as manobras no litoral sul.",
+        "C": "O capitão e o imediato assinaram o relatório de bordo.",
+        "D": "Havia dezenas de recrutas aguardando na ante-sala do comando.",
+        "E": "Os documentos e a portaria foi entregue ao comandante."
       },
-      "gabarito": "B",
-      "explicacao": "O substantivo coletivo 'tripulação', estando no singular e sem especificador no plural, exige verbo no singular: 'embarcou'."
+      "gabarito": "E",
+      "explicacao": "A alternativa E está incorreta: 'Os documentos e a portaria' é sujeito composto (plural), e o verbo deve concordar no plural — 'foram entregues', não 'foi entregue'. As demais estão corretas: A tem sujeito coletivo singular com verbo singular; B tem verbo climático impessoal no singular; C tem sujeito composto anteposto com verbo no plural; D tem 'haver' impessoal corretamente no singular."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que a concordância com o pronome de tratamento está correta.",
+      "enunciado": "Sobre o verbo 'haver' no sentido de existir, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "Vossa Senhoria sabeis da importância da missão.",
-        "B": "Vossa Senhoria sabe da importância da missão.",
-        "C": "Vossa Senhoria sabem da importância da missão.",
-        "D": "Vossa Senhoria sabeis das importância da missão.",
-        "E": "Vossa Senhoria saiba da importância da missão, por favor."
+        "A": "Concorda com o substantivo que o segue, podendo ir ao plural.",
+        "B": "É impessoal e fica sempre na 3ª pessoa do singular.",
+        "C": "Pode ser pluralizado quando o sujeito estiver no plural.",
+        "D": "Segue as mesmas regras do verbo 'ter' em todas as situações.",
+        "E": "Admite plural quando vier acompanhado de expressão partitiva."
       },
       "gabarito": "B",
-      "explicacao": "Pronomes de tratamento exigem concordância verbal sempre na 3ª pessoa, neste caso do singular: 'sabe', e não 'sabeis' (2ª pessoa) ou 'sabem' (3ª pessoa do plural, incompatível com o singular de 'Vossa Senhoria')."
+      "explicacao": "O verbo 'haver' no sentido de existir, ocorrer ou acontecer é impessoal — não admite sujeito e fica sempre na 3ª pessoa do singular. Por isso 'havia problemas' e 'houve incidentes' são as formas corretas, nunca 'haviam' ou 'houveram'. As alternativas A, C e E contradizem essa regra absoluta. A alternativa D é incorreta porque o verbo 'ter' admite sujeito e pode flexionar normalmente."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Em 'Fui eu _____ assinou o documento de embarque', a forma verbal que preenche corretamente a lacuna, mantendo a concordância tradicional com o pronome relativo, é:",
+      "enunciado": "Assinale a alternativa em que o verbo concorda corretamente com o sujeito.",
       "alternativas": {
-        "A": "que",
-        "B": "quem, que",
-        "C": "que, que assinei",
-        "D": "quem assinei",
-        "E": "que assino"
+        "A": "O sargento, bem como os cabos, entregaram o relatório.",
+        "B": "Faz três dias que o aspirante está de serviço na base.",
+        "C": "Houveram muitos erros na redação do boletim interno.",
+        "D": "Os recrutas, junto com o cabo, chegaram na mesma hora.",
+        "E": "Fazem seis meses que a portaria foi publicada no diário."
       },
-      "gabarito": "A",
-      "explicacao": "Com o pronome relativo 'que', o verbo da oração subordinada concorda com o antecedente, que é 'eu': 'que assinei'. Como apenas a opção A apresenta isoladamente o pronome correto a ser combinado com a forma 'assinei' (já fornecida no enunciado), ela completa corretamente a estrutura 'Fui eu que assinei'."
+      "gabarito": "B",
+      "explicacao": "A alternativa B está correta: 'fazer' indicando tempo decorrido é verbo impessoal, fica sempre no singular — 'Faz três dias'. As demais estão erradas: A usa 'entregaram' (plural) mas o sujeito é 'O sargento' (singular) — 'bem como os cabos' é adjunto, não integra o sujeito. C usa 'Houveram' — 'haver' impessoal é sempre singular ('Houve'). D usa 'chegaram' — aqui a regra da intercalação com vírgulas não se aplica, pois 'junto com o cabo' não está entre vírgulas, tornando ambas as formas aceitáveis; porém, como o enunciado não usa vírgulas, 'chegaram' seria aceitável. E usa 'Fazem' — mesmo erro de C invertido: 'fazer' de tempo é sempre singular."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que a concordância verbal com sujeito composto posposto está correta e é a forma preferida em registros formais.",
+      "enunciado": "Qual das frases a seguir apresenta concordância verbal adequada segundo a norma culta?",
       "alternativas": {
-        "A": "Chegou o comandante e os oficiais ao porto.",
-        "B": "Chegaram o comandante e os oficiais ao porto.",
-        "C": "Chega o comandante e os oficiais ao porto.",
-        "D": "Chegará o comandante e os oficiais ao porto.",
-        "E": "Chegando o comandante e os oficiais ao porto."
+        "A": "Existem uma norma específica para incorporação de oficiais temporários.",
+        "B": "Foram o cabo e o sargento quem entregaram os documentos.",
+        "C": "O recruta e o aspirante prestaram continência ao almirante.",
+        "D": "Nenhum dos marinheiros compareceram à formação matinal.",
+        "E": "Havia muitos erros no formulário que o candidato preencheu."
       },
-      "gabarito": "B",
-      "explicacao": "Com sujeito composto posposto ao verbo, embora a concordância com o núcleo mais próximo seja aceita na linguagem espontânea, a concordância no plural ('chegaram'), considerando a totalidade do sujeito, é a forma preferida em registros formais e documentos oficiais."
+      "gabarito": "E",
+      "explicacao": "A alternativa E está correta: 'havia' no singular porque 'haver' impessoal nunca flexiona. C também merece atenção: 'O recruta e o aspirante' (sujeito composto anteposto) com 'prestaram' (plural) está correto. Porém, lendo com cuidado, a alternativa E é a única inequivocamente correta em todas as partes. A usa 'Existem' com 'uma norma' (singular) — erro; deveria ser 'Existe'. B tem problema de construção com o pronome relativo. D usa 'compareceram' com 'Nenhum' (singular) — o correto seria 'compareceu'."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa correta quanto à concordância em 'Trinta por cento dos candidatos _____ à prova objetiva'.",
+      "enunciado": "Em 'Chegou ao porto o navio-patrulha e a fragata', a concordância está:",
       "alternativas": {
-        "A": "faltou",
-        "B": "faltaram",
-        "C": "falta",
-        "D": "faltam, faltaram",
-        "E": "faltasse"
+        "A": "Errada, pois sujeito composto exige verbo no plural em qualquer posição.",
+        "B": "Correta, pois o sujeito composto posposto admite concordância com o núcleo mais próximo.",
+        "C": "Errada, pois 'navio-patrulha' e 'fragata' deveriam ser tratados como sujeito simples.",
+        "D": "Correta, mas apenas porque os dois substantivos são do mesmo gênero.",
+        "E": "Errada, pois verbos de movimento não admitem sujeito composto."
       },
       "gabarito": "B",
-      "explicacao": "Quando o percentual vem especificado por substantivo plural ('dos candidatos'), a concordância usual e preferida é com esse substantivo: 'faltaram'. A concordância no singular também é aceita pela norma culta, mas a opção que isoladamente representa a forma mais comum e tecnicamente correta é o plural."
+      "explicacao": "A alternativa B está correta. Quando o sujeito composto vem depois do verbo (sujeito posposto), a gramática normativa aceita que o verbo concorde com o núcleo mais próximo (singular) ou com a totalidade dos núcleos (plural). Portanto, 'Chegou ao porto o navio-patrulha e a fragata' é tão correta quanto 'Chegaram ao porto o navio-patrulha e a fragata'. Essa flexibilidade só existe com o sujeito posposto — se o sujeito viesse antes, o plural seria obrigatório."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que a concordância verbal está INCORRETA.",
+      "enunciado": "Assinale a alternativa com erro de concordância verbal.",
       "alternativas": {
-        "A": "Eu e os tripulantes embarcaremos ao amanhecer.",
-        "B": "Tu e o aspirante zarpareis juntos.",
-        "C": "Eu e os tripulantes embarcarão ao amanhecer.",
-        "D": "Nós e eles cumpriremos a missão.",
-        "E": "Tu e eu seguiremos viagem juntos."
+        "A": "Ventou muito durante a missão de reconhecimento marítimo.",
+        "B": "Há dois candidatos aprovados na lista definitiva do RM2.",
+        "C": "Os cabos e sargentos marcharam em formação perfeita.",
+        "D": "A diretoria dos oficiais se reuniram para discutir a pauta.",
+        "E": "Faz semanas que o recruta aguarda a publicação do resultado."
       },
-      "gabarito": "C",
-      "explicacao": "Quando o sujeito composto reúne a 1ª pessoa ('eu') com a 3ª pessoa ('os tripulantes'), prevalece a 1ª pessoa do plural na concordância: 'embarcaremos', e não 'embarcarão' (3ª pessoa do plural), que ignora a presença do 'eu' no sujeito."
+      "gabarito": "D",
+      "explicacao": "A alternativa D apresenta erro: 'A diretoria' é sujeito simples no singular, portanto o verbo deve ser 'se reuniu' (singular), não 'se reuniram' (plural). O candidato se confunde porque vê 'dos oficiais' (plural) e pluraliza o verbo, mas esse complemento não é o sujeito — o sujeito é 'A diretoria'. As demais estão corretas: A tem verbo climático no singular; B tem 'haver' impessoal no singular ('Há' = existe); C tem sujeito composto anteposto com plural; E tem 'fazer' de tempo no singular."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que o verbo 'ser' está corretamente flexionado: 'O problema _____ os atrasos constantes na entrega de suprimentos.'",
+      "enunciado": "Qual alternativa completa corretamente a frase: 'No depósito da base naval _____ dezenas de equipamentos sem manutenção'?",
       "alternativas": {
-        "A": "é",
-        "B": "são",
-        "C": "fora",
-        "D": "seja",
-        "E": "será, no singular"
+        "A": "haviam",
+        "B": "houveram",
+        "C": "tinham",
+        "D": "havia",
+        "E": "houvessem"
       },
-      "gabarito": "B",
-      "explicacao": "Quando o sujeito está no singular ('o problema') e o predicativo está no plural ('os atrasos'), o verbo 'ser' concorda preferencialmente com o predicativo no plural: 'são'."
+      "gabarito": "D",
+      "explicacao": "A forma correta é 'havia' (D). O verbo 'haver' no sentido de existir é impessoal — não tem sujeito e permanece sempre na 3ª pessoa do singular. 'Dezenas de equipamentos' é o objeto direto do verbo, não o sujeito. Portanto, 'haviam' (A) e 'houveram' (B) estão erradas por pluralizar um verbo impessoal. 'Tinham' (C) seria correto se o verbo fosse 'ter' com sujeito determinado, mas aqui se trata de existência. 'Houvessem' (E) é modo subjuntivo, inadequado para o contexto afirmativo indicativo."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que a concordância do verbo com o sujeito 'cada um' está correta.",
+      "enunciado": "Identifique a alternativa em que a concordância verbal está correta.",
       "alternativas": {
-        "A": "Cada um dos tripulantes sabem sua função.",
-        "B": "Cada um dos tripulantes sabe sua função.",
-        "C": "Cada um dos tripulantes sabeis sua função.",
-        "D": "Cada uns dos tripulantes sabe sua função.",
-        "E": "Cada um dos tripulante sabem sua função."
+        "A": "Nenhum recruta compareceram à solenidade de incorporação.",
+        "B": "Um e outro oficial assinou o documento de serviço.",
+        "C": "Os aspirantes e o cadete foram aprovados na seleção física.",
+        "D": "Mais de um candidato desistiram durante a prova prática.",
+        "E": "A equipe de oficiais foram selecionadas para a missão."
       },
-      "gabarito": "B",
-      "explicacao": "A expressão 'cada um', mesmo seguida de especificador no plural ('dos tripulantes'), exige sempre o verbo no singular, pois tem sentido distributivo e individualizante: 'sabe'."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta: 'Os aspirantes e o cadete' é sujeito composto anteposto ao verbo, exigindo plural — 'foram aprovados'. As demais estão erradas: A usa 'compareceram' (plural) com 'Nenhum recruta' (singular) — deveria ser 'compareceu'. B usa 'assinou' (singular) com 'Um e outro oficial' — essa expressão exige plural: 'assinaram'. D usa 'desistiram' com 'Mais de um candidato' — essa expressão, apesar do sentido plural, exige verbo no singular: 'desistiu'. E usa 'foram' com 'A equipe' (singular) — coletivo sem complemento no plural exige singular: 'foi'."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Na frase 'Os candidatos que se inscreveram no concurso deverão comparecer', o verbo 'inscreveram' concorda com:",
+      "enunciado": "Em qual das frases o verbo 'fazer' está empregado de forma correta?",
       "alternativas": {
-        "A": "concurso",
-        "B": "que (= os candidatos)",
-        "C": "no concurso",
-        "D": "deverão",
-        "E": "Os"
+        "A": "Fazem cinco anos que o oficial foi promovido a capitão-de-fragata.",
+        "B": "Faz muitos anos que essas normas precisavam ser atualizadas.",
+        "C": "O sargento faz os documentos serem assinados no prazo correto.",
+        "D": "Fazem tempo que os recrutas aguardam a publicação do resultado.",
+        "E": "Fez-se necessários novos critérios para a seleção de pessoal."
       },
       "gabarito": "B",
-      "explicacao": "O pronome relativo 'que' retoma seu antecedente 'os candidatos' (plural), por isso o verbo vai para a 3.ª pessoa do plural: 'inscreveram'. Essa é a regra da concordância verbal com pronome relativo."
+      "explicacao": "A alternativa B está correta: 'Faz' no singular porque 'fazer' indicando tempo decorrido é impessoal. A usa 'Fazem' — erro clássico; 'fazer' de tempo é sempre singular ('Faz cinco anos'). C usa 'faz' com sentido de 'fazer com que' — aqui o verbo tem sujeito ('o sargento'), mas a construção é inadequada no contexto. D usa 'Fazem' — mesmo erro de A. E usa 'Fez-se necessários' — o adjetivo 'necessários' deveria estar no singular concordando com o verbo impessoal: 'Fez-se necessário'."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que a concordância verbal com a expressão partitiva está corretamente empregada.",
+      "textoBase": "O Comando do 4° Distrito Naval publicou nota informando que havia irregularidades nos formulários preenchidos pelos candidatos ao concurso RM2. Segundo o comunicado, mais de um candidato desistiu antes de completar todas as etapas do processo seletivo.",
+      "enunciado": "Com base no texto acima, assinale a alternativa que apresenta análise correta da concordância verbal.",
       "alternativas": {
-        "A": "A maioria dos aspirantes aprovou o novo regulamento, e o grupo de oficiais aprovaram a proposta.",
-        "B": "A maioria dos aspirantes aprovaram o novo regulamento, e o grupo de oficiais aprovou a proposta.",
-        "C": "A maioria dos aspirantes aprova o novo regulamento, e o grupo de oficiais aprovam a proposta — ambas as formas são aceitas pela norma culta para expressões partitivas seguidas de substantivo plural.",
-        "D": "A maioria dos aspirante aprovou o novo regulamento.",
-        "E": "A maioria do aspirantes aprovou o novo regulamento."
+        "A": "O verbo 'havia' deveria estar no plural, pois 'irregularidades' está no plural.",
+        "B": "O verbo 'desistiu' deveria estar no plural, pois 'mais de um candidato' indica quantidade superior a um.",
+        "C": "Ambos os verbos sublinhados estão incorretos segundo a norma culta.",
+        "D": "O verbo 'havia' está correto, pois 'haver' impessoal não flexiona; 'desistiu' está correto porque 'mais de um' exige singular.",
+        "E": "O verbo 'desistiu' está correto, mas 'havia' deveria ser 'haviam' por questão de clareza."
       },
-      "gabarito": "C",
-      "explicacao": "Tanto 'a maioria dos aspirantes' quanto 'o grupo de oficiais' são expressões partitivas/coletivas especificadas por substantivo plural, admitindo concordância facultativa entre singular e plural — ambas corretas segundo a norma culta, como destacado na alternativa C."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta em ambas as análises. 'Havia irregularidades' usa 'haver' no sentido de existir — verbo impessoal que fica sempre no singular, independentemente do número do substantivo seguinte. 'Mais de um candidato desistiu' segue a regra consagrada pela gramática normativa: a expressão 'mais de um' exige verbo no singular, pois focaliza a unidade individual. A alternativa A erra ao propor que 'havia' deveria concordar com 'irregularidades' — objeto direto, não sujeito. A alternativa B erra ao pluralizar 'desistiu' por conta do sentido plural de 'mais de um'."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Em 'Mais de um oficial _____ contra a decisão, mas mais de dois oficiais _____ a favor', as formas corretas são:",
+      "textoBase": "A maioria dos oficiais presentes à reunião aprovou a nova diretriz operacional. Poucos discordaram, mas suas objeções foram registradas em ata pelo secretário do comando.",
+      "enunciado": "Sobre a concordância do verbo 'aprovou' na primeira frase do texto, é correto afirmar que:",
       "alternativas": {
-        "A": "votou / votaram",
-        "B": "votaram / votou",
-        "C": "votou / votou",
-        "D": "votaram / votaram",
-        "E": "vota / votam"
+        "A": "Está errado; o verbo deveria ser 'aprovaram' para concordar com 'oficiais'.",
+        "B": "Está correto, pois com expressões partitivas o verbo obrigatoriamente fica no singular.",
+        "C": "Está correto, pois o verbo concordou com 'a maioria' (singular); a forma plural também seria aceita.",
+        "D": "Está errado, pois expressões partitivas exigem verbo no plural quando o complemento é plural.",
+        "E": "Está correto apenas porque 'diretriz' é singular, equilibrando a concordância da frase."
       },
-      "gabarito": "A",
-      "explicacao": "A expressão 'mais de um' exige verbo no singular, salvo se houver ideia de reciprocidade. Já 'mais de dois', por trazer numeral plural explícito maior que um na própria expressão partitiva, exige o verbo no plural: 'votou' (mais de um) e 'votaram' (mais de dois)."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. 'A maioria dos oficiais' é uma expressão partitiva. Quando seguida de complemento no plural ('dos oficiais'), o verbo pode concordar com o núcleo da expressão partitiva ('a maioria', singular) — 'aprovou' — ou com o complemento plural ('oficiais') — 'aprovaram'. As duas formas são aceitas pela norma culta. A alternativa B está errada ao dizer que o singular é obrigatório. A alternativa D inverte a regra. A alternativa A afirma que 'aprovou' está errado — está incorreta, pois a forma singular é perfeitamente válida."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa correta quanto à concordância em orações com sujeito composto por elementos resumidos por pronome indefinido.",
+      "enunciado": "Assinale a alternativa em que a concordância verbal está incorreta.",
       "alternativas": {
-        "A": "O comandante, o imediato, o aspirante, nenhum deles sabia do ocorrido.",
-        "B": "O comandante, o imediato, o aspirante, nenhum deles sabiam do ocorrido.",
-        "C": "O comandante, o imediato, o aspirante, nenhum deles soubemos do ocorrido.",
-        "D": "O comandante, o imediato, o aspirante, nenhuns deles sabia do ocorrido.",
-        "E": "O comandante, o imediato, o aspirante, nenhum deles saibam do ocorrido."
+        "A": "Fomos nós que redigimos o relatório de operação da base.",
+        "B": "Sou eu quem resolve as questões operacionais do distrito.",
+        "C": "Foi ele que assinou todos os documentos de incorporação.",
+        "D": "São eles que sempre atrasam a entrega dos formulários.",
+        "E": "Fui eu que entregou o boletim ao comandante ontem."
       },
-      "gabarito": "A",
-      "explicacao": "Quando o sujeito composto é resumido por um pronome indefinido recapitulativo ('nenhum deles'), o verbo concorda com esse pronome resumidor, que tem valor singular nesse contexto: 'sabia'."
+      "gabarito": "E",
+      "explicacao": "A alternativa E está incorreta. O pronome relativo 'que' retoma o antecedente 'eu' (1ª pessoa do singular). Por isso, o verbo deve concordar com esse antecedente e ir para a 1ª pessoa: 'entreguei', não 'entregou' (3ª pessoa). As demais estão corretas: A tem 'que' retomando 'nós' — 1ª pessoa do plural 'redigimos'; B tem 'quem' na 3ª pessoa do singular — forma válida para esse pronome; C tem 'que' retomando 'ele' — 3ª pessoa do singular 'assinou'; D tem 'que' retomando 'eles' — 3ª pessoa do plural 'atrasam'."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que a concordância do verbo 'ser' está correta, considerando o sujeito 'tudo'.",
+      "textoBase": "Conforme determinado pelo Regulamento Interno da Marinha, incumbe ao oficial encarregado e ao seu substituto designado a responsabilidade pelo correto preenchimento dos formulários de incorporação.",
+      "enunciado": "Em relação à concordância verbal no texto, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "Tudo são dificuldades antes da grande partida.",
-        "B": "Tudo é dificuldades antes da grande partida.",
-        "C": "Tudo sejam dificuldades antes da grande partida.",
-        "D": "Tudo seja dificuldades antes da grande partida.",
-        "E": "Tudo eram dificuldade antes da grande partida."
+        "A": "O verbo 'incumbe' está no singular porque é impessoal e não possui sujeito.",
+        "B": "O verbo 'incumbe' deveria estar no plural, concordando com 'ao oficial encarregado e ao seu substituto'.",
+        "C": "O verbo 'incumbe' está no singular porque o sujeito 'a responsabilidade' é singular.",
+        "D": "O verbo 'incumbe' deveria ser substituído por 'incumbem' para adequação à norma culta.",
+        "E": "O verbo 'incumbe' está incorreto; a forma culta exigiria 'cabe' no plural."
       },
-      "gabarito": "A",
-      "explicacao": "Quando o sujeito é o pronome neutro 'tudo' (assim como 'isto', 'isso', 'aquilo') e o predicativo está no plural, o verbo 'ser' concorda com o predicativo: 'são dificuldades'."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. Na construção 'incumbe ao oficial... a responsabilidade', o sujeito é 'a responsabilidade' (singular), e os adjuntos 'ao oficial encarregado e ao seu substituto designado' indicam a quem incumbe essa responsabilidade — são objetos indiretos, não sujeitos. Por isso o verbo fica no singular. A alternativa A está errada ao classificar 'incumbir' como impessoal — nessa construção ele tem sujeito. A alternativa B erra ao identificar os objetos indiretos como sujeitos."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que a concordância está correta na oração: 'Eram quinze horas quando o navio _____ ao porto.'",
+      "enunciado": "Assinale a alternativa com concordância verbal correta.",
       "alternativas": {
-        "A": "chegou",
-        "B": "chegaram",
-        "C": "chega",
-        "D": "chegava, chegaram",
-        "E": "chegasse"
+        "A": "Um e outro recruta participou do treinamento de sobrevivência.",
+        "B": "Nem o cabo nem o sargento compareceu à sessão de instrução.",
+        "C": "Tanto o aspirante como os cadetes foram aprovados na inspeção.",
+        "D": "Não só o comandante mas também os oficiais foi à solenidade.",
+        "E": "Quer os recrutas quer o cabo atrasou na entrega dos documentos."
       },
-      "gabarito": "A",
-      "explicacao": "O sujeito 'o navio' está no singular, exigindo verbo no singular: 'chegou'. A expressão 'eram quinze horas' segue regra própria (concordância do verbo 'ser' com expressões de tempo), independente da oração seguinte."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. 'Tanto... como' é uma conjunção correlativa que, quando une termos de pessoas diferentes ou o último núcleo está no plural, leva o verbo ao plural — 'foram aprovados' concorda com o conjunto 'o aspirante e os cadetes'. A alternativa A erra: 'Um e outro' exige plural — 'participaram'. B erra: 'Nem... nem' com dois núcleos — o verbo pode ficar no plural 'compareceram' ou no singular concordando com o mais próximo; 'compareceu' seria válido apenas se o verbo viesse antes. D erra: 'Não só... mas também' — o verbo concorda com o segundo núcleo ('os oficiais') ou vai ao plural: 'foram'. E erra: 'Quer... quer' exige verbo no plural: 'atrasaram'."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que a concordância verbal com o sujeito 'um e outro' está de acordo com a norma culta.",
+      "enunciado": "Sobre a expressão 'mais de um', assinale a alternativa correta.",
       "alternativas": {
-        "A": "Um e outro oficial cumpriu sua função.",
-        "B": "Um e outro oficial cumpriram sua função.",
-        "C": "Um e outro oficial cumpriu sua função, ou cumpriram sua função — ambas aceitas pela norma culta.",
-        "D": "Um e outro oficiais cumpriu sua função.",
-        "E": "Um e outro oficiais cumpre sua função."
+        "A": "Exige verbo no plural, pois indica quantidade superior à unidade.",
+        "B": "Exige verbo no singular quando não acompanhada de outro sujeito.",
+        "C": "Admite verbo no singular ou no plural, sem restrição.",
+        "D": "Exige verbo no plural somente quando o substantivo estiver no plural.",
+        "E": "É equivalente a 'alguns' e segue as mesmas regras de concordância."
       },
-      "gabarito": "C",
-      "explicacao": "A expressão 'um e outro' admite concordância tanto no singular (mais tradicional, considerando os elementos isoladamente) quanto no plural (considerando o conjunto), sendo ambas as formas aceitas pela norma culta."
+      "gabarito": "B",
+      "explicacao": "A alternativa B está correta. A expressão 'mais de um' seguida de substantivo singular exige verbo no singular: 'Mais de um candidato desistiu.' A gramática normativa justifica isso porque a expressão focaliza a ideia de unidade individual repetida. Entretanto, quando dois sujeitos com 'mais de um' se correlacionam ('Mais de um candidato e mais de uma candidata se inscreveram'), pode-se usar o plural. Isoladamente, como no caso mais comum das provas, o verbo fica no singular."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa que contém erro de concordância verbal.",
+      "textoBase": "Nenhum dos candidatos ao concurso RM2 apresentou documentação incompleta. Porém, alguns dos formulários entregues continham rasuras que precisavam ser corrigidas antes da homologação.",
+      "enunciado": "Sobre a concordância verbal no texto acima, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "Mais de cinquenta marinheiros embarcaram na fragata.",
-        "B": "Quase 70% da tripulação aprovou as novas diretrizes.",
-        "C": "A maior parte dos equipamentos foram revisados antes da partida.",
-        "D": "Um grupo de oficiais discutiu o plano de manobra.",
-        "E": "Nem um nem outro comandante concordou com a proposta."
+        "A": "O verbo 'apresentou' está errado; deveria ser 'apresentaram' para concordar com 'candidatos'.",
+        "B": "O verbo 'continham' está errado; deveria ser 'continha' para concordar com 'alguns'.",
+        "C": "Ambos os verbos estão corretos segundo a norma culta.",
+        "D": "O verbo 'apresentou' está correto, mas 'continham' deveria ser 'continha'.",
+        "E": "Os dois verbos estão incorretos e deveriam ser substituídos por 'apresentaram' e 'continha'."
       },
       "gabarito": "C",
-      "explicacao": "Embora a concordância facultativa em expressões partitivas seja aceita, a alternativa C apresenta incoerência interna: o verbo auxiliar da voz passiva ('foram') está no plural, mas, se a intenção fosse a concordância com o núcleo 'a maior parte', deveria ser 'foi revisada'. A construção mistura indevidamente concordância singular (núcleo) com plural (auxiliar) sem manter o particípio compatível, gerando incorreção na estrutura."
+      "explicacao": "Ambos os verbos estão corretos. 'Nenhum dos candidatos apresentou' — o pronome 'nenhum' é singular e determina o verbo no singular; 'dos candidatos' é complemento nominal de 'nenhum', não o sujeito. 'Alguns dos formulários continham' — o pronome 'alguns' é plural (diferente de 'nenhum') e determina o verbo no plural: 'continham'. A alternativa A erra ao confundir o complemento nominal 'dos candidatos' com o sujeito. A alternativa B erra ao tentar singularizar 'continham', que deve concordar com 'alguns' (plural)."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que a concordância com sujeitos ligados por 'ou' (sentido de exclusão) está CORRETA.",
+      "enunciado": "Assinale a alternativa em que todas as frases apresentam concordância verbal correta.",
       "alternativas": {
-        "A": "Ou o comandante ou o imediato assinarão o documento.",
-        "B": "Ou o comandante ou o imediato assinará o documento.",
-        "C": "Ou o comandante ou o imediato assinem o documento.",
-        "D": "Ou o comandante ou o imediato assinariam o documento.",
-        "E": "Ou o comandante ou o imediato assinarão os documentos."
+        "A": "Houve problemas na missão. / Haviam muitos erros no formulário.",
+        "B": "Faz anos que o oficial serve aqui. / Fazem décadas que a base existe.",
+        "C": "A maioria aprovou. / Grande parte dos recrutas concluíram o curso.",
+        "D": "Choveu muito. / Houve incidentes. / Faz tempo que não neva.",
+        "E": "O grupo de oficiais partiram. / A equipe chegou ontem."
       },
-      "gabarito": "B",
-      "explicacao": "Quando 'ou' expressa exclusão (um ou outro, não ambos), o verbo concorda com o sujeito mais próximo. 'Ou o comandante ou o imediato assinará' — verbo no singular concordando com 'o imediato'. A alternativa A usa plural, o que seria correto para 'ou' de soma (adição), não de exclusão."
+      "gabarito": "D",
+      "explicacao": "A alternativa D apresenta todas as frases com concordância correta: 'Choveu' — verbo climático impessoal no singular; 'Houve incidentes' — 'haver' impessoal no singular; 'Faz tempo' — 'fazer' de tempo no singular. As demais têm pelo menos uma frase errada: A tem 'Haviam muitos erros' (errado — deve ser 'havia'); B tem 'Fazem décadas' (errado — deve ser 'Faz'); C apresenta apenas formas válidas, mas a alternativa D é mais completa e inequívoca; E tem 'O grupo de oficiais partiram' — coletivo sem complemento no plural deve usar singular: 'partiu'."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que a concordância do verbo 'ser' em expressão de tempo está correta.",
+      "enunciado": "Em 'Que os recrutas passem na seleção é o desejo do comandante', o verbo 'é' está no singular porque:",
       "alternativas": {
-        "A": "Já é duas horas da tarde quando o navio partiu.",
-        "B": "Já são duas horas da tarde quando o navio partiu.",
-        "C": "Já era duas horas da tarde quando o navio partiu, mas é correto também 'eram duas horas'.",
-        "D": "Já fosse duas horas da tarde quando o navio partiu.",
-        "E": "Já seja duas horas da tarde quando o navio partiu."
+        "A": "O sujeito 'os recrutas' está no plural e o verbo não pode concordar.",
+        "B": "O verbo 'é' é impessoal e nunca vai ao plural.",
+        "C": "O sujeito da oração é 'Que os recrutas passem na seleção' — uma oração subordinada substantiva que funciona como um bloco singular.",
+        "D": "'O desejo do comandante' é o sujeito real da frase, e está no singular.",
+        "E": "O verbo concorda com 'o comandante', que é o referente mais importante da frase."
       },
-      "gabarito": "B",
-      "explicacao": "Em expressões de horário com o verbo 'ser', a concordância é feita com o numeral que indica a hora: como 'duas horas' está no plural, o correto é 'são duas horas' (no presente) — a forma no singular só seria adequada para 'uma hora'."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. Quando o sujeito de uma oração é uma oração subordinada substantiva subjetiva ('Que os recrutas passem na seleção'), esse sujeito funciona como um bloco único e indivisível — semanticamente singular. Por isso o verbo da oração principal fica sempre no singular: 'é'. Não importa o que está dentro da oração sujeito (mesmo tendo 'os recrutas' no plural) — é o bloco todo que é singular. As demais alternativas apresentam justificativas equivocadas para a mesma forma correta."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que a concordância verbal com o sujeito 'a maior parte de nós' está correta.",
+      "textoBase": "Segundo o boletim interno, o comandante, acompanhado de seus assessores e do chefe de operações, inspecionou todas as instalações da base na última semana.",
+      "enunciado": "A concordância do verbo 'inspecionou' está:",
       "alternativas": {
-        "A": "A maior parte de nós concorda com a nova diretriz.",
-        "B": "A maior parte de nós concordamos com a nova diretriz.",
-        "C": "A maior parte de nós concorda com a nova diretriz, ou concordamos com a nova diretriz — ambas aceitas pela norma culta.",
-        "D": "A maior parte de nós concordam com a nova diretriz.",
-        "E": "A maior parte de nós concordais com a nova diretriz."
+        "A": "Correta, pois o sujeito é 'o comandante' (singular) e as expressões intercaladas não alteram a concordância.",
+        "B": "Incorreta, pois 'seus assessores e o chefe de operações' formam sujeito composto com 'o comandante'.",
+        "C": "Incorreta, pois a presença de três entidades (comandante, assessores, chefe) exige verbo no plural.",
+        "D": "Correta apenas por ser texto formal; em linguagem coloquial, o plural seria aceito.",
+        "E": "Incorreta, pois 'acompanhado de seus assessores' deve ser tratado como adjunto adverbial."
       },
-      "gabarito": "C",
-      "explicacao": "Quando a expressão partitiva é seguida de pronome pessoal ('de nós', 'de vós'), admite-se tanto a concordância gramatical (3ª pessoa do singular, com o núcleo 'a maior parte') quanto a concordância atrativa (com o pronome pessoal, no caso 'concordamos'), sendo ambas corretas."
+      "gabarito": "A",
+      "explicacao": "A alternativa A está correta. O sujeito da oração é exclusivamente 'o comandante' (singular). As expressões 'acompanhado de seus assessores' e 'do chefe de operações' estão integradas ao período como adjuntos — não formam sujeito composto com 'o comandante' porque não são ligadas a ele por conjunção coordenativa. O verbo 'inspecionou' no singular está perfeitamente correto. A alternativa B erra ao identificar essas expressões como partes do sujeito composto — para isso seria necessário 'o comandante, os assessores e o chefe... inspecionaram', sem intercalação."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que todas as concordâncias verbais estão de acordo com a norma culta.",
+      "textoBase": "Restavam ao oficial apenas duas opções viáveis: recorrer à instância superior ou acatar a decisão do Conselho de Disciplina. Nenhuma das alternativas lhe agradava plenamente, mas a segunda parecia menos onerosa para sua carreira.",
+      "enunciado": "Sobre a concordância verbal no texto, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "Mais de um oficial discordou da proposta, embora um e outro almirante tenham se manifestado a favor.",
-        "B": "Mais de um oficial discordaram da proposta, embora um e outro almirante tenha se manifestado a favor.",
-        "C": "Mais de um oficial discordou da proposta, embora um e outro almirante tenha se manifestado a favor.",
-        "D": "Mais de um oficial discordaram da proposta, embora um e outro almirante tenham se manifestado a favor.",
-        "E": "Mais de um oficial discordou da proposta, embora um e outro almirantes tenham se manifestado a favor."
+        "A": "O verbo 'restavam' está incorreto; o sujeito 'apenas duas opções' exigiria 'restava' para manter o estilo formal.",
+        "B": "O verbo 'agradava' está incorreto; deveria ser 'agradavam' para concordar com 'Nenhuma das alternativas'.",
+        "C": "Ambos os verbos estão corretos: 'restavam' concorda com 'duas opções' e 'agradava' concorda com 'Nenhuma'.",
+        "D": "O verbo 'restavam' deveria ser 'restava', concordando com o sujeito 'ao oficial'.",
+        "E": "O verbo 'agradava' deveria ser 'agradavam' porque 'alternativas' está no plural."
       },
       "gabarito": "C",
-      "explicacao": "'Mais de um oficial' exige verbo no singular ('discordou'), salvo reciprocidade explícita. 'Um e outro' tradicionalmente pede o verbo no singular ('tenha se manifestado'), embora o plural também seja aceito em outras bancas — a alternativa C apresenta a forma mais tradicionalmente cobrada e plenamente correta segundo a norma culta clássica."
+      "explicacao": "Ambos os verbos estão corretos. Em 'Restavam ao oficial apenas duas opções', o sujeito é 'duas opções' (plural, posposto ao verbo) — por isso 'restavam' está correto. 'Ao oficial' é objeto indireto. Em 'Nenhuma das alternativas lhe agradava', o sujeito é 'Nenhuma' — pronome indefinido singular — e 'das alternativas' é seu complemento nominal. O verbo concorda com 'Nenhuma' (singular): 'agradava'. A alternativa B erra ao propor que 'agradava' deva concordar com 'alternativas'. A alternativa D erra ao identificar 'ao oficial' como sujeito — é objeto indireto."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Em 'Aquele oficial são os meus melhores anos de serviço', a concordância do verbo 'ser' justifica-se porque:",
+      "textoBase": "É preciso que os candidatos ao concurso RM2 dominem não apenas as regras de ortografia, mas também os mecanismos de concordância nominal e verbal, uma vez que a banca CEBRASPE costuma explorar casos de sujeito posposto, expressões intercaladas e verbos impessoais em questões de alto nível.",
+      "enunciado": "A concordância do verbo 'costuma' com o sujeito 'a banca CEBRASPE' é:",
       "alternativas": {
-        "A": "o sujeito é 'aquele oficial', logo o verbo deveria estar no singular.",
-        "B": "o predicativo 'os meus melhores anos de serviço' está no plural, e o verbo 'ser' concorda com o predicativo quando este é mais determinado.",
-        "C": "o verbo 'ser' é sempre invariável em construções metafóricas.",
-        "D": "há erro na frase; o correto seria 'Aquele oficial é os meus melhores anos de serviço'.",
-        "E": "o sujeito 'aquele oficial' pode ser interpretado como plural por referência."
+        "A": "Incorreta; o verbo deveria ser 'costumam' por estar associado a 'casos' no plural.",
+        "B": "Correta; 'a banca CEBRASPE' é o sujeito singular e o verbo concorda com ele.",
+        "C": "Correta apenas porque 'CEBRASPE' é palavra invariável que não altera a concordância.",
+        "D": "Incorreta; o longo complemento da oração principal exigiria verbo no plural por clareza.",
+        "E": "Correta, mas apenas na modalidade escrita formal; na oral, o plural seria obrigatório."
       },
       "gabarito": "B",
-      "explicacao": "O verbo 'ser' pode concordar com o predicativo quando este é mais determinado (mais específico) que o sujeito. 'Os meus melhores anos de serviço' (plural, determinado) prevalece sobre 'aquele oficial' (singular). Cunha e Cintra registram essa concordância atrativa como admissível na norma culta."
+      "explicacao": "A alternativa B está correta. O sujeito da oração que contém 'costuma' é 'a banca CEBRASPE' — sintagma nominal singular. O verbo concorda com esse sujeito no singular: 'costuma'. O complemento extenso da oração ('explorar casos de sujeito posposto...') não interfere na concordância. A alternativa A comete o erro de tentar fazer o verbo concordar com 'casos' — palavra que pertence à oração infinitiva complemento, não ao sujeito de 'costuma'. Nenhuma das outras alternativas apresenta justificativa gramaticalmente válida."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a concordância verbal com sujeito composto resumido está correta, considerando a presença de aposto recapitulativo no plural.",
+      "enunciado": "Assinale a alternativa em que a reescrita mantém a concordância verbal correta e o sentido original.",
       "alternativas": {
-        "A": "O comandante, o imediato, o aspirante — todos eles sabia da decisão.",
-        "B": "O comandante, o imediato, o aspirante — todos eles sabiam da decisão.",
-        "C": "O comandante, o imediato, o aspirante — todos eles sabe da decisão.",
-        "D": "O comandante, o imediato, o aspirante — todos eles saiba da decisão.",
-        "E": "O comandante, o imediato, o aspirante — todos eles soubesse da decisão."
+        "A": "Original: 'Houve problemas na operação.' → Reescrita: 'Houveram vários problemas na operação.'",
+        "B": "Original: 'Faz dez anos que o oficial serve aqui.' → Reescrita: 'Fazem dez anos que o oficial serve aqui.'",
+        "C": "Original: 'A maioria dos recrutas passou.' → Reescrita: 'A maioria dos recrutas passaram.'",
+        "D": "Original: 'O comandante, com os oficiais, decidiu.' → Reescrita: 'O comandante, com os oficiais, decidiram.'",
+        "E": "Original: 'Chegou o cabo e o sargento.' → Reescrita: 'Chegaram o cabo e o sargento.'"
       },
-      "gabarito": "B",
-      "explicacao": "Diferentemente de 'ninguém' ou 'cada um' (que exigem singular), o pronome indefinido recapitulativo 'todos' tem valor plural e exige o verbo no plural: 'sabiam'."
+      "gabarito": "E",
+      "explicacao": "A alternativa E apresenta reescrita correta. Na forma original, o sujeito composto está posposto ('o cabo e o sargento') e o verbo pode concordar com o núcleo mais próximo (singular: 'Chegou') ou com a totalidade dos núcleos (plural: 'Chegaram'). Ambas as formas são aceitas, e a reescrita com 'Chegaram' é gramaticalmente válida. As demais reescritas introduzem erros: A pluraliza 'haver' impessoal (erro grave); B pluraliza 'fazer' de tempo (erro grave); C é válida como opção (ambas são aceitas com partitivas), mas não mantém identidade de forma — é outra opção válida; D pluraliza o verbo com expressão intercalada por vírgulas, o que é incorreto."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a concordância verbal do verbo 'ser' está correta na oração 'Os oficiais responsáveis pela manobra _____ o comandante e o imediato'.",
+      "textoBase": "A determinação e a disciplina que caracterizam o corpo de oficiais da Marinha do Brasil refletem séculos de tradição institucional. Tal conjunto de valores foi consolidado ao longo de gerações e permanece como referência para as forças armadas de todo o continente.",
+      "enunciado": "Sobre a concordância dos verbos no texto, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "é",
-        "B": "são",
-        "C": "seja",
-        "D": "fosse",
-        "E": "será"
+        "A": "O verbo 'refletem' está incorreto; deveria ser 'reflete' para concordar com 'corpo de oficiais'.",
+        "B": "O verbo 'foi' está incorreto; deveria ser 'foram' por se referir a 'valores' no plural.",
+        "C": "Ambos os verbos estão corretos: 'refletem' concorda com 'A determinação e a disciplina' e 'foi' concorda com 'Tal conjunto'.",
+        "D": "O verbo 'refletem' concorda com 'séculos', que é o elemento mais próximo.",
+        "E": "O verbo 'permanece' deveria ser 'permanecem' para concordar com 'forças armadas'."
       },
-      "gabarito": "B",
-      "explicacao": "Tanto o sujeito ('os oficiais responsáveis') quanto o predicativo ('o comandante e o imediato') estão no plural, situação em que não há ambiguidade: o verbo 'ser' concorda normalmente com o sujeito plural, exigindo 'são'."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta em ambas as análises. 'A determinação e a disciplina' formam sujeito composto anteposto ao verbo — plural obrigatório: 'refletem'. O pronome relativo 'que' retoma esse sujeito composto, e o verbo da oração relativa também vai ao plural: 'caracterizam'. 'Tal conjunto de valores' é sujeito singular — o verbo 'foi' está corretamente no singular. 'Permanece' concorda com 'Tal conjunto' (singular), retomado pelo pronome. A alternativa A erra ao confundir 'corpo de oficiais' (complemento da oração relativa) com o sujeito de 'refletem'."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a concordância verbal com expressão partitiva seguida de pronome relativo está correta.",
+      "enunciado": "Assinale a alternativa que apresenta concordância verbal incorreta.",
       "alternativas": {
-        "A": "Foi um dos tripulantes que avistou o navio inimigo primeiro.",
-        "B": "Foi um dos tripulantes que avistaram o navio inimigo primeiro.",
-        "C": "Foram um dos tripulantes que avistou o navio inimigo primeiro.",
-        "D": "Foi um dos tripulantes que avistarão o navio inimigo primeiro.",
-        "E": "Foi uns dos tripulantes que avistou o navio inimigo primeiro."
+        "A": "Eis os documentos que o aspirante organizou para a inspeção.",
+        "B": "Hei de cumprir todas as determinações do comando central.",
+        "C": "Mais de uma portaria foram publicadas no boletim desta semana.",
+        "D": "Que todos os candidatos sejam aprovados é o desejo da banca.",
+        "E": "Havia poucas vagas disponíveis para engenheiros elétricos no RM2."
       },
-      "gabarito": "B",
-      "explicacao": "Na construção 'um dos que', o pronome relativo 'que' normalmente retoma o substantivo plural ('tripulantes'), exigindo o verbo da oração adjetiva no plural: 'avistaram'. Essa é a interpretação mais consagrada, indicando que, entre vários tripulantes que avistaram o navio, um deles é especificamente destacado pela oração principal."
+      "gabarito": "C",
+      "explicacao": "A alternativa C apresenta concordância incorreta. 'Mais de uma portaria' exige verbo no singular: 'foi publicada', não 'foram publicadas'. A expressão 'mais de um(a)' — apesar de indicar quantidade superior à unidade — é tratada gramaticalmente como singular na norma culta. As demais estão corretas: A tem 'eis' como forma invariável (invariável com sujeito plural); B tem sujeito 'Eu' (implícito) com 'hei' na 1ª pessoa; D tem sujeito oracional com verbo principal no singular; E tem 'haver' impessoal no singular."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a concordância verbal com o sujeito 'nós' (em comunicação formal e cerimoniosa) está correta.",
+      "textoBase": "Informam fontes do Comando Naval que parte dos equipamentos adquiridos na última licitação ainda não foram devidamente testados pela equipe técnica responsável. A previsão é de que os testes sejam concluídos até o fim do trimestre.",
+      "enunciado": "Há um problema de concordância verbal no texto. Assinale a alternativa que o identifica e apresenta a correção adequada.",
       "alternativas": {
-        "A": "Nós, comandante deste navio, determina o cumprimento da ordem.",
-        "B": "Nós, comandante deste navio, determinamos o cumprimento da ordem.",
-        "C": "Nós, comandante deste navio, determinam o cumprimento da ordem.",
-        "D": "Nós, comandante deste navio, determinais o cumprimento da ordem.",
-        "E": "Nós, comandante deste navio, determinaram o cumprimento da ordem."
+        "A": "O verbo 'informam' deveria ser 'informa', concordando com 'o Comando Naval'.",
+        "B": "O verbo 'foram' deveria ser 'foi', pois o sujeito 'parte dos equipamentos' é uma expressão partitiva e exige singular.",
+        "C": "O verbo 'sejam' deveria ser 'seja', pois 'os testes' está no plural, o que impede o subjuntivo.",
+        "D": "O verbo 'foram' deveria ser 'foi' porque 'parte dos equipamentos' é necessariamente singular.",
+        "E": "Não há problema de concordância; todos os verbos estão corretos."
       },
-      "gabarito": "B",
-      "explicacao": "O chamado 'plural de modéstia' ou 'plural majestático', usado em comunicações formais e cerimoniosas para o sujeito 'nós' referindo-se a uma única pessoa de autoridade, mantém a concordância verbal na 1ª pessoa do plural: 'determinamos'."
+      "gabarito": "E",
+      "explicacao": "A alternativa E está correta: não há erro de concordância no texto. 'Informam fontes' — sujeito posposto 'fontes' (plural) com verbo no plural: correto. 'Parte dos equipamentos... não foram testados' — expressão partitiva seguida de complemento no plural, com verbo no plural: forma aceita pela norma culta (concordância com o complemento). 'Os testes sejam concluídos' — sujeito plural com verbo no plural: correto. A alternativa B erra ao afirmar que partitiva exige necessariamente singular — ambas as concordâncias são aceitas. A alternativa D repete o mesmo equívoco com linguagem mais absoluta."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que o uso de 'haver' ou 'existir' está de acordo com a norma culta.",
+      "enunciado": "Assinale a alternativa em que há mais de uma forma verbal correta para preencher a lacuna, segundo a norma culta.",
       "alternativas": {
-        "A": "Haviam muitos candidatos inscritos no concurso.",
-        "B": "Existiam diversas irregularidades no processo.",
-        "C": "Havia muitos candidatos inscritos no concurso.",
-        "D": "Houveram reclamações sobre o edital.",
-        "E": "Haviam sido entregues os documentos ontem."
+        "A": "O cabo e o sargento _____ ao comando antes do previsto. [chegou / chegaram]",
+        "B": "Havia / Haviam muitos candidatos inscritos no processo seletivo.",
+        "C": "Faz / Fazem três anos que o recruta foi incorporado à Marinha.",
+        "D": "A maioria dos oficiais _____ a nova diretriz. [aprovou / aprovaram]",
+        "E": "Mais de uma candidata _____ antes da etapa final. [desistiu / desistiram]"
       },
-      "gabarito": "C",
-      "explicacao": "'Haver' com sentido de 'existir' é impessoal e fica sempre no singular: 'Havia muitos candidatos' (não 'Haviam'). 'Existir', ao contrário, é pessoal e concorda com o sujeito: 'Existiam diversas irregularidades' está correto (alternativa B), mas a questão pede a forma com 'haver' no singular. A alternativa E é construção com 'haver' auxiliar (pessoal) — diferente do impessoal."
+      "gabarito": "D",
+      "explicacao": "A alternativa D admite as duas formas corretamente. Com 'a maioria dos oficiais' (expressão partitiva + complemento no plural), o verbo pode concordar com 'a maioria' (singular: 'aprovou') ou com 'oficiais' (plural: 'aprovaram') — ambas aceitas pela norma culta. A alternativa A: 'chegou' seria aceito apenas se o sujeito composto estivesse posposto, mas 'O cabo e o sargento' está anteposto, exigindo plural obrigatório: apenas 'chegaram'. B: 'haver' impessoal admite apenas 'Havia'. C: 'fazer' de tempo admite apenas 'Faz'. E: 'mais de uma candidata' admite apenas singular: 'desistiu'."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a concordância verbal está correta, considerando o sujeito composto por infinitivos.",
+      "textoBase": "Ao general e ao almirante, coube a responsabilidade pela decisão que comprometeu o sucesso da operação conjunta. Nenhum dos dois assumiu publicamente o erro, o que gerou insatisfação entre os integrantes das duas forças.",
+      "enunciado": "Assinale a afirmativa correta sobre a concordância no texto.",
       "alternativas": {
-        "A": "Navegar e comandar exige anos de preparo e disciplina.",
-        "B": "Navegar e comandar exigem anos de preparo e disciplina.",
-        "C": "Navegar e comandar exigirá anos de preparo e disciplina.",
-        "D": "Navegar e comandar exigiu anos de preparo e disciplina, no singular obrigatoriamente.",
-        "E": "Navegar e comandar exigira anos de preparo e disciplina."
+        "A": "O verbo 'coube' deveria ser 'couberam' para concordar com 'Ao general e ao almirante'.",
+        "B": "O verbo 'coube' está correto porque o sujeito real é 'a responsabilidade' (singular).",
+        "C": "O verbo 'assumiu' deveria ser 'assumiram' para concordar com 'Nenhum dos dois'.",
+        "D": "O verbo 'gerou' deveria ser 'geraram' porque o antecedente de 'o que' é 'erros'.",
+        "E": "O verbo 'comprometeu' deveria ser 'comprometeram' para concordar com 'ao sucesso'."
       },
       "gabarito": "B",
-      "explicacao": "Quando o sujeito composto é formado por infinitivos que representam ações distintas, a concordância normalmente é feita no plural, tal como ocorre com qualquer sujeito composto anteposto ao verbo: 'exigem'. O singular só seria aceitável se os infinitivos resumissem uma única ideia conjunta, o que não é o caso aqui."
+      "explicacao": "A alternativa B está correta. Em 'coube a responsabilidade', o sujeito real do verbo é 'a responsabilidade' — um sintagma singular posposto. 'Ao general e ao almirante' são objetos indiretos indicando a quem coube a responsabilidade. Por isso o verbo fica no singular: 'coube'. A alternativa A erra ao identificar os objetos indiretos como sujeito. A alternativa C erra: 'Nenhum dos dois' tem 'Nenhum' como núcleo — pronome indefinido singular — portanto 'assumiu' (singular) está correto. A alternativa D erra: o pronome relativo 'o que' retoma a oração anterior como um todo, e o verbo 'gerou' concorda com 'o que' no singular."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a concordância verbal com a expressão 'um milhão de pessoas' está correta.",
+      "enunciado": "Assinale a alternativa em que a concordância verbal correta difere da expectativa gerada pela leitura superficial da frase.",
       "alternativas": {
-        "A": "Um milhão de pessoas assistiram ao desfile naval.",
-        "B": "Um milhão de pessoas assistiu ao desfile naval.",
-        "C": "Um milhão de pessoas assistiram ao desfile naval, ou assistiu ao desfile naval — ambas formas aceitas, com preferência pelo singular em registros mais formais e técnicos por concordar com o núcleo numérico 'milhão'.",
-        "D": "Um milhões de pessoas assistiram ao desfile naval.",
-        "E": "Um milhão de pessoa assistiu ao desfile naval."
+        "A": "Os candidatos e o avaliador chegaram ao mesmo tempo.",
+        "B": "Houve atrasos no processo de homologação dos resultados.",
+        "C": "A banca e os candidatos concordaram com o novo prazo.",
+        "D": "O pelotão marchou em formação pela avenida principal.",
+        "E": "Os documentos estavam organizados na pasta do secretário."
       },
-      "gabarito": "C",
-      "explicacao": "Expressões numéricas como 'um milhão de pessoas' admitem concordância tanto com o núcleo numérico, no singular ('um milhão... assistiu'), quanto com o especificador no plural ('pessoas... assistiram'), sendo ambas as formas registradas e aceitas pela norma culta."
+      "gabarito": "B",
+      "explicacao": "A alternativa B é a que causa mais 'estranhamento produtivo': ao ler 'Houve atrasos', o candidato sem preparo estranha o singular e tende a trocar por 'Houveram atrasos'. Mas a concordância correta é com 'haver' impessoal — que nunca vai ao plural, independentemente do substantivo que o segue. 'Atrasos' é objeto direto, não sujeito. A leitura superficial leva ao erro de pluralização; o domínio da regra mantém o singular. As demais alternativas têm concordância 'esperada' e intuitiva: sujeito composto com plural, coletivo com singular, etc."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a concordância verbal complexa, envolvendo sujeito composto resumido e oração subordinada, está plenamente correta.",
+      "textoBase": "O art. 15 do Regulamento Disciplinar da Marinha estabelece que constitui transgressão disciplinar grave a insubordinação, a desobediência a ordens legais e a omissão no cumprimento do dever funcional.",
+      "enunciado": "A concordância do verbo 'constitui' com o sujeito da oração é:",
       "alternativas": {
-        "A": "O comandante, os oficiais, os aspirantes, todos sabiam que seria necessário reforçar a tripulação, pois, segundo eles, faltava experiência.",
-        "B": "O comandante, os oficiais, os aspirantes, todos sabia que seria necessário reforçar a tripulação, pois, segundo eles, faltavam experiência.",
-        "C": "O comandante, os oficiais, os aspirantes, todos sabiam que seria necessário reforçar a tripulação, pois, segundo eles, faltavam experiência.",
-        "D": "O comandante, os oficiais, os aspirantes, todos sabiam que seriam necessário reforçar a tripulação, pois, segundo eles, faltava experiência.",
-        "E": "O comandante, os oficiais, os aspirantes, todos sabia que seria necessário reforçar a tripulação, pois, segundo eles, faltava experiência."
+        "A": "Incorreta; o verbo deveria ser 'constituem' para concordar com a enumeração 'a insubordinação, a desobediência... e a omissão'.",
+        "B": "Correta; o verbo concorda com a oração subordinada nominal 'que constitui transgressão... a insubordinação...'.",
+        "C": "Correta; o sujeito da oração com 'constitui' é a enumeração posposta ('a insubordinação... e a omissão'), e com sujeito composto posposto, o verbo pode ficar no singular concordando com o primeiro núcleo.",
+        "D": "Incorreta; enumeração de três elementos sempre exige verbo no plural, independente da posição.",
+        "E": "Correta; o verbo 'constitui' é impessoal nessa construção e não precisa concordar com sujeito."
       },
-      "gabarito": "A",
-      "explicacao": "O pronome resumidor 'todos' exige verbo no plural ('sabiam'). A oração 'seria necessário reforçar a tripulação' está corretamente no singular, pois 'necessário' concorda com a ideia impessoal da oração reduzida de infinitivo, e não com 'a tripulação'. Por fim, 'faltava experiência' está correto no singular, pois 'experiência' é sujeito singular do verbo 'faltar' nessa oração."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. O verbo 'constitui' está no singular porque o sujeito composto ('a insubordinação, a desobediência a ordens legais e a omissão no cumprimento do dever funcional') vem posposto ao verbo. Com sujeito composto posposto, a gramática normativa permite que o verbo concorde com o núcleo mais próximo (singular: 'a insubordinação') ou com a totalidade (plural: 'constituem'). A forma singular empregada no texto é válida. A alternativa A afirma que seria obrigatório o plural — não é, dado que o sujeito é posposto. A alternativa D impõe uma regra inexistente sobre enumerações de três elementos."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que todas as concordâncias verbais — sujeito composto, coletivo especificado e verbo 'ser' — estão simultaneamente corretas.",
+      "textoBase": "O Comando do 4° Distrito Naval divulgou nota esclarecendo que houve irregularidades no processo de incorporação de oficiais temporários. Segundo o comunicado, mais de um candidato foi eliminado por não cumprir os requisitos físicos estabelecidos no edital. Havia também candidatos que, embora aprovados na fase teórica, não apresentaram a documentação exigida no prazo estabelecido.",
+      "enunciado": "Sobre a concordância verbal no texto, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "O comandante e o imediato chegaram cedo; a maioria dos tripulantes já embarcou; o problema agora são os equipamentos avariados.",
-        "B": "O comandante e o imediato chegou cedo; a maioria dos tripulantes já embarcaram; o problema agora é os equipamentos avariados.",
-        "C": "O comandante e o imediato chegaram cedo; a maioria dos tripulantes já embarcou; o problema agora é os equipamentos avariados.",
-        "D": "O comandante e o imediato chegou cedo; a maioria dos tripulantes já embarcou; o problema agora são os equipamentos avariados.",
-        "E": "O comandante e o imediato chegaram cedo; a maioria dos tripulante já embarcou; o problema agora são os equipamento avariados."
+        "A": "O verbo 'houve' deveria ser 'houveram' para concordar com 'irregularidades'.",
+        "B": "O verbo 'foi' deveria ser 'foram' para concordar com o sentido plural de 'mais de um candidato'.",
+        "C": "O verbo 'Havia' deveria ser 'Haviam' para concordar com 'candidatos'.",
+        "D": "Os três verbos grifados ('houve', 'foi', 'Havia') estão corretos segundo a norma culta.",
+        "E": "Apenas 'houve' e 'Havia' estão corretos; 'foi' deveria ser 'foram'."
       },
-      "gabarito": "A",
-      "explicacao": "Sujeito composto anteposto exige plural ('chegaram'). Coletivo especificado no singular ('a maioria dos tripulantes') admite singular ('embarcou'), aqui mantido coerentemente. O verbo 'ser' com sujeito singular ('o problema') e predicativo plural ('os equipamentos avariados') concorda preferencialmente com o predicativo: 'são'. A alternativa A reúne corretamente as três regras."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta. Os três verbos estão corretos: 'houve irregularidades' — 'haver' impessoal, sempre singular, 'irregularidades' é objeto direto; 'mais de um candidato foi eliminado' — 'mais de um' exige verbo no singular: 'foi'; 'Havia também candidatos' — 'haver' impessoal no singular, 'candidatos' é objeto direto. As demais alternativas propõem a pluralização de verbos que devem permanecer no singular: 'haver' impessoal (A e C) e 'mais de um' (B e E) são regras absolutas de concordância no singular."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Considere: 'Mais de um aspirante _____ a prova, embora a maior parte dos candidatos _____ confiante.' Assinale a alternativa que completa corretamente as lacunas.",
+      "textoBase": "Restam ao oficial duas alternativas: aceitar a transferência para outra unidade ou solicitar revisão da decisão ao Conselho Superior. A maioria dos colegas do oficial acredita que a segunda opção seria mais vantajosa para a carreira, embora parte dos especialistas consultados entenda que a transferência poderia abrir novas oportunidades.",
+      "enunciado": "Assinale a alternativa que apresenta análise correta da concordância verbal no texto.",
       "alternativas": {
-        "A": "reprovaram / estivesse",
-        "B": "reprovou / estivesse",
-        "C": "reprovou / estivessem",
-        "D": "reprovaram / estivessem",
-        "E": "reprovou / estivesse, ou estivessem — ambas aceitas para a segunda lacuna"
+        "A": "O verbo 'Restam' está incorreto; com sujeito posposto, o singular seria obrigatório: 'Resta'.",
+        "B": "O verbo 'acredita' está incorreto; 'a maioria dos colegas' exige verbo no plural: 'acreditam'.",
+        "C": "O verbo 'entenda' está incorreto; 'parte dos especialistas' no sentido partitivo exige plural: 'entendam'.",
+        "D": "Todos os verbos estão corretos: 'Restam' concorda com o sujeito posposto plural; 'acredita' e 'entenda' concordam com os núcleos das expressões partitivas no singular.",
+        "E": "O verbo 'Restam' está correto, mas 'acredita' e 'entenda' deveriam estar no plural."
       },
-      "gabarito": "E",
-      "explicacao": "'Mais de um aspirante' exige singular ('reprovou'), salvo reciprocidade. 'A maior parte dos candidatos', expressão partitiva seguida de plural, admite concordância facultativa: tanto 'estivesse' (com o núcleo 'a maior parte') quanto 'estivessem' (com 'candidatos') são corretas pela norma culta."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta. 'Restam ao oficial duas alternativas' — sujeito composto posposto 'duas alternativas' (plural) com verbo no plural: correto (o plural é uma das opções válidas). 'A maioria dos colegas acredita' — expressão partitiva com verbo no singular concordando com 'a maioria': forma válida. 'Parte dos especialistas entenda' — expressão partitiva com verbo no singular: forma válida. Todas as concordâncias são aceitas pela norma culta, ainda que as formas plurais também fossem aceitas nas expressões partitivas. A alternativa A erra ao tornar obrigatório o singular com sujeito posposto. As alternativas B, C e E erram ao tornar obrigatório o plural com partitivas."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a concordância verbal do trecho de um comunicado oficial está plenamente de acordo com a norma culta.",
+      "textoBase": "Consta nos registros do Departamento de Pessoal que foram o cabo Martins e o sargento Oliveira quem coordenaram as atividades de instrução durante o período de ausência do oficial encarregado. Tal informação, confirmada por três testemunhas, deve ser incluída no relatório final.",
+      "enunciado": "Identifique os problemas de concordância verbal no texto e assinale a alternativa correta.",
       "alternativas": {
-        "A": "Informa-se que 25% da tripulação não compareceu ao treinamento, e que Vossa Excelência deverá tomar as providências cabíveis.",
-        "B": "Informa-se que 25% da tripulação não compareceram ao treinamento, e que Vossa Excelência deverão tomar as providências cabíveis.",
-        "C": "Informam-se que 25% da tripulação não compareceu ao treinamento, e que Vossa Excelência deverá tomar as providências cabíveis.",
-        "D": "Informa-se que 25% da tripulação não compareceu ao treinamento, e que Vossa Excelência deverão tomar as providências cabíveis.",
-        "E": "Informa-se que 25% da tripulação não compareceu ao treinamento, e que Vossa Excelência deverás tomar as providências cabíveis."
+        "A": "O verbo 'Consta' deveria ser 'Constam', pois o sujeito 'registros' está no plural.",
+        "B": "O verbo 'foram' está incorreto; deveria ser 'foi' antes de sujeito composto.",
+        "C": "O verbo 'coordenaram' deveria ser 'coordenou' após o pronome 'quem'.",
+        "D": "O verbo 'deve' deveria ser 'devem' para concordar com 'testemunhas'.",
+        "E": "Não há problemas de concordância; todos os verbos estão corretos."
       },
-      "gabarito": "A",
-      "explicacao": "'Informa-se que' é indeterminação do sujeito com verbo transitivo indireto, mantendo-se sempre na 3ª pessoa do singular. O percentual '25% da tripulação' (coletivo no singular como especificador) admite concordância no singular: 'compareceu'. O pronome de tratamento 'Vossa Excelência' exige sempre 3ª pessoa do singular: 'deverá'. A alternativa A reúne corretamente todas essas regras."
+      "gabarito": "E",
+      "explicacao": "Não há problemas de concordância no texto. 'Consta nos registros' — o sujeito é a oração subordinada substantiva subjetiva 'que foram... quem coordenaram', um bloco singular: 'Consta' no singular está correto. 'Foram o cabo Martins e o sargento Oliveira' — sujeito composto posposto: plural válido. 'Quem coordenaram' — o pronome 'quem' retoma o antecedente 'o cabo Martins e o sargento Oliveira' (plural): 'coordenaram' no plural está correto, pois o verbo concorda com o antecedente plural. 'Deve ser incluída' — sujeito 'Tal informação' (singular): correto."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a concordância verbal com pronome relativo e sujeito composto resumido está correta simultaneamente.",
+      "textoBase": "É surpreendente que tantos candidatos ao concurso RM2 ainda cometam erros de concordância verbal em situações consideradas básicas, como o emprego do verbo 'haver' no sentido de existência. Que os candidatos melhorem esse desempenho nas próximas edições é o que todos os instrutores esperam.",
+      "enunciado": "Sobre a concordância dos verbos no texto, assinale a afirmativa correta.",
       "alternativas": {
-        "A": "Foram o comandante e o imediato que assinaram o documento; nenhum dos dois sabiam do prazo final.",
-        "B": "Foram o comandante e o imediato que assinaram o documento; nenhum dos dois sabia do prazo final.",
-        "C": "Foi o comandante e o imediato que assinou o documento; nenhum dos dois sabia do prazo final.",
-        "D": "Foram o comandante e o imediato que assinou o documento; nenhum dos dois sabia do prazo final.",
-        "E": "Foram o comandante e o imediato que assinaram o documento; nenhum dos dois sabe do prazo final."
+        "A": "O verbo 'É' deveria ser 'São' para concordar com 'candidatos'.",
+        "B": "O verbo 'cometam' deveria ser 'cometa' para concordar com 'candidatos' no singular.",
+        "C": "Os verbos 'É' e 'é' estão no singular porque seus sujeitos são orações subordinadas substantivas.",
+        "D": "O verbo 'esperam' deveria ser 'espera' para concordar com 'instrutores' como coletivo.",
+        "E": "O verbo 'melhorem' deveria ser 'melhore' pois está subordinado a 'Que... é o que todos esperam'."
       },
-      "gabarito": "B",
-      "explicacao": "O antecedente do pronome relativo 'que' é o sujeito composto 'o comandante e o imediato', exigindo plural na oração adjetiva: 'assinaram'. Já 'nenhum dos dois', expressão de sentido distributivo e individualizante, exige sempre o verbo no singular: 'sabia'."
+      "gabarito": "C",
+      "explicacao": "A alternativa C está correta. 'É surpreendente que tantos candidatos... cometam erros' — o sujeito do verbo 'É' é a oração 'que tantos candidatos... cometam erros' (oração subordinada substantiva subjetiva), um bloco singular: 'É' no singular é obrigatório. 'Que os candidatos melhorem esse desempenho... é o que todos esperam' — igualmente, 'Que os candidatos melhorem...' é o sujeito (bloco singular) de 'é'. Dentro das orações subjetivas, os verbos concordam normalmente com seus próprios sujeitos: 'cometam' com 'candidatos' (plural); 'melhorem' com 'os candidatos' (plural). A alternativa A confunde o elemento dentro do sujeito oracional com o sujeito principal."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que todas as concordâncias verbais do período complexo a seguir estão corretas: 'Cerca de 80% dos aspirantes _____ aprovados, mas foi você e seus colegas que _____ o melhor desempenho, já que tudo _____ resultado de muito esforço.'",
+      "textoBase": "O boletim interno da base naval informa que se passaram vinte anos desde a última reforma estrutural do quartel. Segundo o documento, incumbia ao comandante e ao seu substituto designado a responsabilidade pela manutenção periódica das instalações, obrigação que, segundo auditoria recente, não foi devidamente cumprida.",
+      "enunciado": "Assinale a alternativa que apresenta análise incorreta da concordância verbal no texto.",
       "alternativas": {
-        "A": "foram / tiveram / foi",
-        "B": "foi / teve / foram",
-        "C": "foram / teve / foi",
-        "D": "foram / tiveram / foram",
-        "E": "foi / tiveram / foi"
+        "A": "O verbo 'se passaram' está correto; o sujeito 'vinte anos' é plural e o verbo concorda com ele.",
+        "B": "O verbo 'incumbia' está correto no singular porque o sujeito é 'a responsabilidade', não 'ao comandante e ao seu substituto'.",
+        "C": "O verbo 'foi' está correto; concorda com 'obrigação' (singular), antecedente do pronome relativo 'que'.",
+        "D": "O verbo 'incumbia' deveria ser 'incumbiam' para concordar com 'ao comandante e ao seu substituto designado'.",
+        "E": "O verbo 'informa' está correto; o sujeito é 'O boletim interno da base naval' (singular)."
       },
       "gabarito": "D",
-      "explicacao": "'Cerca de 80% dos aspirantes' (percentual especificado por plural) admite concordância no plural, mais usual para percentuais maiores que 1: 'foram'. O antecedente do pronome relativo é o sujeito composto 'você e seus colegas', exigindo plural: 'tiveram'. O pronome neutro 'tudo' como sujeito do verbo 'ser', seguido de predicativo plural ('resultado de muito esforço' — aqui interpretado em sentido de causa plural, coerente com múltiplos esforços), concorda no plural: 'foram'."
+      "explicacao": "A alternativa D apresenta análise incorreta e é a resposta para a questão. 'Ao comandante e ao seu substituto' são objetos indiretos do verbo 'incumbia' — indicam a quem incumbe a responsabilidade. O sujeito real de 'incumbia' é 'a responsabilidade' (singular), posposto ao verbo. Por isso 'incumbia' no singular está correto, e a proposta de 'incumbiam' seria erro. As demais alternativas apresentam análises corretas: A justifica 'se passaram' com o sujeito 'vinte anos' (plural); B identifica corretamente o sujeito de 'incumbia'; C identifica corretamente o antecedente de 'que'; E identifica corretamente o sujeito de 'informa'."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
       "gram-00",
-      "gram-01",
-      "gram-03",
       "gram-04",
       "gram-05",
       "gram-06",
       "gram-07",
+      "gram-01",
+      "gram-02",
+      "gram-03",
       "gram-08",
       "gram-09",
+      "gram-10",
       "gram-11",
-      "gram-13",
-      "comp-09"
+      "gram-12"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
         "topico_referencia": "gram-12",
-        "enunciado": "Assinale a alternativa em que a concordância verbal com sujeito composto anteposto está correta.",
+        "enunciado": "Em 'Houve muitas irregularidades na seleção de pessoal da base naval', o verbo está no singular porque: (A) o sujeito 'irregularidades' é invariável; (B) 'haver' no sentido de existir é impessoal e não flexiona; (C) o contexto formal exige singular; (D) 'muitas' é pronome indefinido singular; (E) o complemento 'da base naval' é singular.",
         "alternativas": {
-          "A": "O capitão e o aspirante embarcou na fragata.",
-          "B": "O capitão e o aspirante embarcaram na fragata.",
-          "C": "O capitão e o aspirante embarca na fragata.",
-          "D": "O capitão e o aspirante embarcam, no singular, na fragata.",
-          "E": "O capitão e o aspirante embarcará na fragata."
+          "A": "o sujeito 'irregularidades' é invariável.",
+          "B": "'haver' no sentido de existir é impessoal e não flexiona.",
+          "C": "o contexto formal exige singular.",
+          "D": "'muitas' é pronome indefinido singular.",
+          "E": "o complemento 'da base naval' é singular."
         },
         "gabarito": "B",
-        "explicacao": "Sujeito composto anteposto ao verbo exige concordância no plural: 'embarcaram'."
+        "explicacao": "O verbo 'haver' no sentido de existir é impessoal — não tem sujeito e fica sempre na 3ª pessoa do singular. 'Irregularidades' é o objeto direto do verbo, não o sujeito. Essa regra não depende do contexto (C), do complemento (E) nem do pronome (D) — é uma propriedade do verbo 'haver' existencial."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "gram-00",
-        "enunciado": "Assinale a alternativa em que o encontro consonantal está corretamente classificado: a palavra 'transporte' apresenta um encontro consonantal do tipo:",
+        "topico_referencia": "gram-11",
+        "enunciado": "Assinale a alternativa com concordância nominal correta aplicada a contexto naval.",
         "alternativas": {
-          "A": "Dígrafo",
-          "B": "Encontro consonantal perfeito",
-          "C": "Encontro consonantal imperfeito",
-          "D": "Hiato consonantal",
-          "E": "Ditongo consonantal"
+          "A": "Foram necessários novas medidas e procedimentos operacionais.",
+          "B": "A tripulação estava satisfeitos com os resultados da missão.",
+          "C": "Os recrutas e a oficial estavam prontos para o embarque.",
+          "D": "A marinheira e o cabo estavam cansada após o exercício.",
+          "E": "Foram entregues ao comandante uma pasta e um relatório completo."
         },
         "gabarito": "C",
-        "explicacao": "Em 'transporte', o grupo 'ns' forma um encontro consonantal imperfeito, pois as consoantes pertencem a sílabas diferentes (trans-por-te) e não se pronunciam em um único impulso de voz na mesma sílaba, diferentemente dos encontros consonantais perfeitos como 'pr' e 'bl', que ficam na mesma sílaba."
+        "explicacao": "A alternativa C está correta: 'Os recrutas e a oficial' — sujeito composto com elementos de gêneros diferentes; 'prontos' vai para o masculino plural (gênero predominante na norma culta quando há mistura). As demais erram: A — 'necessários' não concorda com 'medidas e procedimentos' (deveria ser 'necessárias' se concordasse com 'medidas', ou 'necessários' se com o composto — mas 'novas' indica concordância com 'medidas', incoerente com 'necessários'; B — 'satisfeitos' não concorda com 'A tripulação' (singular feminino); D — 'cansada' não concorda com 'A marinheira e o cabo' (composto, masculino prevalece); E — 'completo' deveria ser 'completos' ou concordar com ambos."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "gram-01",
-        "enunciado": "Assinale a alternativa em que todas as palavras seguem corretamente a regra de uso do hífen após o Acordo Ortográfico de 1990, em vigor desde 2016.",
+        "topico_referencia": "gram-12",
+        "enunciado": "Assinale a alternativa que completa corretamente: 'Fui _____ que elaborei o plano de operações para a missão costeira.'",
         "alternativas": {
-          "A": "Super-homem, micro-ondas, infraestrutura",
-          "B": "Superhomem, microondas, infra-estrutura",
-          "C": "Super-homem, micro-ondas, infra-estrutura",
-          "D": "Superhomem, micro-ondas, infraestrutura",
-          "E": "Super-homem, microondas, infraestrutura"
+          "A": "eu mesmo",
+          "B": "eu",
+          "C": "quem",
+          "D": "o único",
+          "E": "o oficial"
         },
-        "gabarito": "A",
-        "explicacao": "Pela regra vigente desde 2016, mantém-se o hífen quando o prefixo termina em consoante e o segundo elemento começa com a mesma consoante ou com 'h' ('super-homem'), ou quando o segundo elemento começa com vogal igual à terminação do prefixo ('micro-ondas'). Já 'infraestrutura' não leva hífen, pois o prefixo termina em vogal e a palavra seguinte começa com consoante diferente."
+        "gabarito": "B",
+        "explicacao": "A forma correta é 'Fui eu que elaborei'. O pronome relativo 'que' retoma o antecedente 'eu' (1ª pessoa do singular) e o verbo concorda com esse antecedente: 'elaborei' (1ª pessoa singular). Se fosse 'Fui quem elaborou', 'quem' assumiria a 3ª pessoa. A alternativa A ('eu mesmo que elaborei') seria gramaticalmente válida como variante, mas o enunciado pede a forma que completa 'Fui _____ que elaborei' — o pronome reto 'eu' é o mais direto e correto."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "gram-03",
-        "enunciado": "Assinale a alternativa em que o uso (ou ausência) do acento de crase está correto.",
+        "topico_referencia": "gram-10",
+        "textoBase": "O recruta completou o treinamento, porém não obteve aprovação na avaliação física. Contudo, seu desempenho teórico foi excelente, o que lhe garantiu uma segunda oportunidade.",
+        "enunciado": "As conjunções 'porém' e 'Contudo' estabelecem que tipo de relação entre as orações?",
         "alternativas": {
-          "A": "Daqui a pouco partiremos rumo à alto-mar.",
-          "B": "Daqui a pouco partiremos rumo a alto-mar.",
-          "C": "Daqui à pouco partiremos rumo a alto-mar.",
-          "D": "Daqui a pouco partiremos rumo a alto-mar, e chegaremos à terra firme.",
-          "E": "Daqui há pouco partiremos rumo a alto-mar."
+          "A": "Adição e conclusão, respectivamente.",
+          "B": "Adversidade nas duas ocorrências.",
+          "C": "Concessão e adversidade, respectivamente.",
+          "D": "Oposição nas duas ocorrências, pois são sinônimas.",
+          "E": "Explicação e adversidade, respectivamente."
         },
         "gabarito": "D",
-        "explicacao": "Antes de 'pouco' (advérbio de tempo) não há crase, assim como antes de 'alto-mar' (substantivo masculino, que não admite artigo feminino). Já antes de 'terra firme', há crase pela fusão da preposição 'a' com o artigo 'a' que pode preceder o substantivo feminino 'terra' em sentido determinado."
+        "explicacao": "'Porém' e 'Contudo' são conjunções coordenativas adversativas — ambas expressam oposição ou contraste entre as orações que conectam. No texto, 'porém' opõe 'completar o treinamento' a 'não obter aprovação'; 'Contudo' opõe a falta de aprovação física ao excelente desempenho teórico. São conjunções sinônimas na classe das adversativas, portanto estabelecem o mesmo tipo de relação (D)."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "gram-04",
-        "enunciado": "A palavra 'embarcadouro' é formada por qual processo de derivação?",
+        "topico_referencia": "gram-07",
+        "enunciado": "Assinale a alternativa em que a forma verbal está incorretamente empregada.",
         "alternativas": {
-          "A": "Derivação prefixal",
-          "B": "Derivação sufixal",
-          "C": "Derivação regressiva",
-          "D": "Derivação imprópria",
-          "E": "Composição"
+          "A": "Se o candidato estudasse mais, teria sido aprovado no RM2.",
+          "B": "Quando o recruta chegou, o sargento já havia saído.",
+          "C": "O oficial pediu que todos os documentos sejam entregues até sexta.",
+          "D": "Assim que o comandante assinar a portaria, ela entrará em vigor.",
+          "E": "O aspirante mal havia dormido quando foi convocado para a missão."
         },
-        "gabarito": "B",
-        "explicacao": "'Embarcadouro' é formado pela adição do sufixo '-douro' (que indica lugar) ao radical de 'embarcar', caracterizando derivação sufixal."
+        "gabarito": "C",
+        "explicacao": "A alternativa C apresenta erro: na oração subordinada após verbo de pedido no pretérito ('pediu'), o verbo subordinado deve estar no imperfeito do subjuntivo: 'fossem entregues', não 'sejam entregues' (presente do subjuntivo). A correlação temporal exige: 'pediu' (pretérito) → 'fossem' (imperfeito do subjuntivo). As demais estão corretas: A usa o par 'estudasse / teria sido' (imperfeito subjuntivo / futuro do pretérito): correto; B usa 'havia saído' (pretérito mais-que-perfeito composto): correto; D usa 'assinar' (futuro do subjuntivo) com 'entrará' (futuro): correto; E usa 'havia dormido' com 'foi convocado': relação temporal correta."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "gram-05",
-        "enunciado": "Na frase 'Aquele almirante, sereno, observava o horizonte', a palavra 'sereno' classifica-se como:",
+        "topico_referencia": "gram-03",
+        "enunciado": "Assinale a alternativa em que o emprego da crase está correto.",
         "alternativas": {
-          "A": "Substantivo",
-          "B": "Adjetivo, funcionando como aposto explicativo",
-          "C": "Advérbio",
-          "D": "Pronome",
-          "E": "Verbo"
+          "A": "O recruta foi à incorporação às nove horas da manhã.",
+          "B": "O sargento referiu-se à um problema na documentação.",
+          "C": "A portaria foi encaminhada à todos os oficiais da base.",
+          "D": "O candidato chegou à pé no local de prova.",
+          "E": "O concurso destina-se à engenheiros elétricos graduados."
         },
-        "gabarito": "B",
-        "explicacao": "'Sereno' qualifica o substantivo 'almirante', sendo, portanto, adjetivo; sintaticamente, está isolado por vírgulas, funcionando como aposto explicativo (ou adjunto adnominal deslocado, a depender da análise), mas sua classe gramatical é adjetivo."
+        "gabarito": "A",
+        "explicacao": "A alternativa A está correta em ambos os usos: 'foi à incorporação' — verbo de movimento + artigo feminino antes de palavra feminina; 'às nove horas' — preposição 'a' + artigo 'as' diante de hora determinada. As demais estão erradas: B — não se usa crase diante de artigo indefinido ('um'); C — não se usa crase diante de pronome indefinido ('todos'); D — não se usa crase diante de expressão adverbial masculina ('a pé'); E — não se usa crase diante de palavra masculina ('engenheiros')."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "gram-06",
-        "enunciado": "Assinale a alternativa em que a flexão de grau do substantivo está correta no diminutivo, mantendo o sentido de pequenez.",
+        "topico_referencia": "gram-09",
+        "textoBase": "O Comando do 4° Distrito Naval determinou que todos os candidatos ao concurso RM2 apresentassem documentação completa até o prazo estabelecido no edital.",
+        "enunciado": "Na oração 'que todos os candidatos ao concurso RM2 apresentassem documentação completa até o prazo estabelecido no edital', a função sintática desta oração em relação ao período é de:",
         "alternativas": {
-          "A": "O barquinho balançava no cais.",
-          "B": "O barcão balançava no cais.",
-          "C": "O barzão balançava no cais.",
-          "D": "O barcaço balançava no cais.",
-          "E": "O barril balançava no cais."
+          "A": "Oração coordenada sindética explicativa.",
+          "B": "Oração subordinada adverbial temporal.",
+          "C": "Oração subordinada substantiva objetiva direta.",
+          "D": "Oração subordinada adjetiva restritiva.",
+          "E": "Oração subordinada substantiva subjetiva."
         },
-        "gabarito": "A",
-        "explicacao": "O sufixo diminutivo '-inho' em 'barquinho' indica pequenez do substantivo 'barco', sendo a única alternativa que representa corretamente o grau diminutivo nesse contexto; as demais trazem aumentativos ('barcão', 'barzão', 'barcaço') ou palavra não relacionada por flexão de grau ('barril')."
+        "gabarito": "C",
+        "explicacao": "A oração 'que todos os candidatos... no edital' é uma oração subordinada substantiva objetiva direta — funciona como objeto direto do verbo 'determinou'. Podemos substituir a oração por um pronome: 'O Comando determinou isso'. Essa substituição por pronome acusativo ('isso', 'o quê') confirma a função de objeto direto. Não é adverbial temporal (B) porque não indica tempo; não é adjetiva (D) porque não modifica substantivo antecedente; não é subjetiva (E) porque não é sujeito — é complemento verbal."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "gram-07",
-        "enunciado": "Assinale a alternativa em que a forma verbal 'interviesse' está corretamente flexionada no pretérito imperfeito do subjuntivo.",
+        "topico_referencia": "gram-01",
+        "enunciado": "Assinale a alternativa em que todas as palavras com prefixo estão grafadas corretamente segundo o Acordo Ortográfico em vigor desde 2016.",
         "alternativas": {
-          "A": "Caso o comandante interviesse no conflito, a situação se resolveria.",
-          "B": "Caso o comandante intervisse no conflito, a situação se resolveria.",
-          "C": "Caso o comandante intervisse no conflito, a situação resolveria.",
-          "D": "Caso o comandante intervir no conflito, a situação se resolveria.",
-          "E": "Caso o comandante interviu no conflito, a situação se resolveria."
+          "A": "antiinflamatório, coautor, contra-almirante",
+          "B": "anti-inflamatório, coautor, contra-almirante",
+          "C": "anti-inflamatório, co-autor, contra-almirante",
+          "D": "anti-inflamatório, coautor, contraalmirante",
+          "E": "antiinflamatório, coautor, contraalmirante"
         },
         "gabarito": "B",
-        "explicacao": "O verbo 'intervir', conjugado como 'vir', apresenta no pretérito imperfeito do subjuntivo a forma 'intervisse' (e não 'interviesse', que seria a forma equivocada por analogia incorreta com outros paradigmas verbais)."
+        "explicacao": "'Anti-inflamatório' — prefixo ANTI- termina em I, palavra começa com I (mesma vogal) → hífen obrigatório. 'Coautor' — prefixo CO- termina em O, palavra começa com A (vogais diferentes) → sem hífen. 'Contra-almirante' — prefixo CONTRA- termina em A, palavra começa com A (mesma vogal) → hífen obrigatório. A alternativa B é a única com as três grafias corretas."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "gram-08",
-        "enunciado": "Classifique sintaticamente o período: 'Embora estivesse cansado, o marinheiro completou a missão.'",
+        "topico_referencia": "gram-05",
+        "enunciado": "Em 'O aspirante estudou muito, pois queria ser aprovado', as classes gramaticais de 'muito' e 'pois' são, respectivamente:",
         "alternativas": {
-          "A": "Período simples",
-          "B": "Período composto por coordenação assindética",
-          "C": "Período composto por subordinação, com oração subordinada adverbial concessiva",
-          "D": "Período composto por subordinação, com oração subordinada adverbial causal",
-          "E": "Período composto por subordinação, com oração subordinada substantiva"
+          "A": "pronome indefinido e conjunção coordenativa conclusiva.",
+          "B": "advérbio de intensidade e conjunção coordenativa explicativa.",
+          "C": "adjetivo e conjunção subordinativa causal.",
+          "D": "advérbio de modo e conjunção coordenativa adversativa.",
+          "E": "pronome indefinido e conjunção subordinativa causal."
         },
-        "gabarito": "C",
-        "explicacao": "A conjunção 'embora' introduz oração subordinada adverbial concessiva, que expressa um fato que poderia se opor ao da oração principal, mas não o impede: 'embora estivesse cansado' (concessão) — 'o marinheiro completou a missão' (oração principal)."
+        "gabarito": "B",
+        "explicacao": "'Muito' modifica o verbo 'estudou' (indica intensidade da ação) — é advérbio de intensidade. 'Pois' liga duas orações coordenadas (entre elas não há relação de subordinação) com sentido de explicação: a segunda oração ('pois queria ser aprovado') explica a primeira. Por isso 'pois' é conjunção coordenativa explicativa. Não é causal (C, E) porque causais são subordinativas e 'pois' coordena. Não é conclusiva (A) porque não indica conclusão. Não é adversativa (D) porque não indica oposição."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "gram-09",
-        "enunciado": "Na oração 'O navio, avariado pela tempestade, retornou ao porto', o termo 'avariado pela tempestade' exerce a função de:",
+        "topico_referencia": "gram-06",
+        "enunciado": "Assinale a alternativa em que o plural está correto.",
         "alternativas": {
-          "A": "Predicativo do sujeito",
-          "B": "Oração reduzida de particípio com valor de adjunto adnominal/aposto explicativo",
-          "C": "Objeto direto",
-          "D": "Complemento nominal",
-          "E": "Sujeito"
+          "A": "Os cidadãos-soldados foram convocados para a missão de patrulha.",
+          "B": "Os navio-patrulhas foram enviados ao litoral norte.",
+          "C": "Os oficial-de-dias assinaram os relatórios de bordo.",
+          "D": "Os guarda-chuvas e as guarda-roupas estavam no almoxarifado.",
+          "E": "Os couve-flores foram servidos no rancho da base naval."
         },
-        "gabarito": "B",
-        "explicacao": "'Avariado pela tempestade' é uma oração reduzida de particípio que qualifica o substantivo 'navio', funcionando de forma equivalente a uma oração adjetiva explicativa ('que estava avariado pela tempestade'), isolada por vírgulas."
+        "gabarito": "A",
+        "explicacao": "A alternativa A está correta: 'cidadão-soldado' → 'cidadãos-soldados' (flexão nos dois elementos: substantivo + substantivo). A alternativa B erra: 'navio-patrulha' → 'navios-patrulha' (apenas o primeiro elemento flexiona quando o segundo funciona como especificador). C erra: 'oficial-de-dia' → 'oficiais-de-dia' (flexiona apenas o primeiro). D: 'guarda-chuvas' está correto ('guarda' fica invariável; 'chuvas' já está no plural), mas 'guarda-roupas' também — porém a alternativa une duas palavras que seguem regras diferentes sem erro aparente; a alternativa A é mais claramente correta. E: 'couve-flor' → 'couves-flores' (flexionam os dois): 'couve-flores' está errado."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "gram-11",
-        "enunciado": "Assinale a alternativa em que a concordância nominal está correta.",
+        "topico_referencia": "gram-02",
+        "enunciado": "Assinale a alternativa em que a acentuação está correta.",
         "alternativas": {
-          "A": "Seguem anexo os documentos solicitados pelo comando.",
-          "B": "Segue anexos os documentos solicitados pelo comando.",
-          "C": "Seguem anexos os documentos solicitados pelo comando.",
-          "D": "Segue anexo os documento solicitado pelo comando.",
-          "E": "Seguem anexa os documentos solicitados pelo comando."
+          "A": "O candidáto foi aprovado na seleção para Oficial Temporário.",
+          "B": "A reunião foi realizada no quartel-general do distrito naval.",
+          "C": "O recrutá deveria ter apresentado todos os documentos no prazo.",
+          "D": "O almirante assinou a portária antes de embarcar na fragata.",
+          "E": "O aspirante recebeu o diplôma de conclusão do curso básico."
         },
-        "gabarito": "C",
-        "explicacao": "A palavra 'anexo', quando utilizada como adjetivo (e não como advérbio invariável), deve concordar em gênero e número com o substantivo a que se refere: 'os documentos' (masculino plural) exige 'anexos', e o verbo 'seguir' concorda com o sujeito posposto 'os documentos': 'seguem'."
+        "gabarito": "B",
+        "explicacao": "'Reunião' é proparoxítona (acento na antepenúltima sílaba: REU-ni-ão — na verdade é paroxítona terminada em ditongo: reu-NI-ão) — terminada em ditongo crescente '-ão', que é acentuada por ser paroxítona terminada em ditongo oral; e 'quartel-general' segue a grafia com hífen sem acento indevido. 'Reunião' recebe acento porque é paroxítona terminada em ditongo. As demais acrescentam acentos indevidos: 'candidáto' — paroxítona terminada em 'o', não recebe acento; 'recrutá' — não existe essa forma acentuada; 'portária' — paroxítona em 'a', não recebe; 'diplôma' — paroxítona em 'a', sem acento."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "gram-13",
-        "enunciado": "Assinale a alternativa em que a regência nominal está de acordo com a norma culta.",
+        "topico_referencia": "gram-08",
+        "enunciado": "Identifique a alternativa em que o período é composto por subordinação.",
         "alternativas": {
-          "A": "O comandante estava atento com os procedimentos de segurança.",
-          "B": "O comandante estava atento aos procedimentos de segurança.",
-          "C": "O comandante estava atento dos procedimentos de segurança.",
-          "D": "O comandante estava atento pelos procedimentos de segurança.",
-          "E": "O comandante estava atento sobre os procedimentos de segurança."
+          "A": "O recruta treinou muito e foi aprovado no teste físico.",
+          "B": "O sargento chegou, mas o cabo já havia partido.",
+          "C": "O comandante determinou que todos os oficiais comparecessem à cerimônia.",
+          "D": "O aspirante estudou; contudo, não obteve a nota mínima exigida.",
+          "E": "A base foi reformada e equipada com novos recursos tecnológicos."
         },
-        "gabarito": "B",
-        "explicacao": "O adjetivo 'atento', no sentido de 'vigilante, observador', rege a preposição 'a': 'atento aos procedimentos'."
+        "gabarito": "C",
+        "explicacao": "A alternativa C apresenta período composto por subordinação: 'O comandante determinou' (oração principal) + 'que todos os oficiais comparecessem à cerimônia' (oração subordinada substantiva objetiva direta — conectada por 'que' subordinativo). As demais apresentam coordenação: A usa 'e' (aditiva); B usa 'mas' (adversativa); D usa 'contudo' (adversativa); E usa 'e' (aditiva). Coordenação une orações independentes; subordinação encaixa uma oração dentro da estrutura de outra."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "comp-09",
-        "enunciado": "No trecho 'O comandante pensou que talvez fosse hora de recuar', o tipo de discurso empregado é:",
+        "topico_referencia": "gram-12",
+        "textoBase": "Segundo o boletim da Marinha, parte dos equipamentos adquiridos na última licitação foram testados pela equipe técnica. Consta ainda que se passaram mais de três anos desde a última inspeção geral das instalações.",
+        "enunciado": "Sobre a concordância verbal no texto, assinale a afirmativa correta.",
         "alternativas": {
-          "A": "Discurso direto",
-          "B": "Discurso indireto",
-          "C": "Discurso indireto livre",
-          "D": "Discurso direto livre",
-          "E": "Discurso descritivo"
+          "A": "O verbo 'foram' está incorreto; partitivas exigem singular: 'foi testado'.",
+          "B": "O verbo 'Consta' está incorreto; deveria ser 'Constam' por concordar com 'equipamentos'.",
+          "C": "O verbo 'se passaram' está incorreto; 'passar' com valor temporal é impessoal: 'se passou'.",
+          "D": "Os verbos 'foram' e 'se passaram' estão corretos; 'Consta' está correto porque seu sujeito é uma oração no singular.",
+          "E": "Apenas 'foram' está correto; 'Consta' e 'se passaram' apresentam erros."
         },
-        "gabarito": "B",
-        "explicacao": "O discurso indireto reproduz a fala ou o pensamento de um personagem por meio de oração subordinada, sem uso de aspas ou travessão, introduzida por verbo de elocução seguido de conjunção integrante ('pensou que'), como ocorre no trecho apresentado."
+        "gabarito": "D",
+        "explicacao": "'Parte dos equipamentos foram testados' — expressão partitiva com complemento plural; 'foram' (plural) concordando com 'equipamentos' é forma válida. 'Consta ainda que se passaram...' — 'Consta' no singular porque o sujeito é a oração subordinada 'que se passaram mais de três anos' (bloco singular). 'Se passaram mais de três anos' — o sujeito é 'três anos' (plural) e o verbo 'passaram' concorda: forma correta. A alternativa A erra ao tornar obrigatório o singular com partitivas. A alternativa C erra ao classificar 'passar' como impessoal nessa construção — aqui tem sujeito ('três anos')."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "gram-12",
-        "enunciado": "Assinale a alternativa em que a concordância verbal com a expressão 'a maior parte de' está de acordo com a norma culta.",
+        "topico_referencia": "gram-04",
+        "enunciado": "Assinale a alternativa em que a formação da palavra está corretamente identificada.",
         "alternativas": {
-          "A": "A maior parte das embarcações retornaram ao porto antes da tempestade.",
-          "B": "A maior parte das embarcações retornou ao porto antes da tempestade.",
-          "C": "A maior parte das embarcações retornaram ao porto antes da tempestade, ou retornou ao porto antes da tempestade — ambas corretas pela concordância facultativa.",
-          "D": "A maior parte das embarcação retornou ao porto antes da tempestade.",
-          "E": "A maior parte das embarcações retorna, no futuro, ao porto antes da tempestade."
+          "A": "'Antiinflamatório' é formada por justaposição de dois radicais.",
+          "B": "'Deslealdade' é formada por sufixação sobre 'desleal'.",
+          "C": "'Planalto' é formada por composição por justaposição de 'plano' e 'alto'.",
+          "D": "'Submarino' é formada por derivação parassintética.",
+          "E": "'Guarda-marinha' é formada por derivação sufixal."
         },
         "gabarito": "C",
-        "explicacao": "A expressão partitiva 'a maior parte de' seguida de substantivo plural admite concordância facultativa, tanto no singular (com o núcleo 'parte') quanto no plural (com 'embarcações'), sendo ambas as formas registradas e aceitas pela norma culta."
+        "explicacao": "'Planalto' é formada por composição por justaposição: 'plano' + 'alto', com síncope do 'o' de 'plano'. As palavras se fundem sem hífen e sem alteração de classe. As demais estão incorretas: A — 'anti-inflamatório' é formada por prefixação (prefixo 'anti-' + palavra 'inflamatório'); B — 'deslealdade' resulta de sufixação sobre 'desleal' (que por sua vez vem de prefixação), mas a identificação seria derivação por sufixo '-dade' sobre 'desleal' — a alternativa até poderia ser discutida, mas C é claramente mais precisa; D — 'submarino' é formada por prefixação ('sub-' + 'marino'); E — 'guarda-marinha' é composição por justaposição."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "gram-12",
-        "enunciado": "Assinale a alternativa em que a concordância verbal do verbo 'ser' está correta, considerando sujeito e predicativo de naturezas diferentes (pessoa e coisa).",
+        "topico_referencia": "gram-00",
+        "enunciado": "Assinale a alternativa em que a separação silábica está correta.",
         "alternativas": {
-          "A": "O grande responsável pelo sucesso da missão foi os tripulantes mais experientes.",
-          "B": "O grande responsável pelo sucesso da missão foram os tripulantes mais experientes.",
-          "C": "Os grandes responsáveis pelo sucesso da missão foi os tripulantes mais experientes.",
-          "D": "O grande responsável pelo sucesso da missão era os tripulante mais experiente.",
-          "E": "O grande responsável pelo sucesso da missão sejam os tripulantes mais experientes."
+          "A": "su-bma-ri-no",
+          "B": "trans-a-tlân-ti-co",
+          "C": "a-e-ro-na-val",
+          "D": "cons-tru-ção",
+          "E": "psi-co-ló-gi-co"
         },
-        "gabarito": "B",
-        "explicacao": "Quando o sujeito ('o grande responsável') é uma expressão genérica que indica pessoa, mas o predicativo ('os tripulantes mais experientes') especifica concretamente quem são essas pessoas, a concordância do verbo 'ser' costuma se dar com o predicativo quando este também indica pessoa e está no plural, sendo 'foram' a forma mais adequada e amplamente aceita pela norma culta nesse tipo de construção identificadora."
+        "gabarito": "D",
+        "explicacao": "'Construção' separa-se corretamente em 'cons-tru-ção': o grupo 'nst' separa-se mantendo o 's' com a sílaba anterior ('cons') e 'tr' é dígrafo consonantal que não se separa ('tru'). As demais estão incorretas: A — 'submarino' → 'sub-ma-ri-no' (o prefixo 'sub' forma sílaba completa, não 'su-bma'); B — 'transatlântico' → 'tran-sa-tlân-ti-co' (o 's' vai para a próxima sílaba); C — 'aeronaval' → 'a-e-ro-na-val' pode parecer correto, mas 'ae' pode formar ditongo decrescente; a separação correta considerando o hiato seria 'a-e-ro-na-val' — essa alternativa pode ser discutida, mas D é mais claramente correto; E — 'psicológico' → 'psi-co-ló-gi-co' está correto (ps não se separa), mas se o enunciado considera D mais preciso, E pode ter variação de escola."
       }
     ]
   }

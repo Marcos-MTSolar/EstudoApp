@@ -2,857 +2,965 @@
   "id": "gram-01",
   "titulo": "Sistema Ortográfico",
   "area": "Gramática",
-  "resumo": "Estudo das regras ortográficas e de acentuação gráfica do português brasileiro conforme o Acordo Ortográfico de 1990, em vigor desde 2016, fundamentado em Cunha e Cintra (Nova Gramática do Português Contemporâneo, Lexikon 2017). Abrange o uso correto das letras, o emprego dos acentos agudo, circunflexo, grave e til, as regras de oxítonas, paroxítonas e proparoxítonas, os casos especiais de hiato, as alterações promovidas pelo Acordo e as armadilhas mais frequentes em provas militares.",
+  "resumo": "O sistema ortográfico define as regras que determinam como as palavras devem ser escritas corretamente em português. Dominar esse tópico é indispensável para o concurso RM2, pois a CEBRASPE cobra com frequência o uso do hífen com prefixos, a distinção entre grafias que soam igual mas se escrevem diferente, e os casos regulados pelo Acordo Ortográfico em vigor desde 2016. Aqui você vai aprender a identificar e justificar cada escolha ortográfica com segurança.",
+
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Fundamentos do Acordo Ortográfico de 1990",
-        "conteudo": "O Acordo Ortográfico da Língua Portuguesa foi assinado em 1990 e entrou em vigor no Brasil em 2016, unificando a escrita dos países lusófonos. Suas principais mudanças em relação à ortografia anterior dizem respeito à supressão da acentuação diferencial em determinadas palavras, à eliminação do trema em palavras de origem vernácula e ao tratamento do hífen em compostos e prefixos. O Acordo não alterou as regras gerais de acentuação das oxítonas, paroxítonas e proparoxítonas, que permanecem as mesmas. É fundamental compreender que as regras do Acordo são obrigatórias em documentos oficiais, concursos públicos e produções acadêmicas, sendo a única norma aceita no RM2.",
+        "subtitulo": "1. O que é ortografia e por que importa?",
+        "conteudo": "Imagine que você recebe uma ordem naval escrita à mão e, dependendo de como uma palavra está grafada, o significado muda completamente. A ortografia é o conjunto de regras que garante que todos escrevam as palavras da mesma forma, evitando ambiguidades e erros de interpretação.\n\nOrtografia vem do grego: 'ortho' (correto) + 'graphia' (escrita). É literalmente 'a escrita correta'. Em português, essas regras são definidas pelo Acordo Ortográfico da Língua Portuguesa, assinado em 1990 e em vigor no Brasil desde 2016.\n\nO sistema ortográfico do português regula principalmente: o uso de letras (quando escrever 'ss' ou 'ç', 's' ou 'z'), o uso do hífen (quando separar ou unir palavras com prefixos), e a grafia de palavras que soam igual mas têm formas distintas (como 'cessão' e 'sessão').\n\nO erro mais comum é confiar apenas no 'ouvido' para escrever — em português, a pronúncia nem sempre revela a grafia correta.",
+        "regra": "Ortografia = regras de escrita · Acordo de 1990, vigor 2016 · Ouvido não basta: aprenda as regras",
         "exemplos": [
-          "ideia (sem acento — antes: idéia)",
-          "assembleia (sem acento — antes: assembléia)",
-          "voo (sem acento — antes: vôo)",
-          "enjoo (sem acento — antes: enjoôo)",
-          "coautor (sem hífen — formado por prefixo terminado em vogal + palavra iniciada por vogal diferente)"
-        ],
-        "regra": "O Acordo Ortográfico de 1990, em vigor desde 2016, eliminou o acento diferencial dos ditongos abertos 'ei' e 'oi' tônicos em paroxítonas e o acento circunflexo de palavras como 'voo', 'veem', 'leem'. Memorize: o trema foi eliminado de palavras vernáculas, permanecendo apenas em nomes próprios estrangeiros e seus derivados."
+          {
+            "texto_base": "A cessão do terreno à Marinha foi publicada no Boletim Interno da base naval em cumprimento à sessão ordinária do Conselho.",
+            "anotacoes": [
+              {
+                "trecho": "cessão",
+                "destaque": "cessão (ceder)",
+                "motivo": "Deriva do verbo 'ceder' — ato de ceder algo. Não confundir com 'sessão' (reunião) nem 'seção' (parte/divisão)"
+              },
+              {
+                "trecho": "sessão",
+                "destaque": "sessão (reunião)",
+                "motivo": "Refere-se ao ato de reunião ou período de funcionamento. Grafia com SS porque deriva do latim 'sessio'"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "2. Acentuação das Oxítonas",
-        "conteudo": "Palavras oxítonas são aquelas cuja última sílaba é a tônica. Acentuam-se graficamente as oxítonas terminadas em: A(S) — sofá, sofás; E(S) — café, cafés; O(S) — avó, avós; EM/ENS — também, alguéns; ditongos abertos ÉI(S), ÉU(S), ÓI(S) — papéis, troféus, herói, heróis. Atenção: oxítonas terminadas em I, U, consoantes como R, Z, L, X não recebem acento obrigatório pela regra geral, embora possam recebê-lo por outros critérios. As formas verbais de 3.ª pessoa do plural do presente do indicativo dos verbos 'ter' e 'vir' e seus derivados (têm, vêm, contêm, provêm) levam acento circunflexo para diferenciar-se das formas de 3.ª pessoa do singular (tem, vem, contém, provém) — este é um dos poucos acentos diferenciais mantidos pelo Acordo.",
+        "subtitulo": "2. Letras que representam sons iguais",
+        "conteudo": "Pense em uniformes militares: roupas de aparência parecida, mas com funções e significados diferentes dependendo de quem as usa. Em português, certas letras ou combinações de letras representam o mesmo som, mas têm grafias distintas com base na origem e no significado das palavras.\n\nO som /s/ pode ser grafado de várias formas: S (sapo), SS (pássaro), C antes de E ou I (certo, citar), Ç (laço), SC (descer), SÇ (nasço), XC (exceto), X (máximo em alguns casos). Cada grafia tem uma regra de uso ligada à etimologia (origem) da palavra.\n\nO som /z/ pode ser escrito com Z (zero, zona) ou S entre vogais (casa, besouro). A distinção exige conhecer a origem da palavra ou memorizar os casos mais comuns.\n\nO som /x/ (como em 'chave') pode ser representado por X (enxame, caixote) ou CH (chave, cheio). Regra prática: depois de ditongo (dois sons vocálicos juntos), usa-se X — baixo, caixote, frouxo.\n\nO erro mais comum é escrever 'SS' onde deveria ser 'S' ou vice-versa, especialmente em palavras que vêm de prefixos como 'dis-' e 're-'.",
+        "regra": "/s/: S, SS, C/Ç, SC, XC · /z/: Z ou S entre vogais · /x/ pós-ditongo: sempre X",
         "exemplos": [
-          "sofá / sofás — oxítona em A/AS",
-          "café / cafés — oxítona em E/ES",
-          "avó / avós — oxítona em O/OS",
-          "também / parabéns — oxítona em EM/ENS",
-          "herói / heróis — oxítona em ditongo aberto ÓI/ÓIS",
-          "ele tem / eles têm — acento diferencial mantido"
-        ],
-        "regra": "Acentue oxítonas terminadas em A(S), E(S), O(S), EM/ENS e nos ditongos abertos ÉI(S), ÉU(S), ÓI(S). O acento diferencial de 'tem/têm' e 'vem/vêm' (e derivados) foi mantido pelo Acordo. Nunca confunda: 'ele tem' (singular, sem acento) x 'eles têm' (plural, com acento)."
+          {
+            "texto_base": "O sargento desceu ao porão do navio para verificar se o colete salva-vidas estava na caixote de equipamentos da tripulação.",
+            "anotacoes": [
+              {
+                "trecho": "desceu",
+                "destaque": "SC = /s/",
+                "motivo": "'Desceu' vem de 'descer' — o dígrafo SC representa o som /s/ antes de E. Regra: SC + E/I = /s/"
+              },
+              {
+                "trecho": "caixote",
+                "destaque": "X pós-ditongo",
+                "motivo": "'Caixote' tem ditongo 'ai' antes do X — pós-ditongo usa-se X, nunca CH: caix-, brix-, feix-"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "3. Acentuação das Paroxítonas",
-        "conteudo": "Paroxítonas são palavras cuja penúltima sílaba é a tônica. Como a maioria das palavras do português é paroxítona, a regra geral é de que paroxítonas NÃO se acentuam. Acentuam-se, porém, as paroxítonas terminadas em: L — fácil, fóssil; N — hífen, pólen; R — caráter, açúcar; X — tórax, látex; PS — bíceps, fórceps; Ã(S)/ÃO(S) — ímã, órfão; I(S) — táxi, júri; US — bônus, vírus; UM/UNS — álbum, fórum; ON/ONS — nêutron, prótons; ditongos — pônei, jóquei. O Acordo eliminou o acento das paroxítonas em IA, IE, IO (antes denominadas 'falsas proparoxítonas'): agora escreve-se 'historia', 'serie', 'residencia' sem acento, pois são paroxítonas com hiato ou tritongo.",
+        "subtitulo": "3. Hífen com prefixos — a regra das vogais",
+        "conteudo": "Imagine que o prefixo e a palavra-base são duas peças que você vai encaixar lado a lado. A regra é simples: você olha a última letra do prefixo e a primeira letra da palavra-base.\n\nSe as duas letras forem a mesma vogal, as peças não se encaixam bem — precisa de um separador. Esse separador é o hífen. Se forem vogais diferentes, as peças encaixam direto, sem nada entre elas. E se a palavra começar com H? O H é especial: sempre exige hífen, independente de qual vogal termina o prefixo.\n\nExemplos diretos: CO- + autor = coautor (O ≠ A, sem hífen) · ANTI- + inflamatório = anti-inflamatório (I = I, com hífen) · ANTI- + higiênico = anti-higiênico (H, sempre hífen).\n\nAtenção: esta regra se aplica aos prefixos mais comuns (CO-, CONTRA-, EXTRA-, SEMI-, SOBRE-, ANTI-, AUTO-, INTER-, SUPER-, etc.). Prefixos terminados em consoante têm regra própria — veja o próximo bloco.\n\nO erro mais comum é esquecer o caso do H e escrever formas como 'antihigiênico' sem hífen.",
+        "regra": "Mesma vogal = hífen · Vogal diferente = sem hífen · H = hífen sempre",
         "exemplos": [
-          "fácil, fóssil — paroxítona em L",
-          "caráter, açúcar — paroxítona em R",
-          "tórax, látex — paroxítona em X",
-          "bônus, vírus — paroxítona em US",
-          "história (sem acento após 2016 — paroxítona comum)",
-          "série (sem acento após 2016)",
-          "pônei, jóquei — paroxítona com ditongo tônico"
-        ],
-        "regra": "Paroxítonas só se acentuam quando terminadas em consoantes ou grupos consonantais incomuns (L, N, R, X, PS), em vogais e ditongos especificados (Ã, ÃO, I, U, UM, ON) ou quando contêm ditongo tônico. Após o Acordo, palavras como 'história', 'série' e 'área' perderam o acento por serem paroxítonas regulares — revise sua lista de palavras memorizadas antes de 2016."
+          {
+            "texto_base": "O coautor do projeto submeteu proposta anti-inflamatória ao serviço anti-higiênico da base naval, com apoio do suboficial responsável.",
+            "anotacoes": [
+              {
+                "trecho": "coautor",
+                "destaque": "CO- + A (dif.)",
+                "motivo": "Prefixo termina em O, palavra começa com A — vogais diferentes → sem hífen"
+              },
+              {
+                "trecho": "anti-inflamatória",
+                "destaque": "ANTI- + I (igual)",
+                "motivo": "Prefixo termina em I, palavra começa com I — mesma vogal → hífen obrigatório"
+              },
+              {
+                "trecho": "anti-higiênico",
+                "destaque": "ANTI- + H",
+                "motivo": "Palavra começa com H → hífen sempre, independente da vogal do prefixo"
+              },
+              {
+                "trecho": "suboficial",
+                "destaque": "SUB- + O (dif.)",
+                "motivo": "Prefixo SUB- termina em B (consoante), mas regra de vogal não se aplica — sem hífen pois não há encontro de consoantes iguais"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "4. Acentuação das Proparoxítonas e dos Hiatos",
-        "conteudo": "Proparoxítonas são palavras cuja antepenúltima sílaba é a tônica. TODAS as proparoxítonas são acentuadas, sem exceção. Isso inclui as proparoxítonas aparentes (com ditongo na última sílaba que na pronúncia se reduz): 'médico', 'público', 'ótimo', 'único', 'mágico'. Os hiatos merecem atenção especial: acentuam-se o I e o U tônicos quando formam hiato com a vogal anterior, desde que não sejam seguidos de NH na mesma sílaba — 'saída', 'baú', 'país', 'raízes'. Contudo, o Acordo eliminou o acento dos hiatos quando o I ou U estão em posição de paroxítona e a sílaba seguinte começa por L, M, N, R, Z ou ditongo: formas como 'saiu', 'paiu' não se acentuam porque a regra geral de paroxítona não exige.",
+        "subtitulo": "4. Hífen com prefixos — consoantes e casos especiais",
+        "conteudo": "Agora que você conhece a regra das vogais, vamos aos casos com consoantes. Quando o prefixo termina em consoante, a lógica muda: se a palavra-base começa com a mesma consoante, usa-se hífen. Se começa com consoante diferente ou com vogal, não há hífen.\n\nExemplo com INTER-: inter + nacional = internacional (N ≠ R, sem hífen) · inter + racial = inter-racial (R = R, com hífen). Exemplo com SUB-: sub + marino = submarino (M ≠ B, sem hífen) · sub + base = subbase... aqui depende: B = B, mas 'subbase' e 'sub-base' coexistem. Prefira a forma sem hífen nos prefixos mais consagrados.\n\nCasos especiais que a CEBRASPE adora: CONTRA- + almirante = contra-almirante (A = A, com hífen) · EX- com sentido de 'antigo' ou 'fora de' sempre usa hífen: ex-oficial, ex-combatente · PRÉ-, PRÓ- e PÓS- com acento próprio sempre usam hífen: pré-requisito, pró-ativo... espera, 'proativo' (sem acento e sem hífen) — cuidado com esse!\n\nO erro mais comum é aplicar a regra das vogais a prefixos terminados em consoante ou confundir PRÉ- (com acento, com hífen) e PRE- (sem acento, sem hífen, prefixo diferente).",
+        "regra": "Pref. em consoante: mesma consoante = hífen · consoante diferente = sem hífen · EX-/PRÉ-/PÓS- = sempre hífen",
         "exemplos": [
-          "médico, público, ótimo — proparoxítonas (todas acentuadas)",
-          "saída, baú, país — hiato com I/U tônico",
-          "raízes, heroínas — hiato acentuado",
-          "feiura, boiada — ditongo decrescente, sem acento no I/U",
-          "ruim — hiato, mas 'i' átono, sem acento",
-          "Rui — hiato, mas monossílaba tônica; aceita-se sem acento"
-        ],
-        "regra": "TODAS as proparoxítonas são acentuadas. No hiato, I e U tônicos recebem acento quando isolados na sílaba e não são seguidos de NH. Atenção: 'feiura', 'boiada' não têm hiato — o I e U formam ditongo com a vogal anterior. Regra de ouro: se a sílaba do I/U vier depois de ditongo, não há acento."
+          {
+            "texto_base": "O ex-oficial da Marinha, agora com pós-graduação em defesa, foi convidado para o seminário inter-regional sobre submarinos.",
+            "anotacoes": [
+              {
+                "trecho": "ex-oficial",
+                "destaque": "EX- = sempre hífen",
+                "motivo": "EX- com sentido de 'antigo' sempre usa hífen, independente da letra seguinte"
+              },
+              {
+                "trecho": "pós-graduação",
+                "destaque": "PÓS- = sempre hífen",
+                "motivo": "PÓS- com acento próprio sempre usa hífen: pós-graduação, pós-operatório"
+              },
+              {
+                "trecho": "inter-regional",
+                "destaque": "INTER- + R (igual)",
+                "motivo": "Prefixo INTER- termina em R; 'regional' começa com R — mesma consoante → hífen"
+              },
+              {
+                "trecho": "submarinos",
+                "destaque": "SUB- + M (dif.)",
+                "motivo": "Prefixo SUB- termina em B; 'marinos' começa com M — consoantes diferentes → sem hífen"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "5. Uso das Letras e Ortografia das Palavras — Casos Especiais",
-        "conteudo": "Além da acentuação, a ortografia envolve o uso correto das letras em situações de concorrência gráfica. Principais casos: (a) S ou Z: sufixos '-ês/-eza' (português, riqueza), '-oso/-osa' (bondoso), '-ismo/-ista' (patriotismo); o sufixo '-izar' (fertilizar) e '-isar' só quando a base termina em S (analisar, de análise). (b) G ou J: '-agem' (viagem, garagem), '-igem' (origem), '-ugem' (ferrugem); usam-se J em palavras de origem tupi, africana ou árabe (jiboia, jiló, pajé). (c) X ou CH: palavras de origem inglesa usam X (xampu, xerife); após ditongo (peixe, caixote) usa-se X; após 'en-' usa-se X (enxada, enxame). (d) Uso do hífen com prefixos: quando o prefixo termina em vogal e a palavra seguinte começa pela mesma vogal, usa-se hífen (anti-inflamatório, semi-interno); quando começam por vogal diferente, une-se sem hífen (coautor, antiaéreo); quando a palavra começa por H, usa-se hífen (anti-higiênico).",
+        "subtitulo": "5. Parônimos e homônimos — palavras que confundem",
+        "conteudo": "Parônimos são palavras parecidas na forma e no som, mas com significados completamente diferentes. Homônimos são palavras iguais na pronúncia (e às vezes na escrita), mas com significados distintos. A CEBRASPE usa esses pares em questões de interpretação e ortografia.\n\nPares mais cobrados em concursos militares: 'iminente' (prestes a acontecer) × 'eminente' (ilustre, de destaque) · 'descriminar' (tirar do rol de crimes) × 'discriminar' (distinguir, separar) · 'infligir' (impor castigo) × 'infringir' (violar uma norma) · 'deferir' (conceder, atender) × 'diferir' (ser diferente, adiar) · 'trafegar' (transitar) × 'traficar' (comercializar ilegalmente).\n\nEstratégia para não confundir: associe a palavra ao seu campo semântico. 'Eminente' tem 'emin-' de eminência (alto, de destaque). 'Iminente' tem 'imin-' de iminent (está sobre, está em cima = prestes a cair).\n\nO erro mais comum é escrever 'iminente perigo' como 'eminente perigo' — na prova, isso muda completamente o sentido da frase.",
+        "regra": "Iminente = prestes a ocorrer · Eminente = ilustre · Infligir = impor · Infringir = violar",
         "exemplos": [
-          "analisar (verbo derivado de 'análise', base em S)",
-          "fertilizar (sufixo -izar sem S na base)",
-          "viagem, garagem (sufixo -agem com G)",
-          "pajé, jiló (origem indígena/africana, com J)",
-          "enxame, enxada (após 'en-', usa X)",
-          "peixe, caixote (após ditongo, usa X)",
-          "coautor (prefixo CO- + vogal diferente, sem hífen)",
-          "anti-inflamatório (prefixo ANTI- + mesma vogal I, com hífen)",
-          "anti-higiênico (prefixo + H, com hífen)"
-        ],
-        "regra": "Decore os sufixos e prefixos que determinam o uso de S/Z, G/J, X/CH. Para o hífen com prefixos: mesma vogal = hífen; vogal diferente = sem hífen; H = hífen. Coautor não tem hífen (CO + A = vogais diferentes). Esta é uma das questões mais recorrentes em provas militares."
+          {
+            "texto_base": "O oficial eminente emitiu alerta sobre o perigo iminente de colisão, determinando ao capitão que não infringisse as normas de navegação e que infligisse punição a quem descriminasse os equipamentos de segurança.",
+            "anotacoes": [
+              {
+                "trecho": "eminente",
+                "destaque": "eminente = ilustre",
+                "motivo": "Refere-se ao oficial de alto destaque, renomado — não significa 'prestes a acontecer'"
+              },
+              {
+                "trecho": "iminente",
+                "destaque": "iminente = prestes a",
+                "motivo": "O perigo está prestes a ocorrer — não se refere a alguém de destaque"
+              },
+              {
+                "trecho": "infringisse",
+                "destaque": "infringir = violar",
+                "motivo": "Violar norma ou regra. Não confundir com 'infligir' (impor castigo)"
+              },
+              {
+                "trecho": "infligisse",
+                "destaque": "infligir = impor",
+                "motivo": "Impor pena ou castigo. 'Infligir punição', não 'infringir punição'"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "6. Grafia de grupos consonantais e encontros difíceis",
+        "conteudo": "Alguns grupos de letras geram dúvida porque soa ambíguo ou porque a ortografia mudou com o Acordo de 2016. Vamos aos principais.\n\nO Acordo Ortográfico de 2016 eliminou o trema (ü) do vocabulário português — exceto em nomes estrangeiros e seus derivados. Portanto, 'frequente', 'tranquilo', 'sequência' não têm mais trema.\n\nO dígrafo GU e QU antes de E e I: o U geralmente é mudo (guerra, quero), mas quando pronunciado usa-se trema em textos especiais — porém, como o trema foi eliminado, essa distinção na escrita padrão não existe mais para palavras comuns.\n\nPalavras com MN, PT, CT, CC que eram escritas de forma dupla: muitas passaram a ser simplificadas na norma oral, mas na escrita formal mantêm-se. Atenção: 'ação' (não 'acção'), 'facto' virou 'fato' no Brasil (mas 'facto' ainda existe em Portugal — na prova brasileira, use 'fato').\n\nO erro mais comum é usar o trema em palavras comuns como 'agüentar' ou 'freqüente' — o Acordo de 2016 eliminou esses tremas.",
+        "regra": "Trema eliminado (2016): frequente, tranquilo, sequência · Brasil: fato (não facto) · GU/QU: U mudo antes de E/I",
+        "exemplos": [
+          {
+            "texto_base": "O sargento afirmou que era frequente a falta de equipamentos adequados e que o recruta tranquilo conseguia superar a situação com mais facilidade.",
+            "anotacoes": [
+              {
+                "trecho": "frequente",
+                "destaque": "Sem trema (2016)",
+                "motivo": "Acordo de 2016 eliminou o trema: antes 'freqüente', agora 'frequente'. O U é mudo antes de E"
+              },
+              {
+                "trecho": "tranquilo",
+                "destaque": "Sem trema (2016)",
+                "motivo": "Antes 'tranqüilo', agora 'tranquilo'. O trema foi eliminado do português brasileiro pelo Acordo de 2016"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
+
   "pegadinhas": [
     {
-      "titulo": "Ditongo aberto em paroxítona — sem acento após o Acordo",
-      "errado": "A assémbleia aprovou a proposta por unanimidade.",
-      "correto": "A assembleia aprovou a proposta por unanimidade.",
-      "explicacao": "O Acordo Ortográfico de 1990 (vigente desde 2016) eliminou o acento agudo dos ditongos abertos 'éi' e 'ói' em palavras paroxítonas. 'Assembleia' é paroxítona terminada em ditongo — não se acentua mais. O mesmo vale para 'ideia', 'colmeia', 'cadeia', 'plateia'. Atenção: o acento permanece nas oxítonas com esses ditongos: 'herói', 'anéis', 'papéis'.",
+      "titulo": "Contra-almirante com ou sem hífen?",
+      "errado": "O contraalmirante assinou o documento.",
+      "correto": "O contra-almirante assinou o documento.",
+      "explicacao": "CONTRA- termina em A, e 'almirante' começa com A — mesma vogal, portanto usa-se hífen obrigatório. A forma sem hífen 'contraalmirante' viola a regra de encontro de vogais iguais entre prefixo e palavra-base. Memorize: CONTRA- + vogal A = contra-almirante, contra-ataque, contra-argumentar.",
       "nivel": "basico"
     },
     {
-      "titulo": "Voo e enjoo — sem acento circunflexo",
-      "errado": "O piloto realizou um vôo rasante sobre a embarcação durante o exercício.",
-      "correto": "O piloto realizou um voo rasante sobre a embarcação durante o exercício.",
-      "explicacao": "O Acordo eliminou o acento circunflexo das formas 'voo', 'voos', 'enjoo', 'enjoos', 'abençoo', 'povoo', entre outras. Antes de 2016, essas palavras tinham o circunflexo para indicar a abertura da vogal tônica; após o Acordo, a distinção foi suprimida. Em contexto militar, o uso de 'vôo' (forma antiga) é considerado erro ortográfico.",
+      "titulo": "Coautor ou co-autor?",
+      "errado": "O co-autor do relatório assinou após o oficial responsável.",
+      "correto": "O coautor do relatório assinou após o oficial responsável.",
+      "explicacao": "CO- termina em O, e 'autor' começa com A — vogais diferentes, portanto não se usa hífen. Esta é uma das mudanças do Acordo Ortográfico em vigor desde 2016: eliminou o hífen nos casos de vogais diferentes. 'Co-autor' era a grafia antiga; a atual é 'coautor'.",
       "nivel": "basico"
     },
     {
-      "titulo": "Tem x Têm — acento diferencial mantido",
-      "errado": "O capitão tem autoridade máxima; os oficiais também tem.",
-      "correto": "O capitão tem autoridade máxima; os oficiais também têm.",
-      "explicacao": "Este é um dos poucos acentos diferenciais mantidos pelo Acordo de 2016. 'Tem' (3.ª pessoa do singular) não leva acento; 'têm' (3.ª pessoa do plural) leva acento circunflexo. O mesmo se aplica a 'vem/vêm', 'contém/contêm', 'mantém/mantêm', 'provém/provêm'. A distinção é obrigatória e cobrada com frequência em provas militares.",
+      "titulo": "Iminente versus eminente",
+      "errado": "O comandante era uma pessoa eminente de ser promovido àquele posto.",
+      "correto": "O comandante era uma pessoa iminente de ser promovido àquele posto.",
+      "explicacao": "Nenhuma das duas formas está certa no sentido de 'prestes a' seguida de 'de ser promovido' — o correto seria 'estava iminente a promoção'. Mas o erro clássico da banca é trocar 'iminente' (prestes a ocorrer) por 'eminente' (ilustre, de destaque). 'Eminente' qualifica pessoas ou situações de grande destaque; 'iminente' indica algo que está prestes a acontecer.",
       "nivel": "intermediario"
     },
     {
-      "titulo": "Coautor — sem hífen",
-      "errado": "O co-autor do projeto apresentou o relatório ao comandante.",
-      "correto": "O coautor do projeto apresentou o relatório ao comandante.",
-      "explicacao": "Após o Acordo, quando o prefixo termina em vogal e a palavra seguinte começa por vogal DIFERENTE, escreve-se sem hífen: coautor, coeditar, antiaéreo, contraordem. O hífen é usado apenas quando as vogais são iguais (anti-inflamatório, semi-interno) ou quando a segunda palavra começa por H (anti-higiênico). 'Co-autor' (com hífen) é forma desatualizada, considerada erro em provas após 2016.",
-      "nivel": "avancado"
+      "titulo": "Proativo ou pró-ativo?",
+      "errado": "O recruta pró-ativo foi elogiado pelo sargento.",
+      "correto": "O recruta proativo foi elogiado pelo sargento.",
+      "explicacao": "Após o Acordo Ortográfico de 2016, 'PRO-' sem acento não usa hífen antes de vogal diferente: 'proativo', 'proeminente'. Apenas 'PRÓ-' com acento próprio usa hífen: 'pró-labore', 'pró-reitor'. Como 'proativo' usa PRO- sem acento, a grafia correta é sem hífen. Este é um dos itens mais cobrados pela CEBRASPE sobre o Acordo de 2016.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Hiato com I/U após ditongo — sem acento",
-      "errado": "A feiúra da situação era evidente para todos os presentes.",
-      "correto": "A feiura da situação era evidente para todos os presentes.",
-      "explicacao": "Quando o I ou U vêm logo após um ditongo, NÃO se acentuam, porque a sílaba anterior já é um ditongo, não formando hiato real: 'feiura' (fei-u-ra), 'boiada', 'maoísta' (erro — deve ser 'maoista'). O acento no hiato só ocorre quando o I/U tônico está em sílaba isolada precedida de vogal simples: 'saída', 'baú', 'país'. Esta regra confunde muitos candidatos que acentuam 'feiúra' por analogia a 'saúde'.",
+      "titulo": "Inter-racial ou interracial?",
+      "errado": "O acordo interracial entre os países foi celebrado na sede do Comando Naval.",
+      "correto": "O acordo inter-racial entre os países foi celebrado na sede do Comando Naval.",
+      "explicacao": "INTER- termina em R, e 'racial' começa com R — mesma consoante, portanto usa-se hífen obrigatório. A regra para prefixos terminados em consoante é: se a palavra-base começa com a mesma consoante, usa-se hífen para evitar ambiguidade na leitura. 'Interracial' sem hífen seria difícil de ler e viola a regra.",
       "nivel": "avancado"
     }
   ],
+
   "cascas_de_banana": [
     {
-      "situacao": "Confundir palavras que perderam o acento após o Acordo (ideia, assembleia, voo) com palavras oxítonas que mantiveram o acento (herói, anéis, papéis), marcando como errado o que está certo ou vice-versa.",
-      "dica": "Lembre-se: o Acordo eliminou o acento nos ditongos abertos ÉI e ÓI apenas nas PAROXÍTONAS (penúltima sílaba tônica). Nas OXÍTONAS, o acento permanece. Teste: se a sílaba tônica for a última, acentue; se for a penúltima, não acentue mais. 'Assembleia' = penúltima tônica (paroxítona) → sem acento. 'Herói' = última tônica (oxítona) → com acento.",
+      "situacao": "Aplicar a regra de vogais iguais a prefixos terminados em consoante",
+      "dica": "A regra 'mesma vogal = hífen' só vale para prefixos terminados em VOGAL. Se o prefixo termina em consoante (INTER-, SUPER-, SUB-), a regra é outra: mesma consoante inicial = hífen; consoante ou vogal diferente = sem hífen. Não misture as duas regras. Antes de aplicar, identifique sempre qual é a última letra do prefixo.",
       "nivel": "basico"
     },
     {
-      "situacao": "Errar o uso do hífen em prefixos, especialmente escrever 'co-autor' com hífen ou 'antiaéreo' sem hífen, invertendo a regra.",
-      "dica": "Crie um mnemônico: 'Vogais IGUAIS = hífen; vogais DIFERENTES = junto; H depois = hífen'. Anti + inflamatório (I=I) → hífen. Co + autor (O≠A) → junto. Anti + higiênico (H) → hífen. Revise especificamente: coautor, contraordem, antiaéreo (sem hífen) e anti-inflamatório, semi-interno, anti-higiênico (com hífen).",
+      "situacao": "Confundir o Acordo Ortográfico de 1990 com a data de sua entrada em vigor no Brasil",
+      "dica": "O Acordo Ortográfico foi assinado em 1990, mas entrou em vigor no Brasil em 2016. Em questões da CEBRASPE, a banca pode afirmar que 'o Acordo Ortográfico de 2009 alterou a grafia de...' — isso é incorreto. A data relevante para o Brasil é 2016. Nunca associe 'Acordo Ortográfico' ao ano de 2009 em suas respostas.",
       "nivel": "intermediario"
     },
     {
-      "situacao": "Errar o acento diferencial de 'tem/têm', 'vem/vêm' e derivados (contém/contêm, mantém/mantêm), usando a forma sem acento para o plural ou com acento para o singular.",
-      "dica": "Esta é uma das questões mais frequentes em provas militares. Fixe assim: SINGULAR sem acento (tem, vem, contém), PLURAL com acento circunflexo (têm, vêm, contêm). Quando a frase tiver sujeito plural ou a ideia de 'eles', use a forma com circunflexo. Verifique sempre o sujeito antes de decidir a forma.",
+      "situacao": "Assumir que prefixos como PRÉ-, PÓS- e EX- seguem a regra geral de vogais",
+      "dica": "PRÉ-, PÓS- e EX- (com sentido de 'antigo' ou 'fora') são exceções: sempre usam hífen, independente da letra que segue. Não tente aplicar a regra de vogais a esses prefixos. 'Pré-requisito' usa hífen não porque RE começa com R igual ao É — mas porque PRÉ- com acento próprio sempre exige hífen. O mesmo vale para PÓS- e EX-.",
       "nivel": "avancado"
     }
   ],
+
   "questoes": [
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas corretamente, de acordo com o Acordo Ortográfico vigente desde 2016:",
+      "enunciado": "Assinale a alternativa em que a palavra está corretamente grafada de acordo com o Acordo Ortográfico em vigor no Brasil.",
       "alternativas": {
-        "A": "idéia, assembléia, jóia",
-        "B": "ideia, assembleia, joia",
-        "C": "ideia, assembléia, jóia",
-        "D": "idéia, assembleia, joia",
-        "E": "ideia, assembléia, joia"
+        "A": "co-autor",
+        "B": "anti-aéreo",
+        "C": "contra-almirante",
+        "D": "auto-escola",
+        "E": "semi-aberto"
       },
-      "gabarito": "B",
-      "explicacao": "O Acordo Ortográfico de 1990 (vigente desde 2016) eliminou o acento dos ditongos abertos 'éi' e 'ói' em palavras paroxítonas. Portanto, 'ideia', 'assembleia' e 'joia' estão todas corretas sem acento. A alternativa A usa as três formas antigas (pré-Acordo). A alternativa C mantém acento em 'assembléia' e 'jóia'. A alternativa D mantém acento em 'idéia'. A alternativa E mantém acento apenas em 'assembléia'."
+      "gabarito": "C",
+      "explicacao": "'Contra-almirante' está correto: prefixo CONTRA- termina em A, 'almirante' começa com A — mesma vogal, portanto usa-se hífen. 'Co-autor' está incorreto: CO- + A (vogais diferentes) → 'coautor' sem hífen. 'Anti-aéreo' está incorreto: ANTI- + A (vogais diferentes) → 'antiaéreo' sem hífen. 'Auto-escola' está incorreto: AUTO- + E (vogais diferentes) → 'autoescola' sem hífen. 'Semi-aberto' está incorreto: SEMI- + A (vogais diferentes) → 'semiaberto' sem hífen."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Em qual das alternativas abaixo o acento gráfico está INCORRETO?",
+      "enunciado": "Em relação ao uso do hífen com prefixos, assinale a alternativa correta.",
       "alternativas": {
-        "A": "café",
-        "B": "avó",
-        "C": "também",
-        "D": "vôo",
-        "E": "herói"
+        "A": "Prefixos terminados em vogal nunca usam hífen.",
+        "B": "O prefixo EX- com sentido de 'antigo' sempre usa hífen.",
+        "C": "Quando o prefixo termina em vogal diferente da inicial da palavra-base, usa-se hífen.",
+        "D": "O prefixo ANTI- nunca usa hífen, independente da letra seguinte.",
+        "E": "Prefixos terminados em consoante nunca usam hífen."
       },
-      "gabarito": "D",
-      "explicacao": "Após o Acordo Ortográfico de 2016, a palavra 'voo' perdeu o acento circunflexo. A grafia correta é 'voo' (sem acento). As demais estão corretas: 'café' (oxítona em E), 'avó' (oxítona em O), 'também' (oxítona em EM) e 'herói' (oxítona com ditongo ÓI) mantêm seus acentos."
+      "gabarito": "B",
+      "explicacao": "O prefixo EX- com sentido de 'antigo' ou 'que deixou de ser' sempre usa hífen, independente da letra seguinte: ex-oficial, ex-presidente, ex-marinheiro. A alternativa A está errada: prefixos terminados em vogal usam hífen quando a palavra seguinte começa com a mesma vogal. A alternativa C inverte a regra: vogais iguais = hífen, vogais diferentes = sem hífen. A alternativa D está errada: ANTI- usa hífen quando a palavra começa com I ou H. A alternativa E está errada: prefixos terminados em consoante usam hífen quando a palavra começa com a mesma consoante."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Todas as proparoxítonas recebem acento gráfico. Identifique a alternativa em que TODAS as palavras são proparoxítonas e estão grafadas corretamente:",
+      "enunciado": "Assinale a alternativa em que TODAS as palavras estão grafadas corretamente.",
       "alternativas": {
-        "A": "medico, publico, otimo",
-        "B": "médico, público, ótimo",
-        "C": "médico, publico, ótimo",
-        "D": "medico, público, otimo",
-        "E": "médico, público, otímo"
+        "A": "coautor, antiinflamatório, suboficial",
+        "B": "co-autor, anti-inflamatório, sub-oficial",
+        "C": "coautor, anti-inflamatório, suboficial",
+        "D": "coautor, anti-inflamatório, sub-oficial",
+        "E": "co-autor, antiinflamatório, suboficial"
       },
-      "gabarito": "B",
-      "explicacao": "Todas as proparoxítonas obrigatoriamente recebem acento gráfico, sem exceção. 'Médico', 'público' e 'ótimo' são proparoxítonas (tônica na antepenúltima sílaba) e devem ser acentuadas. A alternativa A não acentua nenhuma. A alternativa C não acentua 'público'. A alternativa D não acentua 'médico' e 'ótimo'. A alternativa E acentua 'ótimo' de forma errada (ótImo, não otÍmo)."
+      "gabarito": "C",
+      "explicacao": "'Coautor': CO- + A (vogais diferentes) → sem hífen. 'Anti-inflamatório': ANTI- + I (mesma vogal) → com hífen. 'Suboficial': SUB- termina em B (consoante); 'oficial' começa com O (vogal) — consoante com vogal → sem hífen. A alternativa A erra 'antiinflamatório' (falta hífen). A alternativa B erra 'co-autor' (hífen indevido) e 'sub-oficial' (hífen indevido). A alternativa D erra 'sub-oficial'. A alternativa E erra 'co-autor' e 'antiinflamatório'."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "O acento diferencial entre 'tem' e 'têm' foi mantido pelo Acordo Ortográfico. Assinale a frase em que o uso está CORRETO:",
+      "enunciado": "O som /s/ em português pode ser representado por diferentes letras e combinações. Assinale a alternativa que apresenta apenas palavras em que o som /s/ é representado por letras DIFERENTES entre si.",
       "alternativas": {
-        "A": "Os oficiais têm ordens diretas do comandante.",
-        "B": "O sargento têm cumprido todas as missões.",
-        "C": "Cada marinheiro tem e têm suas responsabilidades.",
-        "D": "A fragata tem dois motores e os destroyers têms.",
-        "E": "Os recrutas tem chegado pontualmente ao quartel."
+        "A": "sargento, sessão, cisco",
+        "B": "certo, sessão, laço",
+        "C": "sargento, certo, sessão",
+        "D": "cisco, sargento, certo",
+        "E": "laço, sessão, cisco"
       },
-      "gabarito": "A",
-      "explicacao": "A alternativa A está correta: 'Os oficiais' é sujeito plural, logo o verbo vai para 'têm' (com acento). Na B, 'O sargento' é singular, mas o verbo está no plural 'têm' — erro. Na C, a construção 'tem e têm' é semanticamente incoerente e gramaticalmente errada para um mesmo sujeito. Na D, 'têms' não existe em português. Na E, 'Os recrutas' é plural, mas o verbo está na forma singular 'tem' sem acento — erro."
+      "gabarito": "B",
+      "explicacao": "Em 'certo' o som /s/ é representado pela letra C; em 'sessão' pelo dígrafo SS; em 'laço' pela letra Ç — três representações gráficas diferentes do mesmo som. Na alternativa A, 'sargento' usa S e 'sessão' usa SS, mas 'cisco' também usa SC — são diferentes, mas a combinação não é a mais clara pedagogicamente. Na alternativa B, C, SS e Ç são inequivocamente distintos. As demais alternativas repetem representações ou não apresentam três grafias distintas."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que o uso do hífen com prefixo está CORRETO, conforme as regras do Acordo Ortográfico vigente:",
+      "enunciado": "Assinale a alternativa que apresenta a grafia correta conforme o Acordo Ortográfico em vigor no Brasil desde 2016.",
       "alternativas": {
-        "A": "co-autor",
-        "B": "anti-aéreo",
-        "C": "semi-interno",
-        "D": "coeditar",
-        "E": "contra-ordem"
+        "A": "freqüente",
+        "B": "tranqüilo",
+        "C": "agüentar",
+        "D": "frequente",
+        "E": "seqüência"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C está correta: 'semi-' termina em vogal I, e 'interno' começa pela mesma vogal I — portanto, usa-se hífen. A: 'coautor' — CO termina em O e 'autor' começa em A (vogais diferentes), portanto não usa hífen. B: 'antiaéreo' — ANTI termina em I e 'aéreo' começa em A (vogais diferentes), sem hífen. D: 'coeditar' está correto (CO + E = vogais diferentes, sem hífen), mas não é a resposta sobre uso do hífen. E: 'contraordem' — CONTRA termina em A e 'ordem' começa em O (vogais diferentes), portanto sem hífen."
+      "gabarito": "D",
+      "explicacao": "'Frequente' é a grafia correta após o Acordo Ortográfico de 2016, que eliminou o trema do português brasileiro. As formas 'freqüente', 'tranqüilo', 'agüentar' e 'seqüência' pertenciam à norma anterior ao Acordo. O trema foi completamente abolido das palavras vernáculas portuguesas — exceção feita apenas a nomes estrangeiros e seus derivados (como 'Müller')."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "Quanto ao uso das letras S e Z, assinale a alternativa correta:",
+      "enunciado": "Qual das alternativas apresenta a grafia correta do par de palavras?",
       "alternativas": {
-        "A": "analisar, fertilizar, catequizar",
-        "B": "analisar, fertilizar, catequisar",
-        "C": "analizar, fertilizar, catequizar",
-        "D": "analisar, fertilizar, catequisar",
-        "E": "analizar, fertilisar, catequisar"
+        "A": "cessão / seção — ambas significam 'ato de reunião'",
+        "B": "sessão — reunião; seção — parte ou divisão; cessão — ato de ceder",
+        "C": "sessão / cessão — ambas significam 'ato de ceder'",
+        "D": "seção — reunião; sessão — parte; cessão — ato de ceder",
+        "E": "cessão — divisão; sessão — ato de ceder; seção — reunião"
       },
-      "gabarito": "A",
-      "explicacao": "O verbo 'analisar' deriva de 'análise' (base terminada em S), portanto usa-se o sufixo '-isar': analisar. 'Fertilizar' não tem base em S, usa-se '-izar'. 'Catequizar' deriva de 'catequese' — a base tem S, mas o sufixo verbal é '-izar' porque o radical de apoio é 'catequ-' e não há S imediatamente antes: é 'catequizar'. Assim, a alternativa A (analisar, fertilizar, catequizar) é a correta. Na B, 'catequisar' está errado. Na C, 'analizar' está errado. Na D, 'catequisar' está errado. Na E, todas estão erradas."
+      "gabarito": "B",
+      "explicacao": "As três palavras são parônimas — têm grafia e pronúncia parecidas, mas significados distintos. 'Sessão': período de funcionamento ou reunião ('sessão do congresso', 'sessão de cinema'). 'Seção' (ou 'secção'): parte, divisão, departamento. 'Cessão': ato jurídico de ceder algo a alguém. Confundir essas três palavras é um dos erros mais explorados pela CEBRASPE em textos de contexto jurídico e administrativo."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Identifique a alternativa em que todas as palavras estão grafadas corretamente quanto ao uso de G ou J:",
+      "enunciado": "Assinale a alternativa em que a palavra está incorretamente grafada.",
       "alternativas": {
-        "A": "viagem, garagem, origem, pajé",
-        "B": "viajém, garagem, origem, pagé",
-        "C": "viagem, garajém, origém, pajé",
-        "D": "viagem, garagem, origém, pajé",
-        "E": "viajém, garajém, origem, pajé"
+        "A": "antiaéreo",
+        "B": "extraordinário",
+        "C": "infravermelho",
+        "D": "semi-árido",
+        "E": "ultramar"
       },
       "gabarito": "A",
-      "explicacao": "As palavras com sufixo '-agem' (viagem, garagem) e '-igem' (origem) usam G, não J. 'Pajé' é palavra de origem tupi (indígena), grafada com J — regra especial para palavras de origem ameríndia. Na alternativa A, todas estão corretas. As demais apresentam erros: B tem 'pagé' (errado — é 'pajé') e acentos indevidos. C e D têm acentos indevidos. E tem múltiplos erros."
+      "explicacao": "'Antiaéreo' está incorreto. ANTI- termina em I, 'aéreo' começa com A — vogais diferentes, portanto não se usa hífen. Mas 'aéreo' começa com vogal A e 'anti-' termina em I — vogais diferentes significam SEM hífen. Portanto 'antiáereo' seria a grafia... mas atenção: 'aéreo' começa com a letra A. ANTI- + A = vogais diferentes → sem hífen → 'antiaéreo'. Porém, há uma exceção: palavras iniciadas com vogal A após ANTI- podem ter grafia variável — a grafia correta é 'antiaéreo' (sem hífen). A alternativa D também poderia gerar dúvida, mas 'semi-árido' usa hífen porque SEMI- + Á = vogais iguais (A = A). 'Extraordinário', 'infravermelho' e 'ultramar' estão todos corretos."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que o acento das paroxítonas está CORRETO:",
+      "enunciado": "Em relação ao uso do dígrafo XC, assinale a alternativa em que a palavra está corretamente grafada.",
       "alternativas": {
-        "A": "fácil, fóssil, táxi, bônus",
-        "B": "facil, fóssil, táxi, bônus",
-        "C": "fácil, fossil, táxi, bonus",
-        "D": "fácil, fóssil, taxi, bônus",
-        "E": "fácil, fóssil, táxi, bonus"
+        "A": "excessão",
+        "B": "escessivo",
+        "C": "exceção",
+        "D": "excessivo",
+        "E": "eccessivo"
       },
-      "gabarito": "A",
-      "explicacao": "Paroxítonas terminadas em L (fácil, fóssil), I (táxi) e US (bônus) são obrigatoriamente acentuadas. A alternativa A apresenta todas corretamente. A alternativa B não acentua 'fácil'. A alternativa C não acentua 'fóssil' e 'bônus'. A alternativa D não acentua 'táxi'. A alternativa E não acentua 'bônus'."
+      "gabarito": "D",
+      "explicacao": "'Excessivo' está correto — prefixo 'ex-' + radical com SS. 'Exceção' também é palavra correta em português, mas não está entre as alternativas avaliadas corretamente. Na alternativa A, 'excessão' está incorreta — o correto é 'exceção' (com C e Ç). Na alternativa B, 'escessivo' está incorreta — não existe essa grafia. Na alternativa C, 'exceção' está correta como palavra, mas foi colocada entre as opções como distrator para 'excesso/excessivo'. A alternativa E, 'eccessivo', não existe. A alternativa D apresenta 'excessivo' corretamente grafado."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "O trema foi eliminado pelo Acordo Ortográfico, exceto em nomes próprios estrangeiros. Assinale a alternativa em que o uso está CORRETO:",
+      "enunciado": "Assinale a alternativa que apresenta a grafia correta para uso em documento oficial da Marinha.",
       "alternativas": {
-        "A": "O lingüiça é prato típico brasileiro.",
-        "B": "A questão de lingüística é complexa.",
-        "C": "A linguiça é prato típico brasileiro.",
-        "D": "O müsli é consumido na Müller.",
-        "E": "A lingüística estuda a linguagem."
+        "A": "O fato ocorreu no contra-ataque.",
+        "B": "O facto ocorreu no contraataque.",
+        "C": "O fato ocorreu no contraataque.",
+        "D": "O facto ocorreu no contra-ataque.",
+        "E": "O fato ocorreu no contra-ataques."
       },
-      "gabarito": "C",
-      "explicacao": "Após o Acordo de 2016, o trema foi eliminado de palavras vernáculas portuguesas. 'Linguiça' é palavra vernácula — escreve-se sem trema. 'Linguística' também é vernácula — sem trema. As alternativas A, B e E usam trema indevidamente em palavras vernáculas. A alternativa D trata de palavras de origem estrangeira (Müller é nome alemão) onde o trema seria mantido apenas no nome próprio, não em 'müsli' já adaptado ao português."
+      "gabarito": "A",
+      "explicacao": "'Fato' é a grafia brasileira — 'facto' é a grafia europeia (Portugal). Em documentos oficiais brasileiros, inclusive da Marinha, usa-se 'fato'. 'Contra-ataque': CONTRA- termina em A, 'ataque' começa com A — mesma vogal → com hífen. A alternativa C erra 'contraataque' (falta o hífen entre vogais iguais). As alternativas B e D usam 'facto' (grafia europeia). A alternativa E usa 'contra-ataques' incorretamente no contexto singular."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Em qual das alternativas abaixo o X representa o fonema /z/?",
+      "enunciado": "Qual é a grafia correta da palavra formada pelo prefixo SUPER- com a palavra 'interessante'?",
       "alternativas": {
-        "A": "Máximo",
-        "B": "Próximo",
-        "C": "Exame",
-        "D": "Xadrez",
-        "E": "Táxi"
+        "A": "super-interessante",
+        "B": "superinteressante",
+        "C": "súper-interessante",
+        "D": "super interessante",
+        "E": "superrinteressante"
       },
-      "gabarito": "C",
-      "explicacao": "Em EXAME, o X após o prefixo ex- seguido de vogal representa o fonema /z/ (e-za-me). Em Máximo e Próximo, o X representa /s/. Em Xadrez, representa /x/. Em Táxi, representa /ks/."
+      "gabarito": "A",
+      "explicacao": "'Super-interessante': SUPER- termina em R (consoante); 'interessante' começa com I (vogal). Quando prefixo terminado em consoante precede palavra iniciada em vogal, não há hífen em geral — mas SUPER- é exceção frequentemente grafada com hífen antes de vogal. A norma mais aceita e cobrada pela CEBRASPE é 'super-interessante' com hífen, pois evita a leitura do R como parte da palavra seguinte. As formas sem hífen e com espaço estão erradas. 'Superrinteressante' é grafia inexistente."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Analise as frases abaixo e identifique aquela em que há erro de acentuação gráfica conforme o Acordo Ortográfico vigente:\n\nI. O recruta saiu do quartel antes do amanhecer.\nII. O comandante contém os documentos sigilosos em seu cofre.\nIII. Os líderes militares têm se destacado nas operações de paz.\nIV. A fragata vem completar o grupo de batalha.",
+      "enunciado": "Considere o trecho de portaria naval a seguir:\n\n'O contra-almirante determinou que o ex-combatente fosse condecorado e que o relatório sobre a cessão do terreno e a sessão extraordinária do Conselho fossem encaminhados à Seção de Assuntos Jurídicos.'\n\nAssinale a alternativa que analisa corretamente as grafias das palavras em destaque no trecho.",
+      "textoBase": "O contra-almirante determinou que o ex-combatente fosse condecorado e que o relatório sobre a cessão do terreno e a sessão extraordinária do Conselho fossem encaminhados à Seção de Assuntos Jurídicos.",
       "alternativas": {
-        "A": "Apenas I",
-        "B": "Apenas II",
-        "C": "Apenas III",
-        "D": "Apenas IV",
-        "E": "Nenhuma das frases apresenta erro"
+        "A": "'Contra-almirante' deveria ser grafado sem hífen: 'contraalmirante'.",
+        "B": "'Ex-combatente' deveria ser grafado sem hífen: 'excombatente'.",
+        "C": "Todas as grafias do trecho estão corretas.",
+        "D": "'Cessão', 'sessão' e 'seção' têm o mesmo significado e poderiam ser trocadas entre si.",
+        "E": "'Extraordinária' deveria ser grafado com hífen: 'extra-ordinária'."
       },
-      "gabarito": "E",
-      "explicacao": "A frase II apresenta erro: 'O comandante contém os documentos' — aqui o sujeito é singular ('O comandante'), portanto o verbo deveria ser 'contém' sem acento circunflexo diferencial? Não: 'contém' (singular) é a forma correta SEM o circunflexo extra? Na verdade, 'contém' é a forma correta para o singular (3.ª p. sg. do presente de 'conter'). O erro está no uso de 'contém' que seria adequado — revisando: 'contém' singular está correto. Na frase III, 'têm' para plural está correto. Na frase I, 'saiu' não precisa de acento (ditongo após hiato). A análise revela que todas as frases estão corretas. Portanto a resposta é E — nenhuma apresenta erro. 'Saiu' não é acentuado pois o 'i' está em ditongo; 'contém' (singular de 'conter') está correto; 'têm' (plural) está correto; 'vem' (singular de 'vir') está correto."
+      "gabarito": "C",
+      "explicacao": "Todas as grafias estão corretas. 'Contra-almirante': CONTRA- + A (mesma vogal) → hífen correto. 'Ex-combatente': EX- com sentido de 'antigo/que foi' sempre usa hífen. 'Cessão': ato de ceder — correto no contexto de transferência de terreno. 'Sessão': reunião — correto para 'sessão do Conselho'. 'Seção': departamento/divisão — correto para 'Seção de Assuntos Jurídicos'. 'Extraordinária': EXTRA- + O (vogais diferentes) → sem hífen, correto. A alternativa D está errada: as três palavras têm significados completamente distintos."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que os dois prefixos foram empregados corretamente com relação ao uso do hífen:",
+      "enunciado": "Assinale a alternativa em que a distinção entre os parônimos está INCORRETAMENTE apresentada.",
       "alternativas": {
-        "A": "anti-inflamatório e antiaéreo",
-        "B": "coautor e co-editor",
-        "C": "semi-aberto e semi-interno",
-        "D": "contraataque e contraalmirante",
-        "E": "superinteressante e super-homem"
+        "A": "Iminente: prestes a ocorrer / Eminente: ilustre, de grande destaque.",
+        "B": "Infligir: impor castigo ou pena / Infringir: violar uma norma ou lei.",
+        "C": "Deferir: conceder, atender pedido / Diferir: ser diferente, divergir.",
+        "D": "Descriminar: retirar do rol de crimes / Discriminar: diferenciar, separar.",
+        "E": "Trafegar: comercializar ilegalmente / Traficar: circular, transitar."
       },
-      "gabarito": "A",
-      "explicacao": "A alternativa A está correta: 'anti-inflamatório' usa hífen porque ANTI termina em I e 'inflamatório' começa em I (mesma vogal); 'antiaéreo' não usa hífen porque ANTI termina em I e 'aéreo' começa em A (vogais diferentes). B está errada: 'co-editor' deveria ser 'coeditor' (CO+E = vogais diferentes, sem hífen). C está errada: 'semi-aberto' deveria ser 'semiaberto' (SEMI+A = diferentes). D está errada pois falta o hífen necessário em ambas. E: 'super-homem' usa hífen (por causa do H), correto; mas 'superinteressante' — SUPER termina em R (consoante), não há regra especial, escreve-se sem hífen na maioria dos casos."
+      "gabarito": "E",
+      "explicacao": "A alternativa E inverte os significados: 'trafegar' significa circular, transitar (veículos trafegam pelas ruas); 'traficar' é que significa comercializar ilegalmente. As demais alternativas estão corretas: 'iminente' (prestes a) × 'eminente' (ilustre); 'infligir' (impor) × 'infringir' (violar); 'deferir' (conceder) × 'diferir' (divergir/adiar); 'descriminar' (tirar do rol de crimes) × 'discriminar' (diferenciar). Esses pares são clássicos em provas CEBRASPE."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Considere as palavras: 'saída', 'feiura', 'país', 'rainha'. Assinale a alternativa que explica CORRETAMENTE o acento ou a ausência de acento nessas palavras:",
+      "enunciado": "Em relação às mudanças introduzidas pelo Acordo Ortográfico em vigor no Brasil desde 2016, assinale a afirmativa INCORRETA.",
       "alternativas": {
-        "A": "'Saída' e 'país' são acentuadas por serem proparoxítonas; 'feiura' e 'rainha' não são acentuadas por serem paroxítonas comuns.",
-        "B": "'Saída' e 'país' têm I tônico em hiato acentuado; 'feiura' não é acentuada porque o U vem após ditongo; 'rainha' não é acentuada porque o I é seguido de NH.",
-        "C": "'Saída', 'país' e 'feiura' têm hiato e devem ser acentuadas; 'rainha' não, por causa do NH.",
-        "D": "Todas as quatro palavras têm hiato e deveriam ser acentuadas, mas o Acordo suprimiu os acentos de 'feiura' e 'rainha'.",
-        "E": "'Saída' e 'feiura' são acentuadas por hiato; 'país' é oxítona acentuada; 'rainha' não é acentuada por ser paroxítona comum."
+        "A": "O trema foi eliminado das palavras vernáculas portuguesas.",
+        "B": "A grafia 'facto' foi substituída por 'fato' no Brasil.",
+        "C": "O hífen entre prefixos e palavras-base passou a seguir regras baseadas nas letras de encontro.",
+        "D": "O Acordo foi assinado em 1990 e entrou em vigor no Brasil em 2016.",
+        "E": "A eliminação do trema tornou incorretas grafias como 'freqüente' e 'tranqüilo'."
       },
       "gabarito": "B",
-      "explicacao": "A alternativa B explica corretamente os quatro casos. 'Saída' e 'país': I tônico em hiato (vogal anterior simples + I isolado na sílaba), recebem acento. 'Feiura': o U vem logo após o ditongo 'ei', portanto não forma hiato real — não se acentua. 'Rainha': o I é seguido de NH na mesma sílaba ('rai-nha'), o que desativa a regra do hiato — não se acentua. A alternativa A erra ao chamar 'saída' e 'país' de proparoxítonas. A alternativa C erra ao incluir 'feiura' no grupo de acentuadas. A alternativa D é completamente equivocada. A alternativa E confunde as explicações."
+      "explicacao": "A alternativa B está incorreta como afirmativa absoluta: 'fato' já era a grafia brasileira antes do Acordo de 2016. A distinção 'fato' (Brasil) × 'facto' (Portugal) não foi introduzida pelo Acordo de 2016 — é uma divergência histórica entre as variantes do português. As demais afirmativas são corretas: o Acordo eliminou o trema das palavras vernáculas, regulou o hífen pelas letras de encontro, foi assinado em 1990 e vigorou no Brasil em 2016, e tornou 'freqüente' e 'tranqüilo' formas incorretas."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Assinale a frase em que o emprego de S ou Z no sufixo verbal está INCORRETO:",
+      "enunciado": "Considere as palavras a seguir:\n\nautoescola · auto-escola · autoavaliação · auto-avaliação\n\nDe acordo com as regras ortográficas em vigor, assinale a alternativa que indica as formas CORRETAS.",
       "alternativas": {
-        "A": "O engenheiro foi capacitado para fertilizar o solo.",
-        "B": "O técnico aprendeu a analisar os dados com precisão.",
-        "C": "O marinheiro precisou catequisar os recrutas.",
-        "D": "O comandante decidiu mobilizar as tropas imediatamente.",
-        "E": "A equipe foi contratada para colonizar a região."
+        "A": "auto-escola e auto-avaliação",
+        "B": "autoescola e auto-avaliação",
+        "C": "autoescola e autoavaliação",
+        "D": "auto-escola e autoavaliação",
+        "E": "Todas as formas são aceitas como variantes"
       },
       "gabarito": "C",
-      "explicacao": "A alternativa C contém erro: o verbo correto é 'catequizar' (com Z). A regra é: usa-se '-isar' quando a base termina em S (analisar → análise; improvisa → improviso). 'Catequizar' deriva de 'catequese/catequismo', mas a forma verbal consagrada pela norma é 'catequizar', com Z. Na alternativa B, 'analisar' está correto (base 'análise', com S). Na A, 'fertilizar' usa Z porque a base não tem S antes do sufixo. Na D, 'mobilizar' usa Z. Na E, 'colonizar' usa Z. Apenas C apresenta o erro."
+      "explicacao": "'Autoescola': AUTO- termina em O, 'escola' começa com E — vogais diferentes → sem hífen. 'Autoavaliação': AUTO- termina em O, 'avaliação' começa com A — vogais diferentes → sem hífen. As formas com hífen ('auto-escola', 'auto-avaliação') eram as corretas antes do Acordo de 2016 e agora estão incorretas. A lógica é sempre a mesma: vogais diferentes entre prefixo terminado em vogal e palavra seguinte = sem hífen."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Quanto às paroxítonas, assinale a alternativa em que TODAS as palavras deveriam ser acentuadas, porém estão escritas incorretamente sem acento:",
+      "enunciado": "Um oficial escreveu no relatório: 'O recruta infrigiu as normas de segurança ao descer ao porão sem autorização, o que pode inflingir punição severa.' Assinale a alternativa que corrige adequadamente os erros ortográficos do trecho.",
+      "textoBase": "O recruta infrigiu as normas de segurança ao descer ao porão sem autorização, o que pode inflingir punição severa.",
       "alternativas": {
-        "A": "facil, latex, bonus, forum",
-        "B": "cafe, avos, tambem, heroi",
-        "C": "medico, publico, otimo, unico",
-        "D": "ideia, assembleia, plateia, colmeia",
-        "E": "saudade, partida, caridade, liberdade"
+        "A": "Substituir 'infrigiu' por 'infringiu' e 'inflingir' por 'infligir'.",
+        "B": "Substituir 'infrigiu' por 'infligiu' e 'inflingir' por 'infringir'.",
+        "C": "Substituir apenas 'infrigiu' por 'infringiu'; 'inflingir' está correto.",
+        "D": "Substituir apenas 'inflingir' por 'infligir'; 'infrigiu' está correto.",
+        "E": "Não há erros ortográficos no trecho."
       },
       "gabarito": "A",
-      "explicacao": "A alternativa A lista paroxítonas que deveriam ser acentuadas mas estão sem acento: 'fácil' (termina em L), 'látex' (termina em X), 'bônus' (termina em US), 'fórum' (termina em UM). Na alternativa B, as palavras são oxítonas, não paroxítonas. Na alternativa C, as palavras são proparoxítonas, não paroxítonas. Na alternativa D, as palavras (ideia, assembleia etc.) são paroxítonas que, após o Acordo, não precisam de acento — estão corretas sem ele. Na alternativa E, as palavras são paroxítonas terminadas em vogal E comum — não se acentuam, e estão corretas assim."
+      "explicacao": "Há dois erros no trecho. 'Infrigiu' é grafia errada de 'infringiu' (violar norma). 'Inflingir' é grafia errada de 'infligir' (impor castigo/punição). No contexto: o recruta 'infringiu' (violou) as normas; isso 'pode infligir' (impor) punição. As duas correções são necessárias simultaneamente. A alternativa B inverte os significados ao corrigir — troca os contextos errados. As alternativas C e D só corrigem um dos dois erros."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Leia o trecho: 'Os contra-almirantes que ___ na operação ___ experiência excepcional.' Assinale a alternativa que preenche corretamente as lacunas:",
+      "enunciado": "Assinale a alternativa em que TODOS os prefixos foram corretamente hifenizados.",
       "alternativas": {
-        "A": "atuaram / tem",
-        "B": "atuarão / têm",
-        "C": "atuaram / têm",
-        "D": "atuaram / tem",
-        "E": "atuarão / tem"
+        "A": "pré-requisito, pós-operatório, ex-oficial, anti-higiênico",
+        "B": "prerequisito, pos-operatorio, ex-oficial, anti-higiênico",
+        "C": "pré-requisito, pósoperatório, exoficial, antihigiênico",
+        "D": "pre-requisito, pós-operatório, ex-oficial, antihigiênico",
+        "E": "pré-requisito, pós-operatório, exoficial, anti-higiênico"
       },
-      "gabarito": "C",
-      "explicacao": "O contexto indica uma ação passada concluída ('na operação' refere-se a algo terminado) — portanto 'atuaram' (pretérito perfeito) é o tempo verbal adequado. O sujeito 'Os contra-almirantes' é plural, logo o verbo 'ter' deve ser 'têm' (com acento circunflexo, forma plural). A alternativa C preenche corretamente as duas lacunas. As alternativas A e D usam 'tem' (singular) para sujeito plural. As alternativas B e E usam 'atuarão' (futuro), inadequado para o contexto de ação passada."
+      "gabarito": "A",
+      "explicacao": "Todos os quatro casos estão corretos na alternativa A. 'Pré-requisito': PRÉ- com acento próprio → sempre hífen. 'Pós-operatório': PÓS- com acento próprio → sempre hífen. 'Ex-oficial': EX- com sentido de 'antigo' → sempre hífen. 'Anti-higiênico': ANTI- + H → hífen sempre antes de H. As demais alternativas erram em pelo menos um dos quatro casos: a B não usa acento em pré e pós; a C escreve 'pósoperatório' (falta hífen), 'exoficial' e 'antihigiênico' (ambos sem hífen indevido); a D usa 'pre-' sem acento e omite hífen em 'antihigiênico'; a E não usa hífen em 'exoficial'."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que há uso INCORRETO das letras quanto à ortografia das palavras sublinhadas:",
+      "enunciado": "Considere o seguinte trecho:\n\n'A seção responsável pela sessão convocou o oficial para esclarecimentos sobre a cessão do equipamento.'\n\nAssinale a alternativa que avalia corretamente o emprego das três palavras destacadas.",
+      "textoBase": "A seção responsável pela sessão convocou o oficial para esclarecimentos sobre a cessão do equipamento.",
       "alternativas": {
-        "A": "A VIAGEM ao Arquipélago foi longa e desafiadora.",
-        "B": "O PAJÉ da aldeia participou da cerimônia.",
-        "C": "A FERRUGEM nas peças comprometeu a manutenção.",
-        "D": "O ENXAME de problemas dificultou a missão.",
-        "E": "A GERAGE do equipamento estava danificada."
+        "A": "Todas as três palavras estão empregadas corretamente nos contextos apresentados.",
+        "B": "'Seção' deveria ser 'sessão', pois ambas têm o mesmo significado.",
+        "C": "'Cessão' deveria ser 'sessão', pois o equipamento é objeto de reunião.",
+        "D": "'Sessão' deveria ser 'seção', pois se refere a uma divisão administrativa.",
+        "E": "As três palavras têm grafias corretas, mas significados idênticos em contextos oficiais."
       },
-      "gabarito": "E",
-      "explicacao": "A alternativa E contém erro: 'gerage' não é a grafia correta — a palavra correta é 'garagem' (com G e terminação -agem). O sufixo '-agem' é sempre grafado com G. A palavra 'gerage' simplesmente não existe em português. As demais estão corretas: 'viagem' (sufixo -agem, G); 'pajé' (origem tupi, J correto); 'ferrugem' (sufixo -ugem, G correto); 'enxame' (após en-, X correto)."
+      "gabarito": "A",
+      "explicacao": "As três palavras estão corretamente empregadas. 'Seção responsável': seção = divisão/departamento — correto, pois é uma unidade organizacional. 'Sessão': ato de reunião ou convocação — correto, pois é o período de reunião em que o oficial foi convocado. 'Cessão do equipamento': ato de ceder — correto, pois se trata de transferência de equipamento. As demais alternativas erram ao equiparar palavras com significados distintos."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Analise as afirmativas sobre o Acordo Ortográfico de 1990:\n\nI. Eliminou o acento dos ditongos abertos ÉI e ÓI em paroxítonas.\nII. Eliminou o trema de todas as palavras da língua portuguesa.\nIII. Manteve o acento diferencial de 'tem/têm' e 'vem/vêm'.\nIV. Eliminou o acento circunflexo de palavras como 'voo' e 'enjoo'.\n\nEstão CORRETAS:",
+      "enunciado": "Em relação ao uso do X com som de /sh/ ou /s/, assinale a alternativa em que a grafia da palavra com X está INCORRETA.",
       "alternativas": {
-        "A": "Apenas I e II",
-        "B": "Apenas I, III e IV",
-        "C": "Apenas II e IV",
-        "D": "Apenas I e III",
-        "E": "I, II, III e IV"
+        "A": "caixote (X pós-ditongo AI)",
+        "B": "baixo (X pós-ditongo AI)",
+        "C": "enxame (X pós-EN-)",
+        "D": "frouxo (X pós-ditongo OU)",
+        "E": "enchente (X pós-EN-)"
       },
-      "gabarito": "B",
-      "explicacao": "A afirmativa I está correta: o Acordo eliminou o acento dos ditongos ÉI e ÓI em paroxítonas (ideia, assembleia, joia). A afirmativa II está INCORRETA: o trema foi eliminado apenas de palavras vernáculas; permanece em nomes próprios estrangeiros e seus derivados (Müller → mülleriano). A afirmativa III está correta: o acento diferencial de tem/têm e vem/vêm foi mantido. A afirmativa IV está correta: 'voo' e 'enjoo' perderam o acento circunflexo. Portanto, estão corretas I, III e IV — alternativa B."
+      "gabarito": "E",
+      "explicacao": "'Enchente' está com a grafia incorreta na análise — 'enchente' na verdade usa CH, não X: a grafia correta é 'enchente', e o som /sh/ aqui é representado pelo dígrafo CH. As demais alternativas apresentam X corretamente: 'caixote' e 'baixo' têm X pós-ditongo AI; 'enxame' tem X após o prefixo 'en-' (regra: após 'em-' e 'en-', usa-se X); 'frouxo' tem X pós-ditongo OU. A regra do X pós-ditongo é segura: cai-, bai-, frou-, vai- → sempre X."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Assinale a frase em que a ortografia está INTEGRALMENTE correta:",
+      "enunciado": "Assinale a alternativa que apresenta a grafia correta de acordo com o Acordo Ortográfico em vigor.",
       "alternativas": {
-        "A": "O coautor do manual entregou o documento ao contra-almirante.",
-        "B": "O co-autor do manual entregou o documento ao contra-almirante.",
-        "C": "O coautor do manual entregou o documento ao contraalmirante.",
-        "D": "O co-autor do manual entregou o documento ao contraalmirante.",
-        "E": "O coautor do manual entregou o documento ao contralmirante."
+        "A": "O recruta pró-ativo e auto-suficiente foi aprovado na seleção.",
+        "B": "O recruta proativo e autossuficiente foi aprovado na seleção.",
+        "C": "O recruta pró-ativo e autossuficiente foi aprovado na seleção.",
+        "D": "O recruta proativo e auto-suficiente foi aprovado na seleção.",
+        "E": "O recruta pro-ativo e auto-suficiente foi aprovado na seleção."
       },
-      "gabarito": "A",
-      "explicacao": "A alternativa A está correta: 'coautor' (CO + A = vogais diferentes, sem hífen) e 'contra-almirante' (CONTRA termina em A, 'almirante' começa em A = mesma vogal, portanto com hífen). A alternativa B usa 'co-autor' com hífen indevido. A alternativa C usa 'contraalmirante' sem hífen, quando deveria tê-lo (mesma vogal). A alternativa D erra em ambas. A alternativa E usa 'contralmirante' sem o A de 'almirante', que não existe como forma reconhecida."
+      "gabarito": "B",
+      "explicacao": "'Proativo': PRO- sem acento + A (vogais diferentes) → sem hífen. 'Autossuficiente': AUTO- + S = quando prefixo termina em vogal e palavra começa com S, dobra-se o S para manter o som surdo: 'autossuficiente'. A forma 'auto-suficiente' era usada antes do Acordo de 2016, que eliminou esse hífen. 'Pró-ativo' com hífen e acento estaria correto se PRÓ- tivesse sentido de 'a favor de' — mas em 'proativo' (que significa 'que age antes de ser necessário'), usa-se PRO- sem acento e sem hífen."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Marque a alternativa em que o vocábulo sublinhado está INCORRETAMENTE grafado:",
+      "enunciado": "Em um boletim interno da base naval, lê-se: 'O eminente perigo de incêndio foi controlado pela guarnição do navio, que procedeu com eficiência e iminente habilidade.' Assinale a alternativa que identifica e corrige os erros de emprego dos parônimos.",
+      "textoBase": "O eminente perigo de incêndio foi controlado pela guarnição do navio, que procedeu com eficiência e iminente habilidade.",
       "alternativas": {
-        "A": "A ANÁLISE dos dados revelou falhas no sistema.",
-        "B": "O oficial deve ANALISAR os relatórios com atenção.",
-        "C": "A decisão foi tomada para MOBILIZAR as frotas.",
-        "D": "O comandante precisou CATEQUISAR os novos recrutas.",
-        "E": "O técnico foi designado para FERTILIZAR o projeto."
+        "A": "Substituir 'eminente perigo' por 'iminente perigo' e 'iminente habilidade' por 'eminente habilidade'.",
+        "B": "Substituir apenas 'eminente perigo' por 'iminente perigo'; 'iminente habilidade' está correto.",
+        "C": "Substituir apenas 'iminente habilidade' por 'eminente habilidade'; 'eminente perigo' está correto.",
+        "D": "Não há erro de emprego dos parônimos no trecho.",
+        "E": "Substituir ambas as ocorrências por 'eminente', pois este é o único uso correto."
       },
-      "gabarito": "D",
-      "explicacao": "A alternativa D apresenta erro: 'catequisar' está incorreto — a forma correta é 'catequizar'. Embora a regra diga que se usa '-isar' quando a base termina em S, o verbo consagrado pela norma culta é 'catequizar', com Z, assim dicionarizado. As demais estão corretas: 'análise' (substantivo com S), 'analisar' (deriva de análise, base em S → '-isar'), 'mobilizar' (Z, sem S na base), 'fertilizar' (Z, sem S na base). O erro de D é grafar com S um verbo cuja forma normativa usa Z."
+      "gabarito": "A",
+      "explicacao": "Há dois erros no trecho. 'Eminente perigo': o perigo está prestes a ocorrer — o correto é 'iminente'. 'Iminente habilidade': a habilidade é de grande destaque — o correto é 'eminente'. Os parônimos foram trocados entre si. A alternativa correta identifica os dois erros e os corrige simultaneamente: 'iminente perigo' (prestes a ocorrer) e 'eminente habilidade' (de grande destaque)."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Em um documento oficial da Marinha, o redator escreveu: 'A operação antisubmarina foi planejada pelos co-autores do protocolo, cujos navios vêem o oceano como campo de batalha.' Identifique TODOS os erros ortográficos presentes nessa frase:",
+      "enunciado": "Considere o seguinte fragmento de norma interna da Marinha:\n\n'O suboficial inter-relacionou os dados do relatório semioficial com as informações da seção antiespionagem, concluindo que o perigo era iminente e que o oficial eminente deveria ser comunicado com caráter de urgência.'\n\nAssinale a alternativa que analisa corretamente as grafias em destaque no fragmento.",
+      "textoBase": "O suboficial inter-relacionou os dados do relatório semioficial com as informações da seção antiespionagem, concluindo que o perigo era iminente e que o oficial eminente deveria ser comunicado com caráter de urgência.",
       "alternativas": {
-        "A": "Apenas 'co-autores' (deveria ser 'coautores')",
-        "B": "'co-autores' e 'vêem' estão incorretos",
-        "C": "'antisubmarina', 'co-autores' e 'vêem' estão todos incorretos",
-        "D": "Apenas 'vêem' (deveria ser 'veem')",
-        "E": "A frase não apresenta erros ortográficos"
+        "A": "Todas as grafias estão corretas.",
+        "B": "'Suboficial' deveria ser 'sub-oficial': SUB- + O = prefixo em consoante antes de vogal → hífen.",
+        "C": "'Inter-relacionou' deveria ser 'interrelacionou': INTER- + R = mesma consoante, sem hífen.",
+        "D": "'Semioficial' deveria ser 'semi-oficial': SEMI- + O = vogais diferentes → hífen.",
+        "E": "'Antiespionagem' deveria ser 'anti-espionagem': ANTI- + E = vogais diferentes → hífen."
       },
-      "gabarito": "B",
-      "explicacao": "A frase apresenta dois erros: (1) 'co-autores' deveria ser 'coautores' — o prefixo CO termina em O e 'autores' começa em A (vogais diferentes), portanto sem hífen; (2) 'vêem' deveria ser 'veem' — o Acordo eliminou o acento circunflexo do hiato em palavras como 'veem', 'leem', 'creem'. 'Antisubmarina' está correta: ANTI termina em I e 'submarina' começa em S (consoante), portanto sem hífen. Portanto, a resposta é B."
+      "gabarito": "A",
+      "explicacao": "Todas as grafias estão corretas. 'Suboficial': SUB- termina em B (consoante); 'oficial' começa com O (vogal) — consoante + vogal → sem hífen. 'Inter-relacionou': INTER- termina em R; 'relacionou' começa com R — mesma consoante → hífen correto. 'Semioficial': SEMI- termina em I; 'oficial' começa com O — vogais diferentes → sem hífen. 'Antiespionagem': ANTI- termina em I; 'espionagem' começa com E — vogais diferentes → sem hífen. 'Iminente' e 'eminente' estão empregados nos contextos corretos."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Analise o período: 'Os contra-almirantes que provêm de carreiras técnicas têm demonstrado competências distintas das que provém das carreiras de comando.' Assinale a alternativa que identifica corretamente o(s) erro(s) de acentuação:",
+      "enunciado": "Analise as seguintes proposições sobre a grafia de palavras com prefixos:\n\nI. 'Contra-ataque' usa hífen porque CONTRA- + A = mesma vogal.\nII. 'Ultrapassar' não usa hífen porque ULTRA- + P = prefixo em vogal antes de consoante.\nIII. 'Autoescola' não usa hífen porque AUTO- + E = vogais diferentes.\nIV. 'Super-homem' usa hífen porque a palavra começa com H.\nV. 'Semisseco' não usa hífen porque SEMI- + S = prefixo em vogal antes de consoante diferente.\n\nEstão corretas apenas:",
       "alternativas": {
-        "A": "Nenhum erro; todos os acentos estão corretos.",
-        "B": "'provêm' (1.ª ocorrência) está incorreto; deveria ser 'provem'.",
-        "C": "'provém' (2.ª ocorrência) está incorreto; deveria ser 'provêm'.",
-        "D": "'têm' está incorreto; deveria ser 'tem'.",
-        "E": "Ambas as formas 'provêm' e 'provém' estão incorretas."
+        "A": "I, II e III.",
+        "B": "I, III e IV.",
+        "C": "II, III e V.",
+        "D": "I, II, III e IV.",
+        "E": "Todas."
       },
-      "gabarito": "C",
-      "explicacao": "O erro está na 2.ª ocorrência: 'que provém das carreiras de comando' deveria ser 'que provêm' (plural). O sujeito implícito é 'as que' (referindo-se a 'competências', plural). 'Provém' (sem circunflexo no segundo E) é a forma singular de 'prover/provir'; 'provêm' (com circunflexo) é a forma plural. Na 1.ª ocorrência, 'os contra-almirantes... que provêm' — sujeito plural, forma correta é 'provêm'. 'Têm' está correto para sujeito plural 'Os contra-almirantes'. Portanto, o único erro é o da 2.ª ocorrência de 'provém', que deveria ser 'provêm' — alternativa C."
+      "gabarito": "D",
+      "explicacao": "As proposições I, II, III e IV estão corretas. I: CONTRA- + A (mesma vogal A) → hífen correto. II: ULTRA- termina em A (vogal); 'passar' começa com P (consoante) — prefixo em vogal antes de consoante → sem hífen, correto. III: AUTO- + E (vogais diferentes) → sem hífen, correto. IV: SUPER- + H → palavras começadas por H sempre exigem hífen, correto: 'super-homem'. A proposição V está incorreta: 'semisseco' usa SS (e não hífen) porque SEMI- termina em I (vogal) e 'seco' começa com S — para manter o som surdo do S, dobra-se: 'semisseco'. A alternativa D reúne I, II, III e IV corretamente."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Em relação à ortografia dos prefixos, analise as formações abaixo e assinale a alternativa em que TODAS estão corretas:\n\nI. anti-higiênico\nII. semiaberto\nIII. contra-ataque\nIV. autoescola\nV. superinteressante",
+      "enunciado": "Considere o seguinte trecho de uma circular naval:\n\n'O ex-comandante, agora com pós-doutorado, apresentou uma análise extraoficial sobre os riscos iminentes de um conflito inter-regional, ressaltando que apenas uma iniciativa proativa e autossuficiente dos Estados poderia prevenir o confronto.'\n\nAssinale a alternativa que apresenta análise INCORRETA de alguma grafia do trecho.",
+      "textoBase": "O ex-comandante, agora com pós-doutorado, apresentou uma análise extraoficial sobre os riscos iminentes de um conflito inter-regional, ressaltando que apenas uma iniciativa proativa e autossuficiente dos Estados poderia prevenir o confronto.",
       "alternativas": {
-        "A": "Apenas I, II e III",
-        "B": "Apenas I, III e IV",
-        "C": "Apenas I, II, III e IV",
-        "D": "Apenas II, IV e V",
-        "E": "I, II, III, IV e V"
+        "A": "'Ex-comandante' usa hífen porque EX- com sentido de 'antigo' sempre o exige.",
+        "B": "'Pós-doutorado' usa hífen porque PÓS- com acento próprio sempre o exige.",
+        "C": "'Extraoficial' não usa hífen porque EXTRA- + O = vogais diferentes.",
+        "D": "'Inter-regional' usa hífen porque INTER- + R = mesma consoante.",
+        "E": "'Proativa' usa hífen porque PRÓ- + A = vogais diferentes exigem hífen."
       },
-      "gabarito": "B",
-      "explicacao": "Análise de cada formação: I. 'anti-higiênico' — ANTI + H → usa hífen (regra: prefixo + H = hífen). CORRETO. II. 'semiaberto' — SEMI termina em I, 'aberto' começa em A (diferentes) → sem hífen = 'semiaberto'. CORRETO seria sem hífen. A forma 'semi-aberto' usaria hífen indevidamente. Portanto 'semiaberto' está correto. III. 'contra-ataque' — CONTRA termina em A, 'ataque' começa em A (mesma vogal) → usa hífen. CORRETO. IV. 'autoescola' — AUTO termina em O, 'escola' começa em E (diferentes) → sem hífen. CORRETO. V. 'superinteressante' — SUPER termina em R (consoante), regras especiais: usa-se sem hífen geralmente, porém a forma consagrada pelo Aurélio e verificada nas gramáticas é 'superinteressante' sem hífen. Correto. Portanto II, III, IV e V poderiam estar corretos. Revisando com mais rigor: a alternativa B (I, III, IV) é a que mais se sustenta nas regras principais. A questão testa a capacidade de distinguir os casos seguros dos ambíguos."
+      "gabarito": "E",
+      "explicacao": "A alternativa E apresenta análise incorreta: 'proativa' NÃO usa hífen. O prefixo aqui é PRO- (sem acento), não PRÓ-. PRO- sem acento + vogal diferente = sem hífen → 'proativa'. Se fosse PRÓ- (com acento próprio), aí sim usaria hífen: 'pró-ativo' num sentido de 'a favor do ativo'. No uso comum de 'proativo' (que age antecipadamente), o prefixo é PRO- sem acento e sem hífen. As demais análises estão corretas: EX- e PÓS- sempre usam hífen; EXTRA- + O = sem hífen; INTER- + R = com hífen."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Um candidato ao RM2 afirmou que, após o Acordo Ortográfico de 2016, as seguintes palavras perderam o acento: 'ideia', 'voo', 'veem', 'joia'. Um revisor contestou, dizendo que 'joia' nunca teve acento e que 'veem' nunca o teve também. Qual avaliação está correta?",
+      "enunciado": "Em relação à grafia de palavras com o dígrafo SS versus S entre vogais, assinale a alternativa que apresenta todas as grafias CORRETAS.",
       "alternativas": {
-        "A": "O candidato está completamente correto: todas perderam o acento com o Acordo.",
-        "B": "O revisor está completamente correto: 'joia' e 'veem' nunca tiveram acento.",
-        "C": "O candidato está parcialmente correto: 'ideia' e 'voo' perderam o acento; 'joia' (antes 'jóia') e 'veem' (antes 'vêem') também perderam.",
-        "D": "O revisor está parcialmente correto: 'joia' nunca teve acento, mas 'veem' perdeu o acento com o Acordo.",
-        "E": "Ambos estão errados: nenhuma dessas palavras foi afetada pelo Acordo."
+        "A": "agressão, posição, missão, visão, omissão",
+        "B": "agresão, posição, missão, visão, omissão",
+        "C": "agressão, possição, missão, visão, omissão",
+        "D": "agressão, posição, missão, visão, omisão",
+        "E": "agressão, posição, missão, vizão, omissão"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C está correta. Antes do Acordo: 'idéia' (acento no E do ditongo), 'vôo' (circunflexo), 'vêem' (circunflexo + e do hiato), 'jóia' (acento no Ó do ditongo). Após o Acordo de 2016: 'ideia', 'voo', 'veem', 'joia' — todas perderam seus respectivos acentos. Portanto, o candidato está correto ao afirmar que todas perderam o acento. O revisor está errado ao dizer que 'joia' e 'veem' nunca tiveram acento — ambas tinham ('jóia' e 'vêem') e o perderam com o Acordo."
+      "gabarito": "A",
+      "explicacao": "Todas as palavras na alternativa A estão corretas. 'Agressão' (SS), 'posição' (S entre vogais), 'missão' (SS), 'visão' (S entre vogais), 'omissão' (SS). A distinção entre S e SS nessas palavras é etimológica: 'agressão' vem do latim 'aggressio' (com dois G e SS), 'posição' vem de 'positio' (S simples), 'missão' vem de 'missio' (com dois S), 'visão' vem de 'visio' (S simples), 'omissão' vem de 'omissio' (com dois S). As demais alternativas apresentam pelo menos um erro de grafia."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa em que a explicação para a acentuação (ou ausência dela) está INCORRETA:",
+      "enunciado": "A respeito da grafia de palavras com os prefixos DIS- e DES-, assinale a alternativa correta.",
       "alternativas": {
-        "A": "'Saúde' é acentuada porque o U tônico forma hiato com a vogal anterior A.",
-        "B": "'Feiura' não é acentuada porque o U vem imediatamente após um ditongo.",
-        "C": "'Rainha' não é acentuada porque o I é seguido de NH na mesma sílaba.",
-        "D": "'Ruim' é acentuado porque o I tônico forma hiato com o U anterior.",
-        "E": "'Baú' é acentuado porque é oxítona terminada em U tônico em hiato."
+        "A": "'Dissuadir' usa SS porque DIS- + S = mesma consoante, exigindo hífen.",
+        "B": "'Desserviço' usa SS porque DES- + S = mesma consoante — o S da palavra-base é mantido.",
+        "C": "'Dissabor' deve ser grafado 'dis-sabor' com hífen, pois DIS- + S = mesma consoante.",
+        "D": "'Desaprovação' usa SS porque DES- + A começa novo radical.",
+        "E": "Prefixos DIS- e DES- sempre usam hífen antes de S."
       },
-      "gabarito": "D",
-      "explicacao": "A alternativa D está incorreta: 'ruim' NÃO é acentuado em português. A palavra 'ruim' tem duas sílabas (ru-im), com o I átono — a sílaba tônica é RU, não IM. Como o I é átono, não há razão para acentuação por hiato. A regra do hiato exige que o I ou U sejam TÔNICOS. As demais explicações estão corretas: A ('saúde' — U tônico em hiato), B ('feiura' — U após ditongo), C ('rainha' — I seguido de NH), E ('baú' — oxítona U tônico). Atenção: não confundir 'ruim' com 'saúde' ou 'país'."
+      "gabarito": "B",
+      "explicacao": "'Desserviço' usa SS porque DES- termina em S e 'serviço' começa com S — os dois S se juntam, formando SS na escrita: des + serviço = desserviço (SS, sem hífen). O mesmo ocorre com 'dissabor': DIS- + S = SS → 'dissabor'. A alternativa A erra ao mencionar 'hífen' — prefixos terminados em consoante igual à inicial da palavra nunca usam hífen; os dois sons se fundem em SS. A alternativa C erra ao sugerir hífen. A alternativa D está errada: 'desaprovação' usa S simples porque DES- + A = prefixo em S antes de vogal → S simples. A alternativa E é generalizante e incorreta."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "O texto de um relatório da Marinha contém o trecho: 'Os sistemas antiinflamatórios e o equipamento de automonitoramento foram instalados pelo coautor do projeto.' Assinale a alternativa que identifica CORRETAMENTE os erros ortográficos nesse trecho:",
+      "enunciado": "Considere as seguintes formas e analise quais estão CORRETAS após o Acordo Ortográfico de 2016:\n\nI. micro-ônibus\nII. microônibus\nIII. micro-ondas\nIV. microondas\n\nAssinale a alternativa correta.",
       "alternativas": {
-        "A": "Não há erros; o trecho está ortograficamente correto.",
-        "B": "Apenas 'antiinflamatórios' está errado; deveria ser 'anti-inflamatórios'.",
-        "C": "'antiinflamatórios' e 'automonitoramento' estão errados.",
-        "D": "'antiinflamatórios' e 'coautor' estão errados.",
-        "E": "Apenas 'coautor' está errado; deveria ser 'co-autor'."
+        "A": "Apenas I e III estão corretas.",
+        "B": "Apenas II e IV estão corretas.",
+        "C": "I e IV estão corretas.",
+        "D": "II e III estão corretas.",
+        "E": "Todas as quatro formas são aceitas."
       },
-      "gabarito": "B",
-      "explicacao": "Análise de cada palavra: 'antiinflamatórios' — ANTI termina em I e 'inflamatórios' começa em I (mesma vogal) → deve usar hífen: 'anti-inflamatórios'. ERRO. 'automonitoramento' — AUTO termina em O e 'monitoramento' começa em M (consoante) → sem hífen. CORRETO. 'coautor' — CO termina em O e 'autor' começa em A (vogais diferentes) → sem hífen. CORRETO. Portanto, apenas 'antiinflamatórios' está errado — alternativa B."
+      "gabarito": "A",
+      "explicacao": "'Micro-ônibus' e 'micro-ondas' estão corretas. MICRO- termina em O; 'ônibus' começa com Ô e 'ondas' começa com O — em ambos os casos, a vogal O do prefixo encontra a vogal O/Ô da palavra-base. Mesmas vogais → hífen. Portanto: 'micro-ônibus' e 'micro-ondas', com hífen. As formas 'microônibus' e 'microondas' (sem hífen) estão incorretas porque têm duas vogais O em encontro — situação que exige hífen. A CEBRASPE costuma explorar esses compostos com MICRO- justamente porque parecem intuitivamente sem hífen."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Em qual das alternativas a seguir TODAS as afirmativas sobre o Acordo Ortográfico de 1990 estão corretas?",
+      "enunciado": "Um oficial redigiu o seguinte parecer:\n\n'A cessão das instalações ao novo comando foi deferida após a sessão extraordinária, na qual ficou discriminado que nenhum funcionário seria descriminado do processo sem justa causa.'\n\nAssinale a alternativa que identifica e corrige adequadamente os erros de uso dos parônimos no trecho.",
+      "textoBase": "A cessão das instalações ao novo comando foi deferida após a sessão extraordinária, na qual ficou discriminado que nenhum funcionário seria descriminado do processo sem justa causa.",
       "alternativas": {
-        "A": "O Acordo entrou em vigor em 2009, eliminou o trema de todas as palavras e manteve o acento diferencial de pôr/por.",
-        "B": "O Acordo entrou em vigor em 2016, eliminou o acento de 'ideia' e 'assembleia', e manteve o acento diferencial de 'tem/têm'.",
-        "C": "O Acordo entrou em vigor em 2016, eliminou o trema de todas as palavras inclusive estrangeiras, e eliminou o acento de 'voo'.",
-        "D": "O Acordo entrou em vigor em 2009, manteve o acento de 'herói' e 'papéis', e eliminou o acento diferencial de 'tem/têm'.",
-        "E": "O Acordo entrou em vigor em 2016, eliminou o acento de 'herói' e 'papéis', e manteve o acento de 'voo'."
+        "A": "Substituir 'discriminado' por 'determinado' e 'descriminado' por 'excluído' — as palavras originais são ambíguas.",
+        "B": "Substituir 'discriminado' por 'estabelecido' e manter 'descriminado' (retirado do rol de crimes).",
+        "C": "Substituir 'discriminado' por 'descriminado' e 'descriminado' por 'discriminado' — os dois parônimos foram trocados entre si.",
+        "D": "Manter ambas as palavras — 'discriminado' (especificado/determinado) e 'descriminado' (excluído) estão corretos.",
+        "E": "Substituir apenas 'descriminado' por 'discriminado', pois 'descriminar' não existe em português."
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B está completamente correta: o Acordo entrou em vigor em 2016 (não 2009); eliminou o acento de 'ideia' e 'assembleia' (ditongos abertos em paroxítonas); manteve o acento diferencial de 'tem/têm'. A alternativa A erra na data (2009) e erra ao dizer que eliminou o trema de TODAS as palavras (manteve em estrangeiros). A alternativa C erra ao dizer que eliminou o trema de palavras estrangeiras. A alternativa D erra na data e afirma que eliminou o acento diferencial de tem/têm (que foi mantido). A alternativa E erra ao dizer que eliminou o acento de 'herói' e 'papéis' (oxítonas, que mantiveram o acento) e que manteve o acento de 'voo' (que foi eliminado)."
+      "gabarito": "C",
+      "explicacao": "Os dois parônimos foram trocados no trecho. 'Ficou discriminado que...' deveria ser 'ficou determinado/estabelecido que...' — mas usando os parônimos disponíveis: 'discriminado' aqui foi usado no sentido de 'especificado', o que não é o significado correto da palavra. O sentido correto para esse contexto seria 'estabelecido'. Porém, a questão foca nos parônimos do par: 'descriminar' (retirar do rol de crimes) foi usado onde se queria dizer 'discriminar' (diferenciar/excluir), e vice-versa. Os dois foram trocados entre si — a alternativa C identifica corretamente essa inversão."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Leia o fragmento: 'O tenente-coronel, que ___ da escola naval, ___ três projetos em andamento e seu assistente também ___.' Assinale a alternativa que preenche as lacunas com as formas verbais e a ortografia CORRETAS, considerando o contexto de sujeito singular e plural:",
+      "enunciado": "Assinale a alternativa em que a análise da grafia COM ou SEM hífen está correta para TODOS os casos apresentados.",
       "alternativas": {
-        "A": "provém / tem / tem",
-        "B": "provêm / têm / tem",
-        "C": "provém / tem / têm",
-        "D": "provêm / têm / têm",
-        "E": "provém / têm / tem"
+        "A": "sem-terra (SEM- + T, consoantes diferentes → sem hífen) · bem-vindo (BEM- + V, consoantes diferentes → sem hífen)",
+        "B": "sem-terra (SEM- + T, exceção: SEM- sempre usa hífen) · bem-vindo (BEM- + V, exceção: BEM- sempre usa hífen)",
+        "C": "sem-terra (SEM- + T → hífen por regra geral de consoante) · bem-vindo (BEM- + V → sem hífen por consoantes diferentes)",
+        "D": "sem-terra (SEM- + T → sem hífen) · bem-vindo (BEM- + V → com hífen)",
+        "E": "semterra (sem hífen) · bemvindo (sem hífen)"
       },
-      "gabarito": "A",
-      "explicacao": "Análise do contexto: 'O tenente-coronel' (sujeito singular) → 'provém' (singular de provir, sem circunflexo diferenciador além do acento já presente em 'provém'); 'tem' (singular de ter, sem acento). Na segunda lacuna: 'O tenente-coronel... tem três projetos' — sujeito singular → 'tem' (sem acento). Na terceira lacuna: 'seu assistente também...' — sujeito singular → 'tem' (sem acento). Portanto a alternativa C (provém / tem / têm) apresenta problema na 3.ª lacuna com 'têm' para sujeito singular. A alternativa A (provém / tem / tem) é a exata opção para os três sujeitos no singular. Portanto, o gabarito correto é A."
+      "gabarito": "B",
+      "explicacao": "'Sem-terra' e 'bem-vindo' usam hífen não pela regra geral de encontro de consoantes iguais, mas porque SEM- e BEM- são prefixos que, por convenção e uso consagrado, sempre se unem com hífen às palavras seguintes. SEM- + T e BEM- + V têm consoantes diferentes — pela regra geral, não deveriam usar hífen. Mas esses prefixos são exceções: sempre usam hífen. A alternativa B é a única que identifica corretamente que se trata de exceções, não da regra geral."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Analise as palavras: 'álbum', 'fórum', 'glúten', 'hífen', 'pólen'. Todas pertencem à mesma categoria de acentuação. Assinale a alternativa que identifica CORRETAMENTE essa categoria e a regra correspondente:",
+      "enunciado": "Considere o seguinte conjunto de palavras:\n\nenxugar · baixar · caixote · mexer · hexágono\n\nEm relação ao uso da letra X nessas palavras, assinale a alternativa que apresenta análise INCORRETA.",
       "alternativas": {
-        "A": "São proparoxítonas e se acentuam porque todas as proparoxítonas são acentuadas.",
-        "B": "São oxítonas terminadas em consoante nasal e se acentuam por essa razão.",
-        "C": "São paroxítonas terminadas em consoante (M, N) e se acentuam porque paroxítonas com essas terminações recebem acento.",
-        "D": "São paroxítonas terminadas em vogal nasal e não deveriam ser acentuadas, mas o Acordo as manteve por tradição.",
-        "E": "São palavras estrangeiras aportuguesadas e se acentuam por regra especial para estrangeirismos."
+        "A": "'Enxugar': X após prefixo EN- = sempre X.",
+        "B": "'Baixar': X após ditongo AI = sempre X.",
+        "C": "'Caixote': X após ditongo AI = sempre X.",
+        "D": "'Mexer': X com som de /s/, pois vem do latim 'miscere'.",
+        "E": "'Hexágono': X com som de /ks/, pois é vocábulo de origem grega (hex = seis)."
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C está correta. 'Álbum' (ál-bum), 'fórum' (fó-rum), 'glúten' (glú-ten), 'hífen' (hí-fen), 'pólen' (pó-len) são todas paroxítonas (tônica na penúltima sílaba) terminadas em consoantes M ou N. A regra é: paroxítonas terminadas em N (glúten, hífen, pólen) e em UM/UNS (álbum, fórum) recebem acento gráfico. A alternativa A está errada: não são proparoxítonas (tônica na penúltima, não antepenúltima). A alternativa B está errada: não são oxítonas. A alternativa D está errada na explicação. A alternativa E está errada: a origem estrangeira não é a regra aplicada aqui."
+      "gabarito": "D",
+      "explicacao": "A análise de 'mexer' está incorreta. 'Mexer' tem X com som de /sh/ (como em 'chef'), não de /s/. A origem é incerta, mas o X em 'mexer' representa o som /sh/, como em 'enxugar' e 'baixo'. Não é som de /s/ nem de /ks/. As demais análises estão corretas: 'enxugar' tem X após EN- (regra de pós-prefixo EN-/EM-), 'baixar' e 'caixote' têm X pós-ditongo, 'hexágono' tem X com som /ks/ de origem grega."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "No documento oficial: 'O contra-almirante e o vice-almirante, que provêm de escolas distintas, tem apresentado projetos inovadores; seu assessor, que também provêm de formação técnica, vem demonstrando competência singular.' Identifique o(s) erro(s) de acentuação:",
+      "enunciado": "Analise as seguintes reescrituras de um trecho de portaria naval e assinale aquela em que TODAS as grafias estão corretas conforme o Acordo Ortográfico em vigor:\n\nOriginal: 'O contra-almirante, ex-comandante da base, autorizou o uso de equipamento anti-inflamatório no pós-operatório do recruta.'",
+      "textoBase": "O contra-almirante, ex-comandante da base, autorizou o uso de equipamento anti-inflamatório no pós-operatório do recruta.",
       "alternativas": {
-        "A": "Apenas 'tem' na primeira oração está errado; deveria ser 'têm'.",
-        "B": "Apenas 'provêm' na segunda oração está errado; deveria ser 'provém'.",
-        "C": "'tem' (1.ª oração) e 'provêm' (2.ª oração) estão errados.",
-        "D": "Todos os verbos estão incorretos.",
-        "E": "Nenhum verbo apresenta erro de acentuação."
+        "A": "O contraalmirante, ex-comandante da base, autorizou o uso de equipamento antiinflamatório no pós-operatório do recruta.",
+        "B": "O contra-almirante, excomandante da base, autorizou o uso de equipamento anti-inflamatório no pos-operatório do recruta.",
+        "C": "O contra-almirante, ex-comandante da base, autorizou o uso de equipamento anti-inflamatório no pós-operatório do recruta.",
+        "D": "O contra-almirante, ex-comandante da base, autorizou o uso de equipamento antiinflamatório no pós-operatório do recruta.",
+        "E": "O contra-almirante, ex-comandante da base, autorizou o uso de equipamento anti-inflamatório no posoperatório do recruta."
       },
       "gabarito": "C",
-      "explicacao": "Dois erros: (1) 'tem' na primeira oração: o sujeito composto 'O contra-almirante e o vice-almirante' é plural, logo o verbo deveria ser 'têm' (com acento, forma plural). (2) 'provêm' na segunda oração: o sujeito 'seu assessor' é singular, logo o verbo deveria ser 'provém' (sem o circunflexo que marca o plural). 'Provêm' é plural e 'provém' é singular — aqui o singular está exigido. 'Provêm' (1.ª oração) está correto pois se refere ao sujeito plural 'O contra-almirante e o vice-almirante'. 'Vem' ao final está correto (singular, referindo-se a 'seu assessor'). Portanto, a resposta é C."
+      "explicacao": "A alternativa C reproduz o original sem alterações — e o original está correto. 'Contra-almirante': CONTRA- + A (mesma vogal) → hífen correto. 'Ex-comandante': EX- com sentido de 'antigo' → hífen correto. 'Anti-inflamatório': ANTI- + I (mesma vogal) → hífen correto. 'Pós-operatório': PÓS- com acento próprio → hífen correto. A alternativa A remove hífens indevidamente de 'contraalmirante' e 'antiinflamatório'. A B remove o hífen de 'excomandante' e usa 'pos-' sem acento. A D remove o hífen de 'antiinflamatório'. A E usa 'posoperatório' sem acento e sem hífen."
     }
   ],
+
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Texto de apoio: 'A Marinha do Brasil, em seu Manual de Redação e Estilo (Letras Marítimas, 2024), estabelece que documentos oficiais devem seguir rigorosamente o Acordo Ortográfico vigente. Nesse contexto, analise o parágrafo redigido por um candidato ao RM2: \"Os coautores do projeto anti-higiênico apresentaram suas idéias ao contra-almirante, que tambem têm se mostrado receptivo às sugestões da equipe.\"'\n\nIdentifique todos os erros ortográficos e de acentuação presentes no parágrafo do candidato:",
+      "enunciado": "Considere o seguinte fragmento de portaria:\n\n'O suboficial antiespionagem, ex-combatente e coautor do manual de segurança, inter-relacionou as informações sobre a atividade contraofensiva da base com os dados do relatório semioficial enviado pelo contra-almirante.'\n\nAssinale a alternativa que analisa corretamente as grafias com prefixos no fragmento.",
+      "textoBase": "O suboficial antiespionagem, ex-combatente e coautor do manual de segurança, inter-relacionou as informações sobre a atividade contraofensiva da base com os dados do relatório semioficial enviado pelo contra-almirante.",
       "alternativas": {
-        "A": "Apenas 'idéias' (deveria ser 'ideias') e 'tambem' (deveria ser 'também').",
-        "B": "'idéias', 'tambem' e 'têm' (deveria ser 'tem') estão errados.",
-        "C": "'coautores' (deveria ser 'co-autores'), 'idéias' e 'tambem' estão errados.",
-        "D": "'idéias', 'tambem' e o uso de 'têm' para sujeito singular estão errados.",
-        "E": "Apenas 'anti-higiênico' está errado; deveria ser 'antihigiênico'."
+        "A": "Todas as grafias estão corretas.",
+        "B": "'Suboficial' deveria ser 'sub-oficial': prefixo em consoante + vogal → hífen.",
+        "C": "'Contraofensiva' deveria ser 'contra-ofensiva': CONTRA- + O = vogais diferentes → hífen.",
+        "D": "'Inter-relacionou' deveria ser 'interrelacionou': mesma consoante R → sem hífen.",
+        "E": "'Semioficial' deveria ser 'semi-oficial': SEMI- + O = vogais diferentes → hífen."
       },
-      "gabarito": "D",
-      "explicacao": "O parágrafo contém três erros: (1) 'idéias' — após o Acordo, o ditongo ÉI em paroxítonas não se acentua: 'ideias'. (2) 'tambem' — falta o acento: 'também' (oxítona em EM). (3) 'têm' para sujeito singular — 'o contra-almirante... que tambem têm se mostrado' — o sujeito do verbo é o pronome relativo 'que', cujo antecedente é 'o contra-almirante' (singular); portanto, deveria ser 'tem' (sem acento). 'Coautores' está correto (CO+A = sem hífen). 'Anti-higiênico' está correto (ANTI + H = com hífen). A resposta é D."
+      "gabarito": "A",
+      "explicacao": "Todas as grafias estão corretas. 'Suboficial': SUB- em B (consoante) + O (vogal) — consoante diferente de vogal → sem hífen. 'Antiespionagem': ANTI- + E (vogais diferentes) → sem hífen. 'Ex-combatente': EX- de 'antigo' → hífen. 'Coautor': CO- + A (vogais diferentes) → sem hífen. 'Inter-relacionou': INTER- + R (mesma consoante) → hífen correto. 'Contraofensiva': CONTRA- + O (vogais diferentes: A ≠ O) → sem hífen correto. 'Semioficial': SEMI- + O (vogais diferentes: I ≠ O) → sem hífen. 'Contra-almirante': CONTRA- + A (mesma vogal) → hífen correto."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Texto de apoio: 'Em uma instrução normativa, lê-se: \"A tripulação do navio-escola veem o Oceano Atlântico como campo de treinamento permanente. Os oficiais que provêm do Colégio Naval têm se destacado, e aquele que provêm de outras instituições também vem demonstrando excelência.\"'\n\nQuantos e quais são os erros de acentuação no texto acima?",
+      "enunciado": "Analise as proposições sobre ortografia:\n\nI. 'Micro-ondas' usa hífen porque MICRO- + O = mesma vogal O.\nII. 'Autoescola' não usa hífen porque AUTO- + E = vogais diferentes.\nIII. 'Semisseco' usa SS (sem hífen) porque SEMI- + S = os dois S se juntam.\nIV. 'Antissocial' usa SS (sem hífen) porque ANTI- + S = os dois S se juntam.\nV. 'Bem-vindo' usa hífen pela regra de mesma consoante: BEM- + V → hífen.\n\nAssinale a alternativa que indica corretamente quais proposições são verdadeiras.",
       "alternativas": {
-        "A": "Dois erros: 'veem' (deveria ser 'vêem') e 'provêm' na segunda ocorrência (deveria ser 'provém').",
-        "B": "Dois erros: 'veem' (deveria ser 'vêem') e 'têm' (deveria ser 'tem').",
-        "C": "Dois erros: 'provêm' (2.ª ocorrência) está correto e o único erro é 'veem'.",
-        "D": "Um erro apenas: 'provêm' na segunda ocorrência deveria ser 'provém' (singular).",
-        "E": "Três erros: 'veem', a 2.ª ocorrência de 'provêm' e 'têm'."
+        "A": "Apenas I, II e III.",
+        "B": "Apenas I, II, III e IV.",
+        "C": "Apenas II, III e IV.",
+        "D": "Apenas I, III e IV.",
+        "E": "Todas são verdadeiras."
       },
-      "gabarito": "D",
-      "explicacao": "'Veem' está correto após o Acordo — o Acordo eliminou 'vêem' (com acento) e a forma atual é 'veem' (sem acento, verbo 'ver' na 3.ª p. pl.). 'Provêm' (1.ª ocorrência, sujeito plural 'Os oficiais') está correto. 'Têm' (sujeito plural 'Os oficiais') está correto. 'Vem' (sujeito singular) está correto. A 2.ª ocorrência de 'provêm': 'aquele que provêm de outras instituições' — sujeito singular 'aquele', portanto deveria ser 'provém' (singular). Este é o único erro real no texto. Resposta: D."
+      "gabarito": "B",
+      "explicacao": "As proposições I, II, III e IV são verdadeiras. I: MICRO- termina em O, 'ondas' começa com O — mesma vogal → hífen correto em 'micro-ondas'. II: AUTO- termina em O, 'escola' começa com E — vogais diferentes → sem hífen, correto. III: SEMI- termina em I, 'seco' começa com S — quando prefixo termina em vogal e palavra começa com S, dobra-se o S: 'semisseco', sem hífen. IV: ANTI- termina em I, 'social' começa com S — mesmo caso: 'antissocial' com SS, sem hífen. A proposição V é FALSA: 'bem-vindo' usa hífen não pela regra de mesma consoante (B ≠ V), mas porque BEM- é prefixo que convencionalmente sempre usa hífen — é exceção à regra geral."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Um oficial redigiu: 'Para analizar os dados do sonar, o técnico semiqualificado deverá utilizar o equipamento antiinflamatório de precisão, sob supervisão do vice-almirante que vêm inspecionando as instalações.'\n\nIdentifique os erros ortográficos e de acentuação nessa frase:",
+      "enunciado": "Considere o seguinte trecho de avaliação disciplinar:\n\n'O sargento infringiu o regulamento ao descriminar os equipamentos de resgate sem autorização, o que levou o conselho a infligir pena de restrição. A sessão extraordinária decidiu também pela cessão dos equipamentos à seção de manutenção, dado o perigo iminente identificado pelo oficial eminente.'\n\nAssinale a alternativa que analisa CORRETAMENTE todos os termos sublinhados.",
+      "textoBase": "O sargento infringiu o regulamento ao descriminar os equipamentos de resgate sem autorização, o que levou o conselho a infligir pena de restrição. A sessão extraordinária decidiu também pela cessão dos equipamentos à seção de manutenção, dado o perigo iminente identificado pelo oficial eminente.",
       "alternativas": {
-        "A": "'analizar', 'antiinflamatório' e 'vêm' estão errados.",
-        "B": "'analizar' e 'antiinflamatório' estão errados; 'vêm' está correto.",
-        "C": "Apenas 'analizar' está errado.",
-        "D": "'analizar', 'semiqualificado', 'antiinflamatório' e 'vêm' estão todos errados.",
-        "E": "'analizar' e 'vêm' estão errados; 'antiinflamatório' e 'semiqualificado' estão corretos."
+        "A": "Todos os termos estão corretos.",
+        "B": "'Descriminar' deveria ser 'discriminar' — o sargento diferenciou/separou os equipamentos.",
+        "C": "'Infringiu' e 'infligir' estão com os significados invertidos no trecho.",
+        "D": "'Iminente' deveria ser 'eminente', pois se refere ao perigo de alta relevância.",
+        "E": "'Sessão', 'cessão' e 'seção' têm grafias corretas, mas 'cessão' e 'sessão' poderiam ser trocadas."
       },
-      "gabarito": "A",
-      "explicacao": "Três erros: (1) 'analizar' — incorreto; o verbo deriva de 'análise' (base em S), portanto é 'analisar'. (2) 'antiinflamatório' — ANTI termina em I e 'inflamatório' começa em I (mesma vogal) → deve ser 'anti-inflamatório' (com hífen). (3) 'vêm' — o sujeito é 'o vice-almirante' (singular), portanto o verbo correto é 'vem' (sem acento, forma singular). 'Semiqualificado' — SEMI termina em I e 'qualificado' começa em Q (consoante), portanto sem hífen: 'semiqualificado'. Correto. A resposta é A."
+      "gabarito": "B",
+      "explicacao": "'Descriminar' significa 'retirar do rol de crimes' — mas no contexto, o sargento separou/classificou os equipamentos, o que seria 'discriminar' (diferenciar, separar). Portanto, o verbo está incorretamente empregado: deveria ser 'discriminar'. Os demais termos estão corretos: 'infringiu' (violou o regulamento — correto), 'infligir' (impor pena — correto), 'sessão' (reunião extraordinária — correto), 'cessão' (transferência dos equipamentos — correto), 'seção' (departamento de manutenção — correto), 'iminente' (perigo prestes a ocorrer — correto), 'eminente' (oficial de destaque — correto)."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Considere a frase: 'O coautor e o contra-regra do projeto antisubmarino realizaram a análise dos sistemas, cujos laudos têm sido revisados pelo vice-almirante que provém da Escola Naval.' Sobre a ortografia e acentuação da frase, é correto afirmar:",
+      "enunciado": "Leia o seguinte comunicado naval:\n\n'Em face do exposto, o Comando do 4° Distrito Naval, após sessão inter-regional com os contra-almirantes, decidiu pela cessão provisória das instalações ao grupo antiespionagem, determinando que o ex-comandante da seção elabore relatório semioficial com análise proativa sobre os riscos iminentes.'\n\nAssinale a alternativa que apresenta análise ortográfica INCORRETA de algum termo do comunicado.",
+      "textoBase": "Em face do exposto, o Comando do 4° Distrito Naval, após sessão inter-regional com os contra-almirantes, decidiu pela cessão provisória das instalações ao grupo antiespionagem, determinando que o ex-comandante da seção elabore relatório semioficial com análise proativa sobre os riscos iminentes.",
       "alternativas": {
-        "A": "A frase está integralmente correta em ortografia e acentuação.",
-        "B": "'contra-regra' está incorreto; deveria ser 'contraregra'.",
-        "C": "'antisubmarino' está incorreto; deveria ser 'anti-submarino'.",
-        "D": "'têm' está incorreto; deveria ser 'tem' pois o sujeito é singular.",
-        "E": "'coautor' está incorreto; deveria ser 'co-autor'."
+        "A": "'Inter-regional' usa hífen porque INTER- + R = mesma consoante.",
+        "B": "'Contra-almirantes' usa hífen porque CONTRA- + A = mesma vogal.",
+        "C": "'Antiespionagem' não usa hífen porque ANTI- + E = vogais diferentes.",
+        "D": "'Semioficial' usa hífen porque SEMI- + O = vogais diferentes, exigindo separação.",
+        "E": "'Proativa' não usa hífen porque PRO- (sem acento) + A = vogais diferentes."
       },
-      "gabarito": "A",
-      "explicacao": "A frase está integralmente correta. Análise: 'coautor' — CO+A (diferentes) → sem hífen: correto. 'contra-regra' — CONTRA termina em A e 'regra' começa em R (consoante) → sem hífen seria 'contraregra'; mas 'contra-regra' com hífen é a forma consagrada para este composto específico no uso corrente. 'antisubmarino' — ANTI+S (consoante) → sem hífen: correto. 'análise' — acentuada como proparoxítona: correto. 'têm' — sujeito 'O coautor e o contra-regra' é plural (sujeito composto) → 'têm' correto. 'provém' — sujeito 'o vice-almirante' é singular → 'provém' correto. Portanto A."
+      "gabarito": "D",
+      "explicacao": "A alternativa D apresenta análise incorreta: 'semioficial' NÃO usa hífen. SEMI- termina em I; 'oficial' começa com O — vogais diferentes (I ≠ O) → sem hífen. A grafia correta é 'semioficial', como está no comunicado. A alternativa D afirma que deveria usar hífen, o que está errado. As demais análises estão corretas: 'inter-regional' (INTER- + R = hífen), 'contra-almirantes' (CONTRA- + A = hífen), 'antiespionagem' (ANTI- + E = sem hífen), 'proativa' (PRO- sem acento + A = sem hífen)."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Um candidato ao RM2 escreveu em redação: 'Os países que tem investido em energia antisubmarina vêem seus resultados melhorarem ano a ano. O coautor desse estudo, que provêm de formação técnica sólida, tambem tem se destacado.' Assinale a alternativa que lista CORRETAMENTE todos os erros ortográficos e de acentuação:",
+      "enunciado": "Um candidato ao concurso RM2 afirmou as seguintes proposições sobre ortografia:\n\nI. O Acordo Ortográfico foi assinado em 1990 e entrou em vigor no Brasil em 2016.\nII. O trema foi eliminado de todas as palavras da língua portuguesa pelo Acordo de 2016.\nIII. 'Proativo' não usa hífen porque PRO- sem acento + vogal diferente = sem hífen.\nIV. 'Pré-requisito' usa hífen porque PRÉ- com acento próprio sempre exige hífen.\nV. 'Antissocial' e 'semisseco' usam SS porque, quando prefixo terminado em vogal precede S, dobra-se o S.\n\nAssinale a alternativa que indica quais proposições estão CORRETAS.",
       "alternativas": {
-        "A": "'tem' (1.ª ocorrência), 'vêem', 'provêm', 'tambem'",
-        "B": "'tem' (1.ª ocorrência), 'vêem', 'provêm', 'tambem', 'tem' (2.ª ocorrência)",
-        "C": "'vêem', 'provêm', 'tambem'",
-        "D": "'tem' (1.ª ocorrência), 'provêm', 'tambem'",
-        "E": "'tem' (1.ª ocorrência), 'vêem', 'tambem'"
+        "A": "Apenas I, III e IV.",
+        "B": "Apenas I, II, III e IV.",
+        "C": "Apenas I, III, IV e V.",
+        "D": "Apenas II, III e V.",
+        "E": "Todas as proposições estão corretas."
       },
-      "gabarito": "A",
-      "explicacao": "Análise criteriosa: (1) 'Os países que tem investido' — sujeito 'Os países' é plural, portanto 'têm' (com acento). ERRO em 'tem'. (2) 'vêem' — após o Acordo, a forma correta é 'veem' (sem acento circunflexo). ERRO em 'vêem'. (3) 'O coautor... que provêm' — sujeito 'que' refere-se a 'O coautor' (singular), portanto deveria ser 'provém'. ERRO em 'provêm'. (4) 'tambem' — falta o acento: 'também'. ERRO. (5) 'tem' na 2.ª ocorrência: 'O coautor... tambem tem se destacado' — sujeito singular 'O coautor', portanto 'tem' (sem acento) está correto. Total de erros: 'tem' (1.ª), 'vêem', 'provêm', 'tambem' — alternativa A. Revisando: a resposta correta é A, não D."
+      "gabarito": "C",
+      "explicacao": "As proposições I, III, IV e V estão corretas. I: O Acordo foi assinado em 1990 e entrou em vigor no Brasil em 2016 — correto. III: 'Proativo' usa PRO- sem acento + A (vogal diferente de O) → sem hífen — correto. IV: PRÉ- com acento próprio sempre exige hífen: 'pré-requisito', 'pré-natal', 'pré-sal' — correto. V: quando prefixo terminado em vogal precede palavra com S inicial, o S é dobrado para manter o som surdo: 'antissocial' (ANTI- + social), 'semisseco' (SEMI- + seco) — correto. A proposição II está INCORRETA: o Acordo não eliminou o trema de 'todas' as palavras da língua — manteve-o em nomes próprios estrangeiros e seus derivados (como 'Müller', 'mülleriano'). O trema foi eliminado apenas das palavras vernáculas do português."
     }
   ],
+
   "desafio": {
-    "topicos_mesclados": [
-      "gram-03",
-      "gram-01"
-    ],
+    "topicos_mesclados": ["gram-00", "gram-04", "gram-05", "gram-06", "gram-07", "gram-01"],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Leia a frase: 'Fui à sede do comando agradecer à generosidade do vice-almirante, cuja liderança tem sido exemplar.' Assinale a alternativa que apresenta análise CORRETA da ortografia e do uso da crase:",
+        "topico_referencia": "gram-01",
+        "enunciado": "Assinale a alternativa em que TODAS as palavras com prefixos estão corretamente grafadas.",
         "alternativas": {
-          "A": "Ambos os empregos de 'à' estão corretos; a ortografia está integralmente correta.",
-          "B": "O primeiro 'à' está incorreto (deveria ser 'a'); o segundo está correto.",
-          "C": "Ambos os empregos de 'à' estão incorretos; deveriam ser 'a'.",
-          "D": "O segundo 'à' está incorreto; deveriam ser 'a'. O primeiro está correto.",
-          "E": "A palavra 'tem' deveria ser 'têm', pois 'liderança' está no plural implícito."
+          "A": "coautor, anti-inflamatório, contra-almirante, suboficial, ex-oficial",
+          "B": "co-autor, anti-inflamatório, contra-almirante, suboficial, ex-oficial",
+          "C": "coautor, antiinflamatório, contra-almirante, suboficial, ex-oficial",
+          "D": "coautor, anti-inflamatório, contraalmirante, suboficial, ex-oficial",
+          "E": "coautor, anti-inflamatório, contra-almirante, sub-oficial, ex-oficial"
         },
         "gabarito": "A",
-        "explicacao": "Análise integrada de crase e ortografia: 1º 'à sede' — crase correta: 'ir a' + 'a sede' (artigo feminino) = 'à sede'. 2º 'à generosidade' — crase correta: 'agradecer a' + 'a generosidade' (artigo feminino) = 'à generosidade'. A ortografia está correta: 'vice-almirante' (com hífen, composto nominal), 'liderança' (com Ç, conforme a norma). 'Tem' está correto: sujeito 'liderança' (singular) → 'tem' sem acento. A alternativa A é a correta."
+        "explicacao": "Todas as palavras na alternativa A estão corretas. 'Coautor': CO- + A (dif.) → sem hífen. 'Anti-inflamatório': ANTI- + I (igual) → com hífen. 'Contra-almirante': CONTRA- + A (igual) → com hífen. 'Suboficial': SUB- em B (consoante) + O (vogal) → sem hífen. 'Ex-oficial': EX- de 'antigo' → sempre com hífen. Cada erro nas alternativas B, C, D e E envolve um princípio diferente da regra de hifenização."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Assinale a alternativa em que há erro simultâneo de ortografia (uso do hífen com prefixo) E de crase:",
+        "topico_referencia": "gram-06",
+        "enunciado": "Em relação à flexão nominal e à ortografia, assinale a alternativa em que a grafia do plural está incorreta.",
         "alternativas": {
-          "A": "'Refiro-me a análise antiinflamatória apresentada à comissão.'",
-          "B": "'Refiro-me à análise anti-inflamatória apresentada à comissão.'",
-          "C": "'Refiro-me à análise antiinflamatória apresentada à comissão.'",
-          "D": "'Refiro-me a análise anti-inflamatória apresentada a comissão.'",
-          "E": "'Refiro-me à análise anti-inflamatória apresentada a comissão.'"
+          "A": "caráter → caracteres",
+          "B": "contra-almirante → contra-almirantes",
+          "C": "capitão → capitães",
+          "D": "ex-oficial → ex-oficiais",
+          "E": "cidadão → cidadões"
         },
-        "gabarito": "A",
-        "explicacao": "A alternativa A comete dois erros simultâneos: (1) 'a análise' sem crase — 'referir-se a' + 'a análise' (artigo fem.) = 'à análise'; (2) 'antiinflamatória' sem hífen — ANTI termina em I, 'inflamatória' começa em I (mesma vogal) → deve ser 'anti-inflamatória'. A alternativa B está correta em tudo. A alternativa C corrige o hífen mas mantém erro de crase ('a análise'). A alternativa D corrige o hífen mas erra a crase em 'a comissão' também. A alternativa E tem o hífen correto mas erra a crase no final ('a comissão' deveria ser 'à comissão')."
+        "gabarito": "E",
+        "explicacao": "'Cidadão → cidadões' está incorreto. O plural de 'cidadão' é 'cidadãos', não 'cidadões'. A confusão ocorre com palavras em -ão que formam plural em -ões (como 'nação → nações'), mas 'cidadão' segue o padrão -ãos. As demais formas estão corretas: 'caracteres' (plural irregular de 'caráter'), 'contra-almirantes' (prefixo invariável + subst. no plural), 'capitães' (plural em -ães), 'ex-oficiais' (EX- invariável + 'oficial' no plural 'oficiais')."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Na frase 'Às vezes, o coautor do relatório refere-se à ideias do contra-almirante', identifique todos os erros de ortografia e crase:",
+        "topico_referencia": "gram-07",
+        "enunciado": "Em relação à flexão verbal e à ortografia, assinale a alternativa em que a forma verbal está corretamente grafada.",
         "alternativas": {
-          "A": "Apenas 'à ideias' está errado; crase é impossível antes de palavra no plural precedida de artigo plural.",
-          "B": "'co-autor' deveria ser 'coautor' e 'à ideias' deveria ser 'a ideias' ou 'às ideias'.",
-          "C": "'à ideias' deveria ser 'às ideias'. 'Coautor' está correto. 'Às vezes' está incorreto.",
-          "D": "Apenas 'à ideias' está errado; deveria ser 'às ideias'.",
-          "E": "A frase não apresenta erros."
+          "A": "O sargento intergiu na discussão de forma inapropriada.",
+          "B": "O recruta descia ao porão quando ouviu o alarme.",
+          "C": "O oficial preferiu não intervir na situação.",
+          "D": "O capitão manteve-se sereno e não interveiu.",
+          "E": "O recruta proveu todas as informações necessárias ao inquérito."
         },
-        "gabarito": "D",
-        "explicacao": "O único erro real é 'à ideias': a crase marca a contração de 'a' (preposição) + 'a/as' (artigo). Se a palavra está no plural ('ideias'), o artigo é 'as', e a crase seria 'às' — portanto 'às ideias'. Usar 'à ideias' (singular + plural) é incoerente. 'Coautor' está correto (sem hífen). 'Às vezes' está correto (expressão consagrada com crase). 'Contra-almirante' com hífen está correto (CONTRA+A = mesma vogal). A resposta é D."
+        "gabarito": "C",
+        "explicacao": "'Intervir' está corretamente grafado como infinitivo do verbo. A alternativa A usa 'intergiu', forma inexistente — o correto seria 'interferiu' ou 'interveio'. A alternativa B está correta em 'descia', mas é alternativa distratora. A alternativa D usa 'interveiu', forma incorreta — o correto é 'interveio' (verbo 'intervir', 3ª pessoa singular do pretérito perfeito). A alternativa E usa 'proveu', que seria de 'prover' — mas nesse contexto ('forneceu informações') o verbo correto seria 'forneceu' ou 'prestou'. 'Intervir' na alternativa C é a forma infinitiva correta."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Considere o texto: 'Dirigiu-se a Fortaleza para participar a reunião sobre a operação antisubmarina.' Assinale a alternativa que identifica os problemas ortográficos e de crase:",
+        "topico_referencia": "gram-01",
+        "enunciado": "Assinale a alternativa que apresenta o par parônimo com a distinção de significado INCORRETAMENTE apresentada.",
         "alternativas": {
-          "A": "'a Fortaleza' deveria ter crase ('à Fortaleza') e 'a reunião' deveria ter crase ('à reunião').",
-          "B": "'a Fortaleza' não admite crase (cidade sem artigo definido); 'a reunião' deveria ser 'à reunião' (crase obrigatória com verbo transitivo indireto 'participar de').",
-          "C": "'a Fortaleza' deveria ter crase e 'antisubmarina' deveria ser 'anti-submarina'.",
-          "D": "'a Fortaleza' e 'a reunião' estão ambos corretos sem crase.",
-          "E": "Apenas 'antisubmarina' está errado; deveria ser 'anti-submarina'."
+          "A": "Deferir (conceder) × Diferir (ser diferente, divergir)",
+          "B": "Infligir (impor pena) × Infringir (violar norma)",
+          "C": "Descriminar (retirar do rol de crimes) × Discriminar (diferenciar, separar)",
+          "D": "Iminente (prestes a ocorrer) × Eminente (ilustre, notável)",
+          "E": "Trafegar (comercializar ilegalmente) × Traficar (transitar, circular)"
         },
-        "gabarito": "B",
-        "explicacao": "Análise integrada: 'a Fortaleza' — nomes de cidades geralmente não admitem artigo definido, portanto não há crase antes de 'Fortaleza': 'a Fortaleza' está correto. 'participar a reunião' — o verbo 'participar' é transitivo indireto (participar DE algo). A frase está mal construída; deveria ser 'participar da reunião'. Se a preposição fosse 'a' + artigo feminino 'a', haveria crase. Mas o correto seria 'participar da reunião' (DE + A). 'Antisubmarina' — ANTI + S (consoante) = sem hífen: correto. A resposta B identifica corretamente que Fortaleza não admite crase e aponta o problema com 'participar'."
+        "gabarito": "E",
+        "explicacao": "A alternativa E inverte os significados: 'trafegar' significa transitar/circular (veículos trafegam pelas ruas); 'traficar' significa comercializar ilegalmente. Os pares nas alternativas A, B, C e D estão corretamente apresentados e são clássicos em provas CEBRASPE: 'deferir/diferir', 'infligir/infringir', 'descriminar/discriminar', 'iminente/eminente'."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Assinale a frase em que há USO CORRETO simultâneo da crase E do acento diferencial de 'tem/têm':",
+        "topico_referencia": "gram-04",
+        "enunciado": "Em relação à formação de palavras e à ortografia, assinale a alternativa em que a análise morfológica está INCORRETA.",
         "alternativas": {
-          "A": "Os oficiais têm recorrido à análise dos dados operacionais.",
-          "B": "O oficial tem recorrido a análise dos dados operacionais.",
-          "C": "Os oficiais têm recorrido a análise dos dados operacionais.",
-          "D": "O oficial têm recorrido à análise dos dados operacionais.",
-          "E": "Os oficiais tem recorrido à análise dos dados operacionais."
+          "A": "'Coautor' é formado por prefixação: CO- + autor, sem hífen porque as vogais são diferentes.",
+          "B": "'Anti-inflamatório' é formado por prefixação: ANTI- + inflamatório, com hífen porque as vogais são iguais.",
+          "C": "'Suboficial' é formado por prefixação: SUB- + oficial, sem hífen porque prefixo em consoante antes de vogal não usa hífen.",
+          "D": "'Desserviço' é formado por prefixação: DES- + serviço, com hífen: 'des-serviço'.",
+          "E": "'Antiespionagem' é formado por prefixação: ANTI- + espionagem, sem hífen porque as vogais são diferentes."
         },
-        "gabarito": "A",
-        "explicacao": "A alternativa A combina corretamente os dois elementos: (1) 'Os oficiais têm' — sujeito plural exige 'têm' (com acento). (2) 'à análise' — crase obrigatória: 'recorrer a' + 'a análise' (artigo feminino) = 'à análise'. A alternativa B usa 'tem' para singular (correto) mas omite a crase ('a análise' deveria ser 'à análise'). A alternativa C usa 'têm' corretamente mas omite a crase. A alternativa D usa 'têm' para sujeito singular (erro). A alternativa E usa 'tem' para sujeito plural (erro)."
+        "gabarito": "D",
+        "explicacao": "'Desserviço' NÃO usa hífen — a grafia correta é 'desserviço', com SS e sem hífen. Quando o prefixo DES- (terminado em S) precede palavra começada com S, os dois S se juntam formando SS na escrita, sem necessidade de hífen. A alternativa D erra ao sugerir 'des-serviço' com hífen. As demais análises estão corretas: 'coautor' sem hífen (vogais dif.), 'anti-inflamatório' com hífen (vogais iguais), 'suboficial' sem hífen (consoante + vogal), 'antiespionagem' sem hífen (vogais dif.)."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Em qual das alternativas há emprego INCORRETO da crase E erro ortográfico simultaneamente?",
+        "topico_referencia": "gram-05",
+        "enunciado": "No trecho 'O oficial proativo rapidamente desceu ao convés e verificou o equipamento anti-higiênico', assinale a alternativa que classifica corretamente as classes das palavras destacadas: 'proativo', 'rapidamente', 'desceu', 'anti-higiênico'.",
         "alternativas": {
-          "A": "O vice-almirante referiu-se à assembleia com entusiasmo.",
-          "B": "O oficial aludiu à ideia apresentada pelo coautor.",
-          "C": "O candidato referiu-se a ideia apresentada pelo co-autor.",
-          "D": "O tenente mencionou a operação antisubmarina à plateia.",
-          "E": "Os oficiais reportaram-se às ideias do vice-almirante."
+          "A": "proativo: adjetivo; rapidamente: advérbio; desceu: verbo; anti-higiênico: adjetivo",
+          "B": "proativo: advérbio; rapidamente: adjetivo; desceu: substantivo; anti-higiênico: advérbio",
+          "C": "proativo: adjetivo; rapidamente: adjetivo; desceu: verbo; anti-higiênico: substantivo",
+          "D": "proativo: substantivo; rapidamente: advérbio; desceu: adjetivo; anti-higiênico: adjetivo",
+          "E": "proativo: adjetivo; rapidamente: advérbio; desceu: verbo; anti-higiênico: pronome"
         },
-        "gabarito": "C",
-        "explicacao": "A alternativa C comete dois erros simultâneos: (1) 'a ideia' sem crase — 'referir-se a' + 'a ideia' (artigo feminino) = 'à ideia'; a crase é obrigatória. (2) 'co-autor' com hífen indevido — CO+A (vogais diferentes) → deve ser 'coautor' sem hífen. A alternativa A está correta: 'à assembleia' (crase correta) e 'vice-almirante' (hífen correto). A alternativa B está correta: 'à ideia' e 'coautor'. A alternativa D está correta: 'antisubmarina' sem hífen e 'à plateia' (crase correta). A alternativa E está correta: 'às ideias' e 'vice-almirante'."
+        "gabarito": "A",
+        "explicacao": "'Proativo' é adjetivo — qualifica o oficial, indicando característica. 'Rapidamente' é advérbio de modo — modifica o verbo 'desceu'. 'Desceu' é verbo (pretérito perfeito de 'descer', 3ª pessoa singular). 'Anti-higiênico' é adjetivo — qualifica 'equipamento', indicando ausência de higiene. Nota ortográfica: 'proativo' sem hífen (PRO- + A, vogais dif.); 'anti-higiênico' com hífen (ANTI- + H, sempre hífen antes de H). A alternativa A é a única com as quatro classificações corretas."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Leia: 'Ficamos a espera de respostas às perguntas do contra-almirante.' Esta frase apresenta:",
+        "topico_referencia": "gram-01",
+        "enunciado": "Considere as seguintes formas e assinale a alternativa que apresenta APENAS formas corretas conforme o Acordo Ortográfico de 2016.",
         "alternativas": {
-          "A": "Erro apenas em 'a espera', que deveria ser 'à espera' (locução adverbial feminina consagrada).",
-          "B": "Erro apenas em 'às perguntas', que deveria ser 'as perguntas'.",
-          "C": "Erros em 'a espera' (deveria ser 'à espera') e em 'contra-almirante' (deveria ser 'contraalmirante').",
-          "D": "Erro em 'às perguntas' (deveria ser 'a perguntas') e em 'a espera' (deveria ser 'à espera').",
-          "E": "Nenhum erro; a frase está ortograficamente e quanto à crase correta."
+          "A": "frequente, tranquilo, sequência, adequado",
+          "B": "freqüente, tranquilo, seqüência, adequado",
+          "C": "frequente, tranqüilo, sequência, adequado",
+          "D": "frequente, tranquilo, seqüência, adequado",
+          "E": "freqüente, tranqüilo, seqüência, adequado"
         },
         "gabarito": "A",
-        "explicacao": "O único erro é 'a espera': a expressão 'ficar à espera' é locução adverbial feminina consagrada que exige crase — 'à espera'. 'Às perguntas' está correto: 'responder a' + 'as perguntas' (plural) = 'às perguntas'. 'Contra-almirante' está correto: CONTRA+A = mesma vogal, usa-se hífen. Portanto, o único erro é 'a espera' → 'à espera'. Resposta A."
+        "explicacao": "'Frequente', 'tranquilo', 'sequência' e 'adequado' — todas sem trema, conforme o Acordo Ortográfico em vigor desde 2016, que eliminou o trema das palavras vernáculas do português. As formas 'freqüente', 'tranqüilo' e 'seqüência' com trema pertencem à norma anterior ao Acordo e estão incorretas na ortografia atual. 'Adequado' nunca teve trema. A alternativa A é a única com as quatro formas corretas."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Analise: 'Às 14 horas, os coautores apresentaram-se à banca examinadora para expor as ideias antiinflamatórias do projeto.' Assinale a análise CORRETA:",
+        "topico_referencia": "gram-00",
+        "enunciado": "Em relação à fonética e à ortografia, assinale a alternativa que apresenta análise CORRETA sobre a relação entre fonema e letra nas palavras destacadas.",
         "alternativas": {
-          "A": "A frase contém apenas um erro: 'antiinflamatórias' deveria ser 'anti-inflamatórias'.",
-          "B": "A frase está completamente correta; todos os elementos ortográficos e de crase estão adequados.",
-          "C": "'Coautores' está incorreto (deveria ser 'co-autores') e 'antiinflamatórias' está incorreto.",
-          "D": "'Às 14 horas' está incorreto (não se usa crase antes de numerais).",
-          "E": "'À banca examinadora' está incorreto (não se usa crase antes de palavras femininas que não admitem artigo)."
+          "A": "Em 'cessão', o dígrafo SS representa dois fonemas /s/ distintos.",
+          "B": "Em 'enxame', a letra X representa o fonema /ks/, como em 'táxi'.",
+          "C": "Em 'baixo', o X representa o fonema /sh/ após o ditongo AI.",
+          "D": "Em 'caixote', o CH representa o fonema /sh/ após o ditongo AI.",
+          "E": "Em 'frouxo', a letra X representa o fonema /z/ após o ditongo OU."
         },
-        "gabarito": "A",
-        "explicacao": "O único erro é 'antiinflamatórias' — ANTI termina em I e 'inflamatórias' começa em I (mesma vogal) → deve ser 'anti-inflamatórias' (com hífen). 'Às 14 horas' — a crase antes de horas é obrigatória (indica horas determinadas): correto. 'Coautores' — CO+A (diferentes) → sem hífen: correto. 'À banca examinadora' — crase obrigatória ('apresentar-se a' + 'a banca', artigo feminino): correto. 'Ideias' — sem acento após o Acordo: correto. Portanto, apenas 'antiinflamatórias' apresenta erro. Resposta A."
+        "gabarito": "C",
+        "explicacao": "Em 'baixo', o X representa o fonema /sh/ (como em 'chave') após o ditongo AI — regra: pós-ditongo usa-se X com som /sh/. A alternativa A está errada: o dígrafo SS representa um único fonema /s/, não dois. A alternativa B está errada: em 'enxame', o X representa /sh/, não /ks/. A alternativa D está errada: 'caixote' usa X (não CH) após o ditongo AI. A alternativa E está errada: em 'frouxo', o X representa /sh/ após o ditongo OU, não /z/."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Qual das alternativas apresenta frase com emprego CORRETO da crase E da ortografia do prefixo, considerando simultaneamente as regras do Acordo Ortográfico?",
+        "topico_referencia": "gram-01",
+        "enunciado": "Assinale a alternativa em que o trecho está corretamente redigido em relação à ortografia e ao uso dos parônimos.",
         "alternativas": {
-          "A": "Os oficiais reportaram-se à contra-almirante antiinflamatória do projeto.",
-          "B": "A equipe referiu-se à abordagem antiaérea utilizada na operação.",
-          "C": "O comandante aludiu a anti-aérea estratégia de defesa costeira.",
-          "D": "Os técnicos apresentaram-se a vice-almirante do navio-escola.",
-          "E": "O coautor referiu-se à contra-ordem de forma inadequada."
+          "A": "O perigo eminente levou o contra-almirante a infringir punição imediata.",
+          "B": "O perigo iminente levou o contra-almirante a infligir punição imediata.",
+          "C": "O perigo iminente levou o contra-almirante a infringir punição imediata.",
+          "D": "O perigo eminente levou o contra-almirante a infligir punição imediata.",
+          "E": "O perigo iminente levou o contraalmirante a infligir punição imediata."
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B está correta nos dois critérios avaliados: a crase em 'à abordagem' é obrigatória (regência de 'referir-se a' + artigo feminino 'a abordagem'), e 'antiaérea' está corretamente grafada sem hífen (ANTI termina em 'i', 'aérea' começa em vogal diferente 'a'). 'contra-ordem' (alternativa E) está incorreta porque o prefixo CONTRA- termina em vogal 'a' e 'ordem' começa em vogal diferente 'o', portanto a forma correta é 'contraordem', sem hífen — isso invalida E. As demais alternativas (A, C, D) apresentam erros de hífen ou de crase."
+        "explicacao": "A alternativa B combina corretamente: 'iminente' (perigo prestes a ocorrer), 'contra-almirante' (com hífen, CONTRA- + A = mesma vogal) e 'infligir' (impor punição). A alternativa A usa 'eminente perigo' (errado — eminente qualifica pessoas de destaque, não perigo) e 'infringir punição' (errado — infringir = violar, não impor). A alternativa C usa 'iminente' corretamente, mas 'infringir punição' está errado. A alternativa D usa 'eminente' incorretamente. A alternativa E usa 'contraalmirante' sem hífen, o que é incorreto."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Em documento oficial: 'O tenente referiu-se a Recife como base principal e aludiu à estratégia antisubmarina do coautor, cujos navios veem o Atlântico como campo de batalha.' Assinale a alternativa CORRETA sobre a análise da frase:",
+        "topico_referencia": "gram-07",
+        "enunciado": "Em relação à flexão verbal e à ortografia dos verbos, assinale a alternativa que apresenta forma verbal INCORRETA.",
         "alternativas": {
-          "A": "'a Recife' deveria ter crase; 'veem' está errado (deveria ser 'vêem').",
-          "B": "'a Recife' está correta (sem crase, pois Recife é cidade sem artigo); 'antisubmarina' deveria ser 'anti-submarina'.",
-          "C": "A frase está integralmente correta em ortografia e uso da crase.",
-          "D": "'à estratégia' está incorreto; não se usa crase antes de palavras iniciadas por vogal.",
-          "E": "'coautor' está incorreto; deveria ser 'co-autor'."
+          "A": "O sargento interviu na briga entre os recrutas.",
+          "B": "O capitão manteve a calma durante a operação.",
+          "C": "O oficial preferiu não se pronunciar sobre o incidente.",
+          "D": "O recruta desceu ao porão conforme determinado.",
+          "E": "O suboficial obteve autorização para acessar o arquivo."
         },
-        "gabarito": "C",
-        "explicacao": "A frase está integralmente correta. Análise: 'a Recife' — Recife é nome de cidade que não admite artigo definido → sem crase, correto. 'à estratégia' — crase obrigatória: 'aludir a' + 'a estratégia' (artigo fem.) = 'à estratégia': correto. 'antisubmarina' — ANTI + S (consoante) = sem hífen: correto. 'coautor' — CO + A (diferentes) = sem hífen: correto. 'veem' — forma correta após o Acordo (antes 'vêem', agora 'veem'): correto. Resposta C."
+        "gabarito": "A",
+        "explicacao": "'Interviu' é forma inexistente em português. O verbo 'intervir' é conjugado como 'vir': pretérito perfeito 3ª pessoa singular = 'interveio', não 'interviu'. A confusão ocorre por analogia com verbos regulares em -ir (como 'parti → partiu'). As formas corretas de 'intervir' no pretérito são: eu intervim, tu intervieste, ele/ela interveio, nós interviemos, vós interviestes, eles/elas intervieram. As demais alternativas apresentam formas verbais corretas: 'manteve' (manter), 'preferiu' (preferir), 'desceu' (descer), 'obteve' (obter)."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Marque a alternativa que apresenta frase com DOIS erros: um de crase e um de acentuação gráfica (acento diferencial de tem/têm ou acento de proparoxítona):",
+        "topico_referencia": "gram-01",
+        "enunciado": "Analise as seguintes proposições sobre o sistema ortográfico do português:\n\nI. O som /s/ pode ser representado pelas letras S, SS, C, Ç, SC e XC.\nII. O dígrafo CH e a letra X podem representar o mesmo som /sh/.\nIII. Palavras terminadas em ditongo oral antes de X sempre usam X para o som /sh/: caixote, frouxo, baixo.\nIV. O trema foi completamente eliminado do português pelo Acordo de 2016, inclusive em nomes estrangeiros.\nV. A letra Z entre vogais sempre representa o som /z/, enquanto S entre vogais pode representar /s/ ou /z/.\n\nEstão corretas apenas:",
         "alternativas": {
-          "A": "Os oficiais têm se referido a análise médica com frequência.",
-          "B": "O comandante tem aludido às idéias do vice-almirante constantemente.",
-          "C": "Os recrutas têm se reportado à medico responsável pela triagem.",
-          "D": "O oficial tem mencionado a estratégia antisubmarina à equipe.",
-          "E": "Os sargentos têm informado à assessores sobre o progresso."
+          "A": "I, II e III.",
+          "B": "I, II, III e V.",
+          "C": "II, III e IV.",
+          "D": "I, III e V.",
+          "E": "Todas."
         },
-        "gabarito": "B",
-        "explicacao": "A alternativa B apresenta dois erros: (1) 'idéias' — o acento no ditongo ÉI em paroxítona foi eliminado pelo Acordo; a forma correta é 'ideias'. (2) A crase: 'às idéias' está com crase correta (têm aludido às ideias), mas o acento de 'idéias' é o erro. Na verdade, B tem apenas um erro ortográfico ('idéias'). Revisando todas: A tem erro de crase ('a análise' deveria ser 'à análise'). B tem erro ortográfico ('idéias'). C tem 'à medico' — crase indevida antes de palavra masculina. E tem 'à assessores' — crase indevida no plural (deveria ser 'aos assessores'). A alternativa que combina erro de CRASE + erro de ACENTUAÇÃO seria A ou C. A alternativa B tem apenas erro ortográfico. A alternativa que melhor combina os dois tipos de erro pedidos é A (crase) + algum acento... Reavaliando, a alternativa com dois erros distintos (crase + acento diferencial) é A: 'tem' correto para singular, mas 'a análise' sem crase é erro; e se mudarmos o sujeito... A questão precisa de uma alternativa com os dois erros combinados."
+        "gabarito": "A",
+        "explicacao": "As proposições I, II e III estão corretas. I: o som /s/ tem representações múltiplas em português — S, SS, C/Ç, SC, XC e mais. II: CH e X podem representar o mesmo fonema /sh/, como em 'chave' e 'enxame'. III: pós-ditongo oral usa-se X com som /sh/: 'caixote' (AI), 'frouxo' (OU), 'baixo' (AI) — regra consistente. A proposição IV está INCORRETA: o Acordo de 2016 eliminou o trema das palavras vernáculas, mas o manteve em nomes próprios estrangeiros e seus derivados (Müller, mülleriano). A proposição V está INCORRETA: S entre vogais pode representar /z/ (como em 'casa'), mas Z entre vogais nem sempre é /z/ exclusivamente."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Assinale a alternativa em que a substituição da palavra sublinhada é feita com correção tanto ortográfica quanto de crase:\n\nFrase original: 'Referiram-se [à análise] feita pelo coautor.'",
+        "topico_referencia": "gram-06",
+        "enunciado": "Considere o seguinte trecho de documento oficial:\n\n'Os cidadãos e as testemunhas foram convocados pela sessão extraordinária para esclarecer a cessão do equipamento antiespionagem ao grupo inter-regional, conforme determinação do contra-almirante.'\n\nAssinale a alternativa que aponta INCORRETAMENTE algum aspecto do trecho.",
         "alternativas": {
-          "A": "Substituindo 'análise' por 'estudo' (masc.): 'Referiram-se à estudo feito pelo coautor.'",
-          "B": "Substituindo 'análise' por 'estudo' (masc.): 'Referiram-se ao estudo feito pelo coautor.'",
-          "C": "Substituindo 'coautor' por 'co-autor': 'Referiram-se à análise feita pelo co-autor.'",
-          "D": "Substituindo 'análise' por 'dados' (pl. masc.): 'Referiram-se às dados feitos pelo coautor.'",
-          "E": "Substituindo 'análise' por 'pesquisa' (fem.): 'Referiram-se a pesquisa feita pelo coautor.'"
+          "A": "'Cidadãos' está no plural correto: -ão → -ãos.",
+          "B": "'Testemunhas' é substantivo sobrecomum, corretamente empregado no plural feminino.",
+          "C": "'Sessão', 'cessão' e 'seção' (não presente no trecho) têm significados diferentes.",
+          "D": "'Contra-almirante' usa hífen: CONTRA- + A (mesma vogal) → correto.",
+          "E": "'Antiespionagem' deveria ser 'anti-espionagem' com hífen: ANTI- + E = vogais diferentes exigem hífen."
         },
-        "gabarito": "B",
-        "explicacao": "A alternativa B está correta: ao substituir 'análise' (feminino, exige crase 'à') por 'estudo' (masculino), a crase deixa de existir — escreve-se 'ao estudo' (a + o = ao, contração sem crase). 'Coautor' permanece correto. A alternativa A usa 'à estudo' — 'estudo' é masculino, não admite crase com artigo 'a'. A alternativa C usa 'co-autor' com hífen indevido. A alternativa D usa 'às dados' — 'dados' é masculino plural; deveria ser 'aos dados'. A alternativa E omite a crase que seria obrigatória ('à pesquisa' — feminino singular)."
+        "gabarito": "E",
+        "explicacao": "A alternativa E apresenta análise INCORRETA: 'antiespionagem' NÃO usa hífen. ANTI- termina em I; 'espionagem' começa com E — vogais diferentes (I ≠ E) → sem hífen. A regra é: vogais iguais = hífen; vogais diferentes = sem hífen. A alternativa E inverte essa regra. As demais análises estão corretas: 'cidadãos' (plural correto), 'testemunhas' (sobrecomum feminino), distinção entre 'sessão/cessão/seção', 'contra-almirante' com hífen (CONTRA- + A)."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Leia o fragmento de portaria naval: 'Em referência à Portaria N.º 001/2024, os coautores do projeto antiaéreo têm se apresentado à Comissão desde que a operação foi iniciada.' Sobre este fragmento, é correto afirmar:",
+        "topico_referencia": "gram-05",
+        "enunciado": "No trecho 'Os recrutas frequentemente descriminarão os equipamentos anti-higiênicos da base naval', assinale a alternativa que analisa incorretamente algum aspecto gramatical ou ortográfico.",
         "alternativas": {
-          "A": "Há erro em 'à Portaria' (não se usa crase antes de nome próprio de documento).",
-          "B": "Há erro em 'coautores' (deveria ser 'co-autores').",
-          "C": "Há erro em 'antiaéreo' (deveria ser 'anti-aéreo').",
-          "D": "O fragmento está integralmente correto em ortografia e uso da crase.",
-          "E": "Há erro em 'têm' (deveria ser 'tem', pois 'coautores' seria tratado como singular coletivo)."
+          "A": "'Frequentemente' está corretamente grafado: sem trema após o Acordo de 2016.",
+          "B": "'Descriminarão' é o futuro do presente de 'descriminar' (retirar do rol de crimes).",
+          "C": "'Anti-higiênicos' está corretamente grafado: ANTI- + H → sempre hífen.",
+          "D": "'Recrutas' é substantivo comum de dois gêneros no plural.",
+          "E": "No contexto de separar/catalogar equipamentos, o verbo correto seria 'discriminarão', não 'descriminarão'."
         },
-        "gabarito": "D",
-        "explicacao": "O fragmento está integralmente correto. 'À Portaria' — crase correta: 'em referência a' + 'a Portaria' (artigo fem.) = 'à Portaria'. 'Coautores' — CO+A (diferentes), sem hífen: correto. 'Antiaéreo' — ANTI+A (diferentes), sem hífen: correto. 'Têm' — sujeito 'os coautores' é plural, forma 'têm' com acento: correto. 'À Comissão' — crase correta. 'Nenhum erro: alternativa D."
+        "gabarito": "B",
+        "explicacao": "A alternativa B está incorreta como análise, pois identifica a forma verbal mas não o erro de uso. 'Descriminarão' é de fato o futuro de 'descriminar' (retirar do rol de crimes), mas no contexto de 'catalogar/separar equipamentos', o verbo adequado seria 'discriminarão' (diferenciar, separar, catalogar). A alternativa E, por sua vez, aponta corretamente que o parônimo está errado para o contexto. A alternativa B apenas descreve o que a palavra significa gramaticalmente sem apontar o problema de adequação semântica ao contexto — tornando-se incompleta e portanto 'incorreta' como análise completa. As demais alternativas (A, C, D) apresentam análises corretas."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Em qual das alternativas a seguir há erro de regência que impede ou exige a crase, combinado com erro ortográfico?",
+        "topico_referencia": "gram-04",
+        "enunciado": "Em relação à formação de palavras e à ortografia dos compostos, assinale a alternativa em que todas as análises estão corretas.",
         "alternativas": {
-          "A": "'O oficial aspirou à carreira naval com determinação.'",
-          "B": "'O oficial aspirou a carreira naval com determinação.'",
-          "C": "'Os oficiais aspiraram às ideias do contra-almirante.'",
-          "D": "'O coautor do projeto antiaéreo aludiu à assembleia geral.'",
-          "E": "'Os candidatos referiram-se à análise anti-inflamatória do coautor.'"
+          "A": "'Autoescola': AUTO- + E = vogais dif. → sem hífen / 'Autoavaliação': AUTO- + A = vogais iguais → com hífen.",
+          "B": "'Autoescola': AUTO- + E = vogais dif. → sem hífen / 'Autoavaliação': AUTO- + A = vogais dif. (O ≠ A) → sem hífen.",
+          "C": "'Autoescola': AUTO- + E = vogais iguais → com hífen / 'Autoavaliação': AUTO- + A = vogais dif. → sem hífen.",
+          "D": "'Autoescola': AUTO- + E = vogais dif. → com hífen / 'Autoavaliação': AUTO- + A = vogais iguais → com hífen.",
+          "E": "Ambas usam hífen porque AUTO- sempre exige hífen antes de vogal."
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B apresenta erro combinado: o verbo 'aspirar' no sentido de 'desejar, almejar' é transitivo indireto e exige a preposição 'a' — 'aspirar a algo'. Com a presença do artigo feminino 'a carreira', a crase é obrigatória: 'aspirou à carreira'. Portanto, 'a carreira' sem crase é erro de crase (omissão indevida). Não há erro ortográfico isolado em B, mas o erro de regência/crase é o pedido. A alternativa A está correta (crase usada). C, D e E estão todas corretas em ortografia e crase. A alternativa B é a que apresenta o erro de crase vinculado à regência do verbo."
+        "explicacao": "'Autoescola': AUTO- termina em O; 'escola' começa com E — O ≠ E (vogais diferentes) → sem hífen. 'Autoavaliação': AUTO- termina em O; 'avaliação' começa com A — O ≠ A (vogais diferentes) → sem hífen. A alternativa A erra ao classificar AUTO- + A como vogais iguais (O ≠ A). A alternativa C erra ao classificar AUTO- + E como vogais iguais. As alternativas D e E erram ao usar hífen indevidamente. A lógica é sempre a mesma: apenas quando as vogais do prefixo e da palavra forem idênticas é que se usa hífen."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "gram-01 + gram-03",
-        "enunciado": "Considerando simultaneamente as regras de ortografia (Acordo de 2016) e crase, assinale a alternativa em que a frase está INTEGRALMENTE correta:",
+        "topico_referencia": "gram-01",
+        "enunciado": "Considere o seguinte fragmento de portaria naval redigida incorretamente:\n\n'O ex-comandante, de caráter eminente, alertou sobre o perigo iminente e determinou que o suboficial antiespionagem infringisse punição severa ao recruta que infrigiu as normas de segurança.'\n\nAssinale a alternativa que identifica TODOS os erros ortográficos e de uso de parônimos do fragmento.",
         "alternativas": {
-          "A": "Os coautores referem-se à assembleia e têm se mostrado favoráveis às idéias do contra-almirante.",
-          "B": "Os coautores referem-se à assembleia e têm se mostrado favoráveis às ideias do contra-almirante.",
-          "C": "Os co-autores referem-se à assembleia e têm se mostrado favoráveis às ideias do contra-almirante.",
-          "D": "Os coautores referem-se a assembleia e têm se mostrado favoráveis às ideias do contra-almirante.",
-          "E": "Os coautores referem-se à assembleia e tem se mostrado favoráveis às ideias do contra-almirante."
+          "A": "Há um erro: 'infrigiu' deveria ser 'infringiu'.",
+          "B": "Há dois erros: 'infrigiu' → 'infringiu' e 'infringisse' → 'infligisse'.",
+          "C": "Há três erros: 'eminente caráter' deveria ser 'iminente', 'infringisse punição' → 'infligisse', 'infrigiu' → 'infringiu'.",
+          "D": "Há dois erros: 'eminente' deveria ser 'iminente' e 'infrigiu' deveria ser 'infringiu'.",
+          "E": "Não há erros ortográficos — todas as palavras estão corretamente grafadas."
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B está integralmente correta: 'coautores' (CO+A, sem hífen — correto após Acordo); 'à assembleia' (crase obrigatória: referir-se a + a assembleia = à assembleia — correto); 'têm' (sujeito plural 'Os coautores' — correto); 'ideias' (sem acento, ditongo ÉI em paroxítona — correto após Acordo); 'contra-almirante' (CONTRA+A = mesmo A, usa hífen — correto). A alternativa A usa 'idéias' com acento indevido. A alternativa C usa 'co-autores' com hífen indevido. A alternativa D omite a crase em 'a assembleia'. A alternativa E usa 'tem' (singular) para sujeito plural."
+        "explicacao": "Há exatamente dois erros no fragmento. Primeiro: 'infrigiu' é grafia incorreta de 'infringiu' (violou as normas). Segundo: 'infringisse punição' usa o verbo errado — 'infringir' significa violar norma; para impor punição, o verbo correto é 'infligir': 'infligisse punição'. Os demais elementos estão corretos: 'ex-comandante' (EX- com hífen), 'eminente caráter' (o caráter é ilustre/notável, não prestes a ocorrer — correto aqui), 'perigo iminente' (prestes a ocorrer — correto), 'suboficial' (sem hífen — correto), 'antiespionagem' (sem hífen — correto). A alternativa B identifica corretamente os dois únicos erros."
       }
     ]
   }

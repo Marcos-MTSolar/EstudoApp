@@ -2,120 +2,214 @@
   "id": "comp-08",
   "titulo": "Tipos e Gêneros Textuais",
   "area": "Compreensão e Interpretação de Texto",
-  "resumo": "Distinção entre tipos textuais (sequências linguísticas com características estruturais e linguísticas próprias) e gêneros textuais (formas sociocomunicativas historicamente estabilizadas com função, suporte e esfera de circulação definidos). Tópico recorrente em provas militares por exigir reconhecimento aplicado em fragmentos textuais reais.",
+  "resumo": "Todo texto que você lê ou escreve pertence a uma categoria — seja uma narração de fatos, uma descrição de ambiente, uma argumentação de ideias ou uma instrução de como fazer algo. Isso se chama tipo textual. Mas o texto também circula num contexto social específico: um ofício, uma reportagem, um edital, um poema. Isso se chama gênero textual. A banca CEBRASPE adora cobrar a diferença entre essas duas noções e testar se o candidato sabe identificar, num fragmento de texto, qual tipo e qual gênero estão presentes. Ao dominar este tópico, você será capaz de reconhecer qualquer tipo textual em questões de prova, classificar gêneros do cotidiano militar e evitar as confusões mais comuns que derrubam candidatos.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Tipos Textuais: conceito e classificação",
-        "conteudo": "Tipos textuais são categorias teóricas que descrevem sequências linguísticas recorrentes identificadas por características morfossintáticas, lexicais e funcionais estáveis. Fiorin e Savioli (Para entender o texto, Ática 2007) tratam das sequências como modos de organização do discurso. Os cinco tipos clássicos são: narração, descrição, dissertação (argumentativa ou expositiva), injunção e predição. Cada tipo possui marcas linguísticas próprias: a narração usa verbos de ação no pretérito e conectivos de sequência temporal; a descrição usa verbos de estado (ser, estar, parecer) e adjetivos abundantes; a dissertação argumentativa articula tese, argumentos e conclusão com conectivos lógicos; a injunção usa o imperativo ou infinitivo para orientar ações; a predição anuncia eventos futuros com base em cálculos ou observações. É fundamental entender que um texto real raramente é de um único tipo — a tipologia pura é uma abstração analítica.",
+        "subtitulo": "1. Tipo textual — o que é e por que importa",
+        "conteudo": "Pense em como você organiza seu armário: tem gaveta de camisetas, gaveta de meias, prateleira de calças. O tipo textual é como essas gavetas — cada uma organiza textos com a mesma estrutura interna e o mesmo propósito comunicativo básico.\n\nOs tipos textuais são categorias estáveis, em número limitado, que descrevem a forma como o texto é construído: narração, descrição, dissertação (argumentação), exposição e injunção. Não importa o assunto — um texto que conta uma sequência de eventos é narrativo, seja ele um romance ou um relatório de ocorrência da Marinha.\n\nA regra é simples: tipo textual diz respeito à estrutura e à intenção comunicativa do texto. Quando a questão pergunta 'o texto é predominantemente narrativo ou descritivo?', está pedindo que você identifique como o texto foi organizado por dentro.\n\nO erro mais comum é confundir tipo textual com gênero textual — muitos candidatos colocam 'notícia' ou 'ofício' como tipo textual, quando esses são gêneros.",
+        "regra": "5 tipos: narração · descrição · dissertação · exposição · injunção",
         "exemplos": [
-          "Narração: 'O tenente saiu do quartel às seis horas, atravessou a praça e embarcou no navio.'",
-          "Descrição: 'O navio era imponente, com casco negro e mastros altíssimos que cortavam o horizonte.'",
-          "Dissertação argumentativa: 'A energia solar é fundamental para o desenvolvimento sustentável, pois reduz a dependência de combustíveis fósseis e diminui a emissão de gases poluentes.'",
-          "Injunção: 'Desligue o equipamento antes de realizar a manutenção. Verifique os terminais e reaperte os parafusos.'",
-          "Predição: 'As projeções indicam que, até 2030, a geração fotovoltaica responderá por 20% da matriz energética brasileira.'"
-        ],
-        "regra": "Identifique o tipo textual pelas marcas linguísticas: verbos de ação + tempo = narração; verbos de estado + adjetivos = descrição; tese + argumentos = dissertação; imperativo/infinitivo = injunção; futuro + projeções = predição."
+          {
+            "texto_base": "O sargento relatou que, ao chegar à base às 06h, percebeu a cancela arrombada e acionou imediatamente a guarda de serviço.",
+            "anotacoes": [
+              {
+                "trecho": "relatou que, ao chegar à base às 06h",
+                "destaque": "Narração",
+                "motivo": "Há sequência de eventos no tempo (chegada → percepção → ação) — estrutura narrativa"
+              },
+              {
+                "trecho": "percebeu a cancela arrombada",
+                "destaque": "Descrição breve",
+                "motivo": "Caracteriza o estado de um objeto — traço descritivo inserido na narração"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "2. Tipos Textuais: narração e descrição em detalhe",
-        "conteudo": "A narração organiza eventos em sequência temporal com personagens, espaço, tempo, conflito e desfecho. Koch e Elias (Ler e compreender os sentidos do texto, Contexto 2008) destacam que a coesão narrativa é garantida principalmente por conectivos temporais (depois, então, quando, enquanto) e por anáforas que mantêm a referência às personagens. A narração pode ser em primeira pessoa (narrador-personagem, com subjetividade marcada) ou terceira pessoa (narrador-observador ou onisciente). A descrição, por sua vez, pode ser objetiva (científica, técnica — privilegia precisão e neutralidade) ou subjetiva (literária — carregada de impressões do observador). Descrições técnicas são comuns em manuais militares e laudos. Nas provas da Marinha, fragmentos descritivos objetivos são frequentemente apresentados como base para questões de linguagem denotativa versus conotativa — tópico que se articula com comp-04.",
+        "subtitulo": "2. Os cinco tipos textuais em detalhe",
+        "conteudo": "Imagine que você está no botequim com amigos. Você pode contar o que aconteceu ontem (narração), descrever como é o lugar (descrição), defender que aquele time vai ganhar o campeonato (dissertação/argumentação), explicar as regras do futebol para quem nunca viu (exposição) ou dizer 'chega mais aqui e pede uma água' (injunção). São cinco modos diferentes de usar a língua.\n\nNARRAÇÃO: conta eventos em sequência temporal. Há personagens, ação, tempo, espaço. Verbos de ação no pretérito perfeito ou imperfeito dominam. Exemplo: atas de ocorrência, crônicas, reportagens de fato.\n\nDESCRIÇÃO: pinta um quadro estático. Apresenta características de pessoas, lugares, objetos. Verbos de estado (ser, estar, ter, parecer) e adjetivos abundam. Exemplo: laudo de vistoria de embarcação, caracterização de suspeito.\n\nDISSERTAÇÃO: defende um ponto de vista com argumentos. Há tese, argumentos e conclusão. Marcadores de opinião e de causa/consequência são frequentes. Exemplo: editorial de jornal, redação ENEM.\n\nEXPOSIÇÃO: explica, informa, define. Sem julgamento, sem emoção. Linguagem objetiva. Exemplo: verbete de dicionário, manual técnico, relatório técnico da Marinha.\n\nINJUNÇÃO: instrui, manda, orienta como fazer algo. Verbos no imperativo ou no infinitivo dominam. Exemplo: normas de conduta, portaria, bula, receita, regulamento.\n\nO erro mais comum é chamar a exposição de narração — em textos científicos e técnicos, que apenas informam sem sequência de eventos, o tipo correto é exposição, não narração.",
+        "regra": "Narração=eventos · Descrição=quadro · Dissertação=argumento · Exposição=explica · Injunção=instrui",
         "exemplos": [
-          "Narração em 1ª pessoa: 'Quando avistei o submarino emergir, meu coração acelerou e corri para avisar o comandante.'",
-          "Narração em 3ª pessoa onisciente: 'Ele não sabia, mas a decisão que tomara naquela manhã mudaria o curso da missão.'",
-          "Descrição objetiva: 'O cabo elétrico possui seção transversal de 4 mm², isolamento de PVC e capacidade de condução de 30 A.'",
-          "Descrição subjetiva: 'O mar estava pesado, cinzento, como um animal ferido que ronronava com raiva surda.'"
-        ],
-        "regra": "Narração = sequência de eventos + personagens + tempo; Descrição = retrato estático + atributos. A descrição objetiva é neutra e técnica; a subjetiva é impressionista e valorativa."
+          {
+            "texto_base": "Conforme o Regulamento Interno da Base Naval, o militar deverá apresentar-se ao Oficial de Dia imediatamente após o desembarque, registrar sua chegada no livro de presença e aguardar a liberação formal antes de ausentar-se das dependências.",
+            "anotacoes": [
+              {
+                "trecho": "deverá apresentar-se",
+                "destaque": "Injunção",
+                "motivo": "Verbo no futuro com valor imperativo — instrui o que o militar deve fazer"
+              },
+              {
+                "trecho": "registrar sua chegada",
+                "destaque": "Injunção",
+                "motivo": "Infinitivo com valor de ordem — estrutura típica de regulamento e portaria"
+              },
+              {
+                "trecho": "aguardar a liberação formal",
+                "destaque": "Injunção",
+                "motivo": "Sequência de instruções ordenadas — caracteriza o tipo injuntivo"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "3. Dissertação expositiva e argumentativa: diferenças decisivas",
-        "conteudo": "A dissertação expositiva (ou explicativa) tem o objetivo de informar, explicar ou esclarecer um tema sem necessariamente convencer o leitor. Usa-se linguagem neutra, dados, definições e exemplificações. A dissertação argumentativa, por outro lado, defende explicitamente uma tese e usa recursos persuasivos (argumentos de autoridade, exemplos, analogias, dados estatísticos) para convencer o interlocutor. Esta distinção é fundamental para provas militares porque o Manual de Redação e Estilo da Marinha (Letras Marítimas 2024) enfatiza a objetividade e a clareza dos documentos oficiais — que se aproximam da dissertação expositiva —, enquanto os textos de opinião que aparecem como base de questões de compreensão são predominantemente argumentativos. A presença de marcadores como 'porém', 'entretanto', 'logo', 'portanto', 'visto que' sinaliza dissertação argumentativa. A presença de 'por exemplo', 'ou seja', 'isto é', 'a saber' sinaliza dissertação expositiva.",
+        "subtitulo": "3. Gênero textual — o texto no mundo real",
+        "conteudo": "Se o tipo textual é a gaveta, o gênero textual é cada peça de roupa dentro dela. Uma gaveta de camisetas pode ter camiseta polo, camiseta regata, camiseta de time — todas são camisetas (mesmo tipo), mas cada uma tem uma forma e um uso diferente.\n\nOs gêneros textuais são práticas sociais de linguagem: formas estabilizadas de comunicação que surgem porque a sociedade precisa delas. Uma 'portaria' existe porque a administração militar precisou de um documento formal para emitir ordens. Um 'aviso' existe porque precisava de um texto mais informal e rápido para o mesmo ambiente. O gênero nasce de uma necessidade real.\n\nAo contrário dos tipos textuais (que são cinco), os gêneros são praticamente ilimitados: ofício, memorando, edital, aviso, portaria, relatório, ata, carta, e-mail, reportagem, crônica, conto, verbete, bula... cada sociedade cria os gêneros de que precisa.\n\nAlém disso, um gênero pode mesclar vários tipos textuais. Uma reportagem (gênero) pode ter trechos narrativos, descritivos e argumentativos ao mesmo tempo.\n\nO erro mais comum é dizer que 'reportagem' e 'narração' são a mesma coisa. Não são: narração é tipo, reportagem é gênero.",
+        "regra": "Tipo = estrutura interna (5 fixos) · Gênero = prática social (ilimitados)",
         "exemplos": [
-          "Expositiva: 'A crase ocorre quando há a fusão da preposição 'a' com o artigo definido feminino 'a'. Ela é indicada pelo acento grave (`).'",
-          "Argumentativa: 'A adoção do acordo ortográfico trouxe inegáveis benefícios à integração lusófona, pois reduziu divergências formais entre os países de língua portuguesa e facilitou o intercâmbio cultural e editorial.'",
-          "Marcadores expositivos: 'ou seja', 'isto é', 'a saber', 'por exemplo', 'em outras palavras'.",
-          "Marcadores argumentativos: 'portanto', 'logo', 'entretanto', 'porém', 'visto que', 'dado que', 'pois'."
-        ],
-        "regra": "Expositiva = informa sem tomar partido, linguagem neutra; Argumentativa = defende tese, usa recursos persuasivos e conectivos de oposição/conclusão."
+          {
+            "texto_base": "O Ofício nº 034/2025, expedido pelo Comando do 4º Distrito Naval, comunicou aos subordinados a nova escala de serviço para o período de recesso, descreveu os postos a serem guarnecidos e determinou que qualquer alteração fosse informada com antecedência mínima de 48 horas.",
+            "anotacoes": [
+              {
+                "trecho": "Ofício nº 034/2025",
+                "destaque": "Gênero textual",
+                "motivo": "O ofício é um gênero — forma social de comunicação oficial entre órgãos militares"
+              },
+              {
+                "trecho": "comunicou aos subordinados",
+                "destaque": "Tipo: Exposição",
+                "motivo": "Informa objetivamente — trecho de tipo expositivo dentro do gênero ofício"
+              },
+              {
+                "trecho": "determinou que qualquer alteração fosse informada",
+                "destaque": "Tipo: Injunção",
+                "motivo": "Instrui, ordena — trecho de tipo injuntivo dentro do mesmo gênero ofício"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "4. Gêneros Textuais: conceito, função social e esfera de circulação",
-        "conteudo": "Gêneros textuais são formas relativamente estáveis de enunciado, socialmente reconhecidas, que surgem de necessidades comunicativas específicas de esferas de atividade humana. Diferem dos tipos textuais porque se definem não apenas por características linguísticas, mas também por seu suporte (jornal, rádio, internet, tribunal), sua esfera de circulação (jornalística, acadêmica, jurídica, militar, publicitária, cotidiana) e sua função sociocomunicativa (informar, persuadir, entreter, regulamentar, instruir). Fiorin e Savioli enfatizam que gêneros são histórica e socialmente situados — surgem, transformam-se e desaparecem conforme as práticas sociais evoluem. Um e-mail é um gênero da esfera digital que incorporou características da carta, mas com maior informalidade e velocidade. O ofício, a ordem do dia e o relatório são gêneros da esfera militar com convenções rígidas estabelecidas pelo Manual de Redação e Estilo da Marinha.",
+        "subtitulo": "4. Sequências textuais e textos híbridos",
+        "conteudo": "Você já sabe que um gênero pode misturar tipos textuais. Mas há uma palavra técnica para os trechos de cada tipo dentro de um texto maior: sequência textual. Quando a banca pede 'identifique a sequência predominante no segundo parágrafo', ela quer que você reconheça qual tipo textual domina aquele trecho específico.\n\nNa prova CEBRASPE, o examinador apresenta um texto (geralmente de contexto militar ou jornalístico), pede para você identificar se um determinado parágrafo é narrativo, descritivo, argumentativo, expositivo ou injuntivo — mesmo que o texto todo seja um único gênero (como uma reportagem ou um relatório).\n\nA chave para identificar a sequência é olhar para os verbos e para o propósito do trecho:\n- Verbos de ação em sequência → narração\n- Verbos de estado + adjetivos → descrição\n- Argumento + contra-argumento + conclusão → dissertação\n- Definição + explicação objetiva → exposição\n- Imperativo + infinitivo ordenativo → injunção\n\nO erro mais comum é classificar qualquer texto informativo como 'expositivo' sem verificar se há argumentação implícita — texto que defende uma posição, mesmo sem usar 'eu acho', é dissertativo.",
+        "regra": "Olhe o verbo: ação=narração · estado=descrição · imperativo=injunção · definição=exposição · tese=dissertação",
         "exemplos": [
-          "Esfera jornalística: notícia, editorial, crônica, reportagem, entrevista.",
-          "Esfera acadêmica: artigo científico, resumo, resenha, monografia, relatório técnico.",
-          "Esfera jurídica: petição, sentença, contrato, ata, portaria.",
-          "Esfera militar: ordem do dia, boletim interno, ofício, relatório de missão, aviso.",
-          "Esfera cotidiana: bilhete, lista de compras, receita culinária, convite, mensagem de texto."
-        ],
-        "regra": "Gênero = forma sociocomunicativa estável definida por função + suporte + esfera de circulação. Tipo = sequência linguística abstrata com marcas morfossintáticas e lexicais. Um gênero pode combinar vários tipos."
+          {
+            "texto_base": "O navio de patrulha estava ancorado a trezentos metros do cais, com a pintura desgastada pelo sal e a antena principal levemente inclinada para boreste. Às 14h37, o Oficial de Quarto ordenou manobra de aproximação. A tripulação executou cada etapa conforme o manual de operações: reduziu a velocidade, lançou as amarras e atracou sem intercorrências.",
+            "anotacoes": [
+              {
+                "trecho": "estava ancorado a trezentos metros do cais, com a pintura desgastada",
+                "destaque": "Seq. Descritiva",
+                "motivo": "Verbos de estado + adjetivos caracterizam o navio — sequência descritiva"
+              },
+              {
+                "trecho": "ordenou manobra de aproximação",
+                "destaque": "Seq. Narrativa",
+                "motivo": "Ação num ponto do tempo — marca a transição para sequência narrativa"
+              },
+              {
+                "trecho": "conforme o manual de operações: reduziu a velocidade, lançou as amarras",
+                "destaque": "Seq. Injuntiva",
+                "motivo": "Ações executadas em etapas prescritas — traço injuntivo dentro da narração"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "5. Relação entre tipos e gêneros: heterogeneidade tipológica e gêneros militares",
-        "conteudo": "Um gênero textual raramente é tipologicamente puro. A reportagem jornalística, por exemplo, combina narração (reconstituição dos fatos), descrição (contextualização do cenário), dissertação expositiva (explicação de causas) e eventualmente injunção (orientações ao leitor). Koch e Elias chamam isso de heterogeneidade tipológica ou mescla de tipos. Para as provas da Marinha, é especialmente relevante reconhecer essa mescla em gêneros militares. O relatório de missão narra os eventos, descreve o ambiente, expõe dados técnicos e pode conter recomendações (injunção). O ofício é dissertativo-expositivo em sua estrutura mas pode conter partes injuntivas quando solicita providências. O Manual de Redação e Estilo da Marinha estabelece padrões formais rígidos para esses gêneros: uso de linguagem padrão culta, impessoalidade, clareza, concisão e o emprego correto das formas de tratamento (Vossa Excelência, Vossa Senhoria). A questão de provas frequentemente traz um fragmento e pede identificação do tipo predominante — não do único tipo presente.",
+        "subtitulo": "5. Gêneros do contexto militar e CEBRASPE",
+        "conteudo": "A banca CEBRASPE usa com frequência textos de circulação real — jornalística, científica e, no concurso da Marinha, administrativa/militar. Conhecer os gêneros que aparecem na prova te dá vantagem dupla: você já sabe o que esperar do texto antes de ler e já sabe que tipo textual tende a predominar em cada um.\n\nOfício: comunicação formal entre órgãos. Predomina exposição e injunção.\nPortaria: instrumento normativo. Predomina injunção.\nAta: registro de reunião. Predomina narração e exposição.\nRelatório técnico: análise de situação. Predomina exposição e pode ter argumentação.\nBoletim interno: informativo para a tropa. Mescla exposição e injunção.\nReportagem: cobertura jornalística. Mescla narração, descrição e às vezes argumentação.\nEditorial: opinião do veículo. Predomina dissertação.\nCrônica: texto literário-jornalístico. Mescla narração e dissertação.\n\nO erro mais comum nesse nível avançado é identificar o gênero corretamente, mas classificar o tipo errado — por exemplo, dizer que uma portaria é 'narrativa' só porque conta o que foi decidido numa reunião.",
+        "regra": "Portaria/Regulamento = injunção · Relatório = exposição · Editorial = dissertação · Ata = narração",
         "exemplos": [
-          "Reportagem: narra o acidente (narração) + descreve a vítima (descrição) + explica as causas (dissertação expositiva).",
-          "Receita culinária: lista ingredientes (descrição enumerativa) + orienta o preparo (injunção) + eventualmente narra a origem do prato (narração).",
-          "Ofício militar: expõe um assunto (dissertação expositiva) + solicita providências (injunção).",
-          "Bula de remédio: descreve o medicamento (descrição técnica) + orienta o uso (injunção) + adverte sobre riscos (injunção/predição).",
-          "Tipo predominante: aquele que ocupa maior espaço e cumpre a função principal do texto."
-        ],
-        "regra": "Em provas, identifique o TIPO PREDOMINANTE — aquele que cumpre a função central do texto. A mescla é normal; o tipo predominante é o que define o propósito comunicativo principal."
+          {
+            "texto_base": "O Boletim Interno nº 12/2025 do Comando do 3º Distrito Naval informou que o processo seletivo para o Curso de Formação de Sargentos estaria aberto de 10 a 30 de março, listou os documentos exigidos e determinou que os candidatos comparecessem à Junta de Saúde munidos de todos os laudos médicos atualizados.",
+            "anotacoes": [
+              {
+                "trecho": "Boletim Interno nº 12/2025",
+                "destaque": "Gênero: Boletim",
+                "motivo": "Gênero textual militar — instrumento de comunicação interna da Marinha"
+              },
+              {
+                "trecho": "informou que o processo seletivo estaria aberto",
+                "destaque": "Tipo: Exposição",
+                "motivo": "Informa objetivamente datas e fatos — sequência expositiva"
+              },
+              {
+                "trecho": "determinou que os candidatos comparecessem",
+                "destaque": "Tipo: Injunção",
+                "motivo": "Ordem com valor imperativo — sequência injuntiva dentro do gênero boletim"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "6. Como a CEBRASPE cobra esse tema",
+        "conteudo": "A CEBRASPE tem um padrão reconhecível de cobrar tipos e gêneros textuais. Conhecer esse padrão é metade do caminho para acertar a questão antes mesmo de analisar o texto.\n\nPadrão 1 — Identificação direta: 'O texto é predominantemente do tipo...' Você lê o fragmento, identifica o tipo dominante e marca. Cuidado: a questão adora misturar uma sequência secundária para confundir.\n\nPadrão 2 — Trecho específico: 'No segundo parágrafo, a sequência textual é...' Aqui você precisa analisar apenas aquele trecho, não o texto todo.\n\nPadrão 3 — Gênero e propósito: 'O gênero do texto acima é adequado para...' ou 'O texto pertence ao gênero X porque...' Você precisa relacionar o gênero à sua função social.\n\nPadrão 4 — Reescritura com mudança de tipo: 'Reescrever o trecho mantendo o sentido, mas alterando para o tipo injuntivo.' Você precisa saber transformar, por exemplo, uma exposição em injunção.\n\nO erro mais comum nesse padrão avançado é não perceber que a questão pede um trecho específico, não o texto todo, e classificar o tipo geral onde deveria classificar o local.",
+        "regra": "Leia o que a questão pede: texto todo ou trecho? Tipo ou gênero? Identificar ou transformar?",
+        "exemplos": [
+          {
+            "texto_base": "A Marinha do Brasil, instituição secular e guardiã das águas jurisdicionais nacionais, tem ao longo de sua história formado oficiais de alto padrão técnico e moral. O rigor na seleção dos candidatos reflete o compromisso da instituição com a excelência operacional e com os valores que a distinguem das demais Forças Armadas.",
+            "anotacoes": [
+              {
+                "trecho": "tem ao longo de sua história formado oficiais de alto padrão técnico e moral",
+                "destaque": "Dissertação",
+                "motivo": "Afirma uma qualidade da instituição como argumento — traço dissertativo"
+              },
+              {
+                "trecho": "O rigor na seleção dos candidatos reflete o compromisso",
+                "destaque": "Argumentação",
+                "motivo": "Estabelece relação de causa e consequência para defender um ponto de vista"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Tipo x Gênero: conceitos distintos que as provas confundem",
-      "errado": "A notícia é um tipo textual narrativo.",
-      "correto": "A notícia é um gênero textual jornalístico cuja sequência tipológica predominante é a narração.",
-      "explicacao": "Tipo textual e gênero textual são categorias analíticas distintas. Notícia é gênero (forma sociocomunicativa com suporte, função e esfera definidos); narração é o tipo (sequência linguística abstrata). Confundir os dois é o erro mais cobrado nas provas de seleção militar.",
+      "titulo": "Gênero como sinônimo de tipo",
+      "errado": "A reportagem é um tipo textual narrativo.",
+      "correto": "A reportagem é um gênero textual que pode apresentar sequências narrativas, descritivas e argumentativas.",
+      "explicacao": "Tipo textual e gênero textual não são sinônimos. Tipo se refere à estrutura interna do texto (narração, descrição etc.); gênero se refere à prática social de linguagem (reportagem, ofício, portaria etc.). Dizer que 'reportagem é um tipo' é confundir as duas categorias. O correto é dizer que reportagem é um gênero que pode incorporar vários tipos.",
       "nivel": "basico"
     },
     {
-      "titulo": "Dissertação expositiva ≠ argumentativa",
-      "errado": "Todo texto que apresenta informações e dados é argumentativo, pois usa evidências para convencer.",
-      "correto": "O texto expositivo informa e explica sem necessariamente defender uma tese; o argumentativo defende explicitamente um ponto de vista.",
-      "explicacao": "A presença de dados e exemplos não torna um texto argumentativo. Um verbete de enciclopédia usa dados para informar, não para convencer. A argumentação requer uma tese explícita ou implícita que o autor defende contra posições alternativas.",
+      "titulo": "Injunção vs. narração em regulamentos",
+      "errado": "O texto de uma portaria que descreve o que o militar deve fazer é predominantemente narrativo.",
+      "correto": "O texto de uma portaria que prescreve ações ao militar é predominantemente injuntivo.",
+      "explicacao": "Portarias e regulamentos militares usam verbos no futuro do presente (deverá, será obrigado) ou no infinitivo (registrar, comparecer, aguardar) com valor de ordem. Isso caracteriza a injunção, não a narração. Narração conta eventos passados; injunção instrui ações futuras. O candidato confunde porque o texto 'fala de ações', mas o critério é o propósito comunicativo.",
       "nivel": "basico"
     },
     {
-      "titulo": "Injunção não é sinônimo de imperativo",
-      "errado": "Um texto só é injuntivo se usar o modo imperativo.",
-      "correto": "O tipo injuntivo pode usar imperativo, infinitivo impessoal, futuro do presente ou construções com 'deve' + infinitivo.",
-      "explicacao": "Manuais técnicos militares frequentemente usam infinitivo ('Verificar os terminais', 'Registrar a ocorrência') em vez do imperativo. Leis e regulamentos usam o presente do indicativo com valor injuntivo ('O militar deve…'). A forma verbal não é o único critério — a função de orientar/instruir/regular é o que define a injunção.",
+      "titulo": "Exposição e dissertação são iguais?",
+      "errado": "Qualquer texto informativo e objetivo é dissertativo.",
+      "correto": "Texto que apenas informa é expositivo; texto que defende um ponto de vista é dissertativo.",
+      "explicacao": "A distinção é o julgamento. Um verbete de dicionário ou um relatório técnico que apenas descreve fatos e processos é expositivo. Já um editorial ou um artigo de opinião que argumenta em favor de uma posição é dissertativo. O erro é tratar todo texto 'sério' como dissertativo. A pergunta-chave: há uma tese sendo defendida? Se sim, é dissertativo.",
       "nivel": "intermediario"
     },
     {
-      "titulo": "Gênero epistolar: carta x ofício x e-mail",
-      "errado": "Carta, ofício e e-mail são o mesmo gênero, pois todos se dirigem a um destinatário específico por escrito.",
-      "correto": "Carta, ofício e e-mail são gêneros distintos com convenções, suportes e esferas de circulação diferentes.",
-      "explicacao": "O ofício é gênero da esfera oficial/militar com formatação rígida (número, data, vocativo formal, fecho padronizado). A carta é da esfera pessoal ou comercial com maior flexibilidade. O e-mail é da esfera digital com convenções próprias. A Marinha trata cada um separadamente em seu Manual de Redação.",
-      "nivel": "avancado"
+      "titulo": "Descrição de sentimentos vs. narração",
+      "errado": "O trecho 'O recruta sentia medo, angústia e incerteza diante do exame' é narrativo.",
+      "correto": "O trecho 'O recruta sentia medo, angústia e incerteza diante do exame' é descritivo.",
+      "explicacao": "Descrição não se limita a lugares e objetos — ela também caracteriza estados internos de personagens (emoções, sensações, pensamentos). O critério é: há eventos em sequência no tempo? No trecho acima, não há ação sequenciada — apenas a caracterização de um estado psicológico. Isso é descrição. Narração exigiria verbos de ação: 'o recruta entrou, respirou fundo e respondeu'.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Crônica: gênero híbrido mal classificado",
-      "errado": "A crônica é um texto narrativo porque conta histórias do cotidiano.",
-      "correto": "A crônica é um gênero híbrido que combina narração, descrição e dissertação argumentativa, com forte presença da voz autoral.",
-      "explicacao": "A crônica é gênero da esfera jornalístico-literária que pode narrar uma situação do cotidiano e ao mesmo tempo argumentar sobre ela de forma subjetiva e estilizada. Provas da Marinha frequentemente pedem identificação do tipo predominante em crônicas — geralmente a narração ou a argumentação, dependendo do fragmento apresentado.",
+      "titulo": "Texto híbrido e sequência predominante",
+      "errado": "Um texto que contém trechos narrativos, descritivos e argumentativos não pode ser classificado quanto ao tipo predominante.",
+      "correto": "Todo texto tem uma sequência predominante, mesmo que contenha outras sequências secundárias.",
+      "explicacao": "Textos reais quase sempre mesclam tipos. O examinador CEBRASPE pede a sequência predominante — aquela que ocupa mais espaço, determina a estrutura global e orienta o propósito comunicativo do texto. Para identificá-la, pergunte: qual é o objetivo principal do texto? Contar? Descrever? Argumentar? Informar? Instruir? A resposta revela o tipo predominante.",
       "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "A questão pede o 'tipo textual predominante' em um fragmento que mistura narração com argumentação, e uma das alternativas diz 'dissertativo-narrativo'.",
-      "dica": "Leia o propósito central do texto: se o autor narra para argumentar, o tipo predominante é argumentativo (dissertativo); se argumenta de passagem enquanto narra, é narrativo. Foque no que o texto quer fazer com o leitor — convencer ou contar?",
+      "situacao": "Confundir o nome do gênero com o nome do tipo ao responder questões de identificação",
+      "dica": "Quando a questão perguntar 'que tipo textual predomina', nunca responda com o nome de um gênero (relatório, notícia, ofício). Quando perguntar 'que gênero é este texto', nunca responda com um tipo (narração, dissertação). A distinção é simples: tipo = estrutura interna; gênero = prática social. Se travar, pergunte: 'estou falando de como o texto é construído ou de onde ele circula?'",
       "nivel": "basico"
     },
     {
-      "situacao": "A prova apresenta um texto de lei ou regulamento e pergunta se é injuntivo ou dissertativo-expositivo.",
-      "dica": "Textos normativos (leis, regulamentos, normas) são injuntivos porque prescrevem condutas obrigatórias — mesmo que usem presente do indicativo ('é proibido', 'deve ser'). A função de regular comportamento define a injunção, não o modo verbal.",
+      "situacao": "Classificar o tipo textual do texto inteiro quando a questão pede o tipo de um parágrafo específico",
+      "dica": "Questões CEBRASPE frequentemente recortam um parágrafo e pedem sua classificação isolada. Um relatório técnico (gênero expositivo) pode ter o segundo parágrafo totalmente narrativo, contando o histórico do incidente. Leia com atenção o que a questão delimita: 'no segundo parágrafo', 'nas linhas 5 a 8', 'no trecho destacado'. A resposta pode ser completamente diferente do tipo predominante no texto todo.",
       "nivel": "intermediario"
     },
     {
-      "situacao": "A alternativa correta diz que um texto é 'predominantemente descritivo' mas ele tem verbos de ação.",
-      "dica": "Descrições técnicas e científicas podem conter verbos de ação para descrever funcionamento ('o motor aciona', 'o relé chaveia'). Se o objetivo principal é caracterizar um objeto ou processo — não narrar uma sequência de eventos com personagem e conflito —, o tipo é descritivo. Pergunte-se: há personagem e conflito? Se não, provavelmente é descrição.",
+      "situacao": "Ignorar o propósito comunicativo ao classificar textos de contexto militar",
+      "dica": "Textos militares (portaria, ata, boletim, regulamento) parecem narrativos porque relatam fatos, decisões e cronologias. Mas o propósito comunicativo é o que define o tipo. Uma ata narra o que ocorreu (sequência narrativa), mas também instrui e expõe. Uma portaria instrui obrigações futuras (injunção) mesmo que o preâmbulo conte o contexto (narração). Sempre pergunte: 'para que esse texto foi escrito?' A resposta revela o tipo dominante.",
       "nivel": "avancado"
     }
   ],
@@ -123,739 +217,765 @@
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa que apresenta corretamente a distinção entre tipo textual e gênero textual.",
+      "enunciado": "Assinale a alternativa que apresenta corretamente os cinco tipos textuais reconhecidos pela teoria da linguagem.",
       "alternativas": {
-        "A": "Tipo textual e gênero textual são expressões sinônimas que designam as diferentes formas de organizar um texto escrito.",
-        "B": "Tipo textual é uma categoria abstrata que descreve sequências linguísticas com características morfossintáticas estáveis; gênero textual é uma forma sociocomunicativa historicamente situada, com função, suporte e esfera de circulação definidos.",
-        "C": "Gênero textual é uma categoria teórica abstrata; tipo textual é a forma concreta e social de comunicação utilizada em situações reais.",
-        "D": "Tipo textual refere-se apenas à narração e à descrição; gênero textual abrange todos os demais modos de organização do discurso.",
-        "E": "Tipo textual é determinado pelo suporte de circulação do texto (jornal, livro, internet); gênero textual, pela intenção comunicativa do autor."
+        "A": "Narração, descrição, dissertação, injunção e exposição.",
+        "B": "Narração, argumentação, reportagem, injunção e exposição.",
+        "C": "Narração, descrição, dissertação, portaria e exposição.",
+        "D": "Crônica, descrição, dissertação, injunção e exposição.",
+        "E": "Narração, descrição, dissertação, injunção e editorial."
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B reproduz com precisão a distinção canônica: tipo textual é categoria teórica e abstrata (narração, descrição, dissertação, injunção, predição) definida por marcas linguísticas; gênero textual é forma social e historicamente estabilizada (notícia, ofício, receita, carta) definida por função sociocomunicativa, suporte e esfera. A é falsa — são categorias distintas. C inverte os conceitos. D restringe incorretamente a tipologia. E confunde os critérios definidores de cada categoria."
+      "gabarito": "A",
+      "explicacao": "Os cinco tipos textuais são: narração, descrição, dissertação (ou argumentação), injunção e exposição. A alternativa A é a única que lista exatamente esses cinco. As demais inserem gêneros textuais no lugar de tipos: 'reportagem' (B), 'portaria' (C), 'crônica' (D) e 'editorial' (E) são todos gêneros textuais, não tipos. A distinção fundamental é que tipos descrevem a estrutura interna do texto, enquanto gêneros descrevem práticas sociais de comunicação."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Leia o fragmento: 'Desligue o disjuntor geral antes de iniciar qualquer serviço na instalação elétrica. Verifique com o multímetro se há tensão nos terminais. Utilize luvas de borracha e calçados isolantes.' O tipo textual predominante é:",
+      "enunciado": "O texto que instrui, prescreve ações ou orienta procedimentos, com verbos predominantemente no imperativo ou no infinitivo, é classificado como",
       "alternativas": {
-        "A": "Narrativo, pois descreve uma sequência de ações realizadas por um agente.",
-        "B": "Descritivo, pois caracteriza os equipamentos de proteção individual necessários.",
-        "C": "Injuntivo, pois orienta e prescreve condutas a serem seguidas pelo leitor.",
-        "D": "Dissertativo-argumentativo, pois defende a importância da segurança elétrica.",
-        "E": "Expositivo, pois apresenta informações técnicas sobre instalações elétricas."
+        "A": "expositivo.",
+        "B": "narrativo.",
+        "C": "descritivo.",
+        "D": "injuntivo.",
+        "E": "dissertativo."
       },
-      "gabarito": "C",
-      "explicacao": "O fragmento usa verbos no imperativo ('Desligue', 'Verifique', 'Utilize') com função prescritiva, orientando o leitor a executar ações numa ordem definida. Isso caracteriza o tipo injuntivo. A é errada pois narração exige personagem, conflito e desfecho — não há isso aqui. B é errada pois a descrição dos EPIs é instrumental, não constitui o propósito central. D é errada pois não há tese sendo defendida. E é errada pois a exposição informativa não prescreve condutas."
+      "gabarito": "D",
+      "explicacao": "O tipo injuntivo (ou injunção) é aquele cujo propósito comunicativo é instruir, prescrever ou orientar. Seus marcadores linguísticos típicos são verbos no imperativo ('registre', 'compareça') e verbos no infinitivo com valor de ordem ('registrar', 'comparecer'). Regulamentos militares, portarias, manuais de procedimento e bulas de medicamento são exemplos de gêneros em que a injunção predomina. As demais alternativas nomeiam tipos com propósitos diferentes: o expositivo informa sem julgamento; o narrativo conta eventos; o descritivo caracteriza; o dissertativo argumenta."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Qual dos seguintes é um exemplo de gênero textual da esfera militar, conforme o Manual de Redação e Estilo da Marinha?",
+      "enunciado": "Um verbete de dicionário que define o significado de 'almirante' e apresenta sua etimologia sem defender nenhuma posição é classificado como texto predominantemente",
       "alternativas": {
-        "A": "Crônica jornalística.",
-        "B": "Ofício.",
-        "C": "Conto literário.",
-        "D": "Editorial de revista.",
-        "E": "Verbete enciclopédico."
+        "A": "dissertativo.",
+        "B": "narrativo.",
+        "C": "expositivo.",
+        "D": "injuntivo.",
+        "E": "descritivo."
       },
-      "gabarito": "B",
-      "explicacao": "O ofício é gênero da esfera oficial e militar, com formatação, linguagem e finalidade reguladas pelo Manual de Redação e Estilo da Marinha. Os demais pertencem a outras esferas: A (jornalístico-literária), C (literária), D (jornalística de opinião), E (acadêmico-enciclopédica)."
+      "gabarito": "C",
+      "explicacao": "O tipo expositivo caracteriza-se por informar, definir e explicar sem emitir julgamento ou defender ponto de vista. Um verbete de dicionário é o exemplo clássico: apresenta o conceito, sua origem e suas acepções de forma objetiva e neutra. Não é dissertativo porque não defende tese; não é narrativo porque não conta eventos em sequência; não é injuntivo porque não instrui; não é descritivo porque não caracteriza um objeto ou pessoa por suas qualidades sensoriais — define um conceito abstrato."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "O tipo textual que tem como principal objetivo convencer o interlocutor por meio de uma tese sustentada por argumentos é:",
+      "enunciado": "Assinale a alternativa que apresenta um gênero textual, e não um tipo textual.",
       "alternativas": {
-        "A": "Injuntivo.",
-        "B": "Narrativo.",
-        "C": "Descritivo.",
-        "D": "Dissertativo-argumentativo.",
-        "E": "Preditivo."
+        "A": "Narração.",
+        "B": "Descrição.",
+        "C": "Exposição.",
+        "D": "Portaria.",
+        "E": "Dissertação."
       },
       "gabarito": "D",
-      "explicacao": "A dissertação argumentativa é definida pela presença de uma tese (posição do autor) e argumentos que a sustentam, com o objetivo de convencer o leitor. A injunção prescreve ações. A narração conta eventos. A descrição caracteriza. A predição projeta eventos futuros."
+      "explicacao": "Portaria é um gênero textual — uma forma socialmente estabilizada de comunicação usada pela administração pública e pelas Forças Armadas para emitir normas e determinações. Narração, descrição, exposição e dissertação são tipos textuais — categorias estruturais que descrevem como o texto é internamente organizado. A portaria, enquanto gênero, costuma apresentar sequências injuntivas e expositivas em sua estrutura, mas ela mesma não é um tipo."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Em qual das alternativas o gênero textual e a esfera de circulação estão corretamente associados?",
+      "enunciado": "No trecho 'O navio estava pintado de cinza-escuro, com a proa levemente amassada e a bandeira hasteada a meia-haste', o tipo textual predominante é",
       "alternativas": {
-        "A": "Receita culinária — esfera jurídica.",
-        "B": "Petição — esfera cotidiana.",
-        "C": "Artigo científico — esfera acadêmica.",
-        "D": "Boletim interno — esfera literária.",
-        "E": "Conto — esfera jornalística."
+        "A": "narrativo, pois há sequência de eventos.",
+        "B": "injuntivo, pois há orientação implícita.",
+        "C": "expositivo, pois há informação objetiva.",
+        "D": "descritivo, pois há caracterização de um objeto.",
+        "E": "dissertativo, pois há julgamento implícito."
       },
-      "gabarito": "C",
-      "explicacao": "O artigo científico circula na esfera acadêmica, sendo produzido e consumido por pesquisadores e estudantes em contexto universitário e de pesquisa. A é incorreta (receita pertence à esfera cotidiana). B é incorreta (petição pertence à esfera jurídica). D é incorreta (boletim interno pertence à esfera militar/organizacional). E é incorreta (conto pertence à esfera literária)."
+      "gabarito": "D",
+      "explicacao": "O trecho caracteriza o estado de um objeto (o navio) por meio de verbos de estado ('estava pintado') e adjetivos ('levemente amassada', 'cinza-escuro') que pintam uma imagem estática. Esse é o padrão clássico do tipo descritivo: apresentar as qualidades sensoriais e o estado de um ser ou objeto. Não há sequência de eventos (o que excluiria a narração), não há instrução (o que excluiria a injunção), não há definição neutra (o que excluiria a exposição) e não há defesa de tese (o que excluiria a dissertação)."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "O fragmento 'O céu estava cor de chumbo, pesado e ameaçador, enquanto as ondas golpeavam o casco do navio com crescente violência' exemplifica predominantemente qual tipo textual?",
+      "enunciado": "A principal diferença entre tipo textual e gênero textual é que",
       "alternativas": {
-        "A": "Narrativo, pois apresenta uma sequência de ações.",
-        "B": "Injuntivo, pois orienta o leitor sobre condições meteorológicas.",
-        "C": "Dissertativo-expositivo, pois apresenta dados sobre o estado do mar.",
-        "D": "Descritivo, pois caracteriza o estado do ambiente por meio de atributos e verbos de estado.",
-        "E": "Preditivo, pois anuncia uma tempestade iminente."
+        "A": "o tipo é exclusivo da escrita formal e o gênero pode ser oral ou escrito.",
+        "B": "o tipo se refere à estrutura interna do texto, enquanto o gênero se refere à prática social de linguagem.",
+        "C": "o tipo é definido pelo tema do texto e o gênero é definido pela extensão.",
+        "D": "o tipo varia conforme o autor e o gênero é fixo em cada língua.",
+        "E": "o tipo é exclusivo de textos literários e o gênero abrange todos os textos."
       },
-      "gabarito": "D",
-      "explicacao": "O fragmento usa adjetivos ('pesado', 'ameaçador') e verbos que expressam estado ou ação de caracterização ('estava', 'golpeavam'), construindo um retrato estático e impressionista do ambiente. Isso é característico da descrição subjetiva. A é incorreta pois não há personagem com intenção agindo em sequência narrativa. B, C e E desviam-se completamente da função do fragmento."
+      "gabarito": "B",
+      "explicacao": "A distinção fundamental, consagrada pelos estudos linguísticos contemporâneos (Marcuschi, Koch e Elias), é que o tipo textual diz respeito à estrutura interna e ao modo de organização do discurso (narrar, descrever, argumentar, expor, instruir), enquanto o gênero textual se refere a práticas comunicativas socialmente situadas (ofício, reportagem, ata, conto, portaria). Tipos são em número limitado (cinco); gêneros são virtualmente ilimitados. As demais alternativas apresentam distinções incorretas sem respaldo teórico."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Um texto de lei que estabelece normas de conduta obrigatórias para militares pertence a qual tipo textual?",
+      "enunciado": "O texto que conta uma sequência de eventos envolvendo personagens, com verbos de ação no pretérito, é classificado como",
       "alternativas": {
-        "A": "Narrativo.",
-        "B": "Descritivo.",
-        "C": "Dissertativo-argumentativo.",
-        "D": "Injuntivo.",
-        "E": "Dissertativo-expositivo."
+        "A": "expositivo.",
+        "B": "dissertativo.",
+        "C": "descritivo.",
+        "D": "injuntivo.",
+        "E": "narrativo."
       },
-      "gabarito": "D",
-      "explicacao": "Textos normativos (leis, decretos, regulamentos) são injuntivos porque prescrevem condutas obrigatórias, proibições e permissões. Mesmo que usem presente do indicativo ('é vedado', 'o militar deve'), a função é regular comportamentos — o que define o tipo injuntivo. Não são argumentativos (não defendem uma tese) nem expositivos (não se limitam a informar)."
+      "gabarito": "E",
+      "explicacao": "O tipo narrativo tem como marcadores essenciais: sequência de eventos no tempo, presença de personagens (ou agentes), e verbos de ação predominantemente no pretérito perfeito ou imperfeito. Atas de ocorrência, relatórios de incidente, crônicas e contos são gêneros que frequentemente apresentam sequências narrativas. As demais alternativas nomeiam tipos com características estruturais distintas: expositivo (informa/define), dissertativo (argumenta), descritivo (caracteriza) e injuntivo (instrui)."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Sobre os gêneros textuais, é correto afirmar que:",
+      "enunciado": "Assinale a alternativa em que todos os itens são gêneros textuais.",
       "alternativas": {
-        "A": "São categorias fixas e imutáveis, definidas uma vez para sempre pela tradição gramatical.",
-        "B": "São determinados exclusivamente pelo tipo textual que utilizam.",
-        "C": "São formas sociocomunicativas historicamente situadas que surgem, transformam-se e desaparecem conforme as práticas sociais evoluem.",
-        "D": "Existem apenas nas esferas literária e jornalística.",
-        "E": "Coincidem sempre com um único tipo textual, sendo essa correspondência biunívoca."
+        "A": "Narração, descrição, exposição.",
+        "B": "Ofício, portaria, ata.",
+        "C": "Injunção, dissertação, crônica.",
+        "D": "Reportagem, narração, editorial.",
+        "E": "Ata, dissertação, boletim."
       },
-      "gabarito": "C",
-      "explicacao": "Gêneros textuais são dinâmicos e historicamente situados — o e-mail, por exemplo, surgiu com a internet e transformou características da carta. A é incorreta pois gêneros são históricos e mutáveis. B é incorreta pois gêneros são definidos também por função, suporte e esfera — não apenas pelo tipo. D é incorreta pois há gêneros em todas as esferas sociais. E é incorreta pois um gênero pode combinar vários tipos (heterogeneidade tipológica)."
+      "gabarito": "B",
+      "explicacao": "Ofício, portaria e ata são todos gêneros textuais — formas de comunicação socialmente estabilizadas que circulam em contextos administrativos e militares. As demais alternativas misturam gêneros e tipos: narração, descrição, exposição, injunção e dissertação são tipos textuais, não gêneros. Crônica, reportagem e editorial são gêneros, mas nas alternativas C, D e E estão misturados com tipos. Apenas a alternativa B lista exclusivamente gêneros textuais."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "A narração se distingue da descrição principalmente porque:",
+      "enunciado": "Qual dos seguintes textos apresenta predominantemente o tipo dissertativo?",
       "alternativas": {
-        "A": "A narração usa linguagem formal; a descrição usa linguagem coloquial.",
-        "B": "A narração organiza eventos em sequência temporal com personagens e conflito; a descrição caracteriza seres, objetos ou lugares por meio de atributos.",
-        "C": "A narração é sempre em primeira pessoa; a descrição, sempre em terceira pessoa.",
-        "D": "A narração aparece apenas em textos literários; a descrição, apenas em textos técnicos.",
-        "E": "A narração usa apenas verbos no pretérito; a descrição usa apenas adjetivos."
+        "A": "Manual de primeiros socorros da Marinha do Brasil.",
+        "B": "Relatório descrevendo as condições climáticas durante patrulha.",
+        "C": "Ata registrando o que ocorreu na reunião do estado-maior.",
+        "D": "Editorial de jornal defendendo maior investimento em defesa naval.",
+        "E": "Portaria regulamentando o uso do fardamento em cerimônias."
       },
-      "gabarito": "B",
-      "explicacao": "A distinção fundamental é funcional e estrutural: narração organiza eventos com sequência temporal, personagens, conflito e desfecho; descrição produz um retrato estático caracterizando atributos. A é falsa — o registro de formalidade é independente do tipo. C é falsa — ambos os tipos ocorrem em 1ª e 3ª pessoa. D é falsa — ambos aparecem em textos literários e técnicos. E é falsa — são traços frequentes mas não exclusivos."
+      "gabarito": "D",
+      "explicacao": "O editorial é o gênero por excelência da dissertação: o veículo de comunicação expressa sua opinião, defende uma tese e a sustenta com argumentos. A alternativa D descreve exatamente isso. O manual de primeiros socorros (A) e a portaria (E) são injuntivos; o relatório climático (B) é expositivo-descritivo; a ata (C) é predominantemente narrativa. A dissertação exige que o texto tome posição e argumente em favor dela — o que ocorre no editorial, não nos outros gêneros citados."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "O fenômeno pelo qual um único texto combina mais de um tipo textual é denominado:",
+      "enunciado": "Em textos injuntivos, como regulamentos e portarias militares, predominam",
       "alternativas": {
-        "A": "Polissemia tipológica.",
-        "B": "Hibridismo genológico.",
-        "C": "Heterogeneidade tipológica.",
-        "D": "Intertextualidade formal.",
-        "E": "Mescla discursiva."
+        "A": "verbos no pretérito perfeito e sujeitos coletivos.",
+        "B": "adjetivos qualificativos e verbos de estado.",
+        "C": "conectivos de causa e consequência e tese central.",
+        "D": "verbos no imperativo ou no infinitivo com valor de ordem.",
+        "E": "definições e conceitos apresentados em ordem crescente de complexidade."
       },
-      "gabarito": "C",
-      "explicacao": "Koch e Elias denominam 'heterogeneidade tipológica' o fenômeno pelo qual textos reais combinam mais de um tipo textual. É a norma, não a exceção — textos puramente de um só tipo são raros. B (hibridismo genológico) refere-se à mistura de gêneros, não de tipos. A, D e E não são terminologias técnicas reconhecidas na bibliografia da disciplina."
+      "gabarito": "D",
+      "explicacao": "O tipo injuntivo é reconhecível pelos verbos no imperativo ('registre', 'compareça', 'apresente-se') ou no infinitivo com valor de ordem ('registrar', 'comparecer', 'apresentar-se'). Portarias militares usam fórmulas como 'deverá apresentar-se' e 'fica determinado que', que são formas injuntivas. Verbos no pretérito (A) são marcadores narrativos; adjetivos e verbos de estado (B) são marcadores descritivos; conectivos de causa/consequência e tese (C) são marcadores dissertativos; definições em sequência (E) são marcadores expositivos."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Leia o fragmento de um editorial militar: 'A modernização da Marinha do Brasil é imperativa para a defesa da soberania nacional. Os investimentos em tecnologia naval, longe de representarem gastos supérfluos, constituem condição sine qua non para o posicionamento estratégico do país no contexto geopolítico atual.' O tipo textual predominante e a função do texto são, respectivamente:",
+      "textoBase": "O Aviso nº 07/2025 do Comando Naval comunicou que as inscrições para o processo de reclassificação estariam abertas entre os dias 5 e 20 de fevereiro. Os candidatos deveriam entregar os formulários devidamente preenchidos na Secretaria do Pessoal e aguardar convocação para a etapa de avaliação de desempenho.",
+      "enunciado": "Com relação ao texto acima, assinale a alternativa correta quanto ao tipo textual predominante e à presença de sequências secundárias.",
       "alternativas": {
-        "A": "Injuntivo; prescrever condutas aos leitores sobre investimentos navais.",
-        "B": "Dissertativo-argumentativo; defender uma tese sobre a necessidade de modernização naval.",
-        "C": "Narrativo; relatar os eventos históricos de modernização da Marinha.",
-        "D": "Dissertativo-expositivo; apresentar informações neutras sobre o orçamento da Marinha.",
-        "E": "Descritivo; caracterizar as condições tecnológicas atuais da Marinha."
+        "A": "O texto é predominantemente narrativo, com sequências descritivas nos trechos que caracterizam os formulários.",
+        "B": "O texto é predominantemente expositivo, com sequências injuntivas nos trechos que prescrevem ações aos candidatos.",
+        "C": "O texto é predominantemente dissertativo, pois defende a abertura do processo seletivo.",
+        "D": "O texto é predominantemente injuntivo, pois todo o conteúdo se destina a instruir os candidatos.",
+        "E": "O texto é predominantemente descritivo, com sequências expositivas nos trechos informativos."
       },
       "gabarito": "B",
-      "explicacao": "O fragmento apresenta uma tese ('a modernização é imperativa') e a defende com um argumento que refuta a posição contrária ('longe de representarem gastos supérfluos'). O uso de 'imperativa', 'condição sine qua non' e a estrutura concessiva ('longe de... constituem') são marcas da dissertação argumentativa. A é errada — não há prescrição de ação. C é errada — não há narração de eventos. D é errada — há posicionamento e defesa de tese, não neutralidade expositiva. E é errada — não há caracterização de atributos."
+      "explicacao": "O texto informa objetivamente sobre datas e procedimentos (sequência expositiva predominante), mas contém trechos injuntivos onde prescreve ações: 'deveriam entregar os formulários' e 'aguardar convocação' têm valor de instrução. O Aviso é um gênero que tipicamente mescla exposição (informa) com injunção (instrui). Não é narrativo porque não conta eventos passados em sequência; não é dissertativo porque não defende tese; não é puramente injuntivo porque o objetivo principal é informar, não apenas instruir; não é descritivo porque não caracteriza objetos ou pessoas por suas qualidades sensoriais."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Em relação à reportagem jornalística, é correto afirmar que ela:",
+      "textoBase": "O submarino avançou silenciosamente pelas águas escuras do estuário. A névoa encobria a visibilidade a menos de cem metros. Às 03h12, o comandante ordenou imersão total. Em questão de minutos, o casco desapareceu sob a superfície agitada.",
+      "enunciado": "No trecho acima, identifica-se a presença de duas sequências textuais. Assinale a alternativa que as identifica corretamente.",
       "alternativas": {
-        "A": "É um tipo textual, pois combina narração, descrição e dissertação.",
-        "B": "É um gênero textual que circula na esfera jornalística e pode combinar vários tipos textuais.",
-        "C": "É um tipo textual dissertativo-argumentativo porque sempre apresenta a opinião do repórter.",
-        "D": "É um gênero textual exclusivamente narrativo, visto que relata fatos.",
-        "E": "É o mesmo gênero que o editorial, distinguindo-se apenas pela extensão."
+        "A": "Injuntiva e dissertativa.",
+        "B": "Expositiva e injuntiva.",
+        "C": "Narrativa e descritiva.",
+        "D": "Descritiva e dissertativa.",
+        "E": "Narrativa e expositiva."
       },
-      "gabarito": "B",
-      "explicacao": "A reportagem é gênero (forma sociocomunicativa da esfera jornalística) que combina narração (relato dos fatos), descrição (contextualização) e dissertação expositiva (explicação de causas). A é errada pois reportagem é gênero, não tipo — a combinação de tipos é seu traço, não sua definição. C é errada pois a reportagem padrão preserva a imparcialidade (diferente do editorial). D é errada pois há heterogeneidade tipológica. E é errada pois editorial é gênero opinativo com propósito distinto."
+      "gabarito": "C",
+      "explicacao": "O trecho apresenta duas sequências claramente identificáveis. A sequência descritiva aparece nos trechos que pintam o cenário: 'águas escuras do estuário', 'névoa encobria a visibilidade a menos de cem metros' e 'superfície agitada' — caracterizações do ambiente por meio de adjetivos e verbos de estado. A sequência narrativa aparece nos eventos em progressão temporal: 'o comandante ordenou imersão total' e 'o casco desapareceu sob a superfície' — ações com verbo no pretérito perfeito que avançam no tempo. Não há instrução (injunção), definição (exposição) nem argumentação (dissertação)."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Qual das alternativas apresenta corretamente a sequência: gênero textual — esfera de circulação — tipo predominante?",
+      "textoBase": "A Marinha do Brasil conta com uma frota moderna e bem equipada, capaz de realizar operações em águas rasas e profundas. Seus navios-patrulha possuem autonomia de navegação superior a quinze dias e sistemas de comunicação de última geração.",
+      "enunciado": "O tipo textual do trecho acima é predominantemente expositivo, e não dissertativo, porque",
       "alternativas": {
-        "A": "Bula de remédio — esfera publicitária — narrativo.",
-        "B": "Conto — esfera literária — narrativo.",
-        "C": "Ofício — esfera cotidiana — injuntivo.",
-        "D": "Artigo de opinião — esfera acadêmica — descritivo.",
-        "E": "Receita culinária — esfera jurídica — dissertativo-argumentativo."
+        "A": "o texto usa verbos no imperativo, típicos da injunção.",
+        "B": "o texto narra eventos passados em sequência cronológica.",
+        "C": "o texto apresenta informações objetivas sem defender uma tese ou emitir julgamento.",
+        "D": "o texto descreve o ambiente marítimo por meio de adjetivos sensoriais.",
+        "E": "o texto instrui o leitor sobre como operar os navios-patrulha."
       },
-      "gabarito": "B",
-      "explicacao": "O conto é gênero da esfera literária cujo tipo predominante é o narrativo (personagens, conflito, desfecho). A é errada: bula pertence à esfera farmacêutico-técnica e é predominantemente injuntiva. C é errada: ofício pertence à esfera oficial/militar, não cotidiana. D é errada: artigo de opinião é da esfera jornalística/acadêmica e é predominantemente argumentativo. E é errada: receita pertence à esfera cotidiana e é injuntiva."
+      "gabarito": "C",
+      "explicacao": "A distinção entre exposição e dissertação está no propósito comunicativo. O trecho apresenta dados e características da frota naval de forma objetiva — informa, não argumenta. Não há tese sendo defendida, não há opinião, não há tentativa de convencer o leitor. Esse padrão é expositivo. Se o texto dissesse 'a Marinha precisa ampliar sua frota porque a defesa marítima é insuficiente', aí haveria dissertação. As demais alternativas descrevem características de outros tipos: verbos no imperativo (A) são injuntivos; narração cronológica (B) é narrativa; adjetivos sensoriais (D) são descritivos; instrução (E) é injuntiva."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Um relatório técnico de inspeção elétrica narra os procedimentos realizados, descreve o estado dos equipamentos, apresenta os resultados das medições e recomenda ações corretivas. Esse relatório exemplifica:",
+      "textoBase": "Para solicitar afastamento temporário, o militar deverá preencher o Formulário MR-15, anexar a documentação comprobatória, encaminhar o processo à chefia imediata e aguardar despacho. O requerimento sem documentação completa será devolvido sem análise.",
+      "enunciado": "O tipo textual do trecho acima é injuntivo. Assinale a alternativa que apresenta o marcador linguístico mais característico desse tipo no fragmento.",
       "alternativas": {
-        "A": "Um único tipo textual — o dissertativo-expositivo — pois toda apresentação técnica é expositiva.",
-        "B": "A tipologia pura narrativa, pois relata os procedimentos em ordem cronológica.",
-        "C": "A heterogeneidade tipológica, pois combina narração, descrição, dissertação expositiva e injunção.",
-        "D": "Um gênero oral reconfigurado para a escrita, perdendo suas características originais.",
-        "E": "Um tipo exclusivamente injuntivo, pois contém recomendações ao final."
+        "A": "O uso de verbos no pretérito perfeito: 'será devolvido'.",
+        "B": "A presença de adjetivos que caracterizam o formulário: 'comprobatória'.",
+        "C": "O uso de verbos no futuro com valor imperativo: 'deverá preencher', 'deverá encaminhar'.",
+        "D": "A definição do Formulário MR-15 e seu propósito administrativo.",
+        "E": "A sequência de eventos passados que culmina no despacho."
       },
       "gabarito": "C",
-      "explicacao": "O relatório técnico é exemplo clássico de heterogeneidade tipológica: narra procedimentos (narração), caracteriza equipamentos (descrição), apresenta resultados e explica causas (dissertação expositiva) e recomenda ações (injunção). A é errada pois reduz toda a complexidade tipológica a um único tipo. B é errada pelo mesmo motivo. D é incorreta pois relatório técnico é gênero escrito com longa tradição. E é errada pois a injunção é apenas parte do texto."
+      "explicacao": "O marcador linguístico mais característico da injunção no trecho é o uso de verbos no futuro com valor de obrigação e ordem: 'deverá preencher', 'deverá encaminhar', 'aguardar'. Esses verbos prescrevem ações ao militar — característica essencial do tipo injuntivo. 'Será devolvido' (A) é futuro de consequência, não imperativo; 'comprobatória' (B) é adjetivo que qualifica documentação, não marca de injunção; a definição de formulário (D) seria traço expositivo; e não há sequência de eventos passados (E) — tudo está projetado para o futuro."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "A diferença entre a dissertação expositiva e a dissertação argumentativa reside principalmente em:",
+      "textoBase": "O efetivo das Forças Armadas brasileiras tem diminuído progressivamente nas últimas duas décadas devido a cortes orçamentários sucessivos. Esse cenário compromete a capacidade operacional da Marinha e coloca em risco a soberania marítima do país, que possui a maior costa litorânea da América do Sul.",
+      "enunciado": "O tipo textual predominante no trecho é dissertativo porque",
       "alternativas": {
-        "A": "O tamanho do texto: dissertações expositivas são mais curtas; argumentativas, mais longas.",
-        "B": "O registro linguístico: expositivas usam linguagem coloquial; argumentativas usam linguagem culta.",
-        "C": "A intenção comunicativa: a expositiva informa sem tomar partido; a argumentativa defende uma tese buscando convencer.",
-        "D": "O suporte: dissertações expositivas circulam em jornais; argumentativas, em livros didáticos.",
-        "E": "A presença de exemplos: apenas a dissertação expositiva utiliza exemplificação."
+        "A": "descreve o efetivo das Forças Armadas com adjetivos e dados numéricos.",
+        "B": "conta a história dos cortes orçamentários em ordem cronológica.",
+        "C": "instrui o leitor sobre como defender a soberania marítima.",
+        "D": "defende uma tese — que os cortes comprometem a capacidade operacional — com argumentos de causa e consequência.",
+        "E": "apresenta definições técnicas de termos militares como 'efetivo' e 'capacidade operacional'."
       },
-      "gabarito": "C",
-      "explicacao": "A distinção fundamental é de intenção comunicativa (e consequentemente de estrutura): o texto expositivo informa, explica, esclarece de forma neutra; o argumentativo defende uma tese e usa recursos persuasivos para convencer. A, B, D e E apontam características acidentais ou falsas que não definem a distinção tipológica."
+      "gabarito": "D",
+      "explicacao": "O texto é dissertativo porque apresenta uma tese implícita (os cortes orçamentários prejudicam a Marinha) e a sustenta com argumentos de causa ('devido a cortes orçamentários') e consequência ('compromete a capacidade operacional', 'coloca em risco a soberania'). Há um posicionamento crítico, não apenas informação neutra. Não é descritivo (A) porque não pinta um quadro estático; não é narrativo (B) porque não conta eventos em sequência; não é injuntivo (C) porque não instrui; não é expositivo (E) porque não define — argumenta."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Sobre o gênero 'ordem do dia' na esfera militar, é correto afirmar:",
+      "enunciado": "Considere que um texto de boletim interno da Marinha contenha: no primeiro parágrafo, a informação sobre uma reunião realizada; no segundo, a lista de determinações tomadas; e no terceiro, a descrição do local onde os documentos ficam arquivados. Assinale a alternativa que identifica corretamente as sequências textuais em cada parágrafo, nessa ordem.",
       "alternativas": {
-        "A": "É um gênero informal e flexível, sem convenções fixas de formatação.",
-        "B": "Pertence à esfera literária por ser escrita com recursos estilísticos elaborados.",
-        "C": "É um gênero da esfera militar com convenções rígidas de formatação, linguagem formal e função comunicativa específica de orientar e informar a tropa.",
-        "D": "Seu tipo predominante é o narrativo, pois relata os fatos do dia anterior.",
-        "E": "É equivalente ao editorial jornalístico por expressar a opinião do comandante."
+        "A": "Dissertativa, injuntiva, narrativa.",
+        "B": "Expositiva, narrativa, descritiva.",
+        "C": "Narrativa, injuntiva, descritiva.",
+        "D": "Descritiva, expositiva, injuntiva.",
+        "E": "Narrativa, expositiva, injuntiva."
       },
       "gabarito": "C",
-      "explicacao": "A ordem do dia é gênero da esfera militar com formato padronizado, linguagem formal e função de comunicar determinações, homenagens ou orientações à tropa. O Manual de Redação e Estilo da Marinha regula suas convenções. A é errada — convenções são rígidas. B é errada — pertence à esfera militar, não literária. D é errada — o tipo predominante é injuntivo ou expositivo, não narrativo. E é errada — o editorial é opinativo; a ordem do dia tem função institucional distinta."
+      "explicacao": "Cada parágrafo corresponde a um tipo textual diferente. O primeiro, que informa sobre uma reunião realizada (evento passado), é narrativo. O segundo, que lista determinações (ordens, instruções ao leitor), é injuntivo. O terceiro, que caracteriza o local onde os documentos ficam arquivados, é descritivo — apresenta qualidades de um espaço. Esse padrão de texto híbrido, com três tipos diferentes em três parágrafos, é típico de boletins internos e comumente explorado pela banca CEBRASPE."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'De acordo com projeções do setor de energia, a capacidade instalada de geração fotovoltaica no Brasil deverá crescer 35% até 2028, consolidando o país como líder regional em energia renovável.' O tipo textual predominante é:",
+      "textoBase": "Gênero textual é uma forma de ação social relativamente estável, reconhecida pelos falantes de uma comunidade, que realiza propósitos comunicativos específicos em contextos socioculturais determinados.",
+      "enunciado": "O fragmento acima, extraído de obra de referência sobre linguística textual, é um exemplo de sequência textual",
       "alternativas": {
-        "A": "Injuntivo, pois orienta o setor energético a investir em energia solar.",
-        "B": "Narrativo, pois relata os eventos do setor energético brasileiro.",
-        "C": "Preditivo, pois projeta eventos futuros com base em dados do setor.",
-        "D": "Dissertativo-argumentativo, pois defende a superioridade da energia solar.",
-        "E": "Descritivo, pois caracteriza a capacidade instalada do setor fotovoltaico."
+        "A": "narrativa, pois relata a história da noção de gênero textual.",
+        "B": "injuntiva, pois instrui o leitor a reconhecer gêneros.",
+        "C": "dissertativa, pois defende que gêneros são formas de ação social.",
+        "D": "expositiva, pois define o conceito de gênero textual de forma objetiva.",
+        "E": "descritiva, pois caracteriza os atributos do gênero textual."
       },
-      "gabarito": "C",
-      "explicacao": "O fragmento usa 'deverá crescer', 'projeções', 'até 2028' — marcas linguísticas do tipo preditivo, que projeta eventos futuros com base em cálculos, tendências ou observações. A é errada — não há prescrição. B é errada — não há sequência de eventos com personagens. D é errada — não há tese sendo defendida. E é errada — a caracterização estática não é o propósito do fragmento."
+      "gabarito": "D",
+      "explicacao": "O fragmento apresenta uma definição: enuncia o que é 'gênero textual' por meio de suas características essenciais. Isso é exposição — informar, definir, esclarecer de forma objetiva e neutra, sem julgamento. Não é narrativo porque não conta eventos. Não é injuntivo porque não instrui. Não é dissertativo porque não defende uma posição polêmica — apenas define. Não é puramente descritivo porque não caracteriza sensorialmente: estabelece atributos conceituais, o que é função da exposição quando define conceitos abstratos."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Um candidato afirma: 'Todo texto narrativo é um gênero literário.' Essa afirmação é:",
+      "enunciado": "Um oficial da Marinha recebe um texto e precisa identificar se é expositivo ou descritivo. Assinale a alternativa que apresenta o critério correto de distinção entre esses dois tipos textuais.",
       "alternativas": {
-        "A": "Correta, pois narração é uma característica exclusiva da literatura.",
-        "B": "Incorreta, pois a narração é um tipo textual que pode aparecer em gêneros literários e não literários, como notícias, relatórios e depoimentos.",
-        "C": "Correta, pois apenas textos com intenção artística usam o tipo narrativo.",
-        "D": "Incorreta, pois o tipo narrativo não existe na literatura — textos literários são sempre dissertativos.",
-        "E": "Correta, pois o tipo narrativo implica ficcionalidade, que é atributo exclusivo da literatura."
+        "A": "O expositivo usa verbos no imperativo; o descritivo usa verbos no pretérito.",
+        "B": "O expositivo define e explica conceitos e processos; o descritivo caracteriza seres, objetos ou ambientes por suas qualidades.",
+        "C": "O expositivo é exclusivo de textos científicos; o descritivo é exclusivo de textos literários.",
+        "D": "O expositivo apresenta tese e argumentos; o descritivo apresenta causa e consequência.",
+        "E": "O expositivo narra eventos em sequência; o descritivo classifica os tipos de cada evento."
       },
       "gabarito": "B",
-      "explicacao": "O tipo textual narrativo aparece em inúmeros gêneros literários (conto, romance, crônica) e não literários (notícia, depoimento, relatório de missão, ata). A ficcionalidade não é condição do tipo narrativo — notícias narram fatos reais. Portanto, a afirmação do candidato é incorreta. D é absurda — literatura usa amplamente o tipo narrativo. E confunde narração com ficção."
+      "explicacao": "A distinção entre exposição e descrição é de propósito e objeto: a exposição define, explica, informa sobre conceitos, processos e relações abstratas — o que é, como funciona, por que acontece; a descrição caracteriza seres concretos ou abstratos por suas qualidades, aparência, estado e atributos sensoriais. Um texto que explica como funciona um radar naval é expositivo; um texto que descreve como o radar é fisicamente, sua cor e seu tamanho, é descritivo. As alternativas A, C, D e E apresentam critérios incorretos que confundem os tipos com os demais."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "No gênero 'ofício', conforme o Manual de Redação e Estilo da Marinha, o tipo textual que aparece quando o ofício solicita providências de outro órgão é:",
+      "enunciado": "Em relação à noção de gênero textual, assinale a alternativa correta.",
       "alternativas": {
-        "A": "Narrativo, pois relata os fatos que geraram a necessidade da providência.",
-        "B": "Dissertativo-argumentativo, pois convence o destinatário a tomar a providência.",
-        "C": "Injuntivo, pois prescreve uma ação a ser realizada pelo destinatário.",
-        "D": "Preditivo, pois projeta as consequências caso a providência não seja tomada.",
-        "E": "Descritivo, pois caracteriza a situação que demanda a providência."
+        "A": "Os gêneros textuais são fixos e imutáveis, estabelecidos de uma vez por todas.",
+        "B": "Cada gênero textual corresponde exatamente a um único tipo textual.",
+        "C": "Os gêneros textuais surgem de necessidades comunicativas sociais e podem se transformar com o tempo.",
+        "D": "Os gêneros textuais se limitam a textos escritos e formais.",
+        "E": "A lista de gêneros textuais é finita e definida pela gramática normativa."
       },
       "gabarito": "C",
-      "explicacao": "Quando um ofício solicita providências ('Solicito a Vossa Senhoria que adote as medidas necessárias para...'), o trecho funciona como injunção — prescreve uma ação ao destinatário. O ofício pode conter partes expositivas (que contextualizam) e injuntivas (que solicitam), exemplificando a heterogeneidade tipológica. A, B, D e E descrevem funções que podem aparecer de forma secundária, mas não definem o ato de solicitar providências."
+      "explicacao": "Gêneros textuais são dinâmicos: surgem quando a sociedade cria novas necessidades comunicativas e se transformam ao longo do tempo. O e-mail surgiu da necessidade de comunicação eletrônica rápida; o ofício se transformou de carta manuscrita a documento eletrônico. Essa dinamicidade é uma das características centrais dos gêneros, conforme Bakhtin e Marcuschi. Os gêneros não são fixos (A); um gênero pode mesclar vários tipos textuais (B); existem gêneros orais como a conversa, a conferência e o sermão (D); e os gêneros são virtualmente ilimitados, não listados pela gramática normativa (E)."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que o tipo textual e suas marcas linguísticas características estão INCORRETAMENTE associados.",
+      "textoBase": "Determina-se ao pessoal do setor administrativo que observe rigorosamente o horário de expediente, registre as ausências no sistema eletrônico e mantenha os arquivos organizados por ordem cronológica, sob pena de apuração de responsabilidade.",
+      "enunciado": "Assinale a alternativa que identifica corretamente o tipo textual do trecho e justifica essa classificação.",
       "alternativas": {
-        "A": "Narrativo — verbos de ação no pretérito, conectivos temporais (então, depois, quando), personagens.",
-        "B": "Descritivo — verbos de estado (ser, estar, parecer), adjetivos, construções nominais.",
-        "C": "Dissertativo-argumentativo — tese, argumentos, conectivos lógicos (portanto, entretanto, logo).",
-        "D": "Injuntivo — imperativo ou infinitivo, verbos de orientação (dever, precisar), segunda pessoa.",
-        "E": "Preditivo — verbos no pretérito perfeito, conectivos de causa (porque, pois, já que)."
+        "A": "Narrativo, porque relata eventos ocorridos no setor administrativo.",
+        "B": "Descritivo, porque caracteriza o modo como os arquivos devem ser mantidos.",
+        "C": "Dissertativo, porque argumenta em favor da pontualidade no serviço público.",
+        "D": "Expositivo, porque informa sobre o funcionamento do sistema eletrônico.",
+        "E": "Injuntivo, porque prescreve ações obrigatórias ao pessoal do setor."
       },
       "gabarito": "E",
-      "explicacao": "O tipo preditivo usa verbos no futuro do presente ou no futuro do pretérito ('crescerá', 'deverá aumentar', 'seria'), além de expressões de projeção ('as projeções indicam', 'estima-se que'). Os conectivos de causa pertencem ao texto argumentativo. O pretérito perfeito é marca da narração. Portanto, a alternativa E apresenta uma associação incorreta."
+      "explicacao": "O trecho é injuntivo: seu propósito comunicativo é prescrever ações obrigatórias. Os marcadores são: 'Determina-se', 'que observe', 'registre', 'mantenha' — todos verbos com valor imperativo, prescrevendo condutas ao pessoal administrativo. A ameaça de punição ('sob pena de apuração de responsabilidade') reforça o caráter imperativo do texto. Não é narrativo porque não conta eventos passados; não é descritivo porque não caracteriza sensorialmente; não é dissertativo porque não argumenta; não é expositivo porque não informa neutramente — ordena."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Leia o seguinte fragmento: 'Senhores Oficiais, nesta data em que celebramos o aniversário de nossa Força, recordo com orgulho os feitos de nossos antepassados, que construíram, com sacrifício e dedicação, a tradição que nos cabe preservar. Que cada um de nós renove, hoje, o compromisso com os valores que nos unem: a honra, a lealdade e o amor à Pátria.' Considerando tipo, gênero e propósito comunicativo, assinale a alternativa correta.",
+      "textoBase": "O envelhecimento da frota de navios-patrulha é um problema que a Marinha não pode continuar ignorando. Dos quarenta e dois navios em operação, mais da metade ultrapassou o tempo de vida útil recomendado. A manutenção de equipamentos obsoletos consome recursos que poderiam ser direcionados para a modernização do efetivo. Se não houver investimento imediato, o Brasil estará vulnerável em áreas estratégicas do Atlântico Sul em menos de uma década.",
+      "enunciado": "No trecho, predomina o tipo dissertativo. Assinale a alternativa que identifica corretamente a estrutura argumentativa presente.",
       "alternativas": {
-        "A": "O texto é uma notícia jornalística de tipo predominantemente narrativo, pois relata fatos históricos.",
-        "B": "O texto é uma ordem do dia de tipo misto (narrativo-injuntivo), pois rememora o passado e convoca os ouvintes a renovar o compromisso.",
-        "C": "O texto é um artigo de opinião de tipo dissertativo-argumentativo, pois defende a importância da tradição militar.",
-        "D": "O texto é um relatório de tipo expositivo, pois apresenta informações factuais sobre a história da Força.",
-        "E": "O texto é uma crônica literária de tipo descritivo, pois caracteriza os valores militares."
+        "A": "Tese implícita + dados + causa + consequência projetada.",
+        "B": "Sequência cronológica de eventos + personagens + desfecho.",
+        "C": "Definição de conceito + exemplos + sistematização.",
+        "D": "Instrução de procedimento + penalidade + prazo.",
+        "E": "Descrição de objeto + estado atual + comparação com o passado."
       },
-      "gabarito": "B",
-      "explicacao": "O gênero é a 'ordem do dia' (gênero militar de homenagem ou convocação em datas especiais), combinando o tipo narrativo ('recordo os feitos de nossos antepassados') com o tipo injuntivo ('Que cada um de nós renove o compromisso'). O subjuntivo em 'Que cada um renove' tem valor prescritivo/exortativo, caracterizando a injunção. A é errada — não é notícia. C é errada — o texto não estrutura argumentos para defender uma tese. D é errada — o tom é evocativo e exortativo, não neutro. E é errada — não há descrição como propósito central."
+      "gabarito": "A",
+      "explicacao": "O texto é dissertativo com estrutura argumentativa clara. A tese implícita é que a Marinha precisa renovar sua frota urgentemente. Essa tese é sustentada por dados factuais ('mais da metade ultrapassou o tempo de vida útil'), seguida de uma relação de causa e consequência ('a manutenção de equipamentos obsoletos consome recursos que poderiam...') e de uma consequência projetada para o futuro ('o Brasil estará vulnerável... em menos de uma década'). Não há sequência cronológica de eventos com personagens (B), não há definição seguida de exemplos neutros (C), não há prescrição com penalidade (D), e não há caracterização sensorial de um objeto (E)."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Considere a seguinte afirmação de um candidato: 'O Manual de Redação e Estilo da Marinha preconiza a objetividade e a clareza nos documentos oficiais; logo, esses documentos são exclusivamente do tipo dissertativo-expositivo.' Essa conclusão é:",
+      "textoBase": "I. O Oficial de Dia deverá inspecionar as dependências às 06h e às 18h, registrar as ocorrências no livro de bordo e comunicar imediatamente qualquer irregularidade ao Comandante de Serviço.\nII. A última inspeção realizada revelou que a cancela do setor D estava com o cadeado forçado e que a câmera de segurança apresentava falha no registro de imagens.\nIII. O setor D fica no extremo nordeste da base, com acesso restrito ao pessoal autorizado e portão revestido de ferro galvanizado.",
+      "enunciado": "Os fragmentos I, II e III são, respectivamente, dos tipos textuais",
       "alternativas": {
-        "A": "Correta, pois documentos militares oficiais jamais prescrevem condutas.",
-        "B": "Incorreta, pois documentos militares como regulamentos e ordens são injuntivos, e relatórios combinam múltiplos tipos — a objetividade e a clareza são qualidades estilísticas, não determinantes do tipo textual.",
-        "C": "Correta, pois objetividade e clareza são marcas exclusivas do tipo dissertativo-expositivo.",
-        "D": "Incorreta, pois documentos militares são sempre do tipo narrativo, relatando fatos e missões.",
-        "E": "Correta, pois o Manual de Redação da Marinha veda o uso de textos injuntivos em documentos oficiais."
+        "A": "dissertativo, expositivo, injuntivo.",
+        "B": "injuntivo, narrativo, descritivo.",
+        "C": "expositivo, narrativo, injuntivo.",
+        "D": "injuntivo, descritivo, narrativo.",
+        "E": "narrativo, dissertativo, expositivo."
       },
       "gabarito": "B",
-      "explicacao": "A conclusão do candidato é um non sequitur: objetividade e clareza são qualidades estilísticas desejáveis em qualquer tipo de texto, não atributos exclusivos da dissertação expositiva. Regulamentos militares são injuntivos (prescrevem condutas); relatórios combinam narração, descrição e exposição; ofícios podem ter partes injuntivas. A objetividade e a clareza determinam como se escreve, não que tipo de texto é produzido."
+      "explicacao": "O fragmento I é injuntivo: 'deverá inspecionar', 'registrar', 'comunicar' são verbos com valor imperativo prescrevendo obrigações ao Oficial de Dia. O fragmento II é narrativo: 'A última inspeção revelou' introduz um evento passado, e a sequência 'estava com o cadeado forçado' e 'apresentava falha' relata o que foi encontrado em momento específico — típica narração de ocorrência. O fragmento III é descritivo: 'fica no extremo nordeste', 'acesso restrito', 'portão revestido de ferro galvanizado' são caracterizações estáticas do setor — descrição de espaço."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Em qual das alternativas abaixo a análise do tipo predominante em relação ao gênero textual apresentado está CORRETA e justificada?",
+      "textoBase": "A crônica é um gênero textual de fronteira: nasce no jornal, circula entre o jornalismo e a literatura, fala do cotidiano com leveza e ironia, mas guarda sob essa aparente simplicidade uma observação aguçada do mundo e do ser humano. É o tipo de texto que parece contar uma história banal, mas na verdade está argumentando sobre algo maior.",
+      "enunciado": "O trecho trata da crônica como gênero textual. Com base no exposto, é correto afirmar que",
       "alternativas": {
-        "A": "Verbete de dicionário — narrativo — porque relata a história etimológica das palavras.",
-        "B": "Sentença judicial — argumentativo — porque o juiz defende sua decisão com fundamentos jurídicos e a condena como obrigação.",
-        "C": "Anúncio publicitário — descritivo — porque apenas caracteriza os atributos do produto sem nenhuma intenção persuasiva.",
-        "D": "Receita culinária — narrativo — porque apresenta as etapas de preparação em sequência cronológica.",
-        "E": "Notícia jornalística — dissertativo-argumentativo — porque apresenta fatos de forma a convencer o leitor."
+        "A": "a crônica é um tipo textual híbrido que combina injunção e exposição.",
+        "B": "a crônica, por ser um gênero, pode mesclar sequências narrativas e dissertativas, conforme indica o trecho.",
+        "C": "a crônica pertence exclusivamente ao tipo dissertativo, pois sempre argumenta.",
+        "D": "a crônica é um tipo textual exclusivo do contexto jornalístico.",
+        "E": "gêneros textuais literários, como a crônica, não podem ser analisados pela tipologia textual."
       },
       "gabarito": "B",
-      "explicacao": "A sentença judicial combina o tipo argumentativo (o juiz apresenta fundamentos e conclui pela condenação ou absolvição — estrutura de tese + argumentos + conclusão) com elementos injuntivos (determina condutas ao réu). A argumentação é predominante, pois a sentença precisa justificar juridicamente a decisão. A é errada — verbete é expositivo/descritivo. C é errada — publicidade é argumentativa (persuasiva). D é errada — receita é injuntiva. E é errada — notícia padrão é expositivo-narrativa, não argumentativa."
+      "explicacao": "O trecho afirma que a crônica 'parece contar uma história banal' (sequência narrativa) 'mas na verdade está argumentando' (sequência dissertativa). Isso ilustra a característica central dos gêneros textuais: a capacidade de mesclar diferentes tipos textuais. A crônica é um gênero — não um tipo (A, C e D estão incorretos por isso). Dizer que a crônica é um 'tipo textual' é confusão conceitual básica. Quanto à alternativa E, qualquer texto, literário ou não, pode ser analisado pela tipologia textual — gênero e tipo são categorias independentes e complementares."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Art. 5º É vedado ao militar ingressar em dependências restritas sem identificação previamente aprovada pelo Oficial de Dia. Parágrafo único: O descumprimento desta norma sujeitará o infrator às penalidades previstas no Regulamento Disciplinar da Marinha.' O tipo textual e sua justificativa estão corretos em qual alternativa?",
+      "textoBase": "Portaria nº 88/2025 — O Comandante do 2º Distrito Naval, no uso de suas atribuições, resolve: Art. 1º — Estabelecer que os militares do Quadro de Engenharia submetidos a avaliação de desempenho deverão apresentar relatório de atividades até o último dia útil do mês de referência. Art. 2º — O não cumprimento do prazo ensejará instauração de processo administrativo.",
+      "enunciado": "A portaria acima é um gênero textual injuntivo. Assinale a alternativa que, se inserida no texto, caracterizaria uma sequência dissertativa e seria inadequada ao gênero.",
       "alternativas": {
-        "A": "Narrativo, pois relata uma situação ocorrida envolvendo um militar e o Oficial de Dia.",
-        "B": "Descritivo, pois caracteriza as dependências restritas e o processo de identificação.",
-        "C": "Preditivo, pois projeta as consequências futuras do descumprimento da norma.",
-        "D": "Injuntivo, pois prescreve uma proibição de conduta e anuncia sanções ao seu descumprimento.",
-        "E": "Dissertativo-argumentativo, pois defende a importância do controle de acesso em instalações militares."
+        "A": "Art. 3º — Fica revogada a Portaria nº 75/2024.",
+        "B": "Art. 3º — Os relatórios deverão ser entregues em formato digital, conforme modelo anexo.",
+        "C": "Art. 3º — Consideramos que a exigência de relatórios mensais é excessiva e prejudica o rendimento operacional dos militares.",
+        "D": "Art. 3º — Esta portaria entra em vigor na data de sua publicação.",
+        "E": "Art. 3º — Os relatórios serão avaliados pelo superior imediato e encaminhados à chefia de pessoal."
       },
-      "gabarito": "D",
-      "explicacao": "O artigo de regulamento é injuntivo porque prescreve condutas obrigatórias ('É vedado'), proibições e sanções. O presente do indicativo com valor normativo ('é vedado', 'sujeitará') é marca da injunção regulatória. C parece atraente porque o parágrafo único menciona consequências futuras, mas a projeção de consequências é instrumental à prescrição, não constitui um tipo preditivo independente. A, B e E não se sustentam frente ao propósito claramente regulatório do texto."
+      "gabarito": "C",
+      "explicacao": "Uma portaria é um gênero injuntivo-normativo: prescreve, determina, revoga, estabelece. Jamais opina ou argumenta sobre a adequação de suas próprias determinações. A alternativa C insere uma sequência dissertativa — 'consideramos que a exigência é excessiva' é um julgamento de valor, uma opinião, incompatível com o gênero portaria. As demais alternativas são exemplos de trechos compatíveis com o gênero: revogação de norma anterior (A), prescrição de formato (B), informação sobre vigência (D) e descrição de procedimento (E) são todos textos típicos de portaria."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "A respeito da evolução histórica dos gêneros textuais, é correto afirmar que:",
+      "textoBase": "Ao retornar da missão de patrulha no Atlântico Sul, o NaPatr 'Rio Pardo' apresentou relatório técnico em que descrevia o estado dos equipamentos de navegação: o sonar principal operava com 70% da capacidade nominal; o sistema de comunicações de longo alcance havia sido substituído em campo por solução provisória; e o motor de boreste necessitava de revisão imediata.",
+      "enunciado": "No trecho, o tipo textual predominante é",
       "alternativas": {
-        "A": "Os gêneros textuais são imutáveis, pois refletem estruturas cognitivas universais do ser humano.",
-        "B": "O surgimento de novas tecnologias de comunicação não afeta os gêneros textuais, que se mantêm estáveis independentemente do suporte.",
-        "C": "Novos gêneros surgem quando novas necessidades comunicativas emergem, como ocorreu com o e-mail, o tweet e a mensagem de WhatsApp.",
-        "D": "Gêneros textuais desaparecem sempre que o suporte original é substituído por outro, sem deixar traços nos novos gêneros.",
-        "E": "A carta pessoal e o e-mail são exatamente o mesmo gênero textual, distinguindo-se apenas pelo suporte físico."
+        "A": "narrativo, pois o texto relata eventos em sequência cronológica.",
+        "B": "injuntivo, pois o texto instrui sobre a manutenção dos equipamentos.",
+        "C": "dissertativo, pois o texto defende que os equipamentos precisam de revisão.",
+        "D": "expositivo, com sequências descritivas subordinadas, pois apresenta objetivamente o estado dos equipamentos.",
+        "E": "descritivo, com sequências narrativas subordinadas, pois caracteriza os equipamentos e relata seu histórico."
       },
-      "gabarito": "C",
-      "explicacao": "Os gêneros textuais são dinâmicos e historicamente situados, surgindo quando práticas sociais criam novas necessidades comunicativas. O e-mail surgiu com a internet, o tweet com o Twitter, a mensagem de WhatsApp com a comunicação móvel instantânea. A é errada — gêneros são históricos, não universais imutáveis. B é errada — o suporte afeta profundamente os gêneros. D é exagerada — gêneros muitas vezes deixam traços em seus sucessores. E é errada — carta e e-mail têm convenções, registros e dinâmicas distintas."
+      "gabarito": "D",
+      "explicacao": "O trecho é de um relatório técnico — gênero expositivo por excelência. O propósito comunicativo é informar objetivamente o estado dos equipamentos. O verbo 'descrevia' indica que o texto apresenta dados técnicos de forma neutra: percentual de operação do sonar, substituição provisória do sistema de comunicações, necessidade de revisão do motor. Há sequências descritivas subordinadas que caracterizam cada equipamento, mas a função global é a exposição técnica. Não é puramente descritivo (E) porque a estrutura global é informativo-analítica (relatório); não é narrativo (A) porque não conta eventos com personagens e ação; não é injuntivo (B) nem dissertativo (C)."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Em uma prova militar, um candidato encontra o seguinte trecho: 'O patrulheiro avançou cautelosamente pela madrugada. Cada passo era calculado, o silêncio absoluto. De repente, a luz do holofote varreu o pátio e ele se imobilizou.' O tipo predominante é narrativo. Contudo, uma banca poderia classificar o trecho como descritivo por conta de:",
+      "textoBase": "Julgue o item a seguir, relativo a tipos e gêneros textuais:\n'Um texto pode pertencer simultaneamente a mais de um tipo textual, sendo classificado por todos os tipos que apresenta em proporção semelhante.'",
+      "enunciado": "O item acima está",
       "alternativas": {
-        "A": "O uso do pretérito imperfeito em 'era calculado', que é tipicamente descritivo e introduz a caracterização do passo.",
-        "B": "A ausência de conectivos temporais explícitos, que impede a identificação de uma sequência narrativa.",
-        "C": "O uso exclusivo de linguagem conotativa, que é marca da descrição literária.",
-        "D": "A presença de um personagem, que é atributo exclusivo da descrição de seres.",
-        "E": "O uso do verbo 'varrer' em sentido figurado, que transforma a cena em descrição metafórica."
+        "A": "certo, pois textos sempre mesclam tipos em proporção semelhante.",
+        "B": "errado, pois cada texto pertence a exatamente um tipo textual e não pode apresentar outros.",
+        "C": "errado, pois embora textos possam mesclar sequências de tipos diferentes, a classificação se dá pelo tipo predominante, não por todos em proporção semelhante.",
+        "D": "certo, pois a teoria dos gêneros proíbe a distinção entre tipos textuais.",
+        "E": "errado, pois tipos e gêneros textuais são a mesma categoria e não se misturam."
       },
-      "gabarito": "A",
-      "explicacao": "O pretérito imperfeito ('era calculado', 'o silêncio absoluto') é tipicamente associado à descrição, pois expressa estados contínuos ou atributos duradouros — e por isso uma banca poderia classificar o trecho como descritivo. Contudo, o tipo predominante é narrativo: há personagem ('o patrulheiro'), ações sequenciadas ('avançou', 'se imobilizou') e tensão narrativa (holofote, reação). B é errada — há marcadores temporais implícitos ('de repente'). C é errada — a linguagem não é exclusivamente conotativa. D é errada — personagem não é atributo da descrição. E é errada — o uso figurado não define descrição."
+      "gabarito": "C",
+      "explicacao": "A afirmativa do item está errada por imprecisão técnica. É correto dizer que textos reais mesclam sequências de diferentes tipos — um relatório pode ter trechos narrativos, descritivos e expositivos. Mas a classificação de um texto quanto ao tipo textual se faz pelo tipo predominante, aquele que determina a estrutura global e o propósito comunicativo do texto. Não se classificam todos os tipos 'em proporção semelhante'. As alternativas A e D estão incorretas por validar o item erroneamente. A alternativa B está incorreta por negar a possibilidade de mescla. A alternativa E confunde tipo com gênero."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Sobre a relação entre gênero e tipo textual, qual das alternativas abaixo expressa corretamente o conceito de 'tipo predominante' em gêneros de heterogeneidade tipológica?",
+      "textoBase": "A Força de Superfície da Marinha do Brasil é composta por navios de guerra, embarcações de apoio e unidades de fuzileiros navais distribuídas estrategicamente ao longo do litoral. Cada componente cumpre função específica dentro da doutrina de defesa integrada, garantindo cobertura desde as águas rasas da costa até as profundezas do Atlântico Sul.",
+      "enunciado": "Assinale a alternativa que apresenta corretamente o tipo textual do trecho e uma evidência linguística que sustenta essa classificação.",
       "alternativas": {
-        "A": "O tipo predominante é o que aparece em maior quantidade de linhas no texto.",
-        "B": "O tipo predominante é aquele que cumpre a função comunicativa principal do texto, podendo ocupar espaço menor que outros tipos presentes.",
-        "C": "Em textos heterogêneos, todos os tipos têm a mesma relevância, tornando impossível identificar um tipo predominante.",
-        "D": "O tipo predominante é sempre o que aparece no primeiro parágrafo do texto.",
-        "E": "O tipo predominante é determinado exclusivamente pelo gênero, sendo fixo e invariável para cada gênero."
+        "A": "Narrativo — os verbos 'é composta' e 'cumpre' narram eventos passados.",
+        "B": "Descritivo — o texto caracteriza seres e objetos por suas qualidades e funções específicas.",
+        "C": "Injuntivo — o texto prescreve como a Marinha deve organizar sua força.",
+        "D": "Dissertativo — o texto defende que a Marinha tem cobertura suficiente.",
+        "E": "Expositivo — o texto informa objetivamente sobre a composição e a função da Força de Superfície sem defender tese."
       },
-      "gabarito": "B",
-      "explicacao": "O tipo predominante é aquele que cumpre a função comunicativa central do texto — convencer, narrar, descrever, instruir — independentemente do espaço que ocupa. Uma reportagem pode ter três parágrafos narrativos e apenas um argumentativo conclusivo, mas se o objetivo central for defender um ponto de vista, o tipo predominante é argumentativo. A é errada — quantidade de linhas não define predominância. C é errada — a análise sempre permite hierarquizar. D é errada — a posição no texto não define predominância. E é errada — o tipo pode variar dentro do mesmo gênero conforme o propósito específico de cada texto."
+      "gabarito": "E",
+      "explicacao": "O trecho é expositivo: apresenta informações objetivas sobre a Força de Superfície — composição, distribuição e função — sem argumentar em favor de nenhuma posição. Os verbos 'é composta', 'cumpre' e 'garantindo' estão no presente do indicativo com valor atemporal, típico da exposição. Não é narrativo (A) porque presente atemporal não é pretérito narrativo. Não é descritivo (B) porque a função não é caracterizar sensorialmente, mas informar estrutura e propósito. Não é injuntivo (C) porque não prescreve ações. Não é dissertativo (D) porque não há tese a defender — apenas informação sobre o que existe."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Leia o seguinte enunciado de questão típica de prova militar: 'O texto acima pertence ao gênero editorial e tem como tipo predominante o dissertativo-argumentativo.' Para avaliar essa afirmação, o candidato deve verificar:",
+      "textoBase": "Ao receber o sinal de socorro, o Capitão ordenou que toda a tripulação assumisse seus postos de emergência. O navio ativou as sirenes de alarme, cujo som penetrante ecoou pela baía escura e nebulosa. Em menos de quatro minutos, o casco laranjado do barco de salvatagem já estava na água.",
+      "enunciado": "No trecho, identificam-se dois tipos textuais: o predominante e um secundário. Assinale a alternativa que os aponta corretamente, com justificativa.",
       "alternativas": {
-        "A": "Apenas se o texto foi publicado em um jornal ou revista, pois o suporte determina exclusivamente o gênero.",
-        "B": "Se o texto apresenta uma tese defendida com argumentos e se circula na esfera jornalística com função opinativa — ambos os critérios devem ser satisfeitos.",
-        "C": "Apenas se o texto usa conectivos lógicos, pois eles são suficientes para classificar um texto como argumentativo.",
-        "D": "Se o texto tem mais de cinco parágrafos, pois editoriais são necessariamente longos.",
-        "E": "Apenas se o autor do texto é jornalista ou editor, pois a profissão determina o gênero."
+        "A": "Predominante: injuntivo (ordens dadas pela tripulação); secundário: expositivo (dados técnicos sobre o barco).",
+        "B": "Predominante: dissertativo (argumenta sobre eficiência da Marinha); secundário: narrativo (relata ações).",
+        "C": "Predominante: narrativo (sequência de eventos em ordem cronológica); secundário: descritivo (caracteriza som e cenário).",
+        "D": "Predominante: descritivo (descreve o som e o barco); secundário: injuntivo (ordens do Capitão).",
+        "E": "Predominante: expositivo (informa sobre o procedimento de emergência); secundário: narrativo (relata o evento)."
       },
-      "gabarito": "B",
-      "explicacao": "Para validar a afirmação, o candidato precisa verificar duas condições: (1) se o texto tem função editorial — ou seja, circula na esfera jornalística como texto opinativo institucional, sem assinatura pessoal; e (2) se o tipo predominante é de fato dissertativo-argumentativo — ou seja, apresenta tese + argumentos + conclusão com conectivos lógicos e posicionamento explícito. A é errada — suporte sozinho não determina gênero. C é errada — conectivos lógicos podem aparecer em textos expositivos. D é errada — extensão não determina gênero. E é errada — gênero é definido por função e circulação, não por quem escreve."
+      "gabarito": "C",
+      "explicacao": "O trecho é predominantemente narrativo: conta uma sequência de eventos em ordem cronológica — sinal de socorro → ordem do Capitão → ativação das sirenes → barco na água. Os verbos de ação no pretérito perfeito ('ordenou', 'ativou', 'estava') são os marcadores clássicos da narração. O secundário é descritivo: 'som penetrante ecoou pela baía escura e nebulosa' e 'casco laranjado do barco de salvatagem' caracterizam o som e o objeto por qualidades sensoriais — adjetivos e verbo de estado inseridos na sequência narrativa. Não há argumentação (B), não há instrução prescritiva (A), a descrição não predomina (D), e não é exposição procedimental (E)."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Considerando que a bula de medicamento combina tipos textuais, qual sequência de tipos está corretamente identificada nas seguintes partes da bula: (I) 'Indicações: tratamento de infecções bacterianas'; (II) 'Modo de usar: tome um comprimido a cada 8 horas com água'; (III) 'Mecanismo de ação: o princípio ativo inibe a síntese da parede celular bacteriana, impedindo sua reprodução'?",
+      "textoBase": "O Brasil deveria investir na ampliação do Programa Nuclear da Marinha, não apenas pelos benefícios estratégicos imediatos, mas porque a soberania energética e a projeção de poder no Atlântico Sul dependem de uma capacidade naval robusta e autossuficiente. Países sem esse diferencial tecnológico permanecem à margem das decisões geopolíticas que moldam o século XXI.",
+      "enunciado": "O tipo textual do trecho é dissertativo-argumentativo. Assinale a alternativa que identifica corretamente todos os elementos argumentativos presentes.",
       "alternativas": {
-        "A": "I — injuntivo; II — descritivo; III — narrativo.",
-        "B": "I — descritivo; II — injuntivo; III — dissertativo-expositivo.",
-        "C": "I — narrativo; II — argumentativo; III — preditivo.",
-        "D": "I — argumentativo; II — descritivo; III — injuntivo.",
-        "E": "I — expositivo; II — narrativo; III — argumentativo."
+        "A": "Tese explícita ('O Brasil deveria investir') + argumento de consequência + argumento por comparação.",
+        "B": "Relato de eventos passados + descrição de consequências + projeção futura.",
+        "C": "Definição de programa nuclear + prescrição de conduta + exemplificação.",
+        "D": "Exposição objetiva de dados + neutralidade + ausência de julgamento.",
+        "E": "Instrução ao governo brasileiro + penalidade pelo não cumprimento + prazo."
       },
-      "gabarito": "B",
-      "explicacao": "I ('Indicações: tratamento de…') é descritivo — caracteriza o objeto/produto por seus atributos funcionais. II ('tome um comprimido…') é injuntivo — prescreve ação ao paciente com verbo no imperativo. III ('o princípio ativo inibe…') é dissertativo-expositivo — explica o mecanismo de ação de forma neutra e técnica, sem defender tese nem prescrever. Esta análise demonstra a heterogeneidade tipológica da bula. As demais alternativas associam incorretamente os tipos às seções."
+      "gabarito": "A",
+      "explicacao": "O texto dissertativo-argumentativo apresenta: tese explícita ('O Brasil deveria investir na ampliação do Programa Nuclear da Marinha'), argumento de consequência que justifica a tese ('a soberania energética e a projeção de poder... dependem de capacidade naval robusta') e argumento por comparação ('Países sem esse diferencial tecnológico permanecem à margem'), que contrasta o Brasil com países sem capacidade nuclear para reforçar a tese. Não há relato de eventos passados (B), nem definições técnicas ou prescrições (C), nem neutralidade — há clara tomada de posição (D), nem instrução com penalidade (E)."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Um candidato lê o seguinte fragmento e precisa identificar o tipo predominante: 'As taxas de criminalidade nas regiões metropolitanas do Nordeste apresentaram redução de 12% no último trimestre, de acordo com o Anuário Brasileiro de Segurança Pública. Especialistas atribuem o fenômeno ao aumento do efetivo policial e aos programas de ressocialização implementados pelos governos estaduais.' Qual é o tipo predominante e qual alternativa o justifica corretamente?",
+      "textoBase": "A reescritura do trecho a seguir deve alterar o tipo textual de expositivo para injuntivo, mantendo o sentido original:\n'O candidato entrega os documentos na secretaria, aguarda a triagem e recebe o protocolo de inscrição.'",
+      "enunciado": "Assinale a alternativa que realiza corretamente essa reescritura.",
       "alternativas": {
-        "A": "Injuntivo, pois orienta autoridades a aumentar o efetivo policial.",
-        "B": "Narrativo, pois relata os eventos do trimestre anterior de forma cronológica.",
-        "C": "Dissertativo-expositivo, pois apresenta dados e explicações de forma neutra, sem defender uma tese.",
-        "D": "Dissertativo-argumentativo, pois os especialistas defendem sua teoria sobre as causas da redução.",
-        "E": "Preditivo, pois os dados apontam para tendências futuras na segurança pública."
+        "A": "O candidato entregou os documentos na secretaria, aguardou a triagem e recebeu o protocolo.",
+        "B": "Entregar os documentos na secretaria, aguardar a triagem e receber o protocolo de inscrição.",
+        "C": "O candidato deve entregar documentos importantes que são analisados pela secretaria antes da inscrição.",
+        "D": "A secretaria recebe os documentos do candidato, realiza a triagem e emite o protocolo de inscrição.",
+        "E": "O processo de inscrição envolve três etapas: entrega, triagem e emissão de protocolo."
       },
-      "gabarito": "C",
-      "explicacao": "O fragmento apresenta dados estatísticos ('redução de 12%') e explicações de especialistas ('atribuem o fenômeno a…') de forma neutra, informativa, sem posicionamento do autor do texto. Não há tese a ser defendida — apenas informação e explicação. Isso caracteriza o tipo dissertativo-expositivo. A é errada — não há prescrição. B é errada — não há narração cronológica de eventos com personagens. D é tentadora, mas 'especialistas atribuem' é relato de opinião de terceiros, não defesa de tese pelo autor do texto. E é errada — o texto se refere ao passado recente, não ao futuro."
+      "gabarito": "B",
+      "explicacao": "Para transformar o texto expositivo em injuntivo, é preciso usar verbos no infinitivo ou imperativo com valor de ordem/instrução. A alternativa B faz exatamente isso: 'Entregar', 'aguardar' e 'receber' no infinitivo transformam a descrição de um processo (exposição) em uma instrução ao candidato (injunção). A alternativa A apenas muda o tempo verbal para o pretérito, tornando o texto narrativo. A alternativa C introduz adjetivo ('importantes') mas não é injuntiva. A alternativa D mantém a exposição, apenas mudando o sujeito. A alternativa E continua expositiva, reorganizando o conteúdo sem mudar o tipo."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o texto a seguir, produzido para fins desta avaliação:\n\n'A recente decisão de ampliar a presença naval brasileira no Atlântico Sul não é mero exercício de força simbólica — é imperativo estratégico. O Atlântico Sul concentra rotas comerciais responsáveis por mais de 30% das exportações nacionais e abriga o pré-sal, reservatório energético que definirá décadas de desenvolvimento econômico. Negligenciar a proteção dessas águas seria abdicar de soberania conquistada a duras penas. Que os investimentos em fragatas e submarinos não sejam vistos como despesas, mas como o custo da existência digna de uma nação soberana.'\n\nSobre o texto acima, assinale a alternativa correta:",
+      "textoBase": "Memorando nº 019/2025\nPara: Oficiais do Setor de Engenharia\nDe: Chefe do Departamento de Obras\nAssunto: Inspeção periódica das instalações\n\nInformo que a inspeção periódica das instalações do Setor de Engenharia será realizada no dia 14 de março de 2025, a partir das 08h. Solicito que cada oficial responsável por subetor prepare relatório de situação até o dia 12 de março e o encaminhe à Secretaria do Departamento. O relatório deve conter: estado de conservação, pendências e prazo estimado de conclusão das obras em andamento. Qualquer dúvida, entre em contato com o Capitão-Tenente responsável pela coordenação.",
+      "enunciado": "O texto acima pertence ao gênero memorando e mescla mais de um tipo textual. Assinale a alternativa que identifica corretamente os tipos textuais presentes e os trechos em que cada um predomina.",
       "alternativas": {
-        "A": "O texto é predominantemente narrativo, pois relata a decisão de ampliar a presença naval e suas consequências históricas.",
-        "B": "O texto é predominantemente descritivo, pois caracteriza o Atlântico Sul e suas reservas energéticas.",
-        "C": "O texto é predominantemente dissertativo-argumentativo, pois apresenta uma tese ('a ampliação é imperativo estratégico') e a sustenta com argumentos econômicos e geopolíticos, com intenção claramente persuasiva.",
-        "D": "O texto é predominantemente injuntivo, pois a frase final 'Que os investimentos não sejam vistos como despesas' prescreve uma conduta ao leitor.",
-        "E": "O texto é predominantemente expositivo, pois apresenta dados estatísticos (30% das exportações) de forma neutra e objetiva."
+        "A": "Narrativo (todo o memorando) e dissertativo (no trecho sobre pendências).",
+        "B": "Expositivo (primeiro parágrafo, que informa sobre a inspeção) e injuntivo (segundo parágrafo, que prescreve ações aos oficiais).",
+        "C": "Injuntivo (todo o memorando) e descritivo (no trecho que lista o conteúdo do relatório).",
+        "D": "Dissertativo (defende a importância da inspeção) e narrativo (relata o que acontecerá).",
+        "E": "Expositivo (todo o memorando) com sequências descritivas nos trechos sobre o relatório."
       },
-      "gabarito": "C",
-      "explicacao": "O texto apresenta tese explícita ('é imperativo estratégico'), sustentada por argumentos econômicos (rotas comerciais, 30% das exportações) e geopolíticos (soberania, pré-sal), com conclusão persuasiva ('o custo da existência digna de uma nação soberana'). A estrutura tese-argumento-conclusão e a intenção persuasiva definem o tipo dissertativo-argumentativo. D é tentadora — a frase final tem valor injuntivo —, mas é apenas o desfecho argumentativo de um texto predominantemente argumentativo. A presença de dados (E) não neutraliza o posicionamento do autor. A e B identificam tipos secundários presentes no texto, não o predominante."
+      "gabarito": "B",
+      "explicacao": "O memorando mescla dois tipos. O primeiro parágrafo ('Informo que a inspeção... será realizada no dia 14 de março') é expositivo: comunica objetivamente um fato futuro (data, horário). O segundo parágrafo ('Solicito que cada oficial prepare relatório') é injuntivo: prescreve ações que os oficiais devem executar, com verbos no subjuntivo e no imperativo indireto ('solicito que... prepare', 'encaminhe'). O trecho que lista o conteúdo do relatório também é injuntivo — especifica o que o documento deve conter. Não é narrativo (A, D) porque não conta eventos passados; não é dissertativo (A, D) porque não argumenta; não é puramente injuntivo (C) porque o primeiro parágrafo informa, não instrui."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Leia o excerto a seguir, elaborado para esta avaliação:\n\n'Para a inspeção das baterias do sistema de emergência, proceda da seguinte forma: (1) desligue o circuito de alimentação principal; (2) aguarde 5 minutos para a descarga residual; (3) meça a tensão em cada célula com o multímetro na escala de 0–20 V DC; (4) registre os valores na planilha de manutenção; (5) substitua células com tensão inferior a 11,8 V.'\n\nO tipo textual predominante e o gênero mais provável desse texto são, respectivamente:",
+      "textoBase": "O Navio-Escola 'Brasil' completou em 2024 sua quinquagésima viagem de instrução ao exterior, consolidando sua posição como símbolo da projeção diplomática e cultural da Marinha do Brasil no mundo. Com 150 metros de comprimento, quatro mastros imponentes e capacidade para 500 tripulantes entre oficiais e guardas-marinha, o navio é a maior embarcação a vela em serviço ativo da América do Sul. Cada viagem percorre dezenas de países, levando a bordo não apenas guardas-marinha em formação, mas também músicos, artistas e representantes da cultura nacional.",
+      "enunciado": "Assinale a alternativa que identifica corretamente a sequência textual predominante no segundo período do texto ('Com 150 metros de comprimento... da América do Sul') e a justifica com base em marcadores linguísticos.",
       "alternativas": {
-        "A": "Narrativo e conto técnico, pois narra o procedimento de inspeção com sequência cronológica.",
-        "B": "Descritivo e laudo técnico, pois caracteriza o estado das baterias e células do sistema.",
-        "C": "Injuntivo e manual ou procedimento operacional padrão (POP), pois prescreve ações sequenciais a serem executadas pelo operador.",
-        "D": "Dissertativo-expositivo e artigo científico, pois explica o funcionamento das baterias de emergência.",
-        "E": "Preditivo e relatório de missão, pois projeta as condições futuras do sistema de emergência após a inspeção."
+        "A": "Narrativa, pois relata a história do navio-escola em ordem cronológica.",
+        "B": "Injuntiva, pois instrui sobre as condições para ser a maior embarcação.",
+        "C": "Dissertativa, pois argumenta que o navio é superior aos demais da América do Sul.",
+        "D": "Descritiva, pois apresenta as características físicas e a capacidade do navio por meio de adjetivos e dados quantitativos.",
+        "E": "Expositiva, pois define o que é um navio-escola e qual sua função institucional."
       },
-      "gabarito": "C",
-      "explicacao": "O texto usa imperativo ('proceda', 'desligue', 'aguarde', 'meça', 'registre', 'substitua') com numeração sequencial de passos, prescrevendo ações ao operador — marcas inequívocas do tipo injuntivo. O gênero mais provável é o manual técnico ou Procedimento Operacional Padrão (POP), gênero da esfera técnico-industrial e militar com formato padronizado para orientar execução de tarefas. A é errada — a sequência serve à instrução, não à narração de eventos. B é errada — o propósito é instruir, não caracterizar. D e E não correspondem ao propósito prescritivo do texto."
+      "gabarito": "D",
+      "explicacao": "O segundo período ('Com 150 metros de comprimento, quatro mastros imponentes e capacidade para 500 tripulantes...') é uma sequência descritiva clássica. Caracteriza o navio por suas propriedades físicas (comprimento, número de mastros, capacidade), usando adjetivos qualificativos ('imponentes') e dados quantitativos que pintam uma imagem do objeto. O verbo principal é 'é' — verbo de estado —, típico da descrição. Não é narrativo (A) porque não há eventos em sequência; não é injuntivo (B) porque não prescreve; não é dissertativo (C) porque não há tese a defender — afirmar que o navio 'é o maior' é dado factual, não argumento; não é exposição conceitual (E) porque não define — caracteriza."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Considere o seguinte fragmento produzido para esta questão:\n\n'Marcos, engenheiro elétrico de Pernambuco, chegou à Fortaleza na véspera da prova. A cidade estava quente e úmida; o sol castigava as calçadas de cimento sem sombra. Ele entrou no hotel, largou a mochila e se sentou à beira da cama, olhando para o teto. Pensou em tudo que havia estudado — ortografia, crase, concordância — e sorriu com uma confiança quieta.'\n\nIdentifique corretamente os tipos textuais presentes e o predominante:",
+      "textoBase": "REGULAMENTO DE SERVIÇO INTERNO — BASE NAVAL DE NATAL\nArt. 12 — Do Acesso às Instalações\n§ 1º — Todo militar que ingressar nas instalações após as 22h deverá registrar-se no posto de guarda, apresentar identificação funcional e aguardar autorização do Oficial de Plantão.\n§ 2º — É vedado o acesso de civis às áreas de segurança máxima sem escolta de militar designado.\n§ 3º — O Oficial de Plantão poderá recusar o acesso a qualquer indivíduo que não cumpra os requisitos previstos neste artigo.",
+      "enunciado": "O texto pertence ao gênero regulamento. Com base na teoria dos tipos e gêneros textuais, julgue as afirmativas a seguir:\nI. O gênero regulamento pertence ao tipo injuntivo, pois seu propósito é prescrever condutas.\nII. O §3º apresenta sequência narrativa, pois relata o que o Oficial poderá fazer.\nIII. Gênero e tipo textual são conceitos equivalentes — o regulamento é tanto um gênero quanto um tipo textual.",
       "alternativas": {
-        "A": "Apenas narração; tipo predominante: narrativo.",
-        "B": "Narração e descrição; tipo predominante: narrativo, pois a sequência de ações com personagem e tensão interna é o propósito central do fragmento.",
-        "C": "Narração e dissertação expositiva; tipo predominante: expositivo, pois apresenta dados biográficos do personagem.",
-        "D": "Descrição e injunção; tipo predominante: injuntivo, pois orienta o candidato a estudar ortografia e crase.",
-        "E": "Narração e predição; tipo predominante: preditivo, pois anuncia o resultado positivo da prova."
+        "A": "Apenas I está correta.",
+        "B": "Apenas II está correta.",
+        "C": "Apenas III está correta.",
+        "D": "I e II estão corretas.",
+        "E": "I e III estão corretas."
       },
-      "gabarito": "B",
-      "explicacao": "O fragmento combina narração (sequência de ações do personagem Marcos: 'chegou', 'entrou', 'largou', 'se sentou', 'olhando', 'pensou', 'sorriu') e descrição (caracterização do ambiente: 'quente e úmida', 'sol castigava', 'calçadas de cimento sem sombra'). O tipo predominante é narrativo, pois o propósito central é contar a experiência de um personagem num momento decisivo — há personagem, espaço, tensão interna e desfecho emocional. A é errada — a descrição da cidade está presente. C, D e E desviam-se completamente."
+      "gabarito": "A",
+      "explicacao": "A afirmativa I está correta: o regulamento é um gênero textual cujo tipo predominante é o injuntivo — seus artigos prescrevem condutas por meio de verbos como 'deverá', 'é vedado' e 'poderá recusar', que têm valor de norma obrigatória. A afirmativa II está errada: o §3º não é narrativo. 'O Oficial de Plantão poderá recusar' é uma atribuição de competência (injunção modalizada) — é uma norma que autoriza uma ação futura, não o relato de um evento passado. A afirmativa III está errada: gênero e tipo textual são conceitos distintos. Regulamento é um gênero (prática social de linguagem); injunção é um tipo (estrutura textual). Dizer que regulamento é um tipo textual é confusão conceitual."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia o excerto abaixo, elaborado para esta questão:\n\n'O ofício Nº 45/2026-COMRJ, datado de 3 de junho de 2026, encaminha ao Comando do 2º Distrito Naval os resultados da vistoria realizada nas instalações elétricas da Base Naval de Natal entre os dias 20 e 25 de maio de 2026. De acordo com o laudo anexo, foram identificadas irregularidades em seis quadros de distribuição, com risco de sobrecarga classificado como crítico. Solicita-se a adoção imediata das medidas corretivas descritas no item 4 do laudo, com prazo máximo de 30 dias.'\n\nA respeito desse gênero e seus tipos textuais, assinale a alternativa correta:",
+      "textoBase": "A criação do Programa de Gerenciamento de Crises Navais, em 2018, representou um marco na modernização da doutrina operacional da Marinha do Brasil. O programa reuniu especialistas de doze países, produziu dois volumes de diretrizes e treinou mais de oitocentos oficiais em dois anos. As simulações realizadas durante o programa mostraram que a resposta a incidentes críticos melhorou em 40% nos setores participantes.\n\nApesar desses resultados expressivos, o programa foi descontinuado em 2021 por restrições orçamentárias. Essa decisão foi equivocada: abrir mão de um investimento com retorno comprovado, apenas para cortar despesas de curto prazo, compromete a capacidade operacional da Marinha por anos.",
+      "enunciado": "O texto apresenta dois movimentos textuais distintos. Assinale a alternativa que os identifica corretamente, com indicação do parágrafo correspondente.",
       "alternativas": {
-        "A": "Trata-se de um relatório técnico de tipo exclusivamente narrativo, pois relata a vistoria realizada.",
-        "B": "Trata-se de um ofício que combina tipo expositivo (apresentação dos resultados da vistoria) e tipo injuntivo (solicitação de medidas corretivas), exemplificando a heterogeneidade tipológica em um gênero militar.",
-        "C": "Trata-se de uma ata de tipo descritivo, pois caracteriza as irregularidades identificadas nas instalações.",
-        "D": "Trata-se de um memorando de tipo argumentativo, pois defende a necessidade de reforma das instalações elétricas.",
-        "E": "Trata-se de um edital de tipo preditivo, pois projeta as consequências da sobrecarga nas instalações."
+        "A": "1º parágrafo: injuntivo (lista ações do programa); 2º parágrafo: narrativo (conta o encerramento).",
+        "B": "1º parágrafo: narrativo (relata o programa e seus resultados); 2º parágrafo: dissertativo (critica a decisão de encerramento com argumento).",
+        "C": "1º parágrafo: expositivo (define o programa); 2º parágrafo: descritivo (caracteriza as consequências).",
+        "D": "1º parágrafo: dissertativo (defende a criação do programa); 2º parágrafo: expositivo (informa sobre a descontinuidade).",
+        "E": "1º parágrafo: descritivo (descreve o programa e seus números); 2º parágrafo: injuntivo (instrui o governo a retomar o programa).",
+        "D": "1º parágrafo: dissertativo (defende a criação do programa); 2º parágrafo: expositivo (informa sobre a descontinuidade)."
       },
       "gabarito": "B",
-      "explicacao": "O gênero é o ofício — identificado pelo número, data, destinatário e linguagem formal da esfera militar. O texto combina tipo expositivo (encaminha resultados, apresenta dados da vistoria, informa sobre irregularidades) e tipo injuntivo ('Solicita-se a adoção imediata das medidas corretivas'). Essa combinação exemplifica a heterogeneidade tipológica em gêneros militares, conforme discutido no Manual de Redação e Estilo da Marinha. A reduz incorretamente o texto a um único tipo. C, D e E identificam gêneros e tipos errados."
+      "explicacao": "O primeiro parágrafo é narrativo: relata, em ordem cronológica, a criação do programa (2018), o que ele fez (reuniu especialistas, produziu diretrizes, treinou oficiais) e os resultados obtidos (melhora de 40%). Verbos de ação no pretérito ('representou', 'reuniu', 'produziu', 'treinou', 'mostraram') confirmam a narração. O segundo parágrafo é dissertativo: toma posição ('Essa decisão foi equivocada') e a sustenta com argumento ('abrir mão de um investimento com retorno comprovado... compromete a capacidade operacional'). O marcador 'Apesar desses resultados expressivos' é concessão argumentativa que introduce a tese crítica. Não é injuntivo (A, E) porque não prescreve ações; não é puramente expositivo ou descritivo (C, E)."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Texto elaborado para esta questão:\n\n'Estima-se que, até 2035, mais de 60% da geração de energia elétrica no Brasil provirá de fontes renováveis, com destaque para a solar fotovoltaica e a eólica. Essa transformação estrutural da matriz energética reduzirá significativamente a emissão de CO₂, posicionando o país como referência global em sustentabilidade. O setor de energia solar, em particular, deverá empregar mais de 500 mil trabalhadores diretos, impulsionando o desenvolvimento regional nas regiões Nordeste e Centro-Oeste.'\n\nQual é o tipo textual predominante e como ele se manifesta no fragmento?",
+      "textoBase": "Texto I — Relatório técnico:\n'O sistema de propulsão do NaPa 37 opera atualmente com 65% da capacidade nominal. A turbina de bombordo registra vibração anômala desde a última inspeção, realizada em 15 de janeiro. Recomenda-se revisão completa antes da próxima missão.'\n\nTexto II — Boletim interno:\n'O NaPa 37 partiu em missão de patrulha no dia 3 de fevereiro, cruzou a foz do rio São Francisco ao amanhecer e retornou à base no dia 17, sem registrar ocorrências.'",
+      "enunciado": "Considerando os dois textos acima, assinale a alternativa que identifica corretamente o tipo textual predominante em cada um e justifica a diferença.",
       "alternativas": {
-        "A": "Injuntivo, porque o texto orienta o setor energético a investir em fontes renováveis.",
-        "B": "Narrativo, porque relata a transformação histórica da matriz energética brasileira com sequência temporal.",
-        "C": "Dissertativo-argumentativo, porque defende a tese de que a energia renovável é superior aos combustíveis fósseis.",
-        "D": "Preditivo, porque projeta eventos futuros com base em estimativas e tendências, usando verbos no futuro e expressões de projeção como 'estima-se', 'deverá', 'até 2035'.",
-        "E": "Descritivo, porque caracteriza as fontes renováveis e seus atributos em relação à geração de energia."
+        "A": "Texto I: narrativo (relata o estado do sistema); Texto II: injuntivo (instrui sobre a missão).",
+        "B": "Texto I: dissertativo (argumenta que o sistema precisa de revisão); Texto II: narrativo (relata a missão em sequência cronológica).",
+        "C": "Texto I: expositivo e injuntivo (informa e recomenda); Texto II: narrativo (relata eventos em sequência).",
+        "D": "Texto I: descritivo (caracteriza o sistema); Texto II: expositivo (informa sobre a missão).",
+        "E": "Texto I: injuntivo (ordena a revisão do sistema); Texto II: dissertativo (argumenta que a missão foi bem-sucedida)."
       },
-      "gabarito": "D",
-      "explicacao": "O fragmento é característico do tipo preditivo: usa sistematicamente marcas linguísticas de projeção futura ('Estima-se que', 'até 2035', 'provirá', 'reduzirá', 'deverá empregar') para antecipar eventos com base em dados e tendências. Não há tese sendo defendida (C é errado — não há argumento contra posição alternativa), não há prescrição (A), não há narração de eventos passados com personagem (B), e não há caracterização estática (E). O tipo preditivo é frequentemente confundido com o argumentativo — a diferença é que o preditivo projeta consequências; o argumentativo defende posições."
+      "gabarito": "C",
+      "explicacao": "O Texto I (relatório técnico) combina exposição ('o sistema opera com 65% da capacidade nominal' — informa objetivamente) com injunção ('Recomenda-se revisão completa' — prescreve ação). Relatórios técnicos frequentemente mesclam esses dois tipos: primeiro expõem o diagnóstico, depois recomendam. O Texto II (boletim interno) é narrativo: relata a missão em ordem cronológica com verbos de ação no pretérito perfeito ('partiu', 'cruzou', 'retornou') e marcadores temporais precisos ('dia 3 de fevereiro', 'ao amanhecer', 'dia 17'). Não é dissertativo (B, E) em nenhum dos textos porque nenhum defende tese; o Texto I não é puramente descritivo (D) porque apresenta dados de desempenho em função informativa, não sensorial."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
-      "gram-01",
-      "gram-03",
-      "gram-11",
-      "gram-13",
-      "gram-14",
-      "comp-02",
-      "comp-06",
-      "comp-07",
-      "gram-10",
-      "comp-11",
-      "gram-12",
-      "gram-05",
-      "gram-06",
-      "comp-03",
-      "comp-08"
+      "gram-00", "gram-04", "gram-05", "gram-06", "gram-07",
+      "gram-01", "gram-02", "gram-03", "gram-08", "gram-09",
+      "gram-10", "gram-11", "gram-12", "gram-13", "gram-14",
+      "comp-03", "comp-06", "comp-05", "comp-07", "comp-14",
+      "comp-01", "comp-02", "comp-04", "comp-08"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-11",
-        "enunciado": "Leia o seguinte trecho de um editorial militar elaborado para esta questão: 'Os investimentos em energia renovável, assim como a modernização dos sistemas de propulsão naval, são essenciais para a soberania tecnológica do Brasil.' Considerando o tipo textual predominante do trecho E a concordância verbal da oração principal, assinale a alternativa correta.",
+        "topico_referencia": "comp-08",
+        "enunciado": "Assinale a alternativa que distingue corretamente tipo textual de gênero textual.",
         "alternativas": {
-          "A": "O texto é injuntivo e o verbo 'são' concorda com o sujeito composto posposto, estando correto.",
-          "B": "O texto é dissertativo-argumentativo e o verbo 'são' apresenta concordância incorreta — deveria ser 'é', concordando com o núcleo mais próximo.",
-          "C": "O texto é dissertativo-argumentativo e o verbo 'são' está correto, pois sujeito composto posposto ligado por 'assim como' exige plural.",
-          "D": "O texto é narrativo e o verbo 'são' está correto, concordando com o sujeito 'sistemas'.",
-          "E": "O texto é dissertativo-expositivo e o verbo 'são' está incorreto — deveria ser 'é', pois 'assim como' tem valor aditivo que impõe singular."
+          "A": "Tipo textual é a denominação social do texto; gênero textual é a estrutura interna.",
+          "B": "Tipo textual refere-se à estrutura interna do texto; gênero textual refere-se à prática social de linguagem.",
+          "C": "Tipo textual e gênero textual são sinônimos, designando formas de organização do texto.",
+          "D": "Tipo textual é exclusivo de textos orais; gênero textual, de textos escritos.",
+          "E": "Tipo textual é definido pelo tema; gênero textual, pela extensão do texto."
         },
-        "gabarito": "C",
-        "explicacao": "Dois tópicos integrados: (1) Tipo textual: o trecho defende uma posição ('são essenciais') — dissertativo-argumentativo. (2) Concordância verbal: o sujeito composto posposto formado por dois núcleos coordenados pelo 'assim como' (com valor de 'e também') exige verbo no plural — portanto 'são' está correto. A alternativa correta une as duas análises precisas. B está errado pois aplica a regra de concordância com o mais próximo, que não se aplica quando 'assim como' tem valor aditivo coordenando dois núcleos de igual peso."
+        "gabarito": "B",
+        "explicacao": "A distinção central consagrada pelos estudos linguísticos é que tipo textual diz respeito à estrutura interna (narração, descrição, dissertação, exposição, injunção) e gênero textual diz respeito à prática social de linguagem (ofício, portaria, reportagem, ata). As demais alternativas invertem os conceitos (A), os igualam indevidamente (C) ou apresentam distinções incorretas sem respaldo teórico (D e E)."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-03",
-        "enunciado": "Leia o fragmento de um ofício militar elaborado para esta questão: 'Solicito ___ Vossa Senhoria que encaminhe ___ brevidade possível os documentos relativos ___ última inspeção realizada ___ bordo do navio.' Considerando o gênero textual, o tipo predominante E o uso correto da crase, assinale a alternativa que preenche corretamente as lacunas.",
+        "topico_referencia": "comp-04",
+        "textoBase": "O romance 'Os Sertões', de Euclides da Cunha, mistura elementos ficcionais e não ficcionais. Há personagens históricos reais (como o Conselheiro), eventos documentados (a Guerra de Canudos) e uma narrativa épica que transforma a realidade em literatura.",
+        "enunciado": "Com base no texto, assinale a alternativa correta sobre a natureza ficcional e não ficcional de 'Os Sertões'.",
         "alternativas": {
-          "A": "à — a — à — a; o gênero é editorial e o tipo é argumentativo.",
-          "B": "a — com a — da — a; o gênero é ofício e o tipo é expositivo.",
-          "C": "à — com a — à — a; o gênero é ofício e o tipo é injuntivo na parte da solicitação.",
-          "D": "a — à — à — à; o gênero é relatório e o tipo é narrativo.",
-          "E": "à — com — à — à; o gênero é ofício e o tipo é descritivo."
+          "A": "Por conter eventos históricos documentados, 'Os Sertões' é inteiramente não ficcional.",
+          "B": "Por ser uma obra literária, 'Os Sertões' é inteiramente ficcional.",
+          "C": "A obra mescla elementos não ficcionais (eventos e personagens reais) com o tratamento épico-literário que confere dimensão ficcional à narrativa.",
+          "D": "A presença do Conselheiro, personagem histórico, garante que toda a obra seja factual e documental.",
+          "E": "Textos que combinam ficção e não ficção não podem ser classificados como literatura."
         },
         "gabarito": "C",
-        "explicacao": "Dois tópicos integrados: (1) Crase: 'Solicito à Vossa Senhoria' — crase antes de pronome de tratamento feminino ('Vossa Senhoria') é facultativa, mas recomendada pelo uso culto; 'com a brevidade' — preposição 'com' + artigo 'a' (sem crase); 'à última inspeção' — crase obrigatória (preposição 'a' + artigo feminino 'a'); 'a bordo' — locução adverbial 'a bordo' não leva crase. (2) Gênero/tipo: ofício é gênero da esfera militar; a solicitação de providências é segmento injuntivo dentro do texto. A, B, D e E erram em uma ou nas duas análises."
+        "explicacao": "A obra de Euclides da Cunha é exemplo clássico de texto híbrido: parte do real (guerra documentada, personagens históricos) e transforma esse real em narrativa épica e literária. A literatura pode se apoiar em fatos históricos sem ser puramente documental, e um texto não precisa ser completamente inventado para ter valor ficcional. As alternativas A e D reduzem a obra ao documental; B ignora a base histórica; E nega incorretamente a possibilidade de textos híbridos na literatura."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + comp-07",
-        "enunciado": "Leia o trecho de uma ordem do dia elaborado para esta questão: 'Oficiais e praças, a Marinha é o escudo e a espada da Pátria — o escudo que nos protege das ameaças externas e a espada que projeta nossa força além-mar.' Considerando o tipo textual predominante do gênero 'ordem do dia' E a figura de linguagem presente, assinale a alternativa correta.",
+        "topico_referencia": "comp-02",
+        "textoBase": "O Comandante, ao encerrar a reunião, pediu que os presentes 'levassem consigo a mensagem do dia'. Nenhum comunicado formal havia sido emitido. No dia seguinte, todos os setores apresentaram os mesmos procedimentos revisados.",
+        "enunciado": "A informação implícita que se depreende do texto é a de que",
         "alternativas": {
-          "A": "Tipo predominante: narrativo. Figura: metonímia, pois 'escudo e espada' substituem a instituição pelo efeito.",
-          "B": "Tipo predominante: dissertativo-expositivo. Figura: hipérbole, pois a Marinha não é literalmente um escudo.",
-          "C": "Tipo predominante: injuntivo-narrativo. Figura: antítese, pois 'escudo' e 'espada' são opostos semânticos.",
-          "D": "Tipo predominante: injuntivo-argumentativo (exortação). Figura: metáfora, pois 'escudo' e 'espada' são imagens não literais atribuídas à Marinha para destacar suas funções de defesa e projeção de poder.",
-          "E": "Tipo predominante: preditivo. Figura: eufemismo, pois 'escudo e espada' suavizam a ideia de conflito militar."
+          "A": "o Comandante não sabia comunicar-se de forma eficaz.",
+          "B": "os procedimentos revisados foram enviados por e-mail antes da reunião.",
+          "C": "a 'mensagem do dia' foi compreendida pelos presentes como uma instrução para revisar os procedimentos.",
+          "D": "os setores agiram por conta própria, sem qualquer orientação do Comandante.",
+          "E": "o Comandante emitiu comunicado formal após a reunião, mas o texto não o menciona."
         },
-        "gabarito": "D",
-        "explicacao": "Dois tópicos integrados: (1) Gênero/tipo: a ordem do dia neste contexto é um discurso de exortação — combina argumentação (a Marinha é essencial) e injunção (implícita: sejam à altura disso). O tipo é injuntivo-argumentativo, com função de motivar. (2) Figura: 'a Marinha é o escudo e a espada' é metáfora — atribui a objetos concretos (escudo, espada) a função de uma instituição abstrata de forma não literal, sem o 'como' da comparação. Não é metonímia (A), hipérbole (B), antítese (C — escudo e espada não são opostos, são complementares) nem eufemismo (E)."
+        "gabarito": "C",
+        "explicacao": "O texto não diz explicitamente que o Comandante instruiu a revisão dos procedimentos, mas a sequência de eventos — pedido metafórico de 'levar a mensagem', ausência de comunicado formal, e revisão uniforme no dia seguinte — permite inferir que a 'mensagem' foi entendida como instrução. Essa é uma informação implícita: o leitor precisa conectar os elementos para construir o sentido. As demais alternativas ou contradizem o texto (B, E) ou tiram conclusões sem base nos fatos apresentados (A, D)."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-13",
-        "enunciado": "Leia o fragmento de um relatório técnico elaborado para esta questão: 'O engenheiro responsável informou os superiores sobre os riscos; em seguida, aspirou ao cargo de coordenador do projeto de adequação.' Considerando o tipo textual do relatório E a regência verbal dos verbos 'informar' e 'aspirar' na frase, assinale a alternativa correta.",
+        "topico_referencia": "comp-03",
+        "textoBase": "O recruta estava 'navegando em águas turbulentas' desde que chegou ao campo de treinamento: tudo era novo, difícil e exaustivo.",
+        "enunciado": "No trecho, a expressão 'navegando em águas turbulentas' é empregada em sentido",
         "alternativas": {
-          "A": "Tipo narrativo-expositivo; 'informou os superiores' é regência correta (VTD); 'aspirou ao cargo' é regência correta (VTI com preposição 'a').",
-          "B": "Tipo argumentativo; 'informou os superiores' deveria ser 'informou aos superiores' (VTI); 'aspirou ao cargo' está correto.",
-          "C": "Tipo narrativo; 'informou os superiores' está errado; 'aspirou o cargo' é a regência correta para 'aspirar' no sentido de almejar.",
-          "D": "Tipo descritivo; ambos os verbos estão com regência incorreta e deveriam ser reescritos com preposição 'de'.",
-          "E": "Tipo injuntivo; 'informou os superiores' é correto; 'aspirou ao cargo' deveria ser 'aspirou o cargo' pois 'aspirar' é sempre transitivo direto."
+          "A": "denotativo, pois o recruta estava literalmente em uma embarcação.",
+          "B": "conotativo, indicando que o recruta enfrentava dificuldades e adversidades.",
+          "C": "técnico, próprio do vocabulário naval usado em contexto militar.",
+          "D": "ambíguo, pois pode indicar tanto dificuldades reais quanto situação naval.",
+          "E": "normativo, seguindo a linguagem padrão dos regulamentos militares."
         },
-        "gabarito": "A",
-        "explicacao": "Dois tópicos integrados: (1) Tipo textual: relatório técnico que narra eventos e expõe dados = tipo narrativo-expositivo. (2) Regência: 'informar algo a alguém' (VTD + VTI) ou 'informar alguém de/sobre algo' (VTD + prep.) — 'informou os superiores sobre os riscos' está correto: 'os superiores' é OD, 'sobre os riscos' é complemento preposicionado. 'Aspirar a algo' (VTI com preposição 'a') no sentido de almejar — 'aspirou ao cargo' está correto. C confunde 'aspirar' (almejar, VTI+a) com 'aspirar' (sugar, VTD). E comete o mesmo erro."
+        "gabarito": "B",
+        "explicacao": "A expressão é usada em sentido conotativo — figurado. O recruta não está em nenhuma embarcação; 'navegar em águas turbulentas' é uma metáfora para enfrentar situação difícil, instável, cheia de obstáculos. O contexto do trecho ('tudo era novo, difícil e exaustivo') confirma que se trata de uso figurado da linguagem, não do sentido literal (A), técnico (C) ou normativo (E). Não há ambiguidade real (D), pois o contexto fecha o sentido metafórico."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-14",
-        "enunciado": "Leia o trecho de um manual técnico naval elaborado para esta questão: 'Antes de realizar a manutenção, verifique-se todos os equipamentos e comunique-se ao supervisor qualquer anormalidade detectada.' Considerando o gênero, o tipo textual E a colocação pronominal, assinale a alternativa que analisa corretamente o trecho.",
+        "topico_referencia": "comp-07",
+        "textoBase": "A base naval era um gigante adormecido: silenciosa nos dias de paz, mas capaz de despertar com força total quando a pátria chamava.",
+        "enunciado": "Identifique a figura de linguagem presente no trecho e assinale a alternativa correta.",
         "alternativas": {
-          "A": "Gênero: manual técnico; tipo: injuntivo; colocação: correta em ambos os verbos.",
-          "B": "Gênero: manual técnico; tipo: injuntivo; 'verifique-se todos os equipamentos' está incorreto — em contexto de próclise ou ênclise com sujeito, o pronome 'se' como partícula apassivadora não combina com imperativo; o correto seria 'verifiquem-se' (concordância com o sujeito plural) ou 'verifique todos os equipamentos'.",
-          "C": "Gênero: relatório; tipo: narrativo; a colocação está incorreta — o pronome deveria ser anteposto em ambos os casos.",
-          "D": "Gênero: manual técnico; tipo: dissertativo-expositivo; a colocação está correta em 'verifique-se' e incorreta em 'comunique-se ao supervisor'.",
-          "E": "Gênero: manual técnico; tipo: injuntivo; 'comunique-se ao supervisor' está incorreto — deveria ser 'se comunique ao supervisor'."
+          "A": "Metonímia — a base representa toda a Marinha.",
+          "B": "Hipérbole — exagera o tamanho físico da base naval.",
+          "C": "Personificação ou prosopopeia — atribui à base características humanas (dormir, despertar).",
+          "D": "Ironia — sugere que a base nunca é de fato ativada.",
+          "E": "Eufemismo — suaviza a ideia de uma base em estado de abandono."
         },
-        "gabarito": "B",
-        "explicacao": "Três tópicos integrados: (1) Gênero: manual técnico. (2) Tipo: injuntivo (imperativo, prescrição de ações). (3) Colocação/morfossintaxe: 'verifique-se todos os equipamentos' — o 'se' como partícula apassivadora exige que o verbo concorde com o sujeito posposto ('todos os equipamentos', plural) — o correto seria 'verifiquem-se todos os equipamentos'. Alternativamente, sem a voz passiva, seria 'verifique todos os equipamentos' (imperativo na 3ª pessoa, sem o 'se'). 'Comunique-se ao supervisor' também é problemático, mas a questão pede a análise correta — a alternativa B identifica o erro principal. E comete outro tipo de erro ao sugerir próclise sem atrator proclítico."
+        "gabarito": "C",
+        "explicacao": "O trecho atribui à base naval ações e estados humanos: 'adormecida', 'despertar', responder ao 'chamado da pátria'. Essa atribuição de propriedades humanas a seres inanimados ou abstratos é personificação (também chamada prosopopeia). Não é metonímia (A) porque não há substituição de um nome por outro de relação de contiguidade — a base é descrita com metáfora viva, não substituída por outra denominação. Não é hipérbole (B) porque não exagera quantidade ou intensidade para efeito cômico ou dramático. Não é ironia (D) nem eufemismo (E), pois o texto afirma a capacidade de reação da base como algo positivo e real."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + comp-02",
-        "enunciado": "Leia o seguinte fragmento de uma crônica produzida para esta questão: 'O sargento dobrou o jornal, bebeu o último gole de café e saiu sem dizer nada. Aquela reunião tinha decidido algo — e todos sabiam o quê.' Considerando o gênero, o tipo textual E a informação implícita veiculada, assinale a alternativa correta.",
+        "topico_referencia": "comp-06",
+        "textoBase": "O oficial era austero nas decisões, mas justo nas avaliações. Seus subordinados, embora temessem sua rigidez, respeitavam profundamente sua imparcialidade.",
+        "enunciado": "No trecho, as palavras 'austero' e 'rígido' são",
         "alternativas": {
-          "A": "Gênero: notícia; tipo: expositivo; a informação implícita é que o sargento não leu o jornal.",
-          "B": "Gênero: crônica; tipo: narrativo; a informação implícita é que a reunião tomou uma decisão grave ou importante, construída pelo silêncio do sargento e pelo saber compartilhado dos presentes, sem que o narrador a revele.",
-          "C": "Gênero: crônica; tipo: argumentativo; a informação implícita é que o sargento discordou da decisão.",
-          "D": "Gênero: conto; tipo: descritivo; a informação implícita é que o café estava amargo.",
-          "E": "Gênero: editorial; tipo: injuntivo; a informação implícita é que todos devem ser mais comunicativos nas reuniões."
+          "A": "antônimos, pois expressam qualidades opostas do oficial.",
+          "B": "sinônimos parciais, pois compartilham o traço semântico de severidade e exigência.",
+          "C": "parônimos, pois têm forma semelhante e podem ser confundidas na escrita.",
+          "D": "homônimos, pois têm pronúncia igual mas significados distintos.",
+          "E": "hiperônimos uma da outra, pois 'austero' inclui o significado de 'rígido' como subconjunto."
         },
         "gabarito": "B",
-        "explicacao": "Dois tópicos integrados: (1) Gênero/tipo: crônica da esfera jornalístico-literária, tipo narrativo (personagem, ações sequenciadas, tensão). (2) Informação implícita (comp-03): o narrador não diz qual foi a decisão nem o que o sargento sentiu — essa informação é suprimida intencionalmente. O implícito é construído pela atitude do personagem (silêncio, saída abrupta) e pelo conhecimento compartilhado dos presentes ('todos sabiam o quê'). O leitor infere a gravidade ou importância da decisão. C erra ao inferir discordância sem base textual suficiente. D e E desviam-se completamente do gênero e do tipo."
+        "explicacao": "Austero e rígido compartilham traços semânticos comuns — ambos indicam severidade, exigência, falta de flexibilidade. São sinônimos parciais (ou aproximados): têm sentidos próximos sem serem idênticos. 'Austero' pode incluir conotações de sobriedade e abstinência que 'rígido' não tem; 'rígido' pode indicar inflexibilidade física ou moral. Por isso, são sinônimos parciais, não totais. Não são antônimos (A) — têm sentidos semelhantes, não opostos; não são parônimos (C) — as formas são diferentes; não são homônimos (D) — não têm pronúncia igual; e 'austero' não inclui 'rígido' como hiperônimo (E)."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + comp-06",
-        "enunciado": "Leia o fragmento de um editorial jornalístico produzido para esta questão: 'A reestruturação do setor elétrico não é apenas técnica — é política. E toda política pressupõe escolhas, e toda escolha implica perdedores.' Considerando o tipo textual E as relações lexicais presentes, assinale a alternativa correta.",
+        "topico_referencia": "comp-01",
+        "enunciado": "Em uma questão de prova que apresenta uma charge militar mostrando um oficial sobrecarregado de papéis e com o uniforme amassado, sem nenhum texto verbal, o candidato deve interpretar a mensagem com base",
         "alternativas": {
-          "A": "Tipo: descritivo. Relação lexical: sinonímia entre 'técnica' e 'política'.",
-          "B": "Tipo: narrativo. Relação lexical: antonímia entre 'perdedores' e 'ganhadores', implicitamente sugerida.",
-          "C": "Tipo: dissertativo-argumentativo. Relação lexical: antonímia entre 'técnica' e 'política', usada para estruturar a tese de que a questão elétrica ultrapassa o domínio técnico.",
-          "D": "Tipo: injuntivo. Relação lexical: hiponímia, pois 'reestruturação' é hipônimo de 'política'.",
-          "E": "Tipo: expositivo. Relação lexical: polissemia de 'política', que ora significa governo, ora significa estratégia."
+          "A": "exclusivamente no texto verbal que acompanha a charge, pois sem ele não há sentido.",
+          "B": "nos elementos visuais: postura, expressão, símbolos e contexto representado na imagem.",
+          "C": "na norma culta da língua, pois toda charge segue as regras gramaticais.",
+          "D": "no dicionário, consultando o significado de 'charge' para entender a mensagem.",
+          "E": "na biografia do chargista, que revela a intenção original do texto."
         },
-        "gabarito": "C",
-        "explicacao": "Dois tópicos integrados: (1) Tipo: o fragmento defende uma tese ('não é apenas técnica — é política') com cadeia argumentativa ('toda política pressupõe escolhas... toda escolha implica perdedores') — dissertativo-argumentativo. (2) Relação lexical (comp-06): 'técnica' e 'política' são usados como antônimos no contexto argumentativo — a oposição entre eles estrutura a tese. A afirma sinonímia, que é o oposto. B identifica tipo errado e uma antonímia implícita (não explícita no texto). D afirma hiponímia incorretamente. E reduz o texto ao expositivo e confunde polissemia com o uso argumentativo do contraste."
+        "gabarito": "B",
+        "explicacao": "Textos não verbais como charges, fotografias e ilustrações comunicam por meio de elementos visuais — postura, expressão facial, objetos, cores, proporções, símbolos. Na interpretação de uma charge sem texto verbal, o candidato deve ler os signos visuais: um oficial sobrecarregado de papéis com uniforme amassado comunica, visualmente, excesso de burocracia, cansaço e desorganização. A alternativa A nega a possibilidade de comunicação não verbal; B, C e D indicam estratégias inadequadas para texto não verbal."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-10",
-        "enunciado": "Leia o seguinte parágrafo de uma reportagem elaborada para esta questão: 'O tenente apresentou o relatório, mas o comandante não o aceitou; portanto, a missão foi suspensa até que novas evidências fossem apresentadas.' Considerando o tipo textual da reportagem E as relações de coordenação e subordinação presentes, assinale a alternativa correta.",
+        "topico_referencia": "comp-05",
+        "textoBase": "O sargento recebeu ordem para 'liquidar o assunto antes do fim do expediente'.",
+        "enunciado": "A expressão 'liquidar o assunto' é ambígua porque",
         "alternativas": {
-          "A": "Tipo: narrativo. 'Mas' é conjunção subordinativa concessiva; 'portanto' é conjunção conclusiva coordenativa; 'até que' introduz oração subordinada adverbial temporal.",
-          "B": "Tipo: argumentativo. 'Mas' é conjunção coordenativa adversativa; 'portanto' é conjunção coordenativa conclusiva; 'até que' introduz oração subordinada adverbial temporal.",
-          "C": "Tipo: narrativo. 'Mas' é conjunção coordenativa adversativa; 'portanto' é conjunção subordinativa causal; 'até que' introduz oração coordenada sindética aditiva.",
-          "D": "Tipo: descritivo. 'Mas' e 'portanto' são conjunções coordenativas adversativas; 'até que' é conjunção condicional.",
-          "E": "Tipo: injuntivo. 'Mas' é conjunção coordenativa adversativa; 'portanto' é conjunção conclusiva; 'até que' introduz oração subordinada adverbial concessiva."
+          "A": "contém um verbo irregular que pode ser conjugado de duas formas distintas.",
+          "B": "o verbo 'liquidar' tem múltiplos sentidos (resolver, destruir, encerrar definitivamente) que o contexto não elimina completamente.",
+          "C": "o sujeito 'sargento' pode referir-se a mais de um indivíduo.",
+          "D": "a expressão é gíria militar sem registro nos dicionários formais.",
+          "E": "o complemento 'o assunto' é vago e impede qualquer interpretação."
         },
-        "gabarito": "A",
-        "explicacao": "Dois tópicos integrados: (1) Tipo textual: a reportagem que relata eventos sequenciados (apresentou, não aceitou, foi suspensa) é predominantemente narrativa. (2) Coordenação e subordinação (gram-08): 'mas' = conjunção coordenativa adversativa (correta em A); 'portanto' = conjunção coordenativa conclusiva (correta em A); 'até que' = conjunção subordinativa adverbial temporal (indica o limite temporal da suspensão). B identifica corretamente 'mas' e 'portanto', mas erra o tipo textual (argumentativo). C e D erram na classificação das conjunções. E erra 'até que' como concessiva."
+        "gabarito": "B",
+        "explicacao": "A ambiguidade decorre da polissemia do verbo 'liquidar', que pode significar 'resolver definitivamente', 'encerrar', 'destruir' ou até 'eliminar fisicamente'. No contexto militar, isso pode gerar leitura dúbia: resolver uma pendência burocrática ou tomar alguma providência mais drástica. O contexto da frase ('antes do fim do expediente') sugere a resolução burocrática, mas não elimina completamente a ambiguidade gerada pelos múltiplos sentidos do verbo. Não há irregularidade verbal (A), o sujeito é singular (C), a expressão tem registro nos dicionários (D) e 'o assunto' pode ser compreendido no contexto — o problema é o verbo (E)."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + comp-11",
-        "enunciado": "Leia o seguinte fragmento de um artigo técnico elaborado para esta questão: 'Os sistemas fotovoltaicos off-grid são indicados para localidades sem acesso à rede. Esses sistemas, também chamados de sistemas autônomos, armazenam energia em baterias para uso noturno. Por essa razão, o dimensionamento correto do banco de baterias é fundamental.' Considerando o tipo textual E os mecanismos de coesão textual presentes, assinale a alternativa correta.",
+        "topico_referencia": "comp-11",
+        "textoBase": "A missão foi concluída com êxito. Contudo, o oficial responsável reconheceu que houve falhas no planejamento inicial. Por isso, determinou a revisão completa dos protocolos de operação.",
+        "enunciado": "Os conectivos 'Contudo' e 'Por isso', no trecho, estabelecem, respectivamente, relações de",
         "alternativas": {
-          "A": "Tipo: injuntivo. Coesão: 'Esses sistemas' é anáfora nominal que retoma 'localidades sem acesso à rede'; 'Por essa razão' é conector de causa.",
-          "B": "Tipo: dissertativo-expositivo. Coesão: 'Esses sistemas' é anáfora nominal que retoma 'os sistemas fotovoltaicos off-grid'; 'Por essa razão' é conector de consequência/conclusão que articula as ideias anteriores à afirmação final.",
-          "C": "Tipo: narrativo. Coesão: 'Esses sistemas' é catáfora; 'Por essa razão' é conector adversativo.",
-          "D": "Tipo: dissertativo-argumentativo. Coesão: 'Esses sistemas' é elipse; 'Por essa razão' é conector temporal.",
-          "E": "Tipo: preditivo. Coesão: 'Esses sistemas' é hipônimo de 'baterias'; 'Por essa razão' é conector aditivo."
+          "A": "adição e conclusão.",
+          "B": "causa e consequência.",
+          "C": "oposição/concessão e conclusão/consequência.",
+          "D": "explicação e alternância.",
+          "E": "condição e finalidade."
         },
-        "gabarito": "B",
-        "explicacao": "Dois tópicos integrados: (1) Tipo: o fragmento apresenta informações técnicas de forma neutra e explicativa — dissertativo-expositivo. (2) Coesão (comp-10): 'Esses sistemas' é anáfora nominal (retoma 'os sistemas fotovoltaicos off-grid' do período anterior); 'também chamados de sistemas autônomos' é reformulação/aposto explicativo; 'Por essa razão' é conector de conclusão/consequência, que articula a informação anterior (sistemas armazenam em baterias) à necessidade de dimensionamento correto. A erra o referente da anáfora. C confunde anáfora com catáfora e o conector. D e E erram em ambas as análises."
+        "gabarito": "C",
+        "explicacao": "'Contudo' é um conectivo adversativo que estabelece relação de oposição ou concessão: a missão teve êxito, mas (contudo) houve falhas — as duas informações se contrapõem. 'Por isso' é um conectivo conclusivo-consecutivo: o reconhecimento das falhas levou à (por isso) determinação de revisão — há uma consequência lógica. A coesão textual desse parágrafo funciona exatamente por esses dois movimentos: primeiro, a concessão que introduz a crítica; depois, a consequência que mostra a ação tomada. As demais alternativas nomeiam relações incorretas para um ou ambos os conectivos."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-12",
-        "enunciado": "Leia o seguinte enunciado de um manual militar elaborado para esta questão e analise a pontuação: 'O militar, ao receber uma ordem, deve: verificar sua autenticidade, confirmar o canal de comunicação e, somente então, iniciar a execução.' Considerando o tipo textual E o uso dos sinais de pontuação, assinale a alternativa correta.",
+        "topico_referencia": "comp-12",
+        "textoBase": "O navio partiu na segunda-feira. A tripulação estava entusiasmada. O coelho de laboratório apresentou resultados positivos. O mar estava calmo naquela tarde de inverno.",
+        "enunciado": "O texto acima apresenta problema de",
         "alternativas": {
-          "A": "Tipo: narrativo; os dois-pontos introduzem uma explicação; as vírgulas separam termos do sujeito.",
-          "B": "Tipo: injuntivo; os dois-pontos introduzem uma enumeração de ações prescritas; as vírgulas separam os itens da enumeração; a vírgula antes de 'somente então' isola o adjunto adverbial de tempo.",
-          "C": "Tipo: dissertativo-argumentativo; os dois-pontos introduzem a tese; as vírgulas separam orações adversativas.",
-          "D": "Tipo: descritivo; os dois-pontos introduzem o aposto; as vírgulas separam adjetivos que caracterizam o militar.",
-          "E": "Tipo: expositivo; os dois-pontos estão incorretos — deveriam ser substituídos por ponto e vírgula; as vírgulas estão corretas."
+          "A": "coesão lexical, pois usa vocabulário incompatível com o contexto naval.",
+          "B": "coerência, pois a inserção do 'coelho de laboratório' rompe a continuidade temática do texto.",
+          "C": "concordância verbal, pois o verbo 'estava' não concorda com 'tripulação'.",
+          "D": "regência verbal, pois 'partiu' exige complemento preposicionado.",
+          "E": "pontuação, pois faltam vírgulas entre as orações."
         },
         "gabarito": "B",
-        "explicacao": "Dois tópicos integrados: (1) Tipo: o texto prescreve condutas ao militar ('deve: verificar... confirmar... iniciar') — injuntivo. (2) Pontuação (gram-12): os dois-pontos introduzem uma enumeração (função enumerativa — lista as ações que o militar deve realizar); as vírgulas separam os três itens da enumeração ('verificar', 'confirmar', 'iniciar'); a vírgula após 'e' e antes de 'somente então' isola o adjunto adverbial de tempo, que antecede o terceiro item. A confunde a função dos dois-pontos. C, D e E identificam incorretamente o tipo ou a função da pontuação."
+        "explicacao": "O texto apresenta problema de coerência — especificamente, de unidade temática. As três primeiras frases tratam do navio e da tripulação; a terceira frase ('O coelho de laboratório apresentou resultados positivos') rompe abruptamente com a progressão temática, introduzindo um elemento sem relação lógica com o contexto. Coerência textual exige que os enunciados mantenham relação semântica e lógica entre si. Não há problema de coesão lexical (A), de concordância — 'tripulação' é singular e 'estava' concorda corretamente (C), de regência (D), nem de pontuação estrutural (E)."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-05",
-        "enunciado": "Leia o fragmento de um editorial produzido para esta questão: 'A cada nova crise, surgem os mesmos lamentos e as mesmas promessas. O que muda é apenas o cenário; o que permanece é a inércia estrutural.' Considerando o tipo textual E as classes de palavras destacadas em 'apenas' (1ª ocorrência) e 'estrutural', assinale a alternativa correta.",
+        "topico_referencia": "comp-14",
+        "textoBase": "O recruta perguntou ao sargento: 'Chefe, aquele bagulho lá é nosso mesmo?' O sargento respondeu com frieza: 'Objeto não identificado, soldado. Solicito que reformule a pergunta adequadamente.'",
+        "enunciado": "O diálogo acima ilustra",
         "alternativas": {
-          "A": "Tipo: narrativo; 'apenas' é substantivo; 'estrutural' é advérbio de modo.",
-          "B": "Tipo: dissertativo-argumentativo; 'apenas' é advérbio de restrição/limitação que modifica o predicativo 'o cenário'; 'estrutural' é adjetivo que modifica o substantivo 'inércia'.",
-          "C": "Tipo: injuntivo; 'apenas' é conjunção adversativa; 'estrutural' é substantivo abstrato.",
-          "D": "Tipo: expositivo; 'apenas' é preposição; 'estrutural' é advérbio de intensidade.",
-          "E": "Tipo: descritivo; 'apenas' é pronome indefinido; 'estrutural' é particípio do verbo 'estruturar'."
+          "A": "a ausência de variedades linguísticas no contexto militar.",
+          "B": "o contraste entre a variedade informal do recruta e a variedade formal exigida no contexto militar.",
+          "C": "o uso correto da norma culta pelo recruta ao perguntar ao superior.",
+          "D": "a impossibilidade de comunicação entre falantes de variedades diferentes.",
+          "E": "um erro de concordância na fala do sargento, que deveria dizer 'Objetos não identificados'."
         },
         "gabarito": "B",
-        "explicacao": "Dois tópicos integrados: (1) Tipo: o editorial defende implicitamente uma posição crítica sobre a repetição de crises e inércia — dissertativo-argumentativo (com forte carga argumentativa pela estrutura de antítese). (2) Classes de palavras (gram-04): 'apenas' é advérbio de restrição/exclusão (modifica o sintagma 'o cenário', restringindo o que muda); 'estrutural' é adjetivo (modifica o substantivo 'inércia', qualificando-a). A, C, D e E atribuem classes incorretas a ambas as palavras. A identificação correta do tipo textual também é necessária para marcar B."
+        "explicacao": "O diálogo ilustra a coexistência de variedades linguísticas e a adequação vocabular ao contexto. O recruta usa linguagem informal coloquial ('bagulho', 'aquele lá', 'nosso mesmo') — variedade informal. O sargento responde usando linguagem formal, técnica e institucional ('Objeto não identificado', 'Solicito que reformule'), exigindo que o recruta se adapte ao registro formal do contexto militar. Esse contraste é o tema central do tópico de variação linguística e adequação vocabular. A comunicação ocorre (D é falsa), o recruta não usa norma culta (C é falsa), há variedades no texto (A é falsa) e 'objeto' no singular está correto (E é falsa)."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-06",
-        "enunciado": "Leia o fragmento de um conto elaborado para esta questão: 'Os marujos haviam partido ao amanhecer. Quando o sol se pôs no horizonte cor de âmbar, já estavam longe, perdidos entre as ondas.' Considerando o tipo textual E a flexão verbal dos verbos 'haviam partido' e 'estavam', assinale a alternativa correta.",
+        "topico_referencia": "gram-12",
+        "textoBase": "A maioria dos oficiais presentes à cerimônia concordou com a proposta apresentada pelo Almirante.",
+        "enunciado": "A concordância verbal no trecho está correta porque",
         "alternativas": {
-          "A": "Tipo: descritivo; 'haviam partido' está no pretérito perfeito composto do indicativo; 'estavam' está no pretérito imperfeito do indicativo.",
-          "B": "Tipo: narrativo; 'haviam partido' está no pretérito mais-que-perfeito composto do indicativo, indicando ação anterior a outro evento passado; 'estavam' está no pretérito imperfeito do indicativo, indicando estado contínuo no passado.",
-          "C": "Tipo: argumentativo; 'haviam partido' está no pretérito imperfeito composto; 'estavam' está no pretérito perfeito simples.",
-          "D": "Tipo: narrativo; 'haviam partido' está no futuro do pretérito; 'estavam' está no pretérito perfeito composto.",
-          "E": "Tipo: preditivo; 'haviam partido' e 'estavam' estão ambos no pretérito imperfeito do indicativo."
+          "A": "o verbo 'concordou' deveria estar no plural para concordar com 'oficiais'.",
+          "B": "o núcleo do sujeito é 'maioria' (substantivo coletivo singular), e o verbo pode concordar com ele no singular.",
+          "C": "o verbo sempre concorda com o substantivo mais próximo, que é 'oficiais'.",
+          "D": "o sujeito composto 'maioria dos oficiais' exige verbo obrigatoriamente no plural.",
+          "E": "o verbo 'concordar' é defectivo e só admite flexão no singular."
         },
         "gabarito": "B",
-        "explicacao": "Dois tópicos integrados: (1) Tipo: narrativo — personagens (marujos), ações sequenciadas em tempo passado, ambiente descrito como pano de fundo. (2) Flexão verbal (gram-05): 'haviam partido' = pretérito mais-que-perfeito composto do indicativo (auxiliar 'haver' no imperfeito + particípio 'partido'), indicando ação concluída antes de outro evento passado (antes do pôr do sol); 'estavam' = pretérito imperfeito do indicativo (3ª pessoa do plural), indicando estado contínuo ou habitual no passado. A confunde mais-que-perfeito composto com perfeito composto. C, D e E erram em ambas as análises."
+        "explicacao": "Quando o sujeito é formado por expressão partitiva com coletivo (a maioria de, a maior parte de, grande parte de), o verbo pode concordar com o núcleo coletivo no singular ou com o substantivo do complemento nominal no plural. 'A maioria dos oficiais concordou' (singular) está correto, assim como 'concordaram' (plural) também seria aceito. O núcleo do sujeito é 'maioria', não 'oficiais'. A regra de concordar com o substantivo mais próximo (C) é incorreta — concorda-se com o núcleo. O sujeito não é composto (D); e 'concordar' não é defectivo (E)."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + comp-03",
-        "enunciado": "Leia o seguinte trecho de uma crônica elaborada para esta questão: 'O formulário era um monstro de papel. Vinte e três campos, cinco assinaturas, três vias — e ao final, a garantia de que nada seria resolvido de imediato.' Considerando o gênero, o tipo textual E a linguagem (denotativa ou conotativa) predominante, assinale a alternativa correta.",
+        "topico_referencia": "gram-13",
+        "textoBase": "O Comandante assistiu ______ cerimônia de incorporação dos novos recrutas.",
+        "enunciado": "Assinale a alternativa que preenche corretamente a lacuna, considerando a regência do verbo 'assistir' no sentido de 'presenciar'.",
         "alternativas": {
-          "A": "Gênero: relatório técnico; tipo: expositivo; linguagem: denotativa, pois 'monstro de papel' é um dado técnico.",
-          "B": "Gênero: crônica; tipo: narrativo-argumentativo; linguagem: conotativa, pois 'monstro de papel' é uma metáfora que atribui ao formulário características de algo temível e caótico, em sentido não literal.",
-          "C": "Gênero: conto; tipo: descritivo; linguagem: denotativa, pois o texto caracteriza objetivamente os campos do formulário.",
-          "D": "Gênero: editorial; tipo: argumentativo puro; linguagem: denotativa, pois todos os dados apresentados são objetivos.",
-          "E": "Gênero: notícia; tipo: narrativo; linguagem: conotativa em 'monstro', mas denotativa em 'vinte e três campos'."
+          "A": "a",
+          "B": "à",
+          "C": "a à",
+          "D": "na",
+          "E": "em"
         },
         "gabarito": "B",
-        "explicacao": "Três tópicos integrados: (1) Gênero: crônica (esfera jornalístico-literária, voz autoral irônica, tema cotidiano). (2) Tipo: narrativo-argumentativo — narra a experiência com o formulário e simultaneamente critica ironicamente a burocracia. (3) Linguagem (comp-04): 'monstro de papel' é conotativa — atribui ao formulário características de algo assustador e difícil de enfrentar, em sentido figurado (metafórico). Os dados numéricos ('vinte e três campos') são denotativas, mas o efeito retórico do acúmulo é conotativo. E identifica corretamente parte da análise, mas erra o gênero e o tipo."
+        "explicacao": "O verbo 'assistir' no sentido de 'presenciar, ver' é transitivo indireto e exige a preposição 'a': 'assistir a algo'. Como o complemento é 'a cerimônia' (artigo definido feminino), ocorre a crase: a preposição 'a' + o artigo 'a' = 'à'. Portanto: 'assistiu à cerimônia'. Não se usa 'a' sem acento (A) porque haveria a fusão com o artigo; não há redundância 'a à' (C); 'na' (D) é contração de 'em' + 'a', incompatível com a regência de 'assistir'; e 'em' (E) não é a preposição exigida por esse verbo nesse sentido."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-01",
-        "enunciado": "Leia o trecho de um boletim interno militar elaborado para esta questão: 'Em reunião extraordinária realizada na véspera, os membros do conselho analisaram os critérios de aferição dos índices de proficiência. A reunião concluiu que os parâmetros vigentes são passíveis de revisão.' Considerando o tipo textual E a ortografia das palavras sublinhadas ('aferição', 'proficiência', 'parâmetros', 'passíveis'), assinale a alternativa correta.",
+        "topico_referencia": "gram-03",
+        "textoBase": "O relatório foi encaminhado ______ Diretoria de Pessoal e ______ todos os chefes de seção.",
+        "enunciado": "Assinale a alternativa que preenche corretamente as lacunas com uso ou não uso de crase.",
         "alternativas": {
-          "A": "Tipo: narrativo; todas as palavras estão grafadas incorretamente.",
-          "B": "Tipo: dissertativo-expositivo; 'aferição' e 'proficiência' estão corretas; 'parâmetros' deveria ser 'parametros' (sem acento); 'passíveis' está correta.",
-          "C": "Tipo: expositivo-narrativo; todas as palavras estão grafadas corretamente, incluindo os acentos gráficos exigidos pelo Acordo Ortográfico em vigor desde 2016.",
-          "D": "Tipo: injuntivo; 'proficiência' deveria ser 'proficência'; as demais estão corretas.",
-          "E": "Tipo: argumentativo; 'passíveis' deveria ser 'passivéis'; as demais estão corretas."
+          "A": "a / a",
+          "B": "à / a",
+          "C": "à / aos",
+          "D": "a / aos",
+          "E": "às / aos"
         },
-        "gabarito": "C",
-        "explicacao": "Dois tópicos integrados: (1) Tipo: o boletim relata e expõe os acontecimentos da reunião — tipo expositivo-narrativo. (2) Ortografia (gram-01): 'aferição' (correto — substantivo de 'aferir'); 'proficiência' (correto — com 'ci' e 'ê'); 'parâmetros' (correto — proparoxítona, acento obrigatório no 'â'); 'passíveis' (correto — com acento agudo no 'i' tônico). Todas as palavras estão corretas. B erra ao retirar o acento de 'parâmetros'. D erra a grafia de 'proficiência'. E erra 'passíveis' (a forma 'passivéis' é inexistente)."
+        "gabarito": "B",
+        "explicacao": "Na primeira lacuna: 'encaminhado à Diretoria' — há preposição 'a' (exigida pelo verbo 'encaminhar') + artigo 'a' (que antecede substantivo feminino 'Diretoria') = crase obrigatória: 'à'. Na segunda lacuna: 'a todos os chefes' — 'todos' é pronome indefinido masculino, precedido da preposição 'a', mas sem artigo definido 'a' — portanto, NÃO há crase (a crase só ocorre diante de artigo 'a'). O resultado correto é 'à' / 'a'. As demais alternativas erram em uma ou nas duas lacunas: C usa 'aos' (masculino plural), incorreto para 'todos os chefes' sem contração de 'a + os'; D e E erram na primeira lacuna."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "comp-08 + gram-11 + gram-13",
-        "enunciado": "Leia o seguinte trecho de um artigo técnico-argumentativo elaborado para esta questão: 'A adoção de painéis fotovoltaicos, bem como a instalação de inversores de alta eficiência, são medidas que visam ___ redução de custos e ao aumento da produtividade.' Considerando o tipo textual, a concordância verbal E a regência do verbo 'visar', assinale a alternativa que preenche corretamente a lacuna E analisa corretamente os demais elementos.",
+        "topico_referencia": "comp-08",
+        "textoBase": "Considerando o texto de uma ata de reunião do estado-maior que narra as decisões tomadas, descreve o local da reunião e instrui sobre os prazos para cumprimento das deliberações,",
+        "enunciado": "assinale a alternativa que identifica corretamente as três sequências textuais presentes na ata, na ordem mencionada.",
         "alternativas": {
-          "A": "Lacuna: 'a'; tipo: argumentativo; concordância: correta ('são' com sujeito composto); regência: 'visar' no sentido de objetivar é VTD, dispensando preposição — 'visam a redução' está correto.",
-          "B": "Lacuna: 'à'; tipo: dissertativo-argumentativo; concordância: 'são' está incorreta — 'bem como' tem valor aditivo fraco, exigindo concordância com o núcleo mais próximo ('instalação'), logo deveria ser 'é'; regência: 'visar' no sentido de objetivar é VTI com preposição 'a' — 'visam à redução' está correto.",
-          "C": "Lacuna: 'à'; tipo: narrativo; concordância: correta; regência: 'visar' é sempre VTD — 'visam à redução' está incorreto.",
-          "D": "Lacuna: 'a'; tipo: expositivo; concordância: incorreta; regência: 'visar' no sentido de objetivar admite apenas 'a' sem crase.",
-          "E": "Lacuna: 'à'; tipo: dissertativo-argumentativo; concordância: 'são' está correta, pois sujeito composto com 'bem como' exige plural; regência: 'visar' no sentido de objetivar é VTI com preposição 'a', e como a crase é obrigatória antes de artigo feminino definido, o correto é 'à redução'."
+          "A": "dissertativa, expositiva, injuntiva.",
+          "B": "narrativa, descritiva, injuntiva.",
+          "C": "expositiva, narrativa, dissertativa.",
+          "D": "injuntiva, descritiva, narrativa.",
+          "E": "narrativa, injuntiva, expositiva."
         },
-        "gabarito": "E",
-        "explicacao": "Três tópicos integrados — esta questão é a mais complexa do desafio: (1) Tipo: o texto defende a adoção de medidas com justificativa — dissertativo-argumentativo. (2) Concordância (gram-09): sujeito composto com 'bem como' pode ir para o plural quando os núcleos têm o mesmo peso sintático ('A adoção... bem como a instalação... são medidas'). O plural é aceitável e frequente na língua culta. (3) Regência + crase (gram-10 + gram-02): 'visar' no sentido de objetivar/almejar é VTI que rege a preposição 'a'; como o complemento é 'à redução' (preposição 'a' + artigo feminino 'a'), há crase obrigatória — 'visam à redução'. A erra a regência (diz VTD, sem preposição). B acerta regência e crase, mas erra a concordância (diz que 'bem como' exige singular — posição minoritária). C erra a regência e o tipo. D erra a crase. E acerta os três aspectos: tipo dissertativo-argumentativo, concordância no plural com sujeito composto (aceita pelo padrão culto), e 'visam à redução' com crase obrigatória."
+        "gabarito": "B",
+        "explicacao": "O enunciado descreve três funções textuais na ata: 'narra as decisões tomadas' → sequência narrativa (conta o que foi decidido, evento passado); 'descreve o local da reunião' → sequência descritiva (caracteriza o ambiente por suas qualidades); 'instrui sobre os prazos para cumprimento' → sequência injuntiva (prescreve prazos e obrigações). Esse padrão é típico de atas militares, que mesclam narração do ocorrido, descrição do contexto e injunção das deliberações. A alternativa B reproduz exatamente a sequência mencionada no enunciado: narrativa → descritiva → injuntiva."
       }
     ]
   }

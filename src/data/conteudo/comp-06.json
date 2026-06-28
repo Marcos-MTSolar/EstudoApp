@@ -2,117 +2,177 @@
   "id": "comp-06",
   "titulo": "Relações Lexicais",
   "area": "Compreensão e Interpretação de Texto",
-  "resumo": "Relações lexicais são os vínculos semânticos estabelecidos entre palavras de um mesmo idioma. Compreender sinonímia, antonímia, homonímia, paronímia, polissemia, hiponímia e hiperonímia é fundamental para interpretar textos com precisão e para resolver questões que exploram substituição vocabular, ambiguidade e coerência textual. Nas provas da Marinha, essas relações aparecem tanto em questões diretas quanto como distratores em interpretação.",
+  "resumo": "Relações lexicais são as conexões de sentido que as palavras estabelecem entre si dentro de um texto: sinonímia, antonímia, hiperonímia/hiponímia e paronímia/homonímia. Esse assunto importa porque a CEBRASPE adora trocar uma palavra por outra parecida (ou por um sinônimo impreciso) só para testar se o candidato percebe a diferença de sentido. Ao final deste tópico, você vai dominar como identificar essas relações dentro de um texto e vai parar de cair em trocas de palavras que mudam o sentido da frase sem que você perceba.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Sinonímia e Antonímia: aproximação e oposição de sentidos",
-        "conteudo": "Sinonímia é a relação entre palavras de sentidos iguais ou muito próximos. Cunha e Cintra (Nova Gramática do Português Contemporâneo, Lexikon 2017) ressaltam que sinônimos perfeitos — com sentido absolutamente idêntico em todos os contextos — são raríssimos em língua natural. O que existe, na prática, são sinônimos contextuais: palavras que se substituem mutuamente em determinado contexto sem alteração significativa de sentido. Antonímia é a relação de oposição semântica. Há antonímia gradual (quente/frio — admite graus intermediários), complementar (vivo/morto — não admite grau) e recíproca (comprar/vender — um pressupõe o outro). Em provas, o candidato deve identificar qual sinônimo mantém o sentido do texto e qual antônimo realmente se opõe ao termo dado, considerando o contexto.",
+        "subtitulo": "1. O que são relações lexicais?",
+        "conteudo": "Pense numa rede de pesca: cada nó da rede é uma palavra, e os fios que ligam um nó ao outro são os sentidos que essas palavras compartilham ou que se opõem. Relação lexical é exatamente isso — o fio que conecta uma palavra à outra pelo significado.\n\nNo texto, as palavras nunca estão soltas. Elas se relacionam por semelhança de sentido (sinônimos), por oposição de sentido (antônimos), por uma estar \"dentro\" do significado da outra (hiperônimo e hipônimo) ou por uma se parecer na escrita ou no som com outra, mas ter sentido totalmente diferente (parônimos e homônimos).\n\nA regra básica é: toda palavra carrega, além do seu sentido próprio, um conjunto de relações com outras palavras da língua. Reconhecer essas relações é o que permite ao leitor perceber repetições disfarçadas, contradições do texto e jogos de sentido propostos pelo autor.\n\nO erro mais comum é achar que duas palavras \"parecidas\" sempre significam a mesma coisa — e é exatamente esse tipo de armadilha que a banca explora.",
+        "regra": "Sinônimo = sentido igual · Antônimo = sentido oposto · Hiperônimo = categoria geral · Hipônimo = caso específico",
         "exemplos": [
-          "Sinonímia contextual: 'O militar é valente / corajoso / bravo' — em contexto de combate, as três palavras funcionam como sinônimos, embora tenham nuances distintas.",
-          "Antonímia gradual: 'O candidato foi aprovado com nota alta / baixa' — há graus entre alto e baixo.",
-          "Antonímia complementar: 'O processo está aberto / encerrado' — não há estado intermediário.",
-          "Antonímia recíproca: 'O comandante cedeu o posto / assumiu o posto' — ceder pressupõe assumir e vice-versa."
-        ],
-        "regra": "Para identificar o melhor sinônimo, substitua no contexto e verifique se o sentido da frase é preservado. Sinônimos perfeitos não existem — sempre haverá nuance. Em prova, escolha o que melhor preserva o sentido no contexto dado."
+          {
+            "texto_base": "O comandante elogiou a embarcação; o navio havia cumprido a missão com rapidez, ao contrário da lentidão demonstrada na operação anterior.",
+            "anotacoes": [
+              {
+                "trecho": "embarcação",
+                "destaque": "hiperônimo de navio",
+                "motivo": "Embarcação é o termo mais geral, que inclui navio como um tipo específico dela"
+              },
+              {
+                "trecho": "navio",
+                "destaque": "hipônimo de embarcação",
+                "motivo": "Navio é um caso particular dentro da categoria mais ampla de embarcação"
+              },
+              {
+                "trecho": "rapidez",
+                "destaque": "antônimo de lentidão",
+                "motivo": "As duas palavras expressam sentidos opostos dentro da mesma frase"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "2. Homonímia e Paronímia: armadilhas da forma",
-        "conteudo": "Homônimos são palavras com a mesma forma (escrita e/ou fônica) mas sentidos diferentes e origem distinta. Dividem-se em: homógrafos (mesma grafia, pronúncia diferente: 'colher' substantivo / 'colher' verbo), homófonos (mesma pronúncia, grafia diferente: 'acender'/'ascender') e homônimos perfeitos (mesma grafia e pronúncia: 'são' = saudável / 'são' = forma de 'ser'). Parônimos são palavras de formas parecidas mas sentidos diferentes: 'tráfego'/'tráfico', 'emigrar'/'imigrar', 'descriminar'/'discriminar', 'comprimento'/'cumprimento'. A paronímia é campo fértil para pegadinhas de ortografia e vocabulário. Segundo Koch e Elias, a precisão lexical é essencial para a comunicação eficaz, e o uso de parônimos inadequados compromete a clareza do texto.",
+        "subtitulo": "2. Sinonímia e antonímia: semelhança e oposição",
+        "conteudo": "Imagine dois uniformes da mesma cor, mas de tecidos diferentes: parecem iguais à distância, mas têm uma textura própria. É assim que funciona a sinonímia — palavras sinônimas nunca são 100% idênticas, elas só se aproximam de sentido.\n\nSinônimos são palavras com significados semelhantes, mas quase sempre existe uma diferença de intensidade, de formalidade ou de contexto de uso. \"Recruta\" e \"praça\" podem apontar para sentidos próximos no meio militar, mas não são intercambiáveis em qualquer frase. Já a antonímia é o caminho contrário: são palavras com sentidos opostos, como \"avançar\" e \"recuar\", ou \"obediência\" e \"insubordinação\".\n\nA regra é a seguinte: ao trocar uma palavra do texto por um sinônimo proposto pela questão, você precisa checar se o sentido da frase continua exatamente o mesmo — não apenas parecido. Quando a banca propõe uma troca, ela costuma inserir um sinônimo \"quase certo\", que altera sutilmente o grau ou o tom da informação.\n\nO erro mais comum é considerar sinônimos perfeitos palavras que só são próximas em alguns contextos, ignorando que a precisão do sentido pode mudar o julgamento da questão.",
+        "regra": "Sinônimo = aproxima sentido (raramente é igual 100%) · Antônimo = inverte sentido",
         "exemplos": [
-          "Homófonos: 'O militar vai ascender na carreira' (subir) ≠ 'O militar vai acender a vela' (iluminar).",
-          "Parônimos clássicos: 'O juiz vai absolver o réu' (inocentar) ≠ 'O pano vai absorver o líquido' (embeber).",
-          "Parônimos militares: 'O oficial vai infligir punição' (aplicar) ≠ 'O navio vai infligir danos' — atenção: 'infligir' (aplicar penalidade) ≠ 'infringir' (transgredir).",
-          "Homônimos perfeitos: 'O são raciocínio' (saudável) / 'Eles são militares' (verbo ser)."
-        ],
-        "regra": "Parônimos diferem por uma ou duas letras e têm significados distintos. Sempre questione se a palavra usada é a correta para o contexto. Na dúvida, substitua por uma definição e veja qual cabe melhor."
+          {
+            "texto_base": "O sargento determinou obediência imediata às ordens; qualquer sinal de insubordinação seria registrado no relatório da base naval.",
+            "anotacoes": [
+              {
+                "trecho": "obediência",
+                "destaque": "antônimo",
+                "motivo": "Forma par de sentido oposto com insubordinação dentro do mesmo texto"
+              },
+              {
+                "trecho": "insubordinação",
+                "destaque": "antônimo",
+                "motivo": "Representa o contrário direto de obediência, reforçando o contraste da frase"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "3. Polissemia: uma palavra, múltiplos sentidos",
-        "conteudo": "Polissemia é a propriedade de uma mesma palavra ter múltiplos sentidos relacionados entre si por extensão metafórica, metonímica ou histórica. Difere da homonímia porque, na polissemia, os sentidos guardam relação semântica; na homonímia, os sentidos são completamente independentes e geralmente de origens etimológicas distintas. Fiorin e Savioli (Para entender o texto, Ática 2007) enfatizam que a polissemia é um recurso essencial da língua, que permite economia vocabular e criatividade expressiva — mas também é fonte de ambiguidade. Exemplos clássicos: 'cabeça' (parte do corpo / líder / item de gado), 'cabo' (patente militar / promontório / extremidade de objeto), 'manga' (fruta / parte da roupa / tipo de filtro). Em contexto de prova, a polissemia é explorada para testar a capacidade do candidato de identificar o sentido adequado ao contexto.",
+        "subtitulo": "3. Hiperonímia e hiponímia: do geral para o específico",
+        "conteudo": "Pense numa caixa de ferramentas: \"ferramenta\" é a caixa inteira, e \"chave de fenda\", \"martelo\" e \"alicate\" são os itens específicos guardados dentro dela. Essa é a lógica da hiperonímia e da hiponímia.\n\nHiperônimo é a palavra de sentido mais amplo, que funciona como categoria; hipônimo é a palavra de sentido mais restrito, que está contida dentro daquela categoria. \"Veículo\" é hiperônimo de \"viatura\", \"caminhão\" e \"submarino\", porque todos esses são tipos específicos de veículo.\n\nA regra prática: se a palavra A pode substituir a palavra B numa frase do tipo \"B é um tipo de A\", então A é hiperônimo e B é hipônimo. Esse mecanismo é usado pelo autor para evitar repetição de palavras ao longo do texto, retomando o mesmo referente com um termo mais genérico ou mais específico.\n\nO erro mais comum é confundir hiperônimo com sinônimo, tratando como equivalentes duas palavras que, na verdade, estão em níveis diferentes de generalidade.",
+        "regra": "Hiperônimo = nome genérico (categoria) · Hipônimo = nome específico (item dentro da categoria)",
         "exemplos": [
-          "'O cabo foi promovido.' → 'cabo' = patente militar (sentido contextualizado).",
-          "'O cabo da faca estava gasto.' → 'cabo' = extremidade de objeto.",
-          "'Dobramos o cabo da Boa Esperança.' → 'cabo' = promontório geográfico.",
-          "'A manga da camisa rasgou.' → 'manga' = parte da roupa; diferente de 'comi uma manga' (fruta)."
-        ],
-        "regra": "Na polissemia, o contexto é o árbitro do sentido. Identifique palavras-chave ao redor do termo polissêmico para determinar qual sentido está sendo ativado. Nunca interprete uma palavra fora do contexto."
+          {
+            "texto_base": "A frota foi reforçada com nova viatura; o veículo havia sido testado em condições adversas antes da incorporação à base.",
+            "anotacoes": [
+              {
+                "trecho": "viatura",
+                "destaque": "hipônimo de veículo",
+                "motivo": "Viatura é um tipo específico dentro da categoria mais ampla de veículo"
+              },
+              {
+                "trecho": "veículo",
+                "destaque": "hiperônimo de viatura",
+                "motivo": "Veículo é o termo genérico que engloba a viatura citada antes no texto"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "4. Hiperonímia e Hiponímia: relações de inclusão semântica",
-        "conteudo": "Hipônimos e hiperônimos estabelecem relações de inclusão semântica: o hiperônimo é o termo de sentido mais geral, que inclui outros; o hipônimo é o termo mais específico, incluído no hiperônimo. Essa relação é hierárquica: 'animal' (hiperônimo) inclui 'mamífero' (hipônimo de animal, mas hiperônimo de 'golfinho'). Em textos, a hiperonímia e a hiponímia funcionam como mecanismos de coesão: o autor pode substituir um termo específico por um mais geral para evitar repetição ('o navio atracou... a embarcação seguiu') ou vice-versa para dar precisão. Koch e Elias destacam essa função como recurso de progressão temática. Em provas, questões pedem a identificação do hiperônimo de um conjunto de termos ou do hipônimo mais adequado para substituir um termo geral.",
+        "subtitulo": "4. Homônimos e parônimos: parecidos, mas diferentes",
+        "conteudo": "Imagine dois recrutas com nomes quase iguais, mas que são pessoas completamente diferentes: é fácil confundi-los só pelo nome, mas o histórico de cada um é distinto. Homônimos e parônimos funcionam assim com as palavras.\n\nHomônimos são palavras que se escrevem ou se pronunciam igual, mas têm significados diferentes — como \"colher\" (o talher) e \"colher\" (verbo, ação de recolher). Parônimos são palavras parecidas na escrita ou no som, mas não idênticas, e com sentidos diferentes — como \"emergir\" (vir à superfície) e \"imergir\" (afundar, mergulhar).\n\nA regra para não confundir os dois é simples: homônimos são iguais na forma (escrita e/ou som); parônimos são apenas semelhantes na forma. Em ambos os casos, o contexto da frase é o que define qual sentido está em jogo, então é preciso ler a frase inteira antes de decidir o significado da palavra.\n\nO erro mais comum é trocar \"emergir\" por \"imergir\" (ou \"infligir\" por \"infringir\", \"descrição\" por \"discrição\") por causa da semelhança sonora, sem perceber que o sentido da frase fica completamente diferente.",
+        "regra": "Homônimo = forma igual, sentido diferente · Parônimo = forma parecida, sentido diferente",
         "exemplos": [
-          "Hiperônimo: 'veículo' → hipônimos: 'avião', 'navio', 'submarino', 'helicóptero'.",
-          "Hiperônimo: 'documento' → hipônimos: 'ofício', 'memorando', 'relatório', 'edital'.",
-          "No texto: 'O fuzileiro, o marinheiro e o oficial se reuniram. Os militares aguardavam ordens.' — 'militares' é o hiperônimo que retoma os três hipônimos.",
-          "Hiponímia precisa: 'O animal saiu correndo' → 'O labrador saiu correndo' (hipônimo mais específico)."
-        ],
-        "regra": "Hiperônimo é o termo geral que inclui os específicos (hipônimos). Para identificar o hiperônimo de um grupo de palavras, pergunte: 'Qual palavra engloba todos esses termos?' Para identificar o hipônimo, pergunte: 'Qual termo específico está incluído nessa categoria?'"
+          {
+            "texto_base": "O submarino começou a emergir lentamente após a operação de reconhecimento, evitando imergir novamente antes da ordem do comando.",
+            "anotacoes": [
+              {
+                "trecho": "emergir",
+                "destaque": "parônimo de imergir",
+                "motivo": "Emergir significa vir à superfície; é parecido na escrita com imergir, mas tem sentido oposto"
+              },
+              {
+                "trecho": "imergir",
+                "destaque": "parônimo de emergir",
+                "motivo": "Imergir significa afundar, mergulhar; a troca das letras muda totalmente o sentido da frase"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "5. Relações Lexicais em Contexto de Prova: substituição e coerência",
-        "conteudo": "Em provas de Língua Portuguesa da Marinha, as relações lexicais aparecem principalmente em três formatos: (a) substituição sem alteração de sentido — pede-se o sinônimo que preserva o sentido original no contexto; (b) identificação de relação — pergunta-se qual relação semântica existe entre duas palavras; (c) efeito de sentido — pede-se o efeito que a escolha de determinada palavra produz no texto. Para resolver essas questões com segurança, o candidato deve: (1) nunca substituir palavras sem verificar o contexto; (2) lembrar que sinônimos perfeitos não existem e que a substituição pode alterar nuances; (3) atentar para palavras polissêmicas cujo sentido depende do contexto; (4) identificar se dois termos são verdadeiramente antônimos ou apenas semanticamente opostos em determinado uso. Fiorin e Savioli ressaltam que a escolha lexical é sempre significativa — cada palavra carrega valores conotativos que vão além do significado dicionarizado.",
+        "subtitulo": "5. Polissemia dentro das relações lexicais",
+        "conteudo": "Pense numa chave: a mesma palavra \"chave\" pode abrir uma porta, ser a \"chave\" de um problema ou ser a \"chave\" musical de uma partitura. É a mesma palavra, mas o sentido muda conforme o uso.\n\nPolissemia é a capacidade de uma única palavra ter vários significados relacionados entre si, dependendo do contexto em que é usada. Diferente da homonímia, em que duas palavras de origens diferentes coincidem na forma, na polissemia é a mesma palavra, com a mesma origem, que se espalha em sentidos diferentes mas conectados por alguma semelhança de ideia.\n\nA regra prática: quando uma palavra polissêmica aparece no texto, o sentido correto é sempre o que se encaixa no contexto da frase — nunca o primeiro sentido que vier à cabeça do leitor. Por isso, antes de julgar uma questão sobre o significado de uma palavra, é preciso reler a frase completa em que ela aparece.\n\nO erro mais comum é fixar-se no sentido mais comum de uma palavra polissêmica e ignorar que o texto pediu um sentido secundário, menos frequente no dia a dia.",
+        "regra": "Polissemia = mesma palavra, vários sentidos · O contexto decide qual sentido vale",
         "exemplos": [
-          "Questão típica: 'A palavra X, no contexto, pode ser substituída sem alteração de sentido por:' → Sempre verifique se o substituto funciona na frase inteira.",
-          "Erro comum: substituir 'casa' por 'lar' em frase técnica — 'lar' tem carga afetiva que 'casa' não necessariamente tem.",
-          "Questão de identificação: 'Qual a relação entre corajoso e covarde?' → Antonímia gradual (há graus entre os extremos).",
-          "Questão de efeito: 'O uso de X em vez de Y produz efeito de...' → Pense em denotação vs. conotação, formalidade vs. informalidade, especificidade vs. generalidade."
-        ],
-        "regra": "Em questões de substituição: teste o candidato no contexto, não isoladamente. Em questões de relação: identifique a categoria (sinonímia, antonímia, hiponímia, polissemia, paronímia) e verifique a subcategoria. Em questões de efeito: analise a carga semântica, conotativa e estilística da palavra."
+          {
+            "texto_base": "O oficial assumiu o comando da operação; sem o comando correto do sistema de navegação, a embarcação não teria seguido a rota prevista.",
+            "anotacoes": [
+              {
+                "trecho": "comando",
+                "destaque": "polissemia (1)",
+                "motivo": "Aqui significa a função de chefiar, dirigir a operação militar"
+              },
+              {
+                "trecho": "comando",
+                "destaque": "polissemia (2)",
+                "motivo": "Aqui significa instrução técnica dada a um sistema, sentido diferente do anterior"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Sinônimo que muda a nuance",
-      "errado": "Aceitar qualquer sinônimo listado no dicionário como substituto válido em qualquer contexto.",
-      "correto": "O sinônimo deve ser testado no contexto específico da frase. 'Ordenou' e 'sugeriu' podem parecer sinônimos em sentido amplo de 'comunicou uma ação', mas têm cargas semânticas completamente distintas — 'ordenou' implica hierarquia e obrigatoriedade, 'sugeriu' implica possibilidade e escolha.",
-      "explicacao": "Bancas usam pares como 'afirmou/garantiu', 'pediu/exigiu', 'disse/revelou' para testar se o candidato percebe a nuance. Em contexto militar, 'ordenou' jamais pode ser substituído por 'sugeriu'. Teste sempre o sinônimo no contexto antes de marcar.",
+      "titulo": "Trocar sinônimo por palavra de sentido só parecido",
+      "errado": "O texto afirma que o recruta foi \"censurado\" pelo comandante, no sentido de ter recebido um elogio formal.",
+      "correto": "O texto afirma que o recruta foi \"repreendido\" pelo comandante, recebendo uma crítica formal por seu comportamento.",
+      "explicacao": "\"Censurado\" tem sentido de crítica ou reprovação, nunca de elogio. A banca explora justamente essa troca de sentido para verificar se o candidato lê a palavra com atenção ou apenas associa por semelhança sonora a outro termo.",
       "nivel": "basico"
     },
     {
-      "titulo": "Parônimo confundido com sinônimo",
-      "errado": "Tratar 'emigrar' e 'imigrar', ou 'descriminar' e 'discriminar' como sinônimos por terem forma parecida.",
-      "correto": "'Emigrar' = sair do país de origem; 'imigrar' = entrar em outro país. 'Descriminar' = retirar do rol de crimes; 'discriminar' = diferenciar ou tratar de forma preconceituosa. São parônimos — forma parecida, sentido oposto ou muito distinto.",
-      "explicacao": "Parônimos são um dos tópicos mais explorados em provas militares. A banca apresenta um deles no texto e oferece o outro como alternativa de substituição. A diferença de uma ou duas letras muda completamente o significado. Memorize os pares clássicos: infligir/infringir, flagrante/fragrante, eminente/iminente, ratificar/retificar.",
+      "titulo": "Confundir hiperônimo com sinônimo",
+      "errado": "Como \"veículo\" é sinônimo de \"submarino\", as duas palavras podem ser usadas em qualquer contexto sem alterar o sentido.",
+      "correto": "\"Veículo\" é hiperônimo de \"submarino\": submarino é um tipo específico de veículo, mas nem todo veículo é um submarino.",
+      "explicacao": "Sinônimos têm sentidos equivalentes; hiperônimo e hipônimo têm uma relação de inclusão, em que um é mais geral e o outro mais específico. Tratar essa relação como sinonímia leva a erro de interpretação em questões de substituição de termos.",
       "nivel": "basico"
     },
     {
-      "titulo": "Polissemia tratada como homonímia",
-      "errado": "Afirmar que duas palavras idênticas com sentidos diferentes são sempre homônimas, ignorando se existe relação semântica entre os sentidos.",
-      "correto": "Se os sentidos guardam relação histórica ou metafórica (ex.: 'cabo' de faca e 'cabo' como extremidade/promontório), trata-se de polissemia. Se os sentidos são completamente independentes e de origens distintas (ex.: 'são' = saudável e 'são' = verbo ser), trata-se de homonímia.",
-      "explicacao": "A distinção entre polissemia e homonímia é técnica e nem sempre consensual entre os gramáticos. Em prova, se a questão pede a identificação do fenômeno, analise se há relação de sentido entre os usos: relação = polissemia; sem relação = homonímia.",
+      "titulo": "Trocar parônimos por semelhança sonora",
+      "errado": "O comandante decidiu \"infringir\" as novas normas de segurança a toda a tripulação antes da operação.",
+      "correto": "O comandante decidiu \"infligir\" as novas normas de segurança a toda a tripulação antes da operação.",
+      "explicacao": "\"Infligir\" significa impor, aplicar uma penalidade ou norma; \"infringir\" significa violar, descumprir uma regra. São parônimos com sentidos opostos, e a troca inverte completamente o significado da frase.",
       "nivel": "intermediario"
     },
     {
-      "titulo": "Antônimo que não é realmente oposto no contexto",
-      "errado": "Aceitar como antônimo qualquer palavra que pareça semanticamente oposta, sem verificar o contexto.",
-      "correto": "O antônimo deve ser verificado no contexto. 'Fraco' pode ser antônimo de 'forte' em sentido físico, mas não é o melhor antônimo de 'forte' no contexto 'argumento forte' — o antônimo aqui seria 'frágil' ou 'inconsistente'.",
-      "explicacao": "Palavras polissêmicas têm antônimos diferentes para cada sentido. A banca explora isso: apresenta um termo em contexto específico e oferece antônimos de outro sentido da mesma palavra. Sempre identifique o sentido ativado no contexto antes de buscar o antônimo.",
-      "nivel": "avancado"
+      "titulo": "Ignorar o contexto na palavra polissêmica",
+      "errado": "Como a palavra \"banco\" sempre se refere a uma instituição financeira, a frase \"sentou no banco da embarcação\" estaria incorreta.",
+      "correto": "A palavra \"banco\" pode significar tanto instituição financeira quanto assento; em \"sentou no banco da embarcação\", o sentido correto é o de assento, definido pelo contexto.",
+      "explicacao": "Palavras polissêmicas mudam de sentido conforme o contexto da frase. Assumir sempre o sentido mais comum, sem checar o restante da frase, é um erro recorrente em questões de interpretação textual.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Hiperônimo confundido com sinônimo",
-      "errado": "Tratar o hiperônimo como sinônimo do hipônimo: afirmar que 'veículo' é sinônimo de 'navio'.",
-      "correto": "'Veículo' é hiperônimo de 'navio' — inclui navio, mas não é equivalente a ele. Sinônimos têm sentidos equivalentes; hiperônimos têm sentidos mais abrangentes. Substituir 'navio' por 'veículo' em um texto especializado altera a precisão semântica.",
-      "explicacao": "Em questões de coesão, a substituição por hiperônimo é um recurso legítimo para evitar repetição. Mas em questões de sinonímia estrita, o hiperônimo não é sinônimo. 'O documento foi assinado' ≠ 'A coisa foi assinada' — embora 'coisa' seja hiperônimo de 'documento', a substituição empobrece e distorce o sentido.",
+      "titulo": "Tratar homônimos perfeitos como a mesma palavra",
+      "errado": "Como \"colher\" (talher) e \"colher\" (verbo) se escrevem e se pronunciam igual, elas têm necessariamente a mesma origem e o mesmo sentido básico.",
+      "correto": "\"Colher\" (talher) e \"colher\" (verbo, ação de recolher) são homônimas: coincidem na forma escrita e sonora, mas têm origens e sentidos completamente diferentes.",
+      "explicacao": "A homonímia é uma coincidência de forma, não uma relação de origem comum ou de sentido. Duas palavras homônimas podem ter histórias etimológicas totalmente distintas, e o candidato precisa decidir o sentido apenas pelo contexto da frase, nunca pela grafia idêntica.",
       "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "A questão pede um sinônimo para substituição e uma das alternativas é um parônimo do termo original — palavra de forma muito parecida, mas sentido distinto.",
-      "dica": "Leia com atenção a grafia das alternativas. Parônimos diferem por uma ou duas letras. Se perceber essa semelhança, analise o significado de cada forma separadamente antes de escolher. Nunca marque pela semelhança de forma — marque pelo sentido no contexto.",
+      "situacao": "Assumir que duas palavras sinônimas podem ser trocadas em qualquer frase sem alterar o sentido ou o grau de formalidade.",
+      "dica": "Sempre teste a substituição dentro da frase original, não isoladamente. Verifique se o grau de intensidade, a formalidade e o contexto militar ou técnico do texto continuam coerentes após a troca. Se a frase ficar estranha ou exagerada, o sinônimo proposto não é equivalente.",
       "nivel": "basico"
     },
     {
-      "situacao": "A questão pede o hiperônimo de um conjunto de palavras, mas uma das alternativas é um hipônimo de apenas alguns dos termos listados, e não de todos.",
-      "dica": "O hiperônimo verdadeiro deve incluir TODOS os termos do conjunto, sem exceção. Se uma alternativa não abrange todos os itens listados, ela não é o hiperônimo correto. Teste cada alternativa contra cada item do conjunto.",
+      "situacao": "Julgar o sentido de uma palavra polissêmica pelo significado mais frequente no dia a dia, sem reler o texto completo.",
+      "dica": "Releia sempre a frase inteira antes de decidir o sentido de uma palavra com múltiplos significados. Procure pistas no texto — palavras vizinhas, contexto naval ou técnico — que indiquem qual sentido está realmente em jogo naquela ocorrência específica.",
       "nivel": "intermediario"
     },
     {
-      "situacao": "A questão usa uma palavra polissêmica em contexto específico e as alternativas oferecem sinônimos válidos para sentidos diferentes dessa palavra.",
-      "dica": "Identifique primeiro qual sentido da palavra está sendo ativado no contexto da frase. Só então procure o sinônimo correspondente a esse sentido. Ignorar o contexto e escolher um sinônimo do sentido errado é o erro mais comum nesse tipo de questão.",
+      "situacao": "Confiar apenas na semelhança sonora ou visual entre duas palavras para decidir se são sinônimas, antônimas ou têm o mesmo radical.",
+      "dica": "Separe sempre forma de sentido. Palavras parecidas na escrita (parônimos) podem ter sentidos opostos ou completamente distintos. Antes de classificar a relação lexical, busque o significado de cada palavra isoladamente e só depois compare os sentidos entre elas.",
       "nivel": "avancado"
     }
   ],
@@ -120,731 +180,766 @@
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Assinale a alternativa em que as palavras apresentam relação de SINONÍMIA.",
+      "enunciado": "No trecho \"o recruta obedeceu prontamente, sem qualquer sinal de insubordinação\", as palavras destacadas estabelecem uma relação de:",
       "alternativas": {
-        "A": "veloz / lento",
-        "B": "corajoso / bravo",
-        "C": "absolver / absorver",
-        "D": "emigrar / imigrar",
-        "E": "comprimento / cumprimento"
+        "A": "Sinonímia",
+        "B": "Antonímia",
+        "C": "Hiperonímia",
+        "D": "Homonímia",
+        "E": "Paronímia"
       },
       "gabarito": "B",
-      "explicacao": "B apresenta sinonímia: 'corajoso' e 'bravo' têm sentidos muito próximos — ambos indicam destemor, coragem. A é antonímia (veloz/lento). C é paronímia (absolver = inocentar; absorver = embeber). D é paronímia (emigrar = sair do país; imigrar = entrar no país). E é paronímia (comprimento = extensão; cumprimento = saudação ou realização)."
+      "explicacao": "\"Obedeceu\" remete à ideia de obediência, enquanto \"insubordinação\" é justamente o seu contrário; portanto, há antonímia entre as ideias expressas pelos dois termos. Não se trata de sinonímia, pois os sentidos não se aproximam, mas se opõem. Também não há hiperonímia, já que nenhuma das palavras é categoria geral da outra, e não há semelhança de forma escrita que justifique homonímia ou paronímia."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Em qual das alternativas há um par de ANTÔNIMOS?",
+      "enunciado": "Em \"o navio retornou à base; a embarcação havia cumprido a missão com sucesso\", a palavra \"embarcação\" funciona como:",
       "alternativas": {
-        "A": "ratificar / confirmar",
-        "B": "eminente / iminente",
-        "C": "aprovado / reprovado",
-        "D": "tráfego / tráfico",
-        "E": "flagrante / fragrante"
+        "A": "Antônimo de navio",
+        "B": "Parônimo de navio",
+        "C": "Hiperônimo de navio",
+        "D": "Homônimo de navio",
+        "E": "Sinônimo perfeito de base"
       },
       "gabarito": "C",
-      "explicacao": "C apresenta antonímia complementar: 'aprovado' e 'reprovado' são opostos sem grau intermediário. A é sinonímia (ratificar e confirmar têm sentido similar). B é paronímia (eminente = ilustre; iminente = prestes a acontecer). D é paronímia (tráfego = trânsito; tráfico = comércio ilegal). E é paronímia (flagrante = evidente, pego no ato; fragrante = aromático)."
+      "explicacao": "\"Embarcação\" é um termo mais amplo, que inclui \"navio\" como um de seus tipos específicos, por isso funciona como hiperônimo. Não há oposição de sentido que justifique antonímia, nem semelhança de forma escrita que configure paronímia ou homonímia. Também não é sinônimo de \"base\", palavra com sentido totalmente diferente no texto."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Qual das alternativas apresenta um par de PARÔNIMOS?",
+      "enunciado": "A relação entre \"veículo\" e \"submarino\" pode ser corretamente descrita como:",
       "alternativas": {
-        "A": "navio / embarcação",
-        "B": "rápido / veloz",
-        "C": "infligir / infringir",
-        "D": "vivo / morto",
-        "E": "documento / ofício"
+        "A": "Veículo é hipônimo de submarino",
+        "B": "As duas palavras são sinônimas perfeitas",
+        "C": "As duas palavras são antônimas",
+        "D": "Submarino é hipônimo de veículo",
+        "E": "Submarino é hiperônimo de veículo"
       },
-      "gabarito": "C",
-      "explicacao": "'Infligir' (aplicar punição, causar) e 'infringir' (transgredir, violar) são parônimos: formas semelhantes, sentidos distintos. A é relação de sinonímia/hiponímia (navio é tipo de embarcação). B é sinonímia. D é antonímia complementar. E é relação de hiponímia ('ofício' é um tipo de 'documento')."
+      "gabarito": "D",
+      "explicacao": "\"Submarino\" é um tipo específico dentro da categoria mais ampla \"veículo\", portanto submarino é hipônimo de veículo. A alternativa A inverte essa relação de forma incorreta. Não há sinonímia, pois os termos não têm sentidos equivalentes, nem antonímia, já que não há oposição de sentido entre eles."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Em 'O militar exerce o cargo com zelo', o termo 'cargo' pode ser substituído, sem alteração de sentido, por:",
+      "enunciado": "Assinale a alternativa em que as duas palavras formam um par de homônimos.",
       "alternativas": {
-        "A": "peso",
-        "B": "função",
-        "C": "encargo financeiro",
-        "D": "carga",
-        "E": "ônus"
+        "A": "Emergir e imergir",
+        "B": "Colher (talher) e colher (verbo)",
+        "C": "Veículo e viatura",
+        "D": "Obediência e insubordinação",
+        "E": "Avançar e recuar"
       },
       "gabarito": "B",
-      "explicacao": "No contexto dado — exercer algo com zelo — 'cargo' significa 'função, posto profissional'. 'Função' é o sinônimo que melhor preserva esse sentido. A ('peso') e D ('carga') ativam outro sentido de 'cargo' relacionado a peso físico. C ('encargo financeiro') é específico demais e não cabe no contexto. E ('ônus') implica obrigação desvantajosa, com conotação negativa ausente no original."
+      "explicacao": "\"Colher\" (substantivo, o talher) e \"colher\" (verbo, ação de recolher) escrevem-se e pronunciam-se de forma idêntica, mas possuem sentidos completamente diferentes, caracterizando homonímia perfeita. As demais alternativas trazem parônimos, relação de hiperonímia/hiponímia ou pares de antônimos, não homônimos."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Qual é o HIPERÔNIMO do conjunto de palavras: 'ofício, memorando, portaria, edital'?",
+      "enunciado": "No trecho \"o sargento determinou obediência imediata; qualquer insubordinação seria registrada\", a relação lexical entre as palavras destacadas é de:",
       "alternativas": {
-        "A": "texto",
-        "B": "ato linguístico",
-        "C": "documento oficial",
-        "D": "formulário",
-        "E": "registro"
+        "A": "Hiperonímia",
+        "B": "Hiponímia",
+        "C": "Antonímia",
+        "D": "Paronímia",
+        "E": "Polissemia"
       },
       "gabarito": "C",
-      "explicacao": "O hiperônimo técnico-administrativo que abrange especificamente 'ofício', 'memorando', 'portaria' e 'edital' é 'documento oficial' (alternativa C). A ('texto') é genérico demais; B ('ato linguístico') é um conceito de linguística pragmática, não classificação documental; D ('formulário') é hipônimo; E ('registro') também é genérico e não engloba tecnicamente esses tipos."
+      "explicacao": "\"Obediência\" e \"insubordinação\" expressam sentidos diretamente opostos dentro do mesmo trecho, configurando uma relação de antonímia. Não há relação de categoria geral e específica que justifique hiperonímia ou hiponímia, e as palavras não têm semelhança de forma que caracterize paronímia."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "Identifique a relação semântica entre as palavras 'fuzileiro' e 'militar'.",
+      "enunciado": "A palavra \"chave\", em \"a chave do problema estava na comunicação entre os setores\", é exemplo de:",
       "alternativas": {
-        "A": "Sinonímia, pois têm o mesmo sentido.",
-        "B": "Antonímia, pois têm sentidos opostos.",
-        "C": "Hiponímia: 'fuzileiro' é hipônimo de 'militar'.",
-        "D": "Paronímia, pois têm formas semelhantes.",
-        "E": "Polissemia, pois 'militar' tem vários sentidos."
+        "A": "Homonímia perfeita",
+        "B": "Antonímia",
+        "C": "Hiperonímia",
+        "D": "Polissemia",
+        "E": "Paronímia"
       },
-      "gabarito": "C",
-      "explicacao": "'Fuzileiro' é um tipo específico de militar — portanto é hipônimo de 'militar'. A relação é de inclusão semântica: todo fuzileiro é militar, mas nem todo militar é fuzileiro. Não há sinonímia (sentidos distintos), nem antonímia (não são opostos), nem paronímia (formas diferentes), nem polissemia como relação entre as duas palavras."
+      "gabarito": "D",
+      "explicacao": "\"Chave\" mantém a mesma origem e palavra, mas assume sentido figurado de \"solução\" ou \"ponto central\", o que caracteriza polissemia. Não se trata de homonímia, pois não há duas palavras de origens distintas coincidindo na forma; tampouco há relação de oposição, categoria geral ou semelhança formal com outra palavra que justifique as demais opções."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "A palavra 'são' é empregada em dois sentidos diferentes em: 'Os militares são valentes' e 'O militar manteve o raciocínio são'. Que fenômeno lexical isso ilustra?",
+      "enunciado": "Em \"o oficial assumiu o comando da operação\", a palavra \"comando\" assume o sentido de:",
       "alternativas": {
-        "A": "Sinonímia",
-        "B": "Paronímia",
-        "C": "Hiponímia",
-        "D": "Homonímia perfeita",
-        "E": "Antonímia"
+        "A": "Instrução dada a um sistema eletrônico",
+        "B": "Função de chefiar, dirigir uma ação militar",
+        "C": "Categoria geral de veículo naval",
+        "D": "Oposto de obediência",
+        "E": "Termo específico para tipo de embarcação"
       },
-      "gabarito": "D",
-      "explicacao": "'São' como forma do verbo 'ser' (terceira pessoa do plural) e 'são' como adjetivo (saudável, íntegro) são palavras com a mesma grafia e pronúncia, mas sentidos completamente distintos e de origens etimológicas diferentes — isso configura homonímia perfeita (ou homônimos perfeitos). Não há relação semântica entre os dois sentidos, o que diferencia da polissemia."
+      "gabarito": "B",
+      "explicacao": "No contexto apresentado, \"comando\" refere-se à função de liderar ou dirigir a operação militar, sentido distinto do uso técnico relacionado a sistemas eletrônicos. Não há relação de categoria com tipos de embarcação, nem o termo se opõe a \"obediência\" nesse trecho, o que descarta as demais alternativas."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Qual das alternativas apresenta o ANTÔNIMO mais adequado para 'ratificar' no contexto 'O comandante ratificou a decisão tomada na reunião'?",
+      "enunciado": "Assinale a alternativa que apresenta um par de parônimos.",
       "alternativas": {
-        "A": "retificar",
-        "B": "revogar",
-        "C": "reafirmar",
-        "D": "publicar",
-        "E": "registrar"
+        "A": "Infligir e infringir",
+        "B": "Veículo e viatura",
+        "C": "Comando e obediência",
+        "D": "Colher e colher",
+        "E": "Embarcação e navio"
       },
-      "gabarito": "B",
-      "explicacao": "'Ratificar' significa confirmar, validar, tornar eficaz. Seu antônimo mais preciso nesse contexto é 'revogar' (anular, desfazer a decisão). A ('retificar') é parônimo de ratificar e significa corrigir — não é antônimo. C ('reafirmar') é quase sinônimo, não antônimo. D e E são ações neutras sem relação de oposição com ratificar."
+      "gabarito": "A",
+      "explicacao": "\"Infligir\" (impor uma penalidade) e \"infringir\" (descumprir uma norma) têm grafia e som muito semelhantes, mas sentidos diferentes, caracterizando paronímia. As demais alternativas apresentam relação de hiperonímia/hiponímia, antonímia ou homonímia perfeita, não paronímia."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "Em 'O candidato deve descriminalizar a conduta versus O candidato não deve discriminar candidatos por origem', qual é a relação entre 'descriminalizar' e 'discriminar'?",
+      "enunciado": "A relação entre \"avançar\" e \"recuar\", em um relatório de operação militar, é classificada como:",
       "alternativas": {
         "A": "Sinonímia",
-        "B": "Antonímia",
+        "B": "Hiperonímia",
         "C": "Paronímia",
-        "D": "Hiponímia",
-        "E": "Polissemia"
+        "D": "Homonímia",
+        "E": "Antonímia"
       },
-      "gabarito": "C",
-      "explicacao": "'Descriminalizar' (retirar o caráter de crime) e 'discriminar' (diferenciar / tratar com preconceito) têm formas semelhantes mas sentidos distintos — relação de paronímia. Atenção: 'descriminar' (sem o 'a' extra de 'descriminalizar') também é parônimo de 'discriminar'. A confusão entre esses termos é frequente em provas."
+      "gabarito": "E",
+      "explicacao": "\"Avançar\" e \"recuar\" representam ações opostas dentro do contexto de deslocamento militar, configurando uma clara relação de antonímia. Não há aproximação de sentido que justifique sinonímia, nem relação de categoria geral e específica entre os termos, o que elimina as demais alternativas."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Qual a relação semântica entre 'veloz' e 'rápido'?",
+      "enunciado": "Em um relatório que usa \"praça\" e \"recruta\" para se referir ao mesmo militar em diferentes momentos do texto, essas palavras funcionam como:",
       "alternativas": {
-        "A": "Antonímia gradual",
-        "B": "Paronímia",
-        "C": "Homonímia",
-        "D": "Sinonímia",
-        "E": "Hiponímia"
+        "A": "Antônimos",
+        "B": "Parônimos",
+        "C": "Sinônimos aproximados, conforme o contexto",
+        "D": "Hiperônimos um do outro",
+        "E": "Homônimos perfeitos"
       },
-      "gabarito": "D",
-      "explicacao": "'Veloz' e 'rápido' são sinônimos: ambos indicam grande velocidade e podem ser usados de forma intercambiável na maioria dos contextos. Não são antônimos (não se opõem), não são parônimos (não têm forma parecida com sentidos distintos), não são homônimos (não têm mesma forma com sentidos diferentes), e não têm relação de hiponímia (nenhum inclui o outro)."
+      "gabarito": "C",
+      "explicacao": "\"Praça\" e \"recruta\" podem se aproximar de sentido no contexto militar para evitar repetição, funcionando como sinônimos aproximados, ainda que não sejam idênticos em todos os usos. Não há oposição de sentido que justifique antonímia, nem relação de categoria geral e específica, e as palavras não compartilham forma escrita que justifique paronímia ou homonímia."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Leia a frase: 'O investigador flagrou o suspeito durante a operação.' A palavra 'flagrou' pode ser substituída, mantendo o sentido, por:",
+      "textoBase": "O comandante determinou que o sargento emergisse os dados do relatório de operação antes da reunião com o Comando do 4º Distrito Naval, evitando imergir o grupo em informações desnecessárias.",
+      "enunciado": "Considerando o texto base, o uso da palavra \"emergisse\" no trecho está:",
       "alternativas": {
-        "A": "fragrancializou",
-        "B": "surpreendeu",
-        "C": "perfumou",
-        "D": "retificou",
-        "E": "ratificou"
+        "A": "Correto, pois \"emergir\" pode significar \"trazer à tona\", combinando com o sentido de apresentar dados",
+        "B": "Incorreto, pois deveria ser \"imergisse\", já que o sentido pretendido é o de aprofundar os dados",
+        "C": "Correto, pois \"emergir\" e \"imergir\" são sinônimos perfeitos nesse contexto",
+        "D": "Incorreto, pois \"emergir\" só pode se referir a embarcações, nunca a dados",
+        "E": "Correto, pois o texto exige um antônimo de \"imergir\" na primeira ocorrência"
       },
-      "gabarito": "B",
-      "explicacao": "'Flagrar' significa surpreender alguém no ato de algo, apanhar em flagrante. 'Surpreendeu' é o sinônimo contextual mais adequado. A é neologismo sem sentido. C remete ao campo semântico de 'fragrante' (aromático), confundindo-se com o parônimo de 'flagrante'. D e E são sinônimos entre si (corrigir e confirmar, respectivamente), mas não têm relação com 'flagrar'."
+      "gabarito": "A",
+      "explicacao": "\"Emergir\" pode ser usado em sentido figurado como \"trazer à superfície\", o que se encaixa em \"emergir os dados\" como apresentá-los de forma clara, sentido coerente com o restante do texto. A alternativa B erra ao propor a troca, pois inverteria o sentido pretendido pelo autor. As alternativas C e E erram ao tratar os parônimos como sinônimos ou exigir antonímia onde não há, e a alternativa D restringe indevidamente o uso da palavra apenas a embarcações."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Identifique o par em que há POLISSEMIA (e não homonímia), ou seja, em que os dois sentidos da mesma palavra guardam relação semântica entre si.",
+      "textoBase": "A frota foi reforçada com nova viatura blindada; o veículo havia sido testado em condições adversas antes de ser incorporado à base naval.",
+      "enunciado": "A relação lexical entre \"viatura\" e \"veículo\" no texto, somada à function textual dessa escolha, está corretamente descrita em:",
       "alternativas": {
-        "A": "'são' (verbo ser) / 'são' (saudável)",
-        "B": "'manga' (fruta) / 'manga' (parte da roupa)",
-        "C": "'cabo' (patente) / 'cabo' (ponta de utensílio) / 'cabo' (promontório)",
-        "D": "'canto' (melodia) / 'canto' (canto da sala)",
-        "E": "Apenas A e D apresentam polissemia"
+        "A": "São sinônimos perfeitos usados apenas por questão estética",
+        "B": "\"Veículo\" retoma \"viatura\" por hiperonímia, evitando repetição da palavra anterior",
+        "C": "\"Viatura\" é hiperônimo de \"veículo\", pois é o termo mais específico citado primeiro",
+        "D": "Formam um par de antônimos, pois indicam usos opostos do mesmo objeto",
+        "E": "São homônimos, pois compartilham parte da grafia"
       },
-      "gabarito": "C",
-      "explicacao": "'Cabo' ilustra polissemia: todos os sentidos derivam da ideia de 'extremidade, ponto terminal' — a patente (o que está no extremo da hierarquia inicial), a ponta do utensílio e o promontório geográfico (ponta de terra que avança para o mar). Há relação semântica histórica entre os sentidos. A apresenta homonímia (origens distintas, sem relação). B e D são casos debatidos — alguns linguistas classificam como polissemia por extensão metafórica, outros como homonímia. C é o exemplo mais consensualmente polissêmico."
+      "gabarito": "B",
+      "explicacao": "\"Veículo\" é o termo mais geral, retomando \"viatura\" (termo mais específico) por meio de uma relação de hiperonímia, recurso comum para evitar repetição e dar progressão ao texto. A alternativa C inverte equivocadamente a relação entre hiperônimo e hipônimo. Não há oposição de sentido que justifique antonímia, nem coincidência de grafia completa que configure homonímia, o que elimina as demais opções."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'O general iminente receberá honras militares.' Há um erro de uso de parônimo nessa frase. Qual seria a forma correta e qual é o sentido pretendido?",
+      "textoBase": "O oficial recém-incorporado mostrou obediência exemplar durante o treinamento, ao contrário do comportamento de insubordinação registrado na turma anterior.",
+      "enunciado": "No texto, a oposição entre \"obediência\" e \"insubordinação\" contribui para a coerência textual porque:",
       "alternativas": {
-        "A": "'Eminente'; o adjetivo significa 'que está prestes a acontecer'.",
-        "B": "'Eminente'; o adjetivo significa 'ilustre, de grande destaque'.",
-        "C": "'Iminente' está correto; significa 'ilustre, notável'.",
-        "D": "'Eminente'; o adjetivo significa 'que está em risco de acontecer'.",
-        "E": "'Iminente' está correto; significa 'que receberá honras em breve'."
+        "A": "Estabelece uma comparação entre dois comportamentos opostos em turmas diferentes",
+        "B": "Apresenta dois sinônimos que reforçam a mesma ideia sobre o oficial",
+        "C": "Indica que as duas palavras pertencem à mesma categoria gramatical apenas por coincidência",
+        "D": "Demonstra que \"insubordinação\" é hipônimo de \"obediência\"",
+        "E": "Mostra que as palavras são parônimas, mas com sentido idêntico"
       },
-      "gabarito": "B",
-      "explicacao": "O contexto indica que o general é notável, digno de honras — o adjetivo correto é 'eminente' (ilustre, de alto destaque). 'Iminente' significa 'prestes a acontecer, iminente' — usada para eventos, não para caracterizar pessoas. Portanto, o erro é usar 'iminente' no lugar de 'eminente'. A confunde os sentidos (atribui a 'eminente' o sentido de 'iminente'). C e E afirmam que 'iminente' está correto — errado. D atribui sentido equivocado a 'eminente'."
+      "gabarito": "A",
+      "explicacao": "A antonímia entre \"obediência\" e \"insubordinação\" constrói explicitamente uma comparação entre o comportamento do oficial e o da turma anterior, recurso comum para reforçar contraste em textos narrativos ou descritivos. Não há sinonímia entre os termos, já que os sentidos se opõem, e não existe relação de hiperonímia/hiponímia entre eles. A alternativa E erra ao classificar como parônimas palavras que não têm semelhança de forma relevante e ao afirmar sentido idêntico, o que contradiz a oposição evidente no texto."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Na frase 'O comandante interditou o acesso à área', qual é o ANTÔNIMO mais preciso de 'interditou' nesse contexto?",
+      "textoBase": "O sistema de comunicação da base recebeu um novo comando de atualização; o comando do navio, por sua vez, aguardava a confirmação do Comando do 4º Distrito Naval.",
+      "enunciado": "As três ocorrências da palavra \"comando\" no texto ilustram um caso de:",
       "alternativas": {
-        "A": "abriu",
-        "B": "liberou",
-        "C": "franqueou",
-        "D": "permitiu",
-        "E": "desbloqueou"
+        "A": "Homonímia, pois são três palavras de origens diferentes",
+        "B": "Antonímia, pois os sentidos se opõem entre si",
+        "C": "Paronímia, pois há pequena diferença de grafia entre as ocorrências",
+        "D": "Polissemia, pois é a mesma palavra assumindo sentidos relacionados, mas distintos",
+        "E": "Hiperonímia, pois uma ocorrência é categoria das demais"
       },
-      "gabarito": "C",
-      "explicacao": "'Interditar' significa proibir o acesso, vedar. O antônimo mais preciso e formal para esse contexto é 'franqueou' (tornou livre, abriu formalmente o acesso). Embora B, D e E sejam semanticamente próximos, 'franqueou' é o termo técnico-formal que melhor se opõe a 'interditou' no registro de texto oficial. A ('abriu') é informal e menos preciso. Em provas militares, privilegia-se o termo mais formal entre os disponíveis."
+      "gabarito": "D",
+      "explicacao": "As três ocorrências de \"comando\" mantêm a mesma origem e forma, mas assumem sentidos diferentes — instrução técnica, função de chefiar e órgão militar —, o que caracteriza a polissemia. Não há indício de origens distintas que justifique homonímia, nem oposição de sentido que configure antonímia. Também não há diferença de grafia entre as ocorrências, o que descarta a paronímia, nem relação clara de categoria geral e específica entre elas, o que elimina a hiperonímia."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Qual das alternativas apresenta o HIPERÔNIMO correto para o conjunto: 'corveta, fragata, destroyer, porta-aviões'?",
+      "textoBase": "O relatório informou que o grupo iria \"infligir\" sanções disciplinares aos recrutas que infringissem as normas de conduta da base.",
+      "enunciado": "Sobre o uso das palavras destacadas no texto, é correto afirmar que:",
       "alternativas": {
-        "A": "veículo blindado",
-        "B": "navio de guerra",
-        "C": "embarcação",
-        "D": "equipamento bélico",
-        "E": "submarino"
+        "A": "Ambas as ocorrências estão incorretas, pois deveriam ser substituídas por \"infringir\" nas duas vezes",
+        "B": "As duas palavras são sinônimas, por isso poderiam ser trocadas entre si sem alterar o sentido",
+        "C": "\"Infligir\" significa descumprir uma norma, sentido mantido corretamente no texto",
+        "D": "\"Infringir\" significa impor uma penalidade, sentido mantido corretamente no texto",
+        "E": "\"Infligir\" e \"infringir\" foram usadas corretamente, cada uma em seu sentido próprio"
       },
-      "gabarito": "B",
-      "explicacao": "O hiperônimo técnico que abrange corveta, fragata, destroyer e porta-aviões é 'navio de guerra' (alternativa B). A ('veículo blindado') incluiria tanques e blindados terrestres; C ('embarcação') abrangeria também barcos civis; D ('equipamento bélico') é ainda mais amplo; E ('submarino') é hipônimo — um tipo específico, não hiperônimo."
+      "gabarito": "E",
+      "explicacao": "\"Infligir\" foi corretamente empregada no sentido de impor uma sanção, e \"infringir\" no sentido de descumprir as normas, respeitando o significado próprio de cada parônimo. A alternativa A erra ao sugerir uma troca que inverteria os sentidos corretos do texto. As alternativas C, D e E invertem ou igualam indevidamente os significados dos dois parônimos, o que contraria o uso correto apresentado no relatório."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'O edital prevê que o candidato deve portar documento de identidade hábil.' A palavra 'hábil', nesse contexto, significa:",
+      "textoBase": "O recruta sentou-se no banco da embarcação enquanto aguardava a liberação do banco de dados do sistema de navegação.",
+      "enunciado": "As duas ocorrências da palavra \"banco\" no texto demonstram:",
       "alternativas": {
-        "A": "inteligente",
-        "B": "válido, apto legalmente",
-        "C": "destramente elaborado",
-        "D": "difícil de falsificar",
-        "E": "emitido por autoridade competente"
+        "A": "Sinonímia, pois mantêm exatamente o mesmo sentido nas duas ocorrências",
+        "B": "Antonímia, pois os sentidos se opõem completamente",
+        "C": "Homonímia, pois são palavras de mesma forma e origens distintas",
+        "D": "Hiponímia, pois uma ocorrência é mais específica que a outra",
+        "E": "Paronímia, pois há diferença mínima de grafia entre as ocorrências"
       },
-      "gabarito": "B",
-      "explicacao": "No contexto jurídico e formal de editais, 'hábil' significa 'válido, apto para o fim pretendido, legalmente eficaz'. Um 'documento hábil' é aquele que tem validade legal para o ato em questão. A ('inteligente') aplica-se a pessoas, não a documentos. C refere-se a habilidade manual na elaboração — não é o sentido técnico. D e E são características possíveis de documentos, mas não correspondem ao sentido técnico de 'hábil' no contexto jurídico-administrativo."
+      "gabarito": "C",
+      "explicacao": "\"Banco\" (assento) e \"banco\" (de dados, sentido técnico-informático) têm origens e sentidos diferentes, apesar de coincidirem completamente na forma escrita e sonora, o que caracteriza homonímia. Não há sentido equivalente que justifique sinonímia, nem oposição de sentido que configure antonímia. Por terem grafia idêntica, e não apenas parecida, também não se trata de paronímia, e não há relação de categoria geral e específica entre os dois usos."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Em 'O militar deferiu o pedido de licença', o verbo 'deferir' pode ser confundido com 'diferir'. Qual é a relação entre essas duas palavras e qual o sentido de cada uma?",
+      "textoBase": "O texto descreve a base naval como um \"organismo\" complexo, em que cada setor funciona como um \"órgão\" indispensável ao funcionamento geral.",
+      "enunciado": "O emprego das palavras \"organismo\" e \"órgão\" no texto evidencia:",
       "alternativas": {
-        "A": "São sinônimos; ambas significam 'adiar'.",
-        "B": "São antônimos; 'deferir' significa negar e 'diferir' significa conceder.",
-        "C": "São parônimos; 'deferir' significa conceder/atender e 'diferir' significa divergir/adiar.",
-        "D": "São homônimos; têm a mesma origem mas sentidos diferentes.",
-        "E": "São parônimos; 'deferir' significa adiar e 'diferir' significa conceder."
+        "A": "Uma metáfora baseada em sentido literal, sem relação lexical relevante",
+        "B": "Hiperonímia, pois \"organismo\" é categoria geral e \"órgão\" é parte específica dentro dela",
+        "C": "Antonímia, pois indicam funções opostas dentro da base",
+        "D": "Homonímia perfeita entre as duas palavras",
+        "E": "Sinonímia exata entre \"organismo\" e \"órgão\""
       },
-      "gabarito": "C",
-      "explicacao": "'Deferir' (conceder, atender a um pedido) e 'diferir' (ser diferente, divergir; ou adiar) são parônimos clássicos em provas de concurso. Têm formas muito próximas mas sentidos distintos. Não são sinônimos (C contradiz A). Não são antônimos (os sentidos não são opostos diretos). Não são homônimos (têm formas ligeiramente diferentes). E inverte os sentidos."
+      "gabarito": "B",
+      "explicacao": "No sentido figurado proposto pelo texto, \"organismo\" representa o todo (a base naval) e \"órgão\" representa cada parte específica desse todo (cada setor), reproduzindo a lógica de hiperonímia e hiponímia mesmo em uma comparação metafórica. Não há oposição de sentido entre os termos, o que descarta antonímia, nem identidade total de forma e sentido, o que elimina homonímia e sinonímia exata."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "No trecho 'A operação foi concluída com êxito', a palavra 'êxito' pode ser substituída, sem alteração de sentido, por:",
+      "textoBase": "O boletim interno informou que o oficial seria \"censurado\" por descumprir o protocolo, e não \"elogiado\", como constava no rascunho anterior do documento.",
+      "enunciado": "A correção feita no boletim, de \"elogiado\" para \"censurado\", evidencia uma relação lexical de:",
       "alternativas": {
-        "A": "saída",
-        "B": "escape",
-        "C": "sucesso",
-        "D": "expedição",
-        "E": "resultado"
+        "A": "Sinonímia, pois as duas palavras mantêm sentidos próximos",
+        "B": "Antonímia, pois as palavras expressam reações opostas à mesma conduta",
+        "C": "Hiponímia, pois \"censurado\" é um tipo específico de \"elogiado\"",
+        "D": "Paronímia, pois as palavras têm grafia semelhante",
+        "E": "Homonímia, pois compartilham a mesma forma escrita"
       },
-      "gabarito": "C",
-      "explicacao": "'Êxito' no contexto significa 'resultado favorável, sucesso'. 'Sucesso' é o sinônimo mais adequado. A ('saída') e B ('escape') são sentidos etimológicos de 'êxito' (do latim exitus = saída), mas não são o sentido contemporâneo em português. D ('expedição') não tem relação. E ('resultado') é mais neutro — um resultado pode ser negativo, o que difere de 'êxito', que é positivo."
+      "gabarito": "B",
+      "explicacao": "\"Censurado\" e \"elogiado\" representam reações opostas à mesma conduta do oficial, o que caracteriza uma relação de antonímia explorada pela correção do documento. Não há aproximação de sentido que justifique sinonímia, nem relação de categoria geral e específica entre os termos. As palavras também não apresentam semelhança ou identidade de grafia suficiente para configurar paronímia ou homonímia."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Qual das alternativas apresenta antonímia GRADUAL (e não complementar)?",
+      "textoBase": "O contra-almirante avaliou que a tripulação havia demonstrado disciplina; o grupo, porém, ainda precisava aprimorar a coordenação durante manobras de emergência.",
+      "enunciado": "No texto, \"tripulação\" e \"grupo\" estabelecem entre si uma relação de:",
       "alternativas": {
-        "A": "vivo / morto",
-        "B": "aprovado / reprovado",
-        "C": "presente / ausente",
-        "D": "rígido / flexível",
-        "E": "par / ímpar"
+        "A": "Antonímia, pois indicam conjuntos opostos de pessoas",
+        "B": "Sinonímia aproximada, retomando o mesmo referente para evitar repetição",
+        "C": "Hiperonímia, pois \"grupo\" é categoria específica de \"tripulação\"",
+        "D": "Homonímia, pois têm a mesma origem etimológica",
+        "E": "Paronímia, pois apresentam grafia quase idêntica"
       },
-      "gabarito": "D",
-      "explicacao": "'Rígido' e 'flexível' são antônimos graduais: existe uma escala entre os dois extremos (algo pode ser levemente rígido, moderadamente flexível etc.). A (vivo/morto), B (aprovado/reprovado), C (presente/ausente) e E (par/ímpar) são antonímias complementares — não admitem grau intermediário: ou se é um, ou se é o outro, sem estados intermediários possíveis."
+      "gabarito": "B",
+      "explicacao": "\"Grupo\" retoma \"tripulação\" no texto como uma forma de evitar repetição, funcionando como uma sinonímia aproximada dentro daquele contexto específico. Não há oposição de sentido entre os termos, o que descarta antonímia, e a relação não é de categoria geral para específica no sentido exigido pela hiperonímia. As palavras também não compartilham origem etimológica nem grafia semelhante, o que elimina homonímia e paronímia."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Leia o trecho: 'O candidato foi aprovado na prova objetiva e no teste de aptidão física. O aprovado terá seu nome publicado no diário oficial.' A relação entre 'candidato' (primeira ocorrência) e 'aprovado' (segunda ocorrência) é de:",
+      "textoBase": "O relatório alertou que a embarcação corria risco de \"emergir\" descontroladamente, o que poderia comprometer a segurança da tripulação durante o procedimento.",
+      "enunciado": "Levando em conta o sentido do texto, o emprego de \"emergir\" está:",
       "alternativas": {
-        "A": "Sinonímia perfeita, pois se referem à mesma pessoa.",
-        "B": "Antonímia, pois aprovado e candidato têm sentidos opostos.",
-        "C": "Hiponímia: 'aprovado' é hipônimo de 'candidato' no contexto.",
-        "D": "Paronímia, pois as formas são parecidas.",
-        "E": "Polissemia, pois 'candidato' tem vários sentidos."
+        "A": "Correto, pois o contexto trata exatamente de vir à superfície de forma descontrolada",
+        "B": "Incorreto, pois o sentido exigido pelo texto é o de afundar, exigindo \"imergir\"",
+        "C": "Incorreto, pois \"emergir\" só pode ser usado em contextos não militares",
+        "D": "Correto, mas apenas porque \"emergir\" e \"imergir\" são sinônimos perfeitos",
+        "E": "Incorreto, pois a palavra correta seria \"infligir\""
       },
-      "gabarito": "C",
-      "explicacao": "No contexto, 'aprovado' refere-se a um tipo específico de candidato — aquele que passou. Portanto, 'aprovado' é hipônimo de 'candidato' (todo aprovado é candidato, mas nem todo candidato é aprovado). Não é sinonímia perfeita, pois o sentido se restringe. Não é antonímia. Não é paronímia (formas são distintas). Não é polissemia como relação entre as duas palavras."
+      "gabarito": "A",
+      "explicacao": "O contexto do relatório trata exatamente do movimento de vir à superfície de forma descontrolada, sentido correspondente ao verbo \"emergir\", o que torna o uso adequado. A alternativa B inverteria o sentido ao propor \"imergir\", que significaria afundar, contrário ao que o texto descreve. Não há restrição de uso de \"emergir\" a contextos não militares, o que invalida a alternativa C, nem relação de sinonímia perfeita entre os dois parônimos, o que descarta a alternativa D. A alternativa E confunde o parônimo com uma palavra de sentido totalmente diferente."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Leia o período: 'O oficial preteriu o candidato mais qualificado em favor de um colega.' A palavra 'preteriu' é frequentemente confundida com 'preteritou' ou 'preteriu' usado no sentido de 'preferiu'. Qual é o sentido exato de 'preterir' e qual seria o antônimo mais preciso no contexto?",
+      "textoBase": "O Comando do 4º Distrito Naval determinou que o veículo blindado, classificado internamente como viatura tática, deveria emergir das águas rasas antes do início da operação, sem que isso configurasse qualquer infração ao protocolo de segurança, já que o procedimento havia sido expressamente autorizado.",
+      "enunciado": "Considerando as relações lexicais presentes no texto, assinale a alternativa correta.",
       "alternativas": {
-        "A": "'Preterir' significa preferir; antônimo: desprezar.",
-        "B": "'Preterir' significa deixar de lado, preterir; antônimo: preferir.",
-        "C": "'Preterir' significa punir; antônimo: recompensar.",
-        "D": "'Preterir' significa avaliar; antônimo: desconsiderar.",
-        "E": "'Preterir' significa nomear; antônimo: demitir."
+        "A": "\"Veículo\" e \"viatura tática\" são antônimos, pois indicam usos opostos do mesmo objeto",
+        "B": "\"Emergir\" foi empregado corretamente, no sentido de vir à superfície, e \"infração\" mantém relação de paronímia com \"infligir\"",
+        "C": "\"Veículo\" é hipônimo de \"viatura tática\", pois esta é o termo mais geral no texto",
+        "D": "\"Infração\" e \"emergir\" são sinônimos, pois ambos indicam descumprimento de norma",
+        "E": "\"Viatura tática\" e \"veículo\" são homônimos, por compartilharem parte da grafia"
       },
       "gabarito": "B",
-      "explicacao": "'Preterir' significa deixar de lado, não dar preferência a, passar para trás. É frequentemente confundido com 'preferir' — erro gravíssimo, pois são quase antônimos. 'O oficial preteriu o candidato mais qualificado' significa que ele deixou esse candidato de lado (não o escolheu). O antônimo mais preciso nesse contexto é 'preferir' (dar preferência a). A inverte os sentidos. C, D e E apresentam sentidos completamente equivocados."
+      "explicacao": "\"Emergir\" foi usado corretamente no sentido de vir à superfície das águas rasas, coerente com o restante do texto, e \"infração\" mantém relação de paronímia com \"infligir\", já que ambas têm grafia semelhante mas sentidos distintos (descumprir uma norma versus impor uma penalidade). A alternativa A erra ao tratar como antônimos termos que estão em relação de hiperonímia e hiponímia, relação também invertida incorretamente na alternativa C. A alternativa D iguala palavras de sentidos diferentes, e a alternativa E confunde semelhança parcial de forma com homonímia, que exige identidade total de grafia e som."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Analise o trecho: 'O relatório comprovou que o tráfego de armas na região havia aumentado significativamente.' Há um problema de uso lexical nessa frase. Identifique-o e aponte a correção.",
+      "textoBase": "O sargento determinou obediência absoluta durante o treinamento; qualquer recruta que demonstrasse insubordinação seria registrado, ao passo que o comportamento exemplar de outro praça seria citado como referência para toda a turma da base naval.",
+      "enunciado": "Sobre as relações lexicais estabelecidas no texto, é correto afirmar que:",
       "alternativas": {
-        "A": "Nenhum problema; 'tráfego' pode se referir tanto a circulação de veículos quanto a comércio ilegal.",
-        "B": "O correto seria 'tráfico', pois 'tráfego' refere-se a circulação de veículos e 'tráfico' a comércio ilegal.",
-        "C": "O correto seria 'tráfico' ou 'trânsito'; ambos se aplicam ao contexto.",
-        "D": "O correto seria 'tráfego ilícito', acrescentando o adjetivo para especificar.",
-        "E": "Nenhum problema; o contexto deixa claro que se trata de comércio ilegal."
+        "A": "\"Obediência\" e \"insubordinação\" são sinônimos, pois ambos descrevem o comportamento dos recrutas",
+        "B": "\"Recruta\" e \"praça\" mantêm relação de antonímia, pois designam grupos opostos dentro da base",
+        "C": "\"Obediência\" e \"insubordinação\" formam um par de antônimos, e \"recruta\"/\"praça\" aproximam-se por sinonímia contextual",
+        "D": "\"Recruta\" é hiperônimo de \"praça\", pois é citado primeiro no texto",
+        "E": "\"Insubordinação\" e \"praça\" mantêm relação de paronímia, por proximidade de som"
       },
-      "gabarito": "B",
-      "explicacao": "'Tráfego' e 'tráfico' são parônimos clássicos. 'Tráfego' refere-se à circulação de veículos, pessoas ou mercadorias em vias públicas. 'Tráfico' refere-se a comércio ilegal, especialmente de drogas ou armas. No contexto de armas ilegais, a palavra correta é 'tráfico'. A afirma que 'tráfego' tem o sentido de comércio ilegal — incorreto. C inclui 'trânsito' como alternativa — 'trânsito' também é circulação, não comércio ilegal. D propõe adjetivo como solução — não resolve o problema do parônimo incorreto. E ignora o problema."
+      "gabarito": "C",
+      "explicacao": "\"Obediência\" e \"insubordinação\" expressam sentidos diretamente opostos, configurando antonímia clássica, enquanto \"recruta\" e \"praça\" se aproximam de sentido no contexto militar, funcionando como sinônimos contextuais. A alternativa A erra ao tratar antônimos como sinônimos, e a alternativa B propõe oposição onde há aproximação de sentido. A alternativa D inverte a lógica de hiperonímia, que não se define pela ordem de citação no texto, e a alternativa E aponta paronímia entre palavras sem semelhança sonora relevante."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "No texto 'A medida adotada foi salutar para a organização', qual dos termos abaixo substitui 'salutar' mantendo o sentido e o registro formal?",
+      "textoBase": "O relatório técnico indicou que o sistema havia recebido um novo comando de atualização remota; já o comando da base, preocupado com a segurança da operação, optou por não imergir a tripulação em informações sigilosas antes da confirmação final do Comando do 4º Distrito Naval.",
+      "enunciado": "Com base no texto, assinale a alternativa que analisa corretamente as relações lexicais presentes.",
       "alternativas": {
-        "A": "saudável",
-        "B": "benéfica",
-        "C": "adequada",
-        "D": "necessária",
-        "E": "conveniente"
+        "A": "As três ocorrências de \"comando\" são homônimas, pois têm origens etimológicas diferentes entre si",
+        "B": "As ocorrências de \"comando\" exemplificam polissemia, e \"imergir\" foi empregado corretamente no sentido de envolver profundamente",
+        "C": "\"Imergir\" deveria ser substituído por \"emergir\", pois o sentido do texto exige vir à superfície",
+        "D": "\"Comando\" e \"imergir\" mantêm relação de paronímia, por proximidade de grafia",
+        "E": "\"Tripulação\" é hiperônimo de \"Comando do 4º Distrito Naval\" no texto"
       },
       "gabarito": "B",
-      "explicacao": "'Salutar' significa benéfico, que produz bom efeito, que é favorável à saúde ou ao bem-estar de algo. 'Benéfica' é o sinônimo mais preciso e que melhor mantém o registro formal. A ('saudável') tem sentido muito próximo, mas é mais coloquial e se aplica melhor a contextos de saúde física. C ('adequada') e D ('necessária') e E ('conveniente') indicam qualidades distintas — uma medida pode ser adequada sem ser salutar e vice-versa. 'Benéfica' preserva a ideia de efeito positivo que é central em 'salutar'."
+      "explicacao": "As três ocorrências de \"comando\" mantêm a mesma origem, mas assumem sentidos relacionados e distintos — instrução técnica, função de chefiar e órgão militar —, o que caracteriza polissemia, e \"imergir\" foi empregado corretamente no sentido figurado de envolver profundamente em informações. A alternativa A erra ao exigir origens diferentes, característica da homonímia, e não da polissemia. A alternativa C inverteria o sentido pretendido pelo texto, e a alternativa D aponta paronímia entre palavras sem semelhança de grafia relevante. A alternativa E propõe uma relação de hiperonímia inexistente entre os termos citados."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Leia: 'O militar usou de subterfúgio para evitar a punição.' Qual das palavras abaixo é HIPÔNIMO de 'subterfúgio'?",
+      "textoBase": "O boletim afirmava que o oficial seria censurado, e não elogiado, por permitir que a viatura, um veículo de uso restrito, infringisse o protocolo de segurança ao emergir da área de risco sem autorização do comando.",
+      "enunciado": "Assinale a alternativa que reúne corretamente as relações lexicais identificadas no texto.",
       "alternativas": {
-        "A": "estratégia",
-        "B": "evasiva",
-        "C": "ardil",
-        "D": "desculpa",
-        "E": "manobra"
+        "A": "\"Censurado\"/\"elogiado\" são antônimos; \"viatura\"/\"veículo\" mantêm hiponímia; \"infringisse\" foi usado corretamente no sentido de descumprir",
+        "B": "\"Censurado\"/\"elogiado\" são sinônimos; \"veículo\" é hipônimo de \"viatura\"; \"infringisse\" deveria ser substituído por \"infligisse\"",
+        "C": "\"Viatura\" e \"veículo\" são antônimos; \"censurado\" e \"elogiado\" mantêm relação de paronímia",
+        "D": "\"Emergir\" deveria ser substituído por \"imergir\", e \"infringisse\" está corretamente empregado",
+        "E": "\"Infringisse\" deveria ser substituído por \"infligisse\", e \"viatura\" é hiperônimo de \"veículo\""
       },
-      "gabarito": "B",
-      "explicacao": "'Subterfúgio' é o hiperônimo (recurso usado para escapar de uma situação difícil, pretexto, escape). 'Evasiva' é um tipo específico de subterfúgio — uma resposta que desvia do assunto para evitar comprometimento. É, portanto, hipônimo de subterfúgio. A ('estratégia') tem sentido mais amplo e neutro — não necessariamente enganoso. C ('ardil') é sinônimo mais próximo (artifício enganoso), não hipônimo. D ('desculpa') e E ('manobra') também são formas de subterfúgio, mas 'evasiva' é a que melhor se enquadra como tipo específico no contexto de evitar punição através de respostas."
+      "gabarito": "A",
+      "explicacao": "\"Censurado\" e \"elogiado\" formam um par de antônimos coerente com o contraste proposto pelo boletim; \"viatura\" mantém relação de hiponímia em relação a \"veículo\", termo mais geral; e \"infringisse\" foi usado corretamente no sentido de descumprir o protocolo, sentido coerente com o restante da frase. A alternativa B inverte a relação de hiponímia e erra ao propor a troca por \"infligisse\", que mudaria o sentido pretendido. A alternativa C erra ao tratar como antônimos termos em relação de hiperonímia/hiponímia e ao apontar paronímia entre palavras sem semelhança de grafia relevante. A alternativa D proporia uma troca que inverteria o sentido de \"emergir\" no contexto descrito, e a alternativa E inverte a relação correta entre \"viatura\" e \"veículo\" e sugere indevidamente a troca por \"infligisse\"."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Analise o trecho: 'A sentença foi prolatada pelo juiz militar responsável pelo caso.' A palavra 'prolatada' possui sentido específico no contexto jurídico. Qual das alternativas apresenta o sinônimo mais adequado?",
+      "textoBase": "Durante a reunião, o contra-almirante destacou que a disciplina da tripulação havia sido exemplar, ao contrário da insubordinação observada na operação anterior; ressaltou ainda que o navio, uma embarcação de alto desempenho, havia cumprido a missão sem qualquer infração às normas estabelecidas.",
+      "enunciado": "Considere as seguintes afirmações sobre as relações lexicais do texto:\n\nI. \"Disciplina\" e \"insubordinação\" mantêm relação de antonímia.\nII. \"Navio\" é hipônimo de \"embarcação\".\nIII. \"Infração\" mantém relação de paronímia com \"infligir\", e ambas têm sentidos equivalentes no texto.\n\nEstão corretas:",
       "alternativas": {
-        "A": "adiada",
-        "B": "protestada",
-        "C": "pronunciada, proferida",
-        "D": "revogada",
-        "E": "ratificada"
+        "A": "Apenas I e II",
+        "B": "Apenas I e III",
+        "C": "Apenas II e III",
+        "D": "I, II e III",
+        "E": "Nenhuma das afirmações"
       },
-      "gabarito": "C",
-      "explicacao": "'Proferir/prolatar sentença' é termo técnico jurídico que significa emitir, pronunciar, proferir a decisão judicial. 'Pronunciada, proferida' é o sinônimo mais preciso. A ('adiada') é o oposto da ideia de prolação. B ('protestada') aplica-se a títulos de crédito, não a sentenças. D ('revogada') significa anulada — oposto ao ato de prolatar. E ('ratificada') significa confirmada — pressupõe que já havia sido prolatada anteriormente."
+      "gabarito": "A",
+      "explicacao": "A afirmação I está correta, pois \"disciplina\" e \"insubordinação\" expressam sentidos opostos no contexto do texto, caracterizando antonímia. A afirmação II também está correta, já que \"navio\" é um tipo específico dentro da categoria mais ampla \"embarcação\", configurando hiponímia. A afirmação III está incorreta porque, embora \"infração\" e \"infligir\" sejam de fato parônimas, elas não têm sentidos equivalentes: \"infração\" refere-se ao descumprimento de uma norma, enquanto \"infligir\" refere-se a impor uma penalidade, sentidos distintos que não podem ser tratados como equivalentes."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Identifique o par em que a substituição do termo sublinhado pelo seu suposto 'sinônimo' ALTERA o sentido da frase de forma relevante.\n\nFrase original: 'O comandante EXORTOU os recrutas antes do exercício.'",
+      "textoBase": "O relatório técnico mencionou que o banco de dados do sistema de navegação precisava ser atualizado antes que a tripulação se acomodasse no banco da embarcação para o início da manobra de emergência.",
+      "enunciado": "Sobre as duas ocorrências de \"banco\" no texto e sua relação com o restante do vocabulário empregado, é correto afirmar que:",
       "alternativas": {
-        "A": "Substituir 'exortou' por 'incentivou' — sentido preservado.",
-        "B": "Substituir 'exortou' por 'conclamou' — sentido preservado.",
-        "C": "Substituir 'exortou' por 'ordenou' — sentido alterado.",
-        "D": "Substituir 'exortou' por 'estimulou' — sentido preservado.",
-        "E": "Substituir 'exortou' por 'encorajou' — sentido preservado."
+        "A": "Configuram homonímia, pois compartilham forma idêntica com sentidos de origens distintas, e \"emergência\" mantém relação de paronímia com \"emergir\"",
+        "B": "Configuram polissemia, pois é a mesma palavra com sentidos relacionados etimologicamente",
+        "C": "Configuram sinonímia, pois ambas se referem a estruturas de armazenamento",
+        "D": "Configuram antonímia, pois indicam usos opostos da mesma estrutura física",
+        "E": "Configuram paronímia, pois apresentam pequena diferença de grafia entre si"
       },
-      "gabarito": "C",
-      "explicacao": "'Exortar' significa incentivar com veemência, encorajar por meio de palavras ou discurso — o ato é persuasivo, não imperativo. 'Ordenar' implica comando hierárquico, obrigação e submissão — muda fundamentalmente a relação estabelecida na frase. A, B, D e E ('incentivou', 'conclamou', 'estimulou', 'encorajou') preservam a ideia de estímulo verbal positivo sem hierarquia imperativa, mantendo o sentido de exortação."
+      "gabarito": "A",
+      "explicacao": "\"Banco\" (assento) e \"banco\" (de dados) têm origens etimológicas distintas, apesar de coincidirem totalmente na forma escrita e sonora, o que caracteriza homonímia, e \"emergência\" mantém relação de paronímia com \"emergir\", já que ambas compartilham o radical e têm grafia semelhante, embora com matizes de sentido diferentes. A alternativa B erra ao exigir origem comum, característica da polissemia, inexistente neste caso. As alternativas C, D e E descrevem incorretamente a relação entre as duas ocorrências de \"banco\", que não são sinônimas, antônimas nem apenas parecidas na grafia, mas idênticas na forma."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'O processo foi encerrado por força de coisa julgada.' No contexto jurídico, 'coisa julgada' funciona como um termo técnico. Qual das alternativas descreve CORRETAMENTE a relação entre 'coisa' nesse termo e 'coisa' em sentido comum?",
+      "textoBase": "O documento elogiou a rapidez da operação, em contraste com a lentidão registrada no exercício anterior, e destacou que o grupo, formado majoritariamente por recrutas, demonstrou disciplina superior à de praças mais experientes em situações semelhantes.",
+      "enunciado": "Quanto às relações lexicais presentes no texto, é correto afirmar que:",
       "alternativas": {
-        "A": "Sinonímia: 'coisa' tem o mesmo sentido nos dois contextos.",
-        "B": "Antonímia: os sentidos de 'coisa' são opostos.",
-        "C": "Polissemia: 'coisa' assume sentido específico (matéria, assunto julgado) no contexto jurídico, diferente do sentido comum (objeto).",
-        "D": "Homonímia: são palavras de origens diferentes com a mesma grafia.",
-        "E": "Hiponímia: 'coisa julgada' é hipônimo de 'coisa' em sentido amplo."
+        "A": "\"Rapidez\" e \"lentidão\" são sinônimas, pois ambas descrevem o ritmo da operação",
+        "B": "\"Grupo\" é hipônimo de \"recrutas\", pois é citado antes no texto",
+        "C": "\"Rapidez\" e \"lentidão\" formam antônimos, mas \"recrutas\" e \"praças\" mantêm relação de antonímia",
+        "D": "\"Grupo\" é hiperônimo de \"recrutas\", e \"recrutas\"/\"praças\" mantêm sinonímia aproximada no contexto militar",
+        "E": "\"Disciplina\" e \"lentidão\" mantêm relação de paronímia"
       },
-      "gabarito": "C",
-      "explicacao": "'Coisa' em sentido jurídico (do latim 'res') significa matéria, assunto, questão objeto de decisão — um sentido técnico derivado por extensão semântica do sentido comum (objeto, aquilo de que se fala). Como há relação de derivação semântica entre os sentidos, trata-se de polissemia. Não é homonímia (os sentidos têm a mesma origem). E é parcialmente verdadeiro (coisa julgada é tipo de 'res'), mas a relação principal entre os dois usos de 'coisa' é polissêmica."
+      "gabarito": "D",
+      "explicacao": "\"Grupo\" funciona como hiperônimo de \"recrutas\", pois recrutas são um caso específico dentro da categoria mais geral de grupo, e \"recrutas\"/\"praças\" se aproximam de sentido no contexto militar, configurando sinonímia aproximada. A alternativa A erra ao tratar \"rapidez\" e \"lentidão\" como sinônimos quando, na verdade, são antônimos, conforme correta identificação na alternativa C — porém essa mesma alternativa erra ao propor antonímia entre \"recrutas\" e \"praças\", que se aproximam de sentido. A alternativa D inverte a relação de hiperonímia, que não depende da ordem de citação no texto, e a alternativa E aponta paronímia entre palavras sem semelhança de grafia relevante."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "No trecho 'O inspetor apurou as irregularidades apontadas no relatório', qual das alternativas apresenta a substituição de 'apurou' que MELHOR mantém o sentido técnico-formal da frase?",
+      "textoBase": "O texto afirmava que o submarino deveria emergir lentamente, sem imergir novamente antes da confirmação final, sob risco de infligir danos ao casco caso o procedimento infringisse as normas técnicas estabelecidas pelo fabricante.",
+      "enunciado": "Avalie as afirmações sobre as relações lexicais do texto:\n\nI. \"Emergir\" e \"imergir\" são parônimos com sentidos opostos.\nII. \"Infligir\" e \"infringir\" são parônimos, sendo o primeiro relacionado a impor e o segundo a descumprir.\nIII. \"Emergir\" e \"infligir\" mantêm relação de sinonímia, pois ambos indicam ação sobre o casco do submarino.\n\nEstão corretas:",
       "alternativas": {
-        "A": "descobriu",
-        "B": "investigou e esclareceu",
-        "C": "denunciou",
-        "D": "eliminou",
-        "E": "corrigiu"
+        "A": "Apenas I",
+        "B": "Apenas I e II",
+        "C": "Apenas II e III",
+        "D": "I, II e III",
+        "E": "Apenas III"
       },
       "gabarito": "B",
-      "explicacao": "'Apurar' no contexto de investigação administrativa significa investigar e esclarecer, verificar em detalhe, chegando a uma conclusão. O processo de apuração envolve tanto a investigação quanto o esclarecimento dos fatos. A ('descobriu') sugere que as irregularidades não eram conhecidas — mas no contexto, elas já tinham sido apontadas. C ('denunciou') confunde apurar com tornar público. D ('eliminou') indica remoção, não investigação. E ('corrigiu') indica solução, não apuração."
+      "explicacao": "A afirmação I está correta, pois \"emergir\" (vir à superfície) e \"imergir\" (afundar) são parônimos com sentidos opostos no contexto do texto. A afirmação II também está correta, já que \"infligir\" (impor uma penalidade ou dano) e \"infringir\" (descumprir uma norma) são parônimos com sentidos distintos, mas relacionados ao mesmo campo semântico de normas e penalidades. A afirmação III está incorreta porque \"emergir\" e \"infligir\" não mantêm qualquer relação de sinonímia: o primeiro descreve um movimento físico, e o segundo, uma ação de imposição, sentidos completamente diferentes entre si."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Leia o fragmento: 'O candidato apresentou arrazoado em sua defesa.' Qual é o sentido de 'arrazoado' e qual seria o hiperônimo mais adequado para esse termo?",
+      "textoBase": "O relatório descreveu a base naval como um organismo complexo, em que cada setor funcionava como um órgão indispensável; destacou ainda que a viatura, um veículo de uso restrito, havia sido censurada pelo comando técnico por apresentar falha no sistema de comunicação.",
+      "enunciado": "Considerando as relações lexicais e os possíveis sentidos figurados do texto, assinale a alternativa correta.",
       "alternativas": {
-        "A": "'Arrazoado' significa argumento desordenado; hiperônimo: discurso.",
-        "B": "'Arrazoado' significa exposição fundamentada de razões, geralmente escrita; hiperônimo: documento.",
-        "C": "'Arrazoado' significa conclusão do processo; hiperônimo: sentença.",
-        "D": "'Arrazoado' significa razões emocionais; hiperônimo: petição.",
-        "E": "'Arrazoado' significa acusação formal; hiperônimo: denúncia."
+        "A": "\"Censurada\", no contexto, significa elogiada, mantendo sinonímia com \"aprovada\"",
+        "B": "\"Organismo\" e \"viatura\" são sinônimos, pois ambos se referem a estruturas da base naval",
+        "C": "\"Órgão\" é hiperônimo de \"organismo\" no sentido figurado proposto pelo texto",
+        "D": "\"Veículo\" é hipônimo de \"viatura\" no texto",
+        "E": "\"Organismo\" e \"órgão\" mantêm relação de hiperonímia/hiponímia mesmo em sentido figurado, e \"viatura\"/\"veículo\" mantêm hiponímia/hiperonímia, respectivamente"
       },
-      "gabarito": "B",
-      "explicacao": "'Arrazoado' é um documento escrito em que se expõem razões, argumentos fundamentados em favor de uma posição — peça argumentativa formal. 'Documento' é o hiperônimo mais adequado (o arrazoado é um tipo de documento). A nega a organização do arrazoado. C confunde arrazoado com sentença. D atribui caráter emocional não pertinente. E confunde arrazoado de defesa com acusação."
+      "gabarito": "E",
+      "explicacao": "Mesmo em sentido figurado, \"organismo\" representa o todo e \"órgão\" representa a parte específica, reproduzindo a lógica de hiperonímia e hiponímia, da mesma forma que \"veículo\" (termo geral) e \"viatura\" (termo específico) mantêm essa mesma relação no nível literal. A alternativa B erra ao atribuir a \"censurada\" o sentido de elogiada, quando na verdade o termo indica crítica ou reprovação. A alternativa C trata como sinônimos palavras de campos semânticos distintos, e as alternativas D e E invertem incorretamente as relações de hiperonímia e hiponímia identificadas no texto."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Analise o trecho: 'A medida restringiu o acesso de servidores às áreas classificadas.' Se substituirmos 'restringiu' por 'proscreveu', o sentido:",
+      "textoBase": "O Comando do 4º Distrito Naval informou que o contra-almirante determinou obediência rigorosa aos novos protocolos, sob pena de o militar que demonstrasse insubordinação ser formalmente censurado, ao passo que o praça que mantivesse disciplina exemplar durante a manobra de emergência, na qual o submarino deveria emergir sem infringir as normas de segurança, seria devidamente elogiado pelo grupo de avaliação.",
+      "enunciado": "Com base na análise integrada das relações lexicais do texto, assinale a alternativa correta.",
       "alternativas": {
-        "A": "Será plenamente preservado, pois 'proscrever' é sinônimo perfeito de 'restringir'.",
-        "B": "Será levemente alterado: 'proscreveu' indica proibição absoluta, mais severa que 'restringiu' (limitou parcialmente).",
-        "C": "Será invertido: 'proscreveu' significa liberar o acesso.",
-        "D": "Será alterado para o sentido de 'adiou'.",
-        "E": "Não será alterado, pois o contexto é suficiente para definir o sentido."
+        "A": "\"Obediência\"/\"insubordinação\" e \"censurado\"/\"elogiado\" formam dois pares de antônimos distintos; \"emergir\" foi empregado corretamente, e \"infringir\" mantém paronímia com \"infligir\", com sentidos diferentes entre si",
+        "B": "\"Militar\" e \"praça\" são antônimos, e \"emergir\" deveria ser substituído por \"imergir\" para manter a coerência do texto",
+        "C": "\"Censurado\" e \"elogiado\" são sinônimos, assim como \"obediência\" e \"insubordinação\", o que reforça a coerência do texto",
+        "D": "\"Praça\" é hiperônimo de \"militar\", e \"infringir\" deveria ser substituído por \"infligir\" para manter o sentido original",
+        "E": "\"Submarino\" e \"emergência\" mantêm relação de sinonímia direta, justificando o uso conjunto no texto"
       },
-      "gabarito": "B",
-      "explicacao": "'Restringir' significa limitar, reduzir parcialmente. 'Proscrever' significa proibir totalmente, banir, vedar de forma absoluta. A substituição altera a intensidade da medida: de uma limitação parcial para uma proibição total. Não são sinônimos perfeitos — A está errado. C inverte o sentido de 'proscrever' — proibição não é liberação. D é completamente equivocado. E ignora a diferença semântica relevante entre os termos."
+      "gabarito": "A",
+      "explicacao": "O texto reúne dois pares de antônimos bem definidos — \"obediência\"/\"insubordinação\" e \"censurado\"/\"elogiado\" — que reforçam o contraste entre os comportamentos descritos; \"emergir\" foi empregado corretamente no sentido de vir à superfície durante a manobra, e \"infringir\" mantém relação de paronímia com \"infligir\", sendo o primeiro relacionado a descumprir normas e o segundo a impor penalidades, sentidos que não se confundem. A alternativa B erra ao propor antonímia entre \"militar\" e \"praça\", que se aproximam de sentido, e ao sugerir uma troca que inverteria o sentido do texto. A alternativa C trata erroneamente como sinônimos pares que são antônimos. A alternativa D inverte a relação de hiperonímia entre \"praça\" e \"militar\" e propõe uma troca de parônimo que alteraria o sentido original. A alternativa E aproxima indevidamente por sinonímia duas palavras de campos semânticos distintos."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho a seguir.\n\n'O Manual de Redação da Marinha preconiza que o redator oficial deve evitar o uso de termos vagos e imprecisos, optando sempre por vocabulário técnico apropriado ao contexto. A prolixidade e a ambiguidade são vícios a serem combatidos em todo documento oficial.'\n\nA palavra 'preconiza', no contexto, pode ser substituída sem alteração de sentido por:",
+      "textoBase": "O Comando do 4º Distrito Naval divulgou nota informando que o contra-almirante havia elogiado a disciplina da tripulação, em contraste direto com a insubordinação registrada em operação anterior; destacou ainda que a viatura tática, um veículo de uso restrito, fora submetida a testes antes de emergir das águas rasas, sem qualquer infração ao protocolo técnico vigente.",
+      "enunciado": "Considerando as relações lexicais estabelecidas ao longo da nota, assinale a alternativa correta.",
       "alternativas": {
-        "A": "critica",
-        "B": "proíbe expressamente",
-        "C": "recomenda, defende",
-        "D": "questiona",
-        "E": "descreve"
+        "A": "\"Elogiado\" e \"insubordinação\" mantêm relação de sinonímia, pois ambos descrevem o comportamento da tripulação",
+        "B": "\"Viatura tática\" é hipônimo de \"veículo\", e \"emergir\" foi empregado corretamente no sentido de vir à superfície",
+        "C": "\"Disciplina\" e \"infração\" mantêm relação de antonímia direta entre si",
+        "D": "\"Veículo\" é hipônimo de \"viatura tática\" no texto",
+        "E": "\"Emergir\" deveria ser substituído por \"imergir\" para manter a coerência do texto"
       },
-      "gabarito": "C",
-      "explicacao": "'Preconizar' significa recomendar com ênfase, defender, prescrever como ideal. No contexto, o Manual defende e recomenda práticas de boa redação — 'recomenda, defende' é o sinônimo mais adequado. A ('critica') tem sentido oposto — preconizar é indicar positivamente, não criticar. B ('proíbe expressamente') é mais severo e imperativo do que 'preconiza', que sugere orientação. D ('questiona') é contrário à ideia de defesa. E ('descreve') é neutro e não capta o caráter normativo/recomendatório de 'preconizar'."
+      "gabarito": "B",
+      "explicacao": "\"Viatura tática\" é um tipo específico dentro da categoria mais geral \"veículo\", configurando hiponímia, e \"emergir\" foi corretamente empregado no sentido de vir à superfície das águas rasas, coerente com o restante do texto. A alternativa A erra ao tratar como sinônimos termos sem relação de aproximação de sentido direta entre si no trecho. A alternativa C propõe uma antonímia direta entre palavras de campos semânticos diferentes, e a alternativa D inverte a relação correta de hiponímia. A alternativa E proporia uma troca que inverteria o sentido pretendido pelo texto."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Analise o fragmento a seguir.\n\n'O candidato deve ter em mente que negligenciar a preparação para as etapas eliminatórias é temerário.'\n\nA palavra 'temerário', no contexto, possui o sentido de:",
+      "textoBase": "O relatório técnico apontou que o sistema havia recebido um novo comando de atualização remota, e que o comando da base optara por não imergir a tripulação em informações sigilosas, evitando assim qualquer risco de infligir prejuízo à operação caso alguém infringisse as normas de sigilo estabelecidas pelo Comando do 4º Distrito Naval.",
+      "enunciado": "Sobre o emprego lexical no relatório, é correto afirmar que:",
       "alternativas": {
-        "A": "covarde, sem coragem",
-        "B": "arriscado, imprudente",
-        "C": "temível, que causa medo nos outros",
-        "D": "temporário, passageiro",
-        "E": "técnico, especializado"
+        "A": "As ocorrências de \"comando\" configuram homonímia, pois têm origens etimológicas diferentes",
+        "B": "\"Infligir\" e \"infringir\" são sinônimos, podendo ser usados indistintamente no texto",
+        "C": "As ocorrências de \"comando\" configuram polissemia, e \"infligir\"/\"infringir\" mantêm paronímia, com sentidos distintos de impor e descumprir, respectivamente",
+        "D": "\"Imergir\" deveria ser substituído por \"emergir\" para manter a coerência do texto",
+        "E": "\"Tripulação\" é hiperônimo de \"sistema\" no contexto do relatório"
       },
-      "gabarito": "B",
-      "explicacao": "'Temerário' significa arriscado, imprudente, que age ou é feito sem considerar os riscos — no sentido de quem não teme as consequências. No contexto, negligenciar a preparação é imprudente/arriscado. A ('covarde') confunde 'temerário' com 'tímido' ou 'covarde' — erro oposto, pois temerário é precisamente quem age sem medo, com excesso de ousadia imprudente. C ('temível') confunde temerário com 'temido'. D ('temporário') é parônimo aproximado — confunde pela semelhança de forma. E não tem relação."
+      "gabarito": "C",
+      "explicacao": "As ocorrências de \"comando\" mantêm a mesma origem, mas assumem sentidos distintos e relacionados, caracterizando polissemia, enquanto \"infligir\" e \"infringir\" mantêm relação de paronímia, com sentidos diferentes de impor uma penalidade e descumprir uma norma, respectivamente. A alternativa A erra ao exigir origens diferentes para as ocorrências de \"comando\", característica da homonímia, inexistente nesse caso. A alternativa B trata erroneamente como sinônimos dois parônimos com sentidos distintos, e a alternativa D proporia uma troca que inverteria o sentido pretendido pelo texto. A alternativa E propõe uma relação de hiperonímia sem fundamento textual entre os dois termos citados."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Leia o texto:\n\n'O oficial de dia lavrou o auto de infração contra o servidor que descumpriu as normas de segurança. O documento foi encaminhado à chefia para as devidas providências.'\n\nA relação semântica entre 'auto de infração' (primeira frase) e 'documento' (segunda frase) é de:",
+      "textoBase": "O boletim interno destacou que o praça, recém-incorporado à base naval, demonstrou obediência exemplar durante o treinamento, ao contrário do comportamento de insubordinação verificado em recruta de turma anterior, que fora censurado por infringir normas básicas de conduta, em contraste com outro militar elogiado pela disciplina apresentada.",
+      "enunciado": "Quanto às relações lexicais identificadas no boletim, assinale a alternativa correta.",
       "alternativas": {
-        "A": "Sinonímia perfeita: os dois termos têm o mesmo sentido em qualquer contexto.",
-        "B": "Antonímia: 'auto de infração' e 'documento' têm sentidos opostos.",
-        "C": "Hiperonímia/hiponímia: 'documento' é o hiperônimo que retoma 'auto de infração' como hipônimo, funcionando como recurso de coesão textual.",
-        "D": "Polissemia: 'documento' assume o sentido de 'auto de infração' no contexto.",
-        "E": "Paronímia: os termos têm formas semelhantes e sentidos distintos."
+        "A": "\"Praça\" e \"recruta\" mantêm relação de antonímia, pois designam grupos opostos na base",
+        "B": "\"Obediência\"/\"insubordinação\" e \"censurado\"/\"elogiado\" constituem dois pares de antônimos, reforçando o contraste comportamental do texto",
+        "C": "\"Infringir\" deveria ser substituído por \"infligir\" para manter a coerência do texto",
+        "D": "\"Disciplina\" é hipônimo de \"obediência\" no contexto apresentado",
+        "E": "\"Militar\" é hiperônimo de \"praça\" apenas por ser citado por último no texto"
       },
-      "gabarito": "C",
-      "explicacao": "O 'auto de infração' é um tipo específico de documento (hipônimo). Na segunda frase, o autor usa o hiperônimo 'documento' para retomar o 'auto de infração' sem repeti-lo — recurso de coesão por substituição lexical hierárquica. A não é sinonímia, pois 'documento' é mais geral. B é falso — não há oposição. D confunde polissemia com o uso de hiperônimo para referência anafórica. E é falso — as formas são completamente distintas."
+      "gabarito": "B",
+      "explicacao": "O texto constrói dois pares de antônimos bem definidos — \"obediência\"/\"insubordinação\" e \"censurado\"/\"elogiado\" — que reforçam o contraste entre os comportamentos dos militares descritos. A alternativa A erra ao propor antonímia entre \"praça\" e \"recruta\", que na verdade se aproximam de sentido no contexto militar. A alternativa C proporia uma troca de parônimo que alteraria o sentido original de descumprimento de norma. A alternativa D não encontra respaldo textual para uma relação de hiponímia entre \"disciplina\" e \"obediência\", e a alternativa E baseia a hiperonímia apenas na ordem de citação, critério que não define essa relação lexical."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia o fragmento:\n\n'O processo seletivo avaliará os candidatos quanto à sua acuidade visual e auditiva.'\n\nO termo 'acuidade', no contexto, significa:",
+      "textoBase": "O documento técnico mencionou que o submarino deveria emergir lentamente das águas profundas, sem imergir novamente antes da autorização formal, sob risco de o procedimento infligir avarias ao casco, caso a tripulação infringisse os limites de profundidade estabelecidos pelo fabricante do equipamento.",
+      "enunciado": "Avalie as afirmações sobre o texto:\n\nI. \"Emergir\" e \"imergir\" mantêm relação de paronímia com sentidos opostos.\nII. \"Infligir\" e \"infringir\" mantêm relação de paronímia, mas não são sinônimos entre si.\nIII. \"Tripulação\" e \"submarino\" mantêm relação de sinonímia perfeita no texto.\n\nEstão corretas:",
       "alternativas": {
-        "A": "ausência, falta",
-        "B": "agudeza, precisão, capacidade de percepção",
-        "C": "acumulação, quantidade",
-        "D": "aceleração, rapidez",
-        "E": "adequação, conformidade"
+        "A": "Apenas I",
+        "B": "Apenas I e II",
+        "C": "Apenas II e III",
+        "D": "I, II e III",
+        "E": "Apenas III"
       },
       "gabarito": "B",
-      "explicacao": "'Acuidade' (do latim acuitas) significa agudeza, finura de percepção — especialmente nos sentidos como visão e audição. 'Acuidade visual' é a capacidade de enxergar com precisão e nitidez. A ('ausência') seria o oposto. C confunde com 'acumulação' — sem relação semântica. D confunde com 'aceleração' — pode haver confusão pela semelhança fônica parcial. E ('adequação') também é semanticamente distante. 'Acuidade' é termo técnico médico frequente em editais de concursos militares."
+      "explicacao": "A afirmação I está correta, pois \"emergir\" e \"imergir\" são parônimos com sentidos opostos, conforme o contexto do texto. A afirmação II também está correta, já que \"infligir\" e \"infringir\", apesar de parônimas, não são sinônimas: uma indica impor um dano, e a outra, descumprir uma norma. A afirmação III está incorreta, pois \"tripulação\" (grupo de pessoas) e \"submarino\" (embarcação) pertencem a campos semânticos completamente diferentes, não havendo qualquer relação de sinonímia entre elas."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho:\n\n'A legislação em vigor veda expressamente a divulgação de informações sigilosas por qualquer meio. O infrator estará sujeito a sanções administrativas e penais.'\n\nA palavra 'veda', no contexto, pode ser substituída por qual das alternativas sem alteração de sentido e sem alteração do registro formal?",
+      "textoBase": "O Comando do 4º Distrito Naval emitiu nota afirmando que a viatura, um veículo blindado de uso restrito, fora classificada como peça-chave da operação; a chave do sucesso da missão, segundo o documento, estava na disciplina da tripulação, e não na obediência cega às ordens, mas sim na compreensão real dos protocolos de segurança que evitavam qualquer risco de infringir normas técnicas.",
+      "enunciado": "Considerando as múltiplas relações lexicais do texto, assinale a alternativa correta.",
       "alternativas": {
-        "A": "aconselha contra",
-        "B": "proíbe",
-        "C": "desencoraja",
-        "D": "regulamenta",
-        "E": "limita"
+        "A": "As duas ocorrências de \"chave\" configuram polissemia, e \"viatura\"/\"veículo\" mantêm relação de hiponímia/hiperonímia, respectivamente",
+        "B": "\"Disciplina\" e \"obediência\" são antônimos diretos no texto, o que justifica o contraste proposto",
+        "C": "\"Infringir\" deveria ser substituído por \"infligir\" para manter a coerência do trecho final",
+        "D": "As duas ocorrências de \"chave\" configuram homonímia, pois têm origens etimológicas distintas",
+        "E": "\"Veículo\" é hipônimo de \"viatura\" no texto"
       },
-      "gabarito": "B",
-      "explicacao": "'Vedar' no contexto jurídico significa proibir de forma expressa e imperativa. A substituição mais precisa e que mantém o mesmo peso normativo é 'proíbe'. A ('aconselha contra') tem caráter meramente sugestivo — não corresponde à força imperativa de 'veda'. C ('desencoraja') é ainda mais suave. D ('regulamenta') tem sentido diferente — regular não é necessariamente proibir. E ('limita') é mais fraco — 'vedar expressamente' implica proibição total, não mera limitação. O contexto reforça a proibição absoluta ao mencionar 'sanções administrativas e penais'."
+      "gabarito": "A",
+      "explicacao": "As duas ocorrências de \"chave\" mantêm a mesma origem, mas assumem sentidos relacionados e distintos — peça importante e elemento que abre algo —, caracterizando polissemia; já \"viatura\" mantém relação de hiponímia em relação a \"veículo\", termo mais geral, que por sua vez funciona como hiperônimo. A alternativa B erra ao tratar \"disciplina\" e \"obediência\" como antônimos diretos, quando o texto na verdade os aproxima e distingue por grau de sentido, não por oposição. A alternativa C proporia uma troca que alteraria o sentido de descumprimento de norma pretendido pelo texto, e a alternativa D exigiria origens diferentes para a polissemia de \"chave\", o que não corresponde ao caso descrito. A alternativa E inverte a relação correta entre \"veículo\" e \"viatura\"."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
+      "gram-00",
+      "gram-04",
+      "gram-05",
+      "gram-06",
+      "gram-07",
       "gram-01",
+      "gram-02",
       "gram-03",
+      "gram-08",
+      "gram-09",
+      "gram-10",
       "gram-11",
+      "gram-12",
       "gram-13",
       "gram-14",
-      "comp-02",
+      "comp-03",
       "comp-06"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-01",
-        "enunciado": "Leia: 'O investigador flagrou o tráfego ilícito de substâncias entorpecentes na região portuária.' Quanto à ortografia e ao uso lexical do trecho, assinale a alternativa correta.",
+        "topico_referencia": "comp-06",
+        "enunciado": "No trecho \"o navio retornou à base; a embarcação havia cumprido a missão com sucesso, ao contrário da lentidão registrada na operação anterior\", as relações lexicais predominantes são:",
         "alternativas": {
-          "A": "Há erro em 'entorpecentes'; o correto é 'entorpescentes'; 'tráfego' é o termo correto para comércio ilegal.",
-          "B": "A ortografia está correta; porém 'tráfego' deveria ser 'tráfico', pois 'tráfico' designa comércio ilegal.",
-          "C": "A ortografia está correta; 'tráfego' é sinônimo perfeito de 'tráfico' no contexto.",
-          "D": "Há erro em 'flagrou'; o correto é 'flagelou'; 'tráfico' seria o termo correto.",
-          "E": "A ortografia está correta e 'tráfego ilícito' é expressão consagrada para designar comércio ilegal."
+          "A": "Hiperonímia (\"embarcação\"/\"navio\") e antonímia (implícita pelo contraste de desempenho)",
+          "B": "Sinonímia perfeita entre todos os termos destacados",
+          "C": "Homonímia entre \"navio\" e \"embarcação\"",
+          "D": "Paronímia entre \"missão\" e \"lentidão\"",
+          "E": "Hiponímia de \"navio\" em relação a \"missão\""
         },
-        "gabarito": "B",
-        "explicacao": "A ortografia de 'entorpecentes' e 'flagrou' está correta. O problema é lexical: 'tráfego' = circulação de veículos, pessoas ou mercadorias; 'tráfico' = comércio ilegal. Para designar comércio ilegal, o correto é 'tráfico'. A inventa erro ortográfico e mantém o problema lexical. C afirma sinonímia inexistente. D inventa erro ortográfico em 'flagrou' e confunde 'flagar' com 'flagelar'. E normaliza o uso equivocado de 'tráfego' para comércio ilegal."
+        "gabarito": "A",
+        "explicacao": "\"Embarcação\" funciona como hiperônimo de \"navio\", retomando o termo anterior de forma mais geral, e o contraste com a \"lentidão\" da operação anterior sugere uma oposição implícita de desempenho, reforçando a ideia de antonímia contextual. Não há sinonímia perfeita generalizada entre todos os termos, nem identidade de forma que justifique homonímia, e \"missão\"/\"lentidão\" não compartilham semelhança de grafia relevante para paronímia."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-11",
-        "enunciado": "Leia: 'Nenhum dos candidatos aptos compareceu à segunda fase do processo seletivo, o que foi considerado um fenômeno inédito pelos organizadores.' Quanto à concordância verbal e à relação lexical entre 'inédito' e 'corriqueiro', assinale a alternativa correta.",
+        "topico_referencia": "gram-12",
+        "enunciado": "Em \"a tripulação, reunida no convés, aguardava as ordens finais antes da partida\", a concordância verbal está:",
         "alternativas": {
-          "A": "A concordância está correta; 'inédito' e 'corriqueiro' são antônimos.",
-          "B": "A concordância está incorreta; o verbo deveria ser 'compareceram'; 'inédito' e 'corriqueiro' são sinônimos.",
-          "C": "A concordância está correta; 'inédito' e 'corriqueiro' são parônimos.",
-          "D": "A concordância está incorreta; deveria ser 'compareceram'; 'inédito' e 'novato' são sinônimos.",
-          "E": "A concordância está correta; 'inédito' e 'raro' são sinônimos perfeitos em qualquer contexto."
+          "A": "Incorreta, pois \"tripulação\" exige verbo no plural",
+          "B": "Correta, pois o sujeito \"tripulação\" é coletivo e exige verbo no singular",
+          "C": "Incorreta, pois o verbo deveria concordar com \"ordens\"",
+          "D": "Correta apenas por uma exceção rara da norma culta",
+          "E": "Incorreta, pois sujeitos coletivos sempre exigem plural quando há aposto"
         },
-        "gabarito": "A",
-        "explicacao": "Com sujeito 'nenhum dos candidatos' (núcleo = 'nenhum', singular), o verbo concorda no singular: 'compareceu' está correto. 'Inédito' (nunca antes ocorrido, sem precedente) e 'corriqueiro' (comum, banal, frequente) são antônimos — têm sentidos opostos. B erra a concordância e inverte a relação lexical. C inventa paronímia (as formas são distintas). D erra a concordância e propõe sinônimo equivocado ('novato' ≠ 'inédito'). E diz 'sinônimos perfeitos' — 'raro' e 'inédito' têm sentidos próximos mas não idênticos: 'inédito' é o que nunca ocorreu; 'raro' é o que ocorre com pouca frequência."
+        "gabarito": "B",
+        "explicacao": "\"Tripulação\" é um substantivo coletivo no singular e, por isso, exige o verbo no singular, como ocorre em \"aguardava\". Não há exigência de plural para coletivos no singular, o que invalida as alternativas A e E, e o verbo concorda com o sujeito \"tripulação\", não com o termo \"ordens\", que é objeto direto da oração, descartando a alternativa C. Não se trata de exceção rara, mas da regra geral de concordância com coletivos."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-14",
-        "enunciado": "Leia: 'Os termos técnicos não nos devem intimidar; ao contrário, devemos nos apropriar deles para enriquecer nossa comunicação profissional.' Quanto à colocação pronominal e ao sentido de 'apropriar-se', assinale a alternativa correta.",
+        "topico_referencia": "comp-06",
+        "enunciado": "Em \"o sargento determinou obediência imediata; qualquer sinal de insubordinação seria registrado no relatório\", a relação entre os termos destacados é de:",
         "alternativas": {
-          "A": "Ambas as colocações estão incorretas; o sentido de 'apropriar-se' é 'tomar indevidamente'.",
-          "B": "Ambas as colocações estão corretas (próclise com negação 'não'; próclise com 'ao contrário'); 'apropriar-se de' significa dominar, assimilar — sentido válido no contexto.",
-          "C": "A primeira colocação está correta; a segunda está incorreta (deveria ser 'apropriar deles-nos'); 'apropriar-se' é sinônimo de 'temer'.",
-          "D": "Ambas as colocações estão incorretas; o correto seria ênclise em ambos os casos.",
-          "E": "A primeira está correta; a segunda está incorreta; 'apropriar-se' significa 'afastar-se'."
+          "A": "Sinonímia",
+          "B": "Hiperonímia",
+          "C": "Antonímia",
+          "D": "Paronímia",
+          "E": "Homonímia"
         },
-        "gabarito": "B",
-        "explicacao": "'Não nos devem intimidar' — a negação 'não' é atrator de próclise, colocação correta. 'Devemos nos apropriar' — 'ao contrário' não é tecnicamente palavra atrativa na oração principal, mas a próclise em oração com verbo modal ('devemos') é amplamente aceita. 'Apropriar-se de algo' no contexto significa assimilar, dominar, tornar seu — sentido correto. A afirma que ambas as colocações estão incorretas e distorce o sentido. C e E propõem correções desnecessárias e inventam sentidos equivocados. D propõe ênclise sem necessidade."
+        "gabarito": "C",
+        "explicacao": "\"Obediência\" e \"insubordinação\" expressam sentidos diretamente opostos, configurando uma clara relação de antonímia dentro do trecho. Não há aproximação de sentido que justifique sinonímia, nem relação de categoria geral e específica entre os termos, o que descarta hiperonímia. As palavras também não compartilham forma escrita suficiente para configurar paronímia ou homonímia."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-03",
-        "enunciado": "Leia: 'Com referência __ postura ética dos candidatos, o edital faz alusão __ necessidade de integridade em todas as etapas do processo.' Assinale a alternativa que preenche corretamente as lacunas E identifica a relação semântica entre 'postura ética' e 'integridade'.",
+        "topico_referencia": "gram-03",
+        "enunciado": "Assinale a alternativa em que o uso do acento grave (crase) está correto, conforme o contexto naval apresentado.",
         "alternativas": {
-          "A": "à; à; 'postura ética' e 'integridade' são antônimos.",
-          "B": "a (sem crase); à; 'postura ética' é hiperônimo de 'integridade'.",
-          "C": "à; à; 'integridade' é hipônimo de 'postura ética' — um tipo específico de comportamento ético.",
-          "D": "à; a (sem crase); 'postura ética' e 'integridade' são sinônimos perfeitos.",
-          "E": "a (sem crase); a (sem crase); os dois termos são parônimos."
+          "A": "O oficial entregou o relatório à base naval antes do prazo estipulado",
+          "B": "O oficial entregou o relatório a base naval antes do prazo estipulado",
+          "C": "O oficial entregou o relatório à um comandante específico da operação",
+          "D": "O oficial entregou o relatório à eles, que aguardavam na sala de comando",
+          "E": "O oficial entregou o relatório à própria comandante, sem qualquer atraso"
         },
-        "gabarito": "C",
-        "explicacao": "'Com referência à postura' — locução prepositiva + artigo feminino = crase obrigatória. 'Faz alusão à necessidade' — 'alusão a' + artigo feminino = crase obrigatória. 'Integridade' é um dos valores que compõem a 'postura ética' — é, portanto, hipônimo de 'postura ética' (um aspecto específico de um conceito mais amplo). A erra a relação lexical (não são antônimos). B erra a primeira lacuna e inverte a relação hiperônimo/hipônimo. D erra a segunda lacuna e exagera a sinonímia (não são sinônimos perfeitos). E nega ambas as crases corretamente exigidas e inventa paronímia."
+        "gabarito": "A",
+        "explicacao": "A crase em \"à base naval\" está correta porque há a fusão da preposição \"a\" com o artigo feminino \"a\" que precede o substantivo \"base\". A alternativa B erra por omitir o acento exigido nesse contexto. A alternativa C erra porque não se usa crase antes de artigo indefinido (\"um\"). A alternativa D erra porque não se usa crase antes de pronome pessoal (\"eles\"), e a alternativa E, embora pareça plausível, erra ao aplicar crase antes de pronome possessivo feminino sem o devido artigo definido exigido pela norma."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + comp-02",
-        "enunciado": "Leia: 'O relator do processo acatou os fundamentos da defesa e absolveu o réu.' Com base no texto, assinale a alternativa que identifica corretamente um sinônimo de 'acatou' no contexto E uma inferência válida.",
+        "topico_referencia": "comp-06",
+        "enunciado": "Em \"o oficial assumiu o comando da operação; o comando do sistema de navegação, por sua vez, precisava ser atualizado\", as duas ocorrências de \"comando\" exemplificam:",
         "alternativas": {
-          "A": "'Acatou' = ignorou; inferência: o réu era culpado.",
-          "B": "'Acatou' = acolheu, deu procedência a; inferência: os fundamentos da defesa foram considerados válidos.",
-          "C": "'Acatou' = rejeitou; inferência: o réu foi condenado.",
-          "D": "'Acatou' = produziu; inferência: a defesa foi elaborada pelo relator.",
-          "E": "'Acatou' = questionou; inferência: o processo estava em fase recursal."
+          "A": "Homonímia, por terem origens diferentes",
+          "B": "Polissemia, pois é a mesma palavra com sentidos relacionados",
+          "C": "Antonímia, pois os sentidos se opõem",
+          "D": "Paronímia, por pequena diferença de grafia",
+          "E": "Hiperonímia, pois uma ocorrência é categoria da outra"
         },
         "gabarito": "B",
-        "explicacao": "'Acatar' no contexto jurídico significa acolher, aceitar como válido, dar procedência a um argumento. 'Acolheu, deu procedência a' é o sinônimo mais preciso. A inferência lógica necessária: se o relator acolheu os fundamentos da defesa E absolveu o réu, infere-se que os fundamentos foram considerados válidos — B está correto em ambos os aspectos. A inverte o sentido de 'acatou'. C afirma rejeição e condenação — opostos ao que o texto diz. D inventa autoria da defesa. E inverte o sentido e inventa fase recursal."
+        "explicacao": "As duas ocorrências de \"comando\" mantêm a mesma origem e forma, mas assumem sentidos diferentes — função de chefiar e instrução técnica de sistema —, o que caracteriza polissemia. Não há indício de origens distintas que justifique homonímia, nem oposição de sentido que configure antonímia. As palavras também não diferem na grafia, o que descarta paronímia, e não há relação de categoria geral e específica entre as duas ocorrências, o que elimina hiperonímia."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-13",
-        "enunciado": "Leia: 'O candidato anseia pelo resultado do concurso.' Quanto à regência do verbo 'ansiar' e ao sentido de 'anseia' no contexto, assinale a alternativa correta.",
+        "topico_referencia": "gram-08",
+        "enunciado": "Em \"o comandante, após avaliar o relatório, autorizou a operação\", a oração \"após avaliar o relatório\" classifica-se como:",
         "alternativas": {
-          "A": "'Ansiar' exige objeto direto; 'anseia pelo resultado' está incorreto; 'anseia' é sinônimo de 'teme'.",
-          "B": "'Ansiar' exige preposição 'por'; 'anseia pelo resultado' está correto; 'anseia' é sinônimo de 'deseja ardentemente, aguarda com expectativa'.",
-          "C": "'Ansiar' exige preposição 'a'; o correto seria 'anseia ao resultado'; 'anseia' é sinônimo de 'deseja'.",
-          "D": "'Ansiar' exige preposição 'de'; o correto seria 'anseia do resultado'; 'anseia' é sinônimo de 'espera passivamente'.",
-          "E": "'Ansiar' é verbo intransitivo; 'anseia pelo resultado' está incorreto; 'anseia' é sinônimo de 'preocupa-se'."
+          "A": "Oração subordinada substantiva",
+          "B": "Oração subordinada adjetiva",
+          "C": "Oração reduzida de infinitivo com valor adverbial temporal",
+          "D": "Oração coordenada assindética",
+          "E": "Oração principal da período"
         },
-        "gabarito": "B",
-        "explicacao": "'Ansiar' no sentido de 'desejar ardentemente' rege preposição 'por' — objeto indireto. 'Anseia pelo resultado' está corretamente construído. O sinônimo mais preciso é 'deseja ardentemente, aguarda com expectativa' — o anseio implica desejo intenso e expectativa ativa, não mero temor nem espera passiva. A inverte a regência e confunde anseia com temer. C e D propõem preposições incorretas. E nega a transitividade sem razão."
+        "gabarito": "C",
+        "explicacao": "A oração \"após avaliar o relatório\" é uma oração reduzida de infinitivo, introduzida pela preposição \"após\", com valor adverbial temporal, pois indica o momento em que a ação principal ocorre. Não se trata de oração substantiva, pois não exerce função de sujeito, objeto ou complemento de um termo da oração principal, nem de oração adjetiva, já que não qualifica um substantivo. Também não é coordenada, pois depende sintaticamente da oração principal, e não é a oração principal do período, função exercida por \"o comandante autorizou a operação\"."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-11",
-        "enunciado": "Leia: 'A maioria das questões versava sobre sinonímia e antonímia.' A palavra 'versava' no contexto tem como sinônimo mais adequado:",
+        "topico_referencia": "comp-06",
+        "enunciado": "Em \"o sistema havia recebido um novo comando; o comando, satisfeito, autorizou a próxima fase da operação\", a relação lexical entre as duas ocorrências de \"comando\" caracteriza-se por:",
         "alternativas": {
-          "A": "falava em verso",
-          "B": "tratava, abordava",
-          "C": "virava, girava",
-          "D": "se opunha a",
-          "E": "eliminava"
+          "A": "Homonímia, pois há identidade total de forma com origens distintas",
+          "B": "Polissemia, pois é a mesma palavra com sentidos diferentes e relacionados",
+          "C": "Sinonímia, pois ambas se referem exatamente à mesma ideia",
+          "D": "Antonímia, pois indicam ações opostas dentro do sistema",
+          "E": "Hiponímia, pois uma ocorrência é mais específica que a outra"
         },
         "gabarito": "B",
-        "explicacao": "'Versar sobre' significa tratar de, abordar, ter como tema. É a acepção mais comum do verbo 'versar' em contextos formais. A ativa o sentido poético de 'verso' — confusão por polissemia: 'versar' como 'fazer versos' é sentido diferente. C ativa 'versar' como 'virar, derramar' (uso regional/informal). D e E não têm relação com o sentido no contexto. Além disso, a concordância: com 'a maioria das questões' (núcleo singular 'maioria'), o verbo 'versava' (singular) está correto."
+        "explicacao": "As duas ocorrências de \"comando\" mantêm a mesma origem etimológica, mas assumem sentidos diferentes — instrução técnica e função/pessoa que comanda —, o que caracteriza polissemia. A homonímia exigiria origens distintas, o que não é o caso aqui. Não há aproximação total de sentido que justifique sinonímia, nem oposição que configure antonímia, e não há relação clara de categoria geral e específica que justifique hiponímia."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-01",
-        "enunciado": "Leia as frases: (I) 'O militar vai ascender na hierarquia.' (II) 'O militar vai acender a lamparina.' Quanto à ortografia e à relação entre as palavras 'ascender' e 'acender', assinale a alternativa correta.",
+        "topico_referencia": "gram-13",
+        "enunciado": "Em \"o comandante aspira a um cargo de maior responsabilidade na base naval\", a regência do verbo \"aspirar\" está:",
         "alternativas": {
-          "A": "Há erro ortográfico em (I); o correto é 'acender' em ambos os casos — são sinônimos.",
-          "B": "Ambas estão corretas; 'ascender' e 'acender' são homófonos — têm a mesma pronúncia mas grafias e sentidos distintos.",
-          "C": "Há erro ortográfico em (II); o correto é 'ascender' em ambos os casos.",
-          "D": "Ambas estão corretas; 'ascender' e 'acender' são sinônimos perfeitos.",
-          "E": "Há erro em (I); 'ascender' é arcaísmo; o correto contemporâneo é 'ascendar'."
+          "A": "Incorreta, pois \"aspirar\" no sentido de desejar é transitivo direto",
+          "B": "Correta, pois \"aspirar\" no sentido de desejar é transitivo indireto, exigindo a preposição \"a\"",
+          "C": "Incorreta, pois deveria haver crase obrigatória antes de \"um cargo\"",
+          "D": "Correta apenas se \"aspirar\" tiver sentido de respirar",
+          "E": "Incorreta, pois \"aspirar\" não admite complemento preposicionado"
         },
         "gabarito": "B",
-        "explicacao": "As duas frases estão ortograficamente corretas. 'Ascender' (subir, elevar-se, progredir — do latim ascendere) e 'acender' (iluminar, atear fogo, ligar — do latim accendere) são homófonos: têm pronúncia idêntica em português brasileiro, mas grafias e sentidos completamente distintos. São, portanto, homófonos (e não sinônimos, como A e D afirmam equivocadamente). C inverte a situação. E inventa arcaísmo e forma inexistente."
+        "explicacao": "No sentido de \"desejar\", o verbo \"aspirar\" é transitivo indireto e exige a preposição \"a\", como em \"aspira a um cargo\", o que torna a frase correta. A alternativa A erra ao classificar o verbo como transitivo direto nesse sentido. A alternativa C erra ao exigir crase antes de \"um cargo\", já que não há artigo definido feminino nesse trecho, apenas artigo indefinido masculino. A alternativa D inverte os sentidos do verbo, pois \"aspirar\" no sentido de respirar é transitivo direto, e não indireto. A alternativa E nega indevidamente a regência preposicionada, que é exatamente a forma correta nesse contexto."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-14",
-        "enunciado": "Leia: 'Não me arrependo das decisões que tomei naquele processo.' A colocação pronominal está correta. 'Arrepender-se' é verbo que exige preposição 'de'. Qual das alternativas apresenta um sinônimo de 'arrepender-se' que mantém a mesma regência preposicional?",
+        "topico_referencia": "comp-06",
+        "enunciado": "Em \"o documento elogiou a rapidez da tripulação, em contraste com a lentidão da operação anterior\", a relação entre \"rapidez\" e \"lentidão\" é de:",
         "alternativas": {
-          "A": "lamentar (lamento de)",
-          "B": "deplorar (deploro de)",
-          "C": "pesar (pesar de — no sentido de 'pesar-se')",
-          "D": "penitenciar-se (penitenciar-se de)",
-          "E": "recriminar (recrimino de)"
+          "A": "Sinonímia",
+          "B": "Hiperonímia",
+          "C": "Antonímia",
+          "D": "Paronímia",
+          "E": "Homonímia"
         },
-        "gabarito": "D",
-        "explicacao": "'Arrepender-se de' (ter arrependimento por algo) tem como sinônimo contextual mais preciso 'penitenciar-se de' — ambos indicam sentimento de culpa ou pesar por algo feito, com a mesma estrutura preposicional. A ('lamentar') geralmente rege objeto direto (lamento algo), não preposição 'de'. B ('deplorar') também rege objeto direto. C ('pesar de') no sentido proposto não é uso padrão do verbo 'pesar'. E ('recriminar') rege objeto direto de pessoa (recriminar alguém), não a mesma estrutura. Além disso, a colocação 'não me arrependo' está correta — negação 'não' é atrator de próclise."
+        "gabarito": "C",
+        "explicacao": "\"Rapidez\" e \"lentidão\" expressam sentidos diretamente opostos, configurando uma relação de antonímia explorada pelo contraste proposto no texto. Não há aproximação de sentido que justifique sinonímia, nem relação de categoria geral e específica que configure hiperonímia. As palavras também não compartilham forma escrita relevante para caracterizar paronímia ou homonímia."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + comp-02",
-        "enunciado": "Leia o trecho: 'O edital é lacônico quanto às condições de aproveitamento de candidatos com deficiência.' Qual é o sentido de 'lacônico' no contexto e qual inferência pode ser feita com base nessa informação?",
+        "topico_referencia": "gram-02",
+        "enunciado": "Assinale a alternativa em que todas as palavras seguem corretamente a regra de acentuação das paroxítonas terminadas em ditongo.",
         "alternativas": {
-          "A": "'Lacônico' = detalhado; inferência: as condições são claras para todos os candidatos.",
-          "B": "'Lacônico' = omisso, excessivamente breve, que diz pouco; inferência: as condições de aproveitamento podem gerar dúvidas ou não estão suficientemente esclarecidas.",
-          "C": "'Lacônico' = rigoroso; inferência: as condições são muito exigentes.",
-          "D": "'Lacônico' = ilegível; inferência: o edital está mal redigido.",
-          "E": "'Lacônico' = contraditório; inferência: haverá recursos contra o edital."
+          "A": "História, série, área",
+          "B": "Sargento, recruta, base",
+          "C": "Comandante, oficial, marinha",
+          "D": "Submarino, embarcação, operação",
+          "E": "Distrito, naval, base"
         },
-        "gabarito": "B",
-        "explicacao": "'Lacônico' significa breve ao extremo, que usa poucas palavras, que diz pouco sobre o assunto. No contexto, o edital trata superficialmente das condições de aproveitamento de candidatos com deficiência. A inferência lógica: se o edital é lacônico (pouco claro/detalhado) sobre essas condições, elas podem gerar dúvidas e não estão suficientemente esclarecidas — B está correto. A inverte o sentido de 'lacônico'. C ('rigoroso') é sentido completamente distinto. D ('ilegível') também não corresponde. E ('contraditório') é outro sentido não relacionado."
+        "gabarito": "A",
+        "explicacao": "\"História\", \"série\" e \"área\" são palavras paroxítonas terminadas em ditongo crescente, o que exige acentuação gráfica conforme a norma vigente. As demais alternativas reúnem palavras que não se encaixam nessa regra específica, seja por não serem paroxítonas terminadas em ditongo, seja por não exigirem acento gráfico nesse padrão."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-03",
-        "enunciado": "Leia o fragmento: 'A banca foi implacável __ posição do candidato e manteve o gabarito original.' Assinale a alternativa que preenche corretamente a lacuna E explica o sentido de 'implacável' com o sinônimo adequado.",
+        "topico_referencia": "comp-06",
+        "enunciado": "Em \"o submarino deveria emergir lentamente, sem imergir novamente antes da ordem do comando\", a relação entre \"emergir\" e \"imergir\" é de:",
         "alternativas": {
-          "A": "à; 'implacável' = favorável, solidário.",
-          "B": "com a; 'implacável' = inflexível, que não cede.",
-          "C": "à; 'implacável' = inflexível, que não cede.",
-          "D": "para a; 'implacável' = rigoroso mas justo.",
-          "E": "com a; 'implacável' = imparcial, neutro."
+          "A": "Sinonímia perfeita",
+          "B": "Paronímia com sentidos opostos",
+          "C": "Homonímia",
+          "D": "Hiperonímia",
+          "E": "Antonímia direta sem semelhança de forma"
         },
         "gabarito": "B",
-        "explicacao": "'Ser implacável com alguém' — a regência correta é com a preposição 'com' (implacável com algo/alguém), não com 'a'. 'Implacável' significa inflexível, que não cede, que não tem misericórdia ou condescendência. 'Inflexível, que não cede' é o sinônimo mais preciso. A usa preposição errada ('à') e inverte o sentido. C usa preposição errada ('à'), embora o sentido esteja correto. D usa preposição possível mas menos precisa para esse adjetivo. E usa preposição correta mas sentido equivocado ('implacável' não é neutro — é o oposto da neutralidade)."
+        "explicacao": "\"Emergir\" e \"imergir\" são parônimos — palavras semelhantes na grafia e no som, mas com sentidos diferentes (vir à superfície e afundar, respectivamente), o que no contexto cria também uma oposição de sentido. A alternativa A erra ao tratá-las como sinônimas perfeitas, quando na verdade têm sentidos opostos. Não há identidade total de forma que justifique homonímia, nem relação de categoria geral e específica que configure hiperonímia. A alternativa E ignora a semelhança de forma evidente entre as duas palavras, que é justamente a marca da paronímia."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-11",
-        "enunciado": "Leia: 'Todos os candidatos que se inscreveram até a data limite eram aptos a participar da seleção.' Qual das alternativas identifica corretamente a concordância E aponta um HIPÔNIMO de 'candidatos' que se encaixaria no contexto?",
+        "topico_referencia": "gram-14",
+        "enunciado": "Em \"o comandante avisou-me sobre a mudança de horário da operação\", a colocação pronominal está:",
         "alternativas": {
-          "A": "Concordância correta; 'candidatos' tem como hipônimo 'pessoas' — mais específico.",
-          "B": "Concordância incorreta; o verbo deveria ser 'era'; hipônimo válido: 'inscritos'.",
-          "C": "Concordância correta; 'candidatos' tem como hipônimo 'inscritos dentro do prazo' — mais específico que o termo original.",
-          "D": "Concordância correta; 'candidatos' tem como hiperônimo 'inscritos'.",
-          "E": "Concordância incorreta; 'eram aptos' deveria ser 'era apta'; hipônimo: 'aprovados'."
+          "A": "Incorreta, pois deveria haver próclise obrigatória",
+          "B": "Correta, pois não há na frase nenhum fator que exija próclise, permitindo a ênclise",
+          "C": "Incorreta, pois o pronome deveria estar mesoclítico",
+          "D": "Correta apenas em registros informais de linguagem",
+          "E": "Incorreta, pois verbos no pretérito perfeito nunca admitem ênclise"
         },
-        "gabarito": "C",
-        "explicacao": "O sujeito 'todos os candidatos que se inscreveram até a data limite' é plural — 'eram aptos' concorda corretamente. 'Inscritos dentro do prazo' é hipônimo de 'candidatos': nem todo candidato se inscreveu no prazo, mas quem se inscreveu no prazo é um tipo específico de candidato. A propõe 'pessoas' como hipônimo — mas 'pessoas' é hiperônimo de candidatos, não hipônimo. B erra a concordância. D inverte a relação (inscritos é hipônimo, não hiperônimo). E erra a concordância e propõe 'aprovados' como hipônimo — mas o texto fala em aptidão para participar, não em aprovação."
+        "gabarito": "B",
+        "explicacao": "Como a frase não apresenta nenhuma palavra atrativa que exija próclise (como advérbios, pronomes relativos ou conjunções subordinativas no início da oração), a ênclise em \"avisou-me\" está de acordo com a norma padrão. A alternativa A erra ao exigir próclise sem justificativa estrutural. A alternativa C erra ao propor mesóclise, que exige verbo no futuro, situação inexistente nesse caso. A alternativa D restringe indevidamente o uso a registros informais, quando na verdade é a forma padrão recomendada. A alternativa E nega incorretamente a possibilidade de ênclise com o pretérito perfeito, que é plenamente compatível com essa colocação pronominal."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-13",
-        "enunciado": "Leia: 'O oficial obedeceu às ordens superiores sem questionar.' Quanto à regência do verbo 'obedecer' e ao sentido de 'questionar' no contexto, assinale a alternativa correta.",
+        "topico_referencia": "comp-06",
+        "enunciado": "Em \"a base naval foi descrita como um organismo complexo, em que cada setor funciona como um órgão indispensável\", a relação entre \"organismo\" e \"órgão\", no sentido figurado proposto, é de:",
         "alternativas": {
-          "A": "'Obedecer' exige objeto direto; 'obedeceu às ordens' está incorreto; 'questionar' é sinônimo de 'perguntar sobre algo banal'.",
-          "B": "'Obedecer' exige objeto indireto com 'a'; 'obedeceu às ordens' está correto; 'questionar' no contexto significa contestar, colocar em dúvida.",
-          "C": "'Obedecer' exige preposição 'de'; o correto seria 'obedeceu das ordens'; 'questionar' significa investigar.",
-          "D": "'Obedecer' é verbo intransitivo; 'obedeceu às ordens' está incorreto; 'questionar' significa aceitar.",
-          "E": "'Obedecer' exige objeto indireto com 'a'; está correto; 'questionar' é sinônimo perfeito de 'perguntar'."
+          "A": "Sinonímia exata",
+          "B": "Hiperonímia/hiponímia, mesmo em sentido figurado",
+          "C": "Antonímia",
+          "D": "Homonímia",
+          "E": "Paronímia"
         },
         "gabarito": "B",
-        "explicacao": "'Obedecer' rege objeto indireto com preposição 'a' — 'obedeceu às ordens' está correto. 'Questionar' no contexto ('sem questionar') significa contestar, colocar em dúvida, pôr em xeque — sentido mais forte e crítico do que simplesmente 'perguntar'. O militar obedeceu sem contestar. A propõe regência errada e reduz o sentido de 'questionar'. C inventa preposição 'de'. D nega a transitividade. E acerta a regência mas reduz 'questionar' a 'perguntar', perdendo o sentido de contestação que o contexto exige."
+        "explicacao": "Mesmo em sentido figurado, \"organismo\" representa o todo (categoria geral) e \"órgão\" representa a parte específica desse todo, reproduzindo a lógica de hiperonímia e hiponímia. Não há sentido idêntico que justifique sinonímia exata, nem oposição de sentido que configure antonímia. As palavras também não compartilham forma escrita suficiente para caracterizar homonímia ou paronímia."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + comp-02",
-        "enunciado": "Leia o texto: 'O candidato obteve nota exígua na prova discursiva, comprometendo sua classificação geral.' Qual é o sentido de 'exígua' e que informação pode ser INFERIDA com base na frase?",
+        "topico_referencia": "gram-11",
+        "enunciado": "Em \"os documentos, anexo à solicitação, foram entregues ao comando\", a concordância do termo \"anexo\" está:",
         "alternativas": {
-          "A": "'Exígua' = elevada; infere-se que o candidato foi bem classificado.",
-          "B": "'Exígua' = muito baixa, insuficiente; infere-se que a nota prejudicou a posição do candidato na classificação.",
-          "C": "'Exígua' = exigida, mínima para aprovação; infere-se que o candidato foi aprovado por margem mínima.",
-          "D": "'Exígua' = exata, precisa; infere-se que a nota foi calculada corretamente.",
-          "E": "'Exígua' = excessiva; infere-se que houve erro de correção."
+          "A": "Correta, pois \"anexo\" é invariável quando usado como adjetivo",
+          "B": "Incorreta, pois \"anexo\", como adjetivo, deve concordar em gênero e número com \"documentos\", exigindo a forma \"anexos\"",
+          "C": "Correta, pois \"anexo\" concorda apenas com \"solicitação\"",
+          "D": "Incorreta, pois \"anexo\" deveria estar no feminino singular",
+          "E": "Correta apenas em textos jurídicos formais"
         },
         "gabarito": "B",
-        "explicacao": "'Exíguo/a' significa escasso, muito pequeno, insuficiente. 'Nota exígua' = nota muito baixa. A inferência lógica necessária: se a nota foi muito baixa, ela comprometeu a classificação geral — o texto inclusive confirma isso com 'comprometendo sua classificação'. B está correto em ambos os aspectos. A inverte o sentido. C confunde 'exígua' com 'exigida' — parônimo aproximado. D inventa sentido de precisão. E inverte o sentido para 'excessiva'."
+        "explicacao": "Quando empregado como adjetivo, \"anexo\" deve concordar em gênero e número com o substantivo a que se refere; como \"documentos\" está no masculino plural, a forma correta seria \"anexos\", tornando a frase original incorreta. A alternativa A erra ao considerar \"anexo\" invariável nessa função adjetiva. A alternativa C erra ao buscar concordância com \"solicitação\", termo que não é o núcleo a ser concordado nesse caso. A alternativa D propõe uma flexão incompatível com o gênero do substantivo principal, e a alternativa E restringe indevidamente a regra a um tipo específico de texto, quando na verdade ela vale para a norma padrão em geral."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "comp-06 + gram-01 + gram-03",
-        "enunciado": "Leia: 'Refiro-me especificamente __ conduta ímproba do servidor, que infringiu as normas ao invés de as cumprir.' Identifique: (1) o preenchimento correto da lacuna com ou sem crase; (2) o parônimo incorretamente usado; (3) o sentido correto do parônimo que deveria ser usado.",
+        "topico_referencia": "comp-06",
+        "enunciado": "Em \"o boletim afirmava que o oficial seria censurado, e não elogiado, por permitir que a viatura, um veículo de uso restrito, infringisse o protocolo de segurança\", assinale a alternativa que analisa corretamente as relações lexicais do trecho.",
         "alternativas": {
-          "A": "à; 'infringiu' está incorreto; deveria ser 'infligiu' (aplicou punição).",
-          "B": "à; não há parônimo incorreto; 'infringiu' é correto no contexto de transgredir normas.",
-          "C": "a (sem crase); 'ímproba' está incorreto; o correto é 'ímpia'.",
-          "D": "à; 'ímproba' está incorreto; deveria ser 'ínfima' (pequena).",
-          "E": "a (sem crase); 'infringiu' está incorreto; deveria ser 'infligiu'."
+          "A": "\"Censurado\" e \"elogiado\" são antônimos, e \"viatura\" é hipônimo de \"veículo\"",
+          "B": "\"Censurado\" e \"elogiado\" são sinônimos, e \"veículo\" é hipônimo de \"viatura\"",
+          "C": "\"Viatura\" e \"veículo\" são antônimos, e \"censurado\"/\"elogiado\" mantêm paronímia",
+          "D": "\"Infringisse\" deveria ser substituído por \"infligisse\" para manter a coerência do trecho",
+          "E": "\"Censurado\" e \"viatura\" mantêm relação de hiperonímia"
         },
-        "gabarito": "B",
-        "explicacao": "(1) 'Referir-se a' + artigo feminino 'a' = crase obrigatória: 'à conduta'. (2) e (3) 'Infringir' significa transgredir, violar normas — uso completamente correto no contexto 'infringiu as normas'. Não há parônimo incorreto: 'infringir' (violar) é o termo certo; seria problema se estivesse 'infligiu' (aplicou castigo). A afirma incorretamente que 'infringiu' está errado. C nega a crase necessária e inventa problema com 'ímproba' (conduta ímproba = desonesta, termo jurídico correto). D nega a crase corretamente exigida e inventa problema com 'ímproba'. E nega a crase e repete o erro de A."
+        "gabarito": "A",
+        "explicacao": "\"Censurado\" e \"elogiado\" formam um par de antônimos coerente com o contraste proposto pelo boletim, e \"viatura\" mantém relação de hiponímia em relação a \"veículo\", termo mais geral que funciona como hiperônimo. A alternativa B inverte essa relação de hiponímia e trata erroneamente os antônimos como sinônimos. A alternativa C erra ao propor antonímia entre \"viatura\" e \"veículo\", que estão em relação de inclusão, e ao apontar paronímia entre palavras sem semelhança de grafia relevante. A alternativa D proporia uma troca de parônimo que alteraria o sentido de descumprimento de norma pretendido pelo texto, e a alternativa E propõe uma relação de hiperonímia sem fundamento entre os termos citados."
       }
     ]
   }

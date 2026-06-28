@@ -2,185 +2,216 @@
   "id": "comp-10",
   "titulo": "Reescritura de Frases",
   "area": "Compreensão e Interpretação de Texto",
-  "resumo": "A reescritura de frases consiste em reformular enunciados preservando o sentido original, aplicando transformações sintáticas e morfológicas como mudança de voz verbal, substituição de termos, alteração de estrutura oracional e uso de equivalentes lexicais. É tópico recorrente em provas militares e exige domínio integrado de sintaxe, morfologia, semântica e estilística.",
+  "resumo": "Reescrever frases é transformar um texto sem alterar seu sentido original — como traduzir uma mensagem de um idioma para outro, mantendo a ideia intacta. Na prova CEBRASPE, essa habilidade é testada com frequência: a banca apresenta uma frase do texto e pede para julgar se a versão reescrita preserva o sentido. Neste tópico, você vai aprender a identificar o que muda (estrutura, vocabulário, voz verbal, conectivos) e o que não pode mudar (o significado). Dominar essa técnica é essencial para gabaritar questões que parecem fáceis, mas escondem armadilhas sutis de sentido.",
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Conceito e Finalidade da Reescritura",
-        "conteudo": "Reescrever uma frase significa reformulá-la de modo que o conteúdo proposicional — o conjunto de informações que ela veicula — seja preservado, ainda que a forma seja alterada. A transformação pode envolver mudança de voz verbal (ativa para passiva ou vice-versa), substituição de orações subordinadas por locuções equivalentes, troca de classes gramaticais (nominalização ou verbalização), inversão de ordem dos termos, substituição de conjunções por outras de valor semântico equivalente, ou emprego de sinônimos e paráfrases. Em provas de concurso, a reescritura é avaliada com duas exigências simultâneas: (a) manutenção fiel do sentido e (b) correção gramatical da nova formulação. Falhar em qualquer um dos dois critérios invalida a alternativa.",
+        "subtitulo": "1. O que é reescrever sem mudar o sentido?",
+        "conteudo": "Imagine que você recebe uma ordem do seu superior: 'O sargento entregou o relatório ao contra-almirante.' Você precisa passar essa mensagem para outro colega, mas usando palavras diferentes. Se você disser 'O relatório foi entregue pelo sargento ao contra-almirante', a mensagem é a mesma — apenas a roupagem mudou.\n\nIsso é reescritura: mudar a forma sem mudar o conteúdo. Você pode trocar palavras por sinônimos, mudar a ordem das ideias, transformar a voz ativa em passiva, substituir um conectivo por outro equivalente — desde que o sentido final permaneça idêntico.\n\nA grande regra é: o leitor da frase reescrita deve entender exatamente a mesma coisa que o leitor da frase original. Qualquer ganho ou perda de informação, qualquer mudança de quem fez o quê ou de como as ideias se relacionam, significa que a reescritura está errada.\n\nO erro mais comum é aceitar uma reescritura que 'parece certa' mas que sutil e silenciosamente altera a relação entre as ideias — por exemplo, transformando uma causa em consequência, ou uma certeza em hipótese.",
+        "regra": "Reescritura correta = mesma informação, forma diferente · Qualquer mudança de sentido = erro",
         "exemplos": [
-          "Original: 'O comandante assinou o relatório.' → Reescrita (voz passiva): 'O relatório foi assinado pelo comandante.'",
-          "Original: 'Embora estivesse cansado, o oficial concluiu a missão.' → Reescrita (locução): 'Apesar do cansaço, o oficial concluiu a missão.'",
-          "Original: 'A decisão foi tomada rapidamente.' → Reescrita (nominalização): 'A rapidez na tomada de decisão foi notável.'"
-        ],
-        "regra": "Toda reescritura válida deve preservar: (1) as informações factuais do enunciado; (2) a polaridade (afirmação/negação); (3) a modalidade (certeza, dúvida, obrigação). Qualquer alteração nesses três eixos invalida a reescrita."
+          {
+            "texto_base": "O Comando do 4° Distrito Naval determinou que todos os oficiais participassem do exercício, o que garantiu a eficiência da operação.",
+            "anotacoes": [
+              {
+                "trecho": "determinou que todos os oficiais participassem",
+                "destaque": "voz ativa → mantida",
+                "motivo": "Sujeito (Comando) pratica a ação — estrutura ativa preservada na reescritura"
+              },
+              {
+                "trecho": "o que garantiu a eficiência",
+                "destaque": "consequência explícita",
+                "motivo": "A participação causou a eficiência — trocar por 'embora garantisse' mudaria o sentido para concessão"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "2. Transformação de Voz Verbal",
-        "conteudo": "A transformação entre voz ativa e voz passiva é a operação de reescritura mais cobrada em provas militares. Na passagem da voz ativa para a passiva analítica, o objeto direto da ativa torna-se sujeito da passiva; o sujeito da ativa migra para agente da passiva (introduzido por 'por', 'pelo', 'pela', 'pelos', 'pelas'); o verbo transitivo direto combina-se com o auxiliar 'ser' (ou 'estar', 'ficar', 'ir', 'vir') conjugado no mesmo tempo e modo do verbo ativo, enquanto o verbo principal passa ao particípio. Atenção: nem todo verbo admite passiva (intransitivos e alguns transitivos indiretos não formam passiva analítica). A voz passiva sintética usa pronome 'se' apassivador com o verbo concordando com o sujeito-paciente. A passagem da passiva para a ativa exige a operação inversa e deve preservar o tempo verbal.",
+        "subtitulo": "2. Voz ativa e voz passiva — como trocar sem errar",
+        "conteudo": "Pense em uma fotografia e seu negativo: a imagem é a mesma, mas o que estava claro fica escuro e vice-versa. A transformação de voz ativa em passiva funciona assim — o sujeito e o objeto trocam de posição, mas a ação e seus participantes continuam os mesmos.\n\nNa voz ativa, o sujeito pratica a ação: 'O oficial assinou o documento.' Na voz passiva analítica, o sujeito recebe a ação: 'O documento foi assinado pelo oficial.' Note que o 'pelo oficial' (agente da passiva) preserva a informação de quem praticou a ação.\n\nA fórmula da transformação é: sujeito da ativa vira agente da passiva (com 'por/pelo/pela'); objeto direto da ativa vira sujeito da passiva; o verbo vai para 'ser + particípio' no mesmo tempo verbal.\n\nO erro mais frequente é esquecer o agente da passiva ou criar um agente diferente do sujeito original — isso muda completamente quem é responsável pela ação.",
+        "regra": "Ativa: sujeito age · Passiva: sujeito recebe · Agente da passiva = sujeito original com 'por'",
         "exemplos": [
-          "Ativa: 'A Marinha construiu o navio.' → Passiva analítica: 'O navio foi construído pela Marinha.'",
-          "Ativa: 'O tribunal julgará os réus amanhã.' → Passiva analítica: 'Os réus serão julgados pelo tribunal amanhã.'",
-          "Ativa: 'Alguém vendeu as armas.' → Passiva sintética: 'Venderam-se as armas.' / 'As armas foram vendidas.'",
-          "Passiva: 'O projeto foi aprovado pela comissão.' → Ativa: 'A comissão aprovou o projeto.'"
-        ],
-        "regra": "Na transformação ativa→passiva: sujeito ativo vira 'pelo/pela + agente'; objeto direto vira sujeito; verbo = auxiliar (ser/estar) no mesmo tempo + particípio do verbo principal. Verifique sempre a concordância do particípio com o novo sujeito."
+          {
+            "texto_base": "A Comissão de Seleção avaliou os candidatos durante três dias. Os candidatos foram avaliados pela Comissão de Seleção durante três dias.",
+            "anotacoes": [
+              {
+                "trecho": "avaliou os candidatos",
+                "destaque": "voz ativa",
+                "motivo": "Comissão (sujeito) pratica a ação de avaliar sobre os candidatos (objeto direto)"
+              },
+              {
+                "trecho": "foram avaliados pela Comissão de Seleção",
+                "destaque": "passiva analítica",
+                "motivo": "Candidatos viram sujeito; Comissão vira agente da passiva com 'pela' — sentido preservado"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "3. Substituição de Orações por Locuções Equivalentes",
-        "conteudo": "Orações subordinadas adverbiais podem ser substituídas por locuções prepositivas que expressem a mesma relação semântica, e vice-versa. Essa operação é chamada de redução oracional ou expansão oracional. As correspondências mais cobradas em provas são: causal ('porque' / 'pois' ↔ 'por causa de', 'em virtude de', 'devido a'); concessiva ('embora', 'ainda que' ↔ 'apesar de', 'a despeito de'); final ('para que', 'a fim de que' ↔ 'para', 'a fim de', 'com o intuito de'); temporal ('quando', 'enquanto' ↔ 'ao', 'durante', 'no momento de'); condicional ('se' ↔ 'em caso de', 'no caso de'); consecutiva ('de modo que' ↔ 'a ponto de'). Na substituição por locução, o verbo da oração subordinada converte-se em substantivo (nominalização) ou infinitivo. O sujeito da oração subordinada pode desaparecer se for correferente com o da principal; se for diferente, exige estrutura específica (ex.: 'Apesar de ele ter chegado tarde...').",
+        "subtitulo": "3. Substituição de conectivos — a armadilha das conjunções",
+        "conteudo": "Imagine que você está construindo uma ponte entre duas ilhas. O tipo de ponte que você usa muda a relação entre as ilhas. Os conectivos funcionam assim — eles estabelecem a relação lógica entre as ideias, e trocar um conectivo por outro de função diferente destrói essa relação.\n\nAs principais relações que os conectivos expressam são: causa ('porque', 'pois', 'visto que'), consequência ('logo', 'portanto', 'de modo que'), concessão ('embora', 'ainda que', 'mesmo que'), condição ('se', 'caso', 'desde que'), adição ('e', 'além disso', 'também') e oposição ('mas', 'porém', 'contudo').\n\nNa reescritura, você pode substituir um conectivo por outro DA MESMA FAMÍLIA sem alterar o sentido. Mas se trocar um de causa por um de consequência, ou um de concessão por um de condição, o sentido muda radicalmente.\n\nO erro mais comum é trocar 'embora' (concessão) por 'se' (condição), ou 'porque' (causa) por 'portanto' (consequência) — pares que parecem relacionados mas invertem a lógica.",
+        "regra": "Troque conectivo só por outro da mesma família · Causa ≠ Consequência · Concessão ≠ Condição",
         "exemplos": [
-          "'Como chegou atrasado, não entrou.' → 'Por ter chegado atrasado, não entrou.' / 'Devido ao atraso, não entrou.'",
-          "'Embora estivesse doente, compareceu.' → 'Apesar de estar doente, compareceu.' / 'A despeito da doença, compareceu.'",
-          "'Estudou muito para que passasse na prova.' → 'Estudou muito a fim de passar na prova.'",
-          "'Se houver necessidade, retornaremos.' → 'Em caso de necessidade, retornaremos.'"
-        ],
-        "regra": "Ao substituir oração por locução: converta o verbo em substantivo ou infinitivo; elimine conjunção; use a preposição correspondente à relação semântica; confira se o sujeito é o mesmo da oração principal (se for, omita-o; se for diferente, mantenha-o na forma adequada)."
+          {
+            "texto_base": "Embora o recruta tivesse chegado atrasado, foi aprovado na seleção porque demonstrou habilidade técnica superior.",
+            "anotacoes": [
+              {
+                "trecho": "Embora",
+                "destaque": "concessão",
+                "motivo": "Admite fato adverso (atraso) sem impedir o resultado — pode ser trocado por 'ainda que' ou 'mesmo que'"
+              },
+              {
+                "trecho": "porque",
+                "destaque": "causa",
+                "motivo": "Indica o motivo da aprovação — pode ser trocado por 'pois' ou 'visto que', nunca por 'portanto'"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "4. Substituição de Termos e Equivalência Semântica",
-        "conteudo": "A reescritura por substituição lexical exige que o termo empregado mantenha não apenas o significado central (sema nuclear) mas também a conotação e o valor sintático no contexto. Em provas militares, os erros mais comuns nesse tipo de reescritura são: (a) usar sinônimo de sentido próximo mas não idêntico no contexto dado; (b) alterar a classe gramatical sem ajustar a estrutura da frase; (c) usar pronome relativo inadequado ao antecedente; (d) trocar conectivo por outro de valor semântico diferente. A substituição de 'cujo/cuja' por 'que' ou 'do qual/da qual' exige atenção especial à regência. A substituição de advérbios ('rapidamente' → 'com rapidez') e de adjetivos ('veloz' → 'de grande velocidade') são transformações frequentes que testam o domínio das classes de palavras.",
+        "subtitulo": "4. Substituição de palavras — sinônimos e armadilhas",
+        "conteudo": "Um sinônimo perfeito é como uma chave reserva: abre a mesma porta. Mas na prática, poucos sinônimos são 100% intercambiáveis — eles carregam nuances de intensidade, formalidade ou contexto que podem alterar o sentido da frase.\n\nPor exemplo, 'morreu' e 'faleceu' são sinônimos gerais, mas em certos contextos 'faleceu' é mais formal. 'Grande' e 'enorme' indicam tamanho, mas 'enorme' intensifica — substituir um pelo outro pode exagerar ou atenuar o sentido original.\n\nNa reescritura, a substituição de palavras é válida quando: o sinônimo tem o mesmo significado no contexto específico da frase, a carga semântica (positiva, negativa, neutra) é equivalente, e a intensidade (forte/fraca) é compatível.\n\nO erro mais frequente em prova é aceitar um sinônimo parcial que muda a intensidade ou o campo semântico — por exemplo, trocar 'eficiente' (que cumpre bem) por 'eficaz' (que produz o efeito) em contextos onde a diferença importa.",
+        "regra": "Sinônimo válido = mesmo sentido + mesma intensidade + mesmo campo semântico no contexto",
         "exemplos": [
-          "'O oficial, cuja missão era secreta, partiu.' → 'O oficial, cuja missão era sigilosa, partiu.' (sinonímia válida)",
-          "'O aluno que tirou nota máxima ganhou o prêmio.' → 'O aluno que obteve a pontuação máxima ganhou o prêmio.'",
-          "'Ele agiu com imprudência.' → 'Ele agiu imprudentemente.' (mudança de classe com ajuste estrutural correto)",
-          "'O navio chegou rapidamente.' → 'O navio chegou com rapidez.' (adjunto adverbial mantido)"
-        ],
-        "regra": "Ao substituir termos: verifique (1) sinonímia contextual (não apenas dicionarizada); (2) manutenção da classe gramatical ou ajuste estrutural correspondente; (3) concordância e regência com os demais termos da frase."
+          {
+            "texto_base": "O contra-almirante expediu uma portaria rigorosa determinando que os procedimentos fossem cumpridos com exatidão.",
+            "anotacoes": [
+              {
+                "trecho": "expediu",
+                "destaque": "sinônimo: emitiu",
+                "motivo": "'Expediu' pode ser substituído por 'emitiu' ou 'publicou' sem perda de sentido no contexto de documentos oficiais"
+              },
+              {
+                "trecho": "rigorosa",
+                "destaque": "intensidade: cuidado",
+                "motivo": "Trocar por 'severa' preserva o sentido; trocar por 'simples' ou 'breve' muda completamente o tom do documento"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "5. Nominalização, Verbalização e Adjetivação",
-        "conteudo": "A transformação morfossintática entre classes de palavras — nominalização (verbo ou adjetivo → substantivo), verbalização (substantivo → verbo) e adjetivação (substantivo → adjetivo) — é recurso estilístico e gramatical que altera a estrutura da frase sem mudar seu sentido. Na nominalização, o verbo converte-se em substantivo derivado (ex.: 'decidir' → 'a decisão'; 'analisar' → 'a análise'; 'construir' → 'a construção') e os complementos do verbo tornam-se complementos nominais ou adjuntos adnominais. Na verbalização, o substantivo retorna à forma verbal e os adjuntos reorganizam-se como complementos verbais. Essas transformações são cobradas especialmente em questões de reescritura que envolvem também coesão textual, pois a nominalização é recurso coesivo de retomada.",
+        "subtitulo": "5. Nominalização e verbalização — trocar verbo por substantivo",
+        "conteudo": "Existe um processo fascinante na língua portuguesa chamado nominalização: você pega um verbo e o transforma em substantivo (ou vice-versa), sem perder o significado. É como comprimir um arquivo — o conteúdo continua lá, em formato diferente.\n\nExemplos clássicos: 'decidir' vira 'decisão', 'analisar' vira 'análise', 'cumprir' vira 'cumprimento'. A frase 'O oficial decidiu agir' pode ser reescrita como 'A decisão do oficial foi agir' — o sentido é o mesmo, mas a estrutura mudou completamente.\n\nEssa transformação é muito usada em textos formais e oficiais da Marinha, e a CEBRASPE adora testá-la. A reescritura está correta quando o substantivo derivado do verbo preserva todos os participantes da ação (quem fez, o quê, para quem).\n\nO erro mais comum é perder o agente da ação na nominalização — por exemplo, reescrever 'O sargento cumpriu a ordem' como 'O cumprimento da ordem ocorreu', sem indicar que foi o sargento quem cumpriu. Isso omite informação e invalida a reescritura.",
+        "regra": "Verbo → Substantivo: preservar agente + ação + objeto · Sem omitir participantes",
         "exemplos": [
-          "Verbalização → nominalização: 'A equipe analisou os dados.' → 'A análise dos dados pela equipe foi concluída.'",
-          "Nominalização → verbalização: 'A construção do porto exigiu dois anos.' → 'Construir o porto exigiu dois anos.'",
-          "Adjetivação: 'Um navio de guerra' → 'Um navio bélico'",
-          "Nominalização de adjetivo: 'O discurso foi claro.' → 'A clareza do discurso foi notável.'"
-        ],
-        "regra": "Na nominalização: identifique o substantivo abstrato correspondente ao verbo; reorganize agente e paciente como adjuntos (ex.: 'A equipe analisou os dados' → 'a análise dos dados pela equipe'); confira se o significado se mantém integralmente."
+          {
+            "texto_base": "A tripulação executou o procedimento de emergência com rapidez. A execução do procedimento de emergência pela tripulação foi realizada com rapidez.",
+            "anotacoes": [
+              {
+                "trecho": "executou o procedimento",
+                "destaque": "verbo → ação",
+                "motivo": "Verbo 'executou' com sujeito 'tripulação' e objeto 'procedimento' — todos os elementos presentes"
+              },
+              {
+                "trecho": "A execução do procedimento de emergência pela tripulação",
+                "destaque": "nominalização",
+                "motivo": "'Executou' virou 'execução' (substantivo); 'pela tripulação' preserva o agente — reescritura válida"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "6. Reescritura com Foco em Pontuação e Ordem dos Termos",
-        "conteudo": "A inversão da ordem canônica (Sujeito–Verbo–Complemento) para a ordem invertida (Complemento–Verbo–Sujeito ou outras) pode alterar ênfase mas não deve alterar o sentido proposicional. Em reescritas que envolvem deslocamento de adjuntos adverbiais, orações subordinadas antepostas ou apostos, a vírgula é obrigatória para isolar o elemento deslocado. A supressão ou inserção indevida de vírgula em reescritas é cobrada como erro gramatical. Além disso, a reescritura pode envolver a fusão de dois períodos em um (com uso de conjunção ou pronome relativo) ou a divisão de um período composto em dois simples — nesses casos, o conteúdo informacional deve ser integralmente preservado sem adição nem subtração de ideias.",
+        "subtitulo": "6. Mudança de ordem e ênfase — o que o deslocamento causa",
+        "conteudo": "Em português, a ordem das palavras é relativamente flexível, mas não é neutra. Quando você desloca um elemento para o início da frase, você cria ênfase sobre ele — é como usar negrito numa mensagem.\n\nA frase 'O recruta foi aprovado ontem' e a frase 'Ontem, o recruta foi aprovado' têm o mesmo conteúdo factual, mas a segunda coloca o tempo em destaque. Isso não muda o sentido básico, então a reescritura seria aceitável.\n\nMas quando a mudança de ordem cria ambiguidade — por exemplo, fazendo parecer que um adjunto modifica um elemento diferente do original — a reescritura está errada. A frase 'O oficial viu o recruta com o binóculo' é ambígua (quem tem o binóculo?), e qualquer reescritura que resolva essa ambiguidade de um modo específico adiciona informação que não existia no original.\n\nO erro mais comum é aceitar reescriturasque mudam a ênfase mas são apresentadas como 'equivalentes' — a CEBRASPE considera que mudança de foco pode ser mudança de sentido dependendo do contexto.",
+        "regra": "Mudar ordem pode mudar ênfase · Ênfase diferente pode = sentido diferente · Ambiguidade preservada ≠ resolvida",
         "exemplos": [
-          "Ordem direta: 'O almirante assinou o documento ontem.' → Inversão com vírgula: 'Ontem, o almirante assinou o documento.'",
-          "Fusão: 'O navio atracou. Ele transportava suprimentos.' → 'O navio, que transportava suprimentos, atracou.'",
-          "Divisão: 'Quando o sol nasceu, os marinheiros içaram a bandeira.' → 'O sol nasceu. Os marinheiros içaram a bandeira.' (perde-se a relação temporal — divisão inválida se cobrar equivalência total)"
-        ],
-        "regra": "Ao inverter a ordem dos termos: use vírgula para isolar qualquer elemento anteposto (adjunto adverbial, oração subordinada, aposto). Na fusão de orações, o pronome relativo deve concordar em gênero e número com o antecedente. Na divisão, preserve todas as relações semânticas entre as orações."
+          {
+            "texto_base": "Somente o comandante assinou o documento. O documento foi assinado somente pelo comandante.",
+            "anotacoes": [
+              {
+                "trecho": "Somente o comandante",
+                "destaque": "elemento de foco",
+                "motivo": "'Somente' restringe quem assinou — na reescritura passiva, o 'somente' deve acompanhar o agente para preservar o sentido"
+              },
+              {
+                "trecho": "somente pelo comandante",
+                "destaque": "foco preservado",
+                "motivo": "O advérbio 'somente' migrou junto com o agente 'comandante' — a restrição de autoria está preservada"
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "[Conteúdo complementar — Colocação Pronominal e Pontuação] Conceito e Fundamentos do Paralelismo Sintático",
-        "conteudo": "Paralelismo sintático (também chamado de correlação ou simetria estrutural) é o princípio segundo o qual termos coordenados — isto é, termos que exercem a mesma função sintática e estão ligados por conjunções coordenativas ou colocados em série — devem apresentar estrutura morfossintática equivalente.\n\nCunha e Cintra (2017) enfatizam que a coordenação pressupõe equivalência funcional entre os elementos coordenados, o que implica, idealmente, equivalência formal. Quando dois ou mais elementos são coordenados por conjunção ('e', 'ou', 'mas', 'nem') ou por vírgula em enumeração, espera-se que todos pertençam à mesma categoria gramatical e estejam na mesma forma (substantivo com substantivo, infinitivo com infinitivo, oração com oração).\n\nO Manual de Redação e Estilo da Marinha (2024) destaca que a clareza e a objetividade dos documentos oficiais dependem, entre outros fatores, da correção sintática e da simetria estrutural nas enumerações e nas construções coordenadas.\n\nFiorin e Savioli (2007) apontam que o paralelismo é também recurso retórico-estilístico: na literatura e nos discursos formais, a repetição de estruturas paralelas cria ritmo, ênfase e coesão textual — o chamado paralelismo estilístico. Entretanto, na língua padrão escrita, a quebra de paralelismo involuntária é considerada desvio de norma.",
+        "subtitulo": "7. Estratégia CEBRASPE — como julgar reescriturasem prova",
+        "conteudo": "A CEBRASPE tem um jeito específico de testar reescritura: ela apresenta um trecho do texto-base e uma versão reescrita, pedindo para você julgar se o sentido foi preservado. O julgamento é binário — certo ou errado.\n\nA estratégia mais eficiente é comparar as frases em quatro dimensões: (1) quem pratica a ação? (2) qual é a ação? (3) quem ou o quê sofre a ação? (4) qual é a relação lógica entre as ideias (causa, consequência, concessão etc.)?\n\nSe todas as quatro respostas forem idênticas na original e na reescrita, o sentido está preservado. Se qualquer uma diferir, a reescritura está errada.\n\nAs armadilhas favoritas da banca são: inverter causa e consequência trocando conectivos, omitir o agente na passiva, usar um falso sinônimo que muda a intensidade, e deslocar o elemento de foco de lugar (ex: mover 'somente' ou 'apenas' para uma posição que restringe outro elemento).",
+        "regra": "4 perguntas: quem age? qual ação? quem sofre? qual relação lógica? · Tudo igual = reescritura correta",
         "exemplos": [
-          "PARALELO (correto): 'O candidato deve estudar, praticar e revisar.' (três infinitivos — simetria perfeita)",
-          "NÃO PARALELO (incorreto): 'O candidato deve estudar, praticar e a revisão é necessária.' (infinitivo + infinitivo + oração — assimetria)",
-          "PARALELO: 'Ela é inteligente, dedicada e responsável.' (três adjetivos)",
-          "NÃO PARALELO: 'Ela é inteligente, dedicada e tem responsabilidade.' (adjetivo + adjetivo + oração verbal — assimetria)"
-        ],
-        "regra": "REGRA FUNDAMENTAL: Elementos que exercem a mesma função sintática e estão em série (coordenados) devem pertencer à mesma classe gramatical e estar na mesma forma. Ao listar verbos, use todos no mesmo modo/tempo; ao listar substantivos, use todos substantivos; ao listar orações, use todas com a mesma estrutura."
-      },
-      {
-        "subtitulo": "[Conteúdo complementar — Colocação Pronominal e Pontuação] Paralelismo entre Verbos: Modo, Tempo e Forma Nominal",
-        "conteudo": "O tipo mais cobrado em provas é o paralelismo entre verbos coordenados. Quando dois ou mais verbos são coordenados (ligados por conjunção ou em série), devem estar na mesma forma verbal: ambos no infinitivo, ambos no gerúndio, ambos no mesmo tempo do indicativo, etc.\n\nCASOS MAIS FREQUENTES DE QUEBRA:\n\n1. INFINITIVO × SUBSTANTIVO: 'Gosto de nadar e das caminhadas.' → erro. Correto: 'Gosto de nadar e de caminhar.' OU 'Gosto de natação e de caminhadas.'\n\n2. INFINITIVO × GERÚNDIO: 'O oficial passou a noite estudando os mapas e a analisar rotas.' → erro. Correto: 'estudando os mapas e analisando rotas.' OU 'a estudar os mapas e a analisar rotas.'\n\n3. INFINITIVO × ORAÇÃO DESENVOLVIDA: 'O dever do militar é servir à pátria e que ele proteja a nação.' → erro. Correto: 'servir à pátria e proteger a nação.' (dois infinitivos)\n\n4. PRESENTE × INFINITIVO EM LISTA: 'Os objetivos são: aumentar a eficiência, reduzir custos e os resultados são melhores.' → erro. Correto: 'aumentar a eficiência, reduzir custos e melhorar resultados.' (três infinitivos)\n\nA quebra de paralelismo verbal é especialmente grave em documentos oficiais com listas de objetivos, metas, deveres ou procedimentos — gêneros frequentes no ambiente naval.",
-        "exemplos": [
-          "ERRADO: 'O instrutor pediu que estudassem a teoria e a prática também deve ser exercitada.'",
-          "CORRETO: 'O instrutor pediu que estudassem a teoria e exercitassem a prática.' (duas orações subordinadas substantivas na mesma estrutura)",
-          "ERRADO: 'O engenheiro prefere trabalhar em equipe a o trabalho solitário.'",
-          "CORRETO: 'O engenheiro prefere trabalhar em equipe a trabalhar sozinho.' (dois infinitivos)",
-          "ERRADO: 'São atribuições do cargo: fiscalizar, coordenar e a supervisão das atividades.'",
-          "CORRETO: 'São atribuições do cargo: fiscalizar, coordenar e supervisionar as atividades.' (três infinitivos)"
-        ],
-        "regra": "REGRA: Em listas de verbos coordenados, mantenha todos na mesma forma: infinitivos juntos, gerúndios juntos, subjuntivos juntos. Nunca misture infinitivo com substantivo deverbal ('fiscalizar e a supervisão' → errado; 'fiscalizar e supervisionar' → correto)."
-      },
-      {
-        "subtitulo": "[Conteúdo complementar — Colocação Pronominal e Pontuação] Paralelismo entre Substantivos, Adjetivos e Orações",
-        "conteudo": "Além dos verbos, o paralelismo é exigido em enumerações de substantivos, adjetivos e, fundamentalmente, de orações coordenadas.\n\nPARALELISMO NOMINAL (substantivos):\nQuando se enumera substantivos, todos devem ser substantivos (ou locuções substantivas). Não se pode misturar substantivo com infinitivo ou com oração.\nErrado: 'O cargo exige dedicação, esforço e ser pontual.'\nCorreto: 'O cargo exige dedicação, esforço e pontualidade.' (três substantivos)\n\nPARALELISMO ADJETIVAL:\nEm predicados compostos ou apostos explicativos, adjetivos devem ser coordenados com adjetivos.\nErrado: 'O texto é claro, objetivo e apresenta coerência.'\nCorreto: 'O texto é claro, objetivo e coerente.' (três adjetivos)\nOU: 'O texto apresenta clareza, objetividade e coerência.' (três substantivos)\n\nPARALELISMO ORACIONAL:\nOrações coordenadas devem ter a mesma estrutura (todas desenvolvidas ou todas reduzidas).\nErrado: 'O relatório foi entregue, revisado e que foi aprovado pela chefia.'\nCorreto: 'O relatório foi entregue, revisado e aprovado pela chefia.' (três particípios em locução verbal passiva)\n\nO problema mais sutil é a mistura de oração reduzida com oração desenvolvida:\nErrado: 'É necessário estudar e que se pratique bastante.'\nCorreto: 'É necessário estudar e praticar bastante.' OU 'É necessário que se estude e que se pratique bastante.'",
-        "exemplos": [
-          "ERRADO: 'As qualidades do oficial são: liderança, disciplina e ser íntegro.'",
-          "CORRETO: 'As qualidades do oficial são: liderança, disciplina e integridade.' (três substantivos)",
-          "ERRADO: 'Ela chegou cedo, trabalhou muito e saindo tarde.'",
-          "CORRETO: 'Ela chegou cedo, trabalhou muito e saiu tarde.' (três verbos no pretérito perfeito)",
-          "ERRADO: 'O plano inclui treinar a equipe, a aquisição de equipamentos e a implementação dos protocolos.'",
-          "CORRETO: 'O plano inclui treinar a equipe, adquirir equipamentos e implementar os protocolos.' (três infinitivos)"
-        ],
-        "regra": "REGRA: Em enumerações nominais, use todos substantivos. Em predicados compostos, use todos adjetivos. Ao detectar mistura de classe gramatical em elementos coordenados, reescreva convertendo todos para a mesma categoria — de preferência a que exija menos alterações no período."
-      },
-      {
-        "subtitulo": "[Conteúdo complementar — Colocação Pronominal e Pontuação] Paralelismo nas Correlações: tanto…quanto, não só…mas também, ora…ora",
-        "conteudo": "As conjunções correlativas exigem paralelismo rigoroso entre os dois termos que elas correlacionam. Cada parte da correlação deve ser seguida de elementos da mesma natureza gramatical.\n\nPRINCIPAIS CONJUNÇÕES CORRELATIVAS E SEUS PARES:\n- tanto… quanto (também: tanto… como)\n- não só… mas também (também: não apenas… mas também; não somente… como também)\n- ou… ou\n- nem… nem\n- ora… ora\n- seja… seja\n- quer… quer\n- assim… como\n\nREGRA DO POSICIONAMENTO:\nA correlação exige que o elemento que vem depois do primeiro termo seja da mesma natureza do que vem depois do segundo termo. Se após 'tanto' há um substantivo, após 'quanto' deve haver também um substantivo. Se após 'não só' há um verbo no infinitivo, após 'mas também' deve haver também um verbo no infinitivo.\n\nExemplo de erro clássico:\nErrado: 'Ele tanto admira a disciplina quanto é admirado pela coragem.' (substantivo × oração verbal)\nCorreto: 'Ele tanto admira a disciplina quanto a coragem.' (dois substantivos, objetos do mesmo verbo)\nOU: 'Ele tanto é admirado pela disciplina quanto pela coragem.' (duas locuções preposicionais)\n\nErrado: 'O candidato não só estudou muito mas também foi disciplinado o comportamento.'\nCorreto: 'O candidato não só estudou muito mas também se comportou com disciplina.' (dois verbos no pretérito perfeito + complementos)\n\nUma forma prática de verificar o paralelismo em correlações é isolar os dois termos correlacionados e verificar se têm a mesma estrutura gramatical.",
-        "exemplos": [
-          "ERRADO: 'Ora chora, ora risos são derramados.' → CORRETO: 'Ora chora, ora ri.' (dois verbos)",
-          "ERRADO: 'Nem o frio nem que o vento soprasse o afastou.' → CORRETO: 'Nem o frio nem o vento o afastou.' (dois substantivos sujeitos)",
-          "ERRADO: 'Não só é dedicado mas também a pontualidade é uma qualidade sua.' → CORRETO: 'Não só é dedicado mas também é pontual.' (dois predicados nominais com adjetivos)",
-          "ERRADO: 'Seja por honra, seja porque quer glória, lutará.' → CORRETO: 'Seja por honra, seja por glória, lutará.' (duas locuções preposicionais)"
-        ],
-        "regra": "REGRA PARA CORRELAÇÕES: Isole os dois membros da correlação. Pergunte: o que vem imediatamente após o primeiro conector? E o que vem após o segundo? Ambos devem ter a mesma função e estrutura gramatical. Se não têm, reescreva um dos membros para igualar ao outro."
-      },
-      {
-        "subtitulo": "[Conteúdo complementar — Colocação Pronominal e Pontuação] Paralelismo Estilístico, Zeugma e Ellipse: Quando a Assimetria é Recurso",
-        "conteudo": "Nem toda assimetria é erro: o paralelismo pode ser intencionalmente rompido como recurso estilístico, e há casos em que a língua admite estruturas aparentemente assimétricas por mecanismos gramaticais legítimos.\n\nZEUGMA:\nO zeugma é a elipse (omissão) de um termo já expresso anteriormente, que é subentendido nos demais membros da frase. O zeugma pode criar assimetria aparente sem constituir erro, desde que o termo omitido seja facilmente recuperável.\nExemplo: 'Uns chegaram cedo; outros, tarde.' (o verbo 'chegaram' é zeugado no segundo membro — omitido mas subentendido). Isso não é quebra de paralelismo, pois os elementos coordenados ('cedo' e 'tarde') têm a mesma função (adjunto adverbial de tempo).\n\nPARALELISMO ESTILÍSTICO (recurso literário):\nNa linguagem literária e retórica, o paralelismo pode ser explorado como figura de construção (isocolon, anáfora, epístrofe). A repetição de estruturas idênticas cria ritmo e ênfase.\nExemplo (Rui Barbosa): 'Não fui eu quem os fiz; não sou eu quem os desfaz.'\nExemplo (texto bíblico): 'Tudo tem o seu tempo determinado, e há tempo para todo propósito debaixo do céu.'\n\nDIFERENÇA FUNDAMENTAL PARA A PROVA:\n- Paralelismo QUEBRADO por erro: o escritor não percebeu a assimetria → isso é defeito\n- Paralelismo intencionalmente rompido (zeugma, anáfora, etc.) → isso é recurso\n- Em provas militares, questões pedem IDENTIFICAR e CORRIGIR quebras de paralelismo involuntárias, ou IDENTIFICAR o paralelismo como recurso em textos literários.\n\nFiorin e Savioli (2007) distinguem claramente o paralelismo como princípio gramatical de correção do paralelismo como figura retórica de repetição estrutural — ambos presentes em provas de alta complexidade.",
-        "exemplos": [
-          "ZEUGMA CORRETO: 'João gosta de futebol; Pedro, de natação.' (o verbo 'gosta' está zeugado no segundo membro — não é erro)",
-          "PARALELISMO ESTILÍSTICO: 'Vim, vi, venci.' (César — três verbos no pretérito perfeito, estrutura tripartida perfeitamente paralela)",
-          "ANÁFORA: 'Lutarei pelo meu país. Lutarei pela minha família. Lutarei pela liberdade.' (repetição da estrutura 'Lutarei + adjunto adverbial')",
-          "ASSIMETRIA INTENCIONAL (ironia): 'Ele é estudioso, trabalhador e mentiroso.' (quebra da expectativa positiva no terceiro membro — recurso retórico)"
-        ],
-        "regra": "REGRA: Em provas, diferencie: (1) quebra de paralelismo = assimetria gramatical involuntária, a ser corrigida; (2) zeugma = omissão legítima de termo recuperável; (3) paralelismo estilístico = repetição estrutural intencional como recurso retórico. Nas questões de reescritura, corrija apenas os casos de quebra involuntária; nas questões de interpretação, reconheça o paralelismo como recurso de construção."
+          {
+            "texto_base": "O instrutor repreendeu o recruta porque este chegou atrasado à formatura. O recruta foi repreendido pelo instrutor em virtude de seu atraso à formatura.",
+            "anotacoes": [
+              {
+                "trecho": "repreendeu o recruta porque este chegou atrasado",
+                "destaque": "ativa + causa",
+                "motivo": "Ação (repreensão) + relação de causa (atraso) claramente estabelecidas na frase original"
+              },
+              {
+                "trecho": "foi repreendido pelo instrutor em virtude de seu atraso",
+                "destaque": "passiva + causa",
+                "motivo": "'Em virtude de' é sinônimo de 'porque' na relação causal — reescritura válida, sentido preservado"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "pegadinhas": [
     {
-      "titulo": "Passiva sem agente ≠ passiva com agente omitido",
-      "errado": "'Venderam os equipamentos.' reescrito como 'Os equipamentos foram vendidos por alguém.'",
-      "correto": "'Venderam os equipamentos.' → 'Os equipamentos foram vendidos.' (sem agente da passiva, pois o sujeito indeterminado da ativa não se converte em agente expresso)",
-      "explicacao": "Quando a oração ativa tem sujeito indeterminado (terceira pessoa do plural sem referente), a passiva correspondente omite o agente. Inserir 'por alguém' altera o sentido ao especificar a indefinição de uma forma não presente no original.",
+      "titulo": "Causa virou consequência",
+      "errado": "'O navio atrasou porque o motor falhou' reescrito como 'O motor falhou, portanto o navio atrasou' inverte a relação lógica e está errado.",
+      "correto": "A reescritura é válida — 'portanto' expressa consequência, e o atraso é de fato consequência da falha do motor.",
+      "explicacao": "Atenção: neste caso específico a reescritura está correta porque a relação causa-consequência é preservada por ambos os conectivos — apenas a ordem das orações foi invertida. A pegadinha seria afirmar que é sempre errado trocar 'porque' por 'portanto'. O que importa é a relação lógica resultante, não o conectivo isolado. 'Porque' introduz a causa; 'portanto' introduz a consequência — se as orações se reorganizarem para acomodar isso, a reescritura pode ser válida.",
       "nivel": "basico"
     },
     {
-      "titulo": "Concordância do particípio na voz passiva",
-      "errado": "'A Marinha construiu os navios.' → 'Os navios foram construído pela Marinha.'",
-      "correto": "'Os navios foram construídos pela Marinha.' (particípio concorda com o sujeito 'os navios': masculino plural)",
-      "explicacao": "Na voz passiva analítica, o particípio funciona como predicativo e concorda em gênero e número com o sujeito da passiva (que era o objeto direto da ativa). 'Construído' deve ir para 'construídos' porque o sujeito 'os navios' é masculino plural.",
+      "titulo": "Omissão do agente na passiva",
+      "errado": "'O tenente assinou o relatório' foi corretamente reescrito como 'O relatório foi assinado', mantendo o sentido integral.",
+      "correto": "A reescritura omite o agente — o correto seria 'O relatório foi assinado pelo tenente'.",
+      "explicacao": "Quando a frase original indica claramente quem praticou a ação, a reescritura na voz passiva deve preservar essa informação com o agente da passiva ('pelo/pela + sujeito original'). Suprimir o agente muda o sentido porque a frase passa a não informar quem realizou a ação, perdendo informação presente no original. A CEBRASPE considera isso alteração de sentido.",
       "nivel": "basico"
     },
     {
-      "titulo": "Nominalização que altera a polaridade",
-      "errado": "'Ele não respondeu às perguntas.' reescrito como 'Houve resposta às perguntas por ele.'",
-      "correto": "'Não houve resposta de sua parte às perguntas.' ou 'Houve omissão de respostas às perguntas.'",
-      "explicacao": "A nominalização deve preservar a negação presente no original. Converter 'não respondeu' em 'houve resposta' inverte completamente o sentido, pois a negação desaparece. A reescritura é inválida por alterar a polaridade do enunciado.",
+      "titulo": "Falso sinônimo que muda a intensidade",
+      "errado": "Em 'A portaria estabeleceu normas rígidas', substituir 'rígidas' por 'simples' constitui reescritura sem alteração de sentido.",
+      "correto": "'Simples' não é sinônimo de 'rígidas' — a substituição muda completamente o significado da portaria.",
+      "explicacao": "O erro está em tratar palavras do mesmo campo semântico (ambas adjetivam normas) como sinônimas. 'Rígidas' implica rigor, severidade e pouca flexibilidade; 'simples' implica facilidade e pouca complexidade. São conceitos opostos em muitos contextos. Em reescritura, o sinônimo deve ter a mesma carga semântica e a mesma intensidade no contexto específico.",
       "nivel": "intermediario"
     },
     {
-      "titulo": "Substituição de 'embora' por 'apesar de' sem ajustar o verbo",
-      "errado": "'Embora estudasse muito, não passou.' reescrito como 'Apesar de estudasse muito, não passou.'",
-      "correto": "'Apesar de estudar muito, não passou.' (a locução prepositiva 'apesar de' exige infinitivo ou substantivo, não forma conjugada)",
-      "explicacao": "Locução prepositiva 'apesar de' rege infinitivo ou substantivo. A conjunção 'embora' rege subjuntivo. Ao trocar 'embora' por 'apesar de', o verbo conjugado ('estudasse') deve converter-se em infinitivo ('estudar'). Manter a forma conjugada é erro grave de regência.",
-      "nivel": "avancado"
+      "titulo": "Concessão transformada em condição",
+      "errado": "'Embora o sargento estivesse cansado, concluiu a missão' pode ser reescrito como 'Se o sargento estivesse cansado, concluiria a missão' sem alterar o sentido.",
+      "correto": "A reescritura está errada — 'embora' é concessão (fato real com resultado inesperado); 'se' é condição (hipótese).",
+      "explicacao": "A frase com 'embora' afirma que o cansaço existiu de fato e, mesmo assim, a missão foi concluída — é um fato real. A frase com 'se' transforma tudo em hipótese: nem o cansaço nem a conclusão da missão são apresentados como reais. São relações lógicas completamente diferentes, e a CEBRASPE frequentemente usa esse par para testar se o candidato domina os conectivos.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Troca de 'cujo' por 'que' sem ajuste estrutural",
-      "errado": "'O oficial cujo relatório foi aprovado recebeu elogios.' reescrito como 'O oficial que o relatório foi aprovado recebeu elogios.'",
-      "correto": "'O oficial cujo relatório foi aprovado recebeu elogios.' → 'O oficial que teve o relatório aprovado recebeu elogios.' ou 'O oficial, o relatório do qual foi aprovado, recebeu elogios.'",
-      "explicacao": "'Cujo' é pronome relativo com função de adjunto adnominal que relaciona dois substantivos (antecedente e o substantivo seguinte). Substituí-lo por 'que' sem reestruturar a oração gera ambiguidade ou erro sintático. A substituição exige reorganização da oração relativa.",
+      "titulo": "Deslocamento de 'somente' que muda o escopo",
+      "errado": "'Somente o comandante aprovou o plano' é equivalente a 'O comandante aprovou somente o plano'.",
+      "correto": "As frases têm sentidos diferentes: na primeira, apenas o comandante aprovou; na segunda, o comandante aprovou apenas aquele plano (não outros).",
+      "explicacao": "O advérbio de exclusão 'somente' (e seus equivalentes 'apenas', 'exclusivamente') modifica o elemento que vem imediatamente após ele. Deslocá-lo na frase muda qual elemento está sendo restringido — e isso altera o sentido. Na primeira frase, a restrição é sobre quem aprovou; na segunda, sobre o que foi aprovado. São informações distintas.",
       "nivel": "avancado"
     }
   ],
   "cascas_de_banana": [
     {
-      "situacao": "Ao transformar voz ativa em passiva, o candidato esquece de ajustar o tempo verbal do auxiliar 'ser' ao tempo do verbo ativo, escrevendo 'será construído' quando o original está no pretérito ('construiu').",
-      "dica": "Antes de montar a passiva, identifique o tempo e o modo do verbo ativo. O auxiliar 'ser' (ou 'estar', 'ficar') deve receber exatamente esse tempo. 'Construiu' (pretérito perfeito do indicativo) → 'foi construído'. 'Construirá' → 'será construído'. Faça essa verificação antes de escrever o particípio.",
+      "situacao": "Confundir mudança de ênfase com mudança de sentido em todos os casos",
+      "dica": "Nem toda mudança de ordem altera o sentido. Deslocar um adjunto adverbial de tempo ('ontem', 'na semana passada') para o início da frase geralmente não muda o sentido — apenas enfatiza o tempo. Avalie se o deslocamento cria ambiguidade ou muda quem faz o quê. Se não mudar, a reescritura pode estar correta.",
       "nivel": "basico"
     },
     {
-      "situacao": "O candidato substitui uma oração causal ('porque') por uma locução causal ('devido a') mas não nominaliza o verbo, produzindo 'devido a chegou tarde' em vez de 'devido ao atraso' ou 'devido a ter chegado tarde'.",
-      "dica": "Locuções prepositivas (devido a, em virtude de, por causa de, apesar de, a fim de) exigem após si um substantivo, um pronome ou um infinitivo — nunca uma forma verbal conjugada. Ao usar essas locuções, sempre converta o verbo da oração em substantivo derivado ou em infinitivo.",
+      "situacao": "Aceitar nominalização incompleta como equivalente à frase original",
+      "dica": "Quando um verbo é transformado em substantivo, todos os participantes da ação original (sujeito, objeto, complementos) precisam ser acomodados na nova estrutura. Se a nominalização omite o agente ou o objeto, ela não é equivalente. Antes de julgar uma nominalização como correta, pergunte: quem fez? o quê? Para quem? Se alguma resposta sumir, a reescritura está errada.",
       "nivel": "intermediario"
     },
     {
-      "situacao": "Ao deslocar um adjunto adverbial para o início da frase durante a reescritura, o candidato omite a vírgula obrigatória, o que pode ser considerado erro gramatical ou alterar o sentido em questões de pontuação.",
-      "dica": "Todo adjunto adverbial deslocado para antes do sujeito deve ser seguido de vírgula. Regra prática: se o elemento não é o sujeito da oração e está antes do verbo principal, separe-o com vírgula. Exemplos: 'Ontem[,] o oficial partiu.' / 'Por isso[,] a missão foi cancelada.'",
+      "situacao": "Avaliar reescritura comparando apenas as palavras, não a lógica",
+      "dica": "O erro mais sofisticado é verificar se as palavras são sinônimas sem checar se a relação lógica entre as orações foi preservada. Uma questão avançada da CEBRASPE pode apresentar uma reescritura onde todas as palavras são corretas, mas a relação de causa e efeito foi invertida pelo uso de um conectivo diferente. Sempre mapeie explicitamente a relação lógica (causa, concessão, condição, consequência) antes de julgar.",
       "nivel": "avancado"
     }
   ],
@@ -188,747 +219,776 @@
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Reescreva a frase 'O engenheiro revisou o projeto.' na voz passiva analítica. Qual das alternativas apresenta a reescritura correta?",
+      "enunciado": "Julgue a reescritura a seguir. A frase 'O sargento entregou o documento ao oficial' foi corretamente reescrita como 'O documento foi entregue ao oficial pelo sargento', preservando integralmente o sentido original.",
       "alternativas": {
-        "A": "O projeto foi revisado pelo engenheiro.",
-        "B": "O projeto foi revisado por o engenheiro.",
-        "C": "O projeto foi revisto do engenheiro.",
-        "D": "O projeto é revisado pelo engenheiro.",
-        "E": "O projeto foi revisando pelo engenheiro."
+        "A": "A reescritura está errada porque a voz passiva altera o sujeito da frase.",
+        "B": "A reescritura está errada porque 'entregue' é forma verbal incorreta.",
+        "C": "A reescritura está correta — a voz passiva preserva todos os elementos: ação, agente e destinatário.",
+        "D": "A reescritura está errada porque o agente da passiva deveria ser omitido.",
+        "E": "A reescritura está correta apenas se o contexto indicar que o documento era sigiloso."
       },
-      "gabarito": "A",
-      "explicacao": "A voz passiva analítica correta é: sujeito paciente ('o projeto') + auxiliar 'ser' no pretérito perfeito ('foi') + particípio ('revisado') + agente da passiva ('pelo engenheiro'). (A) está correta. (B) erra ao usar 'por o' em vez de 'pelo' (contração obrigatória). (C) usa preposição 'de' indevida no lugar de 'por/pelo'. (D) usa presente do indicativo ('é revisado'), alterando o tempo verbal. (E) usa gerúndio ('revisando') em vez de particípio, forma agramatical na passiva analítica."
+      "gabarito": "C",
+      "explicacao": "A transformação de voz ativa para passiva analítica é válida quando preserva todos os participantes da ação. Na frase original: sujeito = 'o sargento', ação = 'entregou', objeto = 'o documento', destinatário = 'ao oficial'. Na reescritura passiva: 'o documento' vira sujeito, 'foi entregue' é o verbo na passiva, 'ao oficial' permanece destinatário, e 'pelo sargento' é o agente da passiva. Todos os elementos estão presentes e o sentido é idêntico. A alternativa D está errada porque omitir o agente 'pelo sargento' suprimiria uma informação presente no original. A alternativa E está errada porque o sentido de uma reescritura não depende de condições externas ao texto."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Qual das reescritas abaixo transforma corretamente 'Os alunos leram os textos.' para a voz passiva?",
+      "enunciado": "Assinale a alternativa que apresenta uma reescritura correta da frase 'A base naval recebeu novos equipamentos'.",
       "alternativas": {
-        "A": "Os textos foram lido pelos alunos.",
-        "B": "Os textos foram lidos pelos alunos.",
-        "C": "Os textos foram ler pelos alunos.",
-        "D": "Os textos foi lidos pelos alunos.",
-        "E": "Os textos foram lidos dos alunos."
+        "A": "Novos equipamentos foram recebidos pela base naval.",
+        "B": "A base naval foi recebida por novos equipamentos.",
+        "C": "Novos equipamentos receberam a base naval.",
+        "D": "A base naval recebeu equipamentos que eram novos e diferentes.",
+        "E": "Os equipamentos novos chegaram à base, tendo sido recebidos."
       },
-      "gabarito": "B",
-      "explicacao": "(A) está correta: 'os textos' (sujeito paciente, masc. pl.) + 'foram' (auxiliar, pret. perf., plural) + 'lidos' (particípio concordando com sujeito masc. pl.) + 'pelos alunos' (agente). (B) 'lido' não concorda com 'os textos' (plural). (C) 'ler' é infinitivo, não particípio. (D) 'foi' é singular, não concorda com 'os textos' (plural). (E) usa 'dos' em vez de 'pelos' — a preposição do agente da passiva é 'por' (+ artigo)."
+      "gabarito": "A",
+      "explicacao": "A alternativa A é a única que transforma corretamente a frase ativa em passiva analítica: o objeto direto 'novos equipamentos' torna-se sujeito da passiva, o verbo 'recebeu' transforma-se em 'foram recebidos', e o sujeito original 'a base naval' torna-se agente da passiva ('pela base naval'). A alternativa B inverte os papéis — a base não pode ser agente passivo de equipamentos. A alternativa C é semanticamente incoerente (equipamentos não recebem bases). A alternativa D adiciona a palavra 'diferentes', que não existia no original. A alternativa E muda a estrutura sem equivalência fiel ao original."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "A frase 'A diretora assinou os documentos ontem.' reescrita na voz passiva analítica fica:",
+      "enunciado": "Julgue: a frase 'O recruta chegou cedo porque queria ser o primeiro na formatura' foi corretamente reescrita como 'O recruta queria ser o primeiro na formatura, por isso chegou cedo'.",
       "alternativas": {
-        "A": "Os documentos foram assinado pela diretora ontem.",
-        "B": "Os documentos foram assinados da diretora ontem.",
-        "C": "Os documentos foram assinados pela diretora ontem.",
-        "D": "Os documentos serão assinados pela diretora ontem.",
-        "E": "Os documentos foram assinados por a diretora ontem."
+        "A": "Errado — 'por isso' indica consequência, não causa, invertendo a relação lógica.",
+        "B": "Certo — o sentido é preservado porque a relação causa-efeito permanece idêntica nas duas frases.",
+        "C": "Errado — 'cedo' deveria ser substituído por 'antes do horário' para equivalência.",
+        "D": "Certo — mas apenas porque 'porque' e 'por isso' são sempre sinônimos.",
+        "E": "Errado — a segunda frase omite o sujeito 'o recruta'."
       },
-      "gabarito": "C",
-      "explicacao": "(A) está correta: sujeito paciente 'os documentos', auxiliar 'foram' (pretérito perfeito), particípio 'assinados' concordando com 'os documentos' (masc. pl.), agente 'pela diretora', adjunto 'ontem' preservado. (B) usa 'da' em vez de 'pela'. (C) particípio 'assinado' não concorda com o sujeito plural. (D) 'serão' é futuro, diferente do pretérito original. (E) 'por a' deve contrair-se em 'pela'."
+      "gabarito": "B",
+      "explicacao": "A reescritura está correta. Na frase original: causa = 'queria ser o primeiro' → efeito = 'chegou cedo'. Na reescritura, a ordem das orações foi invertida, mas a relação lógica é preservada: a oração com 'por isso' introduz a consequência (chegou cedo) após a causa (queria ser o primeiro). O resultado final é o mesmo: o desejo motivou a chegada antecipada. A alternativa A está errada em sua justificativa — embora 'por isso' indique consequência, a reorganização das orações mantém causa e efeito nos lugares corretos. A alternativa D está errada: 'porque' e 'por isso' não são sempre sinônimos — aqui funcionaram porque houve reorganização das orações."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "Ao substituir a oração adverbial causal por uma locução equivalente na frase 'Como chegou atrasado, o candidato não entrou na prova.', qual alternativa apresenta reescritura gramaticalmente correta?",
+      "enunciado": "Qual das alternativas abaixo representa uma substituição de palavra que NÃO preserva o sentido original da frase 'O oficial expediu uma ordem urgente'?",
       "alternativas": {
-        "A": "Embora chegasse atrasado, o candidato não entrou na prova.",
-        "B": "Devido a chegou atrasado, o candidato não entrou na prova.",
-        "C": "Apesar de chegar atrasado, o candidato não entrou na prova.",
-        "D": "Por ter chegado atrasado, o candidato não entrou na prova.",
-        "E": "A fim de chegar atrasado, o candidato não entrou na prova."
+        "A": "O oficial emitiu uma ordem urgente.",
+        "B": "O oficial publicou uma ordem urgente.",
+        "C": "O oficial recebeu uma ordem urgente.",
+        "D": "O oficial encaminhou uma ordem urgente.",
+        "E": "O oficial enviou uma ordem urgente."
       },
-      "gabarito": "D",
-      "explicacao": "(A) é a única correta: 'por ter chegado atrasado' é locução prepositiva causal com infinitivo composto, equivalente à oração causal 'como chegou'. (B) é agramatical: 'devido a' exige substantivo ou infinitivo, não forma conjugada. (C) usa 'apesar de', que expressa concessão, alterando o sentido. (D) usa 'embora', que expressa concessão, não causalidade. (E) usa 'a fim de', que expressa finalidade."
+      "gabarito": "C",
+      "explicacao": "A alternativa C muda fundamentalmente o papel do oficial: na frase original, ele é o emissor da ordem (sujeito agente); em 'recebeu uma ordem urgente', ele passa a ser o receptor. Isso altera completamente quem tem a autoridade e a iniciativa na situação descrita. As demais alternativas (emitiu, publicou, encaminhou, enviou) mantêm o oficial como emissor da ordem, preservando o sentido geral da frase, embora com nuances diferentes de formalidade."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "A frase 'Ela agiu com imprudência.' pode ser corretamente reescrita como:",
+      "enunciado": "A frase 'Todos os marinheiros participaram do treinamento' pode ser corretamente reescrita como:",
       "alternativas": {
-        "A": "Ela agiu imprudentemente.",
-        "B": "Ela agiu imprudente.",
-        "C": "Ela agiu em imprudência.",
-        "D": "Ela agiu imprudência.",
-        "E": "Ela com imprudência agiu."
+        "A": "O treinamento participou de todos os marinheiros.",
+        "B": "Nenhum marinheiro deixou de participar do treinamento.",
+        "C": "Os marinheiros que participaram do treinamento eram todos.",
+        "D": "O treinamento foi participado por todos os marinheiros.",
+        "E": "Marinheiros de todas as patentes participaram do treinamento."
       },
-      "gabarito": "A",
-      "explicacao": "(A) é correta: o adjunto adverbial de modo 'com imprudência' equivale ao advérbio 'imprudentemente', derivado do adjetivo 'imprudente' com o sufixo '-mente'. (B) 'imprudente' é adjetivo, não advérbio, e não pode funcionar como adjunto adverbial sem a locução 'de modo'. (C) 'em imprudência' não é locução adverbial padrão na língua culta. (D) 'imprudência' como substantivo sem preposição não pode ser adjunto adverbial. (E) a inversão do adjunto para antes do verbo, sem vírgula, não preserva o registro formal exigido."
+      "gabarito": "B",
+      "explicacao": "A alternativa B preserva o sentido de universalidade (todos participaram) por meio de uma formulação negativa equivalente (nenhum deixou de participar). Em lógica, 'todos fizeram X' equivale a 'nenhum deixou de fazer X' — essa é uma reescritura válida por equivalência lógica. A alternativa A é semanticamente absurda (treinamento não pode participar de pessoas). A alternativa C está gramaticalmente truncada e não transmite o mesmo sentido. A alternativa D tem problema de regência — 'participar' é verbo intransitivo e não aceita voz passiva direta. A alternativa E adiciona uma especificidade ('de todas as patentes') que não existe no original."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "Identifique a alternativa que reescreve corretamente 'O relatório foi elaborado pelo analista.' na voz ativa:",
+      "enunciado": "Julgue: a reescritura de 'O tenente e o sargento foram promovidos' como 'O tenente foi promovido e o sargento também foi promovido' altera o sentido da frase original.",
       "alternativas": {
-        "A": "O analista foi elaborado o relatório.",
-        "B": "O analista elaborava o relatório.",
-        "C": "O analista elaborou o relatório.",
-        "D": "O relatório elaborou o analista.",
-        "E": "O analista elaborado o relatório."
+        "A": "Certo — a segunda frase enfatiza separadamente cada promoção, mudando o sentido coletivo.",
+        "B": "Errado — a segunda frase é apenas uma versão expandida com o mesmo sentido.",
+        "C": "Certo — na segunda frase, o sargento é promovido depois do tenente, o que implica hierarquia.",
+        "D": "Errado — mas apenas porque ambos são militares.",
+        "E": "Certo — 'também' adiciona uma informação que não existia no original."
       },
-      "gabarito": "C",
-      "explicacao": "(A) é correta: o agente da passiva 'pelo analista' torna-se sujeito da ativa; o sujeito da passiva 'o relatório' torna-se objeto direto; o verbo 'foi elaborado' (pretérito perfeito do indicativo passivo) converte-se em 'elaborou' (pretérito perfeito do indicativo ativo). (B) usa pretérito imperfeito, alterando o tempo verbal. (C) mantém estrutura passiva sem sentido. (D) inverte os papéis sintáticos, mudando o sentido. (E) usa particípio isolado sem verbo auxiliar."
+      "gabarito": "B",
+      "explicacao": "A reescritura não altera o sentido. A frase original afirma que tanto o tenente quanto o sargento foram promovidos. A versão expandida diz exatamente o mesmo, apenas desdobrando o sujeito composto em duas orações coordenadas aditivas. O 'também' não adiciona informação nova — ele funciona como marcador de adição, reproduzindo a ideia de inclusão dos dois que já estava implícita no 'e' original. A alternativa A está errada: desdobrar o sujeito composto não muda o sentido coletivo. A alternativa C está errada: a ordem das orações não implica sequência temporal ou hierárquica aqui."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Qual reescritura substitui corretamente 'Embora fosse tarde, o médico atendeu o paciente.' por uma locução equivalente?",
+      "enunciado": "Assinale a reescritura que preserva corretamente o sentido de 'O recruta obedeceu à ordem imediatamente'.",
       "alternativas": {
-        "A": "Apesar de era tarde, o médico atendeu o paciente.",
-        "B": "Apesar de ser tarde, o médico atendeu o paciente.",
-        "C": "Por ser tarde, o médico atendeu o paciente.",
-        "D": "Porque era tarde, o médico atendeu o paciente.",
-        "E": "Se fosse tarde, o médico atendeu o paciente."
+        "A": "A ordem foi obedecida imediatamente pelo recruta.",
+        "B": "O recruta obedeceu à ordem, mas não de imediato.",
+        "C": "A ordem imediata foi obedecida pelo recruta.",
+        "D": "O recruta obedeceu, e a ordem foi imediata.",
+        "E": "Imediatamente, a ordem obedeceu ao recruta."
       },
-      "gabarito": "B",
-      "explicacao": "(A) é correta: 'embora' (conjunção concessiva + subjuntivo) equivale à locução 'apesar de' + infinitivo. 'Fosse tarde' → 'ser tarde' (infinitivo). (B) usa forma conjugada 'era' após 'apesar de', o que é agramatical (exige infinitivo). (C) 'por ser tarde' expressa causa, não concessão, alterando o sentido. (D) 'porque era tarde' expressa causalidade, não concessão. (E) 'se fosse tarde' expressa condição, não concessão."
+      "gabarito": "A",
+      "explicacao": "A alternativa A é a transformação correta para a voz passiva: o objeto direto 'a ordem' vira sujeito, o verbo vai para 'foi obedecida', e o sujeito original 'o recruta' vira agente da passiva ('pelo recruta'). O advérbio 'imediatamente' mantém sua posição e função. A alternativa B contradiz o original ao negar a imediatidade. A alternativa C muda o sentido: 'ordem imediata' descreve a ordem como sendo rápida, mas no original 'imediatamente' descreve como o recruta obedeceu. A alternativa D divide informações que estavam integradas. A alternativa E é semanticamente absurda."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "A frase 'Os marinheiros construíram o barco.' reescrita com sujeito paciente fica:",
+      "enunciado": "Julgue: substituir 'eficiente' por 'eficaz' na frase 'O procedimento foi eficiente' constitui reescritura sem alteração de sentido.",
       "alternativas": {
-        "A": "O barco foi construído dos marinheiros.",
-        "B": "O barco foi construídos pelos marinheiros.",
-        "C": "O barco foram construído pelos marinheiros.",
-        "D": "O barco foi construído pelos marinheiros.",
-        "E": "Os marinheiros foram construídos pelo barco."
+        "A": "Certo — eficiente e eficaz são sinônimos perfeitos em qualquer contexto.",
+        "B": "Errado — 'eficiente' refere-se ao uso adequado dos meios; 'eficaz' refere-se ao alcance do resultado, o que pode gerar sentido diferente.",
+        "C": "Certo — ambas as palavras descrevem qualidades positivas de um procedimento.",
+        "D": "Errado — 'eficaz' é palavra mais formal e não pode substituir 'eficiente' em textos técnicos.",
+        "E": "Certo — a diferença entre os termos não é relevante para fins de prova."
       },
-      "gabarito": "D",
-      "explicacao": "(A) é correta: 'o barco' (masc. sing.) é sujeito paciente; 'foi' concorda com sujeito singular; 'construído' concorda com sujeito masc. sing.; 'pelos marinheiros' é o agente da passiva. (B) 'construídos' (plural) não concorda com 'o barco' (singular). (C) 'foram' (plural) não concorda com 'o barco' (singular). (D) usa preposição 'de' em vez de 'por' para o agente. (E) inverte agente e paciente, resultando em sentido absurdo."
+      "gabarito": "B",
+      "explicacao": "Embora 'eficiente' e 'eficaz' sejam frequentemente usados como sinônimos no cotidiano, eles têm distinções técnicas relevantes: 'eficiente' indica que algo cumpre sua função com bom uso dos recursos (meios); 'eficaz' indica que algo produz o efeito pretendido (resultado). Em textos formais e na linguagem de concursos, essa diferença pode ser significativa. A CEBRASPE pode cobrar essa distinção, por isso a substituição não garante equivalência de sentido. A alternativa A está errada: não são sinônimos perfeitos em todos os contextos. A alternativa D está errada em sua justificativa — 'eficaz' não é necessariamente mais formal."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "Considere a frase: 'A decisão foi tomada com rapidez.' Qual reescritura substitui corretamente o adjunto adverbial 'com rapidez' por um advérbio?",
+      "enunciado": "A frase 'O comandante não aprovou o plano' é semanticamente equivalente a:",
       "alternativas": {
-        "A": "A decisão foi tomada rápido.",
-        "B": "A decisão foi tomada rapidamente.",
-        "C": "A decisão foi tomada em rapidez.",
-        "D": "A decisão foi tomada velozamente.",
-        "E": "A decisão foi tomada com rapidez."
+        "A": "O plano foi aprovado pelo comandante.",
+        "B": "O plano não foi aprovado pelo comandante.",
+        "C": "O comandante aprovou apenas parte do plano.",
+        "D": "O plano foi recusado, mas o comandante não estava presente.",
+        "E": "O comandante rejeitou o plano e o destruiu."
       },
       "gabarito": "B",
-      "explicacao": "(A) é correta: 'com rapidez' (locução adverbial de modo) equivale a 'rapidamente' (advérbio de modo formado com o sufixo '-mente'). (B) 'rápido' pode ser usado como advérbio na língua coloquial, mas na norma culta de provas militares é preferível 'rapidamente'; além disso, o enunciado pede o advérbio derivado de 'rapidez'. (C) 'em rapidez' não é locução adverbial padrão. (D) 'velozamente' é sinônimo, mas não equivale morfologicamente a 'com rapidez'. (E) reproduz o original sem alteração."
+      "explicacao": "A alternativa B é a transformação para voz passiva negativa, preservando todos os elementos: a negação ('não'), a ação ('aprovado'), o agente ('pelo comandante') e o objeto ('o plano'). A alternativa A elimina a negação — muda o sentido para o oposto, indicando que houve aprovação. A alternativa C adiciona uma informação ('apenas parte') que não existia na frase original. A alternativa D adiciona uma condição sobre a presença do comandante, inventando informação. A alternativa E vai além da frase original ao adicionar 'e o destruiu', acrescentando ação não mencionada."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Qual das alternativas apresenta reescritura que preserva integralmente o sentido de 'Ele saiu porque estava cansado.'?",
+      "enunciado": "Julgue: a frase 'O navio partiu antes de o abastecimento ser concluído' tem o mesmo sentido de 'O navio partiu sem que o abastecimento fosse concluído'.",
       "alternativas": {
-        "A": "Ele saiu em virtude do cansaço.",
-        "B": "Ele saiu apesar do cansaço.",
-        "C": "Ele saiu embora estivesse cansado.",
-        "D": "Ele saiu para descansar.",
-        "E": "Se estivesse cansado, ele sairia."
+        "A": "Errado — 'antes de' indica anterioridade temporal; 'sem que' indica ausência de condição, sentidos distintos.",
+        "B": "Certo — ambas as frases informam que a partida ocorreu e o abastecimento não havia sido concluído nesse momento.",
+        "C": "Errado — 'sem que' indica que o abastecimento nunca seria concluído; 'antes de' não implica isso.",
+        "D": "Certo — mas apenas porque 'antes de' e 'sem que' são conjunções da mesma classe.",
+        "E": "Errado — na segunda frase, o navio não parte realmente, apenas planeja partir."
       },
-      "gabarito": "A",
-      "explicacao": "(A) é correta: 'em virtude do cansaço' é locução causal que equivale a 'porque estava cansado'. O sentido causal é preservado. (B) 'apesar do cansaço' expressa concessão ('saiu mesmo estando cansado'), invertendo a relação lógica. (C) 'embora estivesse cansado' expressa concessão, não causalidade. (D) 'para descansar' expressa finalidade, acrescentando informação não presente no original. (E) 'se estivesse cansado' expressa condição hipotética, diferente da afirmação factual do original."
+      "gabarito": "B",
+      "explicacao": "Ambas as frases comunicam o mesmo fato: o navio partiu e, nesse momento, o abastecimento não estava concluído. 'Antes de o abastecimento ser concluído' situa a partida no tempo (anterioridade em relação à conclusão do abastecimento). 'Sem que o abastecimento fosse concluído' indica a ausência desse estado no momento da partida. O conteúdo informativo é equivalente em ambos os casos. A alternativa A está errada em sua conclusão: embora a análise gramatical dos conectivos difira, o sentido resultante é o mesmo neste contexto. A alternativa D está errada: 'antes de' e 'sem que' pertencem a classes gramaticais diferentes."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'A comissão avaliará os projetos submetidos até sexta-feira.' Assinale a alternativa que apresenta a reescritura na voz passiva sem alterar o sentido:",
+      "enunciado": "Leia o trecho a seguir e assinale a reescritura que preserva integralmente o sentido.",
+      "textoBase": "O Comando do 4° Distrito Naval determinou que as guarnições reforçassem a vigilância nas áreas de acesso restrito, em razão das ameaças identificadas.",
       "alternativas": {
-        "A": "Os projetos submetidos até sexta-feira serão avaliado pela comissão.",
-        "B": "Os projetos submetidos até sexta-feira serão avaliados da comissão.",
-        "C": "Os projetos submetidos até sexta-feira serão avaliados pela comissão.",
-        "D": "Os projetos submetidos até sexta-feira foram avaliados pela comissão.",
-        "E": "Os projetos submetidos até sexta-feira serão avaliados, pela comissão."
+        "A": "As guarnições foram determinadas pelo Comando a reforçar a vigilância.",
+        "B": "O Comando determinou que as guarnições reforçassem a vigilância porque foram identificadas ameaças nas áreas de acesso restrito.",
+        "C": "Em virtude das ameaças identificadas, o Comando do 4° Distrito Naval determinou que as guarnições reforçassem a vigilância nas áreas de acesso restrito.",
+        "D": "As ameaças identificadas determinaram que as guarnições reforçassem a vigilância.",
+        "E": "O Comando reforçou a vigilância nas áreas de acesso restrito por causa das ameaças."
       },
       "gabarito": "C",
-      "explicacao": "(A) é correta: 'avaliará' (futuro do presente) → 'serão avaliados' (futuro do presente passivo), concordando com 'os projetos' (masc. pl.); agente da passiva 'pela comissão' correto. (B) usa 'da' em vez de 'pela'. (C) 'avaliado' não concorda com 'os projetos' (plural). (D) 'foram avaliados' é pretérito perfeito, diferente do futuro do original. (E) a vírgula antes de 'pela comissão' é inadequada e fragmenta o agente da passiva."
+      "explicacao": "A alternativa C preserva todos os elementos do trecho original: o sujeito agente (Comando do 4° Distrito Naval), a ação (determinar), o objeto da determinação (que as guarnições reforçassem a vigilância nas áreas de acesso restrito) e a causa (ameaças identificadas). A única mudança é o deslocamento do adjunto adverbial de causa para o início da frase — operação válida que mantém o sentido. A alternativa A muda o sentido ao atribuir 'determinadas' ao sujeito errado (guarnições não são determinadas — são a quem se determina algo). A alternativa D muda o sujeito da determinação (ameaças não emitem determinações). A alternativa E muda o sujeito da ação de reforço — foi o Comando que determinou que as guarnições reforçassem."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Reescreva: 'Para que o projeto fosse aprovado, a equipe trabalhou durante meses.' Qual alternativa usa locução final equivalente com correção?",
+      "enunciado": "Assinale a alternativa que apresenta reescritura INCORRETA do trecho a seguir.",
+      "textoBase": "Embora o prazo fosse curto, a equipe entregou o relatório completo.",
       "alternativas": {
-        "A": "Com o intuito de que o projeto aprovasse, a equipe trabalhou durante meses.",
-        "B": "Com o intuito de aprovar o projeto, a equipe trabalhou durante meses.",
-        "C": "A fim de que o projeto fosse aprovado, a equipe trabalhou durante meses.",
-        "D": "Porque o projeto fosse aprovado, a equipe trabalhou durante meses.",
-        "E": "Embora o projeto fosse aprovado, a equipe trabalhou durante meses."
+        "A": "Apesar do prazo curto, a equipe entregou o relatório completo.",
+        "B": "Mesmo com o prazo curto, a equipe conseguiu entregar o relatório completo.",
+        "C": "A equipe entregou o relatório completo, ainda que o prazo fosse curto.",
+        "D": "Se o prazo fosse curto, a equipe entregaria o relatório completo.",
+        "E": "O prazo era curto; mesmo assim, a equipe entregou o relatório completo."
       },
-      "gabarito": "B",
-      "explicacao": "(A) é correta: 'com o intuito de aprovar o projeto' usa locução prepositiva final + infinitivo, transformando a oração subordinada final em locução equivalente e preservando o sentido. (B) mantém forma conjugada após 'com o intuito de', o que é agramatical. (C) preserva a estrutura oracional com 'a fim de que' + subjuntivo — é gramaticalmente correta como variante, mas não é uma locução (mantém oração); porém mais importante: a questão pede substituição por locução, eliminando (C). (D) 'porque' expressa causa, não finalidade. (E) 'embora' expressa concessão."
+      "gabarito": "D",
+      "explicacao": "A frase original usa 'embora', uma conjunção concessiva, indicando um fato real (prazo curto) que não impediu outro fato real (entrega do relatório). A alternativa D usa 'se', uma conjunção condicional, transformando os dois fatos reais em hipóteses — o que muda completamente o sentido. Na frase com 'se', nem o prazo curto nem a entrega são apresentados como fatos ocorridos. As demais alternativas preservam corretamente a concessão: A usa 'apesar de', B usa 'mesmo com', C usa 'ainda que', E usa 'mesmo assim' — todas são formas válidas de expressar concessão e preservam o sentido original."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "A frase 'O engenheiro, cujo projeto foi premiado, recebeu uma bolsa.' pode ser reescrita como:",
+      "enunciado": "Julgue se a nominalização a seguir preserva o sentido do trecho original.",
+      "textoBase": "O contra-almirante decidiu antecipar a manobra após analisar as condições meteorológicas.",
       "alternativas": {
-        "A": "O engenheiro que foi premiado o projeto recebeu uma bolsa.",
-        "B": "O engenheiro, que o projeto foi premiado, recebeu uma bolsa.",
-        "C": "O engenheiro, o projeto que foi premiado, recebeu uma bolsa.",
-        "D": "O engenheiro, que teve o projeto premiado, recebeu uma bolsa.",
-        "E": "O engenheiro, de qual o projeto foi premiado, recebeu uma bolsa."
+        "A": "Certo — 'A decisão de antecipar a manobra ocorreu após análise das condições meteorológicas' preserva o sentido.",
+        "B": "Errado — a nominalização perde o agente (contra-almirante) e altera o sentido.",
+        "C": "Certo — 'A decisão de antecipar a manobra, após análise das condições meteorológicas pelo contra-almirante' preserva o sentido.",
+        "D": "Errado — nominalização nunca preserva o sentido de frases com verbos de decisão.",
+        "E": "Certo — 'Antecipação da manobra: decisão tomada' preserva o sentido de forma resumida."
       },
-      "gabarito": "D",
-      "explicacao": "(A) é correta: 'cujo projeto foi premiado' (pronome relativo 'cujo' + substantivo 'projeto') é substituído por oração relativa com verbo 'ter' + objeto direto: 'que teve o projeto premiado'. O sentido possessivo de 'cujo' é mantido. (B) 'que o projeto foi premiado' é estrutura agramatical — o pronome 'que' não pode ser seguido diretamente de sujeito sem preposição. (C) não há verbo na relativa, tornando a frase agramatical. (D) suprime as vírgulas do aposto e cria ambiguidade sobre quem foi premiado. (E) 'de qual' é construção não padrão; o correto seria 'do qual o projeto foi premiado'."
+      "gabarito": "C",
+      "explicacao": "A alternativa C é a nominalização correta e completa: 'decisão' nominaliza 'decidiu', 'antecipar' mantém a ação, e 'pelo contra-almirante' preserva o agente original. A alternativa A omite o agente ('contra-almirante'), o que constitui perda de informação — a frase nominalizada passa a não informar quem decidiu, diferente do original que deixa isso explícito. A alternativa B está correta em identificar o problema da versão A, mas a afirmação geral de que toda nominalização altera o sentido é falsa — depende de como é feita. A alternativa E é uma paráfrase excessivamente resumida que perde muitas informações essenciais."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Transforme 'Análise cuidadosa dos dados foi realizada pelos pesquisadores.' para a voz ativa preservando o tempo verbal e o sentido.",
+      "enunciado": "Qual das reescriturasabaixo altera o sentido do trecho original?",
+      "textoBase": "Somente os oficiais de carreira participaram da cerimônia de imposição de condecorações.",
       "alternativas": {
-        "A": "Os pesquisadores vão realizar análise cuidadosa dos dados.",
-        "B": "Os pesquisadores realizavam análise cuidadosa dos dados.",
-        "C": "Os pesquisadores realizaram análise cuidadosa dos dados.",
-        "D": "Os dados realizaram análise cuidadosa pelos pesquisadores.",
-        "E": "Os pesquisadores realizaram os dados com análise cuidadosa."
+        "A": "Apenas os oficiais de carreira participaram da cerimônia de imposição de condecorações.",
+        "B": "Os oficiais de carreira foram os únicos a participar da cerimônia de imposição de condecorações.",
+        "C": "Da cerimônia de imposição de condecorações, participaram somente os oficiais de carreira.",
+        "D": "Os oficiais participaram somente da cerimônia de imposição de condecorações.",
+        "E": "Nenhum militar que não fosse oficial de carreira participou da cerimônia de imposição de condecorações."
       },
-      "gabarito": "C",
-      "explicacao": "(A) é correta: agente 'pelos pesquisadores' → sujeito ativo 'os pesquisadores'; sujeito paciente 'análise cuidadosa dos dados' → objeto direto; 'foi realizada' (pretérito perfeito passivo) → 'realizaram' (pretérito perfeito ativo). (B) usa pretérito imperfeito, alterando o tempo. (C) usa futuro perifrástico, diferente do pretérito. (D) inverte os papéis, resultando em sentido absurdo. (E) desestrutura os termos e altera o sentido."
+      "gabarito": "D",
+      "explicacao": "A alternativa D muda o escopo do advérbio 'somente'. No original, 'somente os oficiais de carreira' restringe quem participou — a cerimônia era exclusiva a esse grupo. Na alternativa D, 'somente da cerimônia de imposição de condecorações' restringe de qual evento os oficiais participaram — passando a ideia de que os oficiais participaram exclusivamente dessa cerimônia (e não de outras). São restrições sobre elementos diferentes da frase. As alternativas A e C preservam a restrição sobre os participantes. A alternativa B usa 'únicos', que tem o mesmo efeito de exclusividade do 'somente'. A alternativa E usa negação total equivalente ao 'somente' original."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Assinale a reescritura de 'Venderam-se muitos livros na feira.' que preserva o sentido e a correção gramatical:",
+      "enunciado": "Julgue se a reescritura proposta preserva o sentido do original.",
+      "textoBase": "O navio zarrou antes de receber a autorização do porto.",
       "alternativas": {
-        "A": "Muitos livros foram vendidos na feira por alguém.",
-        "B": "Muitos livros foram vendidos na feira.",
-        "C": "Muitos livros vendeu-se na feira.",
-        "D": "Muitos livros venderam na feira.",
-        "E": "Na feira, muitos livros foi vendido."
+        "A": "Certo — 'O navio zarrou sem ter recebido a autorização do porto' preserva o sentido.",
+        "B": "Errado — 'antes de' indica prioridade; 'sem ter recebido' indica ausência, sentidos diferentes.",
+        "C": "Certo — 'A autorização do porto chegou depois que o navio zarrou' preserva o sentido.",
+        "D": "Errado — a frase da alternativa C implica que a autorização chegou, o que não está no original.",
+        "E": "Certo — 'O navio aguardou, então zarrou sem autorização' é equivalente."
       },
-      "gabarito": "B",
-      "explicacao": "(A) é correta: a voz passiva sintética 'venderam-se' equivale à passiva analítica 'foram vendidos'. O agente não é expresso porque o sujeito original é indeterminado. (B) acrescenta 'por alguém', explicitando agente não presente no original e alterando o sentido. (C) 'vendeu-se' é singular e não concorda com 'muitos livros'. (D) 'venderam' sem pronome é voz ativa com sujeito indeterminado, construção possível, mas 'muitos livros' seria objeto, não sujeito — a vírgula ou preposição seria necessária. (E) 'foi vendido' não concorda com 'muitos livros' (plural)."
+      "gabarito": "A",
+      "explicacao": "A alternativa A está correta. 'O navio zarrou antes de receber a autorização' comunica que, no momento do zarpar, a autorização ainda não havia sido recebida. 'O navio zarrou sem ter recebido a autorização' comunica exatamente o mesmo: o zarpar ocorreu na ausência da autorização. Ambas as frases informam o mesmo fato: zarpar precedeu (e portanto excluiu) o recebimento da autorização. A alternativa C parece plausível, mas cria uma implicação de que a autorização finalmente chegou depois — o original não afirma isso, tornando D uma observação válida. A alternativa E adiciona 'aguardou', informação inexistente no original."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "A frase 'A reunião começará às 14h.' pode ser reescrita como 'O início da reunião...'",
+      "enunciado": "Identifique a alternativa que contém reescritura com sentido equivalente ao do trecho original.",
+      "textoBase": "Como a comunicação falhou, a missão precisou ser abortada.",
       "alternativas": {
-        "A": "...é às 14h começa.",
-        "B": "...começa às 14h.",
-        "C": "...começará às 14h.",
-        "D": "...está previsto para as 14h.",
-        "E": "...às 14h é previsto."
+        "A": "A missão precisou ser abortada, portanto a comunicação falhou.",
+        "B": "A comunicação falhou; por isso, foi necessário abortar a missão.",
+        "C": "Embora a comunicação tivesse falhado, a missão precisou ser abortada.",
+        "D": "A missão foi abortada antes que a comunicação falhasse.",
+        "E": "Se a comunicação falhasse, a missão precisaria ser abortada."
       },
-      "gabarito": "D",
-      "explicacao": "(A) é correta: nominalização de 'começar' → 'o início'; 'começará' (futuro) → 'está previsto para' (locução que expressa futuridade). O sentido de previsão temporal é mantido. (B) usa presente em vez de futuro, alterando o tempo. (C) mantém 'começará' mas 'o início' não pode ter como predicado um verbo de ação ('começar'), pois 'início' já é o substantivo do evento. (D) estrutura agramatical com dois predicados. (E) estrutura sintática invertida e agramatical sem verbo de ligação."
+      "gabarito": "B",
+      "explicacao": "A frase original estabelece uma relação de causa ('como a comunicação falhou') e efeito ('a missão precisou ser abortada'). A alternativa B preserva essa relação: 'A comunicação falhou' é a causa; 'por isso, foi necessário abortar a missão' é a consequência. A alternativa A inverte a relação causa-efeito, sugerindo que o abortamento causou a falha — sentido oposto ao original. A alternativa C usa concessão ('embora'), que indica que a falha não deveria levar ao abortamento — contradiz o original. A alternativa D afirma que o abortamento ocorreu antes da falha — inversão temporal. A alternativa E transforma fatos reais em hipótese."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Considere: 'O aluno foi elogiado pela professora.' Qual das reescritas abaixo está INCORRETA?",
+      "enunciado": "Julgue a reescritura a seguir como correta ou incorreta.",
+      "textoBase": "O instrutor exigiu que todos os recrutas revisassem os procedimentos de segurança.",
       "alternativas": {
-        "A": "A professora elogiou o aluno.",
-        "B": "A professora elogiou-o.",
-        "C": "O aluno, a professora elogiou.",
-        "D": "O aluno foi elogiado por a professora.",
-        "E": "O aluno recebeu elogios da professora."
+        "A": "Certo — 'Todos os recrutas foram exigidos pelo instrutor a revisar os procedimentos' preserva o sentido.",
+        "B": "Certo — 'A revisão dos procedimentos de segurança foi exigida pelo instrutor a todos os recrutas' preserva o sentido.",
+        "C": "Errado — nenhuma reescritura em voz passiva é adequada para este tipo de frase.",
+        "D": "Certo — 'O instrutor exigiu a revisão dos procedimentos de segurança de todos os recrutas' preserva o sentido.",
+        "E": "Errado — a frase original não permite reescritura sem perda semântica."
       },
       "gabarito": "D",
-      "explicacao": "A questão pede a alternativa INCORRETA. (D) é incorreta porque 'por a professora' é agramatical — a preposição 'por' seguida de artigo definido feminino 'a' deve ser contraída em 'pela'. (A) é correta: voz ativa equivalente. (B) é correta: pronome oblíquo 'o' retoma 'o aluno', objeto direto. (C) é correta: topicalização do objeto com ordem invertida e vírgula adequada. (E) é correta: paráfrase com verbo 'receber' + complemento nominal 'da professora'."
+      "explicacao": "A alternativa D é uma nominalização e reescritura válida: 'exigiu que revisassem os procedimentos' transforma-se em 'exigiu a revisão dos procedimentos', preservando sujeito (instrutor), ação (exigir), objeto da exigência (revisão dos procedimentos de segurança) e destinatários (todos os recrutas). A alternativa A está errada porque 'recrutas' não podem ser 'exigidos' — a construção passiva não funciona gramaticalmente assim. A alternativa B tem construção gramatical discutível com a preposição 'a' antes de 'todos os recrutas'. A alternativa C está errada: existem formas válidas de reestruturar essa frase. A alternativa E está errada: a alternativa D demonstra que a reescritura é possível."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Reescreva 'Se houver problemas técnicos, a missão será cancelada.' substituindo a oração condicional por locução equivalente:",
+      "enunciado": "Qual das opções apresenta reescritura que NÃO altera o sentido do trecho?",
+      "textoBase": "O exercício foi concluído com êxito, apesar das condições adversas do mar.",
       "alternativas": {
-        "A": "Apesar de problemas técnicos, a missão será cancelada.",
-        "B": "Por problemas técnicos, a missão será cancelada.",
-        "C": "Em caso de problemas técnicos, a missão será cancelada.",
-        "D": "Embora haja problemas técnicos, a missão será cancelada.",
-        "E": "Porque haja problemas técnicos, a missão será cancelada."
+        "A": "As condições adversas do mar impediram que o exercício fosse concluído com êxito.",
+        "B": "O exercício foi concluído com êxito porque as condições do mar eram adversas.",
+        "C": "Mesmo diante das condições adversas do mar, o exercício foi concluído com êxito.",
+        "D": "O exercício só seria concluído com êxito se as condições do mar fossem adversas.",
+        "E": "As condições adversas do mar tornaram o exercício muito difícil e ele quase não foi concluído."
       },
       "gabarito": "C",
-      "explicacao": "(A) é correta: 'em caso de' é locução prepositiva condicional equivalente a 'se houver'. Preserva a condição hipotética. (B) 'por' expressa causa, alterando a relação semântica de condicional para causal. (C) 'apesar de' expressa concessão, invertendo a relação lógica. (D) 'embora' expressa concessão com subjuntivo, não condição. (E) 'porque' expressa causa, não condição, e 'haja' (subjuntivo) seria inadequado após conjunção causal."
+      "explicacao": "A alternativa C usa 'mesmo diante de', que é sinônimo de 'apesar de' — ambas são locuções concessivas que indicam um obstáculo (condições adversas) que não impediu o resultado (conclusão com êxito). O sentido é preservado. A alternativa A contradiz o original: afirma que as condições adversas impediram o êxito, enquanto o original diz que o êxito foi alcançado apesar delas. A alternativa B muda a relação lógica de concessão para causa (as condições adversas causaram o êxito — inverossímil no contexto). A alternativa D transforma fatos reais em hipótese condicional. A alternativa E adiciona 'quase não foi concluído', informação que não existe no original."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "A reescritura de 'O navio, que o comandante inspecionou, partiu ontem.' substituindo 'que...inspecionou' por uma forma equivalente com 'cujo' está correta em:",
+      "enunciado": "Assinale a alternativa em que a reescritura altera o sentido da frase original.",
+      "textoBase": "O oficial informou os recrutas sobre os riscos da operação antes de iniciá-la.",
       "alternativas": {
-        "A": "Não é possível usar 'cujo' aqui, pois 'que' funciona como objeto direto sem relação possessiva.",
-        "B": "O navio, cujo comandante inspecionou, partiu ontem.",
-        "C": "O navio, do qual o comandante inspecionou, partiu ontem.",
-        "D": "O navio, cuja inspeção o comandante realizou, partiu ontem.",
-        "E": "O navio, que foi inspecionado pelo comandante, partiu ontem."
+        "A": "Antes de iniciar a operação, o oficial informou os recrutas sobre os riscos.",
+        "B": "Os recrutas foram informados pelo oficial sobre os riscos da operação antes de iniciá-la.",
+        "C": "O oficial comunicou aos recrutas os riscos da operação previamente ao seu início.",
+        "D": "Os recrutas informaram o oficial sobre os riscos antes de iniciar a operação.",
+        "E": "O oficial, antes de iniciar a operação, informou os recrutas acerca de seus riscos."
       },
       "gabarito": "D",
-      "explicacao": "(D) é a alternativa que usa corretamente 'cujo': 'cuja inspeção' relaciona o navio (antecedente) à inspeção (substantivo seguinte), com relação possessiva implícita ('a inspeção do navio'). O sentido é preservado. (A) está errada ao afirmar impossibilidade — 'cujo' pode ser usado com nominalização. (B) 'cujo comandante' sugeriria que o navio possui o comandante como um atributo possessivo, não que o comandante inspecionou o navio. (C) 'do qual o comandante inspecionou' é agramatical — 'do qual' seria objeto indireto, mas 'inspecionar' é transitivo direto. (E) reescreve na passiva, que é correta mas não usa 'cujo', como exige a questão."
+      "explicacao": "A alternativa D inverte os papéis: na frase original, o oficial informa os recrutas; na alternativa D, os recrutas informam o oficial. Isso muda completamente quem detém e transmite a informação. As demais alternativas preservam o sentido: A desloca o adjunto temporal para o início (válido); B transforma em voz passiva corretamente, mantendo 'pelo oficial' como agente; C usa sinônimos ('comunicou', 'previamente') e reordena sem perder informação; E desloca o adjunto temporal para posição medial, também válido."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa que NÃO preserva o sentido de 'Ele saiu muito cedo para não perder o trem.'",
+      "enunciado": "Julgue: a frase 'O tenente aprovou o plano tão logo analisou os dados' pode ser reescrita como 'Assim que analisou os dados, o tenente aprovou o plano', sem alteração de sentido.",
       "alternativas": {
-        "A": "Ele saiu muito cedo a fim de não perder o trem.",
-        "B": "Ele saiu muito cedo para que não perdesse o trem.",
-        "C": "Ele saiu muito cedo com o objetivo de não perder o trem.",
-        "D": "Ele saiu muito cedo porque não perdeu o trem.",
-        "E": "Ele saiu muito cedo de modo a não perder o trem."
+        "A": "Errado — 'tão logo' indica imediatidade; 'assim que' indica sequência simples, sentidos distintos.",
+        "B": "Errado — a segunda frase inverte a ordem dos eventos, alterando o sentido.",
+        "C": "Certo — ambas as expressões indicam que a aprovação ocorreu imediatamente após a análise dos dados.",
+        "D": "Certo — mas apenas porque as frases têm o mesmo número de palavras.",
+        "E": "Errado — 'assim que' é conectivo de tempo, enquanto 'tão logo' é de modo."
       },
-      "gabarito": "D",
-      "explicacao": "(D) NÃO preserva o sentido: 'porque não perdeu o trem' transforma a relação de finalidade (saiu cedo para não perder) em causal (saiu cedo em decorrência de não ter perdido), além de indicar resultado já ocorrido ('não perdeu'), o que é diferente da intenção expressa no original. (A), (B), (C) e (E) expressam finalidade com locuções diferentes ('a fim de', 'para que + subjuntivo', 'com o objetivo de', 'de modo a'), todas equivalentes semânticas válidas."
+      "gabarito": "C",
+      "explicacao": "As expressões 'tão logo' e 'assim que' são locuções conjuntivas temporais sinônimas, ambas indicando que uma ação ocorreu imediatamente após outra. Nesse caso, a análise dos dados precedeu imediatamente a aprovação do plano — em ambas as frases. A mudança de ordem das orações não altera o conteúdo factual: a sequência real de eventos é a mesma (análise → aprovação). A alternativa A está errada: 'tão logo' e 'assim que' têm o mesmo valor de imediatidade e pertencem à mesma classe de conectivos temporais. A alternativa E está errada: ambas são conjunções temporais, não de modo."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Considere o período: 'Tanto o comandante quanto os oficiais assinaram o documento.' Qual reescritura preserva corretamente o sentido, a concordância e a ênfase coletiva?",
+      "enunciado": "Leia o trecho e identifique a reescritura que NÃO preserva o sentido.",
+      "textoBase": "A incorporação dos novos recrutas foi adiada em virtude de problemas logísticos que comprometeram o planejamento inicial, o que levou o Comando a rever o cronograma completo.",
       "alternativas": {
-        "A": "O documento foi assinado tanto pelo comandante quanto pelos oficiais.",
-        "B": "O documento foi assinado tanto pelo comandante quanto pelos oficiais, respectivamente.",
-        "C": "Tanto o documento quanto os oficiais foram assinados pelo comandante.",
-        "D": "O documento foi assinado pelo comandante e os oficiais.",
-        "E": "O documento foi assinado pelo comandante, assim como pelos oficiais."
+        "A": "Problemas logísticos que comprometeram o planejamento inicial fizeram com que a incorporação fosse adiada e o Comando revisse o cronograma completo.",
+        "B": "Em razão de problemas logísticos que afetaram o planejamento inicial, a incorporação foi postergada, levando o Comando a revisar o cronograma completo.",
+        "C": "O Comando reviu o cronograma completo porque adiou a incorporação, que havia sido prejudicada por problemas logísticos.",
+        "D": "Problemas logísticos comprometeram o planejamento inicial, adiando a incorporação e levando o Comando a rever o cronograma completo.",
+        "E": "A incorporação foi adiada e o cronograma foi revisto pelo Comando devido a problemas logísticos que afetaram o planejamento inicial."
       },
-      "gabarito": "A",
-      "explicacao": "(A) é correta: a correlação 'tanto...quanto' é preservada na passiva, distribuindo-se entre agente e co-agente ('pelo comandante' / 'pelos oficiais'). O sentido de ação coletiva e enfática é mantido. (B) acrescenta 'respectivamente', que indica sequência ordenada de pares, inexistente no original. (C) inverte os papéis: 'o documento' não pode ser agente de 'assinar'. (D) suprime 'tanto...quanto', perdendo a correlação enfática. (E) 'assim como' não é equivalente a 'tanto...quanto'; expressa adição com menor ênfase na simultaneidade."
+      "gabarito": "C",
+      "explicacao": "No trecho original, a cadeia causal é: problemas logísticos → comprometeram o planejamento → adiamento da incorporação → revisão do cronograma pelo Comando. A alternativa C inverte parte dessa cadeia: 'o Comando reviu o cronograma porque adiou a incorporação' apresenta o adiamento como causa direta da revisão, apagando os problemas logísticos como causa primária. Na realidade, tanto o adiamento quanto a revisão do cronograma são consequências dos problemas logísticos — não um causa do outro. As demais alternativas preservam essa estrutura causal original, apenas reorganizando a apresentação."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "A frase 'Não obstante as dificuldades encontradas, o relatório foi concluído no prazo.' reescrita com oração adverbial concessiva fica:",
+      "enunciado": "Analise o trecho e julgue a reescritura proposta.",
+      "textoBase": "Não apenas o equipamento falhou, mas também a comunicação entre as equipes apresentou falhas graves, o que inviabilizou a conclusão da operação no prazo previsto.",
       "alternativas": {
-        "A": "Se houvesse dificuldades, o relatório seria concluído no prazo.",
-        "B": "Porque houve dificuldades, o relatório foi concluído no prazo.",
-        "C": "Embora houvesse dificuldades, o relatório foi concluído no prazo.",
-        "D": "Para que houvesse dificuldades, o relatório foi concluído no prazo.",
-        "E": "Quando houve dificuldades, o relatório foi concluído no prazo."
+        "A": "Certo — 'O equipamento falhou e a comunicação entre as equipes apresentou falhas graves, inviabilizando a conclusão da operação no prazo' preserva o sentido integral.",
+        "B": "Errado — a reescritura da alternativa A elimina a ênfase do 'não apenas... mas também', mudando o sentido.",
+        "C": "Certo — a ênfase de 'não apenas... mas também' é mero recurso estilístico sem valor semântico.",
+        "D": "Errado — a conclusão da operação foi inviabilizada apenas pela falha de comunicação, não pelo equipamento.",
+        "E": "Certo — 'A operação não foi concluída no prazo porque o equipamento e a comunicação falharam' preserva o sentido."
       },
-      "gabarito": "C",
-      "explicacao": "(A) é correta: 'não obstante' é locução concessiva equivalente a 'embora'. A oração 'embora houvesse dificuldades' está no subjuntivo imperfeito, compatível com o pretérito perfeito da oração principal. (B) 'porque' expressa causa, não concessão. (C) 'se...seria' expressa condição hipotética. (D) 'para que' expressa finalidade. (E) 'quando' expressa tempo. Todas as alternativas incorretas trocam a relação concessiva por outra relação semântica."
+      "gabarito": "E",
+      "explicacao": "A alternativa E preserva o sentido essencial: ambos os problemas (equipamento e comunicação) causaram a não conclusão no prazo. A correlação 'não apenas... mas também' adiciona ênfase ao acúmulo, mas o conteúdo factual — dois problemas que inviabilizaram a operação — está preservado em 'porque o equipamento e a comunicação falharam'. A alternativa D está factualmente errada: o texto menciona ambos os problemas como causas. A alternativa B levanta um ponto sobre ênfase, mas na linguagem de concursos, ênfase estilística geralmente não constitui mudança de 'sentido' para fins de julgamento de reescritura — o que importa é o conteúdo proposicional. A alternativa A também é defensável, mas E é mais precisa ao capturar a relação causal."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Suspeitou-se de fraude no processo seletivo.' Assinale a alternativa que representa corretamente a passagem para a voz ativa com sujeito determinado hipotético:",
+      "enunciado": "Julgue a seguinte reescritura como correta ou incorreta.",
+      "textoBase": "O sargento só assinou o documento depois que o tenente conferiu cada cláusula minuciosamente.",
       "alternativas": {
-        "A": "As autoridades suspeitaram de fraude no processo seletivo.",
-        "B": "A fraude foi suspeitada no processo seletivo.",
-        "C": "Fraude foi suspeitada pelas autoridades no processo seletivo.",
-        "D": "Suspeitaram de fraude no processo seletivo.",
-        "E": "A fraude no processo seletivo foi alvo de suspeitas."
+        "A": "Certo — 'O documento só foi assinado pelo sargento após minuciosa conferência de cada cláusula pelo tenente' preserva o sentido.",
+        "B": "Errado — a reescritura passiva perde o advérbio de exclusão 'só', alterando o sentido.",
+        "C": "Certo — 'O tenente conferiu cada cláusula minuciosamente, então o sargento assinou o documento' preserva o sentido.",
+        "D": "Errado — 'depois que' indica posterioridade; reescrever com 'então' indica consequência, sentidos distintos.",
+        "E": "Certo — 'Antes de assinar o documento, o sargento exigiu que o tenente conferisse cada cláusula' preserva o sentido."
       },
-      "gabarito": "D",
-      "explicacao": "A questão tem pegadinha sutil: 'suspeitar' é verbo transitivo INDIRETO (suspeitar DE algo), não admite voz passiva analítica com o complemento como sujeito. 'Suspeitou-se de fraude' é oração com sujeito indeterminado (uso do 'se' com verbo transitivo indireto — índice de indeterminação do sujeito, não apassivador). A passagem para a ativa com sujeito indeterminado é a terceira pessoa do plural sem agente expresso: 'Suspeitaram de fraude...' (D). (A) acrescenta 'as autoridades', informação não contida no original. (B) e (C) formam passivas analíticas indevidas com verbo transitivo indireto. (E) é paráfrase que nominaliza, válida estilisticamente mas não é a passagem para a ativa."
+      "gabarito": "A",
+      "explicacao": "A alternativa A é a reescritura em voz passiva correta: preserva o agente da assinatura ('pelo sargento'), o advérbio de exclusão 'só' (mantido na passiva com 'só foi assinado'), a ação precedente (conferência minuciosa de cada cláusula) e o responsável por ela ('pelo tenente'). Todos os elementos semânticos essenciais estão presentes. A alternativa C omite o 'só', que é crucial: a palavra indica que a assinatura dependia condicionalmente da conferência. A alternativa E muda quem toma a iniciativa — no original, a sequência é narrada como fato; na alternativa E, o sargento aparece como quem impõe a condição, acrescentando informação."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Considere: 'A rapidez com que o oficial tomou a decisão surpreendeu a todos.' Qual reescritura mantém integralmente o sentido usando verbalização?",
+      "enunciado": "Avalie a reescritura proposta para o trecho.",
+      "textoBase": "O fato de o contra-almirante ter aprovado pessoalmente o plano de operações conferiu credibilidade ao projeto e motivou as equipes.",
       "alternativas": {
-        "A": "O oficial tomou a decisão rapidamente e surpreendeu a todos.",
-        "B": "O fato de o oficial ter tomado a decisão tão rapidamente surpreendeu a todos.",
-        "C": "O oficial, que tomou a decisão com rapidez, surpreendeu a todos.",
-        "D": "Surpreendeu a todos que o oficial fosse rápido na decisão.",
-        "E": "Todos se surpreenderam com a decisão rápida do oficial."
+        "A": "O contra-almirante aprovou pessoalmente o plano de operações, o que conferiu credibilidade ao projeto e motivou as equipes.",
+        "B": "A aprovação pessoal do plano de operações pelo contra-almirante conferiu credibilidade e motivou as equipes.",
+        "C": "As equipes foram motivadas e o projeto ganhou credibilidade graças à aprovação do plano pelo contra-almirante.",
+        "D": "O contra-almirante aprovou o plano de operações, e isso foi pessoalmente importante para a credibilidade do projeto.",
+        "E": "A motivação das equipes e a credibilidade do projeto dependeram de o contra-almirante aprovar pessoalmente o plano."
       },
-      "gabarito": "B",
-      "explicacao": "(A) é correta: 'a rapidez com que... tomou a decisão' (sujeito com núcleo 'rapidez') é verbalizado em 'o fato de o oficial ter tomado a decisão tão rapidamente'. A oração substantiva com 'o fato de' equivale ao sujeito nominal original, preservando que foi a rapidez (não a decisão em si) que causou a surpresa. (B) coordena as ações, perdendo a informação de que foi a rapidez (modo) o fator surpreendente. (C) transforma o sujeito em adjunto adnominal relativo, alterando a estrutura informacional. (D) usa subjuntivo 'fosse', implicando dúvida inexistente no original; além disso, 'fosse rápido na decisão' não equivale a 'rapidez na tomada de decisão'. (E) perde a nuance de que foi especificamente a rapidez (e não a decisão) que surpreendeu."
+      "gabarito": "A",
+      "explicacao": "A alternativa A converte corretamente a oração substantiva ('o fato de o contra-almirante ter aprovado') em oração principal com oração relativa ('o que conferiu credibilidade...'). Todos os elementos estão preservados: o agente (contra-almirante), a ação (aprovar pessoalmente o plano de operações) e os efeitos (credibilidade ao projeto + motivação das equipes). A alternativa D desloca 'pessoalmente' para modificar a importância da aprovação para a credibilidade, não a ação de aprovar em si — mudança sutil de sentido. A alternativa E transforma afirmações em dependência hipotética ('dependeram de'), enfraquecendo a certeza do original. A alternativa C omite 'pessoalmente' antes de 'aprovação'."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "A frase 'Os engenheiros analisaram os dados antes de apresentarem o projeto.' pode ser reescrita com locuções preservando sentido e correção em:",
+      "enunciado": "Leia o trecho e identifique a reescritura que ALTERA o sentido.",
+      "textoBase": "A menos que o tempo melhore, o exercício naval será cancelado.",
       "alternativas": {
-        "A": "Os engenheiros analisaram os dados para apresentar o projeto.",
-        "B": "Antes de apresentar o projeto, os engenheiros analisaram os dados.",
-        "C": "Antes que apresentassem o projeto, os engenheiros procederam à análise dos dados.",
-        "D": "Antes da apresentação do projeto, os engenheiros procederam à análise dos dados.",
-        "E": "Os engenheiros analisaram os dados, portanto apresentaram o projeto."
+        "A": "Se o tempo não melhorar, o exercício naval será cancelado.",
+        "B": "O exercício naval será cancelado, caso o tempo não melhore.",
+        "C": "O tempo precisa melhorar para que o exercício naval não seja cancelado.",
+        "D": "O exercício naval não será cancelado desde que o tempo melhore.",
+        "E": "O exercício naval será cancelado porque o tempo não melhorará."
       },
-      "gabarito": "D",
-      "explicacao": "(A) é correta: 'antes de apresentarem o projeto' (oração temporal) → 'antes da apresentação do projeto' (locução temporal com nominalização); 'analisaram os dados' → 'procederam à análise dos dados' (verbalização em locução verbal com nominalização). Todas as informações são preservadas. (B) é gramaticalmente correta e equivalente em sentido, mas a reescrita é parcial (mantém 'analisaram' sem nominalizar e usa infinitivo). Porém, como não há erro de sentido, é uma alternativa concorrente válida — nesse tipo de questão, (A) é preferida por ser mais completa na transformação. (C) usa oração com 'antes que' + subjuntivo, não locução. (D) 'para apresentar' expressa finalidade, não anterioridade temporal. (E) 'portanto' expressa conclusão, alterando a relação semântica."
+      "gabarito": "E",
+      "explicacao": "A frase original com 'a menos que' expressa uma condição negativa: o cancelamento ocorrerá na ausência de melhora do tempo — mas a melhora ainda é possível (é uma hipótese). A alternativa E transforma essa hipótese em certeza: 'porque o tempo não melhorará' afirma como fato que o tempo não vai melhorar, e o cancelamento é apresentado como consequência certa de um fato certo — isso vai muito além do original. As alternativas A e B são equivalentes: 'a menos que X' equivale a 'se não X'. A alternativa C preserva o sentido condicionalmente. A alternativa D também preserva com 'desde que' (condição positiva equivalente à negação de 'a menos que')."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'O projeto, desenvolvido em tempo recorde, recebeu aprovação unânime do conselho.' Assinale a reescritura que expande a oração reduzida de particípio em oração desenvolvida sem alterar o sentido:",
+      "enunciado": "Julgue a reescritura a seguir.",
+      "textoBase": "Cumpre ao oficial de dia zelar pela segurança das instalações, bem como registrar qualquer ocorrência no livro de bordo.",
       "alternativas": {
-        "A": "O projeto, embora desenvolvido em tempo recorde, recebeu aprovação unânime do conselho.",
-        "B": "O projeto, que desenvolveu em tempo recorde, recebeu aprovação unânime do conselho.",
-        "C": "O projeto, que foi desenvolvido em tempo recorde, recebeu aprovação unânime do conselho.",
-        "D": "O projeto, porque foi desenvolvido em tempo recorde, recebeu aprovação unânime do conselho.",
-        "E": "O projeto, se fosse desenvolvido em tempo recorde, receberia aprovação unânime do conselho."
+        "A": "Certo — 'O oficial de dia deve zelar pela segurança das instalações e registrar as ocorrências no livro de bordo' preserva o sentido.",
+        "B": "Errado — 'cumpre' indica obrigação impessoal; 'deve' personaliza a obrigação, alterando o sentido.",
+        "C": "Certo — 'É dever do oficial de dia zelar pela segurança das instalações e registrar qualquer ocorrência no livro de bordo' preserva o sentido.",
+        "D": "Errado — a reescritura da alternativa C omite 'bem como', perdendo a ideia de acúmulo de responsabilidades.",
+        "E": "Certo — 'O oficial de dia tem a responsabilidade de zelar pela segurança e de registrar ocorrências no livro de bordo' preserva o sentido."
       },
       "gabarito": "C",
-      "explicacao": "(A) é correta: a oração reduzida de particípio 'desenvolvido em tempo recorde' equivale à oração adjetiva restritiva 'que foi desenvolvido em tempo recorde' (voz passiva). O particípio com valor adjetivo se expande com o pronome relativo 'que' + verbo ser + particípio. (B) usa voz ativa 'desenvolveu', mas 'projeto' é paciente (não pode desenvolver a si mesmo); além disso, falta sujeito. (C) 'embora' acrescenta valor concessivo inexistente no original. (D) 'porque' acrescenta valor causal inexistente. (E) muda para subjuntivo condicional, alterando completamente o sentido factual do original."
+      "explicacao": "A alternativa C é a reescritura mais precisa: 'É dever do oficial de dia' traduz fielmente 'Cumpre ao oficial de dia' (ambas expressam obrigação/dever), preserva as duas ações (zelar e registrar) e mantém a especificidade 'qualquer ocorrência'. A alternativa A omite 'qualquer' antes de 'ocorrências', o que pode atenuar o sentido de totalidade. A alternativa B levanta uma distinção exagerada: tanto 'cumpre a alguém' quanto 'alguém deve' expressam obrigação atribuída a uma pessoa específica — a diferença é mais estilística do que semântica. A alternativa D exagera ao afirmar que substituir 'bem como' por 'e' perde a ideia de acúmulo — ambos são aditivos equivalentes neste contexto."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Considere: 'Temia-se que os resultados fossem insatisfatórios.' Assinale a alternativa que reescreve corretamente na voz ativa com sujeito explícito hipotético 'todos':",
+      "enunciado": "Avalie qual reescritura do trecho a seguir altera o sentido de forma mais significativa.",
+      "textoBase": "O relatório foi entregue com atraso, razão pela qual o oficial responsável foi advertido formalmente pelo Comando.",
       "alternativas": {
-        "A": "Todos temiam os resultados insatisfatórios.",
-        "B": "Todos temiam que os resultados fossem insatisfatórios.",
-        "C": "Os resultados insatisfatórios eram temidos por todos.",
-        "D": "Todos tiveram medo que os resultados fossem insatisfatórios.",
-        "E": "Que os resultados fossem insatisfatórios era temido por todos."
+        "A": "O oficial responsável foi advertido formalmente pelo Comando porque entregou o relatório com atraso.",
+        "B": "O atraso na entrega do relatório motivou a advertência formal do Comando ao oficial responsável.",
+        "C": "O oficial responsável foi advertido, o que levou ao atraso na entrega do relatório.",
+        "D": "O Comando advertiu formalmente o oficial responsável em razão do atraso na entrega do relatório.",
+        "E": "Por ter entregue o relatório com atraso, o oficial responsável foi formalmente advertido pelo Comando."
       },
-      "gabarito": "B",
-      "explicacao": "(A) é correta: 'temia-se' com 'se' como índice de indeterminação do sujeito → sujeito explícito 'todos'; 'que os resultados fossem insatisfatórios' é oração subordinada substantiva objetiva direta, preservada integralmente. (B) suprime a oração substantiva 'que os resultados fossem insatisfatórios', perdendo a nuance do temor específico e a modalidade. (C) usa voz passiva em vez de ativa; além disso, 'temer' é transitivo direto, mas seu objeto é oração (não 'resultados insatisfatórios' diretamente — haveria perda da oração objetiva). (D) 'tiveram medo' altera o registro e a estrutura sintática. (E) transforma o objeto direto em sujeito e usa passiva, diferente do pedido de voz ativa."
+      "gabarito": "C",
+      "explicacao": "A alternativa C inverte completamente a cadeia causal: no original, o atraso na entrega causou a advertência; na alternativa C, a advertência causou o atraso. Isso é uma contradição lógica com o texto original. As demais alternativas preservam corretamente a relação causal (atraso → advertência): A usa 'porque' para introduzir a causa; B usa 'motivou'; D usa 'em razão de'; E usa 'por ter', todos conectivos ou preposições causais que mantêm a lógica original. A alternativa C é a única que inverte essa relação causa-efeito."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "A frase 'À medida que os recursos diminuíam, as dificuldades aumentavam.' reescrita com locução equivalente mantendo a proporcionalidade fica:",
+      "enunciado": "Leia o trecho e julgue a reescritura proposta.",
+      "textoBase": "Dado que os recursos eram insuficientes, a operação foi suspensa temporariamente, embora o Comando tenha mantido a previsão de retomada para o próximo trimestre.",
       "alternativas": {
-        "A": "Porque os recursos diminuíam, as dificuldades aumentavam.",
-        "B": "Apesar da diminuição dos recursos, as dificuldades aumentavam.",
-        "C": "Proporcionalmente à diminuição dos recursos, as dificuldades aumentavam.",
-        "D": "Quando os recursos diminuíam, as dificuldades aumentavam.",
-        "E": "Se os recursos diminuíssem, as dificuldades aumentariam."
+        "A": "Certo — 'Os recursos insuficientes levaram à suspensão temporária da operação, sendo prevista a retomada pelo Comando no próximo trimestre' preserva o sentido.",
+        "B": "Errado — 'embora' na segunda oração indica que a previsão de retomada é inesperada; a reescritura da alternativa A perde essa nuance.",
+        "C": "Certo — 'A operação foi suspensa temporariamente por falta de recursos; o Comando, no entanto, manteve a previsão de retomá-la no próximo trimestre' preserva o sentido.",
+        "D": "Errado — a reescritura da alternativa C elimina o 'dado que', perdendo a relação causal.",
+        "E": "Errado — as duas reescrituraspropostas adicionam informação não contida no original."
       },
       "gabarito": "C",
-      "explicacao": "'À medida que' é conjunção proporcional, expressando relação de proporcionalidade entre dois eventos simultâneos e progressivos. (A) é a única que preserva essa relação proporcional através da locução 'proporcionalmente à diminuição dos recursos'. (B) 'apesar da' expressa concessão. (C) 'porque' expressa causa simples, sem proporcionalidade. (D) 'quando' expressa simultaneidade temporal sem proporcionalidade. (E) 'se...seriam' expressa condição hipotética, com mudança de modo verbal e de significado."
+      "explicacao": "A alternativa C oferece a reescritura mais fiel ao original: 'por falta de recursos' traduz 'dado que os recursos eram insuficientes' (relação causal preservada), 'suspensa temporariamente' mantém o caráter temporário, e 'no entanto, manteve a previsão de retomá-la no próximo trimestre' preserva tanto a concessão ('embora') quanto o conteúdo factual (Comando manteve previsão de retomada no trimestre seguinte). A alternativa A deixa ambíguo quem fez a previsão. A alternativa B faz um ponto válido sobre nuance, mas a reescritura de C compensa com 'no entanto', que tem função adversativa similar ao 'embora'. A alternativa D está errada: 'por falta de recursos' preserva a relação causal de 'dado que'."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Leia: 'O comandante ordenou que os marinheiros recolhessem os equipamentos.' Assinale a alternativa que reescreve com nominalização da oração objetiva direta sem perda de sentido:",
+      "enunciado": "Analise o trecho a seguir e identifique qual reescritura não preserva o sentido.",
+      "textoBase": "Ainda que o tenente tivesse experiência, a situação exigia um conhecimento específico que ele ainda não havia adquirido.",
       "alternativas": {
-        "A": "O comandante deu ordens para o recolhimento dos equipamentos.",
-        "B": "O comandante ordenou o recolhimento dos equipamentos.",
-        "C": "O comandante ordenou os marinheiros a recolherem os equipamentos.",
-        "D": "O comandante ordenou o recolhimento dos equipamentos pelos marinheiros.",
-        "E": "O recolhimento dos equipamentos foi ordenado pelo comandante."
+        "A": "Apesar de o tenente ter experiência, a situação exigia um conhecimento específico que ele ainda não possuía.",
+        "B": "O tenente tinha experiência, mas a situação exigia um conhecimento específico que ele ainda não havia adquirido.",
+        "C": "Como o tenente não tinha o conhecimento específico exigido pela situação, sua experiência não foi suficiente.",
+        "D": "Mesmo experiente, o tenente não tinha o conhecimento específico que a situação exigia.",
+        "E": "O tenente, por não ter o conhecimento específico exigido, não tinha experiência para lidar com a situação."
       },
-      "gabarito": "D",
-      "explicacao": "(A) é correta: a oração objetiva direta 'que os marinheiros recolhessem os equipamentos' é nominalizada em 'o recolhimento dos equipamentos pelos marinheiros' — o verbo 'recolherem' → substantivo 'recolhimento'; o sujeito 'os marinheiros' → agente nominal 'pelos marinheiros'; o objeto 'os equipamentos' → adjunto adnominal 'dos equipamentos'. Todos os elementos são preservados. (B) suprime os marinheiros como agente, perdendo informação. (C) altera a regência do verbo 'ordenar' (que não rege 'ordenar alguém a fazer algo' na norma culta). (D) suprime os marinheiros e usa paráfrase com verbo 'dar'. (E) reescreve na passiva, não nominaliza a oração objetiva."
+      "gabarito": "E",
+      "explicacao": "A alternativa E contradiz o original ao afirmar que o tenente 'não tinha experiência'. No trecho original, está claramente dito que o tenente tinha experiência — a limitação era especificamente a falta de um conhecimento técnico pontual, não a falta de experiência em geral. A alternativa E confunde os dois elementos e inverte a informação sobre a experiência. As demais alternativas preservam a distinção essencial: o tenente era experiente, mas faltava-lhe um conhecimento específico. A alternativa A usa 'apesar de' (concessão equivalente a 'ainda que'). A alternativa B usa 'mas' (adversativa que admite a experiência). A alternativa D resume corretamente com 'mesmo experiente'."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Assinale a alternativa que reescreve 'Não havia um oficial sequer que duvidasse da missão.' sem negar explicitamente e sem usar 'sequer', preservando o sentido de ausência total de dúvida:",
+      "enunciado": "Julgue a reescritura proposta para o trecho a seguir.",
+      "textoBase": "A portaria foi publicada no prazo, de modo que todos os interessados puderam tomar ciência das novas disposições antes da data de vigência.",
       "alternativas": {
-        "A": "Nenhum oficial duvidava da missão.",
-        "B": "Todos os oficiais confiavam plenamente na missão.",
-        "C": "Os oficiais duvidavam da missão em algum grau.",
-        "D": "Havia oficiais que não duvidavam da missão.",
-        "E": "Os oficiais, em sua maioria, não duvidavam da missão."
+        "A": "Certo — 'Como a portaria foi publicada no prazo, todos os interessados puderam tomar ciência das novas disposições antes da data de vigência' preserva o sentido.",
+        "B": "Errado — 'de modo que' indica finalidade; 'como' indica causa, sentidos distintos.",
+        "C": "Certo — 'A portaria foi publicada no prazo; assim, todos os interessados tomaram ciência das novas disposições antes da vigência' preserva o sentido.",
+        "D": "Errado — 'assim' indica adição; 'de modo que' indica consequência.",
+        "E": "Certo — 'A publicação da portaria no prazo possibilitou que todos os interessados tomassem ciência das novas disposições previamente à vigência' preserva o sentido."
       },
-      "gabarito": "B",
-      "explicacao": "(A) é a única que elimina a negação e 'sequer' ao afirmar positivamente a ausência de dúvida de todos: 'confiar plenamente' é o antônimo semântico de 'duvidar', e 'todos os oficiais' é o equivalente positivo de 'não havia um oficial sequer'. A pergunta é uma questão de equivalência semântica por antônimo e universalização. (B) usa negação explícita ('nenhum') e dúvida ('duvidava'), não atende ao pedido de eliminar a negação. (C) inverte o sentido (afirma dúvida). (D) afirma existência de alguns oficiais sem dúvida, mas não generaliza para todos. (E) usa 'em sua maioria', restringindo para a maior parte, não para todos."
+      "gabarito": "E",
+      "explicacao": "A alternativa E é a reescritura mais precisa: 'a publicação no prazo possibilitou' nominaliza e preserva a relação de causa-consequência (publicação no prazo → ciência antecipada); 'previamente à vigência' substitui 'antes da data de vigência' com equivalência de sentido. A alternativa A também é defensável: 'como' pode introduzir causa, e a relação é de fato causal (publicação no prazo → possibilidade de ciência antecipada). A alternativa B está equivocada: 'de modo que' aqui é consecutivo (de consequência), não de finalidade. A alternativa C é razoável, mas 'tomaram' no pretérito perfeito é mais assertivo que 'puderam tomar' do original. A alternativa D está errada: 'assim' é consecutivo/conclusivo, não apenas aditivo."
     }
   ],
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho a seguir, extraído de um relatório técnico naval fictício:\n\n'O sistema de navegação foi atualizado pelos técnicos da base no início do trimestre. Os dados coletados pelos sensores foram processados em tempo real. Problemas residuais foram identificados pela equipe e corrigidos imediatamente.'\n\nA reescritura do primeiro período na voz ativa, preservando o tempo verbal e o conteúdo informacional, é:",
+      "enunciado": "Leia o trecho a seguir e avalie cada alternativa de reescritura, assinalando a que preserva integralmente o sentido.",
+      "textoBase": "Por mais que o oficial tivesse tentado evitar o conflito entre as equipes, a situação se agravou a ponto de exigir a intervenção do Comando, o que atrasou o início das atividades previstas para aquela semana.",
       "alternativas": {
-        "A": "Os técnicos da base atualizaram o sistema de navegação no início do trimestre.",
-        "B": "Os técnicos da base atualizaram o sistema de navegação.",
-        "C": "Os técnicos da base vão atualizar o sistema de navegação no início do trimestre.",
-        "D": "O sistema de navegação foi atualizado no início do trimestre.",
-        "E": "Os técnicos atualizaram o sistema de navegação da base no início do trimestre."
+        "A": "O oficial tentou evitar o conflito, mas a situação se agravou tanto que o Comando precisou intervir, atrasando o início das atividades daquela semana.",
+        "B": "Como o oficial não tentou evitar o conflito, o Comando precisou intervir e as atividades foram atrasadas.",
+        "C": "A intervenção do Comando, solicitada pelo oficial, agravou a situação e atrasou as atividades.",
+        "D": "A situação teria se agravado se o oficial não tivesse tentado evitar o conflito, exigindo intervenção do Comando.",
+        "E": "O oficial evitou o conflito, mas o Comando interveio e atrasou as atividades da semana."
       },
       "gabarito": "A",
-      "explicacao": "(A) é correta: agente 'pelos técnicos da base' → sujeito 'os técnicos da base'; sujeito passivo 'o sistema de navegação' → objeto direto; 'foi atualizado' (pretérito perfeito passivo) → 'atualizaram' (pretérito perfeito ativo); adjunto adverbial 'no início do trimestre' preservado. (B) suprime o adjunto temporal 'no início do trimestre', perdendo informação. (C) usa futuro perifrástico, mudando o tempo verbal. (D) omite o agente, retirando informação do original. (E) desloca 'da base' para adjetivo de 'sistema', alterando o significado ('os técnicos atualizaram o sistema de navegação da base' ≠ 'os técnicos da base atualizaram o sistema de navegação')."
+      "explicacao": "A alternativa A preserva todos os elementos do trecho original: (1) o oficial tentou evitar o conflito — elemento de concessão preservado com 'mas'; (2) a situação se agravou a ponto de exigir intervenção — preservado com 'se agravou tanto que'; (3) o Comando interveio — 'o Comando precisou intervir'; (4) as atividades foram atrasadas — 'atrasando o início das atividades daquela semana'. A alternativa B nega que o oficial tentou evitar — contradiz o original. A alternativa C inverte a causalidade: no original, a situação agravada exigiu a intervenção; na C, a intervenção causou o agravamento. A alternativa D transforma fatos reais em hipótese contrafactual. A alternativa E afirma que o oficial evitou o conflito, quando o original diz que ele tentou evitar mas não conseguiu."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Leia o fragmento de regulamento interno fictício:\n\n'Compete ao oficial de plantão verificar os equipamentos antes que a guarda assuma o posto. A inspeção deverá ser registrada no livro de bordo.'\n\nA reescritura do primeiro período que substitui a oração temporal por locução e mantém o sentido é:",
+      "enunciado": "Analise o trecho e identifique a reescritura que altera o sentido.",
+      "textoBase": "O êxito da operação dependeu não só da competência técnica das equipes, mas também da capacidade de comunicação entre os diferentes setores envolvidos, o que evidencia a importância da integração operacional.",
       "alternativas": {
-        "A": "Compete ao oficial de plantão verificar os equipamentos antes da assunção do posto pela guarda.",
-        "B": "Compete ao oficial de plantão verificar os equipamentos antes de assumir o posto.",
-        "C": "Compete ao oficial de plantão verificar os equipamentos quando a guarda assumir o posto.",
-        "D": "Compete ao oficial de plantão verificar os equipamentos para que a guarda assuma o posto.",
-        "E": "Compete ao oficial de plantão verificar os equipamentos após a guarda assumir o posto."
+        "A": "O êxito da operação foi resultado tanto da competência técnica das equipes quanto da comunicação entre os setores, fato que demonstra a importância da integração operacional.",
+        "B": "A competência técnica e a comunicação entre setores foram os fatores determinantes para o êxito da operação, evidenciando a relevância da integração operacional.",
+        "C": "O êxito da operação teria dependido somente da competência técnica, se a comunicação entre setores fosse dispensável, comprovando a importância da integração.",
+        "D": "A integração operacional mostrou-se fundamental para o êxito, pois tanto a competência técnica das equipes quanto a comunicação entre setores foram decisivas.",
+        "E": "Que a operação tenha sido bem-sucedida demonstra que competência técnica e comunicação intersetorial são igualmente determinantes, reforçando a importância da integração."
       },
-      "gabarito": "A",
-      "explicacao": "(A) é correta: 'antes que a guarda assuma o posto' (oração temporal com sujeito diferente da principal) → 'antes da assunção do posto pela guarda' (locução temporal com nominalização 'assunção' e agente 'pela guarda'). Os dois sujeitos diferentes são preservados pela estrutura nominal. (B) usa infinitivo 'assumir' sem sujeito explícito, o que sugeriria que é o oficial (sujeito da principal) quem assume o posto, alterando o sentido. (C) 'quando' expressa simultaneidade, não anterioridade. (D) 'para que' expressa finalidade. (E) 'após' inverte a ordem temporal."
+      "gabarito": "C",
+      "explicacao": "A alternativa C transforma as afirmações do original em uma hipótese contrafactual complexa ('teria dependido somente... se... fosse dispensável'), mudando completamente a natureza da informação: o original apresenta fatos reais e uma conclusão deles derivada; a alternativa C apresenta uma cadeia hipotética que distorce a lógica. As alternativas A, B, D e E preservam os elementos essenciais: dois fatores para o êxito (competência técnica + comunicação entre setores) e a conclusão sobre a importância da integração operacional. Cada uma usa estratégia diferente — paráfrase direta, nominalização, inversão de foco — mas todas mantêm o conteúdo proposicional."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho de comunicado institucional fictício:\n\n'Em razão das condições meteorológicas adversas, o exercício de campo foi suspenso pela coordenação do curso. Todavia, as atividades teóricas prosseguirão normalmente.'\n\nA reescritura do primeiro período na voz ativa com a relação causal preservada em oração é:",
+      "enunciado": "Avalie o trecho e as reescriturasapresentadas. Assinale a alternativa correta sobre a validade das reescriturasI e II. Reescritura I: 'As dificuldades dos candidatos de áreas remotas motivaram a prorrogação do prazo de entrega dos documentos, assegurando igualdade de acesso ao processo.' Reescritura II: 'O prazo foi prorrogado para que os candidatos de áreas remotas pudessem apresentar os documentos, garantindo acesso igualitário.'",
+      "textoBase": "O prazo para apresentação dos documentos foi prorrogado em virtude das dificuldades enfrentadas pelos candidatos residentes em áreas remotas, garantindo-se assim acesso igualitário ao processo seletivo.",
       "alternativas": {
-        "A": "A coordenação do curso suspendeu o exercício de campo porque as condições meteorológicas eram adversas.",
-        "B": "A coordenação do curso suspendeu o exercício de campo embora as condições meteorológicas fossem adversas.",
-        "C": "A coordenação do curso suspendeu o exercício de campo e as condições meteorológicas eram adversas.",
-        "D": "As condições meteorológicas adversas suspenderam o exercício de campo.",
-        "E": "A coordenação do curso suspendeu o exercício de campo apesar das condições meteorológicas adversas."
+        "A": "Ambas as reescrituraspreservam o sentido do original, cada uma por um caminho diferente.",
+        "B": "Apenas a Reescritura I preserva o sentido; a Reescritura II altera a relação lógica para finalidade.",
+        "C": "Apenas a Reescritura II preserva o sentido; a Reescritura I omite o agente da prorrogação.",
+        "D": "Nenhuma das reescrituraspreserva o sentido, pois ambas omitem elementos do original.",
+        "E": "A Reescritura I está correta; a Reescritura II está incorreta porque 'para que' indica finalidade, e o original expressa causa."
       },
       "gabarito": "A",
-      "explicacao": "(A) é correta: 'em razão das condições meteorológicas adversas' (locução causal) → 'porque as condições meteorológicas eram adversas' (oração causal); 'foi suspenso pela coordenação' (passiva) → 'a coordenação suspendeu' (ativa). O sentido causal é mantido. (B) 'embora' é concessivo, invertendo a relação lógica. (C) usa coordenação aditiva, perdendo a relação causal. (D) atribui a ação de suspender às condições meteorológicas (sujeito que não é agente possível para 'suspender' intencionalmente). (E) 'apesar das' é concessivo, alterando o sentido."
+      "explicacao": "Ambas as reescriturassão válidas, embora por caminhos diferentes. A Reescritura I usa 'motivaram' para expressar a relação causal (dificuldades → prorrogação), preservando o sentido de 'em virtude de'. A Reescritura II usa 'para que' (finalidade), o que tecnicamente muda a relação lógica de causa para finalidade — mas o conteúdo factual é o mesmo: a prorrogação visa a permitir que candidatos remotos entreguem os documentos. Na linguagem jurídica e administrativa, causa e finalidade frequentemente se sobrepõem nesse tipo de construção, e o sentido global é preservado em ambas. A alternativa B está errada ao afirmar que apenas I preserva o sentido. A alternativa E exagera a diferença entre causa e finalidade neste contexto específico."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia o excerto de ata fictícia:\n\n'Deliberou-se acerca da proposta de modernização dos equipamentos. Decidiu-se que o investimento seria realizado no próximo exercício financeiro. Não se chegou a um consenso quanto ao fornecedor.'\n\nA alternativa que reescreve o primeiro período explicitando sujeito ativo SEM acrescentar informação não contida no original é:",
+      "enunciado": "Leia o trecho e julgue se a reescritura preserva o sentido.",
+      "textoBase": "Conquanto os preparativos tenham sido feitos com antecedência, o mau tempo impediu a realização do exercício nas condições planejadas, forçando a equipe a adaptar o protocolo no campo.",
       "alternativas": {
-        "A": "O colegiado deliberou acerca da proposta de modernização dos equipamentos.",
-        "B": "O colegiado deliberou sobre a modernização dos equipamentos.",
-        "C": "A proposta de modernização dos equipamentos foi deliberada.",
-        "D": "Os membros deliberaram acerca da proposta de modernização dos equipamentos.",
-        "E": "A diretoria deliberou acerca da proposta de modernização dos equipamentos."
+        "A": "Certo — 'Apesar de os preparativos terem sido feitos com antecedência, o mau tempo impediu a realização do exercício como planejado, obrigando a equipe a adaptar o protocolo em campo' preserva o sentido.",
+        "B": "Errado — 'conquanto' é conjunção temporal; 'apesar de' é concessiva, sentidos distintos.",
+        "C": "Certo — 'Os preparativos foram feitos com antecedência, mas o mau tempo forçou a adaptação do protocolo porque impediu o exercício nas condições planejadas' preserva o sentido.",
+        "D": "Errado — a reescritura da alternativa A transforma o fato real em hipótese pelo uso do subjuntivo.",
+        "E": "Certo — 'Mesmo com os preparativos antecipados, as condições meteorológicas adversas impediram o exercício conforme o planejado, exigindo adaptação do protocolo em campo' preserva o sentido."
       },
-      "gabarito": "D",
-      "explicacao": "A questão exige atenção ao contexto de ata e ao uso de 'se' como índice de indeterminação. 'Deliberou-se' indica sujeito indeterminado. A passagem para ativa com sujeito hipotético deve usar o recurso mínimo que não acrescente informação específica. (D) usa 'os membros', termo genérico compatível com deliberação coletiva sem especificar qual órgão. (A) 'o colegiado' acrescenta uma especificação institucional não presente. (B) além de acrescentar 'o colegiado', suprime 'acerca da proposta de' e troca por 'sobre a', alterando levemente a estrutura. (C) usa voz passiva, não ativa como pedido. (E) 'a diretoria' acrescenta especificação não autorizada pelo texto."
+      "gabarito": "A",
+      "explicacao": "'Conquanto' é conjunção concessiva equivalente a 'embora', 'apesar de', 'ainda que'. A alternativa A usa 'apesar de' — sinônimo direto — e preserva todos os elementos: (1) concessão (preparativos antecipados não impediram o problema), (2) obstáculo (mau tempo impediu o exercício nas condições planejadas), (3) consequência (equipe forçada a adaptar o protocolo em campo). A alternativa B está errada: 'conquanto' não indica tempo — é conjunção concessiva. A alternativa D está errada: o subjuntivo em 'terem sido' é exigido pela locução 'apesar de' e não transforma o fato em hipótese. A alternativa E também é válida, usando 'mesmo com' como locução concessiva equivalente."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho de parecer técnico fictício:\n\n'A solução adotada, conquanto tecnicamente viável, implicou custos operacionais não previstos no orçamento inicial.'\n\nA reescritura com oração adverbial desenvolvida que preserva o valor semântico da locução 'conquanto' é:",
+      "enunciado": "Leia o trecho a seguir. As reescriturasI e II estão apresentadas abaixo do trecho. Assinale a alternativa que corretamente indica quais preservam o sentido. Reescritura I: 'O contra-almirante determinou que os relatórios fossem entregues semanalmente, o que gerou maior controle das operações sem sobrecarregar as equipes administrativamente.' Reescritura II: 'A entrega semanal de relatórios, determinada pelo contra-almirante, causou sobrecarga administrativa, mas melhorou o controle das operações.'",
+      "textoBase": "A determinação do contra-almirante no sentido de que os relatórios fossem entregues semanalmente resultou em maior controle das operações, sem, contudo, gerar sobrecarga administrativa nas equipes.",
       "alternativas": {
-        "A": "A solução adotada, ainda que fosse tecnicamente viável, implicou custos operacionais não previstos no orçamento inicial.",
-        "B": "A solução adotada, porque era tecnicamente viável, implicou custos operacionais não previstos no orçamento inicial.",
-        "C": "A solução adotada, desde que fosse tecnicamente viável, implicou custos operacionais não previstos no orçamento inicial.",
-        "D": "A solução adotada, quando era tecnicamente viável, implicou custos operacionais não previstos no orçamento inicial.",
-        "E": "A solução adotada, posto que era tecnicamente viável, implicou custos operacionais não previstos no orçamento inicial."
+        "A": "Apenas a Reescritura I preserva o sentido; a Reescritura II contradiz o original ao afirmar que houve sobrecarga.",
+        "B": "Apenas a Reescritura II preserva o sentido; a Reescritura I omite o agente.",
+        "C": "Ambas preservam o sentido, pois os fatos centrais (controle e sobrecarga) estão presentes nas duas.",
+        "D": "Nenhuma das duas preserva o sentido, pois ambas alteram a estrutura do original.",
+        "E": "Apenas a Reescritura I está incorreta; a II está correta porque menciona a relação entre controle e sobrecarga."
       },
       "gabarito": "A",
-      "explicacao": "'Conquanto' é conjunção concessiva equivalente a 'embora', 'ainda que', 'mesmo que', 'por mais que'. (A) é correta: 'ainda que fosse tecnicamente viável' é oração concessiva com subjuntivo imperfeito, equivalente à locução participial 'conquanto tecnicamente viável'. (B) 'porque' expressa causa. (C) 'desde que' expressa condição. (D) 'quando' expressa tempo. (E) 'posto que', embora possa ter valor causal em determinados contextos, no uso corrente culto equivale a 'visto que' (causal), não a 'conquanto' (concessivo). A substituição por (E) alteraria a relação semântica."
+      "explicacao": "O trecho original tem dois elementos-chave: (1) a determinação gerou maior controle das operações; (2) isso NÃO gerou sobrecarga administrativa. A Reescritura I preserva ambos: 'gerou maior controle' e 'sem sobrecarregar as equipes administrativamente'. A Reescritura II contradiz explicitamente o original ao afirmar 'causou sobrecarga administrativa' — o que é exatamente o oposto do que o texto diz. A alternativa B está errada: I não omite o agente (contra-almirante está preservado). A alternativa C está errada: II contradiz o original no ponto central da ausência de sobrecarga. A alternativa E está errada ao classificar I como incorreta quando ela é a única que preserva o sentido."
     }
   ],
   "desafio": {
     "topicos_mesclados": [
-      "gram-01",
-      "gram-03",
-      "gram-04",
-      "gram-05",
-      "gram-06",
-      "gram-08",
-      "gram-09",
-      "gram-10",
-      "gram-11",
-      "gram-13",
-      "gram-14",
-      "gram-12",
-      "comp-10",
-      "comp-02",
-      "comp-02",
       "comp-03",
-      "comp-05",
       "comp-06",
+      "comp-05",
       "comp-07",
+      "comp-14",
+      "comp-01",
+      "comp-02",
+      "comp-04",
       "comp-08",
       "comp-09",
       "comp-11",
-      "comp-14"
+      "comp-12",
+      "comp-10"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-11",
-        "enunciado": "Leia: 'A maioria dos candidatos foram aprovados na prova.' Assinale a alternativa que apresenta a reescritura na voz passiva analítica com concordância verbal correta:",
+        "topico_referencia": "comp-10",
+        "enunciado": "Leia o trecho e assinale a reescritura que preserva o sentido.",
+        "textoBase": "O sargento entregou o relatório ao tenente antes de encerrar o expediente.",
         "alternativas": {
-          "A": "A prova foi passada pela maioria dos candidatos.",
-          "B": "A prova aprovou a maioria dos candidatos.",
-          "C": "A maioria dos candidatos foram passados pela prova.",
-          "D": "Os candidatos, em sua maioria, foram aprovados na prova.",
-          "E": "A maioria foi aprovada na prova pelos candidatos."
+          "A": "O relatório foi entregue pelo sargento ao tenente antes de encerrar o expediente.",
+          "B": "O tenente entregou o relatório ao sargento antes de encerrar o expediente.",
+          "C": "O sargento entregou o relatório antes do expediente ser encerrado pelo tenente.",
+          "D": "O relatório foi entregue ao tenente pelo sargento após o expediente.",
+          "E": "Antes de encerrar o expediente, o sargento recebeu o relatório do tenente."
         },
-        "gabarito": "B",
-        "explicacao": "Esta questão integra reescritura (gram-13) e concordância verbal (gram-09). A frase original está gramaticalmente problemática: o verbo 'aprovar' é ativo e 'a maioria dos candidatos' é sujeito. Na passagem para a voz ativa de 'A maioria dos candidatos foi/foram aprovada(os)', o sujeito paciente 'a maioria dos candidatos' torna-se objeto direto e o agente (implícito: a prova/banca) torna-se sujeito ativo. (B) 'A prova aprovou a maioria dos candidatos' é a voz ativa correspondente: 'a prova' é sujeito agente (implícito no original), 'a maioria dos candidatos' é objeto direto. As demais alternativas ou invertem os papéis, ou mantêm a passiva com erros de concordância, ou criam sentido absurdo."
+        "gabarito": "A",
+        "explicacao": "A alternativa A transforma corretamente a frase em voz passiva: 'o relatório' (objeto direto) vira sujeito; 'foi entregue' é o verbo na passiva; 'pelo sargento' é o agente da passiva; 'ao tenente' mantém o destinatário; 'antes de encerrar o expediente' mantém o adjunto temporal. Todos os elementos são preservados. A alternativa B inverte os papéis (tenente entrega ao sargento). A alternativa C muda o agente do encerramento do expediente. A alternativa D muda a relação temporal (após vs. antes). A alternativa E inverte quem entrega e quem recebe."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-14",
-        "enunciado": "Considere: 'O oficial entregou ao recruta o certificado.' Assinale a alternativa que reescreve o período na voz passiva e usa corretamente a colocação pronominal:",
+        "topico_referencia": "comp-11",
+        "enunciado": "Identifique o elemento de coesão que estabelece a relação de sequência temporal no trecho a seguir.",
+        "textoBase": "O recruta chegou à base. Em seguida, apresentou-se ao sargento. Por fim, recebeu o fardamento.",
         "alternativas": {
-          "A": "O certificado foi entregue ao recruta pelo oficial.",
-          "B": "O certificado foi-lhe entregue pelo oficial.",
-          "C": "Foi entregue o certificado ao recruta pelo oficial.",
-          "D": "Entregou-se o certificado ao recruta pelo oficial.",
-          "E": "O certificado lhe foi entregue pelo oficial."
+          "A": "Os pronomes pessoais implícitos referentes ao recruta.",
+          "B": "Os advérbios 'Em seguida' e 'Por fim', que organizam cronologicamente as ações.",
+          "C": "A repetição do sujeito 'recruta' nas três frases.",
+          "D": "O uso do pretérito perfeito em todos os verbos.",
+          "E": "A conjunção 'e' implícita entre as orações."
         },
-        "gabarito": "E",
-        "explicacao": "Esta questão integra reescritura de voz (gram-13) e colocação pronominal (gram-11). (A) é correta gramaticalmente, mas não usa pronome. (E) usa 'lhe' retomando 'ao recruta' (objeto indireto original, mantido como complemento) e posiciona o pronome antes do verbo principal ('foi entregue'), respeitando a regra de próclise obrigatória quando o pronome está próximo do verbo principal em perífrase. (B) 'foi-lhe entregue' usa ênclise ao auxiliar 'foi', posição não padrão na norma culta contemporânea — o pronome deve vir antes do verbo principal. (C) inversão da ordem sem ajuste de vírgulas. (D) uso do 'se' apassivador com agente expresso é construção rara e problemática na norma culta."
+        "gabarito": "B",
+        "explicacao": "Os advérbios e locuções adverbiais de tempo 'Em seguida' e 'Por fim' são elementos de coesão sequencial: organizam as ações em ordem cronológica (chegou → apresentou-se → recebeu), criando progressão temporal no texto. A alternativa A está errada: pronomes implícitos garantem coesão referencial (substituição do sujeito), não sequência temporal. A alternativa D está errada: o uso do mesmo tempo verbal indica que as ações são do mesmo plano temporal, mas não as ordena entre si. A alternativa E está errada: não há conjunção 'e' conectando as orações — elas são separadas por ponto."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-13",
-        "enunciado": "Leia: 'O chefe assistiu ao treinamento dos novos recrutas.' Assinale a alternativa que reescreve na voz passiva analítica com a regência verbal correta:",
+        "topico_referencia": "comp-12",
+        "enunciado": "Avalie a coerência do trecho a seguir.",
+        "textoBase": "A operação foi planejada com rigor durante seis meses. Cada detalhe foi verificado e aprovado pelo Comando. No entanto, os resultados superaram todas as expectativas e a missão foi um fracasso total.",
         "alternativas": {
-          "A": "O treinamento dos novos recrutas foi assistido pelo chefe.",
-          "B": "Os novos recrutas foram assistidos pelo chefe no treinamento.",
-          "C": "O treinamento foi assistido ao chefe pelos novos recrutas.",
-          "D": "O chefe teve o treinamento assistido.",
-          "E": "Ao treinamento dos novos recrutas, o chefe assistiu."
+          "A": "O trecho é coerente porque apresenta causa e efeito claramente.",
+          "B": "O trecho é incoerente porque 'superaram as expectativas' e 'fracasso total' são proposições contraditórias.",
+          "C": "O trecho é coerente porque 'no entanto' introduz adequadamente uma concessão.",
+          "D": "O trecho é incoerente apenas porque o planejamento rigoroso não garante bons resultados.",
+          "E": "O trecho é coerente, pois o conector 'no entanto' resolve a aparente contradição."
         },
-        "gabarito": "A",
-        "explicacao": "Esta questão integra reescritura (gram-13) e regência verbal (gram-10). 'Assistir' com sentido de 'presenciar' é transitivo INDIRETO (rege preposição 'a'): 'assistir a algo'. Transitivos indiretos NÃO formam passiva analítica convencional. No entanto, em provas, quando a questão pede passiva de 'assistir a', a construção mais aceita é usando o complemento inteiro como sujeito passivo: 'O treinamento dos novos recrutas foi assistido pelo chefe'. (A) representa essa construção. (B) usa 'os novos recrutas' como sujeito paciente, o que seria adequado para 'assistir' no sentido de 'auxiliar' (diferente sentido). (C) inverte agente e paciente. (D) é paráfrase com verbo 'ter'. (E) é ordem invertida sem passiva."
+        "gabarito": "B",
+        "explicacao": "O trecho apresenta incoerência semântica interna: 'os resultados superaram todas as expectativas' expressa sucesso excepcional, enquanto 'a missão foi um fracasso total' expressa insucesso completo. São proposições mutuamente excludentes no mesmo plano — não há como os resultados superarem expectativas e a missão ser um fracasso total sem qualificação. O conector 'no entanto' não resolve a contradição — ele apenas introduz contraste, mas os dois contrastados são logicamente incompatíveis. Para haver coerência, seria necessário qualificar um dos termos ou especificar dimensões diferentes do sucesso e do fracasso."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-10",
-        "enunciado": "Leia: 'A missão foi cumprida; por isso, o comandante recebeu elogios.' Assinale a alternativa que funde os dois períodos em um único período composto, preservando a relação de causa e consequência:",
+        "topico_referencia": "comp-03",
+        "enunciado": "Identifique o uso denotativo e conotativo nas expressões do trecho.",
+        "textoBase": "O contra-almirante era uma âncora para a equipe. Ao mesmo tempo, o navio lançou a âncora no porto de Natal.",
         "alternativas": {
-          "A": "Como a missão foi cumprida, o comandante recebeu elogios.",
-          "B": "O comandante recebeu elogios porque a missão foi cumprida.",
-          "C": "A missão foi cumprida, de modo que o comandante recebeu elogios.",
-          "D": "A missão foi cumprida, então o comandante recebeu elogios.",
-          "E": "Cumprida a missão, o comandante recebeu elogios."
+          "A": "Ambos os usos de 'âncora' são denotativos, pois se referem a objetos concretos.",
+          "B": "O primeiro uso é conotativo (âncora = estabilidade/suporte); o segundo é denotativo (objeto náutico real).",
+          "C": "O primeiro uso é denotativo; o segundo é conotativo, pois 'lançar âncora' é expressão idiomática.",
+          "D": "Ambos os usos são conotativos porque 'âncora' é metáfora em qualquer contexto marítimo.",
+          "E": "O primeiro uso é denotativo porque se refere ao contra-almirante; o segundo é conotativo."
         },
-        "gabarito": "C",
-        "explicacao": "Esta questão integra reescritura (gram-13) e coordenação/subordinação (gram-08). A conjunção 'por isso' indica conclusão/consequência (oração coordenada conclusiva). Ao fundir em um período, deve-se preservar a relação de consequência. (C) 'de modo que' é conjunção subordinativa consecutiva que expressa a consequência do fato anterior — equivale perfeitamente a 'por isso' ao fundir os dois períodos. (A) 'como' é causal, mas inverte a ordem e enfraquece a ênfase na consequência. (B) 'porque' é causal, não consecutiva. (D) 'então' é coordenativa conclusiva, possível mas menos formal que 'de modo que'. (E) reduz a oração, perdendo a conjunção lógica explícita. (C) é a melhor resposta por usar a conjunção subordinativa consecutiva que substitui com precisão 'por isso'."
+        "gabarito": "B",
+        "explicacao": "Na primeira ocorrência, 'âncora' é usada figuradamente para caracterizar o contra-almirante como elemento de estabilidade e suporte para a equipe — sentido transferido, não literal. Isso é uso conotativo. Na segunda ocorrência, 'âncora' refere-se ao equipamento náutico real que o navio efetivamente lançou no porto — sentido literal e denotativo. A distinção entre denotação (sentido literal, referência direta) e conotação (sentido figurado, transferido) é essencial para a interpretação de textos. A alternativa C está errada: 'lançar âncora' no contexto naval é uso literal, não idiomático."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-12",
-        "enunciado": "Considere: 'Os resultados serão divulgados pela chefia na sexta-feira.' Assinale a alternativa que reescreve na voz ativa com a pontuação correta ao deslocar o adjunto temporal para o início:",
+        "topico_referencia": "comp-06",
+        "enunciado": "Analise as relações lexicais no trecho a seguir e assinale a alternativa correta.",
+        "textoBase": "O oficial era habilidoso, mas seu substituto era inábil. A competência do primeiro contrastava com a incompetência do segundo.",
         "alternativas": {
-          "A": "Na sexta-feira, a chefia divulgará os resultados.",
-          "B": "Na sexta-feira a chefia divulgará os resultados.",
-          "C": "A chefia, na sexta-feira, divulgará os resultados.",
-          "D": "Na sexta-feira: a chefia divulgará os resultados.",
-          "E": "A chefia divulgará — na sexta-feira — os resultados."
+          "A": "Habilidoso/inábil são antônimos; competência/incompetência são sinônimos no contexto.",
+          "B": "Habilidoso/inábil são antônimos; competência/incompetência também são antônimos, com 'in-' como prefixo de negação.",
+          "C": "Habilidoso/inábil são parônimos; competência/incompetência são hiperônimos.",
+          "D": "Habilidoso/hábil são sinônimos; inábil/incompetente são hipônimos de 'incapaz'.",
+          "E": "Habilidoso/inábil são antônimos; competência é hiperônimo de habilidade."
         },
-        "gabarito": "A",
-        "explicacao": "Esta questão integra reescritura (gram-13) e pontuação (gram-12). A reescritura na voz ativa é correta em todas as alternativas que colocam 'a chefia' como sujeito e 'os resultados' como objeto. A diferença está na pontuação. (A) é correta: adjunto adverbial 'na sexta-feira' deslocado para o início da frase deve ser seguido de vírgula obrigatória segundo a norma culta. (B) omite a vírgula após o adjunto deslocado, o que é erro de pontuação. (C) insere o adjunto entre sujeito e verbo com duas vírgulas — é aceitável, mas menos precisa como reescritura do original (não deslocou para o início). (D) usa dois-pontos indevidamente. (E) usa travessões para inserção intercalada — possível estilisticamente, mas não é padrão para adjunto temporal."
+        "gabarito": "B",
+        "explicacao": "Habilidoso e inábil são antônimos — palavras de sentido oposto (habilidoso = que tem habilidade; inábil = que não tem habilidade). Competência e incompetência também são antônimos formados pelo mesmo processo: o prefixo 'in-' nega o substantivo base, criando seu oposto direto. O texto explora essas oposições para construir o contraste entre os dois oficiais. A alternativa A está errada ao classificar competência/incompetência como sinônimos. A alternativa C está errada: parônimos são palavras de grafia parecida mas sentidos diferentes (ex: eminente/iminente), o que não é o caso de habilidoso/inábil. A alternativa E faz uma afirmação sobre hiperonímia que não responde à questão central sobre as relações lexicais identificadas no texto."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + comp-11",
-        "enunciado": "Leia o parágrafo:\n\n'Os especialistas analisaram os dados coletados durante seis meses. Os dados foram interpretados à luz das novas diretrizes. As diretrizes foram publicadas no início do ano.'\n\nA reescritura que funde os três períodos em um único, usando recursos coesivos de referenciação e subordinação sem perda de informação, é:",
+        "topico_referencia": "comp-07",
+        "enunciado": "Identifique a figura de linguagem presente no trecho e explique seu efeito.",
+        "textoBase": "O silêncio do quartel gritava mais alto do que qualquer ordem já emitida.",
         "alternativas": {
-          "A": "Os especialistas analisaram os dados coletados durante seis meses, os quais foram interpretados à luz das novas diretrizes publicadas no início do ano.",
-          "B": "Os especialistas analisaram os dados durante seis meses, que foram interpretados pelas diretrizes do início do ano.",
-          "C": "Os dados foram analisados e interpretados pelos especialistas com as diretrizes novas de início do ano.",
-          "D": "Os especialistas analisaram e interpretaram os dados das novas diretrizes publicadas no início do ano durante seis meses.",
-          "E": "Os especialistas analisaram os dados, que foram interpretados com as diretrizes, publicadas no início do ano."
+          "A": "Eufemismo — suaviza a ideia de silêncio absoluto no quartel.",
+          "B": "Personificação (prosopopeia) — atribui ao silêncio a capacidade humana de gritar, intensificando o efeito dramático da ausência de som.",
+          "C": "Hipérbole — exagera a intensidade do silêncio sem atribuir características humanas.",
+          "D": "Metonímia — substitui 'silêncio' por 'quartel' para indicar ausência de atividade.",
+          "E": "Ironia — contradiz o sentido literal ao afirmar que o silêncio grita."
         },
-        "gabarito": "A",
-        "explicacao": "Esta questão integra reescritura (gram-13) e coesão textual (comp-10). (A) usa pronome relativo 'os quais' para retomar 'os dados coletados durante seis meses' (coesão referencial), e oração reduzida de particípio 'publicadas no início do ano' para subordinar a informação sobre as diretrizes. Todas as informações são preservadas e articuladas coesivamente. (B) 'que' é ambíguo (pode retomar 'dados' ou 'meses') e 'pelas diretrizes' indica agente incorreto (diretrizes não interpretam dados). (C) perde a informação sobre quem interpretou e a distinção entre coleta e interpretação. (D) confunde 'os dados das novas diretrizes', criando nova relação não presente no original. (E) gera ambiguidade: 'que foram interpretados' pode retomar 'os dados' ou 'os especialistas'."
+        "gabarito": "B",
+        "explicacao": "A expressão 'o silêncio gritava' atribui ao silêncio (coisa inanimada e abstrata) a capacidade de gritar — ação exclusivamente humana. Isso caracteriza a personificação (ou prosopopeia): a atribuição de características ou ações humanas a seres inanimados ou abstratos. O efeito é intensificar dramaticamente a ideia de ausência de som, transformando o silêncio em algo com presença ativa e marcante. A alternativa C levanta a hipérbole como figura presente — de fato há um exagero implícito —, mas a figura principal e mais específica é a personificação, que descreve com precisão a construção 'silêncio gritava'."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + comp-07",
-        "enunciado": "Leia: 'O tempo voa quando estamos ocupados.' Esta frase contém uma metáfora. Assinale a alternativa que reescreve o período eliminando a linguagem figurada e usando linguagem denotativa, sem alterar o sentido:",
+        "topico_referencia": "comp-05",
+        "enunciado": "Identifique a ambiguidade no trecho e assinale a alternativa que a explica corretamente.",
+        "textoBase": "O oficial observou o recruta com o binóculo.",
         "alternativas": {
-          "A": "O tempo parece passar rapidamente quando estamos ocupados.",
-          "B": "O tempo corre velozmente quando estamos ocupados.",
-          "C": "Quando estamos ocupados, o tempo nos escapa.",
-          "D": "O tempo, quando ocupados, anda depressa.",
-          "E": "Estando ocupados, o tempo se transforma em voo."
+          "A": "A ambiguidade está no verbo 'observou', que pode significar 'ver' ou 'respeitar normas'.",
+          "B": "A frase é ambígua porque 'com o binóculo' pode modificar tanto 'observou' (o oficial usou o binóculo) quanto 'o recruta' (o recruta portava o binóculo).",
+          "C": "A ambiguidade está em 'o recruta', que pode ser singular ou coletivo.",
+          "D": "Não há ambiguidade — 'com o binóculo' modifica obrigatoriamente o verbo 'observou'.",
+          "E": "A ambiguidade é apenas fonética, inexistente na forma escrita."
         },
-        "gabarito": "A",
-        "explicacao": "Esta questão integra reescritura (gram-13) e figuras de linguagem (comp-07). A metáfora 'o tempo voa' atribui ao tempo a capacidade de voar para expressar que o tempo passa rapidamente sem nos darmos conta. A reescritura denotativa deve substituir o sentido figurado por uma expressão literal. (A) 'o tempo parece passar rapidamente' é a versão denotativa mais precisa: usa 'parece' (modalização epistêmica adequada à percepção subjetiva do tempo) e 'rapidamente' (equivalente literal de 'voa'). (B) 'corre velozmente' é outra metáfora (personificação do tempo como ser que corre). (C) 'nos escapa' é metáfora de evasão. (D) 'anda depressa' é personificação/metáfora. (E) acrescenta informação nova ('se transforma em voo') e não elimina a linguagem figurada."
+        "gabarito": "B",
+        "explicacao": "A frase 'O oficial observou o recruta com o binóculo' é ambígua por razão sintática: o adjunto adverbial de instrumento 'com o binóculo' pode se ligar ao verbo (o oficial usou o binóculo para observar) ou ao substantivo 'o recruta' (o recruta portava o binóculo enquanto era observado). Essa é uma ambiguidade de adjunção — o sintagma preposicionado admite dois pontos de ancoragem na estrutura da frase. Para desfazê-la seria necessário reorganizar: 'Com o binóculo, o oficial observou o recruta' (binóculo do oficial) ou 'O oficial observou o recruta que carregava o binóculo' (binóculo do recruta). A alternativa D está errada: a ambiguidade é real e linguisticamente documentada."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + comp-06",
-        "enunciado": "Leia: 'O servidor demonstrou diligência na execução das tarefas.' Assinale a alternativa que reescreve o período substituindo 'diligência' por um sinônimo contextualmente adequado e ajustando a estrutura quando necessário:",
+        "topico_referencia": "comp-02",
+        "enunciado": "Leia o trecho e identifique a informação implícita.",
+        "textoBase": "O tenente chegou à reunião às 8h05. A reunião havia sido marcada para as 8h00.",
         "alternativas": {
-          "A": "O servidor demonstrou zelo na execução das tarefas.",
-          "B": "O servidor demonstrou velocidade na execução das tarefas.",
-          "C": "O servidor demonstrou grandeza na execução das tarefas.",
-          "D": "O servidor demonstrou obediência na execução das tarefas.",
-          "E": "O servidor demonstrou bravura na execução das tarefas."
+          "A": "A informação explícita é que o tenente estava atrasado; não há informação implícita.",
+          "B": "A informação implícita é que o tenente chegou antes do horário marcado.",
+          "C": "A informação implícita é que o tenente chegou atrasado — dedução necessária da combinação dos dois dados explícitos.",
+          "D": "A informação explícita é o atraso do tenente; a implícita é que ele foi punido.",
+          "E": "Não há informações implícitas — o texto apresenta apenas dados objetivos sem relação entre si."
         },
-        "gabarito": "A",
-        "explicacao": "Esta questão integra reescritura (gram-13) e relações lexicais — sinonímia (comp-06). 'Diligência' significa aplicação, cuidado, esmero, dedicação no cumprimento de obrigações. (A) 'zelo' é o sinônimo contextualmente mais adequado: ambos expressam cuidado e empenho profissional. (B) 'velocidade' expressa rapidez, não empenho ou cuidado — é hiperônimo de 'diligência' apenas em sentido etimológico (lat. diligentia), não no uso contemporâneo. (C) 'grandeza' expressa magnitude ou nobreza, não dedicação ao trabalho. (D) 'obediência' refere-se a acatamento de ordens, não a empenho na execução. (E) 'bravura' refere-se a coragem ou valentia, sem relação semântica com 'diligência'."
+        "gabarito": "C",
+        "explicacao": "O texto apresenta dois dados explícitos: (1) o tenente chegou às 8h05; (2) a reunião estava marcada para 8h00. A partir da combinação desses dados, o leitor infere — sem que esteja dito — que o tenente chegou atrasado (5 minutos depois do horário marcado). Essa é uma informação implícita: não está escrita no texto, mas é uma conclusão necessária e lógica dos dados fornecidos. A alternativa A está errada ao afirmar que o atraso é explícito — o texto não usa a palavra 'atrasado' nem nenhum sinônimo. A alternativa D está errada ao afirmar que punição é implícita — isso seria uma inferência possível, mas não necessária, pois o texto não fornece dados suficientes para concluir sobre punição."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-03",
-        "enunciado": "Leia: 'Iremos à sede da repartição entregar os documentos a ela destinados.' Assinale a reescritura na voz passiva que emprega corretamente o sinal de crase:",
+        "topico_referencia": "comp-08",
+        "enunciado": "Classifique o gênero textual do trecho a seguir e justifique.",
+        "textoBase": "PORTARIA N° 042/2025 — O Comandante do 4° Distrito Naval, no uso de suas atribuições legais, resolve: Art. 1° — Determinar que todos os oficiais em serviço ativo participem do Programa de Atualização Técnica até 30 de novembro de 2025.",
         "alternativas": {
-          "A": "Os documentos a ela destinados serão entregues à sede da repartição.",
-          "B": "Os documentos a ela destinados serão entregues a sede da repartição.",
-          "C": "Os documentos a ela destinados serão entregues à sede da repartição por nós.",
-          "D": "Os documentos destinados à ela serão entregues à sede da repartição.",
-          "E": "Os documentos a ela destinados serão entregues a à sede da repartição."
+          "A": "Relatório técnico — apresenta dados e conclusões sobre atividades navais.",
+          "B": "Portaria — gênero jurídico-administrativo que veicula determinações normativas de autoridade competente.",
+          "C": "Memorando — documento de comunicação interna entre setores.",
+          "D": "Edital — convocação pública para participação em processo seletivo.",
+          "E": "Ata — registro de deliberações tomadas em reunião oficial."
         },
-        "gabarito": "C",
-        "explicacao": "Esta questão integra reescritura na voz passiva (gram-13) e crase (gram-02). (C) é a mais completa: reescreve na passiva ('serão entregues'), preserva o adjunto 'à sede da repartição' com crase correta (preposição 'a' + artigo feminino 'a' diante de substantivo feminino), mantém 'a ela destinados' sem crase (pronome pessoal não admite crase) e acrescenta o agente da passiva 'por nós' (implícito em 'iremos'). (A) omite o agente da passiva — possível, mas menos completa. (B) suprime a crase em 'à sede', erro gramatical. (D) usa crase antes de pronome pessoal 'ela' ('à ela'), o que é erro — pronome pessoal não admite crase. (E) cria dupla preposição 'a à', agramatical."
+        "gabarito": "B",
+        "explicacao": "O trecho apresenta todas as características do gênero 'portaria': identificação numérica ('PORTARIA N° 042/2025'), emissão por autoridade competente (Comandante do 4° Distrito Naval), referência à base legal ('no uso de suas atribuições legais'), estrutura em artigos ('Art. 1°') e conteúdo normativo (determinação de obrigação a um grupo específico). A portaria é um gênero jurídico-administrativo de caráter normativo — diferencia-se do memorando (comunicação interna sem força normativa ampla), do edital (convocação pública para concurso ou licitação), da ata (registro de reunião) e do relatório (apresentação de dados e análises)."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + comp-09",
-        "enunciado": "Leia o trecho em discurso direto:\n\n'O almirante declarou: 'A operação foi concluída com êxito e todos os objetivos foram atingidos.''\n\nA reescritura em discurso indireto que preserva o sentido e aplica corretamente os mecanismos de transposição é:",
+        "topico_referencia": "comp-09",
+        "enunciado": "Identifique o tipo de discurso utilizado no trecho a seguir.",
+        "textoBase": "O contra-almirante declarou que a operação havia sido um sucesso e que as equipes haviam demonstrado competência exemplar.",
         "alternativas": {
-          "A": "O almirante declarou que a operação fora concluída com êxito e que todos os objetivos tinham sido atingidos.",
-          "B": "O almirante declarou que a operação foi concluída com êxito e que todos os objetivos foram atingidos.",
-          "C": "O almirante declarou: a operação foi concluída com êxito e todos os objetivos foram atingidos.",
-          "D": "O almirante declarou que a operação estava concluída com êxito e que todos os objetivos seriam atingidos.",
-          "E": "O almirante declarou que a operação tivesse sido concluída com êxito e que todos os objetivos fossem atingidos."
+          "A": "Discurso direto — as palavras do contra-almirante são reproduzidas literalmente.",
+          "B": "Discurso indireto — a fala do contra-almirante é relatada pelo narrador, com adequação dos tempos verbais e pronomes.",
+          "C": "Discurso indireto livre — a fala do contra-almirante se mescla à voz do narrador sem verbos de elocução.",
+          "D": "Discurso direto livre — as palavras do contra-almirante aparecem sem aspas ou dois-pontos.",
+          "E": "Monólogo interior — expressão do pensamento do contra-almirante em primeira pessoa."
         },
-        "gabarito": "A",
-        "explicacao": "Esta questão integra reescritura (gram-13) e tipos de discurso (comp-09). Na transposição do discurso direto para o indireto, os verbos no pretérito perfeito do indicativo ('foi concluída', 'foram atingidos') passam para o pretérito mais-que-perfeito composto ou pretérito imperfeito na língua culta ('fora concluída'/'tinha sido concluída'). (A) usa 'fora concluída' e 'tinham sido atingidos' — formas do mais-que-perfeito, adequadas para o discurso indireto subordinado ao verbo 'declarou' (pretérito). (B) mantém o pretérito perfeito, que seria aceitável informalmente mas não na norma culta das provas militares. (C) mantém os dois-pontos e aspas, ainda é discurso direto. (D) usa 'estava' (imperfeito) e 'seriam' (futuro do pretérito), que alteram os tempos verbais incorretamente. (E) usa subjuntivo imperfeito, inadequado para discurso indireto declarativo."
+        "gabarito": "B",
+        "explicacao": "O trecho usa o discurso indireto: há um verbo de elocução ('declarou') seguido de duas orações subordinadas substantivas introduzidas por 'que'. As falas originais foram convertidas: os verbos passaram para o pretérito mais-que-perfeito ('havia sido', 'haviam demonstrado'), e a perspectiva é do narrador (terceira pessoa). No discurso direto, as palavras seriam reproduzidas literalmente com dois-pontos e aspas. No discurso indireto livre, não haveria o verbo de elocução 'declarou' explícito marcando a transição. A alternativa D está errada: 'discurso direto livre' é quando a fala aparece diretamente sem verbos de elocução nem marcas tipográficas."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-06",
-        "enunciado": "Leia: 'O oficial propôs medidas preventivas à tripulação.' Assinale a alternativa que reescreve na voz passiva analítica com a flexão verbal correta:",
+        "topico_referencia": "comp-10",
+        "enunciado": "Leia o trecho e avalie a reescritura proposta.",
+        "textoBase": "Conquanto o prazo fosse exíguo, a equipe entregou o projeto sem erros.",
         "alternativas": {
-          "A": "Medidas preventivas foram propostas à tripulação pelo oficial.",
-          "B": "Medidas preventivas foram propustas à tripulação pelo oficial.",
-          "C": "Medidas preventivas foram proposto à tripulação pelo oficial.",
-          "D": "Medidas preventivas foram propor à tripulação pelo oficial.",
-          "E": "Medidas preventivas foram propondo à tripulação pelo oficial."
+          "A": "Certo — 'Mesmo que o prazo fosse exíguo, a equipe entregou o projeto sem erros' preserva o sentido.",
+          "B": "Errado — 'conquanto' é conjunção causal; 'mesmo que' é concessiva, sentidos distintos.",
+          "C": "Certo — 'Se o prazo fosse exíguo, a equipe entregaria o projeto sem erros' preserva o sentido.",
+          "D": "Errado — 'mesmo que' introduz hipótese; 'conquanto' introduz fato real, o que torna a reescritura inválida.",
+          "E": "Certo — 'O prazo era exíguo, portanto a equipe entregou o projeto sem erros' preserva o sentido."
         },
         "gabarito": "A",
-        "explicacao": "Esta questão integra reescritura na voz passiva (gram-13) e flexão verbal — particípio irregular (gram-05). O verbo 'propor' tem particípio IRREGULAR: 'proposto' (não 'proposto' segue a regra de verbos com dois particípios — regular 'proponido', inexistente; irregular 'proposto'). O particípio 'proposto' concorda com o sujeito passivo 'medidas preventivas' (feminino plural) → 'propostas'. (A) usa 'propostas' corretamente. (B) 'propustas' é forma inexistente. (C) 'proposto' não concorda com o sujeito feminino plural. (D) 'propor' é infinitivo, não particípio. (E) 'propondo' é gerúndio, não particípio."
+        "explicacao": "'Conquanto' é conjunção concessiva equivalente a 'embora', 'ainda que', 'mesmo que', 'apesar de que'. A alternativa A usa 'Mesmo que' — sinônimo direto. A concessão indica que o prazo exíguo não impediu a entrega sem erros — fato real ocorrido apesar do obstáculo. A alternativa B está errada: 'conquanto' não é causal. A alternativa C usa 'se' (condição), transformando fatos reais em hipótese — mudança de sentido. A alternativa D levanta uma distinção que, neste contexto, não se aplica: o pretérito imperfeito do subjuntivo ('fosse') em construções concessivas com fato real é uso padrão do português. A alternativa E usa 'portanto' (consequência), tornando o prazo exíguo a causa da entrega sem erros — contradiz o sentido concessivo."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + comp-02",
-        "enunciado": "Leia o trecho:\n\n'As autoridades não comentaram sobre os resultados da investigação. Fontes internas, no entanto, indicam que há avanços significativos no caso.'\n\nA reescritura que transforma o segundo período em frase sem perder a informação implícita de contraste com o silêncio das autoridades é:",
+        "topico_referencia": "comp-14",
+        "enunciado": "Avalie a adequação vocabular no trecho a seguir, considerando o contexto formal militar.",
+        "textoBase": "O sargento chegou na reunião e falou que o trem de pouso do helicóptero estava com defeito. O contra-almirante ficou bravo e mandou arrumar logo.",
         "alternativas": {
-          "A": "Embora as autoridades não comentassem, fontes internas indicam avanços significativos no caso.",
-          "B": "As autoridades não comentaram, mas fontes internas indicam avanços no caso.",
-          "C": "Fontes internas indicam avanços, e as autoridades não comentaram.",
-          "D": "Como as autoridades não comentaram, fontes internas indicam avanços.",
-          "E": "Fontes internas indicam avanços, portanto as autoridades não comentaram."
+          "A": "O trecho é adequado ao contexto militar formal porque usa terminologia técnica como 'trem de pouso'.",
+          "B": "O trecho é inadequado ao contexto formal: expressões como 'chegou na' (regência informal), 'ficou bravo', 'mandou arrumar' e o registro geral são coloquiais e incompatíveis com comunicação militar oficial.",
+          "C": "O trecho é adequado porque a linguagem direta é valorizada nas Forças Armadas.",
+          "D": "O trecho é inadequado apenas porque 'falou' deveria ser substituído por 'disse'.",
+          "E": "O trecho é adequado em todos os aspectos, pois comunicação oral permite linguagem informal."
         },
-        "gabarito": "A",
-        "explicacao": "Esta questão integra reescritura (gram-13) e informações implícitas (comp-03). O segundo período com 'no entanto' carrega implícito o contraste com o silêncio das autoridades. A reescritura deve explicitar esse contraste na estrutura sintática. (A) usa 'embora' (conjunção concessiva), que é a forma que melhor captura a implicação: apesar do silêncio oficial, há progresso — a concessão preserva o implícito de que o silêncio seria esperado como sinal de ausência de avanços. (B) usa 'mas' (adversativa), que é mais simples e menos precisa — o contraste está presente, mas sem a gradação da concessão. (C) usa 'e' (aditiva), perdendo o contraste. (D) usa 'como' (causal), alterando a relação semântica. (E) usa 'portanto' (conclusiva), invertendo a lógica."
+        "gabarito": "B",
+        "explicacao": "O trecho apresenta múltiplas inadequações para um contexto formal militar: (1) 'chegou na reunião' — regência informal (o padrão formal seria 'chegou à reunião'); (2) 'falou que' — em linguagem formal, 'informou que', 'comunicou que' ou 'relatou que' seriam mais adequados; (3) 'ficou bravo' — expressão coloquial (o formal seria 'manifestou desagrado'); (4) 'mandou arrumar logo' — linguagem oral informal (o formal seria 'determinou a imediata manutenção' ou 'ordenou o reparo imediato'). A adequação vocabular exige que o registro seja compatível com o nível de formalidade do gênero e do contexto comunicativo. Documentos militares exigem registro formal."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + gram-01",
-        "enunciado": "Leia: 'Ele concluiu o exame em carater excepcional.' Assinale a alternativa que corrige o erro ortográfico E reescreve na voz passiva com grafia e flexão corretas:",
+        "topico_referencia": "comp-01",
+        "enunciado": "Leia o enunciado sobre leitura de texto não verbal e assinale a alternativa correta.",
+        "textoBase": "Uma tabela apresenta as seguintes colunas: 'Patente', 'Efetivo previsto', 'Efetivo atual', 'Diferença'. Os dados mostram: Oficial: 50/43/-7 | Sargento: 120/118/-2 | Recruta: 300/289/-11.",
         "alternativas": {
-          "A": "O exame foi concluído em caráter excepcional por ele.",
-          "B": "O exame foi concluído em caráter exepcional por ele.",
-          "C": "O exame foi concluido em caráter excepcional por ele.",
-          "D": "O exame foi concluído em carater excepcional por ele.",
-          "E": "O exame foi conclúido em caráter excepcional por ele."
+          "A": "A tabela indica que todas as categorias estão acima do efetivo previsto.",
+          "B": "A leitura correta indica que nenhuma categoria atingiu o efetivo previsto, sendo a maior defasagem absoluta na categoria 'Recruta' (-11) e a menor na categoria 'Sargento' (-2).",
+          "C": "A tabela é um texto verbal porque contém palavras e números.",
+          "D": "O efetivo total atual é de 480 militares, superior ao previsto de 450.",
+          "E": "A categoria 'Oficial' apresenta a menor defasagem percentual entre previsto e atual."
         },
-        "gabarito": "A",
-        "explicacao": "Esta questão integra reescritura (gram-13) e ortografia/acentuação (gram-01). Erros a corrigir no original: 'carater' → 'caráter' (proparoxítona, acentuação obrigatória no 'a' tônico). Na passiva: 'concluiu' → 'foi concluído' (particípio de 'concluir' é 'concluído', com acento no 'i' por ser hiato: 'conclu-í-do'). (A) corrige ambos. (B) mantém 'exepcional' (erro ortográfico — deve ser 'excepcional'). (C) grafa 'concluido' sem acento (erro — 'concluído' tem acento por hiato). (D) mantém 'carater' sem acento (erro). (E) grafa 'conclúido' com acento no 'ú' (erro — o acento é no 'í': 'concluído')."
+        "gabarito": "B",
+        "explicacao": "A leitura da tabela revela que todas as três categorias têm efetivo atual menor que o previsto (todos os valores da coluna 'Diferença' são negativos). A maior defasagem absoluta é na categoria 'Recruta' (-11) e a menor é na categoria 'Sargento' (-2). A alternativa A está errada: todas as categorias estão abaixo do previsto. A alternativa C está incorreta: tabelas são textos predominantemente não verbais ou mistos. A alternativa D apresenta cálculo errado: o efetivo atual total é 43+118+289=450, e o previsto é 50+120+300=470 — o atual (450) é inferior ao previsto (470). A alternativa E exigiria cálculo percentual e não pode ser confirmada pelos dados apresentados."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + comp-05",
-        "enunciado": "Leia: 'Vi o homem com o binóculo na varanda.' Esta frase é ambígua. Assinale a alternativa que reescreve o período desambiguando na direção de que o homem é quem estava na varanda:",
+        "topico_referencia": "comp-04",
+        "enunciado": "Classifique o trecho quanto à presença de elementos ficcionais ou não ficcionais.",
+        "textoBase": "Na noite de 15 de março, o submarino S-34 foi detectado a 120 milhas náuticas da costa. O sonar registrou movimentos suspeitos, e o Comando autorizou a aproximação cautelosa. Às 23h47, a tripulação avistou luzes desconhecidas que desapareceram sem deixar rastro.",
         "alternativas": {
-          "A": "Vi o homem que estava na varanda com o binóculo.",
-          "B": "Vi, com o binóculo, o homem na varanda.",
-          "C": "Com o binóculo, vi o homem na varanda.",
-          "D": "Usando o binóculo, vi o homem que estava na varanda.",
-          "E": "Vi o homem na varanda usando o binóculo."
+          "A": "O trecho é puramente ficcional porque menciona eventos impossíveis (luzes que desaparecem).",
+          "B": "O trecho é puramente não ficcional porque usa dados precisos (datas, horários, distâncias).",
+          "C": "O trecho combina elementos não ficcionais (dados precisos, procedimentos reais) com elemento potencialmente ambíguo (as luzes que desaparecem), tornando sua classificação dependente do contexto de publicação.",
+          "D": "O trecho é ficcional apenas no último período; os dois primeiros são não ficcionais.",
+          "E": "Dados precisos como datas e horários garantem automaticamente a não ficcionalidade do texto."
         },
-        "gabarito": "A",
-        "explicacao": "Esta questão integra reescritura (gram-13) e ambiguidade (comp-05). A frase original é ambígua porque 'com o binóculo' pode se ligar a 'vi' (instrumento de visão) ou a 'o homem' (posse do binóculo), e 'na varanda' pode se ligar a 'vi' ou a 'o homem'. Para desambiguar na direção de que o homem estava na varanda, deve-se reorganizar para que 'na varanda' seja claramente adjunto de 'o homem'. (A) usa oração relativa: 'o homem que estava na varanda' — o uso de 'que estava' vincula inequivocamente a varanda ao homem; 'com o binóculo' fica como adjunto do sujeito, levemente ambíguo mas secundário. (B) e (C) posicionam o binóculo como instrumento de visão, mas não esclarecem onde estava o homem. (D) e (E) sugerem que quem usa o binóculo é o falante, não clarificando onde estava o homem de forma tão precisa quanto (A)."
+        "gabarito": "C",
+        "explicacao": "O trecho mistura registros: os dois primeiros períodos usam elementos típicos de textos não ficcionais — dados precisos (data, distância em milhas náuticas, horário), procedimentos verossímeis (detecção por sonar, autorização do Comando), linguagem técnica. O terceiro período introduz um elemento ambíguo: 'luzes desconhecidas que desaparecem sem deixar rastro' pode ser tanto um relato factual misterioso quanto elemento ficcional. Sem saber o contexto de publicação (relatório oficial, conto de ficção científica, romance naval), não é possível classificar o texto com certeza. A alternativa B está errada: dados precisos podem aparecer em textos ficcionais para criar efeito de realidade. A alternativa E está errada pelo mesmo motivo."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "comp-10 + comp-03",
-        "enunciado": "Leia o trecho de um relatório técnico:\n\n'O veículo apresentou falha no sistema de freios durante o percurso crítico, comprometendo a segurança da operação.'\n\nA reescritura que transforma a linguagem técnica (denotativa) em linguagem figurada (conotativa), adequada a um texto literário ou jornalístico de impacto, sem perder o sentido essencial, é:",
+        "topico_referencia": "comp-10",
+        "enunciado": "Avalie a reescritura proposta para o trecho.",
+        "textoBase": "O instrutor corrigiu as falhas do recruta pacientemente, de modo que este passou a executar o procedimento com precisão.",
         "alternativas": {
-          "A": "No momento mais decisivo, o veículo traiu sua própria missão, deixando a segurança à deriva.",
-          "B": "O veículo quebrou durante o percurso, o que foi perigoso.",
-          "C": "O veículo apresentou problemas, comprometendo a operação crítica.",
-          "D": "Durante o percurso, o veículo parou de funcionar corretamente.",
-          "E": "O veículo falhou no percurso e isso foi perigoso para a segurança."
+          "A": "A paciência do instrutor ao corrigir as falhas do recruta fez com que este passasse a executar o procedimento com precisão.",
+          "B": "O instrutor corrigiu pacientemente as falhas, portanto o recruta passou a executar o procedimento com precisão.",
+          "C": "O recruta passou a executar o procedimento com precisão, razão pela qual o instrutor corrigiu as falhas pacientemente.",
+          "D": "Embora o instrutor corrigisse as falhas pacientemente, o recruta passou a executar o procedimento com precisão.",
+          "E": "O instrutor teria corrigido as falhas do recruta se o fizesse com paciência, de modo que este executaria com precisão."
         },
         "gabarito": "A",
-        "explicacao": "Esta questão integra reescritura (gram-13) e linguagem denotativa/conotativa (comp-04). O original é denotativo (linguagem técnica precisa). A reescritura conotativa deve usar linguagem figurada com impacto expressivo. (A) usa metáforas: 'traiu sua própria missão' (personificação do veículo como ser capaz de traição, intensificando o impacto emocional), 'deixando a segurança à deriva' (metáfora marítima: 'à deriva' evoca perigo, adequada ao contexto naval). O 'momento mais decisivo' retoma 'percurso crítico' de forma expressiva. (B) é paráfrase simplificada sem figura de linguagem. (C) é apenas simplificação técnica, ainda denotativa. (D) é versão denotativa simplificada. (E) é paráfrase denotativa elementar sem recursos expressivos."
+        "explicacao": "A alternativa A é a reescritura correta: 'A paciência do instrutor ao corrigir as falhas' nominaliza e preserva o agente (instrutor) e o instrumento (paciência); 'fez com que este passasse a executar' preserva a relação de causa-consequência e o resultado (execução com precisão). Todos os elementos estão presentes. A alternativa C inverte a causa e o efeito: no original, a correção paciente causou a melhora; na alternativa C, a melhora causou a correção — contradiz o original. A alternativa D usa concessão ('embora'), que mudaria o sentido para sugerir que a correção paciente não deveria ter levado à melhora. A alternativa E transforma fatos reais em hipóteses."
       }
     ]
   }

@@ -2,843 +2,870 @@
   "id": "comp-02",
   "titulo": "Informações Implícitas e Explícitas",
   "area": "Compreensão e Interpretação de Texto",
-  "resumo": "Distinguir o que está dito diretamente no texto (informação explícita) do que está sugerido, pressuposto ou inferido (informação implícita) é habilidade central nas provas de Língua Portuguesa da Marinha. Questões sobre esse tópico exigem leitura atenta, reconhecimento de pressupostos, subentendidos e inferências legítimas, além de rejeição de conclusões abusivas que extrapolam o texto.",
+  "resumo": "Todo texto diz mais do que parece. Algumas informações estão escritas diretamente — são as explícitas, que qualquer leitor encontra sem esforço. Outras ficam nas entrelinhas — são as implícitas, que precisam ser deduzidas a partir do contexto, do tom e do que o autor escolheu não dizer. Dominar essa distinção é essencial para as provas CEBRASPE, que frequentemente perguntam se uma afirmação 'está contida no texto' ou 'pode ser depreendida do texto'. Neste tópico, você vai aprender a identificar com segurança o que está dito, o que está subentendido e o que simplesmente não está no texto.",
+
   "teoria": {
     "blocos": [
       {
-        "subtitulo": "1. Informação Explícita: o que o texto diz claramente",
-        "conteudo": "Informação explícita é aquela que o autor enuncia de forma direta, sem deixar margem para interpretação: está na superfície do texto, podendo ser localizada e transcrita. Segundo Koch e Elias (Ler e compreender os sentidos do texto, Contexto 2008), o processamento da informação explícita envolve o nível de decodificação, em que o leitor identifica o que está formalmente registrado. Esse tipo de informação pode aparecer em forma de afirmações, negações, dados numéricos, datas, nomes e descrições diretas. Para a prova, basta encontrar no texto a frase que confirma ou nega a alternativa. Cuidado: uma paráfrase fiel também constitui informação explícita, mesmo que não repita palavra por palavra.",
+        "subtitulo": "1. O que são informações explícitas?",
+        "conteudo": "Pense num mapa de navegação: as ilhas marcadas com um ponto vermelho você vê imediatamente — não precisa adivinhar, estão ali. As informações explícitas de um texto funcionam exatamente assim: estão visíveis na superfície, escritas com todas as letras.\n\nInformação explícita é tudo aquilo que o autor afirma diretamente, sem deixar margem para interpretação. Você lê, e a informação está lá. Não é preciso raciocinar, comparar ou deduzir — basta localizar.\n\nExemplo: se um boletim diz 'O sargento Silva foi promovido em março de 2024', a data da promoção e o nome do militar são informações explícitas. Qualquer pessoa que leia o trecho sabe exatamente isso.\n\nO erro mais comum é confundir 'informação explícita' com 'informação óbvia'. Uma informação pode estar escrita de forma técnica ou rebuscada e ainda ser explícita — o critério não é a facilidade, é a visibilidade: está no texto ou não está?",
+        "regra": "Explícita = está escrita no texto · Você lê e encontra, sem deduzir",
         "exemplos": [
-          "Texto: 'A reunião ocorreu em 15 de março de 2023, às 14h, na sede do Comando.' → Informação explícita: a reunião ocorreu em março de 2023.",
-          "Texto: 'O relatório foi elaborado pela equipe de logística.' → Informação explícita: quem elaborou o relatório foi a equipe de logística.",
-          "Texto: 'Nenhum militar foi dispensado antes do término do exercício.' → Informação explícita: todos os militares permaneceram até o fim do exercício."
-        ],
-        "regra": "Se você consegue apontar a linha exata do texto que comprova a alternativa, trata-se de informação explícita. Paráfrases fiéis também são válidas."
+          {
+            "texto_base": "O Comando do 4° Distrito Naval determinou, em portaria de 15 de fevereiro de 2025, que todos os recrutas incorporados no primeiro semestre realizarão o Curso de Formação Básica na Base Naval de Natal.",
+            "anotacoes": [
+              {
+                "trecho": "15 de fevereiro de 2025",
+                "destaque": "Data explícita",
+                "motivo": "A data da portaria está escrita diretamente — basta ler para encontrar."
+              },
+              {
+                "trecho": "Base Naval de Natal",
+                "destaque": "Local explícito",
+                "motivo": "O local do curso está nomeado no texto — informação visível, sem dedução."
+              },
+              {
+                "trecho": "primeiro semestre",
+                "destaque": "Período explícito",
+                "motivo": "O recorte temporal dos recrutas está declarado expressamente no trecho."
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "2. Informação Implícita: pressupostos e subentendidos",
-        "conteudo": "Informação implícita é aquela que não está formalmente enunciada, mas pode ser depreendida do texto. Koch e Elias distinguem dois grandes tipos: pressupostos e subentendidos. O pressuposto é uma informação que o enunciado toma como ponto de partida, sem afirmá-la abertamente — é acionado por marcadores linguísticos específicos (verbos que indicam mudança de estado, advérbios como 'ainda', 'já', 'também', construções comparativas, entre outros). O subentendido, por sua vez, é uma conclusão que o leitor constrói com base no contexto e nas intenções comunicativas do autor, sem que haja um marcador linguístico obrigatório — é mais dependente do contexto extralinguístico e da intenção pragmática. Ambos são informações implícitas legítimas, mas distingui-los ajuda a compreender como o texto produz sentido além do que está escrito.",
+        "subtitulo": "2. O que são informações implícitas?",
+        "conteudo": "Agora imagine o mesmo mapa de navegação, mas com ilhas submersas — você não as vê diretamente, mas sabe que estão lá porque o sonar aponta profundidade rasa. As informações implícitas funcionam assim: estão no texto, mas não na superfície. Você precisa mergulhar.\n\nInformação implícita é aquilo que o autor comunica sem escrever literalmente. Ela pode ser deduzida a partir do que está escrito, do contexto geral, do tom ou do que ficou de fora.\n\nExistem dois tipos principais. O pressuposto é uma informação que o autor assume como verdadeira antes mesmo de começar a falar — está embutida na construção da frase. O subentendido é uma informação que o autor deixa nas entrelinhas propositalmente, dependendo da interpretação do leitor.\n\nExemplo: se uma portaria diz 'O sargento Silva voltou a ser promovido', o uso da palavra 'voltou' pressupõe que ele já foi promovido antes. Essa informação não está escrita, mas está ali — é um pressuposto.\n\nO erro mais comum é inventar informações que não estão nem implícitas nem explícitas — o candidato 'extrapola' para além do texto e marca como correta uma afirmação que o texto nunca autoriza.",
+        "regra": "Implícita = deduzida do texto · Pressuposto (assumido) ou subentendido (nas entrelinhas)",
         "exemplos": [
-          "Enunciado: 'João ainda não terminou o relatório.' → Pressuposto: João deveria ter terminado o relatório (há uma expectativa não cumprida); Subentendido possível: João é desorganizado ou está sobrecarregado.",
-          "Enunciado: 'Até o comandante assinou o documento.' → Pressuposto: outras pessoas assinaram o documento antes do comandante; o fato de o comandante assinar é apresentado como surpreendente ou relevante.",
-          "Enunciado: 'Ela deixou de fumar.' → Pressuposto: ela fumava antes."
-        ],
-        "regra": "Pressupostos são ativados por marcadores linguísticos (verbos de mudança, 'já', 'ainda', 'também', 'até'). Subentendidos dependem do contexto e da intenção. Ambos são implícitos legítimos."
+          {
+            "texto_base": "Após nova avaliação médica, o cabo Ferreira foi autorizado a retornar ao serviço ativo na embarcação de patrulha.",
+            "anotacoes": [
+              {
+                "trecho": "retornar ao serviço ativo",
+                "destaque": "Pressuposto: afastamento",
+                "motivo": "'Retornar' pressupõe que o cabo Ferreira estava afastado antes — isso não está escrito, mas está subentendido no verbo."
+              },
+              {
+                "trecho": "nova avaliação médica",
+                "destaque": "Pressuposto: avaliação anterior",
+                "motivo": "O adjetivo 'nova' implica que houve uma avaliação médica anterior — informação implícita pela escolha vocabular."
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "3. Inferência: o que o leitor pode concluir com base no texto",
-        "conteudo": "A inferência é o processo cognitivo pelo qual o leitor constrói informações que não estão explícitas, mas são necessárias para a coerência textual ou para completar o sentido. Segundo Fiorin e Savioli (Para entender o texto, Ática 2007), a leitura produtiva exige que o leitor vá além da superfície e estabeleça conexões lógicas entre as informações do texto. Há dois tipos principais de inferência: (a) inferência lógica — decorre necessariamente do que o texto afirma, sem possibilidade de negação coerente; (b) inferência pragmática — é provável, mas não necessária, pois depende de conhecimentos de mundo e contexto. Em provas militares, pede-se sobretudo a inferência lógica, pois é a única que pode ser comprovada objetivamente com base no texto.",
+        "subtitulo": "3. Pressupostos: o que o autor assume antes de falar",
+        "conteudo": "Pense em como funciona uma conversa entre dois amigos que já se conhecem há anos: um diz 'você ainda mora no mesmo bairro?' e, nessa única pergunta, já está embutida a informação de que o outro morava naquele bairro antes. O pressuposto é exatamente isso: uma informação que o locutor considera tão óbvia que não a enuncia diretamente — ela vem 'de brinde' na estrutura da frase.\n\nOs pressupostos são ativados por certas palavras e construções chamadas gatilhos pressuposicionais. Os principais são: verbos de mudança de estado (parar, continuar, voltar, começar — todos pressupõem um estado anterior); advérbios de inclusão e exclusão (também, só, até — pressupõem existência de outros elementos); e orações relativas ('o oficial que liderou a missão' pressupõe que existe um oficial e que ele liderou).\n\nIdentificar pressupostos é fundamental na prova CEBRASPE porque as questões frequentemente trazem afirmações que 'de acordo com o texto, é correto afirmar que...' — e a resposta correta pode ser um pressuposto, não algo escrito literalmente.\n\nO erro mais comum é ignorar os pressupostos e responder apenas com o que foi escrito de forma direta, perdendo informações legítimas do texto.",
+        "regra": "Gatilhos: verbos de mudança · advérbios de inclusão · orações relativas · comparativos",
         "exemplos": [
-          "Texto: 'Todos os candidatos aprovados na prova escrita farão a avaliação física. Carlos foi aprovado na prova escrita.' → Inferência lógica: Carlos fará a avaliação física.",
-          "Texto: 'O navio partiu às 6h. O viajante chegou ao porto às 7h.' → Inferência lógica: o viajante perdeu o navio.",
-          "Texto: 'A empresa reduziu o quadro de funcionários e fechou duas filiais.' → Inferência pragmática (provável, mas não necessária): a empresa está em dificuldades financeiras."
-        ],
-        "regra": "Em provas, marque como inferência válida apenas o que decorre necessariamente do texto. Conclusões que dependem de suposições externas ao texto são inferências abusivas — devem ser rejeitadas."
+          {
+            "texto_base": "Somente o tenente Barbosa conseguiu concluir o curso avançado de navegação antes do prazo estipulado.",
+            "anotacoes": [
+              {
+                "trecho": "Somente o tenente Barbosa",
+                "destaque": "Pressuposto: outros tentaram",
+                "motivo": "'Somente' pressupõe que outros militares também tentaram concluir o curso, mas não conseguiram."
+              },
+              {
+                "trecho": "antes do prazo estipulado",
+                "destaque": "Pressuposto: havia um prazo",
+                "motivo": "A expressão implica que existia um prazo definido — informação assumida, não declarada."
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "4. Inferência Abusiva: o grande perigo das provas",
-        "conteudo": "Inferência abusiva é aquela que extrapola o que o texto realmente permite concluir. É o principal recurso usado para criar alternativas incorretas em questões de interpretação. O leitor projeta no texto suas próprias crenças, valores ou conhecimentos de mundo que vão além das informações presentes. Koch e Elias alertam que o texto deve ser o parâmetro de validação: uma conclusão só é legítima se puder ser sustentada por elementos textuais. Nas provas da Marinha, alternativas com inferência abusiva costumam apresentar: (a) generalizações não autorizadas pelo texto; (b) julgamentos de valor não expressos pelo autor; (c) extensões causais não comprovadas; (d) afirmações sobre intenções do autor que não têm respaldo no texto.",
+        "subtitulo": "4. Subentendidos: o que fica nas entrelinhas",
+        "conteudo": "Se o pressuposto é automático — vem embutido na estrutura da frase —, o subentendido depende mais do contexto e da interpretação. É o que o autor deixou de dizer propositalmente, apostando que o leitor vai completar.\n\nImagine um oficial que, ao final de um relatório crítico sobre a manutenção das embarcações, escreve: 'Confio que as providências serão tomadas com a urgência que a situação exige.' Está escrito? Não diretamente. Mas o subentendido é claro: a situação está grave e há cobrança implícita de ação imediata. O leitor capaz de captar isso tem vantagem na interpretação de texto.\n\nNas provas CEBRASPE, os subentendidos aparecem com frequência em questões que pedem para identificar a intenção do autor, o tom do texto ou o que se pode 'depreender' de determinada passagem. A palavra-chave 'depreender' é um sinal de que a banca quer um implícito, não um explícito.\n\nO erro mais comum é confundir subentendido com suposição pessoal. O subentendido tem ancoragem no texto — é uma inferência legítima. A suposição pessoal é uma criação do leitor sem base textual.",
+        "regra": "Depreender = buscar implícito · Subentendido tem base no texto · Suposição não tem",
         "exemplos": [
-          "Texto: 'O militar chegou atrasado à formatura.' → Inferência abusiva: 'O militar é indisciplinado.' (o texto não permite tal julgamento).",
-          "Texto: 'A cidade registrou aumento no consumo de energia em dezembro.' → Inferência abusiva: 'A cidade estava com frio intenso em dezembro.' (pode haver outras causas).",
-          "Texto: 'O projeto foi aprovado por unanimidade.' → Inferência abusiva: 'Todos consideraram o projeto perfeito.' (aprovação não implica ausência de ressalvas)."
-        ],
-        "regra": "Se a alternativa usa palavras como 'sempre', 'nunca', 'todos', 'apenas', 'somente', 'certamente' e o texto não garante tal absolutismo, a inferência é abusiva. Rejeite-a."
+          {
+            "texto_base": "O relatório de inspeção da fragata destacou que os equipamentos de comunicação apresentaram 'desempenho abaixo do esperado durante as últimas três missões'.",
+            "anotacoes": [
+              {
+                "trecho": "desempenho abaixo do esperado",
+                "destaque": "Subentendido: falha crítica",
+                "motivo": "A expressão eufemística implica que houve falhas reais nos equipamentos — o autor suaviza mas o leitor deve captar a gravidade."
+              },
+              {
+                "trecho": "últimas três missões",
+                "destaque": "Implícito: problema recorrente",
+                "motivo": "A repetição ao longo de três missões subentende um problema sistemático, não um episódio isolado."
+              }
+            ]
+          }
+        ]
       },
       {
-        "subtitulo": "5. Estratégias de Leitura para Distinguir Explícito e Implícito na Prova",
-        "conteudo": "Para resolver questões sobre informações explícitas e implícitas com segurança, siga o seguinte protocolo: (1) Leia o texto com atenção antes de ler as alternativas; (2) Para cada alternativa, pergunte-se: 'Esta informação está literalmente no texto?' (explícita), 'Esta informação é pressuposta ou pode ser inferida logicamente do texto?' (implícita legítima), ou 'Esta conclusão extrapola o que o texto permite?' (inferência abusiva); (3) Sublinhe o trecho que sustenta ou refuta cada alternativa; (4) Desconfie de alternativas que empregam afirmações absolutas não presentes no texto; (5) Atenção especial a negações: o texto pode afirmar X, mas a alternativa pode negar X de forma aparentemente equivalente — verifique a equivalência lógica. Fiorin e Savioli ressaltam que o sentido do texto resulta da interação entre o que está escrito e o conhecimento ativado pelo leitor — mas esse conhecimento deve ser controlado pelo próprio texto, não importado indiscriminadamente.",
+        "subtitulo": "5. Inferência legítima vs. extrapolação indevida",
+        "conteudo": "Aqui está a distinção mais cobrada em prova: a linha entre o que o texto autoriza e o que o candidato inventou. Pense assim — o texto é um território. Você pode andar por toda a área mapeada (informações explícitas e implícitas com base no texto). O que está fora do mapa é proibido.\n\nInferência legítima é a conclusão que qualquer leitor atento chegaria a partir das pistas do texto, sem precisar de informação externa. Ela tem sempre uma âncora: uma palavra, uma estrutura, um dado do próprio texto que a justifica.\n\nExtrapolação indevida é quando o candidato vai além do texto usando conhecimento próprio, opinião ou suposição. O texto não autoriza, mas o candidato 'deduz' porque lhe parece lógico ou porque conhece o assunto.\n\nO CEBRASPE explora exatamente essa fronteira. Uma alternativa típica de distratora afirma algo verdadeiro no mundo real, mas que o texto simplesmente não diz — nem explícita nem implicitamente. Candidatos que não treinaram essa distinção marcam essa alternativa como correta.\n\nA pergunta que você deve se fazer diante de cada alternativa: 'O texto me dá base para isso? Existe uma palavra, frase ou pressuposto que apoia essa afirmação?' Se a resposta for não, é extrapolação — descarte.",
+        "regra": "Âncora no texto = inferência válida · Sem âncora = extrapolação inválida · Pergunte: onde está no texto?",
         "exemplos": [
-          "Questão pede: 'De acordo com o texto, é correto afirmar que...' → Busque informação explícita ou implícita necessária.",
-          "Questão pede: 'Infere-se do texto que...' → Busque inferência lógica sustentada pelo texto, rejeite inferências abusivas.",
-          "Questão pede: 'O texto NÃO afirma que...' → Encontre as alternativas que têm respaldo no texto e elimine-as; a correta é a que não tem."
-        ],
-        "regra": "Sempre volte ao texto para validar ou refutar cada alternativa. O texto é o árbitro final. Nunca marque uma alternativa baseando-se apenas no seu conhecimento de mundo sobre o assunto."
+          {
+            "texto_base": "A Marinha do Brasil realizou, em 2024, mais de 200 operações de patrulha marítima na costa nordestina, superando o número registrado no ano anterior.",
+            "anotacoes": [
+              {
+                "trecho": "superando o número registrado no ano anterior",
+                "destaque": "Inferência válida",
+                "motivo": "O verbo 'superando' autoriza inferir que em 2023 o número foi inferior — isso é uma inferência legítima com âncora no texto."
+              },
+              {
+                "trecho": "200 operações de patrulha marítima",
+                "destaque": "Explícito: dado numérico",
+                "motivo": "O número exato está declarado — qualquer afirmação que diga '200 operações' é explícita, não inferida."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "6. Estratégia de leitura para provas CEBRASPE",
+        "conteudo": "Saber a teoria é necessário, mas não suficiente. Em prova, o tempo é curto e as armadilhas são sutis. Aqui está a estratégia mais eficiente para questões de explícito e implícito no estilo CEBRASPE.\n\nPrimeiro, leia o texto uma vez inteira sem olhar as alternativas. O objetivo é captar o tema central, o tom geral e as informações principais — forme uma imagem mental do território.\n\nSegundo, leia o enunciado da questão com atenção especial às palavras-chave: 'está expresso no texto' aponta para explícito; 'pode-se depreender', 'permite inferir', 'é possível concluir' apontam para implícito; 'extrapola o que o texto afirma' ou 'não encontra respaldo no texto' apontam para extrapolação.\n\nTerceiro, ao avaliar cada alternativa, volte ao texto e procure a âncora. Se você encontrar o trecho exato, é explícito. Se precisar de um raciocínio de uma etapa para chegar lá, é implícito. Se precisar de dois ou mais passos ou de informação externa, é extrapolação — e está errado.\n\nO erro mais comum na estratégia é não voltar ao texto e responder de memória. A prova está no papel — use-o.",
+        "regra": "'Está expresso' = explícito · 'Depreende-se / infere-se' = implícito · Sempre volte ao texto",
+        "exemplos": [
+          {
+            "texto_base": "O tenente-comandante orientou os aspirantes a oficiais: 'Leiam as ordens do dia antes de qualquer ação. O que não está escrito não é oficial. O que está escrito, apliquem sem hesitar.'",
+            "anotacoes": [
+              {
+                "trecho": "O que não está escrito não é oficial",
+                "destaque": "Implícito: informalidade inválida",
+                "motivo": "A frase implica que ordens informais, verbais ou extraoficiais não têm validade — isso é um subentendido da instrução dada."
+              },
+              {
+                "trecho": "O que está escrito, apliquem sem hesitar",
+                "destaque": "Explícito: obediência às ordens",
+                "motivo": "A instrução de aplicar o que está escrito está declarada diretamente — informação explícita e imediata."
+              }
+            ]
+          }
+        ]
       }
     ]
   },
+
   "pegadinhas": [
     {
-      "titulo": "Paráfrase vs. Distorção",
-      "errado": "Considerar que qualquer reformulação de um trecho é informação explícita, mesmo quando a reformulação muda o sentido.",
-      "correto": "Somente a paráfrase fiel — que preserva o sentido original sem acréscimos nem omissões relevantes — corresponde à informação explícita. Se a reformulação acrescenta ou omite informação que altera o sentido, já não é explícita.",
-      "explicacao": "Bancas constroem alternativas 'quase corretas', alterando sutilmente o sentido do texto: trocam 'alguns' por 'todos', 'pode' por 'deve', 'solicitou' por 'exigiu'. Cada uma dessas trocas cria uma distorção que invalida a alternativa. Leia com precisão cirúrgica.",
+      "titulo": "Verdadeiro no mundo, ausente no texto",
+      "errado": "Com base no texto 'O navio partiu às 6h do porto de Recife', é correto afirmar que o porto de Recife é o maior do Nordeste.",
+      "correto": "Com base no texto, é correto afirmar que o navio partiu às 6h do porto de Recife.",
+      "explicacao": "O fato de o porto de Recife ser o maior do Nordeste pode ser verdadeiro no mundo real, mas o texto não afirma isso. A questão pede o que o texto diz, não o que você sabe. Toda alternativa deve ter âncora textual — se a informação não está no texto, ela não serve como resposta.",
       "nivel": "basico"
     },
     {
-      "titulo": "Pressuposto confundido com afirmação do texto",
-      "errado": "Marcar como informação explícita algo que é apenas pressuposto do enunciado.",
-      "correto": "O pressuposto é implícito — ele não está dito, mas é tomado como verdade pelo enunciado. 'Maria parou de trabalhar' pressupõe que ela trabalhava antes, mas esse fato não está explícito.",
-      "explicacao": "Em provas, uma alternativa pode apresentar o pressuposto como se fosse informação explícita. Se a questão pede 'o que o texto afirma diretamente', o pressuposto não é a resposta correta. Se pede 'o que se depreende do texto', o pressuposto pode ser a resposta.",
+      "titulo": "Confundir 'negar' com 'não afirmar'",
+      "errado": "Como o texto não menciona falhas nos equipamentos, pode-se concluir que os equipamentos funcionavam perfeitamente.",
+      "correto": "Como o texto não menciona falhas nos equipamentos, não é possível concluir nada sobre o funcionamento deles.",
+      "explicacao": "O silêncio do texto não é uma negação. Se o texto não diz que algo aconteceu, isso não significa que não aconteceu — significa apenas que o texto não aborda o assunto. Concluir o contrário do que não foi dito é uma extrapolação clássica e muito explorada pelo CEBRASPE.",
       "nivel": "basico"
     },
     {
-      "titulo": "Inferência provável confundida com inferência necessária",
-      "errado": "Aceitar como inferência válida qualquer conclusão provável ou razoável que o texto sugere.",
-      "correto": "Em provas militares, apenas a inferência necessária — aquela que decorre logicamente e sem exceções das informações do texto — é aceita como correta.",
-      "explicacao": "O texto diz: 'O aluno não compareceu às aulas por três semanas.' Uma inferência provável seria: 'O aluno estava doente.' Mas isso não é necessário — ele pode ter viajado, estar em missão etc. A inferência necessária seria: 'O aluno ficou ausente por três semanas.' Apenas esta é inquestionável.",
+      "titulo": "Pressupostos ignorados como se fossem extrapolação",
+      "errado": "A afirmação 'o oficial voltou a assumir o comando' não permite concluir que ele já havia comandado antes, pois o texto não diz isso explicitamente.",
+      "correto": "A afirmação 'o oficial voltou a assumir o comando' pressupõe que ele já havia comandado antes — essa é uma inferência válida baseada no verbo 'voltar'.",
+      "explicacao": "O verbo 'voltar' é um gatilho pressuposicional: implica obrigatoriamente um estado anterior. Isso não é extrapolação — é um pressuposto linguístico embutido na estrutura da frase. Rejeitar pressupostos como se fossem inferências indevidas é um erro grave em provas de interpretação.",
       "nivel": "intermediario"
     },
     {
-      "titulo": "Negação do implícito como se fosse negação do explícito",
-      "errado": "Afirmar que uma informação foi negada pelo texto quando, na verdade, o texto simplesmente não a menciona.",
-      "correto": "Ausência de informação no texto não equivale à negação dessa informação. O texto que não fala sobre X não está negando X.",
-      "explicacao": "Alternativas do tipo 'O texto nega que...' são frequentemente armadilhas. Se o texto não menciona determinado fato, ele não o nega — apenas não o confirma. A distinção entre 'negar' e 'não afirmar' é sutil, mas crucial para a interpretação correta.",
-      "nivel": "avancado"
+      "titulo": "Usar 'depreende-se' como se fosse o mesmo que 'está escrito'",
+      "errado": "Uma vez que o texto afirma 'o projeto foi aprovado por unanimidade', depreende-se que o texto informa que havia mais de um votante.",
+      "correto": "Uma vez que o texto afirma 'o projeto foi aprovado por unanimidade', depreende-se que havia mais de um votante, pois unanimidade pressupõe pluralidade.",
+      "explicacao": "A versão errada nega a inferência porque ela não está 'literalmente escrita'. A versão correta reconhece que 'unanimidade' pressupõe logicamente múltiplos votantes — é uma inferência de uma etapa, totalmente ancorada no texto. Questões com 'depreende-se' exigem esse tipo de raciocínio.",
+      "nivel": "intermediario"
     },
     {
-      "titulo": "Subentendido como única interpretação possível",
-      "errado": "Tratar um subentendido (que depende do contexto e pode variar) como se fosse a única leitura possível do texto.",
-      "correto": "O subentendido é uma leitura possível, não necessária. Em provas, ele só é aceito como correto se o contexto textual praticamente não deixar outra interpretação.",
-      "explicacao": "Exemplo: 'Você vai ao banco hoje?' pode subentender que o interlocutor precisa fazer um pagamento — mas isso é apenas uma possibilidade contextual. Em prova, um subentendido ambíguo não pode ser a base de uma resposta correta. Prefira sempre a inferência ancorada em elementos textuais concretos.",
+      "titulo": "Inferência de múltiplos passos tratada como legítima",
+      "errado": "O texto informa que 'a fragata completou sua terceira missão em alto-mar'. Portanto, é correto afirmar, com base no texto, que a tripulação está bem treinada e motivada.",
+      "correto": "O texto permite apenas afirmar que a fragata completou sua terceira missão. Conclusões sobre treinamento e motivação da tripulação não têm âncora no texto.",
+      "explicacao": "Completar missões pode sugerir competência, mas o texto não afirma isso. Para chegar à conclusão sobre treinamento e motivação, o candidato usa conhecimento externo e múltiplos passos de raciocínio sem respaldo textual. Isso caracteriza extrapolação indevida — erro clássico de nível avançado no CEBRASPE.",
       "nivel": "avancado"
     }
   ],
+
   "cascas_de_banana": [
     {
-      "situacao": "A alternativa apresenta uma afirmação que parece óbvia e razoável, mas que o texto não sustenta diretamente nem permite inferir com necessidade lógica.",
-      "dica": "Volte ao texto. Localize o trecho que sustentaria essa alternativa. Se não encontrar nenhum trecho que a comprove ou permita inferi-la necessariamente, a alternativa está errada, por mais razoável que pareça ao senso comum.",
+      "situacao": "Confundir o que o texto implica com o que o candidato conhece sobre o tema.",
+      "dica": "Antes de marcar uma alternativa, pergunte-se: 'Eu sei isso porque li no texto ou porque já sabia antes?' Se a resposta for 'já sabia antes', cuidado — é provável extrapolação. A prova avalia sua leitura do texto, não seu conhecimento enciclopédico sobre o assunto.",
       "nivel": "basico"
     },
     {
-      "situacao": "A questão usa verbos como 'infere-se', 'depreende-se', 'conclui-se' e uma alternativa apresenta uma generalização ampla ('sempre', 'todo', 'nunca', 'apenas') que o texto não garante.",
-      "dica": "Generalizações absolutas raramente são sustentadas pelo texto, que costuma apresentar casos específicos. Se o texto fala de um caso particular e a alternativa generaliza para todos os casos, desconfie e rejeite.",
+      "situacao": "Aceitar como explícita uma informação que só existe como pressuposto.",
+      "dica": "Quando uma questão pergunta se determinada informação 'está expressa no texto', verifique se você consegue localizar a frase exata que a afirma. Se a informação só existe como dedução (mesmo que de uma etapa), ela é implícita, não explícita. O CEBRASPE usa essa distinção para elaborar alternativas que 'quase' estão certas, mas usam o termo errado ('está expresso' em vez de 'depreende-se').",
       "nivel": "intermediario"
     },
     {
-      "situacao": "Alternativas que atribuem intenção, sentimento ou julgamento de valor ao autor ou a personagens do texto, sem que isso esteja explicitamente dito ou claramente implicado.",
-      "dica": "O texto é o único parâmetro. Julgamentos como 'o autor critica', 'o personagem sente raiva', 'o texto condena' só podem ser marcados se houver elementos concretos no texto que comprovem essa leitura. Evite projetar suas próprias interpretações.",
+      "situacao": "Rejeitar inferências legítimas por exigir que tudo esteja literalmente escrito.",
+      "dica": "Nem tudo que o texto comunica precisa estar em palavras exatas. Um pressuposto ou subentendido claro é uma informação textual tão válida quanto uma afirmação direta. Se a questão pergunta o que 'se pode depreender' e a alternativa tem âncora no texto — mesmo que exija uma etapa de raciocínio —, ela pode ser a correta. Não descarte inferências válidas por paranoia com extrapolação.",
       "nivel": "avancado"
     }
   ],
+
   "questoes": [
     {
       "id": "q01",
       "nivel": "basico",
-      "enunciado": "Leia o trecho: 'O Curso de Formação de Oficiais tem duração de quatro anos e é realizado na cidade do Rio de Janeiro.' Com base nessa informação, é correto afirmar que:",
+      "enunciado": "Informação explícita é aquela que está diretamente escrita no texto, sem necessidade de qualquer dedução por parte do leitor.",
       "alternativas": {
-        "A": "O curso tem duração de quatro anos e ocorre no Rio de Janeiro.",
-        "B": "O curso prepara oficiais para atuação exclusivamente naval.",
-        "C": "O Rio de Janeiro é a única cidade com cursos militares no Brasil.",
-        "D": "O curso é obrigatório para todos os candidatos à Marinha.",
-        "E": "A duração do curso foi recentemente alterada para quatro anos."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "A",
-      "explicacao": "A alternativa A reproduz fielmente, em paráfrase, as duas informações explícitas do trecho: duração (quatro anos) e local (Rio de Janeiro). B extrapola ao dizer 'exclusivamente naval' — o texto não faz tal restrição. C generaliza de forma abusiva; o texto fala apenas desse curso, não de todos os cursos militares do país. D acrescenta obrigatoriedade não mencionada. E inventa uma alteração recente sem qualquer respaldo no texto."
+      "explicacao": "A afirmativa está correta. Informação explícita é, por definição, aquela que o autor enuncia diretamente — o leitor apenas a localiza no texto, sem precisar raciocinar ou deduzir. O critério é a visibilidade na superfície textual, não a facilidade ou simplicidade da informação."
     },
     {
       "id": "q02",
       "nivel": "basico",
-      "enunciado": "Considere o enunciado: 'Todos os candidatos que obtiverem nota inferior a 40 pontos serão eliminados.' Qual informação está explícita nesse trecho?",
+      "textoBase": "O sargento Moraes foi incorporado à Marinha do Brasil em janeiro de 2020 e atualmente serve na Base Naval de Ladário.",
+      "enunciado": "Com base no trecho acima, é correto afirmar que o sargento Moraes serve atualmente na Base Naval de Ladário.",
       "alternativas": {
-        "A": "A maioria dos candidatos costuma ser eliminada.",
-        "B": "Candidatos com 40 pontos ou mais serão aprovados.",
-        "C": "A nota mínima para aprovação é 40 pontos.",
-        "D": "A prova possui questões de múltipla escolha.",
-        "E": "Somente candidatos com mais de 40 pontos são aprovados."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa A está explícita: quem tiver nota abaixo de 40 é eliminado, o que equivale a dizer que a nota mínima é 40. B é uma inferência lógica (quem não é eliminado passou), mas atenção: 'aprovados' pode não ser a palavra certa — podem ser apenas não eliminados nessa fase. C é inferência abusiva — frequência não foi mencionada. D é informação não presente no trecho. E modifica o critério: o texto fala em 'inferior a 40' (abaixo), logo quem tem exatamente 40 não é eliminado — a alternativa E, ao dizer 'mais de 40', exclui quem tem exatamente 40, distorcendo o critério."
+      "gabarito": "A",
+      "explicacao": "A informação de que o sargento Moraes 'atualmente serve na Base Naval de Ladário' está explicitamente declarada no texto. Não é necessário nenhum raciocínio adicional para identificá-la — basta localizar a passagem. Trata-se de informação explícita."
     },
     {
       "id": "q03",
       "nivel": "basico",
-      "enunciado": "Leia: 'O candidato entregou o requerimento fora do prazo.' Qual pressuposto está contido nessa frase?",
+      "enunciado": "Informação implícita é aquela que o leitor inventa a partir de conhecimentos pessoais, sem nenhuma base no texto lido.",
       "alternativas": {
-        "A": "O candidato foi desclassificado por entrar fora do prazo.",
-        "B": "Havia um prazo estabelecido para a entrega do requerimento.",
-        "C": "O requerimento foi recusado pela banca examinadora.",
-        "D": "O candidato não sabia do prazo.",
-        "E": "O prazo foi insuficiente para os candidatos."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "A frase pressupõe que havia um prazo: só se pode entregar 'fora do prazo' se um prazo existia. Esse é o pressuposto necessário. B, C, D e E são inferências sobre consequências, intenções ou avaliações que não estão no texto e constituem inferências abusivas — o trecho não menciona desclassificação, recusa, conhecimento do prazo nem sua suficiência."
+      "explicacao": "A afirmativa está errada. Informação implícita não é invenção do leitor — ela tem base no texto, mas não está enunciada de forma direta. O que não tem base no texto é chamado de extrapolação indevida, que é um erro de interpretação. A inferência implícita legítima sempre encontra respaldo em alguma estrutura, palavra ou pressuposto do próprio texto."
     },
     {
       "id": "q04",
       "nivel": "basico",
-      "enunciado": "O trecho 'A oficial ainda não recebeu sua promoção' pressupõe que:",
+      "textoBase": "A operação de patrulha foi concluída dentro do prazo.",
+      "enunciado": "Assinale a alternativa que representa uma informação explícita contida no trecho acima.",
       "alternativas": {
-        "A": "A promoção foi cancelada definitivamente.",
-        "B": "A oficial foi preterida injustamente.",
-        "C": "A oficial não tem qualificações para ser promovida.",
-        "D": "Era esperado que a oficial recebesse sua promoção.",
-        "E": "A oficial pediu sua promoção recentemente."
+        "A": "A operação foi bem-sucedida em todos os aspectos.",
+        "B": "A operação de patrulha foi concluída dentro do prazo.",
+        "C": "A tripulação era experiente.",
+        "D": "Houve dificuldades durante a operação.",
+        "E": "O prazo era curto."
       },
-      "gabarito": "D",
-      "explicacao": "O advérbio 'ainda' é marcador de pressuposto: indica que havia uma expectativa de que o evento ocorresse. A frase pressupõe, portanto, que havia expectativa de promoção para a oficial. B, C, D e E são julgamentos ou conclusões que vão além do pressuposto ativado — o texto não fala em injustiça, falta de qualificação, cancelamento definitivo nem em pedido recente."
+      "gabarito": "B",
+      "explicacao": "A alternativa B reproduz a informação exatamente como está escrita no texto — trata-se de informação explícita. As demais alternativas trazem afirmações que não estão no texto: A infere sucesso amplo sem base; C e D atribuem características à tripulação e ao processo sem qualquer menção textual; E qualifica o prazo como curto, informação que o texto não fornece."
     },
     {
       "id": "q05",
       "nivel": "basico",
-      "enunciado": "Leia: 'Nenhum dos aprovados se inscreveu no curso de especialização.' Qual das alternativas apresenta uma informação explícita correta com base nesse trecho?",
+      "textoBase": "O cabo Rodrigues nasceu no Recife e ingressou na Marinha aos 18 anos.",
+      "enunciado": "Com base no trecho, é possível afirmar, de forma explícita, que o cabo Rodrigues é natural de Pernambuco.",
       "alternativas": {
-        "A": "Os aprovados não se inscreveram no curso de especialização.",
-        "B": "Os aprovados não tinham interesse em se especializar.",
-        "C": "O curso de especialização foi cancelado por falta de inscritos.",
-        "D": "Apenas os não aprovados fizeram a especialização.",
-        "E": "Os aprovados foram impedidos de se inscrever."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "A",
-      "explicacao": "A alternativa A parafraseia fielmente o que está explícito: nenhum aprovado se inscreveu = os aprovados não se inscreveram. B acrescenta uma inferência sobre intenção (falta de interesse) não contida no texto. C conclui que o curso foi cancelado — possível, mas não dito. D afirma que não aprovados se inscreveram — o texto não diz isso. E afirma impedimento — inexistente no texto."
+      "gabarito": "B",
+      "explicacao": "O texto informa que o cabo Rodrigues nasceu no Recife — essa é a informação explícita. A afirmação de que ele é 'natural de Pernambuco' é uma inferência legítima (Recife fica em Pernambuco), mas não é uma informação explícita — o texto não usa a palavra Pernambuco. A questão pede especificamente 'de forma explícita', portanto a resposta é errado."
     },
     {
       "id": "q06",
       "nivel": "basico",
-      "enunciado": "Considere: 'Mesmo o comandante votou a favor da proposta.' Qual informação está implícita nesse trecho?",
+      "enunciado": "Em provas do estilo CEBRASPE, a expressão 'está expresso no texto' indica que a questão busca uma informação implícita.",
       "alternativas": {
-        "A": "A proposta foi aprovada por unanimidade.",
-        "B": "O comandante raramente concorda com propostas.",
-        "C": "Outros membros também votaram a favor da proposta.",
-        "D": "O comandante votou contrariando sua vontade.",
-        "E": "A proposta beneficiava apenas o comandante."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "A palavra 'mesmo' funciona como marcador de inclusão — pressupõe que outros votaram a favor e o comandante foi incluído. A alternativa A capta esse pressuposto corretamente. B é inferência sobre hábito do comandante — não autorizada pelo texto. C afirma unanimidade — o texto não garante isso. D sobre contrariedade e E sobre benefício exclusivo são ambas inferências abusivas."
+      "gabarito": "B",
+      "explicacao": "A afirmativa está errada. 'Está expresso no texto' é uma locução que aponta para informação explícita — algo que pode ser localizado diretamente na superfície do texto. Expressões que apontam para o implícito são outras: 'depreende-se', 'infere-se', 'permite concluir'. Confundir essas expressões é um erro clássico que o CEBRASPE explora."
     },
     {
       "id": "q07",
       "nivel": "basico",
-      "enunciado": "Leia o fragmento: 'O relatório foi elaborado com base em dados coletados entre janeiro e março.' O que está explicitamente dito nesse fragmento?",
+      "textoBase": "O Comando Naval divulgou nota informando que 340 vagas serão abertas para o concurso de 2025.",
+      "enunciado": "O número de vagas divulgado pelo Comando Naval é uma informação explícita presente no texto.",
       "alternativas": {
-        "A": "Os dados foram coletados por uma equipe especializada.",
-        "B": "O relatório utilizou dados do primeiro trimestre do ano.",
-        "C": "O relatório foi aprovado pela chefia em março.",
-        "D": "A coleta de dados durou exatamente três meses.",
-        "E": "O relatório é o mais completo já elaborado."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "Janeiro a março corresponde ao primeiro trimestre, portanto A é uma paráfrase válida da informação explícita. B acrescenta 'equipe especializada' — não mencionado. C afirma aprovação em março — inventado. D diz 'exatamente três meses' — o texto diz 'entre janeiro e março', o que pode não incluir os meses completos. E é juízo de valor sem respaldo."
+      "gabarito": "A",
+      "explicacao": "O número 340 e o concurso de 2025 estão declarados diretamente no texto — são informações explícitas que o leitor encontra sem nenhum esforço de dedução. A informativa está correta."
     },
     {
       "id": "q08",
       "nivel": "basico",
-      "enunciado": "Texto: 'O edital determina que os candidatos devem apresentar diploma de graduação.' Qual das opções abaixo apresenta uma inferência lógica válida com base no trecho?",
+      "enunciado": "Assinale a alternativa que define corretamente 'pressuposto linguístico'.",
       "alternativas": {
-        "A": "O diploma pode ser substituído por comprovante de matrícula.",
-        "B": "O diploma de graduação deve ser de universidade pública.",
-        "C": "Candidatos com pós-graduação estão automaticamente dispensados.",
-        "D": "O edital exige exclusivamente diploma de Engenharia.",
-        "E": "Candidatos sem diploma de graduação não atendem a esse requisito do edital."
+        "A": "Informação escrita com todas as letras no texto.",
+        "B": "Opinião pessoal do leitor sobre o tema do texto.",
+        "C": "Informação que o autor assume como verdadeira antes de fazer seu enunciado, embutida na estrutura da frase.",
+        "D": "Conclusão que exige conhecimento externo ao texto para ser alcançada.",
+        "E": "Dado numérico ou estatístico mencionado no texto."
       },
-      "gabarito": "E",
-      "explicacao": "Se o edital exige diploma de graduação, quem não tem diploma não atende ao requisito — essa é uma inferência lógica necessária e direta. B restringe ao tipo de universidade, não mencionado. C fala em dispensa para pós-graduados — não previsto no texto. D limita a Engenharia sem base no trecho. E sugere substituição — contrária à exigência do edital."
+      "gabarito": "C",
+      "explicacao": "O pressuposto linguístico é uma informação implícita que o autor toma como dada antes de formular seu enunciado — ela vem embutida na própria estrutura da frase. A alternativa A define informação explícita; B define suposição pessoal (extrapolação); D define extrapolação indevida; E é uma definição inventada sem correspondência conceitual."
     },
     {
       "id": "q09",
       "nivel": "basico",
-      "enunciado": "Leia: 'A embarcação partiu sem que todos os tripulantes estivessem a bordo.' Qual pressuposto está presente na frase?",
+      "textoBase": "Após anos de serviço, o contra-almirante Lima pediu sua transferência para a reserva.",
+      "enunciado": "O trecho acima permite inferir que o contra-almirante Lima tinha intenção de se aposentar definitivamente da vida naval.",
       "alternativas": {
-        "A": "Os tripulantes ausentes foram punidos.",
-        "B": "A embarcação partiu com destino desconhecido.",
-        "C": "O comandante ordenou a partida precipitadamente.",
-        "D": "Havia tripulantes que não embarcaram antes da partida.",
-        "E": "A embarcação costuma partir com todos a bordo."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "D",
-      "explicacao": "A frase afirma explicitamente que 'nem todos os tripulantes estavam a bordo', pressupondo portanto que havia tripulantes ausentes (A). B sobre destino desconhecido não tem base. C sobre ordem precipitada é inferência sobre intenção não autorizada. D sobre punição é consequência inventada. E afirma um hábito — o texto menciona um evento específico, não um padrão."
+      "gabarito": "B",
+      "explicacao": "O texto informa que o contra-almirante pediu transferência para a reserva — isso é explícito. Concluir que ele pretendia se aposentar definitivamente é uma extrapolação indevida: a reserva não equivale necessariamente à aposentadoria definitiva, e o texto não fornece essa informação. A inferência vai além do que o texto autoriza."
     },
     {
       "id": "q10",
       "nivel": "basico",
-      "enunciado": "Considere o enunciado: 'Apenas os candidatos da lista geral foram convocados para a segunda fase.' Qual das alternativas apresenta uma informação IMPLÍCITA que pode ser inferida desse trecho?",
+      "enunciado": "A diferença fundamental entre informação explícita e informação implícita está no grau de importância da informação para o texto.",
       "alternativas": {
-        "A": "Os candidatos da lista geral são mais qualificados.",
-        "B": "Os candidatos de outras listas não foram convocados para a segunda fase.",
-        "C": "A segunda fase é a etapa mais difícil do processo.",
-        "D": "Os candidatos não convocados foram desclassificados definitivamente.",
-        "E": "A primeira fase foi realizada antes da convocação."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "Se apenas os da lista geral foram convocados, infere-se necessariamente que candidatos de outras listas não foram — A é uma inferência lógica direta e necessária. B compara qualificação sem base no texto. C avalia a dificuldade das fases — não mencionado. D afirma desclassificação definitiva — não podemos concluir isso (podem ser convocados depois ou por outra via). E pressupõe ordem cronológica razoável, mas o texto não menciona primeira fase."
+      "explicacao": "A diferença entre explícito e implícito não tem relação com importância — uma informação implícita pode ser mais relevante para a interpretação do que uma explícita. A distinção real é de visibilidade: o explícito está na superfície do texto; o implícito precisa ser deduzido a partir de estruturas, pressupostos ou subentendidos presentes no texto."
     },
     {
       "id": "q11",
       "nivel": "intermediario",
-      "enunciado": "Leia o fragmento: 'O Brasil, que já foi considerado o celeiro do mundo, enfrenta hoje graves problemas de abastecimento.' Assinale a alternativa que apresenta corretamente uma informação EXPLÍCITA do trecho.",
+      "textoBase": "O relatório de auditoria concluiu que a embarcação voltou a apresentar irregularidades no sistema de comunicação, comprometendo duas missões consecutivas no litoral nordestino.",
+      "enunciado": "Com base no trecho, julgue a seguinte afirmação: o sistema de comunicação da embarcação já havia apresentado irregularidades anteriormente.",
       "alternativas": {
-        "A": "O Brasil passou a ser conhecido como celeiro do mundo por causa de sua agricultura.",
-        "B": "No passado, o Brasil foi considerado o celeiro do mundo.",
-        "C": "Os problemas de abastecimento foram causados pela má gestão governamental.",
-        "D": "O Brasil não produz mais alimentos suficientes para sua população.",
-        "E": "O título de 'celeiro do mundo' foi retirado do Brasil por decisão internacional."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B parafraseia fielmente o que está no trecho: 'que já foi considerado' indica passado — informação explícita. A acrescenta causa (agricultura) não mencionada. C atribui culpa (má gestão) ausente no texto. D afirma insuficiência de produção não declarada — problemas de abastecimento não equivalem necessariamente à produção insuficiente. E inventa uma decisão internacional inexistente no texto."
+      "gabarito": "A",
+      "explicacao": "A afirmação está correta. O verbo 'voltou a apresentar' é um gatilho pressuposicional que implica obrigatoriamente que as irregularidades já haviam ocorrido antes. Trata-se de uma informação implícita — especificamente, um pressuposto linguístico — que o texto autoriza plenamente. Não é necessário nenhum conhecimento externo para chegar a essa conclusão."
     },
     {
       "id": "q12",
       "nivel": "intermediario",
-      "enunciado": "Texto: 'Embora o oficial tenha solicitado reforço de pessoal, a operação foi iniciada com a equipe disponível.' Que informação está implícita nesse período?",
+      "textoBase": "Apenas o tenente Santos foi capaz de completar o percurso em menos de quatro horas durante o exercício de resistência físico-militar realizado na base.",
+      "enunciado": "Com base no trecho, assinale a alternativa que apresenta uma informação que pode ser depreendida do texto.",
       "alternativas": {
-        "A": "O reforço de pessoal não foi enviado antes do início da operação.",
-        "B": "O oficial agiu de forma imprudente ao iniciar a operação.",
-        "C": "A equipe disponível era suficiente para a operação.",
-        "D": "O reforço de pessoal chegaria mais tarde.",
-        "E": "A operação foi um fracasso por falta de pessoal."
+        "A": "O exercício de resistência durou quatro horas no total.",
+        "B": "O tenente Santos é o militar mais bem preparado da base.",
+        "C": "Outros militares também participaram do exercício, mas não concluíram o percurso no tempo estabelecido.",
+        "D": "O percurso era muito difícil e inadequado para militares sem experiência.",
+        "E": "A base possui uma pista de corrida de alta qualidade."
       },
-      "gabarito": "A",
-      "explicacao": "A conjunção 'embora' indica concessão: a solicitação foi feita, mas a operação foi iniciada da mesma forma — o que permite inferir que o reforço não chegou a tempo (A). B é julgamento de valor sobre imprudência não autorizado. C afirma suficiência da equipe — o contrário do que se infere pela solicitação de reforço. D é possível, mas o texto não menciona chegada posterior. E afirma fracasso — não há informação sobre o resultado da operação."
+      "gabarito": "C",
+      "explicacao": "A alternativa C é a inferência legítima: o advérbio 'apenas' pressupõe que outros participaram mas não conseguiram. Essa conclusão tem âncora direta no texto. A alternativa A confunde o tempo de conclusão com a duração total do exercício — informação não fornecida. B e D trazem julgamentos de valor sem base textual. E é uma extrapolação sobre a estrutura física da base."
     },
     {
       "id": "q13",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'O novo regulamento passa a vigorar a partir do dia 1º do mês seguinte ao de sua publicação. O regulamento foi publicado em 15 de outubro.' Com base nessas informações, infere-se que:",
+      "textoBase": "O boletim interno do 2° Distrito Naval destacou que as novas embarcações de patrulha foram incorporadas à frota com 'algumas pendências técnicas ainda em processo de resolução'.",
+      "enunciado": "A expressão 'algumas pendências técnicas ainda em processo de resolução' permite inferir que as embarcações não estavam plenamente aptas para o serviço no momento da incorporação.",
       "alternativas": {
-        "A": "O regulamento entrou em vigor em 1º de novembro.",
-        "B": "O regulamento foi elaborado em setembro.",
-        "C": "A vigência do regulamento depende de aprovação posterior.",
-        "D": "O regulamento substituiu outro anterior publicado em outubro.",
-        "E": "O regulamento vigora a partir de 15 de novembro."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "A",
-      "explicacao": "Com base nas duas premissas: publicado em 15 de outubro + vigência a partir do 1º do mês seguinte ao da publicação → o mês seguinte a outubro é novembro → vigência em 1º de novembro. A é a inferência lógica necessária. B menciona elaboração em setembro — não dito. C menciona aprovação posterior — não prevista. D afirma substituição de regulamento — inexistente. E diz 15 de novembro — erro: a regra é o 1º do mês seguinte, não o dia 15."
+      "explicacao": "A inferência é legítima e bem ancorada no texto. 'Pendências técnicas em processo de resolução' indica que problemas existiam no momento da incorporação e ainda não haviam sido sanados. Disso se pode depreender que as embarcações não estavam plenamente aptas — é uma inferência de uma única etapa, autorizada pelo vocabulário do trecho. Não há extrapolação."
     },
     {
       "id": "q14",
       "nivel": "intermediario",
-      "enunciado": "Fragmento: 'Só os candidatos com pontuação acima da média geral foram convocados para a entrevista.' Qual das alternativas apresenta inferência ABUSIVA com base nesse trecho?",
+      "textoBase": "O aspirante a oficial comunicou ao superior: 'Ainda não obtive os documentos solicitados pelo departamento de pessoal.'",
+      "enunciado": "Com base na fala do aspirante, é possível afirmar que os documentos foram solicitados pelo departamento de pessoal.",
       "alternativas": {
-        "A": "Candidatos com pontuação igual ou abaixo da média não foram convocados.",
-        "B": "Houve candidatos que não foram convocados para a entrevista.",
-        "C": "A média geral foi calculada a partir das notas de todos os candidatos.",
-        "D": "Os convocados para a entrevista são automaticamente aprovados no processo.",
-        "E": "A entrevista é uma etapa posterior à prova de pontuação."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "D",
-      "explicacao": "D afirma aprovação automática dos convocados — o texto fala apenas em convocação para entrevista, não em aprovação. Essa é a inferência abusiva. A é inferência lógica direta (acima da média → abaixo não foi). B decorre logicamente (nem todos foram convocados). C é razoável sobre como médias são calculadas, mas é inferência pragmática — a menos abusiva. E pressupõe ordem lógica entre etapas, sustentada pelo contexto."
+      "gabarito": "A",
+      "explicacao": "A frase contém uma informação explícita ('documentos solicitados pelo departamento de pessoal') e uma implícita ('ainda não obteve' pressupõe que a solicitação foi feita e que o prazo para obtê-los pode não ter sido cumprido). A afirmação da questão refere-se ao dado explícito: os documentos foram solicitados — isso está escrito com todas as letras. A resposta é correta."
     },
     {
       "id": "q15",
       "nivel": "intermediario",
-      "enunciado": "Leia o fragmento: 'Apesar de ter estudado intensamente, a candidata não obteve a nota necessária para aprovação.' Assinale o que está explícito no trecho.",
+      "textoBase": "A portaria n° 112/2025 do Comando da Marinha revogou integralmente a portaria n° 89/2022, que regulamentava o processo de seleção para cursos de especialização.",
+      "enunciado": "Com base no trecho, pode-se afirmar que, antes da portaria n° 112/2025, havia um processo regulamentado para seleção aos cursos de especialização.",
       "alternativas": {
-        "A": "A candidata estudou muito, mas não foi aprovada.",
-        "B": "A candidata ficou em segundo lugar na classificação.",
-        "C": "O nível de dificuldade da prova foi excessivo.",
-        "D": "A candidata se sentiu frustrada com o resultado.",
-        "E": "O esforço da candidata não foi reconhecido pela banca."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "A",
-      "explicacao": "A parafraseia fielmente as duas informações explícitas: estudo intenso e não obtenção da nota necessária. B afirma segundo lugar — não mencionado. C faz julgamento sobre dificuldade — o texto não avalia a prova. D descreve estado emocional — não explícito. E faz afirmação sobre reconhecimento da banca — não há qualquer indicação disso."
+      "explicacao": "A informação é inferível a partir do texto: a portaria 89/2022 'regulamentava o processo de seleção' — isso indica que, durante sua vigência, o processo estava regulamentado. O verbo 'revogar' pressupõe que a norma anterior estava em vigor. A conclusão tem âncora direta na estrutura do texto e constitui uma inferência legítima de uma única etapa."
     },
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Texto: 'O manual de normas foi revisado três vezes antes de ser publicado.' Qual das alternativas apresenta informação IMPLÍCITA que pode ser inferida?",
+      "textoBase": "O capitão-de-mar-e-guerra afirmou em entrevista: 'Espero que os próximos recrutamentos tragam candidatos com maior preparo físico do que os que vimos recentemente.'",
+      "enunciado": "A fala do capitão-de-mar-e-guerra permite concluir, com base no texto, que ele está satisfeito com o nível de preparo físico dos últimos candidatos recrutados.",
       "alternativas": {
-        "A": "As versões anteriores do manual apresentavam problemas.",
-        "B": "O manual passou por um processo de revisão rigoroso.",
-        "C": "A publicação ocorreu após a terceira revisão.",
-        "D": "A equipe responsável pela revisão era composta por especialistas.",
-        "E": "O manual revisado é definitivo e não sofrerá mais alterações."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "C é a única inferência lógica necessária: se foi revisado três vezes antes de ser publicado, então a publicação ocorreu após a terceira revisão. A afirma que havia problemas — possível, mas não necessário (revisões podem ser de aperfeiçoamento). B qualifica o processo como 'rigoroso' — julgamento não autorizado. D inventa a composição da equipe. E afirma definitividade — não há base para isso."
+      "gabarito": "B",
+      "explicacao": "A afirmativa está errada. A fala do capitão expressa a expectativa de que os próximos candidatos tenham 'maior preparo físico do que os que vimos recentemente' — o que implica insatisfação com o preparo recente, e não satisfação. É uma informação implícita (subentendida pelo uso do comparativo 'maior do que') que contraria a afirmativa da questão."
     },
     {
       "id": "q17",
       "nivel": "intermediario",
-      "enunciado": "Fragmento: 'O médico afirmou que o paciente poderia receber alta no dia seguinte, caso os exames confirmassem a melhora.' Que informação está explicitamente presente nesse trecho?",
+      "textoBase": "O comandante encerrou a reunião sem mencionar os incidentes ocorridos durante o patrulhamento noturno.",
+      "enunciado": "Com base no trecho, é correto afirmar que o comandante desconhecia os incidentes do patrulhamento noturno.",
       "alternativas": {
-        "A": "A alta do paciente estava condicionada ao resultado dos exames.",
-        "B": "O paciente foi internado no dia anterior à consulta médica.",
-        "C": "Os exames confirmaram a melhora do paciente.",
-        "D": "O médico estava otimista quanto à recuperação do paciente.",
-        "E": "O paciente recebeu alta no dia seguinte à consulta."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "A",
-      "explicacao": "A parafraseia com fidelidade o que está explícito: a alta estava condicionada ('caso os exames confirmassem'). B inventa internação anterior. C afirma que os exames confirmaram — o texto fala em condição futura, não em fato consumado. D atribui sentimento ao médico não explicitado. E afirma alta como fato — o texto apresenta apenas uma possibilidade condicional."
+      "gabarito": "B",
+      "explicacao": "O texto informa que o comandante 'não mencionou' os incidentes — isso não significa que os desconhecia. O silêncio sobre um assunto não é equivalente a ignorância sobre ele. A conclusão de que ele desconhecia vai além do que o texto autoriza, caracterizando extrapolação indevida. O texto permite afirmar apenas que os incidentes não foram mencionados."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'Os exercícios militares foram suspensos em razão das condições climáticas adversas. Retornarão assim que o tempo permitir.' Qual das alternativas apresenta uma inferência válida com base no texto?",
+      "textoBase": "O regulamento interno da unidade naval proíbe o uso de aparelhos celulares nas dependências operacionais durante o período de serviço.",
+      "enunciado": "A partir do trecho, depreende-se que o uso de celulares é permitido nas dependências operacionais fora do período de serviço.",
       "alternativas": {
-        "A": "As condições climáticas melhorarão em breve.",
-        "B": "Os exercícios militares foram interrompidos temporariamente.",
-        "C": "Os exercícios foram cancelados definitivamente.",
-        "D": "As condições adversas causaram baixas entre os militares.",
-        "E": "O comandante responsável foi responsabilizado pela suspensão."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "B",
-      "explicacao": "B é a inferência correta: 'suspensos' mais 'retornarão assim que o tempo permitir' indica caráter temporário da interrupção. A afirma que o tempo melhorará — o texto não garante isso. C contradiz o texto, que prevê retorno. D inventa baixas sem respaldo. E inventa responsabilização sem base."
+      "gabarito": "A",
+      "explicacao": "A restrição estabelecida pelo regulamento é específica: proíbe o uso 'durante o período de serviço'. A expressão temporal 'durante o período de serviço' implica, por contraposição lógica, que fora desse período a proibição não se aplica. Essa é uma inferência legítima de uma etapa, com âncora direta no texto. A afirmativa está correta."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Texto: 'Embora a proposta inicial previsse três etapas, a comissão decidiu incluir uma quarta, dedicada à avaliação de desempenho.' Qual pressuposto está presente nesse enunciado?",
+      "textoBase": "Em função dos excelentes resultados obtidos no último exercício tático, o grupo de operações especiais foi indicado para receber uma condecoração.",
+      "enunciado": "O texto permite afirmar que o grupo de operações especiais já recebeu a condecoração.",
       "alternativas": {
-        "A": "A proposta inicial não previa avaliação de desempenho.",
-        "B": "A comissão aprovou a proposta inicial sem alterações.",
-        "C": "A avaliação de desempenho era desnecessária segundo a proposta inicial.",
-        "D": "A proposta foi elaborada por membros da comissão.",
-        "E": "As três etapas originais foram mantidas após a decisão da comissão."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "A",
-      "explicacao": "A comissão incluiu uma quarta etapa dedicada à avaliação de desempenho — o que pressupõe que a proposta original (de três etapas) não contemplava essa avaliação (A). B nega o fato da alteração — errôneo, pois o texto afirma que a comissão decidiu incluir algo. C faz julgamento de valor (desnecessária) — não presente. D inventa autoria da proposta. E é uma inferência lógica válida (as três etapas foram mantidas e uma quarta foi adicionada), mas não é pressuposto — é uma inferência."
+      "gabarito": "B",
+      "explicacao": "O texto diz que o grupo 'foi indicado para receber' a condecoração — indicação é diferente de recebimento efetivo. Não há informação de que a condecoração foi de fato concedida. Afirmar que o grupo já a recebeu extrapola o que o texto autoriza: a indicação é o único fato narrado."
     },
     {
       "id": "q20",
       "nivel": "intermediario",
-      "enunciado": "Leia: 'A taxa de aprovação no concurso deste ano foi a mais alta dos últimos cinco anos.' Qual das alternativas apresenta uma informação que NÃO pode ser inferida desse trecho?",
+      "textoBase": "O vice-almirante declarou: 'Não podemos ignorar o que aconteceu na missão anterior. Nosso planejamento precisará ser revisto.'",
+      "enunciado": "A declaração do vice-almirante permite inferir que algo problemático ocorreu na missão anterior e que isso influenciará o planejamento futuro.",
       "alternativas": {
-        "A": "Nos quatro anos anteriores, a taxa de aprovação foi menor do que a deste ano.",
-        "B": "O concurso foi realizado em anos anteriores.",
-        "C": "A dificuldade da prova deste ano foi menor do que a dos anos anteriores.",
-        "D": "Existe um histórico de resultados dos concursos anteriores.",
-        "E": "A taxa de aprovação foi medida e comparada com dados de outros anos."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "C afirma que a prova foi mais fácil — isso não pode ser inferido: uma taxa de aprovação maior pode ser resultado de melhor preparação dos candidatos, de um gabarito diferente, de mudanças no critério de aprovação, entre outros fatores. A é inferência lógica direta (mais alta dos últimos cinco significa maior que os quatro anteriores). B é pressuposto (existiram concursos anteriores). D decorre logicamente da comparação feita. E é necessária para que a afirmação do texto faça sentido."
+      "gabarito": "A",
+      "explicacao": "A inferência é legítima e bem sustentada pelo texto. 'Não podemos ignorar o que aconteceu' pressupõe que algo relevante e provavelmente negativo ocorreu — caso contrário, não haveria necessidade de não ignorar. 'Nosso planejamento precisará ser revisto' confirma que o ocorrido terá impacto futuro. As duas etapas da inferência são ancorradas no texto."
     },
     {
       "id": "q21",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho do Manual de Redação da Marinha: 'A linguagem oficial deve primar pela clareza, pela concisão e pela objetividade, evitando-se construções que possam gerar ambiguidade ou dificultar a compreensão do destinatário.' Com base exclusivamente nesse trecho, é correto inferir que:",
+      "textoBase": "O inspetor-geral da Marinha concluiu seu relatório com a seguinte observação: 'Embora os indicadores de desempenho operacional tenham melhorado nos últimos dois trimestres, persistem lacunas significativas nos protocolos de segurança que, se não sanadas, poderão comprometer a eficácia das próximas campanhas.'",
+      "enunciado": "Com base no relatório, julgue as seguintes afirmações:\nI. Os indicadores de desempenho operacional apresentaram melhora nos últimos dois trimestres.\nII. O inspetor-geral considera que os protocolos de segurança estão plenamente adequados.\nIII. Existe risco de impacto negativo nas próximas campanhas caso os problemas de segurança não sejam resolvidos.\n\nEstão corretas apenas:",
       "alternativas": {
-        "A": "Textos oficiais não devem conter figuras de linguagem em nenhuma circunstância.",
-        "B": "A clareza e a concisão são valores prioritários na comunicação oficial, em detrimento da ambiguidade.",
-        "C": "O redator oficial deve evitar o uso de sinônimos para não gerar ambiguidade.",
-        "D": "O destinatário da comunicação oficial tem dificuldade de compreensão.",
-        "E": "A linguagem oficial é incompatível com textos longos."
+        "A": "I e II.",
+        "B": "I e III.",
+        "C": "II e III.",
+        "D": "I apenas.",
+        "E": "I, II e III."
       },
       "gabarito": "B",
-      "explicacao": "B parafraseia corretamente o conteúdo explícito e a inferência direta: clareza, concisão e objetividade são prioritárias, e ambiguidade deve ser evitada. A extrapola — o trecho não proíbe figuras de linguagem, apenas pede que não causem ambiguidade. C é inferência abusiva: evitar ambiguidade não implica evitar sinônimos. D distorce o sentido: o texto não afirma que o destinatário tem dificuldades, mas que se deve facilitar a compreensão. E é generalização não autorizada: concisão não equivale a textos curtos necessariamente."
+      "explicacao": "A afirmação I é explícita: 'indicadores de desempenho operacional tenham melhorado nos últimos dois trimestres' está diretamente no texto. A afirmação III é implícita legítima: 'se não sanadas, poderão comprometer a eficácia das próximas campanhas' autoriza inferir risco de impacto negativo. A afirmação II é falsa — o texto menciona 'lacunas significativas nos protocolos de segurança', o que é incompatível com adequação plena. Portanto, apenas I e III estão corretas."
     },
     {
       "id": "q22",
       "nivel": "avancado",
-      "enunciado": "Texto: 'Até os mais experientes militares reconheceram a complexidade da missão. A operação foi concluída em tempo recorde, sem baixas.' Que inferência é válida com base nessas duas frases?",
+      "textoBase": "O vice-almirante, em discurso de encerramento do ciclo de palestras sobre gestão naval, afirmou: 'Quando iniciamos este programa há três anos, poucos acreditavam em seu potencial. Hoje, os números falam por si.'",
+      "enunciado": "A partir do discurso, é possível depreender que:",
       "alternativas": {
-        "A": "Os militares mais experientes lideraram a operação.",
-        "B": "A operação foi bem-sucedida apesar de sua complexidade.",
-        "C": "O tempo recorde foi possível graças à experiência dos militares.",
-        "D": "Operações semelhantes anteriores resultaram em baixas.",
-        "E": "A missão foi planejada pelos militares mais experientes."
+        "A": "O programa foi bem-sucedido, conforme indicam os resultados obtidos.",
+        "B": "O vice-almirante é o único responsável pelo sucesso do programa.",
+        "C": "A maioria dos participantes acreditava no potencial do programa desde o início.",
+        "D": "Os números mencionados foram publicados em relatório oficial anterior ao discurso.",
+        "E": "O ciclo de palestras teve duração de três anos."
       },
-      "gabarito": "B",
-      "explicacao": "B integra as duas informações: a missão era complexa (reconhecida até pelos experientes) e foi concluída sem problemas (tempo recorde, sem baixas) — inferência válida de que foi bem-sucedida apesar da complexidade. A afirma liderança dos experientes — não mencionado. C atribui o tempo recorde à experiência — possível, mas não necessário. D afirma que operações anteriores causaram baixas — não há qualquer menção a isso. E afirma planejamento pelos experientes — inventado."
+      "gabarito": "A",
+      "explicacao": "A alternativa A é a inferência legítima: 'os números falam por si' implica resultados positivos e mensuráveis, o que sustenta a conclusão de que o programa foi bem-sucedido. A alternativa B extrapola ao atribuir responsabilidade exclusiva ao vice-almirante — o texto não afirma isso. C contraria o texto ('poucos acreditavam'). D afirma a existência de um relatório anterior que o texto não menciona. E confunde a duração do programa com a do ciclo de palestras."
     },
     {
       "id": "q23",
       "nivel": "avancado",
-      "enunciado": "Fragmento: 'O candidato, que havia sido reprovado no ano anterior, obteve a primeira colocação neste concurso.' Quais informações estão presentes nesse fragmento — uma explícita e uma pressuposta, respectivamente?",
+      "textoBase": "A nota oficial da Marinha esclarecia: 'O oficial envolvido no incidente foi afastado preventivamente enquanto as investigações estão em curso. A Marinha reitera seu compromisso com a transparência e com a apuração rigorosa dos fatos.'",
+      "enunciado": "A nota permite concluir que o oficial foi considerado culpado pelo incidente.",
       "alternativas": {
-        "A": "Explícita: o candidato obteve a primeira colocação. Pressuposta: o candidato estudou mais este ano.",
-        "B": "Explícita: o candidato obteve a primeira colocação. Pressuposta: o candidato havia participado do concurso no ano anterior.",
-        "C": "Explícita: o candidato foi reprovado no ano anterior. Pressuposta: o candidato não estudou no ano anterior.",
-        "D": "Explícita: o candidato se inscreveu no concurso. Pressuposta: o candidato esperava ser aprovado.",
-        "E": "Explícita: o candidato superou os demais. Pressuposta: o concurso é realizado anualmente."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "B está correto em ambas as partes. Explícita: 'obteve a primeira colocação neste concurso' — está diretamente enunciado. Pressuposta: 'havia sido reprovado no ano anterior' pressupõe que o candidato participou do concurso no ano anterior (não se pode ser reprovado sem ter participado). A inventa estudo maior como pressuposto. C identifica o reprovação como explícita (correto), mas o pressuposto sobre falta de estudo é abusivo. D não identifica a primeira colocação como explícita. E 'superou os demais' é inferência, não explícito; 'concurso anual' é possível, mas não necessariamente pressuposto."
+      "explicacao": "A afirmativa está errada e representa uma extrapolação grave. O texto informa que o oficial foi 'afastado preventivamente' e que 'as investigações estão em curso' — o que significa que o processo ainda não foi concluído e nenhuma culpa foi estabelecida. O afastamento preventivo é uma medida cautelar, não uma condenação. A nota usa os termos 'transparência' e 'apuração rigorosa', reforçando que o julgamento ainda não ocorreu."
     },
     {
       "id": "q24",
       "nivel": "avancado",
-      "enunciado": "Leia: 'O diretor afirmou que a decisão só seria tomada após a consulta aos demais membros da diretoria. A reunião foi marcada para a semana seguinte.' Qual inferência NÃO pode ser validamente feita com base nesses dois enunciados?",
+      "textoBase": "O tenente-coronel encaminhou memorando ao Comando informando que 'a unidade vem enfrentando dificuldades crescentes para cumprir as metas estabelecidas no planejamento anual, sobretudo em razão da escassez de pessoal qualificado'. O Comando acusou o recebimento do documento sem comentários adicionais.",
+      "enunciado": "Com base nos dois períodos, assinale a alternativa correta.",
       "alternativas": {
-        "A": "A decisão não havia sido tomada até o momento da fala do diretor.",
-        "B": "Os membros da diretoria seriam consultados antes da decisão.",
-        "C": "A decisão seria tomada na reunião da semana seguinte.",
-        "D": "A decisão dependia da participação de mais de uma pessoa.",
-        "E": "A decisão estava pendente quando o diretor fez a afirmação."
+        "A": "O Comando concordou com as dificuldades apontadas pelo tenente-coronel.",
+        "B": "O Comando discordou das informações prestadas pelo tenente-coronel.",
+        "C": "A escassez de pessoal qualificado é uma das causas das dificuldades enfrentadas pela unidade, conforme o memorando.",
+        "D": "O Comando tomou providências imediatas após receber o memorando.",
+        "E": "As metas do planejamento anual foram alteradas em resposta ao memorando."
       },
       "gabarito": "C",
-      "explicacao": "C afirma que a decisão seria tomada na reunião marcada — o texto não garante isso. A reunião serve para a consulta; a decisão pode vir depois. A e E são equivalentes e decorrem de 'só seria tomada após' — ainda não tomada. B decorre diretamente do texto (consulta antes da decisão). D é inferência lógica: consultar outros membros implica que a decisão não é unilateral."
+      "explicacao": "A alternativa C está correta: o memorando afirma explicitamente que as dificuldades ocorrem 'sobretudo em razão da escassez de pessoal qualificado' — trata-se de informação explícita. As alternativas A, B, D e E extrapolam o texto: 'acusar o recebimento sem comentários' não indica concordância (A) nem discordância (B), não relata providências (D) e não menciona alteração de metas (E). O silêncio do Comando não pode ser interpretado como aprovação ou rejeição."
     },
     {
       "id": "q25",
       "nivel": "avancado",
-      "enunciado": "Texto: 'A nova legislação, que entrou em vigor após amplo debate parlamentar, revogou dispositivos que geravam insegurança jurídica. Especialistas divergem, porém, sobre sua real eficácia.' Com base no trecho, é correto afirmar que:",
+      "textoBase": "Em resposta à consulta da imprensa, o porta-voz da Marinha declarou: 'Não temos informações adicionais a divulgar neste momento sobre o incidente ocorrido na última sexta-feira.'",
+      "enunciado": "A declaração do porta-voz permite inferir que a Marinha não possui nenhuma informação sobre o incidente.",
       "alternativas": {
-        "A": "A legislação anterior era considerada ineficaz por todos os especialistas.",
-        "B": "O debate parlamentar garantiu a qualidade técnica da nova legislação.",
-        "C": "A nova legislação substituiu dispositivos que causavam insegurança jurídica, mas sua eficácia é questionada.",
-        "D": "A divergência entre especialistas indica que a legislação não será eficaz.",
-        "E": "O amplo debate parlamentar comprova que a legislação é justa e eficaz."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "C reúne as duas informações explícitas do texto: a revogação de dispositivos que geravam insegurança e a divergência dos especialistas sobre a eficácia. A generaliza 'todos os especialistas' — o texto não diz isso da legislação anterior. B atribui qualidade técnica ao debate — não mencionado. D conclui que a legislação não será eficaz — a divergência não autoriza essa conclusão (especialistas divergem, mas isso não determina o resultado). E vincula debate a justiça e eficácia — inferência abusiva."
+      "gabarito": "B",
+      "explicacao": "A declaração afirma que a Marinha não tem 'informações adicionais a divulgar neste momento' — isso é muito diferente de não possuir informações. A expressão 'adicionais' pressupõe que já foi divulgado algo antes, e 'neste momento' indica restrição temporal à divulgação, não ausência de dados. Inferir que a Marinha não sabe nada sobre o incidente é uma extrapolação que contradiz os pressupostos da própria frase."
     },
     {
       "id": "q26",
       "nivel": "avancado",
-      "enunciado": "Leia o trecho: 'Conforme determina o regulamento interno, todos os relatórios devem ser entregues até o último dia útil do mês. O Setor de Logística entregou o seu no penúltimo dia útil.' Qual das alternativas apresenta uma inferência lógica NECESSÁRIA?",
+      "textoBase": "O boletim de operações da Esquadra registrou que a corveta 'Barroso' realizou patrulhamento contínuo por 72 horas na Zona Econômica Exclusiva, sem registrar ocorrências dignas de nota. Ao término da missão, a tripulação foi liberada para descanso.",
+      "enunciado": "Com base no boletim, julgue a seguinte afirmação: a liberação da tripulação para descanso após a missão implica que operações de patrulhamento intenso são seguidas de períodos de repouso obrigatório na Marinha.",
       "alternativas": {
-        "A": "O Setor de Logística cumpriu o prazo estabelecido pelo regulamento.",
-        "B": "O Setor de Logística é o mais organizado da instituição.",
-        "C": "Outros setores entregaram os relatórios no último dia útil.",
-        "D": "O Setor de Logística recebeu elogios pela pontualidade.",
-        "E": "O regulamento interno foi elaborado pelo Setor de Logística."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "A",
-      "explicacao": "A é necessária: o prazo é o último dia útil, e o setor entregou no penúltimo — antes do prazo, portanto dentro do prazo. Essa inferência é obrigatória e não admite exceções. B é julgamento comparativo não autorizado. C afirma algo sobre outros setores — não mencionados. D inventa elogios — não há base. E atribui autoria do regulamento — inexistente no texto."
+      "gabarito": "B",
+      "explicacao": "A afirmativa extrapola o texto. O boletim registra que, ao término desta missão específica, a tripulação foi liberada para descanso — um fato pontual. Generalizar esse episódio como uma regra de que todas as operações intensas são seguidas de repouso obrigatório é uma extrapolação indevida: o texto relata um caso, não estabelece uma norma geral."
     },
     {
       "id": "q27",
       "nivel": "avancado",
-      "enunciado": "Texto: 'O candidato declarou não ter conhecimento das irregularidades apontadas na auditoria.' Que informações — uma explícita e uma implícita — estão presentes nesse enunciado?",
+      "textoBase": "O edital do concurso para Oficial Temporário da Marinha do Brasil (RM2) estabelece que 'serão eliminados os candidatos que obtiverem nota inferior a 40 pontos na prova de Língua Portuguesa, independentemente do desempenho nas demais provas'.",
+      "enunciado": "Com base no trecho do edital, assinale a alternativa correta.",
       "alternativas": {
-        "A": "Explícita: o candidato mentiu. Implícita: houve uma auditoria.",
-        "B": "Explícita: o candidato afirmou desconhecer as irregularidades. Implícita: existem irregularidades apontadas em uma auditoria.",
-        "C": "Explícita: o candidato estava ciente das irregularidades. Implícita: a auditoria ocorreu recentemente.",
-        "D": "Explícita: a auditoria identificou irregularidades. Implícita: o candidato participou das irregularidades.",
-        "E": "Explícita: o candidato é culpado. Implícita: a auditoria foi realizada por autoridade competente."
+        "A": "Candidatos com 40 pontos na prova de Língua Portuguesa estão automaticamente aprovados no concurso.",
+        "B": "A nota de 40 pontos em Língua Portuguesa é suficiente para garantir a classificação final.",
+        "C": "Um candidato com 39 pontos em Língua Portuguesa e 100 pontos em todas as outras provas será eliminado.",
+        "D": "O desempenho nas demais provas compensa uma nota inferior a 40 pontos em Língua Portuguesa.",
+        "E": "Candidatos que obtiverem exatamente 40 pontos serão eliminados."
       },
-      "gabarito": "B",
-      "explicacao": "B está correto: o que está explícito é a declaração do candidato ('afirmou desconhecer'); o que está implícito (pressuposto) é que há irregularidades apontadas por uma auditoria — isso é pressuposto pela própria construção da frase ('irregularidades apontadas na auditoria'). A inventa mentira — o texto registra uma declaração, não um fato verificado. C inverte o sentido (candidato ciente versus candidato que declarou desconhecer). D coloca a identificação de irregularidades como explícita — está mais como pressuposto. E inventa culpa e qualificação da auditoria."
+      "gabarito": "C",
+      "explicacao": "A alternativa C é a única que decorre diretamente do texto: a regra estabelece eliminação para quem obtiver 'nota inferior a 40 pontos', 'independentemente do desempenho nas demais provas'. 39 pontos é inferior a 40, logo a eliminação é certa. A alternativa A extrapola: 40 pontos evita a eliminação, mas não garante aprovação. B vai além ao afirmar suficiência para classificação final — o edital não diz isso. D contraria explicitamente o texto. E confunde 'inferior a 40' com 'igual a 40': 40 pontos exatamente não é inferior a 40."
     },
     {
       "id": "q28",
       "nivel": "avancado",
-      "enunciado": "Leia: 'Poucos países conseguiram implementar essa política com sucesso. O Brasil, surpreendentemente, foi um deles.' O que está pressuposto nesse trecho?",
+      "textoBase": "O relatório de inteligência naval concluiu: 'A atividade pesqueira irregular nas águas jurisdicionais brasileiras apresentou redução de 18% no segundo semestre, resultado atribuído ao aumento da frequência dos patrulhamentos costeiros.'",
+      "enunciado": "O relatório permite depreender que o aumento dos patrulhamentos foi a única causa da redução da atividade pesqueira irregular.",
       "alternativas": {
-        "A": "O Brasil é considerado um país com poucas políticas eficazes.",
-        "B": "A implementação bem-sucedida dessa política é difícil ou pouco comum.",
-        "C": "O Brasil surpreendeu por ser um país em desenvolvimento.",
-        "D": "Apenas países desenvolvidos costumam implementar políticas semelhantes.",
-        "E": "O sucesso do Brasil deveu-se à sua capacidade técnica superior."
+        "A": "Certo",
+        "B": "Errado"
       },
       "gabarito": "B",
-      "explicacao": "O advérbio 'surpreendentemente' presupõe que não se esperava que o Brasil fosse bem-sucedido — e a primeira frase contextualiza: poucos países conseguem. Logo, o pressuposto é que o sucesso é raro e difícil (B). A afirma algo sobre políticas do Brasil em geral — não autorizado. C atribui a surpresa ao fato de ser país em desenvolvimento — inferência abusiva. D afirma restrição a países desenvolvidos — não presente. E inventa superioridade técnica."
+      "explicacao": "O texto atribui a redução ao aumento dos patrulhamentos, mas utiliza a expressão 'resultado atribuído a', que indica uma correlação reconhecida no relatório, não uma causalidade única e exclusiva. Afirmar que foi a 'única causa' é uma extrapolação: o texto não exclui outras possíveis causas. A distinção entre 'causa atribuída' e 'única causa' é sutil e frequentemente explorada pelo CEBRASPE."
     },
     {
       "id": "q29",
       "nivel": "avancado",
-      "enunciado": "Texto: 'A proposta foi aceita por unanimidade, mas sua implementação foi adiada indefinidamente em razão de restrições orçamentárias.' Que conclusão NÃO pode ser extraída com base no texto?",
+      "textoBase": "A comissão de sindicância determinou o arquivamento do processo, considerando que 'as provas produzidas não foram suficientes para fundamentar qualquer conclusão definitiva sobre os fatos investigados'.",
+      "enunciado": "Com base na decisão da comissão, é correto afirmar que o acusado foi inocentado.",
       "alternativas": {
-        "A": "Todos os membros votaram a favor da proposta.",
-        "B": "A proposta não foi rejeitada.",
-        "C": "As restrições orçamentárias impediram a implementação imediata.",
-        "D": "Os membros que aprovaram a proposta discordam das restrições orçamentárias.",
-        "E": "A implementação não tem data definida para ocorrer."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "D",
-      "explicacao": "D atribui discordância dos membros em relação às restrições — o texto não fornece qualquer informação sobre a opinião dos membros a respeito das restrições orçamentárias; aprovação da proposta e concordância com as restrições são questões independentes. A decorre de 'unanimidade'. B é consequência lógica de unanimidade. C parafraseia o trecho sobre restrições que causaram adiamento. E decorre de 'indefinidamente'."
+      "gabarito": "B",
+      "explicacao": "O arquivamento do processo por insuficiência de provas não equivale a inocentação. A decisão da comissão foi tomada porque as provas 'não foram suficientes para fundamentar qualquer conclusão definitiva' — isso significa que não houve base para decidir em nenhum sentido, nem para condenar, nem para inocentar formalmente. Afirmar inocentação é extrapolar: o texto registra um desfecho processual neutro, não um julgamento de mérito."
     },
     {
       "id": "q30",
       "nivel": "avancado",
-      "enunciado": "Leia com atenção: 'O relatório afirma que as medidas adotadas foram insuficientes para conter o problema. O gestor, porém, defende que os resultados obtidos superaram as expectativas iniciais.' Qual das alternativas apresenta a leitura mais adequada do trecho?",
+      "textoBase": "O diretor de ensino naval afirmou que 'a reformulação curricular dos cursos de formação visa suprir as lacunas identificadas nas avaliações de desempenho dos oficiais recém-formados nos últimos três anos'.",
+      "enunciado": "A afirmação do diretor permite concluir que as avaliações de desempenho dos últimos três anos identificaram deficiências na formação dos oficiais.",
       "alternativas": {
-        "A": "O relatório e o gestor concordam quanto à eficácia das medidas.",
-        "B": "O relatório é mais confiável do que a avaliação do gestor.",
-        "C": "Há divergência entre a avaliação do relatório e a do gestor sobre os resultados das medidas.",
-        "D": "O gestor está mentindo para proteger sua reputação.",
-        "E": "As medidas foram eficazes, mas o relatório cometeu erros de análise."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "C é a leitura explícita e direta: o relatório afirma insuficiência, o gestor defende que superou expectativas — há divergência. A contradiz o texto (há divergência, não concordância). B faz julgamento sobre confiabilidade não autorizado pelo texto. D atribui intenção ao gestor (mentir) — inferência abusiva. E toma partido pela visão do gestor e acusa o relatório de erro — nenhuma dessas conclusões tem base no texto."
+      "gabarito": "A",
+      "explicacao": "A inferência é legítima e bem ancorada. O diretor afirma que a reformulação curricular visa 'suprir as lacunas identificadas nas avaliações' — 'lacunas' são deficiências ou falhas, e 'identificadas nas avaliações' indica que essas avaliações as revelaram. A conclusão de que as avaliações identificaram deficiências na formação é uma inferência de uma única etapa, totalmente sustentada pelo vocabulário do texto."
     }
   ],
+
   "simulado": [
     {
       "id": "s01",
       "nivel": "avancado",
-      "enunciado": "Leia o texto a seguir e responda à questão.\n\n'A Diretoria de Ensino da Marinha do Brasil estabelece que o desempenho dos candidatos em cada etapa do processo seletivo deve ser avaliado de forma objetiva, assegurando igualdade de condições entre todos os participantes. Eventuais recursos devem ser interpostos no prazo de dois dias úteis após a divulgação dos resultados parciais, sob pena de preclusão.'\n\nCom base exclusivamente no texto acima, assinale a alternativa que apresenta uma inferência logicamente NECESSÁRIA.",
+      "textoBase": "O relatório final da comissão de auditoria operacional da Marinha do Brasil, divulgado em março de 2025, apontou que 'a gestão dos recursos humanos nas unidades costeiras do Norte apresentou avanços consideráveis em relação ao período anterior, embora persistam desafios estruturais que demandam atenção continuada da administração superior'. O documento foi encaminhado ao Ministério da Defesa para análise.",
+      "enunciado": "Com base no relatório, julgue as seguintes afirmações:\nI. A gestão de recursos humanos nas unidades costeiras do Norte melhorou em relação ao período anterior.\nII. Os desafios estruturais foram completamente superados.\nIII. O relatório foi encaminhado ao Ministério da Defesa.\nIV. A administração superior deverá se envolver na resolução dos desafios persistentes.\n\nEstão corretas:",
       "alternativas": {
-        "A": "Candidatos que não interpuserem recurso no prazo perderão o direito de questionar os resultados naquela etapa.",
-        "B": "O processo seletivo é idêntico para todos os cargos da Marinha do Brasil.",
-        "C": "A avaliação objetiva impede que candidatos com mais experiência se destaquem.",
-        "D": "Os recursos são avaliados pela própria Diretoria de Ensino, sem imparcialidade.",
-        "E": "O prazo de dois dias úteis é insuficiente para que os candidatos elaborem recursos adequados."
+        "A": "Apenas I e III.",
+        "B": "Apenas I, III e IV.",
+        "C": "Apenas II e III.",
+        "D": "I, II, III e IV.",
+        "E": "Apenas II e IV."
       },
-      "gabarito": "A",
-      "explicacao": "A é necessária: 'sob pena de preclusão' significa exatamente que quem não recorrer no prazo perderá esse direito — inferência lógica direta do texto. B generaliza para todos os cargos — o texto fala apenas do processo descrito. C inverte o sentido de 'igualdade de condições' — que significa oportunidades iguais, não eliminação de diferenciais de experiência. D inventa parcialidade — o texto não aborda quem avalia os recursos. E faz julgamento sobre a adequação do prazo — não há base para essa avaliação no texto."
+      "gabarito": "B",
+      "explicacao": "Afirmação I é explícita: 'avanços consideráveis em relação ao período anterior' — verdadeira. Afirmação II é falsa: o texto diz que 'persistem desafios estruturais', o oposto de 'completamente superados'. Afirmação III é explícita: 'O documento foi encaminhado ao Ministério da Defesa' — verdadeira. Afirmação IV é uma inferência legítima: 'demandam atenção continuada da administração superior' implica que a administração precisará agir — verdadeira. Portanto, estão corretas I, III e IV."
     },
     {
       "id": "s02",
       "nivel": "avancado",
-      "enunciado": "Leia o fragmento a seguir.\n\n'O tenente apresentou um relatório detalhando os incidentes ocorridos durante a patrulha noturna. O documento foi encaminhado à chefia imediata, que o remeteu, sem comentários, ao departamento responsável pela análise operacional.'\n\nCom base no texto, qual das alternativas apresenta uma informação IMPLÍCITA corretamente identificada?",
+      "textoBase": "O capitão-tenente, ao entregar seu relatório de fim de comissão, escreveu: 'Durante os dezoito meses em que servi no Comando do Grupamento de Patrulha, pude constatar que a moral da tropa e o nível de prontidão operacional dependem, em grande medida, da qualidade da liderança exercida pelos oficiais intermediários. Os resultados desta comissão foram aquém do esperado no primeiro semestre, mas o quadro se reverteu no segundo.'",
+      "enunciado": "Com base no relato do capitão-tenente, assinale a alternativa que apresenta exclusivamente informações que podem ser depreendidas do texto.",
       "alternativas": {
-        "A": "A chefia imediata aprovou plenamente o relatório do tenente.",
-        "B": "O departamento de análise operacional é superior hierarquicamente à chefia imediata.",
-        "C": "A chefia imediata recebeu e encaminhou o relatório sem acrescentar observações próprias.",
-        "D": "O tenente elaborou o relatório por iniciativa própria, sem determinação superior.",
-        "E": "Os incidentes descritos no relatório resultaram em medidas disciplinares."
+        "A": "O capitão-tenente serviu por dezoito meses e os resultados foram abaixo do esperado em todo o período.",
+        "B": "Os resultados melhoraram no segundo semestre e o capitão-tenente atribui isso à qualidade da liderança.",
+        "C": "A moral da tropa e a prontidão operacional são influenciadas pela liderança dos oficiais intermediários, conforme o relato.",
+        "D": "O Comando do Grupamento de Patrulha substituiu os oficiais intermediários após o primeiro semestre.",
+        "E": "O capitão-tenente considera que os resultados do segundo semestre foram excelentes."
       },
       "gabarito": "C",
-      "explicacao": "C identifica corretamente a informação implícita: 'sem comentários' significa que a chefia não acrescentou observações — isso é explícito na superfície, mas a implicação de que não houve manifestação de aprovação ou reprovação formal é o que está implícito. A afirma aprovação plena — 'sem comentários' não significa aprovação. B afirma hierarquia superior do departamento — o texto não fornece essa informação. D inventa iniciativa própria — o relatório pode ter sido solicitado. E inventa medidas disciplinares — não mencionadas."
+      "explicacao": "A alternativa C está correta: o relato afirma explicitamente que moral e prontidão 'dependem, em grande medida, da qualidade da liderança exercida pelos oficiais intermediários'. A alternativa A distorce o texto: os resultados foram ruins no primeiro semestre, mas o quadro se reverteu no segundo — não em todo o período. A alternativa B extrapola ao atribuir a melhora especificamente à liderança — o texto não estabelece essa relação causal para o segundo semestre. D inventa uma substituição de pessoal não mencionada. E qualifica os resultados do segundo semestre como 'excelentes', o que o texto não afirma."
     },
     {
       "id": "s03",
       "nivel": "avancado",
-      "enunciado": "Analise o trecho abaixo.\n\n'Segundo o estudo encomendado pelo Ministério, a taxa de retenção de militares nas primeiras fases da carreira aumentou 12% nos últimos três anos. Os pesquisadores atribuem esse resultado, em parte, às melhorias nos programas de capacitação profissional.'\n\nAssinale a alternativa que apresenta inferência ABUSIVA em relação ao texto.",
+      "textoBase": "Portaria n° 045/2025 — COMDEFN\nArt. 1° — Ficam aprovadas as novas diretrizes para a realização de exercícios táticos conjuntos entre as Forças Armadas, com vigência imediata.\nArt. 2° — Os exercícios realizados sob as normas anteriores, ainda em curso na data de publicação desta portaria, poderão ser concluídos conforme o planejamento original.\nArt. 3° — Revogam-se as disposições em contrário.",
+      "enunciado": "Com base na portaria, julgue a seguinte afirmação: exercícios táticos que estavam em andamento na data de publicação da portaria deverão ser interrompidos e reiniciados conforme as novas diretrizes.",
       "alternativas": {
-        "A": "A taxa de retenção era menor três anos atrás do que no período atual.",
-        "B": "O Ministério financiou a realização do estudo mencionado.",
-        "C": "Os programas de capacitação profissional são o único fator que explica o aumento na retenção.",
-        "D": "Houve aumento no número de militares que permaneceram na carreira nas primeiras fases.",
-        "E": "Os pesquisadores consideraram que os programas de capacitação tiveram alguma influência no resultado."
+        "A": "Certo",
+        "B": "Errado"
       },
-      "gabarito": "C",
-      "explicacao": "C é a inferência abusiva: o texto diz que os pesquisadores atribuem o resultado 'em parte' às melhorias nos programas — o que explicitamente reconhece outros fatores. Afirmar que é o 'único fator' contradiz o 'em parte' do texto. A é inferência lógica (aumento de 12% implica que era menor antes). B decorre de 'encomendado pelo Ministério'. D parafraseia a informação sobre retenção. E parafraseia fielmente o que os pesquisadores afirmaram ('em parte' = alguma influência)."
+      "gabarito": "B",
+      "explicacao": "A afirmativa está errada e contraria diretamente o texto da portaria. O Art. 2° estabelece que os exercícios 'ainda em curso na data de publicação' poderão ser 'concluídos conforme o planejamento original' — ou seja, não precisam ser interrompidos. A portaria cria uma regra de transição que preserva os exercícios em andamento. A alternativa da questão inverte completamente o que a norma estabelece."
     },
     {
       "id": "s04",
       "nivel": "avancado",
-      "enunciado": "Leia com atenção o trecho a seguir.\n\n'Embora o prazo para inscrições tenha sido prorrogado por duas vezes, o número de candidatos inscritos ficou abaixo do esperado pela comissão organizadora. O edital previa um mínimo de quinhentos inscritos para a realização do certame.'\n\nCom base no texto, qual das alternativas NÃO apresenta uma informação que possa ser validamente inferida?",
+      "textoBase": "Em depoimento à comissão parlamentar, o almirante-de-esquadra declarou: 'Não nego que existiam falhas no sistema de monitoramento. O que afirmo é que essas falhas foram identificadas e corrigidas antes que qualquer incidente ocorresse. A segurança das operações nunca foi comprometida.'",
+      "enunciado": "Com base no depoimento, assinale a alternativa correta.",
       "alternativas": {
-        "A": "O prazo original para inscrições foi alterado.",
-        "B": "A comissão organizadora tinha uma expectativa quanto ao número de inscritos.",
-        "C": "O certame pode não ter sido realizado por insuficiência de inscritos.",
-        "D": "A prorrogação do prazo foi suficiente para atingir o número mínimo exigido.",
-        "E": "O número de inscritos foi inferior ao mínimo previsto no edital ou ao esperado pela comissão."
+        "A": "O almirante admitiu que as falhas causaram incidentes nas operações.",
+        "B": "As falhas no sistema de monitoramento existiam e foram corrigidas antes de qualquer incidente, segundo o almirante.",
+        "C": "O almirante afirmou que não havia falhas no sistema de monitoramento.",
+        "D": "A segurança das operações foi temporariamente comprometida pelas falhas identificadas.",
+        "E": "As falhas foram identificadas após o primeiro incidente operacional."
       },
-      "gabarito": "D",
-      "explicacao": "D afirma que a prorrogação foi suficiente — o texto diz o contrário: apesar das prorrogações, o número ficou abaixo do esperado. A decorre de 'prorrogado por duas vezes' (havia prazo original). B decorre de 'abaixo do esperado'. C é uma inferência válida: se o edital exige 500 e o número ficou abaixo, o certame pode não ter sido realizado (não é certeza, mas é uma inferência válida). E sintetiza as duas informações do texto sobre o número de inscritos."
+      "gabarito": "B",
+      "explicacao": "A alternativa B reproduz fielmente o conteúdo do depoimento: o almirante admite as falhas ('Não nego que existiam'), afirma que foram corrigidas ('identificadas e corrigidas') e que isso ocorreu 'antes que qualquer incidente ocorresse'. A alternativa A distorce: o almirante diz que não houve incidentes. C contradiz o texto: ele admite as falhas. D é falsa: o almirante afirma que a segurança 'nunca foi comprometida'. E inverte a sequência: as falhas foram corrigidas antes, não após incidentes."
     },
     {
       "id": "s05",
       "nivel": "avancado",
-      "enunciado": "Texto autoral para análise:\n\n'O Capitão ordenou que todos os documentos fossem recolhidos antes do início da inspeção. Nem todos os membros da equipe, contudo, haviam sido informados previamente sobre o procedimento. Ainda assim, a inspeção transcorreu sem intercorrências.'\n\nCom base no texto, identifique a alternativa que apresenta corretamente uma informação EXPLÍCITA e uma IMPLÍCITA, respectivamente.",
+      "textoBase": "O instrutor do Curso de Formação de Sargentos encerrou a aula com as seguintes palavras: 'Lembrem-se: em operações reais, vocês não terão tempo para consultar manuais. O que não estiver internalizado aqui' — apontou para a cabeça — 'simplesmente não estará disponível quando mais for necessário. Estudem como se suas vidas dependessem disso. Porque um dia, provavelmente, dependerão.'",
+      "enunciado": "Com base na fala do instrutor, julgue as afirmações abaixo:\nI. O instrutor considera que o conhecimento deve ser memorizado, não apenas consultado.\nII. O instrutor afirma com certeza que as vidas dos sargentos dependerão do que aprenderem no curso.\nIII. A fala do instrutor permite inferir que operações reais apresentam maior pressão de tempo do que treinamentos.\n\nEstão corretas:",
       "alternativas": {
-        "A": "Explícita: a inspeção foi um sucesso. Implícita: o Capitão falhou na comunicação.",
-        "B": "Explícita: alguns membros da equipe não foram informados previamente. Implícita: a falta de informação poderia ter causado problemas, mas não causou.",
-        "C": "Explícita: o Capitão é responsável pela inspeção. Implícita: os documentos não estavam organizados.",
-        "D": "Explícita: todos os membros foram informados sobre a inspeção. Implícita: o procedimento era desnecessário.",
-        "E": "Explícita: a equipe recolheu os documentos. Implícita: o Capitão não confiava na equipe."
+        "A": "Apenas I.",
+        "B": "Apenas I e II.",
+        "C": "Apenas I e III.",
+        "D": "Apenas II e III.",
+        "E": "I, II e III."
       },
-      "gabarito": "B",
-      "explicacao": "B está correto em ambas as partes. Explícita: 'nem todos os membros... haviam sido informados' — está diretamente no texto. Implícita: a conjunção 'ainda assim' cria a implicação de que, apesar da falta de informação prévia (o que poderia ser um problema), a inspeção transcorreu bem — o contraste implica que a falta de aviso prévio era um fator de risco que não se concretizou. A 'sucesso' é inferência e 'falha do Capitão' é julgamento abusivo. C afirma que o Capitão é responsável — inventado; e que os documentos não estavam organizados — não mencionado. D inverte o texto (nem todos foram informados). E afirma recolhimento como explícito (foi uma ordem, não necessariamente cumprida) e desconfiança como implícito (abusivo)."
+      "gabarito": "C",
+      "explicacao": "Afirmação I está correta: o instrutor diz que em operações reais 'não terão tempo para consultar manuais' e que o conhecimento precisa estar 'internalizado' — o que caracteriza memorização e domínio ativo, não mera consulta. Afirmação II está incorreta: o instrutor usa 'provavelmente dependerão', o que indica possibilidade, não certeza. A questão afirma 'com certeza', o que distorce o texto. Afirmação III está correta: a afirmação 'não terão tempo para consultar manuais' nas operações reais implica maior pressão temporal do que em situações de estudo — inferência legítima de uma etapa. Portanto, I e III estão corretas."
     }
   ],
+
   "desafio": {
     "topicos_mesclados": [
-      "gram-01",
-      "gram-03",
-      "gram-11",
-      "gram-13",
-      "gram-14",
-      "comp-02"
+      "gram-00", "gram-04", "gram-05", "gram-06", "gram-07",
+      "gram-01", "gram-02", "gram-03", "gram-08", "gram-09",
+      "gram-10", "gram-11", "gram-12", "gram-13", "gram-14",
+      "comp-03", "comp-06", "comp-05", "comp-07", "comp-14",
+      "comp-01", "comp-02"
     ],
     "questoes": [
       {
         "id": "d01",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-14",
-        "enunciado": "Leia o trecho: 'Os documentos, que eram urgentes, entregou-os o assistente ao diretor antes do prazo.' Assinale a alternativa correta quanto à colocação pronominal E à inferência que se pode fazer com base na frase.",
+        "topico_referencia": "comp-02",
+        "textoBase": "O oficial de dia registrou no livro de quarto: 'Nenhuma ocorrência digna de nota foi verificada durante o turno.'",
+        "enunciado": "A anotação do oficial de dia permite inferir que não ocorreu absolutamente nada durante o turno.",
         "alternativas": {
-          "A": "A colocação pronominal está correta; infere-se que o assistente era pontual.",
-          "B": "A colocação pronominal está correta; infere-se que o diretor solicitou os documentos urgentes.",
-          "C": "A colocação pronominal está correta; infere-se que havia um prazo estabelecido para a entrega.",
-          "D": "A colocação pronominal está incorreta; o correto seria 'o assistente o entregou'; infere-se que havia prazo.",
-          "E": "A colocação pronominal está incorreta; o correto seria 'o assistente lhe entregou'; infere-se que o assistente era desorganizado."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "A colocação 'entregou-os o assistente' é ênclise válida em oração com sujeito posposto — correta. O pressuposto da frase é que havia um prazo (só se pode entregar 'antes do prazo' se um prazo existia) — inferência necessária e correta (C). D e E propõem alterações desnecessárias. A e B: embora A identifique corretamente a colocação, 'pontualidade como traço de personalidade' é inferência abusiva; B inventa solicitação do diretor."
+        "gabarito": "B",
+        "explicacao": "A anotação diz que não houve ocorrências 'dignas de nota' — isso pressupõe que pode ter havido ocorrências menores, rotineiras, que não mereceram registro. Dizer que não ocorreu 'absolutamente nada' extrapola o texto. A expressão 'digna de nota' é um qualificador que limita o escopo do registro, não nega a totalidade dos eventos."
       },
       {
         "id": "d02",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-11",
-        "enunciado": "Considere: 'Parte dos candidatos já havia se inscrito no processo seletivo quando o prazo foi prorrogado.' Assinale a alternativa que apresenta CORRETAMENTE a concordância verbal E uma inferência válida.",
+        "topico_referencia": "comp-02",
+        "textoBase": "O comandante da base assinou o documento 'sob protesto', conforme registrado na ata da reunião.",
+        "enunciado": "Com base no trecho, é correto afirmar que o comandante concordou plenamente com o conteúdo do documento que assinou.",
         "alternativas": {
-          "A": "A concordância está errada; o verbo deveria ser 'haviam'; infere-se que todos se inscreveram antes da prorrogação.",
-          "B": "A concordância está correta; 'havia' concorda com 'parte'; infere-se que nem todos haviam se inscrito antes da prorrogação.",
-          "C": "A concordância está correta; 'havia' concorda com 'parte'; infere-se que o prazo foi prorrogado porque ninguém se inscreveu.",
-          "D": "A concordância está errada; o verbo deveria ser 'haviam'; infere-se que a prorrogação foi desnecessária.",
-          "E": "A concordância está correta; 'havia' concorda com 'candidatos'; infere-se que a prorrogação beneficiou todos."
+          "A": "Certo",
+          "B": "Errado"
         },
         "gabarito": "B",
-        "explicacao": "Com 'parte de', o verbo pode concordar com o núcleo do sujeito 'parte' (singular) ou com o complemento 'candidatos' (plural) — mas a concordância com 'parte' (havia) é a forma padrão quando o verbo antecede o conjunto. A inferência correta: 'parte' se inscreveu, logo 'outra parte' não havia se inscrito ainda — B está correto em ambos os aspectos. A e D propõem correção desnecessária. C inventa causa da prorrogação. E confunde o sujeito de concordância e generaliza a prorrogação."
+        "explicacao": "'Sob protesto' é uma expressão que implica discordância ou ressalva formal — o signatário assina, mas registra sua oposição ao conteúdo ou ao procedimento. Afirmar concordância plena contraria diretamente o que está implícito na expressão. Trata-se de um subentendido claro, com âncora direta no vocabulário do texto."
       },
       {
         "id": "d03",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-13",
-        "enunciado": "Leia: 'O comandante informou aos oficiais sobre as novas diretrizes operacionais.' Assinale a alternativa que apresenta CORRETAMENTE a regência do verbo 'informar' E identifica a informação explícita do trecho.",
+        "topico_referencia": "comp-01",
+        "textoBase": "O mapa tático exposto na sala de operações indicava, com marcadores vermelhos, as áreas de maior risco no litoral sul.",
+        "enunciado": "O mapa tático mencionado no texto é um exemplo de texto não verbal que complementa informações verbais na comunicação operacional.",
         "alternativas": {
-          "A": "Regência incorreta; 'informar' exige objeto direto de pessoa; a frase correta seria 'informou os oficiais sobre'; explícito: os oficiais receberam informações sobre diretrizes.",
-          "B": "Regência correta; 'informar' admite objeto indireto de pessoa com 'a'; explícito: o comandante comunicou algo aos oficiais.",
-          "C": "Regência incorreta; 'informar' exige somente objeto direto; explícito: as diretrizes foram criadas pelo comandante.",
-          "D": "Regência correta; 'informar' exige sempre 'sobre' antes da coisa informada; explícito: os oficiais já conheciam as diretrizes.",
-          "E": "Regência incorreta; 'informar' exige a preposição 'de' antes da coisa informada; explícito: o comandante desconhecia as diretrizes."
+          "A": "Certo",
+          "B": "Errado"
         },
         "gabarito": "A",
-        "explicacao": "O verbo 'informar' com sentido de 'comunicar algo a alguém' rege objeto direto de coisa e objeto indireto de pessoa (informar algo a alguém) OU objeto direto de pessoa e objeto indireto de coisa com 'sobre/de' (informar alguém sobre/de algo). Na frase, 'aos oficiais' é objeto indireto de pessoa — a regência mais prestigiada na norma padrão é 'informar os oficiais sobre', com objeto direto de pessoa. Portanto A aponta corretamente o padrão mais prescrito. A informação explícita é que os oficiais receberam informação sobre as diretrizes — corretamente identificado em A."
+        "explicacao": "O mapa é um texto não verbal: comunica informações por meio de símbolos, cores e imagens espaciais, sem palavras. O trecho o menciona em contexto complementar à comunicação verbal da sala de operações — o texto verbal descreve o mapa e o mapa oferece a visualização espacial. Essa relação entre o verbal e o não verbal é característica da leitura multimodal."
       },
       {
         "id": "d04",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-01",
-        "enunciado": "Leia: 'O militar saiu às três da tarde para averiguar o ocorrido no pátio da instituição.' Quanto à ortografia e às informações do trecho, assinale a alternativa correta.",
+        "topico_referencia": "comp-03",
+        "textoBase": "O contra-almirante encerrou seu discurso com uma frase que ecoou por toda a guarnição: 'Esta base é o coração da defesa nacional.'",
+        "enunciado": "Na expressão 'Esta base é o coração da defesa nacional', a palavra 'coração' está empregada em sentido denotativo.",
         "alternativas": {
-          "A": "Há erro ortográfico em 'averiguar'; o correto é 'averigüar'; infere-se que o militar soube do ocorrido antes de sair.",
-          "B": "A ortografia está correta; infere-se que havia algo a ser investigado no pátio da instituição.",
-          "C": "Há erro ortográfico em 'ocorrido'; o correto é 'ocorrência'; infere-se que o militar foi punido.",
-          "D": "A ortografia está correta; infere-se que o pátio da instituição estava em obras.",
-          "E": "Há erro ortográfico em 'instituição'; o correto é 'instituiçom'; infere-se que o militar chegou tarde."
+          "A": "Certo",
+          "B": "Errado"
         },
         "gabarito": "B",
-        "explicacao": "Conforme o Acordo Ortográfico vigente desde 2016, 'averiguar' está correto — não se usa trema no português brasileiro. 'Ocorrido' e 'instituição' também estão grafados corretamente. A inferência de que havia algo a ser investigado é um pressuposto lógico de 'averiguar' — não se verifica o nada. B está correto em ambos os aspectos. A invoca trema abolido pelo Acordo. C troca 'ocorrido' por 'ocorrência' sem necessidade e inventa punição. D e E apresentam inferências abusivas e erros ortográficos inexistentes."
+        "explicacao": "'Coração' em seu sentido denotativo designa o órgão do sistema circulatório. No contexto do discurso, a palavra é usada conotativamente para expressar que a base é o centro vital, o elemento mais importante da defesa nacional. O uso figurado é evidente — não há órgão biológico em questão, mas um valor simbólico de centralidade e importância."
       },
       {
         "id": "d05",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-03",
-        "enunciado": "Leia: 'Refiro-me __ situação descrita no relatório, __ qual o comandante fez referência na reunião anterior.' Quanto ao uso da crase e à informação implícita, assinale a correta.",
+        "topico_referencia": "comp-06",
+        "textoBase": "O boletim de pessoal informava que o sargento fora promovido, mas ainda atuava nas mesmas funções de praxe.",
+        "enunciado": "No contexto do boletim, 'promovido' e 'rebaixado' seriam termos antônimos.",
         "alternativas": {
-          "A": "Ambas as lacunas exigem crase; implícito: o comandante mencionou a situação antes desta reunião.",
-          "B": "Somente a primeira lacuna exige crase; implícito: o comandante desconhecia a situação.",
-          "C": "Nenhuma das lacunas exige crase; implícito: o relatório foi elaborado nesta reunião.",
-          "D": "A primeira lacuna exige crase; a segunda não; implícito: houve reunião anterior à atual.",
-          "E": "Somente a segunda lacuna exige crase; implícito: o relatório é recente."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "D",
-        "explicacao": "'Refiro-me à situação' — 'referir-se' rege 'a' + artigo feminino 'a' = crase obrigatória. 'à qual' — pronome relativo 'qual' com preposição 'a'? Não: o verbo 'fazer referência a' já está expresso na regência, e 'à qual' seria redundante; usa-se 'a qual' sem crase quando 'qual' é pronome relativo e o artigo feminino não se combina com a preposição de forma autônoma — portanto, segunda lacuna sem crase. Informação implícita necessária: 'reunião anterior' pressupõe que houve uma reunião antes desta — D está correto."
+        "gabarito": "A",
+        "explicacao": "Antônimos são palavras com sentidos opostos. 'Promovido' indica ascensão hierárquica ou funcional; 'rebaixado' indica o movimento inverso — descida na hierarquia. São termos que se opõem diretamente no contexto militar, configurando uma relação de antonímia. A afirmativa está correta."
       },
       {
         "id": "d06",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-11",
-        "enunciado": "Texto: 'Uma das principais razões para o insucesso das operações foram os problemas logísticos identificados durante o planejamento.' Quanto à concordância e à inferência, assinale a alternativa correta.",
+        "topico_referencia": "comp-07",
+        "textoBase": "O silêncio da base, após o toque de recolher, era tão profundo que se podia ouvir o mar respirar ao longe.",
+        "enunciado": "A expressão 'ouvir o mar respirar' constitui uma personificação, pois atribui ao mar uma ação tipicamente humana.",
         "alternativas": {
-          "A": "A concordância está correta; o verbo concorda com o predicativo 'os problemas'; infere-se que o planejamento foi falho.",
-          "B": "A concordância está incorreta; o verbo deveria ser 'foi', concordando com 'uma'; infere-se que havia outras razões além dos problemas logísticos.",
-          "C": "A concordância está correta por ser oração de predicado nominal; infere-se que as operações foram bem-sucedidas apesar dos problemas.",
-          "D": "A concordância está incorreta; o verbo deveria ser 'foram' concordando com 'razões'; infere-se que os problemas logísticos causaram o insucesso.",
-          "E": "A concordância está correta; 'foram' concorda com 'operações'; infere-se que o planejamento foi excelente."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "B",
-        "explicacao": "Quando o sujeito é núcleo singular ('uma das razões') e o predicativo é plural, há divergência: a norma culta prescritiva prefere que o verbo concorde com o sujeito ('foi'), embora haja uso aceito da concordância com o predicativo. A forma prescritiva seria 'foi'. A inferência correta: 'uma DAS principais razões' pressupõe que havia outras razões além dos problemas logísticos — B identifica isso corretamente."
+        "gabarito": "A",
+        "explicacao": "A personificação (ou prosopopeia) é a figura de linguagem que atribui características humanas ou de seres animados a elementos inanimados ou abstratos. O mar não respira — é um elemento da natureza inanimado. Atribuir-lhe a ação de respirar é uma personificação, que tem o efeito expressivo de humanizar o ambiente e intensificar a sensação de silêncio."
       },
       {
         "id": "d07",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-14",
-        "enunciado": "Leia o período: 'Entregaram-se os documentos sigilosos ao arquivo central com a devida cautela.' Com base nessa frase, identifique a colocação pronominal e a informação que pode ser inferida.",
+        "topico_referencia": "comp-05",
+        "textoBase": "O tenente foi chamado à presença do capitão logo após o incidente na embarcação.",
+        "enunciado": "A frase acima apresenta ambiguidade, pois não é possível determinar com precisão se foi o tenente ou o incidente que ocorreu 'na embarcação'.",
         "alternativas": {
-          "A": "Ênclise correta em oração afirmativa sem atratores; infere-se que os documentos eram sigilosos e exigiam cuidado especial.",
-          "B": "Ênclise incorreta; o correto seria 'Se entregaram'; infere-se que o arquivo central é seguro.",
-          "C": "Mesóclise obrigatória neste contexto; infere-se que a entrega foi feita por uma única pessoa.",
-          "D": "Próclise obrigatória por norma; o correto seria 'Se entregaram os documentos'; infere-se que o sigilo foi violado.",
-          "E": "Ênclise correta; infere-se que os documentos foram destruídos após a entrega."
+          "A": "Certo",
+          "B": "Errado"
         },
         "gabarito": "A",
-        "explicacao": "Em oração afirmativa sem palavra atrativa (sem negação, advérbio inicial, conjunção etc.), a ênclise é a posição padrão — 'Entregaram-se' está correta. A informação explícita é que os documentos eram sigilosos; a inferência é que, por serem sigilosos, exigiam cautela especial — o que é confirmado por 'com a devida cautela' (A). B e D propõem alterações desnecessárias. C inventa mesóclise e autoria única. E inventa destruição."
+        "explicacao": "A frase é ambígua: 'na embarcação' pode modificar tanto 'incidente' (o incidente ocorreu na embarcação) quanto 'chamado' (o tenente foi chamado estando na embarcação). A posição sintática do adjunto adverbial no final da frase permite as duas leituras. Essa é uma ambiguidade estrutural — não de vocabulário, mas de relação sintática entre os termos."
       },
       {
         "id": "d08",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-01",
-        "enunciado": "Leia: 'A remuneração prevista no edital corresponde à função de analista de sistemas, cujo exercício requer formação específica e experiência comprovada.' Quanto à ortografia e às informações do texto, assinale a correta.",
+        "topico_referencia": "comp-14",
+        "textoBase": "O recruta chegou à recepção da base e, nervoso, disse ao sentinela: 'Vim me inscrever no troço do alistamento.'",
+        "enunciado": "A expressão 'troço do alistamento' revela o uso de linguagem formal adequada ao contexto militar.",
         "alternativas": {
-          "A": "Há erro ortográfico em 'remuneração'; o correto é 'remunerasão'; a informação explícita é que a função exige formação e experiência.",
-          "B": "Há erro ortográfico em 'cujo'; o correto seria 'cujos'; a informação implícita é que analistas ganham bem.",
-          "C": "A ortografia está correta; a informação explícita é que a função requer formação específica e experiência comprovada.",
-          "D": "A ortografia está correta; a informação implícita é que todos os candidatos têm formação específica.",
-          "E": "Há erro em 'corresponde'; o correto é 'correspondesse'; a informação explícita é que o salário é alto."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "Toda a ortografia está correta — 'remuneração', 'cujo', 'corresponde', 'requer', 'formação', 'específica', 'experiência', 'comprovada'. A informação explícita é exatamente o que está escrito: 'o exercício requer formação específica e experiência comprovada' (C). A, B e E inventam erros ortográficos inexistentes. D afirma que todos os candidatos têm formação — inferência abusiva não autorizada."
+        "gabarito": "B",
+        "explicacao": "'Troço' é uma expressão coloquial e informal, usada para substituir um substantivo que o falante não recorda ou não conhece. O contexto militar — especialmente em recepção oficial de uma base — demandaria linguagem formal: 'processo de alistamento', 'procedimento de alistamento' ou simplesmente 'alistamento'. O uso de 'troço' indica inadequação vocabular para o registro exigido pelo contexto."
       },
       {
         "id": "d09",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-13",
-        "enunciado": "Texto: 'O oficial assistiu ao julgamento e depois presidiu a sessão de avaliação.' Quanto à regência verbal e às informações, assinale a alternativa correta.",
+        "topico_referencia": "gram-12",
+        "textoBase": "Foram entregues ao comandante os relatórios finais de todas as comissões de serviço.",
+        "enunciado": "Na frase acima, o verbo 'foram entregues' está corretamente flexionado no plural, concordando com o sujeito 'os relatórios finais de todas as comissões de serviço'.",
         "alternativas": {
-          "A": "Ambos os verbos estão com regência incorreta; 'assistir' exige objeto direto e 'presidir' exige objeto indireto.",
-          "B": "'Assistir' (ver, presenciar) exige objeto indireto com 'a'; 'presidir' exige objeto direto; ambos estão corretos; infere-se que havia dois momentos distintos.",
-          "C": "'Assistir' exige objeto direto; 'presidir' exige objeto indireto com 'a'; ambos estão incorretos na frase.",
-          "D": "Apenas 'presidir' está incorreto; deveria ser 'presidiu à sessão'; infere-se que o oficial era o mais experiente.",
-          "E": "Ambos os verbos estão corretos; infere-se que o julgamento e a sessão foram o mesmo evento."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "B",
-        "explicacao": "'Assistir' no sentido de 'presenciar, ver' é verbo que rege preposição 'a' — 'assistiu ao julgamento' está correto. 'Presidir' rege objeto direto na norma culta — 'presidiu a sessão' está correto. A frase está integralmente correta. A inferência de que houve dois momentos distintos decorre da conjunção 'e depois' — B está correto em ambos os aspectos. A e C invertem as regências. D propõe correção desnecessária em 'presidir'. E afirma que foram o mesmo evento — contradiz 'e depois', que indica sequência."
+        "gabarito": "A",
+        "explicacao": "Na frase, o sujeito é 'os relatórios finais de todas as comissões de serviço', que está no plural. O verbo 'foram entregues' concorda corretamente com esse sujeito plural. O núcleo do sujeito é 'relatórios' (plural), e o complemento 'de todas as comissões de serviço' não interfere na concordância. A concordância está correta."
       },
       {
         "id": "d10",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-03",
-        "enunciado": "Leia: 'Com relação __ análise dos dados coletados, o pesquisador chegou __ conclusões surpreendentes.' Assinale a alternativa que preenche corretamente as lacunas COM ou SEM crase E identifica uma informação implícita válida.",
+        "topico_referencia": "gram-13",
+        "enunciado": "Assinale a alternativa em que a regência verbal está correta conforme a norma culta.",
         "alternativas": {
-          "A": "à; a (sem crase); implícito: o pesquisador esperava os resultados.",
-          "B": "a (sem crase); às; implícito: os dados foram coletados recentemente.",
-          "C": "à; às; implícito: as conclusões contrariaram expectativas.",
-          "D": "a (sem crase); a (sem crase); implícito: o pesquisador concluiu o trabalho rapidamente.",
-          "E": "à; a (sem crase); implícito: os dados eram insuficientes para conclusões."
+          "A": "O oficial assistiu o treinamento do início ao fim.",
+          "B": "O sargento obedeceu as ordens do comandante sem hesitar.",
+          "C": "A tripulação aspirava melhores condições de trabalho.",
+          "D": "O recruta chegou à base com antecedência.",
+          "E": "O capitão preferia a corveta do que o navio de patrulha."
         },
-        "gabarito": "C",
-        "explicacao": "'Com relação à análise' — a locução prepositiva 'com relação a' + artigo feminino 'a' = crase obrigatória. 'Chegou às conclusões' — verbo 'chegar' rege preposição 'a' + artigo feminino 'as' = crase obrigatória. A informação implícita: 'surpreendentes' pressupõe que as conclusões contrariaram o esperado (C). A erra na segunda lacuna (omite crase em 'às conclusões'). B erra na primeira (omite crase em 'à análise'). D omite ambas. E erra na segunda e inventa insuficiência dos dados."
+        "gabarito": "D",
+        "explicacao": "A alternativa D está correta: 'chegar' seguido de destino exige a preposição 'a' — 'chegou à base'. As demais apresentam erros de regência: A — 'assistir' no sentido de 'presenciar' é intransitivo indireto: 'assistiu ao treinamento'; B — 'obedecer' é transitivo indireto: 'obedeceu às ordens'; C — 'aspirar' no sentido de 'desejar' exige 'a': 'aspirava a melhores condições'; E — 'preferir' não admite 'do que': 'preferia a corveta ao navio de patrulha'."
       },
       {
         "id": "d11",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-14",
-        "enunciado": "Leia: 'Não me disseram os motivos da suspensão do concurso. Penso que me ocultaram informações relevantes.' Quanto à colocação pronominal e às inferências, assinale a correta.",
+        "topico_referencia": "gram-14",
+        "textoBase": "Sempre me disseram que a disciplina é a base de tudo.",
+        "enunciado": "Na frase acima, a posição do pronome 'me' está correta de acordo com a norma culta escrita.",
         "alternativas": {
-          "A": "Ambas as colocações estão incorretas; deveriam ser 'disseram-me' e 'ocultaram-me'; infere-se que houve irregularidade no concurso.",
-          "B": "Ambas as colocações estão corretas: 'não me disseram' (próclise com negação) e 'me ocultaram' (próclise com 'que'); infere-se que o narrador desconhecia os motivos.",
-          "C": "A primeira está incorreta (deveria ser 'disseram-me'); a segunda está correta; infere-se que o concurso foi cancelado definitivamente.",
-          "D": "Ambas as colocações estão corretas; infere-se que os motivos da suspensão eram irrelevantes.",
-          "E": "A primeira está correta; a segunda está incorreta (deveria ser 'ocultaram-me'); infere-se que o narrador era culpado."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "B",
-        "explicacao": "'Não me disseram' — a negação 'não' é palavra atrativa que exige próclise (correto). 'Penso que me ocultaram' — a conjunção 'que' é palavra atrativa na oração subordinada, exigindo próclise (correto). A inferência necessária: o narrador afirma não saber os motivos — portanto os desconhecia (B). A propõe ênclise erroneamente. C e E propõem correções desnecessárias. D inventa irrelevância dos motivos — o narrador considera-os importantes o suficiente para investigar."
+        "gabarito": "A",
+        "explicacao": "O advérbio 'sempre' é uma das palavras que atraem o pronome para a próclise (antes do verbo). Na frase, 'sempre' precede o verbo 'disseram', justificando a próclise de 'me'. A colocação está correta pela norma culta escrita: palavras atrativas como advérbios, pronomes relativos e conjunções subordinativas exigem o pronome antes do verbo."
       },
       {
         "id": "d12",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-11",
-        "enunciado": "Texto: 'A maioria dos candidatos inscrita no concurso compareceu às provas.' Quanto à concordância e à informação explícita, assinale a correta.",
+        "topico_referencia": "gram-02",
+        "enunciado": "Assinale a alternativa em que todas as palavras estão corretamente acentuadas.",
         "alternativas": {
-          "A": "A concordância do particípio com 'maioria' está correta; explícito: nem todos os inscritos foram às provas.",
-          "B": "A concordância do particípio com 'candidatos' estaria mais adequada ('inscritos'); explícito: todos os inscritos compareceram.",
-          "C": "A concordância do particípio com 'maioria' está correta; explícito: os candidatos compareceram às provas.",
-          "D": "A concordância está incorreta; o correto seria 'A maioria dos candidatos inscritos compareceram'; explícito: muitos candidatos faltaram.",
-          "E": "A concordância está incorreta; o correto seria 'A maioria dos candidatos inscrita compareceram'; explícito: a prova foi realizada."
+          "A": "saúde, heroí, juíz",
+          "B": "saúde, heroína, juiz",
+          "C": "saúde, herói, juíz",
+          "D": "saude, herói, juiz",
+          "E": "saúde, herói, juíz"
         },
-        "gabarito": "C",
-        "explicacao": "Quando 'maioria' é o núcleo do sujeito, o verbo pode concordar com 'maioria' (singular) ou com o complemento 'candidatos' (plural). O particípio 'inscrita' concorda com 'maioria' — forma aceita. O verbo 'compareceu' também concorda com 'maioria' — coerência interna. A informação explícita é simplesmente que 'a maioria dos candidatos compareceu às provas' — C está correto. A afirma que nem todos foram — inferência possível, mas o enunciado pede o que está EXPLÍCITO. B propõe alteração desnecessária. D e E apresentam concordâncias mistas incoerentes."
+        "gabarito": "B",
+        "explicacao": "'Saúde' — oxítona terminada em ditongo 'ei', acentuada corretamente. 'Heroína' — paroxítona terminada em 'a', sem acento (regra geral das paroxítonas). 'Juiz' — paroxítona terminada em 'z', sem acento conforme o Acordo Ortográfico de 1990 (vigente desde 2016). A alternativa B é a única com todas as formas corretas. As demais trazem 'juíz' com acento indevido ou 'heroí' com grafia incorreta."
       },
       {
         "id": "d13",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-01",
-        "enunciado": "Leia: 'O relatório anexo trata de assuntos pertinentes à gestão da qualidade e à manutenção dos equipamentos bélicos adquiridos recentemente.' Quanto à ortografia e às informações do trecho, assinale a alternativa correta.",
+        "topico_referencia": "gram-03",
+        "textoBase": "O tenente foi até à base buscar o material solicitado.",
+        "enunciado": "O emprego da crase em 'até à base' está correto.",
         "alternativas": {
-          "A": "Há erro em 'bélicos'; o correto é 'belicos' (sem acento); informação explícita: os equipamentos foram comprados há pouco tempo.",
-          "B": "Há erro em 'pertinentes'; o correto é 'pertinentes' com trema; informação implícita: os equipamentos já estavam em uso.",
-          "C": "A ortografia está correta; informação explícita: o relatório aborda gestão da qualidade e manutenção de equipamentos bélicos adquiridos recentemente.",
-          "D": "Há erro em 'anexo'; o correto é 'anexado'; informação implícita: o relatório foi elaborado por especialistas.",
-          "E": "A ortografia está correta; informação implícita: os equipamentos bélicos são obsoletos."
+          "A": "Certo",
+          "B": "Errado"
         },
-        "gabarito": "C",
-        "explicacao": "Toda a ortografia está correta: 'bélicos' leva acento (paroxítona terminada em ditongo crescente), 'pertinentes' não tem trema (abolido pelo Acordo de 2016), 'anexo' é adjetivo correto (não precisa ser 'anexado'). A informação explícita é exatamente o conteúdo da frase: o relatório trata de gestão da qualidade e manutenção de equipamentos bélicos adquiridos recentemente (C). A nega o acento correto. B inventa trema inexistente e afirma uso dos equipamentos não mencionado. D inventa erro em 'anexo'. E afirma obsolescência — inferência abusiva."
+        "gabarito": "A",
+        "explicacao": "A crase em 'até à base' está correta. A preposição 'até' pode ser seguida de crase quando há fusão com o artigo feminino 'a'. 'Base' é um substantivo feminino que admite artigo ('a base'), e a preposição 'até' rege 'a'. Logo, a crase é cabível: 'até à base'. O emprego está correto segundo a norma culta."
       },
       {
         "id": "d14",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-13",
-        "enunciado": "Leia: 'O candidato aspirava ao cargo de oficial técnico e já havia se candidatado a outros processos seletivos.' Quanto à regência e às informações, assinale a correta.",
+        "topico_referencia": "comp-02",
+        "textoBase": "O diretor de operações encerrou a reunião antes do previsto, sem apresentar os dados do relatório trimestral.",
+        "enunciado": "Com base no trecho, é correto afirmar que o diretor de operações não possuía os dados do relatório trimestral.",
         "alternativas": {
-          "A": "'Aspirar' (desejar) exige objeto direto; 'aspirava ao cargo' está incorreto; infere-se que o candidato era inexperiente.",
-          "B": "'Aspirar' (desejar) exige objeto indireto com 'a'; 'aspirava ao cargo' está correto; infere-se que o candidato havia participado de outros processos anteriores.",
-          "C": "'Aspirar' (desejar) exige objeto direto; 'aspirava o cargo' seria o correto; infere-se que o candidato foi aprovado.",
-          "D": "'Aspirar' em qualquer sentido é verbo intransitivo; infere-se que o candidato não conseguiu o cargo.",
-          "E": "'Aspirar' (desejar) exige objeto indireto com 'a'; a frase está correta; infere-se que o candidato não havia participado de processos anteriores."
+          "A": "Certo",
+          "B": "Errado"
         },
         "gabarito": "B",
-        "explicacao": "'Aspirar' no sentido de 'desejar, ambicionar' é verbo que exige preposição 'a' — objeto indireto. 'Aspirava ao cargo' está correto. A inferência: 'já havia se candidatado a outros processos seletivos' pressupõe que esses processos ocorreram antes — o candidato tinha experiência prévia em seleções (B). A e C invertem a regência. D nega a transitividade incorretamente. E contradiz o texto ao dizer que não havia participado de outros processos."
+        "explicacao": "O texto informa que o diretor encerrou a reunião sem apresentar os dados — mas não fornece a razão desse comportamento. Pode ter sido falta de tempo, decisão estratégica, dados incompletos ou qualquer outro motivo. Afirmar que ele 'não possuía' os dados é uma extrapolação indevida: o silêncio sobre os dados durante a reunião não equivale à ausência deles."
       },
       {
         "id": "d15",
         "nivel": "avancado",
-        "topico_referencia": "comp-02 + gram-03 + gram-01",
-        "enunciado": "Texto: 'Refiro-me especificamente __ atuação exemplar dos profissionais que se dedicaram __ causa da segurança nacional, contribuindo para o fortalecimento das instituições.' Quanto ao uso da crase nas lacunas, à ortografia do trecho e à informação implícita, assinale a correta.",
+        "topico_referencia": "comp-11",
+        "textoBase": "A missão foi planejada com cuidado. Entretanto, imprevistos climáticos comprometeram a operação.",
+        "enunciado": "O conectivo 'entretanto' estabelece, entre as duas orações, uma relação de sentido de:",
         "alternativas": {
-          "A": "Primeira lacuna: à (crase); segunda: à (crase); 'fortalecimento' está incorreto (falta acento); implícito: os profissionais foram homenageados.",
-          "B": "Primeira lacuna: à (crase); segunda: à (crase); ortografia correta; implícito: a atuação dos profissionais foi considerada positiva.",
-          "C": "Primeira lacuna: a (sem crase); segunda: à (crase); ortografia correta; implícito: os profissionais atuaram em área de risco.",
-          "D": "Primeira lacuna: à (crase); segunda: a (sem crase); ortografia correta; implícito: as instituições estavam enfraquecidas antes.",
-          "E": "Nenhuma lacuna exige crase; 'contribuindo' está incorreto (deveria ser 'contribuindo-se'); implícito: o narrador é um dos profissionais citados."
+          "A": "Adição.",
+          "B": "Conclusão.",
+          "C": "Oposição.",
+          "D": "Explicação.",
+          "E": "Alternância."
         },
-        "gabarito": "B",
-        "explicacao": "'Referir-se a' + artigo feminino 'a(o)' = crase obrigatória: 'à atuação'. 'Dedicar-se a' + artigo feminino = crase obrigatória: 'à causa'. Toda a ortografia está correta: 'fortalecimento' é paroxítona terminada em ditongo, leva acento — aguarda, na verdade 'fortalecimento' termina em '-to', não leva acento por ser paroxítona com terminação regular. Todas as palavras estão corretas. A informação implícita: 'atuação exemplar' pressupõe avaliação positiva dos profissionais — B identifica corretamente. A inventa erro em 'fortalecimento' e homenagem. C e D erram uma das crases. E nega ambas as crases e inventa erro em 'contribuindo'."
+        "gabarito": "C",
+        "explicacao": "'Entretanto' é uma conjunção coordenativa adversativa — estabelece oposição ou contraste entre as orações. No texto, a ideia de cuidado no planejamento se opõe ao resultado negativo causado pelos imprevistos climáticos. A relação de oposição é característica das conjunções adversativas: mas, porém, contudo, todavia, no entanto, entretanto."
       }
     ]
   }
