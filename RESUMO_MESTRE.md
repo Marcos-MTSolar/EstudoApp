@@ -1651,3 +1651,16 @@ pm run build\). Exit Code 0 retornado, confirmando que as inserções não gerar
 - **Arquivos modificados:**
   - `src/data/conteudo/comp-09.json` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 76 - Atualização de Questões nos Arquivos JSON (gram-00 e gram-03)
+- **Data e hora:** 28/06/2026 às 12:12 (Horário Local)
+- **O que foi feito:**
+  - Substituída a questão "q12" no arquivo `src/data/conteudo/gram-00.json` por um novo objeto com nível, enunciado, alternativas, gabarito e explicação atualizados.
+  - Substituída a questão "q16" no arquivo `src/data/conteudo/gram-03.json` por um novo objeto com os dados atualizados de nível, enunciado, alternativas e explicação sobre regras de crase.
+  - Executados os comandos de compilação (`npx tsc --noEmit` e `npm run build`) com sucesso (Exit code: 0), confirmando que a estrutura do projeto permanece íntegra sem erros de sintaxe nos JSONs atualizados.
+- **Arquivos modificados:**
+  - `src/data/conteudo/gram-00.json` **[MODIFICADO]**
+  - `src/data/conteudo/gram-03.json` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**

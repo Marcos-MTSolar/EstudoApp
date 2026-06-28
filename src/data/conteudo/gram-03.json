@@ -459,16 +459,16 @@
     {
       "id": "q16",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que a ausência de crase está INCORRETA.",
+      "enunciado": "Assinale a alternativa em que a ausência de crase está INCORRETA — ou seja, onde a crase deveria estar presente.",
       "alternativas": {
         "A": "O sargento referiu-se a ela sem o devido respeito.",
         "B": "O recruta partiu a pé em direção ao quartel.",
         "C": "O tenente dirigiu-se a Vossa Excelência para esclarecer a situação.",
         "D": "O oficial começou a redigir o relatório às três da tarde.",
-        "E": "O navio seguiu a distância segura dos recifes durante a navegação."
+        "E": "O recruta dirigiu-se a base sem autorização do comandante."
       },
       "gabarito": "E",
-      "explicacao": "Em 'a distância segura', o contexto indica que há uma distância específica e determinada, com sentido adverbial de modo ou posição. Nesse caso, 'à distância' poderia ter crase (locução com sentido de 'mantendo distância, de longe'). A ausência de crase pode ser considerada incorreta dependendo da interpretação. As alternativas A, B, C são casos de crase proibida (pronome pessoal, masculino, pronome de tratamento) corretamente sem crase. A alternativa D omite crase antes de verbo 'redigir' — correto. Em E, a crase seria mais adequada: 'à distância segura'."
+      "explicacao": "Em 'a base', o verbo 'dirigir-se' é transitivo indireto e exige preposição 'a'; 'base' é substantivo feminino que aceita artigo definido 'a' — a fusão é obrigatória, e o correto é 'à base'. A ausência de crase está incorreta nessa alternativa. Nas demais: A está correta sem crase — pronome pessoal 'ela' nunca aceita artigo antes, portanto crase proibida. B está correta sem crase — 'a pé' é locução adverbial masculina (substantivo masculino 'pé'). C está correta sem crase — pronomes de tratamento como 'Vossa Excelência' não admitem artigo antes. D está correta — 'a redigir' é preposição antes de verbo no infinitivo, crase proibida antes de verbo."
     },
     {
       "id": "q17",
@@ -757,7 +757,16 @@
     }
   ],
   "desafio": {
-    "topicos_mesclados": ["gram-00", "gram-04", "gram-05", "gram-06", "gram-07", "gram-01", "gram-02", "gram-03"],
+    "topicos_mesclados": [
+      "gram-00",
+      "gram-04",
+      "gram-05",
+      "gram-06",
+      "gram-07",
+      "gram-01",
+      "gram-02",
+      "gram-03"
+    ],
     "questoes": [
       {
         "id": "d01",
