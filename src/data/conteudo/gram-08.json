@@ -3,7 +3,6 @@
   "titulo": "Organização Sintática: Frase, Oração e Período",
   "area": "Gramática",
   "resumo": "Sintaxe é o estudo de como as palavras se organizam para formar sentido. Antes de entender sujeito, predicado e todos os termos da oração, é preciso dominar as três unidades básicas: frase, oração e período. A CEBRASPE cobra esse tema tanto de forma direta (identificar se um enunciado é frase ou oração) quanto indireta (analisar períodos compostos e relações entre orações). Neste tópico você aprenderá a distinguir com precisão essas três unidades, reconhecer períodos simples e compostos, e identificar o número de orações em um período — habilidade essencial para toda a sintaxe que vem a seguir.",
-
   "teoria": {
     "blocos": [
       {
@@ -182,7 +181,6 @@
       }
     ]
   },
-
   "pegadinhas": [
     {
       "titulo": "Frase nominal confundida com oração",
@@ -220,7 +218,6 @@
       "nivel": "avancado"
     }
   ],
-
   "cascas_de_banana": [
     {
       "situacao": "Confundir comprimento do período com complexidade sintática",
@@ -238,7 +235,6 @@
       "nivel": "avancado"
     }
   ],
-
   "questoes": [
     {
       "id": "q01",
@@ -404,11 +400,11 @@
         "A": "Período simples, pois 'cansado' é o único verbo",
         "B": "Período composto por duas orações: 'assinou' e 'comunicou'",
         "C": "Período composto por três orações: 'cansado', 'assinou' e 'comunicou'",
-        "D": "Período simples, pois as vírgulas separam termos da mesma oração",
+        "D": "Período composto por três orações: 'cansado após longa viagem' (oração reduzida), 'assinou' e 'comunicou'.",
         "E": "Período composto por quatro orações, contando os adjuntos adverbiais"
       },
       "gabarito": "B",
-      "explicacao": "O período tem dois verbos conjugados: 'assinou' e 'comunicou'. 'Cansado' é um adjetivo predicativo (particípio adjetivado), não um verbo de oração — nesse contexto não forma oração reduzida, mas funciona como adjetivo. As vírgulas isolam o aposto explicativo 'cansado após longa viagem', que é termo acessório, não oração. Portanto, há duas orações coordenadas: período composto."
+      "explicacao": "O período tem dois verbos conjugados: 'assinou' e 'comunicou'. 'Cansado após longa viagem' entre vírgulas é um **adjetivo predicativo** em aposto ao sujeito, não uma oração reduzida com valor verbal autônomo nesse contexto — não descreve ação simultânea, mas caracteriza o estado do sujeito ao praticar a ação. Portanto, são duas orações coordenadas: período composto. A alternativa D seria válida apenas se 'cansado' tivesse valor adverbial claro (como em 'saiu cansado'), o que não é o caso aqui com a vírgula e o adjunto 'após longa viagem'."
     },
     {
       "id": "q13",
@@ -675,7 +671,6 @@
       "explicacao": "A alternativa D está incorreta. Toda oração é uma unidade com verbo, mas nem toda oração é um período simples. Uma oração pode fazer parte de um período composto, sendo uma das várias orações que o integram — nesse caso, é uma oração dentro de um período composto, não um período simples por si só. Período simples é o período que contém uma única oração — eles coincidem em extensão, mas são conceitos distintos. As demais alternativas são verdadeiras: A (definição de período simples), B (definição de frase nominal), C (característica da coordenação), E (tipos de período composto)."
     }
   ],
-
   "simulado": [
     {
       "id": "s01",
@@ -752,9 +747,18 @@
       "explicacao": "As afirmações I, II e III estão corretas. I: 'Atenção, tripulação!' é frase nominal (sem verbo) — é frase, mas não oração (sem verbo) nem período (período exige ao menos uma oração). II: 'O recruta obedeceu.' tem verbo ('obedeceu'), sentido completo e é delimitado por ponto — é frase + oração + período simples simultaneamente. III: No período 'O oficial leu o relatório que o sargento havia redigido antes de partir.', há quatro orações: 'o oficial leu o relatório' (1ª), 'que o sargento havia redigido' (2ª), 'antes de partir' — oração reduzida de infinitivo (3ª). Na verdade, são três orações, não quatro — o que torna III incorreta e o gabarito correto seria apenas I e II (A). Revisando: III afirma 4 orações; o correto são 3. Portanto, apenas I e II são corretas — gabarito A."
     }
   ],
-
   "desafio": {
-    "topicos_mesclados": ["gram-00", "gram-04", "gram-05", "gram-06", "gram-07", "gram-01", "gram-02", "gram-03", "gram-08"],
+    "topicos_mesclados": [
+      "gram-00",
+      "gram-04",
+      "gram-05",
+      "gram-06",
+      "gram-07",
+      "gram-01",
+      "gram-02",
+      "gram-03",
+      "gram-08"
+    ],
     "questoes": [
       {
         "id": "d01",

@@ -708,8 +708,7 @@
         "B": "1º parágrafo: narrativo (relata o programa e seus resultados); 2º parágrafo: dissertativo (critica a decisão de encerramento com argumento).",
         "C": "1º parágrafo: expositivo (define o programa); 2º parágrafo: descritivo (caracteriza as consequências).",
         "D": "1º parágrafo: dissertativo (defende a criação do programa); 2º parágrafo: expositivo (informa sobre a descontinuidade).",
-        "E": "1º parágrafo: descritivo (descreve o programa e seus números); 2º parágrafo: injuntivo (instrui o governo a retomar o programa).",
-        "D": "1º parágrafo: dissertativo (defende a criação do programa); 2º parágrafo: expositivo (informa sobre a descontinuidade)."
+        "E": "1º parágrafo: narrativo (relata eventos passados); 2º parágrafo: dissertativo (critica a descontinuidade)."
       },
       "gabarito": "B",
       "explicacao": "O primeiro parágrafo é narrativo: relata, em ordem cronológica, a criação do programa (2018), o que ele fez (reuniu especialistas, produziu diretrizes, treinou oficiais) e os resultados obtidos (melhora de 40%). Verbos de ação no pretérito ('representou', 'reuniu', 'produziu', 'treinou', 'mostraram') confirmam a narração. O segundo parágrafo é dissertativo: toma posição ('Essa decisão foi equivocada') e a sustenta com argumento ('abrir mão de um investimento com retorno comprovado... compromete a capacidade operacional'). O marcador 'Apesar desses resultados expressivos' é concessão argumentativa que introduce a tese crítica. Não é injuntivo (A, E) porque não prescreve ações; não é puramente expositivo ou descritivo (C, E)."
@@ -732,11 +731,30 @@
   ],
   "desafio": {
     "topicos_mesclados": [
-      "gram-00", "gram-04", "gram-05", "gram-06", "gram-07",
-      "gram-01", "gram-02", "gram-03", "gram-08", "gram-09",
-      "gram-10", "gram-11", "gram-12", "gram-13", "gram-14",
-      "comp-03", "comp-06", "comp-05", "comp-07", "comp-14",
-      "comp-01", "comp-02", "comp-04", "comp-08"
+      "gram-00",
+      "gram-04",
+      "gram-05",
+      "gram-06",
+      "gram-07",
+      "gram-01",
+      "gram-02",
+      "gram-03",
+      "gram-08",
+      "gram-09",
+      "gram-10",
+      "gram-11",
+      "gram-12",
+      "gram-13",
+      "gram-14",
+      "comp-03",
+      "comp-06",
+      "comp-05",
+      "comp-07",
+      "comp-14",
+      "comp-01",
+      "comp-02",
+      "comp-04",
+      "comp-08"
     ],
     "questoes": [
       {
@@ -965,17 +983,17 @@
         "id": "d15",
         "nivel": "avancado",
         "topico_referencia": "comp-08",
-        "textoBase": "Considerando o texto de uma ata de reunião do estado-maior que narra as decisões tomadas, descreve o local da reunião e instrui sobre os prazos para cumprimento das deliberações,",
-        "enunciado": "assinale a alternativa que identifica corretamente as três sequências textuais presentes na ata, na ordem mencionada.",
+        "textoBase": "RELATÓRIO DE PATRULHA\n\nA patrulha iniciou-se às 06h00 com a saída das embarcações do porto. O trajeto seguiu conforme planejado, sem incidentes. É imperativo que as próximas equipes mantenham atenção redobrada ao radar no quadrante sul. O setor patrulhado caracteriza-se por correntes fortes e visibilidade reduzida pela manhã.",
+        "enunciado": "O relatório de patrulha acima combina diferentes tipos textuais. Assinale a alternativa que indica corretamente a sequência dos tipos textuais presentes no documento, respectivamente:",
         "alternativas": {
-          "A": "dissertativa, expositiva, injuntiva.",
-          "B": "narrativa, descritiva, injuntiva.",
-          "C": "expositiva, narrativa, dissertativa.",
-          "D": "injuntiva, descritiva, narrativa.",
-          "E": "narrativa, injuntiva, expositiva."
+          "A": "Narrativa, dissertativa, injuntiva.",
+          "B": "Narrativa, injuntiva, descritiva.",
+          "C": "Descritiva, narrativa, expositiva.",
+          "D": "Expositiva, injuntiva, narrativa.",
+          "E": "Injuntiva, descritiva, narrativa."
         },
         "gabarito": "B",
-        "explicacao": "O enunciado descreve três funções textuais na ata: 'narra as decisões tomadas' → sequência narrativa (conta o que foi decidido, evento passado); 'descreve o local da reunião' → sequência descritiva (caracteriza o ambiente por suas qualidades); 'instrui sobre os prazos para cumprimento' → sequência injuntiva (prescreve prazos e obrigações). Esse padrão é típico de atas militares, que mesclam narração do ocorrido, descrição do contexto e injunção das deliberações. A alternativa B reproduz exatamente a sequência mencionada no enunciado: narrativa → descritiva → injuntiva."
+        "explicacao": "O texto apresenta três sequências distintas: a primeira ('A patrulha iniciou-se...') é NARRATIVA, relatando uma ação no tempo; a segunda ('É imperativo que as próximas equipes mantenham...') é INJUNTIVA, dando uma instrução/ordem; a terceira ('O setor patrulhado caracteriza-se por...') é DESCRITIVA, detalhando as características do ambiente."
       }
     ]
   }

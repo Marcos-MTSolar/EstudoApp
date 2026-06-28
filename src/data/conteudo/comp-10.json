@@ -223,26 +223,26 @@
       "alternativas": {
         "A": "A reescritura está errada porque a voz passiva altera o sujeito da frase.",
         "B": "A reescritura está errada porque 'entregue' é forma verbal incorreta.",
-        "C": "A reescritura está correta — a voz passiva preserva todos os elementos: ação, agente e destinatário.",
-        "D": "A reescritura está errada porque o agente da passiva deveria ser omitido.",
+        "C": "A reescritura está errada porque o agente da passiva deveria ser omitido.",
+        "D": "A reescritura está correta — a voz passiva preserva todos os elementos: ação, agente e destinatário.",
         "E": "A reescritura está correta apenas se o contexto indicar que o documento era sigiloso."
       },
-      "gabarito": "C",
-      "explicacao": "A transformação de voz ativa para passiva analítica é válida quando preserva todos os participantes da ação. Na frase original: sujeito = 'o sargento', ação = 'entregou', objeto = 'o documento', destinatário = 'ao oficial'. Na reescritura passiva: 'o documento' vira sujeito, 'foi entregue' é o verbo na passiva, 'ao oficial' permanece destinatário, e 'pelo sargento' é o agente da passiva. Todos os elementos estão presentes e o sentido é idêntico. A alternativa D está errada porque omitir o agente 'pelo sargento' suprimiria uma informação presente no original. A alternativa E está errada porque o sentido de uma reescritura não depende de condições externas ao texto."
+      "gabarito": "D",
+      "explicacao": "A transformação de voz ativa para passiva analítica é válida quando preserva todos os participantes da ação. Na frase original: sujeito = 'o sargento', ação = 'entregou', objeto = 'o documento', destinatário = 'ao oficial'. Na reescritura passiva: 'o documento' vira sujeito, 'foi entregue' é o verbo na passiva, 'ao oficial' permanece destinatário, e 'pelo sargento' é o agente da passiva. Todos os elementos estão presentes e o sentido é idêntico. A alternativa C está errada porque omitir o agente 'pelo sargento' suprimiria uma informação presente no original. A alternativa E está errada porque o sentido de uma reescritura não depende de condições externas ao texto."
     },
     {
       "id": "q02",
       "nivel": "basico",
       "enunciado": "Assinale a alternativa que apresenta uma reescritura correta da frase 'A base naval recebeu novos equipamentos'.",
       "alternativas": {
-        "A": "Novos equipamentos foram recebidos pela base naval.",
+        "A": "A base naval recebeu equipamentos que eram novos e diferentes.",
         "B": "A base naval foi recebida por novos equipamentos.",
         "C": "Novos equipamentos receberam a base naval.",
-        "D": "A base naval recebeu equipamentos que eram novos e diferentes.",
+        "D": "Novos equipamentos foram recebidos pela base naval.",
         "E": "Os equipamentos novos chegaram à base, tendo sido recebidos."
       },
-      "gabarito": "A",
-      "explicacao": "A alternativa A é a única que transforma corretamente a frase ativa em passiva analítica: o objeto direto 'novos equipamentos' torna-se sujeito da passiva, o verbo 'recebeu' transforma-se em 'foram recebidos', e o sujeito original 'a base naval' torna-se agente da passiva ('pela base naval'). A alternativa B inverte os papéis — a base não pode ser agente passivo de equipamentos. A alternativa C é semanticamente incoerente (equipamentos não recebem bases). A alternativa D adiciona a palavra 'diferentes', que não existia no original. A alternativa E muda a estrutura sem equivalência fiel ao original."
+      "gabarito": "D",
+      "explicacao": "A D é a única que transforma corretamente a frase ativa em passiva analítica: o objeto direto 'novos equipamentos' torna-se sujeito da passiva, o verbo 'recebeu' transforma-se em 'foram recebidos', e o sujeito original 'a base naval' torna-se agente da passiva ('pela base naval'). A alternativa B inverte os papéis — a base não pode ser agente passivo de equipamentos. A alternativa C é semanticamente incoerente (equipamentos não recebem bases). A alternativa A adiciona a palavra 'diferentes', que não existia no original. A alternativa E muda a estrutura sem equivalência fiel ao original."
     },
     {
       "id": "q03",
@@ -250,13 +250,13 @@
       "enunciado": "Julgue: a frase 'O recruta chegou cedo porque queria ser o primeiro na formatura' foi corretamente reescrita como 'O recruta queria ser o primeiro na formatura, por isso chegou cedo'.",
       "alternativas": {
         "A": "Errado — 'por isso' indica consequência, não causa, invertendo a relação lógica.",
-        "B": "Certo — o sentido é preservado porque a relação causa-efeito permanece idêntica nas duas frases.",
+        "B": "Certo — mas apenas porque 'porque' e 'por isso' são sempre sinônimos.",
         "C": "Errado — 'cedo' deveria ser substituído por 'antes do horário' para equivalência.",
-        "D": "Certo — mas apenas porque 'porque' e 'por isso' são sempre sinônimos.",
+        "D": "Certo — o sentido é preservado porque a relação causa-efeito permanece idêntica nas duas frases.",
         "E": "Errado — a segunda frase omite o sujeito 'o recruta'."
       },
-      "gabarito": "B",
-      "explicacao": "A reescritura está correta. Na frase original: causa = 'queria ser o primeiro' → efeito = 'chegou cedo'. Na reescritura, a ordem das orações foi invertida, mas a relação lógica é preservada: a oração com 'por isso' introduz a consequência (chegou cedo) após a causa (queria ser o primeiro). O resultado final é o mesmo: o desejo motivou a chegada antecipada. A alternativa A está errada em sua justificativa — embora 'por isso' indique consequência, a reorganização das orações mantém causa e efeito nos lugares corretos. A alternativa D está errada: 'porque' e 'por isso' não são sempre sinônimos — aqui funcionaram porque houve reorganização das orações."
+      "gabarito": "D",
+      "explicacao": "A reescritura está correta. Na frase original: causa = 'queria ser o primeiro' → efeito = 'chegou cedo'. Na reescritura, a ordem das orações foi invertida, mas a relação lógica é preservada: a oração com 'por isso' introduz a consequência (chegou cedo) após a causa (queria ser o primeiro). O resultado final é o mesmo: o desejo motivou a chegada antecipada. A alternativa A está errada em sua justificativa — embora 'por isso' indique consequência, a reorganização das orações mantém causa e efeito nos lugares corretos. A alternativa B está errada: 'porque' e 'por isso' não são sempre sinônimos — aqui funcionaram porque houve reorganização das orações."
     },
     {
       "id": "q04",
@@ -265,12 +265,12 @@
       "alternativas": {
         "A": "O oficial emitiu uma ordem urgente.",
         "B": "O oficial publicou uma ordem urgente.",
-        "C": "O oficial recebeu uma ordem urgente.",
-        "D": "O oficial encaminhou uma ordem urgente.",
+        "C": "O oficial encaminhou uma ordem urgente.",
+        "D": "O oficial recebeu uma ordem urgente.",
         "E": "O oficial enviou uma ordem urgente."
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C muda fundamentalmente o papel do oficial: na frase original, ele é o emissor da ordem (sujeito agente); em 'recebeu uma ordem urgente', ele passa a ser o receptor. Isso altera completamente quem tem a autoridade e a iniciativa na situação descrita. As demais alternativas (emitiu, publicou, encaminhou, enviou) mantêm o oficial como emissor da ordem, preservando o sentido geral da frase, embora com nuances diferentes de formalidade."
+      "gabarito": "D",
+      "explicacao": "A D muda fundamentalmente o papel do oficial: na frase original, ele é o emissor da ordem (sujeito agente); em 'recebeu uma ordem urgente', ele passa a ser o receptor. Isso altera completamente quem tem a autoridade e a iniciativa na situação descrita. As demais alternativas (emitiu, publicou, encaminhou, enviou) mantêm o oficial como emissor da ordem, preservando o sentido geral da frase, embora com nuances diferentes de formalidade."
     },
     {
       "id": "q05",
@@ -278,13 +278,13 @@
       "enunciado": "A frase 'Todos os marinheiros participaram do treinamento' pode ser corretamente reescrita como:",
       "alternativas": {
         "A": "O treinamento participou de todos os marinheiros.",
-        "B": "Nenhum marinheiro deixou de participar do treinamento.",
+        "B": "O treinamento foi participado por todos os marinheiros.",
         "C": "Os marinheiros que participaram do treinamento eram todos.",
-        "D": "O treinamento foi participado por todos os marinheiros.",
+        "D": "Nenhum marinheiro deixou de participar do treinamento.",
         "E": "Marinheiros de todas as patentes participaram do treinamento."
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B preserva o sentido de universalidade (todos participaram) por meio de uma formulação negativa equivalente (nenhum deixou de participar). Em lógica, 'todos fizeram X' equivale a 'nenhum deixou de fazer X' — essa é uma reescritura válida por equivalência lógica. A alternativa A é semanticamente absurda (treinamento não pode participar de pessoas). A alternativa C está gramaticalmente truncada e não transmite o mesmo sentido. A alternativa D tem problema de regência — 'participar' é verbo intransitivo e não aceita voz passiva direta. A alternativa E adiciona uma especificidade ('de todas as patentes') que não existe no original."
+      "gabarito": "D",
+      "explicacao": "A D preserva o sentido de universalidade (todos participaram) por meio de uma formulação negativa equivalente (nenhum deixou de participar). Em lógica, 'todos fizeram X' equivale a 'nenhum deixou de fazer X' — essa é uma reescritura válida por equivalência lógica. A alternativa A é semanticamente absurda (treinamento não pode participar de pessoas). A alternativa C está gramaticalmente truncada e não transmite o mesmo sentido. A alternativa B tem problema de regência — 'participar' é verbo intransitivo e não aceita voz passiva direta. A alternativa E adiciona uma especificidade ('de todas as patentes') que não existe no original."
     },
     {
       "id": "q06",
@@ -292,12 +292,12 @@
       "enunciado": "Julgue: a reescritura de 'O tenente e o sargento foram promovidos' como 'O tenente foi promovido e o sargento também foi promovido' altera o sentido da frase original.",
       "alternativas": {
         "A": "Certo — a segunda frase enfatiza separadamente cada promoção, mudando o sentido coletivo.",
-        "B": "Errado — a segunda frase é apenas uma versão expandida com o mesmo sentido.",
+        "B": "Errado — mas apenas porque ambos são militares.",
         "C": "Certo — na segunda frase, o sargento é promovido depois do tenente, o que implica hierarquia.",
-        "D": "Errado — mas apenas porque ambos são militares.",
+        "D": "Errado — a segunda frase é apenas uma versão expandida com o mesmo sentido.",
         "E": "Certo — 'também' adiciona uma informação que não existia no original."
       },
-      "gabarito": "B",
+      "gabarito": "D",
       "explicacao": "A reescritura não altera o sentido. A frase original afirma que tanto o tenente quanto o sargento foram promovidos. A versão expandida diz exatamente o mesmo, apenas desdobrando o sujeito composto em duas orações coordenadas aditivas. O 'também' não adiciona informação nova — ele funciona como marcador de adição, reproduzindo a ideia de inclusão dos dois que já estava implícita no 'e' original. A alternativa A está errada: desdobrar o sujeito composto não muda o sentido coletivo. A alternativa C está errada: a ordem das orações não implica sequência temporal ou hierárquica aqui."
     },
     {
@@ -305,14 +305,14 @@
       "nivel": "basico",
       "enunciado": "Assinale a reescritura que preserva corretamente o sentido de 'O recruta obedeceu à ordem imediatamente'.",
       "alternativas": {
-        "A": "A ordem foi obedecida imediatamente pelo recruta.",
+        "A": "Imediatamente, a ordem obedeceu ao recruta.",
         "B": "O recruta obedeceu à ordem, mas não de imediato.",
         "C": "A ordem imediata foi obedecida pelo recruta.",
         "D": "O recruta obedeceu, e a ordem foi imediata.",
-        "E": "Imediatamente, a ordem obedeceu ao recruta."
+        "E": "A ordem foi obedecida imediatamente pelo recruta."
       },
-      "gabarito": "A",
-      "explicacao": "A alternativa A é a transformação correta para a voz passiva: o objeto direto 'a ordem' vira sujeito, o verbo vai para 'foi obedecida', e o sujeito original 'o recruta' vira agente da passiva ('pelo recruta'). O advérbio 'imediatamente' mantém sua posição e função. A alternativa B contradiz o original ao negar a imediatidade. A alternativa C muda o sentido: 'ordem imediata' descreve a ordem como sendo rápida, mas no original 'imediatamente' descreve como o recruta obedeceu. A alternativa D divide informações que estavam integradas. A alternativa E é semanticamente absurda."
+      "gabarito": "E",
+      "explicacao": "A E é a transformação correta para a voz passiva: o objeto direto 'a ordem' vira sujeito, o verbo vai para 'foi obedecida', e o sujeito original 'o recruta' vira agente da passiva ('pelo recruta'). O advérbio 'imediatamente' mantém sua posição e função. A alternativa B contradiz o original ao negar a imediatidade. A alternativa C muda o sentido: 'ordem imediata' descreve a ordem como sendo rápida, mas no original 'imediatamente' descreve como o recruta obedeceu. A alternativa D divide informações que estavam integradas. A alternativa A é semanticamente absurda."
     },
     {
       "id": "q08",
@@ -320,12 +320,12 @@
       "enunciado": "Julgue: substituir 'eficiente' por 'eficaz' na frase 'O procedimento foi eficiente' constitui reescritura sem alteração de sentido.",
       "alternativas": {
         "A": "Certo — eficiente e eficaz são sinônimos perfeitos em qualquer contexto.",
-        "B": "Errado — 'eficiente' refere-se ao uso adequado dos meios; 'eficaz' refere-se ao alcance do resultado, o que pode gerar sentido diferente.",
+        "B": "Certo — a diferença entre os termos não é relevante para fins de prova.",
         "C": "Certo — ambas as palavras descrevem qualidades positivas de um procedimento.",
         "D": "Errado — 'eficaz' é palavra mais formal e não pode substituir 'eficiente' em textos técnicos.",
-        "E": "Certo — a diferença entre os termos não é relevante para fins de prova."
+        "E": "Errado — 'eficiente' refere-se ao uso adequado dos meios; 'eficaz' refere-se ao alcance do resultado, o que pode gerar sentido diferente."
       },
-      "gabarito": "B",
+      "gabarito": "E",
       "explicacao": "Embora 'eficiente' e 'eficaz' sejam frequentemente usados como sinônimos no cotidiano, eles têm distinções técnicas relevantes: 'eficiente' indica que algo cumpre sua função com bom uso dos recursos (meios); 'eficaz' indica que algo produz o efeito pretendido (resultado). Em textos formais e na linguagem de concursos, essa diferença pode ser significativa. A CEBRASPE pode cobrar essa distinção, por isso a substituição não garante equivalência de sentido. A alternativa A está errada: não são sinônimos perfeitos em todos os contextos. A alternativa D está errada em sua justificativa — 'eficaz' não é necessariamente mais formal."
     },
     {
@@ -334,13 +334,13 @@
       "enunciado": "A frase 'O comandante não aprovou o plano' é semanticamente equivalente a:",
       "alternativas": {
         "A": "O plano foi aprovado pelo comandante.",
-        "B": "O plano não foi aprovado pelo comandante.",
+        "B": "O comandante rejeitou o plano e o destruiu.",
         "C": "O comandante aprovou apenas parte do plano.",
         "D": "O plano foi recusado, mas o comandante não estava presente.",
-        "E": "O comandante rejeitou o plano e o destruiu."
+        "E": "O plano não foi aprovado pelo comandante."
       },
-      "gabarito": "B",
-      "explicacao": "A alternativa B é a transformação para voz passiva negativa, preservando todos os elementos: a negação ('não'), a ação ('aprovado'), o agente ('pelo comandante') e o objeto ('o plano'). A alternativa A elimina a negação — muda o sentido para o oposto, indicando que houve aprovação. A alternativa C adiciona uma informação ('apenas parte') que não existia na frase original. A alternativa D adiciona uma condição sobre a presença do comandante, inventando informação. A alternativa E vai além da frase original ao adicionar 'e o destruiu', acrescentando ação não mencionada."
+      "gabarito": "E",
+      "explicacao": "A E é a transformação para voz passiva negativa, preservando todos os elementos: a negação ('não'), a ação ('aprovado'), o agente ('pelo comandante') e o objeto ('o plano'). A alternativa A elimina a negação — muda o sentido para o oposto, indicando que houve aprovação. A alternativa C adiciona uma informação ('apenas parte') que não existia na frase original. A alternativa D adiciona uma condição sobre a presença do comandante, inventando informação. A alternativa B vai além da frase original ao adicionar 'e o destruiu', acrescentando ação não mencionada."
     },
     {
       "id": "q10",
@@ -348,12 +348,12 @@
       "enunciado": "Julgue: a frase 'O navio partiu antes de o abastecimento ser concluído' tem o mesmo sentido de 'O navio partiu sem que o abastecimento fosse concluído'.",
       "alternativas": {
         "A": "Errado — 'antes de' indica anterioridade temporal; 'sem que' indica ausência de condição, sentidos distintos.",
-        "B": "Certo — ambas as frases informam que a partida ocorreu e o abastecimento não havia sido concluído nesse momento.",
+        "B": "Errado — na segunda frase, o navio não parte realmente, apenas planeja partir.",
         "C": "Errado — 'sem que' indica que o abastecimento nunca seria concluído; 'antes de' não implica isso.",
         "D": "Certo — mas apenas porque 'antes de' e 'sem que' são conjunções da mesma classe.",
-        "E": "Errado — na segunda frase, o navio não parte realmente, apenas planeja partir."
+        "E": "Certo — ambas as frases informam que a partida ocorreu e o abastecimento não havia sido concluído nesse momento."
       },
-      "gabarito": "B",
+      "gabarito": "E",
       "explicacao": "Ambas as frases comunicam o mesmo fato: o navio partiu e, nesse momento, o abastecimento não estava concluído. 'Antes de o abastecimento ser concluído' situa a partida no tempo (anterioridade em relação à conclusão do abastecimento). 'Sem que o abastecimento fosse concluído' indica a ausência desse estado no momento da partida. O conteúdo informativo é equivalente em ambos os casos. A alternativa A está errada em sua conclusão: embora a análise gramatical dos conectivos difira, o sentido resultante é o mesmo neste contexto. A alternativa D está errada: 'antes de' e 'sem que' pertencem a classes gramaticais diferentes."
     },
     {
@@ -364,12 +364,12 @@
       "alternativas": {
         "A": "As guarnições foram determinadas pelo Comando a reforçar a vigilância.",
         "B": "O Comando determinou que as guarnições reforçassem a vigilância porque foram identificadas ameaças nas áreas de acesso restrito.",
-        "C": "Em virtude das ameaças identificadas, o Comando do 4° Distrito Naval determinou que as guarnições reforçassem a vigilância nas áreas de acesso restrito.",
+        "C": "O Comando reforçou a vigilância nas áreas de acesso restrito por causa das ameaças.",
         "D": "As ameaças identificadas determinaram que as guarnições reforçassem a vigilância.",
-        "E": "O Comando reforçou a vigilância nas áreas de acesso restrito por causa das ameaças."
+        "E": "Em virtude das ameaças identificadas, o Comando do 4° Distrito Naval determinou que as guarnições reforçassem a vigilância nas áreas de acesso restrito."
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C preserva todos os elementos do trecho original: o sujeito agente (Comando do 4° Distrito Naval), a ação (determinar), o objeto da determinação (que as guarnições reforçassem a vigilância nas áreas de acesso restrito) e a causa (ameaças identificadas). A única mudança é o deslocamento do adjunto adverbial de causa para o início da frase — operação válida que mantém o sentido. A alternativa A muda o sentido ao atribuir 'determinadas' ao sujeito errado (guarnições não são determinadas — são a quem se determina algo). A alternativa D muda o sujeito da determinação (ameaças não emitem determinações). A alternativa E muda o sujeito da ação de reforço — foi o Comando que determinou que as guarnições reforçassem."
+      "gabarito": "E",
+      "explicacao": "A E preserva todos os elementos do trecho original: o sujeito agente (Comando do 4° Distrito Naval), a ação (determinar), o objeto da determinação (que as guarnições reforçassem a vigilância nas áreas de acesso restrito) e a causa (ameaças identificadas). A única mudança é o deslocamento do adjunto adverbial de causa para o início da frase — operação válida que mantém o sentido. A alternativa A muda o sentido ao atribuir 'determinadas' ao sujeito errado (guarnições não são determinadas — são a quem se determina algo). A alternativa D muda o sujeito da determinação (ameaças não emitem determinações). A alternativa C muda o sujeito da ação de reforço — foi o Comando que determinou que as guarnições reforçassem."
     },
     {
       "id": "q12",
@@ -438,13 +438,13 @@
       "textoBase": "Como a comunicação falhou, a missão precisou ser abortada.",
       "alternativas": {
         "A": "A missão precisou ser abortada, portanto a comunicação falhou.",
-        "B": "A comunicação falhou; por isso, foi necessário abortar a missão.",
+        "B": "Se a comunicação falhasse, a missão precisaria ser abortada.",
         "C": "Embora a comunicação tivesse falhado, a missão precisou ser abortada.",
         "D": "A missão foi abortada antes que a comunicação falhasse.",
-        "E": "Se a comunicação falhasse, a missão precisaria ser abortada."
+        "E": "A comunicação falhou; por isso, foi necessário abortar a missão."
       },
-      "gabarito": "B",
-      "explicacao": "A frase original estabelece uma relação de causa ('como a comunicação falhou') e efeito ('a missão precisou ser abortada'). A alternativa B preserva essa relação: 'A comunicação falhou' é a causa; 'por isso, foi necessário abortar a missão' é a consequência. A alternativa A inverte a relação causa-efeito, sugerindo que o abortamento causou a falha — sentido oposto ao original. A alternativa C usa concessão ('embora'), que indica que a falha não deveria levar ao abortamento — contradiz o original. A alternativa D afirma que o abortamento ocorreu antes da falha — inversão temporal. A alternativa E transforma fatos reais em hipótese."
+      "gabarito": "E",
+      "explicacao": "A frase original estabelece uma relação de causa ('como a comunicação falhou') e efeito ('a missão precisou ser abortada'). A E preserva essa relação: 'A comunicação falhou' é a causa; 'por isso, foi necessário abortar a missão' é a consequência. A alternativa A inverte a relação causa-efeito, sugerindo que o abortamento causou a falha — sentido oposto ao original. A alternativa C usa concessão ('embora'), que indica que a falha não deveria levar ao abortamento — contradiz o original. A alternativa D afirma que o abortamento ocorreu antes da falha — inversão temporal. A alternativa B transforma fatos reais em hipótese."
     },
     {
       "id": "q17",

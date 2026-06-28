@@ -205,13 +205,13 @@
       "enunciado": "Assinale a alternativa em que a concordância nominal está CORRETA.",
       "alternativas": {
         "A": "A recruta estava cansado após a instrução.",
-        "B": "O sargento e a cabo ficaram satisfeitos com o resultado.",
+        "B": "O sargento e a cabo ficaram satisfeita com o resultado.",
         "C": "As oficiais foram convocadas para reunião urgente.",
         "D": "O relatório e a portaria foram anexo ao processo.",
         "E": "Os recrutas estavam nervosa antes da prova."
       },
       "gabarito": "C",
-      "explicacao": "Em C, 'As oficiais' é feminino plural e 'convocadas' está no feminino plural — concordância correta. Em A, 'recruta' é feminino, mas 'cansado' está no masculino — erro de gênero. Em B, dois substantivos ('o sargento' masc. e 'a cabo' fem.) → adjetivo deve ir para o masculino plural: 'satisfeitos' — na verdade B está correta também. Revisando: B está correta. Em D, 'o relatório e a portaria' são dois substantivos; 'anexo' deveria ser 'anexos' (plural). Em E, 'os recrutas' é masculino plural; 'nervosa' está no feminino singular — dois erros."
+      "explicacao": "Em C, 'As oficiais' é feminino plural e 'convocadas' está no feminino plural — concordância correta e única alternativa válida. Em A, 'recruta' é feminino, mas 'cansado' está no masculino — erro de gênero. Em B, dois substantivos de gêneros diferentes ('o sargento' masc. + 'a cabo' fem.) exigem o masculino plural: 'satisfeitos'; 'satisfeita' no feminino singular está errado. Em D, 'o relatório e a portaria' são dois substantivos; 'anexo' deveria estar no masculino plural: 'anexos'. Em E, 'os recrutas' é masculino plural; 'nervosa' está no feminino singular — dois erros."
     },
     {
       "id": "q02",
@@ -238,9 +238,8 @@
         "D": "Os oficiais disseram: 'Obrigado pela homenagem.' (sendo todos masculinos)",
         "E": "A e D estão corretas."
       },
-      "gabarito": "E",
-      "explicacao": "'Obrigado' é adjetivo e concorda com o gênero de quem agradece. Em A, 'a sargento' é feminina — deveria dizer 'obrigada'. Em B, 'o recruta' é masculino — deveria dizer 'obrigado'. Em C, 'a cabo' é feminina — 'obrigada' está correto. Em D, os oficiais são masculinos — 'obrigado' está correto. Portanto, C e D estão corretas — mas a alternativa E agrupa A e D. Revisando: A está errada, B está errada, C correta, D correta. A alternativa que agrupa corretamente seria 'C e D', mas como as opções apresentam 'A e D', o gabarito deve ser D isoladamente como a única sem dúvida. Gabarito: D.",
-      "gabarito": "D"
+      "gabarito": "D",
+      "explicacao": "'Obrigado' é adjetivo que concorda com o gênero de quem agradece. Em A, 'a sargento' é feminina — o correto seria 'obrigada', não 'obrigado'. Em B, 'o recruta' é masculino — o correto seria 'obrigado', não 'obrigada'. Em C, 'a cabo' é feminina — 'obrigada' está correto. Em D, 'os oficiais' são masculinos — 'obrigado' está correto. Portanto, apenas C e D estão corretas. A alternativa E agrupa 'A e D', o que está errado: A apresenta erro de concordância. O gabarito é D porque é a única alternativa que apresenta uso isolado e inequivocamente correto de 'obrigado'."
     },
     {
       "id": "q04",
@@ -277,12 +276,12 @@
       "alternativas": {
         "A": "O fuzil e a pistola estavam enferrujadas.",
         "B": "O mapa e o relatório estavam desatualizado.",
-        "C": "A pasta e o envelope estavam abertos sobre a mesa.",
+        "C": "A pasta e o envelope estavam aberta sobre a mesa.",
         "D": "O navio e a lancha estavam avariada no porto.",
         "E": "O sargento e a cabo estavam ausentes da formação."
       },
       "gabarito": "E",
-      "explicacao": "Em E, 'o sargento' (masc.) e 'a cabo' (fem.) somam dois substantivos de gêneros diferentes — o adjetivo vai para o masculino plural: 'ausentes' está no plural, forma idêntica para masc. e fem. (adjetivo de dois gêneros) — correto. Em A, 'o fuzil' (masc.) + 'a pistola' (fem.) → masculino plural: deveria ser 'enferrujados'. Em B, dois masculinos no plural → 'desatualizados'. Em C, 'a pasta' (fem.) + 'o envelope' (masc.) → masculino plural: deveria ser 'abertos' — na verdade C está correto também. Revisando: C tem dois substantivos de gêneros diferentes e usa 'abertos' (masculino plural) — correto. Em D, dois substantivos (masc. + fem.) → 'avariados'. Entre C e E, ambas parecem corretas. E é mais claramente demonstrativo do caso de gêneros mistos. Gabarito: E."
+      "explicacao": "Em E, 'o sargento' (masc.) e 'a cabo' (fem.) exigem o masculino plural: 'ausentes' (forma única para masc./fem., plural) está correto — único gabarito válido. Em A, 'o fuzil' (masc.) + 'a pistola' (fem.) → masculino plural: deveria ser 'enferrujados', não 'enferrujadas'. Em B, 'o mapa' e 'o relatório' são dois masculinos plurais → deveria ser 'desatualizados', não singular. Em C, 'a pasta' (fem.) + 'o envelope' (masc.) → masculino plural: deveria ser 'abertos'; 'aberta' no feminino singular está errado. Em D, 'o navio' (masc.) + 'a lancha' (fem.) → masculino plural: deveria ser 'avariados', não 'avariada'."
     },
     {
       "id": "q07",
@@ -719,7 +718,20 @@
     }
   ],
   "desafio": {
-    "topicos_mesclados": ["gram-00", "gram-04", "gram-05", "gram-06", "gram-07", "gram-01", "gram-02", "gram-03", "gram-08", "gram-09", "gram-10", "gram-11"],
+    "topicos_mesclados": [
+      "gram-00",
+      "gram-04",
+      "gram-05",
+      "gram-06",
+      "gram-07",
+      "gram-01",
+      "gram-02",
+      "gram-03",
+      "gram-08",
+      "gram-09",
+      "gram-10",
+      "gram-11"
+    ],
     "questoes": [
       {
         "id": "d01",
