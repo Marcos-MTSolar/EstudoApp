@@ -3,7 +3,6 @@
   "titulo": "Acentuação Gráfica",
   "area": "Gramática",
   "resumo": "Acentuação gráfica é o conjunto de regras que determina quando e como colocar acento escrito sobre as vogais do português. Dominar esse tema é indispensável para a prova RM2, pois a CEBRASPE cobra tanto o reconhecimento de palavras corretamente acentuadas quanto a justificativa da regra aplicada. Neste tópico você aprenderá a classificar palavras por posição da sílaba tônica, identificar os casos que exigem acento obrigatório e os que perderam o acento com o Acordo Ortográfico de 1990 (em vigor desde 2016). Ao final, você será capaz de resolver qualquer questão de acentuação com segurança e sem decorar listas enormes.",
-
   "teoria": {
     "blocos": [
       {
@@ -212,7 +211,6 @@
       }
     ]
   },
-
   "pegadinhas": [
     {
       "titulo": "Acentuar 'ideia' e 'assembleia'",
@@ -250,7 +248,6 @@
       "nivel": "avancado"
     }
   ],
-
   "cascas_de_banana": [
     {
       "situacao": "Aplicar a regra do hiato sem verificar se há NH após o I ou U",
@@ -268,7 +265,6 @@
       "nivel": "avancado"
     }
   ],
-
   "questoes": [
     {
       "id": "q01",
@@ -625,8 +621,8 @@
         "D": "saiu: hiato com I tônico; à: crase; pôde: diferencial; ideia: sem acento; médico: proparoxítona; nível: paroxítona em L",
         "E": "saiu: hiato com U tônico; à: crase; pôde: diferencial; ideia: sem acento; médico: proparoxítona; nível: paroxítona em L"
       },
-      "gabarito": "E",
-      "explicacao": "A alternativa E está correta em todas as análises. 'Saiu': o U está em hiato tônico (sa-Í-U? não: sa-IU — na verdade, em 'saiu', o acento tônico está em I, mas a vogal alta U forma ditongo crescente; a palavra é oxítona paroxítona dependendo da leitura, mas a questão avalia 'saiu' como hiato, com I sendo tônico). 'À': a forma 'à' é resultado de crase (artigo 'a' + preposição 'a'). 'Pôde': acento diferencial de tempo verbal. 'Ideia': sem acento pelo Acordo de 2016 (EI paroxítono). 'Médico': proparoxítona. 'Nível': paroxítona em L. Na alternativa D, a análise de 'saiu' como hiato com I tônico é mais precisa — distinguindo-a de E onde se afirma U tônico; em 'saiu', o I é a vogal tônica, formando hiato com o U seguinte, portanto D seria tecnicamente mais precisa nesse ponto. Ambas D e E diferem apenas neste detalhe, e E está incorreta nesse ponto específico, tornando D a mais correta. Contudo, como a questão foca em múltiplos acertos, D é o gabarito correto por esta precisão."
+      "gabarito": "D",
+      "explicacao": "A alternativa D está correta em todas as análises. 'Saiu': a tônica recai sobre o I (sa-Í-u) — hiato com I tônico, não U tônico. 'À': resultado de crase (preposição 'a' + artigo 'a'). 'Pôde': acento diferencial que distingue 'pôde' (pretérito perfeito) de 'pode' (presente do indicativo). 'Ideia': sem acento — o Acordo Ortográfico em vigor desde 2016 aboliu o acento em ditongos abertos EI de paroxítonas. 'Médico': proparoxítona (tônica em mé-, antepenúltima). 'Nível': paroxítona terminada em L (recebe acento). A alternativa E erra ao dizer 'hiato com U tônico' em 'saiu' — o U é átono; a tônica é o I."
     },
     {
       "id": "q26",
@@ -701,7 +697,6 @@
       "explicacao": "A afirmação do candidato é verdadeira do ponto de vista prático, embora tecnicamente imprecisa. O Acordo de 2016 não suprimiu TODOS os acentos — manteve os de proparoxítonas, paroxítonas com terminações incomuns, hiatos com I/U tônico e o diferencial de pôde/pôr. Mas as principais mudanças visíveis foram de supressão: fim do acento em EI/OI paroxítonos (ideia, heroico), fim do trema (frequente, linguiça) e extinção de alguns acentos diferenciais. Por isso, do ponto de vista prático, a afirmação captura a essência das mudanças. A alternativa A é falsa (não suprimiu todos). A alternativa B é falsa (não introduziu novos acentos, retirou). As alternativas D e E descrevem mudanças que não ocorreram."
     }
   ],
-
   "simulado": [
     {
       "id": "s01",
@@ -779,9 +774,16 @@
       "explicacao": "A alternativa D apresenta análise incorreta de 'ideia'. A justificativa está completamente equivocada: 'ideia' não tem nada a ver com trema. A razão pela qual 'ideia' não é acentuada é outra: o Acordo de 2016 aboliu o acento em ditongos abertos EI de paroxítonas (antes grafada 'idéia'). O trema que foi abolido dizia respeito a palavras com QUE/QUI/GUE/GUI (como 'frequente', 'linguiça'). A confusão entre as duas regras do Acordo de 2016 é exatamente o tipo de erro que a CEBRASPE explora. As demais análises estão corretas."
     }
   ],
-
   "desafio": {
-    "topicos_mesclados": ["gram-00", "gram-04", "gram-05", "gram-06", "gram-07", "gram-01", "gram-02"],
+    "topicos_mesclados": [
+      "gram-00",
+      "gram-04",
+      "gram-05",
+      "gram-06",
+      "gram-07",
+      "gram-01",
+      "gram-02"
+    ],
     "questoes": [
       {
         "id": "d01",

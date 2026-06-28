@@ -707,7 +707,7 @@
         "E": "Na segunda frase, o particípio 'revistos' deveria ser 'revisados', pois com 'ser' usa-se o particípio regular."
       },
       "gabarito": "A",
-      "explicacao": "As três primeiras frases expressam semanticamente o mesmo conteúdo: a comissão revisou os procedimentos. A primeira está na voz ativa; a segunda, na voz passiva analítica ('foram revistos pelo comissão'); a terceira, na voz passiva sintética ('reviram-se os procedimentos', com 'se' apassivador e verbo no plural concordando com 'os procedimentos'). A quarta usa locução verbal 'ficou revisando' — verbo de aspecto + gerúndio, indicando ação progressiva e durativa no passado. A alternativa B erra ao chamar 'revistos' de particípio regular ('revistos' é o irregular de 'rever'). A alternativa C erra ao classificar o 'se' de 'reviram-se' como indeterminador — é apassivador, com verbo no plural."
+      "explicacao": "As três primeiras frases expressam semanticamente o mesmo conteúdo: a comissão revisou os procedimentos. A primeira está na voz ativa; a segunda, na voz passiva analítica ('foram revistos pela comissão'); a terceira, na voz passiva sintética ('reviram-se os procedimentos', com 'se' apassivador e verbo no plural concordando com 'os procedimentos'). A quarta usa locução verbal 'ficou revisando' — verbo de aspecto + gerúndio, indicando ação progressiva e durativa no passado. A alternativa B erra ao chamar 'revistos' de particípio regular ('revistos' é o irregular de 'rever'). A alternativa C erra ao classificar o 'se' de 'reviram-se' como indeterminador — é apassivador, com verbo no plural."
     },
     {
       "id": "s03",
@@ -756,7 +756,13 @@
     }
   ],
   "desafio": {
-    "topicos_mesclados": ["gram-00", "gram-04", "gram-05", "gram-06", "gram-07"],
+    "topicos_mesclados": [
+      "gram-00",
+      "gram-04",
+      "gram-05",
+      "gram-06",
+      "gram-07"
+    ],
     "questoes": [
       {
         "id": "d01",
@@ -980,14 +986,14 @@
         "textoBase": "Análise morfológica: as palavras 'deslealdade', 'reabastecer' e 'contragolpe' foram citadas em questão de concurso.",
         "enunciado": "Sobre os processos de formação dessas três palavras, assinale a alternativa correta.",
         "alternativas": {
-          "A": "Todas foram formadas por prefixação.",
+          "A": "Todas foram formadas por composição de duas palavras autônomas existentes.",
           "B": "'deslealdade' foi formada por derivação parassintética; 'reabastecer' por prefixação; 'contragolpe' por composição.",
           "C": "'deslealdade' foi formada por sufixação (des- é prefixo e -dade é sufixo, simultâneos); 'reabastecer' por prefixação; 'contragolpe' por prefixação.",
           "D": "'deslealdade' foi formada por prefixação (des- + lealdade); 'reabastecer' por prefixação (re- + abastecer); 'contragolpe' por prefixação (contra- + golpe).",
           "E": "'deslealdade' foi formada por composição; 'reabastecer' por derivação parassintética; 'contragolpe' por sufixação."
         },
         "gabarito": "D",
-        "explicacao": "'Deslealdade': des- (prefixo de negação) + lealdade (base que existe como palavra autônoma) = derivação prefixal. 'Reabastecer': re- (prefixo de repetição) + abastecer (base que existe como palavra autônoma) = derivação prefixal. 'Contragolpe': contra- (prefixo) + golpe (base que existe como palavra autônoma) = derivação prefixal. As três palavras foram formadas pelo mesmo processo: derivação prefixal. A alternativa A está, portanto, também correta, mas a D é mais precisa por identificar cada prefixo. A alternativa B erra ao chamar 'contragolpe' de composição e 'deslealdade' de parassintética — não há adição simultânea de prefixo e sufixo em 'deslealdade', pois 'lealdade' já existia."
+        "explicacao": "'Deslealdade': des- (prefixo de negação) + lealdade (base que existe como palavra autônoma) = derivação prefixal. 'Reabastecer': re- (prefixo de repetição) + abastecer (base que existe como palavra autônoma) = derivação prefixal. 'Contragolpe': contra- (prefixo) + golpe (base que existe como palavra autônoma) = derivação prefixal. As três palavras foram formadas pelo mesmo processo: derivação prefixal. A alternativa A está errada: as três palavras foram formadas por derivação prefixal, não por composição. Composição exige a junção de dois radicais ou palavras autônomas sem prefixo funcional — o que não ocorre aqui. A alternativa B erra ao chamar 'contragolpe' de composição e 'deslealdade' de parassintética — não há adição simultânea de prefixo e sufixo em 'deslealdade', pois 'lealdade' já existia."
       }
     ]
   }
