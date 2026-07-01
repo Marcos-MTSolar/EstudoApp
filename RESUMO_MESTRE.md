@@ -1793,3 +1793,19 @@ pm run build\). Exit Code 0 retornado, confirmando que as inserções não gerar
   - `src/data/conteudo/*.json` (24 arquivos) **[MODIFICADO]**
   - `src/components/rm2/RM2Teoria.tsx` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+### Parte 83 — Correções nos arquivos comp-11.json, comp-13.json e comp-14.json
+- **Data e hora:** 01/07/2026 às 20:37 (Horário Local)
+- **O que foi feito:**
+  - comp-11.json: Corrigido erro de referência de letra na explicação da questão q03.
+  - comp-13.json: Convertidas questões de Certo/Errado para formato de 5 alternativas (q01, q03, q04, q07, d01). Corrigido erro factual na q22 (Mestre Sun substituído por Sun Tzu). Redistribuição de gabaritos aplicada para equilíbrio.
+  - comp-14.json: Redistribuição de gabaritos em questões intermediárias, avançadas e de simulado. Campo 	opicos_mesclados atualizado para conter 29 tópicos.
+  - Executados os comandos de compilação (
+px tsc --noEmit e 
+pm run build) com sucesso (Exit code: 0).
+- **Arquivos modificados:**
+  - src/data/conteudo/comp-11.json **[MODIFICADO]**
+  - src/data/conteudo/comp-13.json **[MODIFICADO]**
+  - src/data/conteudo/comp-14.json **[MODIFICADO]**
+  - RESUMO_MESTRE.md **[ATUALIZADO]**
+
