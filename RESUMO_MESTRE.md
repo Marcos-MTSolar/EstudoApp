@@ -1782,3 +1782,14 @@ pm run build\). Exit Code 0 retornado, confirmando que as inserções não gerar
 - **Arquivos modificados:**
   - `src/data/conteudo/comp-14.json` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+### Parte 82 — Implementação da Seção de Vídeos no RM2Teoria
+- **Data e hora:** 01/07/2026 às 20:25 (Horário Local)
+- **O que foi feito:**
+  - Inserção de um campo `videos` no final de 24 arquivos de conteúdo JSON (gram-00 até gram-14, e os devidos arquivos comp).
+  - Atualização do componente `src/components/rm2/RM2Teoria.tsx` para renderizar a nova seção de vídeos logo após a seção "Cascas de Banana".
+  - Compilação validada com sucesso usando `npx tsc --noEmit` e `npm run build`.
+- **Arquivos modificados:**
+  - `src/data/conteudo/*.json` (24 arquivos) **[MODIFICADO]**
+  - `src/components/rm2/RM2Teoria.tsx` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**

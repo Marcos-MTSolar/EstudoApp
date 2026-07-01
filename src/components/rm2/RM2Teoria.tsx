@@ -540,6 +540,77 @@ export function RM2Teoria({ assunto, onVoltar, onIrParaQuestoes }: RM2TeoriaProp
               </>
             )}
 
+            {teoriaData.videos && teoriaData.videos.length > 0 && (
+              <div style={{
+                marginTop: '2rem',
+                padding: '1.5rem',
+                background: 'var(--bg-secondary)',
+                borderRadius: '12px',
+                border: '1px solid var(--border)'
+              }}>
+                <h3 style={{
+                  fontSize: '1rem',
+                  fontWeight: 700,
+                  color: 'var(--text-primary)',
+                  marginBottom: '1rem',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.5rem'
+                }}>
+                  📺 Vídeos Recomendados
+                  <span style={{
+                    fontSize: '0.75rem',
+                    fontWeight: 400,
+                    color: 'var(--text-secondary)'
+                  }}>
+                    — Português com Letícia
+                  </span>
+                </h3>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                  {teoriaData.videos.map((video: { titulo: string; canal: string; url: string }, idx: number) => (
+                    <a
+                      key={idx}
+                      href={video.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.75rem',
+                        padding: '0.875rem 1rem',
+                        background: 'var(--bg-primary)',
+                        borderRadius: '8px',
+                        border: '1px solid var(--border)',
+                        textDecoration: 'none',
+                        transition: 'border-color 0.2s, transform 0.1s'
+                      }}
+                      onMouseEnter={e => {
+                        (e.currentTarget as HTMLAnchorElement).style.borderColor = '#ff0000';
+                        (e.currentTarget as HTMLAnchorElement).style.transform = 'translateX(4px)';
+                      }}
+                      onMouseLeave={e => {
+                        (e.currentTarget as HTMLAnchorElement).style.borderColor = 'var(--border)';
+                        (e.currentTarget as HTMLAnchorElement).style.transform = 'translateX(0)';
+                      }}
+                    >
+                      <span style={{
+                        fontSize: '1.25rem',
+                        flexShrink: 0
+                      }}>▶️</span>
+                      <span style={{
+                        fontSize: '0.9rem',
+                        fontWeight: 500,
+                        color: 'var(--text-primary)',
+                        lineHeight: 1.4
+                      }}>
+                        {video.titulo}
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
             <hr className="border-border/60" />
 
             {/* ── AÇÕES FINAIS ─────────────────────────────── */}
