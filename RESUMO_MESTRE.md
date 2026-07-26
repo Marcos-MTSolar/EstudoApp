@@ -1858,3 +1858,17 @@ pm run build) com sucesso (Exit code: 0).
   - `src/components/EstudoRM2.tsx` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
+---
+
+### Parte 87 — Correção de instruções e cronômetro do simulado_real (exibia parâmetros do modo rápido)
+- **Data e hora:** 26/07/2026 às 08:26 (Horário Local)
+- **O que foi feito:**
+  - Em `RM2Simulacao.tsx`, declarada a constante `eProvaLonga = modo === 'completo' || modo === 'simulado_real'` para unificar a detecção de exames extensos.
+  - Substituída a validação binária de tempo e instruções em `RM2Simulacao.tsx` por `eProvaLonga`, corrigindo o cronômetro para 3 horas (180 minutos) e o layout de preparação para mostrar 40 questões quando no modo `simulado_real`.
+  - Ajustado o título da tela de preparação para distinguir o modo `simulado_real` exibindo "Simulado Oficial" (enquanto o `completo` exibe "Simulado Completo").
+  - Ajustada a descrição de instruções da prova longa para ser neutra: "Bateria completa de 40 questões de múltipla escolha, no padrão da banca CEBRASPE/CESPE."
+  - Executados `npx tsc --noEmit` e `npm run build` com sucesso (Exit code: 0).
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Simulacao.tsx` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+

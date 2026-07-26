@@ -16,6 +16,8 @@ export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2Sim
   const { user } = useAuth();
   const uid = user?.uid ?? 'local';
 
+  const eProvaLonga = modo === 'completo' || modo === 'simulado_real';
+
   // Controle de estados
   const [started, setStarted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -23,14 +25,14 @@ export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2Sim
   
   const [questoes, setQuestoes] = useState<any[]>([]);
   const [respostas, setRespostas] = useState<Record<number, string>>({}); // { questaoId: 'A' }
-  const [secondsLeft, setSecondsLeft] = useState(modo === "completo" ? 180 * 60 : 45 * 60);
+  const [secondsLeft, setSecondsLeft] = useState(eProvaLonga ? 180 * 60 : 45 * 60);
   const [showResult, setShowResult] = useState(false);
   const [resultadoFinal, setResultadoFinal] = useState<any>(null);
   const [textos, setTextos] = useState<any[]>([]);
   const [simuladoMeta, setSimuladoMeta] = useState<any>(null);
 
   const timerRef = useRef<NodeJS.Timeout | null>(null);
-  const initialSeconds = modo === "completo" ? 180 * 60 : 45 * 60;
+  const initialSeconds = eProvaLonga ? 180 * 60 : 45 * 60;
 
   // Cleanup do timer
   useEffect(() => {
@@ -219,7 +221,7 @@ export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2Sim
             </div>
             <div>
               <h2 className="text-xl font-heading font-black text-white">
-                Simulado {modo === "completo" ? "Completo" : "Rápido"}
+                Simulado {modo === "simulado_real" ? "Oficial" : modo === "completo" ? "Completo" : "Rápido"}
               </h2>
               <p className="text-xs text-gray-400">
                 {simuladoMeta ? `${simuladoMeta.banca} • ${simuladoMeta.data}` : 'Marinha do Brasil • RM2 Oficiais'}
@@ -230,11 +232,10 @@ export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2Sim
           <div className="bg-black/20 p-5 rounded-2xl border border-border/60 space-y-3 text-xs text-gray-300 leading-relaxed">
             <h4 className="font-bold text-white uppercase tracking-wider text-[10px]">Instruções da Prova</h4>
             <ul className="space-y-2 list-disc list-inside">
-              {modo === "completo" ? (
+              {eProvaLonga ? (
                 <>
-                  <li>Bateria completa de <strong className="text-white">40 questões</strong> de múltipla escolha.</li>
+                  <li>Bateria completa de <strong className="text-white">40 questões</strong> de múltipla escolha, no padrão da banca CEBRASPE/CESPE.</li>
                   <li>Duração regulamentar máxima de <strong className="text-white">3 horas (180 minutos)</strong>.</li>
-                  <li>Cobre a totalidade dos assuntos previstos no edital.</li>
                 </>
               ) : (
                 <>
