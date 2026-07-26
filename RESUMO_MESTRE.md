@@ -1809,3 +1809,36 @@ pm run build) com sucesso (Exit code: 0).
   - src/data/conteudo/comp-14.json **[MODIFICADO]**
   - RESUMO_MESTRE.md **[ATUALIZADO]**
 
+
+---
+
+### Parte 84 — Liberação de simulados às 08h de Brasília (fuso-safe)
+- **Data/hora:** 2026-07-26T08:00 BRT (2026-07-26T11:00 UTC)
+- **O que foi feito:**
+  - Criada a função utilitária `horarioLiberacaoBrasilia(dataISO, hora)` que converte o horário de Brasília (BRT = UTC-3 fixo, sem horário de verão) para UTC usando `Date.UTC`, eliminando qualquer dependência do fuso local do navegador.
+  - Criada a função `simuladoLiberado(dataISO, hora)` que retorna `true` quando o timestamp atual já ultrapassou o horário de liberação calculado em UTC.
+  - Em `EstudoRM2.tsx`, substituída a lógica `new Date(sim.data + 'T12:00:00')` pela função `simuladoLiberado()`. Adicionada variável auxiliar `ehHojeBrasilia` para exibir badge 'Hoje às 8h' quando o simulado é do dia atual mas ainda não foi liberado.
+  - Em `RM2Cronograma.tsx`, substituída a lógica `new Date(sim.data + 'T12:00:00')` pelas funções `simuladoLiberado()` e `horarioLiberacaoBrasilia()`. O cálculo de 'proximo' (14 dias) agora usa `Date.now()` para consistência.
+  - Validados `npx tsc --noEmit` e `npm run build` com sucesso (Exit code: 0, built in 12.80s).
+- **Arquivos modificados:**
+  - `src/lib/dataUtils.ts` **[NOVO]**
+  - `src/components/EstudoRM2.tsx` **[MODIFICADO]**
+  - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+
+---
+
+### Parte 85 — Extração de hojeBrasiliaISO para eliminar duplicação de lógica de fuso
+- **Data/hora:** 2026-07-26T08:04 BRT (2026-07-26T11:04 UTC)
+- **O que foi feito:**
+  - Adicionada a função `hojeBrasiliaISO(): string` em `src/lib/dataUtils.ts`. Ela retorna a data de hoje no horário de Brasília (BRT = UTC-3 fixo) no formato ''YYYY-MM-DD'', centralizando em um único lugar toda a lógica de offset de fuso horário.
+  - Em `EstudoRM2.tsx`, a IIFE local que calculava manualmente `Date.now() - 3 * 60 * 60 * 1000` para obter a data de hoje em BRT foi substituída pela chamada `sim.data === hojeBrasiliaISO()`. O import do módulo `dataUtils` foi atualizado para incluir `hojeBrasiliaISO`.
+  - Confirmado via `grep` que nenhum outro arquivo em `src/` contém cálculo manual de offset BRT (`3 * 60 * 60 * 1000`). A única ocorrência é a própria implementação canônica dentro de `dataUtils.ts`.
+  - Nenhum comportamento de negócio foi alterado: datas, horários de liberação, textos de badge e lógica de `disponivel`/`passado` permanecem idênticos.
+  - Validados `npx tsc --noEmit` (zero erros) e `npm run build` com sucesso (Exit code: 0, built in 12.26s).
+- **Arquivos modificados:**
+  - `src/lib/dataUtils.ts` **[MODIFICADO]** — função `hojeBrasiliaISO` adicionada
+  - `src/components/EstudoRM2.tsx` **[MODIFICADO]** — IIFE removida, import atualizado
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+

@@ -6,6 +6,7 @@ import {
 import { RM2_CONTEUDO } from '../../data/rm2Conteudo';
 import { useRM2Data } from '../../lib/useRM2Data';
 import { useAuth } from '../../lib/AuthContext';
+import { horarioLiberacaoBrasilia, simuladoLiberado } from '../../lib/dataUtils';
 
 // Interfaces
 interface DiaSemana {
@@ -621,10 +622,10 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
                 </h3>
                 <div className="space-y-2">
                   {SIMULADOS_AGENDADOS.map((sim) => {
-                    const dataSim = new Date(sim.data + 'T12:00:00');
-                    const hoje = new Date();
-                    const feito = dataSim < hoje;
-                    const proximo = !feito && (dataSim.getTime() - hoje.getTime()) < 14 * 24 * 60 * 60 * 1000;
+                    // Verifica liberação usando horário de Brasília (UTC-3 fixo, sem horário de verão)
+                    const feito = simuladoLiberado(sim.data);
+                    const dataSim = horarioLiberacaoBrasilia(sim.data); // para cálculo de "proximo"
+                    const proximo = !feito && (dataSim.getTime() - Date.now()) < 14 * 24 * 60 * 60 * 1000;
                     return (
                       <div key={sim.id} className={`flex items-center justify-between p-3 rounded-xl border text-xs ${
                         feito ? 'border-emerald-500/20 bg-emerald-500/5' :
