@@ -346,12 +346,18 @@ export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2Sim
                   </div>
 
                   {q.textoBase && (
-                    <div className="p-4 bg-black/20 border border-border/60 rounded-2xl text-xs text-gray-300 leading-relaxed font-serif whitespace-pre-wrap">
+                    <div className="p-4 bg-black/20 border border-border/60 rounded-2xl text-sm text-gray-300 leading-relaxed font-serif whitespace-pre-wrap">
                       {q.textoBase}
                     </div>
                   )}
 
-                  <p className="text-gray-100 text-sm md:text-base leading-relaxed font-semibold">
+                  {q.trecho_ref && (
+                    <div className="p-4 bg-blue-500/5 border-l-4 border-blue-500 rounded-r-xl text-sm text-gray-300 leading-relaxed italic font-serif">
+                      "{q.trecho_ref}"
+                    </div>
+                  )}
+
+                  <p className="text-gray-100 text-base md:text-lg leading-relaxed font-semibold whitespace-pre-wrap">
                     {q.enunciado}
                   </p>
                 </div>
@@ -365,7 +371,7 @@ export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2Sim
                       <button
                         key={letra}
                         onClick={() => selecionarResposta(q.id, letra)}
-                        className={`w-full text-left p-4 rounded-2xl border transition-all text-xs md:text-sm flex gap-4 items-start ${
+                        className={`w-full text-left p-4 rounded-2xl border transition-all text-sm md:text-base flex gap-4 items-start ${
                           isSelected 
                             ? 'bg-blue-600/15 border-blue-500 text-blue-400 font-bold' 
                             : 'border-border hover:bg-white/5 text-gray-300'
@@ -486,7 +492,7 @@ export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2Sim
                     </div>
                   </div>
 
-                  <div className="p-4 bg-black/30 border border-border/60 rounded-xl space-y-1.5 text-xs text-gray-300 leading-relaxed">
+                  <div className="p-4 bg-black/30 border border-border/60 rounded-xl space-y-1.5 text-sm text-gray-300 leading-relaxed">
                     <span className="text-[9px] uppercase font-black text-blue-400 tracking-wider">Comentário Didático</span>
                     <p>{det.explicacao}</p>
                   </div>

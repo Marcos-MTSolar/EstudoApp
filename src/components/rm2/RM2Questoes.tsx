@@ -205,11 +205,11 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
                 <div className="p-6 md:p-8 bg-black/15 space-y-4">
                   <span className="text-xs font-black uppercase tracking-wider text-blue-400">Questão {idx + 1}</span>
                   {q.textoBase && (
-                    <div className="p-4 bg-black/20 border border-border/60 rounded-2xl text-xs text-gray-300 leading-relaxed font-serif whitespace-pre-wrap">
+                    <div className="p-4 bg-black/20 border border-border/60 rounded-2xl text-sm text-gray-300 leading-relaxed font-serif whitespace-pre-wrap">
                       {q.textoBase}
                     </div>
                   )}
-                  <p className="text-gray-100 text-sm md:text-base leading-relaxed font-semibold">
+                  <p className="text-gray-100 text-base md:text-lg leading-relaxed font-semibold whitespace-pre-wrap">
                     {q.enunciado}
                   </p>
                 </div>
@@ -229,7 +229,7 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
                     return (
                       <div
                         key={letra}
-                        className={`w-full text-left p-4 rounded-2xl border transition-all text-xs md:text-sm flex gap-4 items-start ${optClass}`}
+                        className={`w-full text-left p-4 rounded-2xl border transition-all text-sm md:text-base flex gap-4 items-start ${optClass}`}
                       >
                         <span className={`font-bold flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center border text-xs ${
                           isCorrectAnswer ? 'bg-emerald-500 text-white border-emerald-500' : 'bg-black/25 border-white/10 text-gray-400'
@@ -259,7 +259,7 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
                   </div>
                   <div className="bg-black/30 border border-border p-4 rounded-xl space-y-1.5">
                     <span className="text-[10px] uppercase font-black text-blue-400 tracking-wider">Explicação Pedagógica</span>
-                    <p className="text-xs text-gray-300 leading-relaxed">{q.explicacao}</p>
+                    <p className="text-sm text-gray-300 leading-relaxed">{q.explicacao}</p>
                   </div>
                 </div>
               </div>
@@ -389,11 +389,11 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
         {/* Enunciado */}
         <div className="p-6 md:p-8 bg-black/15 space-y-4">
           {qAtual.textoBase && (
-            <div className="p-4 bg-black/20 border border-border/60 rounded-2xl text-xs text-gray-300 leading-relaxed font-serif whitespace-pre-wrap">
+            <div className="p-4 bg-black/20 border border-border/60 rounded-2xl text-sm text-gray-300 leading-relaxed font-serif whitespace-pre-wrap">
               {qAtual.textoBase}
             </div>
           )}
-          <p className="text-gray-100 text-sm md:text-base leading-relaxed font-semibold">
+          <p className="text-gray-100 text-base md:text-lg leading-relaxed font-semibold whitespace-pre-wrap">
             {qAtual.enunciado}
           </p>
         </div>
@@ -420,7 +420,7 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
                 key={letra}
                 onClick={() => handleSelectAnswer(letra)}
                 disabled={responds}
-                className={`w-full text-left p-4 rounded-2xl border transition-all text-xs md:text-sm flex gap-4 items-start ${optClass}`}
+                className={`w-full text-left p-4 rounded-2xl border transition-all text-sm md:text-base flex gap-4 items-start ${optClass}`}
               >
                 <span className={`font-bold flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center border text-xs ${
                   responds && isCorrect ? 'bg-emerald-500 text-white border-emerald-500' : 'bg-black/25 border-white/10 text-gray-400'
@@ -453,7 +453,7 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
 
             <div className="bg-black/30 border border-border p-4 rounded-xl space-y-1.5">
               <span className="text-[10px] uppercase font-black text-blue-400 tracking-wider">Explicação Pedagógica</span>
-              <p className="text-xs text-gray-300 leading-relaxed">{qAtual.explicacao}</p>
+              <p className="text-sm text-gray-300 leading-relaxed">{qAtual.explicacao}</p>
             </div>
 
             <div className="flex justify-end pt-2">

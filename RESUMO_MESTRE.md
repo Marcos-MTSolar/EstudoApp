@@ -1872,3 +1872,21 @@ pm run build) com sucesso (Exit code: 0).
   - `src/components/rm2/RM2Simulacao.tsx` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
+---
+
+### Parte 88 — Renderização de trecho destacado, aumento de fonte e correção da questão q27 incompleta
+- **Data e hora:** 26/07/2026 às 10:00 (Horário Local)
+- **O que foi feito:**
+  - **Problema 1 (Renderizar trecho destacado):** Adicionado suporte para renderizar o campo `trecho_ref` de forma destacada em `RM2Simulacao.tsx` usando um bloco estilizado em azul-500 (`bg-blue-500/5` com borda lateral esquerda de 4px) posicionado acima do enunciado. Confirmado que os arquivos de conteúdo de tópicos (`gram-*`, `comp-*`) não usam o campo `trecho_ref` (portanto, sem necessidade de alteração em `RM2Questoes.tsx`).
+  - **Problema 2 (Aumentar fontes):** Elevado o tamanho das fontes dos enunciados (`text-base md:text-lg` e `whitespace-pre-wrap` para quebra de linhas), das alternativas (`text-sm md:text-base`), dos textos-base (`text-sm`) e das explicações (`text-sm`) nos componentes `RM2Simulacao.tsx` e `RM2Questoes.tsx`.
+  - **Problema 3 (Correção de questão incompleta):** Realizada varredura de escopo e confirmado que apenas a questão `q27` do `simulado-01.json` continha afirmativas de julgamento ausentes do enunciado. Inserido o texto reescrito de forma neutra das afirmativas I, II, III e IV diretamente no campo `enunciado` com quebras de linha (`\n`), preservando a explicação pedagógica e gabaritos originais.
+  - **Auditoria de Integridade (200 questões de simulados):** Efetuada varredura completa nos 5 simulados. Foram identificados e corrigidos 2 casos de `trecho_ref` ausentes que dependiam de destaque no enunciado: na questão `q15` do `simulado-02.json` e na questão `q02` do `simulado-03.json`. Ambos os trechos foram resgatados de forma literal dos respectivos textos-base originais.
+  - Executados `npx tsc --noEmit` e `npm run build` com sucesso irrestrito (Exit code: 0).
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Simulacao.tsx` **[MODIFICADO]**
+  - `src/components/rm2/RM2Questoes.tsx` **[MODIFICADO]**
+  - `src/data/simulados/simulado-01.json` **[MODIFICADO]**
+  - `src/data/simulados/simulado-02.json` **[MODIFICADO]**
+  - `src/data/simulados/simulado-03.json` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
