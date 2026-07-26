@@ -3,6 +3,7 @@ import { Loader2, ArrowLeft, Brain, BookOpen, CheckCircle2, XCircle, ChevronRigh
 import { useAuth } from '../../lib/AuthContext';
 import { useRM2Data } from '../../lib/useRM2Data';
 import { getConteudo } from '../../data/conteudoIndex';
+import { renderTextoComMarcacao } from '../../lib/formatters';
 import RM2Desafio from './RM2Desafio';
 
 interface Assunto {
@@ -427,7 +428,7 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
                 }`}>
                   {letra}
                 </span>
-                <span className="leading-relaxed flex-1">{texto}</span>
+                <span className="leading-relaxed flex-1">{renderTextoComMarcacao(String(texto))}</span>
               </button>
             );
           })}
@@ -453,7 +454,7 @@ export function RM2Questoes({ assunto, onVoltar, onFinalizou }: RM2QuestoesProps
 
             <div className="bg-black/30 border border-border p-4 rounded-xl space-y-1.5">
               <span className="text-[10px] uppercase font-black text-blue-400 tracking-wider">Explicação Pedagógica</span>
-              <p className="text-sm text-gray-300 leading-relaxed">{qAtual.explicacao}</p>
+              <p className="text-sm text-gray-300 leading-relaxed">{renderTextoComMarcacao(qAtual.explicacao)}</p>
             </div>
 
             <div className="flex justify-end pt-2">

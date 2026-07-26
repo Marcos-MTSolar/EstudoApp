@@ -4,6 +4,7 @@ import { RM2_CONTEUDO } from '../../data/rm2Conteudo';
 import { getConteudo, getIdsDisponiveis } from '../../data/conteudoIndex';
 import { getSimuladosDisponiveis, getSimulado, getMetadadosSimulados } from '../../data/simuladosIndex';
 import { useAuth } from '../../lib/AuthContext';
+import { renderTextoComMarcacao } from '../../lib/formatters';
 
 interface RM2SimulacaoProps {
   modo: "rapido" | "completo" | "simulado_real";
@@ -353,7 +354,7 @@ export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2Sim
 
                   {q.trecho_ref && (
                     <div className="p-4 bg-blue-500/5 border-l-4 border-blue-500 rounded-r-xl text-sm text-gray-300 leading-relaxed italic font-serif">
-                      "{q.trecho_ref}"
+                      &ldquo;{renderTextoComMarcacao(q.trecho_ref)}&rdquo;
                     </div>
                   )}
 
@@ -382,7 +383,7 @@ export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2Sim
                         }`}>
                           {letra}
                         </span>
-                        <span className="leading-relaxed flex-1">{texto}</span>
+                        <span className="leading-relaxed flex-1">{renderTextoComMarcacao(String(texto))}</span>
                       </button>
                     );
                   })}
