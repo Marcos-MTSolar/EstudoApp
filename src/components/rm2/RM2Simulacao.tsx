@@ -169,6 +169,7 @@ export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2Sim
       historico.push({
         id: `sim_${modo}_${Date.now()}`,
         modo,
+        simuladoId: modo === 'simulado_real' ? (simuladoId || null) : null,
         data: new Date().toISOString(),
         totalAcertos,
         totalQuestoes,

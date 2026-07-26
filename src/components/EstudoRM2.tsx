@@ -15,6 +15,7 @@ import { RM2Saude } from './rm2/RM2Saude';
 import { RM2_CONTEUDO } from '../data/rm2Conteudo';
 import { getMetadadosSimulados } from '../data/simuladosIndex';
 import { simuladoLiberado, hojeBrasiliaISO } from '../lib/dataUtils';
+import { useAuth } from '../lib/AuthContext';
 
 type RM2Tab = 'dashboard' | 'teoria' | 'questoes' | 'simulado' | 'progresso' | 'configuracoes' | 'cronograma' | 'saude';
 
@@ -36,6 +37,8 @@ const RM2_TABS: RM2TabDef[] = [
 ];
 
 export function EstudoRM2() {
+  const { user } = useAuth();
+  const uid = user?.uid ?? 'local';
   const [activeTab, setActiveTab] = useState<RM2Tab>('dashboard');
   
   // Estados de navegação compartilhados para as sub-telas
@@ -177,6 +180,26 @@ export function EstudoRM2() {
                 <h3 className="text-[10px] uppercase font-black tracking-wider text-gray-500">Simulados Agendados</h3>
                 <div className="space-y-2">
                   {metadadosSimulados.map((sim) => {
+                    // Busca histórico do localStorage
+                    const historico = (() => {
+                      try {
+                        return JSON.parse(localStorage.getItem(`rm2_simulados_historico_${uid}`) || '[]');
+                      } catch {
+                        return [];
+                      }
+                    })();
+
+                    // Filtra o resultado mais recente para este simulado
+                    const resultadosSimulado = historico.filter(
+                      (item: any) => item.simuladoId === sim.id && item.modo === 'simulado_real'
+                    );
+                    
+                    const resultadoMaisRecente = resultadosSimulado.length > 0
+                      ? resultadosSimulado.reduce((latest: any, current: any) => {
+                          return new Date(current.data) > new Date(latest.data) ? current : latest;
+                        }, resultadosSimulado[0])
+                      : null;
+
                     // Verifica liberação usando horário de Brasília (UTC-3 fixo, sem horário de verão)
                     const disponivel = simuladoLiberado(sim.data);
                     const passado = disponivel; // dias já liberados recebem rótulo "Disponível"
@@ -194,17 +217,26 @@ export function EstudoRM2() {
                         }`}
                       >
                         <div className="space-y-0.5">
-                          <p className="text-sm font-bold text-white">{sim.titulo}</p>
+                          <div className="flex items-center gap-2 flex-wrap">
+                            <p className="text-sm font-bold text-white">{sim.titulo}</p>
+                            {resultadoMaisRecente && (
+                              <span className="text-[10px] text-gray-400 font-medium">
+                                • {resultadoMaisRecente.totalAcertos}/{resultadoMaisRecente.totalQuestoes} ({resultadoMaisRecente.percentualAcerto}%)
+                              </span>
+                            )}
+                          </div>
                           <p className="text-[10px] text-gray-500">{sim.banca} • {sim.total_questoes} questões • 3h</p>
                         </div>
                         <span className={`text-[9px] font-black uppercase tracking-wider px-2 py-1 rounded-full border ${
-                          passado
+                          resultadoMaisRecente
                             ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20'
+                            : passado
+                            ? 'bg-blue-500/10 text-blue-400 border-blue-500/20'
                             : ehHojeBrasilia
                             ? 'bg-blue-500/10 text-blue-400 border-blue-500/20'
                             : 'bg-gray-500/10 text-gray-500 border-gray-500/20'
                         }`}>
-                          {passado ? 'Disponível' : ehHojeBrasilia ? 'Hoje às 8h' : 'Em breve'}
+                          {resultadoMaisRecente ? '✅ Concluído' : passado ? 'Disponível' : ehHojeBrasilia ? 'Hoje às 8h' : 'Em breve'}
                         </span>
                       </button>
                     );

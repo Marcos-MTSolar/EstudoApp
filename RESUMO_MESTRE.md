@@ -1842,3 +1842,19 @@ pm run build) com sucesso (Exit code: 0).
   - `src/components/EstudoRM2.tsx` **[MODIFICADO]** — IIFE removida, import atualizado
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
+---
+
+### Parte 86 — Persistência de simuladoId e exibição de resultado concluído no card de simulados agendados
+- **Data e hora:** 26/07/2026 às 08:18 (Horário Local)
+- **O que foi feito:**
+  - Em `RM2Simulacao.tsx`, adicionado o campo `simuladoId: modo === 'simulado_real' ? (simuladoId || null) : null` no objeto persistido no histórico de simulados do `localStorage` (`rm2_simulados_historico_${uid}`).
+  - Em `EstudoRM2.tsx`, importado o `useAuth` para identificar o `uid` ativo (ou `'local'`) para obter o histórico correto.
+  - Na listagem de `metadadosSimulados`, busca o resultado mais recente (por timestamp em `data`) para o simulado que tenha `modo === 'simulado_real'` e `simuladoId === sim.id`.
+  - Caso haja resultado, exibe o badge "✅ Concluído" (no estilo visual verde/emerald do projeto) e exibe o percentual e a quantidade de acertos de forma compacta ao lado do título: `• X/Y (Z%)`.
+  - Mantém o card clicável permitindo que o usuário refaça o simulado se desejar.
+  - Executados `npx tsc --noEmit` e `npm run build` com sucesso (Exit code: 0).
+- **Arquivos modificados:**
+  - `src/components/rm2/RM2Simulacao.tsx` **[MODIFICADO]**
+  - `src/components/EstudoRM2.tsx` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
