@@ -1898,3 +1898,21 @@ pm run build) com sucesso (Exit code: 0).
   - `src/data/simulados/simulado-04.json` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
+---
+
+### Parte 89 — Cronograma dinâmico RM2 a partir de 01/10/2026 com data de prova configurável
+- **Data e hora:** 2026-09-28T16:24:00 (Horário Local)
+- **O que foi feito:**
+  - **Passo 1 (Módulo de Configuração e Campo de Data na UI):** Criado `src/lib/cronogramaConfig.ts` contendo constantes do edital (`INICIO_ESTUDOS = '2026-10-01'`, `PROVA_DATA_PADRAO = '2027-03-14'`, etc.) e o custom React Hook `useDataProva()`. Adicionado campo de input `<input type="date">` na UI de `RM2Cronograma.tsx` com tratamento de validação (mínimo de 56 dias após 01/10/2026).
+  - **Passo 2 (Banner Dinâmico do Edital):** Atualizado o cabeçalho de `RM2Cronograma.tsx` com banner responsivo apresentando título, countdown dinâmico em relação à data da prova, avisos informativos sobre o edital PS RM2 05/2026 e alerta de cronograma comprimido quando aplicável.
+  - **Passo 3 (Gerador de Semanas e Fases Dinâmico):** Criado `src/lib/cronogramaGerador.ts` contendo `gerarCronogramaDinamico()` (lógica pura sem React). Implementada a Semana 1 parcial (01 a 04/10/2026, com 1 tópico `gram-00` e fim de semana livre de estudo novo), 5 Fases calculadas via Método do Maior Resto sobre `semanasUteis` (frações exatas: 45%, 22%, 14%, 10%, 9%), Semana da Prova isolada e controle de migração por versão de schema (`rm2_cronograma_versao_${uid}`).
+  - **Passo 4 (Reposicionamento Dinâmico dos 5 Simulados):** Implementada a função `calcularDatasSimulados()` em `cronogramaGerador.ts` que calcula dinamicamente as datas em domingos para os 5 simulados (fim da Fase 1, meio da Fase 3, início da Fase 4, meio/fim da Fase 4, e último domingo antes da Prova), com desambiguação para frente/trás para evitar colisões e garantir que nenhum simulado caia na Semana da Prova. Atualizada a função `getMetadadosSimulados(dataProva?)` em `simuladosIndex.ts` e conectada em `EstudoRM2.tsx` e `RM2Cronograma.tsx`.
+  - **Observação Importante:** `PROVA_DATA_PADRAO` (`14/03/2027`) é um valor PROVISÓRIO. O usuário deve confirmar a data real no Anexo I do Aviso de Convocação nº 05/2026 e inserir no campo de data da prova do cronograma.
+  - **Validação de Build:** Executados `npx tsc --noEmit` (Exit code: 0) e `npm run build` (Exit code: 0).
+- **Arquivos criados/modificados:**
+  - `src/lib/cronogramaConfig.ts` **[NOVO]**
+  - `src/lib/cronogramaGerador.ts` **[NOVO]**
+  - `src/components/EstudoRM2.tsx` **[MODIFICADO]**
+  - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
+  - `src/data/simuladosIndex.ts` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**

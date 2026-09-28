@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { 
   Compass, BookOpen, Brain, Award, BarChart2, 
   Settings, ChevronLeft, LayoutDashboard, ChevronRight,
@@ -16,6 +16,7 @@ import { RM2_CONTEUDO } from '../data/rm2Conteudo';
 import { getMetadadosSimulados } from '../data/simuladosIndex';
 import { simuladoLiberado, hojeBrasiliaISO } from '../lib/dataUtils';
 import { useAuth } from '../lib/AuthContext';
+import { useDataProva } from '../lib/cronogramaConfig';
 
 type RM2Tab = 'dashboard' | 'teoria' | 'questoes' | 'simulado' | 'progresso' | 'configuracoes' | 'cronograma' | 'saude';
 
@@ -39,6 +40,7 @@ const RM2_TABS: RM2TabDef[] = [
 export function EstudoRM2() {
   const { user } = useAuth();
   const uid = user?.uid ?? 'local';
+  const { dataProva } = useDataProva(uid);
   const [activeTab, setActiveTab] = useState<RM2Tab>('dashboard');
   
   // Estados de navegação compartilhados para as sub-telas
@@ -46,7 +48,7 @@ export function EstudoRM2() {
   const [selectedAssuntoQuestoes, setSelectedAssuntoQuestoes] = useState<any>(null);
   const [simuladoModo, setSimuladoModo] = useState<'rapido' | 'completo' | null>(null);
   const [simuladoSelecionado, setSimuladoSelecionado] = useState<string | null>(null);
-  const metadadosSimulados = getMetadadosSimulados();
+  const metadadosSimulados = useMemo(() => getMetadadosSimulados(dataProva), [dataProva]);
 
   const activeTabDef = RM2_TABS.find(t => t.id === activeTab);
 

@@ -1,4 +1,7 @@
 // Indexador de simulados — carregamento dinâmico por ID
+import { PROVA_DATA_PADRAO } from '../lib/cronogramaConfig';
+import { calcularDatasSimulados } from '../lib/cronogramaGerador';
+
 const simulados: Record<string, () => Promise<any>> = {
   'simulado-01': () => import('./simulados/simulado-01.json'),
   'simulado-02': () => import('./simulados/simulado-02.json'),
@@ -18,12 +21,27 @@ export function getSimuladosDisponiveis(): string[] {
   return Object.keys(simulados);
 }
 
-export function getMetadadosSimulados(): Array<{ id: string; titulo: string; data: string; banca: string; total_questoes: number }> {
-  return [
-    { id: 'simulado-01', titulo: 'Simulado 1 — 26/07/2026', data: '2026-07-26', banca: 'CEBRASPE/CESPE', total_questoes: 40 },
-    { id: 'simulado-02', titulo: 'Simulado 2 — 30/08/2026', data: '2026-08-30', banca: 'CEBRASPE/CESPE', total_questoes: 40 },
-    { id: 'simulado-03', titulo: 'Simulado 3 — 27/09/2026', data: '2026-09-27', banca: 'CEBRASPE/CESPE', total_questoes: 40 },
-    { id: 'simulado-04', titulo: 'Simulado 4 — 25/10/2026', data: '2026-10-25', banca: 'CEBRASPE/CESPE', total_questoes: 40 },
-    { id: 'simulado-05', titulo: 'Simulado 5 — 29/11/2026', data: '2026-11-29', banca: 'CEBRASPE/CESPE', total_questoes: 40 },
+export function getMetadadosSimulados(dataProva?: string): Array<{ id: string; titulo: string; data: string; banca: string; total_questoes: number }> {
+  const datas = calcularDatasSimulados(dataProva || PROVA_DATA_PADRAO);
+
+  const baseSimulados = [
+    { id: 'simulado-01', tituloBase: 'Simulado 1', banca: 'CEBRASPE/CESPE', total_questoes: 40 },
+    { id: 'simulado-02', tituloBase: 'Simulado 2', banca: 'CEBRASPE/CESPE', total_questoes: 40 },
+    { id: 'simulado-03', tituloBase: 'Simulado 3', banca: 'CEBRASPE/CESPE', total_questoes: 40 },
+    { id: 'simulado-04', tituloBase: 'Simulado 4', banca: 'CEBRASPE/CESPE', total_questoes: 40 },
+    { id: 'simulado-05', tituloBase: 'Simulado 5', banca: 'CEBRASPE/CESPE', total_questoes: 40 },
   ];
+
+  return baseSimulados.map((sim, idx) => {
+    const dataISO = datas[idx] || datas[datas.length - 1];
+    const [a, m, d] = dataISO.split('-');
+    const dataBR = `${d}/${m}/${a}`;
+    return {
+      id: sim.id,
+      titulo: `${sim.tituloBase} — ${dataBR}`,
+      data: dataISO,
+      banca: sim.banca,
+      total_questoes: sim.total_questoes,
+    };
+  });
 }
