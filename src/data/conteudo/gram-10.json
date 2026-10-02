@@ -169,9 +169,9 @@
     },
     {
       "titulo": "'Pois' antes ou depois do verbo",
-      "errado": "Vá logo, pois você pode se atrasar para a formatura.",
-      "correto": "Vá logo, pois você pode se atrasar para a formatura. (coordenativa explicativa — correto) / Você pode se atrasar para a formatura, pois vai logo. (sentido alterado)",
-      "explicacao": "A pegadinha aqui é entender a posição do 'pois'. Quando 'pois' vem imediatamente após a primeira oração, é explicativo e coordenativo — 'Vá logo, pois pode se atrasar' (correto, explicando a razão do pedido). Se o 'pois' estivesse introduzindo uma oração antes da principal, o sentido e a classificação mudariam. A banca cobra se o candidato sabe que 'pois' explicativo é coordenativo, não subordinativo.",
+      "errado": "Vá logo, pois você pode se atrasar para a formatura. (classificar 'pois' como subordinativo causal por engano)",
+      "correto": "Vá logo, pois você pode se atrasar para a formatura.",
+      "explicacao": "A pegadinha aqui é entender a posição do 'pois'. Quando 'pois' vem imediatamente após a primeira oração, é explicativo e coordenativo — 'Vá logo, pois pode se atrasar' explica a razão do pedido, e a oração introduzida por 'pois' tem sentido completo sozinha. Compare com uma reordenação como 'Você pode se atrasar para a formatura, pois vai logo': ao inverter a ordem das orações, o encadeamento lógico muda de 'ordem → justificativa' para 'consequência → suposta causa', o que soa artificial e evidencia que 'pois' explicativo não circula livremente como uma subordinada causal. Se o 'pois' estivesse introduzindo uma oração antes da principal, a leitura natural se perderia. A banca cobra se o candidato sabe que 'pois' explicativo é coordenativo, não subordinativo.",
       "nivel": "basico"
     },
     {
@@ -237,7 +237,7 @@
         "B": "'[Embora estivesse cansado], o oficial concluiu o relatório.'",
         "C": "'A base naval foi reformada, [mas o orçamento foi insuficiente].'",
         "D": "'[Quando o navio atracou], a tripulação desembarcou.'",
-        "E": "'É necessário [que todos assinem o documento].')"
+        "E": "'É necessário [que todos assinem o documento].'"
       },
       "gabarito": "C",
       "explicacao": "Em C, 'mas o orçamento foi insuficiente' é uma oração coordenada adversativa — ela tem sentido completo sozinha e se conecta à anterior pelo 'mas' sem depender dela sintaticamente. Em A, a oração com 'que' é subordinada substantiva objetiva direta (objeto direto de 'ordenou'). Em B, a oração com 'embora' é subordinada adverbial concessiva (depende da oração principal para ter sentido completo). Em D, a oração com 'quando' é subordinada adverbial temporal. Em E, a oração com 'que' é subordinada substantiva subjetiva."
@@ -633,7 +633,7 @@
         "A": "'de modo que' introduz oração coordenada aditiva; 'que a operação' é adjetiva restritiva.",
         "B": "O período é composto apenas por coordenação assindética entre as três orações.",
         "C": "'nem... nem' torna as orações subordinadas adverbiais concessivas.",
-        "D": "'de sorte que a base naval manteve sua reputação operacional intacta' é subordinada adverbial consecutiva; 'que a operação fosse concluída com êxito' é subordinada substantiva objetiva direta.",
+        "D": "'de modo que a base naval manteve sua reputação operacional intacta' é subordinada adverbial consecutiva; 'que a operação fosse concluída com êxito' é subordinada substantiva objetiva direta.",
         "E": "'que a operação fosse concluída com êxito' é subordinada adverbial final de 'impediram'."
       },
       "gabarito": "D",
@@ -835,7 +835,7 @@
           "E": "Não, pois 'pois' pós-verbal é coordenativo explicativo, enquanto 'porque' cria subordinação causal — embora o sentido de causalidade seja equivalente, a estrutura sintática difere."
         },
         "gabarito": "E",
-        "explicacao": "'Pois' em posição pós-verbal (após a oração principal) é conjunção coordenativa explicativa — a segunda oração tem sentido completo e independe sintaticamente da primeira. 'Porque' em posição causal é subordinativo — cria dependência sintática. O conteúdo de causalidade é semanticamente próximo em ambas as frases, mas a estrutura sintática difere: na primeira há coordenação (orações independentes); na segunda há subordinação (oração dependente da principal). Para fins de questões CEBRASPE sobre 'preservação de sentido com manutenção de correção', essa diferença estrutural pode ou não ser considerada relevante conforme o comando da questão."
+        "explicacao": "'Pois' em posição pós-verbal (após a oração principal) é conjunção coordenativa explicativa — a segunda oração tem sentido completo e independe sintaticamente da primeira. 'Porque' em posição causal é subordinativo — cria dependência sintática. O conteúdo de causalidade é semanticamente próximo em ambas as frases, mas a estrutura sintática difere: na primeira há coordenação (orações independentes); na segunda há subordinação (oração dependente da principal). Para a CEBRASPE, a distinção sintática entre coordenação e subordinação é sempre relevante, mesmo quando o valor semântico de causalidade é próximo — por isso a alternativa E é a única que reconhece a diferença estrutural sem igualar indevidamente as duas construções."
       },
       {
         "id": "d07",

@@ -234,12 +234,12 @@
       "alternativas": {
         "A": "A sargento disse: 'Obrigado pela ajuda, cabo.'",
         "B": "O recruta disse: 'Obrigada pela instrução, sargento.'",
-        "C": "A cabo disse: 'Obrigada pelo elogio, comandante.'",
-        "D": "Os oficiais disseram: 'Obrigado pela homenagem.' (sendo todos masculinos)",
-        "E": "A e D estão corretas."
+        "C": "As cabos disseram: 'Obrigada pelo elogio, comandante.'",
+        "D": "O oficial disse: 'Obrigado pela homenagem, comandante.'",
+        "E": "Os recrutas disseram: 'Obrigado pela dispensa, sargento.'"
       },
       "gabarito": "D",
-      "explicacao": "'Obrigado' é adjetivo que concorda com o gênero de quem agradece. Em A, 'a sargento' é feminina — o correto seria 'obrigada', não 'obrigado'. Em B, 'o recruta' é masculino — o correto seria 'obrigado', não 'obrigada'. Em C, 'a cabo' é feminina — 'obrigada' está correto. Em D, 'os oficiais' são masculinos — 'obrigado' está correto. Portanto, apenas C e D estão corretas. A alternativa E agrupa 'A e D', o que está errado: A apresenta erro de concordância. O gabarito é D porque é a única alternativa que apresenta uso isolado e inequivocamente correto de 'obrigado'."
+      "explicacao": "'Obrigado' é adjetivo que concorda em gênero e número com quem agradece. Em A, 'a sargento' é feminina — o correto seria 'obrigada', não 'obrigado'. Em B, 'o recruta' é masculino singular — o correto seria 'obrigado', não 'obrigada'. Em C, 'as cabos' é feminino plural — o correto seria 'obrigadas', não 'obrigada' no singular. Em D, 'o oficial' é masculino singular e 'obrigado' está no masculino singular — concordância correta, sem qualquer erro. Em E, 'os recrutas' é masculino plural — o correto seria 'obrigados', não 'obrigado' no singular. Apenas D apresenta uso de 'obrigado' sem nenhum erro de concordância."
     },
     {
       "id": "q04",
@@ -291,11 +291,11 @@
         "A": "Seguem anexo as instruções operacionais.",
         "B": "Seguem anexos as instruções operacionais.",
         "C": "Seguem anexas as instruções operacionais.",
-        "D": "Seguem em anexo as instruções operacionais.",
-        "E": "B e D estão corretas."
+        "D": "Seguem anexados as instruções operacionais.",
+        "E": "Segue anexas as instruções operacionais."
       },
       "gabarito": "C",
-      "explicacao": "'Instruções' é feminino plural. 'Anexo' é adjetivo variável, portanto concorda com o substantivo: feminino plural = 'anexas'. A alternativa A usa o singular ('anexo') — errado. A alternativa B usa o masculino plural ('anexos') — errado, pois o substantivo é feminino. A alternativa D usa 'em anexo', que é locução adverbial e não tem problema gramatical, mas a questão pede a concordância nominal do adjetivo. A resposta mais precisa para concordância nominal é C: 'Seguem anexas as instruções operacionais.'"
+      "explicacao": "'Instruções' é feminino plural. 'Anexo' é adjetivo variável, portanto concorda com o substantivo em gênero e número: feminino plural = 'anexas'. A alternativa A usa o singular masculino ('anexo') — errado em gênero e número. A alternativa B usa o masculino plural ('anexos') — errado em gênero, pois o substantivo é feminino. A alternativa D usa 'anexados' (particípio de 'anexar' no masculino plural) — além de soar menos natural que o adjetivo 'anexo', erra em gênero. A alternativa E erra a concordância verbal: com sujeito posposto plural ('as instruções'), o verbo deveria ser 'seguem', não 'segue'. Apenas C apresenta concordância nominal e verbal corretas: 'Seguem anexas as instruções operacionais.'"
     },
     {
       "id": "q08",
@@ -523,10 +523,10 @@
       "id": "q23",
       "nivel": "avancado",
       "textoBase": "Tal atitude, embora compreensível do ponto de vista humano, foi considerada inadmissível pelas instâncias superiores do Comando Naval.",
-      "enunciado": "O adjetivo 'inadmissível' no trecho é predicativo do objeto e concorda com:",
+      "enunciado": "O adjetivo 'inadmissível' no trecho é predicativo do sujeito (em voz passiva) e concorda com:",
       "alternativas": {
         "A": "'pelas instâncias superiores', agente da passiva feminino plural.",
-        "B": "'Tal atitude', objeto da voz passiva, feminino singular.",
+        "B": "'Tal atitude', sujeito paciente da voz passiva, feminino singular.",
         "C": "O sujeito oculto da oração ('as instâncias'), feminino plural.",
         "D": "'do Comando Naval', masculino singular.",
         "E": "O verbo 'foi', que determina o singular."

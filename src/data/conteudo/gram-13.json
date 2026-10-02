@@ -183,6 +183,99 @@
             ]
           }
         ]
+      },
+      {
+        "subtitulo": "8. Verbos com regência dupla no registro administrativo/oficial",
+        "conteudo": "Pense nesses verbos como mensageiros que podem levar o recado de duas formas diferentes — ambas corretas, mas com estruturas diferentes. Esse padrão é muito comum no estilo de documentos oficiais e de redação naval, que é justamente o registro que a CEBRASPE usa como base para os textos do edital RM2.\n\n'Avisar' e 'notificar' aceitam duas construções: 'avisar algo a alguém' (objeto direto + indireto com 'a') ou 'avisar alguém de algo' (objeto direto de pessoa + complemento com 'de'). Ambas são corretas: 'avisou o atraso ao comandante' / 'avisou o comandante do atraso'.\n\n'Comunicar' segue o mesmo padrão: 'comunicar algo a alguém' ou 'comunicar alguém de algo' — 'comunicou a decisão aos oficiais' / 'comunicou os oficiais da decisão'.\n\n'Pagar' e 'perdoar', quando têm dois complementos (a coisa e a pessoa), regem objeto direto para a coisa e objeto indireto com 'a' para a pessoa: 'pagou a dívida ao credor', 'perdoou a falta ao recruta'. Mas, se o complemento for só a pessoa (sem mencionar a coisa), o verbo passa a ser transitivo indireto: 'pagou ao credor', 'perdoou ao recruta'.\n\n'Querer', no sentido de 'estimar, ter afeto por' (não no sentido de 'desejar'), é transitivo indireto com 'a': 'quero bem a meus superiores' — nunca 'quero bem meus superiores'. Já no sentido de desejo comum, é transitivo direto: 'quero uma vaga no RM2'.\n\nO erro mais comum é tratar esses verbos como se tivessem uma única regência fixa, ignorando que a estrutura da frase (quantos complementos aparecem, e qual sentido está em jogo) determina qual preposição usar.",
+        "regra": "AVISAR/NOTIFICAR/COMUNICAR: OD+A ou OD(pessoa)+DE, ambas corretas · PAGAR/PERDOAR: coisa=OD, pessoa=OI com A · QUERER (estimar) + A · QUERER (desejar) = OD",
+        "exemplos": [
+          {
+            "texto_base": "O comandante comunicou a decisão aos subordinados e pagou os vencimentos atrasados ao pessoal técnico. O oficial sempre quis bem a seus comandados.",
+            "anotacoes": [
+              {
+                "trecho": "comunicou a decisão aos subordinados",
+                "destaque": "COMUNICAR = OD + A",
+                "motivo": "Construção com objeto direto (a decisão) e indireto com 'a' (aos subordinados) — uma das duas formas corretas"
+              },
+              {
+                "trecho": "pagou os vencimentos atrasados ao pessoal",
+                "destaque": "PAGAR = coisa OD + pessoa OI",
+                "motivo": "'Pagar' com dois complementos: a coisa paga é objeto direto, a pessoa é objeto indireto com 'a'"
+              },
+              {
+                "trecho": "quis bem a seus comandados",
+                "destaque": "QUERER BEM + A",
+                "motivo": "'Querer' no sentido de estimar/ter afeto é transitivo indireto com 'a' — nunca sem preposição"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "9. 'Morar/residir' e verbos de permanência: a regência com 'em'",
+        "conteudo": "Diferente da maioria dos verbos de movimento que vimos até agora (que pedem 'a'), os verbos que indicam permanência ou localização pedem 'em' — e confundir essas duas famílias é um erro recorrente.\n\n'Morar' e 'residir' regem a preposição 'em', indicando o lugar onde alguém permanece: 'O oficial mora em Fortaleza', 'reside na base naval'. Não se usa 'a' nesses casos, porque não há ideia de movimento/direção, e sim de permanência.\n\nA distinção fica mais clara comparando com 'ir' e 'chegar' (que indicam movimento em direção a um lugar e regem 'a'): 'O oficial foi a Fortaleza' (movimento, rege 'a') versus 'O oficial mora em Fortaleza' (permanência, rege 'em').\n\nVerbos como 'habitar' também regem 'em' quando usados de forma intransitiva com complemento de lugar, embora possam ser transitivos diretos em certos contextos: 'habitar numa casa' (com 'em') ou, em uso mais raro e literário, 'habitar uma casa' (transitivo direto).\n\nO erro mais comum é aplicar a regra de 'chegar/ir + a' também a 'morar/residir', como se todos os verbos relacionados a lugar tivessem a mesma regência.",
+        "regra": "MORAR/RESIDIR (permanência) + EM · IR/CHEGAR (movimento/direção) + A — não confundir as duas famílias",
+        "exemplos": [
+          {
+            "texto_base": "O sargento Ferreira reside em Fortaleza, mas foi convocado a servir na base do Rio de Janeiro.",
+            "anotacoes": [
+              {
+                "trecho": "reside em Fortaleza",
+                "destaque": "RESIDIR + EM",
+                "motivo": "Verbo de permanência — rege 'em', indicando o lugar onde a pessoa mora, sem ideia de movimento"
+              },
+              {
+                "trecho": "convocado a servir",
+                "destaque": "contraste com movimento",
+                "motivo": "Diferente de 'residir', a ideia de deslocamento para a nova base usa a preposição 'a', própria dos verbos de movimento"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "10. Locuções verbais de regência fixa no estilo oficial",
+        "conteudo": "Documentos oficiais e o Manual de Redação da Marinha usam com frequência certas locuções verbais — expressões formadas por mais de uma palavra que funcionam como um verbo só, com regência própria e fixa, que não pode ser alterada livremente.\n\n'Fazer jus a' significa 'merecer, ter direito a' e sempre rege a preposição 'a': 'O oficial faz jus à promoção' (nunca 'faz jus pela promoção' ou 'faz jus a promoção' sem crase, se o complemento for feminino).\n\n'Dar conta de' significa 'cumprir, realizar' ou 'perceber' e sempre rege 'de': 'O sargento deu conta da tarefa', 'não deu conta de que o prazo havia vencido'.\n\n'Ter a ver com' é locução fixa que sempre usa 'com': 'Isso não tem a ver com o regulamento' (nunca 'tem a ver sobre' ou 'tem a ver em').\n\n'Haver de' (no sentido de intenção firme, promessa) é seguido de infinitivo, sem preposição adicional: 'Hei de vencer este concurso.'\n\nO erro mais comum é tentar flexionar a regência dessas locuções como se fossem verbos simples, trocando a preposição fixa por outra mais 'intuitiva'.",
+        "regra": "FAZER JUS + A · DAR CONTA + DE · TER A VER + COM · HAVER DE + infinitivo (sem preposição extra) — regências fixas e invariáveis",
+        "exemplos": [
+          {
+            "texto_base": "O oficial fez jus à medalha de honra ao mérito e deu conta de todas as atribuições do cargo, provando que sua conduta tem a ver com os valores da instituição naval.",
+            "anotacoes": [
+              {
+                "trecho": "fez jus à medalha",
+                "destaque": "FAZER JUS + A",
+                "motivo": "Locução fixa 'fazer jus a' — com crase diante de complemento feminino"
+              },
+              {
+                "trecho": "deu conta de todas as atribuições",
+                "destaque": "DAR CONTA + DE",
+                "motivo": "Locução fixa 'dar conta de' — a preposição 'de' nunca é substituída por outra"
+              },
+              {
+                "trecho": "tem a ver com os valores",
+                "destaque": "TER A VER + COM",
+                "motivo": "Locução fixa 'ter a ver com' — preposição 'com' é parte inseparável da expressão"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "11. 'A' de regência × 'a' de infinitivo (valor condicional ou temporal)",
+        "conteudo": "Nem toda preposição 'a' que aparece antes de um verbo no infinitivo é a preposição de regência de um verbo ou nome anterior — às vezes, o 'a' inicia uma oração reduzida de infinitivo com valor condicional ou temporal, e isso é cobrado em questões de reescritura e de interpretação que cruzam com regência.\n\nQuando o 'a' é regência de um verbo ou nome, ele está preso gramaticalmente a essa palavra regente: 'O oficial está disposto a colaborar' (disposto + a + infinitivo, regência do adjetivo 'disposto').\n\nQuando o 'a' não depende de nenhum regente anterior e inicia a oração sozinho, no começo do período ou logo após uma vírgula, ele tem valor condicional (equivalente a 'se') ou temporal (equivalente a 'quando'): 'A persistir o mau tempo, a missão será cancelada' (equivale a 'Se o mau tempo persistir...'). Essa construção é comum em textos formais e jornalísticos, e o CEBRASPE a explora pedindo a reescritura com 'se' ou 'quando'.\n\nO teste para diferenciar: veja se o 'a' está 'grudado' em um verbo/nome regente logo antes dele (regência) ou se abre a oração isoladamente, sem nada regendo-o (valor condicional/temporal).\n\nO erro mais comum é tentar classificar esse 'a' condicional como erro de regência verbal, quando na verdade ele não é regência nenhuma — é uma construção sintática independente.",
+        "regra": "'A' preso a verbo/nome anterior = regência · 'A' + infinitivo abrindo oração isolada = valor condicional ('se') ou temporal ('quando'), não é regência",
+        "exemplos": [
+          {
+            "texto_base": "A persistir as irregularidades no processo seletivo, a Comissão deverá revisar todos os critérios adotados.",
+            "anotacoes": [
+              {
+                "trecho": "A persistir as irregularidades",
+                "destaque": "'a' condicional",
+                "motivo": "Esse 'a' não é regência de nenhum verbo ou nome anterior — equivale a 'Se persistirem as irregularidades', com valor condicional"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -281,7 +374,7 @@
         "E": "O recruta assistiu toda a manobra sem se mover do lugar."
       },
       "gabarito": "B",
-      "explicacao": "A alternativa B está correta: 'assistir' no sentido de presenciar é transitivo indireto e rege a preposição 'a' com artigo — 'assistiram ao discurso'. As alternativas A, C, D e E empregam 'assistir' sem a preposição obrigatória ('ao') ou com artigo sem a preposição, o que configura erro de regência. Note que A e D têm o artigo 'a' mas sem a preposição 'a' antes — a forma correta seria 'assistiu à cerimônia' (com crase) e 'assistiu à reunião'."
+      "explicacao": "A alternativa B está correta: 'assistir' no sentido de presenciar é transitivo indireto e rege a preposição 'a' com artigo — 'assistiram ao discurso'. As demais empregam 'assistir' sem a preposição de regência: C e E omitem completamente a preposição ('assistiu o treinamento', 'assistiu toda a manobra'); A e D trazem apenas o artigo feminino 'a', sem a preposição 'a' que o verbo exige — a forma correta seria 'assistiu à cerimônia' e 'assistiu à reunião', com a fusão da preposição e do artigo (crase)."
     },
     {
       "id": "q04",
@@ -346,12 +439,12 @@
       "alternativas": {
         "A": "O sargento lembrou-se o número do formulário antes de assinar.",
         "B": "O recruta lembrou de entregar os documentos no prazo determinado.",
-        "C": "O oficial lembrou os candidatos das normas de segurança da base.",
+        "C": "O oficial lembrou-se os candidatos das normas de segurança da base.",
         "D": "O cabo lembrou-se dos procedimentos de emergência durante o exercício.",
         "E": "O aspirante lembrou de que precisava renovar sua carteira de identidade."
       },
       "gabarito": "D",
-      "explicacao": "A alternativa D está correta: 'lembrar-se' (forma pronominal) rege preposição 'de' — 'lembrou-se dos procedimentos'. A alternativa C também está correta ('lembrou os candidatos das normas' — verbo no sentido de 'fazer alguém se lembrar', transitivo direto para pessoa + indireto com 'de' para o objeto lembrado), mas D é a mais claramente correta. A alternativa A erra: 'lembrar-se' exige 'de', não objeto direto. B erra: sem pronome reflexivo, 'lembrar' é transitivo direto — 'lembrou o formulário'; com 'de' precisaria do pronome: 'lembrou-se de'."
+      "explicacao": "A alternativa D está correta: 'lembrar-se' (forma pronominal) rege preposição 'de' — 'lembrou-se dos procedimentos'. A alternativa C erra: ao usar o pronome reflexivo 'lembrou-se', o verbo passa a exigir a preposição 'de' antes do complemento de pessoa — o correto seria 'lembrou-se dos candidatos' ou, sem o pronome, 'lembrou os candidatos' (transitivo direto, sentido de 'fazer alguém se lembrar'); misturar o pronome reflexivo com objeto direto de pessoa sem preposição é erro. A alternativa A erra: 'lembrar-se' exige 'de', não objeto direto. B erra: sem pronome reflexivo, 'lembrar' é transitivo direto — 'lembrou o formulário'; com 'de' precisaria do pronome: 'lembrou-se de'."
     },
     {
       "id": "q09",
@@ -568,7 +661,7 @@
         "E": "'O oficial divergiu com o parecer da comissão técnica.' — correto: 'divergir' rege 'com'."
       },
       "gabarito": "D",
-      "explicacao": "A alternativa D está correta: 'simpatizar com' é a regência normativa do verbo — 'simpatizou com a proposta'. As demais têm análises incorretas: A — 'anseiar' admite tanto 'por' quanto 'a' ('anseia por' e 'anseia a' são aceitas); B — 'anuir' rege 'a' ou 'em', e a frase 'anuiu à proposta' está correta, não errada; C — 'abdicar' rege 'de', não 'a', e a frase 'abdicou do posto' está correta; E — 'divergir' rege 'de', não 'com': 'divergiu do parecer' seria o correto, então a alternativa E identifica algo correto como errado — mas a afirmação de que está correto com 'com' é que é equivocada."
+      "explicacao": "A alternativa D está correta: 'simpatizar com' é a regência normativa do verbo — 'simpatizou com a proposta'. As demais têm análises incorretas: A — 'ansiar' admite tanto 'por' quanto 'a' ('anseia por' e 'anseia a' são aceitas), portanto a frase 'anseia pelo reconhecimento' já está correta, e apontá-la como erro é equivocado; B — 'anuir' rege 'a' ou 'em', e a frase 'anuiu à proposta' já está correta, não havendo erro a apontar; C — 'abdicar' rege 'de', e a frase 'abdicou do posto' já está correta, não havendo erro a apontar; E — a regência correta de 'divergir' é com 'de' ('divergiu do parecer'), de modo que a frase da alternativa, usando 'com', está errada — mas a alternativa E a classifica como correta, o que é o próprio equívoco dessa alternativa."
     },
     {
       "id": "q24",
@@ -888,8 +981,8 @@
           "D": "prerequisito, semiaberto, anti-aéreo",
           "E": "pré-requisito, semiaberto, anti-aéreo"
         },
-        "gabarito": "E",
-        "explicacao": "'Pré-requisito' — prefixo PRÉ- sempre usa hífen (prefixo com acento próprio). 'Semiaberto' — prefixo SEMI- + vogal diferente (A ≠ I) → sem hífen. 'Anti-aéreo' — prefixo ANTI- termina em I, palavra começa com A (vogais diferentes → sem hífen seria o esperado); mas 'aéreo' começa com 'a' tônica — há casos em que se usa hífen para evitar pronúncia errada; no entanto, a grafia correta pós-Acordo é 'antiaéreo' (sem hífen, vogais diferentes). Portanto: 'pré-requisito' ✓ 'semiaberto' ✓ 'anti-aéreo' — na verdade, 'antiaéreo' seria o correto pelo Acordo de 2016. Reavaliando: E apresenta 'anti-aéreo' que tem controvérsia, mas entre as opções, E é a que tem mais acertos. A resposta mais defensável é E: 'pré-requisito' (hífen obrigatório com prefixo acentuado), 'semiaberto' (vogais diferentes, sem hífen), 'anti-aéreo' (aceita com hífen por critério de clareza fonética)."
+        "gabarito": "B",
+        "explicacao": "'Pré-requisito' — o prefixo PRÉ- é tônico e sempre se separa por hífen diante de qualquer vogal: grafia fixa 'pré-requisito'. 'Semiaberto' — o prefixo SEMI- termina em vogal diferente da vogal inicial da palavra seguinte (I ≠ A): sem hífen, forma correta 'semiaberto'. 'Antiaéreo' — o prefixo ANTI- termina em I e a palavra seguinte começa com A (vogais diferentes): sem hífen, forma correta 'antiaéreo'. A alternativa B reúne as três grafias corretas. As demais erram: A e D grafam 'semi-aberto' com hífen indevido; A e C grafam 'anti-aéreo' com hífen indevido, pois vogais diferentes dispensam o hífen; D grafa 'prerequisito' sem hífen, mas PRÉ- tônico exige hífen sempre; E grafa corretamente 'pré-requisito' e 'semiaberto', mas erra em 'anti-aéreo' (hífen indevido)."
       },
       {
         "id": "d09",
@@ -912,14 +1005,14 @@
         "topico_referencia": "gram-11",
         "enunciado": "Assinale a alternativa em que a concordância nominal está correta.",
         "alternativas": {
-          "A": "Foram entregues ao comandante a lista e o relatório incompleto.",
+          "A": "Foram entregues ao comandante a lista e o relatório incompleta.",
           "B": "É proibido a entrada de civis nas dependências da base naval.",
           "C": "Os candidatos foram considerados aptos e prontos para o serviço.",
           "D": "Foram necessário novos procedimentos e novas diretrizes operacionais.",
           "E": "A oficial e o aspirante ficou satisfeita com o resultado da avaliação."
         },
         "gabarito": "C",
-        "explicacao": "'Os candidatos foram considerados aptos e prontos' — sujeito masculino plural, predicativo masculino plural: concordância correta. A — 'a lista e o relatório incompleto': 'incompleto' concorda apenas com 'relatório' (masculino singular), mas quando há dois substantivos, o adjetivo posposto pode ficar no singular concordando com o mais próximo — aceitável; porém 'Foram entregues' também está aceitável com sujeito composto posposto — A pode ser discutida; C é mais claramente correta. B — 'É proibido a entrada' — deveria ser 'É proibida a entrada' (concordância com o sujeito feminino 'a entrada'). D — 'necessário' deveria ser 'necessários' (sujeito composto plural). E — 'ficou satisfeita' não concorda com o sujeito composto ('A oficial e o aspirante ficaram satisfeitos')."
+        "explicacao": "'Os candidatos foram considerados aptos e prontos' — sujeito masculino plural, predicativo masculino plural: concordância correta. As demais apresentam erro: A — 'incompleta' (feminino singular) não concorda nem com 'o relatório' (masculino) nem com o conjunto 'a lista e o relatório' (que exigiria plural, 'incompletos'); B — 'É proibido a entrada' deveria ser 'É proibida a entrada', concordando com o sujeito feminino 'a entrada'; D — 'necessário' deveria ser 'necessários', concordando com o sujeito composto plural; E — 'ficou satisfeita' não concorda com o sujeito composto ('A oficial e o aspirante ficaram satisfeitos')."
       },
       {
         "id": "d11",
