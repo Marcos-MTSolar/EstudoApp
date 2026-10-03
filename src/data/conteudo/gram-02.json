@@ -60,7 +60,34 @@
         ]
       },
       {
-        "subtitulo": "3. Paroxítonas — a exceção vira regra",
+        "subtitulo": "3. Monossílabos tônicos — regra própria, parecida com a de oxítonas",
+        "conteudo": "Nem toda palavra de uma sílaba só é átona (fraca, apoiada na palavra vizinha, como artigos e preposições: 'o', 'de', 'em'). Muitas têm força própria — são os monossílabos tônicos, e eles seguem uma regra de acentuação muito parecida com a das oxítonas, mas tratada separadamente pela gramática por não serem, tecnicamente, palavras com mais de uma sílaba.\n\nRecebem acento agudo os monossílabos tônicos terminados em A(s), E(s), O(s): pá, chá, dá, já (quando tônico), más, pé, fé, mês, três, pó, só, dó, nós, pôs (verbo). Pense neles como 'mini oxítonas' — a lógica da terminação em vogal aberta tônica é exatamente a mesma que você já aprendeu para as oxítonas no bloco anterior.\n\nNão recebem acento os monossílabos átonos, mesmo tendo as mesmas vogais finais: 'a', 'de', 'se', 'que', 'o' — essas palavras se apoiam na palavra seguinte ou anterior na pronúncia, sem força própria, por isso não são acentuadas mesmo terminando em vogal.\n\nA armadilha mais comum de prova é um par de monossílabos idênticos na escrita, exceto pelo acento, em que o acento distingue duas palavras diferentes: 'por' (preposição, átono, sem acento) vs. 'pôr' (verbo, monossílabo tônico, com acento circunflexo diferencial). Sem o acento, 'pôr' se confundiria com a preposição 'por' — por isso esse é um dos poucos acentos diferenciais que sobreviveram ao Acordo de 2016, junto com 'pôde/pode' (também monossílabo tônico vs. forma do presente).\n\nO erro mais comum é esquecer que a regra dos monossílabos tônicos é separada da regra das oxítonas (mesmo sendo parecida) — a prova pode testar se você sabe nomear corretamente a categoria ('monossílabo tônico', não 'oxítona', já que oxítona pressupõe mais de uma sílaba).",
+        "regra": "Monossílabo tônico + A/E/O = acento (pá, pé, nós, pôs) · Monossílabo átono = nunca acento, mesmo terminando em vogal",
+        "exemplos": [
+          {
+            "texto_base": "O sargento já comeu o pão e tomou café; o recruta só tem fé no comandante, que pôs a missão em prática.",
+            "anotacoes": [
+              {
+                "trecho": "só",
+                "destaque": "monossílabo tônico em O",
+                "motivo": "Força própria, terminado em O → acento obrigatório, mesma lógica das oxítonas"
+              },
+              {
+                "trecho": "fé",
+                "destaque": "monossílabo tônico em E",
+                "motivo": "Força própria, terminado em E → acento obrigatório"
+              },
+              {
+                "trecho": "pôs",
+                "destaque": "monossílabo tônico, acento diferencial",
+                "motivo": "Verbo pôr (pretérito perfeito, 3ª pessoa) — distingue de 'pos' inexistente; mantém o circunflexo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "4. Paroxítonas — a exceção vira regra",
         "conteudo": "As paroxítonas são as palavras mais comuns do português — a maioria das palavras que você usa no dia a dia tem a tônica na penúltima sílaba. Por isso, as paroxítonas terminadas nas terminações mais comuns (A, E, O, S, M, NS) não recebem acento: o português considerou que seria redundante acentuar a maioria das palavras.\n\nMas as paroxítonas que fogem das terminações comuns são acentuadas, justamente para avisar ao leitor que a regra habitual não vale ali. Recebem acento as paroxítonas terminadas em: I(S), U(S), L, R, N, X, Ã(S), ÃO(S), UM, UNS, EI(S), OI.\n\nPense assim: se a paroxítona termina em algo 'incomum', ela ganha acento para se destacar. Se termina no que todo mundo espera, não precisa de marcação.\n\nCuidado: 'grafia' (paroxítona em A) não tem acento; 'júri' (paroxítona em I) tem acento.",
         "regra": "Paroxítona + terminação incomum (I, U, L, R, N, X, Ã, ÃO, UM, EI) = acento · Terminação comum = sem acento",
         "exemplos": [
@@ -92,7 +119,7 @@
         ]
       },
       {
-        "subtitulo": "4. Proparoxítonas — acento sempre, sem exceção",
+        "subtitulo": "5. Proparoxítonas — acento sempre, sem exceção",
         "conteudo": "Se as paroxítonas têm regras complicadas e as oxítonas exigem atenção às terminações, as proparoxítonas são um alívio total: TODAS as proparoxítonas são acentuadas, sem exceção.\n\nQualquer palavra com a tônica na antepenúltima sílaba recebe acento obrigatoriamente. Isso inclui as 'proparoxítonas aparentes' — palavras com ditongos átonos no final, como 'médico', 'técnico', 'máximo'.\n\nA lógica é simples: a tônica tão longe do final é tão incomum no português que o acento é necessário para o leitor não errar a pronúncia.\n\nO único 'erro' possível aqui é não reconhecer que uma palavra é proparoxítona e deixar de acentuá-la. Treine reconhecer o padrão: MÉ-di-co, TÉC-ni-co, MÁ-xi-mo, ÚL-ti-mo.",
         "regra": "Proparoxítona = acento SEMPRE · Sem exceção",
         "exemplos": [
@@ -124,7 +151,7 @@
         ]
       },
       {
-        "subtitulo": "5. O que o Acordo Ortográfico de 2016 extinguiu",
+        "subtitulo": "6. O que o Acordo Ortográfico de 2016 extinguiu",
         "conteudo": "Aqui mora a maior fonte de erros em prova: muitas pessoas ainda escrevem formas que o Acordo Ortográfico (assinado em 1990, em vigor desde 2016) aboliu. A banca adora explorar exatamente isso.\n\nForam extintos três acentos principais: o acento diferencial em palavras como 'pelo/pélo', 'pera/péra', 'polo/pólo' (a não ser para/pára que ainda há divergência em alguns contextos) — essas palavras perderam o acento. Também foram extintos os acentos em ditongos abertos de paroxítonas: EI e OI em paroxítonas não recebem mais acento (ideia, assembleia, europeias, heroico, jiboia). E o trema foi abolido em palavras de origem portuguesa (aguentar, linguiça, frequente).\n\nAinda existem acentos diferenciais apenas em poucos casos: pôde (passado) vs. pode (presente); pôr (verbo) vs. por (preposição).\n\nO erro clássico da prova é marcar como errada uma alternativa sem acento em 'ideia' — mas 'ideia' sem acento é o correto desde 2016.",
         "regra": "EI/OI paroxítona = sem acento (ideia, heroico) · Trema = abolido · pôde/pôr = ainda existem",
         "exemplos": [
@@ -156,7 +183,7 @@
         ]
       },
       {
-        "subtitulo": "6. Acentos especiais: circunflexo e casos de hiato",
+        "subtitulo": "7. Acentos especiais: circunflexo e casos de hiato",
         "conteudo": "Além do acento agudo, o português usa o acento circunflexo (^) para indicar vogal fechada tônica. Pense no circunflexo como um 'abafador' de som: enquanto o agudo abre a vogal (á, é, ó), o circunflexo a fecha (â, ê, ô).\n\nOs hiatos também têm regra própria: quando I ou U aparecem sozinhos numa sílaba, formando hiato com a vogal anterior, e estão na sílaba tônica, recebem acento mesmo sendo paroxítonas normais. Exemplos: saúde (sa-Ú-de), raízes (ra-Í-zes), baú (ba-Ú).\n\nExceção importante (extinta em 2016): o hiato seguido de NH não recebe mais acento. Rainha, moinho, bainha — todas sem acento, mesmo com I tônico seguido de NH.\n\nPor fim, o u dos grupos QUE, QUI, GUE, GUI não recebe trema mais: frequente, aguentar, linguiça — todos sem trema.",
         "regra": "Hiato I/U tônico = acento (saúde, baú) · I/U + NH = sem acento (rainha) · Trema em QUE/QUI/GUE/GUI = abolido",
         "exemplos": [
@@ -183,7 +210,7 @@
         ]
       },
       {
-        "subtitulo": "7. Estratégia para resolver questões de acentuação",
+        "subtitulo": "8. Estratégia para resolver questões de acentuação",
         "conteudo": "Em prova, a CEBRASPE apresenta frases ou palavras pedindo para identificar a regra de acentuação, a palavra corretamente grafada ou a alternativa que está errada. Existe uma sequência mental que resolve 90% dos casos.\n\nPrimeiro, identifique a sílaba tônica da palavra — pronuncie em voz alta se possível. Segundo, classifique: oxítona, paroxítona ou proparoxítona. Terceiro, aplique a regra do grupo: proparoxítona → sempre acentuada; oxítona → cheque terminação (A/E/O/EM/ENS); paroxítona → cheque se a terminação é incomum.\n\nDepois, aplique o filtro do Acordo de 2016: a palavra tem ditongo EI ou OI em paroxítona? Sem acento. Tem trema em QUE/QUI/GUE/GUI? Sem trema. Tem hiato com NH? Sem acento.\n\nPor fim, confira se é um dos poucos acentos diferenciais que ainda existem (pôde/pode, pôr/por). Com essa sequência, você não precisa decorar listas — você raciocina.",
         "regra": "1) Tônica → 2) Classifica → 3) Regra do grupo → 4) Filtro 2016 → 5) Diferencial",
         "exemplos": [
@@ -271,14 +298,14 @@
       "nivel": "basico",
       "enunciado": "Assinale a alternativa que apresenta uma oxítona corretamente acentuada.",
       "alternativas": {
-        "A": "recrutí",
-        "B": "patrulhá",
+        "A": "saida",
+        "B": "voce",
         "C": "café",
-        "D": "combatê",
-        "E": "uniformí"
+        "D": "orgao",
+        "E": "varios"
       },
       "gabarito": "C",
-      "explicacao": "'Café' é oxítona terminada em E aberto tônico: ca-FÉ. Oxítonas terminadas em E (e em A, O, EM, ENS) recebem acento agudo. As demais alternativas apresentam erros: 'recrutí', 'patrulhá' (correto seria 'patrulhará', mas no contexto de acento ela é paroxítona), 'combatê' e 'uniformí' não seguem as terminações que justificam acento em oxítonas — terminações em I e vogal com acento circunflexo em final de oxítona não são regra geral do português."
+      "explicacao": "'Café' é oxítona terminada em E aberto tônico: ca-FÉ. Oxítonas terminadas em E (assim como em A, O, EM, ENS) recebem acento agudo. As demais alternativas apresentam palavras grafadas sem o acento que a norma exige: 'saida' deveria ser 'saída' (hiato com I tônico), 'voce' deveria ser 'você' (oxítona terminada em E), 'orgao' deveria ser 'órgão' (paroxítona terminada em ÃO), 'varios' deveria ser 'vários' (proparoxítona). Apenas a alternativa C apresenta a palavra já corretamente acentuada."
     },
     {
       "id": "q02",
@@ -651,7 +678,7 @@
         "E": "frequência: paroxítona com ditongo nasal; exercícios: paroxítona; físicos: paroxítona em terminação incomum"
       },
       "gabarito": "A",
-      "explicacao": "'Frequência' é paroxítona: a tônica está em QU-ÊN (fre-QUÊN-ci-a) — possui o ditongo -ÊN- nasal que justifica o acento. 'Exercícios': tônica em CÍ (e-xer-CÍ-ci-os) — isso indica proparoxítona? Na verdade, a tônica em 'exercícios' está em CÍ (e-xer-CÍ-ci-os), sendo a antepenúltima sílaba antes de -os, portanto é proparoxítona com acento obrigatório. 'Físicos': tônica em FÍ (FÍ-si-cos) — proparoxítona com acento obrigatório. A alternativa A identifica corretamente as três. A alternativa D erra ao dizer que 'frequência' tem terminação comum sem acento — ela tem acento justificado pelo ditongo tônico nasal."
+      "explicacao": "'Frequência' é paroxítona: a tônica está em QUÊN (fre-QUÊN-ci-a) — possui o ditongo nasal tônico ÊN, que justifica o acento. 'Exercícios' é proparoxítona: a tônica está em CÍ (e-xer-CÍ-ci-os), que é a antepenúltima sílaba da palavra — toda proparoxítona é acentuada. 'Físicos' também é proparoxítona: a tônica está em FÍ (FÍ-si-cos), igualmente antepenúltima sílaba. A alternativa A identifica corretamente as três. A alternativa D erra ao dizer que 'frequência' tem terminação comum sem acento — ela tem acento justificado pelo ditongo tônico nasal, não pela terminação final da palavra."
     },
     {
       "id": "q28",
@@ -807,14 +834,14 @@
         "enunciado": "Leia a frase a seguir.\n\nO coautor do relatório propôs medidas anti-higiênicas para o setor antiestético da base.\n\nAssinale a alternativa que apresenta análise CORRETA do uso do hífen nas palavras formadas por prefixos.",
         "textoBase": "O coautor do relatório propôs medidas anti-higiênicas para o setor antiestético da base.",
         "alternativas": {
-          "A": "'coautor': sem hífen (CO- + A, vogais diferentes); 'anti-higiênicas': com hífen (palavra começa com H); 'antiestético': com hífen (ANTI- + E, mesma vogal I? Não — E é diferente de I, sem hífen)",
+          "A": "'coautor': com hífen (CO- + A, regra geral de prefixos terminados em vogal); 'anti-higiênicas': com hífen (palavra começa com H); 'antiestético': sem hífen (ANTI- + E, vogais diferentes)",
           "B": "'coautor': com hífen (CO- + A, regra geral); 'anti-higiênicas': com hífen; 'antiestético': com hífen",
           "C": "'coautor': sem hífen; 'anti-higiênicas': sem hífen; 'antiestético': sem hífen",
           "D": "'coautor': sem hífen (CO- + A); 'anti-higiênicas': com hífen (H sempre exige hífen); 'antiestético': sem hífen (ANTI- + E, vogais diferentes)",
           "E": "'coautor': com hífen (CO + vogal exige hífen); 'anti-higiênicas': com hífen; 'antiestético': sem hífen"
         },
         "gabarito": "D",
-        "explicacao": "A alternativa D está correta. 'Coautor': prefixo CO- termina em O, palavra começa com A (vogais diferentes) → sem hífen. 'Anti-higiênicas': o prefixo ANTI- precede palavra que começa com H → hífen sempre, independente das vogais. 'Antiestético': prefixo ANTI- termina em I, palavra começa com E (vogais diferentes) → sem hífen. A alternativa A erra ao analisar 'antiestético' de forma confusa. A alternativa E erra ao afirmar que CO + vogal exige hífen — a regra é vogal IGUAL, não qualquer vogal."
+        "explicacao": "A alternativa D está correta. 'Coautor': o prefixo CO- termina em O, e a palavra seguinte começa com A — vogais diferentes, portanto sem hífen (a regra de hífen por vogal igual não se aplica a vogais diferentes). 'Anti-higiênicas': o prefixo ANTI- precede palavra iniciada por H → hífen sempre, independentemente da comparação de vogais (o H inicial exige hífen por regra própria). 'Antiestético': prefixo ANTI- termina em I, a palavra seguinte começa com E — vogais diferentes, portanto sem hífen. A alternativa A erra ao afirmar que 'coautor' leva hífen 'por regra geral' — não existe tal regra geral para CO-; o hífen só aparece diante de vogal igual (co-obrigação, por exemplo) ou de H. A alternativa E repete esse mesmo erro quanto a 'coautor'. A alternativa B erra as três análises; a C erra ao retirar o hífen de 'anti-higiênicas', que é obrigatório diante de H."
       },
       {
         "id": "d03",
@@ -907,7 +934,7 @@
           "E": "Todas as palavras estão grafadas corretamente sem necessidade de ajuste"
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B analisa corretamente as formações. 'Desarmado': prefixo DES- acrescido a 'armado' → sem hífen (D ≠ A, vogais diferentes não são o critério para DES-; como DES- não termina em vogal igual à inicial de 'armado', é justificável sem hífen). 'Subseção': SUB- + seção → B final do prefixo, S inicial da palavra, letras diferentes → sem hífen. 'Quartel-general': composto com hífen por ser substantivo composto consagrado pelo uso. A alternativa A erra ao afirmar que SUB- antes de vogal exige hífen — a regra do hífen se aplica quando a última letra do prefixo é igual à primeira letra da palavra (mesma vogal ou H)."
+        "explicacao": "A alternativa B analisa corretamente as três formações. 'Desarmado': o prefixo DES- é acrescido a 'armado' e, como regra geral, DES- não exige hífen diante de nenhuma letra — a forma 'desarmado' está correta sem hífen. 'Subseção': o prefixo SUB- termina em consoante B; diante de palavra iniciada por consoante diferente (S), SUB- não leva hífen — forma correta: 'subseção'. 'Quartel-general': substantivo composto consagrado pelo uso, grafado com hífen independentemente das regras de prefixação, por se tratar de composição, não de derivação prefixal. A alternativa A erra ao afirmar que SUB- antes de vogal sempre exige hífen — isso é falso; o hífen com SUB- aparece apenas diante de palavra iniciada por B, R ou pela própria vogal em casos específicos de ambiguidade, não diante de qualquer vogal. A alternativa D erra ao dizer que 'desarmado' e 'subseção' estariam incorretas."
       },
       {
         "id": "d09",

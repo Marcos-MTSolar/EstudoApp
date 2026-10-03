@@ -149,6 +149,72 @@
             ]
           }
         ]
+      },
+      {
+        "subtitulo": "6. Classificação dos fonemas: vozeados, surdos, nasais e orais",
+        "conteudo": "Pense nos fonemas consonantais como instrumentos de uma banda: alguns 'vibram uma corda' (as cordas vocais) enquanto tocam, outros não. Essa vibração é o que separa os sons em duas grandes famílias.\n\nFonemas vozeados (ou sonoros) são produzidos com vibração das cordas vocais: /b/, /d/, /g/, /v/, /z/, /ʒ/ (som de J), entre outros. Fonemas surdos (ou desvozeados) são produzidos sem essa vibração: /p/, /t/, /k/, /f/, /s/, /ʃ/ (som de CH). Muitos desses sons formam pares que se diferenciam exatamente pela presença ou ausência de vozeamento: /p/-/b/, /t/-/d/, /k/-/g/, /f/-/v/, /s/-/z/, /ʃ/-/ʒ/. A CEBRASPE explora esses pares em questões que pedem para identificar qual fonema muda o sentido de uma palavra (par mínimo): 'bala' e 'pala' se diferenciam apenas pelo vozeamento do primeiro fonema.\n\nQuanto à passagem do ar, os fonemas também se dividem em orais (o ar sai apenas pela boca: a maioria dos sons) e nasais (parte do ar sai pelo nariz: /m/, /n/, /ɲ/ como consoantes, e as vogais nasalizadas como /ã/, /ẽ/, /ĩ/, /õ/, /ũ/).\n\nO erro mais comum é tentar classificar os fonemas só pela letra escrita, sem pensar no som real — por exemplo, esquecer que /g/ antes de E/I muda de som (fica /ʒ/, como em 'gelo') enquanto antes de A/O/U continua /g/ (como em 'gato').",
+        "regra": "Vozeado = vibração das cordas vocais (b,d,g,v,z,j) · Surdo = sem vibração (p,t,k,f,s,ch) · Nasal = ar passa pelo nariz (m,n,nh + vogais nasalizadas) · Oral = ar passa só pela boca",
+        "exemplos": [
+          {
+            "texto_base": "O soldado pegou a pá e cavou perto do portão da base.",
+            "anotacoes": [
+              {
+                "trecho": "pegou",
+                "destaque": "par mínimo P/B",
+                "motivo": "'Pegou' com /p/ (surdo) contrasta com uma hipotética 'begou' com /b/ (vozeado) — mesmo ponto de articulação, vozeamento diferente"
+              },
+              {
+                "trecho": "portão",
+                "destaque": "vogal nasal",
+                "motivo": "O 'ão' é ditongo nasal — o ar passa parcialmente pelo nariz ao pronunciar essa vogal, diferente de um som totalmente oral"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "7. Nasalização: til, M e N em final de sílaba",
+        "conteudo": "A nasalização é um dos temas mais armadilhados da Fonética, porque a escrita representa esse fenômeno de formas diferentes, e o candidato precisa saber enxergar o som por trás da grafia.\n\nO til (~) marca diretamente a nasalização de uma vogal: 'mãe', 'põe', 'irmã'. Já o M e o N, quando aparecem no FINAL de uma sílaba (não no início), não representam um fonema consonantal próprio — eles funcionam apenas como marca gráfica de que a vogal anterior é nasal: em 'também' (tam-bém), o M final da primeira sílaba nasaliza o A, e o M final da segunda sílaba nasaliza o E; nenhum dos dois é pronunciado como consoante /m/ propriamente dita nessa posição.\n\nIsso é diferente de quando M ou N aparecem no INÍCIO de uma sílaba, antes de vogal: aí, sim, eles são consoantes plenas, com fonema próprio — em 'cama' (ca-ma), o M inicia a segunda sílaba e é pronunciado como consoante /m/ normal, sem nasalizar vogal nenhuma sozinho (quem nasaliza, nesse caso, é apenas a própria natureza do fonema /m/ ao ser articulado).\n\nO ditongo nasal (como em 'mão', 'põe', 'mãe') já nasaliza as duas partes do ditongo simultaneamente — a vogal e a semivogal.\n\nO erro mais comum é contar o M ou N final de sílaba como um fonema consonantal separado da vogal, inflando a contagem de fonemas da palavra.",
+        "regra": "Til (~) → nasaliza a vogal diretamente · M/N em FINAL de sílaba → marca de nasalização, não é fonema consonantal próprio · M/N em INÍCIO de sílaba → consoante plena normal",
+        "exemplos": [
+          {
+            "texto_base": "O comandante assinou o contrato antes de embarcar rumo ao continente.",
+            "anotacoes": [
+              {
+                "trecho": "comandante",
+                "destaque": "N final nasaliza",
+                "motivo": "O N em 'man-' fecha a sílaba e nasaliza o A anterior — não é consoante plena nessa posição"
+              },
+              {
+                "trecho": "embarcar",
+                "destaque": "M final nasaliza",
+                "motivo": "O M em 'em-' nasaliza o E — mesma lógica do N em final de sílaba, apenas com letra diferente"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "8. Tonicidade sem acento gráfico: toda palavra tem sílaba tônica",
+        "conteudo": "Um erro conceitual muito comum é achar que só têm 'tonicidade' as palavras que levam acento gráfico (agudo ou circunflexo). Isso é falso: TODA palavra da língua portuguesa com mais de uma sílaba tem uma sílaba tônica — pronunciada com mais força — independentemente de haver ou não um sinal gráfico marcando isso.\n\nA maioria das palavras paroxítonas terminadas em A, E, O (sozinhas ou seguidas de S) não recebe acento gráfico, mas ainda assim têm uma sílaba tônica perfeitamente identificável: 'casa' (CA-sa), 'livro' (LI-vro), 'janela' (ja-NE-la) — todas paroxítonas, todas sem acento gráfico, todas com tonicidade definida.\n\nO acento gráfico é apenas a MARCA VISUAL que a ortografia usa para sinalizar a tonicidade em certos casos — geralmente quando a palavra foge do padrão mais comum (paroxítona terminada em A/E/O/EM/ENS) ou quando há risco de ambiguidade de leitura. Toda proparoxítona recebe acento (é sempre exceção ao padrão), a maioria das oxítonas terminadas em A, E, O, EM, ENS recebe acento, e as paroxítonas só recebem acento em terminações específicas (L, R, N, X, I(S), U(S), ÃO, à, PS, Ã(S), ditongo).\n\nEssa distinção entre tonicidade (sempre existe) e acentuação gráfica (só existe em certos casos) é a ponte direta para o próximo tópico do edital: Acentuação Gráfica. Entender isso aqui evita erros de base no estudo da acentuação.\n\nO erro mais comum é, ao ver uma palavra sem acento, concluir erroneamente que ela 'não tem sílaba tônica' ou que 'todas as sílabas têm força igual' — isso nunca acontece em português.",
+        "regra": "Toda palavra (com 2+ sílabas) tem uma sílaba tônica, acentuada graficamente ou não · Acento gráfico = marca visual usada só em certos padrões, não é o que 'cria' a tonicidade",
+        "exemplos": [
+          {
+            "texto_base": "O recruta estuda na sala, guarda o material e organiza a agenda todos os dias.",
+            "anotacoes": [
+              {
+                "trecho": "estuda",
+                "destaque": "paroxítona sem acento",
+                "motivo": "es-TU-da tem tonicidade clara na penúltima sílaba, mesmo sem nenhum sinal gráfico marcando isso"
+              },
+              {
+                "trecho": "organiza",
+                "destaque": "paroxítona sem acento",
+                "motivo": "or-ga-NI-za também tem sílaba tônica bem definida (NI), apesar de nenhuma marca visual indicar isso na escrita"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -201,8 +267,8 @@
       "nivel": "intermediario"
     },
     {
-      "situacao": "Identificar o número de sílabas em palavras com QU e GU antes de E ou I",
-      "dica": "Quando QU e GU aparecem antes de E ou I, o U não é pronunciado e não forma sílaba — é parte do dígrafo. Portanto 'quero' tem 2 sílabas (que-ro) e 3 fonemas na primeira sílaba: /k/, /e/ — espera, apenas /k/+/e/. Já 'qüestão' (grafia antiga com trema) tinha U pronunciado. Após o Acordo de 1990 em vigor desde 2016, o trema foi eliminado de palavras vernáculas. Hoje, se o U soar, usa-se: 'tranquilo' (U não soa) vs. 'frequente' (U não soa) — ambos sem trema.",
+      "situacao": "Identificar o número de sílabas e fonemas em palavras com QU e GU antes de E ou I",
+      "dica": "Quando QU e GU aparecem antes de E ou I, o U normalmente não é pronunciado e não forma sílaba — é parte do dígrafo. Portanto 'quero' tem 2 sílabas (que-ro) e 2 fonemas na primeira sílaba: /k/ + /e/. Atenção: antes do Acordo Ortográfico de 1990 (em vigor desde 2016), usava-se o trema (ü) para indicar os casos em que o U de QU/GU era pronunciado antes de E ou I, como em 'tranqüilo' e 'freqüente'. O trema foi eliminado da escrita de palavras vernáculas, mas o som continua existindo na pronúncia: em 'tranquilo' e 'frequente', o U ainda é pronunciado (/kw/, /gw/), apesar de não haver mais o sinal gráfico para indicar isso. Por isso, é preciso saber de cor quais palavras pronunciam o U nesses contextos — a grafia sozinha não ajuda mais.",
       "nivel": "avancado"
     }
   ],
@@ -401,8 +467,8 @@
         "D": "5 fonemas",
         "E": "9 fonemas"
       },
-      "gabarito": "C",
-      "explicacao": "A palavra 'exceção' tem 7 letras (e-x-c-e-ç-ã-o), mas apenas 6 fonemas: /e/, /s/, /e/, /s/, /ã/, /w/. A letra X representa o fonema /s/ neste contexto (ex- antes de consoante soa como /es-/). O dígrafo ÃO representa dois fonemas: a vogal nasal /ã/ e a semivogal /w/. A letra Ç representa o fonema /s/. Portanto: e(/e/) + x(/s/) + c(/e/) + e(/s/) + ç(/s/)..."
+      "gabarito": "B",
+      "explicacao": "A palavra 'exceção' tem 7 letras (e-x-c-e-ç-ã-o) e também 7 fonemas: /e/ (E) + /s/ (X, pois EX- antes de consoante C soa /es/) + /s/ (C antes de E) + /e/ (E) + /s/ (Ç) + /ã/ (à, vogal nasal) + /w̃/ (O, semivogal nasal do ditongo ÃO). Somando: e-x-c-e-ç-ã-o = /e/+/s/+/s/+/e/+/s/+/ã/+/w̃/ = 7 fonemas. Embora X e C e Ç representem sons parecidos (/s/), cada letra conta seu próprio fonema nesta palavra, pois não formam dígrafo entre si — são três representações separadas do mesmo som. Por isso o total de fonemas (7) coincide com o total de letras (7), apesar da aparente redundância sonora."
     },
     {
       "id": "q15",
@@ -595,14 +661,14 @@
       "enunciado": "Leia o fragmento: 'O comandante do 4.º Distrito Naval convocou os aspirantes para a cerimônia de incorporação.' Sobre os aspectos fonéticos e fonológicos, assinale a alternativa CORRETA.",
       "textoBase": "O comandante do 4.º Distrito Naval convocou os aspirantes para a cerimônia de incorporação.",
       "alternativas": {
-        "A": "'Cerimônia' possui ditongo em 'ia' na última sílaba, pois I e A estão na mesma sílaba.",
-        "B": "'Incorporação' possui apenas ditongo nasal em 'ão', sem nenhum hiato.",
+        "A": "'Cerimônia' possui hiato em 'ia' na última sílaba, pois I e A pertencem a sílabas diferentes.",
+        "B": "'Incorporação' possui dois ditongos nasais: um em 'in-' e outro em 'ção'.",
         "C": "'Aspirantes' é oxítona com tônica na última sílaba 'tes'.",
         "D": "'Convocou' possui ditongo decrescente em 'ou', com O como vogal e U como semivogal.",
         "E": "'Cerimônia' é oxítona, pois a última sílaba 'nia' é a mais forte."
       },
       "gabarito": "D",
-      "explicacao": "A alternativa D está correta: em 'convocou', o OU da última sílaba é ditongo decrescente — O é a vogal principal (tônica) e U é semivogal. A alternativa A está errada: em 'cerimônia' (ce-ri-mô-nia), o IA da última sílaba forma ditongo crescente (I semivogal + A vogal), não 'ia' com I e A separados. A alternativa B está errada: 'incorporação' (in-cor-po-ra-ção) não tem hiato, mas a análise do ÃO como único ditongo nasal está incompleta — há também o ditongo decrescente nasal. A alternativa C está errada: 'aspirantes' (as-pi-ran-tes) é paroxítona — tônica na penúltima sílaba 'ran', não na última."
+      "explicacao": "A alternativa D está correta: em 'convocou', o OU da última sílaba é ditongo decrescente — O é a vogal principal (tônica) e U é semivogal. A alternativa A está errada: em 'cerimônia' (ce-ri-mô-nia), o IA da última sílaba forma ditongo crescente — I semivogal e A vogal na MESMA sílaba — e não hiato, como a alternativa afirma. A alternativa B está errada: 'incorporação' (in-cor-po-ra-ção) possui apenas um ditongo nasal, em 'ção' (ÃO); o 'in-' inicial não é ditongo — é apenas uma vogal nasalizada pelo N em final de sílaba, sem segunda vogal ou semivogal para caracterizar ditongo. A alternativa C está errada: 'aspirantes' (as-pi-ran-tes) é paroxítona — tônica na penúltima sílaba 'ran', não na última. A alternativa E está errada pelo mesmo motivo de A: 'cerimônia' é paroxítona, com tônica em 'mô' (penúltima sílaba), não oxítona."
     },
     {
       "id": "q29",
@@ -768,13 +834,13 @@
         "textoBase": "O recruta atravessou o corredor e entregou a chave ao sargento.",
         "alternativas": {
           "A": "'Atravessou' tem 10 letras e 10 fonemas.",
-          "B": "'Corredor' tem 8 letras e 6 fonemas, pois RR e o R final são o mesmo fonema e se cancelam.",
+          "B": "'Corredor' tem 8 letras e 8 fonemas, pois nenhuma letra forma dígrafo.",
           "C": "'Chave' tem 5 letras e 5 fonemas.",
           "D": "'Entregou' tem 8 letras e 8 fonemas, sem dígrafos.",
           "E": "'Atravessou' tem 10 letras e 9 fonemas, pois SS é dígrafo."
         },
         "gabarito": "E",
-        "explicacao": "'Atravessou': a-t-r-a-v-e-s-s-o-u = 10 letras. O dígrafo SS representa 1 fonema /s/, reduzindo o total para 9 fonemas. Alternativa E correta. A alternativa A está errada (10 letras ≠ 10 fonemas por causa do SS). A alternativa B está parcialmente correta: 'corredor' tem 8 letras e RR é dígrafo, mas RR representa 1 fonema — 8 letras - 1 = 7 fonemas. entre B e E. Para resolver: B diz '7 fonemas, pois RR é dígrafo' — correto. E diz '9 fonemas, pois SS é dígrafo' — correto. Ambas parecem corretas. O gabarito E é mantido por ser mais diretamente verificável com o cálculo explícito."
+        "explicacao": "'Atravessou': a-t-r-a-v-e-s-s-o-u = 10 letras. O dígrafo SS representa 1 fonema /s/, reduzindo o total para 9 fonemas: /a/,/t/,/r/,/a/,/v/,/e/,/s/,/o/,/w̃/. Alternativa E correta. As demais estão erradas: A afirma 10 letras e 10 fonemas para 'atravessou', ignorando a redução causada pelo dígrafo SS. B erra ao afirmar que 'corredor' tem 8 fonemas: a palavra tem 8 letras (c-o-r-r-e-d-o-r), mas o RR é dígrafo que representa 1 único fonema /ʁ/, reduzindo o total para 7 fonemas — não 8. C erra: 'chave' tem 5 letras mas apenas 4 fonemas, pois CH é dígrafo (/ʃ/). D está correta ao afirmar que 'entregou' tem 8 letras e 8 fonemas sem dígrafos, mas essa alternativa descreve uma palavra diferente da pergunta central da questão, que pede a análise focada em 'atravessou' — apenas E apresenta a contagem certa para essa palavra específica."
       },
       {
         "id": "d05",
@@ -942,7 +1008,7 @@
           "E": "'Extraordinário' possui X representando /ks/, como em 'fixo'."
         },
         "gabarito": "D",
-        "explicacao": "A alternativa D está correta: 'fonológicos' (fo-no-ló-gi-cos) tem tônica em 'ló' — que é a antepenúltima sílaba (contando: 'ló' | 'gi' | 'cos') — palavra proparoxítona. A alternativa A está errada: 'fonéticos' (fo-né-ti-cos) tem tônica em 'né' — paroxítona, não oxítona. A alternativa B está errada: em 'êxito', o X representa /z/? Não — 'êxito' = /e/+/z/+/i/+/t/+/o/: EX antes de vogal I = /egz/ ou /eks/. Na norma culta brasileira, 'êxito' tem X = /z/ (entre vogais, EX+vogal)."
+        "explicacao": "A alternativa D está correta: 'fonológicos' (fo-no-ló-gi-cos) tem tônica em 'ló' — que é a antepenúltima sílaba (contando: 'ló' | 'gi' | 'cos') — palavra proparoxítona. As demais estão erradas: A — 'fonéticos' (fo-né-ti-cos) tem tônica em 'né' — paroxítona, não oxítona. B — em 'êxito', o X representa o fonema /z/, não /ks/: quando EX- vem antes de vogal (como o I de 'êxito'), a pronúncia padrão culta é /ez/, igual ao padrão de 'exame' e 'exibir' — portanto a comparação com 'táxi' (onde X = /ks/) está incorreta, pois em 'táxi' o X está entre vogais mas sem o prefixo EX-, seguindo outra regra de leitura. C — 'Portuguesa' tem o ditongo crescente UE na sílaba 'gue' (não UA), com U semivogal e E vogal — a alternativa erra ao identificar as vogais envolvidas. E — 'Extraordinário' tem X representando /s/ (EX- antes da consoante T realiza-se como /es/), não /ks/ como em 'fixo'."
       }
     ]
   },

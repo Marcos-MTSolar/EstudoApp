@@ -34,8 +34,8 @@
       },
       {
         "subtitulo": "2. Próclise: quando o pronome vem antes",
-        "conteudo": "Pense nas palavras que 'puxam' o pronome para antes do verbo como ímãs. Quando esses ímãs estão presentes na frase, o pronome obrigatoriamente vai para antes do verbo.\n\nOs principais 'ímãs' que atraem o pronome para a próclise são: palavras negativas (não, nunca, ninguém, jamais), advérbios (sempre, já, ali, aqui, ainda), pronomes relativos (que, quem, onde), pronomes indefinidos (alguém, ninguém, tudo), conjunções subordinativas (se, quando, embora, porque) e preposições seguidas de infinitivo (ao falar, de se tratar).\n\nQuando qualquer um desses termos aparecer antes do verbo, o pronome vai junto com eles, antes do verbo. Não há opção.\n\nO erro clássico é ignorar o advérbio e usar ênclise: 'Nunca disseram-me' está errado; o correto é 'Nunca me disseram'.",
-        "regra": "Negativa + pronome + verbo · Advérbio + pronome + verbo · Relativo + pronome + verbo",
+        "conteudo": "Pense nas palavras que 'puxam' o pronome para antes do verbo como ímãs. Quando esses ímãs estão presentes na frase, o pronome obrigatoriamente vai para antes do verbo.\n\nOs principais 'ímãs' que atraem o pronome para a próclise obrigatória são: palavras negativas (não, nunca, ninguém, jamais), advérbios (sempre, já, ali, aqui, ainda — desde que não separados do verbo por vírgula), pronomes relativos (que, quem, onde), pronomes indefinidos (alguém, ninguém, tudo) e conjunções subordinativas (se, quando, embora, porque). Diante desses atrativos, o pronome vai junto com eles, antes do verbo — não há opção.\n\nUm caso à parte é o do infinitivo precedido de preposição (ao falar, de se tratar, para se apresentar): aqui a preposição NÃO funciona como atrativo obrigatório — ela apenas autoriza as duas construções, e tanto a próclise quanto a ênclise são aceitas pela norma culta: 'ao se apresentar' e 'ao apresentar-se' estão ambas corretas. Esse é um dos poucos pontos de colocação pronominal em que há liberdade real de escolha.\n\nO erro clássico é ignorar o advérbio e usar ênclise: 'Nunca disseram-me' está errado; o correto é 'Nunca me disseram'.",
+        "regra": "Negativa + pronome + verbo (obrigatório) · Advérbio + pronome + verbo (obrigatório) · Relativo + pronome + verbo (obrigatório) · Preposição + infinitivo → próclise OU ênclise, ambas aceitas",
         "exemplos": [
           {
             "texto_base": "Nunca se comunicou ao 4° Distrito Naval a ocorrência, e jamais lhe apresentaram as justificativas necessárias.",
@@ -141,6 +141,84 @@
             ]
           }
         ]
+      },
+      {
+        "subtitulo": "7. Colocação pronominal em locuções verbais",
+        "conteudo": "Locução verbal é a junção de um verbo auxiliar com um verbo principal (no infinitivo, gerúndio ou particípio), funcionando como um verbo só — e isso multiplica as posições possíveis para o pronome átono.\n\nQuando não há atrativo antes da locução, o pronome pode ir em três posições, todas aceitas pela norma culta: antes do verbo auxiliar (próclise ao conjunto: 'lhe quero dizer'), depois do verbo auxiliar, grudado ao verbo principal por hífen (ênclise ao principal: 'quero dizer-lhe' — a forma mais recomendada e mais comum em registro formal), ou, mais raramente, depois do próprio auxiliar quando ele está isolado por pausa (ênclise ao auxiliar: 'quero-lhe dizer', uso mais raro).\n\nQuando HÁ atrativo antes da locução (negativa, advérbio, relativo, indefinido, conjunção subordinativa), a próclise passa a ser obrigatória, e o pronome deve vir antes do verbo auxiliar: 'não lhe quero dizer' (nunca 'não quero dizer-lhe' como única opção — essa forma até é tolerada por alguns gramáticos modernos, mas o padrão mais cobrado pela banca, e mais seguro para a prova, é o pronome logo após o atrativo, antes do auxiliar).\n\nO erro mais comum é tentar prender o pronome sempre ao verbo principal, ignorando que, havendo atrativo, ele deve migrar para antes de toda a locução verbal.",
+        "regra": "Locução SEM atrativo → pronome antes do auxiliar, entre auxiliar e principal (ênclise ao principal, mais comum) ou depois do auxiliar isolado · Locução COM atrativo → pronome obrigatoriamente antes do auxiliar",
+        "exemplos": [
+          {
+            "texto_base": "O comandante quer lhe explicar o procedimento. Ele não lhe quer explicar o procedimento até que o relatório esteja pronto.",
+            "anotacoes": [
+              {
+                "trecho": "quer lhe explicar",
+                "destaque": "próclise ao conjunto (sem atrativo)",
+                "motivo": "Sem atrativo antes da locução, o pronome pode vir antes do auxiliar — uma das posições aceitas"
+              },
+              {
+                "trecho": "não lhe quer explicar",
+                "destaque": "próclise obrigatória (com atrativo)",
+                "motivo": "O advérbio 'não' é atrativo — o pronome migra obrigatoriamente para antes de toda a locução verbal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "8. Colocação pronominal com infinitivo dentro de locução negativa",
+        "conteudo": "Esse é um caso de fronteira que mistura duas regras já vistas — a da locução verbal e a da próclise obrigatória por negativa — e costuma confundir até quem já domina as regras isoladamente.\n\nQuando uma locução verbal com infinitivo está precedida de palavra negativa, a norma culta aceita até três posições, mas com uma delas sendo a mais recomendada: o pronome logo após a negativa e antes do verbo auxiliar ('não lhe posso dizer' — forma mais recomendada e mais segura para a prova), o pronome entre o auxiliar e o infinitivo mantendo a próclise ao infinitivo ('não posso lhe dizer' — também aceita, pois o pronome continua em próclise, só que ao verbo principal), ou, de forma menos recomendada mas ainda registrada por alguns gramáticos, ênclise ao infinitivo ('não posso dizer-lhe' — forma mais controversa, que a CEBRASPE tende a marcar como menos adequada ou mesmo incorreta em questões mais rígidas, por ferir o princípio de que a negativa deve ser respeitada com próclise em algum ponto da locução).\n\nO que nunca pode acontecer, em nenhuma hipótese, é a ênclise diretamente ao verbo auxiliar quando há negativa antes dele: 'não posso-lhe dizer' está sempre errado.\n\nO erro mais comum em prova é exatamente esse: aplicar ênclise ao auxiliar logo após a negativa, ignorando que o atrativo precisa ser respeitado antes do primeiro verbo da locução.",
+        "regra": "Negativa + locução com infinitivo → pronome antes do auxiliar (mais recomendado) OU antes do infinitivo (aceito) · NUNCA ênclise colada ao auxiliar logo após a negativa",
+        "exemplos": [
+          {
+            "texto_base": "O oficial não lhe pode confirmar a informação antes da reunião oficial com o comando.",
+            "anotacoes": [
+              {
+                "trecho": "não lhe pode confirmar",
+                "destaque": "próclise ao auxiliar (forma recomendada)",
+                "motivo": "Com negativa antes da locução, a posição mais segura e recomendada é o pronome logo após o atrativo, antes do verbo auxiliar"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "9. Dois pronomes átonos na mesma oração",
+        "conteudo": "Em registros mais formais e em textos de caráter mais elaborado (jurídico, literário ou administrativo mais rebuscado), é possível encontrar dois pronomes átonos na mesma oração, um funcionando como objeto direto e outro como objeto indireto.\n\nQuando isso ocorre, os pronomes de 3ª pessoa se combinam foneticamente: 'me' + 'o' = 'mo'; 'te' + 'a' = 'ta'; 'lhe' + 'o' = 'lho'; 'lhes' + 'as' = 'lhas'. Essas formas combinadas seguem as mesmas regras de colocação já estudadas (próclise, ênclise, mesóclise), de acordo com a presença ou ausência de atrativos: 'Ele mo entregou' (próclise, se houvesse atrativo) ou 'Entregou-mo' (ênclise, sem atrativo).\n\nEssas construções são raras na língua falada e pouco frequentes até mesmo na escrita contemporânea, mas a CEBRASPE pode cobrá-las em nível de reconhecimento, sobretudo em textos-base de registro mais formal ou arcaizante.\n\nO erro mais comum, quando esse tema aparece, é simplesmente não reconhecer a forma combinada como uma junção de dois pronomes, tratando-a como um pronome só ou como erro de grafia.",
+        "regra": "ME+O=MO · TE+A=TA · LHE+O=LHO · LHES+AS=LHAS — seguem as mesmas regras de próclise/ênclise/mesóclise da colocação simples",
+        "exemplos": [
+          {
+            "texto_base": "O comandante prometeu o documento ao oficial, e entregou-lho ainda naquela tarde.",
+            "anotacoes": [
+              {
+                "trecho": "entregou-lho",
+                "destaque": "pronomes combinados (lhe+o)",
+                "motivo": "'Lho' é a combinação de 'lhe' (objeto indireto, 'ao oficial') com 'o' (objeto direto, 'o documento'), em ênclise por ausência de atrativo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "10. Vírgula com conjunções e advérbios deslocados",
+        "conteudo": "Conjunções adversativas (mas, porém, contudo, todavia, entretanto) e certos advérbios (também, portanto, aliás) podem aparecer deslocados dentro da oração, em vez de no início — e, quando isso acontece, a pontuação muda.\n\nQuando a conjunção adversativa inicia a oração, não é seguida de vírgula obrigatória antes do verbo (a vírgula, se houver, separa a oração anterior): 'O oficial discordou, porém aceitou a decisão.'\n\nQuando a conjunção adversativa é deslocada para o meio da oração (depois do sujeito ou de outro termo), ela fica isolada por vírgulas dos dois lados: 'O oficial, porém, aceitou a decisão.' Essa é uma construção de registro mais formal, muito usada em textos oficiais e bastante explorada pela CEBRASPE em questões de reescritura e pontuação.\n\nO mesmo vale para advérbios conclusivos ou aditivos deslocados: 'Portanto, o prazo foi mantido' (início) ou 'O prazo, portanto, foi mantido' (deslocado, com vírgulas dos dois lados).\n\nO erro mais comum é esquecer uma das duas vírgulas quando a conjunção/advérbio está deslocado, isolando só de um lado.",
+        "regra": "Conjunção/advérbio no início → sem vírgula obrigatória antes do verbo · Conjunção/advérbio deslocado (meio da oração) → vírgulas OBRIGATÓRIAS dos dois lados",
+        "exemplos": [
+          {
+            "texto_base": "O comandante, entretanto, não autorizou a saída da embarcação; o pedido, portanto, foi arquivado.",
+            "anotacoes": [
+              {
+                "trecho": "O comandante, entretanto, não autorizou",
+                "destaque": "adversativa deslocada",
+                "motivo": "'Entretanto' foi deslocado para o meio da oração — exige vírgula antes E depois, isolando-o dos dois lados"
+              },
+              {
+                "trecho": "o pedido, portanto, foi arquivado",
+                "destaque": "advérbio conclusivo deslocado",
+                "motivo": "Mesmo padrão: advérbio conclusivo fora da posição inicial exige isolamento por vírgulas duplas"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -188,8 +266,8 @@
       "nivel": "basico"
     },
     {
-      "situacao": "Aplicar a regra da ênclise em verbo antecedido de preposição com infinitivo",
-      "dica": "Quando o infinitivo é precedido de preposição (ao, de, para, por, sem), o pronome vai antes dele em próclise, não depois. 'Ao se apresentar ao superior' é correto — não 'Ao apresentar-se'. A preposição mais infinitivo forma um contexto de atração pronominal. Esse erro é sutil porque o candidato vê o infinitivo e automaticamente pensa em ênclise, esquecendo a preposição que precede.",
+      "situacao": "Achar que existe uma única forma certa quando o infinitivo é precedido de preposição",
+      "dica": "Quando o infinitivo é precedido de preposição (ao, de, para, por, sem), a norma culta aceita as DUAS construções: próclise ('Ao se apresentar ao superior') e ênclise ('Ao apresentar-se ao superior') — nenhuma das duas está errada. A pegadinha da CEBRASPE geralmente não está em marcar uma delas como incorreta, mas em testar se o candidato sabe que ambas são válidas, ou em comparar com outros atrativos (como 'nunca', 'que', 'ninguém') que, esses sim, exigem próclise obrigatória, sem alternativa.",
       "nivel": "intermediario"
     },
     {
@@ -291,11 +369,11 @@
         "A": "O sargento chegou; e logo assumiu o comando.",
         "B": "O recruta obedeceu; porque tinha medo de punição.",
         "C": "O primeiro item era urgente; o segundo, importante; o terceiro, adiável.",
-        "D": "O almirante falou; todos silenciaram imediatamente.",
+        "D": "O almirante falou; mas.",
         "E": "A base naval foi inspecionada; resultando em aprovação."
       },
       "gabarito": "C",
-      "explicacao": "A alternativa C emprega corretamente o ponto e vírgula para separar itens de uma enumeração em que cada elemento já contém vírgula interna. Esse é um dos usos mais clássicos do ponto e vírgula. A alternativa A está errada porque ponto e vírgula antes de conjunção aditiva 'e' entre orações simples é desnecessário — usa-se vírgula. B está errada porque ponto e vírgula não separa oração principal de subordinada causal. D e E, embora plausíveis, perdem para C em clareza de aplicação da regra."
+      "explicacao": "A alternativa C emprega corretamente o ponto e vírgula para separar itens de uma enumeração em que cada elemento já contém vírgula interna. Esse é um dos usos mais clássicos do ponto e vírgula. As demais estão erradas: A usa ponto e vírgula antes de conjunção aditiva 'e' entre orações simples, o que é desnecessário — usa-se vírgula ou nenhuma pontuação; B usa ponto e vírgula entre oração principal e subordinada causal, separação não prevista para esse tipo de relação; D apresenta uma oração incompleta após o ponto e vírgula ('mas.'), o que é erro de construção, já que o ponto e vírgula deve separar duas orações com sentido completo; E usa gerúndio ('resultando') para introduzir uma ideia de consequência após o ponto e vírgula, construção que foge ao padrão de coordenação entre orações completas e soa como oração reduzida mal encaixada, não equivalente às demais."
     },
     {
       "id": "q08",
@@ -432,30 +510,30 @@
       "id": "q17",
       "nivel": "intermediario",
       "textoBase": "Cumpra-se a ordem. Comunique-se ao pessoal envolvido. Arquivem-se os documentos pertinentes.",
-      "enunciado": "Assinale a alternativa em que a reescritura mantém a correção gramatical E preserva o sentido original.",
+      "enunciado": "Assinale a alternativa em que a reescritura NÃO mantém a correção gramatical.",
       "alternativas": {
-        "A": "\"Sempre nos avisavam\" → \"Sempre avisavam-nos\" — incorreto, pois o advérbio \"sempre\" exige próclise",
-        "B": "\"Entregaram-lhe o ofício\" → \"O ofício foi-lhe entregue\" — correto, voz passiva com manutenção da próclise por atrativo implícito",
-        "C": "\"Não o informaram\" → \"Informaram-no\" — incorreto apenas em contexto com negativa",
-        "D": "\"Disseram-me a verdade\" → \"A verdade disseram-me\" — incorreto: sujeito posposto com pronome em ênclise é construção inaceitável nesse contexto",
-        "E": "\"Ninguém lhe comunicou\" → \"Ninguém comunicou-lhe\" — incorreto: \"ninguém\" é atrativo que obriga próclise"
+        "A": "\"Entregaram-lhe o ofício\" → \"O ofício foi-lhe entregue\"",
+        "B": "\"Comunicou-se ao pessoal\" → \"Foi comunicado ao pessoal\"",
+        "C": "\"Ao se apresentar ao superior\" → \"Ao apresentar-se ao superior\"",
+        "D": "\"Disseram-me a verdade\" → \"A verdade disseram-me\"",
+        "E": "\"Entregou-nos o relatório\" → \"O relatório nos foi entregue\""
       },
       "gabarito": "D",
-      "explicacao": "A questão pede a reescritura que NÃO mantém a correção gramatical. A alternativa D está correta como gabarito: 'Disseram-me a verdade' → 'A verdade disseram-me' é inaceitável. Com o objeto 'A verdade' anteposto ao verbo, há um elemento antes do verbo que poderia ser atrativo; contudo, a ênclise ao verbo 'disseram' deixa o pronome 'me' em posição praticamente de início de enunciado após pausa implícita — construção rejeitada pela norma culta. As demais alternativas identificam reescritas incorretas com justificativas corretas: A ('Sempre nos avisavam' → 'Sempre avisavam-nos') está errada porque 'sempre' é atrativo que impõe próclise; E ('Ninguém lhe comunicou' → 'Ninguém comunicou-lhe') está errada porque 'ninguém' é atrativo que impõe próclise. As alternativas B e C apresentam reescritas que MANTÊM a correção, portanto não são o gabarito."
+      "explicacao": "A alternativa D é a única reescritura que NÃO mantém a correção gramatical: 'Disseram-me a verdade' → 'A verdade disseram-me' é inaceitável, pois deixa o pronome 'me' em ênclise logo após uma pausa implícita gerada pelo deslocamento do objeto 'A verdade' para o início da oração — a norma culta rejeita essa construção; o correto seria 'A verdade me disseram'. As demais mantêm a correção gramatical: A e E transformam corretamente a voz ativa em passiva, preservando a próclise ao verbo auxiliar 'foi'; B também converte corretamente para a voz passiva, com o verbo 'foi comunicado' concordando com a estrutura impessoal original; C apresenta um caso de preposição + infinitivo, contexto em que tanto a próclise ('se apresentar') quanto a ênclise ('apresentar-se') são aceitas pela norma culta, de modo que a reescritura mantém integralmente a correção."
     },
     {
       "id": "q18",
       "nivel": "intermediario",
       "enunciado": "Em qual das alternativas abaixo a reescritura do trecho sublinhado está INCORRETA?",
       "alternativas": {
-        "A": "'Nunca se soube o motivo' → 'O motivo nunca foi sabido' — correto",
-        "B": "'Entregaram-lhe o ofício' → 'O ofício foi-lhe entregue' — correto",
-        "C": "'Não o informaram' → 'Não informaram-o' — incorreto",
-        "D": "'Disse-me a verdade' → 'Disse-me a verdade.' — correto, sem alteração",
-        "E": "'Disse-me a verdade' → 'A verdade disse-me' — incorreto"
+        "A": "'Nunca se soube o motivo' → 'O motivo nunca foi sabido'",
+        "B": "'Entregaram-lhe o ofício' → 'O ofício foi-lhe entregue'",
+        "C": "'Não o informaram' → 'Não informaram-o'",
+        "D": "'Comunicou-se a decisão' → 'A decisão foi comunicada'",
+        "E": "'Ao se apresentar ao superior' → 'Ao apresentar-se ao superior'"
       },
       "gabarito": "C",
-      "explicacao": "A questão pede a reescritura INCORRETA. A alternativa C está correta como gabarito: 'Não informaram-o' está errado porque o advérbio negativo 'Não' é atrativo pronominal que obriga a próclise — a forma correta seria 'Não o informaram'. As demais alternativas identificam reescritas corretas ou não-reescritas: A ('Nunca se soube' → 'O motivo nunca foi sabido') é reescritura correta em voz passiva; B ('Entregaram-lhe o ofício' → 'O ofício foi-lhe entregue') é correta — 'foi-lhe' em voz passiva com próclise por atrativo implícito; D mantém a frase original sem reescritura, portanto não apresenta erro; E ('Disse-me a verdade' → 'A verdade disse-me') teria ambiguidade mas não é o foco principal da questão. O gabarito inequívoco é C."
+      "explicacao": "A alternativa C é a única reescritura INCORRETA: 'Não informaram-o' está errado porque o advérbio negativo 'Não' é atrativo pronominal obrigatório — ele impõe a próclise, e a forma correta seria 'Não o informaram'. As demais alternativas apresentam reescritas corretas: A ('O motivo nunca foi sabido') é reescritura correta em voz passiva, mantendo a próclise ao verbo auxiliar 'foi' por força do advérbio 'nunca'; B ('O ofício foi-lhe entregue') também está correta, com 'foi-lhe' em ênclise ao verbo auxiliar da voz passiva, sem atrativo antes dele; D converte corretamente a construção com partícula apassivadora 'se' para a voz passiva analítica, mantendo a concordância e a correção gramatical; E apresenta um caso de preposição + infinitivo, contexto em que tanto a próclise quanto a ênclise são aceitas pela norma culta, portanto mantém a correção gramatical."
     },
     {
       "id": "q19",
@@ -634,7 +712,7 @@
         "E": "todos em próclise pelas conjunções subordinativas presentes em cada oração"
       },
       "gabarito": "B",
-      "explicacao": "A alternativa B está correta. O advérbio de negação 'Nunca' atrai o primeiro 'se' para a próclise em 'se imaginaria'. O advérbio 'tampouco' (também negativo: 'também não') atrai o segundo 'se' para a próclise em 'se esperava'. O pronome 'la' em 'cumpri-la' está em ênclise porque o infinitivo 'cumprir' está dentro de uma oração subordinada sem atrativo pronominal imediato antes do infinitivo ('deixassem de cumpri-la' — a preposição 'de' está antes do infinitivo, mas o contexto específico é de ênclise ao infinitivo). A alternativa A erra ao usar ênclise com atrativos presentes. As demais combinam posições incorretas."
+      "explicacao": "A alternativa B está correta. O advérbio de negação 'Nunca' atrai o primeiro 'se' para a próclise em 'se imaginaria'. O advérbio 'tampouco' (também negativo: 'também não') atrai o segundo 'se' para a próclise em 'se esperava'. O pronome 'la' em 'cumpri-la' está em ênclise: o infinitivo 'cumprir' é precedido pela preposição 'de' ('deixassem de cumpri-la'), e nesse contexto tanto a próclise ('de a cumprir') quanto a ênclise ('de cumpri-la') seriam aceitas pela norma culta — o trecho optou pela ênclise, forma também plenamente correta. A alternativa A erra ao usar ênclise nos dois primeiros pronomes, ignorando os atrativos 'Nunca' e 'tampouco'. As demais combinam posições incorretas."
     }
   ],
   "simulado": [

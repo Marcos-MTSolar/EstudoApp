@@ -166,6 +166,97 @@
             ]
           }
         ]
+      },
+      {
+        "subtitulo": "7. Uso de maiúsculas e minúsculas",
+        "conteudo": "Pense nas iniciais maiúsculas como um sinal de 'isto aqui é único' — um nome próprio, uma instituição específica, um marco que a língua quer destacar do restante do texto. O Acordo Ortográfico de 2016 simplificou e uniformizou boa parte dessas regras, e a CEBRASPE cobra com frequência se o candidato sabe quando usar maiúscula em textos de redação oficial.\n\nUsa-se maiúscula inicial em: nomes próprios de pessoas, lugares e instituições ('Marinha do Brasil', 'Comando do 4° Distrito Naval'); nomes de órgãos públicos, ministérios e repartições quando designam uma instituição específica ('o Ministério da Defesa publicou a portaria'); títulos de obras (apenas a primeira palavra e nomes próprios dentro do título); e no início de frases e depois de ponto final.\n\nUsa-se minúscula em: nomes dos dias da semana, meses e estações do ano ('a reunião ocorrerá em março'); nomes de cargos e patentes quando usados de forma genérica, não como vocativo direto ('o almirante determinou' — minúscula; mas em início de frase ou vocativo direto, 'Almirante, o senhor autoriza?' pode levar maiúscula por tratamento); e nomes de disciplinas, a menos que iniciem período.\n\nCaso especial de concurso: em editais e documentos oficiais da Marinha, é comum encontrar 'Oficial', 'Comando' e 'Base Naval' grafados com maiúscula mesmo em uso aparentemente genérico — isso ocorre porque, no contexto, essas palavras se referem a uma instituição ou cargo específico e determinado, não a um uso genérico da palavra. A CEBRASPE explora justamente essa diferença entre uso genérico (minúscula) e uso específico/institucional (maiúscula).\n\nO erro mais comum é aplicar maiúscula a qualquer palavra que pareça 'importante' no contexto militar, sem verificar se ela está sendo usada como nome próprio/institucional específico ou como palavra comum.",
+        "regra": "Maiúscula: nomes próprios, instituições específicas, início de frase · Minúscula: dias, meses, estações, cargos em uso genérico · Dúvida: pergunte se é um uso específico/único ou genérico",
+        "exemplos": [
+          {
+            "texto_base": "O Comando do 4° Distrito Naval informou que, em março, o almirante responsável pela Base Naval de Natal participará da sessão ordinária do Conselho.",
+            "anotacoes": [
+              {
+                "trecho": "Comando do 4° Distrito Naval",
+                "destaque": "Maiúscula (instituição específica)",
+                "motivo": "Nome próprio de uma instituição determinada — exige maiúscula em todas as palavras principais"
+              },
+              {
+                "trecho": "março",
+                "destaque": "Minúscula (mês)",
+                "motivo": "Nomes de meses são grafados com minúscula no português, mesmo em documentos oficiais"
+              },
+              {
+                "trecho": "almirante",
+                "destaque": "Minúscula (uso genérico)",
+                "motivo": "'Almirante' aqui designa a patente de forma genérica, não como vocativo direto nem título antes do nome — minúscula"
+              },
+              {
+                "trecho": "Base Naval de Natal",
+                "destaque": "Maiúscula (nome próprio)",
+                "motivo": "Nome próprio de uma unidade específica e determinada — exige maiúscula"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "8. Derivação e a escolha entre -ção, -ssão e -são",
+        "conteudo": "Um dos pontos mais traiçoeiros da ortografia é escolher a terminação certa ao transformar um verbo em substantivo abstrato. Pense nisso como uma 'etiqueta de origem': a forma do verbo no infinitivo costuma indicar qual terminação o substantivo correspondente vai usar.\n\nVerbos terminados em -TER geram substantivos em -ENÇÃO: deter → detenção, reter → retenção, manter → manutenção (exceção de forma, mas mesma lógica), conter → contenção. Verbos terminados em -PRIMIR geram substantivos em -PRESSÃO: imprimir → impressão, comprimir → compressão, exprimir → expressão.\n\nVerbos terminados em -DER ou -DIR geram substantivos em -SÃO (quando o radical termina em D): expandir → expansão, compreender → compreensão, pretender → pretensão. Verbos terminados em -TIR ou -VERTER geram substantivos em -SÃO também: divertir → diversão, converter → conversão, inverter → inversão.\n\nJá verbos terminados em -CEDER, -CUTIR, -GREDIR e -PELIR geram substantivos em -SSÃO: conceder → concessão, discutir → discussão, agredir → agressão, repelir → repulsão (exceção de forma, mas segue o padrão de duplo S em alguns casos como 'expulsão').\n\nEssa regra de derivação é o que explica por que 'cessão' (de ceder) usa SS, mas 'sessão' (do latim 'sessio', sem verbo de origem direta em português) também usa SS, e 'seção' (de 'secar'/'seccionar', ligado a 'corte, parte') usa apenas Ç. São três palavras parônimas que chegam a essas grafias por caminhos etimológicos diferentes, não por uma regra única.\n\nO erro mais comum é tentar aplicar uma única regra para explicar 'cessão', 'sessão' e 'seção' — na verdade, cada uma tem uma origem e uma lógica de formação distintas, e o candidato precisa memorizar o significado de cada uma para escolher a grafia certa no contexto.",
+        "regra": "-TER → -ENÇÃO · -PRIMIR → -PRESSÃO · -DER/-DIR → -SÃO · -CEDER/-CUTIR/-GREDIR → -SSÃO · Cessão/sessão/seção: três origens diferentes, não uma regra única",
+        "exemplos": [
+          {
+            "texto_base": "O oficial obteve a retenção do processo até a conclusão da discussão sobre a expansão do efetivo naval.",
+            "anotacoes": [
+              {
+                "trecho": "retenção",
+                "destaque": "-TER → -ENÇÃO",
+                "motivo": "De 'reter' (terminado em -TER), o substantivo correspondente é 'retenção'"
+              },
+              {
+                "trecho": "discussão",
+                "destaque": "-CUTIR → -SSÃO",
+                "motivo": "De 'discutir' (terminado em -CUTIR), o substantivo correspondente é 'discussão', com SS"
+              },
+              {
+                "trecho": "expansão",
+                "destaque": "-DIR → -SÃO",
+                "motivo": "De 'expandir' (terminado em -DIR, radical em D), o substantivo correspondente é 'expansão', com S simples"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "9. Hífen em palavras compostas por justaposição (sem prefixo)",
+        "conteudo": "Até aqui você aprendeu as regras de hífen para PREFIXOS (CO-, ANTI-, SUB-, EX- etc.) combinados com uma palavra-base. Mas há outro grupo de palavras com hífen que não envolve prefixo nenhum: são os compostos por justaposição, formados pela união de duas palavras que já existem de forma independente, cada uma com sentido próprio — como 'guarda-roupa' (guarda + roupa) ou 'segunda-feira' (segunda + feira).\n\nA regra para esses compostos é diferente da regra de prefixo+vogal/consoante: mantém-se o hífen quando os elementos mantêm uma individualidade fonética, ou seja, quando cada palavra ainda soa como uma palavra separada dentro do composto, especialmente em substantivos formados por [substantivo + substantivo], [substantivo + adjetivo] ou [verbo + substantivo] que designam espécies, cargos ou vínculos: guarda-costas, guarda-roupa, segunda-feira, mesa-redonda, decreto-lei, conta-gotas.\n\nPerdem o hífen e passam a ser escritos em uma só palavra os compostos em que a noção de composição se perdeu pelo uso (lexicalização), como 'girassol' (gira + sol), 'passatempo' (passa + tempo) e 'paraquedas' (para + quedas) — mesmo tendo a mesma estrutura morfológica de 'para-raios' (que mantém o hífen).\n\nA diferença crucial para a prova: não confunda esse grupo com as regras de prefixo. 'Guarda-roupa' não tem prefixo — 'guarda' é forma do verbo 'guardar' funcionando como elemento de composição, e a regra de hífen aqui vem do costume consagrado da língua (lista fixada pelo VOLP — Vocabulário Ortográfico da Língua Portuguesa), não da regra de vogal/consoante igual ou diferente.\n\nO erro mais comum é tentar aplicar a regra de 'vogal igual = hífen' a esses compostos, como se 'guarda-roupa' seguisse a mesma lógica de 'anti-higiênico'. Para compostos por justaposição sem prefixo, não há fórmula automática — é necessário memorizar a grafia consagrada de cada palavra composta.",
+        "regra": "Compostos por justaposição (sem prefixo): hífen por uso consagrado, não por regra de vogal/consoante · Lexicalizados (perderam a noção de composição): uma só palavra, sem hífen · Não confundir com a regra de prefixo",
+        "exemplos": [
+          {
+            "texto_base": "O guarda-costas verificou o conteúdo do guarda-roupa antes da segunda-feira, enquanto o passatempo favorito do recruta era observar o girassol no jardim da base.",
+            "anotacoes": [
+              {
+                "trecho": "guarda-costas",
+                "destaque": "Composto com hífen (sem prefixo)",
+                "motivo": "Substantivo + substantivo, sem prefixo — hífen por grafia consagrada, não por regra de vogal/consoante"
+              },
+              {
+                "trecho": "segunda-feira",
+                "destaque": "Composto com hífen (sem prefixo)",
+                "motivo": "Numeral + substantivo formando unidade lexical fixa — hífen consagrado pelo uso"
+              },
+              {
+                "trecho": "passatempo",
+                "destaque": "Lexicalizado (sem hífen)",
+                "motivo": "'Passa' + 'tempo' perderam a individualidade fonética pelo uso — grafia unida em uma só palavra"
+              },
+              {
+                "trecho": "girassol",
+                "destaque": "Lexicalizado (sem hífen)",
+                "motivo": "'Gira' + 'sol' também se uniram em uma só palavra pelo uso consagrado, apesar da estrutura parecida com compostos hifenizados"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -186,9 +277,9 @@
     },
     {
       "titulo": "Iminente versus eminente",
-      "errado": "O comandante era uma pessoa eminente de ser promovido àquele posto.",
-      "correto": "O comandante era uma pessoa iminente de ser promovido àquele posto.",
-      "explicacao": "Nenhuma das duas formas está certa no sentido de 'prestes a' seguida de 'de ser promovido' — o correto seria 'estava iminente a promoção'. Mas o erro clássico da banca é trocar 'iminente' (prestes a ocorrer) por 'eminente' (ilustre, de destaque). 'Eminente' qualifica pessoas ou situações de grande destaque; 'iminente' indica algo que está prestes a acontecer.",
+      "errado": "A promoção do comandante era eminente, segundo os boatos do quartel.",
+      "correto": "A promoção do comandante era iminente, segundo os boatos do quartel.",
+      "explicacao": "O erro clássico da banca é trocar 'iminente' (prestes a ocorrer) por 'eminente' (ilustre, de destaque). Aqui o sentido pretendido é o de que a promoção estava prestes a acontecer — por isso o correto é 'iminente'. 'Eminente' serviria para qualificar o próprio comandante como pessoa de grande destaque ('o eminente comandante'), mas não se aplica a um evento que ainda vai ocorrer.",
       "nivel": "intermediario"
     },
     {
@@ -271,14 +362,14 @@
       "nivel": "basico",
       "enunciado": "O som /s/ em português pode ser representado por diferentes letras e combinações. Assinale a alternativa que apresenta apenas palavras em que o som /s/ é representado por letras DIFERENTES entre si.",
       "alternativas": {
-        "A": "sargento, sessão, cisco",
+        "A": "sargento, suave, passo",
         "B": "certo, sessão, laço",
-        "C": "sargento, certo, sessão",
-        "D": "cisco, sargento, certo",
-        "E": "laço, sessão, cisco"
+        "C": "sargento, suave, certo",
+        "D": "passo, sessão, massa",
+        "E": "certo, cego, aceita"
       },
       "gabarito": "B",
-      "explicacao": "Em 'certo' o som /s/ é representado pela letra C; em 'sessão' pelo dígrafo SS; em 'laço' pela letra Ç — três representações gráficas diferentes do mesmo som. Na alternativa A, 'sargento' usa S e 'sessão' usa SS, mas 'cisco' também usa SC — são diferentes, mas a combinação não é a mais clara pedagogicamente. Na alternativa B, C, SS e Ç são inequivocamente distintos. As demais alternativas repetem representações ou não apresentam três grafias distintas."
+      "explicacao": "Em 'certo' o som /s/ é representado pela letra C; em 'sessão' pelo dígrafo SS; em 'laço' pela letra Ç — três representações gráficas diferentes do mesmo som, sem nenhuma repetição. Na alternativa A, 'sargento' e 'suave' repetem a letra S. Na alternativa C, as três palavras usam apenas S ou C, sem a terceira grafia distinta. Na alternativa D, 'passo' e 'massa' repetem o dígrafo SS. Na alternativa E, 'certo', 'cego' e 'aceita' usam todas a letra C para o som /s/, sem variação. Apenas a alternativa B reúne três grafias diferentes (C, SS, Ç) sem nenhuma repetição entre si."
     },
     {
       "id": "q05",
@@ -361,8 +452,8 @@
         "D": "super interessante",
         "E": "superrinteressante"
       },
-      "gabarito": "A",
-      "explicacao": "'Super-interessante': SUPER- termina em R (consoante); 'interessante' começa com I (vogal). Quando prefixo terminado em consoante precede palavra iniciada em vogal, não há hífen em geral — mas SUPER- é exceção frequentemente grafada com hífen antes de vogal. A norma mais aceita e cobrada pela CEBRASPE é 'super-interessante' com hífen, pois evita a leitura do R como parte da palavra seguinte. As formas sem hífen e com espaço estão erradas. 'Superrinteressante' é grafia inexistente."
+      "gabarito": "B",
+      "explicacao": "'Superinteressante' é a grafia correta, sem hífen. SUPER- termina em R (consoante); 'interessante' começa com I (vogal). A regra geral para prefixos terminados em consoante é: hífen somente quando a palavra-base começa pela MESMA consoante (como em 'inter-regional', R+R) ou por H; diante de vogal ou de consoante diferente, não há hífen — é a mesma lógica de 'submarino' (SUB- + M) e 'suboficial' (SUB- + O). A alternativa A erra ao inserir hífen onde a regra não exige. A alternativa C erra ao acentuar 'súper', forma inexistente (o prefixo é SUPER-, sem acento). A alternativa D está errada por grafar como duas palavras separadas, sem prefixação. A alternativa E é grafia inexistente."
     },
     {
       "id": "q11",

@@ -134,6 +134,38 @@
             ]
           }
         ]
+      },
+      {
+        "subtitulo": "6. Hibridismo, onomatopeia e reduplicação",
+        "conteudo": "Além da derivação e da composição, o português tem mais três processos de formação de palavras que aparecem com menos frequência, mas que a banca gosta de cobrar justamente porque poucos candidatos estudam com atenção.\n\nO HIBRIDISMO ocorre quando uma palavra é formada por radicais de línguas diferentes, misturados numa única palavra nova. É um processo distinto da composição comum, porque o que define o hibridismo não é a quantidade de radicais, mas a origem diferente deles. Exemplos clássicos: 'automóvel' (auto- do grego + -móvel do latim), 'sociologia' (socio- do latim + -logia do grego), 'burocracia' (buro- do francês + -cracia do grego), 'televisão' (tele- do grego + -visão do latim), 'monocultura' (mono- do grego + -cultura do latim). Repare que, na superfície, essas palavras parecem composições comuns — o que elas têm de especial é a origem etimológica mista dos radicais, algo que só se percebe conhecendo a etimologia de cada peça.\n\nA ONOMATOPEIA é a formação de palavras que tentam reproduzir, pela escrita, um som da natureza, de um animal ou de uma ação. Exemplos: 'tique-taque' (som do relógio), 'miau' (som do gato), 'zunzum' (som de inseto voando), 'tlim' (som de sino pequeno), 'plim' (som de queda leve). A onomatopeia não deriva de nenhuma palavra-base nem junta radicais com sentido próprio — ela nasce diretamente da tentativa de imitar um som pela grafia.\n\nA REDUPLICAÇÃO é a repetição de uma sílaba ou de toda a palavra para formar uma nova palavra, geralmente com valor expressivo ou infantil. Exemplos: 'blá-blá-blá' (fala excessiva e vazia), 'tique-tique' (variação de tique-taque), 'dói-dói' (linguagem infantil para dor), 'fru-fru' (som de tecido). Note que a reduplicação é diferente da composição comum: aqui a mesma unidade sonora se repete, em vez de se juntarem duas palavras distintas.\n\nA regra prática para diferenciar: se a palavra tenta imitar um som real, é onomatopeia; se repete a mesma sílaba ou palavra, é reduplicação; se combina radicais de línguas diferentes (o que exige conhecimento de etimologia, não só da forma atual da palavra), é hibridismo.",
+        "regra": "Hibridismo = radicais de línguas diferentes (automóvel, sociologia) · Onomatopeia = imita som (miau, tique-taque) · Reduplicação = repete sílaba/palavra (blá-blá-blá)",
+        "exemplos": [
+          {
+            "texto_base": "O som do motor fazia um ronco tipo vrum-vrum, lembrando o barulho de um automóvel antigo equipado com um velho telefone que ainda tocava tlim-tlim.",
+            "anotacoes": [
+              {
+                "trecho": "vrum-vrum",
+                "destaque": "Reduplicação/Onomatopeia",
+                "motivo": "Repetição da mesma unidade sonora tentando imitar o som do motor — combina reduplicação com valor onomatopaico"
+              },
+              {
+                "trecho": "automóvel",
+                "destaque": "Hibridismo",
+                "motivo": "'Auto-' vem do grego (ideia de 'por si mesmo') e '-móvel' vem do latim — radicais de línguas diferentes na mesma palavra"
+              },
+              {
+                "trecho": "telefone",
+                "destaque": "Hibridismo",
+                "motivo": "'Tele-' (grego, 'à distância') + '-fone' (grego também, neste caso) — exemplo consagrado de palavra formada por radicais eruditos combinados"
+              },
+              {
+                "trecho": "tlim-tlim",
+                "destaque": "Onomatopeia + Reduplicação",
+                "motivo": "Imita o som do telefone tocando, com a sílaba repetida para reforçar a ideia de som contínuo"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -486,7 +518,7 @@
         "E": "Nenhuma das três apresenta prefixo"
       },
       "gabarito": "C",
-      "explicacao": "Em 'desmilitarização', há o prefixo 'des-' e o sufixo '-ização' anexados ao radical ligado a 'militar', configurando uma derivação combinada de prefixo e sufixo. Em 'reincorporação', o prefixo 're-' se soma ao radical 'incorporar', mantendo a ideia de repetição. Já em 'cafeicultoramente', há a vogal de ligação 'i' entre 'café' e 'cultor', seguida do sufixo '-mente'. Nenhuma das três é composição, pois não há junção de duas palavras independentes; logo, as alternativas A e D estão incorretas, assim como a C, que ignora a presença evidente de afixos, e a E, que nega prefixos claramente identificáveis no texto."
+      "explicacao": "Em 'desmilitarização', há o prefixo 'des-' e o sufixo '-ização' anexados ao radical ligado a 'militar', configurando uma derivação combinada de prefixo e sufixo. Em 'reincorporação', o prefixo 're-' se soma ao radical 'incorporar', mantendo a ideia de repetição. Já em 'cafeicultoramente', há a vogal de ligação 'i' entre 'café' e 'cultor', seguida do sufixo '-mente'. Nenhuma das três é composição, pois não há junção de duas palavras independentes; logo, as alternativas A e D estão incorretas, assim como a B, que ignora a presença evidente de afixos, e a E, que nega prefixos claramente identificáveis no texto."
     },
     {
       "id": "q22",

@@ -29,8 +29,8 @@
       },
       {
         "subtitulo": "2. Casos em que a crase é obrigatória",
-        "conteudo": "Imagine uma lista de convites confirmados: esses convidados com certeza vão aparecer. A crase obrigatória funciona assim — em certas situações, ela sempre aparece, sem exceção.\n\nA crase é obrigatória antes de substantivos femininos precedidos de artigo definido 'a'. Exemplo: 'O oficial foi à cerimônia' (cerimônia pede artigo, e o verbo 'ir' exige preposição 'a'). Também é obrigatória antes de pronomes demonstrativos femininos 'aquela', 'aquele' — espera, 'aquele' é masculino, só 'aquela', 'aquelas', 'aquilo' quando substituíveis por artigo feminino. Mais precisamente: antes de 'aquela(s)' e 'aquilo' quando há preposição antes. Exemplo: 'Refiro-me àquela portaria' (à + aquela).\n\nAlém disso, a crase é obrigatória em locuções adverbiais, prepositivas e conjuntivas femininas já fixadas na língua: à tarde, às vezes, à medida que, à proporção que, às pressas, à direita, à esquerda, à vontade, à toa.\n\nO erro mais comum é não reconhecer as locuções e escrever 'as vezes' (sem crase) quando o sentido é 'algumas vezes' — isso muda o significado.",
-        "regra": "Obrigatória: sust. fem. com artigo · pronomes àquele(a)/àquilo · locuções (à tarde, às vezes, à medida que...)",
+        "conteudo": "Imagine uma lista de convites confirmados: esses convidados com certeza vão aparecer. A crase obrigatória funciona assim — em certas situações, ela sempre aparece, sem exceção.\n\nA crase é obrigatória antes de substantivos femininos precedidos de artigo definido 'a'. Exemplo: 'O oficial foi à cerimônia' (cerimônia pede artigo, e o verbo 'ir' exige preposição 'a'). Também é obrigatória antes dos pronomes demonstrativos 'aquele(s)', 'aquela(s)' e 'aquilo', sempre que a preposição 'a' é exigida antes deles — a fusão ocorre independentemente de o pronome ser masculino, feminino, singular, plural ou neutro, porque o que importa é a presença conjunta da preposição e do pronome iniciado por 'a'. Exemplo: 'Refiro-me àquela portaria' (à + aquela).\n\nAlém disso, a crase é obrigatória em locuções adverbiais, prepositivas e conjuntivas femininas já fixadas na língua: à tarde, às vezes, à medida que, à proporção que, às pressas, à direita, à esquerda, à vontade, à toa.\n\nO erro mais comum é não reconhecer as locuções e escrever 'as vezes' (sem crase) quando o sentido é 'algumas vezes' — isso muda o significado.",
+        "regra": "Obrigatória: sust. fem. com artigo · pronomes àquele(s)/àquela(s)/àquilo · locuções (à tarde, às vezes, à medida que...)",
         "exemplos": [
           {
             "texto_base": "O recruta chegou à base às pressas e, às vezes, esquecia-se de referir-se àquela norma com o devido respeito.",
@@ -61,7 +61,7 @@
       },
       {
         "subtitulo": "3. Casos em que a crase é proibida",
-        "conteudo": "Agora pense nos convites recusados — esses com certeza não aparecem. Há situações em que a crase é terminantemente proibida, independentemente do contexto.\n\nPrimeiro: antes de verbos. Verbos não aceitam artigo, logo não pode haver fusão. 'Ele começou a treinar' — sem crase antes de 'treinar'.\n\nSegundo: antes de palavras masculinas. O artigo 'a' não acompanha palavras masculinas, então a fusão é impossível. 'Ele foi a pé', 'à bordo' está errado — 'bordo' é masculino: 'a bordo' sem crase.\n\nTerceiro: antes de pronomes que não aceitam artigo — pronomes pessoais (ela, elas), pronomes de tratamento (Vossa Excelência, Vossa Senhoria), pronomes indefinidos (alguma, nenhuma, toda, qualquer), pronome relativo 'que', pronome 'quem'. Exemplo: 'Dirijo-me a Vossa Excelência' — sem crase.\n\nQuarto: antes de nomes de cidades que não aceitam artigo. Teste: 'Fui a Lisboa' (não se diz 'a Lisboa' com artigo) → sem crase. Mas 'Fui à Bahia' (diz-se 'a Bahia' com artigo) → com crase.\n\nO erro mais comum é usar crase antes de pronomes de tratamento como 'Vossa Excelência' — é proibido.",
+        "conteudo": "Agora pense nos convites recusados — esses com certeza não aparecem. Há situações em que a crase é terminantemente proibida, independentemente do contexto.\n\nPrimeiro: antes de verbos. Verbos não aceitam artigo, logo não pode haver fusão. 'Ele começou a treinar' — sem crase antes de 'treinar'.\n\nSegundo: antes de palavras masculinas. O artigo 'a' não acompanha palavras masculinas, então a fusão é impossível. 'Ele foi a pé', 'à bordo' está errado — 'bordo' é masculino: 'a bordo' sem crase.\n\nTerceiro: antes de pronomes que não aceitam artigo — pronomes pessoais (ela, elas), pronomes de tratamento (Vossa Excelência, Vossa Senhoria), pronomes indefinidos (alguma, nenhuma, toda, qualquer), pronome relativo 'que', pronome 'quem'. Exemplo: 'Dirijo-me a Vossa Excelência' — sem crase.\n\nQuarto: antes de nomes de cidades (ou de estados e países) que não aceitam artigo. Teste: 'Fui a Lisboa' (não se diz 'a Lisboa' com artigo) → sem crase. Mas 'Fui à Bahia' (diz-se 'a Bahia' com artigo) → com crase. Teste prático: troque 'ir' por 'voltar' — se aparece 'da' ('volto da Bahia'), há artigo e, portanto, crase; se aparece 'de' ('volto de Lisboa'), não há.\n\nO erro mais comum é usar crase antes de pronomes de tratamento como 'Vossa Excelência' — é proibido.",
         "regra": "Proibida: antes de verbo · palavra masc. · pron. pessoal/tratamento/indefinido · cidade sem artigo",
         "exemplos": [
           {
@@ -87,15 +87,37 @@
         ]
       },
       {
-        "subtitulo": "4. Casos facultativos: quando você pode escolher",
-        "conteudo": "Existe uma terceira categoria — os casos em que a crase é opcional. Pense num uniforme que pode ser usado com ou sem o colete: os dois jeitos são aceitos. Mas em prova, o candidato precisa saber identificar esses casos para não errar ao julgar se uma frase está 'certa' ou 'errada'.\n\nOs principais casos facultativos são três. O primeiro é antes de nomes próprios femininos de pessoas: 'Entreguei o documento a(à) Ana.' O uso da crase depende de o falante estar usando ou não o artigo antes do nome. Se usar artigo, usa crase; se não usar, não usa. Em prova, ambas as formas são aceitas.\n\nO segundo caso facultativo é antes de pronome possessivo feminino: 'Dirijo-me a(à) sua excelência' — aqui 'sua' é possessivo feminino, e o uso do artigo antes é opcional.\n\nO terceiro é em locuções que indicam distância ou ponto: 'A(À) distância, o navio parecia menor.' Quando 'a' indica modo ou posição de forma vaga, a crase é opcional.\n\nO erro mais comum é julgar que os casos facultativos estão errados. Na banca CEBRASPE, se uma questão apresentar um caso facultativo sem crase, não estará errada — e vice-versa.",
-        "regra": "Facultativa: nome próprio feminino de pessoa · pronome possessivo fem. · locuções de distância/modo vago",
+        "subtitulo": "4. Crase indevida por erro de regência: 'conformidade a' ou 'conformidade com'?",
+        "conteudo": "Existe uma armadilha avançada que a CEBRASPE explora bastante: ela não erra a regra da crase em si, mas esconde o erro um passo antes — na regência do nome ou verbo que vem junto. Se o termo não pede a preposição 'a', não existe crase possível ali, por mais que o que vem depois seja uma palavra feminina que aceite artigo.\n\nO caso mais cobrado é o substantivo 'conformidade'. Em português, a regência correta é 'conformidade COM', não 'conformidade A': 'em conformidade com as normas', nunca 'em conformidade às normas'. Quando um texto escreve 'em conformidade às diretrizes', o erro não está na regra da crase — está no fato de 'conformidade' nunca pedir a preposição 'a' para começar.\n\nO mesmo acontece com o adjetivo 'condizente', que rege a preposição 'com': 'condizente com as exigências', nunca 'condizente às exigências'. Mais uma vez, o problema é de regência, não de crase — a crase só existiria se a preposição 'a' fosse exigida ali, o que não é o caso.\n\nA estratégia para identificar esse tipo de pegadinha é sempre perguntar, antes de aplicar qualquer regra de crase: este verbo ou nome realmente pede a preposição 'a'? Se a resposta for não — se ele pede 'com', 'de', 'em' ou qualquer outra preposição —, não existe crase possível ali, independentemente de a palavra seguinte ser feminina e aceitar artigo. A crase pressupõe, antes de tudo, que a preposição 'a' esteja correta no contexto.\n\nO erro mais comum é focar apenas no substantivo feminino seguinte e esquecer de checar se o verbo ou nome anterior realmente exige a preposição 'a' — a crase nunca existe isoladamente, ela depende de duas pontas corretas.",
+        "regra": "Crase pressupõe preposição 'a' correta · 'Conformidade' rege 'com', não 'a' · 'Condizente' rege 'com', não 'a' · Sempre checar a regência antes da crase",
         "exemplos": [
           {
-            "texto_base": "O oficial entregou o relatório a(à) capitã responsável pelo setor e referiu-se a(à) sua determinação como exemplar.",
+            "texto_base": "A conduta do recruta não estava em conformidade com o regulamento, nem era condizente com as normas de disciplina esperadas.",
             "anotacoes": [
               {
-                "trecho": "a(à) capitã",
+                "trecho": "em conformidade com o regulamento",
+                "destaque": "regência correta, sem crase",
+                "motivo": "'Conformidade' rege a preposição 'com', nunca 'a' — não há crase possível aqui, mesmo que o termo seguinte fosse feminino"
+              },
+              {
+                "trecho": "condizente com as normas",
+                "destaque": "regência correta, sem crase",
+                "motivo": "'Condizente' rege 'com' — usar 'condizente às normas' seria erro de regência que geraria uma crase indevida"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "5. Casos facultativos: quando você pode escolher",
+        "conteudo": "Existe uma terceira categoria — os casos em que a crase é opcional. Pense num uniforme que pode ser usado com ou sem o colete: os dois jeitos são aceitos. Mas em prova, o candidato precisa saber identificar esses casos para não errar ao julgar se uma frase está 'certa' ou 'errada'.\n\nOs principais casos facultativos são três. O primeiro é antes de nomes próprios femininos de pessoas: 'Entreguei o documento a(à) Ana.' O uso da crase depende de o falante estar usando ou não o artigo antes do nome. Se usar artigo, usa crase; se não usar, não usa. Em prova, ambas as formas são aceitas.\n\nO segundo caso facultativo é antes de pronome possessivo feminino: 'Dirijo-me a(à) sua equipe' — aqui 'sua' é possessivo feminino, e o uso do artigo antes dele é opcional.\n\nO terceiro é depois da preposição 'até': 'A tropa marchou até a(à) base.' Depois de 'até', o 'a' é opcional ('até a base' ou 'até à base'), e por isso a crase também é.\n\nO erro mais comum é julgar que os casos facultativos estão errados. Na banca CEBRASPE, se uma questão apresentar um caso facultativo sem crase, não estará errada — e vice-versa.",
+        "regra": "Facultativa: nome próprio feminino de pessoa · pronome possessivo fem. · depois de 'até' (até a / até à)",
+        "exemplos": [
+          {
+            "texto_base": "O oficial entregou o relatório a(à) Ana, responsável pelo setor, e referiu-se a(à) sua determinação como exemplar. O batalhão marchou até a(à) base.",
+            "anotacoes": [
+              {
+                "trecho": "a(à) Ana",
                 "destaque": "nome próp. fem. (facult.)",
                 "motivo": "Nome próprio feminino de pessoa — crase facultativa; ambas as formas são corretas"
               },
@@ -103,18 +125,23 @@
                 "trecho": "a(à) sua determinação",
                 "destaque": "pron. possessivo (facult.)",
                 "motivo": "Antes de pronome possessivo feminino, a crase é opcional — não há erro em qualquer das formas"
+              },
+              {
+                "trecho": "até a(à) base",
+                "destaque": "após 'até' (facult.)",
+                "motivo": "Depois da preposição 'até', a presença do artigo é opcional — ambas as formas são corretas"
               }
             ]
           }
         ]
       },
       {
-        "subtitulo": "5. Crase antes de 'hora': regra especial",
-        "conteudo": "Imagine um relógio de parede: ele sempre existe, mas nem sempre você vê os números. A crase antes de horas funciona de forma parecida — quando a hora é determinada (um número específico), ela aparece; quando é vaga ou genérica, desaparece.\n\nA regra é simples: use crase antes de horas determinadas, porque elas aceitam o artigo 'a'. Exemplos: 'às oito horas', 'às 14h', 'à meia-noite', 'à uma hora'. Nesses casos, diz-se 'a(s) + hora(s)' com artigo definido implícito.\n\nNão use crase quando a hora é indeterminada ou quando o contexto não especifica: 'Marcamos para depois das reuniões' — aqui não há indicação de hora precisa.\n\nTambém use crase quando a hora é modificada por preposição que já é 'a' de origem: 'Chegou às três da manhã', 'às dezesseis horas a tropa partiu'.\n\nO erro mais comum é esquecer o 's' no plural: 'as oito horas' (com artigo plural) vira 'às oito horas' (com crase que representa o plural de 'a' + 'a').",
-        "regra": "Hora determinada = sempre crase (à uma, às duas, às 14h) · Plural: às (a + as) · Hora vaga = sem crase",
+        "subtitulo": "6. Crase antes de 'hora': regra especial",
+        "conteudo": "Imagine um relógio de parede: ele sempre existe, mas nem sempre você vê os números. A crase antes de horas funciona de forma parecida — quando a hora é determinada (um número específico), ela aparece; quando é vaga ou genérica, desaparece.\n\nA regra é simples: use crase antes de horas determinadas, porque elas aceitam o artigo 'a'. Exemplos: 'às oito horas', 'às 14h', 'à meia-noite', 'à uma hora'. Nesses casos, diz-se 'a(s) + hora(s)' com artigo definido implícito.\n\nNão há crase quando antes da hora já existe outra preposição, pois falta a preposição 'a' para se fundir com o artigo: 'A cerimônia foi marcada para as 10h', 'Trabalhou desde as oito horas', 'Saiu após as duas'. Nesses casos, 'as' é apenas o artigo.\n\nQuando não há outra preposição, a hora determinada leva crase: 'Chegou às três da manhã', 'Às dezesseis horas a tropa partiu'.\n\nO erro mais comum é esquecer o 's' no plural: 'as oito horas' (com artigo plural) vira 'às oito horas' (com crase que representa o plural de 'a' + 'a').",
+        "regra": "Hora determinada = crase (à uma, às duas, às 14h) · Plural: às (a + as) · Depois de outra preposição (para, desde, após) = sem crase",
         "exemplos": [
           {
-            "texto_base": "A cerimônia de formatura foi marcada para às 10h. O contra-almirante chegou à meia-noite para inspecionar o turno noturno.",
+            "texto_base": "A cerimônia de formatura começou às 10h. O contra-almirante chegou à meia-noite para inspecionar o turno noturno.",
             "anotacoes": [
               {
                 "trecho": "às 10h",
@@ -131,9 +158,9 @@
         ]
       },
       {
-        "subtitulo": "6. Crase com pronomes demonstrativos: esta, essa, aquela",
-        "conteudo": "Pense em três grupos de pronomes demonstrativos femininos: os que ficam perto (esta), os que ficam a uma distância média (essa) e os que ficam longe (aquela). A crase só se une a um deles de forma fixa: 'aquela' — e suas variações.\n\nCom 'aquela', 'aquelas' e 'aquilo', a crase é obrigatória quando há preposição 'a' antes: 'Refiro-me àquela ordem', 'Obedeço àquilo que foi determinado'. A fusão 'a + aquela = àquela' e 'a + aquilo = àquilo' é sempre escrita com o acento grave.\n\nCom 'esta' e 'essa', a situação é diferente. Antes de 'esta' e 'essa', a crase é proibida, porque esses pronomes não são precedidos por artigo definido. 'Refiro-me a esta portaria' — sem crase. 'Quanto a essa questão' — sem crase.\n\nO erro mais comum é usar crase antes de 'esta' e 'essa' por confundi-las com 'aquela'. Lembre: só 'aquela/aquilo' fundem com a preposição 'a'.",
-        "regra": "àquela / àquelas / àquilo = obrigatório · a esta / a essa = proibido (sem crase)",
+        "subtitulo": "7. Crase com pronomes demonstrativos: esta, essa, aquela",
+        "conteudo": "Pense em três grupos de pronomes demonstrativos femininos: os que ficam perto (esta), os que ficam a uma distância média (essa) e os que ficam longe (aquela). A crase só se une ao grupo de 'aquela' — e suas variações: aquele(s), aquela(s) e aquilo.\n\nCom 'aquele(s)', 'aquela(s)' e 'aquilo', a crase é obrigatória quando há preposição 'a' antes: 'Refiro-me àquela ordem', 'Obedeço àquilo que foi determinado'. A fusão 'a + aquela = àquela' e 'a + aquilo = àquilo' é sempre escrita com o acento grave.\n\nCom 'esta' e 'essa', a situação é diferente. Antes de 'esta' e 'essa', a crase é proibida, porque esses pronomes não são precedidos por artigo definido. 'Refiro-me a esta portaria' — sem crase. 'Quanto a essa questão' — sem crase.\n\nO erro mais comum é usar crase antes de 'esta' e 'essa' por confundi-las com 'aquela'. Lembre: só 'aquele(s)/aquela(s)/aquilo' fundem com a preposição 'a'.",
+        "regra": "àquele(s) / àquela(s) / àquilo = obrigatório · a esta / a essa = proibido (sem crase)",
         "exemplos": [
           {
             "texto_base": "O comandante referiu-se àquela decisão como acertada, mas quanto a esta nova proposta e a essa alternativa, pediu mais estudos.",
@@ -158,7 +185,7 @@
         ]
       },
       {
-        "subtitulo": "7. O método da substituição: ferramenta universal",
+        "subtitulo": "8. O método da substituição: ferramenta universal",
         "conteudo": "Quando a dúvida bater, existe uma ferramenta que resolve quase todos os casos: o método da substituição. É como ter um gabarito portátil — você não precisa memorizar mil regras se souber aplicar esse teste.\n\nO método funciona em duas versões. Versão 1 — Substituição pelo masculino: troque o substantivo feminino por um masculino equivalente. Se aparecer 'ao' (preposição 'a' + artigo 'o') no masculino, o feminino terá crase. Se aparecer apenas 'a' sem artigo, não haverá crase. Exemplo: 'Fui ao quartel' → 'Fui à base'. 'Partiu a combate' → 'Partiu a campo' (sem artigo no masculino = sem crase no feminino).\n\nVersão 2 — Substituição por 'para': troque 'a' por 'para'. Se 'para' couber bem e 'ao/à' também couber, há crase no feminino. Se apenas 'para' couber mas não 'ao', então não há crase. Exemplo: 'Fui para a base / Fui à base' — funciona. 'Começou a treinar / Começou para treinar' — não funciona, logo sem crase.\n\nAtenção: o método não funciona perfeitamente em locuções adverbiais fixas (às vezes, à tarde) — essas você precisa memorizar. Para todo o resto, o método é confiável.\n\nO erro mais comum é não fazer o teste e usar a crase por instinto.",
         "regra": "Teste masc.: 'ao' = com crase / só 'a' = sem crase · Teste 'para': se cabe 'para' e 'ao', há crase · Locuções: memorize",
         "exemplos": [
@@ -202,17 +229,17 @@
       "nivel": "basico"
     },
     {
-      "titulo": "Crase antes de cidade com artigo",
-      "errado": "O navio partiu a Salvador para uma missão de apoio humanitário.",
-      "correto": "O navio partiu à Salvador — mas o correto é: O navio partiu para Salvador ou O navio partiu ao Recife.",
-      "explicacao": "Cidades que normalmente não aceitam artigo definido (Salvador, Brasília, São Paulo em alguns contextos) não admitem crase: 'Fui a Salvador'. Cidades que aceitam artigo (o Recife, a Bahia, o Rio de Janeiro) terão crase quando precedidas de preposição 'a': 'Fui ao Recife', 'Fui à Bahia'. O teste: se você diz 'fui à cidade' com artigo, usa crase; se diz só 'fui a [cidade]' sem artigo, não usa.",
+      "titulo": "Crase antes de cidade sem artigo",
+      "errado": "O navio partiu à Salvador para uma missão de apoio humanitário.",
+      "correto": "O navio partiu a Salvador para uma missão de apoio humanitário.",
+      "explicacao": "Cidades que normalmente não aceitam artigo definido (Salvador, Brasília, Fortaleza) não admitem crase: 'Fui a Salvador'. Nomes de lugares que aceitam artigo feminino (a Bahia, a Paraíba) levam crase quando precedidos da preposição 'a': 'Fui à Bahia'; os que aceitam artigo masculino (o Recife, o Rio de Janeiro) levam a contração 'ao': 'Fui ao Recife'. O teste prático é trocar 'ir' por 'voltar': se aparece 'da' ('volto da Bahia'), há artigo e, portanto, crase; se aparece 'de' ('volto de Salvador'), não há artigo nem crase.",
       "nivel": "intermediario"
     },
     {
       "titulo": "Crase antes de 'esta' e 'essa'",
       "errado": "O comandante referiu-se à essa portaria como a mais importante do ano.",
       "correto": "O comandante referiu-se a essa portaria como a mais importante do ano.",
-      "explicacao": "Os pronomes demonstrativos 'esta' e 'essa' não aceitam artigo definido antes deles — portanto, a crase é proibida. Apenas 'aquela', 'aquelas' e 'aquilo' se fundem com a preposição 'a'. Confundir 'aquela' (que aceita crase: àquela) com 'essa' e 'esta' (que não aceitam) é uma das armadilhas mais frequentes da CEBRASPE.",
+      "explicacao": "Os pronomes demonstrativos 'esta' e 'essa' não aceitam artigo definido antes deles — portanto, a crase é proibida. Apenas 'aquele(s)', 'aquela(s)' e 'aquilo' se fundem com a preposição 'a'. Confundir 'aquela' (que aceita crase: àquela) com 'essa' e 'esta' (que não aceitam) é uma das armadilhas mais frequentes da CEBRASPE.",
       "nivel": "intermediario"
     },
     {
@@ -281,7 +308,7 @@
         "E": "dois artigos femininos que se encontram em palavras adjacentes."
       },
       "gabarito": "A",
-      "explicacao": "A crase é o fenômeno linguístico de fusão (contração) da preposição 'a' com o artigo definido feminino 'a', resultando em 'à', ou com os pronomes demonstrativos 'aquela', 'aquelas' e 'aquilo', resultando em 'àquela', 'àquelas' e 'àquilo'. A alternativa C está errada porque não basta a palavra começar com 'a' — é necessário que ela aceite artigo definido. As demais alternativas descrevem fenômenos inexistentes na gramática portuguesa."
+      "explicacao": "A crase é o fenômeno linguístico de fusão (contração) da preposição 'a' com o artigo definido feminino 'a', resultando em 'à', ou com os pronomes demonstrativos 'aquele(s)', 'aquela(s)' e 'aquilo', resultando em 'àquele(s)', 'àquela(s)' e 'àquilo'. A alternativa C está errada porque não basta a palavra começar com 'a' — é necessário que ela aceite artigo definido. As demais alternativas descrevem fenômenos inexistentes na gramática portuguesa."
     },
     {
       "id": "q04",
@@ -337,7 +364,7 @@
         "E": "As vezes em que o oficial errou foram devidamente registradas."
       },
       "gabarito": "D",
-      "explicacao": "Em 'às vezes o comandante inspecionava', 'às vezes' é locução adverbial de frequência com o sentido de 'algumas vezes, ocasionalmente' — sempre com crase. A alternativa A usa 'as vezes' sem crase, perdendo o sentido de locução adverbial. As alternativas B, D e E usam 'as vezes' como artigo + substantivo (sem crase), referindo-se às ocasiões específicas — esse uso está correto naquele contexto, mas não corresponde à locução adverbial 'às vezes'. Apenas C usa a locução adverbial com a grafia correta."
+      "explicacao": "Em 'Às vezes o comandante inspecionava os alojamentos sem aviso prévio', 'às vezes' é locução adverbial de frequência, com o sentido de 'ocasionalmente' — sempre grafada com crase. É a única alternativa que emprega a locução corretamente, com o acento grave. As demais usam 'as vezes' sem crase: nelas, 'as' é apenas artigo definido plural acompanhando o substantivo 'vezes' em sentido literal de 'as ocasiões' (A: 'As vezes o sargento preferia corrigir pessoalmente' — uso indevido, pois o sentido pretendido é de frequência, não de ocasiões específicas; B, C e E referem-se a ocasiões determinadas, sem valor de locução adverbial, e por isso corretamente grafadas sem crase nesses contextos, mas não respondem ao que a questão pede)."
     },
     {
       "id": "q08",
@@ -351,7 +378,7 @@
         "E": "O oficial opôs-se à essa proposta apresentada pelo subcomandante."
       },
       "gabarito": "D",
-      "explicacao": "'Àquela' resulta da fusão obrigatória da preposição 'a' com o pronome demonstrativo 'aquela' — correto. As alternativas A, B, D e E usam crase antes de 'essa' ou 'esta', o que é proibido: esses pronomes demonstrativos não aceitam artigo definido antes deles, portanto não podem se fundir com a preposição 'a'. O correto seria 'a essa portaria', 'a esta ordem', 'a esta decisão', 'a essa proposta'."
+      "explicacao": "'Àquela' resulta da fusão obrigatória da preposição 'a' com o pronome demonstrativo 'aquela' — correto. As alternativas A, B, C e E usam crase antes de 'essa' ou 'esta', o que é proibido: esses pronomes demonstrativos não aceitam artigo definido antes deles, portanto não podem se fundir com a preposição 'a'. O correto seria 'a essa portaria', 'a esta ordem', 'a esta decisão', 'a essa proposta'."
     },
     {
       "id": "q09",
@@ -482,7 +509,7 @@
         "E": "A crase antes de possessivo segue a mesma regra que antes de pronome pessoal: sempre proibida."
       },
       "gabarito": "C",
-      "explicacao": "Antes de pronome possessivo feminino ('minha', 'sua', 'nossa', 'tua', 'vossa'), a crase é facultativa: 'Dirijo-me a sua excelência' e 'Dirijo-me à sua excelência' são ambas formas aceitas. Isso ocorre porque o artigo definido antes de possessivo é opcional no português brasileiro: 'a sua decisão' (sem artigo) e 'à sua decisão' (com artigo, logo com crase) têm o mesmo valor. A alternativa A está errada ao dizer 'obrigatória'. A alternativa B está errada ao dizer 'proibida'. A alternativa E confunde possessivos com pronomes pessoais — as regras são diferentes."
+      "explicacao": "Antes de pronome possessivo feminino ('minha', 'sua', 'nossa', 'tua'), a crase é facultativa: 'Dirijo-me a sua equipe' e 'Dirijo-me à sua equipe' são ambas formas aceitas. Isso ocorre porque o artigo definido antes de possessivo é opcional no português brasileiro: 'a sua decisão' (sem artigo) e 'à sua decisão' (com artigo, logo com crase) têm o mesmo valor. A alternativa A está errada ao dizer 'obrigatória'. A alternativa B está errada ao dizer 'proibida'. A alternativa E confunde possessivos com pronomes pessoais — as regras são diferentes."
     },
     {
       "id": "q18",
@@ -497,12 +524,12 @@
         "E": "'Àqueles' está correto, mas 'A esta' deveria ter crase por ser feminino."
       },
       "gabarito": "B",
-      "explicacao": "'Àqueles' resulta da fusão da preposição 'a' com o pronome demonstrativo 'aqueles' — embora masculino plural, a fusão é obrigatória e grafa-se com acento grave: àquele(s), àquela(s), àquilo. 'A esta determinação' está corretamente sem crase: 'esta' não aceita artigo definido antes dele, portanto não há fusão possível com a preposição 'a'. A alternativa A erra ao proibir a crase antes de 'aqueles' — a fusão com pronomes 'aquele/aquela/aquilo' é obrigatória. A alternativa E erra ao sugerir crase antes de 'esta'."
+      "explicacao": "'Àqueles' resulta da fusão da preposição 'a' com o pronome demonstrativo 'aqueles' — embora masculino plural, a fusão é obrigatória e grafa-se com acento grave: àquele(s), àquela(s), àquilo. 'A esta determinação' está corretamente sem crase: 'esta' não aceita artigo definido antes dela, portanto não há fusão possível com a preposição 'a'. A alternativa A erra ao proibir a crase antes de 'aqueles' — a fusão com pronomes 'aquele/aquela/aquilo' é obrigatória. A alternativa E erra ao sugerir crase antes de 'esta'."
     },
     {
       "id": "q19",
       "nivel": "intermediario",
-      "enunciado": "Assinale a alternativa em que a reescritura mantém o sentido original e o emprego da crase está correto.",
+      "enunciado": "Em cada alternativa, a segunda frase reescreve a primeira. Assinale aquela em que a reescrita mantém a regência do verbo e apresenta o emprego correto da crase.",
       "alternativas": {
         "A": "Original: 'O recruta foi ao quartel.' / Reescrita: 'O recruta foi a base.'",
         "B": "Original: 'O recruta foi ao quartel.' / Reescrita: 'O recruta foi à base.'",
@@ -511,7 +538,7 @@
         "E": "Original: 'O sargento foi à instrução.' / Reescrita: 'O sargento foi ao instrução.'"
       },
       "gabarito": "B",
-      "explicacao": "A reescrita correta é 'foi à base': o verbo 'ir' exige preposição 'a', e 'base' é substantivo feminino que aceita artigo 'a' — crase obrigatória, confirmada pelo teste do masculino ('foi ao quartel' → 'foi à base'). A alternativa A omite a crase incorretamente. A alternativa C está errada: 'partiu para a missão' não pode ser reescrito como 'partiu à missão' sem alterar o sentido (a preposição 'para' indica destino com nuance diferente de 'a'). A alternativa D usa crase antes de 'tempo' (masculino) — proibido. A alternativa E usa artigo masculino com 'instrução' (feminino) — incorreto."
+      "explicacao": "A reescrita correta é 'foi à base': o verbo 'ir' exige preposição 'a', e 'base' é substantivo feminino que aceita artigo 'a' — crase obrigatória, confirmada pelo teste do masculino ('foi ao quartel' → 'foi à base'). A alternativa A omite a crase incorretamente. A alternativa C está errada: 'partiu para a missão' não pode ser reescrito como 'partiu à missão' porque a reescrita troca a regência do original ('partiu para' → 'partiu a'). A alternativa D usa crase antes de 'tempo' (masculino) — proibido. A alternativa E usa artigo masculino com 'instrução' (feminino) — incorreto."
     },
     {
       "id": "q20",
@@ -520,8 +547,8 @@
       "enunciado": "O emprego de crase no texto está",
       "alternativas": {
         "A": "incorreto em ambos os casos: nenhuma cidade admite crase.",
-        "B": "correto em ambos os casos: toda cidade admite crase com verbo de movimento.",
-        "C": "correto apenas em 'à Bahia', pois 'a Bahia' aceita artigo feminino; 'a Fortaleza' está correto sem crase.",
+        "B": "incorreto em ambos os casos: toda localidade admite crase com verbo de movimento.",
+        "C": "correto em ambos os casos: 'a Fortaleza' fica sem crase porque o nome não aceita artigo; 'à Bahia' leva crase porque 'a Bahia' aceita artigo feminino.",
         "D": "incorreto em 'à Bahia'; o correto seria 'a Bahia', sem crase, por ser nome próprio.",
         "E": "correto apenas em 'a Fortaleza'; 'à Bahia' deveria ser 'ao Bahia' por ser estado."
       },
@@ -561,17 +588,17 @@
     {
       "id": "q23",
       "nivel": "avancado",
-      "textoBase": "Texto para análise: 'O recruta escreveu a seguinte frase: Aquele que se dedica à missão com afinco e que permanece fiel àquilo que jurou defender não trai à pátria — ao contrário, honra a ela.'",
+      "textoBase": "Texto para análise: 'O recruta escreveu a seguinte frase: Aquele que se dedica à missão com afinco e que permanece fiel àquilo que jurou defender não trai a pátria — ao contrário, serve a ela com honra.'",
       "enunciado": "Sobre os empregos de crase no texto do recruta, assinale a alternativa correta.",
       "alternativas": {
-        "A": "'à missão', 'àquilo' e 'à pátria' estão corretos; 'a ela' está correto sem crase.",
-        "B": "'à missão' está incorreto; 'àquilo' está correto; 'à pátria' está incorreto; 'a ela' deveria ter crase.",
+        "A": "'à missão' e 'àquilo' estão corretos; 'a pátria' e 'a ela' estão corretos sem crase.",
+        "B": "'à missão' está incorreto; 'àquilo' está correto; 'a pátria' e 'a ela' deveriam ter crase.",
         "C": "'àquilo' está incorreto; os demais estão corretos.",
-        "D": "'à pátria' está incorreto: substantivos abstratos não aceitam crase.",
+        "D": "'a pátria' deveria ser 'à pátria': 'pátria' é substantivo feminino e aceita artigo, logo a crase é obrigatória.",
         "E": "'a ela' deveria ter crase por ser pronome feminino que indica pessoa."
       },
       "gabarito": "A",
-      "explicacao": "'À missão': verbo 'dedicar-se' exige preposição 'a'; 'missão' é feminino com artigo — crase obrigatória e correta. 'Àquilo': preposição 'a' + pronome demonstrativo 'aquilo' — fusão obrigatória, correto. 'À pátria': verbo 'trair' admite construção com preposição 'a' em sentido de 'ser infiel a'; 'pátria' é feminino com artigo — crase aceitável e correta. 'A ela': pronome pessoal nunca aceita artigo — crase proibida, correto sem crase. A alternativa D erra ao dizer que substantivos abstratos não aceitam crase — aceitam quando têm artigo. A alternativa E erra ao sugerir crase antes de pronome pessoal."
+      "explicacao": "'À missão': 'dedicar-se' exige preposição 'a'; 'missão' é feminino com artigo — crase obrigatória e correta. 'Àquilo': preposição 'a' (exigida por 'fiel') + pronome demonstrativo 'aquilo' — fusão obrigatória, correto. 'A pátria': 'trair' é verbo transitivo direto — não há preposição, logo não há fusão e a crase é proibida; 'trai à pátria' seria erro. 'A ela': pronome pessoal nunca aceita artigo — crase proibida, correto sem crase. A alternativa B erra ao exigir crase antes de 'pátria' e de 'ela', e ao condenar 'à missão'. A alternativa C erra ao condenar 'àquilo'. A alternativa D erra porque 'trair' não exige preposição, de modo que não existe preposição 'a' para se fundir com o artigo. A alternativa E erra ao sugerir crase antes de pronome pessoal."
     },
     {
       "id": "q24",
@@ -579,14 +606,14 @@
       "textoBase": "Boletim: 'O oficial, ao chegar à base, percebeu que a instrução havia sido marcada para às 8h, e não para as 9h como constava na sua agenda.'",
       "enunciado": "Sobre os empregos de artigo e crase relacionados a horas no texto, assinale a alternativa correta.",
       "alternativas": {
-        "A": "'para às 8h' está incorreto: não se pode usar 'para' antes de 'às'.",
+        "A": "'para às 8h' está incorreto porque não se usa artigo antes de numerais de hora; 'para as 9h' também está incorreto.",
         "B": "'para às 8h' está correto; 'para as 9h' também está correto com artigo sem crase por contexto diferente.",
-        "C": "'para às 8h' está correto; 'para as 9h' deveria ser 'para às 9h' para manter coerência.",
+        "C": "'para às 8h' está correto; 'para as 9h' deveria ser 'para às 9h', pois a mesma regra de hora determinada se aplica às duas.",
         "D": "Ambas as formas deveriam usar apenas o numeral, sem artigo: 'para 8h' e 'para 9h'.",
         "E": "'para as 9h' está correto sem crase; 'para às 8h' está incorreto por ter crase depois de 'para'."
       },
-      "gabarito": "C",
-      "explicacao": "Antes de horas determinadas, a preposição 'a' + artigo 'a(s)' resulta em crase obrigatória. No texto, 'para às 8h' usa a preposição 'para' seguida de 'às' (outra preposição + artigo), o que é admitido no uso. A coerência exige que 'para as 9h' siga o mesmo padrão: 'para às 9h'. A ausência de crase em 'para as 9h' — mantendo apenas o artigo — pode criar inconsistência na análise. Em contexto de prova CEBRASPE, a forma 'para as 9h' (sem crase após 'para') é admissível quando 'as' é artigo isolado, mas 'para às 9h' é a forma mais rigorosamente correta para hora determinada."
+      "gabarito": "E",
+      "explicacao": "Depois da preposição 'para' não há crase: a crase exige a preposição 'a', e aqui a preposição já é 'para'. Nesse caso, 'as' é apenas o artigo plural. Assim, 'para as 9h' está correto, sem acento grave, e 'para às 8h' está incorreto. O texto não tem inconsistência entre as duas horas; o equívoco está apenas em 'para às 8h' (o correto seria 'para as 8h'). A alternativa A erra ao condenar o artigo antes de numerais de hora e ao julgar 'para as 9h' incorreto. As alternativas B e C erram ao tratar 'para às 8h' como correto. A alternativa D erra ao exigir supressão do artigo, o que a norma não impõe."
     },
     {
       "id": "q25",
@@ -600,8 +627,8 @@
         "D": "incorreta quanto às crases; correta quanto à justificativa de todas.",
         "E": "parcialmente correta: todas as crases estão certas, mas a justificativa deveria mencionar o artigo 'as', não a ausência de artigo."
       },
-      "gabarito": "C",
-      "explicacao": "As crases no texto estão todas corretas: 'à sindicância' (substantivo feminino + artigo), 'à decisão' (idem), 'à determinação' (idem). A afirmação está correta nessa parte. Porém, a justificativa para ausência de crase em 'a todas as questões' está incorreta: 'todas' não impede o artigo; na verdade, 'a todas as questões' não tem crase porque a preposição 'a' já é seguida de 'todas as' — o artigo já está representado por 'as' no interior da expressão, e não se coloca crase antes de 'todas' quando este vem antes do artigo. A justificativa correta é que 'a' antes de 'todas' é preposição que antecede pronome indefinido no contexto de complemento."
+      "gabarito": "A",
+      "explicacao": "As crases do texto estão todas corretas: 'à sindicância' (referentes a), 'à decisão' (em relação a) e 'à determinação' (opor-se a) — em todas há preposição 'a' + substantivo feminino com artigo. A justificativa para a ausência de crase em 'a todas as questões' também está correta: 'todas' é pronome indefinido e não é precedido de artigo; o artigo 'as' vem depois dele ('todas as questões'), de modo que a preposição 'a' não encontra artigo para se fundir. A alternativa E erra ao dizer que a justificativa deveria mencionar o artigo 'as': ele aparece depois de 'todas', e é justamente por isso que não há fusão. As alternativas B, C e D erram ao julgar incorreta alguma das duas partes."
     },
     {
       "id": "q26",
@@ -631,7 +658,7 @@
         "E": "'às autoridades' deveria ser 'a autoridades' pois pronomes de tratamento não aceitam crase."
       },
       "gabarito": "E",
-      "explicacao": "A alternativa E apresenta análise incorreta. 'Autoridades civis' não são pronomes de tratamento — são substantivos comuns femininos no plural. Pronomes de tratamento são expressões como 'Vossa Excelência', 'Vossa Senhoria'. 'Às autoridades civis' tem crase obrigatória e correta: substantivo feminino plural + artigo 'as' + preposição 'a' = às. As demais alternativas apresentam análises corretas: 'às comunicações' (A e B): substantivo feminino plural com crase; 'à exceção' (C): locução prepositiva feminina; 'ao militar' (D): contração de preposição + artigo masculino, sem crase."
+      "explicacao": "A alternativa E apresenta análise incorreta. 'Autoridades civis' não são pronomes de tratamento — são substantivos comuns femininos no plural. Pronomes de tratamento são expressões como 'Vossa Excelência', 'Vossa Senhoria'. 'Às autoridades civis' tem crase obrigatória e correta: substantivo feminino plural + artigo 'as' + preposição 'a' = às. As demais alternativas apresentam análises corretas: 'às autoridades civis' (A) e 'às comunicações' (B): substantivo feminino plural com crase; 'à exceção' (C): locução prepositiva feminina; 'ao militar' (D): contração de preposição + artigo masculino, sem crase."
     },
     {
       "id": "q28",
@@ -640,13 +667,13 @@
       "enunciado": "Sobre as reescritas propostas, assinale a alternativa correta.",
       "alternativas": {
         "A": "Apenas a reescrita I mantém o sentido e está correta.",
-        "B": "Apenas a reescrita II mantém o sentido e está correta.",
+        "B": "A reescrita II está incorreta, pois o adjetivo 'obediente' não rege a preposição 'a'.",
         "C": "As reescritas I e III estão corretas; II está incorreta.",
         "D": "A reescrita I está incorreta (ausência indevida de crase); a reescrita II está correta; a reescrita III está incorreta (ausência indevida de crase).",
         "E": "Todas as reescritas estão incorretas."
       },
       "gabarito": "D",
-      "explicacao": "Na frase original, 'obedeceu à ordem' usa crase obrigatória (verbo 'obedecer' rege preposição 'a'; 'ordem' é feminino com artigo). A reescrita I omite a crase indevidamente — erro. A reescrita II usa o adjetivo 'obediente', que também rege preposição 'a': 'obediente à ordem' — crase obrigatória e correta; a reescrita II está correta. A reescrita III usa 'obediente a ordem' sem crase — erro; 'obediente' exige 'a', e 'ordem' aceita artigo, logo a crase é obrigatória. Portanto, apenas a reescrita II está correta."
+      "explicacao": "Na frase original, 'obedeceu à ordem' usa crase obrigatória (verbo 'obedecer' rege preposição 'a'; 'ordem' é feminino com artigo). A reescrita I omite a crase indevidamente — erro. A reescrita II usa o adjetivo 'obediente', que também rege preposição 'a': 'obediente à ordem' — crase obrigatória e correta; a reescrita II está correta. A reescrita III usa 'obediente a ordem' sem crase — erro; 'obediente' exige 'a', e 'ordem' aceita artigo, logo a crase é obrigatória. Portanto, as reescritas I e III estão incorretas e a II está correta (alternativa D). A alternativa B erra porque 'obediente' rege a preposição 'a'."
     },
     {
       "id": "q29",
@@ -655,13 +682,13 @@
       "enunciado": "Um candidato afirmou que 'À proporção que' deveria ser substituído por 'Na proporção que' sem alteração de sentido. Essa afirmação é",
       "alternativas": {
         "A": "correta: 'na proporção que' e 'à proporção que' são locuções intercambiáveis.",
-        "B": "incorreta: 'à proporção que' é locução conjuntiva proporcional correta; 'na proporção que' não existe como locução padrão; o equivalente seria 'na proporção em que'.",
+        "B": "incorreta: 'à proporção que' é locução conjuntiva proporcional correta; 'na proporção que' não existe como locução padrão; a construção com 'na' seria 'na proporção em que'.",
         "C": "correta: ambas as formas expressam proporcionalidade e são aceitas pela gramática normativa.",
         "D": "incorreta apenas por questão de crase: o problema não é a locução em si, mas a presença do acento grave.",
         "E": "correta, desde que se mantenha a crase: 'Nà proporção que'."
       },
       "gabarito": "B",
-      "explicacao": "'À proporção que' é locução conjuntiva proporcional correta e consagrada, com crase obrigatória. Não existe 'na proporção que' como locução padrão na gramática normativa — a forma com 'na' seria 'na proporção em que', que tem sentido ligeiramente diferente. Portanto, a substituição proposta pelo candidato alteraria o sentido e introduziria forma não padrão. A alternativa A erra ao afirmar que são intercambiáveis. A alternativa C erra ao dizer que ambas são aceitas pela gramática normativa. A alternativa E é absurda — não existe 'Nà'."
+      "explicacao": "'À proporção que' é locução conjuntiva proporcional correta e consagrada, com crase obrigatória. Não existe 'na proporção que' como locução padrão na gramática normativa — o que existe é 'na proporção em que', outra construção. Portanto, a substituição proposta pelo candidato introduziria forma não padrão. A alternativa A erra ao afirmar que são intercambiáveis. A alternativa C erra ao dizer que ambas são aceitas pela gramática normativa. A alternativa E é absurda — não existe 'Nà'."
     },
     {
       "id": "q30",
@@ -698,7 +725,7 @@
     {
       "id": "s02",
       "nivel": "avancado",
-      "textoBase": "Texto para análise crítica: 'À partir de segunda-feira, os recrutas deverão submeter-se às avaliações físicas. Os resultados serão encaminhados à Junta Médica, que deliberará em conformidade às normas vigentes. Àqueles que obtiverem aprovação, será concedido o direito de prosseguir à próxima etapa.'",
+      "textoBase": "Texto para análise crítica: 'À partir de segunda-feira, os recrutas deverão submeter-se às avaliações físicas. Os resultados serão encaminhados à Junta Médica, que deliberará em conformidade às normas vigentes. Àqueles que obtiverem aprovação, será concedido o direito de acesso à próxima etapa.'",
       "enunciado": "O texto contém erro(s) no emprego da crase. Assinale a alternativa que identifica corretamente todos os empregos incorretos.",
       "alternativas": {
         "A": "Apenas 'À partir' está incorreto.",
@@ -708,7 +735,7 @@
         "E": "Apenas 'Àqueles' está incorreto; os demais estão corretos."
       },
       "gabarito": "B",
-      "explicacao": "'À partir': 'partir' é verbo — crase é proibida antes de verbo; o correto é 'A partir de'. 'Conformidade às normas': o substantivo 'conformidade' rege a preposição 'com', não 'a' — o correto é 'em conformidade com as normas'; o uso de 'às' configura erro de regência que gera crase indevida. 'às avaliações físicas': substantivo feminino plural — correto. 'à Junta Médica': substantivo feminino com artigo — correto. 'Àqueles': preposição 'a' + pronome 'aqueles' — correto. 'à próxima etapa': substantivo feminino com artigo — correto. Portanto, apenas 'À partir' e 'conformidade às normas' estão incorretos."
+      "explicacao": "'À partir': 'partir' é verbo — crase é proibida antes de verbo; o correto é 'A partir de'. 'Conformidade às normas': o substantivo 'conformidade' rege a preposição 'com', não 'a' — o correto é 'em conformidade com as normas'; o uso de 'às' configura erro de regência que gera crase indevida. 'às avaliações físicas': substantivo feminino plural — correto. 'à Junta Médica': substantivo feminino com artigo — correto. 'Àqueles': preposição 'a' + pronome 'aqueles' — correto. 'à próxima etapa': 'acesso' rege a preposição 'a' e 'etapa' é feminino com artigo — correto. Portanto, apenas 'À partir' e 'conformidade às normas' estão incorretos."
     },
     {
       "id": "s03",
@@ -797,7 +824,7 @@
           "E": "saúde, juízo, caótico, heroi"
         },
         "gabarito": "A",
-        "explicacao": "'Saúde': paroxítona terminada em ditongo 'de' precedida de hiato — o 'u' do hiato é tônico e recebe acento. 'Juízo': hiato em que o 'i' tônico recebe acento. 'Caótico': proparoxítona — todas as proparoxítonas são acentuadas. 'Herói': monossílabo tônico terminado em 'oi' (ditongo aberto) — recebe acento. A alternativa B erra em 'saude' (sem acento no hiato). A alternativa C erra em 'juizo'. A alternativa D erra em 'caotico' (proparoxítona sem acento). A alternativa E erra em 'heroi' (ditongo aberto sem acento)."
+        "explicacao": "'Saúde': hiato sa-ú-de em que o 'u' é tônico — 'i' e 'u' tônicos em hiato recebem acento. 'Juízo': hiato ju-í-zo — o 'i' tônico recebe acento. 'Caótico': proparoxítona — todas as proparoxítonas são acentuadas. 'Herói': oxítona terminada em ditongo aberto 'ói' — recebe acento. A alternativa B erra em 'saude' (sem acento no hiato). A alternativa C erra em 'juizo'. A alternativa D erra em 'caotico' (proparoxítona sem acento). A alternativa E erra em 'heroi' (ditongo aberto sem acento)."
       },
       {
         "id": "d03",
@@ -807,13 +834,13 @@
         "enunciado": "Os verbos 'chegar' e 'tivessem sido avisados' estão, respectivamente, nos seguintes modos e vozes:",
         "alternativas": {
           "A": "Futuro do indicativo / voz ativa",
-          "B": "Futuro do subjuntivo / voz passiva analítica no pretérito imperfeito do subjuntivo composto",
+          "B": "Futuro do subjuntivo / voz passiva analítica no pretérito mais-que-perfeito composto do subjuntivo",
           "C": "Presente do subjuntivo / voz reflexiva",
           "D": "Futuro do subjuntivo / voz ativa no pretérito imperfeito do subjuntivo",
           "E": "Pretérito imperfeito do indicativo / voz passiva sintética"
         },
         "gabarito": "B",
-        "explicacao": "'Chegar': após 'quando' com referência a evento futuro hipotético → futuro do subjuntivo. 'Tivessem sido avisados': auxiliar 'tivessem' (pretérito imperfeito do subjuntivo de 'ter') + 'sido' (particípio de 'ser') + 'avisados' (particípio de 'avisar') = pretérito imperfeito do subjuntivo composto na voz passiva analítica. O sujeito ('todos os militares') sofre a ação de ser avisado. A alternativa A erra em ambas. A alternativa D classifica a segunda forma como voz ativa, ignorando a estrutura passiva 'ser + particípio'."
+        "explicacao": "'Chegar': após 'quando' com referência a evento futuro hipotético → futuro do subjuntivo. 'Tivessem sido avisados': auxiliar 'tivessem' (pretérito imperfeito do subjuntivo de 'ter') + 'sido' (particípio de 'ser') + 'avisados' (particípio de 'avisar') = pretérito mais-que-perfeito composto do subjuntivo, na voz passiva analítica. O sujeito ('todos os militares') sofre a ação de ser avisado. A alternativa A erra em ambas. A alternativa D classifica a segunda forma como voz ativa, ignorando a estrutura passiva 'ser + particípio'."
       },
       {
         "id": "d04",
@@ -836,14 +863,14 @@
         "topico_referencia": "gram-06",
         "enunciado": "Assinale a alternativa em que a flexão de número está correta em TODOS os substantivos compostos.",
         "alternativas": {
-          "A": "guarda-costas → guarda-costas / porta-aviões → porta-aviões / decreto-lei → decretos-lei",
-          "B": "guarda-costas → guardas-costas / porta-aviões → portas-aviões / decreto-lei → decretos-leis",
-          "C": "guarda-costas → guarda-costas / porta-aviões → porta-aviões / decreto-lei → decretos-leis",
-          "D": "guarda-costas → guardas-costas / porta-aviões → porta-aviões / decreto-lei → decretos-lei",
-          "E": "guarda-costas → guarda-costais / porta-aviões → porta-aviõeses / decreto-lei → decreto-leis"
+          "A": "guarda-costas → guarda-costas / porta-aviões → porta-aviões / primeiro-tenente → primeiros-tenentes",
+          "B": "guarda-costas → guardas-costas / porta-aviões → portas-aviões / primeiro-tenente → primeiros-tenentes",
+          "C": "guarda-costas → guarda-costas / porta-aviões → porta-aviões / primeiro-tenente → primeiro-tenentes",
+          "D": "guarda-costas → guardas-costas / porta-aviões → porta-aviões / primeiro-tenente → primeiros-tenentes",
+          "E": "guarda-costas → guarda-costais / porta-aviões → porta-aviõeses / primeiro-tenente → primeiros-tenente"
         },
         "gabarito": "A",
-        "explicacao": "'Guarda-costas': verbo + substantivo — o verbo é invariável; 'costas' já está no plural → 'guarda-costas' invariável. 'Porta-aviões': verbo + substantivo — 'aviões' já no plural → 'porta-aviões' invariável. 'Decreto-lei': substantivo + substantivo (segundo como especificador) → só o primeiro varia: 'decretos-lei'. A alternativa B erra em todos os três. A alternativa C erra em 'decretos-leis' (o segundo elemento não varia). A alternativa D erra em 'guardas-costas' (o verbo 'guarda' não varia)."
+        "explicacao": "'Guarda-costas': verbo + substantivo — o verbo é invariável e 'costas' já está no plural → 'guarda-costas' invariável. 'Porta-aviões': verbo + substantivo — 'aviões' já está no plural → 'porta-aviões' invariável. 'Primeiro-tenente': numeral + substantivo — ambos os elementos variam → 'primeiros-tenentes'. A alternativa B erra em 'guardas-costas' e 'portas-aviões'. A alternativa C erra em 'primeiro-tenentes' (o numeral também varia). A alternativa D erra em 'guardas-costas' (o verbo 'guarda' não varia). A alternativa E traz formas inexistentes."
       },
       {
         "id": "d06",
@@ -898,14 +925,14 @@
         "topico_referencia": "gram-00",
         "enunciado": "Em qual das alternativas todas as palavras apresentam HIATO?",
         "alternativas": {
-          "A": "saúde, moeda, coautor",
-          "B": "saúde, juízo, caiu",
+          "A": "saúde, moeda, ouro",
+          "B": "saúde, juízo, cuidado",
           "C": "teatro, heroico, saída",
           "D": "saúde, juízo, saída",
           "E": "pais, saúde, moeda"
         },
         "gabarito": "D",
-        "explicacao": "Hiato é a sequência de duas vogais em sílabas diferentes. 'Saúde': sa-ú-de (a e ú em sílabas diferentes) — hiato. 'Juízo': ju-í-zo (u e í em sílabas diferentes) — hiato. 'Saída': sa-í-da (a e í em sílabas diferentes) — hiato. A alternativa A inclui 'moeda' (mo-e-da: 'o' e 'e' em sílabas diferentes — sim, é hiato) e 'coautor' (co-au-tor: 'o' e 'au' — 'au' é ditongo, não hiato). A alternativa B inclui 'caiu' (ca-iu: ditongo decrescente na mesma sílaba — não é hiato). A alternativa C inclui 'heroico' (he-roi-co: 'oi' é ditongo) e 'teatro' (te-a-tro: hiato, mas 'o' da sílaba tônica merece análise). A alternativa D tem as três corretas."
+        "explicacao": "Hiato é a sequência de duas vogais pronunciadas em sílabas diferentes. 'Saúde': sa-ú-de — hiato. 'Juízo': ju-í-zo — hiato. 'Saída': sa-í-da — hiato. A alternativa D reúne as três palavras com hiato. A alternativa A erra ao incluir 'ouro' (ou-ro, ditongo), embora 'saúde' e 'moeda' tenham hiato. A alternativa B erra ao incluir 'cuidado' (cui-da-do, ditongo 'ui'). A alternativa C erra ao incluir 'heroico' (he-roi-co, ditongo 'oi'), embora 'teatro' (te-a-tro) tenha hiato. A alternativa E erra ao incluir 'pais' (monossílabo com ditongo 'ai'), embora 'saúde' e 'moeda' tenham hiato."
       },
       {
         "id": "d10",
@@ -915,12 +942,12 @@
         "alternativas": {
           "A": "heróis",
           "B": "frequência",
-          "C": "item",
+          "C": "lápis",
           "D": "para",
           "E": "bônus"
         },
         "gabarito": "D",
-        "explicacao": "'Para' é monossílabo átono (não tônico) — não recebe acento gráfico. 'Heróis': oxítona terminada em ditongo aberto 'oi' + s — recebe acento. 'Frequência': proparoxítona — todas as proparoxítonas são acentuadas. 'Item': oxítona terminada em 'em' — recebe acento (ít-em, mas a forma oxítona 'item' com acento é a correta; a forma sem acento seria incorreta). 'Bônus': paroxítona com 'o' fechado marcado pelo circunflexo — recebe acento para indicar timbre fechado e distinguir de outras formas. 'Para' não se enquadra em nenhuma regra de acentuação — é átono e sua forma não exige marcação."
+        "explicacao": "'Para' é paroxítona (pa-ra) terminada em 'a' e não se enquadra em nenhuma regra de acentuação; o antigo acento diferencial de 'pára' foi abolido. 'Heróis': oxítona terminada em ditongo aberto 'ói' seguido de 's' — recebe acento. 'Frequência': paroxítona terminada em ditongo crescente (proparoxítona aparente) — recebe acento. 'Lápis': paroxítona terminada em 'is' — recebe acento. 'Bônus': paroxítona terminada em 'us' — recebe acento. 'Para' é a única palavra da lista que não leva acento."
       },
       {
         "id": "d11",
@@ -942,7 +969,7 @@
         "id": "d12",
         "nivel": "avancado",
         "topico_referencia": "gram-07",
-        "enunciado": "Assinale a alternativa em que o infinitivo pessoal está corretamente empregado.",
+        "enunciado": "Assinale a alternativa em que o infinitivo flexionado (pessoal) está corretamente empregado.",
         "alternativas": {
           "A": "O sargento saiu sem os recrutas perceberem a sua ausência.",
           "B": "Os oficiais começaram a realizarem a inspeção das instalações.",
@@ -951,7 +978,7 @@
           "E": "Os recrutas precisavam de treinarem mais antes da avaliação."
         },
         "gabarito": "A",
-        "explicacao": "'Sem os recrutas perceberem': o infinitivo 'perceberem' tem sujeito próprio 'os recrutas', diferente do sujeito do verbo principal 'o sargento' — flexão obrigatória no plural; correto. A alternativa B usa 'realizarem' em locução verbal com mesmo sujeito — não deve flexionar. A alternativa C usa 'assinar' sem flexionar, mas o sujeito próprio 'todos os militares' é diferente do sujeito impessoal — deveria ser 'assinarem'. A alternativa D usa 'nos avisar' sem flexão, o que é válido, mas não é a construção exigida. A alternativa E usa 'treinarem' após 'de' com mesmo sujeito — erro."
+        "explicacao": "'Sem os recrutas perceberem': o infinitivo 'perceberem' tem sujeito próprio 'os recrutas', diferente do sujeito do verbo principal 'o sargento' — flexão obrigatória no plural; correto. A alternativa B usa 'realizarem' em locução verbal com mesmo sujeito — não deve flexionar. A alternativa C usa 'assinar' sem flexionar, mas o sujeito próprio 'todos os militares' é diferente do sujeito impessoal — deveria ser 'assinarem'. A alternativa D usa 'avisar' sem flexão, o que é correto (o sujeito do infinitivo é o mesmo do verbo principal), mas não traz infinitivo flexionado, que é o que o enunciado pede. A alternativa E usa 'treinarem' após 'de' com mesmo sujeito — erro."
       },
       {
         "id": "d13",
@@ -966,7 +993,7 @@
           "E": "o guia / a guia"
         },
         "gabarito": "D",
-        "explicacao": "'Recrutessa' não existe em português. 'Recruta' é substantivo sobrecomum — a mesma forma serve para ambos os gêneros, distinguidos apenas pelo artigo: 'o recruta' (masc.) e 'a recruta' (fem.). O sufixo '-essa' não é produtivo para 'recruta'. As demais alternativas usam substantivos sobrecomuns corretamente: 'cônjuge' (A), 'oficial' (B), 'sentinela' (C) e 'guia' (E) são todos sobrecomuns — mesma forma para os dois gêneros, diferenciados pelo artigo."
+        "explicacao": "'Recrutessa' não existe em português. 'Recruta' é substantivo comum de dois gêneros — a mesma forma serve para masculino e feminino, e o gênero se indica pelo artigo: 'o recruta' / 'a recruta'. O sufixo '-essa' não é produtivo para 'recruta'. As demais alternativas usam substantivos comuns de dois gêneros corretamente: 'cônjuge' (A), 'oficial' (B), 'sentinela' (C) e 'guia' (E)."
       },
       {
         "id": "d14",
@@ -975,13 +1002,13 @@
         "enunciado": "Assinale a alternativa em que o uso ou ausência do hífen está INCORRETO.",
         "alternativas": {
           "A": "sub-humano (SUB- + H)",
-          "B": "superinteressante (SUPER- + I, vogais diferentes)",
+          "B": "superinteressante (SUPER- + I)",
           "C": "anti-higiênico (ANTI- + H)",
-          "D": "coocupante (CO- + O, mesma vogal)",
+          "D": "co-ocupante (CO- + O, mesma vogal)",
           "E": "ultramoderno (ULTRA- + M, consoante)"
         },
         "gabarito": "D",
-        "explicacao": "'Coocupante' está incorreto: o prefixo CO- termina em 'o' e 'ocupante' começa com 'o' — mesma vogal, portanto exige hífen: 'co-ocupante'. A alternativa A está correta: SUB- antes de H → hífen obrigatório. A alternativa B está correta: SUPER- termina em R (consoante) + palavra iniciada por vogal → sem hífen. A alternativa C está correta: ANTI- + H → hífen obrigatório. A alternativa E está correta: ULTRA- + consoante M → sem hífen."
+        "explicacao": "'Co-ocupante' está incorreto: o prefixo CO- é exceção e se junta sem hífen mesmo diante de 'o' — o correto é 'coocupante' (como 'cooperar' e 'coordenar'). A alternativa A está correta: SUB- antes de H → hífen obrigatório. A alternativa B está correta: SUPER- termina em R (consoante) + palavra iniciada por vogal → sem hífen. A alternativa C está correta: ANTI- + H → hífen obrigatório. A alternativa E está correta: ULTRA- + consoante M → sem hífen."
       },
       {
         "id": "d15",
