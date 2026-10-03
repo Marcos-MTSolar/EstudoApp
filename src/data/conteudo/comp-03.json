@@ -124,6 +124,28 @@
             ]
           }
         ]
+      },
+      {
+        "subtitulo": "6. Símile versus metáfora: a diferença que a prova explora",
+        "conteudo": "Símile e metáfora são primas muito próximas — as duas são comparações conotativas entre dois elementos diferentes — mas a CEBRASPE gosta de cobrar justamente o detalhe que as diferencia, porque é fácil confundir uma com a outra sob pressão de prova.\n\nO símile (também chamado de comparação) é uma comparação EXPLÍCITA: ela usa um conectivo comparativo visível no texto, como 'como', 'tal qual', 'tal como', 'feito', 'que nem' ou a estrutura 'mais... do que'. Os dois elementos comparados aparecem lado a lado, e o leitor vê claramente que se trata de uma comparação. Exemplos: 'o recruta corria como um furacão', 'palavras que ferem mais fundo do que espadas', 'marchavam como um só corpo'.\n\nA metáfora é uma comparação IMPLÍCITA: ela funde os dois elementos em um só, sem conectivo comparativo — um elemento simplesmente 'vira' o outro no texto, como se fossem a mesma coisa. Exemplos: 'o sargento era uma rocha inabalável' (não diz 'como uma rocha', diz que ELE ERA a rocha), 'a voz do comandante trovejou' (o verbo já incorpora a comparação, sem precisar de 'como um trovão').\n\nUm jeito rápido de testar: se você conseguir inserir 'como' ou 'tal qual' na frase sem mudar a estrutura e ela continuar soando natural, provavelmente já era (ou poderia ser) um símile. Se a frase afirma uma identidade direta entre os dois elementos ('X é Y', sem comparativo), é metáfora.\n\nO erro mais comum da prova é a banca apresentar um símile (com 'como' bem visível) e o candidato classificar como metáfora só porque 'parece a mesma coisa' — ou o contrário, apresentar uma metáfora pura e o candidato tentar encontrar um comparativo que não existe no texto.",
+        "regra": "Símile = comparação EXPLÍCITA, com conectivo visível ('como', 'tal qual', 'mais... do que') · Metáfora = comparação IMPLÍCITA, sem conectivo, por identidade direta ('X é Y')",
+        "exemplos": [
+          {
+            "texto_base": "O recruta era um leão em combate, correndo como um furacão pelo campo; sua coragem, porém, era construída, não nascida pronta.",
+            "anotacoes": [
+              {
+                "trecho": "era um leão em combate",
+                "destaque": "metáfora (implícita)",
+                "motivo": "Identidade direta sem conectivo: o recruta 'é' o leão, não há 'como' — comparação implícita"
+              },
+              {
+                "trecho": "correndo como um furacão",
+                "destaque": "símile (explícita)",
+                "motivo": "Comparação explícita com o conectivo 'como': os dois elementos (correr, furacão) aparecem lado a lado, visivelmente comparados"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -187,14 +209,14 @@
       "nivel": "basico",
       "enunciado": "A linguagem denotativa caracteriza-se pelo uso das palavras em seu sentido",
       "alternativas": {
-        "A": "figurado, expressivo e subjetivo",
-        "B": "literal, objetivo e referencial",
+        "A": "literal, objetivo e referencial",
+        "B": "figurado, expressivo e subjetivo",
         "C": "irônico, crítico e humorístico",
         "D": "emocional, poético e conotativo",
         "E": "ambíguo, cultural e contextual"
       },
-      "gabarito": "B",
-      "explicacao": "A linguagem denotativa é aquela em que as palavras são usadas em seu sentido primário, literal e objetivo — o sentido encontrado no dicionário, sem carga emocional adicional ou interpretação figurada. A alternativa A descreve a linguagem conotativa. As alternativas C, D e E descrevem características da conotação ou usos específicos da linguagem figurada. O traço fundamental da denotação é a objetividade e a referencialidade: a palavra aponta diretamente para o objeto ou conceito que designa."
+      "gabarito": "A",
+      "explicacao": "A linguagem denotativa é aquela em que as palavras são usadas em seu sentido primário, literal e objetivo — o sentido encontrado no dicionário, sem carga emocional adicional ou interpretação figurada. A alternativa B descreve a linguagem conotativa. As alternativas C, D e E descrevem características da conotação ou usos específicos da linguagem figurada. O traço fundamental da denotação é a objetividade e a referencialidade: a palavra aponta diretamente para o objeto ou conceito que designa."
     },
     {
       "id": "q02",
@@ -216,13 +238,13 @@
       "enunciado": "No trecho 'O cabo cheirou o perigo antes de todos os outros', a palavra 'cheirou' está em sentido",
       "alternativas": {
         "A": "denotativo, pois indica percepção olfativa real de algum odor de risco",
-        "B": "conotativo, pois indica que o cabo percebeu ou pressentiu o perigo intuitivamente",
+        "B": "neutro, sem carga denotativa nem conotativa",
         "C": "técnico naval, pois 'cheirar o perigo' é termo específico da Marinha",
         "D": "denotativo, pois todos os sentidos do verbo 'cheirar' são literais",
-        "E": "neutro, sem carga denotativa nem conotativa"
+        "E": "conotativo, pois indica que o cabo percebeu ou pressentiu o perigo intuitivamente"
       },
-      "gabarito": "B",
-      "explicacao": "A expressão 'cheirou o perigo' está em sentido conotativo: usa o verbo 'cheirar' de forma figurada para indicar pressentimento ou percepção intuitiva — não há odor físico real de perigo. Essa metáfora animal (associação ao faro aguçado de animais de caça) é comum na língua portuguesa. A alternativa A interpreta literalmente o que é claramente figurado. A alternativa C inventa um uso técnico inexistente. A alternativa D afirma que o verbo 'cheirar' só tem sentidos literais, o que é falso. A alternativa E não existe — qualquer uso linguístico tem natureza denotativa ou conotativa."
+      "gabarito": "E",
+      "explicacao": "A expressão 'cheirou o perigo' está em sentido conotativo: usa o verbo 'cheirar' de forma figurada para indicar pressentimento ou percepção intuitiva — não há odor físico real de perigo. Essa metáfora animal (associação ao faro aguçado de animais de caça) é comum na língua portuguesa. A alternativa A interpreta literalmente o que é claramente figurado. A alternativa C inventa um uso técnico inexistente. A alternativa D afirma que o verbo 'cheirar' só tem sentidos literais, o que é falso. A alternativa B não existe — qualquer uso linguístico tem natureza denotativa ou conotativa."
     },
     {
       "id": "q04",
@@ -230,13 +252,13 @@
       "enunciado": "Em qual das alternativas abaixo há uso predominante de linguagem CONOTATIVA?",
       "alternativas": {
         "A": "A temperatura na base naval atingiu 38°C durante o exercício.",
-        "B": "O oficial foi aprovado no concurso com 87 pontos.",
+        "B": "A Marinha é o escudo que protege o coração do Brasil.",
         "C": "A cerimônia de incorporação durou três horas.",
-        "D": "A Marinha é o escudo que protege o coração do Brasil.",
+        "D": "O oficial foi aprovado no concurso com 87 pontos.",
         "E": "O navio de guerra tem capacidade para 200 tripulantes."
       },
-      "gabarito": "D",
-      "explicacao": "A alternativa D usa linguagem conotativa com duas metáforas: 'escudo' (instrumento de proteção, figurativamente aplicado à Marinha) e 'coração do Brasil' (designa o Brasil com ênfase afetiva, não o órgão cardíaco). Juntas, as metáforas criam uma imagem de proteção vital e emotiva. As alternativas A, B, C e E usam linguagem denotativa: apresentam dados objetivos, mensuráveis e verificáveis — temperatura, pontuação, duração e capacidade — sem nenhuma figura de linguagem."
+      "gabarito": "B",
+      "explicacao": "A alternativa B usa linguagem conotativa com duas metáforas: 'escudo' (instrumento de proteção, figurativamente aplicado à Marinha) e 'coração do Brasil' (designa o Brasil com ênfase afetiva, não o órgão cardíaco). Juntas, as metáforas criam uma imagem de proteção vital e emotiva. As alternativas A, C, D e E usam linguagem denotativa: apresentam dados objetivos, mensuráveis e verificáveis — temperatura, pontuação, duração e capacidade — sem nenhuma figura de linguagem."
     },
     {
       "id": "q05",
@@ -245,12 +267,12 @@
       "alternativas": {
         "A": "Bula de medicamento",
         "B": "Manual técnico de armamento",
-        "C": "Poesia e textos literários",
-        "D": "Tabela de valores de impostos",
+        "C": "Tabela de valores de impostos",
+        "D": "Poesia e textos literários",
         "E": "Relatório de inventário de material"
       },
-      "gabarito": "C",
-      "explicacao": "Textos literários, especialmente a poesia, são o ambiente natural da linguagem conotativa: exploram ao máximo o sentido figurado, a ambiguidade produtiva e os efeitos expressivos das palavras. As alternativas A, B, D e E representam tipos de texto que exigem precisão técnica e objetividade — contextos em que a ambiguidade seria prejudicial. Nesses textos predomina a linguagem denotativa, pois erros de interpretação podem ter consequências graves (na bula, na tabela de impostos, no relatório)."
+      "gabarito": "D",
+      "explicacao": "Textos literários, especialmente a poesia, são o ambiente natural da linguagem conotativa: exploram ao máximo o sentido figurado, a ambiguidade produtiva e os efeitos expressivos das palavras. As alternativas A, B, C e E representam tipos de texto que exigem precisão técnica e objetividade — contextos em que a ambiguidade seria prejudicial. Nesses textos predomina a linguagem denotativa, pois erros de interpretação podem ter consequências graves (na bula, na tabela de impostos, no relatório)."
     },
     {
       "id": "q06",
@@ -271,14 +293,14 @@
       "nivel": "basico",
       "enunciado": "Qual das afirmativas abaixo sobre linguagem denotativa e conotativa está CORRETA?",
       "alternativas": {
-        "A": "Denotação e conotação são opostos absolutos e nunca coexistem no mesmo texto.",
+        "A": "A denotação usa o sentido literal; a conotação usa o sentido figurado.",
         "B": "A conotação é sempre errada em textos formais e deve ser evitada.",
-        "C": "A denotação usa o sentido literal; a conotação usa o sentido figurado.",
+        "C": "Denotação e conotação são opostos absolutos e nunca coexistem no mesmo texto.",
         "D": "Conotação refere-se apenas a palavras com sentido negativo ou pejorativo.",
         "E": "A denotação é exclusiva da linguagem oral; a conotação, da linguagem escrita."
       },
-      "gabarito": "C",
-      "explicacao": "A alternativa C é a definição correta: denotação é o sentido literal, objetivo, de dicionário; conotação é o sentido figurado, expressivo, dependente do contexto. A alternativa A está errada porque denotação e conotação coexistem com frequência no mesmo texto. A alternativa B está errada porque textos formais também podem usar expressões conotativas. A alternativa D restringe erroneamente a conotação ao sentido pejorativo — ela pode ser positiva, neutra ou negativa. A alternativa E é totalmente falsa — ambas existem tanto na fala quanto na escrita."
+      "gabarito": "A",
+      "explicacao": "A alternativa A é a definição correta: denotação é o sentido literal, objetivo, de dicionário; conotação é o sentido figurado, expressivo, dependente do contexto. A alternativa C está errada porque denotação e conotação coexistem com frequência no mesmo texto. A alternativa B está errada porque textos formais também podem usar expressões conotativas. A alternativa D restringe erroneamente a conotação ao sentido pejorativo — ela pode ser positiva, neutra ou negativa. A alternativa E é totalmente falsa — ambas existem tanto na fala quanto na escrita."
     },
     {
       "id": "q08",
@@ -287,13 +309,13 @@
       "enunciado": "No trecho acima, o verbo 'varreram' está em sentido",
       "alternativas": {
         "A": "denotativo, pois indica limpeza do local com vassoura",
-        "B": "conotativo, pois indica que o almirante observou a sala de forma rápida e abrangente",
+        "B": "denotativo, pois olhos realmente podem varrer superfícies",
         "C": "técnico, pois 'varrer com os olhos' é expressão restrita ao meio militar",
-        "D": "denotativo, pois olhos realmente podem varrer superfícies",
+        "D": "conotativo, pois indica que o almirante observou a sala de forma rápida e abrangente",
         "E": "ambíguo, pois pode ser literal ou figurado conforme o leitor"
       },
-      "gabarito": "B",
-      "explicacao": "O verbo 'varreram' está em sentido conotativo: a expressão 'os olhos varreram a sala' usa o verbo no sentido figurado de 'percorrer rapidamente com o olhar', de forma abrangente — como uma vassoura percorre o chão, mas aplicado à visão. Não há limpeza real (alternativa A falsa). A alternativa C inventa uma restrição ao meio militar que não existe. A alternativa D afirma ser denotativo com justificativa absurda — olhos não têm movimento de varredura física. A alternativa E evita a resposta, o que não é aceitável: no contexto dado, o sentido é inequivocamente conotativo."
+      "gabarito": "D",
+      "explicacao": "O verbo 'varreram' está em sentido conotativo: a expressão 'os olhos varreram a sala' usa o verbo no sentido figurado de 'percorrer rapidamente com o olhar', de forma abrangente — como uma vassoura percorre o chão, mas aplicado à visão. Não há limpeza real (alternativa A falsa). A alternativa C inventa uma restrição ao meio militar que não existe. A alternativa B afirma ser denotativo com justificativa absurda — olhos não têm movimento de varredura física. A alternativa E evita a resposta, o que não é aceitável: no contexto dado, o sentido é inequivocamente conotativo."
     },
     {
       "id": "q09",
@@ -302,12 +324,12 @@
       "alternativas": {
         "A": "sua definição no dicionário técnico",
         "B": "sua ortografia e acentuação corretas",
-        "C": "o contexto em que é usada e a intenção do autor",
+        "C": "a quantidade de sílabas e a tonicidade da palavra",
         "D": "sua classe gramatical e flexão",
-        "E": "a quantidade de sílabas e a tonicidade da palavra"
+        "E": "o contexto em que é usada e a intenção do autor"
       },
-      "gabarito": "C",
-      "explicacao": "O sentido conotativo não está na palavra isolada — está no contexto em que ela é usada e na intenção comunicativa do autor. Uma mesma palavra pode ser denotativa em um texto e conotativa em outro, dependendo de como e por que é empregada. O dicionário técnico (alternativa A) registra sentidos denotativos especializados. Ortografia (alternativa B), classe gramatical (alternativa D) e características fonéticas (alternativa E) são aspectos formais que não determinam se o uso é denotativo ou conotativo."
+      "gabarito": "E",
+      "explicacao": "O sentido conotativo não está na palavra isolada — está no contexto em que ela é usada e na intenção comunicativa do autor. Uma mesma palavra pode ser denotativa em um texto e conotativa em outro, dependendo de como e por que é empregada. O dicionário técnico (alternativa A) registra sentidos denotativos especializados. Ortografia (alternativa B), classe gramatical (alternativa D) e características fonéticas (alternativa C) são aspectos formais que não determinam se o uso é denotativo ou conotativo."
     },
     {
       "id": "q10",
@@ -316,13 +338,13 @@
       "enunciado": "A linguagem do trecho acima é predominantemente",
       "alternativas": {
         "A": "conotativa, pois evoca emoções e memórias históricas",
-        "B": "irônica, pois crítica indiretamente a estrutura militar",
-        "C": "denotativa, pois apresenta informações objetivas e verificáveis",
+        "B": "denotativa, pois apresenta informações objetivas e verificáveis",
+        "C": "irônica, pois crítica indiretamente a estrutura militar",
         "D": "figurada, pois '1945' e 'dois mil' são hipérboles",
         "E": "metafórica, pois 'abriga' é usada no sentido figurado"
       },
-      "gabarito": "C",
-      "explicacao": "O trecho usa linguagem denotativa: apresenta dados objetivos (data de inauguração e número de militares) de forma direta e verificável. A alternativa A confunde a possível evocação histórica do leitor com conotação textual — o texto em si não tem carga conotativa. A alternativa B é descabida: não há ironia no trecho. A alternativa D afirma que números são hipérboles, o que é incorreto — hipérbole é exagero intencional para efeito expressivo, não dado numérico real. A alternativa E afirma que 'abriga' é figurado, mas nesse contexto 'abrigar militares' é uso completamente denotativo do verbo."
+      "gabarito": "B",
+      "explicacao": "O trecho usa linguagem denotativa: apresenta dados objetivos (data de inauguração e número de militares) de forma direta e verificável. A alternativa A confunde a possível evocação histórica do leitor com conotação textual — o texto em si não tem carga conotativa. A alternativa C é descabida: não há ironia no trecho. A alternativa D afirma que números são hipérboles, o que é incorreto — hipérbole é exagero intencional para efeito expressivo, não dado numérico real. A alternativa E afirma que 'abriga' é figurado, mas nesse contexto 'abrigar militares' é uso completamente denotativo do verbo."
     },
     {
       "id": "q11",
@@ -331,13 +353,13 @@
       "enunciado": "No trecho acima, as expressões 'navegou em mares revoltos' e 'ventos contrários' estão em sentido conotativo. O efeito de sentido produzido por essas metáforas é",
       "alternativas": {
         "A": "indicar que o Comando Naval realizou operações marítimas em condições climáticas adversas",
-        "B": "sugerir que o Comando Naval enfrentou dificuldades e resistências em seu trabalho institucional",
+        "B": "evidenciar que o Congresso e a opinião pública apoiaram plenamente o Comando",
         "C": "demonstrar que a Marinha tem expertise em navegação em alto-mar com tempestades",
         "D": "criticar ironicamente a falta de planejamento das operações navais do ano",
-        "E": "evidenciar que o Congresso e a opinião pública apoiaram plenamente o Comando"
+        "E": "sugerir que o Comando Naval enfrentou dificuldades e resistências em seu trabalho institucional"
       },
-      "gabarito": "B",
-      "explicacao": "As metáforas 'navegou em mares revoltos' e 'ventos contrários' são usadas em sentido conotativo para descrever dificuldades institucionais e resistências políticas — não há navegação real nem clima adverso. O efeito é de evocar a imagem de desafios enfrentados com esforço. A alternativa A interpreta literalmente o que é claramente metafórico. A alternativa C confunde o campo semântico da metáfora com competência técnica real. A alternativa D atribui ironia que não existe no trecho — o texto não critica, apenas descreve com metáfora. A alternativa E contradiz o sentido das metáforas: 'mares revoltos' e 'ventos contrários' indicam resistência, não apoio."
+      "gabarito": "E",
+      "explicacao": "As metáforas 'navegou em mares revoltos' e 'ventos contrários' são usadas em sentido conotativo para descrever dificuldades institucionais e resistências políticas — não há navegação real nem clima adverso. O efeito é de evocar a imagem de desafios enfrentados com esforço. A alternativa A interpreta literalmente o que é claramente metafórico. A alternativa C confunde o campo semântico da metáfora com competência técnica real. A alternativa D atribui ironia que não existe no trecho — o texto não critica, apenas descreve com metáfora. A alternativa B contradiz o sentido das metáforas: 'mares revoltos' e 'ventos contrários' indicam resistência, não apoio."
     },
     {
       "id": "q12",
@@ -346,13 +368,13 @@
       "enunciado": "No trecho acima, a palavra 'frieza' está em sentido",
       "alternativas": {
         "A": "denotativo, pois indica temperatura baixa no ambiente da reunião",
-        "B": "conotativo, pois indica indiferença, desinteresse ou resistência dos oficiais",
+        "B": "denotativo, pois frieza é uma propriedade física objetivamente mensurável",
         "C": "técnico, pois 'frieza' é terminologia específica do protocolo naval",
-        "D": "denotativo, pois frieza é uma propriedade física objetivamente mensurável",
+        "D": "conotativo, pois indica indiferença, desinteresse ou resistência dos oficiais",
         "E": "ambíguo, sem sentido determinável no contexto dado"
       },
-      "gabarito": "B",
-      "explicacao": "A palavra 'frieza' está em sentido conotativo: não designa temperatura baixa, mas sim a atitude de indiferença, desinteresse ou resistência emocional dos oficiais diante da proposta. É uma metáfora sinestésica muito comum na língua — a temperatura física (frio) transferida para o comportamento humano (distância emocional). A alternativa A interpreta literalmente o que é figurado. A alternativa C inventa terminologia técnica naval inexistente. A alternativa D afirma ser denotativo com o argumento de que frieza é mensurável — mensurável é a temperatura, não a atitude descrita. A alternativa E nega que o contexto determine o sentido, o que é incorreto."
+      "gabarito": "D",
+      "explicacao": "A palavra 'frieza' está em sentido conotativo: não designa temperatura baixa, mas sim a atitude de indiferença, desinteresse ou resistência emocional dos oficiais diante da proposta. É uma metáfora sinestésica muito comum na língua — a temperatura física (frio) transferida para o comportamento humano (distância emocional). A alternativa A interpreta literalmente o que é figurado. A alternativa C inventa terminologia técnica naval inexistente. A alternativa B afirma ser denotativo com o argumento de que frieza é mensurável — mensurável é a temperatura, não a atitude descrita. A alternativa E nega que o contexto determine o sentido, o que é incorreto."
     },
     {
       "id": "q13",
@@ -361,13 +383,13 @@
       "enunciado": "As expressões 'tiro certeiro', 'atingiu o alvo' e 'silenciou os opositores' no trecho estão todas em sentido conotativo. Qual recurso expressivo predomina nesse conjunto de metáforas?",
       "alternativas": {
         "A": "Ironia, pois o discurso foi na verdade ineficaz",
-        "B": "Hipérbole, pois exagera a duração do discurso",
-        "C": "Campo semântico bélico usado metaforicamente para descrever eficácia comunicativa",
+        "B": "Campo semântico bélico usado metaforicamente para descrever eficácia comunicativa",
+        "C": "Hipérbole, pois exagera a duração do discurso",
         "D": "Personificação, pois atribui características humanas ao discurso",
         "E": "Metonímia, pois usa a parte pelo todo do contexto militar"
       },
-      "gabarito": "C",
-      "explicacao": "As três expressões pertencem ao campo semântico bélico/militar ('tiro', 'atingiu o alvo', 'silenciou') e são usadas metaforicamente para descrever o impacto e a eficácia de um discurso — não há armas reais. Esse tipo de metáfora de guerra aplicado à comunicação é muito frequente na língua. A alternativa A atribui ironia sem fundamento — o contexto indica que o discurso foi eficaz, não o oposto. A alternativa B afirma haver hipérbole sobre a duração, mas nada no trecho menciona duração. A alternativa D seria personificação se atribuísse vontade humana ao discurso — o que não acontece aqui. A alternativa E confunde metonímia com metáfora de campo semântico."
+      "gabarito": "B",
+      "explicacao": "As três expressões pertencem ao campo semântico bélico/militar ('tiro', 'atingiu o alvo', 'silenciou') e são usadas metaforicamente para descrever o impacto e a eficácia de um discurso — não há armas reais. Esse tipo de metáfora de guerra aplicado à comunicação é muito frequente na língua. A alternativa A atribui ironia sem fundamento — o contexto indica que o discurso foi eficaz, não o oposto. A alternativa C afirma haver hipérbole sobre a duração, mas nada no trecho menciona duração. A alternativa D seria personificação se atribuísse vontade humana ao discurso — o que não acontece aqui. A alternativa E confunde metonímia com metáfora de campo semântico."
     },
     {
       "id": "q14",
@@ -375,14 +397,14 @@
       "textoBase": "O novo regulamento do porto foi engolido pelos servidores sem maiores questionamentos.",
       "enunciado": "No trecho acima, a expressão 'foi engolido' está em sentido conotativo. Essa escolha lexical sugere que os servidores",
       "alternativas": {
-        "A": "consumiram fisicamente o documento do regulamento",
+        "A": "aceitaram o regulamento passivamente, talvez contrariados, sem contestar",
         "B": "destruíram o regulamento para impedir sua publicação",
-        "C": "aceitaram o regulamento passivamente, talvez contrariados, sem contestar",
+        "C": "consumiram fisicamente o documento do regulamento",
         "D": "aprovaram entusiasticamente o regulamento após análise criteriosa",
         "E": "desconheciam completamente o conteúdo do regulamento recebido"
       },
-      "gabarito": "C",
-      "explicacao": "A expressão 'ser engolido' em sentido conotativo significa aceitar algo de forma passiva, muitas vezes sem concordar plenamente, mas sem resistência visível — como 'engolir um remédio amargo' que não se quer tomar mas é necessário. O modificador 'sem maiores questionamentos' reforça a passividade da aceitação. A alternativa A interpreta literalmente — absurdo no contexto. A alternativa B inverte o sentido: engolir é aceitar, não destruir. A alternativa D contradiz a conotação: 'entusiasticamente' é o oposto de 'engolir' — este implica relutância ou neutralidade forçada. A alternativa E confunde aceitação passiva com desconhecimento."
+      "gabarito": "A",
+      "explicacao": "A expressão 'ser engolido' em sentido conotativo significa aceitar algo de forma passiva, muitas vezes sem concordar plenamente, mas sem resistência visível — como 'engolir um remédio amargo' que não se quer tomar mas é necessário. O modificador 'sem maiores questionamentos' reforça a passividade da aceitação. A alternativa C interpreta literalmente — absurdo no contexto. A alternativa B inverte o sentido: engolir é aceitar, não destruir. A alternativa D contradiz a conotação: 'entusiasticamente' é o oposto de 'engolir' — este implica relutância ou neutralidade forçada. A alternativa E confunde aceitação passiva com desconhecimento."
     },
     {
       "id": "q15",
@@ -391,13 +413,13 @@
       "enunciado": "No trecho, a expressão 'como um só corpo' é um exemplo de",
       "alternativas": {
         "A": "metonímia, pois usa 'corpo' para designar o conjunto de uniformes dos recrutas",
-        "B": "símile conotativo, pois compara os recrutas a um único organismo para indicar coesão e unidade",
-        "C": "ironia, pois sugere que os recrutas não tinham individualidade própria",
+        "B": "ironia, pois sugere que os recrutas não tinham individualidade própria",
+        "C": "símile conotativo, pois compara os recrutas a um único organismo para indicar coesão e unidade",
         "D": "hipérbole, pois exagera o número de recrutas na formatura",
         "E": "linguagem denotativa, pois descreve a formação física real dos soldados"
       },
-      "gabarito": "B",
-      "explicacao": "A expressão 'como um só corpo' é um símile — comparação explícita introduzida pela palavra 'como' — de natureza conotativa, usada para expressar a coesão, unidade e sincronia dos recrutas em marcha. O efeito é de admiração pela perfeita coordenação do grupo. A alternativa A descreve erroneamente a figura como metonímia. A alternativa C atribui ironia onde há admiração — o contexto ('espetáculo à parte') é positivo. A alternativa D diz que a hipérbole exagera o número — mas o exagero está na qualidade da marcha, não na quantidade de pessoas. A alternativa E afirma ser denotativo — incorreto, pois recrutas não formam literalmente um único corpo."
+      "gabarito": "C",
+      "explicacao": "A expressão 'como um só corpo' é um símile — comparação explícita introduzida pela palavra 'como' — de natureza conotativa, usada para expressar a coesão, unidade e sincronia dos recrutas em marcha. O efeito é de admiração pela perfeita coordenação do grupo. A alternativa A descreve erroneamente a figura como metonímia. A alternativa B atribui ironia onde há admiração — o contexto ('espetáculo à parte') é positivo. A alternativa D diz que a hipérbole exagera o número — mas o exagero está na qualidade da marcha, não na quantidade de pessoas. A alternativa E afirma ser denotativo — incorreto, pois recrutas não formam literalmente um único corpo."
     },
     {
       "id": "q16",
@@ -406,13 +428,13 @@
       "enunciado": "A expressão 'caiu em si' no trecho está em sentido",
       "alternativas": {
         "A": "denotativo, pois indica que o tenente sofreu uma queda física",
-        "B": "conotativo, pois é expressão idiomática que indica tomada de consciência ou percepção da situação",
+        "B": "denotativo, pois 'cair' é sempre verbo de movimento físico na língua portuguesa",
         "C": "técnico, pois 'cair em si' é procedimento previsto no regulamento naval",
-        "D": "denotativo, pois 'cair' é sempre verbo de movimento físico na língua portuguesa",
+        "D": "conotativo, pois é expressão idiomática que indica tomada de consciência ou percepção da situação",
         "E": "irônico, pois o tenente era incapaz de perceber qualquer situação"
       },
-      "gabarito": "B",
-      "explicacao": "A expressão 'cair em si' é um idiomatismo — expressão conotativa cristalizada na língua portuguesa que significa 'perceber a realidade, tomar consciência, entender a situação'. Não há queda física alguma. Esse tipo de expressão idiomática é usado exclusivamente em sentido figurado. A alternativa A interpreta literalmente o que é idiomático. A alternativa C inventa regulamento naval. A alternativa D afirma erroneamente que 'cair' é sempre físico — a língua tem vários usos conotativos para o verbo 'cair' (cair em contradição, cair em desgraça, cair em si). A alternativa E atribui ironia sem sustentação no texto."
+      "gabarito": "D",
+      "explicacao": "A expressão 'cair em si' é um idiomatismo — expressão conotativa cristalizada na língua portuguesa que significa 'perceber a realidade, tomar consciência, entender a situação'. Não há queda física alguma. Esse tipo de expressão idiomática é usado exclusivamente em sentido figurado. A alternativa A interpreta literalmente o que é idiomático. A alternativa C inventa regulamento naval. A alternativa B afirma erroneamente que 'cair' é sempre físico — a língua tem vários usos conotativos para o verbo 'cair' (cair em contradição, cair em desgraça, cair em si). A alternativa E atribui ironia sem sustentação no texto."
     },
     {
       "id": "q17",
@@ -421,13 +443,13 @@
       "enunciado": "A linguagem predominante no trecho acima é",
       "alternativas": {
         "A": "conotativa, pois 'área de exclusão' é expressão com carga emocional negativa",
-        "B": "figurada, pois 'interceptada' é metáfora militar para 'ignorada'",
-        "C": "denotativa, pois o texto normativo usa termos técnicos em sentido objetivo e preciso",
+        "B": "denotativa, pois o texto normativo usa termos técnicos em sentido objetivo e preciso",
+        "C": "figurada, pois 'interceptada' é metáfora militar para 'ignorada'",
         "D": "irônica, pois critica indiretamente a política de defesa aérea",
         "E": "ambígua, pois 'sobrevoar' pode ter sentido literal ou figurado"
       },
-      "gabarito": "C",
-      "explicacao": "O trecho é um texto normativo (portaria) que usa linguagem denotativa: os termos 'aeronave', 'sobrevoar', 'área de exclusão', 'interceptada' e 'forças de defesa' são usados em seus sentidos técnicos precisos, sem figura de linguagem. A alternativa A confunde carga técnica/jurídica com conotação — 'área de exclusão' é termo técnico, não expressão figurada. A alternativa B afirma que 'interceptada' é metáfora — mas no contexto militar e aeronáutico, é uso denotativo técnico. A alternativa D atribui ironia sem nenhuma evidência. A alternativa E afirma ambiguidade onde não há: 'sobrevoar' no contexto de portaria aeronáutica é inequivocamente literal."
+      "gabarito": "B",
+      "explicacao": "O trecho é um texto normativo (portaria) que usa linguagem denotativa: os termos 'aeronave', 'sobrevoar', 'área de exclusão', 'interceptada' e 'forças de defesa' são usados em seus sentidos técnicos precisos, sem figura de linguagem. A alternativa A confunde carga técnica/jurídica com conotação — 'área de exclusão' é termo técnico, não expressão figurada. A alternativa C afirma que 'interceptada' é metáfora — mas no contexto militar e aeronáutico, é uso denotativo técnico. A alternativa D atribui ironia sem nenhuma evidência. A alternativa E afirma ambiguidade onde não há: 'sobrevoar' no contexto de portaria aeronáutica é inequivocamente literal."
     },
     {
       "id": "q18",
@@ -435,14 +457,14 @@
       "textoBase": "O almirante era um lobo do mar: conhecia cada centímetro do oceano como conhecia a própria palma da mão.",
       "enunciado": "No trecho, identificam-se dois recursos conotativos. Assinale a alternativa que os identifica corretamente.",
       "alternativas": {
-        "A": "'Lobo do mar' é hipérbole; 'palma da mão' é ironia",
-        "B": "'Lobo do mar' é metáfora que indica experiência marítima; 'como conhecia a própria palma da mão' é símile que reforça o domínio profundo do conhecimento",
+        "A": "'Lobo do mar' é metáfora que indica experiência marítima; 'como conhecia a própria palma da mão' é símile que reforça o domínio profundo do conhecimento",
+        "B": "'Lobo do mar' é hipérbole; 'palma da mão' é ironia",
         "C": "'Lobo do mar' é metonímia; 'palma da mão' é linguagem denotativa",
         "D": "'Lobo do mar' é ironia; 'palma da mão' é hipérbole",
         "E": "Ambas as expressões são linguagem denotativa, pois descrevem fatos reais sobre o almirante"
       },
-      "gabarito": "B",
-      "explicacao": "'Lobo do mar' é uma metáfora lexicalizada (expressão figurada cristalizada na língua) que designa marinheiro muito experiente — combina a astúcia/ferocidade do lobo com o ambiente marítimo. 'Como conhecia a própria palma da mão' é um símile (comparação com 'como') que indica conhecimento profundo e íntimo — usar a palma da mão como referência de algo bem conhecido é expressão conotativa clássica. A alternativa A confunde as figuras. A alternativa C classifica 'lobo do mar' como metonímia — incorreto. A alternativa D atribui ironia a 'lobo do mar', o que inverte o sentido positivo. A alternativa E nega as figuras de linguagem evidentes."
+      "gabarito": "A",
+      "explicacao": "'Lobo do mar' é uma metáfora lexicalizada (expressão figurada cristalizada na língua) que designa marinheiro muito experiente — combina a astúcia/ferocidade do lobo com o ambiente marítimo. 'Como conhecia a própria palma da mão' é um símile (comparação com 'como') que indica conhecimento profundo e íntimo — usar a palma da mão como referência de algo bem conhecido é expressão conotativa clássica. A alternativa B confunde as figuras. A alternativa C classifica 'lobo do mar' como metonímia — incorreto. A alternativa D atribui ironia a 'lobo do mar', o que inverte o sentido positivo. A alternativa E nega as figuras de linguagem evidentes."
     },
     {
       "id": "q19",
@@ -451,13 +473,13 @@
       "enunciado": "As expressões 'estrondoso' e 'nas alturas' no trecho estão em sentido",
       "alternativas": {
         "A": "denotativo; ambas descrevem fatos objetivos e verificáveis sobre a operação",
-        "B": "conotativo; 'estrondoso' intensifica o sucesso por metáfora sonora; 'nas alturas' usa metáfora espacial para indicar elevação do moral",
-        "C": "técnico militar; ambas são terminologias específicas de relatórios de operação",
+        "B": "técnico militar; ambas são terminologias específicas de relatórios de operação",
+        "C": "conotativo; 'estrondoso' intensifica o sucesso por metáfora sonora; 'nas alturas' usa metáfora espacial para indicar elevação do moral",
         "D": "irônico; a operação na verdade foi um fracasso descrito de forma sarcástica",
         "E": "denotativo; 'estrondoso' indica o som real produzido pela operação; 'nas alturas' refere-se à altitude dos voos"
       },
-      "gabarito": "B",
-      "explicacao": "'Estrondoso' usa uma metáfora sinestésica: 'estrondo' é ruído intenso, e transferido para 'sucesso' indica grandiosidade marcante — não há ruído real. 'Nas alturas' é metáfora espacial: algo elevado fisicamente transferido para estado de elevação emocional/motivacional — o moral não tem altitude física. Ambas são conotativas. A alternativa A nega as figuras evidentes. A alternativa C inventa terminologia técnica. A alternativa D atribui ironia — não há evidência de que a operação foi fracasso. A alternativa E interpreta literalmente o que é claramente figurado."
+      "gabarito": "C",
+      "explicacao": "'Estrondoso' usa uma metáfora sinestésica: 'estrondo' é ruído intenso, e transferido para 'sucesso' indica grandiosidade marcante — não há ruído real. 'Nas alturas' é metáfora espacial: algo elevado fisicamente transferido para estado de elevação emocional/motivacional — o moral não tem altitude física. Ambas são conotativas. A alternativa A nega as figuras evidentes. A alternativa B inventa terminologia técnica. A alternativa D atribui ironia — não há evidência de que a operação foi fracasso. A alternativa E interpreta literalmente o que é claramente figurado."
     },
     {
       "id": "q20",
@@ -467,12 +489,12 @@
       "alternativas": {
         "A": "lesionou a mão durante o treinamento",
         "B": "estendeu a mão para receber algo do superior",
-        "C": "renunciou voluntariamente a suas férias",
+        "C": "ficou sem mão de obra para concluir o treinamento",
         "D": "abriu a mão para gesticular durante a conversa",
-        "E": "ficou sem mão de obra para concluir o treinamento"
+        "E": "renunciou voluntariamente a suas férias"
       },
-      "gabarito": "C",
-      "explicacao": "A expressão idiomática 'abrir mão' significa renunciar, desistir voluntariamente de algo — é um uso conotativo cristalizado na língua portuguesa. O contexto ('de suas férias para concluir o treinamento') confirma o sentido de renúncia voluntária em benefício de um objetivo. As alternativas A, B, D e E interpretam literalmente a ação física de 'abrir a mão', ignorando completamente o idiomatismo. Expressões idiomáticas devem ser reconhecidas pelo sentido global da expressão, não pela soma dos sentidos individuais de cada palavra."
+      "gabarito": "E",
+      "explicacao": "A expressão idiomática 'abrir mão' significa renunciar, desistir voluntariamente de algo — é um uso conotativo cristalizado na língua portuguesa. O contexto ('de suas férias para concluir o treinamento') confirma o sentido de renúncia voluntária em benefício de um objetivo. As alternativas A, B, C e D interpretam literalmente a ação física de 'abrir a mão', ignorando completamente o idiomatismo. Expressões idiomáticas devem ser reconhecidas pelo sentido global da expressão, não pela soma dos sentidos individuais de cada palavra."
     },
     {
       "id": "q21",
@@ -497,11 +519,11 @@
       "alternativas": {
         "A": "criticar a Marinha por não atualizar seus equipamentos ao longo de 200 anos",
         "B": "indicar objetivamente as datas e locais das principais batalhas navais da história",
-        "C": "criar um efeito de perenidade, orgulho histórico e continuidade entre passado e presente",
+        "C": "sugerir ironia sobre a celebração dos 200 anos, questionando a relevância da data",
         "D": "alertar que os cascos dos navios precisam de manutenção para preservar a memória",
-        "E": "sugerir ironia sobre a celebração dos 200 anos, questionando a relevância da data"
+        "E": "criar um efeito de perenidade, orgulho histórico e continuidade entre passado e presente"
       },
-      "gabarito": "C",
+      "gabarito": "E",
       "explicacao": "As três expressões constroem, juntas, um efeito emotivo de perenidade e orgulho histórico. 'O tempo não consegue apagar' personifica o tempo como agente destruidor vencido pela grandeza histórica. 'Carregam em seus cascos a memória' metaforiza os navios como portadores físicos da história — o casco (parte material) carrega a memória (elemento abstrato). 'Batalhas que forjaram uma nação' usa o verbo metalúrgico 'forjar' (dar forma ao metal pelo fogo) metaforicamente: as batalhas moldaram a identidade nacional. O conjunto cria reverência ao passado e orgulho da continuidade. As demais alternativas contradizem o tom claramente laudatório do trecho."
     },
     {
@@ -511,13 +533,13 @@
       "enunciado": "A linguagem do trecho acima é predominantemente",
       "alternativas": {
         "A": "denotativa, pois apresenta questionamento objetivo sobre hierarquia decisória",
-        "B": "irônica, pois o enunciado elogia ('decisão sábia') algo que o contexto indica ser questionável, e a pergunta retórica reforça a crítica",
-        "C": "metafórica, pois 'campo' e 'combateu' são metáforas de ambiente de trabalho",
+        "B": "metafórica, pois 'campo' e 'combateu' são metáforas de ambiente de trabalho",
+        "C": "irônica, pois o enunciado elogia ('decisão sábia') algo que o contexto indica ser questionável, e a pergunta retórica reforça a crítica",
         "D": "hiperbólica, pois exagera intencionalmente a competência dos que nunca estiveram no campo",
         "E": "conotativa apenas na expressão 'decisão sábia', sendo o restante denotativo"
       },
-      "gabarito": "B",
-      "explicacao": "O trecho é dominado pela ironia: 'Claro que a decisão foi sábia' usa o advérbio 'claro' e o adjetivo 'sábia' de forma que o contexto seguinte invalida — a pergunta retórica 'quem melhor do que os que nunca estiveram no campo para julgar quem combateu?' revela que o elogio é falso. A estrutura irônica consiste em afirmar o oposto do que se pensa: a decisão não foi sábia; os que nunca estiveram no campo são os menos indicados para julgar. A alternativa A ignora a ironia e trata a pergunta como objetiva. A alternativa C afirma que 'campo' e 'combateu' são metáforas — podem ser literais (campo de batalha real) ou metafóricos, mas o recurso principal não é a metáfora, é a ironia. A alternativa E subestima a extensão da conotação irónica no trecho."
+      "gabarito": "C",
+      "explicacao": "O trecho é dominado pela ironia: 'Claro que a decisão foi sábia' usa o advérbio 'claro' e o adjetivo 'sábia' de forma que o contexto seguinte invalida — a pergunta retórica 'quem melhor do que os que nunca estiveram no campo para julgar quem combateu?' revela que o elogio é falso. A estrutura irônica consiste em afirmar o oposto do que se pensa: a decisão não foi sábia; os que nunca estiveram no campo são os menos indicados para julgar. A alternativa A ignora a ironia e trata a pergunta como objetiva. A alternativa B afirma que 'campo' e 'combateu' são metáforas — podem ser literais (campo de batalha real) ou metafóricos, mas o recurso principal não é a metáfora, é a ironia. A alternativa E subestima a extensão da conotação irónica no trecho."
     },
     {
       "id": "q24",
@@ -526,13 +548,13 @@
       "enunciado": "O campo semântico de 'aterrisou', 'bomba' e 'explosão' no trecho pertence ao universo",
       "alternativas": {
         "A": "aeronáutico e bélico, usados em sentido denotativo para descrever um acidente militar real",
-        "B": "aeronáutico e bélico, usados em sentido conotativo para descrever o impacto da decisão e a reação que ela gerou",
+        "B": "irônico, pois a decisão foi na verdade recebida com entusiasmo pelo gabinete",
         "C": "jornalístico técnico, em que todos os três termos são definições precisas de procedimentos administrativos",
-        "D": "irônico, pois a decisão foi na verdade recebida com entusiasmo pelo gabinete",
+        "D": "aeronáutico e bélico, usados em sentido conotativo para descrever o impacto da decisão e a reação que ela gerou",
         "E": "hiperbólico exclusivamente no termo 'explosão', sendo os demais denotativos"
       },
-      "gabarito": "B",
-      "explicacao": "Os três termos pertencem ao campo semântico aeronáutico/bélico e são usados conotativamente. 'Aterrisou' (verbo de pouso de aeronave) aplicado a uma decisão cria metáfora de chegada súbita e impactante. 'Bomba' designa metaforicamente uma notícia ou decisão de grande impacto — uso conotativo cristalizado. 'Explosão de comentários' usa a violência da explosão para indicar a intensidade e rapidez dos comentários. Juntos, criam uma narrativa de impacto progressivo. A alternativa A afirma que são denotativos — incorreto: não há aeronave, bomba real nem explosão. A alternativa C inventa definições técnico-administrativas. A alternativa D atribui ironia sem evidência. A alternativa E trata apenas 'explosão' como hipérbole, ignorando as outras metáforas."
+      "gabarito": "D",
+      "explicacao": "Os três termos pertencem ao campo semântico aeronáutico/bélico e são usados conotativamente. 'Aterrisou' (verbo de pouso de aeronave) aplicado a uma decisão cria metáfora de chegada súbita e impactante. 'Bomba' designa metaforicamente uma notícia ou decisão de grande impacto — uso conotativo cristalizado. 'Explosão de comentários' usa a violência da explosão para indicar a intensidade e rapidez dos comentários. Juntos, criam uma narrativa de impacto progressivo. A alternativa A afirma que são denotativos — incorreto: não há aeronave, bomba real nem explosão. A alternativa C inventa definições técnico-administrativas. A alternativa B atribui ironia sem evidência. A alternativa E trata apenas 'explosão' como hipérbole, ignorando as outras metáforas."
     },
     {
       "id": "q25",
@@ -540,14 +562,14 @@
       "textoBase": "Há palavras que ferem mais fundo do que espadas; e há silêncios que pesam mais do que ordens diretas.",
       "enunciado": "No trecho acima, assinale a alternativa que descreve CORRETAMENTE os recursos expressivos utilizados e seus efeitos.",
       "alternativas": {
-        "A": "Hipérbole em 'ferem mais fundo' e denotação em 'pesam mais do que ordens' — o texto mistura real e figurado sem intenção clara",
-        "B": "Dois símiles conotativos com estrutura comparativa ('mais do que') que criam paralelismo: o primeiro compara o poder das palavras ao das espadas; o segundo, o peso do silêncio ao das ordens diretas — ambos para intensificar o poder da comunicação não-verbal e verbal",
+        "A": "Dois símiles conotativos com estrutura comparativa ('mais do que') que criam paralelismo: o primeiro compara o poder das palavras ao das espadas; o segundo, o peso do silêncio ao das ordens diretas — ambos para intensificar o poder da comunicação não-verbal e verbal",
+        "B": "Hipérbole em 'ferem mais fundo' e denotação em 'pesam mais do que ordens' — o texto mistura real e figurado sem intenção clara",
         "C": "Metáforas puras em ambos os segmentos, sem comparação explícita, que descrevem literalmente o dano físico causado por palavras",
         "D": "Ironia dupla: o texto nega o poder das palavras ao compará-las ironicamente às espadas",
         "E": "Metonímia em 'espadas' (parte pelo todo do arsenal militar) e personificação em 'silêncios que pesam'"
       },
-      "gabarito": "B",
-      "explicacao": "O trecho usa dois símiles (comparações com marcador comparativo 'mais do que'): 'palavras que ferem mais fundo do que espadas' e 'silêncios que pesam mais do que ordens diretas'. Os dois criam um paralelismo sintático e semântico: em cada um, um elemento abstrato (palavras, silêncios) é comparado a um elemento concreto ou formal (espadas, ordens) para intensificar o poder da comunicação. O efeito conjunto é filosófico: o que não é físico pode ser mais poderoso que o que é. A alternativa A classifica erroneamente o segundo símile como denotativo. A alternativa C afirma que são metáforas puras — são símiles (há 'mais do que', marcador explícito de comparação). A alternativa D atribui ironia inexistente. A alternativa E mescla figuras incorretamente: 'espadas' não é metonímia aqui, e 'silêncios que pesam' é personificação — mas o recurso principal é o símile."
+      "gabarito": "A",
+      "explicacao": "O trecho usa dois símiles (comparações com marcador comparativo 'mais do que'): 'palavras que ferem mais fundo do que espadas' e 'silêncios que pesam mais do que ordens diretas'. Os dois criam um paralelismo sintático e semântico: em cada um, um elemento abstrato (palavras, silêncios) é comparado a um elemento concreto ou formal (espadas, ordens) para intensificar o poder da comunicação. O efeito conjunto é filosófico: o que não é físico pode ser mais poderoso que o que é. A alternativa B classifica erroneamente o segundo símile como denotativo. A alternativa C afirma que são metáforas puras — são símiles (há 'mais do que', marcador explícito de comparação). A alternativa D atribui ironia inexistente. A alternativa E mescla figuras incorretamente: 'espadas' não é metonímia aqui, e 'silêncios que pesam' é personificação — mas o recurso principal é o símile."
     },
     {
       "id": "q26",
@@ -555,14 +577,14 @@
       "textoBase": "O relatório final da operação Netuno foi enterrado nas gavetas do Ministério da Defesa e nunca mais veio à luz.",
       "enunciado": "As expressões 'foi enterrado nas gavetas' e 'nunca mais veio à luz' estão em sentido conotativo e constroem, juntas, um campo semântico de",
       "alternativas": {
-        "A": "celebração e preservação da memória da operação Netuno",
-        "B": "ocultamento e supressão deliberada de informações ou documentos",
+        "A": "ocultamento e supressão deliberada de informações ou documentos",
+        "B": "celebração e preservação da memória da operação Netuno",
         "C": "organização burocrática eficiente dos arquivos do Ministério",
         "D": "crítica à iluminação deficiente dos espaços de armazenamento ministerial",
         "E": "exaltação do sigilo como valor institucional necessário à defesa nacional"
       },
-      "gabarito": "B",
-      "explicacao": "'Enterrado nas gavetas' é metáfora que associa o ato de sepultar (esconder definitivamente sob a terra) ao ato de arquivar documentos para que nunca mais sejam encontrados ou usados. 'Nunca mais veio à luz' é metáfora de revelação: 'vir à luz' significa tornar-se público, conhecido — e o 'nunca mais' indica supressão permanente. Juntas, as duas expressões criam um campo semântico de ocultamento intencional, possivelmente sigiloso ou conveniente. A alternativa A inverte o sentido — enterrar não é celebrar. A alternativa C eufemiza o sentido — organização eficiente é o oposto de enterrar. A alternativa D interpreta literalmente 'luz'. A alternativa E transforma crítica implícita em exaltação."
+      "gabarito": "A",
+      "explicacao": "'Enterrado nas gavetas' é metáfora que associa o ato de sepultar (esconder definitivamente sob a terra) ao ato de arquivar documentos para que nunca mais sejam encontrados ou usados. 'Nunca mais veio à luz' é metáfora de revelação: 'vir à luz' significa tornar-se público, conhecido — e o 'nunca mais' indica supressão permanente. Juntas, as duas expressões criam um campo semântico de ocultamento intencional, possivelmente sigiloso ou conveniente. A alternativa B inverte o sentido — enterrar não é celebrar. A alternativa C eufemiza o sentido — organização eficiente é o oposto de enterrar. A alternativa D interpreta literalmente 'luz'. A alternativa E transforma crítica implícita em exaltação."
     },
     {
       "id": "q27",
@@ -571,13 +593,13 @@
       "enunciado": "A expressão 'olhos maiores do que a barriga' é uma expressão idiomática que, nesse contexto, assume sentido conotativo de",
       "alternativas": {
         "A": "anomalia física: os recrutas tinham deficiência visual causada por desnutrição",
-        "B": "excesso de ambição ou expectativa desproporcional à capacidade real de realização",
-        "C": "glutonia: os recrutas comiam mais do que deviam antes da chegada",
+        "B": "glutonia: os recrutas comiam mais do que deviam antes da chegada",
+        "C": "excesso de ambição ou expectativa desproporcional à capacidade real de realização",
         "D": "timidez: os recrutas eram envergonhados e não conseguiam expressar seus desejos",
         "E": "euforia física causada pelo esforço do trajeto até o quartel"
       },
-      "gabarito": "B",
-      "explicacao": "A expressão idiomática 'olhos maiores do que a barriga' originalmente designa quem pega mais comida do que consegue comer (excesso de ambição sobre a capacidade física). Quando aplicada ao contexto dos recrutas 'cheios de sonhos e pouca experiência', a expressão amplia seu sentido conotativo para indicar aspirações desproporcionais à capacidade real de realização — sonham com mais do que podem concretizar. A alternativa A interpreta literalmente os elementos físicos. A alternativa C reduz ao sentido alimentar original sem considerar a ampliação contextual. A alternativa D inverte o sentido — os olhos maiores indicam excesso de desejo, não timidez. A alternativa E cria sentido físico inexistente."
+      "gabarito": "C",
+      "explicacao": "A expressão idiomática 'olhos maiores do que a barriga' originalmente designa quem pega mais comida do que consegue comer (excesso de ambição sobre a capacidade física). Quando aplicada ao contexto dos recrutas 'cheios de sonhos e pouca experiência', a expressão amplia seu sentido conotativo para indicar aspirações desproporcionais à capacidade real de realização — sonham com mais do que podem concretizar. A alternativa A interpreta literalmente os elementos físicos. A alternativa B reduz ao sentido alimentar original sem considerar a ampliação contextual. A alternativa D inverte o sentido — os olhos maiores indicam excesso de desejo, não timidez. A alternativa E cria sentido físico inexistente."
     },
     {
       "id": "q28",
@@ -586,13 +608,13 @@
       "enunciado": "As três expressões conotativas do trecho ('ponto de virada', 'apostou todas as fichas', 'não olhou para trás') pertencem, respectivamente, aos campos semânticos de",
       "alternativas": {
         "A": "arquitetura, culinária e anatomia",
-        "B": "geometria/narrativa, jogos de azar e movimento/visão — todas usadas metaforicamente para indicar transformação de vida, comprometimento total e decisão irrevogável",
+        "B": "náutica, culinária e movimento físico — usadas em sentido técnico naval",
         "C": "esporte, música e dança — usadas denotativamente para descrever as atividades do jovem",
-        "D": "náutica, culinária e movimento físico — usadas em sentido técnico naval",
+        "D": "geometria/narrativa, jogos de azar e movimento/visão — todas usadas metaforicamente para indicar transformação de vida, comprometimento total e decisão irrevogável",
         "E": "ironia tripla que questiona a decisão do jovem de fazer o concurso"
       },
-      "gabarito": "B",
-      "explicacao": "'Ponto de virada' vem do campo geométrico/narrativo (ponto de mudança de direção ou momento decisivo numa história) e indica transformação de vida. 'Apostou todas as fichas' vem do campo dos jogos de azar (colocar todas as fichas numa aposta) e indica comprometimento total sem reservas. 'Não olhou para trás' vem do campo do movimento e visão e indica decisão irrevogável — não revisar, não recuar, não se arrepender. Juntas, as três metáforas constroem a narrativa de uma decisão corajosa e transformadora. A alternativa A associa campos semânticos errados. A alternativa C afirma uso denotativo, o que é incorreto. A alternativa D aplica campos náuticos inexistentes. A alternativa E atribui ironia onde há admiração pela decisão do jovem."
+      "gabarito": "D",
+      "explicacao": "'Ponto de virada' vem do campo geométrico/narrativo (ponto de mudança de direção ou momento decisivo numa história) e indica transformação de vida. 'Apostou todas as fichas' vem do campo dos jogos de azar (colocar todas as fichas numa aposta) e indica comprometimento total sem reservas. 'Não olhou para trás' vem do campo do movimento e visão e indica decisão irrevogável — não revisar, não recuar, não se arrepender. Juntas, as três metáforas constroem a narrativa de uma decisão corajosa e transformadora. A alternativa A associa campos semânticos errados. A alternativa C afirma uso denotativo, o que é incorreto. A alternativa B aplica campos náuticos inexistentes. A alternativa E atribui ironia onde há admiração pela decisão do jovem."
     },
     {
       "id": "q29",
@@ -617,12 +639,12 @@
       "alternativas": {
         "A": "Indica que os marinheiros antigos eram analfabetos e precisavam de livros para aprender astronomia",
         "B": "Sugere de forma irônica que os marinheiros modernos são superiores aos antigos em conhecimento",
-        "C": "Cria uma imagem de sabedoria empírica dos marinheiros antigos, que liam o ambiente natural como se fosse uma linguagem — o mar como texto, as estrelas como código, o silêncio como mensagem",
+        "C": "Descreve objetivamente os instrumentos náuticos usados antes da tecnologia moderna",
         "D": "Afirma literalmente que havia livros de navegação escritos no fundo do mar antigo",
-        "E": "Descreve objetivamente os instrumentos náuticos usados antes da tecnologia moderna"
+        "E": "Cria uma imagem de sabedoria empírica dos marinheiros antigos, que liam o ambiente natural como se fosse uma linguagem — o mar como texto, as estrelas como código, o silêncio como mensagem"
       },
-      "gabarito": "C",
-      "explicacao": "O trecho usa uma cadeia metafórica coerente: 'o mar era um livro aberto' (metáfora do mar como texto legível), 'ler as estrelas' (metáfora de interpretação dos astros como linguagem), 'interpretar o vento' (metáfora de leitura climática) e 'ouvir o silêncio das águas profundas' (sinestesia/metáfora de percepção do ambiente marinho). O conjunto produz o efeito de exaltar o conhecimento empírico e intuitivo dos marinheiros antigos, que dominavam seu ofício por meio de leitura sensorial do ambiente. A alternativa A interpreta literalmente 'livro aberto'. A alternativa B atribui ironia inexistente. A alternativa D interpreta literalmente 'livro no mar'. A alternativa E nega as figuras de linguagem ao afirmar que descreve instrumentos náuticos."
+      "gabarito": "E",
+      "explicacao": "O trecho usa uma cadeia metafórica coerente: 'o mar era um livro aberto' (metáfora do mar como texto legível), 'ler as estrelas' (metáfora de interpretação dos astros como linguagem), 'interpretar o vento' (metáfora de leitura climática) e 'ouvir o silêncio das águas profundas' (sinestesia/metáfora de percepção do ambiente marinho). O conjunto produz o efeito de exaltar o conhecimento empírico e intuitivo dos marinheiros antigos, que dominavam seu ofício por meio de leitura sensorial do ambiente. A alternativa A interpreta literalmente 'livro aberto'. A alternativa B atribui ironia inexistente. A alternativa D interpreta literalmente 'livro no mar'. A alternativa C nega as figuras de linguagem ao afirmar que descreve instrumentos náuticos."
     }
   ],
   "simulado": [

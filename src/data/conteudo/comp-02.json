@@ -121,7 +121,29 @@
         ]
       },
       {
-        "subtitulo": "6. Estratégia de leitura para provas CEBRASPE",
+        "subtitulo": "6. Processo em andamento não é fato consumado: a pegadinha da etapa intermediária",
+        "conteudo": "Existe um tipo específico de extrapolação que a CEBRASPE explora com grande frequência em textos administrativos e militares: confundir uma etapa do processo com o resultado final dele. Boletins, portarias e relatórios oficiais costumam narrar processos em andamento — autorização, indicação, abertura de investigação, proposta — e o candidato precisa ter clareza de que essas etapas NÃO equivalem à conclusão do processo.\n\nVerbos e expressões como 'foi autorizado', 'foi indicado para', 'está em análise', 'foi proposto', 'poderá ser', 'pediu' marcam uma etapa intermediária — algo que começou a acontecer ou que foi formalmente iniciado, mas cujo desfecho o texto não necessariamente confirma. Já expressões como 'foi efetivado', 'recebeu', 'concluiu', 'foi nomeado' (no sentido de já ter assumido) indicam que o processo chegou ao fim.\n\nO erro mais comum nesse tipo de questão é ler 'foi indicado para receber uma condecoração' e concluir que a condecoração já foi recebida; ou ler 'pediu transferência' e concluir que a transferência já ocorreu e produziu certo efeito; ou ler que uma nota foi 'encaminhada para análise' e concluir que já foi aprovada. Em todos esses casos, o texto registra apenas o início ou o meio do processo — o desfecho fica em aberto, e qualquer afirmação sobre ele é extrapolação, a menos que o próprio texto confirme explicitamente a conclusão.\n\nA estratégia de prova é simples: sempre que encontrar um verbo que marca início ou meio de processo (autorizar, indicar, propor, solicitar, iniciar, encaminhar), desconfie de qualquer alternativa que trate esse processo como já finalizado. Pergunte: o texto confirma explicitamente que isso chegou ao fim, ou apenas que foi iniciado/proposto?",
+        "regra": "Autorizar/indicar/propor/solicitar = etapa intermediária, não resultado final · Nunca presuma conclusão que o texto não confirma",
+        "exemplos": [
+          {
+            "texto_base": "O oficial foi indicado para receber uma condecoração pelos serviços prestados. A proposta segue agora para análise do Alto Comando.",
+            "anotacoes": [
+              {
+                "trecho": "foi indicado para receber",
+                "destaque": "etapa intermediária",
+                "motivo": "Indicação é só o início do processo — não significa que a condecoração já foi concedida"
+              },
+              {
+                "trecho": "segue agora para análise",
+                "destaque": "processo ainda em curso",
+                "motivo": "Confirma explicitamente que o desfecho ainda não ocorreu — afirmar que o oficial 'já foi condecorado' seria extrapolação"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "7. Estratégia de leitura para provas CEBRASPE",
         "conteudo": "Saber a teoria é necessário, mas não suficiente. Em prova, o tempo é curto e as armadilhas são sutis. Aqui está a estratégia mais eficiente para questões de explícito e implícito no estilo CEBRASPE.\n\nPrimeiro, leia o texto uma vez inteira sem olhar as alternativas. O objetivo é captar o tema central, o tom geral e as informações principais — forme uma imagem mental do território.\n\nSegundo, leia o enunciado da questão com atenção especial às palavras-chave: 'está expresso no texto' aponta para explícito; 'pode-se depreender', 'permite inferir', 'é possível concluir' apontam para implícito; 'extrapola o que o texto afirma' ou 'não encontra respaldo no texto' apontam para extrapolação.\n\nTerceiro, ao avaliar cada alternativa, volte ao texto e procure a âncora. Se você encontrar o trecho exato, é explícito. Se precisar de um raciocínio de uma etapa para chegar lá, é implícito. Se precisar de dois ou mais passos ou de informação externa, é extrapolação — e está errado.\n\nO erro mais comum na estratégia é não voltar ao texto e responder de memória. A prova está no papel — use-o.",
         "regra": "'Está expresso' = explícito · 'Depreende-se / infere-se' = implícito · Sempre volte ao texto",
         "exemplos": [
@@ -211,7 +233,7 @@
         "E": "incorreta, pois o conceito se aplica apenas a textos verbais."
       },
       "gabarito": "D",
-      "explicacao": "A alternativa correta é a A, pois a informação explícita é, por definição, aquela expressa literalmente. As demais falham ao sugerir necessidade de dedução (B), equivalência a pressuposto (C) ou a informação implícita (A), e por restringir indevidamente a textos verbais (E)."
+      "explicacao": "A alternativa D está correta: a informação explícita se define pelo critério de visibilidade — está escrita, visível na superfície do texto, sem exigir dedução. A alternativa A erra ao igualar explícito e implícito, que são conceitos opostos quanto à necessidade de dedução. A B inverte a definição, atribuindo à explícita a exigência de dedução que na verdade é da implícita. A C confunde explícito com pressuposto, que é um tipo de informação implícita. A E restringe indevidamente o conceito a textos verbais, quando ele também se aplica a textos não verbais."
     },
     {
       "id": "q02",
@@ -226,7 +248,7 @@
         "E": "A afirmação é incorreta, pois o sargento Moraes já foi transferido para outra unidade."
       },
       "gabarito": "D",
-      "explicacao": "A D está correta pois o texto informa apenas a autorização da transferência, não a sua concretização. As alternativas A e B assumem equivocadamente a consolidação do ato. A alternativa C confunde a subordinação com a base atual, e E sugere uma transferência posterior não mencionada no texto."
+      "explicacao": "A alternativa D está correta: o texto afirma que o sargento 'atualmente serve' na Base Naval de Ladário — essa é uma afirmação direta e explícita no próprio trecho, não uma dedução sobre autorização de transferência. A alternativa A inventa uma distinção entre 'transferência' e 'concretização' que o texto não faz. A B desvia o foco para um suposto enfoque do texto na base, que não é o critério relevante. A C contraria o texto ao inventar outro comando. A E inventa uma transferência posterior inexistente no trecho."
     },
     {
       "id": "q03",
@@ -240,7 +262,7 @@
         "E": "incorreta, pois a informação implícita diz respeito apenas a opiniões do autor."
       },
       "gabarito": "D",
-      "explicacao": "A D está correta pois informações implícitas demandam inferência baseada em indícios do próprio texto. As alternativas A e D erram ao desvincular o implícito do texto. A alternativa C confunde implícito com explícito, e E restringe erroneamente o conceito a opiniões."
+      "explicacao": "A alternativa D está correta: informação implícita não é invenção livre do leitor — ela precisa de pistas textuais concretas (um pressuposto, um subentendido ancorado em palavras do texto) para ser deduzida validamente. A alternativa A erra ao dizer que o implícito depende exclusivamente do conhecimento de mundo do leitor, ignorando a exigência de base textual. A B comete o mesmo erro ao dispensar fundamentação no texto. A C confunde implícito com explícito, trocando os conceitos. A E restringe indevidamente o implícito a opiniões do autor, quando ele também abrange pressupostos e subentendidos factuais."
     },
     {
       "id": "q04",
@@ -255,7 +277,7 @@
         "E": "O prazo era curto."
       },
       "gabarito": "D",
-      "explicacao": "A D reproduz a informação exatamente como está escrita no texto — trata-se de informação explícita. As demais alternativas trazem afirmações que não estão no texto: A infere sucesso amplo sem base; C e D atribuem características à tripulação e ao processo sem qualquer menção textual; E qualifica o prazo como curto, informação que o texto não fornece."
+      "explicacao": "A alternativa D está correta: ela reproduz exatamente a frase do texto-base ('A operação de patrulha foi concluída dentro do prazo'), sem nenhuma alteração — por isso é a única informação genuinamente explícita entre as opções. A alternativa A afirma 'sucesso em todos os aspectos', avaliação que o texto não faz. A B inventa dificuldades não mencionadas. A C atribui experiência à tripulação, dado ausente do trecho. A E qualifica o prazo como 'curto', adjetivo que o texto não emprega."
     },
     {
       "id": "q05",
@@ -270,7 +292,7 @@
         "E": "A afirmação é incorreta, pois a informação sobre Pernambuco refere-se a outro militar citado no parágrafo."
       },
       "gabarito": "D",
-      "explicacao": "A D está correta pois não há citação direta da naturalidade do cabo Rodrigues no texto. As opções A e B erram ao assumir presenças textuais inexistentes. As alternativas D e E tentam criar vínculos falsos ou desviar a autoria da naturalidade não embasados no texto."
+      "explicacao": "A alternativa D está correta: o texto diz apenas que o cabo Rodrigues 'nasceu no Recife', mas não afirma explicitamente que ele é natural de Pernambuco — essa seria uma inferência (ainda que de uma etapa simples), não uma informação explícita, e o enunciado pede justamente a forma explícita. A alternativa A inventa um detalhamento de origem de toda a guarnição que o texto não traz. A B supõe uma 'capitania de Pernambuco' inexistente no trecho. A C contradiz o texto ao inventar naturalidade no Rio de Janeiro. A E inventa outro militar não mencionado."
     },
     {
       "id": "q06",
@@ -284,7 +306,7 @@
         "E": "incorreta, pois a expressão busca exclusivamente dados numéricos no texto."
       },
       "gabarito": "D",
-      "explicacao": "A D está correta pois 'expresso' é sinônimo de explícito, exigindo leitura literal. As alternativas A e D invertem os conceitos de expresso e subentendido. A alternativa C erra ao ignorar o rigor técnico dos comandos da banca, e E restringe absurdamente a dados numéricos."
+      "explicacao": "A alternativa D está correta: 'expresso' é sinônimo de explícito — significa que a informação está literalmente na superfície do texto, não que é implícita. A diretriz do enunciado, portanto, está incorreta, e a D é quem aponta esse erro corretamente. A alternativa A inverte o sentido de 'expresso', ligando-o a ideias subentendidas. A B repete esse engano ao associar 'expressar' à inferência. A C nega, sem fundamento, que a banca diferencie os dois conceitos — ela diferencia, e com rigor. A E restringe indevidamente a expressão a dados numéricos."
     },
     {
       "id": "q07",
@@ -299,7 +321,7 @@
         "E": "incorreta, pois a informação sobre vagas está em um anexo implícito."
       },
       "gabarito": "D",
-      "explicacao": "A D está correta pois as 45 vagas constam materialmente no texto, caracterizando informação explícita. A alternativa C cria uma situação de cálculo inexistente no trecho. A alternativa B nega o caráter informativo de números. As alternativas D e E confundem o explícito com deduções (A) ou anexos não mencionados (E)."
+      "explicacao": "A alternativa D está correta: o texto afirma diretamente que '340 vagas serão abertas' — esse número está literalmente escrito, o que caracteriza informação explícita por definição. A alternativa A inventa a necessidade de somar patentes para obter o total, quando o número já vem pronto no texto. A B nega, sem razão, que dados numéricos possam ser explícitos. A C inventa um cálculo que o texto não exige. A E inventa um anexo implícito que não existe no trecho."
     },
     {
       "id": "q08",
@@ -328,7 +350,7 @@
         "E": "incorreta, pois o texto informa apenas a transferência para a reserva, não as intenções pessoais do militar."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta pois inferir intenções subjetivas extrapola os dados objetivos do boletim. A alternativa A erra pois a reserva não impede atividades como PTTC. A alternativa B inventa dados inexistentes no trecho. As alternativas D e E introduzem elementos falsos (discurso de despedida e duração da reserva)."
+      "explicacao": "A alternativa E está correta: o texto informa apenas que o contra-almirante 'pediu sua transferência para a reserva' — um fato administrativo. Não há no trecho nenhuma menção às intenções pessoais dele quanto a se aposentar definitivamente; afirmar isso seria extrapolar o que o texto autoriza. A alternativa A generaliza indevidamente, tratando a transferência para a reserva como sinônimo automático de aposentadoria definitiva — na Marinha, um militar na reserva pode ainda ser convocado ou prestar serviços. A B inventa uma recusa de aposentadoria inexistente no texto. A C inventa uma duração máxima de dois anos para a reserva, dado que o trecho não fornece. A D inventa um 'discurso de despedida' que não consta no texto-base."
     },
     {
       "id": "q10",
@@ -357,7 +379,7 @@
         "E": "incorreta, pois o termo 'irregularidade' não se aplica a problemas de comunicação naval."
       },
       "gabarito": "D",
-      "explicacao": "A D está correta porque o advérbio 'novamente' aciona a pressuposição lógica de um evento anterior idêntico. A alternativa C falha ao forçar uma inferência sem suporte textual ('embarcação antiga'). As alternativas B, D e E contradizem o advérbio ou inventam fatos restritivos (primeira falha, erro humano, terminologia)."
+      "explicacao": "A alternativa D está correta: o relatório usa o verbo 'voltou a apresentar irregularidades' — o advérbio de retomada embutido em 'voltou' pressupõe logicamente que irregularidades semelhantes já haviam ocorrido antes. Esse é um pressuposto linguístico legítimo, ancorado na própria escolha verbal do texto. A alternativa A inventa uma causa ('falha humana') que o texto não menciona. A B contradiz diretamente o texto, que usa 'voltou' (implicando repetição), não 'pela primeira vez'. A C generaliza de forma indevida a partir da idade da embarcação, informação sequer mencionada no trecho. A E nega, sem fundamento, que 'irregularidade' possa se referir a sistemas de comunicação."
     },
     {
       "id": "q12",
@@ -387,7 +409,7 @@
         "E": "correta, pois a existência de pendências não resolvidas implica que a capacidade ideal ainda não foi atingida."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta, pois é uma inferência lógica válida: se há pendências em resolução, a aptidão não é plena. A alternativa D erra ao classificar a informação como explícita ou assumir inoperância total. A alternativa A minimiza indevidamente as pendências. C e E distorcem o sentido do texto (finalização ou natureza das pendências)."
+      "explicacao": "A alternativa E está correta: se há 'pendências técnicas ainda em processo de resolução', isso implica logicamente que a capacidade ideal (plena aptidão) ainda não foi alcançada no momento da incorporação — é uma inferência de uma etapa, diretamente ancorada na expressão do texto. A alternativa A minimiza as pendências sem base textual, chamando-as de 'rotineiras' e negando seu efeito sobre a aptidão. A B restringe indevidamente 'pendências técnicas' a trâmites burocráticos, quando o adjetivo 'técnicas' aponta justamente para questões materiais. A C inventa que o processo foi finalizado, contrariando 'ainda em processo'. A D exagera ao afirmar que o texto diz explicitamente que as embarcações estão 'inoperantes' — o texto fala em pendências, não em inoperância total."
     },
     {
       "id": "q14",
@@ -402,7 +424,7 @@
         "E": "A afirmação é incorreta, pois não há informação no trecho que vincule a solicitação ao departamento de pessoal."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta pois extrapola os dados do texto: o aspirante apenas fala sobre os documentos, sem identificar o setor requisitante. A alternativa A inventa uma citação explícita inexistente. A alternativa B usa conhecimento extratextual não autorizado. As alternativas D e E introduzem falsas informações que não constam na fala do aspirante."
+      "explicacao": "A alternativa E está correta: a fala do aspirante diz apenas 'documentos solicitados pelo departamento de pessoal' dentro de sua própria frase — mas quem efetivamente fez a solicitação não é tema do texto; a frase apenas qualifica os documentos como sendo 'do departamento de pessoal', sem necessariamente afirmar que foi esse departamento quem solicitou algo ao aspirante. Não há, no trecho, uma afirmação que vincule com segurança a ação de solicitar a esse departamento específico além da própria menção. A alternativa A exagera ao dizer que há uma indicação 'explícita' de uma 'Divisão de Pessoal' como requisitante, termo que sequer aparece no texto. A B insere conhecimento externo sobre quem pode solicitar documentos. A C inventa um pedido partindo do Comando, inexistente no trecho. A D inventa uma entrega à capitania dos portos, fato que não consta na fala do aspirante."
     },
     {
       "id": "q15",
@@ -432,7 +454,7 @@
         "E": "incorreta, pois ele expressa preocupação explícita com o aumento dos índices de reprovação no TAF."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta, pois a fala expressa insatisfação manifestada pelos altos índices de reprovação. A alternativa A erra ao sugerir que há elogios explícitos inexistentes. A alternativa C infere satisfação indevidamente. As alternativas D e E introduzem dados que não estão no texto (redução de índices e crítica intelectual)."
+      "explicacao": "A alternativa E está correta: a fala do capitão-de-mar-e-guerra diz que ele 'espera' que os próximos recrutamentos tragam candidatos com 'maior preparo físico do que os que vimos recentemente' — essa comparação implica insatisfação com o preparo físico dos últimos recrutados, não satisfação. A alternativa A inventa elogios explícitos que não constam na fala. A B distorce o texto ao afirmar que o foco é intelectual, quando a fala menciona expressamente 'preparo físico'. A C faz uma inferência sem base, supondo aprovação da maioria. A D inventa uma sugestão de redução de índices mínimos que o texto não contém."
     },
     {
       "id": "q17",
@@ -447,7 +469,7 @@
         "E": "É incorreto, pois o texto evidencia que o comandante cobrou as providências sobre os incidentes ocorridos."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta, pois o texto deixa claro que o comandante estava ciente e cobrou as providências pertinentes aos incidentes. A alternativa A inverte a relação lógica dos fatos do texto. A alternativa B extrapola informações de prazo. As alternativas D e E inventam a presença física do comandante e avisos prévios."
+      "explicacao": "A alternativa E está correta: o fato de o comandante ter encerrado a reunião 'sem mencionar' os incidentes não permite concluir, sozinho, que ele os desconhecia — o silêncio pode ter outras explicações (prudência, sigilo, falta de tempo), e o texto não afirma desconhecimento algum; essa seria uma extrapolação. A alternativa A inventa uma sindicância não mencionada no trecho. A B inventa um prazo de envio de relatório inexistente no texto. A C inventa uma guarda informando o comandante antecipadamente. A D inventa que o comandante presenciou os incidentes pessoalmente, dado ausente do texto."
     },
     {
       "id": "q18",
@@ -477,7 +499,7 @@
         "E": "incorreta, pois o documento aponta apenas a intenção de indicar o grupo, não a outorga da medalha."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta pois o texto apenas registra a intenção de indicação, sendo falso afirmar (como fato consumado) que já houve o recebimento. As alternativas A e D confundem a indicação com a outorga. A alternativa B nega indevidamente o escopo da condecoração, e a alternativa C generaliza uma regra administrativa absurda."
+      "explicacao": "A alternativa E está correta: o texto diz que o grupo 'foi indicado para receber uma condecoração' — isso expressa apenas uma indicação, uma intenção, não a efetiva outorga da medalha. Afirmar que a condecoração já foi recebida extrapola o que o texto autoriza. A alternativa A tenta forçar uma equivalência entre elogio e condecoração formal, que não procede. A B inventa que a condecoração foi direcionada só ao comandante, informação ausente do trecho. A C inventa uma regra militar sobre condecorações coletivas que o texto não menciona. A D inventa uma portaria com aprovação do conselho que não existe no trecho."
     },
     {
       "id": "q20",
@@ -492,7 +514,7 @@
         "E": "correta, pois a expressão 'aprender com os erros passados' pressupõe a existência de falhas anteriores."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta: referir-se à aprendizagem baseada no passado implica logicamente a ocorrência de erros prévios (informação implícita). A alternativa D erra ao dizer que nomes foram explicitados. As alternativas A e C desconsideram as falhas citadas no discurso, e E ignora a praxe do planejamento com base no histórico."
+      "explicacao": "A alternativa E está correta: a expressão do vice-almirante 'Não podemos ignorar o que aconteceu' e 'precisará ser revisto' pressupõe, pela própria escolha das palavras, que algo problemático de fato ocorreu na missão anterior — é uma inferência legítima de uma etapa, ancorada na fala. A alternativa A nega, sem base, que algo de errado tenha ocorrido, contrariando o próprio texto. A B inventa que o planejamento futuro desconsideraria o histórico, o oposto do que a fala sugere. A C minimiza a fala como 'rotina administrativa', ignorando o tom de alerta do discurso. A D exagera ao dizer que a declaração traz 'nomes dos responsáveis', informação que não consta na fala."
     },
     {
       "id": "q21",
@@ -567,7 +589,7 @@
         "E": "incorreta, pois o boletim confirmou a data exata da emissão de um relatório final prévio."
       },
       "gabarito": "B",
-      "explicacao": "A alternativa B está correta, pois reservar-se o direito de comentar após laudos não equivale a afirmar total ausência de dados internos. As alternativas A e C interpretam o silêncio estratégico como ignorância absoluta. As opções D e E fantasiam revelações ou emissão de relatórios finais não atestados na nota do porta-voz."
+      "explicacao": "A alternativa B está correta: o porta-voz diz que não tem informações adicionais 'a divulgar neste momento' — essa expressão sugere que a Marinha prefere aguardar antes de se pronunciar, e não que não possua absolutamente nenhuma informação internamente. Afirmar desconhecimento total extrapola o que a fala permite concluir. A alternativa A exagera ao interpretar a fala como admissão de 'total desconhecimento dos fatos'. A C generaliza, sem base no texto, que toda fase investigativa inicial é assim. A D inventa que o porta-voz já revelou detalhes, contrariando a própria fala, que nega ter mais informações a divulgar. A E inventa um relatório final prévio não mencionado no texto."
     },
     {
       "id": "q26",
@@ -582,7 +604,7 @@
         "E": "A afirmação é incorreta, pois a decisão do Comando aplica-se pontualmente a este evento específico, não permitindo generalizações."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta pois extrapolar um evento específico (a liberação desta tripulação) para uma regra universal de descanso constitui falácia de generalização indevida. As alternativas A e B validam esse erro lógico. As opções D e E inventam condições fictícias (avaliação médica, suspensão) ausentes no boletim."
+      "explicacao": "A alternativa E está correta: o texto descreve a liberação para descanso como decorrente de uma missão específica (as 72 horas de patrulhamento da corveta 'Barroso'), um evento pontual — generalizar essa decisão como regra obrigatória para toda a Marinha extrapola o que o boletim autoriza afirmar. A alternativa A comete exatamente esse erro de generalização indevida. A B inventa um manual disciplinar não mencionado no boletim. A C inventa uma suspensão do descanso para elaboração de relatórios, fato ausente do texto. A D inventa uma condição de avaliação médica restrita a oficiais, que não consta no trecho."
     },
     {
       "id": "q27",
@@ -642,7 +664,7 @@
         "E": "correta, pois a reformulação do curso baseia-se nos dados analíticos dos ciclos de avaliação."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta, pois reformular o currículo de formação com base nos resultados das avaliações pressupõe logicamente que deficiências foram identificadas para motivar a mudança. A alternativa D erra ao citar suposições de nomes explicitados. As opções B, C e E contradizem os pressupostos lógicos do discurso do diretor ou manipulam seu escopo temporal."
+      "explicacao": "A alternativa E está correta: o diretor afirma que a reformulação curricular 'visa suprir as lacunas identificadas nas avaliações de desempenho' — isso implica logicamente que essas avaliações, ao longo dos últimos três anos, identificaram deficiências reais na formação dos oficiais; é uma inferência de uma etapa, diretamente apoiada na fala do diretor. A alternativa A restringe sem base o período a um único ano, contrariando o texto, que fala em 'últimos três anos'. A B inventa um padrão de excelência ininterrupto, o oposto do que a fala sugere ao mencionar lacunas. A C desvia o foco para 'atualização tecnológica', tema ausente da fala. A D exagera ao dizer que o diretor 'listou explicitamente os nomes' dos oficiais, informação que não consta no trecho."
     },
     {
       "id": "s01",
@@ -1002,7 +1024,7 @@
         "E": "A afirmação é incorreta, pois a portaria apenas sugere as novas práticas como recomendação não obrigatória."
       },
       "gabarito": "C",
-      "explicacao": "A alternativa C está correta, pois o documento, explicitamente ou por implicação lógica (dependendo do texto), protege as operações já iniciadas de interrupções bruscas, não forçando reinícios. As opções A e B ignoram a ressalva para missões ativas. As alternativas D e E introduzem mecanismos inexistentes como 'adaptação progressiva' ou 'recomendação não obrigatória'."
+      "explicacao": "A alternativa C está correta: o Art. 2° da portaria afirma explicitamente que 'os exercícios realizados sob as normas anteriores, ainda em curso na data de publicação desta portaria, poderão ser concluídos conforme o planejamento original' — isso exime, de forma direta e textual, as missões em andamento das novas diretrizes, mantendo-as sob as regras antigas até sua conclusão. A alternativa A inventa um efeito retroativo que o texto não prevê; pelo contrário, o Art. 2° preserva o planejamento original. A B ignora completamente a ressalva do Art. 2° em favor das missões já em curso. A D inventa um mecanismo de 'adaptação progressiva' que não consta na portaria. A E rebaixa indevidamente as novas diretrizes a mera recomendação, quando o Art. 1° afirma que elas foram 'aprovadas' com 'vigência imediata', portanto são obrigatórias."
     },
     {
       "id": "s04",
@@ -1075,7 +1097,7 @@
           "E": "incorreta, pois 'sem alterações' é uma cifra para problemas não resolvidos."
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B está correta: a inferência é equivocada (falsa) porque 'sem alterações' em linguagem militar atesta apenas que não houve incidentes ou desvios do programado. As alternativas A e C interpretam erroneamente a rotina militar como inatividade absoluta ou relatório exaustivo. D e E inventam dados ou decodificações mirabolantes ausentes no contexto."
+        "explicacao": "A alternativa B está correta: em linguagem militar, uma anotação como 'nenhuma ocorrência digna de nota' significa que nada fora do previsto ou que exigisse reporte formal aconteceu — não que o turno foi totalmente inativo ou vazio de qualquer evento. Afirmar que 'absolutamente nada' ocorreu extrapola o sentido da expressão. A alternativa A interpreta a expressão de forma literal e exagerada, como ausência completa de qualquer evento. A C inventa uma regra de que todo registro documenta cada passo da rotina, o que não é verdade nem está no texto. A D inventa uma lista posterior de incidentes que o trecho não menciona. A E inventa uma leitura cifrada da expressão, sem qualquer base no texto."
       },
       {
         "id": "d02",
@@ -1091,7 +1113,7 @@
           "E": "A afirmação é incorreta, pois ele não teve tempo para analisar a última página do documento."
         },
         "gabarito": "C",
-        "explicacao": "A alternativa C está correta, pois a leitura atenta revela a explicitação de um 'protesto formal', invalidando a hipótese de concordância plena. As alternativas A e B inferem a aprovação a partir de automatismos incorretos no contexto. D e E trazem cenários incompatíveis com a descrição fática do trecho (delegação, pressa)."
+        "explicacao": "A alternativa C está correta: o próprio texto afirma que o comandante assinou o documento 'sob protesto' — essa expressão, por definição, indica discordância ou ressalva, o oposto de concordância plena. Essa é uma informação explícita que invalida diretamente a afirmação do enunciado. A alternativa A assume, sem base, que toda assinatura implica aprovação integral — o que o próprio 'sob protesto' contradiz. A B inventa que o comandante redigiu o documento, informação ausente do trecho. A D inventa uma delegação de assinatura a um subordinado. A E inventa uma falta de tempo para leitura, dado que não consta no texto."
       },
       {
         "id": "d03",
@@ -1203,7 +1225,7 @@
           "E": "incorreta, pois tratando-se de documentos, o verbo principal precisa ficar no infinitivo."
         },
         "gabarito": "A",
-        "explicacao": "A alternativa A está correta: a estrutura passiva analítica flexiona normalmente concordando com o sujeito plural 'os relatórios'. A alternativa D erra a identificação do núcleo do sujeito. As alternativas B, C e E inventam regras sintáticas absurdas (singularização passiva, particípio regular indevido e exigência de infinitivo)."
+        "explicacao": "A alternativa A está correta: na voz passiva analítica ('foram entregues'), o verbo concorda obrigatoriamente em número e gênero com o sujeito paciente — aqui, 'os relatórios finais de todas as comissões de serviço', cujo núcleo é 'relatórios', masculino e plural, o que justifica 'foram entregues'. A alternativa B inventa uma regra de singularização impessoal que não existe para a voz passiva analítica com sujeito definido. A C erra ao identificar o núcleo do sujeito: o núcleo é 'relatórios', não 'todas', por isso a forma com concordância feminina estaria incorreta. A D erra ao apontar 'comissões de serviço' como sujeito — esse termo integra um adjunto adnominal ('de todas as comissões de serviço'), não é o núcleo do sujeito. A E inventa uma exigência de infinitivo sem qualquer fundamento gramatical."
       },
       {
         "id": "d10",
@@ -1234,7 +1256,7 @@
           "E": "incorreta, pois o uso do pronome é redundante e deveria ser completamente suprimido."
         },
         "gabarito": "A",
-        "explicacao": "A alternativa A está correta assumindo o contexto de atração prononimal (próclise obrigatória após negativa, 'Não me disseram'). A alternativa C erra ao flexibilizar início de oração (que não admite pronome átono). A alternativa D julgaria o caso oposto. B e E usam justificativas teóricas falsas ou reducionistas (tamanho da frase e redundância)."
+        "explicacao": "A alternativa A está correta, mas não pela razão de uma palavra negativa: 'sempre' é um advérbio que, segundo a norma culta, funciona como palavra atrativa de próclise — por isso 'Sempre me disseram' (próclise) está correto, em vez de 'Sempre disseram-me' (ênclise). A posição do pronome está, portanto, adequada à norma culta escrita. A alternativa B afirma, sem fundamento, que pronomes átonos nunca podem ocupar posição oblíqua em frases curtas — isso não corresponde a nenhuma regra real de colocação pronominal. A C erra ao sugerir ênclise como alternativa válida logo após um advérbio atrativo como 'sempre', quando a norma culta pede próclise nesse contexto. A D nega, sem razão, que a colocação esteja adequada. A E propõe suprimir o pronome, o que mudaria o sentido da frase sem qualquer justificativa gramatical para isso."
       },
       {
         "id": "d12",
