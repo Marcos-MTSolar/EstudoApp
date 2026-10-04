@@ -1948,3 +1948,36 @@ pm run build) com sucesso (Exit code: 0).
 - **Arquivos modificados:**
   - `src/lib/cronogramaGerador.ts` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 91 — Motor de Revisão Ativa (Active Recall) do RM2 (`src/lib/revisaoAtiva.ts`)
+- **Data e hora:** 2026-10-04T11:11:00 (Horário Local — BRT)
+- **O que foi feito:**
+  - **Criação do módulo `src/lib/revisaoAtiva.ts` (lógica pura sem React):**
+    - `gerarRevisaoAtiva`: Seleciona questões de tópicos **anteriores** já concluídos no cronograma (excluindo o tópico atual em estudo).
+    - **Algoritmo de priorização:** Calcula score dinâmico baseado em:
+      $$\text{Score} = (100 - \text{ultimoAcerto}) \times 10 + \text{diasSemRevisar} + (\text{nuncaRevisado} ? 500 : 0)$$
+      Tópicos com menor acerto e nunca revisados recebem prioridade máxima.
+    - **Fontes de questões:** Extrai de `questoes`, `simulado` e `desafio.questoes` via `getConteudo(topicoId)` (com `try/catch` para ignorar IDs inexistentes silenciosamente).
+    - **Regra do desafio (`desafio.questoes`):** Associa `topicoId` pelo campo `topico_referencia` e descarta questões que refiram ao tópico atual ou a tópicos não estudados.
+    - **Distribuição e diversidade:** Máximo de 2 questões por tópico com ênfase no nível `intermediario`, seguido de `basico` e `avancado`.
+    - **Preservação de atributos:** Mantém nomes originais (`alternativas`, `gabarito`, `trecho_ref`) via spread `{ ...questaoOriginal, topicoId, tituloTopico, origem }` para compatibilidade total com o componente de questões.
+    - **Revisões pendentes e contagem de sessões (`calcularRevisoesPendentes`):** Regra de 1 revisão pendente a cada 2 tópicos novos concluídos. A chave `_sessoesConcluidas` no `rm2_revisao_ativa_${uid}` contabiliza **sessões inteiras de revisão concluídas** (1 sessão = 1 revisão), com fallback automático para o maior valor por tópico em dados salvos antigos. `registrarSessaoRevisaoConcluida` incrementa o contador.
+    - **Persistência em localStorage (`rm2_revisao_ativa_${uid}`):** Funções `getRevisaoAtivaLocal(uid)` e `saveRevisaoAtivaLocal(uid, map)` com isolamento por UID, tratamento de exceção contra JSON corrompido e tolerância a SSR (`typeof window === 'undefined'`).
+    - **Isolamento de status de conclusão:** `registrarResultadoRevisao` salva as métricas no armazenamento de revisão ativa sem regredir o status `concluido: true` original do edital.
+  - **Resultado dos Testes de Validação (6/6 asserções aprovadas):**
+    ```
+    1. Nenhuma questão do tópico atual ou futuro: PASSOU ✅
+    2. Sem duplicatas de ID: PASSOU ✅
+    3. No máximo 2 questões por tópico: PASSOU ✅
+    4. Primeiro tópico prioritário (gram-04 por menor acerto 30%): PASSOU ✅
+    5. Preservação de atributos (alternativas, gabarito, tituloTopico): PASSOU ✅
+    6. Cálculo de revisões pendentes ({ pendentes: 2, liberadas: 2, realizadas: 0 }): PASSOU ✅
+    ```
+    - `npx tsc --noEmit` → Exit code 0.
+    - `npm run build` → Exit code 0 (✓ 3130 módulos em 11,35s).
+- **Arquivos modificados:**
+  - `src/lib/revisaoAtiva.ts` **[CRIADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
