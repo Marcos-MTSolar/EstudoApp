@@ -726,7 +726,7 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
                                 <div className="pt-2 flex flex-wrap items-center justify-between gap-3 bg-cyan-950/20 p-3 rounded-xl border border-cyan-500/30">
                                   <div className="flex items-center gap-2">
                                     <span className="text-xs text-cyan-300 font-bold">
-                                      Bloco de Recuperação Ativa (4h)
+                                      Bloco de Recuperação Ativa (1h)
                                     </span>
                                     <span className={`text-[10px] font-black uppercase px-2 py-0.5 rounded ${
                                       isConcluido

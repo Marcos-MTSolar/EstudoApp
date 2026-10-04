@@ -2015,7 +2015,7 @@ pm run build) com sucesso (Exit code: 0).
   - `RM2CronogramaProps.onNavigate` ampliado com `'revisao_ativa'`.
   - Importa `calcularRevisoesPendentes`, `obterContextoCronogramaRevisao` e `gerarChaveStatusBloco` de `revisaoAtiva`.
   - Calcula `statusPendentesRevisao` via `useMemo` (mesma fonte que `EstudoRM2`).
-  - **Bloco de Sábado (`revisao_ativa`):** Exibe banner `"Bloco de Recuperação Ativa (4h)"` com badge de status (`✅ Concluído` / `⏳ Pendente`) lido do `statusDiario` via `gerarChaveStatusBloco` e botão **🧠 Iniciar Revisão Ativa**.
+  - **Bloco de Sábado (`revisao_ativa`):** Exibe banner `"Bloco de Recuperação Ativa (1h)"` com badge de status (`✅ Concluído` / `⏳ Pendente`) lido do `statusDiario` via `gerarChaveStatusBloco` e botão **🧠 Iniciar Revisão Ativa**.
   - **Dias úteis com revisões pendentes:** Card discreto no card do dia com a contagem e o link **"Revisar Agora"**.
 
   #### `src/components/rm2/RM2Dashboard.tsx` **[MODIFICADO]**
@@ -2023,7 +2023,7 @@ pm run build) com sucesso (Exit code: 0).
 
   #### Validação
   - `npx tsc --noEmit` → ✅ Exit code 0.
-  - `npm run build` → ✅ Exit code 0 (✓ 3132 módulos em 10,31s).
+  - `npm run build` → ✅ Exit code 0 (✓ 3132 módulos em 10,42s).
 
   #### Passo a passo de teste manual
   1. `npm run dev` → acesse o módulo RM2.

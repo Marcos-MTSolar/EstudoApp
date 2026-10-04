@@ -137,7 +137,7 @@ export function gerarChaveStatusBloco(
   diaNome: string,
   topicoId: string = 'revisao_ativa'
 ): string {
-  const diaNormalizado = diaNome.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+  const diaNormalizado = diaNome.replace(/[^a-zA-Z]/g, '').toLowerCase();
   return `semana${semanaNumero}_${diaNormalizado}_${topicoId}`;
 }
 
