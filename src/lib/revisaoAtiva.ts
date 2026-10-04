@@ -1,5 +1,7 @@
 import { getConteudo } from '../data/conteudoIndex';
 import { RM2_CONTEUDO } from '../data/rm2Conteudo';
+import { gerarCronogramaDinamico } from './cronogramaGerador';
+import { hojeBrasiliaISO } from './dataUtils';
 
 export interface MetaRevisaoTopico {
   topicoId: string;
@@ -125,6 +127,70 @@ export function registrarSessaoRevisaoConcluida(uid: string): number {
   map._sessoesConcluidas = novoTotal;
   saveRevisaoAtivaLocal(uid, map);
   return novoTotal;
+}
+
+/**
+  * Ponto de Verdade Único: Retorna os tópicos já concluídos (anteriores a hoje no cronograma ou no progresso)
+  * e o tópico em estudo no dia atual.
+  */
+export interface ContextoCronogramaRevisao {
+  topicosConcluidos: string[];
+  topicoAtualId?: string;
+  semanaAtualNumero: number;
+}
+
+export function obterContextoCronogramaRevisao(
+  dataProva: string,
+  progressoConcluidosIds?: string[]
+): ContextoCronogramaRevisao {
+  const cronograma = gerarCronogramaDinamico(dataProva);
+  const hoje = hojeBrasiliaISO();
+
+  const setTopicosConcluidos = new Set<string>();
+  let topicoAtualId: string | undefined = undefined;
+  let semanaAtualNumero = 1;
+
+  for (const semana of cronograma.semanas) {
+    if (semana.inicio <= hoje) {
+      semanaAtualNumero = semana.numero;
+      for (const dia of semana.dias) {
+        if (dia.data < hoje) {
+          for (const t of dia.topicos) {
+            if (t) setTopicosConcluidos.add(t);
+          }
+        } else if (dia.data === hoje) {
+          if (dia.topicos && dia.topicos.length > 0) {
+            topicoAtualId = dia.topicos[0];
+          }
+        }
+      }
+    }
+  }
+
+  // Tópicos marcados explicitamente no progresso também entram
+  if (Array.isArray(progressoConcluidosIds)) {
+    for (const t of progressoConcluidosIds) {
+      if (t) setTopicosConcluidos.add(t);
+    }
+  }
+
+  // Mantém a ordem pedagógica original do edital
+  const todosOrdem: string[] = [];
+  for (const area of RM2_CONTEUDO.areas) {
+    for (const as of area.assuntos) {
+      todosOrdem.push(as.id);
+    }
+  }
+
+  const topicosConcluidosOrdenados = todosOrdem.filter((id) =>
+    setTopicosConcluidos.has(id)
+  );
+
+  return {
+    topicosConcluidos: topicosConcluidosOrdenados,
+    topicoAtualId,
+    semanaAtualNumero,
+  };
 }
 
 /**

@@ -4,9 +4,11 @@ import {
   Settings, ChevronLeft, LayoutDashboard, ChevronRight,
   Calendar, Dumbbell
 } from 'lucide-react';
+import { RefreshCw } from 'lucide-react';
 import { RM2Dashboard } from './rm2/RM2Dashboard';
 import { RM2Teoria } from './rm2/RM2Teoria';
 import { RM2Questoes } from './rm2/RM2Questoes';
+import { RM2RevisaoAtiva } from './rm2/RM2RevisaoAtiva';
 import { RM2Simulacao } from './rm2/RM2Simulacao';
 import { RM2Progresso } from './rm2/RM2Progresso';
 import { RM2Configuracoes } from './rm2/RM2Configuracoes';
@@ -17,8 +19,10 @@ import { getMetadadosSimulados } from '../data/simuladosIndex';
 import { simuladoLiberado, hojeBrasiliaISO } from '../lib/dataUtils';
 import { useAuth } from '../lib/AuthContext';
 import { useDataProva } from '../lib/cronogramaConfig';
+import { useRM2Data } from '../lib/useRM2Data';
+import { calcularRevisoesPendentes, obterContextoCronogramaRevisao } from '../lib/revisaoAtiva';
 
-type RM2Tab = 'dashboard' | 'teoria' | 'questoes' | 'simulado' | 'progresso' | 'configuracoes' | 'cronograma' | 'saude';
+type RM2Tab = 'dashboard' | 'teoria' | 'questoes' | 'revisao_ativa' | 'simulado' | 'progresso' | 'cronograma' | 'saude' | 'configuracoes';
 
 interface RM2TabDef {
   id: RM2Tab;
@@ -30,6 +34,7 @@ const RM2_TABS: RM2TabDef[] = [
   { id: 'dashboard',     label: 'Início',         icon: LayoutDashboard },
   { id: 'teoria',        label: 'Teoria',          icon: BookOpen },
   { id: 'questoes',      label: 'Questões',        icon: Brain },
+  { id: 'revisao_ativa', label: 'Revisão Ativa',   icon: RefreshCw },
   { id: 'simulado',      label: 'Simulado',        icon: Award },
   { id: 'progresso',     label: 'Progresso',       icon: BarChart2 },
   { id: 'cronograma',    label: 'Cronograma',      icon: Calendar },
@@ -41,6 +46,7 @@ export function EstudoRM2() {
   const { user } = useAuth();
   const uid = user?.uid ?? 'local';
   const { dataProva } = useDataProva(uid);
+  const { progresso } = useRM2Data(uid);
   const [activeTab, setActiveTab] = useState<RM2Tab>('dashboard');
   
   // Estados de navegação compartilhados para as sub-telas
@@ -49,6 +55,22 @@ export function EstudoRM2() {
   const [simuladoModo, setSimuladoModo] = useState<'rapido' | 'completo' | null>(null);
   const [simuladoSelecionado, setSimuladoSelecionado] = useState<string | null>(null);
   const metadadosSimulados = useMemo(() => getMetadadosSimulados(dataProva), [dataProva]);
+
+  // Contexto e pendências de revisão ativa
+  const progressoConcluidosIds = useMemo(() => {
+    return progresso.filter((p) => p.concluido).map((p) => p.assuntoId);
+  }, [progresso]);
+
+  const contextoRevisao = useMemo(() => {
+    return obterContextoCronogramaRevisao(dataProva, progressoConcluidosIds);
+  }, [dataProva, progressoConcluidosIds]);
+
+  const statusPendentesRevisao = useMemo(() => {
+    return calcularRevisoesPendentes({
+      topicosConcluidos: contextoRevisao.topicosConcluidos,
+      uid,
+    });
+  }, [contextoRevisao.topicosConcluidos, uid]);
 
   const activeTabDef = RM2_TABS.find(t => t.id === activeTab);
 
@@ -104,7 +126,7 @@ export function EstudoRM2() {
         return (
           <RM2Dashboard 
             onNavigate={(tab, subject, mode) => {
-              setActiveTab(tab);
+              setActiveTab(tab as RM2Tab);
               if (subject) {
                 if (tab === 'teoria') setSelectedAssuntoTeoria(subject);
                 if (tab === 'questoes') setSelectedAssuntoQuestoes(subject);
@@ -141,6 +163,21 @@ export function EstudoRM2() {
               setSelectedAssuntoTeoria(selectedAssuntoQuestoes);
               setSelectedAssuntoQuestoes(null);
               setActiveTab('teoria');
+            }}
+          />
+        );
+
+      case 'revisao_ativa':
+        return (
+          <RM2RevisaoAtiva
+            onVoltar={() => setActiveTab('cronograma')}
+            onNavigate={(tab, subject, mode) => {
+              setActiveTab(tab as RM2Tab);
+              if (subject) {
+                if (tab === 'teoria') setSelectedAssuntoTeoria(subject);
+                if (tab === 'questoes') setSelectedAssuntoQuestoes(subject);
+              }
+              if (mode) setSimuladoModo(mode);
             }}
           />
         );
@@ -341,6 +378,11 @@ export function EstudoRM2() {
               >
                 <Icon className="w-3.5 h-3.5" />
                 <span>{tab.label}</span>
+                {tab.id === 'revisao_ativa' && statusPendentesRevisao.pendentes > 0 && (
+                  <span className="ml-1 px-1.5 py-0.5 rounded-full text-[10px] font-black bg-cyan-400 text-slate-950 shadow-sm animate-pulse">
+                    {statusPendentesRevisao.pendentes}
+                  </span>
+                )}
               </button>
             );
           })}

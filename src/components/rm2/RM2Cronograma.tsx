@@ -25,9 +25,10 @@ import {
   ResultadoCronograma
 } from '../../lib/cronogramaGerador';
 import { getMetadadosSimulados } from '../../data/simuladosIndex';
+import { calcularRevisoesPendentes, obterContextoCronogramaRevisao } from '../../lib/revisaoAtiva';
 
 interface RM2CronogramaProps {
-  onNavigate?: (tab: 'dashboard' | 'teoria' | 'questoes' | 'simulado' | 'progresso' | 'configuracoes' | 'cronograma' | 'saude', subject?: any, mode?: any) => void;
+  onNavigate?: (tab: 'dashboard' | 'teoria' | 'questoes' | 'revisao_ativa' | 'simulado' | 'progresso' | 'configuracoes' | 'cronograma' | 'saude', subject?: any, mode?: any) => void;
 }
 
 function formatarISOparaBR(iso: string): string {
@@ -43,6 +44,22 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
   // Hook de configuração da data da prova
   const { dataProva, setDataProva, provisoria } = useDataProva(uid);
   const [erroData, setErroData] = useState<string | null>(null);
+
+  // Contexto e pendências de revisão ativa compartilhados
+  const progressoConcluidosIds = useMemo(() => {
+    return progresso.filter((p) => p.concluido).map((p) => p.assuntoId);
+  }, [progresso]);
+
+  const contextoRevisao = useMemo(() => {
+    return obterContextoCronogramaRevisao(dataProva, progressoConcluidosIds);
+  }, [dataProva, progressoConcluidosIds]);
+
+  const statusPendentesRevisao = useMemo(() => {
+    return calcularRevisoesPendentes({
+      topicosConcluidos: contextoRevisao.topicosConcluidos,
+      uid,
+    });
+  }, [contextoRevisao.topicosConcluidos, uid]);
 
   const [abaAtiva, setAbaAtiva] = useState<'visao' | 'semana' | 'revisoes' | 'checklist'>('visao');
   const [checklist, setChecklist] = useState<Record<string, Record<string, boolean>>>({});
@@ -699,6 +716,34 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
                               </span>
                             </div>
                             <p className="text-xs text-gray-300 leading-relaxed font-medium">{dia.descricao}</p>
+                            
+                            {/* Bloco de Sábado: Ação de Revisão Ativa */}
+                            {dia.atividade === 'revisao_ativa' && onNavigate && (
+                              <div className="pt-2 flex flex-wrap items-center justify-between gap-3 bg-cyan-950/20 p-3 rounded-xl border border-cyan-500/30">
+                                <span className="text-xs text-cyan-300 font-bold">
+                                  Bloco de Recuperação Ativa (4h)
+                                </span>
+                                <button
+                                  onClick={() => onNavigate('revisao_ativa')}
+                                  className="bg-cyan-500 hover:bg-cyan-400 text-black font-black px-4 py-2 rounded-xl text-xs uppercase tracking-wider transition-all flex items-center gap-1.5 cursor-pointer shadow-md shadow-cyan-500/20"
+                                >
+                                  <span>🧠 Iniciar Revisão Ativa</span>
+                                </button>
+                              </div>
+                            )}
+
+                            {/* Dias úteis: Aviso discreto de pendência de revisão ativa */}
+                            {dia.atividade !== 'revisao_ativa' && statusPendentesRevisao.pendentes > 0 && onNavigate && (
+                              <div className="pt-1.5 flex items-center justify-between bg-cyan-500/10 border border-cyan-500/20 rounded-xl px-3 py-2 text-xs text-cyan-300 font-medium">
+                                <span>🧠 Você possui <strong>{statusPendentesRevisao.pendentes}</strong> {statusPendentesRevisao.pendentes === 1 ? 'revisão ativa pendente' : 'revisões ativas pendentes'}.</span>
+                                <button
+                                  onClick={() => onNavigate('revisao_ativa')}
+                                  className="text-[10px] font-black uppercase text-cyan-300 hover:text-white underline cursor-pointer shrink-0 ml-2"
+                                >
+                                  Revisar Agora
+                                </button>
+                              </div>
+                            )}
                             
                             {/* Assuntos Relacionados */}
                             {dia.topicos.length > 0 && (

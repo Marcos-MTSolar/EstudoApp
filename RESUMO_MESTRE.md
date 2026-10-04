@@ -1981,3 +1981,65 @@ pm run build) com sucesso (Exit code: 0).
   - `src/lib/revisaoAtiva.ts` **[CRIADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
+---
+
+### Parte 92 — Tela de Revisão Ativa integrada ao cronograma e à navegação
+- **Data e hora:** 2026-10-04T11:26:00 (Horário Local — BRT)
+- **O que foi feito:**
+
+  #### `src/lib/revisaoAtiva.ts` **[MODIFICADO]**
+  - Adicionada a função exportada `obterContextoCronogramaRevisao(dataProva, progressoConcluidosIds)`: **ponto de verdade único** que retorna `{ topicosConcluidos, topicoAtualId, semanaAtualNumero }` para que `EstudoRM2`, `RM2Cronograma` e `RM2RevisaoAtiva` usem exatamente a mesma fonte.
+  - **Critério de "Concluído":** Um tópico entra em `topicosConcluidos` se aparece em algum `dia.data < hoje` no cronograma dinâmico (ou seja, dias de estudo já encerrados), **ou** se o ID está na lista de progresso explicitamente marcado como `concluido: true` no `useRM2Data`. A união dos dois critérios é reordenada pela sequência pedagógica do edital antes de ser retornada.
+
+  #### `src/components/rm2/RM2RevisaoAtiva.tsx` **[CRIADO]**
+  - Novo componente de tela de Revisão Ativa com:
+    - **Geração assíncrona:** Usa `gerarRevisaoAtiva` no `useEffect` de montagem para buscar até 10 questões priorizadas.
+    - **Etapa de Recuperação Ativa:** Antes das alternativas de cada questão exibe o card `🧠 Recuperação Ativa de Memória` com o botão **"Tente lembrar a regra antes de responder"**. Ao clicar, as alternativas são reveladas com `fade-in`.
+    - **Keys compostas:** Chaves dos estados (`userAnswers`, `revelouRegra`) no formato `${topicoId}_${q.id}` para evitar colisões de IDs iguais entre tópicos.
+    - **Feedback imediato:** Após responder, exibe verde/vermelho, gabarito e explicação pedagógica. Campo `trecho_ref` é exibido se presente.
+    - **Relatório final:** Agrupado por tópico com percentual individual. Tópicos com aproveitamento abaixo de 70% mostram o botão **"📖 Rever teoria"** que localiza o objeto do assunto em `RM2_CONTEUDO` via `findAssuntoById` antes de chamar `onNavigate('teoria', assunto)`.
+    - **Persistência segura:** `handleFinalizarSessao` protegido por `useRef(false)` — chama `registrarResultadoRevisao` por tópico e `registrarSessaoRevisaoConcluida` **uma única vez por sessão**, nunca em `useEffect`. Marca o bloco `semanaX_sbado_revisao_ativa` como `'concluido'` somente se ainda não estiver concluído.
+    - **Mensagem amigável:** Se `questoes.length === 0` ao montar (início do cronograma), exibe tela explicativa com botão para o Cronograma.
+
+  #### `src/components/EstudoRM2.tsx` **[MODIFICADO]**
+  - `RM2Tab` atualizado com `'revisao_ativa'`.
+  - `RM2_TABS` com nova entrada `{ id: 'revisao_ativa', label: 'Revisão Ativa', icon: RefreshCw }`.
+  - Calculado `statusPendentesRevisao` via `calcularRevisoesPendentes` usando `obterContextoCronogramaRevisao` (mesma fonte).
+  - **Selo/badge** animado (`animate-pulse`, fundo `bg-cyan-400`, texto escuro) no botão da aba, exibido apenas quando `pendentes > 0`.
+  - `case 'revisao_ativa'` adicionado ao `renderContent()` renderizando `<RM2RevisaoAtiva onNavigate={...} />`.
+  - `onNavigate` do `RM2Dashboard` e do `RM2Cronograma` recebe cast para `RM2Tab` para garantir compatibilidade com o novo tipo ampliado.
+
+  #### `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
+  - `RM2CronogramaProps.onNavigate` ampliado com `'revisao_ativa'`.
+  - Importa `calcularRevisoesPendentes` e `obterContextoCronogramaRevisao` de `revisaoAtiva`.
+  - Calcula `statusPendentesRevisao` via `useMemo` (mesma fonte que `EstudoRM2`).
+  - **Bloco de Sábado (`revisao_ativa`):** Exibe banner `"Bloco de Recuperação Ativa (4h)"` com botão **🧠 Iniciar Revisão Ativa** que aciona `onNavigate('revisao_ativa')`. O botão funciona mesmo com `pendentes = 0`.
+  - **Dias úteis com revisões pendentes:** Card discreto no card do dia com a contagem e o link **"Revisar Agora"**.
+
+  #### `src/components/rm2/RM2Dashboard.tsx` **[MODIFICADO]**
+  - `RM2DashboardProps.onNavigate` atualizado para incluir `'revisao_ativa' | 'cronograma' | 'saude'` no union type.
+
+  #### Validação
+  - `npx tsc --noEmit` → ✅ Exit code 0.
+  - `npm run build` → ✅ Exit code 0 (✓ 3132 módulos em 8,23s).
+
+  #### Passo a passo de teste manual
+  1. `npm run dev` → acesse o módulo RM2.
+  2. Verifique que a aba **Revisão Ativa** aparece na barra de sub-navegação.
+  3. Avance o cronograma para a Semana 2 (ou simule `dia.data < hoje` mudando o sistema) → o selo com o número aparece se `topicosConcluidos.length >= 2`.
+  4. Clique em **Revisão Ativa** → tela de loading → questões geradas.
+  5. Para cada questão, verifique o card de recuperação ativa; clique no botão; selecione uma alternativa; confirme o feedback.
+  6. Avance todas as questões → relatório final com agrupamento por tópico.
+  7. Em tópico com < 70%, clique **Rever teoria** → navega para a tela de teoria.
+  8. Volte à aba **Cronograma** → na Semana Atual, sábado: botão **🧠 Iniciar Revisão Ativa** aparece. Dias úteis mostram aviso discreto se houver pendentes.
+  9. Confirme no DevTools / localStorage que `rm2_revisao_ativa_local` (ou `rm2_revisao_ativa_${uid}`) contém os registros por tópico e `_sessoesConcluidas: 1`.
+
+- **Arquivos modificados:**
+  - `src/lib/revisaoAtiva.ts` **[MODIFICADO]**
+  - `src/components/rm2/RM2RevisaoAtiva.tsx` **[CRIADO]**
+  - `src/components/EstudoRM2.tsx` **[MODIFICADO]**
+  - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
+  - `src/components/rm2/RM2Dashboard.tsx` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+

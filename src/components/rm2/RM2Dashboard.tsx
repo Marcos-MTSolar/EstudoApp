@@ -17,7 +17,7 @@ import { RM2Configuracoes } from './RM2Configuracoes';
 type SubView = 'dashboard' | 'teoria' | 'questoes' | 'simulacao' | 'progresso' | 'configuracoes';
 
 interface RM2DashboardProps {
-  onNavigate?: (tab: 'dashboard' | 'teoria' | 'questoes' | 'simulado' | 'progresso' | 'configuracoes', subject?: any, mode?: 'rapido' | 'completo') => void;
+  onNavigate?: (tab: 'dashboard' | 'teoria' | 'questoes' | 'revisao_ativa' | 'simulado' | 'progresso' | 'cronograma' | 'saude' | 'configuracoes', subject?: any, mode?: 'rapido' | 'completo') => void;
 }
 
 export function RM2Dashboard({ onNavigate }: RM2DashboardProps) {
