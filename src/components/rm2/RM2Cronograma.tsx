@@ -76,7 +76,7 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
     return gerarCronogramaDinamico(dataProva, findAssuntoNome);
   }, [dataProva]);
 
-  // Efeito de verificação de migração para versão v3-2026-10
+  // Efeito de verificação de migração para versão v4-2026-10
   useEffect(() => {
     const chaveVersao = `rm2_cronograma_versao_${uid}`;
     const chaveStatus = `rm2_cronograma_status_diario_${uid}`;
@@ -93,10 +93,10 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
       } catch (e) {}
     }
 
-    if (temStatusSalvo && versaoSalva !== 'v3-2026-10') {
+    if (temStatusSalvo && versaoSalva !== 'v4-2026-10') {
       setModalMigracaoAberta(true);
     } else {
-      localStorage.setItem(chaveVersao, 'v3-2026-10');
+      localStorage.setItem(chaveVersao, 'v4-2026-10');
     }
   }, [uid]);
 
@@ -106,7 +106,7 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
     const chaveVersao = `rm2_cronograma_versao_${uid}`;
     setStatusDiario({});
     localStorage.setItem(chaveStatus, JSON.stringify({}));
-    localStorage.setItem(chaveVersao, 'v3-2026-10');
+    localStorage.setItem(chaveVersao, 'v4-2026-10');
     setModalMigracaoAberta(false);
   };
 
@@ -325,7 +325,7 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
           <div className="bg-slate-900 border border-blue-500/30 rounded-3xl p-6 max-w-md w-full space-y-4 shadow-2xl animate-in zoom-in-95 duration-200">
             <div className="flex items-center gap-3 text-amber-400">
               <AlertCircle className="w-6 h-6 shrink-0" />
-              <h3 className="text-base font-black text-white">Migração do Cronograma (v3-2026-10)</h3>
+              <h3 className="text-base font-black text-white">Migração do Cronograma (v4-2026-10)</h3>
             </div>
             <p className="text-xs text-gray-300 leading-relaxed">
               O cronograma foi atualizado para uma estrutura dinâmica sincronizada com a sua data de prova. Para aplicar as novas semanas, o <strong>status diário de tarefas</strong> será zerado.
@@ -681,6 +681,7 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
                       if (dia.atividade === 'teoria') tagColor = "bg-blue-500/10 text-blue-400 border border-blue-500/20";
                       else if (dia.atividade === 'questoes') tagColor = "bg-purple-500/10 text-purple-400 border border-purple-500/20";
                       else if (dia.atividade === 'revisao') tagColor = "bg-amber-500/10 text-amber-400 border border-amber-500/20";
+                      else if (dia.atividade === 'revisao_ativa') tagColor = "bg-cyan-500/10 text-cyan-400 border border-cyan-500/20";
                       else if (dia.atividade === 'simulado') tagColor = "bg-rose-500/10 text-rose-400 border border-rose-500/20";
 
                       return (
@@ -693,6 +694,7 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
                                 {dia.atividade === 'teoria' ? '📚 Teoria' :
                                  dia.atividade === 'questoes' ? '✏️ Questões' :
                                  dia.atividade === 'revisao' ? '🔁 Revisão' :
+                                 dia.atividade === 'revisao_ativa' ? '🧠 Revisão Ativa' :
                                  dia.atividade === 'simulado' ? '🎯 Simulado' : '💤 Descanso'}
                               </span>
                             </div>

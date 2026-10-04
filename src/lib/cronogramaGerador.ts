@@ -4,7 +4,7 @@ export interface DiaSemana {
   data: string;
   diaNome: string;
   topicos: string[];
-  atividade: 'teoria' | 'questoes' | 'simulado' | 'revisao' | 'descanso';
+  atividade: 'teoria' | 'questoes' | 'simulado' | 'revisao' | 'revisao_ativa' | 'descanso';
   descricao: string;
   nivelPorTopico: Record<string, 'basico' | 'intermediario' | 'avancado' | null>;
 }
@@ -251,22 +251,17 @@ export function gerarCronogramaDinamico(dataProvaStr: string, findAssuntoNomeFn?
     const dias: DiaSemana[] = [];
 
     if (isPrimeiraSemana) {
+      // Quinta e Sexta: estudo inicial de gram-00
       const diasSpec = [
-        { offset: 0, nome: "Quinta-feira", atv: 'teoria' as const, desc: `Estudar teoria: ${getNome('gram-00')}`, topicos: ['gram-00'] },
-        { offset: 1, nome: "Sexta-feira", atv: 'questoes' as const, desc: `Bateria de questões básicas: ${getNome('gram-00')}`, topicos: ['gram-00'] },
-        { offset: 2, nome: "Sábado", atv: 'descanso' as const, desc: "Descanso e consolidação de conhecimentos.", topicos: [] },
-        { offset: 3, nome: "Domingo", atv: 'descanso' as const, desc: "Descanso pré-ciclo semanal.", topicos: [] },
+        { offset: 0, nome: "Quinta-feira", atv: 'teoria' as const, desc: `Estudar teoria: ${getNome('gram-00')}`, topicos: ['gram-00'], nivel: 'basico' as const },
+        { offset: 1, nome: "Sexta-feira", atv: 'questoes' as const, desc: `Bateria de questões básicas: ${getNome('gram-00')}`, topicos: ['gram-00'], nivel: 'basico' as const },
       ];
 
       diasSpec.forEach(ds => {
         const diaD = new Date(dtInicio.getTime() + ds.offset * 24 * 60 * 60 * 1000);
         const dataBR = formatarDateUTCParaBR(diaD);
-
         const nivelPorTopico: Record<string, 'basico' | 'intermediario' | 'avancado' | null> = {};
-        if (ds.atv === 'teoria' || ds.atv === 'questoes') {
-          ds.topicos.forEach(t => { nivelPorTopico[t] = 'basico'; });
-        }
-
+        ds.topicos.forEach(t => { nivelPorTopico[t] = ds.nivel; });
         dias.push({
           data: dataBR,
           diaNome: ds.nome,
@@ -275,6 +270,41 @@ export function gerarCronogramaDinamico(dataProvaStr: string, findAssuntoNomeFn?
           descricao: ds.desc,
           nivelPorTopico
         });
+      });
+
+      // Sábado (03/10): 3 blocos de estudo de gram-00 (4h no total)
+      // Bloco 1 (2h): aprofundamento avançado + desafio
+      // Bloco 2 (1h): revisão ativa — placeholder (implementação completa na Parte 2)
+      // Bloco 3 (1h): questões mistas dos tópicos já estudados
+      const sabadoSpec = [
+        { nome: "Sábado — Bloco 1 (2h)", atv: 'questoes' as const, desc: `Aprofundamento avançado + Modo Desafio: ${getNome('gram-00')} — questões avançadas e desafio de fixação.`, topicos: ['gram-00'], nivel: 'avancado' as const },
+        { nome: "Sábado — Bloco 2 (1h)", atv: 'revisao_ativa' as const, desc: `[Revisão Ativa — Parte 2] Placeholder: revisão ativa espaçada de ${getNome('gram-00')}.`, topicos: ['gram-00'], nivel: null as null },
+        { nome: "Sábado — Bloco 3 (1h)", atv: 'questoes' as const, desc: `Questões mistas dos tópicos já estudados: ${getNome('gram-00')}.`, topicos: ['gram-00'], nivel: null as null },
+      ];
+      const sabadoD = new Date(dtInicio.getTime() + 2 * 24 * 60 * 60 * 1000);
+      const sabadoBR = formatarDateUTCParaBR(sabadoD);
+      sabadoSpec.forEach(bl => {
+        const nivelPorTopico: Record<string, 'basico' | 'intermediario' | 'avancado' | null> = {};
+        bl.topicos.forEach(t => { nivelPorTopico[t] = bl.nivel; });
+        dias.push({
+          data: sabadoBR,
+          diaNome: bl.nome,
+          topicos: bl.topicos,
+          atividade: bl.atv,
+          descricao: bl.desc,
+          nivelPorTopico
+        });
+      });
+
+      // Domingo: descanso pré-ciclo
+      const domingoD = new Date(dtInicio.getTime() + 3 * 24 * 60 * 60 * 1000);
+      dias.push({
+        data: formatarDateUTCParaBR(domingoD),
+        diaNome: "Domingo",
+        topicos: [],
+        atividade: 'descanso',
+        descricao: "Descanso pré-ciclo semanal.",
+        nivelPorTopico: {}
       });
     } else if (isSemanaProva) {
       const diasNomes = ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado", "Domingo"];
@@ -310,6 +340,7 @@ export function gerarCronogramaDinamico(dataProvaStr: string, findAssuntoNomeFn?
         });
       }
     } else {
+      // Segunda a Sexta: lógica original por fase
       const diasNomes = ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira"];
       for (let i = 0; i < 5; i++) {
         const diaD = new Date(dtInicio.getTime() + i * 24 * 60 * 60 * 1000);
@@ -415,6 +446,74 @@ export function gerarCronogramaDinamico(dataProvaStr: string, findAssuntoNomeFn?
           nivelPorTopico
         });
       }
+
+      // Sábado: 3 blocos de estudo (4h total)
+      // Bloco 1 (2h): aprofundamento avançado dos tópicos da semana + questões avançadas/desafio
+      // Bloco 2 (1h): revisão ativa — placeholder tipado (implementação na Parte 2)
+      // Bloco 3 (1h): questões mistas dos tópicos já estudados
+      const sabadoD = new Date(dtInicio.getTime() + 5 * 24 * 60 * 60 * 1000);
+      const sabadoBR = formatarDateUTCParaBR(sabadoD);
+      const topicosRefSabado = topicosSemana.length > 0 ? topicosSemana : [];
+      const nomesTopSabado = topicosRefSabado.length > 0
+        ? topicosRefSabado.map(t => getNome(t)).join(', ')
+        : 'tópicos da fase';
+
+      // Determina nível de aprofundamento do Bloco 1 baseado na fase
+      const nivelSabadoBloco1: 'basico' | 'intermediario' | 'avancado' | null =
+        faseNum === 1 ? 'avancado' :
+        faseNum === 2 ? 'avancado' :
+        faseNum === 3 ? 'avancado' :
+        null;
+
+      // Descrições específicas por fase para o Bloco 1
+      let descBloco1 = '';
+      if (faseNum === 1) {
+        descBloco1 = `Bloco 1 (2h) — Aprofundamento avançado + Modo Desafio: ${nomesTopSabado}. Questões avançadas e desafio de fixação.`;
+      } else if (faseNum === 2) {
+        descBloco1 = `Bloco 1 (2h) — Revisão intensiva avançada + Desafio: ${nomesTopSabado}. Exercícios de nível avançado e simulado temático.`;
+      } else if (faseNum === 3) {
+        descBloco1 = `Bloco 1 (2h) — Consolidação avançada + Modo Desafio: ${nomesTopSabado}. Foco nos pontos de maior dificuldade.`;
+      } else if (faseNum === 4) {
+        descBloco1 = `Bloco 1 (2h) — Análise de simulados + Revisão de erros críticos. Modo Desafio intensivo.`;
+      } else {
+        descBloco1 = `Bloco 1 (2h) — Revisão final avançada + Desafio: ${nomesTopSabado}. Pegadinhas e pontos de atenção.`;
+      }
+
+      // Bloco 1: aprofundamento avançado
+      const nivelBloco1PorTopico: Record<string, 'basico' | 'intermediario' | 'avancado' | null> = {};
+      topicosRefSabado.forEach(t => { nivelBloco1PorTopico[t] = nivelSabadoBloco1; });
+      dias.push({
+        data: sabadoBR,
+        diaNome: 'Sábado — Bloco 1 (2h)',
+        topicos: topicosRefSabado,
+        atividade: 'questoes',
+        descricao: descBloco1,
+        nivelPorTopico: nivelBloco1PorTopico
+      });
+
+      // Bloco 2: revisão ativa (placeholder — Parte 2)
+      const nivelBloco2PorTopico: Record<string, 'basico' | 'intermediario' | 'avancado' | null> = {};
+      topicosRefSabado.forEach(t => { nivelBloco2PorTopico[t] = null; });
+      dias.push({
+        data: sabadoBR,
+        diaNome: 'Sábado — Bloco 2 (1h)',
+        topicos: topicosRefSabado,
+        atividade: 'revisao_ativa',
+        descricao: `[Revisão Ativa — Parte 2] Placeholder: revisão ativa espaçada dos tópicos: ${nomesTopSabado}.`,
+        nivelPorTopico: nivelBloco2PorTopico
+      });
+
+      // Bloco 3: questões mistas
+      const nivelBloco3PorTopico: Record<string, 'basico' | 'intermediario' | 'avancado' | null> = {};
+      topicosRefSabado.forEach(t => { nivelBloco3PorTopico[t] = null; });
+      dias.push({
+        data: sabadoBR,
+        diaNome: 'Sábado — Bloco 3 (1h)',
+        topicos: topicosRefSabado,
+        atividade: 'questoes',
+        descricao: `Bloco 3 (1h) — Questões mistas dos tópicos já estudados: ${nomesTopSabado}.`,
+        nivelPorTopico: nivelBloco3PorTopico
+      });
     }
 
     let titulo = `Semana ${numSemana} — ${faseNome}`;
@@ -436,7 +535,7 @@ export function gerarCronogramaDinamico(dataProvaStr: string, findAssuntoNomeFn?
 
     if (numSemana === 1) {
       titulo = "Semana 1 — Fonética e Fonologia (Introdução)";
-      desc = "Semana parcial de abertura (01 e 02/10): estudo concentrado de Fonética e Fonologia (gram-00).";
+      desc = "Semana parcial de abertura (01-04/10): Qui 01 e Sex 02 — estudo concentrado de Fonética e Fonologia (gram-00). Sáb 03 — aprofundamento avançado + revisão ativa (3 blocos, 4h). Hoje é domingo 04/10.";
     } else if (isSemanaProva) {
       titulo = `Semana ${numSemana} — Semana da Prova Objetiva`;
       desc = "Semana da prova objetiva RM2: revisões leves pré-prova e descanso.";

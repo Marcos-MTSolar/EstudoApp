@@ -1916,3 +1916,20 @@ pm run build) com sucesso (Exit code: 0).
   - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
   - `src/data/simuladosIndex.ts` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 90 — Sábado como dia de estudo (4h) no cronograma dinâmico RM2
+- **Data e hora:** 2026-10-04T10:55:00 (Horário Local — BRT)
+- **O que foi feito:**
+  - **Tipo `revisao_ativa` adicionado:** A interface `DiaSemana` em `cronogramaGerador.ts` recebeu o novo literal `'revisao_ativa'` no campo `atividade`. Esse tipo é um **placeholder tipado** preparatório para a implementação completa na Parte 2 (revisão ativa espaçada), garantindo segurança de tipos desde já.
+  - **Semana 1 parcial (01-04/10):** O sábado 03/10 passou de `descanso` para 3 blocos de estudo de `gram-00`: Bloco 1 (2h) — aprofundamento avançado + Modo Desafio; Bloco 2 (1h) — revisão ativa (placeholder); Bloco 3 (1h) — questões mistas. O domingo 04/10 permanece livre.
+  - **Semanas normais (Fases 1 a 5):** Adicionado o 6.º dia (sábado, offset +5 dias da segunda) com os 3 blocos padronizados por fase: Bloco 1 (2h) gera `questoes` com `nivelPorTopico = 'avancado'` (Fases 1-3) ou `null` (Fases 4-5) e descrição contextual por fase; Bloco 2 (1h) gera `revisao_ativa` como placeholder; Bloco 3 (1h) gera `questoes` mistas. O domingo (offset +6) **não** é gerado no array `dias` das semanas normais — continua livre.
+  - **Semana da Prova:** Inalterada — continua iterando os 7 dias (segunda a domingo) com lógica própria.
+  - **Schema v4-2026-10:** A chave `rm2_cronograma_versao_${uid}` foi incrementada de `v3-2026-10` para `v4-2026-10`. Usuários com status diário salvo na versão anterior serão alertados pelo modal de migração para zerar o status diário (o checklist de tópicos é mantido intacto).
+  - **UI `RM2Cronograma.tsx`:** Tag de cor `bg-cyan-500/10 text-cyan-400` e rótulo `🧠 Revisão Ativa` adicionados para o novo tipo. Versão do modal atualizada para `v4-2026-10`.
+  - **Validação:** `npx tsc --noEmit` → Exit code 0 (sem erros). `npm run build` → Exit code 0 (✓ 3130 módulos transformados em 29,54s).
+- **Arquivos modificados:**
+  - `src/lib/cronogramaGerador.ts` **[MODIFICADO]**
+  - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
