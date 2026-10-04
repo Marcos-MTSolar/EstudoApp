@@ -25,7 +25,7 @@ import {
   ResultadoCronograma
 } from '../../lib/cronogramaGerador';
 import { getMetadadosSimulados } from '../../data/simuladosIndex';
-import { calcularRevisoesPendentes, obterContextoCronogramaRevisao } from '../../lib/revisaoAtiva';
+import { calcularRevisoesPendentes, obterContextoCronogramaRevisao, gerarChaveStatusBloco } from '../../lib/revisaoAtiva';
 
 interface RM2CronogramaProps {
   onNavigate?: (tab: 'dashboard' | 'teoria' | 'questoes' | 'revisao_ativa' | 'simulado' | 'progresso' | 'configuracoes' | 'cronograma' | 'saude', subject?: any, mode?: any) => void;
@@ -718,19 +718,33 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
                             <p className="text-xs text-gray-300 leading-relaxed font-medium">{dia.descricao}</p>
                             
                             {/* Bloco de Sábado: Ação de Revisão Ativa */}
-                            {dia.atividade === 'revisao_ativa' && onNavigate && (
-                              <div className="pt-2 flex flex-wrap items-center justify-between gap-3 bg-cyan-950/20 p-3 rounded-xl border border-cyan-500/30">
-                                <span className="text-xs text-cyan-300 font-bold">
-                                  Bloco de Recuperação Ativa (4h)
-                                </span>
-                                <button
-                                  onClick={() => onNavigate('revisao_ativa')}
-                                  className="bg-cyan-500 hover:bg-cyan-400 text-black font-black px-4 py-2 rounded-xl text-xs uppercase tracking-wider transition-all flex items-center gap-1.5 cursor-pointer shadow-md shadow-cyan-500/20"
-                                >
-                                  <span>🧠 Iniciar Revisão Ativa</span>
-                                </button>
-                              </div>
-                            )}
+                            {dia.atividade === 'revisao_ativa' && onNavigate && (() => {
+                              const chaveSabadoBlock = gerarChaveStatusBloco(sem.numero, dia.diaNome, 'revisao_ativa');
+                              const statusBlocoSabado = statusDiario[chaveSabadoBlock] || 'pendente';
+                              const isConcluido = statusBlocoSabado === 'concluido';
+                              return (
+                                <div className="pt-2 flex flex-wrap items-center justify-between gap-3 bg-cyan-950/20 p-3 rounded-xl border border-cyan-500/30">
+                                  <div className="flex items-center gap-2">
+                                    <span className="text-xs text-cyan-300 font-bold">
+                                      Bloco de Recuperação Ativa (4h)
+                                    </span>
+                                    <span className={`text-[10px] font-black uppercase px-2 py-0.5 rounded ${
+                                      isConcluido
+                                        ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
+                                        : 'bg-yellow-500/20 text-yellow-300 border border-yellow-500/30'
+                                    }`}>
+                                      {isConcluido ? '✅ Concluído' : '⏳ Pendente'}
+                                    </span>
+                                  </div>
+                                  <button
+                                    onClick={() => onNavigate('revisao_ativa')}
+                                    className="bg-cyan-500 hover:bg-cyan-400 text-black font-black px-4 py-2 rounded-xl text-xs uppercase tracking-wider transition-all flex items-center gap-1.5 cursor-pointer shadow-md shadow-cyan-500/20"
+                                  >
+                                    <span>🧠 Iniciar Revisão Ativa</span>
+                                  </button>
+                                </div>
+                              );
+                            })()}
 
                             {/* Dias úteis: Aviso discreto de pendência de revisão ativa */}
                             {dia.atividade !== 'revisao_ativa' && statusPendentesRevisao.pendentes > 0 && onNavigate && (
@@ -753,7 +767,7 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
                                   {dia.topicos.map(tId => {
                                     const as = findAssuntoById(tId);
                                     if (!as) return null;
-                                    const chaveStatus = `semana${sem.numero}_${dia.diaNome.replace(/[^a-zA-Z]/g, '').toLowerCase()}_${tId}`;
+                                    const chaveStatus = gerarChaveStatusBloco(sem.numero, dia.diaNome, tId);
                                     const statusAtual = statusDiario[chaveStatus] || 'pendente';
                                     const nivelTopico = dia.nivelPorTopico?.[tId] ?? null;
                                     const nivelLabel: Record<string, string> = {

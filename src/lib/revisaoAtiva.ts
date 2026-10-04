@@ -130,6 +130,60 @@ export function registrarSessaoRevisaoConcluida(uid: string): number {
 }
 
 /**
+ * Helper único para construir a chave de statusDiario de um bloco/dia no cronograma.
+ */
+export function gerarChaveStatusBloco(
+  semanaNumero: number,
+  diaNome: string,
+  topicoId: string = 'revisao_ativa'
+): string {
+  const diaNormalizado = diaNome.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+  return `semana${semanaNumero}_${diaNormalizado}_${topicoId}`;
+}
+
+/**
+ * Localiza no cronograma dinâmico o próximo bloco do tipo 'revisao_ativa' com data >= hoje (Brasília)
+ * que ainda não esteja 'concluido' (no máximo 1 semana à frente da semana atual).
+ * Se encontrado, altera seu status para 'concluido' no localStorage e retorna a chave.
+ * Se nenhum bloco elegível for encontrado (ex.: Semana 1 sem sábado, ou tudo concluído), não grava nada e retorna null.
+ */
+export function concluirProximoBlocoRevisaoAtiva(
+  dataProva: string,
+  uid: string
+): string | null {
+  try {
+    const cronograma = gerarCronogramaDinamico(dataProva);
+    const hoje = hojeBrasiliaISO();
+    const contexto = obterContextoCronogramaRevisao(dataProva);
+    const semAtualNum = contexto.semanaAtualNumero;
+
+    const chaveStatus = `rm2_cronograma_status_diario_${uid}`;
+    const statusDiarioRaw = typeof window !== 'undefined' ? localStorage.getItem(chaveStatus) : null;
+    const statusDiario: Record<string, string> = statusDiarioRaw ? JSON.parse(statusDiarioRaw) : {};
+
+    for (const semana of cronograma.semanas) {
+      if (semana.numero >= semAtualNum && semana.numero <= semAtualNum + 1) {
+        for (const dia of semana.dias) {
+          if (dia.atividade === 'revisao_ativa' && dia.data >= hoje) {
+            const chave = gerarChaveStatusBloco(semana.numero, dia.diaNome, 'revisao_ativa');
+            if (statusDiario[chave] !== 'concluido') {
+              statusDiario[chave] = 'concluido';
+              if (typeof window !== 'undefined') {
+                localStorage.setItem(chaveStatus, JSON.stringify(statusDiario));
+              }
+              return chave;
+            }
+          }
+        }
+      }
+    }
+  } catch (e) {
+    console.error('Erro ao concluir próximo bloco de revisão ativa:', e);
+  }
+  return null;
+}
+
+/**
   * Ponto de Verdade Único: Retorna os tópicos já concluídos (anteriores a hoje no cronograma ou no progresso)
   * e o tópico em estudo no dia atual.
   */

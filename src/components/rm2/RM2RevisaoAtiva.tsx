@@ -21,6 +21,7 @@ import {
   registrarResultadoRevisao,
   registrarSessaoRevisaoConcluida,
   obterContextoCronogramaRevisao,
+  concluirProximoBlocoRevisaoAtiva,
   QuestaoRevisao,
 } from '../../lib/revisaoAtiva';
 
@@ -135,24 +136,9 @@ export function RM2RevisaoAtiva({ onVoltar, onNavigate }: RM2RevisaoAtivaProps) 
     // 3. Registra 1 SESSÃO de revisão inteira concluída (UMA ÚNICA VEZ)
     registrarSessaoRevisaoConcluida(uid);
 
-    // 4. Marca o bloco do sábado da semana atual (ou próxima se a atual já estiver concluída) no statusDiario
+    // 4. Marca o próximo bloco elegível de sábado no statusDiario (revisao_ativa >= hoje, máximo +1 semana)
     try {
-      const contexto = obterContextoCronogramaRevisao(dataProva);
-      const chaveStatus = `rm2_cronograma_status_diario_${uid}`;
-      const statusDiarioRaw = localStorage.getItem(chaveStatus);
-      const statusDiario = statusDiarioRaw ? JSON.parse(statusDiarioRaw) : {};
-
-      const semAtual = contexto.semanaAtualNumero;
-      const chaveAtual = `semana${semAtual}_sbado_revisao_ativa`;
-      const chaveProxima = `semana${semAtual + 1}_sbado_revisao_ativa`;
-
-      if (statusDiario[chaveAtual] !== 'concluido') {
-        statusDiario[chaveAtual] = 'concluido';
-        localStorage.setItem(chaveStatus, JSON.stringify(statusDiario));
-      } else if (statusDiario[chaveProxima] !== 'concluido') {
-        statusDiario[chaveProxima] = 'concluido';
-        localStorage.setItem(chaveStatus, JSON.stringify(statusDiario));
-      }
+      concluirProximoBlocoRevisaoAtiva(dataProva, uid);
     } catch (e) {
       console.error('Erro ao atualizar status do cronograma:', e);
     }

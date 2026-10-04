@@ -1990,6 +1990,8 @@ pm run build) com sucesso (Exit code: 0).
   #### `src/lib/revisaoAtiva.ts` **[MODIFICADO]**
   - Adicionada a função exportada `obterContextoCronogramaRevisao(dataProva, progressoConcluidosIds)`: **ponto de verdade único** que retorna `{ topicosConcluidos, topicoAtualId, semanaAtualNumero }` para que `EstudoRM2`, `RM2Cronograma` e `RM2RevisaoAtiva` usem exatamente a mesma fonte.
   - **Critério de "Concluído":** Um tópico entra em `topicosConcluidos` se aparece em algum `dia.data < hoje` no cronograma dinâmico (ou seja, dias de estudo já encerrados), **ou** se o ID está na lista de progresso explicitamente marcado como `concluido: true` no `useRM2Data`. A união dos dois critérios é reordenada pela sequência pedagógica do edital antes de ser retornada.
+  - **Helper único de chave de status (`gerarChaveStatusBloco`):** Constrói a chave `semana{N}_{diaNormalizado}_{topicoId}` compartilhada rigorosamente entre a leitura em `RM2Cronograma` e a gravação em `RM2RevisaoAtiva`, sem strings manuais.
+  - **Busca dinâmica de blocos (`concluirProximoBlocoRevisaoAtiva`):** Busca nas semanas o primeiro bloco real com `atividade === 'revisao_ativa'` cuja data seja `>= hoje` (Brasília) e que ainda não esteja `'concluido'` (no máximo +1 semana à frente). Se nenhum bloco elegível for encontrado (ex: Semana 1 sem sábado), nenhuma alteração é gravada.
 
   #### `src/components/rm2/RM2RevisaoAtiva.tsx` **[CRIADO e REFINADO]**
   - Novo componente de tela de Revisão Ativa com:
@@ -1998,7 +2000,7 @@ pm run build) com sucesso (Exit code: 0).
     - **Keys compostas:** Chaves dos estados (`userAnswers`, `revelouRegra`) no formato `${topicoId}_${q.id}` para evitar colisões de IDs iguais entre tópicos.
     - **Feedback imediato:** Após responder, exibe verde/vermelho, gabarito e explicação pedagógica. Campo `trecho_ref` é exibido se presente.
     - **Relatório final:** Agrupado por tópico com percentual individual. Tópicos com aproveitamento abaixo de 70% mostram o botão **"📖 Rever teoria"** que localiza o objeto do assunto em `RM2_CONTEUDO` via `findAssuntoById` antes de chamar `onNavigate('teoria', assunto)`.
-    - **Persistência segura e Conclusão de Sábado:** `handleFinalizarSessao` protegido por `useRef(false)` — chama `registrarResultadoRevisao` por tópico e `registrarSessaoRevisaoConcluida` **uma única vez por sessão**, nunca em `useEffect`. Marca o bloco `semanaX_sbado_revisao_ativa` da **semana atual (Brasília)** como `'concluido'`; se a semana atual já estiver concluída, marca a **próxima semana (no máximo 1 semana à frente)** se pendente. Nunca altera semanas passadas.
+    - **Persistência segura e Conclusão de Sábado:** `handleFinalizarSessao` protegido por `useRef(false)` — chama `registrarResultadoRevisao` por tópico, `registrarSessaoRevisaoConcluida` e `concluirProximoBlocoRevisaoAtiva` **uma única vez por sessão**, nunca em `useEffect`. Marca o próximo bloco elegível de sábado no `statusDiario` usando a chave construída pelo helper único.
     - **Mensagem amigável:** Se `questoes.length === 0` ao montar (início do cronograma), exibe tela explicativa com botão para o Cronograma.
 
   #### `src/components/EstudoRM2.tsx` **[MODIFICADO]**
@@ -2011,9 +2013,9 @@ pm run build) com sucesso (Exit code: 0).
 
   #### `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
   - `RM2CronogramaProps.onNavigate` ampliado com `'revisao_ativa'`.
-  - Importa `calcularRevisoesPendentes` e `obterContextoCronogramaRevisao` de `revisaoAtiva`.
+  - Importa `calcularRevisoesPendentes`, `obterContextoCronogramaRevisao` e `gerarChaveStatusBloco` de `revisaoAtiva`.
   - Calcula `statusPendentesRevisao` via `useMemo` (mesma fonte que `EstudoRM2`).
-  - **Bloco de Sábado (`revisao_ativa`):** Exibe banner `"Bloco de Recuperação Ativa (4h)"` com botão **🧠 Iniciar Revisão Ativa** que aciona `onNavigate('revisao_ativa')`. O botão funciona mesmo com `pendentes = 0`.
+  - **Bloco de Sábado (`revisao_ativa`):** Exibe banner `"Bloco de Recuperação Ativa (4h)"` com badge de status (`✅ Concluído` / `⏳ Pendente`) lido do `statusDiario` via `gerarChaveStatusBloco` e botão **🧠 Iniciar Revisão Ativa**.
   - **Dias úteis com revisões pendentes:** Card discreto no card do dia com a contagem e o link **"Revisar Agora"**.
 
   #### `src/components/rm2/RM2Dashboard.tsx` **[MODIFICADO]**
@@ -2021,18 +2023,16 @@ pm run build) com sucesso (Exit code: 0).
 
   #### Validação
   - `npx tsc --noEmit` → ✅ Exit code 0.
-  - `npm run build` → ✅ Exit code 0 (✓ 3132 módulos em 8,23s).
+  - `npm run build` → ✅ Exit code 0 (✓ 3132 módulos em 10,31s).
 
   #### Passo a passo de teste manual
   1. `npm run dev` → acesse o módulo RM2.
   2. Verifique que a aba **Revisão Ativa** aparece na barra de sub-navegação.
-  3. Avance o cronograma para a Semana 2 (ou simule `dia.data < hoje` mudando o sistema) → o selo com o número aparece se `topicosConcluidos.length >= 2`.
-  4. Clique em **Revisão Ativa** → tela de loading → questões geradas.
-  5. Para cada questão, verifique o card de recuperação ativa; clique no botão; selecione uma alternativa; confirme o feedback.
-  6. Avance todas as questões → relatório final com agrupamento por tópico.
-  7. Em tópico com < 70%, clique **Rever teoria** → navega para a tela de teoria.
-  8. Volte à aba **Cronograma** → na Semana Atual, sábado: botão **🧠 Iniciar Revisão Ativa** aparece. Dias úteis mostram aviso discreto se houver pendentes.
-  9. Confirme no DevTools / localStorage que `rm2_revisao_ativa_local` (ou `rm2_revisao_ativa_${uid}`) contém os registros por tópico e `_sessoesConcluidas: 1`.
+  3. Na **Semana 2 (sábado 10/10/2026)**, o bloco de sábado exibe o selo **⏳ Pendente**.
+  4. Clique em **🧠 Iniciar Revisão Ativa** → conclua a sessão de 10 questões → clique em **Finalizar Sessão**.
+  5. Volte para a aba **Cronograma (Semana 2)**: o bloco de sábado 10/10 exibe agora **✅ Concluído**.
+  6. Realize uma segunda sessão no mesmo dia: o bloco de sábado da **Semana 3 (17/10/2026)** passa a ser marcado como **✅ Concluído** (pois está dentro do limite de +1 semana). Se tentada uma 3ª sessão, nada mais é alterado.
+  7. Confirme no DevTools / localStorage que `rm2_cronograma_status_diario_${uid}` possui as chaves formadas por `gerarChaveStatusBloco`.
 
 - **Arquivos modificados:**
   - `src/lib/revisaoAtiva.ts` **[MODIFICADO]**
