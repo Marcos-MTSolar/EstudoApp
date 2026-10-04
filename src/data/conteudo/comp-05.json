@@ -28,7 +28,29 @@
         ]
       },
       {
-        "subtitulo": "2. O que é ambiguidade?",
+        "subtitulo": "2. Polissemia x homonímia: a mesma forma, origens diferentes",
+        "conteudo": "Antes de avançar para a ambiguidade, vale distinguir a polissemia de um fenômeno vizinho que a prova adora confundir: a homonímia. Os dois fenômenos parecem iguais à primeira vista — uma forma associada a mais de um sentido —, mas têm origens completamente diferentes.\n\nNa polissemia, todos os sentidos vêm de uma única palavra, de uma única raiz histórica, que foi se ramificando ao longo do tempo. É o caso de 'cabo' (visto no bloco 1): patente, corda e ponta de terra são sentidos que, historicamente, derivam todos da mesma ideia de extremidade.\n\nNa homonímia, duas (ou mais) palavras de origens diferentes, que nunca tiveram relação entre si, coincidem por acaso na forma escrita ou sonora. 'Manga' (a fruta) e 'manga' (parte da camisa) são duas palavras completamente distintas na origem — vêm de etimologias diferentes — que, por coincidência histórica, passaram a se escrever e soar da mesma forma.\n\nA diferença entre os dois fenômenos é mais histórica do que prática no dia a dia da leitura: para fins de interpretação de texto, o candidato trata os dois de forma parecida (o contexto resolve qual sentido está em uso). Mas a prova cobra a distinção conceitual diretamente, perguntando qual dos dois termos classifica corretamente um determinado caso.\n\nO erro mais comum é tratar os dois fenômenos como sinônimos, ou inverter as definições (achar que homonímia é 'uma palavra com vários sentidos relacionados' e polissemia é 'palavras diferentes que coincidem'). Memorize pela origem: polissemia = uma raiz, vários galhos; homonímia = duas árvores diferentes que se encostaram.",
+        "regra": "Polissemia = uma palavra, uma raiz histórica, vários sentidos relacionados · Homonímia = duas palavras de origens diferentes, mesma forma por coincidência",
+        "exemplos": [
+          {
+            "texto_base": "O sargento verificou o manga da camisa rasgado antes de provar a manga madura trazida pelo recruta.",
+            "anotacoes": [
+              {
+                "trecho": "manga da camisa",
+                "destaque": "homônimo: origem têxtil",
+                "motivo": "Vem do latim 'manica' (parte da veste) — origem completamente diferente da fruta"
+              },
+              {
+                "trecho": "manga madura",
+                "destaque": "homônimo: origem botânica",
+                "motivo": "Vem do malaiala 'manga' (fruta) — coincide na forma com a palavra têxtil, mas não tem relação histórica com ela"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "3. O que é ambiguidade?",
         "conteudo": "Imagine que você lê numa ordem de serviço: 'O sargento informou o recruta que ele seria promovido.' Quem vai ser promovido — o sargento ou o recruta? A frase não diz. Esse duplo sentido que não se resolve é ambiguidade.\n\nAmbiguidade é quando uma frase admite duas ou mais interpretações e o contexto não é suficiente para escolher uma. Diferente da polissemia (que envolve a palavra), a ambiguidade é um problema de construção da frase — de sintaxe, de pronome mal colocado, de adjunto mal posicionado.\n\nA ambiguidade pode ser de três tipos principais: (1) lexical — uma palavra com dois sentidos igualmente possíveis no contexto; (2) sintática — a estrutura da frase permite duas leituras; (3) referencial — um pronome que pode se referir a dois elementos diferentes.\n\nNo cotidiano passamos pela ambiguidade sem perceber porque usamos entonação, gesto e contexto amplo. No texto escrito, ela é um defeito que a banca CEBRASPE usa para testar o candidato.",
         "regra": "Ambiguidade = frase com 2+ leituras sem resolução · Tipos: lexical / sintática / referencial · Contexto NÃO resolve",
         "exemplos": [
@@ -45,7 +67,7 @@
         ]
       },
       {
-        "subtitulo": "3. Tipos de ambiguidade com exemplos",
+        "subtitulo": "4. Tipos de ambiguidade com exemplos",
         "conteudo": "Para identificar a ambiguidade na prova, você precisa reconhecer os três tipos. Pense assim: a origem do problema muda, mas o resultado é sempre o mesmo — a frase diz duas coisas ao mesmo tempo.\n\nAmbiguidade lexical: ocorre quando uma palavra tem dois sentidos igualmente possíveis naquele contexto. Exemplo: 'O militar usava uma arma carregada.' A palavra 'carregada' pode significar 'com munição' ou 'pesada demais para carregar'. O contexto não fecha uma leitura.\n\nAmbiguidade sintática: ocorre quando a posição de um elemento na frase permite que ele se ligue a duas partes diferentes. Exemplo: 'Vi o tenente com o binóculo.' Quem estava com o binóculo — eu ou o tenente? A posição do adjunto cria as duas leituras.\n\nAmbiguidade referencial: ocorre quando um pronome (ele, ela, seu, lhe) pode se referir a dois elementos diferentes na frase. É a mais comum nas questões CEBRASPE e também a mais sutil.\n\nO erro mais comum é ignorar a ambiguidade referencial porque 'o contexto' parece óbvio — na prova, o contexto é intencional para enganar.",
         "regra": "Lexical = palavra com 2 sentidos · Sintática = posição do adjunto · Referencial = pronome com 2 antecedentes",
         "exemplos": [
@@ -67,7 +89,7 @@
         ]
       },
       {
-        "subtitulo": "4. Como eliminar a ambiguidade",
+        "subtitulo": "5. Como eliminar a ambiguidade",
         "conteudo": "Saber identificar a ambiguidade é metade do caminho; a outra metade é saber corrigi-la. O CEBRASPE frequentemente pede que o candidato aponte a versão reescrita que elimina o duplo sentido.\n\nPara eliminar a ambiguidade referencial, o recurso mais simples é substituir o pronome pelo nome do referente. Em vez de 'O oficial informou o sargento que ele seria transferido', escreva 'O oficial informou o sargento que este seria transferido' (ou 'que o sargento seria transferido').\n\nPara eliminar a ambiguidade sintática, reposicione o adjunto adverbial ou transforme a oração. Em vez de 'Vi o tenente com o binóculo', escreva 'Com o binóculo, vi o tenente' (se fui eu quem usou) ou 'Vi o tenente que usava o binóculo' (se foi ele).\n\nPara eliminar a ambiguidade lexical, troque a palavra por uma de sentido único no contexto ou acrescente um adjunto que feche a leitura.\n\nO erro mais comum nas questões de reescritura é 'eliminar' a ambiguidade criando outro problema — verifique se a frase corrigida é de fato clara.",
         "regra": "Referencial → substitua o pronome pelo nome · Sintática → reposicione o adjunto · Lexical → troque ou especifique a palavra",
         "exemplos": [
@@ -89,7 +111,7 @@
         ]
       },
       {
-        "subtitulo": "5. Polissemia e metáfora no texto militar",
+        "subtitulo": "6. Polissemia e metáfora no texto militar",
         "conteudo": "Em textos formais, inclusive militares, as palavras polissêmicas aparecem com frequência — e o candidato precisa identificar o sentido correto no contexto. Além disso, a linguagem militar usa metáforas cristalizadas que também são expressões polissêmicas: 'campo minado', 'linha de frente', 'terreno inimigo' podem aparecer em sentido literal ou figurado.\n\nA distinção entre sentido denotativo (literal) e conotativo (figurado) está diretamente ligada à polissemia. Quando um texto diz que 'a negociação estava num terreno minado', usa polissemia com valor metafórico — 'terreno minado' não se refere a explosivos reais, mas a uma situação perigosa.\n\nPara a prova, a habilidade pedida é sempre a mesma: identifique o sentido que o contexto autoriza. Nunca leia a palavra no vácuo — sempre no conjunto da frase e do parágrafo.\n\nO erro mais comum é interpretar uma metáfora cristalizada ao pé da letra, marcando como sentido denotativo o que na frase é claramente conotativo.",
         "regra": "Polissemia no texto = contexto autoriza o sentido · Metáfora cristalizada = sentido conotativo · Leia sempre no conjunto",
         "exemplos": [
@@ -111,7 +133,7 @@
         ]
       },
       {
-        "subtitulo": "6. Ambiguidade nas questões CEBRASPE",
+        "subtitulo": "7. Ambiguidade nas questões CEBRASPE",
         "conteudo": "O CEBRASPE tem uma forma característica de explorar ambiguidade e polissemia. Nas questões de interpretação, a banca apresenta um texto e pede que o candidato julgue se determinada paráfrase 'mantém o sentido original'. Quando a paráfrase troca uma palavra polissêmica por outra de sentido diferente, ela altera o sentido — e a afirmação está errada.\n\nNas questões de gramática, a banca pode apresentar uma frase ambígua e pedir que o candidato identifique qual reescritura elimina a ambiguidade sem alterar o sentido. A pegadinha clássica é a alternativa que elimina a ambiguidade mas muda o significado da frase.\n\nOutra forma clássica: a banca apresenta uma frase e afirma que ela 'admite apenas uma leitura'. Se a frase for ambígua, a afirmação está errada — o candidato deve marcar ERRADO.\n\nO erro mais comum é não reler a frase tentando encontrar a segunda leitura. Sempre pergunte: 'Existe outro jeito de interpretar isso?'",
         "regra": "Paráfrase com polissemia = verifique se o sentido foi mantido · Frase ambígua ≠ 'admite só uma leitura' · Sempre busque a 2ª leitura",
         "exemplos": [
@@ -196,7 +218,7 @@
         "E": "Correta, pois a ideia central garante que a palavra possua apenas um sentido em qualquer frase imaginável."
       },
       "gabarito": "C",
-      "explicacao": "A C está correta: a polissemia consiste na expansão de sentidos de uma mesma raiz (ex: rede de pesca, rede de dormir), onde o contexto resolve a leitura. As alternativas A e D confundem com homonímia (palavras diferentes com mesma grafia). C subestima o poder do contexto, e E contradiz a própria definição ao negar os múltiplos sentidos."
+      "explicacao": "A alternativa C está correta: a polissemia se caracteriza justamente pela multiplicidade de sentidos que uma palavra acumula em torno de uma ideia central, sendo o contexto o mecanismo que resolve qual sentido está em uso — exatamente como descrito no bloco 1 da teoria. A alternativa A exige, sem fundamento, que os sentidos não tenham ligação histórica entre si, quando na verdade a polissemia pressupõe justamente uma origem comum. A B nega a capacidade do contexto de desambiguar, contrariando a própria definição do fenômeno. A D confunde polissemia com homonímia, que são conceitos distintos. A E afirma que a palavra teria apenas um sentido, contradizendo a própria ideia de multiplicidade."
     },
     {
       "id": "q02",
@@ -210,7 +232,7 @@
         "E": "Incorreta, pois a preposição 'ao' exige que o substantivo seguinte seja inanimado, garantindo sentido único."
       },
       "gabarito": "C",
-      "explicacao": "A C está correta: a palavra 'banco' (polissemia/homonímia) gera dupla interpretação (ambiguidade lexical) por absoluta falta de pistas no contexto fornecido na frase. As alternativas B e C negam a duplicidade de sentido da palavra ou forçam deduções com advérbios neutros. D generaliza absurdamente e E aplica regra semântica inexistente."
+      "explicacao": "A alternativa C está correta: a frase 'Fui ao banco hoje cedo', isolada e sem complementos que indiquem o contexto, não permite saber se 'banco' se refere à instituição financeira ou ao assento — por isso é ambígua. A alternativa A afirma que o advérbio 'cedo' resolveria a ambiguidade em favor do sentido financeiro, o que não procede, pois 'cedo' não indica nada sobre o tipo de banco. A B restringe 'banco' a um único sentido, ignorando sua natureza polissêmica. A D generaliza que toda frase curta seria ambígua, afirmação sem base. A E condiciona o sentido único à natureza inanimada do substantivo seguinte, critério que não existe na língua."
     },
     {
       "id": "q03",
@@ -224,7 +246,7 @@
         "E": "incorreta, pois a polissemia trata de frases mal construídas e a ambiguidade trata de palavras homônimas."
       },
       "gabarito": "C",
-      "explicacao": "A C está correta: polissemia é potencialidade de sentido das palavras isoladas; ambiguidade é a realização de sentidos duplos indesejados (ou estilísticos) numa oração, quando o contexto não dá conta de esclarecer. As alternativas A e C tratam falsamente os fenômenos como indissociáveis ou idênticos. D e E trazem exclusões ou definições grotescas."
+      "explicacao": "A alternativa C está correta: a ambiguidade é um defeito de sentido múltiplo que o contexto não resolve, enquanto a polissemia é uma propriedade natural das palavras, normalmente resolvida pelo próprio contexto — são fenômenos relacionados, mas distintos, como visto nos blocos 1 e 2 da teoria. A alternativa A trata os dois termos como sinônimos perfeitos, o que não procede. A B afirma que toda palavra polissêmica geraria ambiguidade, generalização que ignora o papel do contexto em desfazer a polissemia na maioria dos casos. A D restringe a ambiguidade a substantivos concretos, limitação sem base — ela pode envolver verbos, adjetivos e pronomes. A E inverte as definições dos dois conceitos."
     },
     {
       "id": "q04",
@@ -238,7 +260,7 @@
         "E": "Correta, pois a ambiguidade provém da concordância nominal falha entre 'oficial' e 'telescópio'."
       },
       "gabarito": "C",
-      "explicacao": "A alternativa C está correta: o adjunto adverbial 'com o telescópio' gera dupla possibilidade de ligação sintática (ou qualifica o objeto visto, ou o instrumento de quem viu). A alternativa B erra a classificação (lexical seria por palavra polissêmica). As opções A, D e E utilizam regras inventadas de adjunção e lógica limitante irreal."
+      "explicacao": "A alternativa C está correta: a expressão 'com o telescópio' pode se ligar tanto ao sujeito ('o militar', que usava o telescópio para ver) quanto ao objeto ('o oficial', que estava com o telescópio) — essa é a ambiguidade sintática descrita no bloco 3 da teoria. A alternativa A afirma que a preposição 'com' se ligaria obrigatoriamente ao substantivo mais distante, regra que não existe. A B classifica o caso como ambiguidade lexical, quando na verdade o problema está na posição do adjunto na frase (sintática), não no sentido da palavra 'telescópio'. A D afirma que a frase seria perfeitamente clara pela lógica narrativa, ignorando que ambos os sentidos são gramaticalmente válidos. A E atribui o problema a uma suposta falha de concordância nominal, que não existe na frase."
     },
     {
       "id": "q05",
@@ -252,7 +274,7 @@
         "E": "incorreta, pois homonímia só se aplica aos nomes próprios de indivíduos que assinam relatórios."
       },
       "gabarito": "D",
-      "explicacao": "A alternativa D está correta definindo perfeitamente a diferença: homônimos são palavras distintas que sofreram colisão fonética/gráfica; polissêmicos irradiam sentidos a partir do mesmo núcleo histórico. A alternativa A erra ao tratá-los como sinônimos teóricos. B, C e E demonstram ignorância básica dos conceitos lexicográficos."
+      "explicacao": "A alternativa D está correta: a homonímia reúne palavras de origens diferentes que coincidiram na forma sonora ou gráfica (como 'manga' da fruta e 'manga' da camisa), enquanto a polissemia expande os sentidos de uma única palavra a partir de uma raiz comum — são fenômenos diferentes, apesar de ambos envolverem múltiplos sentidos associados a uma mesma forma. A alternativa A trata a distinção como mera variação de tradição literária, o que não procede. A B inverte as definições: a polissemia não trata de palavras 'sem sentido'. A C afirma que todas as palavras polissêmicas teriam etimologias diferentes entre si, o oposto do que caracteriza a polissemia (origem comum). A E restringe a homonímia a nomes próprios, limitação sem fundamento."
     },
     {
       "id": "q06",
@@ -266,7 +288,7 @@
         "E": "incorreta, pois a vírgula invisível antes do 'porque' desfaz toda a ambiguidade da anáfora."
       },
       "gabarito": "D",
-      "explicacao": "A alternativa D está correta, já que 'cabo' e 'tenente' concorrem perfeitamente em gênero e número (masculino singular) para servir de antecedente ao pronome 'ele'. As alternativas B e C inventam regras rígidas inexistentes (obrigatoriedade de retomar sujeito ou último termo). A e E trazem justificativas técnicas infundadas."
+      "explicacao": "A alternativa D está correta: não há, na frase, elementos sintáticos ou semânticos que determinem com segurança se foi o cabo ou o tenente quem estava com pressa — os dois substantivos são igualmente compatíveis como antecedentes do pronome 'ele', confirmando a ambiguidade referencial. A alternativa A afirma que pronomes retos nunca exerceriam função anafórica em orações subordinadas, o que é falso. A B propõe uma regra de vinculação obrigatória ao sujeito da oração principal, que não existe na norma. A C afirma que pronomes de 3ª pessoa sempre retomariam o último termo citado, generalização sem base — essa é apenas uma tendência, não uma regra fixa. A E inventa uma 'vírgula invisível' que resolveria a ambiguidade, recurso que não existe na gramática."
     },
     {
       "id": "q07",
@@ -280,7 +302,7 @@
         "E": "incorreta, pois a semântica considera polissêmicas apenas as palavras que admitem gênero neutro na frase."
       },
       "gabarito": "C",
-      "explicacao": "A C está correta: o fato de compartilhar a ideia central (ser enviado/encargo) é exatamente o que caracteriza a polissemia ao assumir facetas em contextos diferentes (militar, religioso, pessoal). A alternativa A nega erroneamente essa propriedade. C, D e E erram nos fundamentos teóricos ao confundir com homonímia ou criar preceitos surreais."
+      "explicacao": "A alternativa C está correta: a polissemia consiste exatamente na ramificação de vários sentidos (como 'missão' no sentido de operação militar, vocação religiosa ou comissão de trabalho) a partir de um núcleo de significado comum — o fato de os sentidos derivarem de uma ideia central não elimina a multiplicidade, é justamente o que a caracteriza. A alternativa A conclui, de forma invertida, que a palavra seria unissêmica, quando o enunciado descreve exatamente o mecanismo da polissemia. A B condiciona a multiplicidade de sentidos à perda do vínculo etimológico, o oposto do que ocorre na polissemia. A D confunde o caso com homonímia, que envolve palavras de origens diferentes. A E propõe um critério de gênero neutro sem qualquer relação com a definição de polissemia."
     },
     {
       "id": "q08",
@@ -294,7 +316,7 @@
         "E": "incorreta, pois a ambiguidade referencial deve ser mantida para preservar a fluidez literária."
       },
       "gabarito": "D",
-      "explicacao": "A alternativa D está correta, visto que substituir o pronome concorrente ('ele', 'sua') pelo nome exato (ex: 'o cabo', 'a portaria') resolve definitivamente o choque de referências. A alternativa A erra ao tratar repetição necessária à clareza como proibição. B confia irrealisticamente nos oblíquos, e C recusa indevidamente soluções simples. E defende um vício na redação utilitária."
+      "explicacao": "A alternativa D está correta: substituir o pronome ambíguo pelo substantivo que ele deveria retomar elimina a concorrência entre os possíveis antecedentes, tornando a referência inequívoca — essa é a estratégia central descrita no bloco 4 da teoria. A alternativa A trata a repetição de substantivos como proibida em relatórios, o que não procede quando ela é necessária para eliminar ambiguidade. A B afirma que pronomes oblíquos garantiriam 'clareza máxima', generalização que ignora que os próprios pronomes são frequentemente a origem da ambiguidade. A C restringe a solução à reescritura total da oração subordinada, desconsiderando soluções mais simples e eficazes. A E defende a manutenção da ambiguidade em nome da 'fluidez literária', o que contraria o objetivo de clareza exigido em textos técnicos e administrativos."
     },
     {
       "id": "q09",
@@ -308,7 +330,7 @@
         "E": "incorreta, pois a ambiguidade é um conceito matemático que não se aplica aos textos escritos."
       },
       "gabarito": "D",
-      "explicacao": "A D está correta: uma palavra polissêmica empregada num contexto fraco provoca imediatamente a ambiguidade lexical de toda a frase. As alternativas A e C separam os fenômenos negando a relação de causa-efeito entre eles. D formula um dogma quantitativo bizarro, e E expulsa o conceito da ciência linguística."
+      "explicacao": "A alternativa D está correta: a polissemia de uma palavra (fenômeno do nível lexical) é justamente uma das causas que pode gerar ambiguidade numa oração (fenômeno do nível frasal) quando o contexto não é suficiente para fechar o sentido pretendido — os dois fenômenos estão relacionados, não são excludentes. A alternativa A afirma que eles operariam em 'eixos paralelos' sem interceptar-se, contrariando essa relação de causa e efeito. A B propõe uma regra numérica sem qualquer base linguística. A C afirma que o contexto sempre neutralizaria a ambiguidade antes mesmo de a polissemia ser percebida, generalização que ignora os casos em que o contexto não resolve. A E trata a ambiguidade como conceito exclusivamente matemático, o que não corresponde ao uso linguístico do termo."
     },
     {
       "id": "q10",
@@ -322,7 +344,7 @@
         "E": "incorreta, pois o adjunto adverbial é o único termo que não possui permissão para gerar ambiguidades lexicais."
       },
       "gabarito": "D",
-      "explicacao": "A D está correta: associar estruturalmente um adjunto a núcleos diferentes gera erro de sintaxe, configurando a ambiguidade sintática (não lexical, que é baseada na polissemia/homonímia da palavra). As alternativas A e C endossam o erro conceitual da afirmação. D e E adotam invenções e regras excludentes irreais sobre literatura e adjuntos."
+      "explicacao": "A alternativa D está correta: a definição apresentada no enunciado (adjunto associado a dois elementos pela estrutura da frase) corresponde à ambiguidade sintática, não à lexical — a ambiguidade lexical decorre dos múltiplos sentidos de uma palavra isolada, como visto no bloco 3 da teoria. A alternativa A afirma que a ambiguidade por palavras soltas seria 'absorvida' pela estrutura sintática, confundindo os dois tipos. A B restringe a ambiguidade à literatura e a jargões técnicos herméticos, limitação sem base. A C descreve o adjunto adnominal como portador de 'dupla carga lexical' automaticamente, afirmação sem fundamento. A E propõe uma exclusão arbitrária do adjunto adverbial como gerador de ambiguidade lexical."
     },
     {
       "id": "q11",
@@ -337,7 +359,7 @@
         "E": "A afirmação é incorreta, pois a vírgula suprimida obrigaria a oração a ligar-se exclusivamente ao primeiro substantivo lido."
       },
       "gabarito": "D",
-      "explicacao": "A D está correta: tanto 'comandante' quanto 'sargento' são masculinos singulares viáveis gramaticalmente. A alternativa B faz deduções absurdas de hierarquia (o punidor não seria o omisso). C apela falsamente a uma suposta restrição verbal no pretérito. D repudia desnecessariamente os pronomes na escrita, e E adota um vício pontual ilusório."
+      "explicacao": "A alternativa D está correta: não há, na frase, elementos gramaticais ou de contexto restrito que determinem com segurança se foi o comandante ou o sargento quem omitiu o relatório — ambos são antecedentes masculinos e singulares igualmente compatíveis com o pronome 'ele', confirmando a ambiguidade. A alternativa A generaliza que pronomes 'sempre geram ambiguidade', o que não procede — a maioria dos usos pronominais é perfeitamente clara pelo contexto. A B tenta resolver a ambiguidade com uma dedução lógica externa ao texto (quem pune não seria o omisso), mas essa não é uma regra gramatical válida. A C inventa uma restrição do verbo no pretérito que não existe. A E propõe uma 'vírgula suprimida' como fator decisivo, recurso inexistente na análise da frase."
     },
     {
       "id": "q12",
@@ -352,7 +374,7 @@
         "E": "incorreta, pois 'alojamento' está no singular, e o pronome 'os' refere-se implicitamente a terceiros elípticos dedutíveis pelo plural de 'Foram'."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta: o 'os' não sofre ambiguidade referencial grave com 'alojamento' (que é singular). Ele aponta coerentemente para o sujeito elíptico plural de 'Foram' (as pessoas que foram), estabelecendo a coesão. A alternativa A erra a classificação morfológica. C confunde elipse com erro de concordância. D e E inventam regras infundadas (mesma linha, poesia)."
+      "explicacao": "A alternativa E está correta: como 'alojamento' está no singular, o pronome 'os' (plural) não pode retomá-lo — ele se refere, de forma coesa, ao sujeito elíptico plural de 'Foram' (as pessoas que foram ao alojamento), eliminando a ambiguidade mencionada no enunciado. A alternativa A afirma que a ausência de um substantivo plural inviabilizaria a identificação do referente, quando na verdade o sujeito elíptico cumpre essa função. A B tenta justificar a referência a partir do sentido de 'vazios', interpretação que não se sustenta gramaticalmente. A C trata a situação como erro de concordância verbal, confundindo esse problema com a análise de referência pronominal. A D propõe uma exigência inexistente de que o referente esteja na mesma linha do pronome."
     },
     {
       "id": "q13",
@@ -367,7 +389,7 @@
         "E": "incorreta, pois o pronome relativo 'onde' só pode retomar noções de lugar (a casa), sendo incabível usá-lo para referir-se a uma pessoa (almirante)."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta: não há ambiguidade na frase normatizada porque 'onde' retoma, obrigatoriamente, um substantivo que designe espaço/lugar físico ('casa'). Utilizá-lo para retomar 'almirante' seria um erro de regência, não ambiguidade. As alternativas A e C endossam o erro do enunciado. D e E distorcem por completo a classe gramatical das palavras."
+      "explicacao": "A alternativa E está correta: o pronome relativo 'onde' retoma, por norma, apenas substantivos que indiquem lugar — no caso, 'a casa' — sendo inadequado usá-lo para retomar uma pessoa, como 'o almirante'; por isso, a frase não é ambígua, apenas tem seu antecedente corretamente restrito a 'casa'. A alternativa A afirma que a falta de pontuação forçaria dupla leitura, ignorando a restrição semântica de 'onde' a locais. A B desvia o foco para uma suposta flexão de gênero e número em 'almirante', irrelevante para a questão. A C equipara 'servir ao almirante' e 'servir na casa' como estruturas idênticas, o que não procede. A D restringe 'onde' a usos matemáticos e temporais, definição incorreta da palavra."
     },
     {
       "id": "q14",
@@ -382,7 +404,7 @@
         "E": "incorreta, pois o pronome demonstrativo 'o' (em 'o que') condensa o fato inteiro da oração anterior ('o comandante ter elogiado'), e não apenas a palavra 'manobra'."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta: a estrutura 'o que' costuma retomar assexuadamente toda a proposição precedente (o fato completo), constituindo o antecedente integral. As alternativas A e C falham por engessar as regras ou julgar o estado anímico das tropas. D julga impropriamente a função (é de fato uma relativa). E divaga com polissemia anuladora irracional."
+      "explicacao": "A alternativa E está correta: o pronome 'o' em 'o que' condensa a ideia completa da oração anterior — o fato de o comandante ter elogiado a manobra —, e não apenas a palavra 'manobra' isoladamente; esse é o uso do 'o que' com valor de pronome relativo de referência vaga, retomando toda uma proposição. A alternativa A afirma que orações explicativas retomam 'obrigatoriamente' o último termo da oração anterior, generalização que não se aplica a esse uso específico do 'o que'. A B atribui à palavra 'manobra' uma suposta anulação de função referencial pela polissemia, o que não procede. A C desvia para uma afirmação sobre o comportamento da tropa, irrelevante à análise sintática. A D nega que 'o que' funcione como pronome relativo, quando esse é justamente seu papel na construção."
     },
     {
       "id": "q15",
@@ -397,7 +419,7 @@
         "E": "incorreta, pois a frase sequer possui pronomes substantivos, tratando-se de adjuntos absolutos."
       },
       "gabarito": "C",
-      "explicacao": "A alternativa C está correta, já que 'ela' preenche os requisitos gramaticais (feminino singular) para encaixar perfeitamente como retorno de 'missão' (missão era confusa) ou de 'ordem' (ordem era confusa). A alternativa D justifica a ambiguidade com falsos dogmas. As alternativas A, B e E trazem alegações que beiram a comédia pela irrelevância ou erro básico."
+      "explicacao": "A alternativa C está correta: tanto 'missão' quanto 'ordem' são substantivos femininos e singulares, ambos compatíveis gramaticalmente como antecedentes do pronome 'ela' — essa dupla possibilidade caracteriza a ambiguidade referencial apontada no enunciado. A alternativa A tenta justificar a ausência de ambiguidade pela grafia das palavras (com ou sem 'ss'), critério irrelevante para a análise pronominal. A B afirma que ordens 'nunca podem ser descritas como confusas', juízo de valor sem relação com a questão gramatical. A D propõe uma regra inexistente de que pronomes após 'porque' sempre retomam o sujeito oculto. A E nega, incorretamente, que a frase contenha pronomes, quando 'ela' é justamente o pronome em análise."
     },
     {
       "id": "q16",
@@ -412,7 +434,7 @@
         "E": "Incorreta, pois a expressão assume sentido figurado (conotativo), ilustrando um ambiente de alta periculosidade institucional (reunião tensa)."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta: o contexto do texto revela que 'campo minado' é uma metáfora (conotação) para descrever a atmosfera hostil e delicada da reunião. As alternativas B e D falham ao insistir na interpretação literal cega (denotação). C e E inventam contextos absurdos (jogos de PC, eufemismo)."
+      "explicacao": "A alternativa E está correta: a expressão 'campo minado' assume sentido figurado (conotativo) no texto, ilustrando um ambiente de alta tensão ou periculosidade institucional — não uma área com explosivos reais enterrados. A alternativa A propõe que a expressão seria eufemismo para áreas de treinamento inofensivas, o que não corresponde ao uso conotativo descrito. A B afirma que relatórios militares usariam exclusivamente linguagem literal, generalização que ignora o uso comum de metáforas em textos institucionais. A C associa a expressão a jogos de computador, interpretação sem relação com o contexto do texto. A D força uma leitura literal com base na menção a 'relatório de terreno', ignorando o sentido figurado evidente pela situação descrita (reunião tensa)."
     },
     {
       "id": "q17",
@@ -427,7 +449,7 @@
         "E": "incorreta, pois a palavra correta e exigida pelos regimentos operacionais navais é exclusivamente 'prevaricar'."
       },
       "gabarito": "C",
-      "explicacao": "A alternativa C está correta, já que 'engavetar' é amplamente utilizado em sentido figurado para referir-se à paralisação intencional de pautas/projetos (sem envolver necessariamente gavetas reais). A alternativa A defende uma literalidade improvável no jargão burocrático. D erra a figura de linguagem. B e E são alegações técnicas e vocabulares fantasiosas."
+      "explicacao": "A alternativa C está correta: o verbo 'engavetar' é empregado em sentido metafórico já consolidado na língua, significando adiar ou abandonar deliberadamente um processo — não a ação física de guardar um papel numa gaveta. A alternativa A insiste na leitura literal, ignorando o uso figurado cristalizado no vocabulário burocrático. A B restringe o verbo ao direito civil, limitação sem base — o termo é usado amplamente em contextos administrativos, incluindo o militar. A D identifica incorretamente a figura de linguagem como sinédoque, quando se trata de metáfora. A E propõe que o único termo aceitável seria 'prevaricar', palavra com sentido jurídico distinto (abuso de função), não equivalente a 'engavetar'."
     },
     {
       "id": "q18",
@@ -442,7 +464,7 @@
         "E": "correta, pois a palavra possui múltiplos significados derivados (punho anatômico, punho de rede, punho de camisa), sendo o sentido anatômico o ativado pelo contexto ('cerrou o punho')."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta: a palavra abriga múltiplos sentidos correlatos (polissemia), mas a ação adjacente ('cerrou o...') elimina as outras possibilidades (camisa, rede, vela), confirmando o sentido do corpo. A alternativa A nega erroneamente a polissemia da palavra. C, D e E trazem justificativas ou regramentos irreais."
+      "explicacao": "A alternativa E está correta: 'punho' é uma palavra polissêmica, com múltiplos sentidos derivados (punho anatômico, punho de rede, punho de camisa), e o contexto da ação ('bateu com o punho na mesa') ativa claramente o sentido anatômico, parte da mão. A alternativa A nega a polissemia da palavra, afirmando que ela teria apenas o sentido anatômico, o que não procede diante dos outros usos possíveis do termo. A B condiciona o reconhecimento da polissemia à repetição da palavra na frase, exigência inexistente. A C propõe uma leitura metonímica (punho como espada), interpretação que não se sustenta no contexto descrito. A D restringe 'punho' ao sentido náutico (extremidade da vela), ignorando que o contexto da ação ('bateu... na mesa') indica claramente o sentido anatômico."
     },
     {
       "id": "q19",
@@ -457,7 +479,7 @@
         "E": "Incorreta, pois a hierarquia militar estipula que apenas sargentos podem possuir a característica de agir rigorosamente."
       },
       "gabarito": "D",
-      "explicacao": "A alternativa D está correta, já que o pronome relativo ('que') pode retomar 'o sargento' (ele cobrou o recruta e foi rigoroso) ou 'o recruta' (o recruta havia agido rigorosamente antes e por isso foi cobrado). A alternativa A inventa uma regra inexistente (as relativas geralmente ligam-se ao termo antecedente imediato). B, C e E são pura fantasia gramatical ou cultural."
+      "explicacao": "A alternativa D está correta: a oração 'que agiu de forma rigorosa' pode se ligar sintaticamente tanto a 'sargento' quanto a 'recruta', pois ambos são antecedentes masculinos e singulares compatíveis com o pronome relativo 'que' — essa é a ambiguidade estrutural descrita no enunciado. A alternativa A afirma que orações relativas restritivas 'sempre' se referem ao sujeito da oração principal, regra que não existe de forma absoluta. A B desvia para uma análise sobre o adjetivo 'rigorosa' ser biforme, questão irrelevante à ambiguidade referencial. A C propõe uma 'preposição subentendida' que determinaria a posse da ação ao recruta, elemento que não está na frase. A E usa um critério hierárquico militar sem qualquer base gramatical para resolver a ambiguidade."
     },
     {
       "id": "q20",
@@ -472,7 +494,7 @@
         "E": "A afirmação é incorreta, pois 'que' é pronome interrogativo nesse contexto, e não relativo."
       },
       "gabarito": "A",
-      "explicacao": "A alternativa A está correta: tanto 'almirante' quanto 'general' se qualificam sintática e semanticamente para ser o alvo de 'seria transferido', gerando a ambiguidade. A alternativa B é falsa em português. C erra por ser dogmática ('sem exceção'), já que a ambiguidade justamente reside na dúvida. D cria um motivo psicológico infundado. E erra a classificação morfológica."
+      "explicacao": "A alternativa A está correta: a frase não apresenta marcas gramaticais — preposições, vírgulas ou outros elementos — capazes de restringir o pronome relativo 'que' a um único antecedente, de modo que tanto 'o almirante' quanto 'o general' permanecem candidatos válidos, caracterizando a ambiguidade. A alternativa B afirma que o pronome relativo obrigatoriamente recuperaria o primeiro substantivo da oração, regra que não existe de forma absoluta na norma culta. A C defende que a proximidade física forçaria, sem exceção, a referência ao termo mais próximo, generalização que ignora como o contexto pode alterar essa tendência. A D atribui a ambiguidade a uma suposta confusão cognitiva por ambos serem patentes altas, critério não gramatical. A E classifica erroneamente 'que' como pronome interrogativo, quando se trata de pronome relativo no contexto da frase."
     },
     {
       "id": "q21",
@@ -487,7 +509,7 @@
         "E": "A frase original é ambígua apenas quanto ao destinatário da informação, não quanto ao dono do pedido de transferência."
       },
       "gabarito": "A",
-      "explicacao": "A alternativa A está correta. A frase original é ambígua porque o pronome possessivo 'seu' pode retomar tanto 'o capitão' quanto 'o tenente' — ambos são antecedentes masculinos plausíveis para um pedido de transferência. A reescritura usa 'deste', que, pela gramática normativa, retoma o elemento mais próximo — 'o tenente' — desfazendo a ambiguidade. O sentido mais provável no contexto (o tenente fez o pedido) é preservado. A alternativa B está errada: 'deste' retoma o mais próximo, não o mais distante (que seria retomado por 'daquele'). A C está errada: a frase é sim ambígua, pois não é o papel sintático de 'destinatário' que resolve o dono do pedido. A D está errada: 'deste' tem referência clara pela regra do elemento mais próximo. A E está errada: a ambiguidade recai especificamente sobre 'seu pedido', não sobre o destinatário."
+      "explicacao": "A alternativa A está correta: a reescritura substitui o pronome ambíguo 'seu' por 'deste', que, pela norma culta, retoma o elemento mais próximo na frase — 'o tenente' — eliminando a ambiguidade sem alterar o sentido mais provável do texto original. A alternativa B inverte a regra: 'deste' retoma o elemento mais próximo, não o mais distante (que seria retomado por 'daquele'). A C afirma que a frase original não seria ambígua, quando 'seu pedido' de fato admite duas leituras (o pedido do capitão ou do tenente). A D afirma que a reescritura criaria nova ambiguidade, o que não procede, já que 'deste' tem referência gramaticalmente definida pela regra de proximidade. A E restringe a ambiguidade original ao destinatário da informação, ignorando que o problema real está na posse do pedido de transferência."
     },
     {
       "id": "q22",
@@ -502,7 +524,7 @@
         "E": "incorreta, pois o texto aponta que as advertências foram exclusivas aos soldados e não aos recrutas."
       },
       "gabarito": "A",
-      "explicacao": "A alternativa A está correta: a presença das vírgulas isolando a oração adjetiva caracteriza-a como explicativa. Isso significa que o termo abrange TODO o antecedente (todo o pelotão B estava desatento e foi advertido). A alternativa C erra ao chamá-la de restritiva (o que ocorreria SEM vírgulas). As demais introduzem fantasias ou advérbios desnecessários."
+      "explicacao": "A alternativa A está correta: a presença da vírgula antes de 'que' transforma a oração em adjetiva explicativa, o que generaliza a característica de desatenção para todo o conjunto do pelotão B — por isso a afirmação do enunciado, de que 'a quase totalidade' estava desatenta, está correta nesse caso. A alternativa B tenta usar a ausência do advérbio 'todos' como prova de que apenas uma minoria estava desatenta, interpretação que ignora o efeito generalizante da vírgula. A C classifica a oração como restritiva, o que exigiria a ausência de vírgulas — o oposto do que ocorre na frase. A D afirma que orações explicativas eliminariam qualquer chance de aprovação dos recrutas, extrapolação sem base no texto. A E desvia o foco ao mencionar 'soldados' em vez de 'recrutas', termo que não corresponde ao texto analisado."
     },
     {
       "id": "q23",
@@ -517,7 +539,7 @@
         "E": "A afirmação é incorreta, pois 'comandante' está no singular, e o pronome 'eles' no plural só pode retomar o substantivo plural 'os oficiais de plantão', eliminando a ambiguidade."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta: o bloqueio morfológico do número (eles = plural; comandante = singular) destrói qualquer chance de ambiguidade. 'Eles' só pode se referir a 'os oficiais'. O enunciado traz uma premissa falsa e a afirmativa desmascara isso. As outras opções estão repletas de disparates teóricos bizarros."
+      "explicacao": "A alternativa E está correta: como 'comandante' está no singular e o pronome 'eles' está no plural, a concordância gramatical obriga 'eles' a retomar o substantivo plural 'os oficiais de plantão' — não há ambiguidade possível nesse caso, ao contrário do que afirma o enunciado. A alternativa A propõe que a preposição 'ao' anularia o gênero do pronome, afirmação sem base gramatical. A B invoca uma suposta regra sintática que repeliria o antecedente mais próximo, sem fundamento. A C sugere que o pronome de 3ª pessoa do plural seria 'intercambiável' com a segunda pessoa no jargão militar, afirmação sem respaldo na norma culta. A D classifica incorretamente 'eles' como conjunção integrante subordinativa, quando se trata claramente de um pronome pessoal."
     },
     {
       "id": "q24",
@@ -532,7 +554,7 @@
         "E": "correta, pois o adjunto adnominal atrai para si a regência nominal do advérbio."
       },
       "gabarito": "D",
-      "explicacao": "A alternativa D está correta, já que 'com muita eficiência' diz a MANEIRA como a ação (elaborar) foi feita. 'Relatório' é uma coisa, não possui 'eficiência' (poderia ter 'qualidade'). Logo, não há ambiguidade na reescritura, a locução modifica inequivocamente o verbo. A alternativa A erra ao dogmatizar a inversão, e B inverte a lógica de quem recebe o adjunto adverbial."
+      "explicacao": "A alternativa D está correta: 'com muita eficiência' é uma locução adverbial de modo que modifica a ação expressa pelo verbo 'elaborou' — objetos diretos (como 'relatório') não são qualificados por locuções adverbiais de modo, de forma que não há ambiguidade possível na reescritura mencionada, independentemente da ordem das palavras. A alternativa A afirma que a inversão geraria 'fatalmente' duplo sentido, generalização que ignora a natureza inequívoca da locução de modo. A B tenta atribuir a locução ao 'relatório' como se este pudesse ter 'eficiência' em sentido literal, o que não corresponde ao uso da expressão. A C menciona uma suposta vinculação da locução a um particípio irregular, elemento inexistente na frase. A E propõe que um adjunto adnominal atrairia a regência de um advérbio, mecanismo gramatical que não existe dessa forma."
     },
     {
       "id": "q25",
@@ -547,7 +569,7 @@
         "E": "Incorreta, pois 'sua' está no feminino singular, o que trava a referência exclusivamente ao núcleo feminino singular 'portaria', já que 'relatórios' é masculino plural (exigiria 'suas' ou 'deles')."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta: a mecânica gramatical impede a ambiguidade. A flexão de gênero/número ('sua' = fem. sing.) inviabiliza que o pronome retome 'departamento' ou 'relatórios'. A alternativa C falha na semântica, pois não é a publicação do departamento. A, D e E propõem regras gramaticais falsas."
+      "explicacao": "A alternativa E está correta: 'sua' está no feminino singular, o que restringe sua referência ao núcleo feminino singular da frase — 'portaria' —, já que 'relatórios' é masculino e plural (exigiria 'seus' ou 'deles'); por isso, não há ambiguidade, e a afirmação do enunciado está incorreta. A alternativa A afirma que o pronome de 3ª pessoa não faria flexão de número, o que é falso — 'sua/suas' flexiona conforme o possuído. A B trata 'sua' como pronome possessivo indefinido capaz de retomar qualquer substantivo do parágrafo, o que não corresponde à regra de concordância de gênero e número. A C afirma que 'sua' recuperaria obrigatoriamente o sujeito da frase anterior ('departamento'), ignorando que 'departamento' é masculino, incompatível com a flexão feminina de 'sua'. A D nega a possibilidade de 'sua' se referir à portaria, exatamente o oposto do que a concordância gramatical indica."
     },
     {
       "id": "q26",
@@ -562,7 +584,7 @@
         "E": "A afirmação é incorreta, pois a reescritura de fato elimina a ambiguidade e restringe a ação (operando) aos dois indivíduos conjuntamente, o que justamente anula os demais sentidos possíveis (apenas um operando)."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta: ao eliminar a ambiguidade, você força uma única interpretação (ambos operando juntos). Logo, é falso dizer que 'não altera nenhum dos sentidos possíveis', pois os outros sentidos ambíguos morreram com a correção. As alternativas A e C tratam 'com' e 'e' ou 'juntos' sem rigor lógico-sintático. D e E viajam em jargões teóricos deslocados."
+      "explicacao": "A alternativa E está correta: a reescritura de fato elimina a ambiguidade original, mas ao fazê-lo restringe a ação (operar o sistema) aos dois indivíduos conjuntamente — o que elimina as outras leituras possíveis da frase original (como apenas um dos dois operando o sistema), contrariando a afirmação do enunciado de que 'nenhum sentido' teria sido alterado. A alternativa A afirma que a preposição 'com' e a conjunção 'e' exerceriam 'exatamente a mesma função sintática' em qualquer contexto, generalização incorreta. A B classifica erroneamente a alteração como criação de uma oração subordinada adverbial final, o que não corresponde à mudança realizada. A C trata o termo 'juntos' como pleonasmo meramente estilístico, ignorando seu papel semântico de restringir a leitura. A D afirma que a nova frase permaneceria ambígua por uma suposta dúvida sobre a transitividade do verbo 'operar', questão que não é o foco da ambiguidade discutida."
     },
     {
       "id": "q27",
@@ -577,7 +599,7 @@
         "E": "incorreta, pois a preposição 'ao' anula a função anafórica de todo pronome átono na frase adjacente."
       },
       "gabarito": "D",
-      "explicacao": "A alternativa D está correta, já que a barreira de gênero e número impossibilita que 'o' retome 'as normas'. A frase tem ambiguidade sim (entre tenente e subordinado), mas a afirmação dizia que a dúvida era com 'as normas', o que é uma mentira morfológica. As alternativas A, C e E chancelam delírios sintáticos ou culturais inexistentes."
+      "explicacao": "A alternativa D está correta: o pronome oblíquo átono 'o' é masculino e singular, portanto só pode retomar um termo de mesma flexão — 'tenente' ou 'subordinado' —, sendo gramaticalmente impossível que ele retome 'as normas', substantivo feminino e plural; por isso, a ambiguidade do enunciado está correta apenas entre os dois termos masculinos. A alternativa A atribui a ambiguidade à 'distância física' entre os termos, quando o fator decisivo é a concordância de gênero e número do pronome. A B propõe uma regra inexistente sobre dispensa do pronome reto em vocativos. A C invoca 'normas castrenses' sem qualquer base linguística real. A E afirma que a preposição 'ao' anularia a função anafórica de pronomes átonos, o que não procede."
     },
     {
       "id": "q28",
@@ -592,7 +614,7 @@
         "E": "Incorreta, pois o pronome 'ele próprio' foi abolido na gramática contemporânea brasileira (Acordo de 2016)."
       },
       "gabarito": "A",
-      "explicacao": "A alternativa A está correta: adicionar 'próprio' ou 'mesmo' junto ao pronome reto frequentemente desfaz a ambiguidade, forçando a ligação de volta ao sujeito da oração matriz (oficial). A afirmação errou ao dizer que a ambiguidade permanecia. As alternativas B, C, D e E oferecem justificativas bizarras, baseadas em falsas regras ou falsas abolições."
+      "explicacao": "A alternativa A está correta: a expressão 'ele próprio' funciona como recurso anafórico enfático, retomando obrigatoriamente o sujeito mais destacado da oração principal — 'o oficial' —, o que dissipa a ambiguidade que existiria apenas com o pronome simples 'ele'; por isso, a afirmação do enunciado (de que a ambiguidade persistiria) está incorreta. A alternativa B relaciona 'próprio' à polissemia da palavra 'setor', associação sem fundamento. A C propõe uma regra de que locuções pronominais longas sempre retomam o último substantivo do parágrafo, generalização incorreta. A D atribui o efeito a uma suposta 'colocação proclítica' de advérbio temporal, mecanismo que não existe nessa frase. A E afirma que 'ele próprio' teria sido abolido pelo Acordo Ortográfico de 2016, o que é falso — o Acordo trata de ortografia, não elimina construções pronominais."
     },
     {
       "id": "q29",
@@ -607,7 +629,7 @@
         "E": "A afirmativa é incorreta, pois o pronome demonstrativo 'os' concorda perfeitamente com 'documentos', indicando de forma explícita e clara que os próprios papéis precisam de autorização especial (chancela) para não serem destruídos."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta: a estrutura referencial ('os que tiverem') amarra-se logicamente ao núcleo de retomada ('os [documentos] que...'). A objeção da alternativa B confunde semântica de posse/atributo (o documento contém um carimbo/autorização) com ação biológica impossível. As opções A, C e D usam regras falsas."
+      "explicacao": "A alternativa E está correta: o pronome demonstrativo 'os' concorda com 'documentos', indicando claramente que são os próprios documentos que precisam de autorização especial para não serem destruídos — não há ambiguidade real na frase, ao contrário do que sugere o enunciado. A alternativa A afirma que a ausência de um particípio qualificador tornaria a ambiguidade 'irresolúvel', o que não corresponde à análise da concordância. A B rejeita a possibilidade de documentos 'portarem autorizações' por uma objeção semântica equivocada, já que é comum e claro que documentos tenham autorizações (chancelas) associadas a eles. A C exige, sem base, que a preposição subentendida implique necessariamente sujeito humano. A D atribui a 'salvo' um sentido substantivo de refúgio, quando no texto ele funciona como preposição de exceção."
     },
     {
       "id": "q30",
@@ -622,7 +644,7 @@
         "E": "Incorreta, pois 'o qual' só pode ser usado para retomar sujeitos inanimados e conceitos abstratos."
       },
       "gabarito": "A",
-      "explicacao": "A alternativa A está correta: introduzir a vírgula antes do pronome (mesmo que seja 'o qual') transforma a oração restritiva numa explicativa, alterando profundamente a carga de sentido e generalizando a informação. Portanto, a solução afeta os sentidos possíveis. A alternativa D e B assumem equivocadamente que a vírgula é neutra, enquanto C e E citam proibições absurdas."
+      "explicacao": "A alternativa A está correta: a inclusão da vírgula antes do pronome relativo transforma a oração de restritiva em explicativa, o que generaliza a informação (sugerindo que a chegada recente se aplica a qualquer leitura possível do antecedente) e altera o sentido original da frase — por isso a reescritura não elimina a ambiguidade sem consequências, contrariando a afirmação do enunciado. A alternativa B trata a vírgula como neutra, afirmando que 'o qual' atestaria a leitura pretendida 'sem produzir qualquer efeito colateral', o que ignora a mudança de valor sintático causada pela pontuação. A C exige o uso obrigatório do pronome 'cuja' para a adjunção temporal, regra sem fundamento. A D reafirma a suposta neutralidade da vírgula, repetindo o erro da alternativa B. A E restringe 'o qual' a sujeitos inanimados e conceitos abstratos, limitação incorreta — o pronome também retoma pessoas."
     }
   ],
   "simulado": [
@@ -669,7 +691,7 @@
         "E": "Incorreta, pois o pronome relativo 'que' está imediatamente adjacente a 'situação', e as regras de concordância e sentido impõem que o antecedente lógico seja unicamente 'situação'."
       },
       "gabarito": "E",
-      "explicacao": "A E está correta, já que não há ambiguidade real: a sintaxe (adjacência) e a lógica semântica amarram 'que' diretamente a 'situação'. As opções A e C validam equivocadamente a falsa ambiguidade. D e E discursam de maneira insana sobre a abolição da função do pronome e transformações sintáticas inverídicas."
+      "explicacao": "A alternativa E está correta: o pronome relativo 'que' está imediatamente adjacente a 'situação', e tanto a proximidade sintática quanto a lógica semântica (a frase trata de evitar situações que comprometam a operação, não de evitar 'discrição e eficiência') indicam que o antecedente é 'situação' — não há ambiguidade real na frase, ao contrário do que sugere o enunciado. A alternativa A trata a proximidade de 'discrição' como suficiente para gerar dupla leitura, mas 'discrição e eficiência' funciona como advérbio de modo da ação de fiscalizar, não como possível antecedente do relativo. A B afirma que 'operação' anularia o pronome 'que', transformando-o em conjunção integrante, o que não corresponde à estrutura da frase. A C propõe uma regra genérica de atração de substantivos abstratos que não se aplica a este caso específico. A D nega qualquer função de retomada para pronomes relativos fora da literatura, afirmação incorreta — essa é justamente a função central desses pronomes em qualquer tipo de texto."
     },
     {
       "id": "s04",
@@ -684,7 +706,7 @@
         "E": "incorreta, pois os dois sentidos citados são rigorosamente idênticos na prática redacional burocrática das Forças Armadas."
       },
       "gabarito": "C",
-      "explicacao": "A alternativa C está correta, chancelando a perfeita identificação da polissemia da palavra (ordem vs. atitude/resolução) exposta no enunciado. A alternativa A erra na base conceitual da palavra (que não é homônima). B tenta engessar a língua negando a polissemia provada. D justifica erroneamente com supostas proibições, e E ignora as ricas nuances do léxico."
+      "explicacao": "A alternativa C está correta: a palavra 'determinação' é polissêmica, assumindo no texto militar a faceta de 'ordem normativa' (o ato formal de ordenar), distinta da acepção de 'determinação de caráter' mencionada no enunciado, que indica firmeza de propósito — ambos os sentidos derivam da mesma raiz semântica. A alternativa A trata o caso como homonímia, o que não procede, já que os dois sentidos compartilham origem comum (não são palavras de etimologias diferentes que colidiram). A B afirma que a palavra seria monossêmica, negando sua natureza polissêmica evidenciada pelo próprio enunciado. A D nega que o contexto militar admita conotações ou ramificações semânticas, generalização sem base — textos formais frequentemente empregam palavras polissêmicas. A E trata os dois sentidos como 'rigorosamente idênticos', ignorando a distinção clara entre 'ordem administrativa' e 'firmeza de caráter'."
     },
     {
       "id": "s05",
@@ -699,7 +721,7 @@
         "E": "A afirmação é incorreta, pois a presença da partícula 'para a' invalida o emprego de qualquer pronome na sentença."
       },
       "gabarito": "A",
-      "explicacao": "A alternativa A está correta: se o texto se apoia na coesão (conexões lógicas e de sentido), o demonstrativo 'aqueles' consegue recuperar termos distantes sem causar ambiguidade se os traços gramaticais ou o contexto assim demandarem. A alternativa B inventa uma 'obrigação de proximidade' absoluta. D erra a classe de palavras (advérbio), e C e E inventam devaneios sintáticos impraticáveis."
+      "explicacao": "A alternativa A está correta: mesmo com a distância entre as partes do texto, os conectivos e a coesão textual estruturam o fluxo da informação apontando para 'os militares designados para a missão de apoio' como antecedente de 'aqueles' — o contexto semântico fecha essa referência, eliminando a ambiguidade. A alternativa B propõe uma regra de que o pronome demonstrativo sempre retomaria o termo mais próximo do período anterior, generalização que ignora o papel da coesão textual mais ampla. A C nega, sem fundamento, que pronomes demonstrativos tenham poder de evitar ambiguidade por si mesmos, exigindo recursos externos ao texto (notas de rodapé) que não são necessários aqui. A D classifica incorretamente 'aqueles' como advérbio de intensidade, quando se trata de pronome demonstrativo retomando um grupo de pessoas. A E afirma que a partícula 'para a' invalidaria o uso de qualquer pronome na frase, regra sem qualquer base gramatical."
     }
   ],
   "desafio": {
@@ -738,7 +760,7 @@
           "E": "Incorreta, pois locuções infinitivas (ter esquecido) são proibidas em despachos ou comunicações informais internas."
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B está correta: a estratégia clássica para eliminar a anáfora pronominal frouxa (ele) é transformar a oração desenvolvida numa oração reduzida de infinitivo, cujo sujeito implícito, via de regra, recai no sujeito da frase principal. As alternativas A e C negam ou ignoram a solução mecânica. D confunde o acréscimo de cenário com a solução gramatical. E é uma lenda técnica."
+        "explicacao": "A alternativa B está correta: a reescritura em infinitivo ('ter esquecido') elimina o pronome causador da ambiguidade, ancorando a ação de esquecer ao sujeito da oração principal ('o recruta'), que é a leitura padrão desse tipo de construção reduzida. A alternativa A afirma que a redução manteria a dúvida sintática, mas a oração reduzida de infinitivo, nesse caso, tem seu sujeito implícito identificado com o sujeito da principal, resolvendo a ambiguidade. A C propõe que a preposição 'ao' determinaria toda ação da frase ao sargento, regra que não existe dessa forma. A D atribui a solução ao acréscimo de 'no alojamento', elemento que não resolve a questão do pronome. A E afirma que locuções infinitivas seriam proibidas em comunicações internas, restrição sem fundamento."
       },
       {
         "id": "d02",
@@ -754,7 +776,7 @@
           "E": "incorreta, pois as regras morfológicas impõem a presença de 'salvos' sempre que 'sãos' aparecer no texto."
         },
         "gabarito": "D",
-        "explicacao": "A alternativa D está correta, chancelando a visão de que certas redundâncias idiomáticas (como 'sãos e salvos') são aceitas como figuras de reforço expressivo, não configurando o 'pleonasmo vicioso' (como 'subir para cima'). As alternativas A e C condenam ferozmente a locução ignorando seu peso na tradição escrita. B inventa uma oposição inexistente. E cria regras gramaticais fictícias."
+        "explicacao": "A alternativa D está correta: 'sãos e salvos' é uma construção consolidada na língua como reforço expressivo (clichê ou idiomatismo), amplamente aceita e que não configura vício de linguagem prejudicial — apesar de ambas as palavras indicarem integridade física, a expressão funciona como unidade fixa, não como pleonasmo vicioso. A alternativa A trata o uso simultâneo como 'redundância crassa punível', desconsiderando seu caráter de expressão consagrada. A B classifica incorretamente a construção como oxímoro (figura que uniria sentidos opostos), quando na verdade os dois termos reforçam a mesma ideia. A C defende que 'sãos' sozinho seria suficiente, ignorando a função de reforço estilístico da expressão completa. A E inventa uma regra morfológica obrigatória de coocorrência das duas palavras, que não existe."
       },
       {
         "id": "d03",
@@ -770,7 +792,7 @@
           "E": "incorreta, pois a expressão qualifica o coronel não pelo coração, mas pela patente que ocupa."
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B está correta: trata-se de uma metáfora cristalizada no idioma para expressar tristeza (sentido conotativo). As opções A e C falham por exigir a impossível interpretação literal ou por restringir absurdamente a poética. D inventa um jargão desconexo para invalidar o texto. E simplesmente desconversa do foco principal (a expressão)."
+        "explicacao": "A alternativa B está correta: a expressão 'coração pesado' é empregada em sentido figurado (conotativo), representando metaforicamente a tristeza, a angústia ou o fardo moral do coronel ao assinar a dispensa — não uma condição física real do órgão. A alternativa A tenta justificar o sentido literal com base em exames médicos inexistentes no texto. A C afirma que corações não aceitariam 'adjetivações poéticas' em relatórios oficiais, generalização que ignora o uso comum de metáforas mesmo em textos formais. A D propõe um sentido técnico-naval para 'pesado' (carregamento de embarcações), que não corresponde ao contexto da frase, centrado no estado emocional do coronel. A E desvia o foco para a patente do coronel, elemento irrelevante à análise da expressão."
       },
       {
         "id": "d04",
@@ -786,7 +808,7 @@
           "E": "incorreta, pois toda vez que a palavra 'oficiais' aparece, a frase inteira deve ser posta no plural obrigatório."
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B está correta ao apontar a regra das expressões partitivas: é perfeitamente lícito (concordância facultativa/silepse) o verbo concordar com o plural 'dos oficiais' (votaram) ou com o singular 'maioria' (votou). As alternativas A e C negam taxativamente a regra da concordância atrativa. D e E estipulam normas lunáticas relativas a votações ou à patente 'oficiais'."
+        "explicacao": "A alternativa B está correta: expressões partitivas como 'a maioria de' seguidas de um determinante plural admitem concordância facultativa — tanto no singular, concordando com o núcleo ('a maioria... votou'), quanto no plural, concordando atrativamente com o especificador ('a maioria... votaram') — por isso a forma usada na frase não está em desacordo com a norma culta. A alternativa A afirma que o verbo seria obrigado a concordar apenas com o núcleo sintático direto, ignorando a regra de concordância facultativa das expressões partitivas. A C restringe a dupla concordância a numerais fracionários isolados, limitação incorreta. A D propõe uma invariabilidade do verbo 'votar' baseada em patente, regra inexistente. A E afirma que a presença da palavra 'oficiais' obrigaria o plural em toda a frase, generalização sem base — a concordância com partitivos é facultativa, não obrigatória no plural."
       },
       {
         "id": "d05",
@@ -802,7 +824,7 @@
           "E": "Incorreta, pois acentos indicativos de crase foram suprimidos definitivamente antes de paroxítonas em 2016."
         },
         "gabarito": "C",
-        "explicacao": "A alternativa C está correta admitindo o postulado normativo (se o verbo exige 'a' e o termo feminino aceita 'a', a fusão ocorre em ambos). As opções A e D inventam regras de proibição sem sentido ou aplicabilidade. E fantasia reformas ortográficas (a supressão não existe). B adota pretexto místico descabido."
+        "explicacao": "A alternativa C está correta: em ambos os casos, as preposições exigidas pelos verbos ('assistir a' e 'em respeito a') se fundem com os artigos femininos que acompanham 'cerimônia' e 'tradição', formando a crase em conformidade com a regra de fusão entre preposição 'a' e artigo 'a'. A alternativa A nega que a regência dos verbos envolva preposição, o que não procede — 'assistir' no sentido de presenciar rege a preposição 'a'. A B desvia para uma caracterização duvidosa da tradição mencionada, sem relação com a regra de crase. A D afirma que apenas 'cerimônia' admitiria a fusão, mas 'tradição' também é substantivo feminino antecedido por preposição exigida pela locução 'em respeito a', cabendo igualmente a crase. A E inventa uma supressão de acentos de crase em 2016, que não ocorreu — o Acordo Ortográfico de 1990 trata de outras questões, não da crase."
       },
       {
         "id": "d06",
@@ -818,7 +840,7 @@
           "E": "incorreta, pois as regências militares em manuais de base impõem que oficiais aspirem SEM uso de conectores ou travas de subordinação."
         },
         "gabarito": "C",
-        "explicacao": "A alternativa C está correta, reafirmando que o verbo aspirar (no sentido de desejar) é transitivo indireto com preposição 'a'. A alternativa A nega essa transitividade. A alternativa B ignora a polissemia do verbo, fixando-se no sentido de respirar. D traz jargões gramaticais sem sentido, e E delíra com regras castrenses de regência verbal inventadas."
+        "explicacao": "A alternativa C está correta: o verbo 'aspirar', no sentido de almejar ou desejar, é transitivo indireto e exige a preposição 'a' ('aspirar a algo') — por isso o emprego da preposição na frase está de acordo com a norma culta. A alternativa A classifica o verbo como transitivo direto absoluto nesse sentido, o que é incorreto — a transitividade direta de 'aspirar' se aplica apenas ao sentido de respirar ou sorver (ex.: 'aspirar o ar'). A B restringe o verbo exclusivamente a esse sentido físico, ignorando sua acepção de desejo, presente na frase. A D descreve 'aspirar' como verbo reflexivo que atrairia pronome antecedido de preposição, caracterização que não corresponde ao seu uso na frase, onde ele é apenas transitivo indireto. A E inventa uma regência militar sem conectores, que não existe na norma culta."
       },
       {
         "id": "d07",
@@ -834,7 +856,7 @@
           "E": "A afirmação é incorreta, pois o 'seu' sempre refere-se ao autor do texto em primeira pessoa disfarçado de tenente."
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B está correta: a ambiguidade gramatical ocorre pela dupla possibilidade referencial de 'seu'. O fato de 'ser óbvio na prática militar' não apaga o defeito estrutural da frase isolada (poderia ser o tenente avaliando o próprio desempenho ao liderar o recruta). A afirmação A chancelaria falsamente o erro com base no bom senso prático."
+        "explicacao": "A alternativa B está correta: gramaticalmente, o pronome possessivo de terceira pessoa 'seu/sua' gera ambiguidade estrutural entre o tenente e o recruta, já que ambos são antecedentes masculinos compatíveis — essa ambiguidade é um defeito da frase isolada, independentemente de o contexto prático (avaliação militar) sugerir uma leitura mais provável. A alternativa A afirma que o contexto discursivo elimina 'com obviedade' qualquer dúvida, mas a análise sintática da frase isolada — que é o que a questão avalia — permanece ambígua. A C propõe uma concordância obrigatória no plural para o adjetivo, regra sem relação com a ambiguidade referencial discutida. A D nega, sem fundamento, a existência de pronomes possessivos em certas construções. A E afirma que 'seu' sempre se referiria ao autor do texto em primeira pessoa, interpretação que não corresponde à narração em terceira pessoa da frase."
       },
       {
         "id": "d08",
@@ -850,7 +872,7 @@
           "E": "incorreta, pois a aproximação de mais de dois adjetivos exige elipse total ou isolamento deles em travessões."
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B está correta, já que enuncia a norma clássica de concordância nominal, na qual termos adjetivos seguem o substantivo base ('medidas'). A alternativa A prescreve uma proibição descabida (masculino singular). A C inventa que 'urgente' é advérbio, enquanto a E exige virgulações fantasmagóricas e travessões para esconder seu erro."
+        "explicacao": "A alternativa B está correta: a regra de concordância nominal determina que o adjetivo, como adjunto ou predicativo, acompanhe o gênero e o número do substantivo a que se refere — por isso 'necessárias' e 'urgentes' concordam corretamente com 'medidas' (feminino, plural). A alternativa A propõe uma regra de que múltiplos adjetivos ficariam no masculino singular geral, o que não corresponde à concordância nominal padrão. A C classifica 'urgentes' como advérbio invariável, quando se trata claramente de adjetivo concordando com o substantivo. A D trata a concordância correta como uma 'exceção' da palavra 'medidas', quando na verdade é a aplicação regular da regra. A E exige elipse ou isolamento por travessões para mais de dois adjetivos, exigência inexistente na norma."
       },
       {
         "id": "d09",
@@ -866,7 +888,7 @@
           "E": "incorreta, pois as regras de mesóclise caíram em desuso e não constituem, portanto, base para análise culta na contemporaneidade."
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B está correta, esclarecendo que mesóclise só se dá com tempos do futuro. Os usos normais adjacentes ao verbo (ex: viu-se, não lhe disse) não são mesóclises, mas ênclises/próclises. A e D esticam o escopo da mesóclise usando falsas bases de conveniência discursiva. C inventa nomenclaturas, e E decreta um falso óbito total da mesóclise formal."
+        "explicacao": "A alternativa B está correta: a mesóclise é exclusiva dos verbos conjugados no futuro do presente ou no futuro do pretérito do indicativo, sem fator de atração para próclise — por isso as construções do texto ('Pediu-se-lhe', 'Entregou-se-lhe'), que empregam verbos no pretérito perfeito, não são casos de mesóclise, mas sim de ênclise comum. A alternativa A afirma que 'construções militares' favoreceriam a mesóclise mesmo fora do futuro, o que não corresponde à regra gramatical, válida para qualquer tipo de texto. A C emprega o termo inexistente 'apóclise' para descrever a posição do pronome. A D propõe uma exigência de mesóclise em orações imperativas, o que não procede — o imperativo não admite mesóclise. A E declara a mesóclise 'em desuso', mas ela continua sendo cobrada e aplicada na norma culta formal, especialmente com verbos no futuro."
       },
       {
         "id": "d10",
@@ -882,7 +904,7 @@
           "E": "incorreta, pois as regras lexicográficas militares proíbem o uso do termo 'medíocre' em qualquer comunicação oficial."
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B está correta: antonímias plenas se dão no mesmo eixo de sentido e classe gramatical (ex. hábil vs inábil). Habilidade e medíocre são termos de classes diversas, sendo falsa a antonímia exata. As alternativas A e D aceitam relaxadamente o erro com embasamentos duvidosos. E formula leis de mordaça sobre avaliações irreais, e C se perde em delírios verbais."
+        "explicacao": "A alternativa B está correta: a relação entre 'habilidade' e 'medíocre' não se qualifica como antonímia estrita, pois as palavras pertencem a classes gramaticais diferentes (substantivo e adjetivo), e 'medíocre' indica mediania qualitativa, não a ausência total da capacidade referida por 'habilidade' — por isso a classificação do enunciado como antonímia exata não procede. A alternativa A trata os termos como opostos morais absolutos, simplificação que não reflete a diferença de classe gramatical. A C classifica as palavras como 'locuções verbais', erro categorial evidente (são substantivo e adjetivo, não verbos). A D generaliza que qualquer par de adjetivos com intensidades distintas seria antonímia, o que ignora os critérios linguísticos de antonímia estrita (mesma classe, sentidos diretamente opostos). A E inventa uma proibição do termo 'medíocre' em comunicações oficiais, sem qualquer base normativa."
       },
       {
         "id": "d11",
@@ -898,7 +920,7 @@
           "E": "incorreta, pois trata-se de um monossílabo tônico engastado, dispensando maiores aprofundamentos da norma."
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B está correta: a palavra 'só-bria' continua recebendo acento agudo como paroxítona terminada em ditongo, regra intacta após o Acordo Ortográfico. A alternativa A erra a classificação tônica flagrantemente (não é oxítona). A alternativa C inventa regras destruidoras de acentos. D alucina com proparoxítonas fictícias, e E ignora as sílabas óbvias."
+        "explicacao": "A alternativa B está correta: 'sóbria' mantém o acento agudo por ser paroxítona terminada em ditongo ('bria'), regra que não foi alterada pelo Acordo Ortográfico de 1990 — a reforma tratou principalmente do trema, de hiatos tônicos em certas paroxítonas e de alguns casos de acento diferencial, mas não da acentuação de paroxítonas terminadas em ditongo. A alternativa A classifica erroneamente a palavra como oxítona, quando a tônica recai na penúltima sílaba ('só-bria'). A C afirma que a reforma teria cassado 'todos' os acentos agudos em bases ditongais, generalização falsa. A D propõe uma 'proparoxítona fictícia' sem qualquer base na língua. A E trata a palavra como monossílabo, erro de contagem silábica evidente ('só-bria' tem duas sílabas)."
       },
       {
         "id": "d12",
@@ -914,7 +936,7 @@
           "E": "A afirmação é incorreta, pois as orações relativas restritivas possuem barreira sintática que força o pronome a apontar exclusivamente para locuções temporais esquecidas."
         },
         "gabarito": "A",
-        "explicacao": "A alternativa A está correta: se a frase permite retomar dois candidatos compatíveis (ambos militares, ambos podem receber postos setorizados), ocorre ambiguidade por concorrência referencial. As alternativas B e E inventam regras sintáticas não documentadas em manuais. C exige um pressuposto hierárquico geográfico imaginário e D é puramente caótica."
+        "explicacao": "A alternativa A está correta: a ausência de marcas gramaticais que delimitem a referência permite que a oração relativa 'que havia sido designado para o setor leste' se ligue mentalmente tanto a 'o general' quanto a 'o coronel' — ambos são antecedentes masculinos e singulares compatíveis, caracterizando a ambiguidade apontada no enunciado. A alternativa B propõe uma exigência de flexão plural para a oração apontar a um termo, regra que não existe — a oração relativa concorda normalmente com um antecedente singular. A C tenta resolver a ambiguidade por meio de uma suposta 'lógica de guerra' sobre quem assume postos setoriais, critério externo ao texto e sem base linguística. A D afirma que a preposição 'para' anularia qualquer função anafórica anterior, o que não procede. A E inventa uma 'barreira sintática' das relativas restritivas que as forçaria a locuções temporais, o que não tem relação com a estrutura da frase."
       },
       {
         "id": "d13",
@@ -930,7 +952,7 @@
           "E": "Incorreta, pois as relações de adição simples requerem obrigatoriamente a locução 'além disso', descartando a força do 'e' isolado."
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B está correta: o 'e' (normalmente aditivo) assume muito frequentemente valor adversativo (contraste) em contextos onde as ações entram em choque lógico, portanto não é sempre uma 'adição simples'. A alternativa A afirma essa limitação de forma equivocada. C chancelaria falsas normas. D e E adotam delírios sintáticos descabidos e restrições irreais."
+        "explicacao": "A alternativa B está correta: dependendo do contexto, o conectivo 'e' pode assumir valor adversativo, equivalendo a 'mas' ou 'porém', quando as ações ligadas por ele entram em contraste lógico — por isso não é correto afirmar que o 'e' estabelece sempre uma relação de adição simples. A alternativa A trata a conjunção aditiva como restrita 'sempre e unicamente' à adição simétrica, ignorando esse uso adversativo amplamente reconhecido na língua. A C afirma que os manuais militares padronizariam a conjunção como 'operador aritmético', caracterização sem qualquer base linguística. A D propõe que o 'e' no início de oração seria um 'adjunto adverbial afirmativo absoluto', classificação incorreta — o 'e' é conjunção, não advérbio. A E exige obrigatoriamente a locução 'além disso' para expressar adição simples, restrição que não existe na norma culta."
       },
       {
         "id": "d14",
@@ -946,7 +968,7 @@
           "E": "O pressuposto é incorreto, pois a palavra só teria validade se portasse acento (anti-áderente), desconsiderando quaisquer regras de prefixação ortográfica."
         },
         "gabarito": "B",
-        "explicacao": "A alternativa B está correta: a grafia 'antiaderente' está certa, mas a justificativa no enunciado é estapafúrdia (alegando que 'aderente' inicia por consoante). Logo, o pressuposto justificativo é falso. As alternativas A e D aceitam cegamente a tese de que a letra 'a' é consoante. C e E propõem regras falsificadas e alucinações acentuais."
+        "explicacao": "A alternativa B está correta: a palavra 'aderente' começa por vogal (A), não por consoante — por isso o prefixo 'anti-' se junta a ela sem hífen, formando 'antiaderente' por aglutinação; a justificativa apresentada no enunciado (de que 'aderente' começa por consoante) é, portanto, falsa, embora a grafia final da palavra esteja correta. A alternativa A aceita a premissa equivocada de que uma consoante exigiria marca gráfica de separação, quando o caso envolve justamente uma vogal. A C afirma que todos os prefixos passaram a exigir hífen obrigatório após 2016, generalização falsa sobre o Acordo Ortográfico, que manteve regras específicas conforme a letra inicial da palavra seguinte. A D propõe a existência de 'paraconsoantes' entre as vogais, categoria gramatical inexistente. A E condiciona a validade da palavra a um acento que ela não possui nem necessita, critério equivocado."
       },
       {
         "id": "d15",
@@ -962,7 +984,7 @@
           "E": "incorreta, pois 'bomba' foi usada de maneira errada pelo narrador, já que o termo adequado seria unicamente 'artifício catastrófico burocrático'."
         },
         "gabarito": "A",
-        "explicacao": "A alternativa A está correta ao reconhecer as diretrizes básicas das linguagens denotativa e conotativa (o deslocamento do sentido literal da 'bomba' para descrever o impacto psicológico/institucional). As alternativas B e C negam absurdamente o uso do figurado com bases engessadas. D não percebe o absurdo lógico. E inventa expressões burocráticas irrisórias."
+        "explicacao": "A alternativa A está correta: é uso consolidado da língua transpor um significado literal (denotação, como o artefato explosivo) para esferas de impacto social, institucional ou emocional (conotação) — 'bomba', no texto, indica que o relatório causou grande impacto ou perturbação no comando, não que continha um artefato real. A alternativa B afirma que termos em boletins militares assumiriam 'inalienavelmente' sentido denotativo de letalidade, generalização que ignora o uso comum de metáforas mesmo em textos institucionais. A C exige que a conotação esteja marcada por aspas ou formatações especiais para ser reconhecida, exigência que não existe na análise linguística. A D defende a leitura literal, de que o relatório continha material explosivo, interpretação que não corresponde ao contexto (revelação de irregularidades administrativas). A E propõe uma expressão alternativa ('artifício catastrófico burocrático') como a única correta, quando o uso conotativo de 'bomba' é plenamente aceito e compreensível no contexto."
       }
     ]
   },

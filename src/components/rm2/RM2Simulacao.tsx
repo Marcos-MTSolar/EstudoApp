@@ -4,6 +4,7 @@ import { RM2_CONTEUDO } from '../../data/rm2Conteudo';
 import { getConteudo, getIdsDisponiveis } from '../../data/conteudoIndex';
 import { getSimuladosDisponiveis, getSimulado, getMetadadosSimulados } from '../../data/simuladosIndex';
 import { useAuth } from '../../lib/AuthContext';
+import { useDataProva } from '../../lib/cronogramaConfig';
 import { renderTextoComMarcacao } from '../../lib/formatters';
 
 interface RM2SimulacaoProps {
@@ -16,6 +17,8 @@ interface RM2SimulacaoProps {
 export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2SimulacaoProps) {
   const { user } = useAuth();
   const uid = user?.uid ?? 'local';
+  // Obtém a data da prova configurada pelo usuário (mesma chave usada em EstudoRM2 e RM2Cronograma)
+  const { dataProva } = useDataProva(uid);
 
   const eProvaLonga = modo === 'completo' || modo === 'simulado_real';
 
@@ -77,7 +80,15 @@ export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2Sim
           return;
         }
         setTextos(dados.textos || []);
-        setSimuladoMeta({ titulo: dados.titulo, banca: dados.banca, data: dados.data });
+        // Obtém título e data dinamicamente via getMetadadosSimulados(dataProva),
+        // nunca dos campos fixos do JSON. Compatível com histórico antigo (dados.data pode ser undefined).
+        const metasDinamicas = getMetadadosSimulados(dataProva);
+        const metaDinamica = metasDinamicas.find(m => m.id === simuladoId);
+        setSimuladoMeta({
+          titulo: metaDinamica?.titulo ?? dados.titulo ?? `Simulado`,
+          banca: dados.banca,
+          data: metaDinamica?.data ?? (dados.data as string | undefined),
+        });
         setQuestoes(dados.questoes);
         setStarted(true);
         setLoading(false);
@@ -225,7 +236,9 @@ export function RM2Simulacao({ modo, simuladoId, onVoltar, onFinalizar }: RM2Sim
                 Simulado {modo === "simulado_real" ? "Oficial" : modo === "completo" ? "Completo" : "Rápido"}
               </h2>
               <p className="text-xs text-gray-400">
-                {simuladoMeta ? `${simuladoMeta.banca} • ${simuladoMeta.data}` : 'Marinha do Brasil • RM2 Oficiais'}
+                {simuladoMeta
+                  ? `${simuladoMeta.banca}${simuladoMeta.data ? ' • ' + new Date(simuladoMeta.data + 'T12:00:00').toLocaleDateString('pt-BR') : ''}`
+                  : 'Marinha do Brasil • RM2 Oficiais'}
               </p>
             </div>
           </div>

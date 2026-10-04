@@ -2042,4 +2042,37 @@ pm run build) com sucesso (Exit code: 0).
   - `src/components/rm2/RM2Dashboard.tsx` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
 
+---
+
+### Parte 93 — Unificação das datas dos Simulados com o cronograma dinâmico
+- **Data e hora:** 2026-10-04T12:06:00 (Horário Local — BRT)
+- **O que foi feito:**
+  - **Fonte única de verdade:** As datas dos 5 simulados agora são geradas dinamicamente pela função `calcularDatasSimulados(dataProva)` (em `src/lib/cronogramaGerador.ts`) consumidas via `getMetadadosSimulados(dataProva)` (em `src/data/simuladosIndex.ts`).
+  - **Remoção de datas fixas dos JSONs:** Os 5 arquivos de simulados (`simulado-01.json` até `simulado-05.json`) tiveram o campo estático `"data"` removido e os títulos padronizados no formato neutro `"Simulado 1"`, `"Simulado 2"`, `"Simulado 3"`, `"Simulado 4"` e `"Simulado 5"`, sem datas escritas à mão.
+  - **Integração no `RM2Simulacao.tsx`:** O componente de prova passou a importar e utilizar o hook `useDataProva(uid)` (onde `uid` é obtido via `useAuth().user?.uid ?? 'local'`), buscando metadados dinâmicos em `getMetadadosSimulados(dataProva)`. O cabeçalho exibe a data formatada dinamicamente via `toLocaleDateString('pt-BR')`.
+  - **Preservação de histórico:** Registros antigos salvos em `rm2_simulados_historico_${uid}` mantêm compatibilidade para leitura sem sofrerem alterações.
+  - **Regra de liberação intacta:** A função `simuladoLiberado` e o horário das 08h de Brasília permanecem inalterados.
+  - **Tabela de Validação de Datas nos 3 Cenários (Todas as 5 regras validadas: Domingo, ordem crescente, fora da semana da prova, >= 01/10/2026, fora da Semana 1):**
+
+| Simulado | Cenário 1 (Padrão: 14/03/2027) | Cenário 2 (Antecipado: 28/02/2027) | Cenário 3 (Comprimido: 06/12/2026) | Regras (Dom / Ordem / >=01/10 / Fora Sem Prova) | OK? |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Simulado 1** | 13/12/2026 | 29/11/2026 | 25/10/2026 | Domingo, em ordem, após 01/10/2026, fora sem. prova | ✅ OK |
+| **Simulado 2** | 31/01/2027 | 17/01/2027 | 08/11/2026 | Domingo, em ordem, após 01/10/2026, fora sem. prova | ✅ OK |
+| **Simulado 3** | 14/02/2027 | 31/01/2027 | 15/11/2026 | Domingo, em ordem, após 01/10/2026, fora sem. prova | ✅ OK |
+| **Simulado 4** | 21/02/2027 | 07/02/2027 | 22/11/2026 | Domingo, em ordem, após 01/10/2026, fora sem. prova | ✅ OK |
+| **Simulado 5** | 07/03/2027 | 21/02/2027 | 29/11/2026 | Domingo, em ordem, após 01/10/2026, fora sem. prova | ✅ OK |
+
+  - **Validação de Build e Tipagem:**
+    - `npx tsc --noEmit` → Exit code 0 (0 erros).
+    - `npm run build` → Exit code 0 (✓ 3132 módulos transformados com sucesso).
+- **Arquivos modificados:**
+  - `src/data/simulados/simulado-01.json` **[MODIFICADO]**
+  - `src/data/simulados/simulado-02.json` **[MODIFICADO]**
+  - `src/data/simulados/simulado-03.json` **[MODIFICADO]**
+  - `src/data/simulados/simulado-04.json` **[MODIFICADO]**
+  - `src/data/simulados/simulado-05.json` **[MODIFICADO]**
+  - `src/components/rm2/RM2Simulacao.tsx` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+
 

@@ -90,8 +90,8 @@
       },
       {
         "subtitulo": "5. Antítese, Paradoxo e Personificação",
-        "conteudo": "Antítese é a figura que coloca dois conceitos opostos em paralelo para criar contraste. 'O corajoso teme e avança; o covarde teme e recua' — coragem e covardia estão lado a lado para destacar a diferença. A antítese não contradiz a lógica: as duas ideias podem coexistir, apenas se opõem.\n\nO paradoxo vai além: apresenta uma contradição aparente que, pensando melhor, revela uma verdade profunda. 'Quanto mais aprendo, mais percebo o quanto não sei' — parece contraditório, mas faz sentido. Em literatura militar, 'a paz se conquista pela guerra' é paradoxal e verdadeiro ao mesmo tempo.\n\nA personificação (ou prosopopeia) atribui características humanas a seres inanimados, animais ou abstrações. 'O vento sussurrou segredos entre os mastros dos navios' — o vento não sussurra, mas essa imagem cria uma atmosfera. 'O mar engoliu os documentos sigilosos' — o mar não engole intencionalmente, mas a imagem é poderosa.\n\nO erro mais comum é confundir antítese com paradoxo. Na antítese as ideias se opõem mas não se contradizem. No paradoxo há contradição real que é resolvida em nível mais profundo de sentido.",
-        "regra": "Antítese = opostos paralelos (sem contradição lógica) · Paradoxo = contradição aparente que revela verdade · Personificação = humano ao não-humano",
+        "conteudo": "Antítese é a figura que coloca dois conceitos opostos em paralelo para criar contraste. 'O corajoso teme e avança; o covarde teme e recua' — coragem e covardia estão lado a lado para destacar a diferença. A antítese não contradiz a lógica: as duas ideias podem coexistir, apenas se opõem.\n\nO paradoxo vai além: apresenta uma contradição aparente que, pensando melhor, revela uma verdade profunda. 'Quanto mais aprendo, mais percebo o quanto não sei' — parece contraditório, mas faz sentido. Em literatura militar, 'a paz se conquista pela guerra' é paradoxal e verdadeiro ao mesmo tempo.\n\nA personificação (ou prosopopeia) atribui características humanas a seres inanimados, animais ou abstrações. 'O vento sussurrou segredos entre os mastros dos navios' — o vento não sussurra, mas essa imagem cria uma atmosfera. 'O mar engoliu os documentos sigilosos' — o mar não engole intencionalmente, mas a imagem é poderosa.\n\nUm caso especial, com nome próprio, é a apóstrofe: ocorre quando o texto não apenas descreve um ser inanimado, ausente ou abstrato como se fosse humano, mas se dirige diretamente a ele, interpelando-o — geralmente com um vocativo. 'Ó mar, testemunha de tantas partidas, guarda os nossos segredos!' é apóstrofe: há uma invocação direta ('Ó mar'), não apenas uma descrição. Já 'O mar guardava os segredos da tripulação' é apenas personificação, sem invocação direta. Na prática, toda apóstrofe carrega também personificação (já que se fala com algo que não pode responder como se pudesse), mas nem toda personificação é apóstrofe — a marca distintiva da apóstrofe é a interpelação direta, geralmente sinalizada por vocativo ('Ó...', 'Tu, que...').\n\nO erro mais comum é confundir antítese com paradoxo. Na antítese as ideias se opõem mas não se contradizem. No paradoxo há contradição real que é resolvida em nível mais profundo de sentido. Outro erro comum é não diferenciar personificação (descrever) de apóstrofe (invocar diretamente).",
+        "regra": "Antítese = opostos paralelos (sem contradição lógica) · Paradoxo = contradição aparente que revela verdade · Personificação = atribuir traço humano (descrição) · Apóstrofe = invocar diretamente um ser inanimado/ausente/abstrato (interpelação, geralmente com vocativo)",
         "exemplos": [
           {
             "texto_base": "A vitória nasce da derrota, e os navios mais fortes foram forjados nas tempestades mais violentas. O oceano, cruel e generoso, devolve ao homem o que o homem lhe confia.",
@@ -110,6 +110,16 @@
                 "trecho": "O oceano devolve ao homem",
                 "destaque": "Personificação",
                 "motivo": "Atribui ação humana intencional ('devolver') a um elemento da natureza"
+              }
+            ]
+          },
+          {
+            "texto_base": "Ó navio que partiste ao amanhecer, leva contigo a esperança desta tripulação que aqui ficou!",
+            "anotacoes": [
+              {
+                "trecho": "Ó navio que partiste... leva contigo",
+                "destaque": "Apóstrofe",
+                "motivo": "O texto se dirige diretamente ao navio, interpelando-o com vocativo ('Ó navio') e ordem ('leva') — não apenas descreve, mas invoca"
               }
             ]
           }
@@ -149,6 +159,45 @@
                 "trecho": "loucura produtiva",
                 "destaque": "Antítese/Oxímoro",
                 "motivo": "Une conceitos opostos (loucura ≠ produtividade) para criar expressão de impacto"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "8. Catacrese: a metáfora que 'morreu' e virou nome comum",
+        "conteudo": "Pense na catacrese como uma metáfora tão antiga e tão usada que as pessoas esqueceram que ela é uma figura de linguagem. Quando faltava uma palavra própria para nomear algo, a língua pegou emprestada uma palavra de outro campo de sentido — e esse empréstimo se tornou tão natural que ninguém mais percebe a imagem por trás dele.\n\n'Pé da mesa', 'braço da cadeira', 'boca do fogão', 'dente de alho', 'embarcar num projeto' (sem navio nenhum envolvido) são todos exemplos de catacrese: usam uma palavra de outro domínio (partes do corpo, viagem marítima) para suprir a falta de um termo específico. Ninguém, ao dizer 'pé da mesa', está pensando conscientemente numa comparação poética entre a perna de um móvel e a perna humana — o uso já é automático, 'desgastado' de tanto repetir.\n\nA diferença entre catacrese e metáfora comum está exatamente nessa consciência de uso: a metáfora é uma escolha estilística, consciente, do autor, criada para causar um efeito expressivo específico naquele texto ('o sargento era uma rocha'). A catacrese é um uso já cristalizado na língua, sem intenção estilística — é apenas a forma padrão de se referir àquilo, por falta de termo próprio.\n\nNo vocabulário naval e militar há muitas catacreses: 'embarcar' uma tropa (mesmo em avião ou caminhão), o 'corpo' de bombeiros, as 'asas' de um esquadrão, o 'olho' do furacão. A CEBRASPE explora a catacrese pedindo para o candidato diferenciá-la da metáfora viva (estilística), justamente nesse ponto do uso consagrado versus a escolha expressiva deliberada.\n\nO erro mais comum é classificar toda catacrese como metáfora comum, ignorando que ela já perdeu o caráter de novidade expressiva e virou vocabulário corrente.",
+        "regra": "Catacrese = metáfora 'fossilizada', de uso consagrado e automático, por falta de termo próprio (pé da mesa, embarcar num projeto) · Metáfora comum = escolha estilística consciente do autor, com efeito expressivo deliberado",
+        "exemplos": [
+          {
+            "texto_base": "O efetivo embarcou às seis da manhã rumo ao exercício de campo, carregando nos ombros o peso de semanas de treinamento intenso.",
+            "anotacoes": [
+              {
+                "trecho": "O efetivo embarcou",
+                "destaque": "Catacrese",
+                "motivo": "'Embarcar' é usado mesmo não havendo embarcação (o deslocamento pode ser terrestre) — uso consagrado, sem intenção estilística nova"
+              },
+              {
+                "trecho": "carregando nos ombros o peso",
+                "destaque": "Metáfora (viva)",
+                "motivo": "Identifica o esforço do treinamento com um peso físico carregado nos ombros — escolha expressiva deliberada do autor para aquele texto"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitulo": "9. Gradação (clímax e anticlímax)",
+        "conteudo": "A gradação é a figura que organiza uma sequência de palavras ou ideias em ordem crescente ou decrescente de intensidade, criando um efeito de acumulação progressiva — muito usada em discursos, textos persuasivos e comunicados oficiais, que é justamente o tipo de texto que o edital RM2 usa como base.\n\nQuando a sequência vai do menos intenso para o mais intenso, chama-se clímax (ou gradação ascendente): 'Chegamos, vimos, vencemos' tem uma progressão de ação crescente. Em contexto naval: 'O recruta treinou, suou, sangrou e, finalmente, venceu' — cada verbo intensifica o esforço anterior.\n\nQuando a sequência vai do mais intenso para o menos intenso, chama-se anticlímax (ou gradação descendente): 'Conquistamos o mundo, depois o continente, depois apenas este pequeno posto de fronteira' — o efeito aqui costuma ser de ironia, decepção ou rebaixamento proposital.\n\nA gradação se distingue da simples enumeração porque, na gradação, a ORDEM dos elementos importa e produz sentido — trocar a ordem destruiria o efeito. Numa enumeração comum, a ordem dos itens costuma ser neutra e intercambiável.\n\nO erro mais comum é confundir gradação com simples enumeração de exemplos, sem perceber que a intensidade crescente (ou decrescente) é o que caracteriza a figura — e não apenas listar vários itens.",
+        "regra": "Gradação = sequência em ordem de intensidade, onde a ORDEM produz sentido · Clímax = intensidade crescente · Anticlímax = intensidade decrescente (geralmente com efeito irônico ou de rebaixamento)",
+        "exemplos": [
+          {
+            "texto_base": "O jovem aspirante duvidou, hesitou, temeu e, por fim, diante do comandante, desistiu de tudo o que havia construído em cinco anos de curso.",
+            "anotacoes": [
+              {
+                "trecho": "duvidou, hesitou, temeu e... desistiu",
+                "destaque": "Gradação (clímax)",
+                "motivo": "Sequência de verbos em intensidade emocional crescente, culminando no ato mais grave (desistir) — a ordem é essencial ao efeito"
               }
             ]
           }
@@ -891,7 +940,7 @@
           "E": "Apenas a segunda, pois a próclise é sempre preferida no português do Brasil."
         },
         "gabarito": "B",
-        "explicacao": "Em orações imperativas afirmativas na norma culta escrita, a regra é a ênclise — o pronome vem após o verbo: 'Entregue-nos'. A próclise ('Nos entregue') é característica do português brasileiro coloquial e oral, não da norma culta escrita cobrada em provas. A CEBRASPE cobra a norma culta padrão escrita, não o uso coloquial. A alternativa E está errada por generalizar erroneamente a preferência pela próclise para qualquer contexto."
+        "explicacao": "Em orações imperativas afirmativas, o verbo no início da oração não constitui atrativo de próclise — por isso, na ausência de qualquer outro atrativo (negativa, advérbio, pronome relativo, conjunção subordinativa), a ênclise é a forma recomendada pela norma culta escrita formal: 'Entregue-nos'. A forma 'Nos entregue', iniciando a oração com o pronome átono, foge a esse padrão e é evitada no registro culto escrito, ainda que frequente na fala espontânea. A alternativa E está errada por generalizar a preferência pela próclise para qualquer contexto, o que não corresponde à regra testada aqui."
       },
       {
         "id": "d10",

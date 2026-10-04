@@ -119,6 +119,28 @@
             ]
           }
         ]
+      },
+      {
+        "subtitulo": "6. Relações lexicais como recurso de coesão textual",
+        "conteudo": "Pense num autor escrevendo um relatório longo: se ele repetisse a palavra \"submarino\" em toda frase, o texto ficaria cansativo e mecânico. Para evitar isso, ele recorre à própria rede de relações lexicais que você já aprendeu — usando sinônimos, hiperônimos ou expressões mais genéricas para retomar o mesmo elemento sem repeti-lo. Esse mecanismo tem nome: coesão lexical.\n\nA cadeia referencial é a sequência de palavras diferentes, ao longo do texto, que retomam o mesmo referente (a mesma pessoa, objeto ou ideia). Por exemplo: \"O contra-almirante... o oficial... ele... o comandante da esquadra\" — todas essas expressões, em um mesmo texto, podem estar se referindo à mesma pessoa, usando ora um sinônimo aproximado, ora um hiperônimo (\"o oficial\" é hiperônimo de \"contra-almirante\"), ora um pronome.\n\nA CEBRASPE costuma perguntar \"a que o termo X se refere no texto?\" ou \"qual elemento anterior do texto é retomado pela expressão Y?\". Para responder, é preciso rastrear a cadeia referencial: voltar ao texto e identificar qual substantivo ou expressão anterior aquele termo está substituindo ou resumindo.\n\nUm uso comum e estratégico dessa coesão é a progressão do específico para o geral: o autor cita o termo específico uma vez (\"o submarino Tupi\") e depois usa o hiperônimo (\"a embarcação\", \"o equipamento\") para retomar sem repetir — ou o caminho inverso, do geral para o específico, quando o autor introduz uma categoria ampla e depois detalha com o termo exato.\n\nO erro mais comum é não perceber que duas expressões distantes uma da outra no texto apontam para o mesmo referente, tratando-as como elementos novos e desconectados — isso quebra a compreensão da progressão lógica do texto.",
+        "regra": "Cadeia referencial = sequência de expressões que retomam o mesmo referente · Sinônimos, hiperônimos e pronomes evitam repetição · Sempre pergunte: a que isso se refere?",
+        "exemplos": [
+          {
+            "texto_base": "O contra-almirante Souza assumiu o comando da operação. O oficial, com vasta experiência em águas profundas, determinou o curso da embarcação. Ele sabia que qualquer erro de rota comprometeria toda a missão.",
+            "anotacoes": [
+              {
+                "trecho": "O oficial",
+                "destaque": "retoma 'contra-almirante Souza' (hiperônimo)",
+                "motivo": "'Oficial' é hiperônimo de 'contra-almirante': retoma a mesma pessoa citada antes, de forma mais genérica, evitando repetir o nome e a patente"
+              },
+              {
+                "trecho": "Ele",
+                "destaque": "retoma 'contra-almirante Souza' / 'o oficial' (pronome)",
+                "motivo": "O pronome 'ele' mantém a cadeia referencial, apontando para a mesma pessoa mencionada nas duas expressões anteriores"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -320,17 +342,17 @@
     {
       "id": "q11",
       "nivel": "intermediario",
-      "textoBase": "O comandante determinou que o sargento emergisse os dados do relatório original, destacando os pontos principais para a apresentação.",
-      "enunciado": "Considerando o texto base, o uso da palavra \"emergisse\" no trecho está:",
+      "textoBase": "Durante a análise do relatório, os pontos mais graves pareciam emergir a cada novo parágrafo lido pelo sargento.",
+      "enunciado": "Considerando o texto base, o uso da palavra \"emergir\" no trecho está:",
       "alternativas": {
-        "A": "O uso de 'emergisse' (trazer à tona) está correto no contexto.",
-        "B": "O correto seria 'imergisse', pois os dados devem ser ocultados.",
-        "C": "A palavra 'emergisse' significa afundar, tornando a frase incoerente.",
-        "D": "O uso de 'emergisse' está errado; deveria ser substituído por 'submergisse'.",
-        "E": "O termo 'emergir' só se aplica a pessoas, não a dados ou objetos."
+        "A": "Correto, pois 'emergir' no sentido figurado de 'vir à tona, manifestar-se' é compatível com o contexto.",
+        "B": "Incorreto, pois o verbo correto seria 'imergir', já que os dados deveriam ser ocultados.",
+        "C": "Incorreto, pois 'emergir' significa afundar, tornando a frase incoerente.",
+        "D": "Incorreto, pois 'emergir' é verbo transitivo direto e exigiria um objeto explícito.",
+        "E": "Incorreto, pois o termo 'emergir' só se aplica a embarcações, não a informações abstratas."
       },
       "gabarito": "A",
-      "explicacao": "A alternativa A está correta: 'emergir' significa 'trazer à tona', 'manifestar-se' ou 'vir à superfície'. No contexto, o sargento deve destacar (trazer à tona) os dados principais do relatório. 'Imergir' (B) significaria afundar ou mergulhar os dados, o que contradiz o objetivo de destacá-los."
+      "explicacao": "A alternativa A está correta: 'emergir' é verbo intransitivo que significa 'vir à superfície' ou, em sentido figurado, 'manifestar-se, tornar-se evidente' — sentido plenamente compatível com 'os pontos mais graves emergir a cada parágrafo'. A alternativa B inverteria o sentido: 'imergir' significaria afundar, o oposto de se tornar evidente. A alternativa C erra a definição do verbo. A alternativa D erra a classificação: 'emergir' é intransitivo, não exige objeto direto — por isso a frase corretamente o usa sem complemento. A alternativa E restringe indevidamente o verbo a embarcações, quando seu uso figurado para ideias e informações é normal na língua."
     },
     {
       "id": "q12",
@@ -570,7 +592,7 @@
         "E": "\"Disciplina\" e \"lentidão\" mantêm relação de paronímia"
       },
       "gabarito": "D",
-      "explicacao": "\"Grupo\" funciona como hiperônimo de \"recrutas\", pois recrutas são um caso específico dentro da categoria mais geral de grupo, e \"recrutas\"/\"praças\" se aproximam de sentido no contexto militar, configurando sinonímia aproximada. A alternativa A erra ao tratar \"rapidez\" e \"lentidão\" como sinônimos quando, na verdade, são antônimos, conforme correta identificação na alternativa C — porém essa mesma alternativa erra ao propor antonímia entre \"recrutas\" e \"praças\", que se aproximam de sentido. A alternativa D inverte a relação de hiperonímia, que não depende da ordem de citação no texto, e a alternativa E aponta paronímia entre palavras sem semelhança de grafia relevante."
+      "explicacao": "\"Grupo\" funciona como hiperônimo de \"recrutas\", pois recrutas são um caso específico dentro da categoria mais geral de grupo, e \"recrutas\"/\"praças\" se aproximam de sentido no contexto militar, configurando sinonímia aproximada. A alternativa A erra ao tratar \"rapidez\" e \"lentidão\" como sinônimos, quando na verdade são antônimos. A alternativa B erra ao inverter a relação de hiperonímia entre \"grupo\" e \"recrutas\". A alternativa C erra ao propor antonímia entre \"recrutas\" e \"praças\", termos que na verdade se aproximam de sentido no contexto militar. A alternativa E aponta paronímia entre palavras sem semelhança de grafia relevante."
     },
     {
       "id": "q28",
@@ -771,10 +793,10 @@
           "B": "O oficial entregou o relatório a base naval antes do prazo estipulado",
           "C": "O oficial entregou o relatório à um comandante específico da operação",
           "D": "O oficial entregou o relatório à eles, que aguardavam na sala de comando",
-          "E": "O oficial entregou o relatório à própria comandante, sem qualquer atraso"
+          "E": "O oficial entregou o relatório à sala de comando, sem à necessidade de nova autorização"
         },
         "gabarito": "A",
-        "explicacao": "A crase em \"à base naval\" está correta porque há a fusão da preposição \"a\" com o artigo feminino \"a\" que precede o substantivo \"base\". A alternativa B erra por omitir o acento exigido nesse contexto. A alternativa C erra porque não se usa crase antes de artigo indefinido (\"um\"). A alternativa D erra porque não se usa crase antes de pronome pessoal (\"eles\"), e a alternativa E, embora pareça plausível, erra ao aplicar crase antes de pronome possessivo feminino sem o devido artigo definido exigido pela norma."
+        "explicacao": "A crase em \"à base naval\" está correta porque há a fusão da preposição \"a\" (exigida pelo verbo \"entregar algo A alguém/algo\") com o artigo feminino \"a\" que precede o substantivo \"base\". A alternativa B erra por omitir o acento exigido nesse mesmo contexto. A alternativa C erra porque não se usa crase antes de artigo indefinido (\"um\"). A alternativa D erra porque não se usa crase antes de pronome pessoal (\"eles\"). A alternativa E erra ao colocar acento de crase em \"à necessidade\" logo após a preposição \"sem\": ali há apenas o artigo feminino \"a\", sem uma segunda preposição \"a\" que justifique a fusão — a forma correta seria \"sem a necessidade\", sem acento grave."
       },
       {
         "id": "d05",
