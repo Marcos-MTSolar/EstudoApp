@@ -1944,7 +1944,7 @@ pm run build) com sucesso (Exit code: 0).
   - **`cronogramaGerador.ts` — bloco `isPrimeiraSemana`:** Removidos os 3 blocos de estudo do sábado 03/10 (aprofundamento avançado 2h + revisão ativa 1h + questões mistas 1h) e o bloco do domingo (descanso). A Semana 1 agora exibe **apenas Quinta (01/10) e Sexta (02/10)** com gram-00. Um comentário explícito documenta que Sáb 03 e Dom 04 ficam livres.
   - **Descrição da Semana 1 atualizada:** Novo texto: *"Semana parcial de abertura (01-04/10): estudo concentrado de Fonética e Fonologia (gram-00) na quinta (01/10) e sexta (02/10). Sábado 03/10 e domingo 04/10 livres. Primeiro sábado com estudo completo: 10/10 (Semana 2)."*
   - **Primeiro sábado de estudo = 10/10/2026 (Semana 2):** O bloco de sábado das semanas normais (adicionado na Parte 90) já gera corretamente o sábado 10/10 com os 3 blocos (aprofundamento avançado 2h + revisão ativa 1h + questões mistas 1h) usando os tópicos da Semana 2, que incluem gram-00 (já estudado até Sex 09/10). Nenhuma alteração adicional necessária.
-  - **Validação:** `npx tsc --noEmit` → Exit code 0. `npm run build` → Exit code 0 (✓ 3130 módulos em 10,25s).
+  - **Validação:** `npx tsc --noEmit` → Exit code 0. `npm run build` → Exit code 0 (✓ 3130 módulos transformados em 10,25s).
 - **Arquivos modificados:**
   - `src/lib/cronogramaGerador.ts` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
@@ -1991,14 +1991,14 @@ pm run build) com sucesso (Exit code: 0).
   - Adicionada a função exportada `obterContextoCronogramaRevisao(dataProva, progressoConcluidosIds)`: **ponto de verdade único** que retorna `{ topicosConcluidos, topicoAtualId, semanaAtualNumero }` para que `EstudoRM2`, `RM2Cronograma` e `RM2RevisaoAtiva` usem exatamente a mesma fonte.
   - **Critério de "Concluído":** Um tópico entra em `topicosConcluidos` se aparece em algum `dia.data < hoje` no cronograma dinâmico (ou seja, dias de estudo já encerrados), **ou** se o ID está na lista de progresso explicitamente marcado como `concluido: true` no `useRM2Data`. A união dos dois critérios é reordenada pela sequência pedagógica do edital antes de ser retornada.
 
-  #### `src/components/rm2/RM2RevisaoAtiva.tsx` **[CRIADO]**
+  #### `src/components/rm2/RM2RevisaoAtiva.tsx` **[CRIADO e REFINADO]**
   - Novo componente de tela de Revisão Ativa com:
     - **Geração assíncrona:** Usa `gerarRevisaoAtiva` no `useEffect` de montagem para buscar até 10 questões priorizadas.
     - **Etapa de Recuperação Ativa:** Antes das alternativas de cada questão exibe o card `🧠 Recuperação Ativa de Memória` com o botão **"Tente lembrar a regra antes de responder"**. Ao clicar, as alternativas são reveladas com `fade-in`.
     - **Keys compostas:** Chaves dos estados (`userAnswers`, `revelouRegra`) no formato `${topicoId}_${q.id}` para evitar colisões de IDs iguais entre tópicos.
     - **Feedback imediato:** Após responder, exibe verde/vermelho, gabarito e explicação pedagógica. Campo `trecho_ref` é exibido se presente.
     - **Relatório final:** Agrupado por tópico com percentual individual. Tópicos com aproveitamento abaixo de 70% mostram o botão **"📖 Rever teoria"** que localiza o objeto do assunto em `RM2_CONTEUDO` via `findAssuntoById` antes de chamar `onNavigate('teoria', assunto)`.
-    - **Persistência segura:** `handleFinalizarSessao` protegido por `useRef(false)` — chama `registrarResultadoRevisao` por tópico e `registrarSessaoRevisaoConcluida` **uma única vez por sessão**, nunca em `useEffect`. Marca o bloco `semanaX_sbado_revisao_ativa` como `'concluido'` somente se ainda não estiver concluído.
+    - **Persistência segura e Conclusão de Sábado:** `handleFinalizarSessao` protegido por `useRef(false)` — chama `registrarResultadoRevisao` por tópico e `registrarSessaoRevisaoConcluida` **uma única vez por sessão**, nunca em `useEffect`. Marca o bloco `semanaX_sbado_revisao_ativa` da **semana atual (Brasília)** como `'concluido'`; se a semana atual já estiver concluída, marca a **próxima semana (no máximo 1 semana à frente)** se pendente. Nunca altera semanas passadas.
     - **Mensagem amigável:** Se `questoes.length === 0` ao montar (início do cronograma), exibe tela explicativa com botão para o Cronograma.
 
   #### `src/components/EstudoRM2.tsx` **[MODIFICADO]**
@@ -2036,7 +2036,7 @@ pm run build) com sucesso (Exit code: 0).
 
 - **Arquivos modificados:**
   - `src/lib/revisaoAtiva.ts` **[MODIFICADO]**
-  - `src/components/rm2/RM2RevisaoAtiva.tsx` **[CRIADO]**
+  - `src/components/rm2/RM2RevisaoAtiva.tsx` **[CRIADO e REFINADO]**
   - `src/components/EstudoRM2.tsx` **[MODIFICADO]**
   - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
   - `src/components/rm2/RM2Dashboard.tsx` **[MODIFICADO]**

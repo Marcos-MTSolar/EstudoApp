@@ -135,17 +135,22 @@ export function RM2RevisaoAtiva({ onVoltar, onNavigate }: RM2RevisaoAtivaProps) 
     // 3. Registra 1 SESSÃO de revisão inteira concluída (UMA ÚNICA VEZ)
     registrarSessaoRevisaoConcluida(uid);
 
-    // 4. Marca o bloco do sábado da semana atual no statusDiario se ainda pendente
+    // 4. Marca o bloco do sábado da semana atual (ou próxima se a atual já estiver concluída) no statusDiario
     try {
       const contexto = obterContextoCronogramaRevisao(dataProva);
       const chaveStatus = `rm2_cronograma_status_diario_${uid}`;
       const statusDiarioRaw = localStorage.getItem(chaveStatus);
       const statusDiario = statusDiarioRaw ? JSON.parse(statusDiarioRaw) : {};
 
-      const chaveSabado = `semana${contexto.semanaAtualNumero}_sbado_revisao_ativa`;
-      // Se não estiver concluído ainda, atualiza para concluído
-      if (statusDiario[chaveSabado] !== 'concluido') {
-        statusDiario[chaveSabado] = 'concluido';
+      const semAtual = contexto.semanaAtualNumero;
+      const chaveAtual = `semana${semAtual}_sbado_revisao_ativa`;
+      const chaveProxima = `semana${semAtual + 1}_sbado_revisao_ativa`;
+
+      if (statusDiario[chaveAtual] !== 'concluido') {
+        statusDiario[chaveAtual] = 'concluido';
+        localStorage.setItem(chaveStatus, JSON.stringify(statusDiario));
+      } else if (statusDiario[chaveProxima] !== 'concluido') {
+        statusDiario[chaveProxima] = 'concluido';
         localStorage.setItem(chaveStatus, JSON.stringify(statusDiario));
       }
     } catch (e) {
