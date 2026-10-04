@@ -271,41 +271,8 @@ export function gerarCronogramaDinamico(dataProvaStr: string, findAssuntoNomeFn?
           nivelPorTopico
         });
       });
-
-      // Sábado (03/10): 3 blocos de estudo de gram-00 (4h no total)
-      // Bloco 1 (2h): aprofundamento avançado + desafio
-      // Bloco 2 (1h): revisão ativa — placeholder (implementação completa na Parte 2)
-      // Bloco 3 (1h): questões mistas dos tópicos já estudados
-      const sabadoSpec = [
-        { nome: "Sábado — Bloco 1 (2h)", atv: 'questoes' as const, desc: `Aprofundamento avançado + Modo Desafio: ${getNome('gram-00')} — questões avançadas e desafio de fixação.`, topicos: ['gram-00'], nivel: 'avancado' as const },
-        { nome: "Sábado — Bloco 2 (1h)", atv: 'revisao_ativa' as const, desc: `[Revisão Ativa — Parte 2] Placeholder: revisão ativa espaçada de ${getNome('gram-00')}.`, topicos: ['gram-00'], nivel: null as null },
-        { nome: "Sábado — Bloco 3 (1h)", atv: 'questoes' as const, desc: `Questões mistas dos tópicos já estudados: ${getNome('gram-00')}.`, topicos: ['gram-00'], nivel: null as null },
-      ];
-      const sabadoD = new Date(dtInicio.getTime() + 2 * 24 * 60 * 60 * 1000);
-      const sabadoBR = formatarDateUTCParaBR(sabadoD);
-      sabadoSpec.forEach(bl => {
-        const nivelPorTopico: Record<string, 'basico' | 'intermediario' | 'avancado' | null> = {};
-        bl.topicos.forEach(t => { nivelPorTopico[t] = bl.nivel; });
-        dias.push({
-          data: sabadoBR,
-          diaNome: bl.nome,
-          topicos: bl.topicos,
-          atividade: bl.atv,
-          descricao: bl.desc,
-          nivelPorTopico
-        });
-      });
-
-      // Domingo: descanso pré-ciclo
-      const domingoD = new Date(dtInicio.getTime() + 3 * 24 * 60 * 60 * 1000);
-      dias.push({
-        data: formatarDateUTCParaBR(domingoD),
-        diaNome: "Domingo",
-        topicos: [],
-        atividade: 'descanso',
-        descricao: "Descanso pré-ciclo semanal.",
-        nivelPorTopico: {}
-      });
+      // Apenas Quinta (01/10) e Sexta (02/10) têm estudo na Semana 1.
+      // Sábado 03/10 e Domingo 04/10 ficam livres (sem novo conteúdo).
     } else if (isSemanaProva) {
       const diasNomes = ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado", "Domingo"];
       for (let i = 0; i < 7; i++) {
@@ -535,7 +502,7 @@ export function gerarCronogramaDinamico(dataProvaStr: string, findAssuntoNomeFn?
 
     if (numSemana === 1) {
       titulo = "Semana 1 — Fonética e Fonologia (Introdução)";
-      desc = "Semana parcial de abertura (01-04/10): Qui 01 e Sex 02 — estudo concentrado de Fonética e Fonologia (gram-00). Sáb 03 — aprofundamento avançado + revisão ativa (3 blocos, 4h). Hoje é domingo 04/10.";
+      desc = "Semana parcial de abertura (01-04/10): estudo concentrado de Fonética e Fonologia (gram-00) na quinta (01/10) e sexta (02/10). Sábado 03/10 e domingo 04/10 livres. Primeiro sábado com estudo completo: 10/10 (Semana 2).";
     } else if (isSemanaProva) {
       titulo = `Semana ${numSemana} — Semana da Prova Objetiva`;
       desc = "Semana da prova objetiva RM2: revisões leves pré-prova e descanso.";

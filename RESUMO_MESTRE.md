@@ -1933,3 +1933,18 @@ pm run build) com sucesso (Exit code: 0).
   - `src/lib/cronogramaGerador.ts` **[MODIFICADO]**
   - `src/components/rm2/RM2Cronograma.tsx` **[MODIFICADO]**
   - `RESUMO_MESTRE.md` **[ATUALIZADO]**
+
+---
+
+### Parte 90-B — Remoção do sábado 03/10 da Semana 1; primeiro sábado de estudo passa a ser 10/10/2026
+- **Data e hora:** 2026-10-04T11:00:00 (Horário Local — BRT)
+- **O que foi feito:**
+  - **Análise de impacto prévia:** Confirmado que o Método do Maior Resto (usa contagem de semanas, não de dias), `calcularDatasSimulados` (opera sobre índices de semanas), barras de progresso e countdown **não são afetados** pela remoção dos blocos do sábado da Semana 1. Chaves órfãs no localStorage (`semana1_SábadoBloco1_gram-00`, etc.) são ignoradas naturalmente — o código retorna `'pendente'` para chaves inexistentes sem afetar percentuais.
+  - **Versão de schema:** **Não incrementada** — os dados salvos (`v4-2026-10`) permanecem válidos. As chaves antigas do sábado da Semana 1 ficam simplesmente inertes.
+  - **`cronogramaGerador.ts` — bloco `isPrimeiraSemana`:** Removidos os 3 blocos de estudo do sábado 03/10 (aprofundamento avançado 2h + revisão ativa 1h + questões mistas 1h) e o bloco do domingo (descanso). A Semana 1 agora exibe **apenas Quinta (01/10) e Sexta (02/10)** com gram-00. Um comentário explícito documenta que Sáb 03 e Dom 04 ficam livres.
+  - **Descrição da Semana 1 atualizada:** Novo texto: *"Semana parcial de abertura (01-04/10): estudo concentrado de Fonética e Fonologia (gram-00) na quinta (01/10) e sexta (02/10). Sábado 03/10 e domingo 04/10 livres. Primeiro sábado com estudo completo: 10/10 (Semana 2)."*
+  - **Primeiro sábado de estudo = 10/10/2026 (Semana 2):** O bloco de sábado das semanas normais (adicionado na Parte 90) já gera corretamente o sábado 10/10 com os 3 blocos (aprofundamento avançado 2h + revisão ativa 1h + questões mistas 1h) usando os tópicos da Semana 2, que incluem gram-00 (já estudado até Sex 09/10). Nenhuma alteração adicional necessária.
+  - **Validação:** `npx tsc --noEmit` → Exit code 0. `npm run build` → Exit code 0 (✓ 3130 módulos em 10,25s).
+- **Arquivos modificados:**
+  - `src/lib/cronogramaGerador.ts` **[MODIFICADO]**
+  - `RESUMO_MESTRE.md` **[ATUALIZADO]**
