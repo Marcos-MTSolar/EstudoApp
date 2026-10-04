@@ -21,7 +21,7 @@ export function getSimuladosDisponiveis(): string[] {
   return Object.keys(simulados);
 }
 
-export function getMetadadosSimulados(dataProva?: string): Array<{ id: string; titulo: string; data: string; banca: string; total_questoes: number }> {
+export function getMetadadosSimulados(dataProva?: string): Array<{ id: string; titulo: string; tituloBase: string; data: string; banca: string; total_questoes: number }> {
   const datas = calcularDatasSimulados(dataProva || PROVA_DATA_PADRAO);
 
   const baseSimulados = [
@@ -38,6 +38,7 @@ export function getMetadadosSimulados(dataProva?: string): Array<{ id: string; t
     const dataBR = `${d}/${m}/${a}`;
     return {
       id: sim.id,
+      tituloBase: sim.tituloBase,
       titulo: `${sim.tituloBase} — ${dataBR}`,
       data: dataISO,
       banca: sim.banca,

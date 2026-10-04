@@ -617,7 +617,7 @@ export const RM2Cronograma: React.FC<RM2CronogramaProps> = ({ onNavigate }) => {
                         'border-border/40 bg-black/10'
                       }`}>
                         <div>
-                          <span className="font-bold text-white">{sim.titulo}</span>
+                          <span className="font-bold text-white">{sim.tituloBase}</span>
                           <span className="text-gray-500 ml-2">{new Date(sim.data + 'T12:00:00').toLocaleDateString('pt-BR')}</span>
                         </div>
                         <span className={`text-[9px] font-black uppercase tracking-wider px-2 py-1 rounded-full border ${
